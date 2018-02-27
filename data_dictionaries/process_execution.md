@@ -11,9 +11,9 @@
 | process_id | integer | 3472 | Process ID used by the os to identify an active process |
 | process_integrity_level | string | Medium | Integrity label assigned to a process |
 | command_line | string | C:\WINDOWS\system32\cmd.exe /c tasklist | Arguments which were passed to the executable associated with the main process in the event |
-| hash_MD5 | string | E08FE2DE3DDD22123247D49A11B4F53D | MD5 hash of the image/binary |
-| hash_SHA1 | string | 3585B37200EF3321262B0977401183694A3C15C6 | SHA1 hash of the image/binary |
-| hash_SHA256 | string | EC436AEEE41857EEE5875EFDB7166FE043349DB5F58F3EE9FC4FF7F50005767F | SHA256 hash of the image/binary |
+| hash_MD5 | string | E08FE2DE3DDD22 123247D49A11B4F53D | MD5 hash of the image/binary |
+| hash_SHA1 | string | 3585B37200EF3 321262B0977401183694A3C15C6 | SHA1 hash of the image/binary |
+| hash_SHA256 | string | EC436AEEE41 857EEE5875EFDB7166FE043349DB5F58F3EE9FC4FF7F50005767F | SHA256 hash of the image/binary |
 | hash_IMPHASH | string | A5C589222C42E8EC02269411A9573783 | IMPHASH hash of the image/binary |
 | process_parent_name | string | winlogbeat.exe | The name of a process that spawned/created the main process in the event |
 | process_parent_path | string | C:\Program Files\winlogbeat\winlogbeat.exe | The complete path and name of the executable associated with a process that spawned/created the main process in the event |
