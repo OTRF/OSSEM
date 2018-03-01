@@ -20,7 +20,7 @@ Security events that are generated when a user attempts to logon to a computer.
 | reporter_user_sid | string | SID of account that reported information about successful logon or invokes it | S-1-5-18 |
 | reporter_user_name | string | Name of the account that reported information about successful logon | WIN-GG82ULGC9GO$ |
 | reporter_user_domain | string | Domain name of the account that reported information about successful logon | WORKGROUP |
-| reporter_user_logon_id | string | The name of a process. Considered also the child or source process in the event | 0x3e7 |
+| reporter_user_logon_id | string | hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID. Logon ID of the reporter user. | 0x3e7 |
 | user_name | string | Name of the account for which logon was performed | Administrator |
 | user_domain | string | Domain name of the account for which logon was performed | WIN-GG82ULGC9GO |
 | user_logon_id | string | Value that can help you correlate this event with recent events that might contain the same Logon ID | 0x8dcdc |
