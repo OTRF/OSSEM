@@ -24,7 +24,7 @@ Security events that are generated when a user attempts to logon to a computer.
 | user_name | string | Name of the account for which logon was performed | Administrator |
 | user_domain | string | Domain name of the account for which logon was performed | WIN-GG82ULGC9GO |
 | user_logon_id | string | Value that can help you correlate this event with recent events that might contain the same Logon ID | 0x8dcdc |
-| user_logon_guid | GUID that can help you correlate this event with another event that can contain the same Logon GUID | 00000000-0000-0000-0000-000000000000 |
+| user_logon_guid | GUID that can help you correlate this event with another event that can contain the same Logon GUID | string | 00000000-0000-0000-0000-000000000000 |
 | logon_type | string | the type of logon which was performed | 3|
 | logon_process_name | string | Name of the trusted logon process that was used for the logon | User32 |
 | process_id | string | Process ID of the process that attempted the logon | 0x44 |
