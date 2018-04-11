@@ -61,3 +61,28 @@ The process creation event provides extended information about a newly created p
   </EventData>
 </Event>
 ```
+
+# Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created	2018-04-11 5:25:03 |
+| ProcessGuid | string | Process Guid of the process that got spawned/created (child) | A98268C1-9C2E-5ACD-0000-0010396CAB00 |
+| ProcessId | integer | Process ID used by the os to identify the active process (child) | 4756 |
+| Image | string | File path of the process being spawned/created. Considered also the child or source process | C:\Windows\System32\conhost.exe |
+| FileVersion | string | Version of the image associated with the main process (child) | 10.0.16299.15 (WinBuild.160101.0800) |
+| Description | string | Description of the image associated with the main process (child) | Console Window Host |
+| Product | string | Product name the image associated with the main process (child) belongs to | Microsoft® Windows® Operating System |
+| Company | string | Company name the image associated with the main process (child) belongs to | Microsoft Corporation |
+| CommandLine | string | Arguments which were passed to the executable associated with the main process | \??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1 |
+| CurrentDirectory | string | The path without the name of the image associated with the process | C:\WINDOWS |
+| User | string | Name of the account who created the process (child) . It usually containes domain name and user name | DESKTOP-WARDOG\wardog |
+| LogonGuid | string | Logon GUID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon GUID (Sysmon Events) | A98268C1-95F2-5ACD-0000-002019620F00 |
+| LogonId | integer | Login ID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon ID | 0xf6219 |
+| TerminalSessionId | integer | ID of the session the user belongs to | 1 |
+| IntegrityLevel | string | Integrity label assigned to a process | Medium |
+| Hashes | string | hash is a full hash of the file with the algorithms in the HashType field | SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2,MD5=6A255BEBF3DBCD13585538ED47DBAFD7,SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C,IMPHASH=2505BD03D7BD285E50CE89CEC02B333B |
+| ParentProcessGuid | string | ProcessGUID of the process that spawned/created the main process (child) | A98268C1-9C2E-5ACD-0000-00100266AB00 |
+| ParentProcessId | integer | Process ID of the process that spawned/created the main process (child) | 240 |
+| ParentImage | string | File path that spawned/created the main process | C:\Windows\System32\cmd.exe |
+| ParentCommandLine | string | Arguments which were passed to the executable associated with the parent process | C:\WINDOWS\system32\cmd.exe |
