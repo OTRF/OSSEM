@@ -15,7 +15,7 @@ Registry key and value create and delete operations map to this event type, whic
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-12.png "Event 12 illustration")
+![alt text](/resources/images/event-12.png "Event 12 illustration")
 
 ## Event XML
 

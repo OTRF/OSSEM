@@ -15,7 +15,7 @@ The process creation event provides extended information about a newly created p
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-1.png "Event 1 illustration")
+![alt text](/resources/images/event-1.png "Event 1 illustration")
 
 ## Event XML
 

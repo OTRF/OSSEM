@@ -15,7 +15,7 @@ This event logs when a named file stream is created, and it generates events tha
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-15.png "Event 15 illustration")
+![alt text](/resources/images/event-15.png "Event 15 illustration")
 
 ## Event XML
 

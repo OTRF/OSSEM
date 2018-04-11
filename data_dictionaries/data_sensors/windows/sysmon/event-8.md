@@ -15,7 +15,7 @@ The CreateRemoteThread event detects when a process creates a thread in another 
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-8.png "Event 8 illustration")
+![alt text](/resources/images/event-8.png "Event 8 illustration")
 
 ## Event XML
 

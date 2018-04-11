@@ -15,7 +15,7 @@ The change file creation time event is registered when a file creation time is e
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-2.png "Event 2 illustration")
+![alt text](/resources/images/event-2.png "Event 2 illustration")
 
 ## Event XML:
 

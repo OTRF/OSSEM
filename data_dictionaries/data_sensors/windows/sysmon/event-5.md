@@ -15,7 +15,7 @@ The process terminate event reports when a process terminates. It provides the U
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-5.png "Event 5 illustration")
+![alt text](/resources/images/event-5.png "Event 5 illustration")
 
 ## Event XML:
 

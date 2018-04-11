@@ -15,7 +15,7 @@ This event logs when a named pipe connection is made between a client and a serv
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-18.png "Event 18 illustration")
+![alt text](/resources/images/event-18.png "Event 18 illustration")
 
 ## Event XML
 

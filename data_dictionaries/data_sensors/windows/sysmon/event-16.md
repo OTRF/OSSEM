@@ -15,7 +15,7 @@ This event logs when the local sysmon configuration is updated.
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-16.png "Event 16 illustration")
+![alt text](/resources/images/event-16.png "Event 16 illustration")
 
 ## Event XML
 

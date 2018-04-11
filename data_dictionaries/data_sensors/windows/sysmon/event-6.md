@@ -15,7 +15,7 @@ The driver loaded events provides information about a driver being loaded on the
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-6.png "Event 6 illustration")
+![alt text](/resources/images/event-6.png "Event 6 illustration")
 
 ## Event XML:
 

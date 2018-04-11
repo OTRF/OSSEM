@@ -15,7 +15,7 @@ File create operations are logged when a file is created or overwritten. This ev
 
 ## Event Log Illustration
 
-![alt text](/OSSEM/resources/images/event-11.png "Event 11 illustration")
+![alt text](/resources/images/event-11.png "Event 11 illustration")
 
 ## Event XML
 
