@@ -80,7 +80,7 @@ The process creation event provides extended information about a newly created p
 | LogonId | integer | Login ID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon ID | 0xf6219 |
 | TerminalSessionId | integer | ID of the session the user belongs to | 1 |
 | IntegrityLevel | string | Integrity label assigned to a process | Medium |
-| Hashes | string | hash is a full hash of the file with the algorithms in the HashType field | SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2,MD5=6A255BEBF3DBCD13585538ED47DBAFD7,SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C,IMPHASH=2505BD03D7BD285E50CE89CEC02B333B |
+| Hashes | string | hash is a full hash of the file with the algorithms in the HashType field | SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7, SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B |
 | ParentProcessGuid | string | ProcessGUID of the process that spawned/created the main process (child) | A98268C1-9C2E-5ACD-0000-00100266AB00 |
 | ParentProcessId | integer | Process ID of the process that spawned/created the main process (child) | 240 |
 | ParentImage | string | File path that spawned/created the main process | C:\Windows\System32\cmd.exe |
