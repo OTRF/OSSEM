@@ -15,7 +15,7 @@ The service state change event reports the state of the Sysmon service (started 
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-4.png "Event 4 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-4.png" alt="Event 4 illustration" width="625" height="625">
 
 ## Event XML:
 

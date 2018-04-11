@@ -15,7 +15,7 @@ Registry key and value create and delete operations map to this event type, whic
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-12.png "Event 12 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-12.png" alt="Event 12 illustration" width="625" height="625">
 
 ## Event XML
 

@@ -14,7 +14,8 @@ date: 04/11/2018
 The process creation event provides extended information about a newly created process. The full command line provides context on the process execution. The ProcessGUID field is a unique value for this process across a domain to make event correlation easier. The hash is a full hash of the file with the algorithms in the HashType field.[Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-1-process-creation)
 
 ## Event Log Illustration
-<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-1.png" alt="Event 1 illustration" width="625" height="625">
+
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-1.png" alt="Event 2 illustration" width="625" height="625">
 
 ## Event XML
 

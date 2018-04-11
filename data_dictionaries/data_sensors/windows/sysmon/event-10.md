@@ -15,7 +15,7 @@ The process accessed event reports when a process opens another process, an oper
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-10.png "Event 10 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-10.png" alt="Event 10 illustration" width="625" height="625">
 
 ## Event XML
 

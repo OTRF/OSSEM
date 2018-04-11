@@ -15,7 +15,7 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-3.png "Event 3 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-3.png" alt="Event 3 illustration" width="625" height="625">
 
 ## Event XML:
 

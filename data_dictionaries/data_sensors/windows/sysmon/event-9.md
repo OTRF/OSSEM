@@ -15,7 +15,7 @@ The RawAccessRead event detects when a process conducts reading operations from 
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-9.png "Event 9 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-9.png" alt="Event 9 illustration" width="625" height="625">
 
 ## Event XML
 

@@ -15,7 +15,7 @@ The image loaded event logs when a module is loaded in a specific process. This 
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-7.png "Event 7 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-7.png" alt="Event 7 illustration" width="625" height="625">
 
 ## Event XML
 

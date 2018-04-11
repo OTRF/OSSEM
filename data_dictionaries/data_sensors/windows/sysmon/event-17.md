@@ -15,7 +15,7 @@ This event generates when a named pipe is created. Malware often uses named pipe
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-17.png "Event 17 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-17.png" alt="Event 17 illustration" width="625" height="625">
 
 ## Event XML
 

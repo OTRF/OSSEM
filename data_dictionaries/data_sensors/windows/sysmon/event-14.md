@@ -15,7 +15,7 @@ Registry key and value rename operations map to this event type, recording the n
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-14.png "Event 14 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-14.png" alt="Event 14 illustration" width="625" height="625">
 
 ## Event XML
 

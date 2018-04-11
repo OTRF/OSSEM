@@ -15,7 +15,7 @@ This Registry event type identifies Registry value modifications. The event reco
 
 ## Event Log Illustration
 
-![alt text](/resources/images/event-13.png "Event 13 illustration")
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-13.png" alt="Event 13 illustration" width="625" height="625">
 
 ## Event XML
 
