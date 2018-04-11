@@ -45,3 +45,12 @@ The service state change event reports the state of the Sysmon service (started 
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:36:20.231 |
+| State | string | sysmon service state (i.e. stopped) | Stopped |
+| Version | string | sysmon version | 7.01 |
+| SchemaVersion| string | sysmon config schema version | 4.00 |

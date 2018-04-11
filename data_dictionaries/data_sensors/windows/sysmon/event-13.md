@@ -8,7 +8,7 @@ author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 04/11/2018
 ---
 
-# Event ID 12: RegistryEvent (Object create and delete)
+# Event ID 13: RegistryEvent (Value Set)
 
 ## Description
 This Registry event type identifies Registry value modifications. The event records the value written for Registry values of type DWORD and QWORD.[Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-13-registryevent-value-set)
@@ -48,3 +48,15 @@ This Registry event type identifies Registry value modifications. The event reco
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| EventType | string | registry event. Registry values modifications | SetValue |
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 06:04:04.552 |
+| ProcessGuid | string | Process Guid of the process that modified a registry value | {A98268C1-95F9-5ACD-0000-001025861000} |
+| ProcessId | integer | Process ID used by the os to identify the process that that modified a registry value | 4624 |
+| Image | string | File path of the process that that modified a registry value | C:\WINDOWS\Explorer.EXE |
+| TargetObject | string | complete path of the registry key | HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Notifications\Data\418A073AA3BC3475 |
+| Details | string | Details added to the registry key | Binary Data |

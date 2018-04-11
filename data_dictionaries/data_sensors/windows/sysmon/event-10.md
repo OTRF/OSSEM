@@ -51,3 +51,18 @@ The process accessed event reports when a process opens another process, an oper
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:18:56.566 |
+| SourceProcessGuid | string | Process Guid of the source process that opened another process | {A98268C1-9587-5ACD-0000-001004C40000} |
+| SourceProcessId | integer | Process ID used by the os to identify the source process that opened another process | 916 |
+| SourceThreadId | integer | Source thread if of the process that opened another process | 2804 |
+| SourceImage | string | File path of the source process that created a thread in another process | C:\WINDOWS\system32\svchost.exe |
+| TargetProcessGuid | string | Process Guid of the target process | {A98268C1-9597-5ACD-0000-00101D690200} |
+| TargetProcessId | integer | Process ID used by the os to identify the target process | 2288 |
+| TargetImage | string | File path of the target process | C:\ProgramData\Microsoft\Windows Defender\platform\4.12.17007.18022-0\MsMpEng.exe |
+| GrantedAccess | string | granted access code requested/used to open the process | 0x1000 |
+| CallTrace | string | Stack trace of where open process is called | C:\WINDOWS\SYSTEM32\ntdll.dll+a0344| C:\WINDOWS\System32\KERNELBASE.dll+64794|c:\windows\system32\lsm.dll+10e93| c:\windows\system32\lsm.dll+f9ea| C:\WINDOWS\System32\RPCRT4.dll+76d23| C:\WINDOWS\System32\RPCRT4.dll+d9390| C:\WINDOWS\System32\RPCRT4.dll+a81c| C:\WINDOWS\System32\RPCRT4.dll+273b4| C:\WINDOWS\System32\RPCRT4.dll+2654e| C:\WINDOWS\System32\RPCRT4.dll+26cfb| C:\WINDOWS\System32\RPCRT4.dll+3083f| C:\WINDOWS\System32\RPCRT4.dll+313a6| C:\WINDOWS\System32\RPCRT4.dll+2d12e| C:\WINDOWS\System32\RPCRT4.dll+2e853| C:\WINDOWS\System32\RPCRT4.dll+5cc68| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46| C:\WINDOWS\System32\KERNEL32.DLL+11fe4 |C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1 |

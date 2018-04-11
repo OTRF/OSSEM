@@ -46,3 +46,13 @@ The RawAccessRead event detects when a process conducts reading operations from 
     </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:51:46.571 |
+| ProcessGuid | string | Process Guid of the process that conducted reading operations from the drive | {A98268C1-959B-5ACD-0000-0010EFD50200} |
+| ProcessId | integer | Process ID used by the os to identify the process that conducted reading operations from the drive | 2708 |
+| Image | string | File path of the process that conducted reading operations from the drive | C:\Windows\System32\svchost.exe |
+| Device | string | Target device | \Device\HarddiskVolume2 |

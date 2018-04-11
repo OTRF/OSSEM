@@ -48,3 +48,15 @@ This event logs when a named file stream is created, and it generates events tha
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 5:25:03 |
+| ProcessGuid | string | Process Guid of the process that created the named file stream | {A98268C1-A8A0-5ACD-0000-001087DEBF00} |
+| ProcessId | integer | Process ID used by the os to identify the process that created the named file stream | 6972 |
+| Image | string | File path of the process that created the named file stream | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |
+| TargetFilename | string | Name of the file | C:\Users\wardog\Downloads\a0fa35bc5badf505f803921f0fe40971-4cf6bad280c7b66e21bb8e96ffe2f968ca460e0d.zip:Zone.Identifier |
+| CreationUtcTime | date | File download time | 2018-04-11 06:18:30.960 |
+| Hashes | string | hash is a full hash of the file with the algorithms in the HashType field | SHA1=F897DA14CF93C872CE821F549C34B848E345C8AC, MD5=697C69E7BB023075F14BC0BE25B875D8, SHA256=3157F3E7A854A13A40FFC79472C319E5B7C744B50D869D6E45F40CD4218539C5, IMPHASH=00000000000000000000000000000000 |

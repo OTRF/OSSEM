@@ -58,3 +58,24 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:29:35.394 |
+| ProcessGuid | string | Process Guid of the process that made the network connection | {A98268C1-957F-5ACD-0000-0010EB030000} |
+| ProcessId | integer | Process ID used by the os to identify the process that made the network connection | 4 |
+| Image | string | File path of the process that made the network connection | System |
+| User | string | Name of the account who made the network connection. It usually containes domain name and user name | NT AUTHORITY\SYSTEM |
+| Protocol | string | Protocol being used for the network connection | udp |
+| Initiated | boolean | Indicated process initiated tcp connection | false |
+| SourceIsIpv6 | boolean | is the source ip an Ipv6 | false |
+| SourceIp | ip | source ip address that made the network connection | 192.168.64.255 |
+| SourceHostname | string | name of the host that made the network connection | computer_name or none for broadcast |
+| SourcePort | integer | source port number | 138 |
+| SourcePortName | string | name of the source port being used (i.e. netbios-dgm) | netbios-dgm |
+| DestinationIsIpv6 | boolean | is the destination ip an Ipv6 | C:\Windows\System32\cmd.exe |
+| DestinationIp | ip | ip address destination | 192.168.64.135 |
+| DestinationPort | integer | destination port number | 138 |
+| DestinationPortName | string | name of the destination port | netbios-dgm |

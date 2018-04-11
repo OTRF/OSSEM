@@ -47,3 +47,14 @@ File create operations are logged when a file is created or overwritten. This ev
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 06:01:23.106 |
+| ProcessGuid | string | Process Guid of the process that created the file | {A98268C1-958A-5ACD-0000-0010C62F0100} |
+| ProcessId | integer | Process ID used by the os to identify the process that created the file (child) | 1044 |
+| Image | string | File path of the process that created the file | C:\WINDOWS\System32\svchost.exe |
+| TargetFilename | string | Name of the file | C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf |
+| CreationUtcTime | date | File creationg time | 2017-12-04 17:38:32.040 |

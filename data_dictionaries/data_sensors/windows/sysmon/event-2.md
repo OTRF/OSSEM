@@ -49,3 +49,16 @@ The change file creation time event is registered when a file creation time is e
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:04:27.211 |
+| ProcessGuid | string | Process Guid of the process that changed the file creation time | {A98268C1-975A-5ACD-0000-0010DB073A00} |
+| ProcessId | integer | Process ID used by the os to identify the process changing the file creation time | 1252 |
+| Image | string | File path of the process that changed the file creation time | C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe |
+| TargetFilename | string | full path name of the file  | C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\
+    7G23PHTPHSQ3S2RVKKPS.temp |
+| CreationUtcTime | date | new creation time of the file | 2017-11-13 16:57:51.663 |
+| PreviousCreationUtcTime | date | previous creation time of the file | 2018-04-11 05:04:27.179 |

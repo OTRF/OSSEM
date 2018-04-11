@@ -47,3 +47,14 @@ The driver loaded events provides information about a driver being loaded on the
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:21:34.650 |
+| ImageLoaded | string | full path of the driver loaded | C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{741285CC-BF49-492C-90BE-E84BD6CADD73}\MpKsl4d223a5a.sys |
+| Hashes | string | Hashes captured by sysmon driver | SHA1=38310AD6805DC31D5AA61BE182689D63060ACE94, MD5=BF2513029E231BE96D82F7C3ABFF87F4, SHA256=F6DB64112CC50EEE495E2D7C61B8BDBE757A31B03144B0396615FD38C312824E, IMPHASH=06D4A412CF7F5363C49E629BF34446B3 |
+| Signed | boolean | is the driver loaded signed | true |
+| Signature | string | The signer | Microsoft Corporation |
+| SignatureStatus | string | status of the signature (i.e valid) | Valid |

@@ -52,3 +52,21 @@ The CreateRemoteThread event detects when a process creates a thread in another 
   </EventData>
 </Event>
 ```
+
+## Data Dictionary
+
+| Field Name | Type | Description | Sample Value |
+|--------|---------|-------|---------|
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:25:04.658 |
+| SourceProcessGuid | string | Process Guid of the source process that created a thread in another process | {A98268C1-9586-5ACD-0000-001070A20000} |
+| SourceProcessId | integer | Process ID used by the os to identify the source process that created a thread in another process | 684 |
+| SourceImage | string | File path of the source process that created a thread in another process | C:\Windows\System32\csrss.exe |
+| TargetProcessGuid | string | Process Guid of the target process | {A98268C1-9C2E-5ACD-0000-00100266AB00} |
+| TargetProcessId | integer | Process ID used by the os to identify the target process | 240 |
+| TargetImage | string | File path of the target process | C:\Windows\System32\cmd.exe |
+| NewThreadId | integer | Id of the new thread created in the target process | 2336 |
+| StartAddress| string | New thread start address | 0x00007FFA356A7E40 |
+| StartModule | string | Start module determined from thread start address
+mapping to PEB loaded module list | C:\WINDOWS\System32\KERNELBASE.dll |
+| StartFunction | string | Start function is reported if exact match to function
+in image export table | CtrlRoutine |
