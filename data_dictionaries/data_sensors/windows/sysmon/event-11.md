@@ -57,4 +57,4 @@ File create operations are logged when a file is created or overwritten. This ev
 | ProcessId | integer | Process ID used by the os to identify the process that created the file (child) | 1044 |
 | Image | string | File path of the process that created the file | C:\WINDOWS\System32\svchost.exe |
 | TargetFilename | string | Name of the file | C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf |
-| CreationUtcTime | date | File creationg time | 2017-12-04 17:38:32.040 |
+| CreationUtcTime | date | File creation time | 2017-12-04 17:38:32.040 |

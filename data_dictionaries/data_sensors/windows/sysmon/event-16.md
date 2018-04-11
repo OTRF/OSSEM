@@ -51,4 +51,4 @@ This event logs when the local sysmon configuration is updated.
 |--------|---------|-------|---------|
 | UtcTime | date | Time in UTC when event was created |	2018-04-11 5:25:03 |
 | Configuration | string | name of the sysmon config file being updated | C:\Tools\sysmon_config\StartLogging.xml |
-| COnfigurationFileHash | string | hash (SHA1) of the sysmon config file being updated | SHA1=647B4A564FA2684252EFB1EA550A06EC432418C8 |
+| ConfigurationFileHash | string | hash (SHA1) of the sysmon config file being updated | SHA1=647B4A564FA2684252EFB1EA550A06EC432418C8 |
