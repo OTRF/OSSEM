@@ -66,7 +66,5 @@ The CreateRemoteThread event detects when a process creates a thread in another 
 | TargetImage | string | File path of the target process | C:\Windows\System32\cmd.exe |
 | NewThreadId | integer | Id of the new thread created in the target process | 2336 |
 | StartAddress| string | New thread start address | 0x00007FFA356A7E40 |
-| StartModule | string | Start module determined from thread start address
-mapping to PEB loaded module list | C:\WINDOWS\System32\KERNELBASE.dll |
-| StartFunction | string | Start function is reported if exact match to function
-in image export table | CtrlRoutine |
+| StartModule | string | Start module determined from thread start address mapping to PEB loaded module list | C:\WINDOWS\System32\KERNELBASE.dll |
+| StartFunction | string | Start function is reported if exact match to function in image export table | CtrlRoutine |
