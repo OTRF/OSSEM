@@ -61,11 +61,11 @@ The process creation event provides extended information about a newly created p
 </Event>
 ```
 
-# Data Dictionary
+## Data Dictionary
 
 | Field Name | Type | Description | Sample Value |
 |--------|---------|-------|---------|
-| UtcTime | date | Time in UTC when event was created	2018-04-11 5:25:03 |
+| UtcTime | date | Time in UTC when event was created |	2018-04-11 5:25:03 |
 | ProcessGuid | string | Process Guid of the process that got spawned/created (child) | A98268C1-9C2E-5ACD-0000-0010396CAB00 |
 | ProcessId | integer | Process ID used by the os to identify the active process (child) | 4756 |
 | Image | string | File path of the process being spawned/created. Considered also the child or source process | C:\Windows\System32\conhost.exe |
