@@ -8,7 +8,7 @@ author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 04/11/2018
 ---
 
-# Event ID 14: RegistryEvent (Key and Value Rename)
+# Event ID 15: FileCreateStreamHash
 
 ## Description
 This event logs when a named file stream is created, and it generates events that log the hash of the contents of the file to which the stream is assigned (the unnamed stream), as well as the contents of the named stream. There are malware variants that drop their executables or configuration settings via browser downloads, and this event is aimed at capturing that based on the browser attaching a Zone.Identifier “mark of the web” stream.[Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-15-filecreatestreamhash)
