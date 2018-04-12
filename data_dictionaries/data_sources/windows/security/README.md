@@ -4,13 +4,13 @@ You can use Windows security and system logs to record and store collected secur
 
 Security audit events organized by their categories:
 
-* [Account Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/account-logon.md)
-* [Account Management](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/account-management.md)
-* [Detailed Tracking](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/detailed-tracking.md)
-* [Logon/Logoff](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/logon-logoff.md)
-* [Object Access](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/object-access.md)
-* [Policy Change](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/policy-change.md)
-* [System](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sensors/windows/security/system.md)
+* [Account Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/account-logon.md)
+* [Account Management](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/account-management.md)
+* [Detailed Tracking](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/detailed-tracking.md)
+* [Logon/Logoff](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/logon-logoff.md)
+* [Object Access](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/object-access.md)
+* [Policy Change](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/policy-change.md)
+* [System](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/system.md)
 
 ## Resources
 
