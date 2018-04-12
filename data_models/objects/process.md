@@ -13,5 +13,5 @@
 | process_parent_name | string | The name of a process that spawned/created the main process in the event |
 | process_parent_path | string | The complete path and name of the executable associated with a process that spawned/created the main process in the event |
 | process_parent_id | integer | Process ID of a process that spawned/executed the main process in the event |
-| process_parent_command_line | Arguments which were passed to the executable associated with the process that spawned/created the main process in the event |
-| process_target_name | The name of the process that is being opened or accessed by the main process in the event |
+| process_parent_command_line | string | Arguments which were passed to the executable associated with the process that spawned/created the main process in the event |
+| process_target_name | string | The name of the process that is being opened or accessed by the main process in the event |
