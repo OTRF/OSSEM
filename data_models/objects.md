@@ -1,7 +1,7 @@
 # Objects
 
 | object Type | field name | field type | description |
-|-----------||--------|---------|-------|
+|-----------|--------|---------|-------|
 | host | host_name | string | Name of the endpoint where the log was created. Usually without the FQDN |
 | host | host_fqdn | string | The fully qualified domain name of the host where the log was created |
 | host | host_src_name | string | the name of the host that initiated a network connection |
