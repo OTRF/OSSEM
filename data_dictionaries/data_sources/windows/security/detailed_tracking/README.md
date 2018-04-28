@@ -17,6 +17,6 @@ Detailed Tracking security policy settings and audit events can be used to monit
 
 | Category | Subcategory | EventId | Description | Minimum OS |
 |--------|---------|-------|---------|------------|
-|	Detailed Tracking	|	Process Creation	|	[4688](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4688.md)	|	A new process has been created.	|	Windows Vista, Windows Server 2008	|
-|	Detailed Tracking	|	Process Termination	|	[4689](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4689.md)	|	A process has exited.	|	Windows Vista, Windows Server 2008	|
-|	Detailed Tracking	|	Process Creation	|	[4696](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4696.md)	|	A primary token was assigned to process.	|	Windows Vista, Windows Server 2008	|
+|	Detailed Tracking	|	Process Creation	|	[4688](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/detailed_tracking/event-4688.md)	|	A new process has been created.	|	Windows Vista, Windows Server 2008	|
+|	Detailed Tracking	|	Process Termination	|	[4689](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/detailed_tracking/event-4689.md)	|	A process has exited.	|	Windows Vista, Windows Server 2008	|
+|	Detailed Tracking	|	Process Creation	|	[4696](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/data_sources/windows/security/detailed_tracking/event-4696.md)	|	A primary token was assigned to process.	|	Windows Vista, Windows Server 2008	|
