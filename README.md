@@ -3,13 +3,21 @@ Open Source Security Events Metadata (OSSEM). The need for a global schema!
 
 # Goals
 
-* Provide detailed information about security event logs to the community.
-* Define and share a standard data schema that could be used by any tool ingesting security event logs
-* Define and share data structures and relationships identified in security events (logs)
-* Learn more about security event logs (Windows, Linuz & MacOS)
+* Define and share a common data schema in order to improve the data standardization and transformaiton of security event logs
+* Enhance and expedite the integration of third party tools (i.e. SIGMA rules development) by utilizing the standard naming convention
+* Allow security analyts to query and analyze several data sources at once following a common data model
+* Define and share data structures and relationships identified in security events logs
+* Provide detailed information about several security event logs to the community.
+* Learn more about security event logs (Windows, Linux & MacOS)
+* Have fun and think more about the data structure in your SIEM when it comes down to detection!!
 
 # Current Status: Alpha
-The project is currently in an alpha stage, which means that the content is still changing. We welcome any feedback.
+
+The project is currently in an alpha stage, which means that the content is still changing. We welcome any feedback and suggestions to improve the project.
+
+# Main Folder Structure
+
+The project has a few folders w
 
 # Resources
 
@@ -33,7 +41,15 @@ The project is currently in an alpha stage, which means that the content is stil
 
 # Contributing
 
-If you love to work with data and would like to learn more about logs, there are a few things that you could contribute to this project. Check the To-do list and submit a PR. Thank you very much in advance :) 
+If you love to work with data and would like to learn more about logs, there are a several ways that you could contribute to this project. You can check the To-do list and let us know what is it that you would love to help with. I also would love get some feedback on the following:
+
+* How feasible is it for your org to switch to the suggested data schema?
+* What do you think will need to happen for your org to start considering this standard?
+* What makes sense and what doesnt from a data naming convention perspective?
+* What data sources do you think the project is missing to cover most of the basics from a security event logs perspective?
+* How easy is it for your or your team to build on the top of this standard schema? (Does the current schema help?)
+
+Thank you very much in advance :)
 
 # To-Do
 
@@ -47,5 +63,5 @@ If you love to work with data and would like to learn more about logs, there are
 - [ ] Create Dictionaries for system
 - [ ] Create Dictionaries for logon_logoff
 - [ ] Create Dictionaries for logon_logoff
-- [ ] Create Dictionaries for OSquery
+- [ ] Create Dictionaries for OSquery Tables
 - [ ] Create Dictionaries for network logs (Bro,Suricata)
