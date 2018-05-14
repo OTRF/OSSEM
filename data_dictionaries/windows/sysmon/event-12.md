@@ -50,11 +50,11 @@ Registry key and value create and delete operations map to this event type, whic
 
 ## Data Dictionary
 
-| Field Name | Type | Description | Sample Value |
-|--------|---------|-------|---------|
-| EventType | string | registry event. Either Create or Delete | CreateKey |
-| UtcTime | date | Time in UTC when event was created |	2018-04-11 5:25:03 |
-| ProcessGuid | string | Process Guid of the process that created or deleted a registry key | {A98268C1-9595-5ACD-0000-0010C2380200} |
-| ProcessId | integer | Process ID used by the os to identify the process that created or deleted a registry key | 2052 |
-| Image | string | File path of the process that created or deleted a registry key | C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe |
-| TargetObject | string | complete path of the registry key | HKU\.DEFAULT\Software\Microsoft\Office\16.0\Common |
+|	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
+|	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+|	event_type	|	EventType	|	string	|	registry event. Either Create or Delete	|	CreateKey	|
+|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
+|	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that created or deleted a registry key	|	{A98268C1-9595-5ACD-0000-0010C2380200}	|
+|	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that created or deleted a registry key	|	2052	|
+|	process_name	|	Image	|	string	|	File path of the process that created or deleted a registry key	|	C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe	|
+|	registry_key_path	|	TargetObject	|	string	|	complete path of the registry key	|	HKU.DEFAULT\Software\Microsoft\Office\16.0\Common	|

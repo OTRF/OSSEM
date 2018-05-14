@@ -49,10 +49,10 @@ This event generates when a named pipe is created. Malware often uses named pipe
 
 ## Data Dictionary
 
-| Field Name | Type | Description | Sample Value |
-|--------|---------|-------|---------|
-| UtcTime | date | Time in UTC when event was created |	2018-04-11 06:21:28.947 |
-| ProcessGuid | string | Process Guid of the process that created the pipe | {A98268C1-A968-5ACD-0000-0010BD4EC200} |
-| ProcessId | integer | Process ID used by the os to identify the process that created the pipe | 1224 |
-| PipeName | string | Name of the pipe created | Anonymous Pipe |
-| Image | string | File path of the process that created the pipe | C:\WINDOWS\system32\cmd.exe |
+|	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
+|	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:21	|
+|	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that created the pipe	|	{A98268C1-A968-5ACD-0000-0010BD4EC200}	|
+|	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that created the pipe	|	1224	|
+|	pipe_name	|	PipeName	|	string	|	Name of the pipe created	|	Anonymous Pipe	|
+|	process_name	|	Image	|	string	|	File path of the process that created the pipe	|	C:\WINDOWS\system32\cmd.exe	|

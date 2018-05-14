@@ -61,21 +61,21 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 
 ## Data Dictionary
 
-| Field Name | Type | Description | Sample Value |
-|--------|---------|-------|---------|
-| UtcTime | date | Time in UTC when event was created |	2018-04-11 05:29:35.394 |
-| ProcessGuid | string | Process Guid of the process that made the network connection | {A98268C1-957F-5ACD-0000-0010EB030000} |
-| ProcessId | integer | Process ID used by the os to identify the process that made the network connection | 4 |
-| Image | string | File path of the process that made the network connection | System |
-| User | string | Name of the account who made the network connection. It usually containes domain name and user name | NT AUTHORITY\SYSTEM |
-| Protocol | string | Protocol being used for the network connection | udp |
-| Initiated | boolean | Indicated process initiated tcp connection | false |
-| SourceIsIpv6 | boolean | is the source ip an Ipv6 | false |
-| SourceIp | ip | source ip address that made the network connection | 192.168.64.255 |
-| SourceHostname | string | name of the host that made the network connection | computer_name or none for broadcast |
-| SourcePort | integer | source port number | 138 |
-| SourcePortName | string | name of the source port being used (i.e. netbios-dgm) | netbios-dgm |
-| DestinationIsIpv6 | boolean | is the destination ip an Ipv6 | C:\Windows\System32\cmd.exe |
-| DestinationIp | ip | ip address destination | 192.168.64.135 |
-| DestinationPort | integer | destination port number | 138 |
-| DestinationPortName | string | name of the destination port | netbios-dgm |
+|	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
+|	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:29	|
+|	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that made the network connection	|	{A98268C1-957F-5ACD-0000-0010EB030000}	|
+|	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that made the network connection	|	4	|
+|	process_name	|	Image	|	string	|	File path of the process that made the network connection	|	System	|
+|	user_name	|	User	|	string	|	Name of the account who made the network connection. It usually containes domain name and user name	|	NT AUTHORITY\SYSTEM	|
+|	network_protocol	|	Protocol	|	string	|	Protocol being used for the network connection	|	udp	|
+|	network_connection_initiated	|	Initiated	|	boolean	|	Indicated process initiated tcp connection	|	FALSE	|
+|	src_is_ipv6	|	SourceIsIpv6	|	boolean	|	is the source ip an Ipv6	|	FALSE	|
+|	src_ip	|	SourceIp	|	ip	|	source ip address that made the network connection	|	192.168.64.255	|
+|	src_host_name	|	SourceHostname	|	string	|	name of the host that made the network connection	|	computer_name or none for broadcast	|
+|	src_port_number	|	SourcePort	|	integer	|	source port number	|	138	|
+|	src_port_name	|	SourcePortName	|	string	|	name of the source port being used (i.e. netbios-dgm)	|	netbios-dgm	|
+|	dst_is_ipv6	|	DestinationIsIpv6	|	boolean	|	is the destination ip an Ipv6	|	C:\Windows\System32\cmd.exe	|
+|	dst_ip	|	DestinationIp	|	ip	|	ip address destination	|	192.168.64.135	|
+|	dst_port_number	|	DestinationPort	|	integer	|	destination port number	|	138	|
+|	dst_port_name	|	DestinationPortName	|	string	|	name of the destination port	|	netbios-dgm	|
