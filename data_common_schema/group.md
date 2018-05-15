@@ -4,7 +4,7 @@
 
 | Field name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| group_name | string | the name of the group that was created/deleted/disabled/removed or user was added to | AccountOperators |
+| group_name | string | the name of a security group, or a distribution group that is created, changed, or deleted | AccountOperators |
 | group_domain | string | domain or computer name of the group | CONTOSO |
 | group_sid | string | SID of a group | S-1-5-21-3457937927-2839227994-823803824-6605 |
 | group_sam_name | string | this is a name of the group used to support clients and servers from previous versions of Windows (pre-Windows 2000 logon name). The value of sAMAccountName attribute of new group object. For example: ServiceDesk. For local groups it is simply a name of new group | AccountOperators |

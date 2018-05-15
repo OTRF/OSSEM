@@ -7,8 +7,8 @@
 | host_name | string | Name of the endpoint where the log was created. Usually without the FQDN | WkHR001 |
 | host_fqdn | string | The fully qualified domain name of the host where the log was created | WKHR001.hunt.wardog.com |
 | dst_host_name | string | Destination host name in a network connection| WKHR001 |
-| src_host_name | string | machine name from which an event initiated in a network connection | WIN-GG82ULGC9GO |
+| src_host_name | string | name of the endpoint from which an event initiated in a network connection | WIN-GG82ULGC9GO |
 | host_local_mac | string | local interface’s MAC-address | 18:64:72:F3:33:91 |
 | host_peer_mac | string | peer’s (typically – access point) MAC-address | 02:1A:C5:14:59:C9 |
 | host_interface_guid | string | GUID of the network interface which was used for authentication request. | {2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B} |
-| host_interface_name | string | the name (description) of network interface which was used for authentication request. You can get the list of all available network adapters using “ipconfig /all” command. | Microsoft Hyper-V Network Adapter |
+| host_interface_name | string | the name (description) of the network interface that was used for authentication request. You can get the list of all available network adapters using “ipconfig /all” command. | Microsoft Hyper-V Network Adapter |

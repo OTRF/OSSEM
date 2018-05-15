@@ -1,0 +1,12 @@
+# Data Dictionaries
+
+This part of the OSSEM project contains specific information about several security event logs organized by operating system. Every dictionary desribes every single log and what their field names mean in each log category. The difference from the common data schema folder is that even though the common standard field names are applied to each log in each dictionary, each field name definition is unique to the specific event log.
+
+| OS | Data Source | Description |
+| ---------------- | ---------------- |
+| Windows | [Windows Security](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security) | The security log records each event as defined by the audit policies you set on each object. This includes auditing such as account logon, account management, detailed tracking, logon logoff, object access, policy change and system  |
+| Windows | [Sysmon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon) | It provides detailed information such as process creations, network connections, changes to file creation time, registry events, named pipes and even wmi subscriptions  |
+| Windows | [PowerShell](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell) | This enhanced logging records executed PowerShell commands and scripts, de-obfuscated code, output, and transcripts of attacker activity |
+| Windows | [OsQuery](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/osquery_tables) | It collects and aggregates a system's log and status information in a collection of pre-defined tables. It collects information about files, processes, named pipes, registry, services, and more |
+| MacOs | [OsQuery](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/macos/osquery_tables) | It collects and aggregates a system's log and status information in a collection of pre-defined tables. It collects information about files, processes, services, and more  |
+| Linux | [OsQuery](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/linux/osquery_tables) | It collects and aggregates a system's log and status information in a collection of pre-defined tables. It collects information about files, processes, services, and more  |

@@ -60,9 +60,9 @@ The process accessed event reports when a process opens another process, an oper
 |	src_process_guid	|	SourceProcessGuid	|	string	|	Process Guid of the source process that opened another process	|	{A98268C1-9587-5ACD-0000-001004C40000}	|
 |	src_process_id	|	SourceProcessId	|	integer	|	Process ID used by the os to identify the source process that opened another process	|	916	|
 |	src_thread_id	|	SourceThreadId	|	integer	|	Source thread if of the process that opened another process	|	2804	|
-|	source_process	|	SourceImage	|	string	|	File path of the source process that created a thread in another process	|	C:\WINDOWS\system32\svchost.exe	|
+|	source_process_path	|	SourceImage	|	string	|	File path of the source process that created a thread in another process	|	C:\WINDOWS\system32\svchost.exe	|
 |	target_process_guid	|	TargetProcessGuid	|	string	|	Process Guid of the target process	|	{A98268C1-9597-5ACD-0000-00101D690200}	|
 |	target_process_id	|	TargetProcessId	|	integer	|	Process ID used by the os to identify the target process	|	2288	|
-|	target_process_name	|	TargetImage	|	string	|	File path of the target process	|	C:\ProgramData\Microsoft\Windows Defender\platform\4.12.17007.18022-0\MsMpEng.exe	|
+|	target_process_path	|	TargetImage	|	string	|	File path of the target process	|	C:\ProgramData\Microsoft\Windows Defender\platform\4.12.17007.18022-0\MsMpEng.exe	|
 |	process_granted_access	|	GrantedAccess	|	string	|	granted access code requested/used to open the process	|	0x1000	|
 |	process_call_trace	|	string	|	Stack trace of where open process is called	|	C:\WINDOWS\SYSTEM32\ntdll.dll+a0344 \| C:\WINDOWS\System32\KERNELBASE.dll+64794\| c:\windows\system32\lsm.dll+10e93\| c:\windows\system32\lsm.dll+f9ea\| C:\WINDOWS\System32\RPCRT4.dll+76d23\| C:\WINDOWS\System32\RPCRT4.dll+d9390\| C:\WINDOWS\System32\RPCRT4.dll+a81c\| C:\WINDOWS\System32\RPCRT4.dll+273b4\| C:\WINDOWS\System32\RPCRT4.dll+2654e\| C:\WINDOWS\System32\RPCRT4.dll+26cfb\| C:\WINDOWS\System32\RPCRT4.dll+3083f\| C:\WINDOWS\System32\RPCRT4.dll+313a6\| C:\WINDOWS\System32\RPCRT4.dll+2d12e\| C:\WINDOWS\System32\RPCRT4.dll+2e853\| C:\WINDOWS\System32\RPCRT4.dll+5cc68\| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce\| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46\| C:\WINDOWS\System32\KERNEL32.DLL+11fe4\| C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1	|
