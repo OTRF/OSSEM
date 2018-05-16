@@ -16,7 +16,7 @@ Data sources names and association to techniques are determined by the MITRE ATT
 
 ## Data Sources Definitions
 
-	Data Source	|	Description	|
+|	Data Source	|	Description	|
 |-----------------|----------------|
 |	Access Tokens	|	Logs tracking the identity and privileges of the user account associated with a process or thread.	|
 |	Anti-virus	|	Logs provided by AV providers such as alerts that need to be investigated	|

@@ -18,5 +18,5 @@
 | 14 | [RegistryEvent (Key and Value Rename)](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-14.md) | Registry key and value rename operations map to this event type |
 | 15 | [FileCreateStreamHash](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-15.md) | This event logs when a named file stream is created |
 | 16 | [Sysmon Config State Changed](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-16.md) | This event logs when the local sysmon configuration is updated |
-| 17 | [PipeEvent (Pipe Created)](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-17.md) | This event generates when a named pipe is created |
-| 18 | [PipeEvent (Pipe Connected)](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-18.md) | This event logs when a named pipe connection is made between a client and a server |
+| 17 | [PipeEvent - Pipe Created](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-17.md) | This event generates when a named pipe is created |
+| 18 | [PipeEvent - Pipe Connected](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-18.md) | This event logs when a named pipe connection is made between a client and a server |
