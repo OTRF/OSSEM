@@ -11,8 +11,8 @@ Data sources names and association to techniques are determined by the MITRE ATT
 * Several data sources do not necessarily map directly to a physical data set or event log source. A few examples could be:
   * Detonation Chamber
   * Malware reverse engineering
-* Multiple physical data sets can map to the same data source. For example:
-  * The Anti-Virus data source can be provided by several AV companies (different data sets).
+* Multiple physical data sets also can map to the same data source. For example:
+  * The Anti-Virus data source can be provided by several AV companies (different data sets which also might mean different schemas).
 
 ## Data Sources Definitions
 

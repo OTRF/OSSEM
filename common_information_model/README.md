@@ -1,6 +1,6 @@
 # Common Information Model
 
-The common information model facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs defined by [data dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
+The common information model facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs and defined in more details by [data dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
 
 ## Entities Defined
 
