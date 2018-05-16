@@ -1,5 +1,7 @@
 # Registry Schema
 
+Event fields used to define metadata about registry entries in a system.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

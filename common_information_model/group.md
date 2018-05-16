@@ -1,5 +1,7 @@
 # Group Schema
 
+Event fields used to define metadata about a security group, or distribution group that is created changed or deleted.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

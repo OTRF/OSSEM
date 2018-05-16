@@ -1,5 +1,7 @@
 # User Shema
 
+Event fields used to define metadata about users in an network environment.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |
@@ -23,7 +25,7 @@
 |	target_user_logon_guid	|	string	|	a GUID that can help you correlate an event with another event that can contain the same Logon GUID of the account whose credentials were used or whom is being targeted by the main user in the event	|	{0887F1E4-39EA-D53C-804F-31D568A06274}	|
 |	target_user_sid	|	string	|	SID of the account whose credentials were used or whom is being targeted by the main user in the event	|	S-1-5-21-3457937927-2839227994-823803824-500	|
 |	target_user_logon_id	|	integer	|	hexadecimal value that can help you correlate an event with recent events that might contain the same Logon ID of the account whose credentials were used or whom is being targeted by the main user in the event	|	0x139faf	|
-|	target_user_sid_list	|	string	|	the list of special group SIDs, which New Logon\Security ID is a member of.	|	%{S-1-5-21-3457937927-2839227994-823803824-512}	|
+|	target_user_sid_list	|	string	|	the list of special group SIDs, which New Logon\Security ID is a member of. | {S-1-5-21-3457937927-2839227994-823803824-512}	|
 |	user_security_package	|	string	|	the name of Security Package which was used by the account that performed the main action in the event. Always CREDSSP for this event.	|	CREDSSP	|
 |	user_upn	|	string	|	UPN of the account for which delegation was requested.	|	dadmin@contoso	|
 |	user_cred_type	|	string	|	types of credentials which were presented for delegation	|	%%8098	|

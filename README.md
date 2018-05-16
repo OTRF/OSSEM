@@ -11,13 +11,18 @@ Open Source Security Events Metadata (OSSEM). The need for a global schema!
 * Learn more about security event logs (Windows, Linux & MacOS)
 * Have fun and think more about the data structure in your SIEM when it comes down to detection!!
 
+# Project Structure
+
+The project has a few folders with information distributed depending on its purpose
+
+* [**ATTCK**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK): It focuses on the documentation of the data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix).
+* [**Common Information Model (CIM)**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model): It facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs defined by [data dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
+* [**Data Dictionaries**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries): contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field name. The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
+* Analytics Data Model: Currently updating definitions and relationships...
+
 # Current Status: Alpha
 
 The project is currently in an alpha stage, which means that the content is still changing. We welcome any feedback and suggestions to improve the project.
-
-# Main Folder Structure
-
-The project has a few folders w
 
 # Resources
 
@@ -53,10 +58,10 @@ Thank you very much in advance :)
 
 # To-Do
 
+- [ ] Define Common Information Model Rules to parse event logs based on the entities defined
 - [ ] Create Dictionary for Sysmon WMI
 - [ ] Update Data Objects (Second round)
 - [ ] Update and create object relationships (Updating STIX definitions)
-- [ ] Implement standard schema to every dictionary
 - [ ] Create Dictionaries for logon_logoff
 - [ ] Create Dictionaries for object_access
 - [ ] Create Dictionaries for policy_change

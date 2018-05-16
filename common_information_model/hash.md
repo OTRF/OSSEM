@@ -1,5 +1,7 @@
 # Hash Schema
 
+Event fields used to define metadata about hashes.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

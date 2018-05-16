@@ -1,5 +1,7 @@
 # Event Schema
 
+Event fields used to define specific metadata of the event itself. For example, event_id or event_creation_time.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

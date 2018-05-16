@@ -1,5 +1,7 @@
 # Port Schema
 
+Event fields used to define metadata about ports in a network connection.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

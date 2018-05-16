@@ -57,9 +57,9 @@ The process accessed event reports when a process opens another process, an oper
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:18	|
-|	src_process_guid	|	SourceProcessGuid	|	string	|	Process Guid of the source process that opened another process	|	{A98268C1-9587-5ACD-0000-001004C40000}	|
-|	src_process_id	|	SourceProcessId	|	integer	|	Process ID used by the os to identify the source process that opened another process	|	916	|
-|	src_thread_id	|	SourceThreadId	|	integer	|	Source thread if of the process that opened another process	|	2804	|
+|	process_guid	|	SourceProcessGuid	|	string	|	Process Guid of the source process that opened another process	|	{A98268C1-9587-5ACD-0000-001004C40000}	|
+|	process_id	|	SourceProcessId	|	integer	|	Process ID used by the os to identify the source process that opened another process	|	916	|
+| thread_id	|	SourceThreadId	|	integer	|	Source thread if of the process that opened another process	|	2804	|
 |	source_process_path	|	SourceImage	|	string	|	File path of the source process that created a thread in another process	|	C:\WINDOWS\system32\svchost.exe	|
 |	target_process_guid	|	TargetProcessGuid	|	string	|	Process Guid of the target process	|	{A98268C1-9597-5ACD-0000-00101D690200}	|
 |	target_process_id	|	TargetProcessId	|	integer	|	Process ID used by the os to identify the target process	|	2288	|

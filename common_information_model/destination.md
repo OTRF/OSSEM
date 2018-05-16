@@ -1,5 +1,7 @@
 # Destination Schema
 
+Event fields used to define the destination in a network connection event.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

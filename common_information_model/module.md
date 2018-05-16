@@ -1,5 +1,7 @@
 # Module Schema
 
+Event fields used to define metadata about modules in an endpoint.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |

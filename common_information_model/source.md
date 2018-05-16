@@ -1,5 +1,7 @@
 # Source Schema
 
+Event fields used to define the source in a network connection event.
+
 ## Data Fields
 
 | Field name | Type | Description | Sample Value |
