@@ -1,4 +1,6 @@
-# Windows Sysmon Events
+# Sysmon Event Logs
+
+## Data Dictionaries
 
 | EventID | Name | Description |
 |--------|---------|---------|

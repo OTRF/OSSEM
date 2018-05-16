@@ -1,6 +1,8 @@
-# MacOs Osquery Events
+# MacOs Osquery Event Logs
 
-Osquery schema is defined in tables by osquery engineers. The following are the current OSSEM tables being worked on:
+Osquery schema is defined in tables by osquery engineers.
+
+## Data Dictionaries
 
 * [file](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/macos/osquery_tables/file.md)
 

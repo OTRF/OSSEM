@@ -3,7 +3,7 @@ Open Source Security Events Metadata (OSSEM). The need for a global schema!
 
 # Goals
 
-* Define and share a common data schema in order to improve the data standardization and transformaiton of security event logs
+* Define and share a data common information model in order to improve the data standardization and transformaiton of security event logs
 * Enhance and expedite the integration of third party tools (i.e. SIGMA rules development) by utilizing the standard naming convention
 * Allow security analyts to query and analyze several data sources at once following a common data model
 * Define and share data structures and relationships identified in security events logs
@@ -18,7 +18,7 @@ The project has a few folders with information distributed depending on its purp
 * [**ATTCK**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK): Focuses on the documentation of the data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix).
 * [**Common Information Model (CIM)**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model): Facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs defined by [data dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
 * [**Data Dictionaries**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries): Contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field name. The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
-* Analytics Data Model: Currently updating definitions and relationships...
+* [**Detection Data Model**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model): Defines the required structure of data objects and the relationships among each other to facilitate the creation of data analytics in order to validate the detection of adversary techniques.
 
 # Current Status: Alpha
 
