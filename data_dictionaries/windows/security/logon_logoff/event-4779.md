@@ -20,5 +20,5 @@ This event is generated when a user disconnects from an existing Terminal Servic
 |	user_domain	|	AccountDomain	|	string	|	subject’s domain or computer name	|	CONTOSO	|
 |	user_logon_id	|	LogonID	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x1e01f6	|
 |	session_name	|	SessionName	|	string	|	the name of disconnected session	|	RDP-Tcp\#6	|
-|	source_host_name	|	ClientName	|	string	|	machine name from which the session was disconnected. Has “Unknown”value for console session.	|	WIN81	|
-|	source_ip_address	|	ClientAddress	|	ip	|	IP address of the computer from which the session was disconnected.	|	10.0.0.100	|
+|	src_host_name	|	ClientName	|	string	|	machine name from which the session was disconnected. Has “Unknown”value for console session.	|	WIN81	|
+|	src_ip	|	ClientAddress	|	ip	|	IP address of the computer from which the session was disconnected.	|	10.0.0.100	|

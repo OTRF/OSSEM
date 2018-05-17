@@ -4,7 +4,7 @@ Event fields used to define metadata about files either locally or over the wire
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | file_name | string | name of a file without its full path | a.exe |
 | file_path | string | full path of a file including the name of the file | C:\users\wardog\z.exe |

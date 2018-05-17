@@ -4,7 +4,7 @@ Event fields used to define metadata about users in an network environment.
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 |	user_name	|	string	|	Name of the account that performed the main action in the event. (i.e. user_name authenticated to the box x or user_name spawned a process)	|	DESKTOP-WARDOG\wardog	|
 |	user_logon_guid	|	string	|	Logon GUID of the account that performed the main action in the event. Value that can help you correlate this event with others that contain the same Logon GUID (Sysmon Events)	|	{A98268C1-95F2-5ACD-0000-002019620F00}	|

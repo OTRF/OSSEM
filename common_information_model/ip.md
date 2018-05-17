@@ -4,7 +4,7 @@ Event fields used to define metadata about IP addresses in a network. It follows
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | ip_address | ip | IP address of the endpoint where the log was created | 8.8.8.8 |
 | dst_ip | ip | destination IP in a network connection (IPv4) | 8.8.8.8 |

@@ -4,7 +4,7 @@ Event fields used to define metadata about hashes.
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | hash_md5 | string | MD5 hash of the image/binary/file | 6A255BEBF3DBCD13585538ED47DBAFD7 |
 | hash_sha1 | string | SHA1 hash of the image/binary/file | B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2 |

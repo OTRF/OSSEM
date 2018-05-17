@@ -18,9 +18,9 @@ This event is generated when a process attempts an account logon by explicitly s
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested the new logon session with explicit credentials.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
-|	user_reporter_name	|	SubjectUserName	|	string	|	the name of the account that requested the new logon session with explicit credentials.	|	dadmin	|
-|	user_reporter_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	CONTOSO	|
-|	user_reporter_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x31844	|
+|	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the new logon session with explicit credentials.	|	dadmin	|
+|	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	CONTOSO	|
+|	user_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x31844	|
 |	user_logon_guid	|	LogonGuid	|	string	|	a GUID that can help you correlate this event with another event that can contain the same Logon GUID	|	{00000000-0000-0000-0000-000000000000}	|
 |	target_user_name	|	TargetUserName	|	string	|	the name of the account whose credentials were used	|	ladmin	|
 |	target_user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name	|	CONTOSO	|
@@ -29,5 +29,5 @@ This event is generated when a process attempts an account logon by explicitly s
 |	target_info	|	TargetInfo	|	string	|	there is no detailed information about this field in this document.	|	localhost	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process which was run using explicit credentials. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x368	|
 |	process_name	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\svchost.exe	|
-|	source_ip_address	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed.	|	::1	|
-|	source_port_number	|	IpPort	|	integer	|	source port which was used for logon attempt from remote machine.	|	0	|
+|	src_ip	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed.	|	::1	|
+|	src_port_number	|	IpPort	|	integer	|	source port which was used for logon attempt from remote machine.	|	0	|

@@ -4,7 +4,7 @@ Event fields used to define metadata about a security group, or distribution gro
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | group_name | string | the name of a security group, or a distribution group that is created, changed, or deleted | AccountOperators |
 | group_domain | string | domain or computer name of the group | CONTOSO |

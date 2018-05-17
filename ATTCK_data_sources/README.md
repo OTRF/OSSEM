@@ -2,7 +2,7 @@
 
 MITRE’s Adversarial Tactics, Techniques and Common Knowledge (ATT&CK™) is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target. ATT&CK is useful for understanding security risk against known adversary behavior, for planning security improvements, and verifying defenses work as expected. [ATTCK](https://attack.mitre.org/wiki/Main_Page)
 
-This part of the OSSEM project focuses on the documentation of the data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix).
+This part of the OSSEM project focuses on the documentation of data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix). In addition, here is where data sources will be mapped with specific data objects defined in the [Detection Data Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model) part of the project with the main goal of creating a link between techniques, data sources and data anlytics.
 
 ## Data Sources
 

@@ -4,7 +4,7 @@ Event fields used to define metadata about processes in an system.
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 |	process_guid	|	string	|	Process Guid of the main process that got spawned/created (child)	|	{A98268C1-9C2E-5ACD-0000-0010396CAB00}	|
 |	process_id	|	integer	|	Process ID used by the operating system to identify the created process (child)	|	4756	|

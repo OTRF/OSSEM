@@ -16,10 +16,10 @@ Open Source Security Events Metadata (OSSEM). The need for a global schema!
 
 The project has a few folders with information distributed depending on its purpose
 
-* [**ATTCK**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK): Focuses on the documentation of the data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix).
-* [**Common Information Model (CIM)**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model): Facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs and defined in more details by [data dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
-* [**Data Dictionaries**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries): Contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field name. The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
-* [**Detection Data Model**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model): Defines the required structure of data objects and the relationships among each other to facilitate the creation of data analytics in order to validate the detection of adversary techniques.
+* [**Common Information Model (CIM)**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model): Facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs and defined in more details by [Data Dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
+* [**Data Dictionaries**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries): Contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field names. The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
+* [**Detection Data Model**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model): Focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques. This is inspired by the awesome work of MITRE with their project [CAR Analytics](https://car.mitre.org/wiki/Main_Page). The information needed for each data object is pulled from the entities defined in the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model).
+* [**ATTCK Data Sources**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK_data_sources): Focuses on the documentation of data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix). In addition, here is where data sources will be mapped with specific data objects defined in the [Detection Data Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model) part of the project with the main goal of creating a link between techniques, data sources and data anlytics.
 
 # Current Status: Alpha
 
@@ -54,13 +54,15 @@ If you love to work with data and would like to learn more about logs, there are
 * What makes sense and what doesnt from a data naming convention perspective?
 * What data sources do you think the project is missing to cover most of the basics from a security event logs perspective?
 * How easy is it for your or your team to build on the top of this standard schema? (Does the current schema help?)
+* Is this helpful?
 
 Thank you very much in advance :)
 
 # To-Do
 
 - [ ] Define Common Information Model Rules to parse event logs based on the entities defined
-- [ ] Create Dictionary for Sysmon WMI
+- [ ] Define ATTCK data sources (pending definitions)
+- [ ] Create Dictionary for Sysmon WMI logs
 - [ ] Update Data Objects (Second round)
 - [ ] Update and create object relationships (Updating STIX definitions)
 - [ ] Create Dictionaries for logon_logoff

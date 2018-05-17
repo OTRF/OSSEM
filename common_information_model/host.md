@@ -4,7 +4,7 @@ Event fields used to define metadata about hosts where events are originally cre
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | host_name | string | Name of the endpoint where the log was created. Usually without the FQDN | WkHR001 |
 | host_fqdn | string | The fully qualified domain name of the host where the log was created | WKHR001.hunt.wardog.com |

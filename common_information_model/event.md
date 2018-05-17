@@ -4,7 +4,7 @@ Event fields used to define specific metadata of the event itself. For example, 
 
 ## Data Fields
 
-| Field name | Type | Description | Sample Value |
+| Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | event_id | integer | event unique identifier for specific event logs. Event ids might repeat across different data sources | 4688 |
 | event_status | integer | It is usally an integer (Status code) and defines the status of a particular event | 0 |

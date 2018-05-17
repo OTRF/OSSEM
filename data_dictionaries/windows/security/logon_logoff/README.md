@@ -23,7 +23,7 @@ Logon/Logoff security policy settings and audit events allow you to track attemp
 |	Logon/Logoff	|	Logoff	|	[4634](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4634.md)	|	An account was logged off.	|	Windows Vista, Windows Server 2008	|
 |	Logon/Logoff	|	Logoff	|	[4647](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4647.md)	|	User initiated logoff.	|	Windows Vista, Windows Server 2008	|
 |	Logon/Logoff	|	Logon	|	[4648](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4648.md)	|	A logon was attempted using explicit credentials.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4649](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4649.md)	|	A replay attack was detected.	|	Windows Vista, Windows Server 2008	|
+|	Logon/Logoff	|	Other Logon/Logoff Events	|	4649	|	A replay attack was detected.	|	Windows Vista, Windows Server 2008	|
 |	Logon/Logoff	|	Logon	|	4675	|	SIDs were filtered.	|	Windows Vista, Windows Server 2008	|
 |	Logon/Logoff	|	Other Logon/Logoff Events	|	[4778](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4778.md)	|	A session was reconnected to a Window Station.	|	Windows Vista, Windows Server 2008	|
 |	Logon/Logoff	|	Other Logon/Logoff Events	|	[4779](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4779.md)	|	A session was disconnected from a Window Station.	|	Windows Vista, Windows Server 2008	|

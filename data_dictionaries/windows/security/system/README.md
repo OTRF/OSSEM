@@ -17,26 +17,26 @@ System security policy settings and audit events allow you to track system-level
 
 | Category | Subcategory | EventId | Description | Minimum OS |
 |--------|---------|-------|---------|------------|
-|	System	|	Security State Change	|	[4608](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4608.md)	|	Windows is starting up.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security State Change	|	4608 |	Windows is starting up.	|	Windows Vista, Windows Server 2008	|
 |	System	|	Security State Change	|	4609	|	Windows is shutting down.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security System Extension	|	[4610](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4610.md)	|	An authentication package has been loaded by the Local Security Authority.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security System Extension	|	[4611](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4611.md)	|	A trusted logon process has been registered with the Local Security Authority.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[4612](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4612.md)	|	Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security System Extension	|	[4614](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4614.md)	|	A notification package has been loaded by the Security Account Manager.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[4615](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4615.md)	|	Invalid use of LPC port.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security State Change	|	[4616](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4616.md)	|	The system time was changed.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[4618](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4618.md)	|	A monitored security event pattern has occurred.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security State Change	|	[4621](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4621.md)	|	Administrator recovered system from CrashOnAuditFail. Users who are not administrators will now be allowed to log on. Some auditable activity might not have been recorded.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security System Extension	|	[4622](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4622.md)	|	A security package has been loaded by the Local Security Authority.	|	Windows Vista, Windows Server 2008	|
-|	System	|	Security System Extension	|	[4697](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4697.md)	|	A service was installed in the system.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[4816](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4816.md)	|	RPC detected an integrity violation while decrypting an incoming message.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[5038](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5038.md)	|	Code integrity determined that the image hash of a file is not valid. The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[5056](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5056.md)	|	A cryptographic self test was performed.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[5057](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5057.md)	|	A cryptographic primitive operation failed.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[5060](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5060.md)	|	Verification operation failed.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[5061](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5061.md)	|	Cryptographic operation.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[5062](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5062.md)	|	A kernel-mode cryptographic self test was performed.	|	Windows Vista, Windows Server 2008	|
-|	System	|	System Integrity	|	[6281](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-6281.md)	|	Code Integrity determined that the page hashes of an image file are not valid. The file could be improperly signed without page hashes or corrupt due to unauthorized modification. The invalid hashes could indicate a potential disk device error	|	Windows 7, Windows Server 2008 R2	|
-|	System	|	System Integrity	|	[6410](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-6410.md)	|	Code integrity determined that a file does not meet the security requirements to load into a process.	|	Windows 8.1, Windows Server 2012 R2	|
+|	System	|	Security System Extension	|	4610	|	An authentication package has been loaded by the Local Security Authority.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security System Extension	|	4611	|	A trusted logon process has been registered with the Local Security Authority.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	4612	|	Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security System Extension	|	4614	|	A notification package has been loaded by the Security Account Manager.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	4615	|	Invalid use of LPC port.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security State Change	|	4616	|	The system time was changed.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	4618	|	A monitored security event pattern has occurred.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security State Change	|	4621	|	Administrator recovered system from CrashOnAuditFail. Users who are not administrators will now be allowed to log on. Some auditable activity might not have been recorded.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security System Extension	|	4622	|	A security package has been loaded by the Local Security Authority.	|	Windows Vista, Windows Server 2008	|
+|	System	|	Security System Extension	|	4697	|	A service was installed in the system.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	4816	|	RPC detected an integrity violation while decrypting an incoming message.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	5038	|	Code integrity determined that the image hash of a file is not valid. The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	5056	|	A cryptographic self test was performed.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	5057	|	A cryptographic primitive operation failed.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	5060	|	Verification operation failed.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	5061	|	Cryptographic operation.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	5062	|	A kernel-mode cryptographic self test was performed.	|	Windows Vista, Windows Server 2008	|
+|	System	|	System Integrity	|	6281	|	Code Integrity determined that the page hashes of an image file are not valid. The file could be improperly signed without page hashes or corrupt due to unauthorized modification. The invalid hashes could indicate a potential disk device error	|	Windows 7, Windows Server 2008 R2	|
+|	System	|	System Integrity	|	6410	|	Code integrity determined that a file does not meet the security requirements to load into a process.	|	Windows 8.1, Windows Server 2012 R2	|
 |	System	|	System Integrity	|	6417	|	The FIPS mode crypto selftests succeeded.	|	Windows 10 [Version 1511]	|
 |	System	|	System Integrity	|	6418	|	The FIPS mode crypto selftests failed.	|	Windows 10 [Version 1511]	|
