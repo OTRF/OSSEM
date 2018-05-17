@@ -4,7 +4,7 @@ Osquery schema is defined in tables by osquery engineers.
 
 ## Data Dictionaries
 
-* [file](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/macos/osquery_tables/file.md)
+* [file](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/macos/osquery/file.md)
 
 ## Resources
 
