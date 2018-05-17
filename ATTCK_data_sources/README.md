@@ -6,7 +6,7 @@ This part of the OSSEM project focuses on the documentation of data sources sugg
 
 Data source mapped to a data object example:
 
-<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/datasource_dataobject_example.png" alt="Data Source Data object" width="625" height="625">
+![alt text](../resources/images/datasource_dataobject_example.png "Data Source Data Object")
 
 ## Data Sources
 
