@@ -4,6 +4,10 @@ MITRE’s Adversarial Tactics, Techniques and Common Knowledge (ATT&CK™) is a 
 
 This part of the OSSEM project focuses on the documentation of data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix). In addition, here is where data sources will be mapped with specific data objects defined in the [Detection Data Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model) part of the project with the main goal of creating a link between techniques, data sources and data anlytics.
 
+Data source mapped to a data object example:
+
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/datasource_dataobject_example.png" alt="Data Source Data object" width="625" height="625">
+
 ## Data Sources
 
 Data sources names and association to techniques are determined by the MITRE ATTACK team.

@@ -3,9 +3,9 @@ Open Source Security Events Metadata (OSSEM). The need for a global schema!
 
 # Goals
 
-* Define and share a data common information model in order to improve the data standardization and transformation of security event logs
-* Enhance and expedite the integration of third party tools (i.e. SIGMA rules development) by utilizing the standard naming convention
-* Allow security analyts to query and analyze several data sources at once following a common data model
+* Define and share a common information model in order to improve the data standardization and transformation of security event logs
+* Allow security analyts to query and analyze several data sources at once following a consistent event field naming convention
+* Enhance and expedite the integration of third party tools (i.e. SIGMA rules) by utilizing standard event field names
 * Define and share data structures and relationships identified in security events logs
 * Facilitate the creation of data analytics in order to validate the detection of adversary techniques
 * Provide detailed information about several security event logs to the community.
@@ -14,16 +14,31 @@ Open Source Security Events Metadata (OSSEM). The need for a global schema!
 
 # Project Structure
 
-The project has a few folders with information distributed depending on its purpose
+There are four main folders:
 
-* [**Common Information Model (CIM)**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model): Facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs and defined in more details by [Data Dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
-* [**Data Dictionaries**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries): Contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field names. The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
-* [**Detection Data Model**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model): Focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques. This is inspired by the awesome work of MITRE with their project [CAR Analytics](https://car.mitre.org/wiki/Main_Page). The information needed for each data object is pulled from the entities defined in the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model).
-* [**ATTCK Data Sources**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK_data_sources): Focuses on the documentation of data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix). In addition, here is where data sources will be mapped with specific data objects defined in the [Detection Data Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model) part of the project with the main goal of creating a link between techniques, data sources and data anlytics.
+* [**Common Information Model (CIM)**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model):
+  * Facilitates the normalization of data sets by providing a standard way to parse security event logs
+  * It is organized by specific entities associated with event logs and defined in more details by [Data Dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
+  * The definitions of each entity and its respective field names are mostly general descriptions that could help and expedite event logs parsing procedures.
+* [**Data Dictionaries**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries):
+  * Contains specific information about several security event logs organized by operating system and their respective data sets
+  * Each dictionary describes a single event log and its corresponding event field names
+  * The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
+* [**Detection Data Model**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model):
+  * Focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques
+  * This is inspired by the awesome work of MITRE with their project [CAR Analytics](https://car.mitre.org/wiki/Main_Page)
+  * The information needed for each data object is pulled from the entities defined in the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model)
+* [**ATTCK Data Sources**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK_data_sources):
+  * Focuses on the documentation of data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix)
+  * In addition, here is where data sources will be mapped with specific data objects defined in the [Detection Data Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model) part of the project with the main goal of creating a link between techniques, data sources and data anlytics
 
 # Current Status: Alpha
 
 The project is currently in an alpha stage, which means that the content is still changing. We welcome any feedback and suggestions to improve the project.
+
+# Projects Using OSSEM
+
+* [HELK](https://github.com/Cyb3rWard0g/HELK) currently updating its pipeline configs
 
 # Resources
 

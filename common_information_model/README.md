@@ -1,6 +1,6 @@
 # Common Information Model
 
-The common information model facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs and defined in more details by [data dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries)
+The common information model facilitates the normalization of data sets by providing a standard way to parse security event logs. It is organized by specific entities associated with event logs and defined in more details by [Data Dictionaries](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries). The definitions of each entity and its respective field names are mostly general descriptions that could help and expedite event logs parsing procedures.
 
 ## Entities Defined
 
@@ -13,6 +13,7 @@ The common information model facilitates the normalization of data sets by provi
 | [hash](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/hash.md) | Event fields used to define metadata about hashes. |
 | [host](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/host.md) | Event fields used to define metadata about hosts where events are originally created. |
 | [ip](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/ip.md) | Event fields used to define metadata about IP addresses in a network. It follows the standard from the Destination and Source categories. |
+| [Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/logon.md) | Event fields used to define metadata about logon events. |
 | [module](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/module.md) | Event fields used to define metadata about modules in an endpoint. |
 | [pipe](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/pipe.md) | Event fields used to define metadata about pipes being created or connected in an endpoint. |
 | [port](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/port.md) | Event fields used to define metadata about ports in a network connection. |

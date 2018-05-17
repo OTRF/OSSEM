@@ -21,7 +21,7 @@ Interactive filesystem attributes and metadata.
 |	user_permissions	|	mode	|	TEXT	|	Permission bits	|		|
 |	device_id	|	device	|	BIGINT	|	Device ID (optional)	|		|
 |	file_size	|	size	|	BIGINT	|	Size of file in bytes	|		|
-|	file_block_size	|	block_size	|	INTEGER	|	Block size of filesystem	|		|
+|	file_system_block_size	|	block_size	|	INTEGER	|	Block size of filesystem	|		|
 |	date_last_access	|	atime	|	BIGINT	|	Last access time	|		|
 |	dale_last_modification	|	mtime	|	BIGINT	|	Last modification time	|		|
 |	date_last_status_change	|	ctime	|	BIGINT	|	Last status change time	|		|

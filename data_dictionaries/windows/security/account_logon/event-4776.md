@@ -24,5 +24,5 @@ This event generates every time that a credential validation occurs using NTLM a
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	logon_authentication_package_name	|	PackageName	|	string	|	the name of Authentication Package which was used for credential validation. It is always “MICROSOFT_AUTHENTICATION_PACKAGE_V1_0” for 4776 event.	|	MICROSOFT\_AUTHENTICATION\_PACKAGE\_V1\_0	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account that had its credentials validated by the Authentication Package. Can be user name, computer account name or well-known security principal account name.	|	dadmin	|
-|	source_host_name	|	Workstation	|	string	|	the name of the computer from which the logon attempt originated.	|	WIN81	|
+|	src_host_name	|	Workstation	|	string	|	the name of the computer from which the logon attempt originated.	|	WIN81	|
 |	event_status	|	Status	|	integer	|	contains error code for Failure events. For Success events this parameter has “0x0” value. 	|	0xc0000234	|
