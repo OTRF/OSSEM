@@ -9,3 +9,4 @@
 |	process\_name	|	Image	|	string	|	File path of the process that that modified a registry value	|	C:\WINDOWS\Explorer.EXE	|
 |	registry\_key_path	|	TargetObject	|	string	|	complete path of the registry key	|	HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Notifications\Data\418A073AA3BC3475	|
 |	registry\_key\_details	|	Details	|	string	|	Details added to the registry key	|	Binary Data	|
+|	registry\_key\_new\_name	|	NewName	|	string	|	new name of the registry key	|	\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\hello	|
