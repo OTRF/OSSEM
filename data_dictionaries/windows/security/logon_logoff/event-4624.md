@@ -33,7 +33,7 @@ This event generates when a logon session is created (on destination machine). I
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process that attempted the logon. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x44c	|
 |	process_name	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\svchost.exe	|
 |	src_ip	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed	|	127.0.0.1	|
-|	src_port_number	|	IpPort	|	integer	|	source port which was used for logon attempt from remote machine. 0 for interactive logons	|	0	|
+|	src_port |	IpPort	|	integer	|	source port which was used for logon attempt from remote machine. 0 for interactive logons	|	0	|
 |	logon_impersonation_level	|	ImpersonationLevel	|	string	|	Impersonation level	|	%%1833	|
 |	logon_restricted_admin_mode	|	RestrictedAdminMode	|	string	|	Only populated for RemoteInteractive logon type sessions. This is a Yes/No flag indicating if the credentials provided were passed using Restricted Admin mode. Restricted Admin mode was added in Win8.1/2012R2 but this flag was added to the event in Win10. If not a RemoteInteractive logon, then this will be "-" string.	|	-	|
 |	user_network_account_name	|	TargetOutboundUserName	|	string	|	User name that will be used for outbound (network) connections. Valid only for NewCredentials logon type. If not NewCredentials logon, then this will be a "-" string.	|	-	|

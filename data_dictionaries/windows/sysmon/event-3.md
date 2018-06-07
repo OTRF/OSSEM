@@ -73,9 +73,9 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 |	src_is_ipv6	|	SourceIsIpv6	|	boolean	|	is the source ip an Ipv6	|	FALSE	|
 |	src_ip	|	SourceIp	|	ip	|	source ip address that made the network connection	|	192.168.64.255	|
 |	src_host_name	|	SourceHostname	|	string	|	name of the host that made the network connection	|	computer_name or none for broadcast	|
-|	src_port_number	|	SourcePort	|	integer	|	source port number	|	138	|
+|	src_port |	SourcePort	|	integer	|	source port number	|	138	|
 |	src_port_name	|	SourcePortName	|	string	|	name of the source port being used (i.e. netbios-dgm)	|	netbios-dgm	|
 |	dst_is_ipv6	|	DestinationIsIpv6	|	boolean	|	is the destination ip an Ipv6	|	C:\Windows\System32\cmd.exe	|
 |	dst_ip	|	DestinationIp	|	ip	|	ip address destination	|	192.168.64.135	|
-|	dst_port_number	|	DestinationPort	|	integer	|	destination port number	|	138	|
+|	dst_port |	DestinationPort	|	integer	|	destination port number	|	138	|
 |	dst_port_name	|	DestinationPortName	|	string	|	name of the destination port	|	netbios-dgm	|
