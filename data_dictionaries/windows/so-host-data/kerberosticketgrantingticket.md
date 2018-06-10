@@ -1,11 +1,11 @@
 ---
 title: WinEvent-KerberosTicketGrantingTicket
-description: The Kerberos Ticket Granting Ticket event.
+description: Enumerated Kerberos Ticket Granting Tickets.
 log.type: so-host-data
-sysmon.version: alpha
-sohostdata.category: KerberosTicketGrantingTicket
+version: alpha
+sohostdata.category: Kerberos Ticket Granting Ticket
 author: Jared Atkinson (@jaredcatkinson)
-date: 06/-9/2018
+date: 06/09/2018
 ---
 
 # Source Type: Kerberos Ticket Granting Ticket
