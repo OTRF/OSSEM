@@ -1,8 +1,18 @@
-# SO Host Data - Kerberos Ticket Granting Ticket Table
+---
+title: WinEvent-KerberosTicketGrantingTicket
+description: The Kerberos Ticket Granting Ticket event.
+log.type: so-host-data
+sysmon.version: alpha
+sohostdata.category: KerberosTicketGrantingTicket
+author: Jared Atkinson (@jaredcatkinson)
+date: 06/-9/2018
+---
+
+# Source Type: Kerberos Ticket Granting Ticket
 
 ## Description
 
-
+The Kerberos Ticket Granting Ticket (TGT) source type is derived by querying all active Logon Sessions for their TGT with the LsaCallAuthenticationPackage API.
 
 ## Event Log Illustration & Event XML
 
