@@ -1,8 +1,18 @@
+---
+title: WinEvent-Process
+description: Running Processes on the target machine.
+log.type: so-host-data
+version: alpha
+sohostdata.category: Process
+author: Jared Atkinson (@jaredcatkinson)
+date: 06/09/2018
+---
+
 # SO Host Data - Process Table
 
 ## Description
 
-
+Get-SOHostData enumerates active processes on the scanned system. To do this it combines the output of PowerShell's Get-Process cmdlet and the Win32_Process WMI class.
 
 ## Event Log Illustration & Event XML
 
