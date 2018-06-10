@@ -1,8 +1,18 @@
+---
+title: WinEvent-Thread
+description: Currently running threads.
+log.type: so-host-data
+version: alpha
+sohostdata.category: Threads
+author: Jared Atkinson (@jaredcatkinson)
+date: 06/09/2018
+---
+
 # SO Host Data - Thread Table
 
 ## Description
 
-
+Get-SOHostData enumerates active threads as reported by PowerShell's Get-Process cmdlet. Every resulting Process instance has a Threads property which contains a list of Threads contained within that Process.
 
 ## Event Log Illustration & Event XML
 
