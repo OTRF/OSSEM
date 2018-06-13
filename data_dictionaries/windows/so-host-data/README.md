@@ -1,0 +1,1 @@
+![SO Host Data Graph Schema](https://github.com/jaredcatkinson/OSSEM/blob/master/data_dictionaries/windows/so-host-data/images/so-host-data.png?raw=true)
