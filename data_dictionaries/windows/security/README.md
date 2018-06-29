@@ -4,13 +4,17 @@ You can use Windows security and system logs to record and store collected secur
 
 Security audit events organized by their categories:
 
-* [Account Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/account_logon)
-* [Account Management](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/account_management)
-* [Detailed Tracking](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/detailed_tracking)
-* [Logon/Logoff](https://github.com/Cyb3rWard0g/OSSEM/tree/master/data_dictionaries/windows/security/logon_logoff)
-* [Object Access](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/object_access)
-* [Policy Change](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/policy_change)
-* [System](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/system)
+| Subcategory | Description |
+|---------|-------|
+| [Account Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/account_logon) | Configuring policy settings in this category can help you document attempts to authenticate account data on a domain controller or on a local Security Accounts Manager (SAM) |
+| [Account Management](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/account_management) | The security audit policy settings in this category can be used to monitor changes to user and computer accounts and groups |
+| [Detailed Tracking](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/detailed_tracking) | Detailed Tracking security policy settings and audit events can be used to monitor the activities of individual applications and users on that computer, and to understand how a computer is being used |
+| [DS Access](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/ds_access)| DS Access security audit policy settings provide a detailed audit trail of attempts to access and modify objects in Active Directory Domain Services (AD DS) |
+| [Logon/Logoff](https://github.com/Cyb3rWard0g/OSSEM/tree/master/data_dictionaries/windows/security/logon_logoff) | Logon/Logoff security policy settings and audit events allow you to track attempts to log on to a computer interactively or over a network |
+| [Object Access](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/object_access) | Object Access policy settings and audit events allow you to track attempts to access specific objects or types of objects on a network or computer |
+| [Policy Change](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/policy_change) | Policy Change audit events allow you to track changes to important security policies on a local system or network |
+| [Privilege Use](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/privilege_use) | Permissions on a network are granted for users or computers to complete defined tasks. Privilege Use security policy settings and audit events allow you to track the use of certain permissions on one or more systems |
+| [System](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/system) | System security policy settings and audit events allow you to track system-level changes to a computer that are not included in other categories and that have potential security implications |
 
 ## Resources
 

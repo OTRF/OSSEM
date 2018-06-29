@@ -1,5 +1,5 @@
 # OSSEM
-Open Source Security Events Metadata (OSSEM). The need for a global schema!
+Open Source Security Events Metadata (OSSEM)
 
 # Goals
 
@@ -28,7 +28,7 @@ There are four main folders:
   * Focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques
   * This is inspired by the awesome work of MITRE with their project [CAR Analytics](https://car.mitre.org/wiki/Main_Page)
   * The information needed for each data object is pulled from the entities defined in the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model)
-* [**ATTCK Data Sources**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/ATTCK_data_sources):
+* [**ATTACK Data Sources**](https://github.com/Cyb3rWard0g/OSSEM/blob/master/attack_data_sources):
   * Focuses on the documentation of data sources suggested or associated with techniques defined in the [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix)
   * In addition, here is where data sources will be mapped with specific data objects defined in the [Detection Data Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model) part of the project with the main goal of creating a link between techniques, data sources and data anlytics
 

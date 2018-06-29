@@ -1,4 +1,4 @@
-# MITRE ATTACK
+# MITRE ATT&CK
 
 MITRE’s Adversarial Tactics, Techniques and Common Knowledge (ATT&CK™) is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target. ATT&CK is useful for understanding security risk against known adversary behavior, for planning security improvements, and verifying defenses work as expected. [ATTCK](https://attack.mitre.org/wiki/Main_Page)
 
