@@ -17,7 +17,7 @@ This event generates every time the user (Subject) successfully restores the cre
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	SubjectUserSid	|	string	|	SID of account that performed the restore operation.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
-|	SubjectUserName	|	string	|	the name of the account that performed the restore operation.	|	dadmin	|
-|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
-|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x30d7c	|
+|	user_sid | SubjectUserSid	|	string	|	SID of account that performed the restore operation.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
+|	user_name | SubjectUserName	|	string	|	the name of the account that performed the restore operation.	|	dadmin	|
+|	user_domain_name | SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
+|	user_logon_id | SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x30d7c	|

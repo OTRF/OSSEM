@@ -35,6 +35,5 @@ This policy setting allows you to audit changes to user accounts. Events include
 | 4797 | An attempt was made to query the existence of a blank password for an account. | Windows 8, Windows Server 2012 |
 | [4798](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4798.md) | A user's local group membership was enumerated. | Windows 10 |
 | [4799](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4799.md) | A security-enabled local group membership was enumerated. | Windows 10 |
-
 | [5376](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5376.md) | Credential Manager credentials were backed up. | Windows Vista, Windows Server 2008 |
 | [5377](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5377.md) | Credential Manager credentials were restored from a backup. | Windows Vista, Windows Server 2008 |
