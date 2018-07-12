@@ -10,6 +10,6 @@ This subcategory contains events about issued TGTs and failed TGT requests. It a
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 4768 | A Kerberos authentication ticket (TGT) was requested | Windows Vista, Windows Server 2008 |
-| 4771 | Kerberos pre-authentication failed | Windows Vista, Windows Server 2008 |
-| 4772 | A Kerberos authentication ticket request failed | Windows Vista, Windows Server 2008 |
+| [4768](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4768.md) | A Kerberos authentication ticket (TGT) was requested | Windows Vista, Windows Server 2008 |
+| [4771](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4771.md) | Kerberos pre-authentication failed | Windows Vista, Windows Server 2008 |
+| [4772](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4772.md) | A Kerberos authentication ticket request failed | Windows Vista, Windows Server 2008 |

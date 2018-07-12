@@ -13,11 +13,11 @@ This subcategory generates events only on domain controllers. This subcategory a
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 4749 | A security-disabled global group was created | Windows Server 2008 |
-| 4750 | A security-disabled global group was changed | Windows Server 2008 |
-| 4751 | A member was added to a security-disabled global group | Windows Server 2008 |
-| 4752 | A member was removed from a security-disabled global group | Windows Server 2008 |
-| 4753 | A security-disabled global group was deleted | Windows Server 2008 |
+| [4749](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4749.md) | A security-disabled global group was created | Windows Server 2008 |
+| [4750](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4750.md) | A security-disabled global group was changed | Windows Server 2008 |
+| [4751](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4751.md) | A member was added to a security-disabled global group | Windows Server 2008 |
+| [4752](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4752.md) | A member was removed from a security-disabled global group | Windows Server 2008 |
+| [4753](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4753.md) | A security-disabled global group was deleted | Windows Server 2008 |
 | 4759 | A security-disabled universal group was created. See event “4749: A security-disabled global group was created.” | Windows Server 2008 |
 | 4760 | A security-disabled universal group was changed. See event “4750: A security-disabled global group was changed.” | Windows Server 2008 |
 | 4761 | A member was added to a security-disabled universal group. See event “4751: A member was added to a security-disabled global group.” | Windows Server 2008 |

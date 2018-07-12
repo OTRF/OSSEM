@@ -8,6 +8,6 @@ Events are generated every time Kerberos is used to authenticate a user who want
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 4769 | A Kerberos service ticket was requested | Windows Vista, Windows Server 2008 |
-| 4770 | A Kerberos service ticket was renewed | Windows Vista, Windows Server 2008 |
-| 4773 | A Kerberos service ticket request failed | Windows Vista, Windows Server 2008 |
+| [4769](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4768.md) | A Kerberos service ticket was requested | Windows Vista, Windows Server 2008 |
+| [4770](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4770.md) | A Kerberos service ticket was renewed | Windows Vista, Windows Server 2008 |
+| [4773](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4773.md) | A Kerberos service ticket request failed | Windows Vista, Windows Server 2008 |

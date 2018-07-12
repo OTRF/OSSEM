@@ -1,11 +1,8 @@
-# Event ID 4726: A user account was disabled
+# Event ID 4726: A user account was deleted
 
 ## Description
 
-This event generates every time user or computer object is disabled.
-
-* For user accounts, this event generates on domain controllers, member servers, and workstations.
-* For computer accounts, this event generates only on domain controllers.
+This event generates every time user object was deleted. This event generates on domain controllers, member servers, and workstations.
 
 [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4726.md)
 

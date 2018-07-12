@@ -20,9 +20,9 @@ This event generates every time a new member was added to a security-enabled (se
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	target_user_name	|	MemberName	|	string	|	distinguished name of account that was added to the group. For example: “CN=Auditor,CN=Users,DC=contoso,DC=local”. For local groups this field typically has “-“ value, even if new member is a domain account.	|	CN=eadmin,CN=Users,DC=contoso,DC=local	|
 |	target_user_sid	|	MemberSid	|	string	|	SID of account that was added to the group.	|	S-1-5-21-3457937927-2839227994-823803824-500	|
-|	group_name	|	TargetUserName	|	string	|	the name of the group to which new member was added.	|	AccountOperators	|
-|	group_domain	|	TargetDomainName	|	string	|	domain or computer name of the group to which the new member was added.	|	CONTOSO	|
-|	group_sid	|	TargetSid	|	string	|	SID of the group to which new member was added.	|	S-1-5-21-3457937927-2839227994-823803824-6605	|
+|	target_group_name	|	TargetUserName	|	string	|	the name of the group to which new member was added.	|	AccountOperators	|
+|	target_group_domain	|	TargetDomainName	|	string	|	domain or computer name of the group to which the new member was added.	|	CONTOSO	|
+|	target_group_sid	|	TargetSid	|	string	|	SID of the group to which new member was added.	|	S-1-5-21-3457937927-2839227994-823803824-6605	|
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested the “add member to the group” operation.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the “add member to the group” operation.	|	dadmin	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|

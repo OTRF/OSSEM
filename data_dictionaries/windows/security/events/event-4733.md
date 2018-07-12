@@ -20,9 +20,9 @@ This event generates every time member was removed from security-enabled (securi
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	target_user_name	|	MemberName	|	string	|	distinguished name of account that was removed from the group. For example: “CN=Auditor,CN=Users,DC=contoso,DC=local”. For local groups this field typically has “-“ value, even if removed member is a domain account.	|	CN=Auditor,CN=Users,DC=contoso,DC=local	|
 |	target_user_sid	|	MemberSid	|	string	|	SID of account that was removed from the group.	|	S-1-5-21-3457937927-2839227994-823803824-2104	|
-|	group_name	|	TargetUserName	|	string	|	The name of the group from which the member was removed. For example: ServiceDesk	|	AccountOperators	|
-|	group_domain	|	TargetDomainName	|	string	|	domain or computer name of the group from which the member was removed.	|	CONTOSO	|
-|	group_sid	|	TargetSid	|	string	|	SID of the group from which the member was removed.	|	S-1-5-21-3457937927-2839227994-823803824-6605	|
+|	target_group_name	|	TargetUserName	|	string	|	The name of the group from which the member was removed. For example: ServiceDesk	|	AccountOperators	|
+|	target_group_domain	|	TargetDomainName	|	string	|	domain or computer name of the group from which the member was removed.	|	CONTOSO	|
+|	target_group_sid	|	TargetSid	|	string	|	SID of the group from which the member was removed.	|	S-1-5-21-3457937927-2839227994-823803824-6605	|
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested the “remove member from the group” operation.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the “remove member from the group” operation.	|	dadmin	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
