@@ -14,11 +14,11 @@ These events are essential for tracking activity for file objects that are sensi
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 4656 | A handle to an object was requested. | Windows Vista, Windows Server 2008 |
-| 4658 | The handle to an object was closed. | Windows Vista, Windows Server 2008 |
-| 4660 | An object was deleted. | Windows Vista, Windows Server 2008 |
-| 4663 | An attempt was made to access an object. | Windows Vista, Windows Server 2008 |
-| 4664 | An attempt was made to create a hard link. | Windows Vista, Windows Server 2008 |
-| 4985 | The state of a transaction has changed. | Windows Vista, Windows Server 2008 |
+| [4656](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4656.md) | A handle to an object was requested. | Windows Vista, Windows Server 2008 |
+| [4658](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4658.md) | The handle to an object was closed. | Windows Vista, Windows Server 2008 |
+| [4660](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4660.md) | An object was deleted. | Windows Vista, Windows Server 2008 |
+| [4663](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4663.md) | An attempt was made to access an object. | Windows Vista, Windows Server 2008 |
+| [4664](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4664.md) | An attempt was made to create a hard link. | Windows Vista, Windows Server 2008 |
+| [4985](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4985.md) | The state of a transaction has changed. | Windows Vista, Windows Server 2008 |
 | 5051 | A file was virtualized. | Windows Vista, Windows Server 2008 |
-| 4670 | Permissions on an object were changed. | Windows Vista, Windows Server 2008 |
+| [4670](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4670.md) | Permissions on an object were changed. | Windows Vista, Windows Server 2008 |

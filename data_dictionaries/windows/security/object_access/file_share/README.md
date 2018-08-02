@@ -12,8 +12,8 @@ Combined with File System auditing, File Share auditing enables you to track wha
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 5140 | A network share object was accessed. | Windows Vista, Windows Server 2008 |
-| 5142 | A network share object was added. | Windows 7, Windows Server 2008 R2 |
-| 5143 | A network share object was modified. | Windows 7, Windows Server 2008 R2 |
-| 5144 | A network share object was deleted. | Windows 7, Windows Server 2008 R2 |
-| 5168 | Spn check for SMB/SMB2 failed. | Windows 7, Windows Server 2008 R2 |
+| [5140](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5140.md) | A network share object was accessed. | Windows Vista, Windows Server 2008 |
+| [5142](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5142.md) | A network share object was added. | Windows 7, Windows Server 2008 R2 |
+| [5143](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5143.md) | A network share object was modified. | Windows 7, Windows Server 2008 R2 |
+| [5144](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5144.md) | A network share object was deleted. | Windows 7, Windows Server 2008 R2 |
+| [5168](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5168.md) | Spn check for SMB/SMB2 failed. | Windows 7, Windows Server 2008 R2 |

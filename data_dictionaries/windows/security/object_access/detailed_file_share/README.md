@@ -12,4 +12,4 @@ There are no system access control lists (SACLs) for shared folders. If this pol
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 5145 | A network share object was checked to see whether client can be granted desired access. | Windows 7, Windows Server 2008 R2 |
+| [5145](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5145.md) | A network share object was checked to see whether client can be granted desired access. | Windows 7, Windows Server 2008 R2 |

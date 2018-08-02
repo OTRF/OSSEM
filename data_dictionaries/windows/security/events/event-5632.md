@@ -1,4 +1,4 @@
-# Event ID 5632: The requested credentials delegation was disallowed by policy
+# Event ID 5632: A request was made to authenticate to a wireless network
 
 ## Description
 
