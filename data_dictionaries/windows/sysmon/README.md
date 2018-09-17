@@ -22,3 +22,6 @@
 | 16 | [Sysmon Config State Changed](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-16.md) | This event logs when the local sysmon configuration is updated |
 | 17 | [PipeEvent - Pipe Created](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-17.md) | This event generates when a named pipe is created |
 | 18 | [PipeEvent - Pipe Connected](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-18.md) | This event logs when a named pipe connection is made between a client and a server |
+| 19 | [WmiEvent - WmiEventFilter activity detected](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-19.md) | This event logs when a WMI event filter is registered |
+| 20 | [WmiEvent - WmiEventConsumer activity detected](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-20.md) | This event logs the registration of WMI consumers, recording the consumer name, log, and destination |
+| 21 | [WmiEvent - WmiEventConsumerToFilter activity detected](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-21.md) | This event logs when a consumer binds to a filter, this event logs the consumer name and filter path. |
