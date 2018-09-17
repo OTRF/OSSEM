@@ -8,7 +8,7 @@ author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 09/12/2018
 ---
 
-# Event ID 19: WmiEvent (WmiEventFilter activity detected)
+# Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)
 
 ## Description
 When a consumer binds to a filter, this event logs the consumer name and filter path.[Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-21-wmievent-wmieventconsumertofilter-activity-detected)
