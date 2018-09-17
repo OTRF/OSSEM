@@ -8,7 +8,7 @@ author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 09/12/2018
 ---
 
-# Event ID 19: WmiEvent (WmiEventFilter activity detected)
+# Event ID 20: WmiEvent (WmiEventConsumer activity detected)
 
 ## Description
 This event logs the registration of WMI consumers, recording the consumer name, log, and destination.[Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected)
