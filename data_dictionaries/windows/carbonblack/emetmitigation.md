@@ -1,4 +1,4 @@
-# EMET Mitigation Table
+# ingress.event.emetmitigation (EMET Mitigation)
 
 ## Description
 

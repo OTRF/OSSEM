@@ -1,4 +1,4 @@
-# Child Process Table
+# ingress.event.childproc (Child Process)
 
 ## Description
 

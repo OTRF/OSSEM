@@ -1,4 +1,4 @@
-# Cross Process Open Table
+# ingress.event.crossprocopen (Cross Process Open)
 
 ## Description
 

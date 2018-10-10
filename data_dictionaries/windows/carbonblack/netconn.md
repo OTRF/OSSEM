@@ -1,4 +1,4 @@
-# Network Connection Table
+# ingress.event.netconn (Network Connection)
 
 ## Description
 
