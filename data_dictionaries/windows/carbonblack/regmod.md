@@ -1,4 +1,4 @@
-# Registry Modification Table
+# ingress.event.regmod (Registry Modification)
 
 ## Description
 
