@@ -1,6 +1,8 @@
 # OSSEM
 Open Source Security Events Metadata (OSSEM)
 
+<img src="resources/images/OSSEM_logo.png" width=300>
+
 # Goals
 
 * Define and share a common information model in order to improve the data standardization and transformation of security event logs

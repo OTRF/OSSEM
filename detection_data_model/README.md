@@ -4,9 +4,8 @@ This part of the project focuses on defining the required data in form of data o
 
 ## Data Model Components
 
-* [Data Objects](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model/data_objects)
 * [Data Object Relationships](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model/object_relationships.md)
-* [Data Object Relationships Vocabulary](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model/object_relationship_vocabulary.md)
+
 
 ## Resources
 
