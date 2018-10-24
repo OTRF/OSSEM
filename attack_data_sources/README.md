@@ -8,7 +8,7 @@ This part of the OSSEM project focuses on the documentation of ATT&CK data sourc
 
 Data source (Process Monitoring) mapped to specific event logs example:
 
-![alt text](../resources/images/attck_datasource_eventlogs.png "att&ck_datasource_eventlogs_example")
+![alt text](../resources/images/attck_datasource_eventlogs_example.png "att&ck_datasource_eventlogs_example")
 
 ## Mapping event logs to ATT&CK data sources
 
