@@ -1,4 +1,4 @@
-# Event ID 4656: A logon was attempted using explicit credentials
+# Event ID 4656: A handle to an object was requested
 
 ## Description
 

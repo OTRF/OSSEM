@@ -61,6 +61,7 @@ The project is currently in an alpha stage, which means that the content is stil
 # Contributors
 
 * Jose Luis Rodriguez [@Cyb3rPandaH](https://twitter.com/Cyb3rPandaH)
+* Jared Atkinson [@jaredcatkinson](https://twitter.com/jaredcatkinson)
 
 # Contributing
 
