@@ -32,15 +32,15 @@ A registry key has been created, deleted, or modified on an endpoint monitored b
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |		|	action	|	TEXT	|	Type of registry modification. This can be one of: createkey, writeval, delkey, or delval	|	writeval	|
 |		|	actiontype	|	INTEGER	|	Enum value of the registry modification: 1=createkey, 2=writeval, 4=delkey, 8=delval	|	2	|
-|		|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
-|		|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|
-|		|	event_type	|	TEXT	|	The type of event	|	regmod	|
-|		|	link_process	|	TEXT	|	Deep link to Cb Response UI for process	|	https://cbtests/#analyze/00000001-0000-0484-01d1-1e951b7c000b/1	|
-|		|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/1	|
-|		|	md5	|	TEXT	|	md5 of process executable	|	0E7196981EDE614F1F54FFF2C3843ADF	|
-|		|	path	|	TEXT	|	Full registry path	|	\\registry\\user\\s-1-5-21-2709706146-4189370754-997381202-1001\\software\\microsoft\\vscommon\\12.0\\sqm\\pids\\1156\\stillalive	|
-|		|	pid	|	INTEGER	|	Endpoint OS Process id of process	|	1156	|
-|		|	process_guid	|	TEXT	|	Cb Process GUID of process	|	00000001-0000-0484-01d1-1e951b7c000b	|
-|		|	sensor_id	|	INTEGER	|	Sensor ID of associated sensor	|	1	|
-|		|	timestamp	|	BIGINT	|	Endpoint timestamp of this event since epoch	| 1447696798 |
-|		|	type	|	TEXT	|	The full type of event	| ingress.event.regmod |
+|	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
+|	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|
+|	event_type	|	event_type	|	TEXT	|	The type of event	|	regmod	|
+|	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for process	|	https://cbtests/#analyze/00000001-0000-0484-01d1-1e951b7c000b/1	|
+|	sensor_link	|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/1	|
+|	hash	|	md5	|	TEXT	|	md5 of process executable	|	0E7196981EDE614F1F54FFF2C3843ADF	|
+|	process_path	|	path	|	TEXT	|	Full registry path	|	\\registry\\user\\s-1-5-21-2709706146-4189370754-997381202-1001\\software\\microsoft\\vscommon\\12.0\\sqm\\pids\\1156\\stillalive	|
+|	process_id	|	pid	|	INTEGER	|	Endpoint OS Process id of process	|	1156	|
+|	process_guid	|	process_guid	|	TEXT	|	Cb Process GUID of process	|	00000001-0000-0484-01d1-1e951b7c000b	|
+|	sensor_id	|	sensor_id	|	INTEGER	|	Sensor ID of associated sensor	|	1	|
+|	event_date_creation	|	timestamp	|	BIGINT	|	Endpoint timestamp of this event since epoch	| 1447696798 |
+|	event_type_detailed	|	type	|	TEXT	|	The full type of event	| ingress.event.regmod |
