@@ -69,7 +69,8 @@ The process creation event provides extended information about a newly created p
 |	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that got spawned/created (child)	|	{A98268C1-9C2E-5ACD-0000-0010396CAB00}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the created process (child)	|	4756	|
-|	process_name	|	Image	|	string	|	File path of the process being spawned/created. Considered also the child or source process	|	C:\Windows\System32\conhost.exe	|
+|	process_name	|	Image	|	string	|	File name of the process being spawned/created. Considered also the child or source process	|	conhost.exe	|
+|	process_path	|	Image	|	string	|	File path of the process being spawned/created. Considered also the child or source process	|	C:\Windows\System32\conhost.exe	|
 |	file_version	|	FileVersion	|	string	|	Version of the image associated with the main process (child)	|	10.0.16299.15 (WinBuild.160101.0800)	|
 |	file_description	|	Description	|	string	|	Description of the image associated with the main process (child)	|	Console Window Host	|
 |	file_product	|	Product	|	string	|	Product name the image associated with the main process (child) belongs to	|	Microsoft® Windows® Operating System	|
@@ -84,5 +85,6 @@ The process creation event provides extended information about a newly created p
 |	hash	|	Hashes	|	string	|	Hashes captured by sysmon driver	|	SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7, SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B	|
 |	process_parent_guid	|	ParentProcessGuid	|	string	|	ProcessGUID of the process that spawned/created the main process (child)	|	{A98268C1-9C2E-5ACD-0000-00100266AB00}	|
 |	process_parent_id	|	ParentProcessId	|	integer	|	Process ID of the process that spawned/created the main process (child)	|	240	|
-|	process_parent_name	|	ParentImage	|	string	|	File path that spawned/created the main process	|	C:\Windows\System32\cmd.exe	|
+|	process_parent_name	|	ParentImage	|	string	|	File name that spawned/created the main process	|	cmd.exe	|
+|	process_parent_path	|	ParentImage	|	string	|	File path that spawned/created the main process	|	C:\Windows\System32\cmd.exe	|
 |	process_parent_command_line	|	ParentCommandLine	|	string	|	Arguments which were passed to the executable associated with the parent process	|	C:\WINDOWS\system32\cmd.exe	|
