@@ -28,12 +28,12 @@ Event fields used to define metadata about processes in an system.
 ## Applicable Data Sources
 | Source Entity | Relationship | Destination Entity | Data Source | Event Name/ID |
 |---------------|--------------|--------------------|-------------|------------|
-| process | created | process | Windows Security Event Log | [Event ID 4688](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4688.md) |
+| process | created | process | Windows Security Event Log | [4688](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4688.md) |
 | process | created | process | Carbon Black | [procstart](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/carbonblack/procstart.md) |
 | process | created | process | Carbon Black | [childproc](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/carbonblack/childproc.md) |
-| process | created | process | Sysmon | [Event ID 1](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-1.md) |
-|  | terminated | process | Windows Security Event Log | [Event ID 4689](https://github.com/jaredcatkinson/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4689.md) |
-|  | terminated | process | Sysmon | [Event ID 5](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-5.md) |
-| process | wrote_to | process | Sysmon | [Event ID 8](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-8.md) |
-| process | opened | process | Sysmon | [Event ID 10](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-10.md) |
+| process | created | process | Sysmon | [1](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-1.md) |
+|  | terminated | process | Windows Security Event Log | [4689](https://github.com/jaredcatkinson/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4689.md) |
+|  | terminated | process | Sysmon | [5](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-5.md) |
+| process | wrote_to | process | Sysmon | [8](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-8.md) |
+| process | opened | process | Sysmon | [10](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-10.md) |
 | process | opened | process | Carbon Black | [crossprocopen](https://github.com/jaredcatkinson/OSSEM/blob/master/data_dictionaries/windows/carbonblack/crossprocopen.md) |
