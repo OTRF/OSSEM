@@ -20,8 +20,8 @@ date: 02/21/2019
 |	network_protocol	|	Protocol	|	string	|	IP protocol used, whether TCP or UDP	|		|
 |	src_ip_type	|	LocalIPType	|	string	|		Type of IP address, for example Public, Private, Reserved, Loopback, Teredo, FourToSixMapping, and Broadcast	|		|
 |	dst_ip_type	|	RemoteIPType	|	string	|	Type of IP address, for example Public, Private, Reserved, Loopback, Teredo, FourToSixMapping, and Broadcast	|		|
-|	sha1_hash	|	InitiatingProcessSHA1	|	string	|	SHA-1 of the process (image file) that initiated the event	|		|
-|	md5_hash	|	InitiatingProcessMD5	|	string	|	MD5 hash of the process (image file) that initiated the event	|		|
+|	hash_sha1	|	InitiatingProcessSHA1	|	string	|	SHA-1 of the process (image file) that initiated the event	|		|
+|	hash_md5	|	InitiatingProcessMD5	|	string	|	MD5 hash of the process (image file) that initiated the event	|		|
 |	process_name	|	InitiatingProcessFileName	|	string	|	Name of the process that initiated the event	|		|
 |	process_id	|	InitiatingProcessId	|	int	|	Process ID (PID) of the process that initiated the event	|		|
 |	process_command_line	|	InitiatingProcessCommandLine	|	string	|	Command line used to run the process that initiated the event	|		|

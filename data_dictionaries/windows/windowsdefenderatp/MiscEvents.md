@@ -14,15 +14,15 @@ date: 02/21/2019
 |		|	ActionType	|	string	|	Type of activity that triggered the event	|		|
 |		|	FileName	|	string	|	Name of the file that the recorded action was applied to	|		|
 |		|	FolderPath	|	string	|	Folder containing the file that the recorded action was applied to	|		|
-|		|	SHA1	|	string	|	SHA-1 of the file that the recorded action was applied to	|		|
-|		|	MD5	|	string	|	MD5 hash of the file that the recorded action was applied to	|		|
-|		|	AccountDomain	|	string	|	Domain of the account	|		|
-|		|	AccountName	|	string	|	User name of the account	|		|
-|		|	AccountSid	|	string	|	Security Identifier (SID) of the account	|		|
+|	hash_sha1	|	SHA1	|	string	|	SHA-1 of the file that the recorded action was applied to	|		|
+|	hash_md5	|	MD5	|	string	|	MD5 hash of the file that the recorded action was applied to	|		|
+|	user_domain	|	AccountDomain	|	string	|	Domain of the account	|		|
+|	user_name	|	AccountName	|	string	|	User name of the account	|		|
+|	user_sid	|	AccountSid	|	string	|	Security Identifier (SID) of the account	|		|
 |		|	RemoteUrl	|	string	|	URL or fully qualified domain name (FQDN) that was being connected to	|		|
 |		|	RemoteComputerName	|	string	|	Name of the machine that performed a remote operation on the affected machine. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name, or a host name without domain information.	|		|
-|		|	ProcessId	|	int	|	Process ID (PID) of the newly created process	|		|
-|		|	ProcessCommandLine	|	string	|	Command line used to create the new process	|		|
+|	process_id	|	ProcessId	|	int	|	Process ID (PID) of the newly created process	|		|
+|	process_command_line	|	ProcessCommandLine	|	string	|	Command line used to create the new process	|		|
 |		|	ProcessCreationTime	|	date	|	Date and time the process was created	|		|
 |		|	ProcessTokenElevation	|	string	|	Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the newly created process	|		|
 |		|	LogonId	|	string	|	Identifier for a logon session. This identifier is unique on the same machine only between restarts.	|		|

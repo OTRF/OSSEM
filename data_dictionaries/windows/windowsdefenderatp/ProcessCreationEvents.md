@@ -14,8 +14,8 @@ date: 02/21/2019
 |		|	ActionType	|	string	|	Type of activity that triggered the event	|		|
 |	process_name	|	FileName	|	string	|	Name of the file that the recorded action was applied to	|		|
 |	process_path	|	FolderPath	|	string	|	Folder containing the file that the recorded action was applied to	|		|
-|	sha1_hash	|	SHA1	|	string	|	SHA-1 of the file that the recorded action was applied to	|		|
-|	md5_hash	|	MD5	|	string	|	MD5 hash of the file that the recorded action was applied to	|		|
+|	hash_sha1	|	SHA1	|	string	|	SHA-1 of the file that the recorded action was applied to	|		|
+|	hash_md5	|	MD5	|	string	|	MD5 hash of the file that the recorded action was applied to	|		|
 |	process_id	|	ProcessId	|	int	|	Process ID (PID) of the newly created process	|		|
 |	process_command_line	|	ProcessCommandLine	|	string	|	Command line used to create the new process	|		|
 |	process_integrity_level	|	ProcessIntegrityLevel	|	string	|	Integrity level of the newly created process. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet downloaded. These integrity levels influence permissions to resources.	|		|
