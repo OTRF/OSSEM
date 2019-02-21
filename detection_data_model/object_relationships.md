@@ -1,60 +1,103 @@
-# Object Relationships
+# Data Object Relationships
 
-|	Objects (Source)	|	Relationship	|	Inverse Relationship	|	Objects (Destination)	|
-|-------------------------------|---------------------|----------------------|---------------------------------|
-|	Process	|	Created	|	Deleted, Killed	|	File, Process, Win Registry Key, Win Service, Win Thread	|
-|	File, Process, Win Registry Key, Win Service, Win Thread	|	Created_By	|	Deleted_By, Killed_By	| Process	|
-|	Process	|	Modified_Properties_Of	|	n/a	|	File, Win Registry Key, Win Service	|
-|	File, Win Registry Key, Win Service	|	Properties_Modified_By	|	n/a	|	Process	|
-|	File	|	Downloaded_From	|	n/a	|	Domain Name, IP, Host	|
-|	URI, File	|	Downloaded_To	|	Uploaded_To	|	File	|
-|	Process	|	Downloaded	|	Uploaded	|	File	|
-|	File	|	Downloaded_By	|	Uploaded_By	|	Process	|
-|	Process	|	Uploaded	|	Downloaded	|	File	|
-|	File	|	Uploaded_By	|	Downloaded_By	|	Process	|
-|	File	|	Uploaded_To	|	Downloaded_To	|	Domain Name, IP, Host	|
-|	File	|	Sent_To	|	Received_From	|	IP	|
-|	File	|	Received_From	|	Sent_To	|	IP	|
-|	Process	|	Values_Enumerated	|	n/a	|	Win Registry Key	|
-|	Win Registry Key	|	Values_Enumerated_By	|	n/a	|	Process	|
-|	Process	|	Killed	|	Created	|	Process, Win Thread	|
-|	Process, Win Thread	|	Killed_By	|	Created_By	|	Process	|
-|	File	|	Renamed_From	|	n/a	|	File	|
-|	File	|	Renamed_To	|	n/a	|	File	|
-|	Process	|	Renamed	|	n/a	|	File	|
-|	File	|	Renamed_By	|	n/a	|	Process	|
-|	File	|	Moved_From	|	n/a	|	File	|
-|	File	|	Moved_To	|	n/a	|	File	|
-|	Process	|	Moved	|	n/a	|	File	|
-|	File	|	Moved_By	|	n/a	|	Process	|
-|	File	|	Copied_From	|	n/a	|	File	|
-|	File	|	Copied_To	|	n/a	|	File	|
-|	Process	|	Copied	|	n/a	|	File	|
-|	File	|	Copied_By	|	n/a	|	Process	|
-|	Process	|	Connected_To	|	n/a	|	IP, Host |
-|	Process	|	Parent_Of	|	Child_Of	|	Process, Win Thread	|
-|	Process, Win Thread	|	Child_Of	|	Parent_Of	|	Process	|
-|	Domain Name	|	Redirects_To	|	n/a	|	Domain Name	|
-|	Process	|	Suspended	|	Resumed	|	Process, Win Thread	|
-|	Process, Win Thread	|	Suspended_By	|	Resumed_By	|	Process	|
-|	Process	|	Paused	|	Resumed	|	Win Service	|
-|	Win Service	|	Paused_By	|	Resumed_By	|	Process	|
-|	Process	|	Resumed	|	Suspended, Paused	|	Process, Win Thread, Win Service	|
-|	Process, Win Thread, Win Service	|	Resumed_By	|	Suspended_By, Paused_By	|	Process	|
-|	Process	|	Wrote_To	|	Read_From	|	Process, File, Pipe	|
-|	Process, File, Pipe	|	Written_To_By	|	Read_From_By	|	Process	|
-|	Process	|	Read_From	|	Wrote_To	|	Process, File, Pipe	|
-|	Process, File, Pipe |	Read_From_By	|	Written_To_By	|	Process	|
-|	Process	|	Allocated	|	Freed	|	Memory, Win Memory Page Region	|
-|	Memory, Win Memory Page Region	|	Allocated_By	|	Freed_By	|	Process	|
-|	Process	|	Freed	|	Allocated	|	Memory, Win Memory Page Region	|
-|	Memory, Win Memory Page Region	|	Freed_By	|	Allocated_By	|	Process	|
-|	Process	|	Opened	|	Closed	|	File, Win Handle, Win Registry Key, Win Service	|
-|	File, Win Handle, Win Registry Key, Win Service	|	Opened_By	|	Closed_By	|	Process	|
-|	Process	|	Closed	|	Opened	|	File, Win Handle, Win Registry Key	|
-|	File, Win Handle, Win Registry Key	|	Closed_By	|	Opened_By	|	Process	|
-|	Domain Name, Host, IP	|	Resolved_To	|	n/a	|	Domain Name, Host, IP	|
-|	Domain Name	|	Sub-domain_Of	|	Supra-domain_Of	|	Domain Name	|
-|	Domain Name	|	FQDN_Of	|	n/a	|	Domain Name, Host	|
-|	File	|	Dropped	|	n/a	|	File	|
-|	File	|	Dropped_By	|	n/a	|	File	|
+|	Sub Data Sources	|	Data Objects (Origin)	|	Relationship	|	Data Objects (Destination)	|
+|-------------------------------|---------------------|---------------------------------|---------------------------------|
+| process creation | process | created | process|
+| process termination | process | terminated | |
+| process write to process | process | wrote_to | process|
+| process access | process | opened | process|
+| module load | process | loaded | module|
+| file creation | process | created | file|
+| file modification | process | modified | file|
+| file download | process | downloaded | file|
+| win registry key creation | process | created | win registry |
+| win registry key deletion | process | deleted | win registry |
+| win registry key modification | process | modified | win registry |
+| win pipe creation | process | created | pipe|
+| win pipe connection | process | connected_to | pipe|
+| process network connection allow | process | connected_to | ip|
+| process network connection allow | user | connected_to | ip|
+| NTLM Credentials Validation | host | authenticated | user|
+| kerberos TGT request | user | requested | ticket granting ticket|
+| kerberos TGT authentication failure | user | authenticated_with | ticket granting ticket|
+| kerberos service ticket request | user | requested | service ticket|
+| kerberos service ticket renewal | user | renewed | service ticket|
+| kerberos service ticket failure | user | requested | service ticket|
+| user rdp session | user | disconnected_from | host|
+| user rdp session | user | connected_to | host|
+| user lock operation | user | locked | host|
+| user unlock operation | user | unlocked | host|
+| computer account creation | user | created | computer|
+| computer account change | user | changed | computer|
+| computer account deletion | user | deleted | computer|
+| distribution group creation | user | created | group|
+| distribution group change | user | changed | group|
+| distribution group member addition | user | added | user|
+| distribution group member removal | user | removed | user|
+| distribution group deletion | user | deleted | group|
+| security group creation | user | created | group|
+| security group member addition | user | added | user|
+| security group member removal | user | removed | user|
+| security group deletion | user | deleted | group|
+| security group change | user | changed | group|
+| security group type change | user | changed_type | group|
+| security group enumeration | user | enumerated | group members|
+| user account creation | user | created | user|
+| user account enable | user | enabled | user|
+| user account password change | user | changed_password | user|
+| user account password reset | user | reset_password | user|
+| user account disable | user | disabled | user|
+| user account deletion | user | deleted | user|
+| user account change | user | changed | user|
+| user account lock | user | locked | user|
+| user account unlock | user | unlocked | user|
+| user account name change | user | changed_name | user|
+| user account group enumeration | user | enumerated | group|
+| directory service object access | user | accessed | ad object|
+| directoy service object handle request | user | requested_a_handle | ad object|
+| directory service object modification | user | modified | ad object|
+| directory service object creation | user | created | ad object|
+| directory service object restoration | user | restored | ad object|
+| directory service object move | user | moved | ad object|
+| directory service object deletion | user | deleted | ad object|
+| user account successful authentication | user | authenticated | host|
+| user account authentication with explicit credential | user | authenticated | host|
+| file access | user | accessed | file|
+| network share access | user | accessed | network share|
+| network share addition | user | added | network share|
+| network share modification | user | modified | network share|
+| network share deletion | user | deleted | network share|
+| file access request | user | requested_a_handle | file|
+| registry access request | user | requested_a_handle | registry|
+| file deletion request | user | requested_a_handle | file|
+| registry deletion request | user | requested_a_handle | registry|
+| file deletion | user | deleted | file|
+| symbolic link creation | user | created | symbolic link|
+| file permissions change | user | changed_permissions | file|
+| process network service connection block | host | blocked_service_connection_to | process|
+| process network listener allow | host | permitted_listener_on | process|
+| process network listener block | host | blocked_listener_on | process|
+| process network connection allow | host | permitted_inbound_connection_on | process|
+| process network connection allow | process | connected_from | ip|
+| process network connection allow | host | permitted_outbound_connection_on | process|
+| process network connection block | host | blocked_inbound_connection_on | process|
+| process network connection block | host | blocked_outbound_connection_on | process|
+| process network local port bind allow | host | permitted_local_port_bind_on | process|
+| process network local port bind allow | process | bound _to | port|
+| process network local port bind blocked | host | blocked_local_port_bind_on | process|
+| scheduled task creation | user | created | scheduled task|
+| scheduled task deletion | user | deleted | scheduled task|
+| scheduled task enable | user | enabled | scheduled task|
+| scheduled tast disable | user | disabled | scheduled task|
+| scheduled task update | user | updated | scheduled task|
+| win registry key access | user | accessed | win registry|
+| win registry key deletion | user | deleted | win registry|
+| win registry key permissions change | user | changed_permissions | win registry|
+| win registry key value modification | user | modified | win registry|
+| win registry key value modification | process | modified | win registry|
+| sam service object handle request | user | requested_a_handle | sam object|
+| user account access addition | user | granted_access | user|
+| user account access removal | user | removed_access | user|
+| non-sensitive privileged service operation | process | called | service|
+| sensitive privileged service operation | process | called | service|
+| win service installation | user | installed | service|

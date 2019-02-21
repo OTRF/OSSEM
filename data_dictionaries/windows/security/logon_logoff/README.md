@@ -1,38 +1,17 @@
----
-title: Audit Logon/Logoff
-description: Logon/Logoff security policy settings and audit events allow you to track attempts to log on to a computer interactively or over a network.
-log.type: Security
-log.category: Logon/Logoff
-author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
----
-
 # Audit Logon/Logoff
 
 ## Description
 
 Logon/Logoff security policy settings and audit events allow you to track attempts to log on to a computer interactively or over a network. These events are particularly useful for tracking user activity and identifying potential attacks on network resources.[Microsoft Source](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)
 
-## Data Dictionaries
+## Subcategories
 
-| Category | Subcategory | EventId | Description | Minimum OS |
-|--------|---------|-------|---------|------------|
-|	Logon/Logoff	|	Logon	|	[4624](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4624.md)	|	An account was successfully logged on.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Logon	|	[4625](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4625.md)	|	An account failed to log on.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	User/Device Claims	|	[4626](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4626.md)	|	User/Device claims information.	|	Windows 8, Windows Server 2012	|
-|	Logon/Logoff	|	Logoff	|	[4634](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4634.md)	|	An account was logged off.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Logoff	|	[4647](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4647.md)	|	User initiated logoff.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Logon	|	[4648](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4648.md)	|	A logon was attempted using explicit credentials.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	4649	|	A replay attack was detected.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Logon	|	4675	|	SIDs were filtered.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4778](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4778.md)	|	A session was reconnected to a Window Station.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4779](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4779.md)	|	A session was disconnected from a Window Station.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4800](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4800.md)	|	The workstation was locked.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4801](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4801.md)	|	The workstation was unlocked.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4802](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4802.md)	|	The screen saver was invoked.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[4803](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4803.md)	|	The screen saver was dismissed.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	4825	|	A user was denied the access to Remote Desktop.	|	Windows Vista SP2, Windows Server 2008 SP2	|
-|	Logon/Logoff	|	Special Logon	|	[4964](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-4964.md)	|	Special groups have been assigned to a new logon.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[5378](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-5378.md)	|	The requested credentials delegation was disallowed by policy.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[5632](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-5632.md)	|	A request was made to authenticate to a wireless network.	|	Windows Vista, Windows Server 2008	|
-|	Logon/Logoff	|	Other Logon/Logoff Events	|	[5633](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/event-5633.md)	|	A request was made to authenticate to a wired network.	|	Windows Vista, Windows Server 2008	|
+| Subcategory | Description | Event Volume |
+|---------|-------|---------|
+| [Audit Account Lockout](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/account_lockout/README.md) | Audit Account Lockout enables you to audit security events that are generated by a failed attempt to log on to an account that is locked out. | Low |
+| [Audit User/Device Claims](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/user_device_claims/README.md) | Audit User/Device Claims allows you to audit user and device claims information in the account’s logon token. Events in this subcategory are generated on the computer on which a logon session is created. For an interactive logon, the security audit event is generated on the computer that the user logged on to. | Low on a client computer. Medium on a domain controller or network servers. |
+| [Audit Group Membership](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/group_membership/README.md) | Audit Group Membership enables you to audit group memberships when they are enumerated on the client computer.This policy allows you to audit the group membership information in the user's logon token. Events in this subcategory are generated on the computer on which a logon session is created. | Low on a client computer. Medium on a domain controller or network servers. |
+| [Audit Logoff](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/logoff/README.md) | Audit Logoff determines whether the operating system generates audit events when logon sessions are terminated. | Low |
+| [Audit Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/logon/README.md) | Audit Logon determines whether the operating system generates audit events when a user attempts to log on to a computer. | Low on a client computer. Medium on a domain controllers or network servers. |
+| [Audit Other Logon/Logoff Events](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/other_logon_logoff/README.md) | Audit Other Logon/Logoff Events determines whether Windows generates audit events for other logon or logoff events. | Low |
+| [Audit Special Logon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/logon_logoff/special_logon/README.md) | Audit Special Logon determines whether the operating system generates audit events under special sign on (or log on) circumstances. | Low on a client computer. Medium on a domain controllers or network servers. |

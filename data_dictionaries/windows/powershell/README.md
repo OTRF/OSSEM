@@ -4,11 +4,11 @@
 
 | EventID | Name | Description |
 |--------|---------|---------|
-| 400 | [Engine Lifecycle - Start](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/event-400.md) | PowerShell engine state is changed from None to Available |
-| 403 | [Engine Lifecycle - Stopped](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/event-403.md) | PowerShell engine state is changed from Available to Stopped |
-| 600 | [Provider Lifecycle](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/event-600.md) | Logs the start and stop of PowerShell providers |
-| 4103 | [Module Logging](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/event-4103.md) | Detailed logging of all PowerShell command input and output |
-| 4104 | [Script Block Logging](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/event-4104.md) | It records blocks of code as they are executed by the PowerShell engine |
+| 400 | [Engine Lifecycle - Start](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/events/event-400.md) | PowerShell engine state is changed from None to Available |
+| 403 | [Engine Lifecycle - Stopped](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/events/event-403.md) | PowerShell engine state is changed from Available to Stopped |
+| 600 | [Provider Lifecycle](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/events/event-600.md) | Logs the start and stop of PowerShell providers |
+| 4103 | [Module Logging](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/events/event-4103.md) | Detailed logging of all PowerShell command input and output |
+| 4104 | [Script Block Logging](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell/events/event-4104.md) | It records blocks of code as they are executed by the PowerShell engine |
 
 ## Resources
 
