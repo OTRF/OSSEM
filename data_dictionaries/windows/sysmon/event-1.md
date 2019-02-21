@@ -89,10 +89,6 @@ The process creation event provides extended information about a newly created p
 |	hash	|	Hashes	|	string	|	Hashes captured by sysmon driver	|	SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7, SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B	|
 |	process_parent_guid	|	ParentProcessGuid	|	string	|	ProcessGUID of the process that spawned/created the main process (child)	|	{A98268C1-9C2E-5ACD-0000-00100266AB00}	|
 |	process_parent_id	|	ParentProcessId	|	integer	|	Process ID of the process that spawned/created the main process (child)	|	240	|
-<<<<<<< HEAD
 |	process_parent_name	|	ParentImage	|	string	|	The name of the executable related to the target process	|	cmd.exe	|
-=======
-|	process_parent_name	|	ParentImage	|	string	|	File name that spawned/created the main process	|	cmd.exe	|
->>>>>>> d5bb7524a17420149804738ffa6ea0e8e4fd93c6
 |	process_parent_path	|	ParentImage	|	string	|	File path that spawned/created the main process	|	C:\Windows\System32\cmd.exe	|
 |	process_parent_command_line	|	ParentCommandLine	|	string	|	Arguments which were passed to the executable associated with the parent process	|	C:\WINDOWS\system32\cmd.exe	|
