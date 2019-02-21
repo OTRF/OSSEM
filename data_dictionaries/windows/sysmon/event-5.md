@@ -53,4 +53,5 @@ The process terminate event reports when a process terminates. It provides the U
 |	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:37	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that terminated	|	{A98268C1-9ECD-5ACD-0000-0010EF6BAF00}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that terminated	|	2428	|
-| process_name | Image | string | File path of the process that terminated | C:\Windows\System32\backgroundTaskHost.exe |
+| process_name | Image | string | The name of the executable of the process that terminated | backgroundTaskHost.exe |
+| process_path | Image | string | File path of the process that terminated | C:\Windows\System32\backgroundTaskHost.exe |
