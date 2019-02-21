@@ -24,3 +24,22 @@ Event fields used to define metadata about processes in an system.
 | target_process_address | string | The memory address where the subprocess is injected | 0xFFFFBC6422DD9C20 |
 |	process_granted_access	|	string	|	granted access code requested/used to open a target process	|	0x1000	|
 |	process_call_trace	|	string	|	Stack trace of where open process is called	|	C:\WINDOWS\SYSTEM32\ntdll.dll+a0344 \| C:\WINDOWS\System32\KERNELBASE.dll+64794\| c:\windows\system32\lsm.dll+10e93\| c:\windows\system32\lsm.dll+f9ea\| C:\WINDOWS\System32\RPCRT4.dll+76d23\| C:\WINDOWS\System32\RPCRT4.dll+d9390\| C:\WINDOWS\System32\RPCRT4.dll+a81c\| C:\WINDOWS\System32\RPCRT4.dll+273b4\| C:\WINDOWS\System32\RPCRT4.dll+2654e\| C:\WINDOWS\System32\RPCRT4.dll+26cfb\| C:\WINDOWS\System32\RPCRT4.dll+3083f\| C:\WINDOWS\System32\RPCRT4.dll+313a6\| C:\WINDOWS\System32\RPCRT4.dll+2d12e\| C:\WINDOWS\System32\RPCRT4.dll+2e853\| C:\WINDOWS\System32\RPCRT4.dll+5cc68\| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce\| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46\| C:\WINDOWS\System32\KERNEL32.DLL+11fe4\| C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1	|
+
+## Data Relationships
+| Source Entity | Relationship | Destination Entity | Data Source | Event Name |
+|---------------|--------------|--------------------|-------------|------------|
+| process | created | process | Windows Security Event Log | 4688 |
+| process | created | process | Sysmon | 1 |
+|  | terminated | process | Windows Security Event Log | 4689 |
+|  | terminated | process | Sysmon | 5 |
+| process | wrote_to | process | Sysmon | 8 |
+| process | opened | process | Sysmon | 10 |
+
+## Data Sources
+* [Windows Security Event Log - Event 4688](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4688.md)
+* [Sysmon - Event 1 - Process Creation](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-1.md)
+* [Sysmon - Event 5 - Process Terminated](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-5.md)
+* [Sysmon - Event 8 - CreateRemoteThread](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-8.md)
+* [Sysmon - Event 10 - ProcessAccess](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-10.md)
+* [Carbon Black - childproc](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/carbonblack/childproc.md)
+* [Carbon Black - procstart](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/carbonblack/procstart.md)
