@@ -69,11 +69,7 @@ The process creation event provides extended information about a newly created p
 |	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that got spawned/created (child)	|	{A98268C1-9C2E-5ACD-0000-0010396CAB00}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the created process (child)	|	4756	|
-<<<<<<< HEAD
 |	process_name	|	Image	|	string	|	The name of the executable without full path related to the process being spawned/created in the event. Considered also the child or source process	|	conhost.exe	|
-=======
-|	process_name	|	Image	|	string	|	File name of the process being spawned/created. Considered also the child or source process	|	conhost.exe	|
->>>>>>> d5bb7524a17420149804738ffa6ea0e8e4fd93c6
 |	process_path	|	Image	|	string	|	File path of the process being spawned/created. Considered also the child or source process	|	C:\Windows\System32\conhost.exe	|
 |	file_version	|	FileVersion	|	string	|	Version of the image associated with the main process (child)	|	10.0.16299.15 (WinBuild.160101.0800)	|
 |	file_description	|	Description	|	string	|	Description of the image associated with the main process (child)	|	Console Window Host	|
