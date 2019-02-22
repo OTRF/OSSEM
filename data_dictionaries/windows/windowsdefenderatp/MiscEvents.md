@@ -6,6 +6,14 @@ author: Jared Atkinson (@jaredcatkinson)
 date: 02/21/2019
 ---
 
+# MiscEvents
+
+## Description
+Multiple event types, such as process injection, creation of scheduled tasks, and LSASS access attempts
+
+## Event Log Illustration & Event XML
+
+## Data Dictionary
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|

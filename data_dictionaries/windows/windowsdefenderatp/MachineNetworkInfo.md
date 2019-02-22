@@ -6,6 +6,14 @@ author: Jared Atkinson (@jaredcatkinson)
 date: 02/21/2019
 ---
 
+# MachineNetworkInfo
+
+## Description
+Network properties of machines, including adapters, IP and MAC addresses, as well as connected networks and domains
+
+## Event Log Illustration & Event XML
+
+## Data Dictionary
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
