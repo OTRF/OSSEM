@@ -7,7 +7,7 @@
 | 1 | [Process creation](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-1.md) | Information about a newly created process |
 | 2 | [A process changed a file creation time](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-2.md) | File creation time is explicitly modified by a process |
 | 3 | [Network connection](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-3.md) | The network connection event logs TCP/UDP connections on the machine |
-| 4 | [Sysmon service state changed](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-3.md) | Reports the state of the Sysmon service (started or stopped) |
+| 4 | [Sysmon service state changed](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-4.md) | Reports the state of the Sysmon service (started or stopped) |
 | 5 | [Process terminated](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-5.md) | Reports when a process terminates |
 | 6 | [Driver loaded](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-6.md) | Information about a driver being loaded on the system |
 | 7 | [Image loaded](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon/event-7.md) | Logs when a module is loaded in a specific process |
