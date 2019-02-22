@@ -2,7 +2,7 @@
 
 ## Data Dictionaries
 | Event Name | Description |
-|--------|---------|---------|
+|------------|-------------|
 | [AlertEvents](AlertEvents.md) | Alerts on Windows Defender Security Center |
 | [MachineInfo](MachineInfo.md) | Machine information, including OS information |
 | [MachineNetworkInfo](MachineNetworkInfo.md) | Network properties of machines, including adapters, IP and MAC addresses, as well as connected networks and domains |
