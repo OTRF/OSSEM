@@ -21,9 +21,9 @@ Event fields used to define metadata about registry entries in a system.
 | process | deleted | registry_key | Sysmon | [12](../data_dictionaries/windows/sysmon/event-12.md) |
 | process | set | registry_key | Sysmon | [13](../data_dictionaries/windows/sysmon/event-13.md) |
 | process | modified | registry_key | Sysmon | [14](../data_dictionaries/windows/sysmon/event-14.md) |
-| user | requested_a_handle | registry_key | Windows Security Event Log | [4656]() |
-| user | accessed | registry_key | Windows Security Event Log | [4663]() |
-| user | deleted | registry_key | Windows Security Event Log | [4663]() |
-| user | changed_permissions | registry_key | Windows Security Event Log | [4670]() |
-| user | modified | registry_key | Windows Security Event Log | [4657]() |
-| process | modified | registry_key | Windows Security Event Log | [4657]() |
+| user | requested_a_handle | registry_key | Windows Security Event Log | [4656](../data_dictionaries/windows/security/events/event-4656.md) |
+| user | accessed | registry_key | Windows Security Event Log | [4663](../data_dictionaries/windows/security/events/event-4663.md) |
+| user | deleted | registry_key | Windows Security Event Log | [4663](../data_dictionaries/windows/security/events/event-4663.md) |
+| user | changed_permissions | registry_key | Windows Security Event Log | [4670](../data_dictionaries/windows/security/object_access/registry/README.md) |
+| user | modified | registry_key | Windows Security Event Log | [4657](../data_dictionaries/windows/security/object_access/registry/README.md) |
+| process | modified | registry_key | Windows Security Event Log | [4657](../data_dictionaries/windows/security/object_access/registry/README.md) |
