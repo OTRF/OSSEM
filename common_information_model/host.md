@@ -7,6 +7,7 @@ Event fields used to define metadata about hosts where events are originally cre
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | host_name | string | Name of the endpoint where the log was created. Usually without the FQDN | WkHR001 |
+| host_domain | string | Name of the domain for the host where the log was created | hunt.wardog.com |
 | host_fqdn | string | The fully qualified domain name of the host where the log was created | WKHR001.hunt.wardog.com |
 | dst_host_name | string | Destination host name in a network connection| WKHR001 |
 | src_host_name | string | name of the endpoint from which an event initiated in a network connection | WIN-GG82ULGC9GO |
