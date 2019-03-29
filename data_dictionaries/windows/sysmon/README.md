@@ -1,5 +1,9 @@
 # Sysmon Event Logs
 
+## Data Model
+
+<img src="../../../resources/images/SysmonDataModel.png" width=900>
+
 ## Data Dictionaries
 
 | EventID | Name | Description |
