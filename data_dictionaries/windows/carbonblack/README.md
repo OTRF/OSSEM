@@ -4,7 +4,7 @@ Carbon Black data schema as defined by the Carbon Black Developer Resources.
 
 ## Data Model
 
-<img src="../../../resources/images/CarbonBlackDataModel.png" width=500>
+<img src="../../../resources/images/CarbonBlackDataModel.png" width=1000>
 
 ## Data Dictionaries
 
