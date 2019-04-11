@@ -16,4 +16,4 @@ Filesystem hash data.
 |	file_directory	|	directory	|	TEXT	|	Must provide a path or directory	|		|
 |	hash_md5	|	md5	|	TEXT	|	MD5 hash of provided filesystem data	|		|
 |	hash_sha1	|	sha1	|	TEXT	|	SHA1 hash of provided filesystem data	|		|
-|	hadh_sha256	|	sha256	|	TEXT	|	SHA256 hash of provided filesystem data	|		|
+|	hash_sha256	|	sha256	|	TEXT	|	SHA256 hash of provided filesystem data	|		|
