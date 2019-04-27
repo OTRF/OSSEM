@@ -2,10 +2,10 @@
 title: Event ID 7 - Image loaded
 description: The image loaded event logs when a module is loaded in a specific process.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: ImageLoad
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 7: Image loaded
@@ -22,32 +22,33 @@ The image loaded event logs when a module is loaded in a specific process. This 
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>7</EventID> 
     <Version>3</Version> 
     <Level>4</Level> 
     <Task>7</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:46:18.402515800Z" /> 
-    <EventRecordID>11756509</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:11:22.874806200Z" /> 
+    <EventRecordID>3611661</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="6028" ThreadID="4132" /> 
+    <Execution ProcessID="2332" ThreadID="3796" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:46:18.398</Data> 
-    <Data Name="ProcessGuid">{A98268C1-A12A-5ACD-0000-0010E4C8B300}</Data> 
-    <Data Name="ProcessId">3532</Data> 
-    <Data Name="Image">C:\Windows\System32\cmd.exe</Data> 
-    <Data Name="ImageLoaded">C:\Windows\System32\msvcrt.dll</Data> 
-    <Data Name="FileVersion">7.0.16299.125 (WinBuild.160101.0800)</Data> 
-    <Data Name="Description">Windows NT CRT DLL</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:11:02.553</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9e16-5cc3-0000-001062ac0000}</Data> 
+    <Data Name="ProcessId">608</Data> 
+    <Data Name="Image">C:\Windows\System32\csrss.exe</Data> 
+    <Data Name="ImageLoaded">C:\Windows\System32\sxssrv.dll</Data> 
+    <Data Name="FileVersion">10.0.17763.437 (WinBuild.160101.0800)</Data> 
+    <Data Name="Description">Windows SxS Server DLL</Data> 
     <Data Name="Product">Microsoft® Windows® Operating System</Data> 
     <Data Name="Company">Microsoft Corporation</Data> 
-    <Data Name="Hashes">SHA1=AEB9839D02C99A3E7EED1F12671C3F827221EDF8,MD5=68195105C7D9A2B5DF5BB82ECA521092,SHA256=556FF2B03495E2117223E5697B54253F30BD10ED3C67468947D79945168A624A,IMPHASH=C16CC99941EF5E18707133A2532B7D0C</Data> 
+    <Data Name="Hashes">SHA1=96BAC143846FCA945A5535DD2F96E3DFA322322F,MD5=B08257DDEACDEFFFCF91A743795CBF11,SHA256=6935D53B5F05833E76F87CA3A2A5C5B5D0EE05DD7953487492C8EDCC9E5F6F8F,IMPHASH=4BF8E692F4BD33947C8B7B301408157E</Data> 
     <Data Name="Signed">true</Data> 
     <Data Name="Signature">Microsoft Windows</Data> 
     <Data Name="SignatureStatus">Valid</Data> 

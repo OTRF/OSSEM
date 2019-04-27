@@ -18,7 +18,8 @@ Security audit events organized by their categories:
 
 ## Resources
 
-* [Download Security Audit Events for Windows (Spreadsheet)](https://www.microsoft.com/en-us/download/details.aspx?id=50034)
+* [Download Security Audit Events for Windows - Published 6/17/2016 (Word Doc)](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
+* [Download Security Audit Events for Windows - Published 5/5/2016 (Excel Doc)](https://www.microsoft.com/en-us/download/details.aspx?id=50034)
 * [Advanced Security Audit Policy Settings](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings)
 * [Monitoring Active Directory for Signs of Compromise](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise#audit-account-management)
 * [Audit Policy Recommendations](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations)

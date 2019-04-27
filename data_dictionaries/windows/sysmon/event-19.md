@@ -2,10 +2,10 @@
 title: Event ID 19 - WmiEvent (WmiEventFilter activity detected)
 description: This event logs when a WMI event filter is registered, which is a method used by malware to execute
 log.type: sysmon
-sysmon.version: 8.08
+sysmon.version: 9.01
 sysmon.rule: WmiEvent
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 09/12/2018
+date: 04/26/2019
 ---
 
 # Event ID 19: WmiEvent (WmiEventFilter activity detected)
@@ -22,27 +22,27 @@ When a WMI event filter is registered, which is a method used by malware to exec
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>19</EventID> 
     <Version>3</Version> 
     <Level>4</Level> 
     <Task>19</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-09-11T23:12:46.619343600Z" /> 
-    <EventRecordID>448094</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T01:04:02.146396600Z" /> 
+    <EventRecordID>3631722</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2204" ThreadID="2316" /> 
+    <Execution ProcessID="1432" ThreadID="5672" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-LFD11QP</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
     <Data Name="RuleName" /> 
     <Data Name="EventType">WmiFilterEvent</Data> 
-    <Data Name="UtcTime">2018-09-11 23:12:46.606</Data> 
+    <Data Name="UtcTime">2019-04-27 01:04:02.146</Data> 
     <Data Name="Operation">Created</Data> 
-    <Data Name="User">DESKTOP-LFD11QP\pedro</Data> 
+    <Data Name="User">RIVENDELL\cbrown</Data> 
     <Data Name="EventNamespace">"root\\CimV2"</Data> 
     <Data Name="Name">"Updater"</Data> 
     <Data Name="Query">"SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA 'Win32_PerfFormattedData_PerfOS_System' AND TargetInstance.SystemUpTime >= 240 AND TargetInstance.SystemUpTime < 325"</Data> 

@@ -2,10 +2,10 @@
 title: Event ID 3 - Network connection
 description: The network connection event logs TCP/UDP connections on the machine.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: NetworkConnect
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 3: Network connection
@@ -22,39 +22,40 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>3</EventID> 
     <Version>5</Version> 
     <Level>4</Level> 
     <Task>3</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:29:36.333863500Z" /> 
-    <EventRecordID>11750109</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:10:32.964282300Z" /> 
+    <EventRecordID>3606939</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2152" ThreadID="3236" /> 
+    <Execution ProcessID="2336" ThreadID="3140" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:29:35.394</Data> 
-    <Data Name="ProcessGuid">{A98268C1-957F-5ACD-0000-0010EB030000}</Data> 
-    <Data Name="ProcessId">4</Data> 
-    <Data Name="Image">System</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:10:31.843</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9d71-5cc3-0000-001029c30000}</Data> 
+    <Data Name="ProcessId">820</Data> 
+    <Data Name="Image">C:\Windows\System32\lsass.exe</Data> 
     <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-    <Data Name="Protocol">udp</Data> 
-    <Data Name="Initiated">false</Data> 
+    <Data Name="Protocol">tcp</Data> 
+    <Data Name="Initiated">true</Data> 
     <Data Name="SourceIsIpv6">false</Data> 
-    <Data Name="SourceIp">192.168.64.255</Data> 
-    <Data Name="SourceHostname" /> 
-    <Data Name="SourcePort">138</Data> 
-    <Data Name="SourcePortName">netbios-dgm</Data> 
+    <Data Name="SourceIp">192.168.64.137</Data> 
+    <Data Name="SourceHostname">DESKTOP-LFD11QP.RIVENDELL.local</Data> 
+    <Data Name="SourcePort">49767</Data> 
+    <Data Name="SourcePortName" /> 
     <Data Name="DestinationIsIpv6">false</Data> 
-    <Data Name="DestinationIp">192.168.64.135</Data> 
-    <Data Name="DestinationHostname">DESKTOP-WARDOG.localdomain</Data> 
-    <Data Name="DestinationPort">138</Data> 
-    <Data Name="DestinationPortName">netbios-dgm</Data> 
+    <Data Name="DestinationIp">192.168.64.178</Data> 
+    <Data Name="DestinationHostname">DC-WD-001</Data> 
+    <Data Name="DestinationPort">88</Data> 
+    <Data Name="DestinationPortName">kerberos</Data> 
   </EventData>
 </Event>
 ```

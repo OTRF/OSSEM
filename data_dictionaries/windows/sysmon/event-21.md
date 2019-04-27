@@ -2,10 +2,10 @@
 title: Event ID 21 - WmiEvent (WmiEventConsumerToFilter activity detected)
 description: When a consumer binds to a filter, this event logs the consumer name and filter path.
 log.type: sysmon
-sysmon.version: 8.08
+sysmon.version: 9.01
 sysmon.rule: WmiEvent
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 09/12/2018
+date: 04/26/2019
 ---
 
 # Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)
@@ -22,27 +22,27 @@ When a consumer binds to a filter, this event logs the consumer name and filter 
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>21</EventID> 
     <Version>3</Version> 
     <Level>4</Level> 
     <Task>21</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-09-12T00:47:16.999867600Z" /> 
-    <EventRecordID>482300</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T01:04:06.885559700Z" /> 
+    <EventRecordID>3633050</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2204" ThreadID="3080" /> 
+    <Execution ProcessID="1432" ThreadID="5672" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-LFD11QP</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
     <Data Name="RuleName" /> 
     <Data Name="EventType">WmiBindingEvent</Data> 
-    <Data Name="UtcTime">2018-09-12 00:47:16.997</Data> 
+    <Data Name="UtcTime">2019-04-27 01:04:06.885</Data> 
     <Data Name="Operation">Created</Data> 
-    <Data Name="User">DESKTOP-LFD11QP\pedro</Data> 
+    <Data Name="User">RIVENDELL\cbrown</Data> 
     <Data Name="Consumer">"CommandLineEventConsumer.Name=\"Updater\""</Data> 
     <Data Name="Filter">"__EventFilter.Name=\"Updater\""</Data> 
   </EventData>

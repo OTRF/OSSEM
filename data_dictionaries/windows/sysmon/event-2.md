@@ -2,10 +2,10 @@
 title: Event ID 2 - A process changed a file creation time
 description: The change file creation time event is registered when a file creation time is explicitly modified by a process.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: FileCreateTime
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 2: A process changed a file creation time
@@ -22,30 +22,30 @@ The change file creation time event is registered when a file creation time is e
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>2</EventID> 
     <Version>4</Version> 
     <Level>4</Level> 
     <Task>2</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:04:27.222624200Z" /> 
-    <EventRecordID>11469394</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:10:30.035445300Z" /> 
+    <EventRecordID>3605382</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2152" ThreadID="3392" /> 
+    <Execution ProcessID="2336" ThreadID="3652" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>DESKTOP-LFD11QP.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
-    </System>
+  </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:04:27.211</Data> 
-    <Data Name="ProcessGuid">{A98268C1-975A-5ACD-0000-0010DB073A00}</Data> 
-    <Data Name="ProcessId">1252</Data> 
-    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data> 
-    <Data Name="TargetFilename">C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\
-    7G23PHTPHSQ3S2RVKKPS.temp</Data> 
-    <Data Name="CreationUtcTime">2017-11-13 16:57:51.663</Data> 
-    <Data Name="PreviousCreationUtcTime">2018-04-11 05:04:27.179</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:10:30.008</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9dc6-5cc3-0000-0010604f1300}</Data> 
+    <Data Name="ProcessId">6944</Data> 
+    <Data Name="Image">C:\Users\cbrown\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data> 
+    <Data Name="TargetFilename">C:\Users\cbrown\AppData\Local\Microsoft\OneDrive\settings\Personal\global.temp.ini</Data> 
+    <Data Name="CreationUtcTime">2018-10-21 00:54:18.030</Data> 
+    <Data Name="PreviousCreationUtcTime">2018-10-21 00:54:18.030</Data> 
   </EventData>
 </Event>
 ```

@@ -2,10 +2,10 @@
 title: Event ID 1 - Process creation
 description: The process creation event provides extended information about a newly created process.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: ProcessCreate
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 1: Process creation
@@ -22,42 +22,43 @@ The process creation event provides extended information about a newly created p
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>1</EventID> 
     <Version>5</Version> 
     <Level>4</Level> 
     <Task>1</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:25:02.959125700Z" /> 
-    <EventRecordID>11748095</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:11:20.660478200Z" /> 
+    <EventRecordID>3609953</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2152" ThreadID="3392" /> 
+    <Execution ProcessID="2332" ThreadID="3784" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:25:02.955</Data> 
-    <Data Name="ProcessGuid">{A98268C1-9C2E-5ACD-0000-0010396CAB00}</Data> 
-    <Data Name="ProcessId">4756</Data> 
-    <Data Name="Image">C:\Windows\System32\conhost.exe</Data> 
-    <Data Name="FileVersion">10.0.16299.15 (WinBuild.160101.0800)</Data> 
-    <Data Name="Description">Console Window Host</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:11:17.717</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9e25-5cc3-0000-00108b7d0500}</Data> 
+    <Data Name="ProcessId">3632</Data> 
+    <Data Name="Image">C:\Windows\System32\msdtc.exe</Data> 
+    <Data Name="FileVersion">2001.12.10941.16384 (WinBuild.160101.0800)</Data> 
+    <Data Name="Description">Microsoft Distributed Transaction Coordinator Service</Data> 
     <Data Name="Product">Microsoft® Windows® Operating System</Data> 
     <Data Name="Company">Microsoft Corporation</Data> 
-    <Data Name="CommandLine">\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1</Data> 
-    <Data Name="CurrentDirectory">C:\WINDOWS</Data> 
-    <Data Name="User">DESKTOP-WARDOG\wardog</Data> 
-    <Data Name="LogonGuid">{A98268C1-95F2-5ACD-0000-002019620F00}</Data> 
-    <Data Name="LogonId">0xf6219</Data> 
-    <Data Name="TerminalSessionId">1</Data> 
-    <Data Name="IntegrityLevel">Medium</Data> 
-    <Data Name="Hashes">SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2,MD5=6A255BEBF3DBCD13585538ED47DBAFD7,SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C,IMPHASH=2505BD03D7BD285E50CE89CEC02B333B</Data> 
-    <Data Name="ParentProcessGuid">{A98268C1-9C2E-5ACD-0000-00100266AB00}</Data> 
-    <Data Name="ParentProcessId">240</Data> 
-    <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data> 
-    <Data Name="ParentCommandLine">"C:\WINDOWS\system32\cmd.exe"</Data> 
+    <Data Name="CommandLine">C:\WINDOWS\System32\msdtc.exe</Data> 
+    <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data> 
+    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data> 
+    <Data Name="LogonGuid">{1c9fdc81-9e17-5cc3-0000-0020e4030000}</Data> 
+    <Data Name="LogonId">0x3e4</Data> 
+    <Data Name="TerminalSessionId">0</Data> 
+    <Data Name="IntegrityLevel">System</Data> 
+    <Data Name="Hashes">SHA1=A002BC39095E7F9A3C3281505A42876F480FB95F,MD5=7215CE218BDEAD41B708F098258CF972,SHA256=1EAB4B9691E9EFA1DA02BDCB84035F65EDA4B525E5AEE925A6E1E4107F8E4F31,IMPHASH=D76D41E51FC79BF5C56F90FE6A798765</Data> 
+    <Data Name="ParentProcessGuid">{1c9fdc81-9e16-5cc3-0000-0010c5ba0000}</Data> 
+    <Data Name="ParentProcessId">780</Data> 
+    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data> 
+    <Data Name="ParentCommandLine">C:\WINDOWS\system32\services.exe</Data> 
   </EventData>
 </Event>
 ```

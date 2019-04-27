@@ -2,10 +2,10 @@
 title: Event ID 10 - ProcessAccess
 description: The process accessed event reports when a process opens another process.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: ProcessAccess
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 10: ProcessAccess
@@ -22,32 +22,33 @@ The process accessed event reports when a process opens another process, an oper
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>10</EventID> 
     <Version>3</Version> 
     <Level>4</Level> 
     <Task>10</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:18:56.568570800Z" /> 
-    <EventRecordID>11739559</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:11:22.803959000Z" /> 
+    <EventRecordID>3611653</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2152" ThreadID="3392" /> 
+    <Execution ProcessID="2332" ThreadID="3784" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:18:56.566</Data> 
-    <Data Name="SourceProcessGUID">{A98268C1-9587-5ACD-0000-001004C40000}</Data> 
-    <Data Name="SourceProcessId">916</Data> 
-    <Data Name="SourceThreadId">2804</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:11:22.789</Data> 
+    <Data Name="SourceProcessGUID">{1c9fdc81-9e18-5cc3-0000-00108c680100}</Data> 
+    <Data Name="SourceProcessId">1252</Data> 
+    <Data Name="SourceThreadId">2084</Data> 
     <Data Name="SourceImage">C:\WINDOWS\system32\svchost.exe</Data> 
-    <Data Name="TargetProcessGUID">{A98268C1-9597-5ACD-0000-00101D690200}</Data> 
-    <Data Name="TargetProcessId">2288</Data> 
-    <Data Name="TargetImage">C:\ProgramData\Microsoft\Windows Defender\platform\4.12.17007.18022-0\MsMpEng.exe</Data> 
+    <Data Name="TargetProcessGUID">{1c9fdc81-9e18-5cc3-0000-001021790100}</Data> 
+    <Data Name="TargetProcessId">1340</Data> 
+    <Data Name="TargetImage">C:\WINDOWS\system32\svchost.exe</Data> 
     <Data Name="GrantedAccess">0x1000</Data> 
-    <Data Name="CallTrace">C:\WINDOWS\SYSTEM32\ntdll.dll+a0344|C:\WINDOWS\System32\KERNELBASE.dll+64794|c:\windows\system32\lsm.dll+10e93|c:\windows\system32\lsm.dll+f9ea|C:\WINDOWS\System32\RPCRT4.dll+76d23|C:\WINDOWS\System32\RPCRT4.dll+d9390|C:\WINDOWS\System32\RPCRT4.dll+a81c|C:\WINDOWS\System32\RPCRT4.dll+273b4|C:\WINDOWS\System32\RPCRT4.dll+2654e|C:\WINDOWS\System32\RPCRT4.dll+26cfb|C:\WINDOWS\System32\RPCRT4.dll+3083f|C:\WINDOWS\System32\RPCRT4.dll+313a6|C:\WINDOWS\System32\RPCRT4.dll+2d12e|C:\WINDOWS\System32\RPCRT4.dll+2e853|C:\WINDOWS\System32\RPCRT4.dll+5cc68|C:\WINDOWS\SYSTEM32\ntdll.dll+365ce|C:\WINDOWS\SYSTEM32\ntdll.dll+34b46|C:\WINDOWS\System32\KERNEL32.DLL+11fe4|C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1</Data> 
+    <Data Name="CallTrace">C:\WINDOWS\SYSTEM32\ntdll.dll+9fb54|C:\WINDOWS\System32\KERNELBASE.dll+20d0e|c:\windows\system32\fwbase.dll+16e5|c:\windows\system32\fwbase.dll+1639|c:\windows\system32\mpssvc.dll+e42d|c:\windows\system32\mpssvc.dll+cf2b|c:\windows\system32\mpssvc.dll+cca7|C:\WINDOWS\System32\RPCRT4.dll+77803|C:\WINDOWS\System32\RPCRT4.dll+db4a6|C:\WINDOWS\System32\RPCRT4.dll+10d20|C:\WINDOWS\System32\RPCRT4.dll+54a38|C:\WINDOWS\System32\RPCRT4.dll+304b0|C:\WINDOWS\System32\RPCRT4.dll+2fe5b|C:\WINDOWS\System32\RPCRT4.dll+221ff|C:\WINDOWS\System32\RPCRT4.dll+2165a|C:\WINDOWS\System32\RPCRT4.dll+20c21|C:\WINDOWS\System32\RPCRT4.dll+20692|C:\WINDOWS\System32\RPCRT4.dll+17465|C:\WINDOWS\SYSTEM32\ntdll.dll+4f4c0|C:\WINDOWS\SYSTEM32\ntdll.dll+50348|C:\WINDOWS\System32\KERNEL32.DLL+17974|C:\WINDOWS\SYSTEM32\ntdll.dll+6a271</Data> 
   </EventData>
 </Event>
 ```
