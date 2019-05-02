@@ -20,7 +20,7 @@ This event generates every time a new process starts.
 |	user_logon_id	|	SubjectLogonId	|	integer	|	contains error code for Failure events. For Success events this parameter has “0x0” value. hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x3e7	|
 |	process_id	|	NewProcessId	|	integer	|	hexadecimal Process ID of the new process.	|	0x2bc	|
 |	process_name	|	NewProcessName	|	string	|	full path and the name of the executable for the new process.	|	C:\\Windows\\System32\\rundll32.exe	|
-|	process_token_elevation_type	|	TokenElevationType	|	integer	|	Token elevation type. It can be Default(1), Full(2) or Limited(3)	|	%%1938	|
+|	process_token_elevation_type	|	TokenElevationType	|	string	|	Token elevation type. It can be Default(1), Full(2) or Limited(3)	|	%%1938	|
 |	process_parent_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process which ran the new process.	|	0xe74	|
 |	process_command_line	|	CommandLine	|	string	|	contains the name of executable and arguments which were passed to it. You must enable “Administrative Templates\System\Audit Process Creation\Include command line in process creation events” group policy to include command line in process creation events	|		|
 |	target_user_sid	|	TargetUserSid	|	string	|	SID of target account.	|	S-1-5-21-1377283216-344919071-3415362939-1104	|

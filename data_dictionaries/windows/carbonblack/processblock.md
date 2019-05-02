@@ -30,9 +30,9 @@ A process was blocked from executing on an endpoint monitored by Carbon Black be
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
-|		|	blocked_event	|	TEXT	|	The type of event that was blocked: either ProcessCreate (the process was terminated immediately upon execution) or RunningProcess (the process was already running on the endpoint when the block was applied).	|	ProcessCreate	|
-|		|	blocked_reason	|	TEXT	|	The reason for block action (Md5Hash is the only possible value)	|	Md5Hash	|
-|		|	blocked_result	|	TEXT	|	The result of the blocked action: ProcessTerminated, NotTerminatedCBProcess, NotTerminatedSystemProcess, NotTerminatedCriticalSystemProcess, NotTerminatedWhitelistPath, NotTerminatedOpenProcessError, or NotTerminatedTerminateError.	|	ProcessTerminated	|
+|	blocked_event	|	blocked_event	|	TEXT	|	The type of event that was blocked: either ProcessCreate (the process was terminated immediately upon execution) or RunningProcess (the process was already running on the endpoint when the block was applied).	|	ProcessCreate	|
+|	blocked_reason	|	blocked_reason	|	TEXT	|	The reason for block action (Md5Hash is the only possible value)	|	Md5Hash	|
+|	blocked_result	|	blocked_result	|	TEXT	|	The result of the blocked action: ProcessTerminated, NotTerminatedCBProcess, NotTerminatedSystemProcess, NotTerminatedCriticalSystemProcess, NotTerminatedWhitelistPath, NotTerminatedOpenProcessError, or NotTerminatedTerminateError.	|	ProcessTerminated	|
 |	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
 |	process_command_line	|	command_line	|	TEXT	|	Command line associated with the blocked process	|	\"C:\\Program Files\\Microsoft Games\\hearts\\hearts.exe\" 	|
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|

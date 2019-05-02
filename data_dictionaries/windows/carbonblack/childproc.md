@@ -33,7 +33,7 @@ A process has spawned another process on an endpoint monitored by Carbon Black.
 |	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
 |	process_child_guid	|	child_process_guid	|	TEXT	|	process guid of the child process	|	00000001-0000-07b4-01d1-209a100bc217	|
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|
-|		|	created	|	BOOLEAN	|	Specifies whether this process_guid is the child or the parent	|	true	|
+|   created    |	created	|	BOOLEAN	|	Specifies whether this process_guid is the child or the parent	|	true	|
 |	event_type	|	event_type	|	TEXT	|	The type of event	|	childproc	|
 |	process_child_link	|	link_child	|	TEXT	|	Deep link to Cb Response UI for child process	|	https://cbtests/#analyze/00000001-0000-07b4-01d1-209a100bc217/1	|
 |	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for parent process	|	https://cbtests/#analyze/00000001-0000-0af4-01d1-1e444bf4c3dd/1	|

@@ -24,7 +24,7 @@ This event generates for new account logons and contains user/device claims whic
 |	user_sid	|	TargetUserSid	|	string	|	SID of account for which logon was performed.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account for which logon was performed	|	dadmin	|
 |	user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
-|	user_logon_id	|	TargetLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID		0x136f7b	
+|	user_logon_id	|	TargetLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|		0x136f7b |	
 |	logon_type	|	LogonType	|	integer	|	the type of logon which was performed.	|	3	|
 |	event_sequence_id	|	EventIdx	|	integer	|	If is there is not enough space in one event to put all claims, you will see “1 of N” in this field and additional events will be generated. Typically this field has “1 of 1” value.	|	1	|
 |	event_count_total	|	EventCountTotal	|	integer	|	The name of the authentication package which was used for the logon authentication process. Default packages loaded on LSA startup are located in “HKLM\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig” registry key.	|	1	|

@@ -17,9 +17,9 @@ DLL loading events
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
-|		|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
-|		|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
-|		|	ActionType	|	string	|	Type of activity that triggered the event	|		|
+|	machine_id	|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
+|	computer_name	|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
+|	action_type	|	ActionType	|	string	|	Type of activity that triggered the event	|		|
 |	file_name	|	FileName	|	string	|	Name of the file that the recorded action was applied to	|		|
 |	file_path	|	FolderPath	|	string	|	Folder containing the file that the recorded action was applied to	|		|
 |	hash_sha1	|	SHA1	|	string	|	SHA-1 of the file that the recorded action was applied to	|		|
@@ -39,5 +39,5 @@ DLL loading events
 |	process_parent_id	|	InitiatingProcessParentId	|	int	|	Process ID (PID) of the parent process that spawned the process responsible for the event	|		|
 |	process_parent_name	|	InitiatingProcessParentFileName	|	string	|	Name of the parent process that spawned the process responsible for the event	|		|
 |	process_parent_creation_time	|	InitiatingProcessParentCreationTime	|	date	|	Date and time when the parent of the process responsible for the event was started	|		|
-|		|	ReportId	|	long	|	Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.	|		|
-|		|	AppGuardContainerId	|	string	|	Identifier for the virtualized container used by Application Guard to isolate browser activity	|		|
+|	report_id	|	ReportId	|	long	|	Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.	|		|
+|	app_guard_container_id	|	AppGuardContainerId	|	string	|	Identifier for the virtualized container used by Application Guard to isolate browser activity	|		|

@@ -32,13 +32,13 @@ A file on the filesystem has been created, deleted, or modified on an endpoint m
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
-|		|	action	|	TEXT	|	Type of file modification: create, write, delete, lastwrite	|	create	|
-|		|	actiontype	|	INTEGER	|	Enum value of the file modification: 1=create, 2=write, 4=delete, 8=lastwrite	|	1	|
+|	action	|	action	|	TEXT	|	Type of file modification: create, write, delete, lastwrite	|	create	|
+|   actiontype		|	actiontype	|	INTEGER	|	Enum value of the file modification: 1=create, 2=write, 4=delete, 8=lastwrite	|	1	|
 |	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|
 |	event_type	|	event_type	|	TEXT	|	The type of event	|	filemod	|
-|		|	filetype	|	INTEGER	|	Enum value of the detected file type of this file. Only valid for “lastwrite” actions. See the CbFileType protobuf definition for the available values.	|	0	|
-|		|	filetype_name	|	TEXT	|		The detected file type of this file. Only valid for “lastwrite” actions. Currently supported file types: PE, ELF, UniversalBin, Eicar, OfficeLegacy, OfficeOpenXml, PDF, PKZIP, LZH, LZW, RAR, TAR, and 7zip.	|	Unknown	|
+|	filetype	|	filetype	|	INTEGER	|	Enum value of the detected file type of this file. Only valid for “lastwrite” actions. See the CbFileType protobuf definition for the available values.	|	0	|
+|	filetype_name	|	filetype_name	|	TEXT	|		The detected file type of this file. Only valid for “lastwrite” actions. Currently supported file types: PE, ELF, UniversalBin, Eicar, OfficeLegacy, OfficeOpenXml, PDF, PKZIP, LZH, LZW, RAR, TAR, and 7zip.	|	Unknown	|
 |	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for process	|	https://cbtests/#analyze/00000001-0000-0c70-01d1-1e951aae7e2f/1	|
 |	sensor_link	|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/1	|
 |	hash	|	md5	|	TEXT	|	md5 of process executable	|	7A2870C2A8283B3630BF7670D0362B94	|
