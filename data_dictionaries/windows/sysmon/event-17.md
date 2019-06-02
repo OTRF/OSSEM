@@ -56,4 +56,5 @@ This event generates when a named pipe is created. Malware often uses named pipe
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that created the pipe	|	{A98268C1-A968-5ACD-0000-0010BD4EC200}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that created the pipe	|	1224	|
 |	pipe_name	|	PipeName	|	string	|	Name of the pipe created	|	Anonymous Pipe	|
-|	process_name	|	Image	|	string	|	File path of the process that created the pipe	|	C:\WINDOWS\system32\cmd.exe	|
+|	process_name	|	Image	|	string	|	File name of the process that created the pipe	|	cmd.exe	|
+|	process_path	|	Image	|	string	|	File path of the process that created the pipe	|	C:\WINDOWS\system32\cmd.exe	|
