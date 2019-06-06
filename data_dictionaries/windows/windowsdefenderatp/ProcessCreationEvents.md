@@ -17,9 +17,9 @@ Process creation and related events
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
-|		|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
-|		|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
-|		|	ActionType	|	string	|	Type of activity that triggered the event	|		|
+|	machine_id	|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
+|	computer_name	|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
+|	action_type	|	ActionType	|	string	|	Type of activity that triggered the event	|		|
 |	process_name	|	FileName	|	string	|	Name of the file that the recorded action was applied to	|		|
 |	process_path	|	FolderPath	|	string	|	Folder containing the file that the recorded action was applied to	|		|
 |	hash_sha1	|	SHA1	|	string	|	SHA-1 of the file that the recorded action was applied to	|		|
@@ -46,10 +46,10 @@ Process creation and related events
 |	process_parent_command_line	|	InitiatingProcessCommandLine	|	string	|	Command line used to run the process that initiated the event	|		|
 |	process_parent_creation_time	|	InitiatingProcessCreationTime	|	date	|	Date and time when the process that initiated the event was started	|		|
 |	process_parent_path	|	InitiatingProcessFolderPath	|	string	|	Folder containing the process (image file) that initiated the event	|		|
-|		|	InitiatingProcessParentId	|	int	|	Process ID (PID) of the parent process that spawned the process responsible for the event	|		|
-|		|	InitiatingProcessParentFileName	|	string	|	Name of the parent process that spawned the process responsible for the event	|		|
-|		|	InitiatingProcessParentCreationTime	|	date	|	Date and time when the parent of the process responsible for the event was started	|		|
-|		|	ReportId	|	long	|	Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.	|		|
-|		|	AppGuardContainerId	|	string	|	Identifier for the virtualized container used by Application Guard to isolate browser activity	|		|
+|	initiating_process_parent_id	|	InitiatingProcessParentId	|	int	|	Process ID (PID) of the parent process that spawned the process responsible for the event	|		|
+|	initiating_process_parent_file_name	|	InitiatingProcessParentFileName	|	string	|	Name of the parent process that spawned the process responsible for the event	|		|
+|	initiating_process_parent_creation_time	|	InitiatingProcessParentCreationTime	|	date	|	Date and time when the parent of the process responsible for the event was started	|		|
+|	report_id	|	ReportId	|	long	|	Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.	|		|
+|	app_guard_container_id	|	AppGuardContainerId	|	string	|	Identifier for the virtualized container used by Application Guard to isolate browser activity	|		|
 |	hash_sha256	|	SHA256	|	string	|	SHA-256 of the file that the recorded action was applied to. This field is usually not populated—use the SHA1 column when available.	|		|
 |	process_parent_sha256_hash	|	InitiatingProcessSHA256	|	string	|	SHA-256 of the process (image file) that initiated the event. This field is usually not populated—use the SHA1 column when available.	|		|

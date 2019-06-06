@@ -23,7 +23,7 @@ Interactive filesystem attributes and metadata.
 |	file_size	|	size	|	BIGINT	|	Size of file in bytes	|		|
 |	file_system_block_size	|	block_size	|	INTEGER	|	Block size of filesystem	|		|
 |	date_last_access	|	atime	|	BIGINT	|	Last access time	|		|
-|	dale_last_modification	|	mtime	|	BIGINT	|	Last modification time	|		|
+|	date_last_modification	|	mtime	|	BIGINT	|	Last modification time	|		|
 |	date_last_status_change	|	ctime	|	BIGINT	|	Last status change time	|		|
 |	date_creation_time	|	btime	|	BIGINT	|	(B)irth or (cr)eate time	|		|
 |	file_hard_links	|	hard_links	|	INTEGER	|	Number of hard links	|		|

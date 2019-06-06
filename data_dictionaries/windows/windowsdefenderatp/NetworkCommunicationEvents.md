@@ -17,9 +17,9 @@ Network connection and related events
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
-|		|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
-|		|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
-|		|	ActionType	|	string	|	Type of activity that triggered the event	|		|
+|	machine_id	|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
+|	computer_name	|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
+|	action_type	|	ActionType	|	string	|	Type of activity that triggered the event	|		|
 |	dst_ip	|	RemoteIP	|	string	|	IP address that was being connected to	|		|
 |	dst_port	|	RemotePort	|	int	|	TCP port on the remote device that was being connected to	|		|
 |	dst_host_name	|	RemoteUrl	|	string	|	URL or fully qualified domain name (FQDN) that was being connected to	|		|
@@ -43,5 +43,5 @@ Network connection and related events
 |	user_sid	|	InitiatingProcessAccountSid	|	string	|	Security Identifier (SID) of the account that ran the process responsible for the event	|		|
 |	process_integrity_level	|	InitiatingProcessIntegrityLevel	|	string	|	Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.	|		|
 |	process_token_elevation	|	InitiatingProcessTokenElevation	|	string	|	Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event	|		|
-|		|	ReportId	|	long	|	Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.	|		|
-|		|	AppGuardContainerId	|	string	|	Identifier for the virtualized container used by Application Guard to isolate browser activity	|		|
+|	report_id	|	ReportId	|	long	|	Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.	|		|
+|	app_guard_container_id	|	AppGuardContainerId	|	string	|	Identifier for the virtualized container used by Application Guard to isolate browser activity	|		|

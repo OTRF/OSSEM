@@ -22,7 +22,7 @@ Important: If you manually change any user-related setting or attribute, for exa
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|		|	ComputerAccountChange	|	string	|		|	-	|
+|	computer_account_change	|	ComputerAccountChange	|	string	|		|	-	|
 |	target_host_name	|	TargetUserName	|	string	|	the name of the computer account that was changed.	|	WIN81$	|
 |	target_host_domain	|	TargetDomainName	|	string	|	domain name of changed computer account.	|	CONTOSO	|
 |	target_host_sid	|	TargetSid	|	string	|	SID of changed computer account.	|	S-1-5-21-3457937927-2839227994-823803824-6116	|
