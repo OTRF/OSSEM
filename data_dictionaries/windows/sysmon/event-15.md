@@ -54,7 +54,7 @@ This event logs when a named file stream is created, and it generates events tha
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that created the named file stream	|	{A98268C1-A8A0-5ACD-0000-001087DEBF00}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that created the named file stream	|	6972	|
 |	process_name	|	Image	|	string	|	File path of the process that created the named file stream	|	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe	|

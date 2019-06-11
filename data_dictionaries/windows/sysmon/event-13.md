@@ -55,7 +55,7 @@ This Registry event type identifies Registry value modifications. The event reco
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	event_type	|	EventType	|	string	|	registry event. Registry values modifications	|	SetValue	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:04	|
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:04	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that modified a registry value	|	{A98268C1-95F9-5ACD-0000-001025861000}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that that modified a registry value	|	4624	|
 |	process_name	|	Image	|	string	|	File path of the process that that modified a registry value	|	C:\WINDOWS\Explorer.EXE	|

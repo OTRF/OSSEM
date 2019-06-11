@@ -56,7 +56,7 @@ This event logs the registration of WMI consumers, recording the consumer name, 
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	tag	|	RuleName |	string	|	custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
 |	event_type	|	EventType	|	string	|	wmievent type 	|	WmiConsumerEvent	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	2018-09-11 23:12:46.606	|
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	2018-09-11 23:12:46.606	|
 |	wmi_operation	|	Operation	|	string	|	wmievent filter operation	|	Created |
 |	user_name	|	User	|	string	|	user that created the wmi  consumer	|	DESKTOP-LFD11QP\pedro	|
 |	wmi_consumer_name	|	Name	|	string	|	name of the consumer created	|	Updater	|
