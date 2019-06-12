@@ -2,10 +2,10 @@
 title: Event ID 1 - Process creation
 description: The process creation event provides extended information about a newly created process.
 log.type: sysmon
-sysmon.version: 9.01
+sysmon.version: 10.0
 sysmon.rule: ProcessCreate
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/26/2019
+date: 06/11/2019
 ---
 
 # Event ID 1: Process creation
@@ -22,43 +22,44 @@ The process creation event provides extended information about a newly created p
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
     <EventID>1</EventID> 
     <Version>5</Version> 
     <Level>4</Level> 
     <Task>1</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2019-04-27T00:11:20.660478200Z" /> 
-    <EventRecordID>3609953</EventRecordID> 
+    <TimeCreated SystemTime="2019-06-12T00:48:53.300422700Z" /> 
+    <EventRecordID>6526518</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2332" ThreadID="3784" /> 
+    <Execution ProcessID="2312" ThreadID="3800" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>WARDOG.RIVENDELL.local</Computer> 
+    <Computer>DESKTOP-WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
     <Data Name="RuleName" /> 
-    <Data Name="UtcTime">2019-04-27 00:11:17.717</Data> 
-    <Data Name="ProcessGuid">{1c9fdc81-9e25-5cc3-0000-00108b7d0500}</Data> 
-    <Data Name="ProcessId">3632</Data> 
-    <Data Name="Image">C:\Windows\System32\msdtc.exe</Data> 
-    <Data Name="FileVersion">2001.12.10941.16384 (WinBuild.160101.0800)</Data> 
-    <Data Name="Description">Microsoft Distributed Transaction Coordinator Service</Data> 
+    <Data Name="UtcTime">2019-06-12 00:48:53.295</Data> 
+    <Data Name="ProcessGuid">{A98268C1-4BF5-5D00-0000-00102A7B2B00}</Data> 
+    <Data Name="ProcessId">6364</Data> 
+    <Data Name="Image">C:\Windows\System32\wuauclt.exe</Data> 
+    <Data Name="FileVersion">10.0.17134.1 (WinBuild.160101.0800)</Data> 
+    <Data Name="Description">Windows Update</Data> 
     <Data Name="Product">Microsoft® Windows® Operating System</Data> 
     <Data Name="Company">Microsoft Corporation</Data> 
-    <Data Name="CommandLine">C:\WINDOWS\System32\msdtc.exe</Data> 
+    <Data Name="OriginalFileName">wuauclt.exe</Data> 
+    <Data Name="CommandLine">"C:\WINDOWS\system32\wuauclt.exe" /RunHandlerComServer</Data> 
     <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data> 
-    <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data> 
-    <Data Name="LogonGuid">{1c9fdc81-9e17-5cc3-0000-0020e4030000}</Data> 
-    <Data Name="LogonId">0x3e4</Data> 
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
+    <Data Name="LogonGuid">{A98268C1-48F4-5D00-0000-0020E7030000}</Data> 
+    <Data Name="LogonId">0x3e7</Data> 
     <Data Name="TerminalSessionId">0</Data> 
     <Data Name="IntegrityLevel">System</Data> 
-    <Data Name="Hashes">SHA1=A002BC39095E7F9A3C3281505A42876F480FB95F,MD5=7215CE218BDEAD41B708F098258CF972,SHA256=1EAB4B9691E9EFA1DA02BDCB84035F65EDA4B525E5AEE925A6E1E4107F8E4F31,IMPHASH=D76D41E51FC79BF5C56F90FE6A798765</Data> 
-    <Data Name="ParentProcessGuid">{1c9fdc81-9e16-5cc3-0000-0010c5ba0000}</Data> 
-    <Data Name="ParentProcessId">780</Data> 
-    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data> 
-    <Data Name="ParentCommandLine">C:\WINDOWS\system32\services.exe</Data> 
+    <Data Name="Hashes">SHA1=E82AC9345FBEFC100FF16D66536877502AB2C017,MD5=C8F7FA1A3A3B23DF12A2BCF4B500DEE1,SHA256=E666AC2934A9BA6C65531E4E258C9BEBD7C311C6A378A6ACCEFFDF7F9741B4A8,IMPHASH=E799C2BD8BC66603D6DDC95F2DB31A18</Data> 
+    <Data Name="ParentProcessGuid">{A98268C1-48F5-5D00-0000-00103C410100}</Data> 
+    <Data Name="ParentProcessId">1040</Data> 
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data> 
+    <Data Name="ParentCommandLine">C:\WINDOWS\system32\svchost.exe -k netsvcs -p</Data> 
   </EventData>
 </Event>
 ```
@@ -76,6 +77,7 @@ The process creation event provides extended information about a newly created p
 |	file_description	|	Description	|	string	|	Description of the image associated with the main process (child)	|	Console Window Host	|
 |	file_product	|	Product	|	string	|	Product name the image associated with the main process (child) belongs to	|	Microsoft® Windows® Operating System	|
 |	file_company	|	Company	|	string	|	Company name the image associated with the main process (child) belongs to	|	Microsoft Corporation	|
+| file_name_original | OriginalFileName | string | original file name | wuauclt.exe |
 |	process_command_line	|	CommandLine	|	string	|	Arguments which were passed to the executable associated with the main process	|	??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1	|
 |	file_current_directory	|	CurrentDirectory	|	string	|	The path without the name of the image associated with the process	|	C:\WINDOWS	|
 |	user_name	|	User	|	string	|	Name of the account who created the process (child) . It usually contains domain name and user name (Parsed to show only username without the domain)	|	DESKTOP-WARDOG\wardog	|

@@ -22,35 +22,36 @@ The image loaded event logs when a module is loaded in a specific process. This 
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
     <EventID>7</EventID> 
     <Version>3</Version> 
     <Level>4</Level> 
     <Task>7</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2019-04-27T00:11:22.874806200Z" /> 
-    <EventRecordID>3611661</EventRecordID> 
+    <TimeCreated SystemTime="2019-06-12T00:53:09.437770100Z" /> 
+    <EventRecordID>6562598</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2332" ThreadID="3796" /> 
+    <Execution ProcessID="2312" ThreadID="3808" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>WARDOG.RIVENDELL.local</Computer> 
+    <Computer>DESKTOP-WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
-  </System>
+    </System>
   <EventData>
     <Data Name="RuleName" /> 
-    <Data Name="UtcTime">2019-04-27 00:11:02.553</Data> 
-    <Data Name="ProcessGuid">{1c9fdc81-9e16-5cc3-0000-001062ac0000}</Data> 
-    <Data Name="ProcessId">608</Data> 
-    <Data Name="Image">C:\Windows\System32\csrss.exe</Data> 
-    <Data Name="ImageLoaded">C:\Windows\System32\sxssrv.dll</Data> 
-    <Data Name="FileVersion">10.0.17763.437 (WinBuild.160101.0800)</Data> 
-    <Data Name="Description">Windows SxS Server DLL</Data> 
-    <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+    <Data Name="UtcTime">2019-06-12 00:53:09.400</Data> 
+    <Data Name="ProcessGuid">{A98268C1-4902-5D00-0000-0010B06C0300}</Data> 
+    <Data Name="ProcessId">3336</Data> 
+    <Data Name="Image">C:\Windows\System32\wbem\WmiPrvSE.exe</Data> 
+    <Data Name="ImageLoaded">C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorwks.dll</Data> 
+    <Data Name="FileVersion">2.0.50727.8941 (WinRelRS4.050727-8900)</Data> 
+    <Data Name="Description">Microsoft .NET Runtime Common Language Runtime - WorkStation</Data> 
+    <Data Name="Product">Microsoft® .NET Framework</Data> 
     <Data Name="Company">Microsoft Corporation</Data> 
-    <Data Name="Hashes">SHA1=96BAC143846FCA945A5535DD2F96E3DFA322322F,MD5=B08257DDEACDEFFFCF91A743795CBF11,SHA256=6935D53B5F05833E76F87CA3A2A5C5B5D0EE05DD7953487492C8EDCC9E5F6F8F,IMPHASH=4BF8E692F4BD33947C8B7B301408157E</Data> 
+    <Data Name="OriginalFileName">?</Data> 
+    <Data Name="Hashes">SHA1=7E409FF7E28EC847E08DC329AD39609CA8198726,MD5=0485F3060BC9B591D7934214854D6062,SHA256=89E265B3339C6D159A9E8D58B2C6B289739C08C872CBD1361D3ECE2E35BE4285,IMPHASH=935807DE361D1D4C00670D8AAF7F807F</Data> 
     <Data Name="Signed">true</Data> 
-    <Data Name="Signature">Microsoft Windows</Data> 
+    <Data Name="Signature">Microsoft Corporation</Data> 
     <Data Name="SignatureStatus">Valid</Data> 
   </EventData>
 </Event>
@@ -69,6 +70,7 @@ The image loaded event logs when a module is loaded in a specific process. This 
 |	file_description	|	Description	|	string	|	Description of the image loaded	|	Windows NT CRT DLL	|
 |	file_product	|	Product	|	string	|	Product name the image loaded belongs to	|	Microsoft® Windows® Operating System	|
 |	file_company	|	Company	|	string	|	Company name the image loaded belongs to	|	Microsoft Corporation	|
+| file_name_original | OriginalFileName | string | original file name | ? |
 |	hash	|	Hashes	|	string	|	hash is a full hash of the file with the algorithms in the HashType field	|	SHA1=AEB9839D02C99A3E7EED1F12671C3F827221EDF8, MD5=68195105C7D9A2B5DF5BB82ECA521092, SHA256=556FF2B03495E2117223E5697B54253F30BD10ED3C67468947D79945168A624A, IMPHASH=C16CC99941EF5E18707133A2532B7D0C	|
 |	module_is_signed	|	Signed	|	boolean	|	is the image loaded signed	|	TRUE	|
 |	module_signature	|	Signature	|	string	|	The signer	|	Microsoft Corporation	|
