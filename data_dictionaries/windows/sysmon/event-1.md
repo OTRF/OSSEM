@@ -15,7 +15,7 @@ The process creation event provides extended information about a newly created p
 
 ## Event Log Illustration
 
-<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-1.png" alt="Event 2 illustration" width="625" height="625">
+<img src="https://github.com/Cyb3rWard0g/OSSEM/blob/master/resources/images/event-1.png" alt="Event 1 illustration" width="500" height="600">
 
 ## Event XML
 
