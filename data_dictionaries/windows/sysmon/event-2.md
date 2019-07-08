@@ -54,6 +54,7 @@ The change file creation time event is registered when a file creation time is e
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
 |	event_date_creation	|	UtcTime	|	date | Time in UTC when event was created	|	4/11/18 5:04 |
 |	process_guid | ProcessGuid	|	string | Process Guid of the process that changed the file creation time | {A98268C1-975A-5ACD-0000-0010DB073A00} |
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process changing the file creation time	|	1252 |

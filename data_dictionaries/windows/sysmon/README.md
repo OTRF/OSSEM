@@ -35,6 +35,10 @@
 
 [sysmon9.0.1.tar.gz](./sysmon9_0_1.tar.gz)
 
-## Data Schema
+## Data Manifest Schema
 
 [Sysmon Manifest Schema 4.21](./sysmon_manifest_4.21.xml)
+
+## Data DTD Schema
+
+[Sysmon DTD Schema](./sysmon_dtd_10.0.dtd)

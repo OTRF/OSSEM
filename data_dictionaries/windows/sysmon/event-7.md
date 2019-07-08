@@ -61,6 +61,7 @@ The image loaded event logs when a module is loaded in a specific process. This 
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
 |	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:46	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that loaded the image	|	{A98268C1-A12A-5ACD-0000-0010E4C8B300}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that loaded the image	|	3532	|

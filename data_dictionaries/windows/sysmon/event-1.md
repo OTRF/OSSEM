@@ -68,6 +68,7 @@ The process creation event provides extended information about a newly created p
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
 |	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that got spawned/created (child)	|	{A98268C1-9C2E-5ACD-0000-0010396CAB00}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the created process (child)	|	4756	|
