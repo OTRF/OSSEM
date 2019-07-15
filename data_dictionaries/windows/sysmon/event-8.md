@@ -58,7 +58,8 @@ The CreateRemoteThread event detects when a process creates a thread in another 
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:25	|
 |	process_guid	|	SourceProcessGuid	|	string	|	Process Guid of the source process that created a thread in another process	|	{A98268C1-9586-5ACD-0000-001070A20000}	|
 |	process_id	|	SourceProcessId	|	integer	|	Process ID used by the os to identify the source process that created a thread in another process	|	684	|
 |	process_name	|	SourceImage	|	string	|	The name of the executable for the source process that created a thread in another process	|	csrss.exe	|

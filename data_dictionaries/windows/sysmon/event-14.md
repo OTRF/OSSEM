@@ -54,8 +54,9 @@ Registry key and value rename operations map to this event type, recording the n
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
 |	event_type	|	EventType	|	string	|	registry event. Registry key and value renamed	|	RenameKey	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:04	|
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:04	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that renamed a registry value and key	|	{A98268C1-95F9-5ACD-0000-001025861000}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that renamed a registry value and key	|	4624	|
 |	process_name	|	Image	|	string	|	File name of the process that renamed a registry value and key	|	Explorer.EXE	|

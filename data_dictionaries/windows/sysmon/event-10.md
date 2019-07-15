@@ -57,7 +57,8 @@ The process accessed event reports when a process opens another process, an oper
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:18	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:18	|
 |	process_guid	|	SourceProcessGuid	|	string	|	Process Guid of the source process that opened another process. It is derived from a truncated part of the machine GUID, the process start-time and the process token ID.	|	{A98268C1-9587-5ACD-0000-001004C40000}	|
 |	process_id	|	SourceProcessId	|	integer	|	Process ID used by the os to identify the source process that opened another process. Derived partially from the EPROCESS kernel structure	|	916	|
 | thread_id	|	SourceThreadId	|	integer	|	ID of the specific thread inside of the source process that opened another process	|	2804	|

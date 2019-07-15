@@ -29,11 +29,16 @@
 | 19 | [WmiEvent - WmiEventFilter activity detected](event-19.md) | This event logs when a WMI event filter is registered |
 | 20 | [WmiEvent - WmiEventConsumer activity detected](event-20.md) | This event logs the registration of WMI consumers, recording the consumer name, log, and destination |
 | 21 | [WmiEvent - WmiEventConsumerToFilter activity detected](event-21.md) | This event logs when a consumer binds to a filter, this event logs the consumer name and filter path. |
+| 22 | [DNSEvent (DNS query)](event-22.md) | This event generates when a process executes a DNS query |
 
 ## Data Sample
 
 [sysmon9.0.1.tar.gz](./sysmon9_0_1.tar.gz)
 
-## Data Schema
+## Data Manifest Schema
 
-[Sysmon Manifest Schema 4.2](./sysmon_manifest_4.2.xml)
+[Sysmon Manifest Schema 4.21](./sysmon_manifest_4.21.xml)
+
+## Data DTD Schema
+
+[Sysmon DTD Schema](./sysmon_dtd_10.0.dtd)

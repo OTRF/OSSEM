@@ -56,7 +56,7 @@ When a WMI event filter is registered, which is a method used by malware to exec
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	tag	|	RuleName |	string	|	custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
 |	event_type	|	EventType	|	string	|	wmievent type 	|	WmiFilterEvent	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	2018-09-11 23:12:46.606	|
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	2018-09-11 23:12:46.606	|
 |	wmi_operation	|	Operation	|	string	|	wmievent filter operation	|	Created |
 |	user_name	|	User	|	string	|	user that created the wmi filter	|	DESKTOP-LFD11QP\pedro	|
 |	wmi_namespace	|	EventNamespace	|	string	|	event namespace where the wmi clas	|	root\\CimV2	|
