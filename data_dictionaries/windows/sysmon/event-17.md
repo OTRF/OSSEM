@@ -2,7 +2,7 @@
 title: Event ID 17 - PipeEvent (Pipe Created)
 description: This event generates when a named pipe is created.
 log.type: sysmon
-sysmon.version: 9.01
+sysmon.version: 10.0
 sysmon.rule: PipeEvent
 author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 04/26/2019
@@ -58,3 +58,4 @@ This event generates when a named pipe is created. Malware often uses named pipe
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that created the pipe	|	1224	|
 |	pipe_name	|	PipeName	|	string	|	Name of the pipe created	|	Anonymous Pipe	|
 |	process_name	|	Image	|	string	|	File path of the process that created the pipe	|	C:\WINDOWS\system32\cmd.exe	|
+| event_type | EventType | string | ConnectType | ConnectType |

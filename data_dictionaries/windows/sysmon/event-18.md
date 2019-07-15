@@ -2,7 +2,7 @@
 title: Event ID 18 - PipeEvent (Pipe Connected)
 description: This event logs when a named pipe connection is made between a client and a server.
 log.type: sysmon
-sysmon.version: 9.01
+sysmon.version: 10.0
 sysmon.rule: PipeEvent
 author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 04/26/2019
@@ -58,3 +58,4 @@ This event logs when a named pipe connection is made between a client and a serv
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that connected the pipe	|	1896	|
 |	pipe_name	|	PipeName	|	string	|	Name of the pipe connecged	|	\srvsvc	|
 |	process_name	|	Image	|	string	|	File path of the process that connected the pipe	|	C:\WINDOWS\system32\wbem\wmiprvse.exe	|
+| event_type | EventType | string | CreateType | CreatePipe |
