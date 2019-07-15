@@ -57,4 +57,5 @@ This event logs when a named pipe connection is made between a client and a serv
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that connected the pipe	|	{A98268C1-959E-5ACD-0000-0010236E0300}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that connected the pipe	|	1896	|
 |	pipe_name	|	PipeName	|	string	|	Name of the pipe connecged	|	\srvsvc	|
-|	process_name	|	Image	|	string	|	File path of the process that connected the pipe	|	C:\WINDOWS\system32\wbem\wmiprvse.exe	|
+|	process_name	|	Image	|	string	|	File name of the process that connected the pipe	|	wmiprvse.exe	|
+|	process_path	|	Image	|	string	|	File path of the process that connected the pipe	|	C:\WINDOWS\system32\wbem\wmiprvse.exe	|
