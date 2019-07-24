@@ -2,7 +2,7 @@
 
 ## Description
 
-A process has attempted to open a handle into another process.
+A process has attempted to open a handle into another process OR if a remote thread was created.
 
 [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-crossprocopen-cross-process-open)
 
@@ -31,6 +31,12 @@ A process has attempted to open a handle into another process.
     "type": "ingress.event.crossprocopen"
 }
 ```
+
+## Event Types:
+|	Standard Name	|	Field Name	|	Description	|
+|	-------------	|	----------	|	----	|
+| open_process    |   ingress.event.crossprocopen | A process has attempted to open a handle into another process  |
+|  remote_thread    |   ingress.event.remotethread   | A remote thread was created |
 
 ## Data Dictionary
 
