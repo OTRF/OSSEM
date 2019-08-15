@@ -27,5 +27,6 @@ This event generates every time when an operation was performed on an Active Dir
 |	object_access_mask	|	AccessMask	|	string	|	hexadecimal mask for the type of access used for the operation. See	|	0x10000	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the created process (child)	|	4756	|
 |	object_properties	|	Properties	|	string	|	first part is the type of access that was used. Typically has the same value as Accesses field.	|	%%1537 {bf967a86-0de6-11d0-a285-00aa003049e2}	|
+|	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID.	|	0x2e80c	|
 |	additionalinfo	|	AdditionalInfo	|	string	|	-	|	-	|
 |	additionalinfo2	|	AdditionalInfo2	|	string	|	-	|	-	|
