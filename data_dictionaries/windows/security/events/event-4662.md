@@ -25,6 +25,7 @@ This event generates every time when an operation was performed on an Active Dir
 |	object_handle_id	|	HandleId	|	integer	|	hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID, for example, “4661: A handle to an object was requested.” This parameter might not be captured in the event, and in that case appears as “0x0”.	|	0x0	|
 |	object_access_list	|	AccessList	|	string	|	the type of access used for the operation.	|	%%1537	|
 |	object_access_mask	|	AccessMask	|	string	|	hexadecimal mask for the type of access used for the operation. See	|	0x10000	|
+|	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the created process (child)	|	4756	|
 |	object_properties	|	Properties	|	string	|	first part is the type of access that was used. Typically has the same value as Accesses field.	|	%%1537 {bf967a86-0de6-11d0-a285-00aa003049e2}	|
 |	additionalinfo	|	AdditionalInfo	|	string	|	-	|	-	|
 |	additionalinfo2	|	AdditionalInfo2	|	string	|	-	|	-	|
