@@ -17,7 +17,7 @@ This event generates every time when an operation was performed on an Active Dir
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested the operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the operation.	|	dadmin	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
-|	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x35867	|
+|	user_logon_id	|	LogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x35867	|
 |	object_server	|	ObjectServer	|	string	|	has “DS” value for this event.	|	DS	|
 |	object_type	|	ObjectType	|	string	|	type or class of the object that was accessed. 	|	%{bf967a86-0de6-11d0-a285-00aa003049e2}	|
 |	object_name	|	ObjectName	|	string	|	distinguished name of the object that was accessed.	|	%{38b3d2e6-9948-4dc1-ae90-1605d5eab9a2}	|
