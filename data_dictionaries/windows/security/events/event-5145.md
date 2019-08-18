@@ -17,6 +17,6 @@ This event generates every time network share object (file or folder) was access
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested the “delete network share object” operation	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the “delete network share object” operation.	|	dadmin	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
-|	user_logon_id	|	LogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x38d12	|
+|	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x38d34	|
 |	share_name	|	ShareName	|	string	|	the name of the deleted share object. The format is: \\*\SHARE_NAME	|	\\\\\*\\Documents	|
 |	share_local_path	|	ShareLocalPath	|	string	|	the full system (NTFS) path for the deleted share object.	|	C:\\Documents	|
