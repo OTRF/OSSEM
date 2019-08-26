@@ -23,6 +23,6 @@ This event generates every time network share object (file or folder) was access
 |	src_port	|	IpPort	|	integer	|	source TCP or UDP port which was used from remote or local machine to request the access.	|	49212	|
 |	share_name	|	ShareName	|	string	|	the name of accessed network share.	|	\\\\\*\\Documents	|
 |	share_local_path	|	ShareLocalPath	|	string	|	the full system (NTFS) path for accessed share. The format is: \\??\PATH	|	\\??\\C:\\Documents	|
-|	share_local_path	|	RelativeTargetName	|	string	|	relative name of the accessed target file or folder. This file-path is relative to the network share. If access was requested for the share itself, then this field appears as “\”	|	Bginfo.exe	|
+|	share_relative_target_name	|	RelativeTargetName	|	string	|	relative name of the accessed target file or folder. This file-path is relative to the network share. If access was requested for the share itself, then this field appears as “\”	|	Bginfo.exe	|
 |	share_access_mask	|	AccessMask	|	string	|	the sum of hexadecimal values of requested access rights. See “Table 13. File access codes.”	|	0x1	|
 |	user_access_list	|	AccessList	|	string	|	the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type. Has always “ReadData (or ListDirectory)” value for this event.	|	%%4416	|
