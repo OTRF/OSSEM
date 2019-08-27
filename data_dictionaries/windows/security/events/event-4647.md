@@ -20,4 +20,4 @@ This event is generated when a logoff is initiated. No further user-initiated ac
 |	user_sid	|	TargetUserSid	|	string	|	SID of account that requested the “logoff” operation	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account that requested the “logoff” operation	|	dadmin	|
 |	user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
-|	user_logon_id	|	TargetLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID		0x29b379	|
+|	user_logon_id	|	TargetLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x29b379	|
