@@ -6,7 +6,6 @@ This part of the project focuses on defining the required data in form of data o
 
 * [Data Object Relationships](https://github.com/Cyb3rWard0g/OSSEM/blob/master/detection_data_model/object_relationships.md)
 
-
 ## Resources
 
 * [STIX Cybox ObjectRelationshipVOcab-1.1](http://stixproject.github.io/data-model/1.2/cyboxVocabs/ObjectRelationshipVocab-1.1/)

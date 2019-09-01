@@ -37,10 +37,10 @@ A network connection has been received or initiated by an endpoint monitored by 
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	WIN-OTEMNUTBS23	|
-|		|	direction	|	TEXT	|	Direction of the netconn event: inbound or outbound	|	outbound	|
-|		|	domain	|	TEXT	|	The DNS name of the network peer, if available.	|	carbonblack.com	|
+| direction		|	direction	|	TEXT	|	Direction of the netconn event: inbound or outbound	|	outbound	|
+| domain		|	domain	|	TEXT	|	The DNS name of the network peer, if available.	|	carbonblack.com	|
 |	event_type	|	event_type	|	TEXT	|	The type of event	|	netconn	|
-|		|	ipv4	|	TEXT	|	remote ipv4 address of network connection. Maintained for backward compatibility for earlier versions of the event forwarder. See local_ip and remote_ip.	|	23.4.187.27	|
+|	ipv4	|	ipv4	|	TEXT	|	remote ipv4 address of network connection. Maintained for backward compatibility for earlier versions of the event forwarder. See local_ip and remote_ip.	|	23.4.187.27	|
 |	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for process	|	https://cbtests/#analyze/00000007-0000-090c-01d1-2099b8f18a82/1 |
 |	sensor_link	|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/7	|
 |	src_ip	|	local_ip	|	TEXT	|	Local IP address of network connection (network interface on the endpoint)	|	172.31.30.0	|

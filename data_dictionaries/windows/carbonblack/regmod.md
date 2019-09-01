@@ -30,8 +30,8 @@ A registry key has been created, deleted, or modified on an endpoint monitored b
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
-|		|	action	|	TEXT	|	Type of registry modification. This can be one of: createkey, writeval, delkey, or delval	|	writeval	|
-|		|	actiontype	|	INTEGER	|	Enum value of the registry modification: 1=createkey, 2=writeval, 4=delkey, 8=delval	|	2	|
+|	action	|	action	|	TEXT	|	Type of registry modification. This can be one of: createkey, writeval, delkey, or delval	|	writeval	|
+|	actiontype	|	actiontype	|	INTEGER	|	Enum value of the registry modification: 1=createkey, 2=writeval, 4=delkey, 8=delval	|	2	|
 |	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|
 |	event_type	|	event_type	|	TEXT	|	The type of event	|	regmod	|

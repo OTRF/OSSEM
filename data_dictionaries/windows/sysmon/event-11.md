@@ -2,10 +2,10 @@
 title: Event ID 11 - FileCreate
 description: File create operations are logged when a file is created or overwritten.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: FileCreate
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 11: FileCreate
@@ -22,28 +22,29 @@ File create operations are logged when a file is created or overwritten. This ev
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>11</EventID> 
     <Version>2</Version> 
     <Level>4</Level> 
     <Task>11</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T06:01:23.107069400Z" /> 
-    <EventRecordID>11760994</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:11:22.786128800Z" /> 
+    <EventRecordID>3611638</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="6028" ThreadID="4132" /> 
+    <Execution ProcessID="2332" ThreadID="3784" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 06:01:23.106</Data> 
-    <Data Name="ProcessGuid">{A98268C1-958A-5ACD-0000-0010C62F0100}</Data> 
-    <Data Name="ProcessId">1044</Data> 
-    <Data Name="Image">C:\WINDOWS\System32\svchost.exe</Data> 
-    <Data Name="TargetFilename">C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf</Data> 
-    <Data Name="CreationUtcTime">2017-12-04 17:38:32.040</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:11:22.756</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9e27-5cc3-0000-0010116d0600}</Data> 
+    <Data Name="ProcessId">3832</Data> 
+    <Data Name="Image">C:\WINDOWS\system32\WerFault.exe</Data> 
+    <Data Name="TargetFilename">C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Sysmon.exe_16b56163a540d67bfc0dd95fd4d37fd83fe58dd_e290769b_0ef86f73\Report.wer</Data> 
+    <Data Name="CreationUtcTime">2019-04-27 00:11:22.756</Data> 
   </EventData>
 </Event>
 ```
@@ -52,9 +53,11 @@ File create operations are logged when a file is created or overwritten. This ev
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:01	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 6:01	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that created the file	|	{A98268C1-958A-5ACD-0000-0010C62F0100}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that created the file (child)	|	1044	|
-|	process_name	|	Image	|	string	|	File path of the process that created the file	|	C:\WINDOWS\System32\svchost.exe	|
+|	process_name	|	Image	|	string	|	File name of the process that created the file	|	svchost.exe	|
+|	process_path	|	Image	|	string	|	File path of the process that created the file	|	C:\WINDOWS\System32\svchost.exe	|
 |	file_name	|	TargetFilename	|	string	|	Name of the file	|	C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf	|
-|	file_creation_time	|	CreationUtcTime	|	date	|	File creation time	|	12/4/17 17:38	|
+|	file_date_creation	|	CreationUtcTime	|	date	|	File creation time	|	12/4/17 17:38	|

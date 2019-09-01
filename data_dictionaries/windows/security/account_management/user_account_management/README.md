@@ -36,3 +36,5 @@ This policy setting allows you to audit changes to user accounts. Events include
 | [4798](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4798.md) | A user's local group membership was enumerated. | Windows 10 |
 | [5376](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5376.md) | Credential Manager credentials were backed up. | Windows Vista, Windows Server 2008 |
 | [5377](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5377.md) | Credential Manager credentials were restored from a backup. | Windows Vista, Windows Server 2008 |
+| [5378](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5378.md) | The requested credentials delegation was disallowed by policy | Windows 10, Windows Server 2016 |
+| [5379](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5379.md) | Credential Manager credentials were read | Windows 10, Windows Server 2016 |

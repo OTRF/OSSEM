@@ -1,16 +1,14 @@
 # OSSEM
-Open Source Security Events Metadata (OSSEM)
+
+The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primarily on the documentation and standardization of security event logs from diverse data sources and operating systems. Security events are documented in a dictionary format and can be used as a reference for projects like the ThreatHunter-Playbook while mapping data sources to data analytics used to validate the detection of adversarial techniques. In addition, the project provides a common information model (CIM) that can be used for data engineers during data normalization procedures to allow security analysts to query and analyze data across diverse data sources. Finally, the project also provides documentation about the structure and relationships identified in specific data sources to facilitate the development of data analytics.
 
 <img src="resources/images/OSSEM_logo.png" width=300>
 
 # Goals
 
 * Define and share a common information model in order to improve the data standardization and transformation of security event logs
-* Allow security analyts to query and analyze several data sources at once following a consistent event field naming convention
-* Enhance and expedite the integration of third party tools (i.e. SIGMA rules) by utilizing standard event field names
 * Define and share data structures and relationships identified in security events logs
-* Facilitate the creation of data analytics in order to validate the detection of adversary techniques
-* Provide detailed information about several security event logs to the community.
+* Provide detailed information in a dictionary format about several security event logs to the community
 * Learn more about security event logs (Windows, Linux & MacOS)
 * Have fun and think more about the data structure in your SIEM when it comes down to detection!!
 

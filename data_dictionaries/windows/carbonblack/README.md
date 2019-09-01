@@ -2,6 +2,10 @@
 
 Carbon Black data schema as defined by the Carbon Black Developer Resources.
 
+## Data Model
+
+<img src="../../../resources/images/CarbonBlackDataModel.png" width=900>
+
 ## Data Dictionaries
 
 * [ingress.event.childproc](childproc.md)

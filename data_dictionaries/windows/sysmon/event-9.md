@@ -2,10 +2,10 @@
 title: Event ID 9 - RawAccessRead
 description: The RawAccessRead event detects when a process conducts reading operations from the drive using the \\.\ denotation.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: RawAccessRead
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 9: RawAccessRead
@@ -22,28 +22,29 @@ The RawAccessRead event detects when a process conducts reading operations from 
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>9</EventID> 
     <Version>2</Version> 
     <Level>4</Level> 
     <Task>9</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:51:46.575087700Z" /> 
-    <EventRecordID>11758084</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:11:20.686207100Z" /> 
+    <EventRecordID>3610045</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="6028" ThreadID="4132" /> 
+    <Execution ProcessID="2332" ThreadID="3784" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:51:46.571</Data> 
-    <Data Name="ProcessGuid">{A98268C1-959B-5ACD-0000-0010EFD50200}</Data> 
-    <Data Name="ProcessId">2708</Data> 
-    <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-    <Data Name="Device">\Device\HarddiskVolume2</Data> 
-    </EventData>
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:11:19.430</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9e20-5cc3-0000-0010a3d60300}</Data> 
+    <Data Name="ProcessId">2864</Data> 
+    <Data Name="Image">C:\Windows\System32\wbem\WmiPrvSE.exe</Data> 
+    <Data Name="Device">\Device\Harddisk0\DR0</Data> 
+  </EventData>
 </Event>
 ```
 
@@ -51,8 +52,10 @@ The RawAccessRead event detects when a process conducts reading operations from 
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:51	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:51	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that conducted reading operations from the drive	|	{A98268C1-959B-5ACD-0000-0010EFD50200}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that conducted reading operations from the drive	|	2708	|
-|	process_name	|	Image	|	string	|	File path of the process that conducted reading operations from the drive	|	C:\Windows\System32\svchost.exe	|
+|	process_name	|	Image	|	string	|	File name of the process that conducted reading operations from the drive	|	svchost.exe	|
+|	process_path	|	Image	|	string	|	File path of the process that conducted reading operations from the drive	|	C:\Windows\System32\svchost.exe	|
 |	target_device	|	Device	|	string	|	Target device	|	\Device\HarddiskVolume2	|

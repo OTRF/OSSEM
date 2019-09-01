@@ -2,10 +2,10 @@
 title: Event ID 3 - Network connection
 description: The network connection event logs TCP/UDP connections on the machine.
 log.type: sysmon
-sysmon.version: 7.01
+sysmon.version: 9.01
 sysmon.rule: NetworkConnect
 author: Roberto Rodriguez (@Cyb3rWard0g)
-date: 04/11/2018
+date: 04/26/2019
 ---
 
 # Event ID 3: Network connection
@@ -22,39 +22,40 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 ```
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698FFBD9}" /> 
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
     <EventID>3</EventID> 
     <Version>5</Version> 
     <Level>4</Level> 
     <Task>3</Task> 
     <Opcode>0</Opcode> 
     <Keywords>0x8000000000000000</Keywords> 
-    <TimeCreated SystemTime="2018-04-11T05:29:36.333863500Z" /> 
-    <EventRecordID>11750109</EventRecordID> 
+    <TimeCreated SystemTime="2019-04-27T00:10:32.964282300Z" /> 
+    <EventRecordID>3606939</EventRecordID> 
     <Correlation /> 
-    <Execution ProcessID="2152" ThreadID="3236" /> 
+    <Execution ProcessID="2336" ThreadID="3140" /> 
     <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-    <Computer>DESKTOP-WARDOG</Computer> 
+    <Computer>WARDOG.RIVENDELL.local</Computer> 
     <Security UserID="S-1-5-18" /> 
   </System>
   <EventData>
-    <Data Name="UtcTime">2018-04-11 05:29:35.394</Data> 
-    <Data Name="ProcessGuid">{A98268C1-957F-5ACD-0000-0010EB030000}</Data> 
-    <Data Name="ProcessId">4</Data> 
-    <Data Name="Image">System</Data> 
+    <Data Name="RuleName" /> 
+    <Data Name="UtcTime">2019-04-27 00:10:31.843</Data> 
+    <Data Name="ProcessGuid">{1c9fdc81-9d71-5cc3-0000-001029c30000}</Data> 
+    <Data Name="ProcessId">820</Data> 
+    <Data Name="Image">C:\Windows\System32\lsass.exe</Data> 
     <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-    <Data Name="Protocol">udp</Data> 
-    <Data Name="Initiated">false</Data> 
+    <Data Name="Protocol">tcp</Data> 
+    <Data Name="Initiated">true</Data> 
     <Data Name="SourceIsIpv6">false</Data> 
-    <Data Name="SourceIp">192.168.64.255</Data> 
-    <Data Name="SourceHostname" /> 
-    <Data Name="SourcePort">138</Data> 
-    <Data Name="SourcePortName">netbios-dgm</Data> 
+    <Data Name="SourceIp">192.168.64.137</Data> 
+    <Data Name="SourceHostname">DESKTOP-LFD11QP.RIVENDELL.local</Data> 
+    <Data Name="SourcePort">49767</Data> 
+    <Data Name="SourcePortName" /> 
     <Data Name="DestinationIsIpv6">false</Data> 
-    <Data Name="DestinationIp">192.168.64.135</Data> 
-    <Data Name="DestinationHostname">DESKTOP-WARDOG.localdomain</Data> 
-    <Data Name="DestinationPort">138</Data> 
-    <Data Name="DestinationPortName">netbios-dgm</Data> 
+    <Data Name="DestinationIp">192.168.64.178</Data> 
+    <Data Name="DestinationHostname">DC-WD-001</Data> 
+    <Data Name="DestinationPort">88</Data> 
+    <Data Name="DestinationPortName">kerberos</Data> 
   </EventData>
 </Event>
 ```
@@ -63,10 +64,12 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	event_creation_time	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:29	|
+| tag	|	RuleName |	string	| custom tag mapped to event. i.e ATT&CK technique ID	|	T1114 |
+|	event_date_creation	|	UtcTime	|	date	|	Time in UTC when event was created	|	4/11/18 5:29	|
 |	process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that made the network connection	|	{A98268C1-957F-5ACD-0000-0010EB030000}	|
 |	process_id	|	ProcessId	|	integer	|	Process ID used by the os to identify the process that made the network connection	|	4	|
-|	process_name	|	Image	|	string	|	File path of the process that made the network connection	|	System	|
+|	process_name	|	Image	|	string	|	File name of the process that made the network connection	|	System	|
+|	process_path	|	Image	|	string	|	File path of the process that made the network connection	|	System	|
 |	user_name	|	User	|	string	|	Name of the account who made the network connection. It usually containes domain name and user name	|	NT AUTHORITY\SYSTEM	|
 |	network_protocol	|	Protocol	|	string	|	Protocol being used for the network connection	|	udp	|
 |	network_connection_initiated	|	Initiated	|	boolean	|	Indicated process initiated tcp connection	|	FALSE	|
@@ -77,5 +80,6 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 |	src_port_name	|	SourcePortName	|	string	|	name of the source port being used (i.e. netbios-dgm)	|	netbios-dgm	|
 |	dst_is_ipv6	|	DestinationIsIpv6	|	boolean	|	is the destination ip an Ipv6	|	C:\Windows\System32\cmd.exe	|
 |	dst_ip	|	DestinationIp	|	ip	|	ip address destination	|	192.168.64.135	|
+| dst_host_name | DestinationHostName | string | name of the host that received the network connection | DC-WD-001 |
 |	dst_port |	DestinationPort	|	integer	|	destination port number	|	138	|
 |	dst_port_name	|	DestinationPortName	|	string	|	name of the destination port	|	netbios-dgm	|

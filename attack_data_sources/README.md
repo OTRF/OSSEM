@@ -21,6 +21,6 @@ The methodology follows the next steps:
 
 Resources:
 
-* [Jupyter notebook to explore ATT&CK data sources](https://github.com/Cyb3rWard0g/ATTACK-Python-Client/blob/master/notebooks/ATT%26CK_DataSources%20(1).ipynb)
+* [Jupyter notebook to explore ATT&CK data sources](https://github.com/Cyb3rWard0g/ATTACK-Python-Client/blob/master/notebooks/ATT%26CK_DataSources.ipynb)
 * [ATT&CKcon 2018: Slides and demos documents](https://github.com/Cyb3rWard0g/presentations/tree/master/ATTACKcon)
 * [ATT&CK Data Sources mapped to Event Logs](https://docs.google.com/spreadsheets/d/1ow7YRDEDJs67kcKMZZ66_5z1ipJry9QrsDQkjQvizJM/edit?usp=sharing)
