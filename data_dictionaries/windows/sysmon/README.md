@@ -37,7 +37,7 @@
 
 ## Data Manifest Schema
 
-[Sysmon Manifest Schema 4.21](./sysmon_manifest_4.21.xml)
+[Sysmon Manifest Schema 4.22](./sysmon_manifest_4.22.xml)
 
 ## Data DTD Schema
 
