@@ -19,3 +19,7 @@ Endgame's event types according to "User Guide 3.10"
 
 ## Resources
 * [Endgame User Guide 3.10](#)
+
+# TODO
+- [] Create dictionaries for each data type
+- [] Provide public references for the schema
