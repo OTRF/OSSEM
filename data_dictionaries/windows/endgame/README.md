@@ -1,8 +1,8 @@
 # Windows Endgame Event Logs
 ## Data Model
-![alt text][logo]
+![Endgame Data Model][logo]
 
-[logo]: https://github.com/sahar55/OSSEM/tree/master/resources/images/EndgameDataModel.png "Endgame Data Model"
+[logo]: https://github.com/sahar55/OSSEM/blob/master/resources/images/EndgameDataModel.png "Endgame Data Model"
 
 ## Data Dictionaries
 * [File](#)
