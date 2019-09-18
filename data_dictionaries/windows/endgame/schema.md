@@ -1,6 +1,15 @@
 # Endgame Schema
 
-## File (Windows, Linux, macOS)
+* [File](#file-events)
+* [Image Load](#image-load-events)
+* [Process](#process-events)
+* [Registry](#registry-events)
+* [Network](#network-events)
+* [DNS](#dns-events)
+* [Securiy](#security-log-events)
+
+## File Events
+
 ### Event Subtypes
 * file_create_event
 * file_modify_event
@@ -30,7 +39,7 @@
 |unique_pid|||
 |zone_id|||
 
-## Image Load (Windows)
+## Image Load Events
 
 |Event Subtypes|
 |:--- |
@@ -57,7 +66,7 @@
 |timestamp_utc|
 |unique_pid|
 
-## Network (Windows, Linux, macOS)
+## Network Events
 
 ### Event Subtypes
 
@@ -102,7 +111,7 @@
 |total_out_bytes|||
 |unique_pid|||
 
-## Process (Windows, Linux, Mac)
+## Process Events
 
 ### Event Subtypes
 
@@ -141,7 +150,7 @@
 |unique_pid||
 |unique_ppid|||
 
-## Security (Windows)
+## Security Log Events
 
 ### Event Subtypes
 
@@ -187,7 +196,7 @@
 |timestamp_utc
 |unique_pid
 
-## Registry (Windows)
+## Registry Events
 
 ### Event Subtypes
 
@@ -217,7 +226,7 @@
 |timestamp_utc|||
 |unique_pid|||
 
-## **DNS (Windows)**
+## DNS Events
 
 ### Subtypes
 
