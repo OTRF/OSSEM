@@ -9,7 +9,4 @@ User Agent data can be seen in various log sources such as SIP, SMTP, [HTTP](htt
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| FieldNamePlaceHolder#TODO:REPLACEME | ValueTypePlaceHolder#TODO:REPLACEME | DescriptionPlaceHolder#TODO:REPLACEME | `` |
-| FieldNamePlaceHolder#TODO:REPLACEME | ValueTypePlaceHolder#TODO:REPLACEME | DescriptionPlaceHolder#TODO:REPLACEME | `` |
-| FieldNamePlaceHolder#TODO:REPLACEME | ValueTypePlaceHolder#TODO:REPLACEME | DescriptionPlaceHolder#TODO:REPLACEME | `` |
-| FieldNamePlaceHolder#TODO:REPLACEME | ValueTypePlaceHolder#TODO:REPLACEME | DescriptionPlaceHolder#TODO:REPLACEME | `` |
+| FieldNamePlaceholderTODO:REPLACEME | ValuePlaceHolder | DescriptionPlaceHolder | `` |
