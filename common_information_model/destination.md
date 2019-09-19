@@ -7,7 +7,7 @@ Event fields used to define the destination (server) in a network connection eve
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | dst_bytes | integer | network bytes sent by the dst_ip_addr | 100 |
-| dst_host_name | string | Destination/Subject host name | WKHR001 |
+| dst_host_name | string | Destination/Target host name | WKHR001 |
 | dst_ip_addr | ip | Destination IP address | 8.8.8.8 |
 | dst_ip_bytes | integer | network IP (header) bytes sent by the dst_ip_addr | 100 |
 | dst_mac | mac | Destination MAC address | a9:68:82:28:c4:6d |

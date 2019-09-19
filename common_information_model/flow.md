@@ -1,9 +1,8 @@
-# Event Schema
+# Flow Schema
 
-Flow fields used to describe network traffic.
+Flow fields will be ported to [Source](source.md), [Destination](destination.md), and [Network](network.md) for continuity. Also, the first flow spec (created by cisco) use Source/Destination terminology.
 
 ## Data Fields
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| flow_id | string | unique identifier for specific event logs. Flow ids might repeat across different data sources | CWi354Kws6d1Iawrd |

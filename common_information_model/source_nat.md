@@ -1,4 +1,4 @@
-# Source Schema
+# Source NAT Schema
 
 Event fields used to define the source NAT (network address translation) in a network connection event.
 
