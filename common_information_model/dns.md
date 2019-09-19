@@ -10,10 +10,4 @@ It is important to remember that in DNS logs their are multiple servers that may
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| FieldNamePlaceholderTODO:REPLACEME | boolean | Client requested recursion for the lookup/request. | `true` |
-| FieldNamePlaceholderTODO:REPLACEME | boolean | Whether the response (answer) from the server was authoritative. | `true` |
-| FieldNamePlaceholderTODO:REPLACEME | boolean | The server rejected the request all together. | `true` |
-| FieldNamePlaceholderTODO:REPLACEME | boolean | Response to the request was authoritative. | `true` |
-| FieldNamePlaceholderTODO:REPLACEME | boolean | Whether the Zero bit flag was set or not. Commonly this should be value of `false`, however always watch for attackers placing data where ever they can | `false` |
-| FieldNamePlaceholderTODO:REPLACEME | ValuePlaceHolder |  | `` |
-| FieldNamePlaceholderTODO:REPLACEME | ValuePlaceHolder |  | `` |
+| FieldNamePlaceholderTODO:REPLACEME | ValuePlaceHolder | DescriptionPlaceHolder | `` |
