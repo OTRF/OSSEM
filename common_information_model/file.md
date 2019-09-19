@@ -20,5 +20,5 @@ Event fields used to define metadata about files either locally or over the wire
 | file_inode | integer | Filesystem inode number | |
 | file_hard_links | integer | Number of hard links | 3 |
 | file_symlink | integer | 1 if the path is a symlink, otherwise 0 | 0 |
-| file_creation_time | integer | The file's current creation Timestamp on the disk | 2016-11-25 18:21:47 | 
-| file_previous_creation_time | integer | The file's previous creation timestamp | 2017-07-30 23:26:47 |
+| file_timestamp_creation | integer | The file's current creation Timestamp on the disk | 2016-11-25 18:21:47 | 
+| file_timestamp_previous_creation | integer | The file's previous creation timestamp | 2017-07-30 23:26:47 |
