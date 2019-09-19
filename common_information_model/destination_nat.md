@@ -1,4 +1,4 @@
-# Destination Schema
+# Destination NAT Schema
 
 Event fields used to define the destination NAT (network address translation) in a network connection event.
 
