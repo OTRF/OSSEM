@@ -7,7 +7,7 @@ Event fields used to define metadata about network information seen in a typical
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
 | network_bytes | long | Total bytes for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes | 102034 |
-| network_community_id | string | Network community ID as outlined by the standard from https://github.com/corelight/community-id-spec. Standardized hashing of network tuple. The combination, most commonly, of Source IP, Source Port, Destination IP, Destination Port, and IP Protocol allows pivoting between multiple log types | 1:EeVyZ07VGj1n0rld+xCLFdM+u8M= |
+| fingerprint_network_community_id | string | Network community ID as outlined by the standard from https://github.com/corelight/community-id-spec. Standardized hashing of network tuple. The combination, most commonly, of Source IP, Source Port, Destination IP, Destination Port, and IP Protocol allows pivoting between multiple log types | 1:EeVyZ07VGj1n0rld+xCLFdM+u8M= |
 | network_initiated | boolean | Whether the session was initiated or received. Most commonly used in relation to an endpoint/device. False = the endpoint did not initiate the session (ie: was scanned or RDP connection made to it) | True |
 | network_ip_bytes | long | Total IP bytes, according to ip headers, for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination IP bytes | 14564 |
 | network_missed_bytes | long | bytes that a network sensor or other system/application may have missed | 5 |
