@@ -10,6 +10,7 @@ Event fields used to define entities being targeted by other entities locally in
 | target_process_id | integer | Process ID used by the os to identify the target process | 240 |
 | target_process_path | string | File path of the target process | C:\Windows\System32\cmd.exe |
 | target_device | string | Target device | \Device\HarddiskVolume2 |
+| target_host_name | string | name of a computer or device (see example of the [data dictionary for Windows EventID:4741](../data_dictionaries/windows/security/events/event-4741.md) for specific use case | WIN81$ |
 | target_process_name | string | name of the target process without its full path | MsMpEng.exe |
 | target_user_name | string | the name of the account whose credentials were used | ladmin |
 | target_user_domain | string | subject’s domain or computer name | CONTOSO |
