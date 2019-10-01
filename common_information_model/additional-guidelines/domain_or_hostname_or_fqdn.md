@@ -54,7 +54,7 @@ Now, because the connection was direct to an IP, we don't have a DNS log but we 
 
 ------------------------------------------------------------------------------------------------------
 ## Implementation
-Due to the ambiguity that will happen in log sources and not being able to, always let alone the majority of the time, distinguish the FQDN vs the Domain vs the Hostname as well as the confusion caused by log source's field names - we are going to define definitions that are not necessary to make this delineation between the three as well as specific examples of log sources and what to call the fields.
+Due to the ambiguity that will happen in log sources and not being able to, always let alone the majority of the time, distinguish the FQDN vs the Domain vs the Hostname as well as the confusion caused by log source's field names - we will define definitions in order that this delineation is NOT necessary between the three. Also, provide specific examples of log sources and what to call the fields, in order to even further clear any ambiguity.
 
 These apply to both source and destination FQDNs, Domains, and hostnames. Therefore, if you only see destination verbiage below - just replace that with source for the applicable log scenario.
 
