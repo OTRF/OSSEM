@@ -59,7 +59,7 @@ This event generates when a process executes a DNS query, whether the result is 
 | event_date_creation |	UtcTime	| date | Time in UTC when event was created	| 2019-06-12 00:57:55.254 |
 | process_guid	|	ProcessGuid	|	string	|	Process Guid of the process that executed the DNS query	|{A98268C1-4DDF-5D00-0000-00102D794100} |
 | process_id	|	ProcessId	|	string	|	Process id of the process that executed the DNS query	| 416 |
-| dns_query_name	|	QueryName	|	string	|	DNS query name	| chrome.google.com |
+| dst_host_name	|	QueryName	|	string	|	DNS query name	| chrome.google.com |
 | dns_query_status	|	QueryStatus	|	string	|	DNS query status	| 0 |
 | dns_query_results | QueryResults | string | DNS query results | type: 5 www3.l.google.com;172.217.7.206; |
 | process_path | Image | string	| The full path related to the process that executed the DNS query | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |

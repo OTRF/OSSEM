@@ -16,7 +16,7 @@ This event occurs when an account that is a member of any defined Special Group 
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested logon for New Logon account	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested logon for New Logon account	|	dadmin	|
-|	user_domain_name	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
+|	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
 |	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID,	|	0xd972e	|
 |	user_logon_guid	|	LogonGuid	|	string	|	a GUID that can help you correlate this event with another event that can contain the same Logon GUID, “4769(S, F): A Kerberos service ticket was requested event on a domain controller.	|	{00000000-0000-0000-0000-000000000000}	|
 |	target_user_sid	|	TargetUserSid	|	string	|	SID of account that performed the logon.	|	S-1-5-21-3457937927-2839227994-823803824-500	|
