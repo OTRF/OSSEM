@@ -9,5 +9,3 @@ Please note, that not every possible example is given. Therefore, if you see som
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| src_ip_addr | ip | The IP address that was referred to as the source, originator, client, or inbound (interface) | 8.8.8.8 |
-| dst_ip_addr | ip | The IP address that was referred to as the destination, responder, server, or outbound (interface) | 8.8.8.8 |

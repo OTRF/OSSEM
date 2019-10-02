@@ -1,6 +1,6 @@
 # Destination Schema
 
-Event fields used to define the destination (server) in a network connection event. This can include endpoint events as well, however see the full descriptions below for more information.
+Event fields used to define the destination (server) in a network connection event.
 
 ## Data Fields
 
