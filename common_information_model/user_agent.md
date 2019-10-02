@@ -6,6 +6,4 @@ Event fields used to define metadata about the User-Agent header in an applicati
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| user_agent_original | string | DescriptionPlaceHolder#TODO:REPLACEME | `` |
-| FieldNamePlaceHolder#TODO:REPLACEME | ValueTypePlaceHolder#TODO:REPLACEME | DescriptionPlaceHolder#TODO:REPLACEME | `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36` |
-| FieldNamePlaceHolder#TODO:REPLACEME | ValueTypePlaceHolder#TODO:REPLACEME | DescriptionPlaceHolder#TODO:REPLACEME | `` |
+| user_agent_original | string | DescriptionPlaceHolder#TODO:REPLACEME | ``Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36`` |
