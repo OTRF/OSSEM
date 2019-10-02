@@ -16,6 +16,6 @@ This event is generated when workstation was unlocked.
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 |	user_sid	|	TargetUserSid	|	string	|	SID of account that requested the “unlock workstation” operation	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account that requested the “unlock workstation” operation.	|	dadmin	|
-|	user_domain_name	|	TargetDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
+|	user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
 |	user_logon_id	|	TargetLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID,	|	0x759a9	|
 |	session_id	|	SessionId	|	integer	|	unique ID of unlocked session.	|	3	|
