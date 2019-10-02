@@ -12,5 +12,5 @@ Event fields used to define metadata about network information seen in a typical
 | network_ip_bytes | long | Total IP bytes, according to ip headers, for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination IP bytes | 14564 |
 | network_missed_bytes | long | bytes that a network sensor or other system/application may have missed | 5 |
 | network_packets | long | Total packets for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination packets | 143 |
-| network_application | string | Layer 7 (application) in the OSI model. Ex: HTTP,SMB,FTP,SSH, etc | http |
+| network_application | string | Layer 7 (application) in the OSI model. Ex: HTTP,SMB,FTP,SSH, etc | HTTP |
 | network_protocol | string | Transport layer in the OSI model. Also known as, IP Protocol. Ex: TCP,UDP,ICMP,ICMP-v6, etc. Convert to lowercase | tcp |
