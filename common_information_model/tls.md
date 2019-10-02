@@ -6,4 +6,4 @@ Event fields used for a domain in order to define metadata about a TLS(SSL) reco
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| FieldNamePlaceholderTODO:REPLACEME | ValuePlaceHolder |  | `` |
+| FieldNamePlaceholderTODO:REPLACEME | ValuePlaceHolder | DescriptionPlaceHolder | `` |
