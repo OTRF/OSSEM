@@ -66,7 +66,7 @@ This field should always exist if there is some sort of domain, FQDN, or hostnam
 ##### Domain
 This field is optional. Because there are many scenarios (as briefly outlined above) where one can NOT determine the true domain, we will leave this field as defined but should only be used if the log source has intimate knowledge that this is in fact the domain.
 
-####Implementation Field Examples:
+#### Implementation Field Examples:
 - `dst_host_name`
 - `dst_domain`
 - `dst_fqdn`
