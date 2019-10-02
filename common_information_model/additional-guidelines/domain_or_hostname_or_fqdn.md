@@ -4,8 +4,8 @@ This guide will show you how to label FQDNs, Domains, and Hostnames (for both so
 However, there is an incredible amount of ambiguity, in logging, regarding the values for a Domain, Hostname, and FQDN (fully qualified domain name).
 
 Therefore, we are going to (try) to clear up this ambiguity in order to properly implement a schema.  The order of this guideline is as follows (skip to [Implementation](./domain_or_hostname_or_fqdn.md#Implementation) if you have already read the definitions and problem framing)  
-1. Explain the [Common Definitions](./domain_or_hostname_or_fqdn.md#Common Definitions), apart from this schema, for these three terms. 
-1. Show some [examples](./domain_or_hostname_or_fqdn.md#Examples of Ambiguity) that cause ambiguity in these common definitions. 
+1. Explain the [Common Definitions](./domain_or_hostname_or_fqdn.md#Common-Definitions), apart from this schema, for these three terms. 
+1. Show some [examples](./domain_or_hostname_or_fqdn.md#Examples-of-Ambiguity) that cause ambiguity in these common definitions. 
 1. Outline and guideline for how to perform the [Implementation](./domain_or_hostname_or_fqdn.md#Implementation) for this schema  
 
 ### Common Definitions
@@ -37,7 +37,7 @@ HTTP request for `wiki.bigwheel.corporation.local` was made by an endpoint. You 
 1. Endpoint log defining the field as `DestinationDomain`
 1. DNS log defining the field as `dns_query`
 1. IIS web server log defining two fields, **a)** `destination_hostname` with the value `wiki` and **b)** `destination_domain` with the value `bigwheel.corporation.local`
-####### Scenario 1 Problem Framing
+###### Scenario 1 Problem Framing
 Now, because you have 4 logs that you can (and should definitely) pivot between related to this 1 HTTP request, you set out to define these fields into a common format in order to accomplish this pivoting
 - The proxy log defining the field as `hostname` is incorrect, we know that the hostname is actually `wiki`
 - The endpoint log using the verbiage `DestinationDomain` is incorrect, we know that `Domain` is actually `bigwheel.corporation.local`
@@ -47,7 +47,7 @@ Now, because you have 4 logs that you can (and should definitely) pivot between 
 Endpoint makes an HTTP request to an external IP (Destination IP) with the HTTP Host header set via the command line in cURL of `mwi2xha9lpqn41lo`. For example, the command `curl --header "Host: mwi2xha9lpqn41lo" http://8.8.8.8/` was used. You now have the following log sources and their field name for this value:
 1. Proxy log defining the field as `hostname`
 1. Endpoint log defining the field as `DestinationDomain`
-####### Scenario 2 Problem Framing
+###### Scenario 2 Problem Framing
 Now, because the connection was direct to an IP, we don't have a DNS log but we have two log sources with the same value that we would want to pivot on.
 -  The value has no clear indication of whether its a FQDN, Hostname, or Domain. It is just random characters and doesn't even include any TLD. Whether this is malicious or not, is irrelevant - this sort of things happens consistently whether by mistake or malicious intent and for the purpose of this guideline - we are interested in normalizing fields into a schema..before we take the next step of determining the intent of malicious, mistake, or bad practice/hygiene.
 - Also, lets say the Host header wasn't set and instead the command , and instead the command `curl http://8.8.8.8/` was used. You now have two fields with the value `8.8.8.8` (outside of the Destination IP). Again, this is definitely not a FQDN, Hostname, or Domain - and you don't want to delete the field either.
@@ -66,7 +66,7 @@ This field should always exist if there is some sort of domain, FQDN, or hostnam
 ##### Domain
 This field is optional. Because there are many scenarios (as briefly outlined above) where one can NOT determine the true domain, we will leave this field as defined but should only be used if the log source has intimate knowledge that this is in fact the domain.
 
-####Implementation Field Examples:
+#### Implementation Field Examples:
 - `dst_host_name`
 - `dst_domain`
 - `dst_fqdn`
