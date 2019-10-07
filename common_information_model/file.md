@@ -20,3 +20,5 @@ Event fields used to define metadata about files either locally or over the wire
 | file_inode | integer | Filesystem inode number | |
 | file_hard_links | integer | Number of hard links | 3 |
 | file_symlink | integer | 1 if the path is a symlink, otherwise 0 | 0 |
+|file_symlink_name	|	string	|	path of the symlink	|	C:\\Docs\\My.exe	|
+|file_link_name	|	string	|	path of the hard link	|	C:\\Docs\\My.exe	|
