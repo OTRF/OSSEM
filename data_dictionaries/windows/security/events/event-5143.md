@@ -62,7 +62,7 @@ This event generates every time network share object was modified.
 |	share_name	|	ShareName	|	string	|	the name of the modified share object. The format is: \\*\SHARE_NAME	|	\\\\\*\\Documents	|
 |	share_local_path	|	ShareLocalPath	|	string	|	the full system (NTFS) path for the added share object.	|	C:\\Documents	|
 |	share_old_remark	|	OldRemark	|	string	|	the old value of network share “Comments:” field. Has “N/A” value if it is not set.	|	N/A	|
-|	share_new_remak	|	NewRemark	|	string	|	the new value of network share “Comments:” field. Has “N/A” value if it is not set.	|	N/A	|
+|	share_new_remark	|	NewRemark	|	string	|	the new value of network share “Comments:” field. Has “N/A” value if it is not set.	|	N/A	|
 |	share_old_max_users	|	OldMaxUsers	|	string	|	old hexadecimal value of “Limit the number of simultaneous user to:” field. Has “0xFFFFFFFF” value if the number of connections is unlimited.	|	0xffffffff	|
 |	share_new_max_users	|	NewMaxUsers	|	string	|	new hexadecimal value of “Limit the number of simultaneous user to:” field. Has “0xFFFFFFFF” value if the number of connections is unlimited.	|	0xffffffff	|
 |	share_old_flags	|	OldShareFlags	|	string	|	old hexadecimal value of “Offline Settings” caching settings window flags.	|	0x800	|
