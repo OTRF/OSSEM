@@ -29,5 +29,5 @@ This event is generated when a process attempts an account logon by explicitly s
 |	target_info	|	TargetInfo	|	string	|	there is no detailed information about this field in this document.	|	localhost	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process which was run using explicit credentials. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x368	|
 |	process_name	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\svchost.exe	|
-|	src_ip	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed.	|	::1	|
+|	src_ip_addr	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed.	|	::1	|
 |	src_port|	IpPort	|	integer	|	source port which was used for logon attempt from remote machine.	|	0	|

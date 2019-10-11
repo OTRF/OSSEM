@@ -32,7 +32,7 @@ This event generates when a logon session is created (on destination machine). I
 |	logon_key_length	|	KeyLength	|	integer	|	the length of NTLM Session Security key. Typically it has 128 bit or 56 bit length. This parameter is always 0 if “Authentication Package” = “Kerberos”, because it is not applicable for Kerberos protocol. This field will also have “0” value if Kerberos was negotiated using Negotiate authentication package.	|	0	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process that attempted the logon. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x44c	|
 |	process_name	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\svchost.exe	|
-|	src_ip	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed	|	127.0.0.1	|
+|	src_ip_addr	|	IpAddress	|	ip	|	IP address of machine from which logon attempt was performed	|	127.0.0.1	|
 |	src_port |	IpPort	|	integer	|	source port which was used for logon attempt from remote machine. 0 for interactive logons	|	0	|
 |	logon_impersonation_level	|	ImpersonationLevel	|	string	|	Impersonation level	|	%%1833	|
 |	logon_restricted_admin_mode	|	RestrictedAdminMode	|	string	|	Only populated for RemoteInteractive logon type sessions. This is a Yes/No flag indicating if the credentials provided were passed using Restricted Admin mode. Restricted Admin mode was added in Win8.1/2012R2 but this flag was added to the event in Win10. If not a RemoteInteractive logon, then this will be "-" string.	|	-	|

@@ -23,7 +23,7 @@ This event generates every time Key Distribution Center issues a Kerberos Ticket
 |	ticket_status	|	Status	|	string	|	hexadecimal result code of TGT issue operation.	|	0x0	|
 |	ticket_encryption_type	|	TicketEncryptionType	|	string	|	the cryptographic suite that was used for issued TGT	|	0x12	|
 |	ticket_pre_auth_type	|	PreAuthType	|	integer	|	the code number of pre-Authentication type which was used in TGT request.	|	15	|
-|	src_ip	|	IpAddress	|	ip	|	IP address of the computer from which the TGT request was received	|	::ffff:10.0.0.12	|
+|	src_ip_addr	|	IpAddress	|	ip	|	IP address of the computer from which the TGT request was received	|	::ffff:10.0.0.12	|
 |	src_port	|	IpPort	|	integer	|	source port number of client network connection (TGT request connection).	|	49273	|
 |	certificate_issuer_name	|	CertIssuerName	|	string	|	the name of the Certification Authority that issued the smart card certificate. Populated in Issued by field in certificate.	|	contoso-DC01-CA-1	|
 |	certificate_serial_number	|	CertSerialNumber	|	string	|	smart card certificate’s serial number. Can be found in Serial number field in the certificate.	|	1D0000000D292FBE3C6CDDAFA200020000000D	|
