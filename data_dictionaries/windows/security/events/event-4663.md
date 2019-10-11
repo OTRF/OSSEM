@@ -27,7 +27,7 @@ The main difference with “4656: A handle to an object was requested.” event 
 |	object_name	|	ObjectName	|	string	|	name and other identifying information for the object for which access was requested. For example, for a file, the path would be included.	|	C:\\Documents\\HBI Data.txt	|
 |	object_handle_id	|	HandleId	|	integer	|	hexadecimal value of a handle to Object Name. This field can be used for correlation with other events, for example with Handle ID field in “4656(S, F): A handle to an object was requested.”	|	0x1bc	|
 |	user_access_list	|	AccessList	|	string	|	the list of access rights which were used by Subject\Security ID. These access rights depend on Object Type. 	|	%%4417 %%4418	|
-|	access_mask	|	AccessMask	|	string	|	hexadecimal mask for the requested or performed operation. For more information, see the preceding table.	|	0x6	|
+|	object_access_mask	|	AccessMask	|	string	|	hexadecimal mask for the requested or performed operation. For more information, see the preceding table.	|	0x6	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process that accessed the object. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x458	|
 |	process_path	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\notepad.exe	|
 |	object_resource_attributes	|	ResourceAttributes	|	string	|	attributes associated with the object. For some objects, the field does not apply and “-“ is displayed.	|	S:AI(RA;ID;;;;WD;("Impact\_MS",TI,0x10020,3000))	|
