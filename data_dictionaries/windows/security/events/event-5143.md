@@ -67,5 +67,5 @@ This event generates every time network share object was modified.
 |	share_new_max_users	|	NewMaxUsers	|	string	|	new hexadecimal value of “Limit the number of simultaneous user to:” field. Has “0xFFFFFFFF” value if the number of connections is unlimited.	|	0xffffffff	|
 |	share_old_flags	|	OldShareFlags	|	string	|	old hexadecimal value of “Offline Settings” caching settings window flags.	|	0x800	|
 |	share_new_flags	|	NewShareFlags	|	string	|	new hexadecimal value of “Offline Settings” caching settings window flags.	|	0x800	|
-|	share_old_SD	|	OldSD	|	string	|	the old Security Descriptor Definition Language (SDDL) value for network share security descriptor.	|	-	|
-|	share_new_SD	|	NewSD	|	string	|	the new Security Descriptor Definition Language (SDDL) value for network share security descriptor.	|	O:BAG:DAD:(D;;FA;;;S-1-5-21-3457937927-2839227994-823803824-1104)(A;OICI;FA;;;WD)(A;OICI;FA;;;BA)	|
+|	share_old_sd	|	OldSD	|	string	|	the old Security Descriptor Definition Language (SDDL) value for network share security descriptor.	|	-	|
+|	share_new_sd	|	NewSD	|	string	|	the new Security Descriptor Definition Language (SDDL) value for network share security descriptor.	|	O:BAG:DAD:(D;;FA;;;S-1-5-21-3457937927-2839227994-823803824-1104)(A;OICI;FA;;;WD)(A;OICI;FA;;;BA)	|
