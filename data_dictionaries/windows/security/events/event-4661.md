@@ -29,4 +29,4 @@ This event indicates that a handle was requested for either an Active Directory 
 |	object_properties	|	Properties	|	string	|	depends on Object Type. This field can be empty or contain the list of the object properties that were accessed. See more detailed information in “4661: A handle to an object was requested” from Audit SAM subcategory.	|	-	|
 |	object_restricted_sid_count	|	RestrictedSidCount	|	string	|	Number of restricted SIDs in the token. Applicable to only specific Object Types.	|	-	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process that requested the handle. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x9000a000d002d	|
-|	process_name	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	{bf967a90-0de6-11d0-a285-00aa003049e2} %%5400 {ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501}	|
+|	process_path	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	{bf967a90-0de6-11d0-a285-00aa003049e2} %%5400 {ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501}	|

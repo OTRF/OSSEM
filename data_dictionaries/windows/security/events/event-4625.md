@@ -35,6 +35,6 @@ This event generates if an account logon attempt failed when the account was alr
 |	logon_authentication_lan_package_name	|	LmPackageName	|	integer	|	The name of the LAN Manager sub-package (NTLM-family protocol name) that was used during logon. Possible values are: NTLM V1, NTLM V2, LM. Only populated if Authentication Package = NTLM.	|	-	|
 |	logon_key_length	|	KeyLength	|	integer	|	the length of NTLM Session Security key. Typically it has 128 bit or 56 bit length. This parameter is always 0 if “Authentication Package” = “Kerberos”, because it is not applicable for Kerberos protocol. This field will also have “0” value if Kerberos was negotiated using Negotiate authentication package.	|	0	|
 |	process_id	|	ProcessId	|	string	|	hexadecimal Process ID of the process that attempted the logon. Process ID (PID) is a number used by the operating system to uniquely identify an active process.	|	0x1bc	|
-|	process_name	|	ProcessName	|	ip	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\winlogon.exe	|
+|	process_path	|	ProcessName	|	ip	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\winlogon.exe	|
 |	src_ip_addr	|	IpAddress	|	integer	|	IP address of machine from which logon attempt was performed	|	127.0.0.1	|
 |	src_port |	IpPort	|	string	|	source port which was used for logon attempt from remote machine. 0 for interactive logons	|	0	|

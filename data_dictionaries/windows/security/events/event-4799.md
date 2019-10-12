@@ -22,4 +22,4 @@ This event generates when a process enumerates the members of a security-enabled
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
 |	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x72d9d	|
 |	process_id	|	CallerProcessId	|	integer	|	hexadecimal Process ID of the process that enumerated the members of the group. Process ID (PID) is a number used by the operating system to uniquely identify an active process. You can also correlate this process ID with a process ID in other events, for example, “4688: A new process has been created” Process Information\New Process ID.	|	0xc80	|
-|	process_name	|	CallerProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\mmc.exe	|
+|	process_path	|	CallerProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\mmc.exe	|

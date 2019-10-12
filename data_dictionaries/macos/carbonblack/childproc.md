@@ -41,7 +41,7 @@ A process has spawned another process on an endpoint monitored by Carbon Black.
 |	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for parent process	|	https://cbtests/#analyze/00000001-0000-0af4-01d1-1e444bf4c3dd/1	|
 |	sensor_link	|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/1	|
 |	hash	|	md5	|	TEXT	|	md5 of the module	|	D6021013D7C4E248AEB8BED12D3DCC88	|
-|	parent_process_id	|	pid	|	INTEGER	|	Endpoint OS Process id of  parent process	|	2804	|
+|	process_parent_id	|	pid	|	INTEGER	|	Endpoint OS Process id of  parent process	|	2804	|
 |	process_guid	|	process_guid	|	TEXT	|	Cb Process GUID of parent process	|	00000001-0000-0af4-01d1-1e444bf4c3dd	|
 |	sensor_id	|	sensor_id	|	INTEGER	|	sensor ID of associated sensor	|	1	|
 |	event_date_creation	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447697423	|

@@ -57,7 +57,7 @@ This event generates when a Security Descriptor (SD) on an object was changed.
 |	object_type	        |	ObjectType	|	string	|	The type of an object that was accessed during the operation	|	`Key`	|
 |	object_new_sd       |	NewSd	|	string	|   the new Security Descriptor Definition Language (SDDL) value for the object	|	`S:ARAI(AU;CISA;KA;;;S-1-5-21-3457937927-2839227994-823803824-1104)`	|
 |	object_old_sd       |	OldSd	|	string	|	the old Security Descriptor Definition Language (SDDL) value for the object |	`S:AI`	|
-|	process_name        |	ProcessName	|	string	|   full path and the name of the executable for the process	|	`C:\\Windows\\regedit.exe`	|
+|	process_path        |	ProcessName	|	string	|   full path and the name of the executable for the process	|	`C:\\Windows\\regedit.exe`	|
 |	process_id          |	ProcessId	|	string	|   hexadecimal Process ID of the process through which the object’s SACL was changed	|	`0x120c`	|
 |	user_sid	        |	SubjectUserSid	|	string	|	SID of account that made an attempt to create the hard link.	|	`S-1-5-21-3457937927-2839227994-823803824-1104`	|
 |	user_name	        |	SubjectUserName	|	string	|	the name of the account that made a change to object’s auditing settings	|	`dadmin`	|

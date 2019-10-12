@@ -22,4 +22,4 @@ This is an informational event from file system Transaction Manager.
 |	transaction_new_state	|	NewState	|	string	|	identifier of the new state of the transaction.	|	52	|
 |	transaction_resource_manager	|	ResourceManager	|	string	|	unique GUID-Identifier of the Resource Manager which associated with this transaction.	|	{5F5ED427-FCCA-11E3-BD73-B54AB417B853}	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the process through which the state of the transaction was changed. Process ID (PID) is a number used by the operating system to uniquely identify an active process	|	0x370	|
-|	process_name	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\svchost.exe	|
+|	process_path	|	ProcessName	|	string	|	full path and the name of the executable for the process.	|	C:\\Windows\\System32\\svchost.exe	|

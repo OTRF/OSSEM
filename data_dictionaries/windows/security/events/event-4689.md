@@ -20,4 +20,4 @@ This event generates every time a process has exited.
 |	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “4624: An account was successfully logged on.”	|	0x31365	|
 |	event_status	|	Status	|	integer	|	hexadecimal exit code of exited/terminated process.	|	0x0	|
 |	process_id	|	ProcessId	|	integer	|	hexadecimal Process ID of the ended/terminated process.	|	0xfb0	|
-|	process_name	|	ProcessName	|	string	|	full path and the executable name of the exited/terminated process.	|	C:\\Windows\\System32\\notepad.exe	|
+|	process_path	|	ProcessName	|	string	|	full path and the executable name of the exited/terminated process.	|	C:\\Windows\\System32\\notepad.exe	|
