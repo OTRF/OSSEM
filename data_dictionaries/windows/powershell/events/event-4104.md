@@ -6,7 +6,7 @@ author: Roberto Rodriguez (@Cyb3rWard0g)
 date: 05/16/2018
 ---
 
-# Event ID 4103: Script Block Logging 
+# Event ID 4104: Script Block Logging 
 
 ## Description
 

@@ -1,6 +1,7 @@
 # TLS Schema
 
-Event fields used for a domain in order to define metadata about a TLS(SSL) record.  
+Event fields used to define metadata about a TLS(SSL) record.  
+Work in progress...
 
 ## Data Fields
 
