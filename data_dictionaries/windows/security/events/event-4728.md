@@ -1,14 +1,13 @@
-# Event ID 4732: A member was added to a security-enabled local group
+# Event ID 4728: A member was added to a security-enabled global group.
 
 ## Description
 
-This event generates every time a new member was added to a security-enabled (security) local group.
+See event _[4732](event-4732.md): A member was added to a security-enabled local group._ Event 4728 is the same, but it is generated for a **global** security group instead of a **local** security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-* This event generates on domain controllers, member servers, and workstations.
-* For every added member you will get separate 4732 event.
-* You will typically see “4735: A security-enabled local group was changed.” event without any changes in it prior to 4732 event.
+  > [!IMPORTANT]
+  > Event 4728(S) generates only for domain groups, so the Local sections in event [4732](event-4732.md) do not apply.
 
-[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4732.md)
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/b7c0643659189d384c8fa4b234256bdaef176b02/windows/security/threat-protection/auditing/audit-security-group-management.md#L67)
 
 ## Event Log Illustration & Event XML
 

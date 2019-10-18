@@ -1,16 +1,13 @@
-# Event ID 4735: A security-enabled local group was changed
+# Event ID 4737: A security-enabled global group was changed.
 
 ## Description
 
-This event generates every time a security-enabled (security) local group is changed.
+See event _[4735](event-4735.md): A security-enabled local group was changed._ Event 4737 is the same, but it is generated for a **global** security group instead of a **local** security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-* This event generates on domain controllers, member servers, and workstations.
-* Some changes do not invoke a 4735 event, for example, changes made using Active Directory Users and Computers management console in Managed By tab in group account properties.
-* If you change the name of the group (SAM Account Name), you also get “4781: The name of an account was changed” if “Audit User Account Management” subcategory success auditing is enabled.
-* If you change the group type, you get a change event from the new group type auditing subcategory instead of 4735. If you need to monitor for group type changes, it is better to monitor for “4764: A group’s type was changed.” These events are generated for any group type when group type is changed. “Audit Security Group Management” subcategory success auditing must be enabled.
-* From 4735 event you can get information about changes of sAMAccountName and sIDHistory attributes or you will see that something changed, but will not be able to see what exactly changed.
+  > [!IMPORTANT]
+  > Event 4737(S) generates only for domain groups, so the Local sections in event [4735](event-4735.md) do not apply.
 
-[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4735.md)
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/b7c0643659189d384c8fa4b234256bdaef176b02/windows/security/threat-protection/auditing/audit-security-group-management.md#L62)
 
 ## Event Log Illustration & Event XML
 

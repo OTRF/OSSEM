@@ -1,10 +1,13 @@
-# Event ID 4731: A security-enabled local group was created
+# Event ID 4754: A security-enabled universal group was created.
 
 ## Description
 
-This event generates every time a new security-enabled (security) local group was created. This event generates on domain controllers, member servers, and workstations.
+See event _[4731](event-4731.md): A security-enabled local group was created._ Event 4754 is the same, but it is generated for a **universal** security group instead of a **local** security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4731.md)
+  > [!IMPORTANT]
+  > Event 4754(S) generates only for domain groups, so the Local sections in event [4731](event-4731.md) do not apply.
+
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/b7c0643659189d384c8fa4b234256bdaef176b02/windows/security/threat-protection/auditing/audit-security-group-management.md#L82)
 
 ## Event Log Illustration & Event XML
 

@@ -1,14 +1,13 @@
-# Event ID 4733: A member was removed from a security-enabled local group
+# Event ID 4757: A member was removed from a security-enabled universal group.
 
 ## Description
 
-This event generates every time member was removed from security-enabled (security) local group.
+See event _[4733](event-4733.md): A member was removed from a security-enabled local group._ Event 4757 is the same, but it is generated for a **universal** security group instead of a **local** security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-* This event generates on domain controllers, member servers, and workstations.
-* For every removed member you will get separate 4733 event.
-* You will typically see “4735: A security-enabled local group was changed.” event without any changes in it prior to 4733 event.
+  > [!IMPORTANT]
+  > Event 4757(S) generates only for domain groups, so the Local sections in event [4733](event-4733.md) do not apply.
 
-[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4733.md)
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/b7c0643659189d384c8fa4b234256bdaef176b02/windows/security/threat-protection/auditing/audit-security-group-management.md#L97)
 
 ## Event Log Illustration & Event XML
 

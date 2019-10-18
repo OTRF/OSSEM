@@ -1,10 +1,13 @@
-# Event ID 4734: A security-enabled local group was deleted
+# Event ID 4758: A security-enabled universal group was deleted.
 
 ## Description
 
-This event generates every time security-enabled (security) local group is deleted. This event generates on domain controllers, member servers, and workstations.
+See event _[4734](event-4734.md): A security-enabled local group was deleted._ Event 4758 is the same, but it is generated for a **universal** security group instead of a **local** security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4734.md)
+  >[!IMPORTANT]
+  > Event 4758(S) generates only for domain groups, so the Local sections in event [4734](event-4734.md) do not apply.
+
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/b7c0643659189d384c8fa4b234256bdaef176b02/windows/security/threat-protection/auditing/audit-security-group-management.md#L102)
 
 ## Event Log Illustration & Event XML
 

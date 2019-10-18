@@ -14,9 +14,9 @@ This event generates when a process enumerates the members of a security-enabled
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	target_group_name	|	TargetUserName	|	string	|	the name of the group which members were enumerated.	|	Administrators	|
-|	target_group_domain	|	TargetDomainName	|	string	|	group’s domain or computer name.	|	Builtin	|
-|	target_group_sid	|	TargetSid	|	string	|	SID of the group which members were enumerated. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-32-544	|
+|	group_name	|	TargetUserName	|	string	|	the name of the group which members were enumerated.	|	Administrators	|
+|	group_domain	|	TargetDomainName	|	string	|	group’s domain or computer name.	|	Builtin	|
+|	group_sid	|	TargetSid	|	string	|	SID of the group which members were enumerated. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-32-544	|
 |	user_logon_id	|	SubjectUserSid	|	string	|	SID of account that requested the “enumerate security-enabled local group members” operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-1377283216-344919071-3415362939-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the “enumerate security-enabled local group members” operation.	|	dadmin	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|
