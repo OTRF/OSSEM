@@ -1,11 +1,11 @@
 # Zeek Network Protocol Event Logs
 
-Zeek' network application logs. Metadata it collects and records about the many protocol's it has analyzers written for. These are the most commonly used Zeek logs 
+Zeek' network application logs. Metadata it collects and records about the many protocol's it has analyzers written for. These are the most commonly used Zeek logs
 
 ## Data Dictionaries
 
 - [conn.log](./conn.md)
-- [dce_rpc.log](./dns.md)
+- [dce_rpc.log](./dce_rpc.md)
 - [dhcp.log](./dhcp.md)
 - [dnp3.log](./dnp3.md)
 - [dns.log](./dns.md)
