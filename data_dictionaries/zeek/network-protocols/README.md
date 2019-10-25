@@ -1,6 +1,6 @@
 # Zeek Network Protocol Event Logs
 
-Zeek' network application logs. Metadata it collects and records about the many protocol's it has analyzers written for. These are the most commonly used Zeek logs
+Zeek network application logs. Metadata it collects and records about the many protocol's it has analyzers written for. These are the most commonly used Zeek logs
 
 ## Data Dictionaries
 
