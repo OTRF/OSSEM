@@ -38,4 +38,3 @@
 |#TODO:NewFieldName|rtt|float|Round trip time for the query and response. This indicates the delay between when the request was seen until the answer started.|
 |#TODO:NewFieldName|rcode|integer|The response code value in DNS response messages.|
 |#TODO:NewFieldName|trans_id|string|A 16-bit identifier assigned by the program that generated the DNS query. Also used in responses to match up replies to outstanding queries.|
-
