@@ -1,4 +1,4 @@
-# MySQL Log
+# Known Hosts Log
 
 ## Description
 
@@ -12,9 +12,5 @@
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
 |#TODO:NewFieldName|@stream|string|
-|#TODO:NewFieldName|ts|date_time|
-|#TODO:NewFieldName|id.orig_h|ip|
-|#TODO:NewFieldName|id.orig_p|integer|
-|#TODO:NewFieldName|id.resp_h|ip|
-|#TODO:NewFieldName|id.resp_p|integer|
-|#TODO:NewFieldName|uid|string|Unique ID for the connection.
+|#TODO:NewFieldName|ts|date_time|The timestamp at which the host was detected.
+|#TODO:NewFieldName|host|ip|The address that was detected originating or responding to a TCP connection.

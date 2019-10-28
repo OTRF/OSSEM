@@ -1,4 +1,4 @@
-# MySQL Log
+# Traceroute Log
 
 ## Description
 
@@ -13,8 +13,6 @@
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
 |#TODO:NewFieldName|@stream|string|
 |#TODO:NewFieldName|ts|date_time|
-|#TODO:NewFieldName|id.orig_h|ip|
-|#TODO:NewFieldName|id.orig_p|integer|
-|#TODO:NewFieldName|id.resp_h|ip|
-|#TODO:NewFieldName|id.resp_p|integer|
-|#TODO:NewFieldName|uid|string|Unique ID for the connection.
+|#TODO:NewFieldName|proto|string|Protocol used for the traceroute.
+|#TODO:NewFieldName|src|ip|Address initiating the traceroute.
+|#TODO:NewFieldName|dst|ip|Destination address of the traceroute.

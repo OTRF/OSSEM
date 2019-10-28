@@ -1,4 +1,4 @@
-# MySQL Log
+# NTP Log
 
 ## Description
 
