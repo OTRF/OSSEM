@@ -15,3 +15,5 @@ Event fields used to define the source (client) in a network connection event.
 | src_packets | integer | network packets sent by the src_ip_addr | 5 |
 | src_port | integer | Source port number | 41572 |
 | src_port_name | string | Source port name. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT the actual the application used | netbios-dgm |
+| src_vlan_id | integer | The source VLAN ID if can be determined, commonly if from a firewall/switch/router and can be determined | `100` |
+| src_vlan_name | string | The source VLAN Name, commonly if from a firewall/switch/router and can be determined | `management` |

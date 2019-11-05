@@ -14,3 +14,5 @@ Event fields used to define metadata about network information seen in a typical
 | network_packets | long | Total packets for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination packets | 143 |
 | network_application | string | Layer 7 (application) in the OSI model. Ex: HTTP,SMB,FTP,SSH, etc | http |
 | network_protocol | string | Transport layer in the OSI model. Also known as, IP Protocol. Ex: TCP,UDP,ICMP,ICMP-v6, etc. Convert to lowercase | tcp |
+| network_inner_vlan_id | integer | Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN "inside" | 150 |
+| network_outer_vlan_id | integer | Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN on the "outside" | 160 |
