@@ -1,4 +1,4 @@
-# MySQL Log
+# IMAP Log
 
 ## Description
 

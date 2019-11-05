@@ -1,4 +1,4 @@
-# MySQL Log
+# MQTT Log
 
 ## Description
 

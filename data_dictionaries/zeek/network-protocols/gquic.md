@@ -1,4 +1,4 @@
-# DNP3 Log
+# GQUIC Log
 
 ## Description
 
@@ -13,12 +13,14 @@
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
 |#TODO:NewFieldName|@stream|string||
 |#TODO:NewFieldName|ts|date_time||
-|#TODO:NewFieldName|proto|string|The transport layer protocol of the connection.|
-|#TODO:NewFieldName|id.orig_h|ip||
+|#TODO:NewFieldName|orig_h|ip||
 |#TODO:NewFieldName|id.orig_p|integer||
-|#TODO:NewFieldName|id.resp_h|ip||
-|#TODO:NewFieldName|id.resp_p|integer||
+|#TODO:NewFieldName|resp_h|ip||
+|#TODO:NewFieldName|resp_p|integer||
 |#TODO:NewFieldName|uid|string|Unique ID for the connection.|
-|#TODO:NewFieldName|fc_reply|string|The name of the function message in the reply.|
-|#TODO:NewFieldName|fc_request|string|The name of the function message in the request.|"""READ"";""WRITE"";""OPERATE"";"
-|#TODO:NewFieldName|iin|integer|The response’s “internal indication number”.|
+|#TODO:NewFieldName|cyu|string||a46560d4548108cf99308319b3b85346
+|#TODO:NewFieldName|cyutags|string||46,PAD-SNI-STK-VER-CCS-NONC-AEAD-UAID-SCID-TCID-PDMD-SMHL-ICSL-NONP-PUBS-MIDS-SCLS-KEXS-XLCT-CSCT-COPT-CCRT-IRTT-CFCW-SFCW
+|#TODO:NewFieldName|server_name|string||"""adservice.google.com"""
+|#TODO:NewFieldName|tag_count|integer||25
+|#TODO:NewFieldName|user_agent|string||"""Chrome/76.0.3809.100 Linux x86_64"""
+|#TODO:NewFieldName|version|integer||"""46"""=
