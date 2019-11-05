@@ -10,13 +10,18 @@ Zeek network application logs. Metadata it collects and records about the many p
 - [dnp3.log](./dnp3.md)
 - [dns.log](./dns.md)
 - [ftp.log](./ftp.md)
+- [gquic.log](./gquic.md)
 - [http.log](./http.md)
+- [imap.log](./imap.md)
 - [irc.log](./irc.md)
 - [kerberos.log](./kerberos.md)
 - [modbus.log](./modbus.md)
 - [modbus_register_change.log](./modbus_register_change.md)
+- [mqtt.log](./mqtt.md)
 - [mysql.log](./mysql.md)
 - [ntlm.log](./ntlm.md)
+- [ntp.log](./ntp.md)
+- [pop3.log](./pop3.md)
 - [radius.log](./radius.md)
 - [rdp.log](./rdp.md)
 - [rfb.log](./rfb.md)
@@ -30,6 +35,7 @@ Zeek network application logs. Metadata it collects and records about the many p
 - [ssl.log](./ssl.md)
 - [syslog.log](./syslog.md)
 - [tunnel.log](./tunnel.md)
+- [xmpp.log](./xmpp.md)
 
 ## Resources
 

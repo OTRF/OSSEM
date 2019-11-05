@@ -11,7 +11,7 @@
 
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-|#TODO:NewFieldName|@stream|string
-|#TODO:NewFieldName|ts|date_time
-|#TODO:NewFieldName|username|string
-|#TODO:NewFieldName|successful_commands|
+|     TBD     |     @stream|string
+|     @timestamp     |     ts|date_time
+|     TBD     |     username|string
+|     TBD     |     successful_commands|

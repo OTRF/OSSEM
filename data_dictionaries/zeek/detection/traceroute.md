@@ -11,8 +11,7 @@
 
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-|#TODO:NewFieldName|@stream|string|
-|#TODO:NewFieldName|ts|date_time|
-|#TODO:NewFieldName|proto|string|Protocol used for the traceroute.
-|#TODO:NewFieldName|src|ip|Address initiating the traceroute.
-|#TODO:NewFieldName|dst|ip|Destination address of the traceroute.
+|     @timestamp     |     ts     |     date_time     |     Timestamp of the beginning of the event in epoch format     |     `1300475167.096535`     |
+|     TBD     |     proto     |     string     |     Protocol used for the traceroute     |   `tcp`  |
+|     TBD     |     src     |     ip     |     Address initiating the traceroute     |  `10.1.1.1.1`   |
+|     TBD     |     dst     |     ip     |     Destination address of the traceroute     |  `10.2.2.2`   |

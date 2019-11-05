@@ -1,8 +1,8 @@
 # Zeek Miscellaneous Event Logs
 
-
 ## Data Dictionaries
 
+- [dpd.log](./dpd.md)
 
 ## Resources
 

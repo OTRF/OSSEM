@@ -11,6 +11,5 @@
 
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-|#TODO:NewFieldName|@stream|string|
-|#TODO:NewFieldName|ts|date_time|The timestamp at which the host was detected.
-|#TODO:NewFieldName|host|ip|The address that was detected originating or responding to a TCP connection.
+|     @timestamp     |     ts      |   date_time   |       The timestamp at which the host was detected.   |   `1300475167.096535` |
+|     TBD     |     host     |     ip     |     The address that was detected originating or responding to a TCP connection     |   `10.1.1.1`  |
