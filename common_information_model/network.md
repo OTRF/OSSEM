@@ -16,3 +16,7 @@ Event fields used to define metadata about network information seen in a typical
 | network_protocol | string | Transport layer in the OSI model. Also known as, IP Protocol. Ex: TCP,UDP,ICMP,ICMP-v6, etc. Convert to lowercase | tcp |
 | network_inner_vlan_id | integer | Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN "inside" | 150 |
 | network_outer_vlan_id | integer | Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN on the "outside" | 160 |
+| network_connection_history | string | TCP Flags and other potential IP header info |  |
+| network_connection_history_detailed | string | Detailed description of the information in network_connection_history |  |
+| network_connection_state | string | The end state of the session/connection as defined in short abbreviation |  |
+| network_connection_state_detailed | string | Detailed description of the information in network_connection_state |  |
