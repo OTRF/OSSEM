@@ -12,7 +12,7 @@
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
 |     @timestamp     |     ts   |   date_time   |   An absolute time indicating when the notice occurred, defaults to the current network time in epoch     |     `1300475167.096535`     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     fuid     |     string     |     A file unique ID if this notice is related to a file. If the f field is provided, this will be automatically filled out     |     ``     |
 |     TBD     |     file_desc     |     string     |     Frequently files can be “described” to give a bit more context. This field will typically be automatically filled out from an fa_file record. For example, if a notice was related to a file over HTTP, the URL of the request would be shown     |     ``     |
 |     TBD     |     file_mime_type     |     string     |     A mime type if the notice is related to a file. If the f field is provided, this will be automatically filled out     |     ``     |

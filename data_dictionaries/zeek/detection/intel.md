@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `80`     |
-|     TBD     |     uid     |     string     |     If a connection was associated with this intelligence hit, this is the uid for the connection    |   ``  |
+|     event_uid     |     uid     |     string     |     If a connection was associated with this intelligence hit, this is the uid for the connection    |   ``  |
 |     TBD     |     fuid     |     string     |          present if base/frameworks/intel/files.bro is loaded If a file was associated with this intelligence hit, this is the uid for the file.   |   ``  |
 |     TBD     |     file_mime_type     |     string     |          present if base/frameworks/intel/files.bro is loaded A mime type if the intelligence hit is related to a file. If the $f field is provided this will be automatically filled out.   |   ``  |
 |     TBD     |     file_desc     |     string     |          present if base/frameworks/intel/files.bro is loaded Frequently files can be “described” to give a bit more context. If the $f field is provided this field will be automatically filled out.   |   ``  |
