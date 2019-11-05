@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `5060`     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     call_id     |     string     |     Contents of the Call-ID: header from the client     |     `2984467955@1.243.141.236`     |
 |     TBD     |     content_type     |     string     |     Contents of the Content-Type: header from the server    |
 |     TBD     |     date     |     string     |     Contents of the Date: header from the client    |     ``     |

@@ -17,7 +17,7 @@
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address. The host that will be accepting the data connection     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p     |     integer     |     The port at which the acceptor is listening for the data connection     |     `21`     |
 |     TBD     |     fuid     |     string     |     present if base/protocols/ftp/files.bro is loaded File unique ID.  |     ``     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     user     |     string     |     User name for the current FTP session.  |   `bobsyauncle`   |
 |     TBD     |     password     |     string     |     Password for the current FTP session if captured.   |   `bobspassword`  |
 |     TBD     |     arg     |     string     |     Argument for the command if one is given.    |     ``     |

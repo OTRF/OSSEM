@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `1080`     |
-|     TBD     |     uid     |     string     |     Unique ID for the tunnel - may correspond to connection uid or be non-existent     |     ``     |
+|     event_uid     |     uid     |     string     |     Unique ID for the tunnel - may correspond to connection uid or be non-existent     |     ``     |
 |     TBD     |     user     |     string     |     Username used to request a login to the proxy     |     ``     |
 |     TBD     |     password     |     string     |     Password used to request a login to the proxy     |     ``     |
 |     TBD     |     bound_host     |     ip     |     Server bound ip     |     ``     |

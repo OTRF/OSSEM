@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `25`     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     fuids     |     array_string     |          present if base/protocols/smtp/files.bro is loaded An ordered vector of file unique IDs seen attached to the message.     |   `C4J4Th3PJpwUYZZ6gc`  |
 |     TBD     |     cc     |     array_string     |     Contents of the CC header.     |     `[ "someemail@somedomain.local", "some.email.2@somedomain.local", "some.email.3@somedomain.local" ]`      |
 |     TBD     |     date     |     string     |     Contents of the Date header.     |     `Thu, 15 Nov 2018 08:46:32 -0600 (CST);15 Nov 2018 09:46:54 -0500`     |

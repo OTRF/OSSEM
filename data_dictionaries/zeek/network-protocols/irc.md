@@ -17,7 +17,7 @@
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `6660`     |
 |     TBD     |     fuid     |     string     |          present if base/protocols/irc/files.bro is loaded File unique ID.   |   ``  |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     addl     |     string     |     Any additional data for the command     |     ``     |
 |     TBD     |     dcc_file_name     |     string     |          present if base/protocols/irc/dcc-send.bro is loaded DCC filename requested.   |   ``  |
 |     TBD     |     dcc_file_size     |     integer     |          present if base/protocols/irc/dcc-send.bro is loaded Size of the DCC transfer as indicated by the sender.   |   ``  |

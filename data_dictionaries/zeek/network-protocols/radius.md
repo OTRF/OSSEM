@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `1812`     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     username     |     string     |     The username, if present.   |   `host/somecomputername.domain.local`    |
 |     TBD     |     ttl     |     float     |     The duration between the first request and either the “Access-Accept” message or an error. If the field is empty, it means that either the request or response was not seen     |     ``     |
 |     TBD     |     result     |     boolean     |     Successful or failed authentication.   | `failed`    |

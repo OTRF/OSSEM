@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p     |     integer     |     The originating/source port        |     `37682`     |    
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p     |     integer     |     The responding/destination port        |     `5900`     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     client_minor_version     |     string     |     Minor version of the client     |     |
 |     TBD     |     client_major_version     |     string     |     "Major version of the client     |     |
 |     TBD     |     authentication_method     |     string     |     Identifier of authentication method used     |     |

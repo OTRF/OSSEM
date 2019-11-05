@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `445`     |
-|     TBD     |     uid     |     string     |     Unique ID of the connection the file was sent over     |     ``     |
+|     event_uid     |     uid     |     string     |     Unique ID of the connection the file was sent over     |     ``     |
 |     TBD     |     fuid     |     string     |     Unique ID of the file     |     ``     |
 |     TBD     |     times_accessed  |   date_time   |   The time when the file was last accessed.   |  `2019-06-11T02:50:31.755864Z`   |
 |     TBD     |     times_created   |   date_time   |  The time the file was created.   |  `2019-06-11T02:50:31.755864Z`   |

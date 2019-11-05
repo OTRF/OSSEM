@@ -16,7 +16,7 @@
 |     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `3389`     |
-|     TBD     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
 |     TBD     |     cert_count     |     integer     |     The number of certs seen. X.509 can transfer an entire certificate chain.   |    `4` |
 |     TBD     |     cert_permanent     |     boolean     |     Indicates if the provided certificate or certificate chain is permanent or temporary.   |     `true`     |
 |     TBD     |     cert_type     |     string     |     If the connection is being encrypted with native RDP encryption, this is the type of cert being used.   |  `RSA`    |

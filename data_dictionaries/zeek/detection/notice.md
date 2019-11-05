@@ -17,7 +17,7 @@
 |     TBD     |     file_desc     |     string     |     Frequently files can be “described” to give a bit more context. This field will typically be automatically filled out from an fa_file record. For example, if a notice was related to a file over HTTP, the URL of the request would be shown     |     ``     |
 |     TBD     |     file_mime_type     |     string     |     A mime type if the notice is related to a file. If the f field is provided, this will be automatically filled out     |     ``     |
 |     TBD     |     src     |     ip     |     Source IP address |     `10.1.1.1`     |
-|     TBD     |     network_protocol     |     string     |     The transport protocol. Filled automatically when either conn, iconn or p is specified     |     `tcp`     |
+|     network_protocol     |     proto     |     string     |     The transport protocol. Filled automatically when either conn, iconn or p is specified     |     `tcp`     |
 |     TBD     |     actions     |     array_string     |     The actions which have been applied to this notice.   |    `Notice::ACTION_LOG`    |
 |     TBD     |     dropped     |     boolean     |          present if base/frameworks/notice/actions/drop.bro is loaded Indicate if the $src IP address was dropped and denied network access.   |   `false`  |
 |     TBD     |     email_body_sections     |     array_string     |     By adding chunks of text into this element, other scripts can expand on notices that are being emailed. The normal way to add text is to extend the vector by handling the Notice::notice event and modifying the notice in place     |     ``     |
