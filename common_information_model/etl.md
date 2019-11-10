@@ -8,7 +8,6 @@ Event fields used to define specific metadata about the event during the process
 |--------|---------|-------|-------|
 | etl_format_applied | string | Formatting or encoding applied during the ETL processing. Also referred to as CODEC in some use cases. Can be an array if multiple formats were applied/determined | `[ "sylog", "json" ]` |
 | etl_format_is_cef | boolean | During ETL processing, event is determined to be CEF (format) | `false` |
-| etl_format_is_cef | boolean | During ETL processing, event is determined to be CEF (format) | `false` |
 | etl_format_is_json | boolean | During ETL processing, event is determined to be CEF (format) | `true` |
 | etl_format_is_syslog | boolean | During ETL processing, event is determined to be Syslog (format). Technically you could send data encoded in different format over syslog (ie: CEF or JSON), therefore an event/log can have this tag/field as well as other format fields | `true` |
 | etl_format_is_xml | boolean | During ETL processing, event is determined to be XML (format) | `false` |
