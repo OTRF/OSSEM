@@ -9,13 +9,13 @@ This event generates when Windows Filtering Platform has blocked a connection.
 |Standard Name|Field Name|Type|Description|Sample Value|
 |----------------|----------------|----------------|----------------|----------------|
 |process_id|ProcessId|Pointer|Hexadecimal Process ID of the process that attempted to create the connection.|4556|
-|file_path|Application|UnicodeString|Full path and the name of the executable for the process.|\\device\\harddiskvolume2\\documents\\listener.exe|
+|process_path|Application|UnicodeString|Full path and the name of the executable for the process.|\\device\\harddiskvolume2\\documents\\listener.exe|
 ||Direction|UnicodeString|Direction of blocked connection.|Inbound|
 |src_ip_addr|SourceAddress|UnicodeString|Local IP address on which application received the connection.|10.0.0.10|
 |src_port|SourcePort|UnicodeString|Port number on which application received the connection.|3333|
 |dst_ip_addr|DestAddress|UnicodeString|IP address from which connection was received or initiated.|10.0.0.100|
 |dst_port|DestPort|UnicodeString|Port number which was used from remote machine to initiate connection.|49218|
-||Protocol|UInt32|Protocol number.|6|
+|network_protocol|Protocol|UInt32|Protocol number.|6|
 ||FilterRTID|UInt64|Unique filter ID which blocked the connection.|110398|
 ||LayerName|UnicodeString|Application Layer Enforcement layer name.|%%14610|
 ||LayerRTID|UInt64|Windows Filtering Platform layer identifier.|44|
