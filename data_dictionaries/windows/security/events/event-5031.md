@@ -8,8 +8,8 @@ This event generates when an application was blocked from accepting incoming con
 
 |Standard Name|Field Name|Type|Description|Sample Value|
 |----------------|----------------|----------------|----------------|----------------|
-||Profiles|UnicodeString|Network profile using which application was blocked.|Domain|
-|process_path|Application|UnicodeString|Full path and file name of executable file for blocked application.|C:\\documents\\listener.exe|
+||Profiles|string|Network profile using which application was blocked.|Domain|
+|process_path|Application|string|Full path and file name of executable file for blocked application.|C:\\documents\\listener.exe|
 
 ## Reference
 
