@@ -9,13 +9,13 @@ This event generates when Windows Filtering Platform has allowed a connection.
 |Standard Name|Field Name|Type|Description|Sample Value|
 |----------------|----------------|----------------|----------------|----------------|
 |process_id|ProcessId|Pointer|Hexadecimal Process ID of the process which received the connection.|4156|
-|file_path|Application|UnicodeString|Full path and the name of the executable for the process.|\\device\\harddiskvolume2\\documents\\listener.exe|
+|process_path|Application|UnicodeString|Full path and the name of the executable for the process.|\\device\\harddiskvolume2\\documents\\listener.exe|
 ||Direction|UnicodeString|Direction of allowed connection.|Inbound|
 |src_ip_addr|SourceAddress|UnicodeString|IP address from which the connection was initiated.|10.0.0.10|
 |src_port|SourcePort|UnicodeString|Port number from which the connection was initiated.|3333|
 |dst_ip_addr|DestAddress|UnicodeString|IP address where the connection was received.|10.0.0.100|
 |dst_port|DestPort|UnicodeString|Port number where the connection was received.|49278|
-||Protocol|UInt32|Protocol number.|6|
+|network_protocol|Protocol|UInt32|Protocol number.|6|
 ||FilterRTID|UInt64|Unique filter ID which allowed the connection.|84576|
 ||LayerName|UnicodeString|Application Layer Enforcement layer name.|%%14609|
 ||LayerRTID|UInt64|Windows Filtering Platform layer identifier.|40|

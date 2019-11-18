@@ -9,10 +9,10 @@ This event generates every time the Windows Filtering Platform blocks an applica
 |Standard Name|Field Name|Type|Description|Sample Value|
 |----------------|----------------|----------------|----------------|----------------|
 |process_id|ProcessId|Pointer|Hexadecimal Process ID (PID) of the process which was permitted to bind to the local port.|2628|
-|file_path|Application|UnicodeString|Full path and the name of the executable for the process.|\device\harddiskvolume2\users\test\desktop\netcat\nc.exe|
+|process_path|Application|UnicodeString|Full path and the name of the executable for the process.|\device\harddiskvolume2\users\test\desktop\netcat\nc.exe|
 |src_ip_addr|SourceAddress|UnicodeString|The local IP address of the computer running the application.|0.0.0.0|
 |src_port|SourcePort|UnicodeString|The port number used by the application.|5555|
-||Protocol|UInt32|Protocol number.|6|
+|network_protocol|Protocol|UInt32|Protocol number.|6|
 ||FilterRTID|UInt64|A unique filter ID which blocks the application from binding to the port.|84576|
 ||LayerName|UnicodeString|Application Layer Enforcement layer name.|%%14609|
 ||LayerRTID|UInt64|Windows Filtering Platform layer identifier.|40|
