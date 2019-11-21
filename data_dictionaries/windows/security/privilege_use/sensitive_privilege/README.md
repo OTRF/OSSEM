@@ -28,6 +28,6 @@ If you configure this policy setting, an audit event is generated when sensitive
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 4673 | A privileged service was called. |  |
+|[4673](/data_dictionaries/windows/security/events/event-4673.md)|A privileged service was called.|Windows Server 2008, Windows Vista|
 | 4674 | An operation was attempted on a privileged object. |  |
 | 4985 | The state of a transaction has changed. |  |
