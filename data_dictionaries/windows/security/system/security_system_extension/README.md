@@ -20,4 +20,4 @@ Attempts to install or load security system extensions or services are critical 
 | 4611 | A trusted logon process has been registered with the Local Security Authority. | |
 | 4614 | A notification package has been loaded by the Security Account Manager. | |
 | 4622 | A security package has been loaded by the Local Security Authority. | |
-| 4697 | A service was installed in the system. | |
+|[4697](/data_dictionaries/windows/security/events/event-4697.md)| A service was installed in the system.|Windows Server 2016, Windows 10|
