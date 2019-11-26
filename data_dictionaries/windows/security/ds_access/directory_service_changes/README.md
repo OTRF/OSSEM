@@ -14,8 +14,8 @@ This subcategory only logs events on domain controllers.
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 5136 | A directory service object was modified | Windows Vista, Windows Server 2008 |
-| 5137 | A directory service object was created | Windows Vista, Windows Server 2008 |
-| 5138 | A directory service object was undeleted | Windows Vista, Windows Server 2008 |
-| 5139 | A directory service object was moved | Windows Vista, Windows Server 2008 |
-| 5141 | A directory service object was deleted | Windows Vista, Windows Server 2008 |
+| [5136](data_dictionaries/windows/security/events/event-5136.md) | A directory service object was modified | Windows Vista, Windows Server 2008 |
+| [5137](data_dictionaries/windows/security/events/event-5137.md) | A directory service object was created | Windows Vista, Windows Server 2008 |
+| [5138](data_dictionaries/windows/security/events/event-5138.md) | A directory service object was undeleted | Windows Vista, Windows Server 2008 |
+| [5139](data_dictionaries/windows/security/events/event-5139.md) | A directory service object was moved | Windows Vista, Windows Server 2008 |
+| [5141](data_dictionaries/windows/security/events/event-5141.md) | A directory service object was deleted | Windows Vista, Windows Server 2008 |

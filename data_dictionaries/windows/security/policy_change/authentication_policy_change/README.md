@@ -27,8 +27,8 @@ This setting is useful for tracking changes in domain-level and forest-level tru
 | 4707 | A trust to a domain was removed. | Windows Vista, Windows Server 2008 |
 | 4713 | Kerberos policy was changed. | Windows Vista, Windows Server 2008 |
 | 4716 | Trusted domain information was modified. | Windows Vista, Windows Server 2008 |
-| 4717 | System security access was granted to an account. | Windows Vista, Windows Server 2008 |
-| 4718 | System security access was removed from an account. | Windows Vista, Windows Server 2008 |
+|[4717](/data_dictionaries/windows/security/events/event-4717.md)| System security access was granted to an account. | Windows Vista, Windows Server 2008 |
+|[4718](/data_dictionaries/windows/security/events/event-4718.md)| System security access was removed from an account. | Windows Vista, Windows Server 2008 |
 | 4739 | Domain Policy was changed. | Windows Vista, Windows Server 2008 |
 | 4864 | A namespace collision was detected. | Windows Vista, Windows Server 2008 |
 | 4865 | A trusted forest information entry was added. | Windows Vista, Windows Server 2008 |

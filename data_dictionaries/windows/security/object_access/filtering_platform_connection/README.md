@@ -12,12 +12,12 @@ This subcategory contains Windows Filtering Platform events about blocked and al
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 5031 | The Windows Firewall Service blocked an application from accepting incoming connections on the network. |  |
+|[5031](/data_dictionaries/windows/security/events/event-5031.md)| The Windows Firewall Service blocked an application from accepting incoming connections on the network.|Windows 10, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012|
 | 5150 | The Windows Filtering Platform blocked a packet. | |
 | 5151 | A more restrictive Windows Filtering Platform filter has blocked a packet. |  |
-| 5154 | The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections. |  |
-| 5155 | The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections. |  |
-| 5156 | The Windows Filtering Platform has permitted a connection. |  |
-| 5157 | The Windows Filtering Platform has blocked a connection. |  |
-| 5158 | The Windows Filtering Platform has permitted a bind to a local port. |  |
-| 5159 | The Windows Filtering Platform has blocked a bind to a local port. |  |
+|[5154](/data_dictionaries/windows/security/events/event-5154.md) | The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.|Windows 10, Windows Server 2016|
+|[5155](/data_dictionaries/windows/security/events/event-5155.md)| The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.|Windows 10, Windows Server 2016|
+|[5156](/data_dictionaries/windows/security/events/event-5156.md)| The Windows Filtering Platform has permitted a connection.|Windows 10, Windows Server 2016|
+|[5157](/data_dictionaries/windows/security/events/event-5157.md)| The Windows Filtering Platform has blocked a connection.|Windows 10, Windows Server 2016|
+|[5158](/data_dictionaries/windows/security/events/event-5158.md)| The Windows Filtering Platform has permitted a bind to a local port.|Windows 10, Windows Server 2016|
+|[5159](/data_dictionaries/windows/security/events/event-5159.md)| The Windows Filtering Platform has blocked a bind to a local port.|Windows 10, Windows Server 2016|

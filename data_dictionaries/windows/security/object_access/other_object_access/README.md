@@ -12,11 +12,11 @@ Audit Other Object Access Events allows you to monitor operations with scheduled
 | 4691 | Indirect access to an object was requested. |  |
 | 5148 | The Windows Filtering Platform has detected a DoS attack and entered a defensive mode; packets associated with this attack will be discarded. |  |
 | 5149 | The DoS attack has subsided and normal processing is being resumed. |  |
-| 4698 | A scheduled task was created. |  |
-| 4699 | A scheduled task was deleted. |  |
-| 4700 | A scheduled task was enabled. |  |
-| 4701 | A scheduled task was disabled. |  |
-| 4702 | A scheduled task was updated. |  |
+|[4698](/data_dictionaries/windows/security/events/event-4698.md)| A scheduled task was created. |Windows Server 2008, Windows Vista|
+|[4699](/data_dictionaries/windows/security/events/event-4699.md)| A scheduled task was deleted. |Windows Server 2008, Windows Vista|
+|[4700](/data_dictionaries/windows/security/events/event-4700.md)| A scheduled task was enabled. |Windows Server 2008, Windows Vista|
+|[4701](/data_dictionaries/windows/security/events/event-4701.md)| A scheduled task was disabled. |Windows Server 2008, Windows Vista|
+|[4702](/data_dictionaries/windows/security/events/event-4702.md)| A scheduled task was updated. |Windows Server 2008, Windows Vista|
 | 5888 | An object in the COM+ Catalog was modified. |  |
 | 5889 | An object was deleted from the COM+ Catalog. |  |
 | 5890 | An object was added to the COM+ Catalog. |  |
