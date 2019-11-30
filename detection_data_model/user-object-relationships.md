@@ -1,12 +1,12 @@
 |	ATT&CK Data Source	|	Sub Data Source	|	Source Data Object	|	Relationship	|	Destination Data Object	|	EventID	|
 |	-----------------	|	---------------	|	------------------	|	------------	|	---------------------	|	-------	|
 |	Process use of network	|	process network connection allow	|	user	|	connected_to	|	ip	|	3	|
-|	Windows event logs	|	kerberos TGT request	|	user	|	requested	|	ticket granting ticket	|	4768	|
-|	Windows event logs	|	kerberos TGT request	|	user	|	requested	|	ticket granting ticket	|	4768	|
-|	Windows event logs, Authentication logs	|	kerberos TGT authentication failure	|	user	|	authenticated_with	|	ticket granting ticket	|	4771	|
-|	Windows event logs	|	kerberos service ticket request	|	user	|	requested	|	service ticket	|	4769	|
-|	Windows event logs	|	kerberos service ticket renewal	|	user	|	renewed	|	service ticket	|	4770	|
-|	Windows event logs	|	kerberos service ticket failure	|	user	|	requested	|	service ticket	|	4773	|
+|	Windows event logs	|	kerberos TGT request	|	user	|	requested	|	kerberos_tgt	|	4768	|
+|	Windows event logs	|	kerberos TGT request	|	user	|	requested	|	kerberos_tgt	|	4768	|
+|	Windows event logs, Authentication logs	|	kerberos TGT authentication failure	|	user	|	authenticated_with	|	kerberos_tgt	|	4771	|
+|	Windows event logs	|	kerberos service ticket request	|	user	|	requested	|	kerberos_tgs	|	4769	|
+|	Windows event logs	|	kerberos service ticket renewal	|	user	|	renewed	|	kerberos_tgs	|	4770	|
+|	Windows event logs	|	kerberos service ticket failure	|	user	|	requested	|	kerberos_tgs	|	4773	|
 |	Windows event logs	|	user rdp session	|	user	|	disconnected_from	|	host	|	4779	|
 |	Windows event logs	|	user rdp session	|	user	|	connected_to	|	host	|	4778	|
 |	Windows event logs	|	user lock operation	|	user	|	locked	|	host	|	4800	|
