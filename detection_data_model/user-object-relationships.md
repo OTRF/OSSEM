@@ -52,9 +52,9 @@
 |	Windows event logs	|	network share modification	|	user	|	modified	|	network share	|	5143	|
 |	Windows event logs	|	network share deletion	|	user	|	deleted	|	network share	|	5144	|
 |	File monitoring	|	file access request	|	user	|	requested_a_handle	|	file	|	4656	|
-|	Windows event logs	|	registry access request	|	user	|	requested_a_handle	|	win registry	|	4656	|
+|	Windows event logs	|	registry access request	|	user	|	requested_a_handle	|	registry	|	4656	|
 |	File monitoring	|	file deletion request	|	user	|	requested_a_handle	|	file	|	4656	|
-|	Windows event logs	|	registry deletion request	|	user	|	requested_a_handle	|	win registry	|	4656	|
+|	Windows event logs	|	registry deletion request	|	user	|	requested_a_handle	|	registry	|	4656	|
 |	File monitoring	|	file access	|	user	|	accessed	|	file	|	4663	|
 |	File monitoring	|	file deletion	|	user	|	deleted	|	file	|	4663	|
 |	Windows event logs	|	symbolic link creation	|	user	|	created	|	symbolic link	|	4664	|
@@ -64,10 +64,10 @@
 |	Windows event logs	|	scheduled task enable	|	user	|	enabled	|	scheduled task	|	4700	|
 |	Windows event logs	|	scheduled tast disable	|	user	|	disabled	|	scheduled task	|	4701	|
 |	Windows event logs	|	scheduled task update	|	user	|	updated	|	scheduled task	|	4702	|
-|	Windows event logs	|	win registry key access	|	user	|	accessed	|	win registry	|	4663	|
-|	Windows event logs	|	win registry key deletion	|	user	|	deleted	|	win registry	|	4663	|
-|	Windows event logs	|	win registry key permissions change	|	user	|	changed_permissions	|	win registry	|	4670	|
-|	Windows event logs	|	win registry key value modification	|	user	|	modified	|	win registry	|	4657	|
+|	Windows event logs	|	win registry key access	|	user	|	accessed	|	registry	|	4663	|
+|	Windows event logs	|	win registry key deletion	|	user	|	deleted	|	registry	|	4663	|
+|	Windows event logs	|	win registry key permissions change	|	user	|	changed_permissions	|	registry	|	4670	|
+|	Windows event logs	|	win registry key value modification	|	user	|	modified	|	registry	|	4657	|
 |	Windows event logs	|	sam service object handle request	|	user	|	requested_a_handle	|	sam object	|	4661	|
 |	Windows event logs	|	user account access addition	|	user	|	granted_access	|	user	|	4717	|
 |	Windows event logs	|	user account access removal	|	user	|	removed_access	|	user	|	4718	|
