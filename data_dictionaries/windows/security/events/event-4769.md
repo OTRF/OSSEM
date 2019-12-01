@@ -19,7 +19,7 @@ This event generates every time Key Distribution Center gets a Kerberos Ticket G
 |	service_name	|	ServiceName	|	string	|	the name of the account or computer for which the TGS ticket was requested	|	WIN2008R2$	|
 |	service_sid	|	ServiceSid	|	string	|	SID of the account or computer object for which the TGS ticket was requested. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-3457937927-2839227994-823803824-2102	|
 |	ticket_options	|	TicketOptions	|	string	|	this is a set of different Ticket Flags in hexadecimal format.	|	0x40810000	|
-|	ticket_encryption	|	TicketEncryptionType	|	string	|	the cryptographic suite that was used for issued TGS.	|	0x12	|
+|	ticket_encryption_type	|	TicketEncryptionType	|	string	|	the cryptographic suite that was used for issued TGS.	|	0x12	|
 |	src_ip	|	IpAddress	|	ip	|	IP address of the computer from which the TGS request was received. 	|	::ffff:10.0.0.12	|
 |	src_port	|	IpPort	|	integer	|	source port number of client network connection (TGS request connection).	|	49272	|
 |	ticket_status	|	Status	|	string	|	hexadecimal result code of TGS issue operation.	|	0x0	|
