@@ -10,15 +10,15 @@
 |	File monitoring	|	file creation	|	process	|	created	|	file	|	11	|
 |	File monitoring	|	file modification	|	process	|	modified	|	file	|	11	|
 |	File monitoring	|	file download	|	process	|	downloaded	|	file	|	11	|
-|	Windows Registry	|	win registry key creation	|	process	|	created	|	win registry	|	12	|
-|	Windows Registry	|	win registry key deletion	|	process	|	deleted	|	win registry	|	12	|
-|	Windows Registry	|	win registry key modification	|	process	|	modified	|	win registry	|	14	|
-|	Windows Registry	|	win registry key modification	|	process	|	modified	|	win registry	|	13	|
+|	Windows Registry	|	win registry key creation	|	process	|	created	|	registry	|	12	|
+|	Windows Registry	|	win registry key deletion	|	process	|	deleted	|	registry	|	12	|
+|	Windows Registry	|	win registry key modification	|	process	|	modified	|	registry	|	14	|
+|	Windows Registry	|	win registry key modification	|	process	|	modified	|	registry	|	13	|
 |	Named Pipes	|	win pipe creation	|	process	|	created	|	pipe	|	17	|
 |	Named Pipes	|	win pipe connection	|	process	|	connected_to	|	pipe	|	18	|
 |	Process use of network	|	process network connection allow	|	process	|	connected_to	|	ip	|	3	|
 |	Process use of network	|	process network connection allow	|	process	|	connected_from	|	ip	|	5156	|
 |	Process use of network	|	process network connection allow	|	process	|	connected_to	|	ip	|	5156	|
 |	Process use of network	|	process network local port bind allow	|	process	|	bound _to	|	port	|	5158	|
-|	Windows event logs	|	win registry key value modification	|	process	|	modified	|	win registry	|	4657	|
+|	Windows event logs	|	win registry key value modification	|	process	|	modified	|	registry	|	4657	|
 |	Windows event logs	|	sensitive privileged service operation	|	process	|	called	|	privileged service	|	4673	|
