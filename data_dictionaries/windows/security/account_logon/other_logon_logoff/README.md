@@ -24,6 +24,7 @@ Logon events are essential to understanding user activity and detecting potentia
 | 4801 | The workstation was unlocked | Windows Vista, Windows Server 2008 |
 | 4802 | The screen saver was invoked | Windows Vista, Windows Server 2008 |
 | 4803 | The screen saver was dismissed | Windows Vista, Windows Server 2008 |
+| 4825 | A user was denied the access to Remote Desktop | Windows Vista SP2, Windows Server 2008 SP2 |
 | 5378 | The requested credentials delegation was disallowed by policy | Windows Vista, Windows Server 2008 |
 | 5632 | A request was made to authenticate to a wireless network | Windows Vista, Windows Server 2008 |
 | 5633 | A request was made to authenticate to a wired network | Windows Vista, Windows Server 2008 |
