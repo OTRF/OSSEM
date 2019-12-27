@@ -16,8 +16,8 @@ Attempts to install or load security system extensions or services are critical 
 
 | EventId | Description | Minimum OS |
 |--------|---------|-------|
-| 4610 | An authentication package has been loaded by the Local Security Authority. | |
-| 4611 | A trusted logon process has been registered with the Local Security Authority. | |
-| 4614 | A notification package has been loaded by the Security Account Manager. | |
-| 4622 | A security package has been loaded by the Local Security Authority. | |
-|[4697](/data_dictionaries/windows/security/events/event-4697.md)| A service was installed in the system.|Windows Server 2016, Windows 10|
+| [4610](../../events/event-4610.md) | An authentication package has been loaded by the Local Security Authority. | Windows Vista, Windows Server 2008 |
+| [4611](../../events/event-4611.md) | A trusted logon process has been registered with the Local Security Authority. | Windows Vista, Windows Server 2008 |
+| [4614](../../events/event-4614.md) | A notification package has been loaded by the Security Account Manager. | Windows Vista, Windows Server 2008 |
+| [4622](../../events/event-4622.md) | A security package has been loaded by the Local Security Authority. | Windows Vista, Windows Server 2008|
+| [4697](../../events/event-4697.md) | A service was installed in the system. | Windows Vista, Windows Server 2008 |
