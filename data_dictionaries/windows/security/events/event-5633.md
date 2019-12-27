@@ -21,6 +21,6 @@ This event generates when 802.1x authentication attempt was made for wired netwo
 |	user_name	|	SubjectUserName	|	string	|	the name of the account for which 802.1x authentication request was made	|	-	|
 |	user_domain	|	SubjectDomainName	|	integer	|	subject’s domain or computer name	|	-	|
 |	user_logon_id	|	SubjectLogonId	|	string	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x0	|
-|	event_reason_code	|	ReasonCode	|	string	|	Reason Code for wired authentication results.	|	0x70003	|
+|	event_reason_code	|	ReasonCode	|	string	|	hexadecimal Reason Code for wired authentication results.	|	0x70003	|
 |	event_reason_text	|	ReasonText	|	string	|	contains Reason Text (explanation of Reason Code) and Reason Code for wired authentication results.	|	The network does not support authentication	|
-|	event_error_code	|	ErrorCode	|	string	|	Unique EAP error code	|	0x0	|
+|	event_error_code	|	ErrorCode	|	string	|	hexadecimal error code	|	0x0	|

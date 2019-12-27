@@ -21,12 +21,12 @@ This event generates when 802.1x authentication attempt was made for wireless ne
 |	user_name	|	SubjectUserName	|	string	|	the name of the account for which 802.1x authentication request was made.	|	-	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	-	|
 |	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x0	|
-|	host_local_mac	|	PeerMac	|	string	|	peer’s (typically – access point) MAC-address	|	18:64:72:F3:33:91	|
-|	host_peer_mac	|	LocalMac	|	string	|	local interface’s MAC-address	|	02:1A:C5:14:59:C9	|
+|	host_peer_mac	|	PeerMac	|	string	|	peer’s (typically – access point) MAC-address	|	18:64:72:F3:33:91	|
+|	host_local_mac	|	LocalMac	|	string	|	local interface’s MAC-address	|	02:1A:C5:14:59:C9	|
 |	host_interface_guid	|	IntfGuid	|	string	|	GUID of the network interface which was used for authentication request.	|	{2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B}	|
-|	event_reason_code	|	ReasonCode	|	integer	|	Reason Code for wired authentication results.	|	0x0	|
+|	event_reason_code	|	ReasonCode	|	string	|	hexadecimal Reason Code for wired authentication results.	|	0x0	|
 |	event_reason_text	|	ReasonText	|	string	|	contains Reason Text (explanation of Reason Code) and Reason Code for wireless authentication results.	|	The operation was successful.	|
 |	event_error_code	|	ErrorCode	|	string	|	there is no information about this field in this document.	|	0x0	|
-|	event_reason_code_eap	|	EAPReasonCode	|	string	|	there is no information about this field in this document	|	0x0	|
-|	event_route_cause_string_eap	|	EapRootCauseString	|	string	|	there is no information about this field in this document	|	-	|
+|	event_reason_code_eap	|	EAPReasonCode	|	string	|	Related to NPS (Network Policy Server) error code. [See NPS error codes](https://technet.microsoft.com/library/dd197570(v=ws.10).aspx)	|	0x0	|
+|	event_root_cause_string_eap	|	EapRootCauseString	|	string	|	there is no information about this field in this document	|	-	|
 |	event_error_code_eap	|	EAPErrorCode	|	string	|	there is no information about this field in this document	|	0x0	|
