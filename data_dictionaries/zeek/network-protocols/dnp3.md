@@ -5,6 +5,15 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1227729908.575758,
+    "uid": "CDNIac3x9wBijqjxVk",
+    "id.orig_h": "10.1.1.1",
+    "id.orig_p": 64825,
+    "id.resp_h": "10.2.2.2",
+    "id.resp_p": 20000,
+    "fc_request": "OPERATE"
+}
 ```
 
 ## Data Dictionary
@@ -18,6 +27,6 @@
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `20000`     |
 |     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
-|     TBD     |     fc_reply     |     string     |     The name of the function message in the reply.  |     ``     |
-|     TBD     |     fc_request     |     string     |     The name of the function message in the request.  |   `OPERATE`   |
-|     TBD     |     iin     |     integer     |     The response’s “internal indication number”.    |     ``     |
+|     dnp3_function_reply     |     fc_reply     |     string     |     The name of the function message in the reply.  |     ``     |
+|     dnp3_function_request     |     fc_request     |     string     |     The name of the function message in the request.  |   `OPERATE`   |
+|     dnp3_iin     |     iin     |     integer     |     The response’s “internal indication number”.    |     ``     |

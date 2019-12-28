@@ -5,6 +5,26 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1480171988.290927,
+    "uid": "CmsVjN1eLd3Ye6iYzg",
+    "id.orig_h": "10.0.2.20",
+    "id.orig_p": 5060,
+    "id.resp_h": "10.0.2.15",
+    "id.resp_p": 5060,
+    "trans_depth": 0,
+    "method": "ACK",
+    "uri": "sip:test@10.0.2.15:5060",
+    "request_from": "\"PCMA/8000\" <sip:sipp@10.0.2.20:5060>",
+    "request_to": "test <sip:test@10.0.2.15:5060>;tag=r5e24Nr505FjF",
+    "call_id": "1-1968@10.0.2.20",
+    "seq": "1 ACK",
+    "request_path": [
+        "SIP/2.0/UDP 10.0.2.20:5060"
+    ],
+    "response_path": [],
+    "request_body_len": 0
+}
 ```
 
 ## Data Dictionary

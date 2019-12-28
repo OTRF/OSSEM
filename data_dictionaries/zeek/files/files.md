@@ -5,6 +5,38 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1308142666.484794,
+    "fuid": "Fs3YOy4EVTV41X0Vs4",
+    "tx_hosts": [
+        "172.18.100.1"
+    ],
+    "rx_hosts": [
+        "172.18.100.129"
+    ],
+    "conn_uids": [
+        "CN0bym1xH6UgZ43mIb"
+    ],
+    "source": "HTTP",
+    "depth": 0,
+    "analyzers": [
+        "ENTROPY",
+        "PE",
+        "MD5",
+        "SHA1"
+    ],
+    "mime_type": "application/x-dosexec",
+    "duration": 0.006285,
+    "is_orig": false,
+    "seen_bytes": 73802,
+    "total_bytes": 73802,
+    "missing_bytes": 0,
+    "overflow_bytes": 0,
+    "timedout": false,
+    "md5": "7fb061274331eceefc34c7bdac0fd2c8",
+    "sha1": "887ef2d120d3cd1a3c9256bfd6570c5b7cd98180",
+    "entropy": 6.321436
+}
 ```
 
 ## Data Dictionary

@@ -5,6 +5,19 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1461774748.042187,
+    "uid": "C6MNpg2PC0MJHUdWo",
+    "id.orig_h": "10.240.0.3",
+    "id.orig_p": 48132,
+    "id.resp_h": "10.240.0.2",
+    "id.resp_p": 31337,
+    "nick": "Matir",
+    "user": "root-poppopret",
+    "command": "JOIN",
+    "value": "#ctf",
+    "addl": ""
+}
 ```
 
 ## Data Dictionary

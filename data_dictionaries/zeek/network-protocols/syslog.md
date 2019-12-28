@@ -5,6 +5,18 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1400749188.541207,
+    "uid": "Cd2wK63COxpUDnFNB3",
+    "id.orig_h": "192.168.100.254",
+    "id.orig_p": 514,
+    "id.resp_h": "192.168.100.7",
+    "id.resp_p": 514,
+    "proto": "udp",
+    "facility": "ALERT",
+    "severity": "NOTICE",
+    "message": "May 22 08:59:43 sshlockout[77403]: sshlockout/webConfigurator v3.0 starting up"
+}
 ```
 
 ## Data Dictionary

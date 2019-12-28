@@ -5,6 +5,18 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1442984666.02822,
+    "uid": "CPLWKP10UDzr7stpbf",
+    "id.orig_h": "10.0.2.15",
+    "id.orig_p": 51281,
+    "id.resp_h": "192.168.122.202",
+    "id.resp_p": 445,
+    "rtt": 0.00303,
+    "named_pipe": "\\PIPE\\srvsvc",
+    "endpoint": "srvsvc",
+    "operation": "NetrShareEnum"
+}
 ```
 
 ## Data Dictionary

@@ -5,6 +5,20 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1386644256.317228,
+    "uid": "CTg5e7FS4P7UmRQ3i",
+    "id.orig_h": "10.0.0.3",
+    "id.orig_p": 2276,
+    "id.resp_h": "10.0.0.2",
+    "id.resp_p": 42356,
+    "version": 5,
+    "status": "succeeded",
+    "request.host": "10.0.0.1",
+    "request_p": 3389,
+    "bound.host": "0.0.0.0",
+    "bound_p": 0
+}
 ```
 
 ## Data Dictionary

@@ -5,6 +5,76 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1096255084.938672,
+    "uid": "CzukRs31DgGqp0m2n",
+    "id.orig_h": "192.168.50.50",
+    "id.orig_p": 1026,
+    "id.resp_h": "192.168.0.1",
+    "id.resp_p": 53,
+    "proto": "udp",
+    "trans_id": 43,
+    "rtt": 0.006946,
+    "query": "us.pool.ntp.org",
+    "qclass": 1,
+    "qclass_name": "C_INTERNET",
+    "qtype": 1,
+    "qtype_name": "A",
+    "rcode": 0,
+    "rcode_name": "NOERROR",
+    "AA": false,
+    "TC": false,
+    "RD": true,
+    "RA": true,
+    "Z": 0,
+    "answers": [
+        "67.129.68.9",
+        "69.44.57.60",
+        "207.234.209.181",
+        "209.132.176.4",
+        "216.27.185.42",
+        "24.34.79.42",
+        "24.123.202.230",
+        "63.164.62.249",
+        "64.112.189.11",
+        "65.125.233.206",
+        "66.33.206.5",
+        "66.33.216.11",
+        "66.92.68.246",
+        "66.111.46.200",
+        "66.115.136.4"
+    ],
+    "TTLs": [
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463,
+        3463
+    ],
+    "rejected": false,
+    "auth": [
+        "a.ns.madduck.net",
+        "aventura.bhms-groep.nl",
+        "ns1.mailworx.net",
+        "slartibartfast.bhms-groep.nl",
+        "zbasel.fortytwo.ch",
+        "usenet.net.nz"
+    ],
+    "addl": [
+        "69.1.200.68",
+        "202.49.59.6"
+    ]
+}
 ```
 
 ## Data Dictionary

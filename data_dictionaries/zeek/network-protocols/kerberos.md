@@ -5,6 +5,22 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1138098996.611848,
+    "uid": "CxEr9TKbnWC1fzeJk",
+    "id.orig_h": "10.5.12.5",
+    "id.orig_p": 2565,
+    "id.resp_h": "10.5.3.1",
+    "id.resp_p": 88,
+    "request_type": "TGS",
+    "client": "u1/DENYDC.COM",
+    "service": "HTTP/fc4.denyDC.com",
+    "success": true,
+    "till": 2136422885,
+    "cipher": "rc4-hmac",
+    "forwardable": true,
+    "renewable": true
+}
 ```
 
 ## Data Dictionary
@@ -28,7 +44,7 @@
 |     TBD     |     forwardable     |     boolean     |     Forwardable ticket requested    |   ``  |
 |     TBD     |     auth_ticket     |     string     |          present if policy/protocols/krb/ticket-logging.bro is loaded Hash of ticket used to authorize request/transaction (client) (md5 hash) |     ``     |
 |     TBD     |     renewable     |     boolean     |     Renewable ticket requested  |   ``  |
-|     TBD     |     request_type     |     string     |     Request type - Authentication Service (“AS”) or Ticket Granting Service (“TGS”) |   `AS`    |
+|     ticket_request_type     |     request_type     |     string     |     Request type - Authentication Service (“AS”) or Ticket Granting Service (“TGS”) |   `AS`    |
 |     TBD     |     new_ticket     |     string     |          present if policy/protocols/krb/ticket-logging.bro is loaded Hash of ticket returned by the KDC (server) |     ``     |
 |     TBD     |     server_cert_subject     |     string     |          present if base/protocols/krb/files.bro is loaded Subject of server certificate, if any |     ``     |
 |     TBD     |     service     |     string     |     Service  | `MSSQLSvc/somecomputernam.YOURDOMAIN.CORP.LOCAL:1433` |

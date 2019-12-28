@@ -5,6 +5,29 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1545236384.177257,
+    "id": "FiZqjk4EpcZIKaUyjf",
+    "machine": "I386",
+    "compile_ts": 0,
+    "os": "Windows 95 or NT 4.0",
+    "subsystem": "WINDOWS_GUI",
+    "is_exe": true,
+    "is_64bit": false,
+    "uses_aslr": false,
+    "uses_dep": false,
+    "uses_code_integrity": false,
+    "uses_seh": true,
+    "has_import_table": true,
+    "has_export_table": false,
+    "has_cert_table": false,
+    "has_debug_data": false,
+    "section_names": [
+        "UPX0",
+        "UPX1",
+        ".rsrc"
+    ]
+}
 ```
 
 ## Data Dictionary

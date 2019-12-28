@@ -5,6 +5,15 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1386644256.317228,
+    "id.orig_h": "10.0.0.3",
+    "id.orig_p": 0,
+    "id.resp_h": "10.0.0.2",
+    "id.resp_p": 42356,
+    "tunnel_type": "Tunnel::SOCKS",
+    "action": "Tunnel::DISCOVER"
+}
 ```
 
 ## Data Dictionary

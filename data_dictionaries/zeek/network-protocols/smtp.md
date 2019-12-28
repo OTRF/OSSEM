@@ -5,6 +5,38 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1312967587.889829,
+    "uid": "Cr8mTF46hIFIhyCZ9",
+    "id.orig_h": "147.32.84.165",
+    "id.orig_p": 1379,
+    "id.resp_h": "205.188.186.137",
+    "id.resp_p": 587,
+    "trans_depth": 1,
+    "helo": "jack_mendoza15",
+    "mailfrom": "jack_mendoza15@aol.com",
+    "rcptto": [
+        "nickandsonia@comcast.net"
+    ],
+    "date": "Wed, 10 Aug 2011 11:13:06 GMT",
+    "from": "\"Ellian Chester\" <jack_mendoza15@aol.com>",
+    "to": [
+        "<nickandsonia@comcast.net>"
+    ],
+    "msg_id": "<370545110$1702105464$130025687@jack_mendoza15>",
+    "subject": "SeeZHowYouxCanGSavenByiBuyngyPrescriptionszOnlineYHere ",
+    "last_reply": "250 2.0.0 Ok: queued as 81553E0000D3",
+    "path": [
+        "205.188.186.137",
+        "147.32.84.165"
+    ],
+    "user_agent": "Microsoft.Outlook.Express.6.00.2900.2180",
+    "tls": false,
+    "fuids": [
+        "FcX4Z7HE3qKWSGe13"
+    ],
+    "is_webmail": false
+}
 ```
 
 ## Data Dictionary

@@ -5,6 +5,30 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1193369797.58274,
+    "uid": "C0qWki2aVtyFYE4op2",
+    "id.orig_h": "172.21.128.16",
+    "id.orig_p": 1312,
+    "id.resp_h": "10.226.24.52",
+    "id.resp_p": 3389,
+    "cookie": "FTBCO\\A70",
+    "result": "Success",
+    "security_protocol": "RDP",
+    "keyboard_layout": "English - United States",
+    "client_build": "RDP 6.0",
+    "client_name": "FROG-POND",
+    "client_dig_product_id": "",
+    "desktop_width": 1152,
+    "desktop_height": 864,
+    "requested_color_depth": "32bit",
+    "cert_type": "RSA",
+    "cert_count": 1,
+    "cert_permanent": true,
+    "encryption_level": "High",
+    "encryption_method": "128bit",
+    "ssl": false
+}
 ```
 
 ## Data Dictionary

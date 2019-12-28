@@ -5,6 +5,27 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1562945561.215724,
+    "uid": "CGaE3F32QyMo97CDkc",
+    "id.orig_h": "10.7.12.101",
+    "id.orig_p": 49213,
+    "id.resp_h": "216.98.148.151",
+    "id.resp_p": 443,
+    "version": "TLSv10",
+    "cipher": "TLS_RSA_WITH_AES_128_CBC_SHA",
+    "resumed": false,
+    "established": true,
+    "cert_chain_fuids": [
+        "FHL4Zp1jb1ExVM6gw4"
+    ],
+    "client_cert_chain_fuids": [],
+    "subject": "CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie PSU,L=Nicosia,C=CY",
+    "issuer": "CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie PSU,L=Nicosia,C=CY",
+    "validation_status": "self signed certificate",
+    "ja3": "6734f37431670b3ab4292b8f60f29984",
+    "ja3s": "4192c0a946c5bd9b544b4656d9f624a4"
+}
 ```
 
 ## Data Dictionary

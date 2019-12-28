@@ -1,12 +1,23 @@
-# (LOGNAME) Log
+# DPD Log
 
 ## Description
 
-Dynamic protocol detection failures
+Protocol/application detection failures
 
 ## Event JSON
 
 ```json
+{
+    "ts": 1492445820.159791,
+    "uid": "CShmL52mx21To4pxT5",
+    "id.orig_h": "10.99.99.8",
+    "id.orig_p": 51661,
+    "id.resp_h": "172.23.33.10",
+    "id.resp_p": 445,
+    "proto": "tcp",
+    "analyzer": "SMB",
+    "failure_reason": "Binpac exception: binpac exception: out_of_bound: SMB1_write_andx_request:extra_byte_parameters: 32 > 632"
+}
 ```
 
 ## Data Dictionary

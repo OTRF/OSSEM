@@ -5,6 +5,17 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1492445820.156462,
+    "uid": "CShmL52mx21To4pxT5",
+    "id.orig_h": "10.99.99.8",
+    "id.orig_p": 51661,
+    "id.resp_h": "172.23.33.10",
+    "id.resp_p": 445,
+    "action": "SMB::FILE_OPEN",
+    "name": "lsarpc",
+    "size": 0
+}
 ```
 
 ## Data Dictionary

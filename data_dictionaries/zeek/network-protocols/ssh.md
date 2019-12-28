@@ -5,6 +5,32 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1463434447.976884,
+    "uid": "CWMqft46Ih1Oddh443",
+    "id.orig_h": "125.88.177.98",
+    "id.orig_p": 51506,
+    "id.resp_h": "192.168.1.100",
+    "id.resp_p": 22,
+    "version": 2,
+    "auth_success": false,
+    "auth_attempts": 3,
+    "client": "SSH-2.0-PUTTY",
+    "server": "SSH-2.0-OpenSSH_7.1p2 Debian-1",
+    "cipher_alg": "aes128-ctr",
+    "mac_alg": "hmac-sha1",
+    "compression_alg": "none",
+    "kex_alg": "diffie-hellman-group14-sha1",
+    "host_key_alg": "ssh-rsa",
+    "host_key": "c6:89:9a:8f:05:44:11:0b:cc:1d:5b:1c:31:9b:da:b3",
+    "hasshVersion": "1.1",
+    "hassh": "92674389fa1e47a27ddd8d9b63ecd42b",
+    "hasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "cshka": "ssh-rsa,ssh-dss",
+    "hasshAlgorithms": "diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,blowfish-cbc,arcfour128,arcfour,cast128-cbc,3des-cbc;hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com;none",
+    "sshka": "ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519",
+    "hasshServerAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1;chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com;umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1;none,zlib@openssh.com"
+}
 ```
 
 ## Data Dictionary

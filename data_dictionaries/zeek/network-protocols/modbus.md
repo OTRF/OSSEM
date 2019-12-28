@@ -5,6 +5,15 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1445426184.713,
+    "uid": "CC0KFe2bD3Ki0UOHwl",
+    "id.orig_h": "192.168.2.42",
+    "id.orig_p": 59469,
+    "id.resp_h": "192.168.88.100",
+    "id.resp_p": 502,
+    "func": "ENCAP_INTERFACE_TRANSPORT"
+}
 ```
 
 ## Data Dictionary

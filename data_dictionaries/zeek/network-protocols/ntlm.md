@@ -5,6 +5,17 @@
 ## Event JSON
 
 ```json
+{
+    "ts": 1312982600.384379,
+    "uid": "Cd0wGr4kChYSZA5wlg",
+    "id.orig_h": "147.32.84.165",
+    "id.orig_p": 4952,
+    "id.resp_h": "147.32.84.171",
+    "id.resp_p": 139,
+    "hostname": "SARUMAN",
+    "success": true,
+    "status": "SUCCESS"
+}
 ```
 
 ## Data Dictionary
