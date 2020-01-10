@@ -80,34 +80,34 @@
 |     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `80`     |
 |     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
-|     TBD     |     orig_fuids     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of file unique IDs.     |     `Fpm19XAdMEka1kIG2`     |
-|     TBD     |     username     |     string     |     Username if basic-auth is performed for the request     |     `bobsyauncle`     |
-|     TBD     |     password     |     string     |     Password if basic-auth is performed for the request     |     `bobspassword`     |
-|     TBD     |     resp_fuids     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of file unique IDs.     |     `FS604y1QCpHKGjzK64`     |
-|     TBD     |     host     |     string     |     Value of the HOST header     |     `github.com`     |
-|     TBD     |     cookie_vars     |     array_string     |          present if policy/protocols/http/var-extraction-cookies.bro is loaded Variable names extracted from all cookies." |   `[ "nflx-rgn", "nfvdid", "memclid", "NetflixId" ]`
-|     TBD     |     client_header_names     |     array_string     |          present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the client. No header values are included here, just the header names.     |     ``     |
-|     TBD     |     info_code     |     integer     |     Last seen 1xx informational reply code returned by the server.    |   `101`   |
-|     TBD     |     info_msg     |     string     |     Last seen 1xx informational reply message returned by the server.   |  `Switching Protocols`   |
-|     TBD     |     method     |     string     |     Verb used in the HTTP request (GET, POST, HEAD, etc.).    |   `GET`   |
-|     TBD     |     orig_filenames     |     string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the client.   |   `UserHistorySheet.xls`  |
-|     TBD     |     orig_mime_types     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.    |   `["text/plain", "application/pdf" ]`   |
-|     TBD     |     origin     |     string     |     Value of the Origin header from the client     |     `chrome-extension://pgeolalilifpodheeocdmbhehgnkkbak`     |
-|     TBD     |     post_body     |     string     |     Content from the source/client inside the HTTP request body. Only present if https://github.com/corelight/log-add-http-post-bodies is loaded.     |   `{"pkg_utime":"0","conf_utime":"1555582468054"}`    |
-|     TBD     |     proxied     |     array_string     |     All of the headers that may indicate if the request was proxied. example: `FORWARDED`;`X-FORWARDED-FOR`;`X-FORWARDED-FROM`;`CLIENT-IP`;`VIA`;`XROXY-CONNECTION`;`PROXY-CONNECTION`    |   `X-FORWARDED-FOR -> 1.1.1.1, 10.48.100.11`    |
-|     TBD     |     referrer     |     string     |     Value of the "referer" header. The comment is deliberately misspelled like the standard declares, but the name used here is “referrer” spelled correctly     |     `http://localcontrol.netflix.com/js/boot.js`     |
-|     TBD     |     request_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the client     |     `100`     |
-|     TBD     |     response_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the server     |     `10000`     |
-|     TBD     |     server_header_names     |     array_string     |          present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the server. No header values are included here, just the header names.   |   ``  |
-|     TBD     |     resp_mime_types     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.    |   `["text/plain", "application/pdf" ]`   |
-|     TBD     |     omniture     |     boolean     |          present if policy/protocols/http/software-browser-plugins.bro is loaded Indicates if the server is an omniture advertising server.   |   `false`  |
-|     TBD     |     status_code     |     integer     |     Status code returned by the server     |     `200`     |
-|     TBD     |     status_msg     |     string     |     Status message returned by the server     |     `OK`     |
-|     TBD     |     trans_depth     |     integer     |     Represents the pipelined depth into the connection of this request/response transaction     |     `5`     |
-|     TBD     |     version     |     string     |     Value of the version portion of the request.   |    `1.2`   |
-|     TBD     |     resp_filenames     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the server.   |   `UserHistorySheetNew.xls`  |
-|     TBD     |     flash_version     |     string     |          present if policy/protocols/http/software-browser-plugins.bro is loaded The unparsed Flash version, if detected.   |   ``  |
-|     TBD     |     tags     |     array_string     |     A set of indicators of various attributes discovered and related to a particular request/response pair     |     `sqli`     |
-|     TBD     |     uri     |     string     |     URI used in the request     |     `/bobs/big/wheel/superawesome.exe`     |
-|     TBD     |     uri_vars     |     array_string     |          present if policy/protocols/http/var-extraction-uri.bro is loaded Variable names from the URI.   |   ``  |
-|     TBD     |     user_agent     |     string     |     Value of the User-Agent header from the client     |     `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36`     |
+|     zeek_uid_orig_fuids     |     orig_fuids     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of file unique IDs.     |     `Fpm19XAdMEka1kIG2`     |
+|     url_user_name     |     username     |     string     |     Username if basic-auth is performed for the request     |     `bobsyauncle`     |
+|     url_user_password     |     password     |     string     |     Password if basic-auth is performed for the request     |     `bobspassword`     |
+|     zeek_uid_resp_fuids     |     resp_fuids     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of file unique IDs.     |     `FS604y1QCpHKGjzK64`     |
+|     url_host_name     |     host     |     string     |     Value of the HOST header     |     `github.com`     |
+|     http_cookie_variables     |     cookie_vars     |     array_string     |          present if policy/protocols/http/var-extraction-cookies.bro is loaded Variable names extracted from all cookies." |   `[ "nflx-rgn", "nfvdid", "memclid", "NetflixId" ]`
+|     http_request_header_names     |     client_header_names     |     array_string     |          present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the client. No header values are included here, just the header names.     |     ``     |
+|     http_informational_code     |     info_code     |     integer     |     Last seen 1xx informational reply code returned by the server.    |   `101`   |
+|     http_informational_message     |     info_msg     |     string     |     Last seen 1xx informational reply message returned by the server.   |  `Switching Protocols`   |
+|     http_request_method     |     method     |     string     |     Verb used in the HTTP request (GET, POST, HEAD, etc.).    |   `GET`   |
+|     src_file_path     |     orig_filenames     |     string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the client.   |   `UserHistorySheet.xls`  |
+|     src_mime_type     |     orig_mime_types     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.    |   `["text/plain", "application/pdf" ]`   |
+|     http_header_origin     |     origin     |     string     |     Value of the Origin header from the client     |     `chrome-extension://pgeolalilifpodheeocdmbhehgnkkbak`     |
+|     http_response_body_original     |     post_body     |     string     |     Content from the source/client inside the HTTP request body. Only present if https://github.com/corelight/log-add-http-post-bodies is loaded.     |   `{"pkg_utime":"0","conf_utime":"1555582468054"}`    |
+|     http_proxied     |     proxied     |     array_string     |     All of the headers that may indicate if the request was proxied. example: `FORWARDED`;`X-FORWARDED-FOR`;`X-FORWARDED-FROM`;`CLIENT-IP`;`VIA`;`XROXY-CONNECTION`;`PROXY-CONNECTION`    |   `X-FORWARDED-FOR -> 1.1.1.1, 10.48.100.11`    |
+|     http_referrer_ original     |     referrer     |     string     |     Value of the "referer" header. The comment is deliberately misspelled like the standard declares, but the name used here is “referrer” spelled correctly     |     `http://localcontrol.netflix.com/js/boot.js`     |
+|     http_request_body_bytes     |     request_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the client     |     `100`     |
+|     http_response_body_bytes     |     response_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the server     |     `10000`     |
+|     http_response_header_names     |     server_header_names     |     array_string     |          present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the server. No header values are included here, just the header names.   |   ``  |
+|     dst_mime_type     |     resp_mime_types     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.    |   `["text/plain", "application/pdf" ]`   |
+|     **TBD**     |     omniture     |     boolean     |          present if policy/protocols/http/software-browser-plugins.bro is loaded Indicates if the server is an omniture advertising server.   |   `false`  |
+|     http_status_code     |     status_code     |     integer     |     Status code returned by the server     |     `200`     |
+|     http_status_message     |     status_msg     |     string     |     Status message returned by the server     |     `OK`     |
+|     **TBD**     |     trans_depth     |     integer     |     Represents the pipelined depth into the connection of this request/response transaction     |     `5`     |
+|     http_version     |     version     |     string     |     Value of the version portion of the request.   |    `1.2`   |
+|     dst_file_path     |     resp_filenames     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the server.   |   `UserHistorySheetNew.xls`  |
+|     **TBD**     |     flash_version     |     string     |          present if policy/protocols/http/software-browser-plugins.bro is loaded The unparsed Flash version, if detected.   |   ``  |
+|     **TBD**     |     tags     |     array_string     |     A set of indicators of various attributes discovered and related to a particular request/response pair     |     `sqli`     |
+|     url_original     |     uri     |     string     |     URI used in the request     |     `/bobs/big/wheel/superawesome.exe`     |
+|     **TBD**     |     uri_vars     |     array_string     |          present if policy/protocols/http/var-extraction-uri.bro is loaded Variable names from the URI.   |   ``  |
+|     user_agent_original    |     user_agent     |     string     |     Value of the User-Agent header from the client     |     `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36`     |
