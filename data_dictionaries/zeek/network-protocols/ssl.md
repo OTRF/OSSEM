@@ -32,34 +32,34 @@
 
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-|     @timestamp     |     ts               |     date_time     |        Timestamp of the beginning of the event in epoch format     |     `1300475167.096535`  |
-|     src_ip_addr     |     id.orig_h     |     ip     |     The originating/source IP address     |     `10.1.1.1`     |
-|     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `37682`     |
-|     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `10.2.2.2`     |
+|     @timestamp     |     ts               |     date_time     |        Timestamp of the beginning of the event in epoch format     |     `1562945561.215724`  |
+|     src_ip_addr     |     id.orig_h     |     ip     |     The originating/source IP address     |     `10.7.12.101`     |
+|     src_port     |     id.orig_p          |     integer     |       The originating/source port        |     `49213`     |
+|     dst_ip_addr     |     id.resp_h     |     ip     |     The responding/destination IP address     |     `216.98.148.151`     |
 |     dst_port     |     id.resp_p          |     integer     |       The responding/destination port        |     `443`     |
-|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CHhAvVGS1DHFjwGM9`     |
-|     TBD     |     cert_chain_fuids     |     array_string     |          present if base/protocols/ssl/files.bro is loaded An ordered vector of all certificate file unique IDs for the certificates offered by the server.   |   ``  |
-|     TBD     |     client_cert_chain_fuids     |     array_string     |          present if base/protocols/ssl/files.bro is loaded An ordered vector of all certificate file unique IDs for the certificates offered by the client.   |   ``  |
-|     destination_hostname     |     server_name     |     string     |     Value of the Server Name Indicator SSL/TLS extension. It indicates the server name that the client was requesting     |     ``     |
-|     TBD     |     cipher     |     string     |     SSL/TLS cipher suite that the server chose.   |   `TLS_RSA_WITH_NULL_MD5` |
-|     TBD     |     client_issuer     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the signer of the X.509 certificate offered by the client.   |   ``  |
-|     TBD     |     orig_certificate_sha1     |     string     |     sha1 representation of the servers certificate. this is rock specific https://github.com/rocknsm/rock-scripts/pull/20/commits/70078609d3fcaf2eb518f63aa97196b8cae4a4d1#diff-e81eb6aac74c4d7ead9da22ed9198871 |     ``     |
-|     TBD     |     client_subject     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the X.509 certificate offered by the client.   |   ``  |
-|     TBD     |     curve     |     string     |     Elliptic curve the server chose when using ECDH/ECDHE     |     ``     |
-|     TBD     |     established     |     boolean     |     Flag to indicate if this ssl session has been established successfully, or if it was aborted during the handshake     |     ``     |
-|     TBD     |     ja3     |     string     |     present if https://github.com/salesforce/ja3/blob/master/bro/ja3.bro is loaded     |   ``  |
-|     TBD     |     ja3s     |     string     |     present if https://github.com/salesforce/ja3/blob/master/bro/ja3s.bro.bro is loaded     |   ``  |
-|     TBD     |     last_alert     |     string     |     Last alert that was seen during the connection.   |   `handshake_failure` |
-|     TBD     |     next_protocol     |     string     |     Next protocol the server chose using the application layer next protocol extension, if present.   |    `spdy/3.1`  |
-|     TBD     |     notary     |     string     |          present if policy/protocols/ssl/notary.bro is loaded A response from the ICSI certificate notary.   |   ``  |
-|     TBD     |     ocsp_status     |     string     |          present if policy/protocols/ssl/validate-ocsp.bro is loaded Result of ocsp validation for this connection.   |   ``  |
-|     TBD     |     resumed     |     boolean     |     Flag to indicate if the session was resumed reusing the key material exchanged in an earlier connection     |     ``     |
-|     TBD     |     issuer     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the signer of the X.509 certificate offered by the server.   |   ``  |
-|     TBD     |     resp_certificate_sha1     |     string     |     "sha1 representation of the clients certificate. this is rock specific https://github.com/rocknsm/rock-scripts/pull/20/commits/70078609d3fcaf2eb518f63aa97196b8cae4a4d1#diff-e81eb6aac74c4d7ead9da22ed9198871 |     ``     |
-|     TBD     |     subject     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the X.509 certificate offered by the server.   |   ``  |
-|     TBD     |     valid_ct_logs     |     integer     |          present if policy/protocols/ssl/validate-sct.bro is loaded Number of different Logs for which valid SCTs were encountered in the connection.   |   ``  |
-|     TBD     |     valid_ct_operators     |     integer     |          present if policy/protocols/ssl/validate-sct.bro is loaded Number of different Log operators of which valid SCTs were encountered in the connection.   |   ``  |
-|     TBD     |     valid_ct_operators_list     |     array_string     |          present if policy/protocols/ssl/validate-sct.bro is loaded List of operators for which valid SCTs were encountered in the connection.   |   ``  |
-|     TBD     |     validation_status     |     boolean     |          present if policy/protocols/ssl/validate-certs.bro is loaded Result of certificate validation for this connection.   | `self signed certificate` |
-|     TBD     |     version     |     string     |     SSL/TLS version that the server chose.   |   ``TLSv13`   |
-|     TBD     |     version_num     |     integer     |     Numeric SSL/TLS version that the server chose     |     ``     |
+|     event_uid     |     uid     |     string     |     Unique ID for the connection.     |     `CGaE3F32QyMo97CDkc`     |
+|     zeek_uid_cert_chain_fuids     |     cert_chain_fuids     |     array_string     |          present if base/protocols/ssl/files.bro is loaded An ordered vector of all certificate file unique IDs for the certificates offered by the server.   |   `[ "FHL4Zp1jb1ExVM6gw4" ]`  |
+|     zeek_uid_client_cert_chain_fuids     |     client_cert_chain_fuids     |     array_string     |          present if base/protocols/ssl/files.bro is loaded An ordered vector of all certificate file unique IDs for the certificates offered by the client.   |   `[]`  |
+|     tls_server_name     |     server_name     |     string     |     Value of the Server Name Indicator SSL/TLS extension. It indicates the server name that the client was requesting     |     ``     |
+|     tls_cipher     |     cipher     |     string     |     SSL/TLS cipher suite that the server chose.   |   `TLS_RSA_WITH_AES_128_CBC_SHA` |
+|     tls_client_certificate_issuer_name     |     client_issuer     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the signer of the X.509 certificate offered by the client.   |   ``  |
+|     tls_client_certificate_sha1     |     orig_certificate_sha1     |     string     |     sha1 representation of the client's |     ``     |
+|     tls_client_subject_name     |     client_subject     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the X.509 certificate offered by the client.   |   ``  |
+|     tls_curve     |     curve     |     string     |     Elliptic curve the server chose when using ECDH/ECDHE     |     ``     |
+|     tls_established     |     established     |     boolean     |     Flag to indicate if this ssl session has been established successfully, or if it was aborted during the handshake     |     `true`     |
+|     hash_ja3     |     ja3     |     string     |     present if https://github.com/salesforce/ja3/blob/master/bro/ja3.bro is loaded     |   `6734f37431670b3ab4292b8f60f29984`  |
+|     hash_ja3s     |     ja3s     |     string     |     present if https://github.com/salesforce/ja3/blob/master/bro/ja3s.bro.bro is loaded     |   `4192c0a946c5bd9b544b4656d9f624a4`  |
+|     tls_last_alert     |     last_alert     |     string     |     Last alert that was seen during the connection.   |   `handshake_failure` |
+|     tls_next_protocol     |     next_protocol     |     string     |     Next protocol the server chose using the application layer next protocol extension, if present.   |    `spdy/3.1`  |
+|     tls_notary_response     |     notary     |     string     |          present if policy/protocols/ssl/notary.bro is loaded A response from the ICSI certificate notary.   |   ``  |
+|     oscp_validation_status     |     ocsp_status     |     string     |          present if policy/protocols/ssl/validate-ocsp.bro is loaded Result of ocsp validation for this connection.   |   ``  |
+|     tls_resumed     |     resumed     |     boolean     |     Flag to indicate if the session was resumed reusing the key material exchanged in an earlier connection     |     `false`     |
+|     tls_server_certificate_issuer_name     |     issuer     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the signer of the X.509 certificate offered by the server.   |   `CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie PSU,L=Nicosia,C=CY`  |
+|     tls_server_certificate_sha1     |     resp_certificate_sha1     |     string     |     sha1 representation of the server's certificate |     ``     |
+|     tls_server_certificate_subject_name     |     subject     |     string     |          present if base/protocols/ssl/files.bro is loaded Subject of the X.509 certificate offered by the server.   |   `CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie PSU,L=Nicosia,C=CY`  |
+|     **TBD**     |     valid_ct_logs     |     integer     |          present if policy/protocols/ssl/validate-sct.bro is loaded Number of different Logs for which valid SCTs were encountered in the connection.   |   ``  |
+|     **TBD**     |     valid_ct_operators     |     integer     |          present if policy/protocols/ssl/validate-sct.bro is loaded Number of different Log operators of which valid SCTs were encountered in the connection.   |   ``  |
+|     **TBD**     |     valid_ct_operators_list     |     array_string     |          present if policy/protocols/ssl/validate-sct.bro is loaded List of operators for which valid SCTs were encountered in the connection.   |   ``  |
+|     tls_certificate_validation_status     |     validation_status     |     boolean     |          present if policy/protocols/ssl/validate-certs.bro is loaded Result of certificate validation for this connection.   | `self signed certificate` |
+|     tls_version     |     version     |     string     |     SSL/TLS version that the server chose.   |   `TLSv10`   |
+|     tls_version_number     |     version_num     |     integer     |     Numeric SSL/TLS version that the server chose     |     ``     |
