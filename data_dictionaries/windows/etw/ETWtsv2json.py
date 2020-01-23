@@ -49,7 +49,6 @@ for sf in schemafiles:
     filename = path.splitext(path.basename(sf))[0] 
     with open(sf) as tsvfile:
         reader = list(csv.DictReader(tsvfile, delimiter="\t"))
-        reader_expanded = []
         for r in reader:
             if 'event(fields)' in r.keys():
                 r['event_fields'] = []
