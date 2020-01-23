@@ -1,0 +1,62 @@
+[
+    {
+        "provider": "Application-Addon-Event-Provider",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "EnableAdd_onStart_V1(UnicodeString Application, UnicodeString AddonName, UnicodeString Publisher, UnicodeString Version)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EnableAdd_on",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AddonName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Publisher"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Application-Addon-Event-Provider",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "DisableAdd_onStop_V1(UnicodeString Application, UnicodeString AddonName, UnicodeString Publisher, UnicodeString Version)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DisableAdd_on",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AddonName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Publisher"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            }
+        ]
+    }
+]

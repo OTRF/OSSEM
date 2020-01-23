@@ -1,0 +1,1551 @@
+[
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "InitMSCTFForProcessStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "InitMSCTFForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "InitMSCTFForProcessStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "InitMSCTFForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "UninitMSCTFForProcessStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "UninitMSCTFForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "UninitMSCTFForProcessStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "UninitMSCTFForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "ActivateCiceroForThreadStart(UInt32 thread_flags, UInt32 activation_flags)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "ActivateCiceroForThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "thread_flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "activation_flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "ActivateCiceroForThread()",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "ActivateCiceroForThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "ActivateCiceroForThreadStop(UInt32 thread_flags, UInt32 activation_flags)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "ActivateCiceroForThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "thread_flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "activation_flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "DeactivateCiceroForThreadStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "DeactivateCiceroForThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "DeactivateCiceroForThreadStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "DeactivateCiceroForThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "FLSCallbackStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "FLSCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "FLSCallbackStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "FLSCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ConnectServerStart()",
+        "opcode": "Start",
+        "keywords": "Perf ALPC",
+        "task": "ConnectServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ConnectServer()",
+        "opcode": "",
+        "keywords": "ALPC",
+        "task": "ConnectServer",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "ConnectServerStop()",
+        "opcode": "Stop",
+        "keywords": "Perf ALPC",
+        "task": "ConnectServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_0()",
+        "opcode": "",
+        "keywords": "Status ALPC",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "CreateMessageWindow()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "CreateMessageWindow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "CreateMessageWindow17()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "CreateMessageWindow",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "task_018()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "ActivateTIPStart(GUID guid)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "ActivateTIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "ActivateTIPStop(GUID guid)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "ActivateTIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "DeactivateTIPStart(GUID guid)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "DeactivateTIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "DeactivateTIPStop(GUID guid)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "DeactivateTIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "CheckLastWindowDestroyedStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "CheckLastWindowDestroyed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "CheckLastWindowDestroyedStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "CheckLastWindowDestroyed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "CreateAssemblyListStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "CreateAssemblyList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "CreateAssemblyListStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "CreateAssemblyList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "LoadAssemblyListStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "LoadAssemblyList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "LoadAssemblyListStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "LoadAssemblyList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "ActivateAssemblyStart(UInt32 LANGID)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "ActivateAssembly",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LANGID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "ActivateAssemblyStop(UInt32 LANGID)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "ActivateAssembly",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LANGID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "HandleThreadInputFocusEventStart(UInt32 event, Pointer hwnd, UInt32 flags, UInt32 event_order)",
+        "opcode": "Start",
+        "keywords": "Focus",
+        "task": "HandleThreadInputFocusEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "event"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hwnd"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "event_order"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "HandleThreadInputFocusEventStop(Pointer hwnd)",
+        "opcode": "Stop",
+        "keywords": "Focus",
+        "task": "HandleThreadInputFocusEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "hwnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "HandleGlobalInputFocusEventStart(UInt32 event, Pointer hwnd, UInt32 flags, UInt32 event_order)",
+        "opcode": "Start",
+        "keywords": "Focus",
+        "task": "HandleGlobalInputFocusEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "event"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hwnd"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "event_order"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "HandleGlobalInputFocusEventStop()",
+        "opcode": "Stop",
+        "keywords": "Focus",
+        "task": "HandleGlobalInputFocusEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "SendNotificationSend(UInt32 message, UInt32 target_tid, UInt32 params)",
+        "opcode": "Send",
+        "keywords": "ALPC",
+        "task": "SendNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "target_tid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "params"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "SendSyncRequestSuspend(UInt32 message, UInt32 target_tid, UInt32 params)",
+        "opcode": "Suspend",
+        "keywords": "ALPC",
+        "task": "SendSyncRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "target_tid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "params"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "SendSyncRequestResume()",
+        "opcode": "Resume",
+        "keywords": "ALPC",
+        "task": "SendSyncRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "SendAsyncRequestStart(UInt32 message, UInt32 target_tid, UInt32 params)",
+        "opcode": "Start",
+        "keywords": "ALPC",
+        "task": "SendAsyncRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "target_tid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "params"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "SendAsyncRequestStop()",
+        "opcode": "Stop",
+        "keywords": "ALPC",
+        "task": "SendAsyncRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "ReceiveALPCMessagesStart()",
+        "opcode": "Start",
+        "keywords": "ALPC",
+        "task": "ReceiveALPCMessages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "ReceiveALPCMessagesStop()",
+        "opcode": "Stop",
+        "keywords": "ALPC",
+        "task": "ReceiveALPCMessages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "ProcessALPCMessageStart(UInt32 message, UInt32 target_tid, UInt32 params)",
+        "opcode": "Start",
+        "keywords": "ALPC",
+        "task": "ProcessALPCMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "target_tid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "params"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "ProcessALPCMessageStop(UInt32 param)",
+        "opcode": "Stop",
+        "keywords": "ALPC",
+        "task": "ProcessALPCMessage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "ProcessALPCMessageStop44()",
+        "opcode": "Stop",
+        "keywords": "ALPC",
+        "task": "ProcessALPCMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "ProcessALPCMessageReply(UInt32 message, UInt32 target_tid, UInt32 params, UInt32 hr)",
+        "opcode": "Reply",
+        "keywords": "ALPC",
+        "task": "ProcessALPCMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "target_tid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "params"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "CreateLangBarItemMgrStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "CreateLangBarItemMgr",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "CreateLangBarItemMgrStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "CreateLangBarItemMgr",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "GetIconFromFileStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "GetIconFromFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "GetIconFromFileStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "GetIconFromFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "CreateBitmapStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "CreateBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "CreateBitmapStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "CreateBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ITfThreadFocusSink_OnSetThreadFocusStart(UInt32 param)",
+        "opcode": "Start",
+        "keywords": "TSFEvent",
+        "task": "ITfThreadFocusSink_OnSetThreadFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "ITfThreadFocusSink_OnSetThreadFocusStop(UInt32 param)",
+        "opcode": "Stop",
+        "keywords": "TSFEvent",
+        "task": "ITfThreadFocusSink_OnSetThreadFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "ITfThreadFocusSink_OnKillThreadFocusStart(UInt32 param)",
+        "opcode": "Start",
+        "keywords": "TSFEvent",
+        "task": "ITfThreadFocusSink_OnKillThreadFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "ITfThreadFocusSink_OnKillThreadFocusStop(UInt32 param)",
+        "opcode": "Stop",
+        "keywords": "TSFEvent",
+        "task": "ITfThreadFocusSink_OnKillThreadFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "ITfThreadMgrEventSink_OnSetFocusStart(Pointer pdimNewFocus, Pointer pdimPrevFocus)",
+        "opcode": "Start",
+        "keywords": "TSFEvent",
+        "task": "ITfThreadMgrEventSink_OnSetFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pdimNewFocus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pdimPrevFocus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "ITfThreadMgrEventSink_OnSetFocusStop(Pointer pdimNewFocus, Pointer pdimPrevFocus)",
+        "opcode": "Stop",
+        "keywords": "TSFEvent",
+        "task": "ITfThreadMgrEventSink_OnSetFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pdimNewFocus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pdimPrevFocus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "CiceroServerStart(UInt32 param)",
+        "opcode": "Start",
+        "keywords": "Status",
+        "task": "CiceroServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "CiceroServerStop(UInt32 param)",
+        "opcode": "Stop",
+        "keywords": "Status",
+        "task": "CiceroServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "CiceroServer()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "CiceroServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "CiceroServer61()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "CiceroServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "CiceroServer62()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "CiceroServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "CiceroServer63()",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "CiceroServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "task_064(UInt32 param)",
+        "opcode": "",
+        "keywords": "Status",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "IMELocalServer(GUID guid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "IMELocalServer66(GUID guid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "IMELocalServer67(GUID guid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "IMELocalServer68(GUID guid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "IMELocalServer69(GUID guid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "IMELocalServer70(GUID guid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "IMELocalServerStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "IMELocalServerStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "IMELocalServer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "InputProfileActivation()",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "InputProfileActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "InputProfileActivation74(UInt32 param)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "InputProfileActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "InputProfileActivation75(GUID guid, UInt16 langid)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "InputProfileActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "guid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "langid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "InputProfileDeactivation()",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "InputProfileDeactivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "InputProfileDeactivation77(UInt32 param)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "InputProfileDeactivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "InputProfileDeactivation78()",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "InputProfileDeactivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "DocumentFocusChange(UInt32 DocId, UInt32 DocThread, Boolean GainFocus)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentFocusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DocId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DocThread"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "GainFocus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "DocumentFocusChange80(UInt32 thread, UInt32 document)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentFocusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "thread"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "document"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "DocumentFocusChange81(UInt32 thread, UInt32 document)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentFocusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "thread"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "document"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "DocumentFocusChange82(Boolean boolean)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentFocusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "boolean"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "DocumentContentChange()",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentContentChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "DocumentContentChange84(UInt32 param)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentContentChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "DocumentContentChange85(UInt32 param)",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentContentChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "DocumentContentChange86()",
+        "opcode": "",
+        "keywords": "OOPIME",
+        "task": "DocumentContentChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling88()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling89(Boolean boolean)",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "boolean"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling90()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling91()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling92()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling93()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling94()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TSF-msctf",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "KeyboardEventHandling95()",
+        "opcode": "",
+        "keywords": "Perf OOPIME",
+        "task": "KeyboardEventHandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

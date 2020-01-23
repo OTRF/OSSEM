@@ -1,0 +1,354 @@
+[
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5016",
+        "version": "0",
+        "event(fields)": "task_0(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5017",
+        "version": "0",
+        "event(fields)": "task_05017(AnsiString FileName, UInt32 Line, Pointer Address)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5018",
+        "version": "0",
+        "event(fields)": "task_05018(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size, Pointer OrigAddress)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OrigAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5100",
+        "version": "0",
+        "event(fields)": "ListUpdate(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState, UnicodeString ItemContent)",
+        "opcode": "Update",
+        "keywords": "list",
+        "task": "ListUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemPos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ItemContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5101",
+        "version": "0",
+        "event(fields)": "ListUpdateInsert(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState, UnicodeString ItemContent)",
+        "opcode": "Insert",
+        "keywords": "list",
+        "task": "ListUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemPos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ItemContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5102",
+        "version": "0",
+        "event(fields)": "ListUpdateDelete(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState, UnicodeString ItemContent)",
+        "opcode": "Delete",
+        "keywords": "list",
+        "task": "ListUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemPos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ItemContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5103",
+        "version": "0",
+        "event(fields)": "task_05103(AnsiString FileName, AnsiString Function, UInt32 Line, UnicodeString ErrorText)",
+        "opcode": "",
+        "keywords": "error",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5200",
+        "version": "0",
+        "event(fields)": "PerfTrack_LaunchStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_Launch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5201",
+        "version": "0",
+        "event(fields)": "PerfTrack_LaunchStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_Launch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5202",
+        "version": "0",
+        "event(fields)": "PerfTrack_TabSwitchStart(UInt32 TabId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_TabSwitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TabId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5203",
+        "version": "0",
+        "event(fields)": "PerfTrack_TabSwitchStop(UInt32 TabId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_TabSwitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TabId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5204",
+        "version": "0",
+        "event(fields)": "PerfTrack_HandleSearchStart(UInt32 RequestCookie)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_HandleSearch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestCookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5205",
+        "version": "0",
+        "event(fields)": "PerfTrack_HandleSearchStop(UInt32 RequestCookie)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_HandleSearch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestCookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5206",
+        "version": "0",
+        "event(fields)": "PerfTrack_ColumnSortStart(UInt32 TableId, UInt32 ColumnId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_ColumnSort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColumnId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDC",
+        "event_id": "5207",
+        "version": "0",
+        "event(fields)": "PerfTrack_ColumnSortStop(UInt32 TableId, UInt32 ColumnId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_ColumnSort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColumnId"
+            }
+        ]
+    }
+]

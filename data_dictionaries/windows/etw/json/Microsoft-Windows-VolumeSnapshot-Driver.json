@@ -1,0 +1,3220 @@
+[
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "vs:PrepareStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Prepare",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "vs:PrepareStop(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Prepare",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "vs:PreExposureStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:PreExposure",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "vs:PreExposureStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:PreExposure",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "vs:AdjustBitmapStart(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:AdjustBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "vs:AdjustBitmapStop(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:AdjustBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "vs:EndCommitStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:EndCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "vs:EndCommitStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:EndCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "vs:ActivateStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Activate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "vs:ActivateStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Activate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "vs:SetIgnorableStart(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:SetIgnorable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "vs:SetIgnorableStop(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:SetIgnorable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "vs:IgnorableProductStart(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:IgnorableProduct",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "vs:IgnorableProductStop(UInt32 RealThreadID, GUID SnapshotGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:IgnorableProduct",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "vs:DismountStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Dismount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "vs:DismountStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Dismount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "vs:RemountStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Remount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "vs:RemountStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Remount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "vs:DeleteProcessStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:DeleteProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "vs:DeleteProcessStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:DeleteProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "vs:RevertStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Revert",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "vs:RevertStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Revert",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "vs:ProtectedBitmapStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:ProtectedBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "vs:ProtectedBitmapStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:ProtectedBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "vs:FlushHoldFsStart(UInt32 RealThreadID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:FlushHoldFs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "vs:FlushHoldFsStop(UInt32 RealThreadID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:FlushHoldFs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "vs:ActivateLoopStart(UInt32 RealThreadID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:ActivateLoop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "vs:ActivateLoopStop(UInt32 RealThreadID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:ActivateLoop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "vs:ValidateFilesStart(UInt32 RealThreadID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:ValidateFiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "vs:ValidateFilesStop(UInt32 RealThreadID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:ValidateFiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "vs:VolumeSafeStart(UInt32 RealThreadID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:VolumeSafe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "vs:VolumeSafeStop(UInt32 RealThreadID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:VolumeSafe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "vs:DiscoverSnapshotsStart(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:DiscoverSnapshots",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "vs:DiscoverSnapshotsStop(UInt32 RealThreadID, GUID VolumeGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:DiscoverSnapshots",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RealThreadID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "task_0Start(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "task_0Stop(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "task_0Stop102(GUID TargetVolumeGuid, HexInt32 Error, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "task_0Start103(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "task_0Stop104(GUID TargetVolumeGuid, UInt32 SnapshotCount, UInt32 CountDeleted, UInt32 CountVisible, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SnapshotCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CountDeleted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CountVisible"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "task_0Stop105(GUID TargetVolumeGuid, HexInt32 Error, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "task_0(GUID TargetVolumeGuid, GUID SnapshotGuid, Boolean Deleted, Boolean Visible, SYSTEMTIME CommitTime, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Deleted"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Visible"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "CommitTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "task_0Start107(GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "task_0Start110(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "task_0Stop111(GUID TargetVolumeGuid, UInt32 DiffAreaCount, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiffAreaCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "task_0Stop112(GUID TargetVolumeGuid, HexInt32 Error, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "task_0113(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "task_0Start114(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "task_0Stop115(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "task_0Start116(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "task_0Stop117(GUID TargetVolumeGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "task_0Stop118(GUID TargetVolumeGuid, HexInt32 Error, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "task_0Stop119(GUID TargetVolumeGuid, UInt16 PersistentDeleteReason, HexInt32 PersistentDeleteStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PersistentDeleteReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PersistentDeleteStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "task_0Stop120(GUID TargetVolumeGuid, UInt32 TimeoutInSeconds, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeoutInSeconds"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "task_0121(UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16 DiffVolumeNameLength, UnicodeString DiffVolumeName, UInt32 OriginalErrorLogCode, HexInt32 OriginalErrorStatus, HexInt32 OriginalSourceFile, UInt16 OriginalSourceLine, UInt32 OriginalSourceTag, HexInt32 ErrorStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DiffVolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiffVolumeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalErrorLogCode"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OriginalErrorStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OriginalSourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "OriginalSourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalSourceTag"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "task_0122(GUID TargetVolumeGuid, HexInt32 Error, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "vs:PrepareStart1000(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Prepare",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "vs:PrepareStop1001(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Prepare",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "vs:PreExposureStart1002(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:PreExposure",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "vs:PreExposureStop1003(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:PreExposure",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "vs:AdjustBitmapStart1004(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:AdjustBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "vs:AdjustBitmapStop1005(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:AdjustBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "vs:EndCommitStart1006(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:EndCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "vs:EndCommitStop1007(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:EndCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "vs:ActivateStart1008(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Activate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "vs:ActivateStop1009(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Activate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "vs:SetIgnorableStart1010(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:SetIgnorable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "vs:SetIgnorableStop1011(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:SetIgnorable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "vs:IgnorableProductStart1012(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:IgnorableProduct",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "vs:IgnorableProductStop1013(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:IgnorableProduct",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "vs:DismountStart1014(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Dismount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "vs:DismountStop1015(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Dismount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "vs:RemountStart1016(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Remount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "vs:RemountStop1017(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Remount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "vs:DeleteProcessStart1018(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:DeleteProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "vs:DeleteProcessStop1019(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:DeleteProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "vs:RevertStart1020(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:Revert",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "vs:RevertStop1021(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:Revert",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "vs:ProtectedBitmapStart1022(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:ProtectedBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "vs:ProtectedBitmapStop1023(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:ProtectedBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "vs:FlushHoldFsStart1024(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:FlushHoldFs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "vs:FlushHoldFsStop1025(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:FlushHoldFs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "vs:ActivateLoopStart1026(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:ActivateLoop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "vs:ActivateLoopStop1027(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:ActivateLoop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1028",
+        "version": "0",
+        "event(fields)": "vs:ValidateFilesStart1028(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:ValidateFiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1029",
+        "version": "0",
+        "event(fields)": "vs:ValidateFilesStop1029(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:ValidateFiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1030",
+        "version": "0",
+        "event(fields)": "vs:VolumeSafeStart1030(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:VolumeSafe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1031",
+        "version": "0",
+        "event(fields)": "vs:VolumeSafeStop1031(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:VolumeSafe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1032",
+        "version": "0",
+        "event(fields)": "vs:DiscoverSnapshotsStart1032(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "vs:DiscoverSnapshots",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+        "event_id": "1033",
+        "version": "0",
+        "event(fields)": "vs:DiscoverSnapshotsStop1033(UInt16 DiagPrefixLength, UnicodeString DiagPrefix, UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid, HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "vs:DiscoverSnapshots",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DiagPrefixLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagPrefix"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetVolumeGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SnapshotGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "provider": "Microsoft-Windows-SmartCard-Audit",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "Failure(UnicodeString Process, UInt32 ProcessId)",
+        "opcode": "",
+        "keywords": "AuditFailure SmartCard CHV PIN",
+        "task": "Failure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SmartCard-Audit",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "Success(UnicodeString Process, UInt32 ProcessId)",
+        "opcode": "",
+        "keywords": "AuditSuccess SmartCard CHV PIN",
+        "task": "Success",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    }
+]

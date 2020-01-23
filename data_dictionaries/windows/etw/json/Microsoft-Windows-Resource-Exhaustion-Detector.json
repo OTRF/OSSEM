@@ -1,0 +1,392 @@
+[
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustiondetectorisstarted.()",
+        "opcode": "Eventsloggedwhentheresourceexhaustiondetectorisstarted.",
+        "keywords": "RDR_DET_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustiondetectorisstopped.()",
+        "opcode": "Eventsloggedwhentheresourceexhaustiondetectorisstopped.",
+        "keywords": "RDR_DET_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "ResourceExhaustionDetectionEventsEventsloggedwhenaproblemisdetected.(UInt64 SystemCommitLimit, UInt64 SystemCommitCharge)",
+        "opcode": "Eventsloggedwhenaproblemisdetected.",
+        "keywords": "RDR_DET_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResourceExhaustionDetectionEvents",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SystemCommitLimit"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SystemCommitCharge"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustiondetectorisstarted.1005(UInt32 ErrorCode)",
+        "opcode": "Eventsloggedwhentheresourceexhaustiondetectorisstarted.",
+        "keywords": "RDR_DET_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustiondetectorisstopped.1006(UInt32 ErrorCode)",
+        "opcode": "Eventsloggedwhentheresourceexhaustiondetectorisstopped.",
+        "keywords": "RDR_DET_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedafteramemoryallocation.(UInt64 RequestSize, UInt32 ErrorCode)",
+        "opcode": "Eventsloggedafteramemoryallocation.",
+        "keywords": "RDR_DET_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "ResourceExhaustionDiagnosisEventsContainstheresultsofthediagnosis.(UInt32 ErrorCode)",
+        "opcode": "Containstheresultsofthediagnosis.",
+        "keywords": "RDR_DET_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResourceExhaustionDiagnosisEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "ResourceExhaustionDiagnosisEventsContainstheresultsofthediagnosis.2004(UInt64 SystemCommitLimit, UInt64 SystemCommitCharge, UInt64 ProcessCommitCharge, UInt64 PagedPoolUsage, UInt64 PhysicalMemorySize, UInt64 PhysicalMemoryUsage, UInt64 NonPagedPoolUsage, UInt32 TotalProcesses, UnicodeString PagedPoolTag_1, UInt64 PagedPoolUsed_1, UnicodeString PagedPoolTag_2, UInt64 PagedPoolUsed_2, UnicodeString PagedPoolTag_3, UInt64 PagedPoolUsed_3, UnicodeString NonPagedPoolTag_1, UInt64 NonPagedPoolUsed_1, UnicodeString NonPagedPoolTag_2, UInt64 NonPagedPoolUsed_2, UnicodeString NonPagedPoolTag_3, UInt64 NonPagedPoolUsed_3, UnicodeString Process_1_Name, UInt32 Process_1_ID, FILETIME Process_1_CreationTime, UInt64 Process_1_CommitCharge, UInt32 Process_1_HandleCount, UnicodeString Process_1_Version, UInt32 Process_1_TypeInfo, UnicodeString Process_2_Name, UInt32 Process_2_ID, FILETIME Process_2_CreationTime, UInt64 Process_2_CommitCharge, UInt32 Process_2_HandleCount, UnicodeString Process_2_Version, UInt32 Process_2_TypeInfo, UnicodeString Process_3_Name, UInt32 Process_3_ID, FILETIME Process_3_CreationTime, UInt64 Process_3_CommitCharge, UInt32 Process_3_HandleCount, UnicodeString Process_3_Version, UInt32 Process_3_TypeInfo, UnicodeString Process_4_Name, UInt32 Process_4_ID, FILETIME Process_4_CreationTime, UInt64 Process_4_CommitCharge, UInt32 Process_4_HandleCount, UnicodeString Process_4_Version, UInt32 Process_4_TypeInfo, UnicodeString Process_5_Name, UInt32 Process_5_ID, FILETIME Process_5_CreationTime, UInt64 Process_5_CommitCharge, UInt32 Process_5_HandleCount, UnicodeString Process_5_Version, UInt32 Process_5_TypeInfo, UnicodeString Process_6_Name, UInt32 Process_6_ID, FILETIME Process_6_CreationTime, UInt64 Process_6_CommitCharge, UInt32 Process_6_HandleCount, UnicodeString Process_6_Version, UInt32 Process_6_TypeInfo, FILETIME EventGenerationTime)",
+        "opcode": "Containstheresultsofthediagnosis.",
+        "keywords": "RDR_DET_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResourceExhaustionDiagnosisEvents",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SystemCommitLimit"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SystemCommitCharge"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessCommitCharge"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PagedPoolUsage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PhysicalMemorySize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PhysicalMemoryUsage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NonPagedPoolUsage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalProcesses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PagedPoolTag_1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PagedPoolUsed_1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PagedPoolTag_2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PagedPoolUsed_2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PagedPoolTag_3"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PagedPoolUsed_3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NonPagedPoolTag_1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NonPagedPoolUsed_1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NonPagedPoolTag_2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NonPagedPoolUsed_2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NonPagedPoolTag_3"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NonPagedPoolUsed_3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_1_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_1_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_1_CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Process_1_CommitCharge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_1_HandleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_1_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_1_TypeInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_2_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_2_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_2_CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Process_2_CommitCharge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_2_HandleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_2_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_2_TypeInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_3_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_3_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_3_CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Process_3_CommitCharge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_3_HandleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_3_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_3_TypeInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_4_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_4_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_4_CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Process_4_CommitCharge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_4_HandleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_4_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_4_TypeInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_5_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_5_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_5_CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Process_5_CommitCharge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_5_HandleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_5_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_5_TypeInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_6_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_6_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_6_CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Process_6_CommitCharge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_6_HandleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_6_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_6_TypeInfo"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "EventGenerationTime"
+            }
+        ]
+    }
+]

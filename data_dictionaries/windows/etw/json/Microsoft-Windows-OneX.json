@@ -1,0 +1,1736 @@
+[
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "API(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "API ut:Authentication",
+        "task": "API",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "APIStart(UInt32 PortId)",
+        "opcode": "Start",
+        "keywords": "API LwtDiagnostic ut:Authentication",
+        "task": "API",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "APIStop(UInt32 PortId)",
+        "opcode": "Stop",
+        "keywords": "API LwtDiagnostic ut:Authentication",
+        "task": "API",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "EAP(UInt32 PortId, UInt32 WinError, UInt32 ReasonCode, UInt8 EAPMethodType, UnicodeString RootCauseString)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "EAPMethodType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RootCauseString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "EAP5(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "EAP6(UInt32 PortId, UInt32 WinError, UInt32 ReasonCode)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "EAP7(UInt32 PortId, UInt32 UserDataSize)",
+        "opcode": "",
+        "keywords": "EAP ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserDataSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "EAP8(UInt32 PortId, UInt32 UserDataSize)",
+        "opcode": "",
+        "keywords": "EAP ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserDataSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "EAP9(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "EAP10(UInt32 PortId, UInt32 Response)",
+        "opcode": "",
+        "keywords": "EAP ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "EAP11(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "EAP12(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "EAP13(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "EAP14(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "EAP15(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "EAP16(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "EAP17(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "EAP18(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "EAP19(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "MSM(UInt32 PortId, UInt32 UIRequestCode)",
+        "opcode": "",
+        "keywords": "OneXUI LwtDiagnostic ut:Authentication",
+        "task": "MSM",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UIRequestCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "User(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "User LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "User22(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "User LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "User23(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "User LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "Supplicant(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "Supplicant",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "Supplicant25(UInt32 WarningCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "Supplicant",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "Supplicant26(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "Supplicant",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Supplicant27(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "Supplicant",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "EAP28(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Profile(UInt8 EAPMethodType)",
+        "opcode": "",
+        "keywords": "Profile ut:Authentication",
+        "task": "Profile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "EAPMethodType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "Profile30(UInt8 EAPMethodType)",
+        "opcode": "",
+        "keywords": "Profile ut:Authentication",
+        "task": "Profile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "EAPMethodType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "Profile31(UInt32 ProfilesCount)",
+        "opcode": "",
+        "keywords": "Profile ut:Authentication",
+        "task": "Profile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProfilesCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Profile32(UInt8 EAPMethodType, UnicodeString AuthMode)",
+        "opcode": "",
+        "keywords": "Profile ut:Authentication",
+        "task": "Profile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "EAPMethodType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AuthMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Profile33(UInt8 EAPMethodType, UInt32 MediaType)",
+        "opcode": "",
+        "keywords": "Profile ut:Authentication",
+        "task": "Profile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "EAPMethodType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "MSM34(UInt32 PortId, UInt32 UIRequestCode)",
+        "opcode": "",
+        "keywords": "OneXUI LwtDiagnostic ut:Authentication",
+        "task": "MSM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UIRequestCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "Supplicant35(UInt32 ChangeType)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ChangeType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "Port(UInt32 PortId, UnicodeString FriendlyName)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "Supplicant37(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "MSM38(UInt32 PortId, UInt32 UIRequestCode)",
+        "opcode": "",
+        "keywords": "OneXUI ut:Authentication",
+        "task": "MSM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UIRequestCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "MSM39(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Profile ut:Authentication",
+        "task": "MSM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "EAP40(UInt32 PortId, UInt16 PacketLength, UInt32 PacketType, UInt8 Identifier, UInt32 EapMethodType)",
+        "opcode": "",
+        "keywords": "EAP EAPPacket LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PacketLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EapMethodType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "EAP41(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "EAP EAPPacket LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "EAP42(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "EAP EAPPacket ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "MSM43(UInt32 PortId, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "MSM",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "SupplicantStart(UInt32 PortId)",
+        "opcode": "Start",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "SupplicantStop(UInt32 PortId)",
+        "opcode": "Stop",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "Supplicant46(UInt32 PortId, UInt32 TimeTaken)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeTaken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "Supplicant47(UInt32 PortId, UnicodeString AuthIdentity, UInt32 SessionId, UnicodeString Username, UnicodeString Domain)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AuthIdentity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Domain"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "Supplicant48(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "Supplicant49(UInt32 PortId, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "Supplicant50(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "Supplicant51(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "Supplicant52(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "Supplicant53(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "Supplicant54(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "Supplicant LwtDiagnostic ut:Authentication",
+        "task": "Supplicant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "User55(UInt32 PortId, UInt32 SessionId, UInt32 UIRequestSessionId)",
+        "opcode": "",
+        "keywords": "EAP OneXUI LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UIRequestSessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "User56(UInt32 PortId, UInt32 Size, UInt32 SessionId)",
+        "opcode": "",
+        "keywords": "OneXUI LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "User57(UInt32 PortId, UInt32 Reason, UInt32 SessionId)",
+        "opcode": "",
+        "keywords": "User LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "User58(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "User LwtDiagnostic ut:Authentication",
+        "task": "User",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "EAP59(UInt32 PortId, UInt32 WinError, UInt32 ReasonCode)",
+        "opcode": "",
+        "keywords": "EAP OneXUI LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "EAP60(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP OneXUI ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "EAP61(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP OneXUI ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "EAP62(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "EAP OneXUI ut:Authentication",
+        "task": "EAP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "User63(UInt32 Result)",
+        "opcode": "",
+        "keywords": "OneXUI ut:Authentication",
+        "task": "User",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "EAP64(UInt32 PortId, UInt16 PacketLength, UInt32 PacketType, UInt8 Identifier, UInt32 EapMethodType)",
+        "opcode": "",
+        "keywords": "EAP EAPPacket LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PacketLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EapMethodType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "EAP65(UInt32 PortId, AnsiString Identity)",
+        "opcode": "",
+        "keywords": "EAP EAPPacket LwtDiagnostic ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Identity"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "EAP66(UInt32 PortId, Boolean ExplicitCredentials)",
+        "opcode": "",
+        "keywords": "EAP ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ExplicitCredentials"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "EAP68(UInt32 PortId, Boolean ExplicitCredentials)",
+        "opcode": "",
+        "keywords": "EAP ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ExplicitCredentials"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "EAP70(UInt32 PortId)",
+        "opcode": "",
+        "keywords": "EAP ut:Authentication",
+        "task": "EAP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PortId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60001",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60002",
+        "version": "0",
+        "event(fields)": "task_060002(UInt32 WarningCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60003",
+        "version": "0",
+        "event(fields)": "task_060003(UInt8 NextState, UInt32 Context)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "NextState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60004",
+        "version": "0",
+        "event(fields)": "task_060004(UInt32 Context, UInt32 UpdateReasonCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdateReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60101",
+        "version": "0",
+        "event(fields)": "task_060101(UInt32 SourceAddress, UInt32 SourcePort, UInt32 DestinationAddress, UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationPort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60102",
+        "version": "0",
+        "event(fields)": "task_060102(Binary SourceAddress, UInt32 SourcePort, Binary DestinationAddress, UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "SourceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePort"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "DestinationAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationPort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OneX",
+        "event_id": "60103",
+        "version": "0",
+        "event(fields)": "task_060103(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "SruMonDebugTrace(UnicodeString _DebugString)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugTrace",
+        "task": "SruMonDebugTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_DebugString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "SruMonDebugTrace2002(UnicodeString _FunctionName, UInt32 _Status)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugTrace KeywordSruMonDebugSequenceTrace",
+        "task": "SruMonDebugTrace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "SruMonDebugTrace2003(UnicodeString _FunctionName, Int32 _HR)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugTrace KeywordSruMonDebugSequenceTrace",
+        "task": "SruMonDebugTrace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "_HR"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "SruMonDebugTrace2004(UnicodeString _TableName)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugTrace",
+        "task": "SruMonDebugTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_TableName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2005",
+        "version": "0",
+        "event(fields)": "SruMonDebugTrace2005(UnicodeString _FunctionName, Int32 _HR)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugTrace KeywordSruMonDebugSequenceTrace",
+        "task": "SruMonDebugTrace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "_HR"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2006",
+        "version": "0",
+        "event(fields)": "SruMonDebugSequenceTrace(UnicodeString _FunctionName)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugSequenceTrace KeywordSruMonDebugSequenceErrorTrace",
+        "task": "SruMonDebugSequenceTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2007",
+        "version": "0",
+        "event(fields)": "SruMonDebugSequenceTrace2007(UnicodeString _FunctionName)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugSequenceTrace KeywordSruMonDebugSequenceErrorTrace",
+        "task": "SruMonDebugSequenceTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2008",
+        "version": "0",
+        "event(fields)": "SruMonDebugSequenceTrace2008(UnicodeString _Status)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugSequenceTrace KeywordSruMonDebugSequenceErrorTrace",
+        "task": "SruMonDebugSequenceTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2009",
+        "version": "0",
+        "event(fields)": "SruMonDebugSequenceErrorTrace(UnicodeString _Reset)",
+        "opcode": "",
+        "keywords": "KeywordSruMonDebugSequenceErrorTrace KeywordSruMonDebugDBResetTrace KeywordSruMonNWAggregationTrace",
+        "task": "SruMonDebugSequenceErrorTrace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_Reset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2010",
+        "version": "0",
+        "event(fields)": "SruMonNWAggregationTrace(UnicodeString _FunctionName, UnicodeString _ApplicationName, UInt64 _InterfaceLuid, Boolean _Costed, UInt64 _BytesSent, UInt64 _BytesReceived)",
+        "opcode": "",
+        "keywords": "KeywordSruMonNWAggregationTrace",
+        "task": "SruMonNWAggregationTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_ApplicationName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_InterfaceLuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "_Costed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesSent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesReceived"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2011",
+        "version": "0",
+        "event(fields)": "SruMonNWAggregationTrace2011(UnicodeString _FunctionName)",
+        "opcode": "",
+        "keywords": "KeywordSruMonNWAggregationTrace",
+        "task": "SruMonNWAggregationTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SruMon",
+        "event_id": "2012",
+        "version": "0",
+        "event(fields)": "SruMonNWAggregationTrace2012(GUID _InterfaceGuid, UInt64 _InterfaceLuid, UnicodeString _Application, UInt64 _ProfileId, UInt64 _ProfileFlags, UInt64 _BytesSent, UInt64 _BytesReceived)",
+        "opcode": "",
+        "keywords": "KeywordSruMonNWAggregationTrace keyword_200000000000",
+        "task": "SruMonNWAggregationTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "_InterfaceGuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_InterfaceLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_Application"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_ProfileId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_ProfileFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesSent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesReceived"
+            }
+        ]
+    }
+]

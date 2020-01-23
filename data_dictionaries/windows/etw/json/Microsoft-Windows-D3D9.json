@@ -1,0 +1,240 @@
+[
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "PresentStart(Pointer pSwapchain, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "Present",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pSwapchain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "PresentStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "Present",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ResetStart(Pointer pSwapchain, UInt32 Width, UInt32 Height, UInt32 BackbufferFormat, UInt32 BackbufferCount, UInt32 SwapEffect, Boolean Windowed, UInt32 PresentationInterval, Boolean AdditionalSwapchain)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "Reset",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pSwapchain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackbufferFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackbufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapEffect"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Windowed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentationInterval"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AdditionalSwapchain"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "ResetStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "Reset",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "BindToDWM(UInt64 LogicalSurfaceHandle, UInt16 BackBufferCount, UInt32 SharedHandles)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "BindToDWM",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LogicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BackBufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SharedHandles"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "DWMRedirection(Boolean IsOn)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "DWMRedirection",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsOn"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "FlipExSurfaceTimeout(UInt64 LogicalSurfaceHandle, UInt32 BackBufferNumber, UInt32 BackBufferHandle)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "FlipExSurfaceTimeout",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LogicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackBufferNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackBufferHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "FlipExSemaphoreTimeout(UInt64 LogicalSurfaceHandle, UInt32 AdjustValue, UInt64 FenceValue)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "FlipExSemaphoreTimeout",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LogicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdjustValue"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FenceValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D9",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "GetPresentStats(UInt32 ReturnValue, UInt32 PresentCount, UInt32 PresentRefreshCount, UInt32 SyncRefreshCount, UInt64 SyncQPCTime)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "GetPresentStats",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentRefreshCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncRefreshCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SyncQPCTime"
+            }
+        ]
+    }
+]

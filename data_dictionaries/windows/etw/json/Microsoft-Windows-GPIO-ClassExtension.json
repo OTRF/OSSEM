@@ -1,0 +1,593 @@
+[
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1000",
+        "version": "1",
+        "event(fields)": "task_0AcpiEventMethodStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt16 PinNumber)",
+        "opcode": "AcpiEventMethodStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1001",
+        "version": "1",
+        "event(fields)": "task_0AcpiEventMethodComplete_V1(UInt16 PinNumber)",
+        "opcode": "AcpiEventMethodComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1002",
+        "version": "1",
+        "event(fields)": "task_0ClearActiveInterruptsStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt64 PinMask)",
+        "opcode": "ClearActiveInterruptsStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PinMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1003",
+        "version": "1",
+        "event(fields)": "task_0ClearActiveInterruptsComplete_V1(UInt64 PinMask)",
+        "opcode": "ClearActiveInterruptsComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PinMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1004",
+        "version": "1",
+        "event(fields)": "task_0DebounceTimerStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt16 PinNumber, UInt16 Timeout)",
+        "opcode": "DebounceTimerStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1005",
+        "version": "1",
+        "event(fields)": "task_0DebounceTimerComplete_V1(UInt16 PinNumber)",
+        "opcode": "DebounceTimerComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1006",
+        "version": "1",
+        "event(fields)": "task_0DeferredInterruptActivitiesStart_V1(UnicodeString ControllerBiosName, UInt16 BankId)",
+        "opcode": "DeferredInterruptActivitiesStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1007",
+        "version": "1",
+        "event(fields)": "task_0DeferredInterruptActivitiesComplete_V1()",
+        "opcode": "DeferredInterruptActivitiesComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1008",
+        "version": "1",
+        "event(fields)": "task_0DisableInterruptStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt16 PinNumber)",
+        "opcode": "DisableInterruptStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1009",
+        "version": "1",
+        "event(fields)": "task_0DisableInterruptComplete_V1(UInt16 PinNumber)",
+        "opcode": "DisableInterruptComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1010",
+        "version": "1",
+        "event(fields)": "task_0EnableInterruptStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt16 PinNumber)",
+        "opcode": "EnableInterruptStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1011",
+        "version": "1",
+        "event(fields)": "task_0EnableInterruptComplete_V1(UInt16 PinNumber)",
+        "opcode": "EnableInterruptComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1012",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXInterruptInvokeDeviceIsrStart_V1(UInt16 PinNumber, UInt32 Gsiv)",
+        "opcode": "InterruptInvokeDeviceIsrStart",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1013",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXInterruptInvokeDeviceIsrComplete_V1()",
+        "opcode": "InterruptInvokeDeviceIsrComplete",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1014",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXInterruptPinState_V1(UInt64 EnableRegister, UInt64 MaskRegister, UInt64 StatusRegister, UInt64 NonEnabledActiveInterrupts, UInt64 ReplayRegister)",
+        "opcode": "InterruptPinState",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "EnableRegister"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaskRegister"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StatusRegister"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NonEnabledActiveInterrupts"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReplayRegister"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1015",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt32 Gsiv)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1016",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXStop_V1()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1017",
+        "version": "1",
+        "event(fields)": "task_0MaskInterruptsStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt64 PinMask)",
+        "opcode": "MaskInterruptsStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PinMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1018",
+        "version": "1",
+        "event(fields)": "task_0MaskInterruptsComplete_V1(UInt64 PinMask)",
+        "opcode": "MaskInterruptsComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PinMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1019",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXQueryActiveInterruptsStart_V1(UnicodeString ControllerBiosName, UInt16 BankId)",
+        "opcode": "QueryActiveInterruptsStart",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1020",
+        "version": "1",
+        "event(fields)": "GPIObankinterruptflowthroughMSGPIOCLXQueryActiveInterruptsComplete_V1()",
+        "opcode": "QueryActiveInterruptsComplete",
+        "keywords": "",
+        "task": "GPIObankinterruptflowthroughMSGPIOCLX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1021",
+        "version": "1",
+        "event(fields)": "task_0QueryEnabledInterruptsStart_V1(UnicodeString ControllerBiosName, UInt16 BankId)",
+        "opcode": "QueryEnabledInterruptsStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1022",
+        "version": "1",
+        "event(fields)": "task_0QueryEnabledInterruptsComplete_V1()",
+        "opcode": "QueryEnabledInterruptsComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1023",
+        "version": "1",
+        "event(fields)": "task_0ReconfigureInterruptStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt16 PinNumber)",
+        "opcode": "ReconfigureInterruptStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1024",
+        "version": "1",
+        "event(fields)": "task_0ReconfigureInterruptComplete_V1(UInt16 PinNumber)",
+        "opcode": "ReconfigureInterruptComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1025",
+        "version": "1",
+        "event(fields)": "task_0UnmaskInterruptStart_V1(UnicodeString ControllerBiosName, UInt16 BankId, UInt16 PinNumber)",
+        "opcode": "UnmaskInterruptStart",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControllerBiosName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BankId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1026",
+        "version": "1",
+        "event(fields)": "task_0UnmaskInterruptComplete_V1(UInt16 PinNumber)",
+        "opcode": "UnmaskInterruptComplete",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-GPIO-ClassExtension",
+        "event_id": "1027",
+        "version": "1",
+        "event(fields)": "task_0SpuriousInterruptDetected_V1(UInt16 PinNumber, UInt32 Gsiv)",
+        "opcode": "SpuriousInterruptDetected",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PinNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            }
+        ]
+    }
+]

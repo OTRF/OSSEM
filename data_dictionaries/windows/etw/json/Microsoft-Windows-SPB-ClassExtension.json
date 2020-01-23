@@ -1,0 +1,362 @@
+[
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1000",
+        "version": "1",
+        "event(fields)": "StartupoftheSPBclassextension_V1(UnicodeString ControlDeviceName, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "StartupoftheSPBclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControlDeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1001",
+        "version": "1",
+        "event(fields)": "StartupoftheSPBclassextension1001_V1(UnicodeString ControlDeviceName, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "StartupoftheSPBclassextension",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControlDeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1002",
+        "version": "1",
+        "event(fields)": "UnloadoftheSPBclassextension_V1()",
+        "opcode": "",
+        "keywords": "",
+        "task": "UnloadoftheSPBclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1010",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxStart_V1(Pointer Controller, UnicodeString TargetName, UnicodeString ScopeTag, Pointer File, Pointer Request, Int8 RequestType, UInt32 Length)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Controller"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScopeTag"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "File"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1011",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoDispatchToTarget_V1()",
+        "opcode": "IoDispatchToTarget",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1012",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoForwardToControllerQueue_V1()",
+        "opcode": "IoForwardToControllerQueue",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1013",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoDispatchToController_V1()",
+        "opcode": "IoDispatchToController",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1014",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoPresentToDriver_V1()",
+        "opcode": "IoPresentToDriver",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1015",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoComplete_V1(Pointer Request, UInt32 CompletionStatus, UInt64 Information)",
+        "opcode": "IoComplete",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CompletionStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Information"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1016",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxStop_V1()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1018",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoSpbDirection_V1(UInt8 Data)",
+        "opcode": "IoSpbDirection",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1019",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoLockWatchdogTimeout_V1(Pointer Controller, UnicodeString TargetName, UnicodeString ScopeTag, Pointer File)",
+        "opcode": "IoLockWatchdogTimeout",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Controller"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScopeTag"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "File"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1020",
+        "version": "1",
+        "event(fields)": "D_statetransitionforSPBcontrollerdriverDIrpPreprocess_V1(Pointer Controller, HexInt32 DeviceState)",
+        "opcode": "DIrpPreprocess",
+        "keywords": "",
+        "task": "D_statetransitionforSPBcontrollerdriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Controller"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1021",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoSpbPayloadStart_V1(UInt64 IoTotalByteCount, UInt32 TransferCount)",
+        "opcode": "IoSpbPayloadStart",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "IoTotalByteCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1022",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoSpbPayloadTdStart_V1(UInt32 TransferIndex, UInt32 TransferDirection, UInt64 TransferTotalByteCount)",
+        "opcode": "IoSpbPayloadTdStart",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TransferIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransferDirection"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferTotalByteCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1023",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoSpbPayloadTdBuffer_V1(UInt32 BufferIndex, UInt32 ByteCount, Binary Buffer)",
+        "opcode": "IoSpbPayloadTdBuffer",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteCount"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Buffer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1024",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoSpbPayloadTdStop_V1()",
+        "opcode": "IoSpbPayloadTdStop",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SPB-ClassExtension",
+        "event_id": "1025",
+        "version": "1",
+        "event(fields)": "I/OoperationflowthroughSPBCxIoSpbPayloadStop_V1()",
+        "opcode": "IoSpbPayloadStop",
+        "keywords": "",
+        "task": "I/OoperationflowthroughSPBCx",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

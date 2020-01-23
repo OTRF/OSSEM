@@ -1,0 +1,332 @@
+[
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_LaunchFlyoutStart(UInt32 Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioPerf_Task_LaunchFlyout",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_LaunchFlyoutStop(UInt32 Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioPerf_Task_LaunchFlyout",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_SubscribeWnf(Pointer object, Int32 ChangeStamp)",
+        "opcode": "VolumeLimit_SubscribeWnf",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ChangeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_UnsubscribeWnf(Pointer object)",
+        "opcode": "VolumeLimit_UnsubscribeWnf",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_WnfCallback(Pointer object, Int32 ChangeStamp)",
+        "opcode": "VolumeLimit_WnfCallback",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ChangeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_WnfCallback_Skip(Pointer object, Int32 PrevChangeStamp, Int32 ChangeStamp)",
+        "opcode": "VolumeLimit_WnfCallback_Skip",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PrevChangeStamp"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ChangeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_WnfCallback_ScheduleUI(Pointer object, Pointer m_pUIWorkItem)",
+        "opcode": "VolumeLimit_WnfCallback_ScheduleUI",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_pUIWorkItem"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_IsChildAccount(Pointer object, Boolean IsChildAccount, Int32 hResult)",
+        "opcode": "VolumeLimit_IsChildAccount",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsChildAccount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIStart(Pointer object, Pointer pSystemModalDialog)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pSystemModalDialog"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_UIThread_PopupWindowFactory(Pointer object)",
+        "opcode": "VolumeLimit_UIThread_PopupWindowFactory",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_UIThread_PopupUI(Pointer object, Boolean IsChildAccount)",
+        "opcode": "VolumeLimit_UIThread_PopupUI",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsChildAccount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIStop(Pointer object, Int32 hResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_UserSelection(Pointer object, Boolean AllowsButton, Boolean NotAllowsButton, Boolean OkButton)",
+        "opcode": "VolumeLimit_UserSelection",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AllowsButton"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NotAllowsButton"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OkButton"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_PropogateToDriver(Pointer object, Boolean bEngageVolumeLimit)",
+        "opcode": "VolumeLimit_PropogateToDriver",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "bEngageVolumeLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VolumeControl",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "task_VolumeLimit_UIVolumeLimit_UserSelectionPropogationResult(Pointer object, Int32 hResult)",
+        "opcode": "VolumeLimit_UserSelectionPropogationResult",
+        "keywords": "",
+        "task": "task_VolumeLimit_UI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hResult"
+            }
+        ]
+    }
+]

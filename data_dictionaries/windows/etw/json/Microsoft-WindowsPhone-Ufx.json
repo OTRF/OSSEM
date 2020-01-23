@@ -1,0 +1,482 @@
+[
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "Error(AnsiString Str, UInt32 Int)",
+        "opcode": "",
+        "keywords": "Error keyword_400000000000",
+        "task": "Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Str"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Int"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "FailedCall(AnsiString File, UInt32 Line, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "FailedCall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "File"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "FunctionEntry(AnsiString Function)",
+        "opcode": "",
+        "keywords": "Function",
+        "task": "FunctionEntry",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "FunctionExit(AnsiString Function)",
+        "opcode": "",
+        "keywords": "Function",
+        "task": "FunctionExit",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "FailedCall104(AnsiString Function, AnsiString Message, UInt32 IntParam)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "FailedCall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IntParam"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "IoctlRequest(UInt32 Index, UInt32 IOCTL)",
+        "opcode": "",
+        "keywords": "UfxBus",
+        "task": "IoctlRequest",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOCTL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "Debug(AnsiString Function, AnsiString Message)",
+        "opcode": "",
+        "keywords": "Debug",
+        "task": "Debug",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "Setup(AnsiString Description, UInt32 Direction, UInt32 Type, UInt32 Recipient, UInt32 Request, UInt32 wValue, UInt32 wIndex, UInt32 wLength)",
+        "opcode": "",
+        "keywords": "Setup",
+        "task": "Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Description"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Direction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Recipient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "wValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "wIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "wLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "StateMachine(AnsiString Machine)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "StateMachine109(AnsiString Machine, AnsiString Type, AnsiString State)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "StateMachine110(AnsiString Machine, AnsiString Type, AnsiString Event, Pointer Payload)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Payload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "StateMachine111(AnsiString Machine, AnsiString Event, Pointer Payload)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Payload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "StateMachine112(AnsiString Machine, AnsiString ActionName)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ActionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "StateMachine113(AnsiString Machine, AnsiString Event, AnsiString ToState)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ToState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "StateMachine114(AnsiString Machine, UInt32 Exception)",
+        "opcode": "",
+        "keywords": "StateMachine keyword_400000000000",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Exception"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "StateMachine115(AnsiString Machine, UInt32 NewQueueSize)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewQueueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "StateMachine116(AnsiString Machine, AnsiString FromState)",
+        "opcode": "",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Machine"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FromState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "Debug117(AnsiString Function, AnsiString Message, UInt32 IntParam)",
+        "opcode": "",
+        "keywords": "Debug",
+        "task": "Debug",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IntParam"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "Notification(AnsiString Str)",
+        "opcode": "",
+        "keywords": "Notification",
+        "task": "Notification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Str"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-Ufx",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "Notification119(AnsiString Str, UInt32 Int)",
+        "opcode": "",
+        "keywords": "Notification",
+        "task": "Notification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Str"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Int"
+            }
+        ]
+    }
+]

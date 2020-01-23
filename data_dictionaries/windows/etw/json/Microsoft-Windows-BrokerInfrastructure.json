@@ -1,0 +1,1946 @@
+[
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "BackgroundTaskStart(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt32 SessionId, GUID InstanceId, UInt64 ApplicationId, UInt32 PsmActivationType, Boolean CriticalActivation, GUID TriggerEventId, UInt32 TriggerEventType)",
+        "opcode": "Start",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PsmActivationType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalActivation"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerEventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerEventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "BackgroundTaskStart_V1(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt64 UserContextId, GUID InstanceId, UInt64 ApplicationId, UInt32 PsmActivationType, Boolean CriticalActivation, GUID TriggerEventId, UInt32 TriggerEventType)",
+        "opcode": "Start",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PsmActivationType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalActivation"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerEventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerEventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "BackgroundTaskStop(GUID WorkItemId, GUID BrokerId, UInt32 SessionId, Boolean TaskExecuted, UInt32 Result, SID UserSid, UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt64 ApplicationId, UInt16 CpuThrottleCount, UInt16 NetThrottleCount)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TaskExecuted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CpuThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NetThrottleCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "BackgroundTaskStop_V1(GUID WorkItemId, GUID BrokerId, UInt32 SessionId, Boolean TaskExecuted, UInt32 Result, SID UserSid, UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt64 ApplicationId, UInt16 CpuThrottleCount, UInt16 NetThrottleCount, UInt32 WatchdogDuration, UInt32 WatchdogIteration, UInt16 Flags)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TaskExecuted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CpuThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NetThrottleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogIteration"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "2",
+        "version": "2",
+        "event(fields)": "BackgroundTaskStop_V2(GUID WorkItemId, GUID BrokerId, UInt32 SessionId, Boolean TaskExecuted, UInt32 Result, SID UserSid, UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt64 ApplicationId, UInt16 CpuThrottleCount, UInt16 NetThrottleCount, UInt16 Flags)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TaskExecuted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CpuThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NetThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "2",
+        "version": "3",
+        "event(fields)": "BackgroundTaskStop_V3(GUID WorkItemId, GUID BrokerId, UInt64 UserContextId, Boolean TaskExecuted, UInt32 Result, SID UserSid, UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt64 ApplicationId, UInt16 CpuThrottleCount, UInt16 NetThrottleCount, UInt16 Flags)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TaskExecuted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CpuThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NetThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "BackgroundTaskProxy(GUID WorkItemId, GUID BrokerId, UInt64 StateName)",
+        "opcode": "",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTaskProxy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StateName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskThrottledCpu(UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, SID UserSid)",
+        "opcode": "TaskThrottledCpu",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "BackgroundTaskTaskThrottledCpu_V1(UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, SID UserSid)",
+        "opcode": "TaskThrottledCpu",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskThrottledNet(UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, SID UserSid)",
+        "opcode": "TaskThrottledNet",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "BackgroundTaskTaskThrottledNet_V1(UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, SID UserSid)",
+        "opcode": "TaskThrottledNet",
+        "keywords": "BackgroundTask LowOverheadDiag",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskForcedCompletion(UnicodeString PackageFullName, UInt16 EntryPointLength, UnicodeString EntryPoint, SID UserSid)",
+        "opcode": "TaskForcedCompletion",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "TriggerSignalStart(GUID EventId, UInt32 EventType)",
+        "opcode": "Start",
+        "keywords": "BackgroundTask",
+        "task": "TriggerSignal",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "TriggerSignalStop(GUID EventId, UInt32 EventType)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask",
+        "task": "TriggerSignal",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ConditionChangeStart(GUID EventId, UInt32 EventType, UInt32 OldState, Boolean NewState)",
+        "opcode": "Start",
+        "keywords": "BackgroundTask",
+        "task": "ConditionChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "ConditionChangeStop(GUID EventId, UInt32 EventType, UInt32 OldState, Boolean NewState)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask",
+        "task": "ConditionChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "PackageStateChangeStart(UnicodeString PackageFullName, UnicodeString UserAccountName, UInt32 SessionId, UInt32 PackageState)",
+        "opcode": "Start",
+        "keywords": "BackgroundTask",
+        "task": "PackageStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserAccountName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PackageState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "PackageStateChangeStart_V1(UnicodeString PackageFullName, UnicodeString UserAccountName, UInt64 UserContextId, UInt32 PackageState)",
+        "opcode": "Start",
+        "keywords": "BackgroundTask",
+        "task": "PackageStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserAccountName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PackageState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "PackageStateChangeStop(UnicodeString PackageFullName, UnicodeString UserAccountName, UInt32 SessionId, UInt32 PackageState)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask",
+        "task": "PackageStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserAccountName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PackageState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "PackageStateChangeStop_V1(UnicodeString PackageFullName, UnicodeString UserAccountName, UInt64 UserContextId, UInt32 PackageState)",
+        "opcode": "Stop",
+        "keywords": "BackgroundTask",
+        "task": "PackageStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserAccountName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PackageState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskLatched(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt32 ConditionType, UInt32 ConditionValue, Boolean ConditionDesiredValue)",
+        "opcode": "TaskLatched",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConditionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConditionValue"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ConditionDesiredValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskUnlatched(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName)",
+        "opcode": "TaskUnlatched",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskDropped(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName)",
+        "opcode": "TaskDropped",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskBufferedPolicy(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName)",
+        "opcode": "TaskBufferedPolicy",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskBufferedPackageState(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt32 BufferingReason)",
+        "opcode": "TaskBufferedPackageState",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferingReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskUnbuffered(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt32 BufferingReason)",
+        "opcode": "TaskUnbuffered",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferingReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskCanceled(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, GUID InstanceId, UInt32 SessionId)",
+        "opcode": "TaskCanceled",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "BackgroundTaskTaskCanceled_V1(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, GUID InstanceId, UInt64 UserContextId)",
+        "opcode": "TaskCanceled",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskUnregistered(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt32 DeletionReason)",
+        "opcode": "TaskUnregistered",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeletionReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskActivationFailed(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UInt32 Result)",
+        "opcode": "TaskActivationFailed",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "BackgroundTaskInstanceDCStop(GUID WorkItemId, UInt64 ApplicationId, UInt32 SessionId, UInt32 PsmActivationType, UInt16 CpuThrottleCount, UInt16 NetThrottleCount, UnicodeString PackageFullName)",
+        "opcode": "DC_Stop",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTaskInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PsmActivationType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CpuThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NetThrottleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "22",
+        "version": "1",
+        "event(fields)": "BackgroundTaskInstanceDCStop_V1(GUID WorkItemId, UInt64 ApplicationId, UInt64 UserContextId, UInt32 PsmActivationType, UInt16 CpuThrottleCount, UInt16 NetThrottleCount, UnicodeString PackageFullName)",
+        "opcode": "DC_Stop",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTaskInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PsmActivationType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CpuThrottleCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NetThrottleCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "BackgroundTaskDCStop(GUID WorkItemId, GUID BrokerId, GUID TriggerEventId, UInt32 TriggerEventType, Boolean CriticalActivation, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, SID UserSid, UInt16 ConditionCount, Boolean ConditinalEvent)",
+        "opcode": "DC_Stop",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerEventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerEventType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalActivation"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ConditionCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ConditinalEvent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "23",
+        "version": "1",
+        "event(fields)": "BackgroundTaskDCStop_V1(GUID WorkItemId, GUID BrokerId, GUID TriggerEventId, UInt32 TriggerEventType, Boolean CriticalActivation, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, SID UserSid, UInt16 ConditionCount, Boolean ConditinalEvent)",
+        "opcode": "DC_Stop",
+        "keywords": "BackgroundTask",
+        "task": "BackgroundTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BrokerId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerEventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerEventType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalActivation"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ConditionCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ConditinalEvent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "PackageDCStop(UInt32 SessionId, UInt32 StateFlags, UInt32 ActiveTaskCount, Boolean LockScreen, UnicodeString PackageFullName, SID UserSid)",
+        "opcode": "DC_Stop",
+        "keywords": "Package",
+        "task": "Package",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveTaskCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LockScreen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "24",
+        "version": "1",
+        "event(fields)": "PackageDCStop_V1(UInt64 UserContextId, UInt32 StateFlags, UInt32 ActiveTaskCount, Boolean LockScreen, UnicodeString PackageFullName, SID UserSid)",
+        "opcode": "DC_Stop",
+        "keywords": "Package",
+        "task": "Package",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveTaskCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LockScreen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "PackagePackageWatchdog(UInt32 SessionId, UInt32 StateFlags, UInt32 ActiveTaskCount, Boolean LockScreen, UnicodeString PackageFullName, SID UserSid, UnicodeString ActiveTasks)",
+        "opcode": "PackageWatchdog",
+        "keywords": "Watchdog",
+        "task": "Package",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveTaskCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LockScreen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActiveTasks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "WatchdogIteration(UInt32 Duration, UInt32 Iteration, UInt32 ActivitySummary, UInt32 ActivityFilter, Boolean HangDetected, UInt32 EventType, UnicodeString PackageFullName, UnicodeString EntryPoint, GUID InstanceId, UInt64 CycleTime, UInt64 NetTokens)",
+        "opcode": "WatchdogIteration",
+        "keywords": "Watchdog",
+        "task": "WatchdogIteration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Iteration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivitySummary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivityFilter"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HangDetected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "26",
+        "version": "1",
+        "event(fields)": "WatchdogIteration_V1(UInt32 Duration, UInt32 Iteration, UInt32 ActivitySummary, UInt32 ActivityFilter, Boolean HangDetected, UInt32 EventType, UnicodeString PackageFullName, UnicodeString EntryPoint, GUID InstanceId, UInt64 CycleTime, UInt64 NetTokens, UInt8 PolicyVersion)",
+        "opcode": "WatchdogIteration",
+        "keywords": "Watchdog",
+        "task": "WatchdogIteration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Iteration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivitySummary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivityFilter"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HangDetected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetTokens"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PolicyVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "BackgroundTaskTaskWatchdog(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, GUID InstanceId, UInt32 SessionId, SID UserSid, Boolean LockScreen)",
+        "opcode": "TaskWatchdog",
+        "keywords": "Watchdog",
+        "task": "BackgroundTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LockScreen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "27",
+        "version": "1",
+        "event(fields)": "BackgroundTaskTaskWatchdog_V1(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, GUID InstanceId, UInt32 SessionId, SID UserSid, Boolean LockScreen)",
+        "opcode": "TaskWatchdog",
+        "keywords": "Watchdog",
+        "task": "BackgroundTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LockScreen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "27",
+        "version": "2",
+        "event(fields)": "BackgroundTaskTaskWatchdog_V2(UInt16 EntryPointLength, UnicodeString TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, GUID InstanceId, UInt64 UserContextId, SID UserSid, Boolean LockScreen)",
+        "opcode": "TaskWatchdog",
+        "keywords": "Watchdog",
+        "task": "BackgroundTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UserContextId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LockScreen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "SessionStateTransition(UInt32 SessionId, UInt32 TransitionId, UInt32 Transition)",
+        "opcode": "SessionStateTransition",
+        "keywords": "Session",
+        "task": "SessionStateTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransitionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Transition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "BackgroundTaskPerfTrackStop(UInt32 ElapsedTime, UInt32 TaskThrottleCount, UInt32 EventType, UnicodeString PackageFullName, UnicodeString EntryPoint)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "BackgroundTaskPerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ElapsedTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskThrottleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "WatchdogIterationPerfTrackWatchdogIteration(UInt32 Duration, UInt32 ActivitySummary, UInt32 EventTypeAndBitfield, UnicodeString PackageFullName, UnicodeString EntryPoint)",
+        "opcode": "WatchdogIteration",
+        "keywords": "",
+        "task": "WatchdogIterationPerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivitySummary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventTypeAndBitfield"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "PdcReferenceAcquire(UInt32 ActivityType, UnicodeString PackageFullName, UInt16 NameLength, UnicodeString TaskName)",
+        "opcode": "Acquire",
+        "keywords": "PDC",
+        "task": "PdcReference",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivityType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "PdcReferenceRelease(UInt32 ActivityType, UnicodeString PackageFullName, UInt16 NameLength, UnicodeString TaskName)",
+        "opcode": "Release",
+        "keywords": "PDC",
+        "task": "PdcReference",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivityType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BrokerInfrastructure",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "WorkItemBlockingDisconnectedStandby(GUID WorkItemId, UInt16 EntryPointLength, UnicodeString EntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, SID UserSid, UInt32 TriggerEventType, UInt16 ScenarioInstanceId, Boolean AlwaysAllowed, Boolean VoipApp)",
+        "opcode": "WorkItemBlockingDisconnectedStandby",
+        "keywords": "SleepStudy",
+        "task": "WorkItemBlockingDisconnectedStandby",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntryPointLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntryPoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerEventType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioInstanceId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlwaysAllowed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "VoipApp"
+            }
+        ]
+    }
+]

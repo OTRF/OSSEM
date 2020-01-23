@@ -1,0 +1,436 @@
+[
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "WorkQueue:QueueExtended(Pointer AsyncResult, Pointer AsyncResultVTable)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:QueueExtended",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResultVTable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExtendedLongRunning(UInt32 WorkQueueID, UInt32 RefCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:ExtendedLongRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExtendedInvalidUsageAttempt(Pointer Platform, UInt32 WorkQueueID, UInt32 WorkPrivateIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:ExtendedInvalidUsageAttempt",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkPrivateIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExtendedInvalidCallbackAttempt(Pointer Platform, Pointer Callback, UInt32 WorkQueueID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:ExtendedInvalidCallbackAttempt",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Callback"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "WorkQueue:PlatformRefStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:PlatformRef",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "WorkQueue:PlatformRefStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:PlatformRef",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "WorkQueue:PlatformRefStop7(Pointer object, Int32 Count)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:PlatformRef",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Count"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "WorkQueue:RTLockStart(UInt32 WorkQueueID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:RTLock",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "WorkQueue:RTLockStop(UInt32 WorkQueueID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:RTLock",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "WorkQueue:SetAVModeStart(Pointer handle, UInt32 Mode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:SetAVMode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "WorkQueue:SetAVModeStop(Pointer handle, UInt32 Mode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:SetAVMode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "WorkQueue:RTLockAcquireStart(UInt32 WorkQueueID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:RTLockAcquire",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "WorkQueue:RTLockAcquireStop(UInt32 WorkQueueID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:RTLockAcquire",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "WorkQueue:TimerCallbackStart(Pointer workqueue, UInt32 WorkQueueID, UInt32 Mode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:TimerCallback",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "workqueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "WorkQueue:TimerCallbackStop(Pointer workqueue, UInt32 WorkQueueID, UInt32 Mode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:TimerCallback",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "workqueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "WorkQueue:TimerMode(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 OldMode, UInt32 NewMode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:TimerMode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "WorkQueue:TimerSet(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 Mode, UInt32 Delta)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:TimerSet",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Delta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "WorkQueue:TimerResChangeStart(Pointer workqueue, UInt32 WorkQueueID, UInt32 Resolution)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:TimerResChange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "workqueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Resolution"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Extended",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "WorkQueue:TimerResChangeStop(Pointer workqueue, UInt32 WorkQueueID, UInt32 Resolution)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:TimerResChange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "workqueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Resolution"
+            }
+        ]
+    }
+]

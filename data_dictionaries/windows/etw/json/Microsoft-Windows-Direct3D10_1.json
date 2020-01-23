@@ -1,0 +1,1354 @@
+[
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "Name(Pointer pObject, UInt32 CchOldDebugObjectName, AnsiString OldDebugObjectName, UInt32 CchNewDebugObjectName, AnsiString NewDebugObjectName)",
+        "opcode": "",
+        "keywords": "Names",
+        "task": "Name",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchOldDebugObjectName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "OldDebugObjectName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchNewDebugObjectName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "NewDebugObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NameDCStart(Pointer pObject, UInt32 CchDebugObjectName, AnsiString DebugObjectName)",
+        "opcode": "DC_Start",
+        "keywords": "Names",
+        "task": "Name",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchDebugObjectName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "DebugObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DeviceStart(Pointer pID3D10_1Device, Pointer pIDXGIDevice, Pointer pIDXGIAdapter, UInt32 CreationFlags, UInt32 FeatureLevel, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, Pointer hUMDevice, UInt64 UMDeviceVersion, UInt32 UMDeviceFlags)",
+        "opcode": "Start",
+        "keywords": "Devices",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMAdapter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMAdapterVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMDevice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMDeviceVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMDeviceFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DeviceStop(Pointer pID3D10_1Device, Pointer pIDXGIDevice, Pointer pIDXGIAdapter, UInt32 CreationFlags, UInt32 FeatureLevel, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, Pointer hUMDevice, UInt64 UMDeviceVersion, UInt32 UMDeviceFlags)",
+        "opcode": "Stop",
+        "keywords": "Devices",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMAdapter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMAdapterVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMDevice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMDeviceVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMDeviceFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DeviceDCStart(Pointer pID3D10_1Device, Pointer pIDXGIDevice, Pointer pIDXGIAdapter, UInt32 CreationFlags, UInt32 FeatureLevel, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, Pointer hUMDevice, UInt64 UMDeviceVersion, UInt32 UMDeviceFlags)",
+        "opcode": "DC_Start",
+        "keywords": "Devices",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMAdapter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMAdapterVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMDevice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMDeviceVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMDeviceFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "BufferStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Start",
+        "keywords": "Resources",
+        "task": "Buffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "BufferStop(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Stop",
+        "keywords": "Resources",
+        "task": "Buffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "BufferDCStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "DC_Start",
+        "keywords": "Resources",
+        "task": "Buffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "Texture1DStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Start",
+        "keywords": "Resources",
+        "task": "Texture1D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "Texture1DStop(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Stop",
+        "keywords": "Resources",
+        "task": "Texture1D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "Texture1DDCStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "DC_Start",
+        "keywords": "Resources",
+        "task": "Texture1D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "Texture2DStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Start",
+        "keywords": "Resources",
+        "task": "Texture2D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "Texture2DStop(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Stop",
+        "keywords": "Resources",
+        "task": "Texture2D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "Texture2DDCStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "DC_Start",
+        "keywords": "Resources",
+        "task": "Texture2D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "Texture3DStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Start",
+        "keywords": "Resources",
+        "task": "Texture3D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Texture3DStop(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "Stop",
+        "keywords": "Resources",
+        "task": "Texture3D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "Texture3DDCStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer pID3D10_1Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32 hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)",
+        "opcode": "DC_Start",
+        "keywords": "Resources",
+        "task": "Texture3D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D10_1Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BindFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUAccessFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiscFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMResourceMiscFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D10_1",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "Texture2D(UInt32 Resources, Pointer pIDXGISurfaces, UInt32 hNewKMResources)",
+        "opcode": "",
+        "keywords": "Resources",
+        "task": "Texture2D",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Resources"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISurfaces"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hNewKMResources"
+            }
+        ]
+    }
+]

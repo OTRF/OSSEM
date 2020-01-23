@@ -1,0 +1,1482 @@
+[
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "BuildChainStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathValidation PathDiscovery",
+        "task": "BuildChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "BuildChainStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathValidation PathDiscovery",
+        "task": "BuildChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "RetrieveIssuerCertificatefromCacheStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Cache",
+        "task": "RetrieveIssuerCertificatefromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "RetrieveIssuerCertificatefromCacheStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Cache",
+        "task": "RetrieveIssuerCertificatefromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "RetrieveIssuerCertificatefromNetworkStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Retrieval",
+        "task": "RetrieveIssuerCertificatefromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "RetrieveIssuerCertificatefromNetworkStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Retrieval",
+        "task": "RetrieveIssuerCertificatefromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "InhibitIssuerCertificateRetrieval(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "PathDiscovery Cache Retrieval",
+        "task": "InhibitIssuerCertificateRetrieval",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "RetrieveThird_PartyRootCertificatefromCacheStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Cache AutoRootUpdate",
+        "task": "RetrieveThird_PartyRootCertificatefromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "RetrieveThird_PartyRootCertificatefromCacheStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Cache AutoRootUpdate",
+        "task": "RetrieveThird_PartyRootCertificatefromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "RetrieveThird_PartyRootCertificatefromNetworkStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Retrieval AutoRootUpdate",
+        "task": "RetrieveThird_PartyRootCertificatefromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "RetrieveThird_PartyRootCertificatefromNetworkStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Retrieval AutoRootUpdate",
+        "task": "RetrieveThird_PartyRootCertificatefromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "RetrieveCrossCertificatefromCacheStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Cache",
+        "task": "RetrieveCrossCertificatefromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "RetrieveCrossCertificatefromCacheStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Cache",
+        "task": "RetrieveCrossCertificatefromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "RetrieveCrossCertificatefromNetworkStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Retrieval",
+        "task": "RetrieveCrossCertificatefromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "RetrieveCrossCertificatefromNetworkStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Retrieval",
+        "task": "RetrieveCrossCertificatefromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "VerifyChainPolicy(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "PathValidation",
+        "task": "VerifyChainPolicy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "VerifyRevocationStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathValidation Revocation",
+        "task": "VerifyRevocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "VerifyRevocationStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathValidation Revocation",
+        "task": "VerifyRevocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "RejectRevocationInformation(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "PathValidation Revocation",
+        "task": "RejectRevocationInformation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "RetrieveObjectfromCacheStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Revocation Cache AutoRootUpdate",
+        "task": "RetrieveObjectfromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "RetrieveObjectfromCacheStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Revocation Cache AutoRootUpdate",
+        "task": "RetrieveObjectfromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "RetrieveObjectfromNetworkStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "PathDiscovery Revocation Retrieval AutoRootUpdate",
+        "task": "RetrieveObjectfromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "RetrieveObjectfromNetworkStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "PathDiscovery Revocation Retrieval AutoRootUpdate",
+        "task": "RetrieveObjectfromNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "OpenStore(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "CertificateStore",
+        "task": "OpenStore",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "AcquireCertificatePrivateKey(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "PrivateKey",
+        "task": "AcquireCertificatePrivateKey",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "SignCertificate(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "PrivateKey",
+        "task": "SignCertificate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "VerifyTrustStart(UnicodeString EventWriteData)",
+        "opcode": "Start",
+        "keywords": "WinVerifyTrust",
+        "task": "VerifyTrust",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "VerifyTrustStop(UnicodeString EventWriteData)",
+        "opcode": "Stop",
+        "keywords": "WinVerifyTrust",
+        "task": "VerifyTrust",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "FindSecurityCatalogforFile(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "Catalog",
+        "task": "FindSecurityCatalogforFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "X509Objects(UnicodeString EventWriteData)",
+        "opcode": "",
+        "keywords": "CertificateDetails",
+        "task": "X509Objects",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventWriteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "256",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "257",
+        "version": "0",
+        "event(fields)": "task_0257(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "512",
+        "version": "0",
+        "event(fields)": "task_0512(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "513",
+        "version": "0",
+        "event(fields)": "task_0513(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4097",
+        "version": "0",
+        "event(fields)": "task_04097(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4098",
+        "version": "0",
+        "event(fields)": "task_04098(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4099",
+        "version": "0",
+        "event(fields)": "task_04099(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4100",
+        "version": "0",
+        "event(fields)": "task_04100(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4101",
+        "version": "0",
+        "event(fields)": "task_04101(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4102",
+        "version": "0",
+        "event(fields)": "task_04102(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4103",
+        "version": "0",
+        "event(fields)": "task_04103(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4104",
+        "version": "0",
+        "event(fields)": "task_04104(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4105",
+        "version": "0",
+        "event(fields)": "task_04105(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4106",
+        "version": "0",
+        "event(fields)": "task_04106(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4107",
+        "version": "0",
+        "event(fields)": "task_04107(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4108",
+        "version": "0",
+        "event(fields)": "task_04108(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4109",
+        "version": "0",
+        "event(fields)": "task_04109(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4110",
+        "version": "0",
+        "event(fields)": "task_04110(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4111",
+        "version": "0",
+        "event(fields)": "task_04111(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4112",
+        "version": "0",
+        "event(fields)": "task_04112(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4113",
+        "version": "0",
+        "event(fields)": "task_04113(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4114",
+        "version": "0",
+        "event(fields)": "task_04114(UnicodeString 1, UnicodeString 2, UnicodeString 3, UnicodeString 4, UnicodeString 5, UnicodeString 6, UnicodeString 7)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "7"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4115",
+        "version": "0",
+        "event(fields)": "task_04115(UnicodeString 1, UnicodeString 2, UnicodeString 3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4116",
+        "version": "0",
+        "event(fields)": "task_04116(UnicodeString 1, UnicodeString 2, UnicodeString 3, UnicodeString 4, UnicodeString 5, UnicodeString 6, UnicodeString 7)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "7"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4117",
+        "version": "0",
+        "event(fields)": "task_04117(UnicodeString 1, UnicodeString 2, UnicodeString 3, UnicodeString 4, UnicodeString 5, UnicodeString 6, UnicodeString 7, UnicodeString 8, UnicodeString 9, UnicodeString 10)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "9"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "10"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4128",
+        "version": "0",
+        "event(fields)": "task_04128(UnicodeString 1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4129",
+        "version": "0",
+        "event(fields)": "task_04129(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4176",
+        "version": "0",
+        "event(fields)": "task_04176(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4177",
+        "version": "0",
+        "event(fields)": "task_04177(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "4178",
+        "version": "0",
+        "event(fields)": "task_04178(UnicodeString 1, UnicodeString 2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8192",
+        "version": "0",
+        "event(fields)": "AddaSecurityCatalogtotheCatalogDatabaseStart(UnicodeString Subsystem, UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "Catalog",
+        "task": "AddaSecurityCatalogtotheCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subsystem"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8193",
+        "version": "0",
+        "event(fields)": "AddaSecurityCatalogtotheCatalogDatabaseStop(HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Catalog",
+        "task": "AddaSecurityCatalogtotheCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8194",
+        "version": "0",
+        "event(fields)": "RemoveaSecurityCatalogfromtheCatalogDatabaseStart(UnicodeString Subsystem, UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "Catalog",
+        "task": "RemoveaSecurityCatalogfromtheCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subsystem"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8195",
+        "version": "0",
+        "event(fields)": "RemoveaSecurityCatalogfromtheCatalogDatabaseStop(HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Catalog",
+        "task": "RemoveaSecurityCatalogfromtheCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8196",
+        "version": "0",
+        "event(fields)": "SyncaSecurityCatalogwiththeCatalogDatabaseStart(UnicodeString Subsystem, UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "Catalog",
+        "task": "SyncaSecurityCatalogwiththeCatalogDatabase",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subsystem"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8197",
+        "version": "0",
+        "event(fields)": "SyncaSecurityCatalogwiththeCatalogDatabaseStop(HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Catalog",
+        "task": "SyncaSecurityCatalogwiththeCatalogDatabase",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8198",
+        "version": "0",
+        "event(fields)": "RebuildasubsystemoftheCatalogDatabaseStart(UnicodeString Subsystem)",
+        "opcode": "Start",
+        "keywords": "Catalog",
+        "task": "RebuildasubsystemoftheCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subsystem"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8199",
+        "version": "0",
+        "event(fields)": "RebuildasubsystemoftheCatalogDatabaseStop(HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Catalog",
+        "task": "RebuildasubsystemoftheCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8200",
+        "version": "0",
+        "event(fields)": "SearchforSecurityCatalogsintheCatalogDatabasethatcontainthehashStart(UnicodeString Subsystem, UnicodeString Algorithm, UInt16 Length, Binary Value)",
+        "opcode": "Start",
+        "keywords": "Catalog",
+        "task": "SearchforSecurityCatalogsintheCatalogDatabasethatcontainthehash",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subsystem"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Algorithm"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8201",
+        "version": "0",
+        "event(fields)": "SearchforSecurityCatalogsintheCatalogDatabasethatcontainthehashStop(HexInt32 Status, UInt32 Count)",
+        "opcode": "Stop",
+        "keywords": "Catalog",
+        "task": "SearchforSecurityCatalogsintheCatalogDatabasethatcontainthehash",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8202",
+        "version": "0",
+        "event(fields)": "SyncaSecurityCatalogwiththeCatalogDatabaseStart8202(UnicodeString Subsystem)",
+        "opcode": "Start",
+        "keywords": "Catalog",
+        "task": "SyncaSecurityCatalogwiththeCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subsystem"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CAPI2",
+        "event_id": "8203",
+        "version": "0",
+        "event(fields)": "SyncaSecurityCatalogwiththeCatalogDatabaseStop8203(HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Catalog",
+        "task": "SyncaSecurityCatalogwiththeCatalogDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

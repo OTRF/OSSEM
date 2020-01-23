@@ -1,0 +1,96 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-XDV",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0Start()",
+        "opcode": "Start",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-XDV",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_0Stop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-XDV",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_0Start3(Pointer IRP_Address, UInt32 IRP_Stack_Loc_Code, UInt32 IRP_Parameters, UnicodeString Module, UInt32 UInt32_Event_Number, Pointer Address_Stack)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "IRP_Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IRP_Stack_Loc_Code"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IRP_Parameters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UInt32_Event_Number"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address_Stack"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-XDV",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_0Start4(HexInt32 RuleId, AnsiString ErrorMessage, UnicodeString Module, UInt8 Irql)",
+        "opcode": "Start",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "RuleId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ErrorMessage"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Irql"
+            }
+        ]
+    }
+]

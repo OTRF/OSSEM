@@ -1,0 +1,54 @@
+[
+    {
+        "provider": "Microsoft-Windows-Fault-Tolerant-Heap",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheFTH(faulttolerantheap)serviceisstarted.()",
+        "opcode": "EventsloggedwhentheFTH(faulttolerantheap)serviceisstarted.",
+        "keywords": "FTH_EVENT_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Fault-Tolerant-Heap",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheFTH(faulttolerantheap)serviceisstopped.()",
+        "opcode": "EventsloggedwhentheFTH(faulttolerantheap)serviceisstopped.",
+        "keywords": "FTH_EVENT_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Fault-Tolerant-Heap",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 FthEnabledPID, UnicodeString FthEnabledProcessName, FILETIME FthEnabledProcessStartup)",
+        "opcode": "",
+        "keywords": "FTH_EVENT_KEYWORD_LIFECYCLE",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FthEnabledPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FthEnabledProcessName"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "FthEnabledProcessStartup"
+            }
+        ]
+    }
+]

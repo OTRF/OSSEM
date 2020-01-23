@@ -1,0 +1,711 @@
+[
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_CreateVideoProcessor(Pointer VideoDevice, Pointer VP, UInt32 RateConversionIndex, UInt32 PastFrames)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_CreateVideoProcessor",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "VideoDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "VP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RateConversionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PastFrames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_CreateInputView(Pointer Sample, UInt32 BufferIndex, HexInt32 hr, Pointer View)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_CreateInputView",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferIndex"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "View"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_CreateOutputView(Pointer Sample, UInt32 BufferIndex, HexInt32 hr, Pointer View)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_CreateOutputView",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferIndex"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "View"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_VideoProcessorBltStart(Pointer Object, Pointer InputSample, UInt32 InputViewIndex, Pointer OutputSample, UInt32 InputFrameOrField, UInt32 OutputIndex, UInt32 OutputFrame, Int32 SrcWidth, Int32 SrcHeight, Int32 DestWidth, Int32 DestHeight, UInt32 SourceFormat, UInt32 DestFormat, UInt32 Rotation, UInt32 Mirrored, UInt32 MaxLuminanceIn, UInt32 MaxLuminanceOut)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_VideoProcessorBlt",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "InputSample"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputViewIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OutputSample"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFrameOrField"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputFrame"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SrcWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SrcHeight"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DestWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DestHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Rotation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mirrored"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxLuminanceIn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxLuminanceOut"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_VideoProcessorBltStop(Pointer OutputSample, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_VideoProcessorBlt",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "OutputSample"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_Create/DestroyMFTStart(Pointer MSVProcObj)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Create/DestroyMFT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_Create/DestroyMFTStop(Pointer MSVProcObj)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Create/DestroyMFT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ProcessInputStart(Pointer MSVProcObj)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ProcessInputStop(Pointer MSVProcObj, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ProcessOutputStart(Pointer MSVProcObj)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ProcessOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ProcessOutputStop(Pointer MSVProcObj, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ProcessOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ColorConvStart(HexInt32 fourCCSrc, HexInt32 fourCCDst)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ColorConv",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "fourCCSrc"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "fourCCDst"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ColorConvStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ColorConv",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ResizerStart(HexInt32 fourCC, UInt32 srcWidth, UInt32 srcHeight, UInt32 dstWidth, UInt32 dstHeight)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Resizer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "fourCC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "srcWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "srcHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dstWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dstHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ResizerStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Resizer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_RotationStart(HexInt32 fourCC, UInt32 Rotation)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Rotation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "fourCC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Rotation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_RotationStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Rotation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_MirrorStart(HexInt32 fourCC, UInt32 Mirror)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Mirror",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "fourCC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mirror"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_MirrorStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_Mirror",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_ShaderFallbackPassStart(Pointer MSVProcObj, Pointer Context, UInt32 uiInputViewCount, UInt32 uiOutputViewCount, UInt32 uiOutWidth, UInt32 uiOutHeight, UInt32 uiOffsetX, UInt32 uiOffsetY, UInt32 SourceFormat, UInt32 DestFormat, UInt32 Shader, UInt32 lightLevelIn, UInt32 lightLevelOut)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_ShaderFallbackPass",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiInputViewCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiOutputViewCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiOutWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiOutHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiOffsetX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiOffsetY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Shader"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "lightLevelIn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "lightLevelOut"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT(D3D11)_ShaderFallbackPassStop(Pointer MSVProcObj)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT(D3D11)_ShaderFallbackPass",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ConfigureInputHDRMetadata(Pointer MSVProcObj, Float RedPrimaryX, Float RedPrimaryY, Float GreenPrimaryX, Float GreenPrimaryY, Float BluePrimaryX, Float BluePrimaryY, Float WhitePrimaryX, Float WhitePrimaryY, UInt32 MaxLuminance, UInt32 MinLuminance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ConfigureInputHDRMetadata",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "RedPrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "RedPrimaryY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "GreenPrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "GreenPrimaryY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "BluePrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "BluePrimaryY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "WhitePrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "WhitePrimaryY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxLuminance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinLuminance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "MSVideoProcessoftMFT_ConfigureOutputHDRMetadata(Pointer MSVProcObj, Float RedPrimaryX, Float RedPrimaryY, Float GreenPrimaryX, Float GreenPrimaryY, Float BluePrimaryX, Float BluePrimaryY, Float WhitePrimaryX, Float WhitePrimaryY, UInt32 MaxLuminance, UInt32 MinLuminance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MSVideoProcessoftMFT_ConfigureOutputHDRMetadata",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MSVProcObj"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "RedPrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "RedPrimaryY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "GreenPrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "GreenPrimaryY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "BluePrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "BluePrimaryY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "WhitePrimaryX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "WhitePrimaryY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxLuminance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinLuminance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "MSVideoProcessorMFT_ConstrictionResizerStart(HexInt32 fourCC, UInt32 srcWidth, UInt32 srcHeight, UInt32 dstWidth, UInt32 dstHeight)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MSVideoProcessorMFT_ConstrictionResizer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "fourCC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "srcWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "srcHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dstWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dstHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MSVProc",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "MSVideoProcessorMFT_ConstrictionResizerStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MSVideoProcessorMFT_ConstrictionResizer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

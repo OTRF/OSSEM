@@ -1,0 +1,679 @@
+[
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "DPSInitializationTheDiagnosticPolicyServicestarted()",
+        "opcode": "TheDiagnosticPolicyServicestarted",
+        "keywords": "scenario",
+        "task": "DPSInitialization",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "DPSInitializationTheDiagnosticPolicyServicestarted2()",
+        "opcode": "TheDiagnosticPolicyServicestarted",
+        "keywords": "scenario",
+        "task": "DPSInitialization",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DPSInitializationAdiagnosticscenariowasmisconfigured(GUID ScenarioId)",
+        "opcode": "Adiagnosticscenariowasmisconfigured",
+        "keywords": "lifecycle",
+        "task": "DPSInitialization",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmoduledetectedaproblem(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Adiagnosticmoduledetectedaproblem",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAscenarioinstancewasdispatchedfortroubleshooting(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Ascenarioinstancewasdispatchedfortroubleshooting",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmodulecompletedtroubleshootingwithoutsettingaresolution(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Adiagnosticmodulecompletedtroubleshootingwithoutsettingaresolution",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmodulecompletedtroubleshootingandsetanimmediateresolution(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID ResolutionId, SID ResolutionSID, UInt32 ResolutionSessionId, FILETIME ResolutionExpirationDate, GUID DiagnosticModuleId)",
+        "opcode": "Adiagnosticmodulecompletedtroubleshootingandsetanimmediateresolution",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ResolutionId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "ResolutionSID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResolutionSessionId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ResolutionExpirationDate"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmodulefinishedtroubleshootingandsetanqueuedresolution(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID ResolutionId, SID ResolutionSID, UInt32 ResolutionSessionId, FILETIME ResolutionExpirationDate, GUID DiagnosticModuleId)",
+        "opcode": "Adiagnosticmodulefinishedtroubleshootingandsetanqueuedresolution",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ResolutionId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "ResolutionSID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResolutionSessionId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ResolutionExpirationDate"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAscenarioinstancewasdispatchedforresolution(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Ascenarioinstancewasdispatchedforresolution",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmodulequeueditselfforlaterinvocation(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Adiagnosticmodulequeueditselfforlaterinvocation",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmodulecompletedresolution(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Adiagnosticmodulecompletedresolution",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleTheDiagnosticPolicyServicewasnotabletoinstantiateadiagnosticmodulehost(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UInt32 StatusCode, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "TheDiagnosticPolicyServicewasnotabletoinstantiateadiagnosticmodulehost",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "DebugtaskDebugevent(UnicodeString FileName, UnicodeString FunctionName, Int32 LineNumber, UnicodeString ErrorMessage)",
+        "opcode": "Debugevent",
+        "keywords": "debug",
+        "task": "Debugtask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "DebugtaskThiseventisraisedattheServiceMainfortheservice()",
+        "opcode": "ThiseventisraisedattheServiceMainfortheservice",
+        "keywords": "perf",
+        "task": "Debugtask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "DebugtaskThiseventisraisedwhentheDPSsignalsitsstatusasRUNNINGtotheSCM()",
+        "opcode": "ThiseventisraisedwhentheDPSsignalsitsstatusasRUNNINGtotheSCM",
+        "keywords": "perf",
+        "task": "Debugtask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "DebugtaskThiseventisraisedwhentheservicereceivesashutdown/stopnotificationfromtheSCM()",
+        "opcode": "Thiseventisraisedwhentheservicereceivesashutdown/stopnotificationfromtheSCM",
+        "keywords": "perf",
+        "task": "Debugtask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "DebugtaskThiseventisraisedwhentheserviceissuccessfullystopped()",
+        "opcode": "Thiseventisraisedwhentheserviceissuccessfullystopped",
+        "keywords": "perf",
+        "task": "Debugtask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleThiseventisraisedwhenascenariofails(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UInt32 StatusCode, UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId)",
+        "opcode": "Thiseventisraisedwhenascenariofails",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleThiseventisraisedwhenascenariofails170(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, Int32 StatusCode, GUID DiagnosticModuleId)",
+        "opcode": "Thiseventisraisedwhenascenariofails",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleThiseventisraisedwhenascenariofails175(GUID ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName, Int32 StatusCode, GUID DiagnosticModuleId)",
+        "opcode": "Thiseventisraisedwhenascenariofails",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OriginalActivityId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "NotificationtaskThiseventisraisedwhenDPSrefreshesgrouppolicy()",
+        "opcode": "ThiseventisraisedwhenDPSrefreshesgrouppolicy",
+        "keywords": "notification",
+        "task": "Notificationtask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "ScenarioLifecycleAdiagnosticmodulewasmovedtoabrokenstate(UnicodeString DiagnosticModuleImageName, GUID DiagnosticModuleId, Int32 StatusCode)",
+        "opcode": "Adiagnosticmodulewasmovedtoabrokenstate",
+        "keywords": "lifecycle",
+        "task": "ScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagnosticModuleImageName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiagnosticModuleId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "5016",
+        "version": "0",
+        "event(fields)": "task_0(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-DPS",
+        "event_id": "5017",
+        "version": "0",
+        "event(fields)": "task_05017(AnsiString FileName, UInt32 Line, Pointer Address)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            }
+        ]
+    }
+]

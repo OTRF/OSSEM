@@ -1,0 +1,118 @@
+[
+    {
+        "provider": "Microsoft-Windows-ApplicationExperience-SwitchBack",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AeSbCall(GUID SwitchBranchGuid, UInt16 SwitchBranchNameLength, UnicodeString SwitchBranchName, UInt16 SwitchBranchDescriptionLength, UnicodeString SwitchBranchDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AeSbCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SwitchBranchGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SwitchBranchNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SwitchBranchName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SwitchBranchDescriptionLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SwitchBranchDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ApplicationExperience-SwitchBack",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AeSbImpl(GUID SwitchBranchImplGuid, UInt16 SwitchBranchImplNameLength, UnicodeString SwitchBranchImplName, UInt16 SwitchBranchImplDescriptionLength, UnicodeString SwitchBranchImplDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AeSbImpl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SwitchBranchImplGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SwitchBranchImplNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SwitchBranchImplName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SwitchBranchImplDescriptionLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SwitchBranchImplDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ApplicationExperience-SwitchBack",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "AeSbContextUpdate(GUID TargetContextGuid, UInt16 TargetContextType, UInt16 ModuleNameLength, UnicodeString ModuleName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AeSbContextUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TargetContextGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "TargetContextType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ApplicationExperience-SwitchBack",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AeSbContextReadRetry(UInt64 ContextUpdateCounter)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AeSbContextReadRetry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ContextUpdateCounter"
+            }
+        ]
+    }
+]

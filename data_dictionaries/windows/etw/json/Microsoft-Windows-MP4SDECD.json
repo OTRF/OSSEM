@@ -1,0 +1,412 @@
+[
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "MP4SDECD_DecoderStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_Decoder",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MP4SDECD_DecoderStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_Decoder",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MP4SDECD_InitStart(UInt32 FourCC, UInt32 FrameRate, Int32 WidthSource, Int32 WidthHeight)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FourCC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameRate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WidthSource"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WidthHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MP4SDECD_InitStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MP4SDECD_setExtendedFormatStart(UInt32 FormatSize, Binary Format)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_setExtendedFormat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FormatSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Format"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MP4SDECD_setExtendedFormatStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_setExtendedFormat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessInputStart(UInt32 SampleSizeInBytes, Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleSizeInBytes"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessInputStop(UInt32 Frame)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Frame"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessInput(UInt32 Frame, Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Frame"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStop(Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStart11()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStop12()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStart13()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStop14()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStart15()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStop16()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStart17()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "MP4SDECD_ProcessOutputStop18()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MP4SDECD_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "MP4SDECD_MFSetRate(Boolean ThinningMode, Float Rate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_MFSetRate",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "ThinningMode"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Rate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "MP4SDECD_Discontinuity()",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_Discontinuity",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "MP4SDECD_Flush()",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_Flush",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "MP4SDECD_NullOutput()",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_NullOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "MP4SDECD_QM(UInt32 DropMode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_QM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DropMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MP4SDECD",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "MP4SDECD_QM24(UInt32 PostProcessingLevel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MP4SDECD_QM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PostProcessingLevel"
+            }
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "JSDumpHeapEnvelopeStart(UnicodeString Settings)",
+        "opcode": "Start",
+        "keywords": "jsdumpheap jsdumpheapEnvelopeOnly",
+        "task": "JSDumpHeapEnvelope",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Settings"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "JSDumpHeapEnvelopeStop_V1(UnicodeString Summary)",
+        "opcode": "Stop",
+        "keywords": "jsdumpheap jsdumpheapEnvelopeOnly",
+        "task": "JSDumpHeapEnvelope",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Summary"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "JSDumpHeapBulkNode(UInt32 Index, UInt32 Count, Int8 Values)",
+        "opcode": "",
+        "keywords": "jsdumpheap",
+        "task": "JSDumpHeapBulkNode",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "Values"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "JSDumpHeapBulkAttribute(UInt32 Index, UInt32 Count, Int8 Values)",
+        "opcode": "",
+        "keywords": "jsdumpheap",
+        "task": "JSDumpHeapBulkAttribute",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "Values"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "JSDumpHeapBulkEdge(UInt32 Index, UInt32 Count, Int8 Values)",
+        "opcode": "",
+        "keywords": "jsdumpheap",
+        "task": "JSDumpHeapBulkEdge",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "Values"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "JSDumpHeapStringTable(UInt32 Index, UInt32 Count, Int8 Values)",
+        "opcode": "",
+        "keywords": "jsdumpheap",
+        "task": "JSDumpHeapStringTable",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "Values"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-IE-JSDumpHeap",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "JSDumpHeapDoubleTable(UInt32 Index, UInt32 Count, Int8 Values)",
+        "opcode": "",
+        "keywords": "jsdumpheap",
+        "task": "JSDumpHeapDoubleTable",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "Values"
+            }
+        ]
+    }
+]

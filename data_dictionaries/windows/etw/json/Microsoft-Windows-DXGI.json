@@ -1,0 +1,5467 @@
+[
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "FactoryStart(Pointer pIDXGIFactory, UInt32 Mode, UInt32 BlockedAdapters, UnicodeString PnPID, UnicodeString DriverVersion)",
+        "opcode": "Start",
+        "keywords": "Objects",
+        "task": "Factory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockedAdapters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PnPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "FactoryStop(Pointer pIDXGIFactory, UInt32 Mode, UInt32 BlockedAdapters, UnicodeString PnPID, UnicodeString DriverVersion)",
+        "opcode": "Stop",
+        "keywords": "Objects",
+        "task": "Factory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockedAdapters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PnPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "FactoryDCStart(Pointer pIDXGIFactory, UInt32 Mode, UInt32 BlockedAdapters, UnicodeString PnPID, UnicodeString DriverVersion)",
+        "opcode": "DC_Start",
+        "keywords": "Objects",
+        "task": "Factory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockedAdapters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PnPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AdapterStart(Pointer pIDXGIAdapter, Pointer pIDXGIFactory, UInt32 KMTAdapterHandle, Pointer ThunkDLLHandle, Boolean SharedResources)",
+        "opcode": "Start",
+        "keywords": "Objects",
+        "task": "Adapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KMTAdapterHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThunkDLLHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SharedResources"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "AdapterStop(Pointer pIDXGIAdapter, Pointer pIDXGIFactory, UInt32 KMTAdapterHandle, Pointer ThunkDLLHandle, Boolean SharedResources)",
+        "opcode": "Stop",
+        "keywords": "Objects",
+        "task": "Adapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KMTAdapterHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThunkDLLHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SharedResources"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "AdapterDCStart(Pointer pIDXGIAdapter, Pointer pIDXGIFactory, UInt32 KMTAdapterHandle, Pointer ThunkDLLHandle, Boolean SharedResources)",
+        "opcode": "DC_Start",
+        "keywords": "Objects",
+        "task": "Adapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KMTAdapterHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThunkDLLHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SharedResources"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "OutputStart(Pointer pIDXGIOutput, Pointer pIDXGIAdapter, UInt32 VidPnSourceID, UnicodeString GDIDeviceName)",
+        "opcode": "Start",
+        "keywords": "Objects",
+        "task": "Output",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VidPnSourceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GDIDeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "OutputStop(Pointer pIDXGIOutput, Pointer pIDXGIAdapter, UInt32 VidPnSourceID, UnicodeString GDIDeviceName)",
+        "opcode": "Stop",
+        "keywords": "Objects",
+        "task": "Output",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VidPnSourceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GDIDeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "OutputDCStart(Pointer pIDXGIOutput, Pointer pIDXGIAdapter, UInt32 VidPnSourceID, UnicodeString GDIDeviceName)",
+        "opcode": "DC_Start",
+        "keywords": "Objects",
+        "task": "Output",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIAdapter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VidPnSourceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GDIDeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "SwapChainStart(Pointer pIDXGISwapChain, Pointer pIDXGIFactory, Pointer pIDXGIDevice, Pointer pIDXGIOutput, UInt8 UserBackbufferCount, UInt8 BackbufferCount, Pointer ppBackBuffers, Pointer pPrimary, Pointer pProxyPrimary, UInt32 Width, UInt32 Height, UInt32 RefreshNumerator, UInt32 RefreshDenominator, UInt32 Format, UInt32 ScanlineOrdering, UInt32 Scaling, UInt32 SampleCount, UInt32 SampleQuality, UInt32 Usage, Pointer OutputWindow, Boolean Windowed, UInt32 SwapEffect, UInt32 Flags, Boolean Redirected, UInt64 LogicalSurfaceHandle, UInt64 BindId, Pointer BackbufferHandles, Pointer BackbufferEventHandles, Pointer FenceHandle, UInt64 FenceValue, UInt8 ActualBufferCount, UInt32 ActualSwapEffect, UInt8 WinFlipProxyBufferCount)",
+        "opcode": "Start",
+        "keywords": "Objects",
+        "task": "SwapChain",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "UserBackbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BackbufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppBackBuffers"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pProxyPrimary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshNumerator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshDenominator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScanlineOrdering"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Scaling"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OutputWindow"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Windowed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapEffect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Redirected"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LogicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BindId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferEventHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FenceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FenceValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActualBufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualSwapEffect"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "WinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "SwapChainStop(Pointer pIDXGISwapChain, Pointer pIDXGIFactory, Pointer pIDXGIDevice, Pointer pIDXGIOutput, UInt8 UserBackbufferCount, UInt8 BackbufferCount, Pointer ppBackBuffers, Pointer pPrimary, Pointer pProxyPrimary, UInt32 Width, UInt32 Height, UInt32 RefreshNumerator, UInt32 RefreshDenominator, UInt32 Format, UInt32 ScanlineOrdering, UInt32 Scaling, UInt32 SampleCount, UInt32 SampleQuality, UInt32 Usage, Pointer OutputWindow, Boolean Windowed, UInt32 SwapEffect, UInt32 Flags, Boolean Redirected, UInt64 LogicalSurfaceHandle, UInt64 BindId, Pointer BackbufferHandles, Pointer BackbufferEventHandles, Pointer FenceHandle, UInt64 FenceValue, UInt8 ActualBufferCount, UInt32 ActualSwapEffect, UInt8 WinFlipProxyBufferCount)",
+        "opcode": "Stop",
+        "keywords": "Objects",
+        "task": "SwapChain",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "UserBackbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BackbufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppBackBuffers"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pProxyPrimary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshNumerator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshDenominator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScanlineOrdering"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Scaling"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OutputWindow"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Windowed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapEffect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Redirected"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LogicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BindId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferEventHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FenceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FenceValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActualBufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualSwapEffect"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "WinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "SwapChainDCStart(Pointer pIDXGISwapChain, Pointer pIDXGIFactory, Pointer pIDXGIDevice, Pointer pIDXGIOutput, UInt8 UserBackbufferCount, UInt8 BackbufferCount, Pointer ppBackBuffers, Pointer pPrimary, Pointer pProxyPrimary, UInt32 Width, UInt32 Height, UInt32 RefreshNumerator, UInt32 RefreshDenominator, UInt32 Format, UInt32 ScanlineOrdering, UInt32 Scaling, UInt32 SampleCount, UInt32 SampleQuality, UInt32 Usage, Pointer OutputWindow, Boolean Windowed, UInt32 SwapEffect, UInt32 Flags, Boolean Redirected, UInt64 LogicalSurfaceHandle, UInt64 BindId, Pointer BackbufferHandles, Pointer BackbufferEventHandles, Pointer FenceHandle, UInt64 FenceValue, UInt8 ActualBufferCount, UInt32 ActualSwapEffect, UInt8 WinFlipProxyBufferCount)",
+        "opcode": "DC_Start",
+        "keywords": "Objects",
+        "task": "SwapChain",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "UserBackbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BackbufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppBackBuffers"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pProxyPrimary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshNumerator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshDenominator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScanlineOrdering"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Scaling"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OutputWindow"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Windowed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapEffect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Redirected"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LogicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BindId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferEventHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FenceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FenceValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActualBufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualSwapEffect"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "WinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "ProfileStart(UInt32 Event)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "Profile",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "ProfileStop(UInt32 Event)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "Profile",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "PresentStart(Pointer pIDXGISwapChain, UInt32 Flags, UInt32 SyncInterval, UInt32 DirtyRects, UInt32 ScrollRects)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "Present",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyRects"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScrollRects"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "PresentStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "Present",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "GetFrameStatistics(UInt32 ReturnValue, UInt32 PresentCount, UInt32 PresentRefreshCount, UInt32 SyncRefreshCount, UInt64 SyncQPCTime)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "GetFrameStatistics",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentRefreshCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncRefreshCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SyncQPCTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "ResizeBuffersStart(Pointer pIDXGISwapchain, UInt8 OldUserBackbufferCount, UInt8 OldBackbufferCount, Pointer ppOldBackBuffers, Pointer pOldPrimary, Pointer pOldProxyPrimary, UInt32 OldWidth, UInt32 OldHeight, UInt32 OldFormat, UInt32 OldFlags, Boolean OldRedirected, UInt64 OldLogicalSurfaceHandle, Pointer OldBackbufferHandles, Pointer OldFenceHandle, UInt64 OldFenceValue, UInt8 OldActualbufferCount, UInt8 OldWinFlipProxyBufferCount)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "ResizeBuffers",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapchain"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldUserBackbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldBackbufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppOldBackBuffers"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldProxyPrimary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldFlags"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OldRedirected"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OldLogicalSurfaceHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OldBackbufferHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OldFenceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OldFenceValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldActualbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldWinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "ResizeBuffersStop(Pointer pIDXGISwapChain, UInt32 ReturnValue, UInt8 NewUserBackbufferCount, UInt8 NewBackbufferCount, Pointer ppNewBackBuffers, Pointer pNewPrimary, Pointer pNewProxyPrimary, UInt32 NewWidth, UInt32 NewHeight, UInt32 NewFormat, UInt32 NewFlags, Boolean NewRedirected, UInt64 NewLogicalSurfaceHandle, Pointer NewBackbufferHandles, Pointer NewFenceHandle, UInt64 NewFenceValue, UInt8 NewActualbufferCount, UInt8 NewWinFlipProxyBufferCount)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "ResizeBuffers",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewUserBackbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewBackbufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppNewBackBuffers"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewProxyPrimary"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewFlags"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NewRedirected"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewLogicalSurfaceHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "NewBackbufferHandles"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "NewFenceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewFenceValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewActualbufferCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewWinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "ResizeTargetStart(Pointer pDXGISwapChain, UInt32 Width, UInt32 Height, UInt32 RefreshNumerator, UInt32 RefreshDenominator, UInt32 Format, UInt32 ScanlineOrdering, UInt32 Scaling, Boolean Windowed, Pointer pOldPrimary, Pointer pOldProxyPrimary, UInt8 OldWinFlipProxyBufferCount)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "ResizeTarget",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshNumerator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshDenominator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScanlineOrdering"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Scaling"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Windowed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldProxyPrimary"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldWinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "ResizeTargetStop(Pointer pIDXGISwapChain, UInt32 ReturnValue, Pointer pNewPrimary, Pointer pNewProxyPrimary, UInt8 NewWinFlipProxyBufferCount)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "ResizeTarget",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnValue"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewProxyPrimary"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewWinFlipProxyBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "SetFullscreenStateStart(Pointer pIDXGISwapChain, Boolean OldWindowed, Pointer pOldOutput, Pointer pOldPrimary, Pointer pOldProxyPrimary, UInt8 OldWinFlipProxyBufferCount, UInt32 OldSwapEffect)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "SetFullscreenState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OldWindowed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldOutput"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pOldProxyPrimary"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldWinFlipProxyBufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSwapEffect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "SetFullscreenStateStop(Pointer pIDXGISwapChain, UInt32 ReturnValue, Boolean NewWindowed, Pointer pNewOutput, Pointer pNewPrimary, Pointer pNewProxyPrimary, UInt8 NewWinFlipProxyBufferCount, UInt32 NewSwapEffect)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "SetFullscreenState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnValue"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NewWindowed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewOutput"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewPrimary"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewProxyPrimary"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewWinFlipProxyBufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSwapEffect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "FindClosestMatchingModeStart(Pointer pIDXGIOutput, UInt32 WidthToMatch, UInt32 HeightToMatch, UInt32 RefreshNumeratorToMatch, UInt32 RefreshDenominatorToMatch, UInt32 FormatToMatch, UInt32 ScanlineOrderingToMatch, UInt32 ScalingToMatch)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "FindClosestMatchingMode",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WidthToMatch"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeightToMatch"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshNumeratorToMatch"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshDenominatorToMatch"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FormatToMatch"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScanlineOrderingToMatch"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScalingToMatch"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "FindClosestMatchingModeStop(Pointer pIDXGIOutput, UInt32 ReturnValue, UInt32 WidthResult, UInt32 HeightResult, UInt32 RefreshNumeratorResult, UInt32 RefreshDenominatorResult, UInt32 FormatResult, UInt32 ScanlineOrderingResult, UInt32 ScalingResult)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "FindClosestMatchingMode",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WidthResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeightResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshNumeratorResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshDenominatorResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FormatResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScanlineOrderingResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScalingResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "DWMRedirection(Pointer pIDXGISwapChain, Boolean NewRedirected)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "DWMRedirection",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NewRedirected"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "FlipCPUSyncTimeout(Pointer pIDXGISwapChain, UInt32 BackBufferNumber, Pointer BackBufferHandle, Pointer BackBufferEventHandle)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "FlipCPUSyncTimeout",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackBufferNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackBufferHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackBufferEventHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "PresentMultiplaneOverlayStart(Pointer pIDXGISwapChain, UInt32 Flags, UInt32 SyncInterval, UInt32 NumPlanes, UInt32 LayerMask)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "PresentMultiplaneOverlay",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPlanes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LayerMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "PresentMultiplaneOverlayStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "PresentMultiplaneOverlay",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "CheckMultiplaneOverlaySupportStart(Pointer pIDXGISwapChain, UInt32 NumPlanes)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "CheckMultiplaneOverlaySupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPlanes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "CheckMultiplaneOverlaySupportStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "CheckMultiplaneOverlaySupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "GetMultiplaneOverlayCaps(Pointer pIDXGIOutput, UInt32 MaxPlanes, UInt32 OverlayMaxRGBPlanes, UInt32 OverlayMaxYUVPlanes, UInt32 OverlayCaps, UInt32 PanelFitterMaxRGBPlanes, UInt32 PanelFitterCaps)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "GetMultiplaneOverlayCaps",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxPlanes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OverlayMaxRGBPlanes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OverlayMaxYUVPlanes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OverlayCaps"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PanelFitterMaxRGBPlanes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PanelFitterCaps"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "PresentMultiplaneOverlayChange(Pointer pIDXGISwapChain, UInt32 LayerIndex, Boolean Enabled)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "PresentMultiplaneOverlayChange",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LayerIndex"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Enabled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "CheckMultiplaneOverlaySupportFail(Pointer pIDXGISwapChain, Boolean KernelSupport, Boolean DriverFailed, Boolean InvalidParam, UInt32 NumPlanes)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "CheckMultiplaneOverlaySupportFail",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "KernelSupport"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DriverFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InvalidParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPlanes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "CheckMultiplaneOverlaySupportFail62(Pointer pIDXGISwapChain, Pointer hResource, UInt32 SubResourceIndex, UInt32 Flags, UInt32 SrcRectleft, UInt32 SrcRectright, UInt32 SrcRecttop, UInt32 SrcRectbottom, UInt32 DstRectleft, UInt32 DstRectright, UInt32 DstRecttop, UInt32 DstRectbottom, UInt32 ClipRectleft, UInt32 ClipRectright, UInt32 ClipRecttop, UInt32 ClipRectbottom, UInt32 Blend, UInt32 ColorSpace, UInt32 StretchQuality)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "CheckMultiplaneOverlaySupportFail",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubResourceIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SrcRectleft"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SrcRectright"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SrcRecttop"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SrcRectbottom"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DstRectleft"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DstRectright"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DstRecttop"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DstRectbottom"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClipRectleft"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClipRectright"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClipRecttop"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClipRectbottom"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Blend"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColorSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StretchQuality"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "CreateDirectFlipResource(Pointer pIDXGISwapChain, UInt32 Width, UInt32 Height, UInt32 DXGIFormat)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "CreateDirectFlipResource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DXGIFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "SetHardwareProtection(Pointer pIDXGISwapChain, Boolean Enabled)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "SetHardwareProtection",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Enabled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "SetHardwareProtectionOnSwapChainBuffer(Pointer pIDXGISwapChain, Boolean Enabled)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "SetHardwareProtectionOnSwapChainBuffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Enabled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "ReCreateSwapChainBufferForHardwareProtection(Pointer pIDXGISwapChain, Boolean Enabled)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "ReCreateSwapChainBufferForHardwareProtection",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapChain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Enabled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "SetHardwareProtectionFailure(Pointer pIDXGISwapchain, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "SetHardwareProtectionFailure",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapchain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "CheckOverlayColorSpaceSupport(Pointer pIDXGIOutput, UInt32 Format, UInt32 ColorSpace, UInt32 OutputFlags, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "CheckOverlayColorSpaceSupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIOutput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColorSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "SetColorSpace1(Pointer pIDXGISwapchain, UInt32 ColorSpace)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "SetColorSpace1",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapchain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColorSpace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "JournalEntry(UInt32 Index, HexInt32 Code, UInt32 ThreadId, AnsiString Message)",
+        "opcode": "",
+        "keywords": "Events JournalEntries",
+        "task": "JournalEntry",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Code"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "BindBackBuffersToDwm(Pointer pIDXGISwapchain, UInt8 BackbufferCount, Pointer BackbufferHandles)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "BindBackBuffersToDwm",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapchain"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BackbufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BackbufferHandles"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "UnBindBackBuffersFromDwm(Pointer pIDXGISwapchain, Boolean KeepExistingContent)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "UnBindBackBuffersFromDwm",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapchain"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "KeepExistingContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "Factory(Pointer pIDXGIFactory, Boolean ReparentingOccurred, UInt32 DecidingFactor, AnsiString Message)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "Factory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGIFactory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ReparentingOccurred"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecidingFactor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "SwapChain(Pointer pIDXGISwapchain, Pointer m_pPreferredOutput, UInt32 NewSyncInterval)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "SwapChain",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIDXGISwapchain"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_pPreferredOutput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSyncInterval"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "CreateDXGIFactoryStart(GUID riid, Pointer ppFactory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CreateDXGIFactory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppFactory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "CreateDXGIFactoryStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CreateDXGIFactory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_QueryInterfaceStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_QueryInterfaceStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_AddRefStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_AddRefStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_ReleaseStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_ReleaseStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_SetPrivateDataStart(Pointer pThis, Binary Name, UInt32 uiDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_SetPrivateDataStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_SetPrivateDataInterfaceStart(Pointer pThis, Binary Name, Pointer pInterface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pInterface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_SetPrivateDataInterfaceStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_GetPrivateDataStart(Pointer pThis, Binary Name, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_GetPrivateDataStop(UInt32 m_Ret, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_GetParentStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_GetParentStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_EnumOutputsStart(Pointer pThis, UInt32 iOutput, Pointer ppOutput)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_EnumOutputs",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iOutput"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppOutput"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_EnumOutputsStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_EnumOutputs",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_GetDescStart(Pointer pThis, Binary pDesc)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_GetDesc",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pDesc"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_GetDescStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_GetDesc",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_CheckInterfaceSupportStart(Pointer pThis, Binary InterfaceName, UInt64 pUMDVersion)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_CheckInterfaceSupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "InterfaceName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "pUMDVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_CheckInterfaceSupportStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_CheckInterfaceSupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_QueryInterfaceStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_QueryInterfaceStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_AddRefStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_AddRefStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_ReleaseStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_ReleaseStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetPrivateDataStart(Pointer pThis, Binary Name, UInt32 uiDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetPrivateDataStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetPrivateDataInterfaceStart(Pointer pThis, Binary Name, Pointer pInterface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pInterface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetPrivateDataInterfaceStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetPrivateDataStart(Pointer pThis, Binary Name, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetPrivateDataStop(UInt32 m_Ret, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetParentStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetParentStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetDescStart(Pointer pThis, Binary pDesc)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetDesc",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pDesc"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetDescStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetDesc",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetDisplayModeListStart(Pointer pThis, UInt32 EnumFormat, UInt32 dwFlags, UInt32 pNumModes, Binary pDesc)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetDisplayModeList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnumFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pNumModes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pDesc"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetDisplayModeListStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetDisplayModeList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_FindClosestMatchingModeStart(Pointer pThis, Binary pModeToMatch, Binary pClosestMatch, Pointer pConcernedDevice)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_FindClosestMatchingMode",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pModeToMatch"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pClosestMatch"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pConcernedDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_FindClosestMatchingModeStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_FindClosestMatchingMode",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_WaitForVBlankStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_WaitForVBlank",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_WaitForVBlankStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_WaitForVBlank",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_TakeOwnershipStart(Pointer pThis, Pointer pDevice, UInt32 bExclusive)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_TakeOwnership",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bExclusive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_TakeOwnershipStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_TakeOwnership",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_ReleaseOwnershipStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_ReleaseOwnership",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_ReleaseOwnershipStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_ReleaseOwnership",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetGammaControlCapabilitiesStart(Pointer pThis, Pointer pGammaCaps)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetGammaControlCapabilities",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pGammaCaps"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetGammaControlCapabilitiesStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetGammaControlCapabilities",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetGammaControlStart(Pointer pThis, Binary pArray)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_SetGammaControl",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pArray"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetGammaControlStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_SetGammaControl",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetGammaControlStart(Pointer pThis, Binary pArray)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetGammaControl",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pArray"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetGammaControlStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetGammaControl",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetDisplaySurfaceStart(Pointer pThis, Pointer pScanoutSurface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_SetDisplaySurface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pScanoutSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_SetDisplaySurfaceStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_SetDisplaySurface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetDisplaySurfaceDataStart(Pointer pThis, Pointer pScanoutSurface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetDisplaySurfaceData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pScanoutSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetDisplaySurfaceDataStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetDisplaySurfaceData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetFrameStatisticsStart(Pointer pThis, Binary pStats)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIOutput_GetFrameStatistics",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pStats"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "IDXGIOutput_GetFrameStatisticsStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIOutput_GetFrameStatistics",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_QueryInterfaceStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_QueryInterfaceStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_AddRefStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_AddRefStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_ReleaseStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "167",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_ReleaseStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetPrivateDataStart(Pointer pThis, Binary Name, UInt32 uiDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetPrivateDataStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetPrivateDataInterfaceStart(Pointer pThis, Binary Name, Pointer pInterface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pInterface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetPrivateDataInterfaceStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetPrivateDataStart(Pointer pThis, Binary Name, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetPrivateDataStop(UInt32 m_Ret, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetParentStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetParentStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetDeviceStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetDevice",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetDeviceStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetDevice",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_PresentStart(Pointer pThis, UInt32 SyncInterval, UInt32 dwFlags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_Present",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_PresentStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_Present",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetBufferStart(Pointer pThis, UInt32 iBuffer, GUID Interface, Pointer ppSurface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetBuffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iBuffer"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Interface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetBufferStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetBuffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetFullscreenStateStart(Pointer pThis, UInt32 bFullscreen, Pointer pTarget)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetFullscreenState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bFullscreen"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pTarget"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetFullscreenStateStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetFullscreenState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "184",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetFullscreenStateStart(Pointer pThis, UInt32 pbFullscreen, Pointer ppTarget)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetFullscreenState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pbFullscreen"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppTarget"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetFullscreenStateStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetFullscreenState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "186",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetDescStart(Pointer pThis, Binary pDesc)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetDesc",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pDesc"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetDescStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetDesc",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "188",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_ResizeBuffersStart(Pointer pThis, UInt32 BufferCount, UInt32 Width, UInt32 Height, UInt32 NewFormat, UInt32 SwapChainFalgs)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_ResizeBuffers",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapChainFalgs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_ResizeBuffersStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_ResizeBuffers",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "190",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_ResizeTargetStart(Pointer pThis, Binary pNewTargetParameters)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_ResizeTarget",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pNewTargetParameters"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "191",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_ResizeTargetStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_ResizeTarget",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "192",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetContainingOutputStart(Pointer pThis, Pointer ppOutput)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetContainingOutput",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppOutput"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "193",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetContainingOutputStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetContainingOutput",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "194",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetFrameStatisticsStart(Pointer pThis, Binary pStats)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetFrameStatistics",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pStats"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "195",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetFrameStatisticsStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetFrameStatistics",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "196",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetLastPresentCountStart(Pointer pThis, Pointer pLastPresentCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetLastPresentCount",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pLastPresentCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "197",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetLastPresentCountStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetLastPresentCount",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "198",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_QueryInterfaceStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "199",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_QueryInterfaceStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_QueryInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_AddRefStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_AddRefStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_AddRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_ReleaseStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_ReleaseStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_Release",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_SetPrivateDataStart(Pointer pThis, Binary Name, UInt32 uiDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uiDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_SetPrivateDataStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_SetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_SetPrivateDataInterfaceStart(Pointer pThis, Binary Name, Pointer pInterface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pInterface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_SetPrivateDataInterfaceStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_SetPrivateDataInterface",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_GetPrivateDataStart(Pointer pThis, Binary Name, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_GetPrivateDataStop(UInt32 m_Ret, UInt32 pDataSize, Pointer pData)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_GetPrivateData",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pDataSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_GetParentStart(Pointer pThis, GUID riid, Pointer ppvObject)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_GetParentStop(UInt32 m_Ret, Pointer ppvObject)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_GetParent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppvObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_EnumAdaptersStart(Pointer pThis, UInt32 iAdapter, Pointer ppAdapterInterface)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_EnumAdapters",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppAdapterInterface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_EnumAdaptersStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_EnumAdapters",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_MakeWindowAssociationStart(Pointer pThis, UInt64 hWnd, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_MakeWindowAssociation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "hWnd"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_MakeWindowAssociationStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_MakeWindowAssociation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_GetWindowAssociationStart(Pointer pThis, UInt64 phWnd)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_GetWindowAssociation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "phWnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_GetWindowAssociationStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_GetWindowAssociation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_CreateSwapChainStart(Pointer pThis, Pointer pDevice, Binary pDesc, Pointer ppSwapChain)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_CreateSwapChain",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDevice"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "pDesc"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppSwapChain"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_CreateSwapChainStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_CreateSwapChain",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_CreateSoftwareAdapterStart(Pointer pThis, UInt64 hModule, Pointer ppAdapter)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIFactory_CreateSoftwareAdapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "hModule"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppAdapter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "IDXGIFactory_CreateSoftwareAdapterStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIFactory_CreateSoftwareAdapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "848",
+        "version": "0",
+        "event(fields)": "CreateDXGIFactory1Start(GUID riid, Pointer ppFactory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CreateDXGIFactory1",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "riid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppFactory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "849",
+        "version": "0",
+        "event(fields)": "CreateDXGIFactory1Stop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CreateDXGIFactory1",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "850",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetSourceSizeStart(Pointer pThis, UInt32 Width, UInt32 Height)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetSourceSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "851",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetSourceSizeStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetSourceSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "852",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetSourceSizeStart(Pointer pThis, Pointer pWidth, Pointer pHeight)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetSourceSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pWidth"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "853",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetSourceSizeStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetSourceSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "854",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_PresentBufferStart(Pointer pThis, UInt32 BufferToPresent, UInt32 SyncInterval, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_PresentBuffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferToPresent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "855",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_PresentBufferStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_PresentBuffer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "856",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetMaximumFrameLatencyStart(Pointer pThis, UInt32 MaxLatency)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetMaximumFrameLatency",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxLatency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "857",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetMaximumFrameLatencyStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetMaximumFrameLatency",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "858",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetMaximumFrameLatencyStart(Pointer pThis, Pointer pMaxLatency)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetMaximumFrameLatency",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pMaxLatency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "859",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetMaximumFrameLatencyStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetMaximumFrameLatency",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "860",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetFrameLatencyWaitableObjectStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetFrameLatencyWaitableObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "861",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetFrameLatencyWaitableObjectStop(Pointer m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetFrameLatencyWaitableObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "862",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetSourceRectStart(Pointer pThis, Pointer pRect, Int32 Rect)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetSourceRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRect"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Rect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "863",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetSourceRectStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetSourceRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "864",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetTargetRectStart(Pointer pThis, Pointer pRect, Int32 Rect)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetTargetRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRect"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Rect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "865",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetTargetRectStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetTargetRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "866",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetDestSizeStart(Pointer pThis, UInt32 Width, UInt32 Height)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetDestSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "867",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetDestSizeStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetDestSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "868",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetSourceRectStart(Pointer pThis, Pointer pRect)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetSourceRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "869",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetSourceRectStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetSourceRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "870",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetTargetRectStart(Pointer pThis, Pointer pRect)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetTargetRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "871",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetTargetRectStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetTargetRect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "872",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetDestSizeStart(Pointer pThis, Pointer pWidth, Pointer pHeight)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetDestSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pWidth"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "873",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetDestSizeStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetDestSize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "874",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetColorSpaceStart(Pointer pThis, UInt32 YCbCrFlags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetColorSpace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "YCbCrFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "875",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetColorSpaceStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetColorSpace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "876",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetColorSpaceStart(Pointer pThis)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetColorSpace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "877",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_GetColorSpaceStop(UInt32 YCbCrFlags)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_GetColorSpace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "YCbCrFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "878",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetMatrixTransformStart(Pointer pThis, Pointer pMatrix, Float Matrix)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetMatrixTransform",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pMatrix"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Matrix"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "879",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_SetMatrixTransformStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_SetMatrixTransform",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "880",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetMatrixTransformStart(Pointer pThis, Pointer pMatrix)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetMatrixTransform",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pMatrix"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "881",
+        "version": "0",
+        "event(fields)": "IDXGISwapChain_GetMatrixTransformStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChain_GetMatrixTransform",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "882",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_PresentExStart(Pointer pThis, UInt32 SyncInterval, UInt32 Flags, UInt32 PartnerFlags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_PresentEx",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PartnerFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "883",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_PresentExStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_PresentEx",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "884",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetPresentDurationStart(Pointer pThis, UInt32 Duration)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetPresentDuration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "885",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_SetPresentDurationStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_SetPresentDuration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "886",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_CheckPresentDurationSupportStart(Pointer pThis, UInt32 DesiredPresentDuration, Pointer pClosestSmallerPresentDuration, Pointer pClosestLargerPresentDuration)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_CheckPresentDurationSupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesiredPresentDuration"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pClosestSmallerPresentDuration"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pClosestLargerPresentDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "887",
+        "version": "0",
+        "event(fields)": "IDXGISwapChainPartner_CheckPresentDurationSupportStop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGISwapChainPartner_CheckPresentDurationSupport",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "888",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_EnumOutputs2Start(Pointer pThis, UInt32 iOutput, UInt32 iOutputType, Pointer ppOutput)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IDXGIAdapter_EnumOutputs2",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pThis"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iOutput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iOutputType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ppOutput"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DXGI",
+        "event_id": "889",
+        "version": "0",
+        "event(fields)": "IDXGIAdapter_EnumOutputs2Stop(UInt32 m_Ret)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IDXGIAdapter_EnumOutputs2",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "m_Ret"
+            }
+        ]
+    }
+]

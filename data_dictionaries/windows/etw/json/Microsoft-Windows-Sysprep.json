@@ -1,0 +1,290 @@
+[
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "RunRegistryDllsStart(UnicodeString BasePath, UnicodeString Phase)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep",
+        "task": "RunRegistryDlls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BasePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Phase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "RunRegistryDllsStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep",
+        "task": "RunRegistryDlls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "CallExternalProviderFunctionStart(UnicodeString DllName, AnsiString FunctionName, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep keyword_400000000000",
+        "task": "CallExternalProviderFunction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DllName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FunctionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "CallExternalProviderFunctionStop(UnicodeString DllName, AnsiString FunctionName, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep keyword_400000000000",
+        "task": "CallExternalProviderFunction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DllName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FunctionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "Loadactionmeta_datafileStart(UnicodeString ActionFilePath)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Loadactionmeta_datafile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionFilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "Loadactionmeta_datafileStop(UnicodeString ActionFilePath)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Loadactionmeta_datafile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionFilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "4001",
+        "version": "0",
+        "event(fields)": "CreatelistofactionsforacomponentStart(UnicodeString ComponentName)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Createlistofactionsforacomponent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ComponentName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "4002",
+        "version": "0",
+        "event(fields)": "CreatelistofactionsforacomponentStop(UnicodeString ComponentName)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Createlistofactionsforacomponent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ComponentName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "Deletingfile(s)ofapatternStart(UnicodeString DirectoryPath, UnicodeString FilePattern)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Deletingfile(s)ofapattern",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectoryPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePattern"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "Deletingfile(s)ofapatternStop(UnicodeString DirectoryPath, UnicodeString FilePattern, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Deletingfile(s)ofapattern",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectoryPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePattern"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "6001",
+        "version": "0",
+        "event(fields)": "DeleteadirectoryStart(UnicodeString DirectoryPath)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Deleteadirectory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectoryPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "6002",
+        "version": "0",
+        "event(fields)": "DeleteadirectoryStop(UnicodeString DirectoryPath, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Deleteadirectory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectoryPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "7001",
+        "version": "0",
+        "event(fields)": "ExecuteanentirephaseStart(UnicodeString Phase)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Executeanentirephase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Phase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sysprep",
+        "event_id": "7002",
+        "version": "0",
+        "event(fields)": "ExecuteanentirephaseStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep",
+        "task": "Executeanentirephase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

@@ -1,0 +1,266 @@
+[
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "OperationFailure(UInt32 OperationType, UnicodeString ProviderName, UnicodeString KeyName, UnicodeString KeyType, UnicodeString AlgorithmName, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_NCRYPT_OPERATION",
+        "task": "OperationFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AlgorithmName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "OpenProviderFailure(UnicodeString ProviderName, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_NCRYPT_OPERATION",
+        "task": "OpenProviderFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "OpenKeyFailure(UnicodeString ProviderName, UnicodeString KeyName, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_NCRYPT_OPERATION",
+        "task": "OpenKeyFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "KeyCreationFailure(UnicodeString ProviderName, UnicodeString KeyName, UnicodeString AlgorithmName, HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_NCRYPT_OPERATION",
+        "task": "KeyCreationFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AlgorithmName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "OperationFailure_5(UnicodeString ProtectorName, UnicodeString ProtectorAttributes, HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROTECT_OPERATION",
+        "task": "OperationFailure_5",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtectorName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtectorAttributes"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "OperationFailure_6(UnicodeString ProtectorName, UInt32 RecipientType, HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName, UInt32 KeyIdLength, Binary KeyId)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROTECT_OPERATION",
+        "task": "OperationFailure_6",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtectorName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecipientType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KeyIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "KeyId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "OperationFailure_7(HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROTECT_OPERATION",
+        "task": "OperationFailure_7",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-NCrypt",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "OperationFailure_8(HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROTECT_OPERATION",
+        "task": "OperationFailure_8",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    }
+]

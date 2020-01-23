@@ -1,0 +1,386 @@
+[
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationUnsupportedRegistryValueType(UInt16 RegistryKeyLength, UnicodeString RegistryKey, UInt16 RegistryValueNameLength, UnicodeString RegistryValueName, UInt32 RegistryValueType)",
+        "opcode": "UnsupportedRegistryValueType",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "RegistryKeyLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegistryKey"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "RegistryValueNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegistryValueName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegistryValueType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationInvalidUNCPath(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration)",
+        "opcode": "InvalidUNCPath",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationUnsupportedUNCPath(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration)",
+        "opcode": "UnsupportedUNCPath",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationUnsupportedPropertyName(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration, UInt16 PropertyNameLength, UnicodeString PropertyName, UInt64 PropertyValue)",
+        "opcode": "UnsupportedPropertyName",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PropertyNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PropertyValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationUnsupportedPropertyName1004(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration, UInt16 PropertyNameLength, UnicodeString PropertyName, UInt16 PropertyValueLength, UnicodeString PropertyValue)",
+        "opcode": "UnsupportedPropertyName",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PropertyNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PropertyValueLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationUnsupportedPropertyValue(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration, UInt16 PropertyNameLength, UnicodeString PropertyName, UInt16 PropertyValueLength, UnicodeString PropertyValue)",
+        "opcode": "UnsupportedPropertyValue",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PropertyNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PropertyValueLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationInvalidSyntax(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration)",
+        "opcode": "InvalidSyntax",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationInvalidSyntax1007(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration, UInt32 ExpectedToken, UInt16 FoundTokenLength, UnicodeString FoundToken)",
+        "opcode": "InvalidSyntax",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FoundTokenLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FoundToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationInvalidSyntax1008(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration, UInt32 ExpectedToken, UInt16 FoundTokenLength, UnicodeString FoundToken)",
+        "opcode": "InvalidSyntax",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FoundTokenLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FoundToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvider",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "UNCHardeningConfigurationInvalidSyntax1009(UInt16 UncPathLength, UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration, UInt32 ExpectedToken, UInt16 FoundTokenLength, UnicodeString FoundToken)",
+        "opcode": "InvalidSyntax",
+        "keywords": "UncHardening",
+        "task": "UNCHardeningConfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "UncPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncHardeningConfigurationLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UncHardeningConfiguration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FoundTokenLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FoundToken"
+            }
+        ]
+    }
+]

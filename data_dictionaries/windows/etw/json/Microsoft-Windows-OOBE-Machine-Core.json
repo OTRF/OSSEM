@@ -1,0 +1,80 @@
+[
+    {
+        "provider": "Microsoft-Windows-OOBE-Machine-Core",
+        "event_id": "5004",
+        "version": "0",
+        "event(fields)": "ServiceStartResult(UnicodeString Service, UInt32 DWORD, Boolean Started)",
+        "opcode": "",
+        "keywords": "msoobe",
+        "task": "ServiceStartResult",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Service"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DWORD"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Started"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OOBE-Machine-Core",
+        "event_id": "5041",
+        "version": "0",
+        "event(fields)": "MandatoryTasksStart()",
+        "opcode": "Start",
+        "keywords": "msoobe",
+        "task": "MandatoryTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-OOBE-Machine-Core",
+        "event_id": "5042",
+        "version": "0",
+        "event(fields)": "MandatoryTasksStop()",
+        "opcode": "Stop",
+        "keywords": "msoobe",
+        "task": "MandatoryTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-OOBE-Machine-Core",
+        "event_id": "5043",
+        "version": "0",
+        "event(fields)": "FinalizeStart()",
+        "opcode": "Start",
+        "keywords": "msoobe",
+        "task": "Finalize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-OOBE-Machine-Core",
+        "event_id": "5044",
+        "version": "0",
+        "event(fields)": "FinalizeStop()",
+        "opcode": "Stop",
+        "keywords": "msoobe",
+        "task": "Finalize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

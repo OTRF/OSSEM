@@ -1,0 +1,114 @@
+[
+    {
+        "provider": "Microsoft-Windows-Audit",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "RunAuditStart(UnicodeString CommandLine)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "RunAudit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audit",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "RunAuditStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "RunAudit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audit",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "AuditProcessUnattendStart(UnicodeString Pass)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "AuditProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audit",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "AuditProcessUnattendStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "AuditProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audit",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "AuditProcessUnattendStop2003(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "AuditProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audit",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "AuditProcessUnattend(UnicodeString Pass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "keyDiagnostic",
+        "task": "AuditProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    }
+]

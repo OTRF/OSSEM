@@ -1,0 +1,104 @@
+[
+    {
+        "provider": "Microsoft-Windows-Graphics-Printing3D",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "PrintDXGIPreviewTarget_DrawPageStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PrintDXGIPreviewTarget_DrawPage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Graphics-Printing3D",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "PrintDXGIPreviewTarget_DrawPageStop(UInt32 HResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PrintDXGIPreviewTarget_DrawPage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Graphics-Printing3D",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "PrintTask_EnsureDocumentSourceStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PrintTask_EnsureDocumentSource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Graphics-Printing3D",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "PrintTask_EnsureDocumentSourceStop(UInt32 HResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PrintTask_EnsureDocumentSource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Graphics-Printing3D",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "PrintTask_BindPrinterStart(UnicodeString Name)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PrintTask_BindPrinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Graphics-Printing3D",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "PrintTask_BindPrinterStop(UInt32 HResult, UnicodeString Name)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PrintTask_BindPrinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    }
+]

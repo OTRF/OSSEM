@@ -1,0 +1,1784 @@
+[
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_0(Pointer Vcb, UInt16 DeviceNameLength, UnicodeString DeviceName, GUID VolumeGuid, UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16 VolumeLabelLength, UnicodeString VolumeLabel)",
+        "opcode": "",
+        "keywords": "VolumeMount",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Vcb"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeLabelLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeLabel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05(Pointer Context, HexInt32 Status, GUID VolumeGuid, UInt16 DeviceNameLength, UnicodeString DeviceName, UInt16 VolumeNameLength, UnicodeString VolumeName, UInt32 StackCount, Pointer Stack, UInt32 SourceLine)",
+        "opcode": "",
+        "keywords": "VolumeMount",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StackCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Stack"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "task_06(Pointer Context, UInt32 Progress, UInt32 StackCount, Pointer Stack)",
+        "opcode": "",
+        "keywords": "VolumeMount",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Progress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StackCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Stack"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "task_07(Pointer Context, UInt8 MajorVersionExpected, UInt8 MinorVersionExpected, UInt8 MajorVersionOnDisk, UInt8 MinorVersionOnDisk)",
+        "opcode": "",
+        "keywords": "VolumeMount",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorVersionExpected"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorVersionExpected"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorVersionOnDisk"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorVersionOnDisk"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "task_08(Pointer Context, UInt32 FillRatio, GUID VolumeGuid, UInt16 DeviceNameLength, UnicodeString DeviceName, UInt16 VolumeNameLength, UnicodeString VolumeName)",
+        "opcode": "",
+        "keywords": "VolumeFillRatio",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FillRatio"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "task_0130(UInt16 VolumeIdLength, UnicodeString VolumeId, UnicodeString RepairDetail, UInt16 RepairDataLength, Binary RepairData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RepairDetail"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "RepairDataLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RepairData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "task_0131(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "task_0132(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "task_0133(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "task_0134(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "task_0135(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "task_0136(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "task_0137(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "task_0138(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "task_0139(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "task_0140(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "145",
+        "version": "2",
+        "event(fields)": "task_0145_V2(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString VolumeName, Boolean IsBootVolume, UInt32 TierIndex, UInt64 MaxLatencyMs, Int64 ReadWriteLatencyBucket1, Int64 ReadWriteLatencyBucket2, Int64 ReadWriteLatencyBucket3, Int64 ReadWriteLatencyBucket4, Int64 ReadWriteLatencyBucket5, Int64 ReadWriteLatencyBucket6, Int64 ReadWriteLatencyBucket7, Int64 TrimLatencyBucket1, Int64 TrimLatencyBucket2, Int64 TrimLatencyBucket3, Int64 TrimLatencyBucket4, Int64 TrimLatencyBucket5, Int64 TrimLatencyBucket6, Int64 TrimLatencyBucket7, Int64 FlushLatencyBucket1, Int64 FlushLatencyBucket2, Int64 FlushLatencyBucket3, Int64 FlushLatencyBucket4, Int64 FlushLatencyBucket5, Int64 FlushLatencyBucket6, Int64 FlushLatencyBucket7)",
+        "opcode": "",
+        "keywords": "Statistics",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeCorrelationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBootVolume"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TierIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxLatencyMs"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket1"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket2"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket3"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket4"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket5"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket6"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket7"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket1"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket2"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket3"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket4"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket5"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket6"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket7"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket1"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket2"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket3"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket4"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket5"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket6"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket7"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "146",
+        "version": "2",
+        "event(fields)": "task_0146_V2(UInt32 Version, GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString VolumeName, Boolean IsBootVolume, UInt32 TierIndex, UInt64 MaxLatencyMs, Int64 ReadWriteLatencyBucket1, Int64 ReadWriteLatencyBucket2, Int64 ReadWriteLatencyBucket3, Int64 ReadWriteLatencyBucket4, Int64 ReadWriteLatencyBucket5, Int64 ReadWriteLatencyBucket6, Int64 ReadWriteLatencyBucket7, Int64 TrimLatencyBucket1, Int64 TrimLatencyBucket2, Int64 TrimLatencyBucket3, Int64 TrimLatencyBucket4, Int64 TrimLatencyBucket5, Int64 TrimLatencyBucket6, Int64 TrimLatencyBucket7, Int64 FlushLatencyBucket1, Int64 FlushLatencyBucket2, Int64 FlushLatencyBucket3, Int64 FlushLatencyBucket4, Int64 FlushLatencyBucket5, Int64 FlushLatencyBucket6, Int64 FlushLatencyBucket7, UInt32 HighIoLatencyCount, Int64 IntervalDurationUs, UInt64 NCReadIOCount, UInt64 NCReadTotalBytes, UInt64 NCReadAvgLatencyNs, UInt64 NCWriteIOCount, UInt64 NCWriteTotalBytes, UInt64 NCWriteAvgLatencyNs, UInt64 FileFlushCount, UInt64 FileFlushAvgLatencyNs, UInt64 DirectoryFlushCount, UInt64 DirectoryFlushAvgLatencyNs, UInt64 VolumeFlushCount, UInt64 VolumeFlushAvgLatencyNs, UInt64 FileLevelTrimCount, UInt64 FileLevelTrimTotalBytes, UInt64 FileLevelTrimExtentsCount, UInt64 FileLevelTrimAvgLatencyNs, UInt64 VolumeTrimCount, UInt64 VolumeTrimTotalBytes, UInt64 VolumeTrimExtentsCount, UInt64 VolumeTrimAvgLatencyNs, UInt8 IoBucketsCount, UInt8 TotalBytesBucketsCount, UInt8 ExtentsBucketsCount, UInt64 IoCount, UInt64 TotalLatencyUs, UInt64 TotalBytes, UInt64 TrimExtentsCount, UInt16 IoTypeIndex)",
+        "opcode": "",
+        "keywords": "Statistics",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeCorrelationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBootVolume"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TierIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxLatencyMs"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket1"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket2"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket3"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket4"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket5"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket6"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ReadWriteLatencyBucket7"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket1"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket2"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket3"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket4"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket5"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket6"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TrimLatencyBucket7"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket1"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket2"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket3"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket4"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket5"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket6"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FlushLatencyBucket7"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HighIoLatencyCount"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "IntervalDurationUs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NCReadIOCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NCReadTotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NCReadAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NCWriteIOCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NCWriteTotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NCWriteAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileFlushCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileFlushAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DirectoryFlushCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DirectoryFlushAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeFlushCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeFlushAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileLevelTrimCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileLevelTrimTotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileLevelTrimExtentsCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileLevelTrimAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeTrimCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeTrimTotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeTrimExtentsCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeTrimAvgLatencyNs"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IoBucketsCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TotalBytesBucketsCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ExtentsBucketsCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IoCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalLatencyUs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TrimExtentsCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "IoTypeIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "147",
+        "version": "1",
+        "event(fields)": "task_0147_V1(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString VolumeName, Boolean IsBootVolume, UInt32 TierIndex, UInt64 MaxLatencyMs, UInt32 ProcessId, AnsiString ProcessName, UInt32 FileNameLength, UnicodeString FileName, UInt32 IoType, UInt32 IoSize, UInt64 FileOffset, UInt64 LatencyMs, UInt64 StartingLcn, UInt32 ClustersCount, Int32 TableIndex)",
+        "opcode": "",
+        "keywords": "Statistics",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeCorrelationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBootVolume"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TierIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxLatencyMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IoType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IoSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileOffset"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LatencyMs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartingLcn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClustersCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TableIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "task_0148(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString VolumeName, Boolean IsBootVolume, UInt32 TierIndex, UInt32 ProcessId, AnsiString ProcessName, UInt32 FileNameLength, UnicodeString FileName, UInt32 IoType, UInt32 IoSize, UInt64 FileOffset, UInt64 StartingLcn, UInt32 ClustersCount, UInt32 FailureStatus, Int32 TableIndex)",
+        "opcode": "",
+        "keywords": "Statistics",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeCorrelationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBootVolume"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TierIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IoType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IoSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileOffset"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartingLcn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClustersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailureStatus"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TableIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "task_0149(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString VolumeName, Boolean IsBootVolume, UInt32 SecondsElapsed, UInt32 HighLatencyCount, UInt32 FailedWriteCount, UInt32 FailedReadCount, UInt32 BadClusterHotfixCount, UInt32 ValuesCount, UInt32 HighLatencyArray, UInt32 FailedWriteArray, UInt32 FailedReadArray, UInt32 BadClusterHotfixArray, UInt32 StatusArray, UInt32 TableIndexArray)",
+        "opcode": "",
+        "keywords": "Statistics",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeCorrelationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBootVolume"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecondsElapsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HighLatencyCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedWriteCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedReadCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BadClusterHotfixCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ValuesCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HighLatencyArray"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedWriteArray"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedReadArray"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BadClusterHotfixArray"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusArray"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableIndexArray"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "150",
+        "version": "1",
+        "event(fields)": "task_0150_V1(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString VolumeName, UInt64 SampleDuration, UInt64 FreeSpaceInRandomlyWriteableTierMin, UInt64 FreeSpaceInRandomlyWriteableTierMax, UInt64 FreeSpaceInRandomlyWriteableTierAvg, UInt64 FreeSpaceInSMRTierMin, UInt64 FreeSpaceInSMRTierMax, UInt64 FreeSpaceInSMRTierAvg, UInt64 UsableFreeSpaceInSMRTierMin, UInt64 UsableFreeSpaceInSMRTierMax, UInt64 UsableFreeSpaceInSMRTierAvg, UInt64 WriteSerializationAbortedWrites, UInt64 WriteSerializationEvents, UInt64 WriteSerializationLatencyAvg, UInt64 WriteSerializationLatencyMax, UInt64 WriteSerializationBlockedEvents, UInt64 WriteSerializationBlockedLatencyAvg, UInt64 StartGCCallsInvoked, UInt64 StartGCCallsFailed, UInt64 StartGCFullSpeedCallsInvoked, UInt64 StartGCFullSpeedCallsFailed, UInt64 PauseGCCallsInvoked, UInt64 PauseGCCallsFailed, UInt64 StopGCCallsInvoked, UInt64 StopGCCallsFailed, UInt64 FullSMRBandClusterAllocations, UInt64 SharedSMRBandClusterAllocations, UInt64 GCReadLatencyTotal, UInt64 GCReadLatencyAvg, UInt64 GCReadLatencyMax, UInt64 GCTotalReadIOs, UInt64 GCWriteLatencyTotal, UInt64 GCWriteLatencyAvg, UInt64 GCWriteLatencyMax, UInt64 GCTotalWriteIOs, UInt64 DiskFullRequiresGC, UInt64 SMRZoneFull, UInt64 CMRZoneFull, UInt64 InvalidSectorErrors, UInt64 IoDeviceErrors, UInt64 WriteErrors, UInt64 ReadErrors, UInt64 SMRWriteHeadRequeries)",
+        "opcode": "",
+        "keywords": "Statistics",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeCorrelationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FreeSpaceInRandomlyWriteableTierMin"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FreeSpaceInRandomlyWriteableTierMax"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FreeSpaceInRandomlyWriteableTierAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FreeSpaceInSMRTierMin"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FreeSpaceInSMRTierMax"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FreeSpaceInSMRTierAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UsableFreeSpaceInSMRTierMin"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UsableFreeSpaceInSMRTierMax"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UsableFreeSpaceInSMRTierAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteSerializationAbortedWrites"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteSerializationEvents"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteSerializationLatencyAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteSerializationLatencyMax"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteSerializationBlockedEvents"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteSerializationBlockedLatencyAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartGCCallsInvoked"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartGCCallsFailed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartGCFullSpeedCallsInvoked"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartGCFullSpeedCallsFailed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PauseGCCallsInvoked"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PauseGCCallsFailed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StopGCCallsInvoked"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StopGCCallsFailed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FullSMRBandClusterAllocations"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SharedSMRBandClusterAllocations"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCReadLatencyTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCReadLatencyAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCReadLatencyMax"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCTotalReadIOs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCWriteLatencyTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCWriteLatencyAvg"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCWriteLatencyMax"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GCTotalWriteIOs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskFullRequiresGC"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SMRZoneFull"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CMRZoneFull"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "InvalidSectorErrors"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IoDeviceErrors"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteErrors"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReadErrors"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SMRWriteHeadRequeries"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "task_0237(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "task_0238(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UnicodeString SqmStringDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SqmStringDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "272",
+        "version": "0",
+        "event(fields)": "task_0272(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmProcessHashValue, UInt32 SqmStreamRowLength, UInt16 SqmStreamRow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmProcessHashValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SqmStreamRow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "273",
+        "version": "0",
+        "event(fields)": "task_0273(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmProcessHashValue, UInt32 SqmStreamRowLength, UInt32 SqmStreamEntriesSize, Binary SqmStreamEntries, UInt32 SqmStreamFlags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmProcessHashValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamEntriesSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "SqmStreamEntries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "274",
+        "version": "0",
+        "event(fields)": "task_0274(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt64 SqmDWORD64DatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SqmDWORD64DatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "513",
+        "version": "0",
+        "event(fields)": "task_0513(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "514",
+        "version": "0",
+        "event(fields)": "task_0514(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "515",
+        "version": "0",
+        "event(fields)": "task_0515(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "516",
+        "version": "0",
+        "event(fields)": "task_0516(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "517",
+        "version": "0",
+        "event(fields)": "task_0517(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "518",
+        "version": "0",
+        "event(fields)": "task_0518(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeIdLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "519",
+        "version": "0",
+        "event(fields)": "task_0519(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "520",
+        "version": "0",
+        "event(fields)": "task_0520(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "521",
+        "version": "0",
+        "event(fields)": "task_0521(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReFS",
+        "event_id": "522",
+        "version": "0",
+        "event(fields)": "task_0522(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    }
+]

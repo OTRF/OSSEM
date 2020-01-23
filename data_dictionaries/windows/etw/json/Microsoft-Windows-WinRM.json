@@ -1,0 +1,3191 @@
+[
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "WSManAPIInitializeStart()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "WSManAPIInitializeStop(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIInitialize",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "WSManAPIDeinitializeStart()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIDeinitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "WSManAPIDeinitializeStop(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIDeinitialize",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "WSManSessioninitializeStart(UnicodeString connection)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManSessioninitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "connection"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "WSManSessioninitializeStop(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManSessioninitialize",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "WSManSessiondeinitializeStart()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManSessiondeinitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "WSManSessiondeinitializeStop(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManSessiondeinitialize",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "WSManAPIcall(UInt32 optionCode, UnicodeString optionName, UnicodeString optionValue)",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "optionCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "optionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "optionValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart(UnicodeString resourceUri, UnicodeString shellId)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "resourceUri"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "shellId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart13(UnicodeString commandId)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "commandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop14(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart15()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart16()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop28(UnicodeString apiCall)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "apiCall"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "WSManAPIInitializeStop29()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "WSManAPIDeinitializeStop30()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIDeinitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "WSManSessioninitializeStop31()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManSessioninitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "WSManAPIcall32(UInt32 optionCode, UnicodeString optionName, UInt32 errorCode)",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "optionCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "optionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "WSManSessiondeinitializeStop33()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManSessiondeinitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop37(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop38(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop40(UnicodeString operationName, UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "WinRMMIProtocolHandlerStart(UnicodeString applicationID)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMIProtocolHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "applicationID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "WinRMMIProtocolHandlerStop()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMIProtocolHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "WinRMMIProtocolHandlerStop43(UInt32 errorCode, UnicodeString errorMessage)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMIProtocolHandler",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "WinRMMISessionStart(UnicodeString destination)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMISession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "destination"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "WinRMMISessionStop()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMISession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "WinRMMISessionStop46(UInt32 errorCode, UnicodeString errorMessage)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMISession",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "WinRMMIOperationStart(UnicodeString operationType, UnicodeString namespaceName, UnicodeString className)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMIOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "namespaceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "className"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "WinRMMIOperationStop()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMIOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "WinRMMIOperationStop49(UInt32 errorCode, UnicodeString errorMessage)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinRMMIOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "Requesthandling(UInt32 users)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.QuotaViolation",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "users"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "Requesthandling85(UnicodeString senderName, UInt32 concurrentShells)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.QuotaViolation",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "senderName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "concurrentShells"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "Requesthandling86(UInt32 errorCode)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "Requesthandling87(UInt32 errorCode)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "Requesthandling90()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "Requesthandling91(UnicodeString resourceUri)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "resourceUri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "Responsehandling(UnicodeString location)",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "ResponsehandlingStop(UnicodeString operationName)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "Responsehandling135()",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "Responsehandling136()",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "Responsehandling137()",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "Responsehandling138()",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "Responsehandling139()",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "ResponsehandlingStop142(UnicodeString operationName, UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart145(UnicodeString operationName, UnicodeString resourceUri)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "resourceUri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "Userauthentication(UnicodeString authFailureMessage)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authFailureMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "Userauthentication162()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "Userauthentication163(UnicodeString authClient, UnicodeString authServer1, UnicodeString authServer2, UnicodeString authServer3, UnicodeString authServer4, UnicodeString authServer5)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authClient"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authServer1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authServer2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authServer3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authServer4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authServer5"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "Userauthentication164(UnicodeString destinationMachine)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "destinationMachine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "Userauthentication165(UnicodeString authProxy1, UnicodeString authProxy2, UnicodeString authProxy3, UnicodeString authProxy4, UnicodeString authProxy5)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authProxy1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authProxy2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authProxy3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authProxy4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authProxy5"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "Userauthentication171()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "Userauthentication172(UnicodeString machineName, UnicodeString port, UnicodeString error1, UnicodeString error2, UnicodeString error3, UnicodeString error4, UnicodeString error5, UnicodeString error6, UnicodeString error7, UnicodeString error8)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "machineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "port"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "error8"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "Userauthentication173(UnicodeString param1, UnicodeString param2)",
+        "opcode": "",
+        "keywords": "Keyword.Security Keyword.Error",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "192",
+        "version": "0",
+        "event(fields)": "Userauthorization(UInt32 errorCode)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthorization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "193",
+        "version": "0",
+        "event(fields)": "Userauthorization193(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthorization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stopStart()",
+        "opcode": "Start",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop210(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop211()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop212()",
+        "opcode": "Stop",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop213()",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop214()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop215(UnicodeString pluginName, UnicodeString errorcode, UnicodeString errordetail)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "pluginName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorcode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errordetail"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop216(UnicodeString errorcode)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorcode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop217(UnicodeString pluginName, UInt32 errorcode)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "pluginName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorcode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop218(UnicodeString pluginName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "pluginName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "Winrmservicestart/stop219(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmservicestart/stop",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "Winrmconfiguration(UnicodeString message)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmconfiguration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "Winrmconfiguration229(UnicodeString param1, UInt32 param2)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server",
+        "task": "Winrmconfiguration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "Winrmconfiguration230(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Winrmconfiguration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "254",
+        "version": "0",
+        "event(fields)": "task_0()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server Keyword.Transfer",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "255",
+        "version": "0",
+        "event(fields)": "task_0255()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server Keyword.Transfer",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "283",
+        "version": "0",
+        "event(fields)": "WSManAPIcall283(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "284",
+        "version": "0",
+        "event(fields)": "WSManAPIcall284(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "285",
+        "version": "0",
+        "event(fields)": "WSManAPIcall285(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "286",
+        "version": "0",
+        "event(fields)": "WSManAPIcall286(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "287",
+        "version": "0",
+        "event(fields)": "WSManAPIcall287()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "288",
+        "version": "0",
+        "event(fields)": "WSManAPIcall288(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "289",
+        "version": "0",
+        "event(fields)": "WSManAPIcall289(UInt32 parameters, UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "parameters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "290",
+        "version": "0",
+        "event(fields)": "WSManAPIcall290(UnicodeString username, UInt32 errorCode)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "username"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "291",
+        "version": "0",
+        "event(fields)": "WSManAPIcall291(UInt32 errorCode, UnicodeString operation, UnicodeString resourceUri)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operation"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "resourceUri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "292",
+        "version": "0",
+        "event(fields)": "WSManAPIcall292(UnicodeString username, UInt32 errorCode, UInt32 maxAllowedConcurrentShells, UInt32 maxAllowedConcurrentOperations, UInt32 timeslotSize, UInt32 maxAllowedOperationsPerTimeslot)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "username"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxAllowedConcurrentShells"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxAllowedConcurrentOperations"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "timeslotSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxAllowedOperationsPerTimeslot"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "306",
+        "version": "1",
+        "event(fields)": "WSManAPIcallStart306_V1(UnicodeString provider, UnicodeString path)",
+        "opcode": "Start",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "provider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "307",
+        "version": "1",
+        "event(fields)": "WSManAPIcallStop307_V1(UnicodeString provider, UnicodeString path)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "provider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "308",
+        "version": "0",
+        "event(fields)": "WSManAPIcall308(UInt32 Flags, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "309",
+        "version": "0",
+        "event(fields)": "WSManAPIcall309(UInt32 Flags, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "310",
+        "version": "0",
+        "event(fields)": "WSManAPIcall310(UnicodeString Plugin)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Plugin"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "311",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop311(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "312",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart312()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "313",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart313()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "314",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart314()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "315",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop315(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "316",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart316()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "317",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop317(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "318",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart318()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "319",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop319(UInt32 inputErrorCode, UnicodeString languageCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "inputErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "languageCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "320",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart320(UInt32 optionCode, UnicodeString optionName)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "optionCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "optionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "321",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart321()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "322",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop322(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "323",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart323()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "324",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop324(UnicodeString operationName)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "325",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart325(UnicodeString argument)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "argument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "326",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop326(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "327",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart327(UnicodeString argument)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "argument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "328",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop328(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "329",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart329(UnicodeString argument)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "argument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "330",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop330(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "331",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart331(UnicodeString argument)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "argument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "332",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop332(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "333",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStart333(UnicodeString argument)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "argument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "334",
+        "version": "0",
+        "event(fields)": "WSManAPIcallStop334(UInt32 errorCode)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WSManAPIcall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "512",
+        "version": "0",
+        "event(fields)": "Auto_detectingproxysettingsStart()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "Auto_detectingproxysettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "513",
+        "version": "0",
+        "event(fields)": "Auto_detectingproxysettingsStop(UnicodeString proxyList, UnicodeString bypassList)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "Auto_detectingproxysettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxyList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "bypassList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "514",
+        "version": "0",
+        "event(fields)": "Auto_detectingproxysettings(UnicodeString proxyList, UnicodeString bypassList)",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Auto_detectingproxysettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxyList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "bypassList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "771",
+        "version": "0",
+        "event(fields)": "Requesthandling771(UInt32 index, UInt32 totalChunks, UInt32 bytes, UnicodeString SoapDocument)",
+        "opcode": "",
+        "keywords": "Keyword.SoapTrace Keyword.Client",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalChunks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SoapDocument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "772",
+        "version": "0",
+        "event(fields)": "Requesthandling772(UInt32 index, UInt32 totalChunks, UInt32 bytes, UnicodeString SoapDocument)",
+        "opcode": "",
+        "keywords": "Keyword.SoapTrace Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalChunks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SoapDocument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "774",
+        "version": "0",
+        "event(fields)": "Requesthandling774(UnicodeString senderName, UInt32 concurrentOperations)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.QuotaViolation",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "senderName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "concurrentOperations"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "775",
+        "version": "0",
+        "event(fields)": "Requesthandling775(UInt32 requests, UInt32 windowTime, UnicodeString senderName, UInt32 delayHint)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.QuotaViolation",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "requests"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "windowTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "senderName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "delayHint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "776",
+        "version": "0",
+        "event(fields)": "Requesthandling776(UInt32 requests, UInt32 windowTime, UnicodeString senderName, UInt32 delayHint)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.QuotaViolation",
+        "task": "Requesthandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "requests"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "windowTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "senderName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "delayHint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "779",
+        "version": "0",
+        "event(fields)": "Requesthandling779(UInt32 index, UInt32 totalChunks, UInt32 bytes, AnsiString SoapDocument)",
+        "opcode": "",
+        "keywords": "Keyword.SoapTrace Keyword.Client",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalChunks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SoapDocument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "780",
+        "version": "0",
+        "event(fields)": "Requesthandling780(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "781",
+        "version": "0",
+        "event(fields)": "Requesthandling781()",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "782",
+        "version": "0",
+        "event(fields)": "Requesthandling782()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "783",
+        "version": "0",
+        "event(fields)": "Requesthandling783(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "784",
+        "version": "0",
+        "event(fields)": "Requesthandling784(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "785",
+        "version": "0",
+        "event(fields)": "Requesthandling785(UnicodeString userName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "userName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "786",
+        "version": "0",
+        "event(fields)": "Requesthandling786(UnicodeString userName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "userName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "787",
+        "version": "0",
+        "event(fields)": "RequesthandlingStart(UnicodeString operationName, UnicodeString url, UInt32 port)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "port"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "788",
+        "version": "0",
+        "event(fields)": "Requesthandling788(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "789",
+        "version": "0",
+        "event(fields)": "Requesthandling789(UnicodeString operation, UnicodeString resourceURI)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operation"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "resourceURI"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "790",
+        "version": "0",
+        "event(fields)": "RequesthandlingStop(UnicodeString operation)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "791",
+        "version": "0",
+        "event(fields)": "Requesthandling791(UInt32 errorCode)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Requesthandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "Responsehandling1025(UnicodeString actionUri)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "actionUri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "Responsehandling1026(UInt32 index, UInt32 totalChunks, UInt32 bytes, UnicodeString SoapDocument)",
+        "opcode": "",
+        "keywords": "Keyword.SoapTrace Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalChunks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SoapDocument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "Responsehandling1027(UInt32 index, UInt32 totalChunks, UInt32 bytes, UnicodeString SoapDocument)",
+        "opcode": "",
+        "keywords": "Keyword.SoapTrace Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalChunks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SoapDocument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1041",
+        "version": "0",
+        "event(fields)": "Responsehandling1041()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1043",
+        "version": "0",
+        "event(fields)": "Responsehandling1043()",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1044",
+        "version": "0",
+        "event(fields)": "Responsehandling1044(UInt32 index, UInt32 totalChunks, UInt32 bytes, AnsiString SoapDocument)",
+        "opcode": "",
+        "keywords": "Keyword.SoapTrace Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalChunks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SoapDocument"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1045",
+        "version": "0",
+        "event(fields)": "ResponsehandlingStart()",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1046",
+        "version": "0",
+        "event(fields)": "Responsehandling1046(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1047",
+        "version": "0",
+        "event(fields)": "ResponsehandlingStart1047(UnicodeString status)",
+        "opcode": "Start",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1048",
+        "version": "0",
+        "event(fields)": "Responsehandling1048(UInt16 httpStatus, UInt32 errorCode, UnicodeString extraErrorInfo1, UnicodeString extraErrorInfo2)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "httpStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraErrorInfo1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraErrorInfo2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1049",
+        "version": "0",
+        "event(fields)": "Responsehandling1049(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1050",
+        "version": "0",
+        "event(fields)": "Responsehandling1050(UnicodeString operationName)",
+        "opcode": "",
+        "keywords": "Keyword.Server",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1051",
+        "version": "0",
+        "event(fields)": "Responsehandling1051(UInt32 status)",
+        "opcode": "",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1052",
+        "version": "0",
+        "event(fields)": "ResponsehandlingStop1052(UnicodeString operationName)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "Responsehandling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1053",
+        "version": "0",
+        "event(fields)": "WinrmOperationStop(UnicodeString operationName)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinrmOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1054",
+        "version": "0",
+        "event(fields)": "WinrmOperationStop1054(UnicodeString operationName)",
+        "opcode": "Stop",
+        "keywords": "Keyword.Client",
+        "task": "WinrmOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "operationName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1291",
+        "version": "0",
+        "event(fields)": "Userauthentication1291()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1292",
+        "version": "0",
+        "event(fields)": "Userauthentication1292()",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1293",
+        "version": "0",
+        "event(fields)": "Userauthentication1293(UnicodeString auth)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "auth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1294",
+        "version": "0",
+        "event(fields)": "Userauthentication1294()",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1295",
+        "version": "0",
+        "event(fields)": "Userauthentication1295(UnicodeString username, UnicodeString authenticationMechanism)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authenticationMechanism"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1296",
+        "version": "0",
+        "event(fields)": "Userauthentication1296(UnicodeString subject)",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "subject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1297",
+        "version": "0",
+        "event(fields)": "Userauthentication1297(UnicodeString authentication)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Security",
+        "task": "Userauthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "authentication"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1536",
+        "version": "0",
+        "event(fields)": "Userauthorization1536()",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthorization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1537",
+        "version": "0",
+        "event(fields)": "Userauthorization1537()",
+        "opcode": "",
+        "keywords": "Keyword.Server Keyword.Security",
+        "task": "Userauthorization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1840",
+        "version": "0",
+        "event(fields)": "WinrmOperation(UInt32 errorCode, UnicodeString errorString, UnicodeString extraInformation1, UnicodeString extraInformation2, UnicodeString extraInformation3, UnicodeString extraInformation4)",
+        "opcode": "",
+        "keywords": "Keyword.Error",
+        "task": "WinrmOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorString"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1841",
+        "version": "0",
+        "event(fields)": "WinrmOperation1841(UInt32 errorCode, UnicodeString extraInformation1, UnicodeString extraInformation2, UnicodeString extraInformation3, UnicodeString extraInformation4)",
+        "opcode": "",
+        "keywords": "Keyword.Error",
+        "task": "WinrmOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1842",
+        "version": "0",
+        "event(fields)": "WinrmOperation1842(UInt32 level, UnicodeString extraInformation1, UnicodeString extraInformation2, UnicodeString extraInformation3, UnicodeString extraInformation4)",
+        "opcode": "",
+        "keywords": "Keyword.Error",
+        "task": "WinrmOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "level"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "extraInformation4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "1843",
+        "version": "0",
+        "event(fields)": "Userauthentication1843(UnicodeString clientIP)",
+        "opcode": "",
+        "keywords": "Keyword.Security Keyword.Error",
+        "task": "Userauthentication",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "clientIP"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "2048",
+        "version": "0",
+        "event(fields)": "WinrmVerboseMessage(UnicodeString param1, UInt32 param2, UnicodeString param3, UnicodeString param4)",
+        "opcode": "",
+        "keywords": "Keyword.Client Keyword.Server",
+        "task": "WinrmVerboseMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRM",
+        "event_id": "2049",
+        "version": "0",
+        "event(fields)": "WinrmVerboseMessage2049(UnicodeString param1, UInt32 param2, UnicodeString param3, UInt32 param4, UnicodeString param5)",
+        "opcode": "",
+        "keywords": "Keyword.Error",
+        "task": "WinrmVerboseMessage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            }
+        ]
+    }
+]

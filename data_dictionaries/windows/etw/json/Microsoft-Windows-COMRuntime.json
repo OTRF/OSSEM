@@ -1,0 +1,702 @@
+[
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "CliModalLoopDelay(UInt32 Flags, UInt32 BlockTimeMs, UInt32 TotalTimeMs)",
+        "opcode": "",
+        "keywords": "CliModalLoop",
+        "task": "CliModalLoopDelay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalTimeMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ComCallDelay(UInt32 Flags, UInt32 CallTimeMs, UInt32 CallResult, UInt32 TargetThreadId, UInt32 TargetProcessId, UInt32 TargetMethod, GUID TargetInterface)",
+        "opcode": "",
+        "keywords": "ComCallWaitAnalysis",
+        "task": "ComCallDelay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetMethod"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetInterface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DropKeyboardMessage(UInt32 ApartmentType)",
+        "opcode": "",
+        "keywords": "DropInputMessage",
+        "task": "DropKeyboardMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ApartmentType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DropMouseMessage(UInt32 ApartmentType)",
+        "opcode": "",
+        "keywords": "DropInputMessage",
+        "task": "DropMouseMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ApartmentType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DropQueueSyncMessage(UInt32 ApartmentType)",
+        "opcode": "",
+        "keywords": "DropInputMessage",
+        "task": "DropQueueSyncMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ApartmentType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "DropPointerMessage(UInt32 ApartmentType, UInt32 Message)",
+        "opcode": "",
+        "keywords": "DropInputMessage",
+        "task": "DropPointerMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ApartmentType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "PrematureStubRundown(GUID IID, UInt32 Method, GUID IPID, UInt32 CallType)",
+        "opcode": "",
+        "keywords": "PrematureStubRundown",
+        "task": "PrematureStubRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "IPID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18205",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18207",
+        "version": "0",
+        "event(fields)": "task_018207(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8, UnicodeString param9, UnicodeString param10)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param9"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param10"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18208",
+        "version": "0",
+        "event(fields)": "task_018208(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8, UnicodeString param9, UnicodeString param10, UnicodeString param11)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param9"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param10"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param11"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18209",
+        "version": "0",
+        "event(fields)": "task_018209(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8, UnicodeString param9, UnicodeString param10)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param9"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param10"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18210",
+        "version": "0",
+        "event(fields)": "task_018210(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8, UnicodeString param9)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param9"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18211",
+        "version": "0",
+        "event(fields)": "task_018211(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8, UnicodeString param9)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param9"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18212",
+        "version": "0",
+        "event(fields)": "task_018212(UnicodeString param1, UnicodeString param2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18213",
+        "version": "0",
+        "event(fields)": "task_018213(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18214",
+        "version": "0",
+        "event(fields)": "task_018214(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18215",
+        "version": "0",
+        "event(fields)": "task_018215(UnicodeString param1, UnicodeString param2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18216",
+        "version": "0",
+        "event(fields)": "task_018216(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18219",
+        "version": "0",
+        "event(fields)": "task_018219(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18220",
+        "version": "0",
+        "event(fields)": "task_0PCODE_192pcode_192(UnicodeString param1)",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "18221",
+        "version": "0",
+        "event(fields)": "task_018221(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-COMRuntime",
+        "event_id": "32769",
+        "version": "0",
+        "event(fields)": "task_032769(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    }
+]

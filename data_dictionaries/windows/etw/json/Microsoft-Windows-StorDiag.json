@@ -1,0 +1,2336 @@
+[
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "ClassPnPIOrequestcompleteClassPnP_IO_End_V1(UInt64 RequestProcessTime, Pointer OriginalIrp, Pointer Irp, UInt8 MajorFunction, UInt8 RequestType, UInt8 SrbStatus, UInt32 DeviceNumber)",
+        "opcode": "ClassPnP_IO_End",
+        "keywords": "ClassPnPAllIO",
+        "task": "ClassPnPIOrequestcomplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestProcessTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "ClassPnPEnqueueIdleIOrequestClassPnP_Enqueue_IdleIO_V1(Pointer Irp, UInt32 CurrentIOCount, UInt32 ActiveIOCount, UInt32 DeviceNumber)",
+        "opcode": "ClassPnP_Enqueue_IdleIO",
+        "keywords": "ClassPnPIdleIO",
+        "task": "ClassPnPEnqueueIdleIOrequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentIOCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveIOCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "ClassPnPBoostIdleIOrequestClassPnP_Boost_IdleIO_V1(Pointer Irp, Pointer Thread, UInt32 CurrentIOCount, UInt32 ActiveIOCount, UInt32 DeviceNumber)",
+        "opcode": "ClassPnP_Boost_IdleIO",
+        "keywords": "ClassPnPIdleIO",
+        "task": "ClassPnPBoostIdleIOrequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Thread"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentIOCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveIOCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "Class_V1(UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer Irp, UInt8 Command, UInt8 ServiceAction, UInt8 SrbStatus, Pointer OriginalIrp)",
+        "opcode": "",
+        "keywords": "CopyOffload_IO_Performance IO_Performance",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ServiceAction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest._V1(UInt32 DeviceNumber, Pointer Irp, Boolean IsWrite, HexInt64 FirstStartingLBA, UInt64 LengthOfTransferinbytes)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "CopyOffload_Read Read",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsWrite"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "FirstStartingLBA"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest.6_V1(UInt32 DeviceNumber, Pointer Irp, Boolean IsWrite, HexInt64 FirstStartingLBA, UInt64 LengthOfTransferinbytes)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "CopyOffload_Write Write",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsWrite"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "FirstStartingLBA"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest._V1(UInt32 DeviceNumber, Pointer Irp, UInt64 TransferredLength, HexInt32 Flags, HexInt32 NTStatus)",
+        "opcode": "Completionofrequest.",
+        "keywords": "CopyOffload_Read CopyOffload_Write Read Write",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferredLength"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "Class8_V1(UInt32 DeviceNumber, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, UInt32 CurrentRetryCount)",
+        "opcode": "",
+        "keywords": "SenseData",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentRetryCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "201",
+        "version": "1",
+        "event(fields)": "Class201_V1(UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer Irp, UInt8 Command, UInt8 SrbStatus, Pointer OriginalIrp)",
+        "opcode": "",
+        "keywords": "IO_Performance",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "202",
+        "version": "2",
+        "event(fields)": "ClassDispatchingofrequest.202_V2(UInt32 DeviceNumber, Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "203",
+        "version": "2",
+        "event(fields)": "ClassDispatchingofrequest.203_V2(UInt32 DeviceNumber, Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "204",
+        "version": "2",
+        "event(fields)": "ClassDispatchingofrequest.204_V2(UInt32 DeviceNumber, Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read PagingRead",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "205",
+        "version": "2",
+        "event(fields)": "ClassDispatchingofrequest.205_V2(UInt32 DeviceNumber, Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write PagingWrite",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "206",
+        "version": "2",
+        "event(fields)": "ClassDispatchingofrequest.206_V2(UInt32 DeviceNumber, Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read LowMemoryRead",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "207",
+        "version": "2",
+        "event(fields)": "ClassDispatchingofrequest.207_V2(UInt32 DeviceNumber, Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write LowMemoryWrite",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "208",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.208_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "208",
+        "version": "2",
+        "event(fields)": "ClassCompletionofrequest.208_V2(UInt32 DeviceNumber, Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp, UInt32 NumberOfTimesRetried)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfTimesRetried"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "209",
+        "version": "1",
+        "event(fields)": "ClassRetryhandling._V1(UInt32 DeviceNumber, Pointer Irp, UInt32 CurrentRetryCount)",
+        "opcode": "Retryhandling.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentRetryCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "209",
+        "version": "2",
+        "event(fields)": "ClassRetryhandling._V2(UInt32 DeviceNumber, Pointer Irp, UInt32 CurrentRetryCount, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ)",
+        "opcode": "Retryhandling.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentRetryCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "210",
+        "version": "1",
+        "event(fields)": "Class210_V1(UInt32 DeviceNumber, Pointer Irp, UInt8 Bus, UInt8 Target, UInt8 LUN)",
+        "opcode": "",
+        "keywords": "Flush",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Bus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "211",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.211_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Flush",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "212",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest.212_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "IOCTL",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "213",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest.213_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "WMI",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "214",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.214_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "IOCTL WMI",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "215",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest.215_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 MinorFunction, UInt8 Type, HexInt32 OldState, HexInt32 NewState, HexInt32 Action, HexInt32 PowerStateContext)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Power",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PowerStateContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "216",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.216_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Power",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "217",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest.217_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 MinorFunction, HexInt32 Type, Pointer DeviceObject)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "PnP",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "218",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.218_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "PnP",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "219",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.219_V1(UInt32 DeviceNumber, Pointer Irp, UInt32 NumberOfChildren, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "PnP Enum",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfChildren"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "220",
+        "version": "1",
+        "event(fields)": "ClassQueue_relatedoperation._V1(UInt32 DeviceNumber, HexInt32 QueueTag, UInt8 Operation, HexInt32 Status)",
+        "opcode": "Queue_relatedoperation.",
+        "keywords": "Queue",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "QueueTag"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "221",
+        "version": "1",
+        "event(fields)": "ClassDispatchingofrequest.221_V1(UInt32 DeviceNumber, Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "PassThrough IOCTL",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "222",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.222_V1(GUID DeviceGUID, UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer UpperLevelIrp, HexInt32 IrpStatus, UInt32 DsmFlags, UInt32 DataSetRangesCount, UInt32 DataSetRanges)",
+        "opcode": "Completionofrequest.",
+        "keywords": "keyword_400000000000",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UpperLevelIrp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DsmFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSetRangesCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSetRanges"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "223",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.223_V1(GUID DeviceGUID, UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer OriginalIrp, UInt8 SrbStatus, HexInt32 SrbFlags, UInt64 MaxAllowedLbaCount, UInt64 MaxAllowedBlockDescriptorCount, UInt32 LbaSizeinBytes, UInt32 Srb_BlockDescriptorCount, Float Srb_BlockDescriptors)",
+        "opcode": "Completionofrequest.",
+        "keywords": "keyword_400000000000",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SrbFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxAllowedLbaCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxAllowedBlockDescriptorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LbaSizeinBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Srb_BlockDescriptorCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Srb_BlockDescriptors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "224",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.224_V1(UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer UpperLevelIrp, HexInt32 IrpStatus, Boolean IsPartial, UInt64 StartingOffset, UInt32 BufferSize)",
+        "opcode": "Completionofrequest.",
+        "keywords": "SMR IOCTL",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UpperLevelIrp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsPartial"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartingOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "225",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.225_V1(UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer UpperLevelIrp, HexInt32 IrpStatus, Boolean ResetAll, UInt64 StartingOffset)",
+        "opcode": "Completionofrequest.",
+        "keywords": "SMR IOCTL",
+        "task": "Class",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UpperLevelIrp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ResetAll"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartingOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "226",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.226_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, HexInt32 IoctlControlCode)",
+        "opcode": "Completionofrequest.",
+        "keywords": "IOCTL",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IoctlControlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "500",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.500_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, HexInt64 LBA, UInt64 TransferByteCount, UInt8 NvCachePriority, UInt32 PagingPriority)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferByteCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagingPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "501",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.501_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, HexInt64 LBA, UInt64 TransferByteCount, UInt8 NvCachePriority, UInt32 PagingPriority)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Write",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferByteCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagingPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "502",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.502_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, HexInt64 LBA, UInt64 TransferByteCount, UInt8 NvCachePriority, UInt32 PagingPriority)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read PagingRead",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferByteCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagingPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "503",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.503_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, HexInt64 LBA, UInt64 TransferByteCount, UInt8 NvCachePriority, UInt32 PagingPriority)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Write PagingWrite",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferByteCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NvCachePriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagingPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "504",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.504_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, HexInt32 IoctlControlCode)",
+        "opcode": "Completionofrequest.",
+        "keywords": "IOCTL",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IoctlControlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "505",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.505_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 DownLevelIrpStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AdditionalSenseCode, UInt8 AdditionalSenseCodeQualifier, UInt32 CdbByteCount, Binary CdbBytes, UInt8 NumberOfRetriesDone)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read PagingRead LowMemoryRead",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DownLevelIrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AdditionalSenseCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AdditionalSenseCodeQualifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CdbByteCount"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CdbBytes"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NumberOfRetriesDone"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "506",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.506_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 DownLevelIrpStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AdditionalSenseCode, UInt8 AdditionalSenseCodeQualifier, UInt32 CdbByteCount, Binary CdbBytes, UInt8 NumberOfRetriesDone)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Write PagingWrite LowMemoryWrite",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DownLevelIrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AdditionalSenseCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AdditionalSenseCodeQualifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CdbByteCount"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CdbBytes"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NumberOfRetriesDone"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "507",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.507_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 DownLevelIrpStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AdditionalSenseCode, UInt8 AdditionalSenseCodeQualifier, UInt32 CdbByteCount, Binary CdbBytes, UInt8 NumberOfRetriesDone)",
+        "opcode": "Completionofrequest.",
+        "keywords": "NonReadWrite",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DownLevelIrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AdditionalSenseCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AdditionalSenseCodeQualifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CdbByteCount"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CdbBytes"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NumberOfRetriesDone"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "508",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.508_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 DownLevelIrpStatus, UInt8 SrbStatus, HexInt32 SrbFunction, HexInt32 SrbFlags, UInt8 NumberOfRetriesDone)",
+        "opcode": "Completionofrequest.",
+        "keywords": "NonReadWrite",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DownLevelIrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SrbFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SrbFlags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NumberOfRetriesDone"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "509",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.509_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, UInt8 IrpMinorFunction, UInt32 PnPType, Boolean PnPUsageInPath, UInt32 CurrentPnpState, UInt32 PreviousPnpState, UInt32 PagingPathUsageCount, UInt32 HibernationPathUsageCount, UInt32 DumpPathUsageCount)",
+        "opcode": "Completionofrequest.",
+        "keywords": "PnP",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IrpMinorFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PnPType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PnPUsageInPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentPnpState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousPnpState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagingPathUsageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HibernationPathUsageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DumpPathUsageCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "510",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.510_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, UInt8 IrpMinorFunction, UInt32 PowerSystemContext, UInt32 PowerStateType, UInt32 PowerState, UInt32 PowerShutdownType, UInt32 CurrentPowerState, UInt32 ContextPowerChangeState)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Power",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IrpMinorFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerSystemContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerStateType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerShutdownType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentPowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextPowerChangeState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "511",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.511_V1(GUID DeviceGUID, UInt32 DeviceNumber, AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber, HexInt32 IrpStatus, UInt8 IrpMinorFunction, GUID WmiDataBlockGUID, Pointer WmiProviderId)",
+        "opcode": "Completionofrequest.",
+        "keywords": "WMI",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Vendor"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FirmwareVersion"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IrpStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IrpMinorFunction"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "WmiDataBlockGUID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "WmiProviderId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "512",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.512_V1(GUID DeviceGUID, HexInt32 Status, UInt32 InputBufferLength, UInt32 OutputBufferLength, UInt32 DeviceNumber, UInt32 PortDriverCodeSet, UInt32 FirmwareGetInfoSupport, UInt32 QueryFlag)",
+        "opcode": "Completionofrequest.",
+        "keywords": "FirmwareUpdate",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortDriverCodeSet"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FirmwareGetInfoSupport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "513",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.513_V1(GUID DeviceGUID, HexInt32 Status, UInt32 InputBufferLength, UInt32 DeviceNumber, UInt32 PortDriverCodeSet, UInt32 FirmwareGetInfoSupport, UInt8 HWFirmwareSupportUpgrade, UInt32 ImagePayloadAlignment, UInt8 SlotCount, UInt32 SlotIndex, UInt32 FWImageVersion, UInt32 FWSize, UInt8 FWSlot, UInt64 FWImageBufferSize, UInt32 Flags, UInt64 FWImageOffset)",
+        "opcode": "Completionofrequest.",
+        "keywords": "FirmwareUpdate",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortDriverCodeSet"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FirmwareGetInfoSupport"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "HWFirmwareSupportUpgrade"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImagePayloadAlignment"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SlotCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FWImageVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FWSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FWSlot"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FWImageBufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FWImageOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-StorDiag",
+        "event_id": "514",
+        "version": "1",
+        "event(fields)": "ClassCompletionofrequest.514_V1(GUID DeviceGUID, HexInt32 Status, UInt32 InputBufferLength, UInt32 DeviceNumber, UInt32 PortDriverCodeSet, UInt32 FirmwareGetInfoSupport, UInt8 HWFirmwareSupportUpgrade, UInt8 SlotCount, UInt32 SlotIndex, UInt32 FWImageVersion, UInt32 FWSize, UInt8 FWSlot, UInt32 Flags)",
+        "opcode": "Completionofrequest.",
+        "keywords": "FirmwareUpdate",
+        "task": "Class",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGUID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortDriverCodeSet"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FirmwareGetInfoSupport"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "HWFirmwareSupportUpgrade"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SlotCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FWImageVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FWSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FWSlot"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    }
+]

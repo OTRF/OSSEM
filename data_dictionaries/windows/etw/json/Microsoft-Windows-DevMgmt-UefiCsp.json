@@ -1,0 +1,42 @@
+[
+    {
+        "provider": "Microsoft-Windows-DevMgmt-UefiCsp",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "None(UnicodeString FunctionName)",
+        "opcode": "",
+        "keywords": "Api",
+        "task": "None",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DevMgmt-UefiCsp",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "None11(UnicodeString ErrorString, HexInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorString"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

@@ -1,0 +1,3386 @@
+[
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "ICSPNode_Add_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_Add_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ICSPNode_Add_TaskStop(UnicodeString URI, UnicodeString URICHILD, UInt32 NodeOptions, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_Add_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URICHILD"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ICSPNode_DeleteChild_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_DeleteChild_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ICSPNode_DeleteChild_TaskStop(UnicodeString URI1, UnicodeString URI2, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_DeleteChild_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "ICSPNode_Clear_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_Clear_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "ICSPNode_Clear_TaskStop(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_Clear_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "ICSPNode_SetValue_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_SetValue_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "ICSPNode_SetValue_TaskStop(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_SetValue_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetProperty_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_GetProperty_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetProperty_TaskStop(GUID Property, UnicodeString Value, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_GetProperty_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "ICSPNode_SetProperty_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_SetProperty_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ICSPNode_SetProperty_TaskStop(GUID Property, UnicodeString Value, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_SetProperty_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ICSPNode_Copy_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_Copy_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ICSPNode_Copy_TaskStop(UnicodeString URI, UInt32 NodeOptions, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_Copy_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "ICSPNode_Execute_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_Execute_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "ICSPNode_Execute_TaskStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_Execute_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "ICSPNode_Move_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_Move_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "ICSPNode_Move_TaskStop(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_Move_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetValue_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_GetValue_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetValue_TaskStop(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_GetValue_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "ICSPNode_DeleteProperty_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_DeleteProperty_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "ICSPNode_DeleteProperty_TaskStop(GUID Guid, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_DeleteProperty_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Guid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetPropertyIdentifiers_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_GetPropertyIdentifiers_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetPropertyIdentifiers_TaskStop(Int32 PropCount, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_GetPropertyIdentifiers_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PropCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetChildNodeNames_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ICSPNode_GetChildNodeNames_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetChildNodeNames_TaskStop(UInt32 ChildCount, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSPNode_GetChildNodeNames_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ChildCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 CmdType, HexInt32 Result)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CmdType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "None(UInt32 CmdType, HexInt32 Result)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "None",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CmdType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "None28(UInt32 CmdType, Boolean IsRecovery, HexInt32 Result)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "None",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CmdType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsRecovery"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "None29(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "None30(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "None",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "None31(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "None32(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "task_0Stop(UnicodeString URI, HexInt32 NodeOptions, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NodeOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "ICSP_ConfigManagerNotification_TaskStop(UInt32 Notification, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "ICSP_ConfigManagerNotification_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Notification"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ICSP_ConfigManagerNotification_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance Trace",
+        "task": "ICSP_ConfigManagerNotification_Task",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStart55()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStop56(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackCopyStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackCopyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackCopyStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackCopyState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackCopyStateStart59()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackCopyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackCopyStateStop60(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackCopyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeleteChildStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackDeleteChildState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeleteChildStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackDeleteChildState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeleteChildStateStart63()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackDeleteChildState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeleteChildStateStop64(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackDeleteChildState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStart67()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStop68(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStart69()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStop70(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackExecuteStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackExecuteState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackExecuteStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackExecuteState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackMoveStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackMoveState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackMoveStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackMoveState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackMoveStateStart75()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackMoveState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackMoveStateStop76(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackMoveState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetValueStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackSetValueState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetValueStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetValueState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetValueStateStart79()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackSetValueState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetValueStateStop80(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetValueState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetPropertyStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackSetPropertyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetPropertyStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetPropertyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetPropertyStateStart83()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackSetPropertyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetPropertyStateStop84(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetPropertyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeletePropertyStateStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackDeletePropertyState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeletePropertyStateStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackDeletePropertyState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackAddStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackAdd",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackAddDCStop(UInt32 Result)",
+        "opcode": "DC_Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackAddStart89()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackAdd",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackAddStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackCopyStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackCopy",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackCopyStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackCopy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackCopyStart93()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackCopy",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackCopyStop94(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackCopy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackDeleteChildStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackDeleteChild",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackDeleteChildStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackDeleteChild",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackDeleteChildStart97()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackDeleteChild",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackDeleteChildStop98(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackDeleteChild",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStart99()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStop102(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStart103()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStop104(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackExecuteStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackExecute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackExecuteStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackMoveStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackMove",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackMoveStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackMove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackMoveStart109()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackMove",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackMoveStop110(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackMove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetValueStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackSetValue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetValueStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackSetValue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetValueStart113()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackSetValue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetValueStop114(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackSetValue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "task_0Start()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetPropertyStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackSetProperty",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetPropertyStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackSetProperty",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetPropertyStart118()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_RollbackSetProperty",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetPropertyStop119(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_RollbackSetProperty",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_CommitStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "CNodeWrapper_Commit",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_CommitStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "CNodeWrapper_Commit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "None122(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "IConfigManager2_Execute_TaskStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "IConfigManager2_Execute_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "IConfigManager2_Execute_TaskStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Performance Trace",
+        "task": "IConfigManager2_Execute_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "IConfigManager2_Execute_TaskStop125(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "IConfigManager2_Execute_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "task_0Stop126(UnicodeString URI, HexInt32 NodeOptions, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NodeOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "ICSPNode_Add_TaskStop127(UnicodeString URI, UnicodeString URICHILD, UInt32 NodeOptions, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_Add_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URICHILD"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "ICSPNode_DeleteChild_TaskStop128(UnicodeString URI1, UnicodeString URI2, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_DeleteChild_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "ICSPNode_Clear_TaskStop129(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_Clear_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "ICSPNode_SetValue_TaskStop130(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_SetValue_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetProperty_TaskStop131(GUID Property, UnicodeString Value, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_GetProperty_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "ICSPNode_SetProperty_TaskStop132(GUID Property, UnicodeString Value, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_SetProperty_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "ICSPNode_Copy_TaskStop133(UnicodeString URI, UInt32 NodeOptions, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_Copy_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "ICSPNode_Execute_TaskStop134(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_Execute_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "ICSPNode_Move_TaskStop135(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_Move_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetValue_TaskStop136(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_GetValue_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "ICSPNode_DeleteProperty_TaskStop137(GUID Guid, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_DeleteProperty_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Guid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetPropertyIdentifiers_TaskStop138(Int32 PropCount, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_GetPropertyIdentifiers_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PropCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "ICSPNode_GetChildNodeNames_TaskStop139(UInt32 ChildCount, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSPNode_GetChildNodeNames_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ChildCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStop140(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStop141(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackCopyStateStop142(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackCopyState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackCopyStateStop143(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackCopyState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeleteChildStateStop144(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackDeleteChildState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeleteChildStateStop145(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackDeleteChildState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStop146(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStop147(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackClearStateStop148(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackClearState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackExecuteStateStop149(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackExecuteState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackMoveStateStop150(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackMoveState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackMoveStateStop151(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackMoveState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetValueStateDCStop(UInt32 Result)",
+        "opcode": "DC_Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetValueState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetValueStateDCStop153(UInt32 Result)",
+        "opcode": "DC_Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetValueState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetPropertyStateDCStop(UInt32 Result)",
+        "opcode": "DC_Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetPropertyState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackSetPropertyStateStop155(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackSetPropertyState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackDeletePropertyStateStop156(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackDeletePropertyState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddStateStop157(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackAddStop158(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackAdd",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackCopyStop159(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackCopy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackCopyStop160(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackCopy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackDeleteChildStop161(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackDeleteChild",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackDeleteChildStop162(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackDeleteChild",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStop163(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStop164(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackClearStop165(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackClear",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackExecuteStop166(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackExecute",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "167",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackMoveDCStop(UInt32 Result)",
+        "opcode": "DC_Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackMove",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackMoveStop168(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackMove",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetValueStop169(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackSetValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetValueStop170(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackSetValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetPropertyStop171(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackSetProperty",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_RollbackSetPropertyStop172(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_RollbackSetProperty",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_CommitStop173(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CNodeWrapper_Commit",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "ICSP_ConfigManagerNotification_TaskStop174(UInt32 Notification, UnicodeString URI, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "ICSP_ConfigManagerNotification_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Notification"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "CCSPCacheEntry_AcquireCSPMutex_TaskStop(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CCSPCacheEntry_AcquireCSPMutex_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "CCSPCacheEntry_AcquireCSPMutex_TaskStop176(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CCSPCacheEntry_AcquireCSPMutex_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "CCSPCacheEntry_AcquireCSPMutex_TaskStop177(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CCSPCacheEntry_AcquireCSPMutex_Task",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "CCSPCacheEntry_ReleaseCSPMutex_TaskStop(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "Error Performance Trace",
+        "task": "CCSPCacheEntry_ReleaseCSPMutex_Task",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "task_0179(UInt32 CmdType, UnicodeString TrackedURI, HexInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CmdType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TrackedURI"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "None180(UInt32 CmdType, HexInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CmdType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "None181(UInt32 CmdType, Boolean IsRecovery, HexInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CmdType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsRecovery"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "None182(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "None183(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "184",
+        "version": "0",
+        "event(fields)": "None184(UInt32 hr1, UInt32 hr2, UInt32 hr3)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "None185(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "186",
+        "version": "0",
+        "event(fields)": "None186(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "None187(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "188",
+        "version": "0",
+        "event(fields)": "None188(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "None189(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "190",
+        "version": "0",
+        "event(fields)": "None190(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "191",
+        "version": "0",
+        "event(fields)": "None191(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "192",
+        "version": "0",
+        "event(fields)": "None192(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "193",
+        "version": "0",
+        "event(fields)": "None193(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "194",
+        "version": "0",
+        "event(fields)": "None194(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "195",
+        "version": "0",
+        "event(fields)": "None195(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "196",
+        "version": "0",
+        "event(fields)": "None196(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "None200(UnicodeString UriPath, Boolean IsAllowed, HexInt32 Hresult)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UriPath"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsAllowed"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "None201(UnicodeString UriPath, Boolean IsAllowed, HexInt32 Hresult)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UriPath"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsAllowed"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "None202(UInt32 Ccmdtype, UnicodeString Resourceuri)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Ccmdtype"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Resourceuri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "None203(UInt32 hr1, UInt32 hr2, UInt32 hr3)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "None204(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "None205(UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "None",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-ConfigManager2",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "CNodeWrapper_PersistRollbackAddState(UnicodeString StringOne, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Trace",
+        "task": "CNodeWrapper_PersistRollbackAddState",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringOne"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    }
+]

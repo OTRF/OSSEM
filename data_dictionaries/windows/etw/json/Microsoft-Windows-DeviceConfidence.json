@@ -1,0 +1,94 @@
+[
+    {
+        "provider": "Microsoft-Windows-DeviceConfidence",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "DisplayConsentPromptStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DisplayConsentPrompt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DeviceConfidence",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "DisplayConsentPromptStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DisplayConsentPrompt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DeviceConfidence",
+        "event_id": "2000",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString packageSid, UnicodeString capabilityName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "packageSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "capabilityName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DeviceConfidence",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "task_02001(UnicodeString packageSid, UInt32 error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "packageSid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DeviceConfidence",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "task_02002(UnicodeString packageSid, UInt32 error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "packageSid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            }
+        ]
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "provider": "Microsoft-Windows-Security-ExchangeActiveSyncProvisioning",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "EAS_REGPROV(UnicodeString DllPath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EAS_REGPROV",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DllPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Security-ExchangeActiveSyncProvisioning",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "EAS_REGPROV2(UnicodeString DllPath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EAS_REGPROV",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DllPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Security-ExchangeActiveSyncProvisioning",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "ExchangeActiveSyncProvisioningPerformanceStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ExchangeActiveSyncProvisioningPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Security-ExchangeActiveSyncProvisioning",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "ExchangeActiveSyncProvisioningPerformanceStop(UInt32 TimeSpent)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ExchangeActiveSyncProvisioningPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeSpent"
+            }
+        ]
+    }
+]

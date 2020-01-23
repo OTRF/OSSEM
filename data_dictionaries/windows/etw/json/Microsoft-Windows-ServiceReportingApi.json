@@ -1,0 +1,32 @@
+[
+    {
+        "provider": "Microsoft-Windows-ServiceReportingApi",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "DebugtaskDebugmessage(UnicodeString FileName, UnicodeString FunctionName, Int32 LineNumber, UnicodeString DebugMessage)",
+        "opcode": "Debugmessage",
+        "keywords": "SVCAPI_BASELINE_KEYWORD_DEBUG",
+        "task": "Debugtask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DebugMessage"
+            }
+        ]
+    }
+]

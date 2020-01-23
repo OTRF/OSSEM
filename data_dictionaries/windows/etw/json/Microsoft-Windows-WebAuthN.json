@@ -1,0 +1,2700 @@
+[
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapMakeCredentialStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapMakeCredential",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapMakeCredentialStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapMakeCredential",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapMakeCredentialStop1002(GUID TransactionId, HexInt32 Error, Int32 HResult)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapMakeCredential",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapGetAssertionStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapGetAssertion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapGetAssertionStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapGetAssertion",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapGetAssertionStop1005(GUID TransactionId, HexInt32 Error, Int32 HResult)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapGetAssertion",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapSendCommandStart(GUID TransactionId, UInt32 TicketLength, Binary Ticket)",
+        "opcode": "Start",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapSendCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TicketLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Ticket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapSendCommandStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapSendCommand",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "WebAuthNCtapSendCommandStop1008(GUID TransactionId, HexInt32 Error, Int32 HResult)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ctap",
+        "task": "WebAuthNCtapSendCommand",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "WebAuthNNgcMakeCredentialStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "WebAuthN Ngc",
+        "task": "WebAuthNNgcMakeCredential",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "WebAuthNNgcMakeCredentialStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ngc",
+        "task": "WebAuthNNgcMakeCredential",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "WebAuthNNgcMakeCredentialStop1022(GUID TransactionId, HexInt32 Error, Int32 HResult)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ngc",
+        "task": "WebAuthNNgcMakeCredential",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "WebAuthNNgcGetAssertionStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "WebAuthN Ngc",
+        "task": "WebAuthNNgcGetAssertion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "WebAuthNNgcGetAssertionStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ngc",
+        "task": "WebAuthNNgcGetAssertion",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "WebAuthNNgcGetAssertionStop1025(GUID TransactionId, HexInt32 Error, Int32 HResult)",
+        "opcode": "Stop",
+        "keywords": "WebAuthN Ngc",
+        "task": "WebAuthNNgcGetAssertion",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1040",
+        "version": "0",
+        "event(fields)": "NgcMakeCredentialRequestInformational(GUID TransactionId, UnicodeString RpId, UnicodeString AccountId, UnicodeString ClientDataHashAlgId, UInt32 ClientDataLength, UInt32 ClientDataHashLength, Binary ClientDataHash, UInt32 CredentialCount, UInt32 CredentialParameterCount)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ngc",
+        "task": "NgcMakeCredentialRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RpId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDataHashAlgId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ClientDataHash"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialParameterCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1041",
+        "version": "0",
+        "event(fields)": "NgcMakeCredentialResponseInformational(GUID TransactionId, UnicodeString AttestationFormatType, UInt32 RpIdHashLength, Binary RpIdHash, HexInt32 Flags, HexInt32 SignCount, GUID AAGuid, UInt32 CredentialIdLength, Binary CredentialId, Boolean U2fPublicKey, UInt32 PublicKeyLength, Binary PublicKey, UInt32 ResponseLength, Binary Response)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ngc",
+        "task": "NgcMakeCredentialResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AttestationFormatType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RpIdHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RpIdHash"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SignCount"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CredentialId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fPublicKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PublicKeyLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PublicKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1042",
+        "version": "0",
+        "event(fields)": "NgcGetAssertionRequestInformational(GUID TransactionId, UnicodeString RpId, UnicodeString ClientDataHashAlgId, UInt32 ClientDataLength, UInt32 ClientDataHashLength, Binary ClientDataHash, UInt32 CredentialCount)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ngc",
+        "task": "NgcGetAssertionRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RpId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDataHashAlgId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ClientDataHash"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1043",
+        "version": "0",
+        "event(fields)": "NgcGetAssertionResponseInformational(GUID TransactionId, UInt32 RpIdHashLength, Binary RpIdHash, HexInt32 Flags, HexInt32 SignCount, UInt32 CredentialIdLength, Binary CredentialId)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ngc",
+        "task": "NgcGetAssertionResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RpIdHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RpIdHash"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SignCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CredentialId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1060",
+        "version": "0",
+        "event(fields)": "WebAuthNErrorInformational(GUID TransactionId, AnsiString Action, HexInt32 Error, Int32 HResult)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN",
+        "task": "WebAuthNError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "CborDecodeErrorInformational(GUID TransactionId, AnsiString Function, Int32 CborError, AnsiString CborErrorString, UInt32 ErrorOffset, UInt32 LineNumber, UInt32 EncodedLength, Binary Encoded)",
+        "opcode": "Informational",
+        "keywords": "Cbor",
+        "task": "CborDecodeError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CborError"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "CborErrorString"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Encoded"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "CborEncodeMakeCredentialRequestInformational(GUID TransactionId, UnicodeString RpId, UInt32 UserIdLength, Binary UserId, UnicodeString ClientDataHashAlgId, UInt32 ClientDataLength, UInt32 ClientDataHashLength, Binary ClientDataHash, Boolean RequireResidentKey, UInt32 CredentialCount, UInt32 CredentialParameterCount, UInt32 RequestLength, Binary Request)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ctap Cbor",
+        "task": "CborEncodeMakeCredentialRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RpId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDataHashAlgId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ClientDataHash"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "RequireResidentKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialParameterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1102",
+        "version": "0",
+        "event(fields)": "CborDecodeMakeCredentialResponseInformational(GUID TransactionId, UnicodeString AttestationFormatType, UInt32 RpIdHashLength, Binary RpIdHash, HexInt32 Flags, HexInt32 SignCount, GUID AAGuid, UInt32 CredentialIdLength, Binary CredentialId, Boolean U2fPublicKey, UInt32 PublicKeyLength, Binary PublicKey, UInt32 ResponseLength, Binary Response)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ctap Cbor",
+        "task": "CborDecodeMakeCredentialResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AttestationFormatType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RpIdHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RpIdHash"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SignCount"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CredentialId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fPublicKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PublicKeyLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PublicKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1103",
+        "version": "0",
+        "event(fields)": "CborEncodeGetAssertionRequestInformational(GUID TransactionId, UnicodeString RpId, UnicodeString ClientDataHashAlgId, UInt32 ClientDataLength, UInt32 ClientDataHashLength, Binary ClientDataHash, UInt32 CredentialCount, UInt32 RequestLength, Binary Request)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ctap Cbor",
+        "task": "CborEncodeGetAssertionRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RpId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDataHashAlgId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientDataHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ClientDataHash"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "1104",
+        "version": "0",
+        "event(fields)": "CborDecodeGetAssertionResponseInformational(GUID TransactionId, UInt32 RpIdHashLength, Binary RpIdHash, HexInt32 Flags, HexInt32 SignCount, UInt32 CredentialIdLength, Binary CredentialId, UInt32 ResponseLength, Binary Response)",
+        "opcode": "Informational",
+        "keywords": "WebAuthN Ctap Cbor",
+        "task": "CborDecodeGetAssertionResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RpIdHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RpIdHash"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SignCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CredentialIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CredentialId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2000",
+        "version": "0",
+        "event(fields)": "CtapServiceStart()",
+        "opcode": "Start",
+        "keywords": "Ctap",
+        "task": "CtapService",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "CtapServiceStop()",
+        "opcode": "Stop",
+        "keywords": "Ctap",
+        "task": "CtapService",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2100",
+        "version": "0",
+        "event(fields)": "CtapCommandStart(UnicodeString Command, GUID TransactionId, HexInt32 Flags, UInt32 TimeoutMilliseconds, UInt32 TicketLength, Binary Ticket, UInt32 RequestLength, Binary Request)",
+        "opcode": "Start",
+        "keywords": "Ctap",
+        "task": "CtapCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeoutMilliseconds"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TicketLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Ticket"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2101",
+        "version": "0",
+        "event(fields)": "CtapCommandStart2101(UInt32 RequestLength, Binary Request)",
+        "opcode": "Start",
+        "keywords": "Ctap",
+        "task": "CtapCommand",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2102",
+        "version": "0",
+        "event(fields)": "CtapCommandStop(UnicodeString Command, GUID TransactionId, UInt32 ResponseLength, Binary Response)",
+        "opcode": "Stop",
+        "keywords": "Ctap",
+        "task": "CtapCommand",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2103",
+        "version": "0",
+        "event(fields)": "CtapCommandStop2103(UnicodeString Command, GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap",
+        "task": "CtapCommand",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2104",
+        "version": "0",
+        "event(fields)": "CtapDeviceInfoInformational(GUID TransactionId, UnicodeString ProviderName, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product, GUID AAGuid, Boolean U2fProtocol)",
+        "opcode": "Informational",
+        "keywords": "Ctap",
+        "task": "CtapDeviceInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2105",
+        "version": "0",
+        "event(fields)": "CtapFunctionInformational(AnsiString Function, AnsiString Location, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap",
+        "task": "CtapFunction",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2106",
+        "version": "0",
+        "event(fields)": "CtapFunctionInformational2106(UnicodeString Name, UnicodeString Value)",
+        "opcode": "Informational",
+        "keywords": "Ctap",
+        "task": "CtapFunction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2110",
+        "version": "0",
+        "event(fields)": "WNFCtapDeviceStateInfoInformational(HexInt32 Transport, HexInt32 WnfState, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap",
+        "task": "WNFCtapDeviceStateInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Transport"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WnfState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2111",
+        "version": "0",
+        "event(fields)": "WNFCtapDeviceChangeNotifyInfoInformational(HexInt32 Transport)",
+        "opcode": "Informational",
+        "keywords": "Ctap",
+        "task": "WNFCtapDeviceChangeNotifyInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Transport"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2200",
+        "version": "0",
+        "event(fields)": "CtapUsbProviderThreadStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbProviderThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2201",
+        "version": "0",
+        "event(fields)": "CtapUsbProviderThreadStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbProviderThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2202",
+        "version": "0",
+        "event(fields)": "CtapUsbProviderThreadStop2202(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbProviderThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2203",
+        "version": "0",
+        "event(fields)": "CtapUsbProviderThreadStop2203(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbProviderThread",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2210",
+        "version": "0",
+        "event(fields)": "CtapUsbDeviceThreadStart(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product)",
+        "opcode": "Start",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbDeviceThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2211",
+        "version": "0",
+        "event(fields)": "CtapUsbDeviceThreadStop(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product, GUID AAGuid, Boolean U2fProtocol)",
+        "opcode": "Stop",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbDeviceThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2212",
+        "version": "0",
+        "event(fields)": "CtapUsbDeviceThreadStop2212(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbDeviceThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2213",
+        "version": "0",
+        "event(fields)": "CtapUsbDeviceThreadStop2213(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbDeviceThread",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2220",
+        "version": "0",
+        "event(fields)": "CtapUsbAddInformational(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2221",
+        "version": "0",
+        "event(fields)": "CtapUsbRemoveInformational(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2222",
+        "version": "0",
+        "event(fields)": "CtapUsbChangesInformational(GUID TransactionId)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbChanges",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2223",
+        "version": "0",
+        "event(fields)": "CtapUsbSwitchToU2FInformational(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbSwitchToU2F",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2224",
+        "version": "0",
+        "event(fields)": "CtapUsbConnectInformational(GUID TransactionId, UnicodeString DevicePath, UnicodeString Manufacturer, UnicodeString Product, HexInt32 DeviceErr, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Product"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DeviceErr"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2225",
+        "version": "0",
+        "event(fields)": "CtapUsbSendReceiveInformational(GUID TransactionId, UInt8 RequestCommand, UInt32 RequestLength, Binary Request, UInt8 ResponseCommand, UInt32 ResponseLength, Binary Response)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbSendReceive",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RequestCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResponseCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2226",
+        "version": "0",
+        "event(fields)": "CtapUsbSendReceiveInformational2226(GUID TransactionId, UInt8 RequestCommand, UInt32 RequestLength, Binary Request, UInt8 ResponseCommand, UInt32 ResponseLength, Binary Response, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Usb",
+        "task": "CtapUsbSendReceive",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RequestCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResponseCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2250",
+        "version": "0",
+        "event(fields)": "CtapBleProviderThreadStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleProviderThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2251",
+        "version": "0",
+        "event(fields)": "CtapBleProviderThreadStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleProviderThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2252",
+        "version": "0",
+        "event(fields)": "CtapBleProviderThreadStop2252(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleProviderThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2253",
+        "version": "0",
+        "event(fields)": "CtapBleProviderThreadStop2253(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleProviderThread",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2260",
+        "version": "0",
+        "event(fields)": "CtapBleDeviceThreadStart(GUID TransactionId, UnicodeString DevicePath, UnicodeString PairedName)",
+        "opcode": "Start",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleDeviceThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PairedName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2261",
+        "version": "0",
+        "event(fields)": "CtapBleDeviceThreadStop(GUID TransactionId, UnicodeString DevicePath, UnicodeString PairedName, GUID AAGuid, Boolean U2fProtocol)",
+        "opcode": "Stop",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleDeviceThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PairedName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2262",
+        "version": "0",
+        "event(fields)": "CtapBleDeviceThreadStop2262(GUID TransactionId, UnicodeString DevicePath, UnicodeString PairedName, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleDeviceThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PairedName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2263",
+        "version": "0",
+        "event(fields)": "CtapBleDeviceThreadStop2263(GUID TransactionId, UnicodeString DevicePath, UnicodeString PairedName, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleDeviceThread",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PairedName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2270",
+        "version": "0",
+        "event(fields)": "CtapBleFunctionInformational(AnsiString Function, AnsiString Location, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleFunction",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2271",
+        "version": "0",
+        "event(fields)": "CtapBleSwitchToU2FInformational(GUID TransactionId, UnicodeString DevicePath, UnicodeString PairedName)",
+        "opcode": "Informational",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleSwitchToU2F",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PairedName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2272",
+        "version": "0",
+        "event(fields)": "CtapBleSendReceiveInformational(GUID TransactionId, UInt8 RequestCommand, UInt32 RequestLength, Binary Request, UInt8 ResponseCommand, UInt32 ResponseLength, Binary Response)",
+        "opcode": "Informational",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleSendReceive",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RequestCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResponseCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2273",
+        "version": "0",
+        "event(fields)": "CtapBleSendReceiveInformational2273(GUID TransactionId, UInt8 RequestCommand, UInt32 RequestLength, Binary Request, UInt8 ResponseCommand, UInt32 ResponseLength, Binary Response, AnsiString Location, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Ble",
+        "task": "CtapBleSendReceive",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RequestCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResponseCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2300",
+        "version": "0",
+        "event(fields)": "CtapNfcProviderThreadStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcProviderThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2301",
+        "version": "0",
+        "event(fields)": "CtapNfcProviderThreadStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcProviderThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2302",
+        "version": "0",
+        "event(fields)": "CtapNfcProviderThreadStop2302(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcProviderThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2303",
+        "version": "0",
+        "event(fields)": "CtapNfcProviderThreadStop2303(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcProviderThread",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2310",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderThreadStart(GUID TransactionId, UnicodeString Reader)",
+        "opcode": "Start",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2311",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderThreadStop(GUID TransactionId, UnicodeString Reader, GUID AAGuid, Boolean U2fProtocol)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2312",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderThreadStop2312(GUID TransactionId, UnicodeString Reader, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2313",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderThreadStop2313(GUID TransactionId, UnicodeString Reader, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderThread",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AAGuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "U2fProtocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2314",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderManagerThreadStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderManagerThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2315",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderManagerThreadStop(GUID TransactionId, UInt32 NumberOfTimesScardCancelCommandsSent)",
+        "opcode": "Stop",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderManagerThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfTimesScardCancelCommandsSent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2316",
+        "version": "0",
+        "event(fields)": "CtapNfcReaderManagerThreadInformational(GUID TransactionId, Boolean CallCancelled)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcReaderManagerThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CallCancelled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2320",
+        "version": "0",
+        "event(fields)": "CtapNfcAddReaderInformational(GUID TransactionId, UnicodeString Reader)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcAddReader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2321",
+        "version": "0",
+        "event(fields)": "CtapNfcSkipReaderInformational(GUID TransactionId, AnsiString Action, UnicodeString Reader, UnicodeString DeviceInstanceId)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSkipReader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2322",
+        "version": "0",
+        "event(fields)": "CtapNfcTransitionReaderInformational(GUID TransactionId, AnsiString Action, UnicodeString Reader)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcTransitionReader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2323",
+        "version": "0",
+        "event(fields)": "CtapNfcSendMessageInformational(GUID TransactionId, AnsiString Action, UnicodeString Reader, UInt16 ApduStatus, HexInt32 DeviceStatus, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSendMessage",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ApduStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DeviceStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2324",
+        "version": "0",
+        "event(fields)": "CtapNfcSendRequestInformational(GUID TransactionId, AnsiString Action, UnicodeString Reader, UInt16 ApduStatus, HexInt32 DeviceStatus, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSendRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ApduStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DeviceStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2325",
+        "version": "0",
+        "event(fields)": "CtapNfcSwitchToU2FInformational(GUID TransactionId, UnicodeString Reader)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSwitchToU2F",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2326",
+        "version": "0",
+        "event(fields)": "CtapNfcSendMessageInformational2326(GUID TransactionId, AnsiString Action, UnicodeString Reader)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSendMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2327",
+        "version": "0",
+        "event(fields)": "CtapNfcSCardTransmitRequestInformational(GUID TransactionId, UnicodeString Reader, UInt32 RequestLength, Binary Request, UInt32 ResponseLength, Binary Response, UInt16 ApduStatus)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSCardTransmitRequest",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ApduStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2328",
+        "version": "0",
+        "event(fields)": "CtapNfcSCardTransmitRequestInformational2328(GUID TransactionId, UnicodeString Reader, UInt32 RequestLength, Binary Request, UInt32 ResponseLength, Binary Response, UInt16 ApduStatus, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Informational",
+        "keywords": "Ctap Nfc",
+        "task": "CtapNfcSCardTransmitRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reader"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Response"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ApduStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2400",
+        "version": "0",
+        "event(fields)": "CtapTestProviderThreadStart(GUID TransactionId)",
+        "opcode": "Start",
+        "keywords": "Ctap Test",
+        "task": "CtapTestProviderThread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2401",
+        "version": "0",
+        "event(fields)": "CtapTestProviderThreadStop(GUID TransactionId)",
+        "opcode": "Stop",
+        "keywords": "Ctap Test",
+        "task": "CtapTestProviderThread",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuthN",
+        "event_id": "2402",
+        "version": "0",
+        "event(fields)": "CtapTestProviderThreadStop2402(GUID TransactionId, HexInt32 Error, HexInt32 Win32Error)",
+        "opcode": "Stop",
+        "keywords": "Ctap Test",
+        "task": "CtapTestProviderThread",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Win32Error"
+            }
+        ]
+    }
+]

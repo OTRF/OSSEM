@@ -1,0 +1,712 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "1",
+        "version": "2",
+        "event(fields)": "StoreAdd_V2(UInt32 DataKey, Pointer DataMgr, UInt32 StoreOffset, UInt16 CompressedSize, UInt16 Flags)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreOffset"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CompressedSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "StoreRemove_V1(UInt32 DataKey, Pointer DataMgr, UInt32 StoreOffset)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "3",
+        "version": "3",
+        "event(fields)": "StoreCreate_V3(Pointer StoreKey, Pointer StoreFileKey, Pointer UserDataMgr, Pointer MetadataMgr, UInt32 RegionSize, UInt32 RegionCount, UInt32 BlockSize, UInt32 SectorSize, UInt32 EncryptionStrength, UInt16 StoreType, UInt16 StoreId, UInt32 BlocksStored, UInt32 RegionsInUse, UInt32 TotalSpaceUsed, UInt32 Flags, UInt32 MetaRegionCount, UInt32 MetaRegionsInUse, UInt32 MetaRegionsSpaceUsed, UInt32 StoreTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreFileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserDataMgr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MetadataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SectorSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncryptionStrength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StoreType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StoreId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlocksStored"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionsInUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalSpaceUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MetaRegionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MetaRegionsInUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MetaRegionsSpaceUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "StoreDelete_V1(Pointer StoreKey)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "5",
+        "version": "3",
+        "event(fields)": "StoreRundown_V3(Pointer StoreKey, Pointer StoreFileKey, Pointer UserDataMgr, Pointer MetadataMgr, UInt32 RegionSize, UInt32 RegionCount, UInt32 BlockSize, UInt32 SectorSize, UInt32 EncryptionStrength, UInt16 StoreType, UInt16 StoreId, UInt32 BlocksStored, UInt32 RegionsInUse, UInt32 TotalSpaceUsed, UInt32 Flags, UInt32 MetaRegionCount, UInt32 MetaRegionsInUse, UInt32 MetaRegionsSpaceUsed, UInt32 StoreTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreFileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserDataMgr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MetadataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SectorSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncryptionStrength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StoreType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StoreId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlocksStored"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionsInUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalSpaceUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MetaRegionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MetaRegionsInUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MetaRegionsSpaceUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "StoreCorruption_V1(Pointer DataMgr, Pointer VirtualAddress, UInt64 PhysicalAddress, UInt16 Size, UInt8 FileBacked, UInt8 CorruptionType, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "StoreOps StoreDiag",
+        "task": "StoreCorruption",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "VirtualAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PhysicalAddress"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FileBacked"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CorruptionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "StorePageRundown_V1(UInt32 DataKey, Pointer DataMgr, UInt32 StoreOffset, UInt16 CompressedSize, UInt16 Flags)",
+        "opcode": "",
+        "keywords": "StoreContentsRundown",
+        "task": "StorePageRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreOffset"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CompressedSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "8",
+        "version": "2",
+        "event(fields)": "RegionEvict_V2(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "RegionEvict",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "9",
+        "version": "2",
+        "event(fields)": "RegionWrite_V2(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "RegionWrite",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "UnpersistFailure_V1(UInt32 FailReason, HexInt32 FailStatus, UInt16 ObjectPathLength, UnicodeString ObjectPath)",
+        "opcode": "",
+        "keywords": "StoreOps StoreDiag",
+        "task": "UnpersistFailure",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FailReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "StoreIoStats_V1(Pointer StoreKey, UInt32 Size, Binary Data)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreIoStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "GlobalStats_V1(UInt32 Size, Binary Data)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "GlobalStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "StoreEmpty_V1(Pointer StoreKey, Pointer Param)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreEmpty",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "RegionRelease_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "RegionRelease",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "RegionCompactStart_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "Start",
+        "keywords": "StoreOps",
+        "task": "RegionCompact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "RegionCompactStop_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "Stop",
+        "keywords": "StoreOps",
+        "task": "RegionCompact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "RegionRundown_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreContentsRundown",
+        "task": "RegionRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "18",
+        "version": "1",
+        "event(fields)": "CacheTermination_V1(UInt8 Reason, HexInt32 FailStatus, UInt16 DeviceDescLength, UnicodeString DeviceDescription, UInt16 ObjectPathLength, UnicodeString ObjectPath)",
+        "opcode": "",
+        "keywords": "StoreOps StoreDiag",
+        "task": "CacheTermination",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceDescLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceDescription"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-StoreMgr",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmStreamRowLength, Int16 SqmStreamRow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SqmStreamRow"
+            }
+        ]
+    }
+]

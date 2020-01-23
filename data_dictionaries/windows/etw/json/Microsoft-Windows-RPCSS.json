@@ -1,0 +1,92 @@
+[
+    {
+        "provider": "Microsoft-Windows-RPCSS",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "task_0_V1(UInt16 DetectionLocation, HexInt32 Status, HexInt32 AdditionalData1, HexInt32 AdditionalData2)",
+        "opcode": "",
+        "keywords": "EpmapDebug",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DetectionLocation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AdditionalData1"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AdditionalData2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPCSS",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "task_02_V1(GUID InterfaceUUID, GUID ObjectUUID, AnsiString Protocol, AnsiString EndPoint)",
+        "opcode": "",
+        "keywords": "EpmapInterfaceRegister",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUUID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ObjectUUID"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "EndPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPCSS",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_03_V1(GUID InterfaceUUID, GUID ObjectUUID, AnsiString Protocol, AnsiString EndPoint)",
+        "opcode": "",
+        "keywords": "EpmapInterfaceUnregister",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUUID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ObjectUUID"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "EndPoint"
+            }
+        ]
+    }
+]

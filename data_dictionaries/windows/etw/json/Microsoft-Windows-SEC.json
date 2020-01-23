@@ -1,0 +1,2344 @@
+[
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, HexInt32 CreatorProcessId, Int64 CreatorProcessTime, UnicodeString CreatorProcessName, UnicodeString ProcessName, UnicodeString CommandLine, Binary ImageSHA256, Binary ImageSHA1, Binary ImageMD5, HexInt32 PartialCRC1, HexInt32 PartialCRC2, HexInt32 PartialCRC3, Boolean MotW, HexInt32 IntegrityLevel, HexInt32 TokenElevationType, Boolean Elevated, Boolean Impersonation, HexInt64 SubjectLogonId, UInt64 ProcessStartKey, UInt64 CreatorProcessStartKey, Boolean CommandLineTruncated, HexInt32 CommandLineSize, Binary ImageLSH, UInt64 MitigationPolicy, UInt8 ProtectionLevel, HexInt32 EnterprisePolicy)",
+        "opcode": "",
+        "keywords": "Event1",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "CreatorProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "CreatorProcessTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CreatorProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageSHA256"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageSHA1"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageMD5"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC1"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC2"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC3"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MotW"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IntegrityLevel"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TokenElevationType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Elevated"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Impersonation"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "SubjectLogonId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CreatorProcessStartKey"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CommandLineTruncated"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "CommandLineSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageLSH"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MitigationPolicy"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ProtectionLevel"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "EnterprisePolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_02(Int64 DriverUnloadTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "DriverUnloadTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_03(Int64 DriverLoadTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "DriverLoadTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_04(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, HexInt32 FileAttributes, HexInt32 Dispositon, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event4",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Dispositon"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, UnicodeString NewFileName, HexInt32 FileAttributes, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event5",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewFileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "task_06(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, HexInt32 FileAttributes, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event6",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "task_07(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, HexInt32 FileAttributes, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event7",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "task_08(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event8",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "task_09(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event9",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "task_010(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString NewKey, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event10",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "task_011(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString Hive, HexInt32 RestoreFlags, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event11",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Hive"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RestoreFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "task_012(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString Hive, UnicodeString NewHive, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event12",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Hive"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewHive"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "task_013(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString Value, HexInt32 OldValueDataType, HexInt32 OldValueDataSize, UInt32 OldValueCopiedSize, Binary OldValueData, HexInt32 NewValueDataType, HexInt32 NewValueDataSize, UInt32 NewValueCopiedSize, Binary NewValueData, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event13",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OldValueDataType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OldValueDataSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldValueCopiedSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "OldValueData"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NewValueDataType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NewValueDataSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewValueCopiedSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "NewValueData"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_016(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString Value, HexInt32 DataType, HexInt32 ValueDataSize, UInt32 ValueCopiedSize, Binary ValueData, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event16",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DataType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ValueDataSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ValueCopiedSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ValueData"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "task_017(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString ImageName, UnicodeString DocumentName, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event17",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "task_018(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, HexInt32 TargetProcessId, Int64 TargetProcessTime, UnicodeString TargetProcessName, HexInt32 TargetThreadId, Pointer TargetThreadStartAddress, UInt32 StartAddressVadQueryResult, Pointer StartAddressVadAllocationBase, UInt32 StartAddressVadAllocationProtect, UInt32 StartAddressVadRegionType, Pointer StartAddressVadRegionSize, UInt32 StartAddressVadProtect, UInt64 SourceProcessStartKey, UInt64 TargetProcessStartKey, UnicodeString MappedModuleName)",
+        "opcode": "",
+        "keywords": "Event18",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetProcessTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetProcessName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TargetThreadStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartAddressVadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddressVadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartAddressVadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartAddressVadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddressVadRegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartAddressVadProtect"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MappedModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "task_019(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, HexInt32 TargetProcessId, Int64 TargetProcessTime, UnicodeString TargetProcess, HexInt32 Access, UInt64 SourceProcessStartKey, UInt64 TargetProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event19",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetProcessTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetProcess"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Access"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "task_020(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Desktop, HexInt32 Access, Boolean Duplicate, Boolean Kernel, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event20",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Desktop"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Access"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Duplicate"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Kernel"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "task_021(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString VolumeName, HexInt64 VolWriteOffset, HexInt64 VolWriteSize, Boolean SystemVolume, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event21",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "VolWriteOffset"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "VolWriteSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SystemVolume"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "task_022(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString ProcessName, UnicodeString CommandLine, UInt64 ProcessStartKey, Boolean CommandLineTruncated, HexInt32 CommandLineSize)",
+        "opcode": "",
+        "keywords": "Event22",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CommandLineTruncated"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "CommandLineSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "task_023(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString ImageName, Boolean MotW, Binary ImageSHA256, Binary ImageSHA1, Binary ImageMD5, HexInt32 PartialCRC1, HexInt32 PartialCRC2, HexInt32 PartialCRC3, Boolean SystemModeImage, Pointer LoadImageAddress, UInt64 ProcessStartKey, UInt64 LoadImageSize, Binary ImageLSH)",
+        "opcode": "",
+        "keywords": "Event23",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MotW"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageSHA256"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageSHA1"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageMD5"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC1"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC2"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC3"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SystemModeImage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "LoadImageAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadImageSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageLSH"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "task_024(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString ImageName, Boolean MotW, Binary ImageSHA256, Binary ImageSHA1, Binary ImageMD5, HexInt32 PartialCRC1, HexInt32 PartialCRC2, HexInt32 PartialCRC3, UInt32 ImageSignatureLevel, UInt32 ImageSignatureType, UInt32 CurrentCodeIntegrityOptions, UInt32 OriginalCodeIntegrityOptions, UInt64 ProcessStartKey, Pointer ImageBase, UInt64 ImageSize, Binary ImageLSH)",
+        "opcode": "",
+        "keywords": "Event24",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MotW"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageSHA256"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageSHA1"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageMD5"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC1"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC2"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PartialCRC3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageSignatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageSignatureType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentCodeIntegrityOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalCodeIntegrityOptions"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ImageBase"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImageSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ImageLSH"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "task_025(UInt64 SequenceNumber, HexInt32 AffectedProcessId, Int64 AffectedProcessTime, Pointer CurrentTokenPointer, Binary CurrentTokenSource, UInt64 CurrentTokenPrivPresent, UInt64 CurrentTokenPrivEnabled, UInt64 CurrentTokenPrivEnabledByDefault, UInt32 CurrentTokenIntegrityLevel, SID CurrentTokenUserSid, Pointer PreviousTokenPointer, Binary PreviousTokenSource, UInt64 PreviousTokenPrivPresent, UInt64 PreviousTokenPrivEnabled, UInt64 PreviousTokenPrivEnabledByDefault, UInt32 PreviousTokenIntegrityLevel, SID PreviousTokenUserSid, Pointer OriginalTokenPointer, Binary OriginalTokenSource, UInt64 OriginalTokenPrivPresent, UInt64 OriginalTokenPrivEnabled, UInt64 OriginalTokenPrivEnabledByDefault, UInt32 OriginalTokenIntegrityLevel, SID OriginalTokenUserSid, Pointer SystemTokenPointer, Boolean InlineCheck, UInt64 AffectedProcessStartKey, Boolean PrimaryTokenFrozen, UInt32 ParentTokenIntegrityLevel)",
+        "opcode": "",
+        "keywords": "Event25",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AffectedProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "AffectedProcessTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CurrentTokenPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CurrentTokenSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTokenPrivPresent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTokenPrivEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTokenPrivEnabledByDefault"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentTokenIntegrityLevel"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "CurrentTokenUserSid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PreviousTokenPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PreviousTokenSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PreviousTokenPrivPresent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PreviousTokenPrivEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PreviousTokenPrivEnabledByDefault"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousTokenIntegrityLevel"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "PreviousTokenUserSid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalTokenPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "OriginalTokenSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalTokenPrivPresent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalTokenPrivEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalTokenPrivEnabledByDefault"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalTokenIntegrityLevel"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "OriginalTokenUserSid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SystemTokenPointer"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InlineCheck"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AffectedProcessStartKey"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PrimaryTokenFrozen"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentTokenIntegrityLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "task_027(UInt64 SequenceNumber, HexInt32 AffectedProcessId, UInt64 AffectedProcessStartKey, Int64 AffectedProcessTime, Boolean InlineCheck, Pointer CurrentDaclPointer, Boolean CurrentDaclValidAceList, UInt32 CurrentDaclAceCount, UnicodeString CurrentDaclSids, UInt32 CurrentDaclAccessMaskBlobSize, Binary CurrentDaclAccessMasks, Pointer PreviousDaclPointer, Boolean PreviousDaclValidAceList, UInt32 PreviousDaclAceCount, UnicodeString PreviousDaclSids, UInt32 PreviousDaclAccessMaskBlobSize, Binary PreviousDaclAccessMasks, Pointer OriginalDaclPointer, Boolean OriginalDaclValidAceList, UInt32 OriginalDaclAceCount, UnicodeString OriginalDaclSids, UInt32 OriginalDaclAccessMaskBlobSize, Binary OriginalDaclAccessMasks)",
+        "opcode": "",
+        "keywords": "Event27",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AffectedProcessId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AffectedProcessStartKey"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "AffectedProcessTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InlineCheck"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CurrentDaclPointer"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CurrentDaclValidAceList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentDaclAceCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentDaclSids"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentDaclAccessMaskBlobSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CurrentDaclAccessMasks"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PreviousDaclPointer"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PreviousDaclValidAceList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousDaclAceCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PreviousDaclSids"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousDaclAccessMaskBlobSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PreviousDaclAccessMasks"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalDaclPointer"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OriginalDaclValidAceList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalDaclAceCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OriginalDaclSids"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalDaclAccessMaskBlobSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "OriginalDaclAccessMasks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "task_028(UInt64 SequenceNumber, HexInt32 ProcessId, UInt64 ProcessStartKey, UInt32 Flags, HexInt32 ThreadId, Pointer CallerAddress, Pointer StartAddress, UInt32 BackTraceSize, Binary BackTrace, UInt32 TargetCodeSize, Binary TargetCode, UInt32 CallerCodeSize, Binary CallerCode)",
+        "opcode": "",
+        "keywords": "Event28",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CallerAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackTraceSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "BackTrace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetCodeSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "TargetCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerCodeSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CallerCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "task_029(UInt64 SequenceNumber, Pointer CurrentValue, Pointer OriginalValue, Boolean IsSynchronous)",
+        "opcode": "",
+        "keywords": "Event29",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CurrentValue"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalValue"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSynchronous"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "task_030(UInt64 SequenceNumber, Pointer CurrentValue, Pointer PreviousValue, Pointer OriginalValue, Boolean IsSynchronous)",
+        "opcode": "",
+        "keywords": "Event30",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CurrentValue"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalValue"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSynchronous"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "task_031(UInt64 SequenceNumber, UInt32 SuspiciousEntryIndex, UInt32 TableSize, Binary Table, UInt32 CodeSize, Binary Code)",
+        "opcode": "",
+        "keywords": "Event31",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SuspiciousEntryIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Table"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CodeSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Code"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "task_032(UInt64 SequenceNumber, UInt32 SuspiciousPointerIndex, UInt32 TableSize, Binary Table, UInt32 CodeSize, Binary Code)",
+        "opcode": "",
+        "keywords": "Event32",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SuspiciousPointerIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Table"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CodeSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Code"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "task_033(UInt64 SequenceNumber, UInt32 SuspiciousPointerIndex, UInt32 TableSize, Binary Table, UInt32 CodeSize, Binary Code)",
+        "opcode": "",
+        "keywords": "Event33",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SuspiciousPointerIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Table"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CodeSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Code"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "task_034(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, HexInt32 TargetProcessId, Int64 TargetProcessTime, UnicodeString TargetProcess, HexInt32 Access, UInt64 SourceProcessStartKey, UInt64 TargetProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event34",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetProcessTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetProcess"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Access"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "task_035(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, Int64 OriginalCreationTime, Int64 OriginalLastAccessTime, Int64 OriginalLastWriteTime, Int64 OriginalChangeTime, Int64 ModifiedCreationTime, Int64 ModifiedLastAccessTime, Int64 ModifiedLastWriteTime, Int64 ModifiedChangeTime, HexInt32 FileAttributes, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "Event35",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "OriginalCreationTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "OriginalLastAccessTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "OriginalLastWriteTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "OriginalChangeTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ModifiedCreationTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ModifiedLastAccessTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ModifiedLastWriteTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ModifiedChangeTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "task_036(UInt64 SequenceNumber, HexInt32 AffectedProcessId, Int64 AffectedProcessTime, UInt64 AffectedProcessStartKey, Boolean InlineCheck)",
+        "opcode": "",
+        "keywords": "Event36",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AffectedProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "AffectedProcessTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AffectedProcessStartKey"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InlineCheck"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "task_037(UInt64 SequenceNumber, UnicodeString ImageName, Pointer ImageBase, UInt64 ImageSize, UnicodeString DriverName, Pointer DriverObject, Pointer DriverInit, Pointer DriverStartIo, Pointer DriverUnload, UInt32 MajorFunctionArraySize, Binary MajorFunctionArray, UInt32 FastIoDispatchArraySize, Binary FastIoDispatchArray, UInt64 SuspiciousDispatchBitmap, UInt32 ContextInfoArraySize, Binary ContextInfoArray)",
+        "opcode": "",
+        "keywords": "Event37",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ImageBase"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImageSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverInit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverStartIo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverUnload"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MajorFunctionArraySize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MajorFunctionArray"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FastIoDispatchArraySize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "FastIoDispatchArray"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SuspiciousDispatchBitmap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextInfoArraySize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ContextInfoArray"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "task_038(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, UInt64 ProcessStartKey, UInt64 OldFlags, UInt64 NewFlags)",
+        "opcode": "",
+        "keywords": "keyword_10000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OldFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "task_039(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 SourceThreadId, HexInt32 TargetThreadId, SID UserSid, HexInt32 TargetProcessId, Int64 TargetProcessTime, HexInt32 AccessMask, UInt64 ProcessStartKey, UInt64 TargetProcessStartKey)",
+        "opcode": "",
+        "keywords": "keyword_20000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SourceThreadId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AccessMask"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "task_040(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, HexInt32 FileAttributes, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "keyword_40000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "task_041(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString Value, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SEC",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "task_042(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime, HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, HexInt32 FileAttributes, HexInt32 DesiredAccess, HexInt32 Dispositon, UInt64 ProcessStartKey)",
+        "opcode": "",
+        "keywords": "keyword_100000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ProcessTime"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FileAttributes"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DesiredAccess"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Dispositon"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessStartKey"
+            }
+        ]
+    }
+]

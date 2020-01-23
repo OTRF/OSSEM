@@ -1,0 +1,430 @@
+[
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "NduDebugTrace(UnicodeString _DebugString)",
+        "opcode": "",
+        "keywords": "KeywordNduDebugTrace",
+        "task": "NduDebugTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_DebugString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "NduDebugTrace2002(UnicodeString _FunctionName, UInt32 _Status)",
+        "opcode": "",
+        "keywords": "KeywordNduDebugTrace",
+        "task": "NduDebugTrace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_FunctionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "PerInterfaceStats(UInt64 _IfLuid, UInt32 _ProcNum, UInt16 _ListIndex)",
+        "opcode": "",
+        "keywords": "KeywordNduPerInterfaceStats",
+        "task": "PerInterfaceStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_ProcNum"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "_ListIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "PerFlowStats(UnicodeString _Direction, UInt64 _FlowHandle, UnicodeString _ExePath, UInt32 _SvcTag, UnicodeString _PkgName, SID _UserId, UInt32 _Pid)",
+        "opcode": "",
+        "keywords": "KeywordNduPerFlowStats",
+        "task": "PerFlowStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_Direction"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_FlowHandle"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_ExePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_SvcTag"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_PkgName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "_UserId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_Pid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2005",
+        "version": "0",
+        "event(fields)": "PerFlowStats2005(UInt64 _FlowHandle, UnicodeString _RefDeref)",
+        "opcode": "",
+        "keywords": "KeywordNduPerFlowStats",
+        "task": "PerFlowStats",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_FlowHandle"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_RefDeref"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2006",
+        "version": "0",
+        "event(fields)": "PerInterfaceStats2006(UInt64 _IfLuid, UInt32 _ProfileId, UInt32 _BytesSent, UInt32 _BytesRecvd)",
+        "opcode": "",
+        "keywords": "KeywordNduPerInterfaceStats",
+        "task": "PerInterfaceStats",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_ProfileId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_BytesSent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_BytesRecvd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2007",
+        "version": "0",
+        "event(fields)": "PerFlowStats2007(UInt64 _IfLuid, UInt64 _FlowHandle, UInt32 _BytesSent, UInt32 _BytesRecvd)",
+        "opcode": "",
+        "keywords": "KeywordNduPerFlowStats",
+        "task": "PerFlowStats",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_FlowHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_BytesSent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_BytesRecvd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2008",
+        "version": "0",
+        "event(fields)": "TokenTracking(UnicodeString _ExePath, UInt32 _SvcTag, UnicodeString _PkgName, SID _UserId, UInt32 _Cookie, UInt32 _Quota)",
+        "opcode": "",
+        "keywords": "KeywordNduTokenTracking",
+        "task": "TokenTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_ExePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_SvcTag"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_PkgName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "_UserId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_Cookie"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_Quota"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2009",
+        "version": "0",
+        "event(fields)": "TokenTracking2009(UInt32 _Cookie)",
+        "opcode": "",
+        "keywords": "KeywordNduTokenTracking",
+        "task": "TokenTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "_Cookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2010",
+        "version": "0",
+        "event(fields)": "PerInterfaceStats2010(UInt64 _IfLuid, UInt32 _ProfileId, UInt64 _BytesLimit)",
+        "opcode": "",
+        "keywords": "KeywordNduPerInterfaceStats",
+        "task": "PerInterfaceStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_ProfileId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2011",
+        "version": "0",
+        "event(fields)": "PerInterfaceStats2011(UInt64 _IfLuid, UInt32 _ProfileId)",
+        "opcode": "",
+        "keywords": "KeywordNduPerInterfaceStats",
+        "task": "PerInterfaceStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_ProfileId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2012",
+        "version": "0",
+        "event(fields)": "NduDebugTrace2012(UnicodeString _DebugString)",
+        "opcode": "",
+        "keywords": "KeywordNduDebugTrace",
+        "task": "NduDebugTrace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_DebugString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2013",
+        "version": "0",
+        "event(fields)": "NduDebugTrace2013(UnicodeString _DebugString)",
+        "opcode": "",
+        "keywords": "KeywordNduDebugTrace",
+        "task": "NduDebugTrace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "_DebugString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2014",
+        "version": "0",
+        "event(fields)": "PerInterfaceStats2014(UInt64 _IfLuid, UInt32 _ProfileId, UInt64 _BytesSent, UInt64 _BytesRecvd, Boolean _IsCosted)",
+        "opcode": "",
+        "keywords": "KeywordNduLwtPerMinuteInterfaceStats",
+        "task": "PerInterfaceStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "_ProfileId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesSent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "_BytesRecvd"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "_IsCosted"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2015",
+        "version": "0",
+        "event(fields)": "NduPowerDebug(UInt64 _IfLuid, UInt64 TimeSinceLast, UInt64 Energy, UInt32 CurrentProc, UInt32 BytesTxRx, UInt32 Pid, UInt8 IfMediaType)",
+        "opcode": "",
+        "keywords": "KeywordNduPowerDebug",
+        "task": "NduPowerDebug",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "_IfLuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeSinceLast"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Energy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentProc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesTxRx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IfMediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ndu",
+        "event_id": "2016",
+        "version": "0",
+        "event(fields)": "NduPowerQueueWorkItem(UInt32 ProcId, UInt32 Count)",
+        "opcode": "",
+        "keywords": "KeywordNduPowerDebug",
+        "task": "NduPowerQueueWorkItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            }
+        ]
+    }
+]

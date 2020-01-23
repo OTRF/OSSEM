@@ -1,0 +1,297 @@
+[
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_DecoderFrameCopyPixelsCoreStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_DecoderFrameCopyPixelsCore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_DecoderFrameCopyPixelsCoreStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_DecoderFrameCopyPixelsCore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_DecoderFrameDecodeImageStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_DecoderFrameDecodeImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_DecoderFrameDecodeImageStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_DecoderFrameDecodeImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Encoder_EncoderFrameEncodeFrameStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WMPHOTO_Encoder_EncoderFrameEncodeFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Encoder_EncoderFrameEncodeFrameStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WMPHOTO_Encoder_EncoderFrameEncodeFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Encoder_EncoderFrameEncodeStreamStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WMPHOTO_Encoder_EncoderFrameEncodeStream",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Encoder_EncoderFrameEncodeStreamStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WMPHOTO_Encoder_EncoderFrameEncodeStream",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_ReducedResolution_Info(UInt32 Ratio)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_ReducedResolution_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Ratio"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Encoder_EncodeThumbnail_Info()",
+        "opcode": "",
+        "keywords": "",
+        "task": "WMPHOTO_Encoder_EncodeThumbnail_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_FrameParamsSource_Info(UInt32 Width, UInt32 Height, UInt8 Orientation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_FrameParamsSource_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Orientation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Decoder_FrameParamsTransform_Info(Int32 ROIWidth, Int32 ROIHeight, Int32 ROIX, Int32 ROIY, UInt32 OutWidth, UInt32 OutHeight, UInt8 Orientation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WMPHOTO_Decoder_FrameParamsTransform_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ROIWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ROIHeight"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ROIX"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ROIY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutHeight"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Orientation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Encoder_FrameParams_Info(UInt32 Width, UInt32 Height, UInt8 Subband, UInt8 BitStreamFormat, UInt8 Orientation, UInt8 IgnoreOverlap, UInt8 DiscardAlpha)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WMPHOTO_Encoder_FrameParams_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Subband"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BitStreamFormat"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Orientation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IgnoreOverlap"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DiscardAlpha"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Photo-Image-Codec",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "WMPHOTO_Transcoder_TranscodeParams_Info(Int32 ROIWidth, Int32 ROIHeight, Int32 ROIX, Int32 ROIY, UInt8 Subband, UInt8 BitStreamFormat, UInt8 Orientation, UInt8 IgnoreOverlap, UInt8 DiscardAlpha)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WMPHOTO_Transcoder_TranscodeParams_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ROIWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ROIHeight"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ROIX"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ROIY"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Subband"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BitStreamFormat"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Orientation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IgnoreOverlap"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DiscardAlpha"
+            }
+        ]
+    }
+]

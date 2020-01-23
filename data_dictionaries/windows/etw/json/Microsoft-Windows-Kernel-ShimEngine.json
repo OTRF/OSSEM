@@ -1,0 +1,664 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "task_0_V1(UInt32 EventId, AnsiString DebugMessage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "DebugMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "task_02_V1(UInt32 EventId, AnsiString DebugMessage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "DebugMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_03_V1(UnicodeString DriverName, UInt32 ShimSource, UInt32 ShimCount, UnicodeString AppliedGuids)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShimSource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShimCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppliedGuids"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "task_04_V1(UnicodeString DeviceName, UnicodeString DeviceClass, UInt32 FlagSource, UInt64 Flags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlagSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "task_05_V1(UnicodeString DriverName, Pointer DriverBase, UInt32 DriverSize, UInt32 DriverTimeStamp, UInt32 DriverCheckSum)",
+        "opcode": "",
+        "keywords": "SkipDriverUnloadGeneral",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverTimeStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverCheckSum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "task_06_V1(Pointer DriverObject, Pointer DriverBase)",
+        "opcode": "",
+        "keywords": "SkipDriverUnloadGeneral",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverBase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "task_010_V1(UnicodeString DriverName, Pointer DriverBase, UInt32 DriverSize, UInt32 DriverTimeStamp, UInt32 DriverCheckSum)",
+        "opcode": "",
+        "keywords": "DriverScopeGeneral",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverTimeStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverCheckSum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "task_011_V1(Pointer DriverObject, Pointer DriverBase)",
+        "opcode": "",
+        "keywords": "DriverScopeGeneral",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverBase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "task_012_V1(Pointer DriverBase, UInt32 DriverSize, Pointer DriverObject, Pointer Pdo, UInt32 Status, UnicodeString ServiceName, UnicodeString HardwareId)",
+        "opcode": "",
+        "keywords": "DriverScopeGeneral",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Pdo"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "task_013_V1(Pointer Address, Pointer Caller, UInt32 Type, Pointer Size, UInt32 Tag)",
+        "opcode": "",
+        "keywords": "DriverScopePool",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Caller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "task_014_V1(Pointer Address, Pointer Caller, UInt32 Tag)",
+        "opcode": "",
+        "keywords": "DriverScopePool",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Caller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "task_015_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp)",
+        "opcode": "",
+        "keywords": "DriverScopeIrps",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "task_016_V1(Pointer DriverObject, Pointer Fdo, UInt32 DeviceType, UInt32 DeviceCharacteristics, UInt32 Exclusive, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopeGeneral",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceCharacteristics"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Exclusive"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "task_017_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 MajorCode, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopeIrps",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "18",
+        "version": "1",
+        "event(fields)": "task_018_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 MinorCode, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePnp",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "task_019_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePnp",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "task_020_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePnp",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "21",
+        "version": "1",
+        "event(fields)": "task_021_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 MinorCode, UInt32 PowerType, UInt32 PowerState, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePower",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "22",
+        "version": "1",
+        "event(fields)": "task_022_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 MinorCode, UInt32 PowerType, UInt32 PowerState, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePower",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "23",
+        "version": "1",
+        "event(fields)": "task_023_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 MinorCode, UInt32 PowerState, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePower",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-ShimEngine",
+        "event_id": "24",
+        "version": "1",
+        "event(fields)": "task_024_V1(Pointer DriverObject, Pointer Fdo, Pointer Irp, UInt32 Status)",
+        "opcode": "",
+        "keywords": "DriverScopePower",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

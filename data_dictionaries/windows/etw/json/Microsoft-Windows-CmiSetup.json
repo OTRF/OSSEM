@@ -1,0 +1,95 @@
+[
+    {
+        "provider": "Microsoft-Windows-CmiSetup",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "CMIConfigurationStart()",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "CMIConfiguration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-CmiSetup",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "CMIConfigurationStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "CMIConfiguration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CmiSetup",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "CMIExecuteChangesStart()",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "CMIExecuteChanges",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-CmiSetup",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "CMIExecuteChangesStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "CMIExecuteChanges",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-CmiSetup",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "CBSOnlineInstallStart()",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "CBSOnlineInstall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-CmiSetup",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "CBSOnlineInstallStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "CBSOnlineInstall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "provider": "Microsoft-Windows-VWiFi",
+        "event_id": "25001",
+        "version": "0",
+        "event(fields)": "EnableVWiFiStart(GUID IfGuid, UnicodeString FriendlyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EnableVWiFi",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VWiFi",
+        "event_id": "25002",
+        "version": "0",
+        "event(fields)": "DisableVWiFiStart(GUID IfGuid, UnicodeString FriendlyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DisableVWiFi",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VWiFi",
+        "event_id": "25003",
+        "version": "0",
+        "event(fields)": "EnableVWiFiStop(GUID IfGuid, UnicodeString FriendlyName, GUID VIfGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EnableVWiFi",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VIfGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VWiFi",
+        "event_id": "25004",
+        "version": "0",
+        "event(fields)": "DisableVWiFiStop(GUID IfGuid, UnicodeString FriendlyName, GUID VIfGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DisableVWiFi",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VIfGuid"
+            }
+        ]
+    }
+]

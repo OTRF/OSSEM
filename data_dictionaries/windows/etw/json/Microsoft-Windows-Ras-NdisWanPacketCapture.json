@@ -1,0 +1,80 @@
+[
+    {
+        "provider": "Microsoft-Windows-Ras-NdisWanPacketCapture",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString RoutingDomainID, UnicodeString RRASUserName, UInt32 FragmentSize, Binary Fragment)",
+        "opcode": "",
+        "keywords": "rras_ndiswan_sendpath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RoutingDomainID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RRASUserName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FragmentSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Fragment"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ras-NdisWanPacketCapture",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "task_05002(UnicodeString RoutingDomainID, UnicodeString RRASUserName, UInt32 FragmentSize, Binary Fragment)",
+        "opcode": "",
+        "keywords": "rras_ndiswan_recvpath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RoutingDomainID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RRASUserName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FragmentSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Fragment"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Ras-NdisWanPacketCapture",
+        "event_id": "5003",
+        "version": "0",
+        "event(fields)": "task_05003(UnicodeString param1)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,308 @@
+[
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation(GUID MasterKeyGUID, UnicodeString UserStorage)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "MasterKeyGUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserStorage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation2(UnicodeString MasterKeyGUID, UnicodeString UserStorage)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MasterKeyGUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserStorage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation3(GUID MasterKeyGUID, Boolean Success, HexInt32 LastError, HexInt32 MasterKeyDisposition)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "MasterKeyGUID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Success"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MasterKeyDisposition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation4(HexInt32 Status)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation5()",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "4097",
+        "version": "0",
+        "event(fields)": "BackUpServiceOperation()",
+        "opcode": "",
+        "keywords": "ETW_TASK_BACKUPSERVICE_OPERATION",
+        "task": "BackUpServiceOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "4098",
+        "version": "0",
+        "event(fields)": "BackUpServiceOperation4098()",
+        "opcode": "",
+        "keywords": "ETW_TASK_BACKUPSERVICE_OPERATION",
+        "task": "BackUpServiceOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8193",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation8193(HexInt32 Status)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8194",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation8194(UnicodeString FileName, HexInt32 Access)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Access"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8195",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation8195()",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8196",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation8196()",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8197",
+        "version": "0",
+        "event(fields)": "DataProtectionOperation(HexInt32 Status, UInt32 ReasonForFailure)",
+        "opcode": "",
+        "keywords": "ETW_TASK_DATAPROTECTION_OPERATION",
+        "task": "DataProtectionOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonForFailure"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8198",
+        "version": "0",
+        "event(fields)": "DataProtectionOperation8198(HexInt32 Status, UInt32 ReasonForFailure)",
+        "opcode": "",
+        "keywords": "ETW_TASK_DATAPROTECTION_OPERATION",
+        "task": "DataProtectionOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonForFailure"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "8199",
+        "version": "0",
+        "event(fields)": "MasterKeyOperation8199(Binary CredKeyIdentifier, UnicodeString UserName, SID UserSid)",
+        "opcode": "",
+        "keywords": "ETW_TASK_MASTERKEY_OPERATION",
+        "task": "MasterKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "CredKeyIdentifier"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "12289",
+        "version": "0",
+        "event(fields)": "CredentialKeyOperation(Binary CredKeyIdentifier, UnicodeString UserName, SID UserSid)",
+        "opcode": "",
+        "keywords": "ETW_TASK_CREDKEY_OPERATION",
+        "task": "CredentialKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "CredKeyIdentifier"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DPAPI",
+        "event_id": "12290",
+        "version": "0",
+        "event(fields)": "CredentialKeyOperation12290()",
+        "opcode": "",
+        "keywords": "ETW_TASK_CREDKEY_OPERATION",
+        "task": "CredentialKeyOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

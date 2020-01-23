@@ -1,0 +1,276 @@
+[
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8000",
+        "version": "0",
+        "event(fields)": "LMModuleLoaded(UnicodeString ProcessName, UnicodeString ModuleName, UnicodeString BuildName)",
+        "opcode": "",
+        "keywords": "keyword_100000000000",
+        "task": "LMModuleLoaded",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BuildName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8001",
+        "version": "0",
+        "event(fields)": "LMInfo(UnicodeString Message, AnsiString Function, AnsiString Source, UInt32 LineNumber)",
+        "opcode": "Info",
+        "keywords": "keyword_100000000000",
+        "task": "LM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8002",
+        "version": "0",
+        "event(fields)": "LMWarning(UnicodeString Message, AnsiString Function, AnsiString Source, UInt32 LineNumber)",
+        "opcode": "Warning",
+        "keywords": "keyword_100000000000",
+        "task": "LM",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8003",
+        "version": "0",
+        "event(fields)": "LMError(UnicodeString Message, AnsiString Function, AnsiString Source, UInt32 LineNumber)",
+        "opcode": "Error",
+        "keywords": "keyword_100000000000",
+        "task": "LM",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8010",
+        "version": "0",
+        "event(fields)": "LMStateMachineEnqueueEvent(Pointer StateMachine, UInt32 ThreadID, UnicodeString StateMachineName, AnsiString EventName)",
+        "opcode": "EnqueueEvent",
+        "keywords": "keyword_200000000000",
+        "task": "LMStateMachine",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StateMachineName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8011",
+        "version": "0",
+        "event(fields)": "LMStateMachineDispatchEvent(Pointer StateMachine, UInt32 ThreadID, UnicodeString StateMachineName, AnsiString EventName, UnicodeString CurrentState)",
+        "opcode": "DispatchEvent",
+        "keywords": "keyword_200000000000",
+        "task": "LMStateMachine",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StateMachineName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "EventName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8012",
+        "version": "0",
+        "event(fields)": "LMStateMachineChangeState(Pointer StateMachine, UInt32 ThreadID, UnicodeString CurrentState, UnicodeString NewState, UnicodeString StateMachineName)",
+        "opcode": "ChangeState",
+        "keywords": "keyword_200000000000",
+        "task": "LMStateMachine",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StateMachineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8013",
+        "version": "0",
+        "event(fields)": "LMStateMachineStartpumpingevents(Pointer StateMachine, UInt32 ThreadID, UnicodeString StateMachineName, UnicodeString CurrentState)",
+        "opcode": "Startpumpingevents",
+        "keywords": "keyword_200000000000",
+        "task": "LMStateMachine",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StateMachineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Store",
+        "event_id": "8014",
+        "version": "0",
+        "event(fields)": "LMStateMachineStoppumpingevents(Pointer StateMachine, UInt32 ThreadID, UnicodeString StateMachineName, UnicodeString CurrentState)",
+        "opcode": "Stoppumpingevents",
+        "keywords": "keyword_200000000000",
+        "task": "LMStateMachine",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StateMachineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentState"
+            }
+        ]
+    }
+]

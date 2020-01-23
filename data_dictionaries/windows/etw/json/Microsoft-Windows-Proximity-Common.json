@@ -1,0 +1,401 @@
+[
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "Proximity_DeviceArrivalTriggerStart(Pointer Pointer1)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_DeviceArrivalTrigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "Proximity_OOBMessageProcessingStart(Pointer Pointer1)",
+        "opcode": "Start",
+        "keywords": "ProximityAssociation",
+        "task": "Proximity_OOBMessageProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "Proximity_OOBMessagePublishingStart(Pointer Pointer1, UnicodeString String2, UnicodeString String3)",
+        "opcode": "Start",
+        "keywords": "ProximityAssociation",
+        "task": "Proximity_OOBMessagePublishing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "Proximity_OOBMessagePublishingStop(Pointer Pointer1, UnicodeString String2, UnicodeString String3)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_OOBMessagePublishing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "Proximity_OOBMessageProcessingStop(Pointer Pointer1, UnicodeString String2, UnicodeString String3)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_OOBMessageProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "Proximity_DeviceAssociationStart(UInt32 HrResult, UnicodeString DeviceCategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_DeviceAssociation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HrResult"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceCategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "Proximity_DeviceAssociationStop(UInt32 HrResult, UnicodeString DeviceCategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_DeviceAssociation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HrResult"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceCategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Proximity_SessionAppLaunchStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_SessionAppLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "Proximity_SessionAppLaunchStop(UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_SessionAppLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "Proximity_ReceiveSharedContentStart(Pointer Pointer1)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_ReceiveSharedContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "Proximity_ReceiveSharedContentStop(Pointer Pointer1)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_ReceiveSharedContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "Proximity_SessionProtocolStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_SessionProtocol",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "Proximity_SessionProtocolStop(UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_SessionProtocol",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "Proximity_SessionConnectStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_SessionConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "Proximity_SessionConnectStop(UInt32 Integer4, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_SessionConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Integer4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString String1, UnicodeString String2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "Proximity_ReceiveSharedContentStart30(Pointer Pointer1)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_ReceiveSharedContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "Proximity_ReceiveSharedContentStop31(Pointer Pointer1)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_ReceiveSharedContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "Proximity_SocketConnectStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Proximity_SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Proximity-Common",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "Proximity_SocketConnectStop(UInt32 TransportType, UInt32 HrConnectResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Proximity_SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TransportType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HrConnectResult"
+            }
+        ]
+    }
+]

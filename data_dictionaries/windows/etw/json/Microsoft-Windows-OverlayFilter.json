@@ -1,0 +1,438 @@
+[
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24832",
+        "version": "0",
+        "event(fields)": "WIMintegrityverificationIntegrityFileOpen(UInt16 FileNameLength, UnicodeString FileNameBuffer, Int64 DataSourceId, HexInt32 Status)",
+        "opcode": "IntegrityFileOpen",
+        "keywords": "",
+        "task": "WIMintegrityverification",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileNameBuffer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DataSourceId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24833",
+        "version": "0",
+        "event(fields)": "WIMintegrityverificationIntegrityBlockVerificationFailure(UInt16 FileNameLength, UnicodeString FileNameBuffer, UInt32 BlockNumber, UInt32 BlockLength)",
+        "opcode": "IntegrityBlockVerificationFailure",
+        "keywords": "",
+        "task": "WIMintegrityverification",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileNameBuffer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24834",
+        "version": "0",
+        "event(fields)": "WIMintegrityverificationIntegrityInvalidBlock(UInt16 FileNameLength, UnicodeString FileNameBuffer, Int64 FileOffset, UInt32 ReadSize)",
+        "opcode": "IntegrityInvalidBlock",
+        "keywords": "",
+        "task": "WIMintegrityverification",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileNameBuffer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FileOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24835",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskEnumVolume(UnicodeString volume)",
+        "opcode": "EnumVolume",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "volume"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24836",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskReportHashGenerationToBitlockerError(UInt32 hr)",
+        "opcode": "ReportHashGenerationToBitlockerError",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24837",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskCreateHashFile(UnicodeString wimHashFile, UnicodeString wimFile)",
+        "opcode": "CreateHashFile",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24838",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskCompleteHashFile(UnicodeString wimHashFile, UnicodeString wimFile)",
+        "opcode": "CompleteHashFile",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24839",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskDeleteHashFile(UnicodeString wimHashFile, UnicodeString wimFile)",
+        "opcode": "DeleteHashFile",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24840",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskResumeHashFile(UnicodeString filename, UInt64 offset)",
+        "opcode": "ResumeHashFile",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "filename"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "offset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24841",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskPauseHashFile(UnicodeString filename, UInt64 offset)",
+        "opcode": "PauseHashFile",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "filename"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "offset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24842",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskActionError(UInt32 hr)",
+        "opcode": "ActionError",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24843",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskGenerateHashFileError(UnicodeString wimHashFile, UnicodeString wimFile, Int32 hr)",
+        "opcode": "GenerateHashFileError",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24844",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskDeleteHashFileError(UnicodeString wimHashFile, UnicodeString wimFile, Int32 hr)",
+        "opcode": "DeleteHashFileError",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24845",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskFileReadError(UnicodeString wimHashFile, UnicodeString wimFile, Int32 hr)",
+        "opcode": "FileReadError",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24846",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskFileWriteError(UnicodeString wimHashFile, UnicodeString wimFile, Int32 hr)",
+        "opcode": "FileWriteError",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimHashFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wimFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24847",
+        "version": "0",
+        "event(fields)": "WIMintegrityverificationIntegrityFileOpen24847(UInt16 FileNameLength, UnicodeString FileNameBuffer, Int64 DataSourceId)",
+        "opcode": "IntegrityFileOpen",
+        "keywords": "",
+        "task": "WIMintegrityverification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileNameBuffer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DataSourceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24848",
+        "version": "0",
+        "event(fields)": "WIMintegrityverificationIntegrityFileOpen24848(UInt16 FileNameLength, UnicodeString FileNameBuffer, Int64 DataSourceId)",
+        "opcode": "IntegrityFileOpen",
+        "keywords": "",
+        "task": "WIMintegrityverification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileNameBuffer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DataSourceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24849",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskActionGenerateHashes()",
+        "opcode": "ActionGenerateHashes",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-OverlayFilter",
+        "event_id": "24850",
+        "version": "0",
+        "event(fields)": "TheWindowsOverlayTaskActionDeleteHashes()",
+        "opcode": "ActionDeleteHashes",
+        "keywords": "",
+        "task": "TheWindowsOverlayTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

@@ -1,0 +1,2864 @@
+[
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "AudioServer_Fail_Service_Device(UInt32 Event, UnicodeString EventName, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Fail_Service_Device",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AudioServer_Fail_Device_Event_Worker(UInt32 DeviceEventType, UnicodeString DeviceEventTypeName, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Fail_Device_Event_Worker",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceEventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceEventTypeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AudioServer_Fail_Set_Service_Status(UInt32 dwServiceType, UInt32 dwCurrentState, UInt32 dwControlsAccepted, UInt32 dwWin32ExitCode, UInt32 dwServiceSpecificExitCode, UInt32 dwCheckPoint, UInt32 dwWaitHint)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Fail_Set_Service_Status",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCurrentState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwControlsAccepted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwWin32ExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwServiceSpecificExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCheckPoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwWaitHint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "AudioServer_Fail_Subsystem_Startup(UnicodeString szSubsystemName, UInt32 dwSubsystemFailureCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Fail_Subsystem_Startup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szSubsystemName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwSubsystemFailureCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AudioServer_Fail_AudioDG_Crashed(UInt32 dwAudioDgTerminationCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Fail_AudioDG_Crashed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwAudioDgTerminationCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "AudioServer_Fail_AudioDG_Failed_Startup(UInt32 dwAudioDgStartupFailureCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Fail_AudioDG_Failed_Startup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwAudioDgStartupFailureCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "CaptureMonitor_Monitor_Restart_Limit_Hit(UInt32 dwRestartCount, UnicodeString szInputEndpointName, UnicodeString szOutputEndpointName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CaptureMonitor_Monitor_Restart_Limit_Hit",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwRestartCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szInputEndpointName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szOutputEndpointName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "AudioServer_Stream_Flags(UInt32 dwAudioSrvStreamFlags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Stream_Flags",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwAudioSrvStreamFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_LaunchAudioDGStart(UInt32 Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioPerf_Task_LaunchAudioDG",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_LaunchAudioDGStop(UInt32 Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioPerf_Task_LaunchAudioDG",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_EndpointVolumeStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioPerf_Task_EndpointVolume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_EndpointVolumeStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioPerf_Task_EndpointVolume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_SessionAPIStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioPerf_Task_SessionAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_SessionAPIStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioPerf_Task_SessionAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "AudioDG_Glitch_Threshold_Exceeded(UInt32 dwAudioDgTerminationCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioDG_Glitch_Threshold_Exceeded",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwAudioDgTerminationCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "AudioPerf_Task_GlitchCounter(UInt32 dwGlitchCount, UInt64 hnsTimeWindow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioPerf_Task_GlitchCounter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwGlitchCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "hnsTimeWindow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "AudioSession_Stream_Resource_Type(UInt32 Format, UInt32 SamplingRate, Boolean bAudioSrvStreamResourceType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioSession_Stream_Resource_Type",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SamplingRate"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "bAudioSrvStreamResourceType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "AudioServer_Sound_Level_Changed(UnicodeString AppId, UInt32 SoundLevel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioServer_Sound_Level_Changed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SoundLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "AudioSession_Client_Suspended(Boolean bIsSuspended)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioSession_Client_Suspended",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "bIsSuspended"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "AudioSession_Release_Client_Resource(Boolean bExclusiveModeStream, Boolean bOffloadStream)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioSession_Release_Client_Resource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "bExclusiveModeStream"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "bOffloadStream"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "PBM_StreamStarted(UnicodeString AppId, UInt32 PID, UInt32 Category)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PBM_StreamStarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Category"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "PBM_StreamStopped(UnicodeString AppId, UInt32 PID, UInt32 Category)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PBM_StreamStopped",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Category"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionCaptureMonitorRenderGlitch(Pointer pCMonitor, UInt64 DevicePosition, UInt64 QPCPosition)",
+        "opcode": "CaptureMonitorRenderGlitch",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCMonitor"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DevicePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QPCPosition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionCaptureMonitorCaptureGlitch(Pointer pCMonitor, UInt64 DevicePosition, UInt64 QPCPosition)",
+        "opcode": "CaptureMonitorCaptureGlitch",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCMonitor"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DevicePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QPCPosition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionAPOGlitch:FormatConverterINFdetected(Pointer pCAudioFormatConvert, UInt32 ConverstionType)",
+        "opcode": "FormatConverterINFdetected",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioFormatConvert"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConverstionType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPClientInputEndpoint_NoMessagesinqueue(Pointer pCCrossProcessClientInputEndpoint, UInt32 Unused)",
+        "opcode": "CPClientInputEndpoint_NoMessagesinqueue",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessClientInputEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Unused"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPClientInputEndpoint_Queueitemdoesnotmatchrequestedsize(Pointer pCCrossProcessClientInputEndpoint, UInt32 Unused)",
+        "opcode": "CPClientInputEndpoint_Queueitemdoesnotmatchrequestedsize",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessClientInputEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Unused"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPClientOutputEndpoint_ServerOverread(Pointer pCCrossProcessClientOutputEndpoint, UInt64 WriteBytePos, UInt64 ReadBytePos, UInt32 BytesToWrite)",
+        "opcode": "CPClientOutputEndpoint_ServerOverread",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessClientOutputEndpoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteBytePos"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReadBytePos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesToWrite"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPClientOutputEndpoint_ReadPointerOverwrite(Pointer pCCrossProcessClientOutputEndpoint, UInt32 WriteOffset, UInt32 ReadOffset, UInt32 BytesToWrite, UInt32 EndOfDataOffset)",
+        "opcode": "CPClientOutputEndpoint_ReadPointerOverwrite",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessClientOutputEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesToWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EndOfDataOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPServerInputEndpoint_Starvation(Pointer pCCrossProcessServerInputEndpoint, UInt32 WriteOffset, UInt32 ReadOffset, UInt32 BufferSize, UInt32 BytesAvailable)",
+        "opcode": "CPServerInputEndpoint_Starvation",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessServerInputEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesAvailable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPServerOutputEndpoint_QueueFullPacketDrop(Pointer pCCrossProcessServerOutputEndpoint, UInt64 WriteBytePos, UInt32 DroppedBytes, UInt64 ReadBytePos, UInt32 BytesToWrite)",
+        "opcode": "CPServerOutputEndpoint_QueueFullPacketDrop",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessServerOutputEndpoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteBytePos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DroppedBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReadBytePos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesToWrite"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionEngineGlitch:CPServerOutputEndpoint_ReadPointerOverwrite(Pointer pCCrossProcessServerOutputEndpoint, UInt32 WriteOffset, UInt32 ReadOffset, UInt32 BytesToWrite)",
+        "opcode": "CPServerOutputEndpoint_ReadPointerOverwrite",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCCrossProcessServerOutputEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesToWrite"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:IOMGRNoOutstandingPackets(Pointer pOwner, UInt32 NextStreamingPacketToComplete, UInt32 MaxPacketCount)",
+        "opcode": "IOMGRNoOutstandingPackets",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pOwner"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NextStreamingPacketToComplete"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxPacketCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:IOMGRIoctlTimeLimitExceeded(Pointer pOwner, UInt64 IoctlTimeHNS)",
+        "opcode": "IOMGRIoctlTimeLimitExceeded",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pOwner"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IoctlTimeHNS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:BASEOutputUnexpectedBufferCompleted(Pointer pCAudioBasePin, Pointer pLockedDataPointer, Boolean bLockedEqualsUnrolled)",
+        "opcode": "BASEOutputUnexpectedBufferCompleted",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioBasePin"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pLockedDataPointer"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "bLockedEqualsUnrolled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:BASEInputNullLastBufferwithLockedData!=LoopedBuffer(Pointer pCAudioBasePin, Pointer LockedDataPointer)",
+        "opcode": "BASEInputNullLastBufferwithLockedData!=LoopedBuffer",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioBasePin"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "LockedDataPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:BASEInputBufferIndexMismatch(Pointer pCAudioBasePin, Pointer LockedDataPointer)",
+        "opcode": "BASEInputBufferIndexMismatch",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioBasePin"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "LockedDataPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:BASEEndGlitch(Pointer pCAudioBasePin, UInt64 GlitchStreamPosition, UInt32 GlitchDuration)",
+        "opcode": "BASEEndGlitch",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioBasePin"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GlitchStreamPosition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GlitchDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:RTCAPStreamPosAheadofHWPos(Pointer pCAudioCapturePinRealtimeStreaming, UInt64 WritePosition, UInt64 PlayPosition, UInt64 StreamPosition, UInt64 StreamPosMinusReadPos)",
+        "opcode": "RTCAPStreamPosAheadofHWPos",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioCapturePinRealtimeStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WritePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosMinusReadPos"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:RTCAPStreamPosTooFarBehind(Pointer pCAudioCapturePinRealtimeStreaming, UInt64 WritePosition, UInt64 PlayPosition, UInt64 StreamPosition, UInt64 ReadPosMinusStreamPos)",
+        "opcode": "RTCAPStreamPosTooFarBehind",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioCapturePinRealtimeStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WritePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReadPosMinusStreamPos"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:RTRENWritePosExceedsTotalPos(Pointer pCAudioRenderPinRealtimeStreaming, UInt64 WritePosition, UInt64 PlayPosition, UInt64 TotalPosition, UInt64 WritePosMinusTotalPos)",
+        "opcode": "RTRENWritePosExceedsTotalPos",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioRenderPinRealtimeStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WritePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WritePosMinusTotalPos"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:STCAPCaptureAhead(Pointer pCAudioCapturePinStandardStreaming, UInt64 ValidPositionEnd, UInt64 ValidPositionStart, UInt64 StreamPosition, UInt64 StreamPosMinusValidPosEnd)",
+        "opcode": "STCAPCaptureAhead",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioCapturePinStandardStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValidPositionEnd"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValidPositionStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosMinusValidPosEnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:STCAPCaptureBehind(Pointer pCAudioCapturePinStandardStreaming, UInt64 ValidPositionEnd, UInt64 ValidPositionStart, UInt64 StreamPosition, UInt64 ValidPosStartMinusStreamPos)",
+        "opcode": "STCAPCaptureBehind",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioCapturePinStandardStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValidPositionEnd"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValidPositionStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValidPosStartMinusStreamPos"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:STCAPDeviceStarved(Pointer pCAudioCapturePinStandardStreaming, UInt64 StreamPosition, UInt32 FrameCount)",
+        "opcode": "STCAPDeviceStarved",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioCapturePinStandardStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:STRENDeviceStarved(Pointer pCAudioRenderPinStandardStreaming, UInt64 DevicePosition, UInt64 StreamPosition, UInt32 AvailableFrames)",
+        "opcode": "STRENDeviceStarved",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioRenderPinStandardStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DevicePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AvailableFrames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "Audio_Glitch_DetectionKSEndpointGlitch:STRENEXCLPULLInvalidBufferCount(Pointer pCAudioRenderPinStandardStreaming, UInt64 DevicePosition, UInt64 StreamPosition, UInt32 AvailableFrames)",
+        "opcode": "STRENEXCLPULLInvalidBufferCount",
+        "keywords": "",
+        "task": "Audio_Glitch_Detection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pCAudioRenderPinStandardStreaming"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DevicePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AvailableFrames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "System_Effect_APO_Initialized(GUID APOCLSID, GUID AudioSignalProcessingMode, Boolean InitializeForDiscoveryOnly)",
+        "opcode": "",
+        "keywords": "",
+        "task": "System_Effect_APO_Initialized",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "APOCLSID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AudioSignalProcessingMode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InitializeForDiscoveryOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "AudioSrv_EVT_VOLUME_LIMIT_CHANGED_ENTER(Pointer objectpointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioSrv_EVT_VOLUME_LIMIT_CHANGED_ENTER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objectpointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "AudioSrv_EVT_VOLUME_LIMIT_CHANGED_EXIT(Pointer objectpointer, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioSrv_EVT_VOLUME_LIMIT_CHANGED_EXIT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objectpointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "AudioSrv_EVT_VOLUME_LIMIT_PUBLISH_WNF_AVLC_STATE(Pointer objectpointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioSrv_EVT_VOLUME_LIMIT_PUBLISH_WNF_AVLC_STATE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objectpointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIMMDevAPI:Defaultdevicechangedtriggered(UInt32 flow, UInt32 role, UInt32 TargetProcessId)",
+        "opcode": "Defaultdevicechangedtriggered",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "flow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "role"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIMMDevAPI:DeviceStateChangedcallback(Pointer object, UInt32 NewState)",
+        "opcode": "DeviceStateChangedcallback",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIMMDevAPI:DeviceAddedcallback(Pointer object)",
+        "opcode": "DeviceAddedcallback",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIMMDevAPI:DeviceRemovedcallback(Pointer object)",
+        "opcode": "DeviceRemovedcallback",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIMMDevAPI:DefaultDeviceChangedcallback(Pointer object, UInt32 flow, UInt32 role)",
+        "opcode": "DefaultDeviceChangedcallback",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "flow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "role"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MMDevAPIMMDevAPI:Audiodevicestatechanged(UnicodeString DeviceName, UnicodeString DeviceId, UInt32 flow, UInt32 NewState)",
+        "opcode": "Audiodevicestatechanged",
+        "keywords": "",
+        "task": "AudioCore_EVT_MMDevAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "flow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:ApplicationSuspensionHandler(Pointer object)",
+        "opcode": "ApplicationSuspensionHandler",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:ApplicationResumeHandler(Pointer object)",
+        "opcode": "ApplicationResumeHandler",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:ApplicationEnteringCSHandler(Pointer object)",
+        "opcode": "ApplicationEnteringCSHandler",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:ApplicationResumingfromCSHandler(Pointer object)",
+        "opcode": "ApplicationResumingfromCSHandler",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:DeviceRemovalHandler(Pointer object)",
+        "opcode": "DeviceRemovalHandler",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:Cleanupandreleasedevicehandle(Pointer object)",
+        "opcode": "Cleanupandreleasedevicehandle",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:ClosehandletoMIDIDevice(Pointer object)",
+        "opcode": "ClosehandletoMIDIDevice",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "MidiRT:TrytoopendeviceahandleonthedeviceStart(UnicodeString DeviceId, Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MidiRT:Trytoopendeviceahandleonthedevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "MidiRT:TrytoopendeviceahandleonthedeviceStop(Pointer object, UInt32 hResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MidiRT:Trytoopendeviceahandleonthedevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "AudioCore_EVT_MidiRTMidiRT:CreatenewMidiPortDeviceIoControl(UnicodeString DeviceId, Pointer object)",
+        "opcode": "CreatenewMidiPortDeviceIoControl",
+        "keywords": "",
+        "task": "AudioCore_EVT_MidiRT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "MidiRT:PerformSynchronousI/OStart(Pointer object, UInt32 ioControlCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MidiRT:PerformSynchronousI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ioControlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "MidiRT:PerformSynchronousI/OStop(Pointer object, UInt32 hResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MidiRT:PerformSynchronousI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "MidiRT:PerformAsynchronousI/OStart(Pointer object, UInt32 ioControlCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MidiRT:PerformAsynchronousI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ioControlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "MidiRT:PerformAsynchronousI/OStop(Pointer object, UInt32 hResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MidiRT:PerformAsynchronousI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "CrossProcesspacketadded(Pointer CrossProcessInstance, UInt32 ReadIndex, UInt32 WriteIndexIndex, UInt32 FramesInPacket, UInt64 QPC)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CrossProcesspacketadded",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CrossProcessInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteIndexIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FramesInPacket"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QPC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "Pump:settingdeadline(Pointer PumpInstance, Int64 deadlineHns)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Pump:settingdeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "deadlineHns"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "Pump:cancellingdeadline(Pointer PumpInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Pump:cancellingdeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "Pump:misseddeadline!(Pointer PumpInstance, Int64 deadlineHns)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Pump:misseddeadline!",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "deadlineHns"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "Pump:MultiMediamodeStart(Pointer PumpInstance)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Pump:MultiMediamode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "Pump:MultiMediamodeStop(Pointer PumpInstance)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Pump:MultiMediamode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "EndpointCharacteristicsDiscoveryStart(UnicodeString EndpointId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EndpointCharacteristicsDiscovery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "EndpointCharacteristicsDiscoveryStop(UnicodeString EndpointId, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EndpointCharacteristicsDiscovery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "GetMixFormatevaluationStart(UnicodeString EndpointId, UInt32 category, Boolean Raw, Boolean MatchFormat, UInt32 ConnectorType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "GetMixFormatevaluation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "category"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Raw"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MatchFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "GetMixFormatevaluationStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "GetMixFormatevaluation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "IsFormatSupportedevaluationStart(UnicodeString EndpointId, UInt32 category, Boolean Raw, Boolean MatchFormat, UInt32 ConnectorType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IsFormatSupportedevaluation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "category"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Raw"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MatchFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "IsFormatSupportedevaluationStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IsFormatSupportedevaluation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "StreamCreationStart(UnicodeString EndpointId, UInt32 category, Boolean Raw, Boolean MatchFormat, UInt32 ConnectorType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "StreamCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "category"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Raw"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MatchFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "StreamCreationStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "StreamCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "StreamCreationDerivedstreamsettingsforstream()",
+        "opcode": "Derivedstreamsettingsforstream",
+        "keywords": "",
+        "task": "StreamCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "StreamCreationCreatedStreamGroupandstream()",
+        "opcode": "CreatedStreamGroupandstream",
+        "keywords": "",
+        "task": "StreamCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "StreamCreationCreatedSaDevice()",
+        "opcode": "CreatedSaDevice",
+        "keywords": "",
+        "task": "StreamCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "StreamCreationConnectedStreamGrouptoSaDevice()",
+        "opcode": "ConnectedStreamGrouptoSaDevice",
+        "keywords": "",
+        "task": "StreamCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "CreateDeviceEndpointInstancetaskStart(UnicodeString EndpointId, UInt32 ConnectorType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CreateDeviceEndpointInstancetask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "CreateDeviceEndpointInstancetaskStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CreateDeviceEndpointInstancetask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "Pump:CorrectPosition(Pointer PumpInstance, UInt64 SampleIndex, UInt64 OrigProcessingStart, UInt64 NewProcessingStart, Int64 StartCorrection, UInt64 TimeDelta, UInt32 SampleDelta, UInt64 DevicePeriod, UInt64 ActualDevicePeriod, UInt64 WindowWidth_ms)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Pump:CorrectPosition",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OrigProcessingStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewProcessingStart"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "StartCorrection"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeDelta"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleDelta"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DevicePeriod"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActualDevicePeriod"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowWidth_ms"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "Pump:YieldStart(Pointer PumpInstance, UInt32 uEventMask)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Pump:Yield",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uEventMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "Pump:YieldStop(Pointer PumpInstance, UInt32 WakeCategory, UInt32 WakeValue)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Pump:Yield",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WakeCategory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WakeValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "Pump:ProcessStart(Pointer PumpInstance, UInt32 Phase)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Pump:Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "Pump:ProcessStop(Pointer PumpInstance)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Pump:Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "Pump:ProcPassDuration(Pointer PumpInstance, Int64 WorkDuration, Int64 MaxWorkDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Pump:ProcPassDuration",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PumpInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "WorkDuration"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "MaxWorkDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "AEObject(Pointer objInstance, UInt32 ucType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEObject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "AEGlitch(Pointer objInstance, UInt32 ucType, Int64 WritePosition, UInt64 PlayPosition, UInt64 StreamPosition, UInt64 GlitchFrameCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEGlitch",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "WritePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "GlitchFrameCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "AEDrop(Pointer objInstance, UInt64 SampleTime, UInt64 u64ByteCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEDrop",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64ByteCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "AECPUUsage(Pointer objInstance, UInt32 ucType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AECPUUsage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "AEControl(Pointer objInstance, UInt32 ucType, UInt64 ProcessTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEControl",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "AEPosition(Pointer objInstance, UInt32 ucType, UInt64 WritePosition, UInt64 PlayPosition, UInt64 StreamPosition, UInt64 LoopPosition)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEPosition",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WritePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoopPosition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "AESecurity(Pointer objInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AESecurity",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "AEData(Pointer objInstance, UInt32 ucType, UInt64 Data1, UInt64 Data2, UInt64 Data3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEData",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Data1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Data2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Data3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "AEIRP(Pointer objInstance, UInt32 ucType, UInt32 Index, UInt32 OutStandingCount, UInt64 FrameExtent)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEIRP",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutStandingCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FrameExtent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "AEEndpoint(Pointer objInstance, UInt32 ucType, UInt64 PinHandle, UInt32 FormatTag, UInt32 SampleRate, UInt32 BitsPerSample, UInt32 Channels, UInt32 Period, UInt32 Latency, UInt32 BufferSize)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEEndpoint",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PinHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FormatTag"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitsPerSample"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Channels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Period"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Latency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "AEInterpolator(Pointer objInstance, UInt32 ucType, UInt64 InterpolatedPlayPosition, UInt64 InterpolatedWritePosition, UInt64 RealPlayPosition, UInt64 RealWritePosition, Float SampleRate, Float FilteredError)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEInterpolator",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "InterpolatedPlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "InterpolatedWritePosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RealPlayPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RealWritePosition"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "SampleRate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "FilteredError"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "AETimestamp(Pointer objInstance, UInt32 ucType, UInt64 Flag, UInt64 Padding, UInt64 QPCPos, UInt64 DevPos, UInt64 StrmPos)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AETimestamp",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Flag"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Padding"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QPCPos"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DevPos"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StrmPos"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "AEPerformance(Pointer objInstance, UInt32 ucType, UInt64 Custom1, UInt64 Custom2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEPerformance",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Custom1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Custom2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "AEGeneric(Pointer objInstance, UInt32 ucType, UInt64 u64Param1, UInt64 u64Param2, UInt64 u64Param3, UInt64 u64Param4, Float f64Param1, Float f64Param2, Float f64Param3, Float f64Param4)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEGeneric",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param3"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param4"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "f64Param1"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "f64Param2"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "f64Param3"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "f64Param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "AEMemory(Pointer objInstance, UInt32 ucType, Pointer hHeap, UInt32 ulInitial, UInt32 ulMin, UInt32 ulMax, UInt32 ulAllocCount, UInt32 ulExtendCount, UInt32 ulTotalAlloc)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEMemory",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulInitial"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulMin"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulMax"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulAllocCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulExtendCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulTotalAlloc"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "AEMemory_163(Pointer objInstance, UInt32 ucType, UInt64 u64Param1, UInt64 u64Param2, UInt64 u64Param3, UInt64 u64Param4)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEMemory_163",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param3"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Audio",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "AEMemory_164(Pointer objInstance, UInt32 ucType, UInt64 u64Param1, UInt64 u64Param2, UInt64 u64Param3, UInt64 u64Param4)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AEMemory_164",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "objInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ucType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param3"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "u64Param4"
+            }
+        ]
+    }
+]

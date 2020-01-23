@@ -1,0 +1,38 @@
+[
+    {
+        "provider": "Microsoft-Windows-BfeTriggerProvider",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0Opcode_FirewallPortOpenEvent(GUID FirewallPortStatusChangeGuid)",
+        "opcode": "Opcode_FirewallPortOpenEvent",
+        "keywords": "Keyword_FirewallPortOpenEvent",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "FirewallPortStatusChangeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-BfeTriggerProvider",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_0Opcode_FirewallPortCloseEvent(GUID FirewallPortStatusChangeGuid)",
+        "opcode": "Opcode_FirewallPortCloseEvent",
+        "keywords": "Keyword_FirewallPortCloseEvent",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "FirewallPortStatusChangeGuid"
+            }
+        ]
+    }
+]

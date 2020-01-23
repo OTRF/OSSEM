@@ -1,0 +1,56 @@
+[
+    {
+        "provider": "Microsoft-Windows-SetupQueue",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "ExecutecommandqueueentryStart(UnicodeString Command)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "Executecommandqueueentry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupQueue",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "ExecutecommandqueueentryStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "Executecommandqueueentry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupQueue",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "ExecutecommandqueueentryStop1003(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "Executecommandqueueentry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

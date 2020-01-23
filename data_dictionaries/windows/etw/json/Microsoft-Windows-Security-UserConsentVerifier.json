@@ -1,0 +1,50 @@
+[
+    {
+        "provider": "Microsoft-Windows-Security-UserConsentVerifier",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "VerificationResult(UnicodeString AppName, UnicodeString AppMessage)",
+        "opcode": "Result",
+        "keywords": "UCV Biometrics Fingerprint",
+        "task": "Verification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Security-UserConsentVerifier",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "VerificationResult101(UnicodeString AppName, UnicodeString AppMessage, UInt32 VerificationResult)",
+        "opcode": "Result",
+        "keywords": "UCV Biometrics Fingerprint",
+        "task": "Verification",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppMessage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VerificationResult"
+            }
+        ]
+    }
+]

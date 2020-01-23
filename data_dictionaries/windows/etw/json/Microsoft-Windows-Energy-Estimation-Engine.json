@@ -1,0 +1,1402 @@
+[
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "InitializeProviderStart()",
+        "opcode": "Start",
+        "keywords": "CodePath",
+        "task": "InitializeProvider",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "InitializeProviderStop()",
+        "opcode": "Stop",
+        "keywords": "CodePath",
+        "task": "InitializeProvider",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "UninitializeProvider()",
+        "opcode": "",
+        "keywords": "CodePath",
+        "task": "UninitializeProvider",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "QueryStatsStart()",
+        "opcode": "Start",
+        "keywords": "CodePath",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "QueryStatsStop()",
+        "opcode": "Stop",
+        "keywords": "CodePath",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MergeStatsStart()",
+        "opcode": "Start",
+        "keywords": "CodePath",
+        "task": "MergeStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MergeStatsStop()",
+        "opcode": "Stop",
+        "keywords": "CodePath",
+        "task": "MergeStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "IndexToAppId()",
+        "opcode": "",
+        "keywords": "CodePath",
+        "task": "IndexToAppId",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "IndexToUserId()",
+        "opcode": "",
+        "keywords": "CodePath",
+        "task": "IndexToUserId",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "QueryColumnInfo()",
+        "opcode": "",
+        "keywords": "CodePath",
+        "task": "QueryColumnInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "FreeMemory(UInt32 DataType, Pointer Address)",
+        "opcode": "",
+        "keywords": "CodePath",
+        "task": "FreeMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "QueryStatsEnergyEstimate(UnicodeString AppName, UInt16 UserId, UInt64 CpuEnergy, UInt64 SocEnergy, UInt64 DisplayEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy, UInt64 MbbEnergy, UInt64 OtherEnergy, UInt32 RecordFlags)",
+        "opcode": "EnergyEstimate",
+        "keywords": "EnergyEstimation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CpuEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SocEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisplayEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MbbEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OtherEnergy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MergeStatsEnergyEstimate(UnicodeString AppName, UInt16 UserId, UInt64 CpuEnergy, UInt64 SocEnergy, UInt64 DisplayEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy, UInt64 MbbEnergy, UInt64 OtherEnergy, UInt32 RecordFlags)",
+        "opcode": "EnergyEstimate",
+        "keywords": "EnergyEstimation",
+        "task": "MergeStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CpuEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SocEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisplayEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MbbEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OtherEnergy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "QueryStatsCpuPowerInfo(UInt32 CpuId, UInt8 CurrentFrequency, UInt8 LastBusyFrequency, UInt64 Energy)",
+        "opcode": "CpuPowerInfo",
+        "keywords": "SystemInformation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CpuId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentFrequency"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LastBusyFrequency"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Energy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "QueryStatsProcessInfo(UInt32 SessionId, UInt32 UniqueProcessId, UnicodeString ImageName, UInt32 NumberOfThreads, UInt64 CycleTime, UInt64 ReadOperationCount, UInt64 BytesRead, UInt64 WriteOperationCount, UInt64 BytesWritten, UInt64 DiskEnergy, UInt64 NetworkTailEnergy, UInt64 MBBTailEnergy, UInt64 NetworkTxRxBytes, UInt64 MBBTxRxBytes, UInt32 BucketCount, SID BucketedCycles, UInt32 WindowInformation, UInt64 ForegroundReportTimestamp, UInt64 ForegroundTime)",
+        "opcode": "ProcessInfo",
+        "keywords": "SystemInformation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UniqueProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfThreads"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReadOperationCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesRead"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WriteOperationCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesWritten"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MBBTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTxRxBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MBBTxRxBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BucketCount"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "BucketedCycles"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WindowInformation"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundReportTimestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "QueryStatsAppPerfInfo(UInt64 UniqueApplicationId, UnicodeString PackageFullName, UInt64 ForegroundCycleTime, UInt64 BackgroundCycleTime, UInt64 ForegroundActiveTime, UInt64 ForegroundBytesRead, UInt64 ForegroundBytesWritten, UInt64 BackgroundBytesRead, UInt64 BackgroundBytesWritten, UInt32 BucketCount, CountedUtf16String ForegroundCycles, UInt64 ForegroundDiskEnergy, UInt64 ForegroundNetworkTailEnergy, UInt64 ForegroundMBBTailEnergy, UInt64 ForegroundNetworkTxRxBytes, UInt64 ForegroundMBBTxRxBytes, 25 BackgroundCycles, UInt64 BackgroundDiskEnergy, UInt64 BackgroundNetworkTailEnergy, UInt64 BackgroundMBBTailEnergy, UInt64 BackgroundNetworkTxRxBytes, UInt64 BackgroundMBBTxRxBytes)",
+        "opcode": "AppPerfInfo",
+        "keywords": "SystemInformation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueApplicationId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundCycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundCycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundActiveTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundBytesRead"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundBytesWritten"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundBytesRead"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundBytesWritten"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BucketCount"
+            },
+            {
+                "field_type": "CountedUtf16String",
+                "field_name": "ForegroundCycles"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundDiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundNetworkTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundMBBTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundNetworkTxRxBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundMBBTxRxBytes"
+            },
+            {
+                "field_type": "25",
+                "field_name": "BackgroundCycles"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundDiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundNetworkTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundMBBTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundNetworkTxRxBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BackgroundMBBTxRxBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "QueryStatsEnergyDelta(UInt32 Component, UInt64 EnergyDelta)",
+        "opcode": "EnergyDelta",
+        "keywords": "EnergyEstimation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Component"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EnergyDelta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "QueryStatsEnergyDelta18(UInt32 Component, UInt64 EnergyDelta)",
+        "opcode": "EnergyDelta",
+        "keywords": "EnergyEstimation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Component"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EnergyDelta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "DisplayEnergyMonitorPowerState(UInt8 PreviousState, UInt8 CurrentState)",
+        "opcode": "MonitorPowerState",
+        "keywords": "",
+        "task": "DisplayEnergy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousState"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "DisplayEnergyPolicyBrightness(UInt8 PreviousValue, UInt8 CurrentValue)",
+        "opcode": "PolicyBrightness",
+        "keywords": "",
+        "task": "DisplayEnergy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "DisplayEnergyActualBrightness(UInt8 PreviousValue, UInt8 CurrentValue)",
+        "opcode": "ActualBrightness",
+        "keywords": "",
+        "task": "DisplayEnergy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "QueryStatsResidualEnergy(UInt64 BatteryDrain, UInt64 EstimatedEnergy, Int64 ResidualEnergy)",
+        "opcode": "ResidualEnergy",
+        "keywords": "",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "BatteryDrain"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EstimatedEnergy"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ResidualEnergy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "QueryStatsResidualEnergy23(UInt16 AgeInSec, UInt64 AdjustedEnergy, Int64 ResidualEnergy)",
+        "opcode": "ResidualEnergy",
+        "keywords": "",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "AgeInSec"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AdjustedEnergy"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ResidualEnergy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "QueryStatsBatteryState(UInt32 StateFlags, UInt32 MaxCapacity, UInt32 RemainingCapacity, UInt32 Rate, UInt32 EstimatedTime)",
+        "opcode": "BatteryState",
+        "keywords": "",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StateFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Rate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EstimatedTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "QueryStatsMapProcessToApp(UInt64 UniqueApplicationId, UnicodeString PackageFullName, UInt32 SessionId, UInt32 UniqueProcessId, UnicodeString ImageName)",
+        "opcode": "MapProcessToApp",
+        "keywords": "",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueApplicationId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UniqueProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "QueryStatsAppForegroundTime(UInt64 UniqueApplicationId, UInt64 ForegroundTime)",
+        "opcode": "AppForegroundTime",
+        "keywords": "",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "QueryStatsAppForegroundTime27(UInt64 UniqueApplicationId, UInt64 ForegroundTimeDelta)",
+        "opcode": "AppForegroundTime",
+        "keywords": "",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForegroundTimeDelta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "AppInteractivityState(UInt32 UniqueProcessId, UInt32 InteractivityState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AppInteractivityState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UniqueProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractivityState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "AppInteractivityState29(UInt64 UniqueApplicationId, UInt32 InteractivityState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AppInteractivityState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractivityState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "AisResidencyDelta(UInt32 UniqueProcessId, UInt64 FcousTime, UInt64 VisibleTime, UInt64 MinimizedTime, UInt32 DirtyGenerated, UInt32 DirtyPropagated, UInt32 CompositorRendered)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AisResidencyDelta",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UniqueProcessId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FcousTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VisibleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MinimizedTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyGenerated"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyPropagated"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CompositorRendered"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "AisResidencyDelta31(UInt64 UniqueApplicationId, UInt64 FcousTime, UInt64 VisibleTime, UInt64 MinimizedTime, UInt32 DirtyGenerated, UInt32 DirtyPropagated, UInt32 CompositorRendered)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AisResidencyDelta",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FcousTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VisibleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MinimizedTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyGenerated"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyPropagated"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CompositorRendered"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "EnergyNotification(UnicodeString AppName, UInt16 UserId, UInt32 Cookie, UInt32 BackgroundScreenOffmJ, UInt32 BackgroundScreenOnmJ, UInt32 ForegroundScreenOffmJ, UInt32 ForegroundScreenOnmJ)",
+        "opcode": "EnergyNotification",
+        "keywords": "EnergyEstimation",
+        "task": "EnergyNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Cookie"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackgroundScreenOffmJ"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackgroundScreenOnmJ"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ForegroundScreenOffmJ"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ForegroundScreenOnmJ"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "QueryStats(UInt32 SruWorkItemType, UInt32 ProviderState, UInt32 DeviceState)",
+        "opcode": "",
+        "keywords": "CodePath",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SruWorkItemType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "StandbyActivationTime(UInt16 PdcClientId, UInt64 LastSnapValue, UInt64 CurrSnapValue, UInt64 Delta)",
+        "opcode": "StandbyActivationTime",
+        "keywords": "EnergyEstimation",
+        "task": "StandbyActivationTime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PdcClientId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastSnapValue"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrSnapValue"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Delta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "StandbyDripsTime(UInt64 LastStandbyTotal, UInt64 CurrStandbyTotal, UInt64 DeltaStandbyTotal, UInt64 LastDripsTotal, UInt64 CurrDripsTotal, UInt64 DeltaDripsTotal, UInt64 LastActivationTotal, UInt64 CurrActivationTotal, UInt64 DeltaActivationTotal)",
+        "opcode": "StandbyDripsTime",
+        "keywords": "EnergyEstimation",
+        "task": "StandbyDripsTime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LastStandbyTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrStandbyTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeltaStandbyTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastDripsTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrDripsTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeltaDripsTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastActivationTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrActivationTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeltaActivationTotal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "UnknownEnergy(UInt64 TotalDuration, UInt64 StandbyDuration, UInt64 NonDripsDuration, UInt64 PdcDuration, UInt64 BIDuration, UInt64 TargetedBIEnergy, UInt64 ActualBIEnergy, UInt64 UnknownEnergy, UInt64 ScaleFactor, UInt32 Policy, UInt32 DripsPowerFloorMilliWatts, UInt32 NonDripsPenaltyMilliWatts)",
+        "opcode": "UnknownEnergy",
+        "keywords": "EnergyEstimation",
+        "task": "UnknownEnergy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StandbyDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NonDripsDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PdcDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BIDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetedBIEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActualBIEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UnknownEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ScaleFactor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Policy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DripsPowerFloorMilliWatts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonDripsPenaltyMilliWatts"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "QueryStatsEnergyEstimate37(UnicodeString AppName, UInt16 UserId, UInt64 CpuEnergy, UInt64 SocEnergy, UInt64 DisplayEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy, UInt64 MbbEnergy, UInt64 LossEnergy, UInt64 OtherEnergy, UInt64 EmiEnergy, UInt64 ForInternalUse, UInt32 TimeInMSec, UInt32 RecordFlags, UInt32 RecordMeasured, UInt32 InteractivityState, UInt32 Committed)",
+        "opcode": "EnergyEstimate",
+        "keywords": "EnergyEstimation",
+        "task": "QueryStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CpuEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SocEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisplayEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MbbEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LossEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OtherEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EmiEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForInternalUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeInMSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordMeasured"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractivityState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Committed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "MergeStatsEnergyEstimate38(UnicodeString AppName, UInt16 UserId, UInt64 CpuEnergy, UInt64 SocEnergy, UInt64 DisplayEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy, UInt64 MbbEnergy, UInt64 LossEnergy, UInt64 OtherEnergy, UInt64 EmiEnergy, UInt64 ForInternalUse, UInt32 TimeInMSec, UInt32 RecordFlags, UInt32 RecordMeasured, UInt32 InteractivityState, UInt32 Committed)",
+        "opcode": "EnergyEstimate",
+        "keywords": "EnergyEstimation",
+        "task": "MergeStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CpuEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SocEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisplayEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MbbEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LossEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OtherEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EmiEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ForInternalUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeInMSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordMeasured"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractivityState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Committed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "CommittedStatsEnergyEstimate(UnicodeString AppName, UInt16 UserId, UInt64 LossEnergy, UInt64 UnknownEnergy, UInt32 RecordFlags, UInt32 InteractivityState)",
+        "opcode": "EnergyEstimate",
+        "keywords": "CommitEnergy",
+        "task": "CommittedStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LossEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UnknownEnergy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractivityState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "40",
+        "version": "1",
+        "event(fields)": "ProcessTagEnergyEstimate_V1(UnicodeString AppName, UnicodeString Tag, UInt64 CpuEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy, UInt64 MbbEnergy, UInt32 Time, UInt32 RecordFlags)",
+        "opcode": "",
+        "keywords": "ProcessTag",
+        "task": "ProcessTagEnergyEstimate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Tag"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CpuEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MbbEnergy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Time"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecordFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Energy-Estimation-Engine",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "RpcSetProcessTag(UInt32 ProcessId, UInt64 CreateTime, UnicodeString Tag, UInt64 DiskEnergy, UInt64 NetworkTailEnergy, UInt64 MBBTailEnergy, UInt64 NetworkTxRxBytes, UInt64 MBBTxRxBytes, UInt32 BucketCount, Float BucketedCycles, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ProcessTag",
+        "task": "RpcSetProcessTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Tag"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MBBTailEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTxRxBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MBBTxRxBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BucketCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "BucketedCycles"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

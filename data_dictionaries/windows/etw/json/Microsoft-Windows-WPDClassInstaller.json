@@ -1,0 +1,542 @@
+[
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "DriverPerformanceStart(UInt32 InstallFunctionCode, UnicodeString InstallFunctionName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InstallFunctionCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstallFunctionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "DriverPerformanceStop(UInt32 InstallFunctionCode, UnicodeString InstallFunctionName, UInt32 ReturnCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InstallFunctionCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstallFunctionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "DriverPerformanceStart102(UnicodeString DevicePath)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "DriverPerformanceStop103(UnicodeString DevicePath, UInt32 ReturnCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "DriverPerformanceStart104(UnicodeString DevicePath)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "DriverPerformanceStop105(UnicodeString DevicePath, UInt32 ReturnCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "DriverPerformance()",
+        "opcode": "",
+        "keywords": "",
+        "task": "DriverPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "DeviceMetadataRetrieval(UnicodeString DevicePath, UnicodeString MetadataLocaleName, GUID MetadataContentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceMetadataRetrieval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MetadataLocaleName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MetadataContentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "DeviceMetadataRetrieval202(UnicodeString DevicePath, UnicodeString MetadataLocaleName, GUID MetadataContentId, UInt32 ReturnCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceMetadataRetrieval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MetadataLocaleName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MetadataContentId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "DeviceMetadataRetrieval203(UnicodeString DevicePath, UnicodeString MetadataLocaleName, GUID MetadataContentId, UInt32 ReturnCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceMetadataRetrieval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MetadataLocaleName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MetadataContentId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "DeviceMetadataRetrieval204(UnicodeString DevicePath, UInt32 ReturnCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceMetadataRetrieval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "DeviceMetadataRetrieval205(UnicodeString DevicePath, UnicodeString ServicePath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceMetadataRetrieval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServicePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "DeviceMetadataRetrieval206(UnicodeString MetadataLocaleName, GUID MetadataContentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceMetadataRetrieval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MetadataLocaleName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MetadataContentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24576",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_64_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24577",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424577_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24578",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424578_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24579",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424579_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24580",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424580_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24581",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424581_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24582",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424582_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24583",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424583_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24584",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424584_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24585",
+        "version": "1",
+        "event(fields)": "task_0PCODE_64pcode_6424585_V1()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "24832",
+        "version": "1",
+        "event(fields)": "task_0PCODE_128pcode_128_V1()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25088",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_192_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25089",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225089_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25090",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225090_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25091",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225091_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25092",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225092_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25093",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225093_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25094",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225094_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WPDClassInstaller",
+        "event_id": "25095",
+        "version": "1",
+        "event(fields)": "task_0PCODE_192pcode_19225095_V1()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

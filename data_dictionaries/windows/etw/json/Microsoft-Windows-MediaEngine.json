@@ -1,0 +1,4504 @@
+[
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "MediaFoundationTransferFrameStart(UInt32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationTransferFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "MediaFoundationTransferFrameStop(UInt32 id, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationTransferFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "MediaFoundationTransferFrameRemoteStart(UInt32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationTransferFrameRemote",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "MediaFoundationTransferFrameRemoteStop(UInt32 id, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationTransferFrameRemote",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "MediaFoundationInitialize(UInt32 id, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "MediaFoundationLifetimeStart(UInt32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationLifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "MediaFoundationPlaybackRateChange(UInt32 id, Float rate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPlaybackRateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "rate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "MediaFoundationPlayStart(UInt32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPlay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "MediaFoundationPlayStop(UInt32 id, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPlay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "MediaFoundationPauseStart(UInt32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPause",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "MediaFoundationPauseStop(UInt32 id, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPause",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "MediaFoundationSeekStart(UInt32 id, Float rate)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationSeek",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "rate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "MediaFoundationSeekStop(UInt32 id, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationSeek",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "MediaFoundationLifetimeStop(UInt32 id)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationLifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "MediaFoundationDroppedFrame(UInt32 id, UInt32 location, Int64 pts, Int64 clock)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDroppedFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "location"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "pts"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "clock"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresentedFrame(UInt32 id, Int64 pts, Int64 clock)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresentedFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "pts"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "clock"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_SubmittedFrame(Pointer object, Int64 sampleTime, Int64 QPC, Int64 Ahead)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_SubmittedFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Ahead"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_QueuedFrame(Pointer object, Int64 sampleTime, Int64 QPC, Int64 QPC_snapped, UInt32 PresentFlags, UInt32 SyncInterval, UInt32 Repeat, UInt32 Restart, Int64 Now, Int32 DeltaToTarget_MS, UInt32 PresentCount, UInt32 FrameCount, UInt32 History_QueuedFrames, UInt32 History_QueuedFramesWithRepeats)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_QueuedFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_snapped"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Repeat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Restart"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Now"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DeltaToTarget_MS"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "History_QueuedFrames"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "History_QueuedFramesWithRepeats"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_CompletedFrame(Pointer object, Int64 sampleTime, Int64 QPC_target, Int64 QPC_actual, Int64 QPC_actual_behind, Int64 FramePeriod, Int32 FrameAdjustment, Int32 PresentCount, Int32 FrameCount, Float RatioAverage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_CompletedFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_target"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_actual"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_actual_behind"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FramePeriod"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameAdjustment"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "RatioAverage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "MediaFoundationVideoFrameGlitch(Pointer object, Int64 sampleTime, Int32 FramesLate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationVideoFrameGlitch",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FramesLate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresentAtSleepStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPresentAtSleep",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "PerfTrack:MediaFoundationPlay(UInt64 object, UInt32 protected, UInt32 width, UInt32 height)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrack:MediaFoundationPlay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "protected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "PerfTrack:MediaFoundationPlayCancelled(UInt64 object, UInt32 protected, UInt32 width, UInt32 height)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrack:MediaFoundationPlayCancelled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "protected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "PerfTrack:FirstFrameAfterPlayPresented(UInt64 object, UInt32 protected, UInt32 width, UInt32 height)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrack:FirstFrameAfterPlayPresented",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "protected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_QueuedFrameStats(Pointer object, UInt32 Length, UInt32 MaxPresentLatency, UInt32 Queued, UInt32 QueuedWithRepeats, UInt32 EstimatedFramesNeeded, UInt32 Free, Int64 DeltaToTarget, Int64 SubmittedAheadDelta, Int64 TimeInQueue, Int64 MinLatency, Int32 MaxLatency, Int64 FramePeriod, Int64 sampleTime, Int64 TargetQPC, Int32 HistoryPresents, Int64 TimeToDeadline, UInt32 BufferIndex, UInt32 StateFlags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_QueuedFrameStats",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxPresentLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Queued"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueuedWithRepeats"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EstimatedFramesNeeded"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Free"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaToTarget"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SubmittedAheadDelta"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeInQueue"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "MinLatency"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MaxLatency"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FramePeriod"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetQPC"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HistoryPresents"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeToDeadline"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "MediaFoundationSuspend(UInt32 id, Boolean paused)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationSuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "paused"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "MediaFoundationRestore(UInt32 id, Boolean resumed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationRestore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "resumed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "MediaFoundationNotVisible(UInt32 id, Boolean thinning)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationNotVisible",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "thinning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "MediaFoundationNotVisibleTimer(UInt32 id, Boolean thinning)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationNotVisibleTimer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "thinning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "MediaFoundationVisible(UInt32 id, Boolean resumed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationVisible",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "resumed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "MediaFoundationVisible133(UInt32 id, Int32 priority)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationVisible",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "PerfTrack:MediaFoundationVideoGlitch(UInt32 NumGlitches)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrack:MediaFoundationVideoGlitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumGlitches"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "SaveimageStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Saveimage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "SaveimageStop(Pointer object, UInt32 NativeWidth, UInt32 NativeHeight, UInt32 EncodedWidth, UInt32 EncodedHeight, UInt32 EncodedSize, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Saveimage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NativeWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NativeHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "SetSourceoperationStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SetSourceoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "SetSourceoperationStop(Pointer object, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SetSourceoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "MediaFoundationVideoFrameEarly(Pointer object, Int64 sampleTime, Int32 FramesEarly)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationVideoFrameEarly",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FramesEarly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "140",
+        "version": "3",
+        "event(fields)": "MediaFoundationPresent_ProcessVSync_V3(Pointer object, Int64 QPC_Prev, Int64 Delta_us, Int32 Delta_Frames, Int64 DeltaPerFrame_us, Float RatioToPrimary, Int32 InputFrameIndex, Int32 FrameIndex, Float PreviousFramerate, Float Framerate, Float MinFramerate, Float MaxFramerate, Int64 QPC_Actual, Int64 QPC_Smoothed, Int64 QPC_SmoothedNonQuant, Boolean Accepted, Boolean IsIFlip)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_ProcessVSync",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_Prev"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Delta_us"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Delta_Frames"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaPerFrame_us"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "RatioToPrimary"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "InputFrameIndex"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameIndex"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PreviousFramerate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Framerate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "MinFramerate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "MaxFramerate"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_Actual"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_Smoothed"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC_SmoothedNonQuant"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Accepted"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsIFlip"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_GetCorrelatedTimeStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPresent_GetCorrelatedTime",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_IgnoreVSync(Pointer object, Int64 QPC, Int64 Delta, Int32 Frames)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_IgnoreVSync",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Delta"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Frames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "MediaFoundationRequestNetwork(Pointer object, Boolean Requested, UInt32 ReferenceCounter)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationRequestNetwork",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Requested"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceCounter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "BatchoperationStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Batchoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "BatchoperationStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Batchoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "DecodeSwapchainCreated(Pointer object, Pointer Swapchain, Pointer TextureArray)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DecodeSwapchainCreated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Swapchain"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TextureArray"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "YUVSwapchainConfigured(Pointer object, Pointer Swapchain, Int32 SrcRect_Left, Int32 SrcRect_Top, Int32 SrcRect_Right, Int32 SrcRect_Bottom, Int32 DstRect_Left, Int32 DstRect_Top, Int32 DstRect_Right, Int32 DstRect_Bottom, Int32 DstSize_Width, Int32 DstRect_Height)",
+        "opcode": "",
+        "keywords": "",
+        "task": "YUVSwapchainConfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Swapchain"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SrcRect_Left"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SrcRect_Top"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SrcRect_Right"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SrcRect_Bottom"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DstRect_Left"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DstRect_Top"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DstRect_Right"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DstRect_Bottom"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DstSize_Width"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "DstRect_Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "DecodeSwapchainDestroyed(Pointer object, Pointer Swapchain, UInt32 SwapchainState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DecodeSwapchainDestroyed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Swapchain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapchainState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "DecodeSwapchainNotUsed(Pointer object, UInt32 SwapchainState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DecodeSwapchainNotUsed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapchainState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "MediaFoundationSeek(UInt32 id, Float rate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationSeek",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "rate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_QualityNotify(Pointer object, UInt32 NumGlitches, Int64 SampleTime, Int64 GlitchDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_QualityNotify",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumGlitches"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "GlitchDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "ContentFramerateDetected(Pointer object, UInt64 FrameDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ContentFramerateDetected",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FrameDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "CustomRefreshRateRequested(Pointer object, UInt64 FrameDuration, UInt64 RefreshDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CustomRefreshRateRequested",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FrameDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RefreshDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "CustomRefreshRateStart(Pointer object, UInt64 RequestedRefreshDuration, UInt64 ActualRefreshDuration)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CustomRefreshRate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestedRefreshDuration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActualRefreshDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "CustomRefreshRateStop(Pointer object, UInt32 State)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CustomRefreshRate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "CustomRefreshRateStateChange(Pointer object, UInt32 State)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CustomRefreshRateStateChange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "MediaFoundationUpdateVideo(Pointer object, Int32 Dst_left, Int32 Dst_top, Int32 Dst_right, Int32 Dst_bottom, Float Src_left, Float Src_top, Float Src_right, Float Src_bottom, Int32 flags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationUpdateVideo",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_left"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_top"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_right"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_bottom"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Src_left"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Src_top"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Src_right"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Src_bottom"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "159",
+        "version": "1",
+        "event(fields)": "Normal(non_decode)SwapchainCreated_V1(Pointer object, Pointer Swapchain, UInt32 Format, UInt32 Width, UInt32 Height, UInt32 Backbuffers, UInt32 Flags, UInt32 ColorSpaceType, UInt32 SwapChainType, UInt32 SwapChainRotation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Normal(non_decode)SwapchainCreated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Swapchain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Backbuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColorSpaceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapChainType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SwapChainRotation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "MediaEngineSampleReceived(Pointer object, Pointer Sample, Int64 TimeStamp, Int64 Duration, Int32 FirstFrameReady, Int32 Dropped)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEngineSampleReceived",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FirstFrameReady"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dropped"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "MediaEnginePurgedFrames(Pointer object, Int32 Count)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEnginePurgedFrames",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Count"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "MediaEngineYUVSwapchainQueue(Pointer object, Int32 Count)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEngineYUVSwapchainQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Count"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "MediaEngineGPUSwapchainWaitStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaEngineGPUSwapchainWait",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "MediaEngineGPUSwapchainWaitStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaEngineGPUSwapchainWait",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "MediaEngineGetPresentStats(Pointer object, UInt32 hr, Int32 PresentCount, Int32 PresentRefreshCount, Int32 SyncRefreshCount, UInt64 SyncQPC_us, Int32 CompMode, Int32 Duration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEngineGetPresentStats",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PresentRefreshCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SyncRefreshCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SyncQPC_us"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CompMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "MediaEnginePruneHistory(Pointer object, Int32 PresentCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEnginePruneHistory",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PresentCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "167",
+        "version": "1",
+        "event(fields)": "MediaFoundationPresent_InitVSyncRefreshRate_V1(Pointer object, Float FrameRate, Float minFrameRate, Float maxFrameRate, Int32 Ratio, Int32 MaxRatio, Int32 Reason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_InitVSyncRefreshRate",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "FrameRate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "minFrameRate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "maxFrameRate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Ratio"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MaxRatio"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_ClockSmooth(Pointer object, Int64 ClockTime0_us, Int64 QPC0_us, Int64 SmoothedQPC0_us, Int64 QPCDelta_us, Int32 WindowCount, Int64 WindowWidth_us, Boolean Accepted)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_ClockSmooth",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ClockTime0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SmoothedQPC0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPCDelta_us"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WindowCount"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "WindowWidth_us"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Accepted"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "169",
+        "version": "1",
+        "event(fields)": "MediaEngineQuantizeFrame_V1(Pointer object, Int64 sampleTime_us, Int64 OrigTargetQPC_us, Int64 TargetQPC_us, Int64 DeltaQPC_us, Int64 framePeriod_us)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEngineQuantizeFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "OrigTargetQPC_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetQPC_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaQPC_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "framePeriod_us"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "UpdateLongRunningoperation(Pointer object, Int32 newState, Int32 oldState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UpdateLongRunningoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "newState"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "oldState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_MapSample(Pointer object, Int64 QPCnow_us, Float rate, Int64 ClockTime0_us, Int64 QPC0_us, Int64 SampleTime_us, Int64 SampleQPC_us, Int64 SampleQPCAhead_us, Boolean Dejitter)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_MapSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPCnow_us"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "rate"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ClockTime0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleQPC_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleQPCAhead_us"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Dejitter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_GetCorrelatedTimeStop(Pointer object, Int64 QPCnow_us, Int64 ClockTime0_us, Int64 QPC0_us, Int64 ApproxClockJitter_us)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPresent_GetCorrelatedTime",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPCnow_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ClockTime0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPC0_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "ApproxClockJitter_us"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "173",
+        "version": "2",
+        "event(fields)": "MediaFoundationPresent_ProcessFlipMode_V2(Pointer object, Int64 SampleTime, Int64 LastQueuedStartQPC, Int64 TargetQPC, Int64 nowQPC, Int64 AheadQPC, Int32 RepeatCount_Rounded, Int32 RepeatCount_x1000, Int64 TimeUntilFrame_Orig, Int64 TimeUntilFrame_postRepeat, Int32 FramesBehindAdjustment, UInt32 PresentCount, UInt32 FrameCount, Int64 PrimaryFramePeriod, Int64 FramePeriod)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_ProcessFlipMode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "LastQueuedStartQPC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetQPC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "nowQPC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "AheadQPC"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "RepeatCount_Rounded"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "RepeatCount_x1000"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeUntilFrame_Orig"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeUntilFrame_postRepeat"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FramesBehindAdjustment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "PrimaryFramePeriod"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "FramePeriod"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_ShiftSample(Pointer object, Int64 QPCtarget_us, Int64 Delta_us, Int64 AverageLateness_us)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPresent_ShiftSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "QPCtarget_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Delta_us"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "AverageLateness_us"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "MinLatencyDoneoperation(Pointer object, Int64 TimeRemaining)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MinLatencyDoneoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "MediaFoundationMirrorVideo(Pointer object, Int32 old, Int32 new, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationMirrorVideo",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "old"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "new"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "UpdateDeadlineoperation(Pointer object, Int64 deadline, Int64 hnsDeltaFromNow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UpdateDeadlineoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "deadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "hnsDeltaFromNow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "MediaEngineGetEngineStatisticsStart(UInt32 id, UInt32 Type)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaEngineGetEngineStatistics",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "MediaEngineGetEngineStatisticsStop(UInt32 id, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaEngineGetEngineStatistics",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "SVRRequestSample(Pointer object, UInt32 RequestsPending, UInt32 FrameQueueCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SVRRequestSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestsPending"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameQueueCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "SVRGPUBoost(Pointer object, Int64 TimeToDeadline_us)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SVRGPUBoost",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeToDeadline_us"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_HistoryRecordStart(Pointer object, Pointer pRecord, Int32 ListCount, Boolean DecodeYUV, Int32 FrameCount, Int64 PresentCount, Boolean Repeat, UInt64 SampleTime, UInt64 TargetQPC)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPresent_HistoryRecord",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRecord"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ListCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DecodeYUV"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Repeat"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetQPC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_HistoryRecordStop(Pointer object, Pointer pRecord, Int64 PresentCount, Int32 ListCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPresent_HistoryRecord",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRecord"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "PresentCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ListCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "184",
+        "version": "0",
+        "event(fields)": "MediaEngineClearHistory(Pointer object, Int32 ListCount, Int32 Location)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaEngineClearHistory",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ListCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "MediaFoundationME_GetCurrentTimeStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationME_GetCurrentTime",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "186",
+        "version": "0",
+        "event(fields)": "MediaFoundationME_GetCurrentTimeStop(Pointer object, Int64 now)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationME_GetCurrentTime",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "now"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "UpdateGPUDeadlineoperation(Pointer object, Pointer DXObject, UInt32 DXType, Int64 deadline, Int64 hnsDeltaFromNow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UpdateGPUDeadlineoperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DXObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DXType"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "deadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "hnsDeltaFromNow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "188",
+        "version": "0",
+        "event(fields)": "MediaFoundationComputeRatioToPrimary(Pointer object, Float Ratio, Float Ratio_x100)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationComputeRatioToPrimary",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Ratio"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Ratio_x100"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "MediaFoundationUpdateRatioToPrimary(Pointer object, Float Ratio)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationUpdateRatioToPrimary",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Ratio"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "EMENeedKey(UInt32 length, Binary data)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMENeedKey",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "EMEMediaKeys(UnicodeString keysystem, UnicodeString defaultCdmStorePath, UnicodeString inprivateCdmStorePath, Pointer object, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMEMediaKeys",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "keysystem"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "defaultCdmStorePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "inprivateCdmStorePath"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStart(UnicodeString sessionId, UnicodeString keySystem, UnicodeString type, UInt32 length, Binary data, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "keySystem"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStop(UnicodeString sessionId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "EMEKeyMessageStart(UnicodeString sessionId, UnicodeString url, UInt32 length, Binary data)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EMEKeyMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "EMEKeyMessage(UnicodeString sessionId, UInt16 code, UInt32 systemError)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMEKeyMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "code"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "systemError"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "EMEKeyMessageStop(UnicodeString sessionId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EMEKeyMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "EMEKeyMessageStart207(UnicodeString sessionId, UInt32 length, Binary data, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EMEKeyMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "EMEKeysAttribute(Pointer object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMEKeysAttribute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "ContentEnablerStart(GUID enabletype, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ContentEnabler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "enabletype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "ContentEnablerStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ContentEnabler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "212",
+        "version": "1",
+        "event(fields)": "BatchingReason_V1(Pointer object, Boolean Ok, Int32 Bits, Int32 FullScreenPercent, Int32 FullScreenThreshold, UInt32 Format)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BatchingReason",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Ok"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Bits"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FullScreenPercent"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FullScreenThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "MediaFoundationSubtitleQueued(Pointer buffer, Int64 sampleTime, Int64 sampleDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationSubtitleQueued",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "buffer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "EngineEnded(UInt32 id)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EngineEnded",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_DelayStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPresent_Delay",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "PresentTimerStart(Pointer Object, Int32 Period)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PresentTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Period"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "PresentTimerStop(Pointer Object, Int32 Period)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PresentTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Period"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "PresentTimeCriticalStart(Pointer Object, Int64 TimeDelta)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PresentTimeCritical",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeDelta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "PresentTimeCriticalStop(Pointer Object, Int64 TimeDelta)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PresentTimeCritical",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeDelta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "TimedTextDtvCCSampleDecodeTaskStart(Pointer object, Int64 SampleStartTime, Int64 SampleEndTime)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TimedTextDtvCCSampleDecodeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleStartTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleEndTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "TimedTextDtvCCSampleDecodeTaskStop(Pointer object, Int64 CueStartTime, Int64 CueEndTime, Int64 CueTicket)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TimedTextDtvCCSampleDecodeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "CueStartTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "CueEndTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "CueTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "TimedTextSendCueTaskStart(Pointer object, Int64 SampleStartTime, Int64 SampleEndTime)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TimedTextSendCueTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleStartTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleEndTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "TimedTextSendCueTaskStop(Pointer object, Int64 SampleStartTime, Int64 SampleEndTime)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TimedTextSendCueTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleStartTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleEndTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "OPMOpenStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "OPMOpen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "OPMOpenStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "OPMOpen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "OPMExecuteCmdStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "OPMExecuteCmd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "OPMExecuteCmdStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "OPMExecuteCmd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "OPMExecuteQueryStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "OPMExecuteQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "OPMExecuteQueryStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "OPMExecuteQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "OPMProcessCertificateStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "OPMProcessCertificate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "OPMProcessCertificateStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "OPMProcessCertificate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "OPMGetPublicKeyStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "OPMGetPublicKey",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "OPMGetPublicKeyStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "OPMGetPublicKey",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "TeardownStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Teardown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "TeardownStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Teardown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "Resizedswapchain(UInt32 Width, UInt32 Height, UInt32 Backbuffers, UInt32 Format, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Resizedswapchain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Backbuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStop237(UnicodeString sessionId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStop238(UnicodeString sessionId, UnicodeString keySystem, UInt32 length, Binary data)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "keySystem"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStop239(UnicodeString sessionId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "EMENeedKey_122(UInt32 length, Binary data)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMENeedKey_122",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStart241(UInt32 SessionType, UnicodeString keySystem, UInt32 UseDistinctiveIdentifier)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "keySystem"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UseDistinctiveIdentifier"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "EMEKeyMessage2Start(UnicodeString sessionId, UInt32 MessageType, UnicodeString url, UInt32 length, Binary data)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EMEKeyMessage2",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MessageType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "243",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySessionStop243(UnicodeString sessionId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EMEMediaKeySession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "sessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "244",
+        "version": "0",
+        "event(fields)": "EMEMediaKeys244(UInt32 length, Binary data)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMEMediaKeys",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "245",
+        "version": "0",
+        "event(fields)": "EMEMediaKeys245(UnicodeString keysystem, Pointer CDMAccess, Pointer CDMCustomConfig, Pointer MediaKeysObject, UInt32 SoftwareOverride)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMEMediaKeys",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "keysystem"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CDMAccess"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CDMCustomConfig"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MediaKeysObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SoftwareOverride"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "246",
+        "version": "0",
+        "event(fields)": "EMEMediaKeySystemAccess(UnicodeString keysystem, UInt32 configCount, UInt32 selectedConfigCount, Pointer object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EMEMediaKeySystemAccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "keysystem"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "configCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "selectedConfigCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "247",
+        "version": "0",
+        "event(fields)": "PresentRestart(Pointer Object, UInt32 PresentCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PresentRestart",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "248",
+        "version": "0",
+        "event(fields)": "DisplayRotationTask(UInt32 Rotation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DisplayRotationTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Rotation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "249",
+        "version": "0",
+        "event(fields)": "DecodeSwapchainStateTask(Pointer object, UInt32 DecodeSwapchainState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DecodeSwapchainStateTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeSwapchainState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "ConfigureSwapchainTask(Pointer object, Boolean IsDecode, UInt32 DxgiFormat, UInt32 Width, UInt32 Height, UInt32 ColorSpaceType, UInt32 BufferCount, UInt32 Flags, Int32 Dst_Left, Int32 Dst_Top, Int32 Dst_Right, Int32 Dst_Bottom)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ConfigureSwapchainTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsDecode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DxgiFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColorSpaceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_Left"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_Top"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_Right"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Dst_Bottom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "PresentTimerStart251(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PresentTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "MMCSSRequestStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MMCSSRequest",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "253",
+        "version": "0",
+        "event(fields)": "ScrubbingStateTask(UInt32 ScrubbingState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ScrubbingStateTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScrubbingState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "254",
+        "version": "0",
+        "event(fields)": "DXPresentStart(Pointer Object, UInt32 Index, UInt32 Inverval, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXPresent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Inverval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "255",
+        "version": "0",
+        "event(fields)": "DXPresentStop(Pointer Object, UInt32 Index, UInt32 hrResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXPresent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hrResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "256",
+        "version": "0",
+        "event(fields)": "EnumMonitorsStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "EnumMonitors",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "257",
+        "version": "0",
+        "event(fields)": "EnumMonitorsStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "EnumMonitors",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "258",
+        "version": "0",
+        "event(fields)": "HandleMonitorChangeStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "HandleMonitorChange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "259",
+        "version": "0",
+        "event(fields)": "HandleMonitorChangeStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "HandleMonitorChange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "260",
+        "version": "0",
+        "event(fields)": "ProcessIdleTasksStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ProcessIdleTasks",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "261",
+        "version": "0",
+        "event(fields)": "ProcessIdleTasksStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ProcessIdleTasks",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "262",
+        "version": "0",
+        "event(fields)": "DXWorkCompleteStart(Pointer Object, Pointer Sample)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXWorkComplete",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "263",
+        "version": "0",
+        "event(fields)": "DXWorkCompleteStop(Pointer Object, Pointer Sample, UInt32 hrResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXWorkComplete",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hrResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "264",
+        "version": "0",
+        "event(fields)": "SphericalVideoChangedTask(Boolean IsEnabled, UInt32 Format, UInt32 ProjectionMode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SphericalVideoChangedTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnabled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProjectionMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "265",
+        "version": "0",
+        "event(fields)": "SphericalVideoPropertiesChangedTask(Float QuaternionW, Float QuaternionX, Float QuaternionY, Float QuaternionZ, UInt32 FieldOfView)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SphericalVideoPropertiesChangedTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "QuaternionW"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "QuaternionX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "QuaternionY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "QuaternionZ"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FieldOfView"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "266",
+        "version": "0",
+        "event(fields)": "ProfileCheck(Boolean Present, UInt32 DcValue, Boolean Provisioned, Int64 Memory)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ProfileCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Present"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DcValue"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Provisioned"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Memory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "267",
+        "version": "0",
+        "event(fields)": "SetHDRMetadataTask(Boolean IsDisplayMetadata, UInt32 MinLuminance, UInt32 MaxLuminance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SetHDRMetadataTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsDisplayMetadata"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinLuminance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxLuminance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "268",
+        "version": "0",
+        "event(fields)": "EDRStateChangedTask(Boolean Enabled, Boolean IsAC, Boolean IsMediaOptimizedForDisplayQuality, Boolean IsLowerScreenBrightnessActive, Boolean IsBrightnessPolicyActive, UInt32 ContentMaxLuminance, UInt32 DisplayMaxLuminance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EDRStateChangedTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Enabled"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsAC"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsMediaOptimizedForDisplayQuality"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsLowerScreenBrightnessActive"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBrightnessPolicyActive"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContentMaxLuminance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DisplayMaxLuminance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "269",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresentAtSleepStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPresentAtSleep",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "270",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresentAtProcessFrameStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPresentAtProcessFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "271",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresentAtProcessFrameStop(Pointer object, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPresentAtProcessFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "272",
+        "version": "0",
+        "event(fields)": "WindowResizeOptimizationStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WindowResizeOptimization",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "273",
+        "version": "0",
+        "event(fields)": "WindowResizeOptimizationStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WindowResizeOptimization",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "274",
+        "version": "0",
+        "event(fields)": "ProcessIdleEDRTasksStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ProcessIdleEDRTasks",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "275",
+        "version": "0",
+        "event(fields)": "ProcessIdleEDRTasksStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ProcessIdleEDRTasks",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "276",
+        "version": "0",
+        "event(fields)": "ProcessPolicyEventStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ProcessPolicyEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "277",
+        "version": "0",
+        "event(fields)": "ProcessPolicyEventStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ProcessPolicyEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "278",
+        "version": "0",
+        "event(fields)": "MediaFoundationPresent_DelayStop(Pointer object, UInt32 Delay, Int64 TimeToDeadline, UInt32 Location)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPresent_Delay",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Delay"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeToDeadline"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "279",
+        "version": "0",
+        "event(fields)": "MediaFoundationUpdateHistoryStart(Pointer object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationUpdateHistory",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "280",
+        "version": "0",
+        "event(fields)": "MediaFoundationUpdateHistoryStop(Pointer object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationUpdateHistory",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "281",
+        "version": "0",
+        "event(fields)": "MediaEngineCallMarshalingStart(Pointer Object, UInt32 CallId, UInt32 Id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaEngineCallMarshaling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "282",
+        "version": "0",
+        "event(fields)": "MediaEngineCallMarshalingStop(Pointer Object, UInt32 CallId, UInt32 Id, UInt32 hrResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaEngineCallMarshaling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hrResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "283",
+        "version": "0",
+        "event(fields)": "MediaEngineCallMarshalingStart283(Pointer Object, UInt32 CallId, UInt32 Id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaEngineCallMarshaling",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "284",
+        "version": "0",
+        "event(fields)": "MediaEngineCallMarshalingStop284(Pointer Object, UInt32 CallId, UInt32 Id, UInt32 hrResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaEngineCallMarshaling",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hrResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "285",
+        "version": "0",
+        "event(fields)": "LongCallDetected(Pointer Object, UInt32 CallId, UInt32 Id, UInt64 Start, UInt64 Now)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LongCallDetected",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Now"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "286",
+        "version": "0",
+        "event(fields)": "CallMarshalingSlotsFull(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CallMarshalingSlotsFull",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaEngine",
+        "event_id": "287",
+        "version": "0",
+        "event(fields)": "FrameNotPresentedTask(Pointer object, Int64 Timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "FrameNotPresentedTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Timestamp"
+            }
+        ]
+    }
+]

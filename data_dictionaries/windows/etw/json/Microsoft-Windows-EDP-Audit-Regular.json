@@ -1,0 +1,98 @@
+[
+    {
+        "provider": "Microsoft-Windows-EDP-Audit-Regular",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "task_0(SID UserId, UnicodeString Policy, UnicodeString Justification, UnicodeString SourceEnterpriseId, UnicodeString SourceAppName, UnicodeString DestinationEnterpriseId, UnicodeString DestinationAppName, UnicodeString DataInfo)",
+        "opcode": "",
+        "keywords": "EDP_Audit_Keyword_DataCopied",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Policy"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Justification"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceEnterpriseId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceAppName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestinationEnterpriseId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestinationAppName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DataInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-EDP-Audit-Regular",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "task_0301(SID UserId, UnicodeString Policy, UnicodeString Object, UInt32 Action, UnicodeString SourceName, UnicodeString SourceEnterpriseId, UnicodeString DestinationName, UnicodeString DestinationEnterpriseId, UnicodeString ApplicationName)",
+        "opcode": "",
+        "keywords": "EDP_Audit_Keyword_ApplicationGenerated",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Policy"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceEnterpriseId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestinationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestinationEnterpriseId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            }
+        ]
+    }
+]

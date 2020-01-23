@@ -1,0 +1,162 @@
+[
+    {
+        "provider": "Microsoft-Windows-Power-Meter-Polling",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "PowerMeterRundown(Pointer MeterId, UInt64 DefaultSamplingPeriodInMs, UInt32 MeterNameLength, UnicodeString MeterName, UInt32 MeteredHardwareCount, UnicodeString MeteredHardwareName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PowerMeterRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MeterId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DefaultSamplingPeriodInMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MeterNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MeterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MeteredHardwareCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MeteredHardwareName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Power-Meter-Polling",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "EnergyMeterRundown(Pointer MeterId, UInt64 DefaultSamplingPeriodInMs, UInt32 ChannelNameLength, UnicodeString ChannelName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EnergyMeterRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MeterId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DefaultSamplingPeriodInMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ChannelName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Power-Meter-Polling",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "PowerMeterData(Pointer MeterId, UInt32 Value)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PowerMeterData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MeterId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Power-Meter-Polling",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "EnergyMeterData(Pointer MeterId, UInt64 AbsoluteEnergy, UInt64 AbsoluteTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EnergyMeterData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MeterId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AbsoluteEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AbsoluteTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Power-Meter-Polling",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "SamplingPeriodRundown(UInt32 MeterType, UInt32 PeriodInMs)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SamplingPeriodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MeterType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeriodInMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Power-Meter-Polling",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "SamplingPeriodChange(UInt32 MeterType, UInt32 PeriodInMs)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SamplingPeriodChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MeterType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeriodInMs"
+            }
+        ]
+    }
+]

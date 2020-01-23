@@ -1,0 +1,3154 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "BootStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "BootStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "BootStartStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "BootStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "SystemStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "SystemStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "SystemStartStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "SystemStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "OsLoader(UInt64 OSLoaderStart, UInt64 OSLoaderEnd)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "OsLoader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "OSLoaderStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OSLoaderEnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "204",
+        "version": "1",
+        "event(fields)": "OsLoader_V1(UInt64 OSLoaderStart, UInt64 OSLoaderEnd, UInt64 PreloadEndTime, UInt64 TcbLoaderStartTime, UInt64 LoadHypervisorTime, UInt64 LaunchHypervisorTime, UInt64 LoadVsmTime, UInt64 LaunchVsmTime)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "OsLoader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "OSLoaderStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OSLoaderEnd"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PreloadEndTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TcbLoaderStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadHypervisorTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LaunchHypervisorTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadVsmTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LaunchVsmTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "204",
+        "version": "2",
+        "event(fields)": "OsLoader_V2(UInt64 OSLoaderStart, UInt64 OSLoaderEnd, UInt64 PreloadEndTime, UInt64 TcbLoaderStartTime, UInt64 LoadHypervisorTime, UInt64 LaunchHypervisorTime, UInt64 LoadVsmTime, UInt64 LaunchVsmTime, UInt64 ExecuteTransitionStartTime, UInt64 ExecuteTransitionEndTime)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "OsLoader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "OSLoaderStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OSLoaderEnd"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PreloadEndTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TcbLoaderStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadHypervisorTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LaunchHypervisorTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadVsmTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LaunchVsmTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExecuteTransitionStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExecuteTransitionEndTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "EarlyLaunchAntiMalwareStart(UInt16 ElamDriverNameLength, UnicodeString ElamDriverName)",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "EarlyLaunchAntiMalware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ElamDriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ElamDriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "EarlyLaunchAntiMalwareStop(UInt16 ElamDriverNameLength, UnicodeString ElamDriverName)",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "EarlyLaunchAntiMalware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ElamDriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ElamDriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "EarlyLaunchAntiMalwareStart207(UInt32 ElamStatus)",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "EarlyLaunchAntiMalware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ElamStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "EarlyLaunchAntiMalwareStop208(UInt32 ElamStatus)",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "EarlyLaunchAntiMalware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ElamStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "EarlyLaunchAntiMalware(UInt32 Classification, UInt32 Policy, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "EarlyLaunchAntiMalware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Classification"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Policy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "BootInitStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "Performance BootInit",
+        "task": "BootInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "BootInitStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Performance BootInit",
+        "task": "BootInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "DriverLoadStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "Performance DriverLoad",
+        "task": "DriverLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "DriverLoadStop(UInt16 ServiceNameLength, UnicodeString ServiceName, UInt32 Status, UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Version)",
+        "opcode": "Stop",
+        "keywords": "Performance DriverLoad",
+        "task": "DriverLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ServiceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "DriverUnloadStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "Performance DriverUnload",
+        "task": "DriverUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "DriverUnloadStop(UInt16 ServiceNameLength, UnicodeString ServiceName, UInt32 Status, UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Version)",
+        "opcode": "Stop",
+        "keywords": "Performance DriverUnload",
+        "task": "DriverUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ServiceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "DeviceStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "Performance DeviceStart",
+        "task": "DeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "DeviceStartSuspend(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Suspend",
+        "keywords": "Performance DeviceStart",
+        "task": "DeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "DeviceStartStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status, UInt16 FailureNameLength, UnicodeString FailureName, UInt32 Version)",
+        "opcode": "Stop",
+        "keywords": "Performance DeviceStart",
+        "task": "DeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FailureNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailureName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "DriverLoad(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status, UInt16 FailureNameLength, UnicodeString FailureName, UInt32 Version)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DriverLoad",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FailureNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailureName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "DeviceEnumStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "Performance DeviceEnum",
+        "task": "DeviceEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "DeviceEnumSuspend(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Suspend",
+        "keywords": "Performance DeviceEnum",
+        "task": "DeviceEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "DeviceEnumStop(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Stop",
+        "keywords": "Performance DeviceEnum",
+        "task": "DeviceEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "DeviceEjectStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "DeviceEject",
+        "task": "DeviceEject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "DeviceEjectStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status, UInt16 FailureNameLength, UnicodeString FailureName, UInt32 Version)",
+        "opcode": "Stop",
+        "keywords": "DeviceEject",
+        "task": "DeviceEject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FailureNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailureName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "DeviceEject(UInt32 ProcessId, UInt16 ProcessNameLength, UnicodeString ProcessName, UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceEject",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ProcessNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "DriverInitStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "Performance DriverInit",
+        "task": "DriverInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "DriverInitStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Performance DriverInit",
+        "task": "DriverInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 SqmType, GUID SqmSessionGuid, SID SqmSid, UInt32 SqmWindowsSessionId, UInt32 SqmSessionFlags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "SqmSid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmWindowsSessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmSessionFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "task_0229(UInt32 SqmType, GUID SqmSessionGuid)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "task_0230(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "task_0Stop(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "task_0232(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "task_0233(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "task_0234(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "task_0235(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UnicodeString SqmStringDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SqmStringDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "task_0236(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmStreamRowLength, Int16 SqmStreamRow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SqmStreamRow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "task_0240(UnicodeString TargetPath, UnicodeString SparePath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SparePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "task_0241(UnicodeString TargetPath, UnicodeString SparePath, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SparePath"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "241",
+        "version": "1",
+        "event(fields)": "task_0241_V1(UnicodeString TargetPath, UnicodeString SparePath, HexInt32 Status, UInt32 Location, UInt32 ExtendedStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SparePath"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExtendedStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "task_0242(UnicodeString TargetPath, HexInt64 TargetAffinity, UInt32 TargetProcessorCount, UInt32 TargetMemoryCount, HexInt64 TargetMemorySize, UnicodeString SparePath, UInt32 SpareProcessorCount, UInt32 SpareMemoryCount, HexInt64 SpareMemorySize, UInt32 TimeTotal, UInt32 TimeToQuiesce, UInt32 TimeQuiesced, UInt32 TimeToWake, FILETIME TargetProcessors, SYSTEMTIME TargetMemoryRanges, HexInt32 SpareProcessors, HexInt64 SpareMemoryRanges)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetPath"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TargetAffinity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetMemoryCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TargetMemorySize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SparePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareProcessorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareMemoryCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "SpareMemorySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeTotal"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeToQuiesce"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeQuiesced"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeToWake"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessors"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "TargetMemoryRanges"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SpareProcessors"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "SpareMemoryRanges"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "DeviceConfigStart(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)",
+        "opcode": "Start",
+        "keywords": "DeviceConfig",
+        "task": "DeviceConfig",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "DeviceConfigSuspend(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)",
+        "opcode": "Suspend",
+        "keywords": "DeviceConfig",
+        "task": "DeviceConfig",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "DeviceConfigStop(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "DeviceConfig",
+        "task": "DeviceConfig",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "260",
+        "version": "0",
+        "event(fields)": "SystemStartPnPEnumStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "SystemStartPnPEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "261",
+        "version": "0",
+        "event(fields)": "SystemStartPnPEnumStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "SystemStartPnPEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "262",
+        "version": "0",
+        "event(fields)": "SystemStartLegacyEnumStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "SystemStartLegacyEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "263",
+        "version": "0",
+        "event(fields)": "SystemStartLegacyEnumStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "SystemStartLegacyEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "264",
+        "version": "0",
+        "event(fields)": "BootDriverReinitStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "BootDriverReinit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "265",
+        "version": "0",
+        "event(fields)": "BootDriverReinitStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "BootDriverReinit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "266",
+        "version": "0",
+        "event(fields)": "SystemStartDriverReinitStart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "SystemStartDriverReinit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "267",
+        "version": "0",
+        "event(fields)": "SystemStartDriverReinitStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "SystemStartDriverReinit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "270",
+        "version": "0",
+        "event(fields)": "DriverDatabaseLoadStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "271",
+        "version": "0",
+        "event(fields)": "DriverDatabaseLoadSuspend(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Suspend",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "272",
+        "version": "0",
+        "event(fields)": "DriverDatabaseLoadStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "273",
+        "version": "0",
+        "event(fields)": "DriverDatabaseUnloadStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "274",
+        "version": "0",
+        "event(fields)": "DriverDatabaseUnloadSuspend(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Suspend",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "275",
+        "version": "0",
+        "event(fields)": "DriverDatabaseUnloadStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "276",
+        "version": "0",
+        "event(fields)": "DriverDatabaseLoadedStart(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseLoaded",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "277",
+        "version": "0",
+        "event(fields)": "DriverDatabaseLoadedStop(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "DriverDatabase",
+        "task": "DriverDatabaseLoaded",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "278",
+        "version": "0",
+        "event(fields)": "task_0278(GUID BlockedDriverEntry)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BlockedDriverEntry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "task_0300()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "task_0301()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "400",
+        "version": "0",
+        "event(fields)": "task_0400(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString DriverDate, UnicodeString DriverVersion, UnicodeString DriverProvider, Boolean DriverInbox, UnicodeString DriverSection, HexInt32 DriverRank, UnicodeString MatchingDeviceId, UnicodeString OutrankedDrivers, Boolean DeviceUpdated, HexInt32 Status, UnicodeString ParentDeviceInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverDate"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverProvider"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DriverInbox"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverSection"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DriverRank"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchingDeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OutrankedDrivers"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DeviceUpdated"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParentDeviceInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "401",
+        "version": "0",
+        "event(fields)": "task_0401(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString DriverDate, UnicodeString DriverVersion, UnicodeString DriverProvider, Boolean DriverInbox, UnicodeString DriverSection, HexInt32 DriverRank, UnicodeString MatchingDeviceId, UnicodeString OutrankedDrivers, Boolean DeviceUpdated, HexInt32 Status, UnicodeString ParentDeviceInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverDate"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverProvider"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DriverInbox"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverSection"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DriverRank"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchingDeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OutrankedDrivers"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DeviceUpdated"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParentDeviceInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "402",
+        "version": "0",
+        "event(fields)": "task_0402(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString DriverDate, UnicodeString DriverVersion, UnicodeString DriverProvider, Boolean DriverInbox, UnicodeString DriverSection, HexInt32 DriverRank, UnicodeString MatchingDeviceId, UnicodeString OutrankedDrivers, Boolean DeviceUpdated, HexInt32 Status, UnicodeString ParentDeviceInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverDate"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverProvider"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DriverInbox"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverSection"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DriverRank"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchingDeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OutrankedDrivers"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DeviceUpdated"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParentDeviceInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "403",
+        "version": "0",
+        "event(fields)": "task_0403(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString DriverDate, UnicodeString DriverVersion, UnicodeString DriverProvider, Boolean DriverInbox, UnicodeString DriverSection, HexInt32 DriverRank, UnicodeString MatchingDeviceId, UnicodeString OutrankedDrivers, Boolean DeviceUpdated, HexInt32 Status, UnicodeString ParentDeviceInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverDate"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverVersion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverProvider"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DriverInbox"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverSection"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DriverRank"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchingDeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OutrankedDrivers"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DeviceUpdated"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParentDeviceInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "410",
+        "version": "0",
+        "event(fields)": "task_0410(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString ServiceName, UnicodeString LowerFilters, UnicodeString UpperFilters, HexInt32 Problem, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LowerFilters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UpperFilters"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "411",
+        "version": "0",
+        "event(fields)": "task_0411(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString ServiceName, UnicodeString LowerFilters, UnicodeString UpperFilters, HexInt32 Problem, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LowerFilters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UpperFilters"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "412",
+        "version": "0",
+        "event(fields)": "task_0412(UnicodeString DeviceInstanceId, UnicodeString DriverName, GUID ClassGuid, UnicodeString ServiceName, UnicodeString LowerFilters, UnicodeString UpperFilters, HexInt32 Problem, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LowerFilters"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UpperFilters"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "420",
+        "version": "0",
+        "event(fields)": "task_0420(UnicodeString DeviceInstanceId, GUID ClassGuid, HexInt32 Problem, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "421",
+        "version": "0",
+        "event(fields)": "task_0421(UnicodeString DeviceInstanceId, GUID ClassGuid, HexInt32 Problem, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "430",
+        "version": "0",
+        "event(fields)": "task_0430(UnicodeString DeviceInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "440",
+        "version": "0",
+        "event(fields)": "task_0440(UnicodeString DeviceInstanceId, UnicodeString LastDeviceInstanceId, GUID ClassGuid, UnicodeString LocationPath, HexInt64 MigrationRank, Boolean Present, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastDeviceInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocationPath"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "MigrationRank"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Present"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "441",
+        "version": "0",
+        "event(fields)": "task_0441(UnicodeString DeviceInstanceId, UnicodeString LastDeviceInstanceId, GUID ClassGuid, UnicodeString LocationPath, HexInt64 MigrationRank, Boolean Present, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastDeviceInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocationPath"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "MigrationRank"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Present"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "442",
+        "version": "0",
+        "event(fields)": "task_0442(UnicodeString DeviceInstanceId, UnicodeString LastDeviceInstanceId, GUID ClassGuid, UnicodeString LocationPath, HexInt64 MigrationRank, Boolean Present, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastDeviceInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocationPath"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "MigrationRank"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Present"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "500",
+        "version": "0",
+        "event(fields)": "DevQuery_QueryProcessingQueryStart(Pointer QueryAddress, UInt32 ProcessId, UnicodeString ObjectType, UnicodeString QueryType, UnicodeString ObjectId, UnicodeString QueryFlags, UnicodeString PreferredLanguages, UnicodeString RequestedProperties, UnicodeString FilterExpression)",
+        "opcode": "QueryStart",
+        "keywords": "DevQuery ObjectLists",
+        "task": "DevQuery_QueryProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "QueryAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PreferredLanguages"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestedProperties"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterExpression"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "501",
+        "version": "0",
+        "event(fields)": "DevQuery_QueryProcessingProcessingStart(Pointer QueryAddress)",
+        "opcode": "ProcessingStart",
+        "keywords": "DevQuery",
+        "task": "DevQuery_QueryProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "QueryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "DevQuery_QueryProcessingProcessingStop(Pointer QueryAddress)",
+        "opcode": "ProcessingStop",
+        "keywords": "DevQuery",
+        "task": "DevQuery_QueryProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "QueryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "503",
+        "version": "0",
+        "event(fields)": "DevQuery_QueryProcessingQueryStop(Pointer QueryAddress)",
+        "opcode": "QueryStop",
+        "keywords": "DevQuery ObjectLists",
+        "task": "DevQuery_QueryProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "QueryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "600",
+        "version": "0",
+        "event(fields)": "DriverOverride(HexInt32 HardwareConfigurationId, UnicodeString Driver, HexInt32 StartType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DriverOverride",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HardwareConfigurationId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StartType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "700",
+        "version": "0",
+        "event(fields)": "CfgMgr_DeviceListStart(UnicodeString Filter, UnicodeString FilterBy, Boolean OnlyPresent)",
+        "opcode": "Start",
+        "keywords": "CfgMgr ObjectLists",
+        "task": "CfgMgr_DeviceList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterBy"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OnlyPresent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "701",
+        "version": "0",
+        "event(fields)": "CfgMgr_DeviceListStop(HexInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "CfgMgr ObjectLists",
+        "task": "CfgMgr_DeviceList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "702",
+        "version": "0",
+        "event(fields)": "CfgMgr_DeviceInterfaceListStart(GUID Class, UnicodeString Device, Boolean OnlyPresent)",
+        "opcode": "Start",
+        "keywords": "CfgMgr ObjectLists",
+        "task": "CfgMgr_DeviceInterfaceList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OnlyPresent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "703",
+        "version": "0",
+        "event(fields)": "CfgMgr_DeviceInterfaceListStop(HexInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "CfgMgr ObjectLists",
+        "task": "CfgMgr_DeviceInterfaceList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "704",
+        "version": "0",
+        "event(fields)": "CfgMgr_QueryRemoveStart(HexInt32 QueryRemoveType, UnicodeString Device)",
+        "opcode": "Start",
+        "keywords": "CfgMgr",
+        "task": "CfgMgr_QueryRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "QueryRemoveType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "705",
+        "version": "0",
+        "event(fields)": "CfgMgr_QueryRemoveStop(UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "CfgMgr",
+        "task": "CfgMgr_QueryRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "800",
+        "version": "0",
+        "event(fields)": "ProcessNewDeviceStart(Pointer DeviceNode)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "ProcessNewDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceNode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "801",
+        "version": "0",
+        "event(fields)": "ProcessNewDevice(Pointer DeviceNode, UnicodeString DeviceInstancePath)",
+        "opcode": "",
+        "keywords": "Enumeration",
+        "task": "ProcessNewDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceNode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstancePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "802",
+        "version": "0",
+        "event(fields)": "ProcessNewDeviceStop(Pointer DeviceNode)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "ProcessNewDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceNode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "803",
+        "version": "0",
+        "event(fields)": "ProcessDeviceStart(HexInt32 Phase, UnicodeString Device)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "ProcessDeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "804",
+        "version": "0",
+        "event(fields)": "ProcessDeviceStartStop(HexInt32 Phase, UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "ProcessDeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "805",
+        "version": "0",
+        "event(fields)": "ProcessDeviceRestart(HexInt32 Phase, UnicodeString Device)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "ProcessDeviceRestart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "806",
+        "version": "0",
+        "event(fields)": "ProcessDeviceRestartStop(HexInt32 Phase, UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "ProcessDeviceRestart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "807",
+        "version": "0",
+        "event(fields)": "DeviceAddStart(UInt32 ServiceType, UInt16 DriverNameLength, UnicodeString DriverName, UnicodeString DeviceInstancePath)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "DeviceAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ServiceType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstancePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "808",
+        "version": "0",
+        "event(fields)": "DeviceAddStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "DeviceAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "810",
+        "version": "0",
+        "event(fields)": "ReenumerateDeviceTree(UnicodeString Device, HexInt32 ReenumerateType)",
+        "opcode": "",
+        "keywords": "Enumeration",
+        "task": "ReenumerateDeviceTree",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ReenumerateType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "811",
+        "version": "0",
+        "event(fields)": "ReenumerateDeviceTreeStart(UnicodeString Device, HexInt32 ReenumerateType)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "ReenumerateDeviceTree",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ReenumerateType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "812",
+        "version": "0",
+        "event(fields)": "ReenumerateDeviceTreeStop(UnicodeString Device, HexInt32 ReenumerateType)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "ReenumerateDeviceTree",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ReenumerateType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "813",
+        "version": "0",
+        "event(fields)": "ReenumerateDeviceOnly(UnicodeString Device)",
+        "opcode": "",
+        "keywords": "Enumeration",
+        "task": "ReenumerateDeviceOnly",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "814",
+        "version": "0",
+        "event(fields)": "ReenumerateDeviceOnlyStart(UnicodeString Device)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "ReenumerateDeviceOnly",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "815",
+        "version": "0",
+        "event(fields)": "ReenumerateDeviceOnlyStop(UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "ReenumerateDeviceOnly",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "816",
+        "version": "0",
+        "event(fields)": "ConfigureDevice(UnicodeString Device, HexInt32 RequestType)",
+        "opcode": "",
+        "keywords": "DeviceConfig",
+        "task": "ConfigureDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "817",
+        "version": "0",
+        "event(fields)": "ConfigureDeviceStart(UnicodeString Device, HexInt32 RequestType)",
+        "opcode": "Start",
+        "keywords": "DeviceConfig",
+        "task": "ConfigureDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "818",
+        "version": "0",
+        "event(fields)": "ConfigureDeviceStop(UnicodeString Device, HexInt32 RequestType, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "DeviceConfig",
+        "task": "ConfigureDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "819",
+        "version": "0",
+        "event(fields)": "GenericDeviceAction(UnicodeString Device, HexInt32 RequestType)",
+        "opcode": "",
+        "keywords": "Enumeration",
+        "task": "GenericDeviceAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "820",
+        "version": "0",
+        "event(fields)": "GenericDeviceActionStart(UnicodeString Device, HexInt32 RequestType)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "GenericDeviceAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "821",
+        "version": "0",
+        "event(fields)": "GenericDeviceActionStop(UnicodeString Device, HexInt32 RequestType, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "GenericDeviceAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "830",
+        "version": "0",
+        "event(fields)": "DeviceRemoval(UnicodeString Device)",
+        "opcode": "",
+        "keywords": "Enumeration",
+        "task": "DeviceRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "831",
+        "version": "0",
+        "event(fields)": "DeviceRemovalStart(UnicodeString Device)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "DeviceRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "832",
+        "version": "0",
+        "event(fields)": "DeviceRemovalStop(UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "DeviceRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "840",
+        "version": "0",
+        "event(fields)": "task_0Start(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "841",
+        "version": "0",
+        "event(fields)": "task_0Stop841(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance, UInt32 Status, UInt32 VetoType, UInt16 VetoNameLength, UnicodeString VetoName)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VetoType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VetoNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VetoName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "850",
+        "version": "0",
+        "event(fields)": "AssignResourcesStart(UnicodeString Device)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "AssignResources",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "851",
+        "version": "0",
+        "event(fields)": "AssignResourcesStop(UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "AssignResources",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "852",
+        "version": "0",
+        "event(fields)": "RebalanceStart(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)",
+        "opcode": "Start",
+        "keywords": "Enumeration",
+        "task": "Rebalance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP",
+        "event_id": "853",
+        "version": "0",
+        "event(fields)": "RebalanceStop(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Enumeration",
+        "task": "Rebalance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceInstanceLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

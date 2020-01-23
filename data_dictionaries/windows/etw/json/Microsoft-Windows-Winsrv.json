@@ -1,0 +1,395 @@
+[
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "10001",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString AppName, UInt32 ResponseTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "10002",
+        "version": "0",
+        "event(fields)": "task_010002(UnicodeString AppName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12001",
+        "version": "0",
+        "event(fields)": "ThreadShutdownStart(UInt32 ThreadId, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "ThreadShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12001",
+        "version": "1",
+        "event(fields)": "ThreadShutdownStart_V1(UInt32 ThreadId, UInt32 Flags, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "ThreadShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12002",
+        "version": "0",
+        "event(fields)": "ThreadShutdownStop(UInt32 Command)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "ThreadShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12002",
+        "version": "1",
+        "event(fields)": "ThreadShutdownStop_V1(UInt32 Command, UInt32 ThreadId)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "ThreadShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12003",
+        "version": "0",
+        "event(fields)": "ThreadShutdown_SentMessage(UInt32 MessageId, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "ThreadShutdown_SentMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MessageId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12003",
+        "version": "1",
+        "event(fields)": "ThreadShutdown_SentMessage_V1(UInt32 MessageId, UInt32 Flags, UInt32 ThreadId)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "ThreadShutdown_SentMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MessageId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12005",
+        "version": "0",
+        "event(fields)": "TerminateProcessStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "TerminateProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12005",
+        "version": "1",
+        "event(fields)": "TerminateProcessStart_V1(UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "TerminateProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12006",
+        "version": "0",
+        "event(fields)": "TerminateProcessStop()",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "TerminateProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12006",
+        "version": "1",
+        "event(fields)": "TerminateProcessStop_V1(UInt32 ProcessId, UInt32 TerminateStatus)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "TerminateProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TerminateStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12007",
+        "version": "0",
+        "event(fields)": "WaitForProcessStart()",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "WaitForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12007",
+        "version": "1",
+        "event(fields)": "WaitForProcessStart_V1(UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "WaitForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12008",
+        "version": "0",
+        "event(fields)": "WaitForProcessStop(UInt32 WaitStatus)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "WaitForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WaitStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12008",
+        "version": "1",
+        "event(fields)": "WaitForProcessStop_V1(UInt32 WaitStatus, UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "WaitForProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WaitStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12009",
+        "version": "1",
+        "event(fields)": "ShutdownProcessStart_V1(UInt32 ProcessId, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "ShutdownProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12010",
+        "version": "1",
+        "event(fields)": "ShutdownProcessStop_V1(UInt32 ProcessId, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "ShutdownProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12011",
+        "version": "1",
+        "event(fields)": "NotificationEventStart_V1(UInt32 EventType)",
+        "opcode": "Start",
+        "keywords": "Perf",
+        "task": "NotificationEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winsrv",
+        "event_id": "12012",
+        "version": "1",
+        "event(fields)": "NotificationEventStop_V1(UInt32 EventType)",
+        "opcode": "Stop",
+        "keywords": "Perf",
+        "task": "NotificationEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    }
+]

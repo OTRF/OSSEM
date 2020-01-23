@@ -1,0 +1,291 @@
+[
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "KS_PnpAddDeviceStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "KS_PnpAddDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "KS_PnpAddDeviceStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "KS_PnpAddDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "KS_StreamingRequestStart(Pointer pIrp)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "KS_StreamingRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "KS_StreamingRequestStop(Pointer pIrp)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "KS_StreamingRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "KS_CameraGrabStart(Pointer ProcessId, UInt32 PinId, Pointer FilterAddress)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "KS_CameraGrab",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FilterAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "KS_CameraGrabStop(HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "KS_CameraGrab",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "KS_WNF()",
+        "opcode": "",
+        "keywords": "",
+        "task": "KS_WNF",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "KS_WNF207()",
+        "opcode": "",
+        "keywords": "",
+        "task": "KS_WNF",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "KS_WNFPinState(Pointer FilterExt, UInt32 PinState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "KS_WNFPinState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FilterExt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PinState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "KS_WNFNotification(UInt32 EntryCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "KS_WNFNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EntryCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "KS_DisplayOff()",
+        "opcode": "",
+        "keywords": "",
+        "task": "KS_DisplayOff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "KS_IoProbeandLockStart(HexInt32 PinId, UInt32 BufSize)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "KS_IoProbeandLock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "KS_IoProbeandLockStop(HexInt32 PinId, UInt32 BufSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "KS_IoProbeandLock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "KS_QueryInterfaceStart(Pointer pKsDevice, Pointer pIrp, GUID InterfaceGuid, UInt32 Status)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "KS_QueryInterface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pKsDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIrp"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-KernelStreaming",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "KS_QueryInterfaceStop(Pointer pKsDevice, Pointer pIrp, GUID InterfaceGuid, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "KS_QueryInterface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pKsDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pIrp"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

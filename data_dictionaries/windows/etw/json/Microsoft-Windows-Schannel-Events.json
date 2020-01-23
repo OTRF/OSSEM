@@ -1,0 +1,365 @@
+[
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "257",
+        "version": "0",
+        "event(fields)": "AcquireCredentialHandleStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AcquireCredentialHandle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "258",
+        "version": "0",
+        "event(fields)": "AcquireCredentialHandleStop(HexInt32 ReturnValue)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AcquireCredentialHandle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ReturnValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "513",
+        "version": "0",
+        "event(fields)": "AcceptSecurityContextStart(Pointer CredHandle, Pointer ContextHandle)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AcceptSecurityContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CredHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ContextHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "514",
+        "version": "0",
+        "event(fields)": "AcceptSecurityContextStop(Pointer ContextHandle, HexInt32 ReturnValue)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AcceptSecurityContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ContextHandle"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ReturnValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "769",
+        "version": "0",
+        "event(fields)": "MemoryAllocationAllocate(Pointer Address, HexInt32 AllocationSize)",
+        "opcode": "Allocate",
+        "keywords": "",
+        "task": "MemoryAllocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AllocationSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "770",
+        "version": "0",
+        "event(fields)": "MemoryAllocationFree(Pointer Address)",
+        "opcode": "Free",
+        "keywords": "",
+        "task": "MemoryAllocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStart1027()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1028",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStop1028()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1029",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStart1029()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1030",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStop1030()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1031",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStart1031()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1032",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStop1032()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1033",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStart1033()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1034",
+        "version": "0",
+        "event(fields)": "CAPI2CallsStop1034()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CAPI2Calls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1281",
+        "version": "0",
+        "event(fields)": "PKCryptoStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PKCrypto",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1282",
+        "version": "0",
+        "event(fields)": "PKCryptoStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PKCrypto",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1283",
+        "version": "0",
+        "event(fields)": "PKCryptoStart1283()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PKCrypto",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1284",
+        "version": "0",
+        "event(fields)": "PKCryptoStop1284()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PKCrypto",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1537",
+        "version": "0",
+        "event(fields)": "FreeCredentialHandleStart(Pointer CredHandle)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FreeCredentialHandle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CredHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1538",
+        "version": "0",
+        "event(fields)": "FreeCredentialHandleStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FreeCredentialHandle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1793",
+        "version": "0",
+        "event(fields)": "DeleteSecurityContextStart(Pointer ContextHandle, UnicodeString TargetName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DeleteSecurityContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ContextHandle"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Schannel-Events",
+        "event_id": "1794",
+        "version": "0",
+        "event(fields)": "DeleteSecurityContextStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DeleteSecurityContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

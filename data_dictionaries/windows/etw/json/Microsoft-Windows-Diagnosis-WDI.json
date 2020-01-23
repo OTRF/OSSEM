@@ -1,0 +1,88 @@
+[
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDI",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "DebugtaskDebugevent(UnicodeString FileName, UnicodeString FunctionName, Int32 LineNumber, UnicodeString ErrorMessage)",
+        "opcode": "Debugevent",
+        "keywords": "debug",
+        "task": "Debugtask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDI",
+        "event_id": "5016",
+        "version": "0",
+        "event(fields)": "task_0(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-WDI",
+        "event_id": "5017",
+        "version": "0",
+        "event(fields)": "task_05017(AnsiString FileName, UInt32 Line, Pointer Address)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            }
+        ]
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "PepRailRundown(UInt32 VoltageRailId, UnicodeString VoltageRailName, UInt32 CurrentVoltageMv, UInt32 MaxVoltageMv)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepRailRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "VoltageRailId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VoltageRailName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentVoltageMv"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxVoltageMv"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "PepDeviceRundown(Pointer DeviceId, UnicodeString DeviceName, UInt32 PlatformStateDependencyCount, UInt8 PlatformStateDependency)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlatformStateDependencyCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PlatformStateDependency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "PepComponentRundown(UInt32 VoltageRailId, Pointer DeviceId, UInt32 ComponentIndex, UInt32 CurrentFrequencyKHz, UInt32 MaxFrequencyKHz, UInt32 PlatformStateDependencyCount, Int64 PlatformStateDependency, UInt32 ComponentDescriptionLength, UnicodeString ComponentDescription)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepComponentRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "VoltageRailId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentFrequencyKHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxFrequencyKHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlatformStateDependencyCount"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "PlatformStateDependency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentDescriptionLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ComponentDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "PepRailVoltageChange(UInt32 VoltageRailId, UInt32 OldRailVoltageMv, UInt32 NewRailVoltageMv)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepRailVoltageChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "VoltageRailId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldRailVoltageMv"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewRailVoltageMv"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "PepComponentFrequencyChange(Pointer DeviceId, UInt32 ComponentIndex, UInt32 OldComponentFrequencyKHz, UInt32 NewComponentFrequencyKHz)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepComponentFrequencyChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldComponentFrequencyKHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewComponentFrequencyKHz"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "PepPlatformIdleResidency(UInt32 PlatformStateCount, AnsiString PlatformIdleStateResidency)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepPlatformIdleResidency",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PlatformStateCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "PlatformIdleStateResidency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Pep",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "PepPlatformIdleTransition(UInt32 OldPlatformState, UInt32 NewPlatformState)",
+        "opcode": "",
+        "keywords": "popep:Power",
+        "task": "PepPlatformIdleTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldPlatformState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewPlatformState"
+            }
+        ]
+    }
+]

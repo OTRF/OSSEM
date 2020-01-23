@@ -1,0 +1,532 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "MemInfo_V1(UInt8 PriorityLevels, Pointer ZeroPageCount, Pointer FreePageCount, Pointer ModifiedPageCount, Pointer ModifiedNoWritePageCount, Pointer BadPageCount, Pointer StandbyPageCounts, Pointer RepurposedPageCounts, Pointer ModifiedPageCountPageFile, Pointer PagedPoolPageCount, Pointer NonPagedPoolPageCount, Pointer MdlPageCount, Pointer CommitPageCount)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO",
+        "task": "MemInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PriorityLevels"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ZeroPageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FreePageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ModifiedPageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ModifiedNoWritePageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BadPageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StandbyPageCounts"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RepurposedPageCounts"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ModifiedPageCountPageFile"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PagedPoolPageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "NonPagedPoolPageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MdlPageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CommitPageCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MemInfoWS(UInt32 Count, AnsiString WSCommitInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_EX",
+        "task": "MemInfoWS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "WSCommitInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "MemInfoWS_V1(UInt32 Count, AnsiString WSCommitInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_EX",
+        "task": "MemInfoWS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "WSCommitInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "2",
+        "version": "2",
+        "event(fields)": "MemInfoWS_V2(UInt32 Count, AnsiString WSCommitInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_EX",
+        "task": "MemInfoWS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "WSCommitInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MemInfoSessionWS(UInt32 Count, AnsiString SessionWSCommitInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_EX",
+        "task": "MemInfoSessionWS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SessionWSCommitInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "MemInfoSessionWS_V1(UInt32 Count, AnsiString SessionWSCommitInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_EX",
+        "task": "MemInfoSessionWS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SessionWSCommitInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "3",
+        "version": "2",
+        "event(fields)": "MemInfoSessionWS_V2(UInt32 Count, AnsiString SessionWSCommitInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_EX",
+        "task": "MemInfoSessionWS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SessionWSCommitInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "WorkingSetOutSwapStart(UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetOutSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "WorkingSetOutSwapStart_V1(UInt32 ProcessId, HexInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetOutSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "WorkingSetOutSwapStop(UInt32 ProcessId, HexInt32 Status, UInt32 PagesProcessed)",
+        "opcode": "Stop",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetOutSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagesProcessed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "WorkingSetOutSwapStop_V1(UInt32 ProcessId, HexInt32 Status, Pointer PagesProcessed, Pointer WriteCombinePagesProcessed, Pointer UncachedPagesProcessed, Pointer CleanPagesProcessed)",
+        "opcode": "Stop",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetOutSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PagesProcessed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "WriteCombinePagesProcessed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UncachedPagesProcessed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CleanPagesProcessed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "WorkingSetInSwapStart(UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetInSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "WorkingSetInSwapStart_V1(UInt32 ProcessId, HexInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetInSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "WorkingSetInSwapStop(UInt32 ProcessId, HexInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetInSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "Acg(UInt32 AcgFlag)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_ACG",
+        "task": "Acg",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AcgFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "WorkingSetInSwap(UInt32 ProcessId, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_WS_SWAP",
+        "task": "WorkingSetInSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MdlAllocation(UInt64 DurationInMicroseconds, UInt64 TotalBytes, UInt64 LowAddress, UInt64 HighAddress, UInt64 SkipBytes, Pointer MemoryDescriptorList, UInt32 IdealNode, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_PHYSICAL_ALLOC",
+        "task": "MdlAllocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DurationInMicroseconds"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LowAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HighAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SkipBytes"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryDescriptorList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IdealNode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ContAllocation(UInt64 DurationInMicroseconds, UInt64 TotalBytes, UInt64 LowAddress, UInt64 HighAddress, UInt64 Boundary, UInt64 PhysicalAddress, Pointer MappedAddress, Boolean AllocatedFromPool, UInt32 ProtectionMask, UInt32 PreferredNode)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_PHYSICAL_ALLOC",
+        "task": "ContAllocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DurationInMicroseconds"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LowAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HighAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Boundary"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PhysicalAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MappedAddress"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AllocatedFromPool"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreferredNode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Memory",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MemInfoNode(UInt32 PartitionId, UInt32 Count, Int8 MemoryNodeInfo)",
+        "opcode": "",
+        "keywords": "KERNEL_MEM_KEYWORD_MEMINFO_NODE",
+        "task": "MemInfoNode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "MemoryNodeInfo"
+            }
+        ]
+    }
+]

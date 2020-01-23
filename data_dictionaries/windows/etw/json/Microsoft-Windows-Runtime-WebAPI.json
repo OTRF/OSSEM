@@ -1,0 +1,1586 @@
+[
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationstart(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationstart",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationfailure(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationcomplete(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationcomplete",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationfailure4(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationabort(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationabort",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationclose(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationclose",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationcompletion(UInt32 asyncOperation, Pointer asyncObject, Pointer callback)",
+        "opcode": "Asyncoperationcompletion",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "callback"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationprogress(UInt32 asyncOperation, Pointer asyncObject, Pointer callback)",
+        "opcode": "Asyncoperationprogress",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "callback"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationfailure9(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationfailure10(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "AsyncI/OAsyncoperationfailure11(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ParseParseURI(UnicodeString uri)",
+        "opcode": "ParseURI",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ParseParseURI13(UnicodeString str1, UnicodeString str2)",
+        "opcode": "ParseURI",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation(UnicodeString str1, UnicodeString str2)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation15(UnicodeString str1, UnicodeString str2)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation16(UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation17(UnicodeString uri, UInt32 port, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "port"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation18(UnicodeString str1, UnicodeString str2, HexInt32 flags)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation19(UnicodeString uri, UInt32 port, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "port"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation20(Pointer obj1, Pointer obj2, UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation21(Pointer obj, UInt32 length)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation22(Pointer obj, UInt32 length)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation23(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation24(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation25(Pointer obj, UInt32 length)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation26(Pointer obj, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation27(Pointer obj, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation28(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation29(Pointer obj, UInt32 statusCode, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "statusCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation30(Pointer obj, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation31(Pointer obj, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation32(Pointer obj, UInt32 length, UInt32 limit)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "limit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation33(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation34(Pointer obj, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation35(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation36(UnicodeString statusDescription, UInt32 int1, UInt32 int2, UInt32 int3, UInt32 int4)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation37(UnicodeString uri, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "AsyncI/O",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "ParseHTTPoperation(UInt32 asyncOperation, Pointer asyncObject, UnicodeString response, UInt32 errorCode, Int32 hresult)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "response"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "APIsAPIEnter(UInt32 runtimeClass, UInt32 api)",
+        "opcode": "APIEnter",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "APIsAPIExit(UInt32 runtimeClass, UInt32 api)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "APIsAPIExit41(UInt32 runtimeClass, UInt32 api, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation42(UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.AtomPub",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation43(UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.AtomPub",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation44(UnicodeString uri, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.AtomPub",
+        "task": "AsyncI/O",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "AsyncI/OHTTPoperation45(UnicodeString uri, UInt32 statusCode)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.AtomPub",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "statusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "AsyncI/OParsecategorydocument(UnicodeString uri, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "Parsecategorydocument",
+        "keywords": "keywords.AtomPub",
+        "task": "AsyncI/O",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "ParseCheckrequiredelement(UnicodeString uri)",
+        "opcode": "Checkrequiredelement",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "ParseCheckrequiredattribute(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Checkrequiredattribute",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "ParseCheckduplicatedelement(UnicodeString uri)",
+        "opcode": "Checkduplicatedelement",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "SerializeAdddefaultvalue(UnicodeString uri)",
+        "opcode": "Adddefaultvalue",
+        "keywords": "keywords.Format",
+        "task": "Serialize",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "SerializeAdddefaultvalue51(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Adddefaultvalue",
+        "keywords": "keywords.Format",
+        "task": "Serialize",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ParseCheckrequiredelement52()",
+        "opcode": "Checkrequiredelement",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "SerializeAddfirstvalue(UnicodeString uri)",
+        "opcode": "Addfirstvalue",
+        "keywords": "keywords.Format",
+        "task": "Serialize",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "ParseIgnoreunexpectedcontent()",
+        "opcode": "Ignoreunexpectedcontent",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "ParseCheckrequiredelement55(UnicodeString uri)",
+        "opcode": "Checkrequiredelement",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "ParseCheckrequiredelement56(UnicodeString uri)",
+        "opcode": "Checkrequiredelement",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "ParseCheckrequiredattribute57(UnicodeString uri)",
+        "opcode": "Checkrequiredattribute",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "ParseIgnoreunexpectedcontent58(UnicodeString uri)",
+        "opcode": "Ignoreunexpectedcontent",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "ParseIgnoreunexpectedcontent59(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Ignoreunexpectedcontent",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "ParseIgnoreunexpectedcontent60(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Ignoreunexpectedcontent",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "ParseIgnoreunexpectedcontent61(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Ignoreunexpectedcontent",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "ParseIgnoreunexpectedcontent62(UnicodeString uri)",
+        "opcode": "Ignoreunexpectedcontent",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "ParseParsedatetimestring(UnicodeString uri)",
+        "opcode": "Parsedatetimestring",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "ParseParseinteger(UnicodeString uri)",
+        "opcode": "Parseinteger",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "ParseParseXML(UnicodeString uri)",
+        "opcode": "ParseXML",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "ParseCheckcustomattribute(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Checkcustomattribute",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "ParseCheckcustomelement(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Checkcustomelement",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "ParseAddcustomattribute(UnicodeString str1, UnicodeString str2)",
+        "opcode": "Addcustomattribute",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "ParseParseJSONstring(UnicodeString uri, UInt32 statusCode)",
+        "opcode": "ParseJSONstring",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "statusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "ParseParseJSONstring70(UInt32 obj)",
+        "opcode": "ParseJSONstring",
+        "keywords": "keywords.Format",
+        "task": "Parse",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-WebAPI",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "AsyncI/O(Pointer obj)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AsyncI/O",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    }
+]

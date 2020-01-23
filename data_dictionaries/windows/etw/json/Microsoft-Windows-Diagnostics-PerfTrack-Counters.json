@@ -1,0 +1,242 @@
+[
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack-Counters",
+        "event_id": "2000",
+        "version": "0",
+        "event(fields)": "PerfTrackCounter_Process(Int64 WorkingSetPrivateSize, Pointer QuotaNonPagedPoolUsage, Pointer QuotaPagedPoolUsage, Pointer PrivatePageCount, Pointer VirtualSize, Pointer WorkingSetSize, UInt32 HandleCount, UInt32 SessionId, UInt32 ProcessId, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "ProcessCounter",
+        "task": "PerfTrackCounter_Process",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "WorkingSetPrivateSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "QuotaNonPagedPoolUsage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "QuotaPagedPoolUsage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PrivatePageCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "VirtualSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkingSetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HandleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack-Counters",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "PerfTrackCounter_FileCache(Pointer CurrentSize, Pointer PeakSize, Pointer MinimumWorkingSet, Pointer MaximumWorkingSet, Pointer CurrentSizeIncludingTransitionInPages, Pointer PeakSizeIncludingTransitionInPages, UInt32 PageFaultCount, UInt32 TransitionRePurposeCount, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "FileCacheCounter",
+        "task": "PerfTrackCounter_FileCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CurrentSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PeakSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MinimumWorkingSet"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MaximumWorkingSet"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CurrentSizeIncludingTransitionInPages"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PeakSizeIncludingTransitionInPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageFaultCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransitionRePurposeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack-Counters",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "PerfTrackCounter_Pool(UInt32 PagedPoolPages, UInt32 NonPagedPoolPages)",
+        "opcode": "",
+        "keywords": "PoolCounter",
+        "task": "PerfTrackCounter_Pool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PagedPoolPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonPagedPoolPages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack-Counters",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "PerfTrackCounter_SessionPool(Pointer PagedPoolPages, Pointer NonPagedPoolPages, UInt32 SessionId)",
+        "opcode": "",
+        "keywords": "SessionPoolCounter",
+        "task": "PerfTrackCounter_SessionPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PagedPoolPages"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "NonPagedPoolPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack-Counters",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "PerfTrackCounter_PoolTag(UInt32 PagedAllocs, UInt32 PagedFrees, Pointer PagedUsed, UInt32 NonPagedAllocs, UInt32 NonPagedFrees, Pointer NonPagedUsed, AnsiString Tag)",
+        "opcode": "",
+        "keywords": "PoolTagCounter",
+        "task": "PerfTrackCounter_PoolTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PagedAllocs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagedFrees"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PagedUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonPagedAllocs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonPagedFrees"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "NonPagedUsed"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack-Counters",
+        "event_id": "2005",
+        "version": "0",
+        "event(fields)": "PerfTrackCounter_SessionPoolTag(UInt32 PagedAllocs, UInt32 PagedFrees, Pointer PagedUsed, UInt32 NonPagedAllocs, UInt32 NonPagedFrees, Pointer NonPagedUsed, UInt32 SessionId, AnsiString Tag)",
+        "opcode": "",
+        "keywords": "SessionPoolTagCounter",
+        "task": "PerfTrackCounter_SessionPoolTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PagedAllocs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagedFrees"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PagedUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonPagedAllocs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonPagedFrees"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "NonPagedUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Tag"
+            }
+        ]
+    }
+]

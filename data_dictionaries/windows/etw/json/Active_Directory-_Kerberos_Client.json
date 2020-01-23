@@ -1,0 +1,207 @@
+[
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{52e82f1a-7cd4-47ed-b5e5-fde7bf64cea6}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "KerbInitSecurityContext_Start()",
+        "event_type": "Start",
+        "description": "Kerberos Initialize Security Context Handler",
+        "event_fields": []
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{52e82f1a-7cd4-47ed-b5e5-fde7bf64cea6}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "KerbInitSecurityContext_End(UInt32 Status, String CredSource, String DomainName, String UserName, String Target, UInt32 ExtError, UInt32 klininfo)",
+        "event_type": "End",
+        "description": "Kerberos Initialize Security Context Handler",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "String",
+                "field_name": "CredSource"
+            },
+            {
+                "field_type": "String",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExtError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "klininfo"
+            }
+        ]
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{8a3b8d86-db1e-47a9-9264-146e097b3c64}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "KerbLogonUser_Start()",
+        "event_type": "Start",
+        "description": "Kerberos Logon User Handler",
+        "event_fields": []
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{8a3b8d86-db1e-47a9-9264-146e097b3c64}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "KerbLogonUser_End(UInt32 Status, String LogonType, String UserName, String LogonDomain)",
+        "event_type": "End",
+        "description": "Kerberos Logon User Handler",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "String",
+                "field_name": "LogonType"
+            },
+            {
+                "field_type": "String",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "LogonDomain"
+            }
+        ]
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{94acefe3-9e56-49e3-9895-7240a231c371}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "KerbAcceptSecurityContext_Start()",
+        "event_type": "Start",
+        "description": "Kerberos Accept Security Context Handler",
+        "event_fields": []
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{94acefe3-9e56-49e3-9895-7240a231c371}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "KerbAcceptSecurityContext_End(UInt32 Status, String CredSource, String DomainName, String UserName, String Target)",
+        "event_type": "End",
+        "description": "Kerberos Accept Security Context Handler",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "String",
+                "field_name": "CredSource"
+            },
+            {
+                "field_type": "String",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "Target"
+            }
+        ]
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{94c79108-b23b-4418-9b7f-e6d75a3a0ab2}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "KerbSetPassword_Start()",
+        "event_type": "Start",
+        "description": "Kerberos Set Password",
+        "event_fields": []
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{94c79108-b23b-4418-9b7f-e6d75a3a0ab2}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "KerbSetPassword_End(UInt32 Status, String AccountName, String AccountRealm, String ClientName, String ClientRealm, String KdcAddress)",
+        "event_type": "End",
+        "description": "Kerberos Set Password",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "String",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "AccountRealm"
+            },
+            {
+                "field_type": "String",
+                "field_name": "ClientName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "ClientRealm"
+            },
+            {
+                "field_type": "String",
+                "field_name": "KdcAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{c55e606b-334a-488b-b907-384abaa97b04}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "KerbChangePassword_Start()",
+        "event_type": "Start",
+        "description": "Kerberos Change Password",
+        "event_fields": []
+    },
+    {
+        "provider": "Active Directory: Kerberos Client",
+        "category": "{c55e606b-334a-488b-b907-384abaa97b04}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "KerbChangePassword_End(UInt32 Status, String AccountName, String DomainName)",
+        "event_type": "End",
+        "description": "Kerberos Change Password",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "String",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "DomainName"
+            }
+        ]
+    }
+]

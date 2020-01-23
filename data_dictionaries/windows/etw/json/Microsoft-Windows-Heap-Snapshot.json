@@ -1,0 +1,54 @@
+[
+    {
+        "provider": "Microsoft-Windows-Heap-Snapshot",
+        "event_id": "100",
+        "version": "1",
+        "event(fields)": "task_0_V1(UInt32 HeapSnapshotInstance, UInt32 HeapSnapshotSequence, UInt32 HeapSnapshotBufferLen, Binary HeapSnapshotBuffer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapSnapshotInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapSnapshotSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapSnapshotBufferLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HeapSnapshotBuffer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Heap-Snapshot",
+        "event_id": "200",
+        "version": "1",
+        "event(fields)": "task_0200_V1(UInt32 HeapSnapshotInstance, UInt32 TotalData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapSnapshotInstance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalData"
+            }
+        ]
+    }
+]

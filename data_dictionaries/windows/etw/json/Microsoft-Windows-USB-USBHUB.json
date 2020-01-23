@@ -1,0 +1,3134 @@
+[
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "USBHubAdd(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, Binary fid_USBHUB_Hub_State, Pointer fid_USB_HubDescriptor)",
+        "opcode": "Add",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHub",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USBHUB_Hub_State"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_USB_HubDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "USBHubRemove(AnsiString fid_USBHUB_HC, Int32 fid_USBHUB_Hub)",
+        "opcode": "Remove",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHub",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_USBHUB_Hub"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "USBHubInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, Binary fid_USBHUB_Hub_State, Pointer fid_USB_HubDescriptor)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHub",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USBHUB_Hub_State"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_USB_HubDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateStart(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError12(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError13(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError14(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError16(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError17(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError18(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, Binary fid_USBHUB_CD_Error_Information)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USBHUB_CD_Error_Information"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError19(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, Binary fid_USBHUB_ID_Error_Information)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USBHUB_ID_Error_Information"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError20(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateStart21(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError22(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError23(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError24(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError25(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError26(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError27(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError28(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation29(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError30(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation31(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation32(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation33(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation34(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation35(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation36(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateInformation37(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "USBHubResetRecoveryStart(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubResetRecovery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "USBHubResetRecoveryQueue(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Queue",
+        "keywords": "Diagnostics",
+        "task": "USBHubResetRecovery",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "USBHubResetRecoveryComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubResetRecovery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "USBHubSuspendStart(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubSuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "USBHubSuspendInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubSuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "USBHubSuspendComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubSuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "USBHubResumeStart(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "USBHubResumeComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "USBHubResumeInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "USBHubResumeInformation63(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "USBHubResumeInformation64(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "USBHubQueryDeviceRelationsIRP_BusRelationsDispatch(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBHubQueryDeviceRelationsIRP_BusRelations",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "USBHubQueryDeviceRelationsIRP_BusRelationsComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubQueryDeviceRelationsIRP_BusRelations",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "USBHubPortInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt16 fid_PortAttributes)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPortInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortAttributes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "USBHubPortInformation81(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, Binary fid_USBHUB_Acpi_Upc_Package)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPortInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USBHUB_Acpi_Upc_Package"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "USBHubPortInformation82(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, Binary fid_USBHUB_Acpi_Pld)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPortInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USBHUB_Acpi_Pld"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "USBHubPortInformation83(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubPortInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "USBHubPortInformation84(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubPortInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "USBDeviceAdd(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device, GUID fid_USBHUB_Device_State, Pointer fid_DeviceDescriptor)",
+        "opcode": "Add",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fid_USBHUB_Device_State"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_DeviceDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "USBDeviceRemove(AnsiString fid_USBHUB_HC, Int32 fid_USBHUB_Device)",
+        "opcode": "Remove",
+        "keywords": "keyword_400000000000",
+        "task": "USBDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_USBHUB_Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "USBDeviceInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device, GUID fid_USBHUB_Device_State, Pointer fid_DeviceDescriptor)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fid_USBHUB_Device_State"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_DeviceDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "USBDeviceInformation103(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UnicodeString fid_DeviceDescription)",
+        "opcode": "Information",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "USBDeviceStartDispatch(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "USBDeviceStartError(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDeviceStart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "USBDeviceStartError112(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDeviceStart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "USBDeviceStartError113(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDeviceStart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "USBDeviceInformation114(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UnicodeString fid_DeviceDescription)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "USBDeviceStartComplete(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDeviceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "USBDeviceSetPowerDispatch(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDeviceSetPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "USBDeviceSetPowerComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBDeviceSetPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "USBDeviceSetPowerDispatch122(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceSetPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "USBDeviceSetPowerComplete123(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceSetPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "USBDeviceIdleNotificationDispatch(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceIdleNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "USBDeviceIdleNotificationComplete(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceIdleNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "USBDeviceWaitWakeDispatch(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceWaitWake",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "USBDeviceWaitWakeComplete(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceWaitWake",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "USBHubWaitWakeStart(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubWaitWake",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "USBHubWaitWakeDispatch(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBHubWaitWake",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "USBHubWaitWakeComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubWaitWake",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "USBHubPowerStart(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "USBHubPowerDispatch(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "USBHubPowerComplete(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "USBHubPowerStart170(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "USBHubPowerDispatch171(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "USBHubPowerStart172(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation174(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation175(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation176(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation177(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "USBHubPowerComplete178(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "USBHubPowerStart179(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "USBHubPowerError(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubPower",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation181(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "USBHubPowerComplete183(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "184",
+        "version": "0",
+        "event(fields)": "USBHubPowerError184(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "USBHubPowerInformation185(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "USBHubPowerComplete189(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "190",
+        "version": "0",
+        "event(fields)": "USBHubPowerDispatch190(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "199",
+        "version": "0",
+        "event(fields)": "USBHubPowerComplete199(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "USBHubPowerDispatch200(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Dispatch",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "USBHubPowerComplete209(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PowerState, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBHubPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "USBHubException(Int32 fid_USBHUB_HC, Double fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Class, UInt32 fid_NtStatus, UInt32 fid_UsbdStatus, AnsiString fid_DebugText)",
+        "opcode": "Exception",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubException",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Class"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_DebugText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "USBHubPortStatusInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt16 fid_PortStatusChange)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubPortStatus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortStatusChange"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "USBHubTimerInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_TimerTag)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubTimer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TimerTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "USBHubTimerInformation213(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_TimerTag)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubTimer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TimerTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "USBHubTimerInformation214(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_TimerTag)",
+        "opcode": "Information",
+        "keywords": "Diagnostics",
+        "task": "USBHubTimer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TimerTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "USBDeviceInternalResetStart(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceInternalReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "USBDeviceInternalResetComplete(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceInternalReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "USBHubPastException(UInt64 fid_TimeElapsedBeforeLogStart, UInt32 fid_USBHUB_HC, Boolean fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Class, UInt32 fid_NtStatus, UInt32 fid_UsbdStatus, AnsiString fid_DebugText)",
+        "opcode": "Exception",
+        "keywords": "Diagnostics",
+        "task": "USBHubPastException",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_TimeElapsedBeforeLogStart"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Class"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_DebugText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "USBDeviceIOCTL_INTERNAL_USB_RESET_PORTStart(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Start",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceIOCTL_INTERNAL_USB_RESET_PORT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "USBDeviceIOCTL_INTERNAL_USB_RESET_PORTComplete(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device, UInt32 fid_Status)",
+        "opcode": "Complete",
+        "keywords": "Diagnostics",
+        "task": "USBDeviceIOCTL_INTERNAL_USB_RESET_PORT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_USBHUB_Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError233(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "USBHubEnumerateError234(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)",
+        "opcode": "Error",
+        "keywords": "Diagnostics keyword_400000000000",
+        "task": "USBHubEnumerate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBHUB_HC"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_USBHUB_Hub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Status"
+            }
+        ]
+    }
+]

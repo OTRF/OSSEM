@@ -1,0 +1,2456 @@
+[
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "InitializeAppHostOperationFailed(HexInt32 HResult, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Initialize",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostInformation(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, Int32 PID, UnicodeString ProcessCreationTime, UnicodeString ApplicationBinaryPath, UnicodeString ReportId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessCreationTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationBinaryPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReportId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "WinRTIntegrationAppHostOperationFailed(HexInt32 HResultErrorCode, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "WinRTIntegration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResultErrorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "WinRTIntegrationAppHostOperationFailed122(HexInt32 HResultErrorCode, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "WinRTIntegration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResultErrorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostOperationFailed(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString ErrorType, UnicodeString ErrorDescription, UnicodeString DocumentFile, UnicodeString SourceFile, Int32 SourceLine, Int32 SourceColumn, UnicodeString StackTrace)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SourceLine"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SourceColumn"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StackTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostOperationFailed127(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString ErrorDescription, UnicodeString DocumentFile, UnicodeString StackTrace)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StackTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostInformation128(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostInformation129(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostOperationFailed131(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString DocumentFile)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingAppHostOperationFailed132(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString DocumentFile, UnicodeString TargetUrl, UnicodeString ErrorCode)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Telemetry.WERReporting",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetUrl"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationFailed(UnicodeString Function, UnicodeString Module, HexInt32 HResult, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationFailed134(UnicodeString Function, UnicodeString Module, Int32 WebInstance, HexInt32 HResult, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WebInstance"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationFailed135(Int32 WebInstance, HexInt32 HResult, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "WebInstance"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationFailed136(HexInt32 HResult, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationFailed",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostInformation(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "500",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationSucceeded(UnicodeString Function, UnicodeString Module, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationSucceeded",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationSucceeded502(UnicodeString Function, UnicodeString Module, Int32 WebInstance, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationSucceeded",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WebInstance"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "504",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostOperationSucceeded504(UnicodeString Action, Int32 WebInstance, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostOperationSucceeded",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WebInstance"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "506",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "507",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation507(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "508",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation508(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "509",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation509(Int32 WindowType, Boolean WebPlatformSuspendDownloadPending, Boolean WebPlatformCleanupPending, Boolean WerReportDuringSuspend, Int32 suspendSubdownloadsCount, Int32 NewTimeout, Int32 CurrentTimeout, Int32 PID, Int32 TID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "WindowType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformSuspendDownloadPending"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformCleanupPending"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WerReportDuringSuspend"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "suspendSubdownloadsCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NewTimeout"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentTimeout"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "511",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation511(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "512",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation512(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "513",
+        "version": "0",
+        "event(fields)": "SuspendingAppHostInformation513(Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "514",
+        "version": "0",
+        "event(fields)": "Activation.ModuleInitializationAppHostInformation(UnicodeString PackageFullName, HexInt64 OSVersion, HexInt64 WebPlatformVersion, HexInt32 ScriptProjectionVersion)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Activation.ModuleInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "OSVersion"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "WebPlatformVersion"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ScriptProjectionVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "515",
+        "version": "0",
+        "event(fields)": "Infrastructure.LifecycleAppHostInformation515(UInt64 MainWebInstanceInitializeTime, UInt64 AppSuspendHandlerInvoked, UInt64 AppSuspendHandlerCompleted, Boolean WebPlatformSuspendDownloadPending, Int32 WebPlatformSuspendDownloadCount, UInt64 WebPlatformSuspendDownloadWaitStart, Boolean WebPlatformCleanupPending, UInt64 WebPlatformCleanupStart, Int32 CurrentSuspendingTimeout, Int32 NewSuspendingTimeout, Int32 PID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Infrastructure.Lifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MainWebInstanceInitializeTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppSuspendHandlerInvoked"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppSuspendHandlerCompleted"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformSuspendDownloadPending"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WebPlatformSuspendDownloadCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WebPlatformSuspendDownloadWaitStart"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformCleanupPending"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WebPlatformCleanupStart"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentSuspendingTimeout"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NewSuspendingTimeout"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "516",
+        "version": "0",
+        "event(fields)": "SuspendingInternalPlmTimeoutExprationAppHostInformation(Int32 WindowType, Boolean WebPlatformSuspendDownloadPending, Boolean WebPlatformCleanupPending, Int32 suspendSubdownloadsCount, Int32 PID, Int32 TID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "SuspendingInternalPlmTimeoutExpration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "WindowType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformSuspendDownloadPending"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformCleanupPending"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "suspendSubdownloadsCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "517",
+        "version": "0",
+        "event(fields)": "SuspendingSubDownloadsAppHostInformation(Int32 WindowType, Boolean WebPlatformSuspendDownloadPending, Boolean WebPlatformCleanupPending, Int32 PID, Int32 TID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "SuspendingSubDownloads",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "WindowType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformSuspendDownloadPending"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformCleanupPending"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "518",
+        "version": "0",
+        "event(fields)": "SuspendingGarbageCollectionAppHostInformation(Int32 WindowType, Boolean WebPlatformSuspendDownloadPending, Boolean WebPlatformCleanupPending, Int32 PID, Int32 TID, UnicodeString PackageFullName, UnicodeString AppUserModelId)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "SuspendingGarbageCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "WindowType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformSuspendDownloadPending"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WebPlatformCleanupPending"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "Navigation.NavigationDomain.DecisionStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Navigation.NavigationDomain.Decision",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "Navigation.NavigationDomain.DecisionStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Navigation.NavigationDomain.Decision",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "MswwaProtocol.PackageToFileUriStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "MswwaProtocol.PackageToFileUri",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "MswwaProtocol.PackageToFileUriStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "MswwaProtocol.PackageToFileUri",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "Activation.ModuleInitializationStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Activation.ModuleInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "Activation.ModuleInitializationStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Activation.ModuleInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.SetupStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.SetupStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "NavigationStart(UInt64 ObjectWWA, UInt32 Counter, UnicodeString PackageFullName, UnicodeString AppID, HexInt32 NavigationInfo)",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Navigation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ObjectWWA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Counter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NavigationInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "NavigationStop(UInt64 ObjectWWA, UInt32 Counter, UnicodeString PackageFullName, UnicodeString AppID, HexInt32 NavigationInfo)",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Navigation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ObjectWWA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Counter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NavigationInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Telemetry.WERReporting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "Telemetry.WERReportingStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Telemetry.WERReporting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.UptimeStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.Uptime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.UptimeStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.Uptime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "ApplicationActivateEventStart(UnicodeString PackageFullName, UnicodeString AppID, UnicodeString ContractID, UInt32 IsReactivation)",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "ApplicationActivateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContractID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsReactivation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "ApplicationActivateEventStop(UnicodeString PackageFullName, UnicodeString AppID, UnicodeString ContractID, UInt32 IsReactivation)",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "ApplicationActivateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContractID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsReactivation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "ApplicationTerminationStart(UnicodeString PackageFullName, UnicodeString AppID)",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "ApplicationTermination",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "ApplicationTerminationStop(UnicodeString PackageFullName, UnicodeString AppID)",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "ApplicationTermination",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "SuspendingStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "SuspendingStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Suspending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "ResumingStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Resuming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "ResumingStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Resuming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.SetupStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1028",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.SetupStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1029",
+        "version": "0",
+        "event(fields)": "InputPanelShowStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "InputPanelShow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1030",
+        "version": "0",
+        "event(fields)": "InputPanelShowStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "InputPanelShow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1031",
+        "version": "0",
+        "event(fields)": "InputPanelHideStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "InputPanelHide",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1032",
+        "version": "0",
+        "event(fields)": "InputPanelHideStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "InputPanelHide",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1033",
+        "version": "0",
+        "event(fields)": "SuspendingSubDownloadsStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "SuspendingSubDownloads",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1034",
+        "version": "0",
+        "event(fields)": "SuspendingSubDownloadsStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "SuspendingSubDownloads",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1035",
+        "version": "0",
+        "event(fields)": "TerminateAppStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "TerminateApp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1036",
+        "version": "0",
+        "event(fields)": "TerminateAppStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "TerminateApp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1037",
+        "version": "0",
+        "event(fields)": "MswwaProtocol.AppDataToFileUriStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "MswwaProtocol.AppDataToFileUri",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1038",
+        "version": "0",
+        "event(fields)": "MswwaProtocol.AppDataToFileUriStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "MswwaProtocol.AppDataToFileUri",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1039",
+        "version": "0",
+        "event(fields)": "EvaluatePackageStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "EvaluatePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1040",
+        "version": "0",
+        "event(fields)": "EvaluatePackageStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "EvaluatePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1041",
+        "version": "0",
+        "event(fields)": "ResizeStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Resize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1042",
+        "version": "0",
+        "event(fields)": "ResizeStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Resize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1043",
+        "version": "0",
+        "event(fields)": "ViewStateStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "ViewState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1044",
+        "version": "0",
+        "event(fields)": "ViewStateStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "ViewState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1045",
+        "version": "0",
+        "event(fields)": "InputPanelResizeViewportStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "InputPanelResizeViewport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1046",
+        "version": "0",
+        "event(fields)": "InputPanelResizeViewportStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "InputPanelResizeViewport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1047",
+        "version": "0",
+        "event(fields)": "SuspendingGarbageCollectionStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "SuspendingGarbageCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1048",
+        "version": "0",
+        "event(fields)": "SuspendingGarbageCollectionStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "SuspendingGarbageCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1049",
+        "version": "0",
+        "event(fields)": "ThreadMrtInitializationStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "ThreadMrtInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1050",
+        "version": "0",
+        "event(fields)": "ThreadMrtInitializationStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "ThreadMrtInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1051",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.HostModulesInitializationStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.HostModulesInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1052",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.HostModulesInitializationStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.HostModulesInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1053",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.HostRunStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.HostRun",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1054",
+        "version": "0",
+        "event(fields)": "Infrastructure.Host.HostRunStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.Host.HostRun",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1055",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.InitializeStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1056",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.InitializeStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1057",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.DispatchStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Dispatch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1058",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.DispatchStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Dispatch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1059",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.RunStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Run",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1060",
+        "version": "0",
+        "event(fields)": "Infrastructure.WebInstance.RunStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Infrastructure.WebInstance.Run",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1061",
+        "version": "0",
+        "event(fields)": "WinRTAsyncCallStart(Int32 Priority, Pointer Id)",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "WinRTAsyncCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1062",
+        "version": "0",
+        "event(fields)": "WinRTAsyncCallStop(Int32 Priority, Pointer Id)",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "WinRTAsyncCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1063",
+        "version": "0",
+        "event(fields)": "MemoryStatsOnSuspend(HexInt32 JSHeapSizeMB, HexInt32 TotalWorkingSetMBandPrivateCommitMB, UInt32 PackageAgeS, UnicodeString AppID, UnicodeString PackageFullName)",
+        "opcode": "",
+        "keywords": "WwaHost",
+        "task": "MemoryStatsOnSuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "JSHeapSizeMB"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TotalWorkingSetMBandPrivateCommitMB"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PackageAgeS"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1064",
+        "version": "0",
+        "event(fields)": "LayoutChangedStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "LayoutChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1065",
+        "version": "0",
+        "event(fields)": "LayoutChangedStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "LayoutChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1066",
+        "version": "0",
+        "event(fields)": "ApplicationActivateEvent(UInt32 ToggleCount, UInt32 ToggleDetail, UnicodeString PackageFullName, UnicodeString AppID)",
+        "opcode": "",
+        "keywords": "WwaHost",
+        "task": "ApplicationActivateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ToggleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ToggleDetail"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1067",
+        "version": "0",
+        "event(fields)": "ByteCodeSourceMapping(UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "WwaHost",
+        "task": "ByteCodeSourceMapping",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1068",
+        "version": "0",
+        "event(fields)": "ByteCodeSourceMapping1068(UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "WwaHost",
+        "task": "ByteCodeSourceMapping",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1069",
+        "version": "0",
+        "event(fields)": "LeavingBackgroundStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "LeavingBackground",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1070",
+        "version": "0",
+        "event(fields)": "LeavingBackgroundStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "LeavingBackground",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1071",
+        "version": "0",
+        "event(fields)": "EnteredBackgroundStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "EnteredBackground",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1072",
+        "version": "0",
+        "event(fields)": "EnteredBackgroundStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "EnteredBackground",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1073",
+        "version": "0",
+        "event(fields)": "BackgroundActivatedStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "BackgroundActivated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "1074",
+        "version": "0",
+        "event(fields)": "BackgroundActivatedStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "BackgroundActivated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10000",
+        "version": "0",
+        "event(fields)": "ApplicationTracing.ErrorAppHostApplicationError(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString Source, UnicodeString DocumentFile, Int32 Line, Int32 Column, Int32 MessageId, UnicodeString Message)",
+        "opcode": "AppHostApplicationError",
+        "keywords": "WWAHOST_APPLICATION_KEYWORD",
+        "task": "ApplicationTracing.Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MessageId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10001",
+        "version": "0",
+        "event(fields)": "ApplicationTracing.WarningAppHostApplicationWarning(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString Source, UnicodeString DocumentFile, Int32 Line, Int32 Column, Int32 MessageId, UnicodeString Message)",
+        "opcode": "AppHostApplicationWarning",
+        "keywords": "WWAHOST_APPLICATION_KEYWORD",
+        "task": "ApplicationTracing.Warning",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MessageId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10002",
+        "version": "0",
+        "event(fields)": "ApplicationTracing.InformationalAppHostApplicationInformation(UnicodeString DisplayName, UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName, Int32 ProcessId, UnicodeString Source, UnicodeString DocumentFile, Int32 Line, Int32 Column, Int32 MessageId, UnicodeString Message)",
+        "opcode": "AppHostApplicationInformation",
+        "keywords": "WWAHOST_APPLICATION_KEYWORD",
+        "task": "ApplicationTracing.Informational",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DisplayName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModelId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentFile"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MessageId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10003",
+        "version": "0",
+        "event(fields)": "ApplicationTracing.InformationalAppHostApplicationInformation10003(Int32 DeferralCount)",
+        "opcode": "AppHostApplicationInformation",
+        "keywords": "WWAHOST_DIAGNOSTIC_KEYWORD",
+        "task": "ApplicationTracing.Informational",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "DeferralCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10004",
+        "version": "0",
+        "event(fields)": "ApplicationTracing.InformationalAppHostApplicationInformation10004(Int32 DeferralCount)",
+        "opcode": "AppHostApplicationInformation",
+        "keywords": "WWAHOST_DIAGNOSTIC_KEYWORD",
+        "task": "ApplicationTracing.Informational",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "DeferralCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10005",
+        "version": "0",
+        "event(fields)": "Activation.CompleteActivationStart()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Activation.CompleteActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10006",
+        "version": "0",
+        "event(fields)": "Activation.CompleteActivationStop()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Activation.CompleteActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10007",
+        "version": "0",
+        "event(fields)": "DrawingAppHostInformation(UnicodeString Value)",
+        "opcode": "AppHostInformation",
+        "keywords": "WWAHOST_KEYWORD",
+        "task": "Drawing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10009",
+        "version": "0",
+        "event(fields)": "NavigationStart10009()",
+        "opcode": "Start",
+        "keywords": "WwaHost",
+        "task": "Navigation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppHost",
+        "event_id": "10010",
+        "version": "0",
+        "event(fields)": "NavigationStop10010()",
+        "opcode": "Stop",
+        "keywords": "WwaHost",
+        "task": "Navigation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

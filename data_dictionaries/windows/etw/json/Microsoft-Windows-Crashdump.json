@@ -1,0 +1,46 @@
+[
+    {
+        "provider": "Microsoft-Windows-Crashdump",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "ResumecapablesettingsOpCodeResumeCapable_V1(Boolean ResumeCapable, UInt32 ReasonCodes)",
+        "opcode": "OpCodeResumeCapable",
+        "keywords": "Config",
+        "task": "Resumecapablesettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "ResumeCapable"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCodes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crashdump",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "RransfersizesettingsOpCodeTransferSizes_V1(UInt32 Minimum, UInt32 Maximum)",
+        "opcode": "OpCodeTransferSizes",
+        "keywords": "Config",
+        "task": "Rransfersizesettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Minimum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Maximum"
+            }
+        ]
+    }
+]

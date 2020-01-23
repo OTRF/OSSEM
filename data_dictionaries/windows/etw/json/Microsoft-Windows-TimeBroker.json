@@ -1,0 +1,102 @@
+[
+    {
+        "provider": "Microsoft-Windows-TimeBroker",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "task_0_V1(GUID BrokeredEventId, UInt32 OldState, UInt32 NewState)",
+        "opcode": "",
+        "keywords": "EventState",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TimeBroker",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "task_02_V1(GUID BrokeredEventId, FILETIME StartTime, FILETIME EndTime)",
+        "opcode": "",
+        "keywords": "EventState",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "EndTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TimeBroker",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_03_V1(GUID BrokeredEventId, UInt32 EventType, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Api",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TimeBroker",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "task_04_V1(GUID BrokeredEventId, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Api",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

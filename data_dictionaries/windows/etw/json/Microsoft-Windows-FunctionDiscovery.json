@@ -1,0 +1,1278 @@
+[
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "FunDisc_GetInstanceCollectionStart(UnicodeString Category, UnicodeString Subcategory, Boolean IncludeSubcategories)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_GetInstanceCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IncludeSubcategories"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "FunDisc_GetInstanceCollectionStop(UnicodeString Category, UnicodeString Subcategory, Boolean IncludeSubcategories)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_GetInstanceCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IncludeSubcategories"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "FunDisc_GetInstanceStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_GetInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "FunDisc_GetInstanceStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_GetInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "FunDisc_CreateInstanceCollectionQueryStart(UnicodeString Category, UnicodeString Subcategory, Boolean IncludeSubcategories)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_CreateInstanceCollectionQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IncludeSubcategories"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "FunDisc_CreateInstanceCollectionQueryStop(UnicodeString Category, UnicodeString Subcategory, Boolean IncludeSubcategories)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_CreateInstanceCollectionQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IncludeSubcategories"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "FunDisc_CreateInstanceQueryStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_CreateInstanceQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "FunDisc_CreateInstanceQueryStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_CreateInstanceQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "FunDisc_AddInstanceStart(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_AddInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "FunDisc_AddInstanceStop(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_AddInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "FunDisc_RemoveInstanceStart(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_RemoveInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "FunDisc_RemoveInstanceStop(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_RemoveInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryExecuteStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryExecuteStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryAdviseStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryAdvise",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryAdviseStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryAdvise",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryUnadviseStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryUnadvise",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryUnadviseStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryUnadvise",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryStartStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryStopStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryQueryServiceStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryQueryService",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceCollectionQueryQueryServiceStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceCollectionQueryQueryService",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceQueryExecuteStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceQueryExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "FunDisc_FunctionInstanceQueryExecuteStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_FunctionInstanceQueryExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInitializeStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInitializeStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1028",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderQueryStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1029",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderQueryStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1030",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderEndQueryStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderEndQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1031",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderEndQueryStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderEndQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1032",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstancePropertyStoreValidateAccessStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstancePropertyStoreValidateAccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1033",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstancePropertyStoreValidateAccessStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstancePropertyStoreValidateAccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1034",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstancePropertyStoreOpenStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstancePropertyStoreOpen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1035",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstancePropertyStoreOpenStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstancePropertyStoreOpen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1036",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstancePropertyStoreFlushStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstancePropertyStoreFlush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1037",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstancePropertyStoreFlushStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstancePropertyStoreFlush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1038",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstanceQueryServiceStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstanceQueryService",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1039",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstanceQueryServiceStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstanceQueryService",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1040",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstanceReleasedStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstanceReleased",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1041",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderInstanceReleasedStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderInstanceReleased",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1042",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPublishingCreateInstanceStart(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderPublishingCreateInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1043",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPublishingCreateInstanceStop(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderPublishingCreateInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1044",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPublishingRemoveInstanceStart(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderPublishingRemoveInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1045",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPublishingRemoveInstanceStop(UnicodeString Category, UnicodeString Subcategory, UnicodeString ProviderInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderPublishingRemoveInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProviderInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1046",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderQueryServiceStart(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderQueryService",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1047",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderQueryServiceStop(UnicodeString Category, UnicodeString Subcategory)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderQueryService",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1048",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPropertiesGetCountStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderPropertiesGetCount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1049",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPropertiesGetCountStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderPropertiesGetCount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1050",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPropertiesGetAtStart(UnicodeString FunctionInstanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_ProviderPropertiesGetAt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1051",
+        "version": "0",
+        "event(fields)": "FunDisc_ProviderPropertiesGetAtStop(UnicodeString FunctionInstanceID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_ProviderPropertiesGetAt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1052",
+        "version": "0",
+        "event(fields)": "FunDisc_PropertiesGetValueStart(UnicodeString FunctionInstanceID, GUID fmtid, HexInt32 pid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_PropertiesGetValue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fmtid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "pid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1053",
+        "version": "0",
+        "event(fields)": "FunDisc_PropertiesGetValueStop(UnicodeString FunctionInstanceID, GUID fmtid, HexInt32 pid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_PropertiesGetValue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fmtid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "pid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1054",
+        "version": "0",
+        "event(fields)": "FunDisc_PropertiesSetValueStart(UnicodeString FunctionInstanceID, GUID fmtid, HexInt32 pid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_PropertiesSetValue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fmtid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "pid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1055",
+        "version": "0",
+        "event(fields)": "FunDisc_PropertiesSetValueStop(UnicodeString FunctionInstanceID, GUID fmtid, HexInt32 pid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_PropertiesSetValue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionInstanceID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fmtid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "pid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1056",
+        "version": "0",
+        "event(fields)": "FunDisc_AsyncQueryStart(UnicodeString Category, UnicodeString Subcategory, UInt64 querycookie)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunDisc_AsyncQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "querycookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FunctionDiscovery",
+        "event_id": "1057",
+        "version": "0",
+        "event(fields)": "FunDisc_AsyncQueryStop(UnicodeString Category, UnicodeString Subcategory, UInt64 querycookie)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunDisc_AsyncQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subcategory"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "querycookie"
+            }
+        ]
+    }
+]

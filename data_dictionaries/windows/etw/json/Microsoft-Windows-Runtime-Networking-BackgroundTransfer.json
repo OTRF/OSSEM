@@ -1,0 +1,864 @@
+[
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperationStart(GUID OperationId, UInt32 TransferType, UnicodeString Method, UnicodeString URI, UInt32 CostPolicy, UnicodeString Group, GUID CompletionGroupId)",
+        "opcode": "Start",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransferType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CostPolicy"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation(GUID OperationId, UInt32 TransferType, UnicodeString Method, UnicodeString URI, UInt32 CostPolicy, UnicodeString Group, GUID CompletionGroupId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransferType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CostPolicy"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperationStop(GUID OperationId, UInt32 TransferType, HexInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransferType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation4(GUID OperationId, UInt32 LocationId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer(UInt32 LocationId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation6(GUID OperationId, UInt32 LocationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer7(UInt32 LocationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation8(GUID WorkItemId, GUID OperationId, UInt32 LocationId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation9(GUID WorkItemId, GUID OperationId, UInt32 LocationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer10(UInt32 ProcessId, UInt32 PowerPolicyValue, UInt32 PromptLogicValue)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerPolicyValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PromptLogicValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer11(UInt32 ProcessId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer12(UInt32 ProcessId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation13(GUID OperationId, UInt32 CostPolicy)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CostPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation14(GUID OperationId, UInt32 Priority)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer15(Boolean IsInternetAvailable, UInt32 CostType, Boolean IsRoaming, Boolean IsOverDataLimit, UInt32 DataLimitMegabytes, UInt32 UsedMegabytes)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsInternetAvailable"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CostType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsRoaming"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsOverDataLimit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataLimitMegabytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UsedMegabytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation16(GUID OperationId, Boolean IsResume)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsResume"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer17(UnicodeString GroupName, UInt32 LocationId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer18(UnicodeString GroupName, UInt32 Behavior)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Behavior"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer19(GUID NotificationId, UInt32 LocationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "NotificationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer20(GUID NotificationId, UInt32 LocationId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "NotificationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation21(GUID OperationId, GUID NotificationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "NotificationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer22(GUID NotificationId, UInt32 LocationId, UInt32 NotificationType, Boolean NotificationInformationAvailable)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "NotificationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NotificationType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NotificationInformationAvailable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation23(GUID OperationId, UInt32 ElapsedTimeInSeconds, UInt64 TotalBytesRemaining, UInt64 TransferSpeedInBytesPerSeconds, UInt64 EtaInSeconds)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ElapsedTimeInSeconds"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytesRemaining"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransferSpeedInBytesPerSeconds"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EtaInSeconds"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer24(GUID CompletionGroupId, UInt32 LocationId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer25(GUID CompletionGroupId, UInt32 LocationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer26(GUID CompletionGroupId, GUID TriggerId, HexInt32 Error, UInt32 ActivationStatus)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer27(GUID CompletionGroupId, GUID TriggerId, HexInt32 Error, UInt32 ActivationStatus)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer28(GUID CompletionGroupId, GUID TriggerId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer30(GUID CompletionGroupId, GUID TriggerId, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation31(GUID OldOperationId, GUID NewOperationId)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OldOperationId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "NewOperationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "BackgroundTransfer32(GUID CompletionGroupId, UInt32 RunningOperationsCount, UInt32 CopiedOperationsCount)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CompletionGroupId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunningOperationsCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CopiedOperationsCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation33(GUID OperationId, UInt32 LocationId, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking-BackgroundTransfer",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "BackgroundTransferOperation34(GUID WorkItemId, GUID OperationId, UInt32 Progress)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "BackgroundTransferOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WorkItemId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Progress"
+            }
+        ]
+    }
+]

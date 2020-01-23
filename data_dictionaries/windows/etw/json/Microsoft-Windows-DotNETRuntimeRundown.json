@@ -1,0 +1,1724 @@
+[
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "ClrStackWalk(UInt16 ClrInstanceID, UInt8 Reserved1, UInt8 Reserved2, UInt32 FrameCount, Pointer Stack)",
+        "opcode": "Walk",
+        "keywords": "StackKeyword",
+        "task": "ClrStack",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Reserved2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Stack"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "MethodDCStart(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags)",
+        "opcode": "DCStart",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "141",
+        "version": "1",
+        "event(fields)": "MethodDCStart_V1(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UInt16 ClrInstanceID)",
+        "opcode": "DCStart",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "141",
+        "version": "2",
+        "event(fields)": "MethodDCStart_V2(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UInt16 ClrInstanceID, UInt64 ReJITID)",
+        "opcode": "DCStart",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReJITID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "MethodDCStop(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags)",
+        "opcode": "DCStop",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "142",
+        "version": "1",
+        "event(fields)": "MethodDCStop_V1(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UInt16 ClrInstanceID)",
+        "opcode": "DCStop",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "142",
+        "version": "2",
+        "event(fields)": "MethodDCStop_V2(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UInt16 ClrInstanceID, UInt64 ReJITID)",
+        "opcode": "DCStop",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReJITID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "MethodDCStartVerbose(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString MethodSignature)",
+        "opcode": "DCStartVerbose",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodNamespace"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodSignature"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "143",
+        "version": "1",
+        "event(fields)": "MethodDCStartVerbose_V1(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString MethodSignature, UInt16 ClrInstanceID)",
+        "opcode": "DCStartVerbose",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodNamespace"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodSignature"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "143",
+        "version": "2",
+        "event(fields)": "MethodDCStartVerbose_V2(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString MethodSignature, UInt16 ClrInstanceID, UInt64 ReJITID)",
+        "opcode": "DCStartVerbose",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodNamespace"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodSignature"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReJITID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "MethodDCStopVerbose(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString MethodSignature)",
+        "opcode": "DCStopVerbose",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodNamespace"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodSignature"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "144",
+        "version": "1",
+        "event(fields)": "MethodDCStopVerbose_V1(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString MethodSignature, UInt16 ClrInstanceID)",
+        "opcode": "DCStopVerbose",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodNamespace"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodSignature"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "144",
+        "version": "2",
+        "event(fields)": "MethodDCStopVerbose_V2(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress, UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString MethodSignature, UInt16 ClrInstanceID, UInt64 ReJITID)",
+        "opcode": "DCStopVerbose",
+        "keywords": "JitRundownKeyword NGenRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodNamespace"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodSignature"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReJITID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "MethodDCStartComplete()",
+        "opcode": "DCStartComplete",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "145",
+        "version": "1",
+        "event(fields)": "MethodDCStartComplete_V1(UInt16 ClrInstanceID)",
+        "opcode": "DCStartComplete",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "MethodDCStopComplete()",
+        "opcode": "DCStopComplete",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "146",
+        "version": "1",
+        "event(fields)": "MethodDCStopComplete_V1(UInt16 ClrInstanceID)",
+        "opcode": "DCStopComplete",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "MethodDCStartInit()",
+        "opcode": "DCStartInit",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "147",
+        "version": "1",
+        "event(fields)": "MethodDCStartInit_V1(UInt16 ClrInstanceID)",
+        "opcode": "DCStartInit",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "MethodDCStopInit()",
+        "opcode": "DCStopInit",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "148",
+        "version": "1",
+        "event(fields)": "MethodDCStopInit_V1(UInt16 ClrInstanceID)",
+        "opcode": "DCStopInit",
+        "keywords": "LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "MethodMethodDCStartILToNativeMap(UInt64 MethodID, UInt64 ReJITID, UInt8 MethodExtent, UInt16 CountOfMapEntries, UInt32 ILOffsets, UInt32 NativeOffsets, UInt16 ClrInstanceID)",
+        "opcode": "MethodDCStartILToNativeMap",
+        "keywords": "JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReJITID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MethodExtent"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CountOfMapEntries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ILOffsets"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NativeOffsets"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "MethodMethodDCEndILToNativeMap(UInt64 MethodID, UInt64 ReJITID, UInt8 MethodExtent, UInt16 CountOfMapEntries, UInt32 ILOffsets, UInt32 NativeOffsets, UInt16 ClrInstanceID)",
+        "opcode": "MethodDCEndILToNativeMap",
+        "keywords": "JittedMethodILToNativeMapRundownKeyword",
+        "task": "Method",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReJITID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MethodExtent"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CountOfMapEntries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ILOffsets"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NativeOffsets"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "LoaderDomainModuleDCStart(UInt64 ModuleID, UInt64 AssemblyID, UInt64 AppDomainID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath)",
+        "opcode": "DomainModuleDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "151",
+        "version": "1",
+        "event(fields)": "LoaderDomainModuleDCStart_V1(UInt64 ModuleID, UInt64 AssemblyID, UInt64 AppDomainID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16 ClrInstanceID)",
+        "opcode": "DomainModuleDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "LoaderDomainModuleDCStop(UInt64 ModuleID, UInt64 AssemblyID, UInt64 AppDomainID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath)",
+        "opcode": "DomainModuleDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "152",
+        "version": "1",
+        "event(fields)": "LoaderDomainModuleDCStop_V1(UInt64 ModuleID, UInt64 AssemblyID, UInt64 AppDomainID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16 ClrInstanceID)",
+        "opcode": "DomainModuleDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "LoaderModuleDCStart(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath)",
+        "opcode": "ModuleDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "153",
+        "version": "1",
+        "event(fields)": "LoaderModuleDCStart_V1(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16 ClrInstanceID)",
+        "opcode": "ModuleDCStart",
+        "keywords": "LoaderRundownKeyword PerfTrackRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "153",
+        "version": "2",
+        "event(fields)": "LoaderModuleDCStart_V2(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16 ClrInstanceID, GUID ManagedPdbSignature, UInt32 ManagedPdbAge, UnicodeString ManagedPdbBuildPath, GUID NativePdbSignature, UInt32 NativePdbAge, UnicodeString NativePdbBuildPath)",
+        "opcode": "ModuleDCStart",
+        "keywords": "LoaderRundownKeyword PerfTrackRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ManagedPdbSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManagedPdbAge"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ManagedPdbBuildPath"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "NativePdbSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NativePdbAge"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NativePdbBuildPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "LoaderModuleDCStop(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath)",
+        "opcode": "ModuleDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "154",
+        "version": "1",
+        "event(fields)": "LoaderModuleDCStop_V1(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16 ClrInstanceID)",
+        "opcode": "ModuleDCStop",
+        "keywords": "LoaderRundownKeyword PerfTrackRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "154",
+        "version": "2",
+        "event(fields)": "LoaderModuleDCStop_V2(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags, UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16 ClrInstanceID, GUID ManagedPdbSignature, UInt32 ManagedPdbAge, UnicodeString ManagedPdbBuildPath, GUID NativePdbSignature, UInt32 NativePdbAge, UnicodeString NativePdbBuildPath)",
+        "opcode": "ModuleDCStop",
+        "keywords": "LoaderRundownKeyword PerfTrackRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reserved1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleILPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleNativePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ManagedPdbSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManagedPdbAge"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ManagedPdbBuildPath"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "NativePdbSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NativePdbAge"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NativePdbBuildPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "LoaderAssemblyDCStart(UInt64 AssemblyID, UInt64 AppDomainID, UInt32 AssemblyFlags, UnicodeString FullyQualifiedAssemblyName)",
+        "opcode": "AssemblyDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AssemblyFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullyQualifiedAssemblyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "155",
+        "version": "1",
+        "event(fields)": "LoaderAssemblyDCStart_V1(UInt64 AssemblyID, UInt64 AppDomainID, UInt64 BindingID, UInt32 AssemblyFlags, UnicodeString FullyQualifiedAssemblyName, UInt16 ClrInstanceID)",
+        "opcode": "AssemblyDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BindingID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AssemblyFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullyQualifiedAssemblyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "LoaderAssemblyDCStop(UInt64 AssemblyID, UInt64 AppDomainID, UInt32 AssemblyFlags, UnicodeString FullyQualifiedAssemblyName)",
+        "opcode": "AssemblyDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AssemblyFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullyQualifiedAssemblyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "156",
+        "version": "1",
+        "event(fields)": "LoaderAssemblyDCStop_V1(UInt64 AssemblyID, UInt64 AppDomainID, UInt64 BindingID, UInt32 AssemblyFlags, UnicodeString FullyQualifiedAssemblyName, UInt16 ClrInstanceID)",
+        "opcode": "AssemblyDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AssemblyID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BindingID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AssemblyFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullyQualifiedAssemblyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "LoaderAppDomainDCStart(UInt64 AppDomainID, UInt32 AppDomainFlags, UnicodeString AppDomainName)",
+        "opcode": "AppDomainDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppDomainFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppDomainName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "157",
+        "version": "1",
+        "event(fields)": "LoaderAppDomainDCStart_V1(UInt64 AppDomainID, UInt32 AppDomainFlags, UnicodeString AppDomainName, UInt32 AppDomainIndex, UInt16 ClrInstanceID)",
+        "opcode": "AppDomainDCStart",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppDomainFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppDomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppDomainIndex"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "LoaderAppDomainDCStop(UInt64 AppDomainID, UInt32 AppDomainFlags, UnicodeString AppDomainName)",
+        "opcode": "AppDomainDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppDomainFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppDomainName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "158",
+        "version": "1",
+        "event(fields)": "LoaderAppDomainDCStop_V1(UInt64 AppDomainID, UInt32 AppDomainFlags, UnicodeString AppDomainName, UInt32 AppDomainIndex, UInt16 ClrInstanceID)",
+        "opcode": "AppDomainDCStop",
+        "keywords": "LoaderRundownKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppDomainFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppDomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppDomainIndex"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "LoaderThreadDCStop(UInt64 ManagedThreadID, UInt64 AppDomainID, UInt32 Flags, UInt32 ManagedThreadIndex, UInt32 OSThreadID, UInt16 ClrInstanceID)",
+        "opcode": "ThreadDCStop",
+        "keywords": "AppDomainResourceManagementRundownKeyword ThreadingKeyword",
+        "task": "Loader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ManagedThreadID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AppDomainID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManagedThreadIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OSThreadID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "ClrPerfTrackModuleRangeDCStart(UInt16 ClrInstanceID, UInt64 ModuleID, UInt32 RangeBegin, UInt32 RangeSize, UInt8 RangeType)",
+        "opcode": "ModuleRangeDCStart",
+        "keywords": "PerfTrackRundownKeyword",
+        "task": "ClrPerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RangeBegin"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RangeSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RangeType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "ClrPerfTrackModuleRangeDCEnd(UInt16 ClrInstanceID, UInt64 ModuleID, UInt32 RangeBegin, UInt32 RangeSize, UInt8 RangeType)",
+        "opcode": "ModuleRangeDCEnd",
+        "keywords": "PerfTrackRundownKeyword",
+        "task": "ClrPerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RangeBegin"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RangeSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "RangeType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DotNETRuntimeRundown",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "RuntimeStart(UInt16 ClrInstanceID, UInt16 Sku, UInt16 BclMajorVersion, UInt16 BclMinorVersion, UInt16 BclBuildNumber, UInt16 BclQfeNumber, UInt16 VMMajorVersion, UInt16 VMMinorVersion, UInt16 VMBuildNumber, UInt16 VMQfeNumber, UInt32 StartupFlags, UInt8 StartupMode, UnicodeString CommandLine, GUID ComObjectGuid, UnicodeString RuntimeDllPath)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Runtime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ClrInstanceID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Sku"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BclMajorVersion"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BclMinorVersion"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BclBuildNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "BclQfeNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VMMajorVersion"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VMMinorVersion"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VMBuildNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VMQfeNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartupFlags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StartupMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ComObjectGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RuntimeDllPath"
+            }
+        ]
+    }
+]

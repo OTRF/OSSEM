@@ -1,0 +1,100 @@
+[
+    {
+        "provider": "Microsoft-Windows-RPC-Proxy-LBS",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "ArbitrationStart_V1(UnicodeString UserName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Arbitration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC-Proxy-LBS",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "task_0Stop_V1(UnicodeString ServerName, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC-Proxy-LBS",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_0Stop3_V1(UnicodeString UserName, UnicodeString ServerList)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC-Proxy-LBS",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "task_0Start_V1(UnicodeString ServerName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC-Proxy-LBS",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "task_0Stop5_V1(UnicodeString ServerName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerName"
+            }
+        ]
+    }
+]

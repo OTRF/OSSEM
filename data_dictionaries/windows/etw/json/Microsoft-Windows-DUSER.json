@@ -1,0 +1,1744 @@
+[
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "DUser_PaintStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_Paint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "DUser_PaintStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_Paint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DUser_SyncAdaptorsStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_SyncAdaptors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DUser_SyncAdaptorsStop(Int32 cAdaptors)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_SyncAdaptors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "cAdaptors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DUser_ResetInvalidStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_ResetInvalid",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "DUser_ResetInvalidStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_ResetInvalid",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "DUser_EndDrawBitBltStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_EndDrawBitBlt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "DUser_EndDrawBitBltStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_EndDrawBitBlt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "DUser_InputStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_Input",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "DUser_InputStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_Input",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "DUser_InputStart11()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_Input",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "DUser_LayeredCreateVisualsStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayeredCreateVisuals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "DUser_LayeredRemoveVisualsStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot, Int32 nWidth, Int32 nHeight, Boolean fIsCopy)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayeredRemoveVisuals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fIsCopy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "DUser_LayeredDestructVisualsStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayeredDestructVisuals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "DUser_DestroyPendingDCVisualsStart(Int32 nNumberOfPendingDeletions)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_DestroyPendingDCVisuals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nNumberOfPendingDeletions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "DUser_DestroyPendingDCVisualsStop(Int32 nNumberOfPendingDeletions)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_DestroyPendingDCVisuals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nNumberOfPendingDeletions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "DUser_ForceDestroyDCVisualStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_ForceDestroyDCVisual",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "DUser_RemoveAndDestroyDCVisualStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_RemoveAndDestroyDCVisual",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "DUser_DrawLayeredGadgetStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot, Int32 nWidth, Int32 nHeight, Boolean fIsCopy)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_DrawLayeredGadget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fIsCopy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "DUser_DrawLayeredGadgetStart20(UInt32 hGadget, Pointer pVisual, Boolean fRoot, Int32 nWidth, Int32 nHeight, Boolean fIsCopy)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_DrawLayeredGadget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fIsCopy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "DUser_LayeredGetBitmapStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot, Int32 nWidth, Int32 nHeight, Boolean fIsCopy)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayeredGetBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fIsCopy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "DUser_LayeredSetContentStart(UInt32 hGadget, Pointer pVisual, Boolean fRoot, Int32 nWidth, Int32 nHeight, Boolean fIsCopy)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayeredSetContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRoot"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fIsCopy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "DUser_LayerGadgetStart(UInt32 hGadget)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayerGadget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "DUser_LayerGadgetStop(UInt32 hGadget, Boolean fNewLayered, Int32 nVisualsCount)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_LayerGadget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fNewLayered"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nVisualsCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "DUser_LayerGadgetLoopStart(UInt32 cTrans, UInt32 dwTicket)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_LayerGadgetLoop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "DUser_LayerGadgetLoopStop(UInt32 cTrans, UInt32 dwTicket)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_LayerGadgetLoop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "DUser_CreateCompatibleBitmapStart(UInt32 hGadget, Pointer pVisual, Int32 nWidth, Int32 nHeight)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_CreateCompatibleBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "DUser_CreateCompatibleBitmapStop(UInt32 hGadget, Pointer pVisual, Int32 nWidth, Int32 nHeight)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_CreateCompatibleBitmap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "DUser_InitPropertiesStart(UInt32 hGadget, Pointer pVisual, Pointer pDCompVisual)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_InitProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "DUser_InitPropertiesStop(UInt32 hGadget, Pointer pVisual, Pointer pDCompVisual)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_InitProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "DUser_AddChildVisualStart(UInt32 hGadget, Pointer pVisual, Pointer pDCompVisual)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_AddChildVisual",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "DUser_AddChildVisualStop(UInt32 hGadget, Pointer pChildVisual, Boolean fDescendantVisualOfNewVisual, Pointer pDCompVisual)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_AddChildVisual",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pChildVisual"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fDescendantVisualOfNewVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "DUser_MoveChildrenToParent(UInt32 hGadget, Pointer pVisual, Pointer m_pParent)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_MoveChildrenToParent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_pParent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "DUser_MoveChildrenToParentStart(UInt32 hGadget, Pointer pVisual, Pointer pDCompVisual)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_MoveChildrenToParent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "DUser_MoveChildrenToParentStop(UInt32 hGadget, Pointer pVisual, Pointer pDCompVisual)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_MoveChildrenToParent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "DUser_Reparent(UInt32 hGadget, Pointer pVisual, Pointer pDCompVisual)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_Reparent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "DUser_ReparentStart(UInt32 hGadget, Pointer pVisual, Pointer pNewChild)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_Reparent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewChild"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "DUser_ReparentStop(UInt32 hGadget, Pointer pVisual, Pointer pNewChild)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_Reparent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pNewChild"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "DUser_AddWAMTransitionsStart(UInt32 cTrans, UInt32 dwTicket)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_AddWAMTransitions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "DUser_AddWAMTransitionsStop(UInt32 cTrans, UInt32 dwTicket)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_AddWAMTransitions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "DUser_CreateCubicBezierLinearVectorTransition(UInt32 hGadget, Pointer pVisual, Int32 nAnimType)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_CreateCubicBezierLinearVectorTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nAnimType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "DUser_ScheduleWAMStoryboardStart(UInt32 cTrans, Pointer psbUIA, UInt32 dwTicket)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_ScheduleWAMStoryboard",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "psbUIA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "DUser_ScheduleWAMStoryboardStop(UInt32 cTrans, Pointer psbUIA, UInt32 dwTicket)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_ScheduleWAMStoryboard",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "psbUIA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "DUser_GetCurve(UInt32 hGadget, Pointer pVisual, Int32 nVar)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_GetCurve",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nVar"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "DUser_DCompCommitStart(Int32 nSize)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_DCompCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "DUser_DCompCommitStop(Int32 nSize)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_DCompCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "DUser_DCompCommit(Int32 nSize)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_DCompCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "DUser_DrawDirtyLayers(UInt32 hGadget, Pointer m_pVisual, Int32 nVisuals)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_DrawDirtyLayers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_pVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nVisuals"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "DUser_CommitFromWMPaint(UInt32 hGadget, Pointer m_pVisual, Int32 nVisuals)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_CommitFromWMPaint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_pVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nVisuals"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "DUser_ScheduleTransitionsStart(UInt32 dwTicket)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_ScheduleTransitions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "DUser_ScheduleTransitionsStop(UInt32 dwTicket)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_ScheduleTransitions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "DUser_WAMDelayStart(UInt32 cTrans, Pointer psbUIA, UInt32 dwTicket)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_WAMDelay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "psbUIA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "DUser_WAMDelayStop(Int32 nVisuals)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_WAMDelay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nVisuals"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "DUser_Input(UInt32 PointerID)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_Input",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "DUser_TransitionComplete(UInt32 hGadget, UInt32 nCode, Boolean fCopy, Boolean fRemainLayered)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_TransitionComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nCode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fCopy"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fRemainLayered"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "DUser_IntervalAcquireRegionStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_IntervalAcquireRegion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "DUser_IntervalAcquireRegionStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_IntervalAcquireRegion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "DUser_IntervalReleaseRegionStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_IntervalReleaseRegion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "DUser_IntervalReleaseRegionStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_IntervalReleaseRegion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "DUser_CreateSurface(Pointer surfaceId, Int32 surfaceX, Int32 surfaceY, Int32 surfaceWidth, Int32 surfaceHeight, Pointer containerId, Int32 containerWidth, Int32 containerHeight, Pointer pRegionSurface, Pointer pSurface)",
+        "opcode": "",
+        "keywords": "DUserSurface",
+        "task": "DUser_CreateSurface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "surfaceId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceX"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceY"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceHeight"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "containerId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "containerWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "containerHeight"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pRegionSurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "DUser_DestroySurface(Pointer pRegionSurface, Pointer pSurface)",
+        "opcode": "",
+        "keywords": "DUserSurface",
+        "task": "DUser_DestroySurface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pRegionSurface"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "DUser_ProcessPendingStoryboards(Float flProcessingDelay, Int32 nNumberOfStoryboards, Int32 nNumberOfVisuals)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_ProcessPendingStoryboards",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "flProcessingDelay"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nNumberOfStoryboards"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nNumberOfVisuals"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "DUser_TransitionScheduled(UInt32 cTrans, UInt32 uTransIndex, UInt32 dwTicket, UInt32 hGadget, UInt32 nProperty, Pointer pTransitionVisual, Pointer pDCompVisual)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_TransitionScheduled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "cTrans"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "uTransIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwTicket"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nProperty"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pTransitionVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "DUser_InitializeDCompTransforms(Int32 nHResult, UInt32 hGadget, Boolean fIsCopy, Pointer pTransitionVisual, Pointer pDCompVisual, Pointer pEffectGroup)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_InitializeDCompTransforms",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "nHResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fIsCopy"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pTransitionVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pEffectGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "DUser_ModifyDCompTransform(Pointer pTransitionVisual, Pointer pDCompVisual, Int32 nTransformType, Pointer pTransform, Boolean fAnimation)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_ModifyDCompTransform",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pTransitionVisual"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDCompVisual"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nTransformType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pTransform"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fAnimation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "DUser_RunDUIPVLAnimationStart(Pointer pStoryboard, Int32 nAnimationId, Int32 nStoryboardId, Int32 nCode, Float flProcessingDelay)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "DUser_RunDUIPVLAnimation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pStoryboard"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nAnimationId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nStoryboardId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nCode"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "flProcessingDelay"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "DUser_RunDUIPVLAnimationStop(Pointer pStoryboard, Int32 nAnimationId, Int32 nStoryboardId, Int32 nCode, Float flProcessingDelay)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "DUser_RunDUIPVLAnimation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pStoryboard"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nAnimationId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nStoryboardId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nCode"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "flProcessingDelay"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "DUser_AllocateStagingBuffer(Pointer surfaceId, Int32 surfaceX, Int32 surfaceY)",
+        "opcode": "",
+        "keywords": "DUserSurface",
+        "task": "DUser_AllocateStagingBuffer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "surfaceId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceX"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceY"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "DUser_ReleaseStagingBuffer(Pointer surfaceId)",
+        "opcode": "",
+        "keywords": "DUserSurface",
+        "task": "DUser_ReleaseStagingBuffer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "surfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "DUser_LeafNodeOpacity_PossibleLayerPush(Pointer hGadget, Int32 nWidth, Int32 nHeight, Pointer hAncestorGadget, Int32 nAncestorWidth, Int32 nAncestorHeight)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_LeafNodeOpacity_PossibleLayerPush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "hGadget"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nHeight"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hAncestorGadget"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nAncestorWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "nAncestorHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "DUser_StagingBufferCopy(Pointer surfaceId, Int32 surfaceX, Int32 surfaceY, Int32 surfaceWidth, Int32 surfaceHeight)",
+        "opcode": "",
+        "keywords": "DUserSurface",
+        "task": "DUser_StagingBufferCopy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "surfaceId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceX"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceY"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "surfaceHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DUSER",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "DUser_Input85(UInt32 PointerHitTestID)",
+        "opcode": "",
+        "keywords": "Default",
+        "task": "DUser_Input",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerHitTestID"
+            }
+        ]
+    }
+]

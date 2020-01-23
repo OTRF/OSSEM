@@ -1,0 +1,46 @@
+[
+    {
+        "provider": "Microsoft-Windows-EDP-AppLearning",
+        "event_id": "401",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString ApplicationName, UInt32 Action, UInt32 IdType)",
+        "opcode": "",
+        "keywords": "EDP_Audit_Keyword_AppLearning",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApplicationName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IdType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-EDP-AppLearning",
+        "event_id": "402",
+        "version": "0",
+        "event(fields)": "task_0402(UnicodeString WebSite)",
+        "opcode": "",
+        "keywords": "EDP_Audit_Keyword_SitesLearning",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "WebSite"
+            }
+        ]
+    }
+]

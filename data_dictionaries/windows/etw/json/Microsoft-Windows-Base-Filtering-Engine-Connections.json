@@ -1,0 +1,130 @@
+[
+    {
+        "provider": "Microsoft-Windows-Base-Filtering-Engine-Connections",
+        "event_id": "2000",
+        "version": "0",
+        "event(fields)": "task_0(UInt64 ConnectionId, UInt32 MachineAuthenticationMethod, UnicodeString RemoteMachineAccount, UInt32 UserAuthenticationMethod, UnicodeString RemoteUserAcount, UnicodeString RemoteIPAddress, UnicodeString LocalIPAddress, GUID TechnologyProviderKey, UInt32 IPsecTrafficMode, UInt32 DHGroup, SYSTEMTIME StartTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MachineAuthenticationMethod"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteMachineAccount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserAuthenticationMethod"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteUserAcount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteIPAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalIPAddress"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TechnologyProviderKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IPsecTrafficMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DHGroup"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "StartTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Base-Filtering-Engine-Connections",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "task_02001(UInt64 ConnectionId, UInt32 MachineAuthenticationMethod, UnicodeString RemoteMachineAccount, UInt32 UserAuthenticationMethod, UnicodeString RemoteUserAcount, UnicodeString RemoteIPAddress, UnicodeString LocalIPAddress, GUID TechnologyProviderKey, UInt32 IPsecTrafficMode, UInt64 BytesTransferredInbound, UInt64 BytesTransferredOutbound, UInt64 BytesTransferredTotal, SYSTEMTIME StartTime, SYSTEMTIME CloseTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MachineAuthenticationMethod"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteMachineAccount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserAuthenticationMethod"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteUserAcount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteIPAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalIPAddress"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TechnologyProviderKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IPsecTrafficMode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesTransferredInbound"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesTransferredOutbound"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesTransferredTotal"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "CloseTime"
+            }
+        ]
+    }
+]

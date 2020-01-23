@@ -1,0 +1,549 @@
+[
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "Interrupt(HexInt64 SDHostPhysicalAddress, HexInt32 EventMask)",
+        "opcode": "",
+        "keywords": "Interrupt",
+        "task": "Interrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "EventMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "CallbackRoutineStart(HexInt64 SDHostPhysicalAddress)",
+        "opcode": "Start",
+        "keywords": "Sdio",
+        "task": "CallbackRoutine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "CallbackRoutineStop(HexInt64 SDHostPhysicalAddress)",
+        "opcode": "Stop",
+        "keywords": "Sdio",
+        "task": "CallbackRoutine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "Retune(HexInt64 SDHostPhysicalAddress, UInt64 RetuneCount)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "Retune",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RetuneCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "Error(HexInt64 SDHostPhysicalAddress, HexInt32 ErrorCode, UInt32 ErrorCount)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "Error",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "HPIIO(HexInt64 SDHostPhysicalAddress, UInt64 HpiIoCount)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "HPIIO",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HpiIoCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "P_StateRequest(HexInt64 PoFxDeviceHandle, UInt32 PStateRequested, UInt64 PStateRequestCount)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "P_StateRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "PoFxDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateRequested"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PStateRequestCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "P_StateCompletion(HexInt64 PoFxDeviceHandle, UInt32 PStateCompleted, UInt64 PStateCompletionCount)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "P_StateCompletion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "PoFxDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateCompleted"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PStateCompletionCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "CommandIssued(HexInt64 SDHostPhysicalAddress, UInt8 Command, HexInt64 Argument, UInt64 Size)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "CommandIssued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Argument"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "CommandCompleted(HexInt64 SDHostPhysicalAddress, UInt8 Command, HexInt64 Argument, UInt64 Size)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "CommandCompleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Argument"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "HPICMDIssued(HexInt64 Irp)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "HPICMDIssued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "Irp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "HPICMDIssued111(HexInt64 Irp)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "HPICMDIssued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "Irp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "HPIWorkerProcess(HexInt64 Irp)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "HPIWorkerProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "Irp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "HPIWorkerProcess113(HexInt64 Irp, UInt32 HpiExitReason)",
+        "opcode": "",
+        "keywords": "Emmc",
+        "task": "HPIWorkerProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HpiExitReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "P_StateUtilization(HexInt64 PoFxDeviceHandle, UInt32 PStateActivePercent, UInt32 PStateActiveDuration, UInt32 PStateSampleDuration, UInt32 PStateCurrentFrequency, UInt32 PStateRequestedFrequency)",
+        "opcode": "",
+        "keywords": "Perf",
+        "task": "P_StateUtilization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "PoFxDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateActivePercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateActiveDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateSampleDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateCurrentFrequency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PStateRequestedFrequency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "SdbusWorkerDpc(HexInt64 SDHostPhysicalAddress, Pointer Irp, UInt32 WorkPacketWorkerProcFunction, HexInt32 WorkEngineCurrentState, HexInt32 WorkEngineFunctionPhase)",
+        "opcode": "",
+        "keywords": "Dpc",
+        "task": "SdbusWorkerDpc",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkPacketWorkerProcFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineCurrentState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineFunctionPhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "SdbusWorkerDpc116(HexInt64 SDHostPhysicalAddress, Pointer Irp, UInt32 WorkPacketWorkerProcFunction, HexInt32 WorkEngineCurrentState, HexInt32 WorkEngineFunctionPhase)",
+        "opcode": "",
+        "keywords": "Dpc",
+        "task": "SdbusWorkerDpc",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkPacketWorkerProcFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineCurrentState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineFunctionPhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "SdbusRequest(HexInt64 SDHostPhysicalAddress, Pointer Irp, HexInt32 WorkEngineCommand, HexInt32 WorkEngineArgument, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "SdbusRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineCommand"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineArgument"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "SdbusRequest118(HexInt64 SDHostPhysicalAddress, Pointer Irp, HexInt32 WorkEngineCommand, HexInt32 WorkEngineArgument, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "SdbusRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineCommand"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WorkEngineArgument"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "CallbackRoutineStart119(HexInt64 SDHostPhysicalAddress)",
+        "opcode": "Start",
+        "keywords": "Sdio",
+        "task": "CallbackRoutine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "SDHostPhysicalAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "InterruptStart()",
+        "opcode": "Start",
+        "keywords": "Sdio",
+        "task": "Interrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "InterruptStart121()",
+        "opcode": "Start",
+        "keywords": "Sdio",
+        "task": "Interrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sdbus",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "InterruptStart122()",
+        "opcode": "Start",
+        "keywords": "Sdio",
+        "task": "Interrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

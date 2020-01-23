@@ -1,0 +1,331 @@
+[
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "UsnJournalScanStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UsnJournalScan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "UsnJournalScanStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UsnJournalScan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "BackupOneFileStart(UnicodeString SourcePath, UnicodeString DestPath, Int64 Size)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "BackupOneFile",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourcePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestPath"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "BackupOneFileStop(UnicodeString SourcePath, UnicodeString DestPath, Int64 Size)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "BackupOneFile",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourcePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestPath"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "BackupAllFilesStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "BackupAllFiles",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "BackupAllFilesStop(Int64 TotalSize, UInt64 TotalFiles)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "BackupAllFiles",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "TotalSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalFiles"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "CatalogFlushStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CatalogFlush",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "CatalogFlushStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CatalogFlush",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "BackupSizeQuotaChange(UInt64 OldQuota, UInt64 NewQuota)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BackupSizeQuotaChange",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "OldQuota"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewQuota"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "UsnEventProcessingStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UsnEventProcessing",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "UsnEventProcessingStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UsnEventProcessing",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ScanAndBackupStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ScanAndBackup",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ScanAndBackupStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ScanAndBackup",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString Path)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "task_0101(UnicodeString Path)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "task_0102(UnicodeString Path, UInt32 Hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "task_0103(UnicodeString Path, UInt32 Hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "task_0104(UnicodeString Path)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Engine",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "task_0105(UnicodeString Path)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    }
+]

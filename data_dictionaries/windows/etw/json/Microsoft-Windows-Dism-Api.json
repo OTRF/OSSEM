@@ -1,0 +1,1554 @@
+[
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "DismInitializeStart()",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "DismInitializeStop()",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DismShutdownStart()",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DismShutdownStop()",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DismOpenSessionStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismOpenSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "DismOpenSessionStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismOpenSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "DismCloseSessionStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismCloseSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "DismCloseSessionStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismCloseSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "DismMountImageStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismMountImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "DismMountImageStop(UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismMountImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "DismUnmountImageStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismUnmountImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "DismUnmountImageStop(UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismUnmountImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "EnqueueCommandObjectStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiCommandThreadEvent DismApiCommandQueueEvent DismApiSessionTableEvent",
+        "task": "EnqueueCommandObject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "EnqueueCommandObjectStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiCommandThreadEvent DismApiCommandQueueEvent DismApiSessionTableEvent",
+        "task": "EnqueueCommandObject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "DequeueCommandObjectStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiCommandThreadEvent DismApiCommandQueueEvent DismApiSessionTableEvent",
+        "task": "DequeueCommandObject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "DequeueCommandObjectStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiCommandThreadEvent DismApiCommandQueueEvent DismApiSessionTableEvent",
+        "task": "DequeueCommandObject",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "DismSetFirstBootCommandLineStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismSetFirstBootCommandLine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "DismSetFirstBootCommandLineStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismSetFirstBootCommandLine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "DismRemountImageStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismRemountImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "DismRemountImageStop(UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismRemountImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "DismCommitImageStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismCommitImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "DismCommitImageStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismCommitImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "DismGetImageInfoStart(UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetImageInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "DismGetImageInfoStop(UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetImageInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "DismGetMountedImageInfoStart()",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetMountedImageInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "DismGetMountedImageInfoStop()",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetMountedImageInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "DismCleanupMountpointsStart()",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismCleanupMountpoints",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "DismCleanupMountpointsStop()",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismCleanupMountpoints",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "DismAddPackageStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismAddPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "DismAddPackageStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismAddPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "DismRemovePackageStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismRemovePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "DismRemovePackageStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismRemovePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "DismEnableFeatureStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismEnableFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "DismEnableFeatureStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismEnableFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "DismDisableFeatureStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismDisableFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "DismDisableFeatureStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismDisableFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "DismGetPackagesStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetPackages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "DismGetPackagesStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetPackages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "DismGetPackageInfoStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetPackageInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "DismGetPackageInfoStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetPackageInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "DismGetFeaturesStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeatures",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "DismGetFeaturesStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeatures",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "DismGetFeatureInfoStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeatureInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "DismGetFeatureInfoStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeatureInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "DismGetFeatureParentStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeatureParent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "DismGetFeatureParentStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeatureParent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "DismApplyUnattendStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismApplyUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "DismApplyUnattendStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismApplyUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "DismAddDriverStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismAddDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "DismAddDriverStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismAddDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "DismRemoveDriverStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismRemoveDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "DismRemoveDriverStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismRemoveDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "DismGetDriversStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetDrivers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "DismGetDriversStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetDrivers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "DismGetDriverInfoStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetDriverInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "DismGetDriverInfoStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetDriverInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "DismCheckImageHealthStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismCheckImageHealth",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "DismCheckImageHealthStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismCheckImageHealth",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "DismRestoreImageHealthStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismRestoreImageHealth",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "DismRestoreImageHealthStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismRestoreImageHealth",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "DismSetEditionStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismSetEdition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "DismSetEditionStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismSetEdition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "DismSetProductKeyStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismSetProductKey",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "DismSetProductKeyStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismSetProductKey",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "DismGetCurrentEditionStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetCurrentEdition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "DismGetCurrentEditionStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetCurrentEdition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "DismGetTargetEditionsStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetTargetEditions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "DismGetTargetEditionsStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetTargetEditions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "DismGetFeaturesExStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeaturesEx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "DismGetFeaturesExStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetFeaturesEx",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "DismAddProvisionedAppxPackageStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismAddProvisionedAppxPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "DismAddProvisionedAppxPackageStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismAddProvisionedAppxPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "DismRemoveProvisionedAppxPackageStart(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismRemoveProvisionedAppxPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "DismRemoveProvisionedAppxPackageStop(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismRemoveProvisionedAppxPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "DismGetProvisionedAppxPackagesStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismGetProvisionedAppxPackages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "DismGetProvisionedAppxPackagesStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismGetProvisionedAppxPackages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "DismExportDriverStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismExportDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "DismExportDriverStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismExportDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "DismOptimizeImageStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismOptimizeImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "DismOptimizeImageStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismOptimizeImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "DismRemoveProvisionedAppxPackageStart87(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "DismApiEvent",
+        "task": "DismRemoveProvisionedAppxPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dism-Api",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "DismRemoveProvisionedAppxPackageStop88(UInt32 SessionId, UnicodeString String)",
+        "opcode": "Stop",
+        "keywords": "DismApiEvent",
+        "task": "DismRemoveProvisionedAppxPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    }
+]

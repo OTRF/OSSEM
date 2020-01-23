@@ -1,0 +1,3597 @@
+[
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ActivatorRegistration(Pointer Client, UInt32 PdcId, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "activators CsDiag",
+        "task": "ActivatorRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ActivatorDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "activators",
+        "task": "ActivatorDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "NotificationRegistration(Pointer Client, UInt32 PdcId, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "notifications",
+        "task": "NotificationRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "NotificationDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "notifications",
+        "task": "NotificationDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "ResiliencyClientRegistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "clients",
+        "task": "ResiliencyClientRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "ResiliencyClientDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "clients",
+        "task": "ResiliencyClientDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "ActivatorMessage(Pointer Message, UInt32 StatusActive, UInt32 ActivityType)",
+        "opcode": "",
+        "keywords": "activators",
+        "task": "ActivatorMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusActive"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivityType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ActivatorAcknowledgement(UInt32 Status, UInt32 State)",
+        "opcode": "",
+        "keywords": "activators",
+        "task": "ActivatorAcknowledgement",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ActivatorClientAcknowledgement(Pointer Client, UInt32 State)",
+        "opcode": "",
+        "keywords": "activators",
+        "task": "ActivatorClientAcknowledgement",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "NotificationStarted(UInt32 Type, Pointer ClientContext, UInt32 PdcSequence, UInt32 Value, UInt32 WaitTime)",
+        "opcode": "",
+        "keywords": "notifications CsDiag",
+        "task": "NotificationStarted",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ClientContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WaitTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ControlNotification(UInt32 Type, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "notifications",
+        "task": "ControlNotification",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "InvalidNotification(Pointer Client, UInt32 AssumedPdcSequence, UInt32 ReceivedPdcSequence)",
+        "opcode": "",
+        "keywords": "PdcErrors notifications",
+        "task": "InvalidNotification",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AssumedPdcSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReceivedPdcSequence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "NotificationReceived(Pointer Client, UInt32 PdcSequence)",
+        "opcode": "",
+        "keywords": "notifications CsDiag",
+        "task": "NotificationReceived",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcSequence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "NotificationAllClientResponded(UInt32 Status)",
+        "opcode": "",
+        "keywords": "notifications",
+        "task": "NotificationAllClientResponded",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "NotificationCallback(UInt32 Status)",
+        "opcode": "",
+        "keywords": "notifications",
+        "task": "NotificationCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "NotificationMessage(Pointer Client, Pointer Message, UInt32 Control, UInt32 Status, UInt32 PdcSequence)",
+        "opcode": "",
+        "keywords": "notifications CsDiag",
+        "task": "NotificationMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Control"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcSequence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "ActivatorReceive(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "activators",
+        "task": "ActivatorReceive",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "ActivatorSend(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "activators",
+        "task": "ActivatorSend",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "ResiliencyClient(Pointer Client, Pointer Port, UInt32 ResiliencyType, UInt64 References, UInt32 TransactionId, UInt32 CurrentState, UInt32 NextState)",
+        "opcode": "",
+        "keywords": "clients",
+        "task": "ResiliencyClient",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Port"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResiliencyType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "References"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NextState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "ResiliencyMessage(Pointer Message, UInt32 TransactionId, UInt32 ClientState, UInt32 ClientStatus)",
+        "opcode": "",
+        "keywords": "clients",
+        "task": "ResiliencyMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "ResiliencyReceive(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "clients",
+        "task": "ResiliencyReceive",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "ResiliencySend(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "clients",
+        "task": "ResiliencySend",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "ResiliencyReference(Pointer ActivatorToken, Pointer Client, UInt32 ReferenceDereference)",
+        "opcode": "",
+        "keywords": "clients CsDiag",
+        "task": "ResiliencyReference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivatorToken"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceDereference"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "ResiliencyDereference(Pointer ActivatorToken, Pointer Client, UInt32 ReferenceDereference)",
+        "opcode": "",
+        "keywords": "clients CsDiag",
+        "task": "ResiliencyDereference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivatorToken"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceDereference"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "CsEnterPhase(UInt32 Phase, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "CsEnterPhase",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "CsExitPhase(UInt32 Phase, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "CsExitPhase",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "CsDisplayState(UInt32 On)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsDisplayState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "On"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "CsMonitorRequestEnter(UInt32 On, UInt32 Console)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsMonitorRequestEnter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "On"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Console"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "CsMonitorRequestExit(UInt32 At, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsMonitorRequestExit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "At"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "CsMonitorContext(UInt32 ConnectedSessionCount, UInt32 ConsoleSessionId, UInt32 SessionId, UInt32 OnRequestCurrent, UInt32 OnRequestProcessed, UInt32 OffRequestCurrent, UInt32 OffRequestProcessed)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsMonitorContext",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectedSessionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConsoleSessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OnRequestCurrent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OnRequestProcessed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OffRequestCurrent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OffRequestProcessed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "30",
+        "version": "1",
+        "event(fields)": "CsMonitorContext_V1(UInt32 ConnectedSessionCount, UInt32 ConsoleSessionId, UInt32 SessionId, UInt32 OnRequestCurrent, UInt32 OnRequestProcessed, UInt32 OffRequestCurrent, UInt32 OffRequestProcessed, Boolean BlockingActive, UInt32 BlockingScenarioCount, UInt32 BlockingEscapeCount, UInt32 BlockingPowerPressCount)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsMonitorContext",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectedSessionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConsoleSessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OnRequestCurrent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OnRequestProcessed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OffRequestCurrent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OffRequestProcessed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BlockingActive"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockingScenarioCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockingEscapeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockingPowerPressCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "CsMonitorHandler(UInt32 At)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "CsMonitorHandler",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "At"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "CsMonitorControl()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsMonitorControl",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "CsPowerButtonHandler()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsPowerButtonHandler",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "CsPowerButtonConsumed()",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "CsPowerButtonConsumed",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "CsDisplayNotification()",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "CsDisplayNotification",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "CsEnterExit(UInt32 At)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsEnterExit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "At"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "CsEnableInput()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsEnableInput",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "CsDisableInput()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsDisableInput",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "CsSuspendResumeHandler(UInt32 Suspend)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsSuspendResumeHandler",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Suspend"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "CsSessionConnect(UInt32 SessionId, UInt32 Console, UInt32 Connected)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsSessionConnect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Console"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Connected"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "CsConnectionEvent()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsConnectionEvent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "PdcInit(UInt32 AoAc, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "PdcInit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AoAc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "SuspendResumeRegistration(Pointer Process, UInt32 Session, Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Process"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Session"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "SuspendResumeDeregistration(Pointer Process, UInt32 Session, Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Process"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Session"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "SuspendResumeReceive(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeReceive",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "SuspendResumeSend(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeSend",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "SuspendResumeMessage(Pointer Message, UInt32 TransactionId, UInt32 PowerEvent)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransactionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerEvent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "SuspendAppsEnter()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendAppsEnter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "SuspendAppsExit()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendAppsExit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "SuspendSvcsEnter()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendSvcsEnter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "SuspendSvcsExit()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendSvcsExit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ResumeAppsEnter()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "ResumeAppsEnter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "ResumeAppsExit()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "ResumeAppsExit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "ResumeSvcsEnter()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "ResumeSvcsEnter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "ResumeSvcsExit()",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "ResumeSvcsExit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "SuspendResumeCallback(UInt32 Status)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "SuspendResumeStarted(UInt32 Type, UInt32 Session, UInt32 Iteration, Pointer ClientContext, UInt32 PdcSequence, UInt32 Value, UInt32 WaitTime)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendResumeStarted",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Session"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Iteration"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ClientContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WaitTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "NotificationReceived58(Pointer Client, UInt32 PdcSequence)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "NotificationReceived",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcSequence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "InvalidNotification59(Pointer Client, UInt32 AssumedPdcSequence, UInt32 ReceivedPdcSequence)",
+        "opcode": "",
+        "keywords": "PdcErrors suspendresume",
+        "task": "InvalidNotification",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AssumedPdcSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReceivedPdcSequence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "SuspendeResumeAllClientsResponded(UInt32 Status)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "SuspendeResumeAllClientsResponded",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "CsSuspendResumeEvent(UInt32 Session, UInt32 Suspend, UInt32 AppsSvcs, UInt32 User)",
+        "opcode": "",
+        "keywords": "suspendresume",
+        "task": "CsSuspendResumeEvent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Session"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Suspend"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppsSvcs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "EnterConnectedStandbyStart()",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "EnterConnectedStandbyStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "EnterConnectedStandbyEnd(UInt32 DisableInputToPLMEntry, UInt32 DisableInputToDAMEntry, UInt32 DisableInputToLowPowerEpochEntry, UInt32 PhaseTimesConnection, UInt32 PhaseTimesPresence, UInt32 PhaseTimesPlmAndResiliencyNotification, UInt32 PhaseTimesMaintenance, UInt32 PhaseTimesDamAndLowPower)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "EnterConnectedStandbyEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DisableInputToPLMEntry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DisableInputToDAMEntry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DisableInputToLowPowerEpochEntry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesConnection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesPresence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesPlmAndResiliencyNotification"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesMaintenance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesDamAndLowPower"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "ExitFromConnectedStandbyStart(UInt32 ExitReason)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "ExitFromConnectedStandbyStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "64",
+        "version": "1",
+        "event(fields)": "ExitFromConnectedStandbyStart_V1()",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "ExitFromConnectedStandbyStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "ExitFromConnectedStandbyEnd(UInt32 ResiliencyExitToLowPowerEpochEntry, UInt32 ResiliencyExitToDAMEntry, UInt32 ResiliencyExitToPLMEntry, UInt32 PhaseTimesResiliencyAndResiliencyNotification, UInt32 PhaseTimesLowPowerAndDam, UInt32 PhaseTimesPlmAndPresence, UInt32 PhaseTimesConnectionAndMaintenanceAndScreenOn, UInt32 CsDuration)",
+        "opcode": "",
+        "keywords": "Cs CsDiag sleepstudy",
+        "task": "ExitFromConnectedStandbyEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResiliencyExitToLowPowerEpochEntry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResiliencyExitToDAMEntry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResiliencyExitToPLMEntry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesResiliencyAndResiliencyNotification"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesLowPowerAndDam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesPlmAndPresence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhaseTimesConnectionAndMaintenanceAndScreenOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CsDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "AbortConnectedStandbyStart()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "AbortConnectedStandbyStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "AbortConnectedStandbyEnd()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "AbortConnectedStandbyEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "PdcStateChange(UInt32 NewState, UInt32 OldState)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "PdcStateChange",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "PdcScreenOffRequest(UInt32 Status)",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "PdcScreenOffRequest",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "PdcScreenOffDisabled()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "PdcScreenOffDisabled",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "ActivatorRegistrationRundown(Pointer Client, UInt32 PdcId, UInt32 ResiliencyClientCount, UInt16 ResiliencyContext, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "activators CsDiag",
+        "task": "ActivatorRegistrationRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResiliencyClientCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ResiliencyContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "NotificationRegistrationRundown(Pointer Client, UInt32 PdcId, UInt32 Type, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "notifications CsDiag",
+        "task": "NotificationRegistrationRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "ResiliencyClientRegistrationRundown(Pointer Client, UInt64 ClientReferences, UInt32 CurrentState, UInt32 Type)",
+        "opcode": "",
+        "keywords": "clients CsDiag",
+        "task": "ResiliencyClientRegistrationRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ClientReferences"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "CsFilterInput()",
+        "opcode": "",
+        "keywords": "Cs",
+        "task": "CsFilterInput",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "TaskRegistration(Pointer Client, UInt32 PdcId, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "TaskDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "TaskMessage(Pointer Message, UInt32 StatusActive)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusActive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "TaskReceive(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskReceive",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "TaskSend(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskSend",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "TaskRundown(Pointer Client, UInt32 PdcId, UInt32 ReferenceCount, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "TaskReference(Pointer TaskClient, UInt32 At, UInt32 ReferenceDereference)",
+        "opcode": "",
+        "keywords": "tasks CsDiag",
+        "task": "TaskReference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "TaskClient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "At"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceDereference"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "TaskDereference(Pointer TaskClient, UInt32 At, UInt32 ReferenceDereference)",
+        "opcode": "",
+        "keywords": "tasks",
+        "task": "TaskDereference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "TaskClient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "At"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceDereference"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "DisplayOffStart(UInt32 EnterReason)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "DisplayOffStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EnterReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "DisplayOffEnd()",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "DisplayOffEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "DisplayOffAbort(UInt32 AbortReason)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "DisplayOffAbort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AbortReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "EnterConnectedStandbyAbort()",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "EnterConnectedStandbyAbort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "ActivationStatistics(UInt32 TimeActivated, UInt32 ConnectedStandbyTimeAndActivationCount, UInt32 ClientIdAndFlags, UInt32 MaxActivationDuration)",
+        "opcode": "",
+        "keywords": "Cs CsDiag sleepstudy",
+        "task": "ActivationStatistics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeActivated"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectedStandbyTimeAndActivationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientIdAndFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxActivationDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "SpmClientRegistration(Pointer Client, UInt32 PdcId, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "SpmClientDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "SpmClientMessage(Pointer PdcMessage, Pointer Client, UInt32 PdcId, UInt32 OperationStatus, Boolean Active, UInt32 ReferenceCount)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PdcMessage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Active"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "SpmClientReceive(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientReceive",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "SpmClientSend(Pointer Client, UInt32 SendReceive)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientSend",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendReceive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "SpmClientRundown(Pointer Client, UInt32 PdcId, Boolean Active, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Active"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "SpmScenarioStateChange(Pointer Scenario, UInt8 PreviousState, UInt8 NextState)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmScenarioStateChange",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousState"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NextState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "SpmScenarioDependencyRundown(Pointer Scenario, UInt8 Type, UInt32 ClientIdCount, UInt8 ClientIdList)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmScenarioDependencyRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientIdCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientIdList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "SpmClientInformationRundown(UInt32 ClientId, Boolean TestClient, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientInformationRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TestClient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "SpmScenarioRundown(Pointer Scenario, GUID Guid, UInt32 Flags, UInt8 State, UInt32 ScenarioNameLength, UnicodeString ScenarioName)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmScenarioRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Guid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "97",
+        "version": "1",
+        "event(fields)": "SpmScenarioRundown_V1(Pointer Scenario, GUID Guid, UInt32 Flags, UInt8 State, UInt32 ScenarioNameLength, UnicodeString ScenarioName, GUID ProfileGuid)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmScenarioRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Guid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ProfileGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "SpmScenarioAccountingRundown(Pointer Scenario, UInt64 DripsTimeInUs, UInt64 DripsTranstions, UInt64 PlatformIdleTimeInUs, UInt64 PlatformIdleTranstions, UInt32 StateCount, Int32 States)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmScenarioAccountingRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DripsTimeInUs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DripsTranstions"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlatformIdleTimeInUs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlatformIdleTranstions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "States"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "SpmClientControlStateChange(UInt32 PdcId, UInt8 PreviousState, UInt8 NextState)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientControlStateChange",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousState"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NextState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "SpmClientControlStateRundown(UInt32 PdcId, UInt32 ReferenceCount, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmClientControlStateRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "PhaseAccounting(UInt32 DataCount, AnsiString Data)",
+        "opcode": "",
+        "keywords": "sleepstudy",
+        "task": "PhaseAccounting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "ClientVerboseRundown(UInt32 ClientId, UInt32 ClientFlags, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "sleepstudy",
+        "task": "ClientVerboseRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ActivatorActiveTooLong(UInt32 TimeContinuouslyActive, UInt32 ClientIdAndActivityTypeAndOnAc, UInt32 UserClientProcess)",
+        "opcode": "",
+        "keywords": "activators Cs CsDiag",
+        "task": "ActivatorActiveTooLong",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeContinuouslyActive"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientIdAndActivityTypeAndOnAc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserClientProcess"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "SpmScenarioAccountingSnapshot(Pointer Scenario, UInt64 DripsTimeInUs, UInt64 DripsTranstions, UInt64 PlatformIdleTimeInUs, UInt64 PlatformIdleTranstions, UInt32 StateCount, Int32 States)",
+        "opcode": "",
+        "keywords": "sleepstudy",
+        "task": "SpmScenarioAccountingSnapshot",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DripsTimeInUs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DripsTranstions"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlatformIdleTimeInUs"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlatformIdleTranstions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "States"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "SpmScenarioActivityRundown(Pointer Scenario, UInt64 ActiveCount, UInt64 MaxActiveTime, UInt64 MinActiveTime, UInt64 TotalActiveTime)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "SpmScenarioActivityRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActiveCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxActiveTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MinActiveTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalActiveTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "PpmProfileClientRegistration(Pointer Client, UInt32 PdcId, GUID ProfileGuid, UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "PpmProfileClientRegistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ProfileGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "PpmProfileClientDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "PpmProfileClientDeregistration",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "PpmProfileClientReference(Pointer Client, Boolean Acquire)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "PpmProfileClientReference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Acquire"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "PpmProfileClientDereference(Pointer Client, Boolean Acquire)",
+        "opcode": "",
+        "keywords": "SPM",
+        "task": "PpmProfileClientDereference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Acquire"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientRegister(UInt32 ClientId, UInt32 Status, UInt32 PdcVersion, UInt32 ModuleNameLength, UnicodeString ModuleName)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientRegister",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientActivate(UInt32 ClientId, UInt32 TaskNameLength, UnicodeString TaskName, UInt32 SubTaskLength, UnicodeString SubTaskName, UInt32 ActivationCount, UInt32 ActivationsUpCounter, UInt32 ExpectedMaximumDuration, UInt32 Status, Pointer ActivationHandle, UInt32 PdcVersion, UInt32 ModuleNameLength, UnicodeString ModuleName)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientActivate",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubTaskLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubTaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationsUpCounter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedMaximumDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivationHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientRenewActivation(UInt32 ClientId, UInt32 TaskNameLength, UnicodeString TaskName, UInt32 SubTaskLength, UnicodeString SubTaskName, UInt32 ExpectedMaximumDuration, UInt32 ActivationCount, UInt32 ActivationsUpCounter, UInt64 ActivationDuration, UInt32 RenewalUpCounter, UInt32 ErrorDetail, UInt32 Status, Pointer ActivationHandle, UInt32 ModuleNameLength, UnicodeString ModuleName, UInt32 BrokeredForPID)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientRenewActivation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubTaskLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubTaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedMaximumDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationsUpCounter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivationDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RenewalUpCounter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorDetail"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivationHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BrokeredForPID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientDeactivate(UInt32 ClientId, UInt32 TaskNameLength, UnicodeString TaskName, UInt32 SubTaskLength, UnicodeString SubTaskName, UInt32 ActivationCount, UInt32 ActivationsUpCounter, UInt64 ActivationDuration, UInt32 Status, Pointer ActivationHandle, UInt32 PdcVersion, UInt32 ModuleNameLength, UnicodeString ModuleName, UInt32 BrokeredForPID)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientDeactivate",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubTaskLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubTaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationsUpCounter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivationDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivationHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BrokeredForPID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientUnregister(UInt32 ClientId, UInt32 Status, UInt32 PdcVersion, UInt32 ModuleNameLength, UnicodeString ModuleName)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientUnregister",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientCallback(UInt32 ClientId, UInt32 TaskNameLength, UnicodeString TaskName, UInt32 SubTaskLength, UnicodeString SubTaskName, UInt32 CallbackReason, UInt32 ActivationCount, UInt32 ActivationsUpCounter, UInt64 ActivationDuration, UInt32 Status, Pointer ActivationHandle, UInt32 RenewalUpCounter, UInt32 PdcVersion, UInt32 ModuleNameLength, UnicodeString ModuleName, UInt32 BrokeredForPID)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubTaskLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubTaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallbackReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationsUpCounter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivationDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivationHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RenewalUpCounter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BrokeredForPID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "PDCV2ActivationClientSetBrokeredProcessID(UInt32 ClientId, UInt32 TaskNameLength, UnicodeString TaskName, UInt32 SubTaskLength, UnicodeString SubTaskName, UInt32 ExpectedMaximumDuration, UInt32 ActivationCount, UInt32 ActivationsUpCounter, UInt64 ActivationDuration, UInt32 RenewalUpCounter, UInt32 BrokeredForPID, UInt32 Status, Pointer ActivationHandle, UInt32 ModuleNameLength, UnicodeString ModuleName)",
+        "opcode": "",
+        "keywords": "PdcClient",
+        "task": "PDCV2ActivationClientSetBrokeredProcessID",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubTaskLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubTaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedMaximumDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationsUpCounter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivationDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RenewalUpCounter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BrokeredForPID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ActivationHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "PDCSignalClassWakeDetails(UInt8 ScenarioInstanceId, UInt32 RequestType, UInt32 Reason, GUID ClassId, GUID ProviderId, UInt32 DiagStringLength, UnicodeString DiagString)",
+        "opcode": "",
+        "keywords": "Cs CsDiag sleepstudy PdcClient",
+        "task": "PDCSignalClassWakeDetails",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioInstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiagStringLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "PDCSignalClassMonitorOffDetails(UInt8 ScenarioInstanceId, UInt32 RequestType, UInt32 Reason, GUID ClassId, GUID ProviderId, UInt32 DiagStringLength, UnicodeString DiagString)",
+        "opcode": "",
+        "keywords": "Cs CsDiag sleepstudy PdcClient",
+        "task": "PDCSignalClassMonitorOffDetails",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioInstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClassId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiagStringLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DiagString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "PdcPhaseReferenced(UInt8 Phase, Int32 CountChange, Int32 ReferenceCount, Boolean WasWorkItemQueued)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcPhaseReferenced",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CountChange"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ReferenceCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WasWorkItemQueued"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "PdcPhaseDereferenced(UInt8 Phase, Int32 CountChange, Int32 ReferenceCount, Boolean WasWorkItemQueued)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcPhaseDereferenced",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CountChange"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ReferenceCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WasWorkItemQueued"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "PdcTargetPhaseSelected(UInt8 PreviousTargetPhase, UInt8 NewTargetPhase, UInt8 CurrentPhase)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcTargetPhaseSelected",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousTargetPhase"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewTargetPhase"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentPhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "PdcTargetPhaseReached(UInt8 Phase)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcTargetPhaseReached",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "PdcPhaseNotificationsStateChanged(UInt8 Phase, UInt8 PreviousState, UInt8 NewState)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcPhaseNotificationsStateChanged",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousState"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "PdcPhaseRundown(UInt8 Phase, Int32 ReferenceCount, Boolean IsHandlerEngaged, UInt8 NotificationsState, UInt32 NotificationsStatus, UInt32 PdcSequenceId, UInt32 EntryWaitTimeInSeconds, UInt32 EntryWatchdogTimeoutInSeconds)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcPhaseRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ReferenceCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsHandlerEngaged"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NotificationsState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NotificationsStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PdcSequenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EntryWaitTimeInSeconds"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EntryWatchdogTimeoutInSeconds"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "PdcPhaseAccountingRundown(UInt8 Phase, UInt32 EngageCount, UInt64 EngageHandlerTotalTime, UInt64 EngageHandlerNotificationsTotalTime, UInt32 DisengageCount, UInt64 DisengageHandlerTotalTime, UInt64 DisengageHandlerNotificationsTotalTime, UInt64 PhaseTotalTime)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcPhaseAccountingRundown",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EngageCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EngageHandlerTotalTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EngageHandlerNotificationsTotalTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DisengageCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisengageHandlerTotalTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisengageHandlerNotificationsTotalTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PhaseTotalTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "PdcPhaseNotificationCallback(UInt8 CurrentPhase, UInt8 CurrentPhaseNotificationsState, UInt32 CurrentPhaseNotificationsStatus, UInt32 CurrentPhasePdcSequence, UInt32 CallbackStatus, UInt32 CallbackPdcSequence)",
+        "opcode": "",
+        "keywords": "Cs CsDiag",
+        "task": "PdcPhaseNotificationCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentPhase"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentPhaseNotificationsState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentPhaseNotificationsStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentPhasePdcSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallbackStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallbackPdcSequence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "PdcSIdleUpdateNotification(Boolean SystemIdle)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PdcSIdleUpdateNotification",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "SystemIdle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PDC",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "PdcInvalidArgumentToFunction(UInt32 FunctionNameLength, UnicodeString FunctionName, UInt32 ArgumentNameLength, UnicodeString ArgumentName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PdcInvalidArgumentToFunction",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArgumentNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ArgumentName"
+            }
+        ]
+    }
+]

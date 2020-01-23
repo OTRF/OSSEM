@@ -1,0 +1,344 @@
+[
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "FailedNtStatus(AnsiString File, UInt32 Line, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "FailedNtStatus",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "File"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "RegisterRead(UInt32 Offset, UInt32 Value)",
+        "opcode": "",
+        "keywords": "Registers",
+        "task": "RegisterRead",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Offset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "RegisterWrite(UInt32 Offset, UInt32 Value)",
+        "opcode": "",
+        "keywords": "Registers",
+        "task": "RegisterWrite",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Offset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "Transfer(AnsiString Stage, Pointer Endpoint, UInt32 PhysicalEndpoint, Pointer Request, Pointer Transaction, UInt32 BytesRequested, UInt32 BytesProgrammed, UInt32 BytesTransferred, UInt32 SgProgrammed, UInt32 SgLength, UInt32 TrbProgrammed, UInt32 TrbLength)",
+        "opcode": "",
+        "keywords": "Endpoint",
+        "task": "Transfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Stage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalEndpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transaction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesRequested"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesProgrammed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesTransferred"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SgProgrammed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SgLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TrbProgrammed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TrbLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "Transfer201(Pointer Endpoint, UInt32 PhysicalEndpoint, UInt32 Index, UInt32 Word1, UInt32 Word2, UInt32 Word3, UInt32 Word4)",
+        "opcode": "",
+        "keywords": "Endpoint",
+        "task": "Transfer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Word1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Word2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Word3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Word4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "Transfer202(AnsiString Name, Pointer Endpoint, UInt32 PhysicalEndpoint, UInt32 Command, UInt32 Parameter0, UInt32 Parameter1, UInt32 Parameter2)",
+        "opcode": "",
+        "keywords": "Endpoint",
+        "task": "Transfer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalEndpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Parameter0"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Parameter1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Parameter2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "EndpointInformation(AnsiString fSynopsysEndpoint, UInt8 fSynopsysEndpointDescriptor)",
+        "opcode": "",
+        "keywords": "Diagnostic",
+        "task": "EndpointInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "fSynopsysEndpoint"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fSynopsysEndpointDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "ChargerDetectionError(UnicodeString fChargerDetectionErrorInfo)",
+        "opcode": "",
+        "keywords": "Diagnostic",
+        "task": "ChargerDetectionError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fChargerDetectionErrorInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "DeterminePortTypeFailed(UnicodeString fDeterminePortTypeFailed)",
+        "opcode": "",
+        "keywords": "Diagnostic",
+        "task": "DeterminePortTypeFailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fDeterminePortTypeFailed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "RegisterInformation(UInt32 Configuration, UInt32 Control, UInt32 EnabledEvents, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Diagnostic",
+        "task": "RegisterInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Configuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Control"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnabledEvents"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-UfxSynopsys",
+        "event_id": "305",
+        "version": "0",
+        "event(fields)": "ConnectedStandbyInformation(Boolean ConnectedStandby, Boolean IdleResidency, UInt32 DevicePowerState, Boolean Connected, UInt32 UsbPortType, UInt32 UsbDeviceState)",
+        "opcode": "",
+        "keywords": "Diagnostic",
+        "task": "ConnectedStandbyInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "ConnectedStandby"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IdleResidency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DevicePowerState"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Connected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UsbPortType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UsbDeviceState"
+            }
+        ]
+    }
+]

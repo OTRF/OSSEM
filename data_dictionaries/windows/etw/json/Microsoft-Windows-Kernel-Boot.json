@@ -1,0 +1,4193 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "FirmwareResolution(UInt32 Width, UInt32 Height, UInt32 BitsPerPixel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "FirmwareResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitsPerPixel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "BootEnvResolution(UInt32 Width, UInt32 Height, UInt32 BitsPerPixel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootEnvResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitsPerPixel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 BytesPerMs)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesPerMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "BootFileAccess(UInt32 DeviceID, UnicodeString FileName, UInt64 BytesRead, UInt64 BytesWritten)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootFileAccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesRead"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesWritten"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "BootTotalIo(GUID ApplicationGuid, UInt64 BytesRead, UInt64 BytesWritten)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "BootTotalIo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationGuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesRead"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesWritten"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "ImageIntegrityCheck(UnicodeString ImageName, UInt32 ImageFlags, UInt32 Reason, UInt32 ErrorIgnored)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "ImageIntegrityCheck",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorIgnored"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "BootManager(UInt64 BootmgrTime)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "BootManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "BootmgrTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ImageHashCheck(UnicodeString ImageName)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "ImageHashCheck",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "task_09(UInt32 DriveNumber)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DriveNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "task_010(UInt64 FwStartPage, UInt64 FwPageCount, UInt32 FwMemoryType, UInt32 FwMemoryAttributes, UInt64 BlStartPage, UInt64 BlPageCount, UInt32 BlMemoryType, UInt32 BlMemoryAttributes)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FwStartPage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FwPageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FwMemoryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FwMemoryAttributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlStartPage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlPageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlMemoryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlMemoryAttributes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "PreBoot(UInt64 PreBootMgrTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PreBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PreBootMgrTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "SecureBootVariableUsage(UnicodeString UefiVariableName, UInt32 Size, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SecureBootVariableUsage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UefiVariableName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "task_013(GUID ApplicationGuid, UInt32 Element)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Element"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_014(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_015(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_016(UInt64 FailureStatus, UInt64 FailureMsgId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FailureStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FailureMsgId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "task_016_V1(UInt32 FailureStatus, UnicodeString FailureMsg)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FailureStatus"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailureMsg"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "task_017()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "BootmgrEntryCount(UInt32 EntryCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootmgrEntryCount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EntryCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "task_019(UInt32 ToolsCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ToolsCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "DirtyBootShutdown(Boolean LastShutdownGood, Boolean LastBootGood)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DirtyBootShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "LastShutdownGood"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LastBootGood"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "DirtyBootShutdown_V1(Boolean LastShutdownGood, Boolean LastBootGood, UInt32 LastBootId, UInt32 BootStatusPolicy)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DirtyBootShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "LastShutdownGood"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LastBootGood"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastBootId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BootStatusPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "task_021(UInt32 OptionSelected)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OptionSelected"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "task_022()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "task_023()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "task_024()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "BootMenuPolicy(UInt32 BootMenuPolicy)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootMenuPolicy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BootMenuPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "task_026()",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "BootType(UInt32 BootType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BootType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "27",
+        "version": "1",
+        "event(fields)": "BootType_V1(UInt32 BootType, AnsiString LoadOptions)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BootType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "LoadOptions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "task_028(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmStreamRowLength, Int16 SqmStreamRow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SqmStreamRow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "task_029(UInt64 FailureStatus, UInt64 FailureMsgId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FailureStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FailureMsgId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "29",
+        "version": "1",
+        "event(fields)": "task_029_V1(UInt32 FailureStatus, UnicodeString FailureMsg)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FailureStatus"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailureMsg"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "FirmwareBootData(UInt64 ResetEndStart, UInt64 LoadOSImageStart, UInt64 StartOSImageStart, UInt64 ExitBootServicesEntry, UInt64 ExitBootServicesExit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "FirmwareBootData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ResetEndStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadOSImageStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartOSImageStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExitBootServicesEntry"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExitBootServicesExit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "task_031(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "UserInputTime(UInt64 BitlockerUserInputTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UserInputTime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "BitlockerUserInputTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "task_033(UnicodeString ImageName, UInt32 ImageLoadStatus)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageLoadStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "task_034(UnicodeString PeImageName, UInt32 PeImageLoadStatus)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PeImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeImageLoadStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "task_035(UInt32 UpdateCapsuleStatus)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdateCapsuleStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "task_036(UInt32 DeviceFlags, UInt32 PcrBitmap, UInt32 UpdateSupportedStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcrBitmap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdateSupportedStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "task_037(UnicodeString ImageName, UInt32 ImageLoadStatus)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageLoadStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "ImageLoadFailure(UnicodeString ImageName, UInt32 ImageLoadStatus)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "ImageLoadFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageLoadStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "task_039(UnicodeString HiveName, UInt32 HiveLoadStatus)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HiveLoadStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "task_040(UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "task_041(UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "task_042(UnicodeString Path, UnicodeString FailedPath, UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailedPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "task_043(UnicodeString Path, AnsiString Import, UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_200000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Import"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "task_044(UInt32 CachedCopyStatus, UInt32 IdkGenerationStatus, UInt32 MeasuringStatus, UInt32 SealingAndCachingStatus)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IdkGenerationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MeasuringStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SealingAndCachingStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "VsmIdkProvisioningStatus(UInt32 CachedCopyStatus, UInt32 IdkGenerationStatus, UInt32 MeasuringStatus, UInt32 SealingAndCachingStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VsmIdkProvisioningStatus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IdkGenerationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MeasuringStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SealingAndCachingStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "RetrieveDriverListTime(UInt64 RetrieveDriverListTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "RetrieveDriverListTime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RetrieveDriverListTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "LoadDrivers(UInt64 LoadDriversTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LoadDrivers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadDriversTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "LoadHive(UnicodeString Path, UInt64 LoadHiveTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LoadHive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LoadHiveTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "SiPolicyFailure(UnicodeString ImageName, UInt32 SiPolicyStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SiPolicyFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiPolicyStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "VsmLKeyProvisioningStatus(UInt32 CachedCopyStatus, UInt32 UnsealingCachedCopyStatus, UInt32 KeyGenerationAndSaveStatus, UInt32 SealingStatus, UInt32 TpmPcrMask, UInt32 ProtectorAssistedUnsealStatus, UInt32 ProtectorAssistedResealStatus, UInt32 ProtectorSealUpdateStatus, UInt32 TpmCounterOpStatus, UInt32 TpmCounterCreateStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VsmLKeyProvisioningStatus",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsealingCachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KeyGenerationAndSaveStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SealingStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmPcrMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectorAssistedUnsealStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectorAssistedResealStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectorSealUpdateStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmCounterOpStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmCounterCreateStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "VsmLKeyProvisioningStatus51(UInt32 CachedCopyStatus, UInt32 UnsealingCachedCopyStatus, UInt32 KeyGenerationAndSaveStatus, UInt32 SealingStatus, UInt32 TpmPcrMask, UInt32 ProtectorAssistedUnsealStatus, UInt32 ProtectorAssistedResealStatus, UInt32 ProtectorSealUpdateStatus, UInt32 TpmCounterOpStatus, UInt32 TpmCounterCreateStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VsmLKeyProvisioningStatus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsealingCachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KeyGenerationAndSaveStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SealingStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmPcrMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectorAssistedUnsealStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectorAssistedResealStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectorSealUpdateStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmCounterOpStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmCounterCreateStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "BootAppLoadTime(GUID ApplicationIdentifier, UInt64 ApplicationLoadTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootAppLoadTime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationIdentifier"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationLoadTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "BootApplicationExecution(GUID ApplicationIdentifier, UInt64 ApplicationExecutionTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootApplicationExecution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationIdentifier"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationExecutionTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "task_054(UInt32 Status, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "PrepareTargetFailure(UInt32 Status, UInt32 FailurePoint)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PrepareTargetFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailurePoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "task_056(UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "task_057(UInt32 TpmSrkProvisioningStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmSrkProvisioningStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "task_058(UInt64 TpmSrkProvisioningTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "TpmSrkProvisioningTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "task_059(UInt32 TpmBindingProvisioningStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TpmBindingProvisioningStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "InvalidNfitTable()",
+        "opcode": "",
+        "keywords": "",
+        "task": "InvalidNfitTable",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchTxtLaunchPrepared(UInt64 PmrLowBase, UInt64 PmrLowSize, UInt64 PmrHighBase, UInt64 PmrHighSize, Boolean FirmwareProvidedAcm)",
+        "opcode": "TxtLaunchPrepared",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PmrLowBase"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PmrLowSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PmrHighBase"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PmrHighSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FirmwareProvidedAcm"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchPreviousTxtError(UInt32 TxtErrorCode)",
+        "opcode": "PreviousTxtError",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TxtErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchInvalidTxtSinitRange(UInt64 Base, UInt64 Size)",
+        "opcode": "InvalidTxtSinitRange",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Base"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchInvalidTxtHeapRange(UInt64 Base, UInt64 Size)",
+        "opcode": "InvalidTxtHeapRange",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Base"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchMleLoadFailure(UInt32 Status)",
+        "opcode": "MleLoadFailure",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchMissingRsdpTable(UInt32 Status)",
+        "opcode": "MissingRsdpTable",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchNoSinitAcm(UInt32 Status)",
+        "opcode": "NoSinitAcm",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchInvalidTxtHeapBiosDataSize(UInt64 BiosDataSize)",
+        "opcode": "InvalidTxtHeapBiosDataSize",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "BiosDataSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchMleHeaderTooOld(UInt32 AcmMinMleHeaderVer, UInt32 MleHeaderVersion)",
+        "opcode": "MleHeaderTooOld",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AcmMinMleHeaderVer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MleHeaderVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchComputePmrRangesFailure(UInt32 Status)",
+        "opcode": "ComputePmrRangesFailure",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "FileOpenOpenFailure(UInt32 DeviceID, UnicodeString FileName, UInt32 Status)",
+        "opcode": "OpenFailure",
+        "keywords": "",
+        "task": "FileOpen",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchPrepareLcpFailure(UInt32 Status)",
+        "opcode": "PrepareLcpFailure",
+        "keywords": "keyword_80000000000",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchTxtRejectedFirmwareAcm(UInt32 TxtStatus)",
+        "opcode": "TxtRejectedFirmwareAcm",
+        "keywords": "",
+        "task": "MeasuredLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TxtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "VsmLKeyProvisioningStatus74(UInt32 CachedCopyStatus, UInt32 KeyGenerationStatus, UInt32 SealAndSaveStatus, UInt32 UEFIKeysStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VsmLKeyProvisioningStatus",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KeyGenerationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SealAndSaveStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UEFIKeysStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "VsmLKeyProvisioningStatus75(UInt32 CachedCopyStatus, UInt32 KeyGenerationStatus, UInt32 SealAndSaveStatus, UInt32 UEFIKeysStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VsmLKeyProvisioningStatus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CachedCopyStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KeyGenerationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SealAndSaveStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UEFIKeysStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "BootDebuggerEnabled()",
+        "opcode": "Enabled",
+        "keywords": "",
+        "task": "BootDebugger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "BootDebuggerInitFailure(UInt32 DebuggerStatus, UInt32 Status)",
+        "opcode": "InitFailure",
+        "keywords": "",
+        "task": "BootDebugger",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DebuggerStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "InitializeLibraryStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "InitializeLibrary",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "100",
+        "version": "1",
+        "event(fields)": "InitializeLibraryStart_V1(Boolean Secure)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "InitializeLibrary",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Secure"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "InitializeLibraryStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "InitializeLibrary",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "PrepareTargetStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "PrepareTarget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "102",
+        "version": "1",
+        "event(fields)": "PrepareTargetStart_V1(UInt32 SoftRestartCount)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "PrepareTarget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SoftRestartCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "102",
+        "version": "2",
+        "event(fields)": "PrepareTargetStart_V2(UInt32 SoftRestartCount, Boolean Secure)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "PrepareTarget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SoftRestartCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Secure"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "PrepareTargetStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "PrepareTarget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "RebuildKernelMemoryMapStart(UInt32 ReserveDescriptors)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "RebuildKernelMemoryMap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReserveDescriptors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "RebuildKernelMemoryMapStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "RebuildKernelMemoryMap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "PersistMemoryStart(GUID ApplicationId, UInt32 RunCount, UInt64 PageCount)",
+        "opcode": "Start",
+        "keywords": "MemoryPreservation",
+        "task": "PersistMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "PersistMemoryStop(UInt32 Status, UInt64 BlockId)",
+        "opcode": "Stop",
+        "keywords": "MemoryPreservation",
+        "task": "PersistMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlockId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "FatalError(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "FatalError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "CleanupPageDatabaseStart(Boolean FreePersistentPages)",
+        "opcode": "Start",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "CleanupPageDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "FreePersistentPages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "CleanupPageDatabaseStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "CleanupPageDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "FreePersistedMemoryStart(GUID ApplicationId, Boolean FreePersistentPages)",
+        "opcode": "Start",
+        "keywords": "MemoryPreservation",
+        "task": "FreePersistedMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FreePersistentPages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "FreePersistedMemoryStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "MemoryPreservation",
+        "task": "FreePersistedMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "ClaimPersistedMemoryStart(GUID ApplicationId, UInt64 BlockId, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "MemoryPreservation",
+        "task": "ClaimPersistedMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlockId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "ClaimPersistedMemoryStop(UInt32 Status, UInt32 RunsClaimed, UInt64 PageCount)",
+        "opcode": "Stop",
+        "keywords": "MemoryPreservation",
+        "task": "ClaimPersistedMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunsClaimed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "CancelBootStart(Boolean FreePersistentPages)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "CancelBoot",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "FreePersistentPages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "CancelBootStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "CancelBoot",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "AttachPersistentPageDatabaseStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "AttachPersistentPageDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "AttachPersistentPageDatabaseStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "AttachPersistentPageDatabase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "MemoryBlockRundown(GUID ApplicationId, UInt64 BlockId)",
+        "opcode": "",
+        "keywords": "MemoryBlockRundown",
+        "task": "MemoryBlockRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlockId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "BuildKernelMemoryMapStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "BuildKernelMemoryMap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "BuildKernelMemoryMapStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "BuildKernelMemoryMap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "GetMemoryMapStart(UInt32 Type, UInt32 Flags, UInt32 BufferSize)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "GetMemoryMap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "GetMemoryMapStop(UInt32 Status, UInt32 DataSize, UInt32 BufferSize)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "GetMemoryMap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "VsmPolicyFailure(UInt8 Phase, UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_80000000000 keyword_400000000000",
+        "task": "VsmPolicyFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "AllocatePhysicalPagesForMdlStart(UInt64 LowAddress, UInt64 HighAddress, UInt64 SkipBytes, UInt64 TotalBytes, UInt32 CacheType, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "SoftRestart PhysicalMemory",
+        "task": "AllocatePhysicalPagesForMdl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LowAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HighAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SkipBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CacheType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "AllocatePhysicalPagesForMdlStop(Pointer Mdl)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart PhysicalMemory",
+        "task": "AllocatePhysicalPagesForMdl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Mdl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "ExecuteTransitionStart(FILETIME StartTime)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "ExecuteTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "DisconnectHypervisorStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "DisconnectHypervisor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "MemoryMapRundown(UInt32 SequenceNumber, UInt32 DescriptorCount, Int8 MemoryDescriptor)",
+        "opcode": "",
+        "keywords": "MemoryMapRundown",
+        "task": "MemoryMapRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DescriptorCount"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "MemoryDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "MemoryMapRundownStart()",
+        "opcode": "Start",
+        "keywords": "MemoryMapRundown",
+        "task": "MemoryMapRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "MemoryMapRundownStop(UInt32 DescriptorCount)",
+        "opcode": "Stop",
+        "keywords": "MemoryMapRundown",
+        "task": "MemoryMapRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DescriptorCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "PhysicalPageAllocationFailure(HexInt32 Status, UInt64 PageCount, UInt32 MemoryType, UInt32 Attributes, UInt64 LowAddress, UInt64 HighAddress)",
+        "opcode": "",
+        "keywords": "SoftRestart PhysicalMemory",
+        "task": "PhysicalPageAllocationFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Attributes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LowAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HighAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "WaitForPartitionsRestoredStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "WaitForPartitionsRestored",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "WaitForPartitionsRestoredStop()",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "WaitForPartitionsRestored",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "CleanupPageDatabase(UInt32 Status, UInt64 OutstandingCount)",
+        "opcode": "",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "CleanupPageDatabase",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OutstandingCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "MemoryPartitionRestoreStart(GUID Identifier, UInt32 PartitionId)",
+        "opcode": "Start",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "MemoryPartitionRestore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "MemoryPartitionRestoreStop(GUID Identifier, UInt64 PartitionPageCount, UInt64 AllocatedBlockCount, UInt64 AllocatedRunCount, UInt64 AllocatedPageCount, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "MemoryPartitionRestore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PartitionPageCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AllocatedBlockCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AllocatedRunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AllocatedPageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "MemoryPartitionRestore(GUID Identifier, UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "MemoryPartitionRestore",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "PersistMemoryPartitionStart(GUID Identifier)",
+        "opcode": "Start",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "PersistMemoryPartition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Identifier"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "PersistMemoryPartitionStop(GUID Identifier, UInt32 RunCount, UInt64 PageCount, UInt32 Status, UInt16 PartitionNameLength, UnicodeString PartitionName)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "PersistMemoryPartition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PartitionNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PartitionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "141",
+        "version": "1",
+        "event(fields)": "PersistMemoryPartitionStop_V1(GUID Identifier, UInt32 RunCount, UInt64 PageCount, UInt32 IoSpaceRunCount, UInt64 IoSpacePageCount, UInt32 Status, UInt16 PartitionNameLength, UnicodeString PartitionName)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "PersistMemoryPartition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Identifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IoSpaceRunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IoSpacePageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PartitionNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PartitionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "RegisterLoader(UInt32 Status, UInt32 ActualSize, UInt32 ExpectedSize)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "RegisterLoader",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "MemoryPartitionsRestored(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "MemoryPartitionsRestored",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "QueryStatisticsStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "QueryStatistics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "QueryStatisticsStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "QueryStatistics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "ConnectSecureLoader(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "ConnectSecureLoader",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "FreePersistedMemoryBlockStart(GUID ApplicationId, UInt64 BlockId, Boolean FreePersistentPages)",
+        "opcode": "Start",
+        "keywords": "MemoryPreservation",
+        "task": "FreePersistedMemoryBlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlockId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FreePersistentPages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "FreePersistedMemoryBlockStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "MemoryPreservation",
+        "task": "FreePersistedMemoryBlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "PrepareNotificationStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "PrepareNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "PrepareNotificationStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "PrepareNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "PartitionInitialAddMemoryStart(UInt32 PartitionId, UInt32 RunCount, UInt64 PageCount)",
+        "opcode": "Start",
+        "keywords": "MemoryPartitions",
+        "task": "PartitionInitialAddMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "151",
+        "version": "1",
+        "event(fields)": "PartitionInitialAddMemoryStart_V1(UInt32 PartitionId, UInt32 RunCount, UInt64 PageCount, Boolean IoSpaceMemory)",
+        "opcode": "Start",
+        "keywords": "MemoryPartitions",
+        "task": "PartitionInitialAddMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RunCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IoSpaceMemory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "PartitionInitialAddMemoryStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "MemoryPartitions",
+        "task": "PartitionInitialAddMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "VsmPolicyEnablement(UInt32 Status, UInt32 EnableDisableReason, UInt32 VsmPolicy)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VsmPolicyEnablement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnableDisableReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VsmPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "BootPolicyMigration(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootPolicyMigration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "BootPolicyMigration155(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BootPolicyMigration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "task_0156(UInt32 Status, UInt32 EnableDisableReason, UInt32 VsmPolicy)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnableDisableReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VsmPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "BootDiag(UInt32 DiagCode, UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "BootDiag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiagCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "BootDiag158(UInt32 DiagCode, UInt32 Status)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "BootDiag",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiagCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "RemoveEnclavePagesStart(UInt64 BasePage, UInt64 PageCount)",
+        "opcode": "Start",
+        "keywords": "MemoryPreservation",
+        "task": "RemoveEnclavePages",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "BasePage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PageCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "CancelNotificationStart(UInt32 Status)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "CancelNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "CancelNotificationStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "CancelNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "GetSystemBootDevice(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "GetSystemBootDevice",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "NormalizeBootOptionList(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "NormalizeBootOptionList",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "CreateLibraryParameters(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "CreateLibraryParameters",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "InitializeLibrary(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "InitializeLibrary",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "CreateDevices(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "CreateDevices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "167",
+        "version": "0",
+        "event(fields)": "SoftRestartHostCapability(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "SoftRestartHostCapability",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "EnumerateEnclavePages(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "EnumerateEnclavePages",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "InitializeMeasurementContext(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "InitializeMeasurementContext",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "KsrMeasurement(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "KsrMeasurement",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "TpmMeasurement(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "TpmMeasurement",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "CloseMeasurementLog(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "CloseMeasurementLog",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "CommitPendingEvents(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "CommitPendingEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "CapTpmPcr(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "CapTpmPcr",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "CapTpmPcr175(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "CapTpmPcr",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "InitializeLibrary176(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "InitializeLibrary",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "EfiVariableAccessGetEfiVariable(GUID VendorGuid, UnicodeString VariableName, UInt32 Attributes, UInt32 Status)",
+        "opcode": "GetEfiVariable",
+        "keywords": "EfiVariables",
+        "task": "EfiVariableAccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VendorGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VariableName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Attributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "EfiVariableAccessSetEfiVariable(GUID VendorGuid, UnicodeString VariableName, UInt32 Attributes, UInt32 Status)",
+        "opcode": "SetEfiVariable",
+        "keywords": "EfiVariables",
+        "task": "EfiVariableAccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VendorGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VariableName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Attributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "GetFirmwareInformation(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "GetFirmwareInformation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "VerifyBootEntry(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "VerifyBootEntry",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "RegisterFilter(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "RegisterFilter",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "IoSpaceMemoryEnumerateFailure(UInt32 Status)",
+        "opcode": "EnumerateFailure",
+        "keywords": "SoftRestart",
+        "task": "IoSpaceMemory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "TpmCommandResponse(UInt32 CommandCode, UInt32 ResponseCode, UInt64 ResponseMilliseconds)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TpmCommandResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseCode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ResponseMilliseconds"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "TpmCommandResponse201(UInt32 CommandCode, UInt32 ResponseCode, UInt64 ResponseMilliseconds, UInt32 CommandSize, Binary CommandData, UInt32 ResponseSize, Binary ResponseData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TpmCommandResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseCode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ResponseMilliseconds"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CommandData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ResponseData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "TpmSubmitError(UInt32 CommandCode, UInt32 ErrorCode, UInt64 ResponseMilliseconds)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "TpmSubmitError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ResponseMilliseconds"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "TpmSubmitError203(UInt32 CommandCode, UInt32 ErrorCode, UInt64 ResponseMilliseconds, UInt32 CommandSize, Binary CommandData)",
+        "opcode": "",
+        "keywords": "keyword_80000000000",
+        "task": "TpmSubmitError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ResponseMilliseconds"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CommandData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "TpmBitLockerUsage(UInt32 FveGlobalDataFlags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TpmBitLockerUsage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FveGlobalDataFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "EFICapsuleCreationStart()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "EFICapsuleCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "EFICapsuleCreationStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "EFICapsuleCreation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "BootSIInitStatus(UInt32 Phase, UInt32 StatusCode, UInt32 EnvironmentState)",
+        "opcode": "InitStatus",
+        "keywords": "",
+        "task": "BootSI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnvironmentState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "BootSIEnterInsecureState(UInt32 InitState, UInt32 StatusCode, UInt64 FailureAddress, UInt64 ReferenceAddress, UInt32 ReasonCode)",
+        "opcode": "EnterInsecureState",
+        "keywords": "keyword_80000000000",
+        "task": "BootSI",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InitState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FailureAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReferenceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "BootSIDrtmSvnCheck(UInt32 SvnCounterId, UInt32 StatusCode, UInt32 SvnValue, UInt32 PrevSvnValue)",
+        "opcode": "DrtmSvnCheck",
+        "keywords": "",
+        "task": "BootSI",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SvnCounterId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SvnValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrevSvnValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchSinitPerformance(UInt64 SinitTimeMs)",
+        "opcode": "SinitPerformance",
+        "keywords": "",
+        "task": "MeasuredLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SinitTimeMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "MiniFilterStartFailure(UInt32 Status)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "MiniFilterStartFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "FileModification(UInt16 PathLength, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "FileModification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "RegistryModification(UInt16 PathLength, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "SoftRestart",
+        "task": "RegistryModification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "SoftRebootStart(Boolean TryComplete)",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "SoftReboot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "TryComplete"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "SoftRebootStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "SoftReboot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "SoftRebootStart216()",
+        "opcode": "Start",
+        "keywords": "SoftRestart",
+        "task": "SoftReboot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "SoftRebootStop217(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "SoftRestart",
+        "task": "SoftReboot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "SoftReboot(UnicodeString Function, UInt32 Status, UInt32 Checkpoint)",
+        "opcode": "",
+        "keywords": "SoftRestart MemoryPreservation",
+        "task": "SoftReboot",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Checkpoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchTxtInformation(UInt8 AcmDateDay, UInt8 AcmDateMonth, UInt16 AcmDateYear)",
+        "opcode": "TxtInformation",
+        "keywords": "",
+        "task": "MeasuredLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "AcmDateDay"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AcmDateMonth"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "AcmDateYear"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchTxtNotSupported(UInt32 TxtStatus)",
+        "opcode": "TxtNotSupported",
+        "keywords": "",
+        "task": "MeasuredLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TxtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchDrtmDriversNotSupportVbs()",
+        "opcode": "DrtmDriversNotSupportVbs",
+        "keywords": "",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "MeasuredLaunchPpamFailure(UInt32 TxtStatus, UInt64 Argument1, UInt64 Argument2)",
+        "opcode": "PpamFailure",
+        "keywords": "",
+        "task": "MeasuredLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TxtStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Argument2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "IoSpaceMemoryAllocationFailure(UInt32 Phase, UInt32 Status, UInt32 Tries, UInt32 RemainingNodesCount, Int16 RemainingNodes)",
+        "opcode": "AllocationFailure",
+        "keywords": "",
+        "task": "IoSpaceMemory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Tries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingNodesCount"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "RemainingNodes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "IoSpaceMemoryAllocation(UInt32 AllocatedRegions, UInt32 Tries)",
+        "opcode": "Allocation",
+        "keywords": "",
+        "task": "IoSpaceMemory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocatedRegions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Tries"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Boot",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "task_0225()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

@@ -1,0 +1,3906 @@
+[
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyQueueBuffersToDevice(UInt32 StreamID, UInt32 IsStreaming)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyQueueBuffersToDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsStreaming"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySendBuffersToDeviceStart(Pointer AsyncTaskPointer, UInt32 StreamID, Pointer BufferPointer, Pointer PinPointer, Pointer ParentPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySendBuffersToDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncTaskPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BufferPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ParentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySendBuffersToDeviceStop(Pointer AsyncTaskPointer, UInt32 StreamID, Pointer BufferPointer, Pointer PinPointer, Pointer ParentPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySendBuffersToDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncTaskPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BufferPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ParentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyProcessInput(UInt32 StreamID, Pointer SamplePtr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyOutputMETransformHaveOutput(UInt32 StreamID, UInt32 ReadySampleCount, Pointer Sample, UInt64 SampleTime)",
+        "opcode": "METransformHaveOutput",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadySampleCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyOutputDevproxyProcessOutput(UInt32 OutputBufferCount, Pointer OutputSamplesPtr)",
+        "opcode": "DevproxyProcessOutput",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputBufferCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OutputSamplesPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySetInputTypeStart(AnsiString MediaType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySetInputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySetInputTypeStop(AnsiString MediaType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySetInputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySetOutputTypeStart(AnsiString MediaType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySetOutputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySetOutputTypeStop(AnsiString MediaType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySetOutputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyFlush(UInt32 StreamingState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyFlush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamingState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyKSPinStateChange(UInt64 PinHandle, UInt32 State)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyKSPinStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PinHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyVideoPluginLoadStart(Pointer PinPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyVideoPluginLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyVideoPluginLoadStop(Pointer PinPtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyVideoPluginLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyVideoPluginProcessInputStart(Pointer PinPtr, Pointer SamplePtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyVideoPluginProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyVideoPluginProcessInputStop(Pointer PinPtr, Pointer SamplePtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyVideoPluginProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyVideoPluginProcessOnputStart(Pointer PinPtr, Pointer SamplePtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyVideoPluginProcessOnput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyVideoPluginProcessOnputStop(Pointer PinPtr, Pointer SamplePtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyVideoPluginProcessOnput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyD3DAllocatorD3DAllocatorCreated(Pointer PinPtr, Pointer D3DManagerPtr)",
+        "opcode": "D3DAllocatorCreated",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyD3DAllocator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "D3DManagerPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyD3DAllocatorD3DAllocatorReleased(Pointer PinPtr, Pointer D3DManagerPtr)",
+        "opcode": "D3DAllocatorReleased",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyD3DAllocator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "D3DManagerPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyMFTDevproxyloaded()",
+        "opcode": "Devproxyloaded",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyMFT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyMFTDevproxyMFTunloaded()",
+        "opcode": "DevproxyMFTunloaded",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyMFT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyMFTDynamicFormatChangeStart(UInt32 StreamID, UInt32 IsStreaming)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyMFTDynamicFormatChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsStreaming"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyMFTDynamicFormatChangeStop(UnicodeString FormatInfoStruct)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyMFTDynamicFormatChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FormatInfoStruct"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyMFTStreamStateStart(UInt32 StreamID, UInt32 IsStreaming)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyMFTStreamState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsStreaming"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyMFTStreamStateStop(UInt32 StreamID, UInt32 IsStreaming)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyMFTStreamState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsStreaming"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxySendBuffersToDevice(Pointer AsyncTaskPointer, UInt32 StreamID, Pointer BufferPointer, Pointer PinPointer, Pointer ParentPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxySendBuffersToDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncTaskPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BufferPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PinPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ParentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString DeviceStreamName, UInt32 DeviceStreamId, UInt32 MFTStreamId, Pointer samplePointer, UInt64 SampleTimestamp, UInt64 ExpectedSampleCompletionNumber, UInt64 ActualSampleCompletionNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceStreamName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceStreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MFTStreamId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "samplePointer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExpectedSampleCompletionNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActualSampleCompletionNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "task_029(UnicodeString DeviceStreamName, UInt32 DeviceStreamId, UInt32 MFTStreamId, UInt32 DriverQueueDepth)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceStreamName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceStreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MFTStreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverQueueDepth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "task_030(UnicodeString DeviceStreamName, UInt32 DeviceStreamId, UInt32 MFTStreamId, Pointer samplePointer, UInt64 DriverTimeStamp, UInt64 SystemTimeStamp, UInt64 SampleCompletionNumber, AnsiString FlagTimeStamp, AnsiString StreamName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceStreamName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceStreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MFTStreamId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "samplePointer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DriverTimeStamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SystemTimeStamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleCompletionNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FlagTimeStamp"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "StreamName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyPhotoConfirmation(Pointer SamplePtr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyPhotoConfirmation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyDMFTNotificationStart(Pointer SamplePtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyDMFTNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyDMFTNotificationStop(Pointer SamplePtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyDMFTNotification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "MediaFoundationDevproxyDMFTNotificationInit(Pointer SamplePtr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDevproxyDMFTNotificationInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "MediaFoundationLoadTopologyStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationLoadTopology",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "MediaFoundationLoadTopologyStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationLoadTopology",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "MediaFoundationLoadTopology(UnicodeString CLSID, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationLoadTopology",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "MediaFoundationFallBackToDefaultD3DFmt(UInt32 D3DFmt)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationFallBackToDefaultD3DFmt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "D3DFmt"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "Destinationrectchanged(UInt32 left, UInt32 top, UInt32 right, UInt32 bottom)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Destinationrectchanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "left"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "top"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "right"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bottom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "Sourcerectchanged(UInt32 left, UInt32 top, UInt32 right, UInt32 bottom)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Sourcerectchanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "left"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "top"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "right"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bottom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "MediaFoundationDispatchDelayedEventsStart(Pointer Bitpump, UInt32 Count)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDispatchDelayedEvents",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "MediaFoundationDispatchDelayedEventsStop(Pointer QueuePtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDispatchDelayedEvents",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "QueuePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleStreamEventStart(Pointer Bitpump, UInt32 Type)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationHandleStreamEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleStreamEventStop(Pointer Bitpump, UInt32 Type, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationHandleStreamEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleMFTEventStart(Pointer MFT, UInt32 Type)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationHandleMFTEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MFT"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleMFTEventStop(Pointer MFT, UInt32 Type, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationHandleMFTEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MFT"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "MediaFoundationMediaProcStreamRequestSampleStart(Pointer MPStream, UInt32 Node, UInt32 SampleCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationMediaProcStreamRequestSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MPStream"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "MediaFoundationMediaProcStreamRequestSampleStop(Pointer MPStream, UInt32 Node, UInt32 SampleCount, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationMediaProcStreamRequestSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MPStream"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleSinkEventStart(Pointer Bitpump, UInt32 Type)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationHandleSinkEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleSinkEventStop(Pointer Bitpump, UInt32 Type, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationHandleSinkEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "MediaFoundationPathLockStart(Pointer PathLock)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationPathLock",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PathLock"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "MediaFoundationPathLockStop(Pointer PathLock)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationPathLock",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PathLock"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleMediaSampleStart(Pointer Bitpump, UInt64 TimeStamp)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationHandleMediaSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleMediaSampleStop(Pointer Bitpump, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationHandleMediaSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleMediaSample_ProcessStart(Pointer Bitpump, Pointer pSample)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationHandleMediaSample_Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pSample"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "MediaFoundationHandleMediaSample_ProcessStop(Pointer Bitpump, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationHandleMediaSample_Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Bitpump"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "MediaFoundationDispatchNodeInputEventStart(Pointer Node, UInt32 EventType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDispatchNodeInputEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "MediaFoundationDispatchNodeInputEventStop(Pointer Node, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDispatchNodeInputEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "MediaFoundationMediaProcSourceManagerOnStreamSampleStart(Pointer MP, Pointer Node, UInt32 StreamIndex)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationMediaProcSourceManagerOnStreamSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MP"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "MediaFoundationMediaProcSourceManagerOnStreamSampleStop(Pointer MP, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationMediaProcSourceManagerOnStreamSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "MediaFoundationMediaProcStreamRequestSample_ProcessStart(Pointer MPStream, UInt32 Node, UInt32 Index, UInt32 SampleCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationMediaProcStreamRequestSample_Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MPStream"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "MediaFoundationMediaProcStreamRequestSample_ProcessStop(Pointer MPStream, UInt32 Node, UInt32 Index, UInt32 SampleCount, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationMediaProcStreamRequestSample_Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MPStream"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1028",
+        "version": "0",
+        "event(fields)": "MediaProc:SourceNode_ProcessSampleStart(Pointer object, Pointer node, UInt32 OutputIndex)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaProc:SourceNode_ProcessSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1029",
+        "version": "0",
+        "event(fields)": "MediaProc:SourceNode_ProcessSampleStop(Pointer object, Pointer node, UInt32 result)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaProc:SourceNode_ProcessSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "node"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1098",
+        "version": "0",
+        "event(fields)": "MediaFoundationOPMPoll(GUID fromtype)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationOPMPoll",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "fromtype"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1099",
+        "version": "0",
+        "event(fields)": "MediaFoundationOPMPoll_1099(Boolean exitPolling)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationOPMPoll_1099",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "exitPolling"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFInputTrustAuthority_RequestAccess(UInt32 stream, UInt32 action, Boolean enablerReturned, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFInputTrustAuthority_RequestAccess",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "stream"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "action"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "enablerReturned"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFInputTrustAuthority_GetDecrypter(UInt32 streamid, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFInputTrustAuthority_GetDecrypter",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "streamid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1102",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFInputTrustAuthority_GetPolicy(UInt32 streamid, UInt32 Action, Boolean policyReturned, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFInputTrustAuthority_GetPolicy",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "streamid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "policyReturned"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1103",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFInputTrustAuthority_Reset(UInt32 object, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFInputTrustAuthority_Reset",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "object"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1104",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFInputTrustAuthority_BindAccess(UInt32 object, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFInputTrustAuthority_BindAccess",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "object"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1105",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFInputTrustAuthority_UpdateAccess(UInt32 object, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFInputTrustAuthority_UpdateAccess",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "object"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1106",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFTrustedInput_GetInputTrustAuthorityStart(HexInt32 streamId, HexInt32 hr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationIMFTrustedInput_GetInputTrustAuthority",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "streamId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1107",
+        "version": "0",
+        "event(fields)": "MediaFoundationDecrypt(UInt32 bytes, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDecrypt",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "bytes"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1108",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFSampleProtection_GetInputProtectionVersion(UInt32 value, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFSampleProtection_GetInputProtectionVersion",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "value"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1109",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFSampleProtection_GetOutputProtectionVersion(UInt32 value, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFSampleProtection_GetOutputProtectionVersion",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "value"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1110",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFSampleProtection_GetProtectionCertificate(UInt32 value, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFSampleProtection_GetProtectionCertificate",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "value"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1111",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFSampleProtection_InitInputProtection(UInt32 version, UInt32 streamId, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFSampleProtection_InitInputProtection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "streamId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1112",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFSampleProtection_InitOutputProtection(UInt32 version, UInt32 streamId, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFSampleProtection_InitOutputProtection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "streamId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1113",
+        "version": "0",
+        "event(fields)": "MediaFoundationCreateMFPMP(Boolean isProtected, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationCreateMFPMP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "isProtected"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1114",
+        "version": "0",
+        "event(fields)": "MediaFoundationContentEnablerEvent(GUID type, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationContentEnablerEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1115",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFPMPHost_CreateObjectByCLSID(GUID CLSID, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFPMPHost_CreateObjectByCLSID",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1116",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas(HexInt32 attributes, GUID outputSubtype, UInt32 cSchemas, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "attributes"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "outputSubtype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cSchemas"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1117",
+        "version": "0",
+        "event(fields)": "MediaFoundationRequiredSchema(HexInt32 context, GUID type)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationRequiredSchema",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "context"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1118",
+        "version": "0",
+        "event(fields)": "MediaFoundationPolicyEvent(UInt32 type, HexInt32 streamId, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPolicyEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "streamId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1119",
+        "version": "0",
+        "event(fields)": "MediaFoundationIMFPMPHostApp_ActivateClassById(UnicodeString classId, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationIMFPMPHostApp_ActivateClassById",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "classId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1120",
+        "version": "0",
+        "event(fields)": "MediaFoundationValidateApplicationCertificateStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationValidateApplicationCertificate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1121",
+        "version": "0",
+        "event(fields)": "MediaFoundationValidateApplicationCertificateStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationValidateApplicationCertificate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1123",
+        "version": "0",
+        "event(fields)": "MediaFoundationOTAApplyProtection(GUID type, UInt32 level, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationOTAApplyProtection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "level"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1124",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperNeedInput(Pointer WrapperPtr, UInt32 StreamID, UInt32 InputRequestsCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperNeedInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputRequestsCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1126",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessInput(MFT)Start(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessInput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1127",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessInput(MFT)Stop(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt64 SampleTimestamp, UInt32 InputQueueLength, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessInput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputQueueLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1128",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessOutput(MFT)Start(Pointer WrapperPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessOutput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1129",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessOutput(MFT)Stop(Pointer WrapperPtr, Pointer SamplePtr, UInt64 SampleTime, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessOutput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1130",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperHaveOutput(Pointer WrapperPtr, UInt32 OutputQueueLength)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperHaveOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputQueueLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1131",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessOutput(Pointer WrapperPtr, Pointer SamplePtr, UInt64 SampleTimestamp, UInt32 OutputQueueLength, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputQueueLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1132",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperRunningStart(Pointer WrapperPtr, UInt32 WorkQueueID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1133",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperRunningStop(Pointer WrapperPtr, UInt32 WorkQueueID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1134",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperSetWorkQueue(Pointer WrapperPtr, UInt32 WorkQueueID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperSetWorkQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1135",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperStart(Pointer ObjectPtr, Pointer MFTPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapper",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ObjectPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MFTPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1136",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperStop(Pointer ObjectPtr, Pointer MFTPtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapper",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ObjectPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MFTPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1137",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperDeadlineStart(Pointer WrapperPtr, UInt32 WorkQueueID, UInt64 DeadlineHNS)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperDeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeadlineHNS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1138",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperDeadlineStop(Pointer WrapperPtr, UInt32 WorkQueueID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperDeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1139",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperLoopRunningStart(Pointer WrapperPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperLoopRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1140",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperLoopRunningStop(Pointer WrapperPtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperLoopRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1141",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperCompactedoutput(Pointer WrapperPtr, UInt64 SampleTimestamp, UInt64 Duration0, UInt64 Duration1, UInt64 DurationResult)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperCompactedoutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration0"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DurationResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1145",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessInputStart(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt64 SampleTimestamp, UInt64 Duration, UInt32 InputQueueLength, UInt32 ShatterInputSamples, UInt32 BufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputQueueLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShatterInputSamples"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1146",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessInputStop(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt32 InputQueueLength, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputQueueLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1147",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncWrapperProcessInput(Pointer WrapperPtr, UInt32 StreamID, UInt32 BufferIndex, UInt64 Timestamp, UInt64 Duration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationAsyncWrapperProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1150",
+        "version": "0",
+        "event(fields)": "MediaFoundationVideoFrameConstrict(UInt64 bandwidthInPixels)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationVideoFrameConstrict",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "bandwidthInPixels"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1151",
+        "version": "0",
+        "event(fields)": "MediaFoundationOPMFail(HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationOPMFail",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1160",
+        "version": "0",
+        "event(fields)": "MediaFoundationPMPServerProxy_LaunchedProcess(UInt32 ProcessID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationPMPServerProxy_LaunchedProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1200",
+        "version": "0",
+        "event(fields)": "task_01200(UInt32 ComponentType, UInt32 SettingType, Int32 Result)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SettingType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1201",
+        "version": "0",
+        "event(fields)": "task_01201(UInt32 ComponentType, UInt32 SettingType, Int32 Result)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SettingType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1202",
+        "version": "0",
+        "event(fields)": "MFDevproxyMFTProcessMessageTask(Pointer Object, UInt32 eMessage, UInt32 ulParam)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDevproxyMFTProcessMessageTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "eMessage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulParam"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1203",
+        "version": "0",
+        "event(fields)": "D3DDeviceLost(HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "D3DDeviceLost",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1204",
+        "version": "0",
+        "event(fields)": "MFDevproxysample_TimeStampTask(UnicodeString DeviceStreamName, UInt32 DeviceStreamId, UInt32 MFTStreamId, Pointer samplePointer, UInt64 DriverTimeStamp, UInt64 SystemTimeStamp, UInt64 SampleCompletionNumber, AnsiString FlagTimeStamp, AnsiString StreamName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDevproxysample_TimeStampTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceStreamName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceStreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MFTStreamId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "samplePointer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DriverTimeStamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SystemTimeStamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleCompletionNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FlagTimeStamp"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "StreamName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1205",
+        "version": "0",
+        "event(fields)": "MediaFoundationSyncMFTRunningStart(Pointer ObjectPtr, UInt32 WorkQueueID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationSyncMFTRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ObjectPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1206",
+        "version": "0",
+        "event(fields)": "MediaFoundationSyncMFTRunningStop(Pointer ObjectPtr, UInt32 WorkQueueID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationSyncMFTRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ObjectPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1207",
+        "version": "0",
+        "event(fields)": "MediaFoundationSyncProcessInput(MFT)Start(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt32 RemainingInputRequests, UInt32 RemainingQueuedInputSamples)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationSyncProcessInput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingInputRequests"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingQueuedInputSamples"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1208",
+        "version": "0",
+        "event(fields)": "MediaFoundationSyncProcessInput(MFT)Stop(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt64 SampleTimestamp, UInt32 InputQueueLength, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationSyncProcessInput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputQueueLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1209",
+        "version": "0",
+        "event(fields)": "MediaFoundationSyncProcessOutput(MFT)Start(Pointer WrapperPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationSyncProcessOutput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1210",
+        "version": "0",
+        "event(fields)": "MediaFoundationSyncProcessOutput(MFT)Stop(Pointer WrapperPtr, Pointer SamplePtr, UInt64 SampleTime, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationSyncProcessOutput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1211",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncProcessInput(MFT)Start(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt32 RemainingInputRequests, UInt32 RemainingQueuedInputSamples)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncProcessInput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingInputRequests"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingQueuedInputSamples"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1212",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncProcessInput(MFT)Stop(Pointer WrapperPtr, UInt32 StreamID, Pointer SamplePtr, UInt64 SampleTimestamp, UInt32 InputQueueLength, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncProcessInput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTimestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputQueueLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1213",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncProcessOutput(MFT)Start(Pointer WrapperPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationAsyncProcessOutput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1214",
+        "version": "0",
+        "event(fields)": "MediaFoundationAsyncProcessOutput(MFT)Stop(Pointer WrapperPtr, Pointer SamplePtr, UInt64 SampleTime, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationAsyncProcessOutput(MFT)",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WrapperPtr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1215",
+        "version": "0",
+        "event(fields)": "MediaFoundationNodeInfoSetWorkQueue(Pointer ObjectPtr, UInt32 WorkQueueID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationNodeInfoSetWorkQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ObjectPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1300",
+        "version": "0",
+        "event(fields)": "MFDSReceiveSampleCP(Pointer Object, Pointer SamplePtr, Int64 Timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDSReceiveSampleCP",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePtr"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1301",
+        "version": "0",
+        "event(fields)": "MFDSSendSampleEvent(Pointer Object, Int32 StreamID, Pointer Sample, Int64 Timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDSSendSampleEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1302",
+        "version": "0",
+        "event(fields)": "MFDSSamplePoolPending(Pointer Object, Pointer Sample, Int32 PendingCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDSSamplePoolPending",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PendingCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1303",
+        "version": "0",
+        "event(fields)": "MFDSQueueSample(Pointer Object, Int32 StreamID, Pointer Sample, Int64 TimeStamp, Int32 QueueLen)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDSQueueSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "QueueLen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1304",
+        "version": "0",
+        "event(fields)": "MFDSRequestSample(Pointer Object, Int32 StreamID, Pointer Token, Int32 QueueLen)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDSRequestSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "QueueLen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1305",
+        "version": "0",
+        "event(fields)": "MFDSFillSampleRequest(Pointer Object, Int32 StreamID, Pointer Sample, Pointer Token, Int32 SampleQueueLen, Int32 RequestQueueLen)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDSFillSampleRequest",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SampleQueueLen"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "RequestQueueLen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1306",
+        "version": "0",
+        "event(fields)": "MFDS_GetTime(Pointer Object, Int64 tsOrig, Int64 sysOrig, Int64 tsFixed, Int64 sysFixed, Int64 rtNow, Int64 tsOut, Int64 tsOut_ms, Int64 Diff_Now_LastSys_ms, Int32 Fixed, Int32 State)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFDS_GetTime",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "tsOrig"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sysOrig"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "tsFixed"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "sysFixed"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtNow"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "tsOut"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "tsOut_ms"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Diff_Now_LastSys_ms"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Fixed"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1307",
+        "version": "0",
+        "event(fields)": "MFDS_StateStart(Pointer Object, Int32 State)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFDS_State",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1308",
+        "version": "0",
+        "event(fields)": "MFDS_StateStop(Pointer Object, Int32 State)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFDS_State",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1310",
+        "version": "0",
+        "event(fields)": "SrcPrefetchFillBufferStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SrcPrefetchFillBuffer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1311",
+        "version": "0",
+        "event(fields)": "SrcPrefetchFillBufferStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SrcPrefetchFillBuffer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1312",
+        "version": "0",
+        "event(fields)": "SrcStreamEOSState(Pointer Object, Int32 StreamID, Int32 Oldstate, Int32 Newstate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SrcStreamEOSState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Oldstate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Newstate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1313",
+        "version": "0",
+        "event(fields)": "SrcStreamNeedMoreSamples(Pointer Object, Int32 UseSampleBasedBuffering, Float Rate, Int32 IsEOS, Int32 UnprocessedSamples, Int32 Prerolled)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SrcStreamNeedMoreSamples",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UseSampleBasedBuffering"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Rate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "IsEOS"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UnprocessedSamples"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Prerolled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1314",
+        "version": "0",
+        "event(fields)": "SrcPrefetchTimeoutStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SrcPrefetchTimeout",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1315",
+        "version": "0",
+        "event(fields)": "SrcPrefetchTimeoutStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SrcPrefetchTimeout",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1316",
+        "version": "0",
+        "event(fields)": "SrcPrefetchTimeout(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SrcPrefetchTimeout",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1317",
+        "version": "0",
+        "event(fields)": "SrcStreamRequestSampleTimeoutStart(Pointer Object, Pointer Token)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SrcStreamRequestSampleTimeout",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Token"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1318",
+        "version": "0",
+        "event(fields)": "SrcStreamRequestSampleTimeoutStop(Pointer Object, Pointer Token)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SrcStreamRequestSampleTimeout",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Token"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1350",
+        "version": "0",
+        "event(fields)": "MPCreateQTMovieStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MPCreateQTMovie",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1351",
+        "version": "0",
+        "event(fields)": "MPCreateQTMovieStop(Pointer Object, Int32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MPCreateQTMovie",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1352",
+        "version": "0",
+        "event(fields)": "MPSampleQueue(Pointer Object, Int32 StreamID, Int32 SampleCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPSampleQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SampleCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1353",
+        "version": "0",
+        "event(fields)": "MPCompactAudioSample(Pointer Object, Int32 StreamID, Int64 timestamps, Int64 prevDuration, Int64 newDuration, Int64 mergedDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPCompactAudioSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "timestamps"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "prevDuration"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "newDuration"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "mergedDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1417",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTInitializationStart(UnicodeString SymLink)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymLink"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1418",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTInitializationStart1418(HexInt32 hr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1419",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTSetOutputTypeInitializationStart(UInt32 PinId, AnsiString MediaType, UInt32 PinState)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTSetOutputTypeInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PinState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1420",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTSetOutputTypeInitializationStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTSetOutputTypeInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1421",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTInputStreamStateChangedStart(UInt32 PinId, AnsiString MediaType, UInt32 PinState)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTInputStreamStateChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PinState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1422",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTInputStreamStateChangedStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTInputStreamStateChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1423",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTProcessOutput(Pointer Object, Int32 StreamID, Pointer Sample, Int64 Timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTProcessOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1424",
+        "version": "0",
+        "event(fields)": "MediaFoundationDeviceMFTMErrorThrown(HexInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaFoundationDeviceMFTMErrorThrown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1425",
+        "version": "0",
+        "event(fields)": "DeviceMFTMDeviceTransformSetOutputTypeStart(UInt32 PinId, AnsiString MediaType, UInt32 PinState)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DeviceMFTMDeviceTransformSetOutputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PinState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF",
+        "event_id": "1426",
+        "version": "0",
+        "event(fields)": "DeviceMFTMDeviceTransformSetOutputTypeStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DeviceMFTMDeviceTransformSetOutputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    }
+]

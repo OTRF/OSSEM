@@ -1,0 +1,1640 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "NameCreate(Pointer FileKey, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILENAME",
+        "task": "NameCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "NameDelete(Pointer FileKey, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILENAME",
+        "task": "NameDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "Create(Pointer Irp, Pointer ThreadId, Pointer FileObject, UInt32 CreateOptions, UInt32 CreateAttributes, UInt32 ShareAccess, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_CREATE",
+        "task": "Create",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateAttributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShareAccess"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "Create_V1(Pointer Irp, Pointer FileObject, UInt32 IssuingThreadId, UInt32 CreateOptions, UInt32 CreateAttributes, UInt32 ShareAccess, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_CREATE",
+        "task": "Create",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateAttributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShareAccess"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "Cleanup(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Cleanup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "Cleanup_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Cleanup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "Close(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Close",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "Close_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Close",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "Read(UInt64 ByteOffset, Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, UInt32 IOSize, UInt32 IOFlags)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_READ",
+        "task": "Read",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ByteOffset"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "Read_V1(UInt64 ByteOffset, Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId, UInt32 IOSize, UInt32 IOFlags, UInt32 ExtraFlags)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_READ",
+        "task": "Read",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ByteOffset"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExtraFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Write(UInt64 ByteOffset, Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, UInt32 IOSize, UInt32 IOFlags)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_WRITE",
+        "task": "Write",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ByteOffset"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "Write_V1(UInt64 ByteOffset, Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId, UInt32 IOSize, UInt32 IOFlags, UInt32 ExtraFlags)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_WRITE",
+        "task": "Write",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ByteOffset"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IOFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExtraFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "SetInformation(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "SetInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "SetInformation_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "SetInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "SetDelete(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "SetDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "18",
+        "version": "1",
+        "event(fields)": "SetDelete_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "SetDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "Rename(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Rename",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "Rename_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Rename",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "DirEnum(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, UInt32 Length, UInt32 InfoClass, UInt32 FileIndex, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "DirEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "DirEnum_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId, UInt32 Length, UInt32 InfoClass, UInt32 FileIndex, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "DirEnum",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "Flush(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "21",
+        "version": "1",
+        "event(fields)": "Flush_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "QueryInformation(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "QueryInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "22",
+        "version": "1",
+        "event(fields)": "QueryInformation_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "QueryInformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "FSCTL(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "FSCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "23",
+        "version": "1",
+        "event(fields)": "FSCTL_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "FSCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "OperationEnd(Pointer Irp, Pointer ExtraInformation, UInt32 Status)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_OP_END",
+        "task": "OperationEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "DirNotify(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, UInt32 Length, UInt32 InfoClass, UInt32 FileIndex, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "DirNotify",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "25",
+        "version": "1",
+        "event(fields)": "DirNotify_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId, UInt32 Length, UInt32 InfoClass, UInt32 FileIndex, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "DirNotify",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "DeletePath(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_DELETE_PATH",
+        "task": "DeletePath",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "26",
+        "version": "1",
+        "event(fields)": "DeletePath_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_DELETE_PATH",
+        "task": "DeletePath",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "RenamePath(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH",
+        "task": "RenamePath",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "27",
+        "version": "1",
+        "event(fields)": "RenamePath_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH",
+        "task": "RenamePath",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "SetLinkPath(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH",
+        "task": "SetLinkPath",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "28",
+        "version": "1",
+        "event(fields)": "SetLinkPath_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH",
+        "task": "SetLinkPath",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Rename29(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Rename",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "29",
+        "version": "1",
+        "event(fields)": "Rename29_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "Rename",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "CreateNewFile(Pointer Irp, Pointer ThreadId, Pointer FileObject, UInt32 CreateOptions, UInt32 CreateAttributes, UInt32 ShareAccess, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_CREATE_NEW_FILE",
+        "task": "CreateNewFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateAttributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShareAccess"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "30",
+        "version": "1",
+        "event(fields)": "CreateNewFile_V1(Pointer Irp, Pointer FileObject, UInt32 IssuingThreadId, UInt32 CreateOptions, UInt32 CreateAttributes, UInt32 ShareAccess, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_CREATE_NEW_FILE",
+        "task": "CreateNewFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreateAttributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShareAccess"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "31",
+        "version": "1",
+        "event(fields)": "SetSecurity_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "SetSecurity",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "32",
+        "version": "1",
+        "event(fields)": "QuerySecurity_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "QuerySecurity",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "33",
+        "version": "1",
+        "event(fields)": "SetEA_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "SetEA",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-File",
+        "event_id": "34",
+        "version": "1",
+        "event(fields)": "QueryEA_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass)",
+        "opcode": "",
+        "keywords": "KERNEL_FILE_KEYWORD_FILEIO",
+        "task": "QueryEA",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ExtraInformation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IssuingThreadId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            }
+        ]
+    }
+]

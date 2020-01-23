@@ -1,0 +1,2818 @@
+[
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_ALLOCVM(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_ALLOCVM_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_ALLOCVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_PROTECTVM(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 ProtectionMask, UInt32 LastProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_PROTECTVM_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_PROTECTVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_MAPVIEW(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer ViewSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_MAPVIEW_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_MAPVIEW",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_QUEUEUSERAPC(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 TargetThreadId, FILETIME TargetThreadCreateTime, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, UInt8 TargetThreadAlertable, Pointer ApcRoutine, Pointer ApcArgument1, Pointer ApcArgument2, Pointer ApcArgument3, FILETIME RealEventTime, UInt32 ApcRoutineVadQueryResult, Pointer ApcRoutineVadAllocationBase, UInt32 ApcRoutineVadAllocationProtect, UInt32 ApcRoutineVadRegionType, Pointer ApcRoutineVadRegionSize, Pointer ApcRoutineVadCommitSize, UnicodeString ApcRoutineVadMmfName, UInt32 ApcArgument1VadQueryResult, Pointer ApcArgument1VadAllocationBase, UInt32 ApcArgument1VadAllocationProtect, UInt32 ApcArgument1VadRegionType, Pointer ApcArgument1VadRegionSize, Pointer ApcArgument1VadCommitSize, UnicodeString ApcArgument1VadMmfName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_QUEUEUSERAPC_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_QUEUEUSERAPC",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetThreadAlertable"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutine"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument3"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "RealEventTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcRoutineVadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutineVadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcRoutineVadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcRoutineVadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutineVadRegionSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutineVadCommitSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApcRoutineVadMmfName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcArgument1VadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1VadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcArgument1VadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcArgument1VadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1VadRegionSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1VadCommitSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApcArgument1VadMmfName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SETTHREADCONTEXT(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 TargetThreadId, FILETIME TargetThreadCreateTime, UInt32 ContextFlags, UInt16 ContextMask, Pointer Pc, Pointer Sp, Pointer Lr, Pointer Fp, Pointer Reg0, Pointer Reg1, Pointer Reg2, Pointer Reg3, Pointer Reg4, Pointer Reg5, Pointer Reg6, Pointer Reg7, FILETIME RealEventTime, UInt32 PcVadQueryResult, Pointer PcVadAllocationBase, UInt32 PcVadAllocationProtect, UInt32 PcVadRegionType, Pointer PcVadRegionSize, Pointer PcVadCommitSize, UnicodeString PcVadMmfName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_SETTHREADCONTEXT_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_SETTHREADCONTEXT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ContextMask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Pc"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Lr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg0"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg4"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg5"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg6"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg7"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "RealEventTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcVadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PcVadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcVadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcVadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PcVadRegionSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PcVadCommitSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PcVadMmfName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_ALLOCVM6(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_ALLOCVM_LOCAL",
+        "task": "KERNEL_THREATINT_TASK_ALLOCVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_PROTECTVM7(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 ProtectionMask, UInt32 LastProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_PROTECTVM_LOCAL",
+        "task": "KERNEL_THREATINT_TASK_PROTECTVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_MAPVIEW8(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer ViewSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_MAPVIEW_LOCAL",
+        "task": "KERNEL_THREATINT_TASK_MAPVIEW",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_READVM(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer BytesCopied)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_READVM_LOCAL",
+        "task": "KERNEL_THREATINT_TASK_READVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BytesCopied"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_WRITEVM(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer BytesCopied)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_WRITEVM_LOCAL",
+        "task": "KERNEL_THREATINT_TASK_WRITEVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BytesCopied"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_READVM13(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer BytesCopied)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_READVM_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_READVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BytesCopied"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_WRITEVM14(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer BytesCopied)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_WRITEVM_REMOTE",
+        "task": "KERNEL_THREATINT_TASK_WRITEVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BytesCopied"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SUSPENDRESUME_THREAD(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 TargetThreadId, FILETIME TargetThreadCreateTime)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_SUSPEND_THREAD",
+        "task": "KERNEL_THREATINT_TASK_SUSPENDRESUME_THREAD",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetThreadCreateTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SUSPENDRESUME_THREAD16(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 TargetThreadId, FILETIME TargetThreadCreateTime)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_RESUME_THREAD",
+        "task": "KERNEL_THREATINT_TASK_SUSPENDRESUME_THREAD",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetThreadCreateTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_SUSPEND_PROCESS",
+        "task": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS18(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_RESUME_PROCESS",
+        "task": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS19(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_FREEZE_PROCESS",
+        "task": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS20(UInt32 OperationStatus, UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_THAW_PROCESS",
+        "task": "KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_ALLOCVM21(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_ALLOCVM_REMOTE_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_ALLOCVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_PROTECTVM22(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 ProtectionMask, UInt32 LastProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_PROTECTVM_REMOTE_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_PROTECTVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_MAPVIEW23(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer ViewSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_MAPVIEW_REMOTE_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_MAPVIEW",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_QUEUEUSERAPC24(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 TargetThreadId, FILETIME TargetThreadCreateTime, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, UInt8 TargetThreadAlertable, Pointer ApcRoutine, Pointer ApcArgument1, Pointer ApcArgument2, Pointer ApcArgument3, FILETIME RealEventTime, UInt32 ApcRoutineVadQueryResult, Pointer ApcRoutineVadAllocationBase, UInt32 ApcRoutineVadAllocationProtect, UInt32 ApcRoutineVadRegionType, Pointer ApcRoutineVadRegionSize, Pointer ApcRoutineVadCommitSize, UnicodeString ApcRoutineVadMmfName, UInt32 ApcArgument1VadQueryResult, Pointer ApcArgument1VadAllocationBase, UInt32 ApcArgument1VadAllocationProtect, UInt32 ApcArgument1VadRegionType, Pointer ApcArgument1VadRegionSize, Pointer ApcArgument1VadCommitSize, UnicodeString ApcArgument1VadMmfName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_QUEUEUSERAPC_REMOTE_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_QUEUEUSERAPC",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetThreadAlertable"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutine"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument3"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "RealEventTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcRoutineVadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutineVadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcRoutineVadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcRoutineVadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutineVadRegionSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcRoutineVadCommitSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApcRoutineVadMmfName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcArgument1VadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1VadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcArgument1VadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApcArgument1VadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1VadRegionSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ApcArgument1VadCommitSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ApcArgument1VadMmfName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_SETTHREADCONTEXT25(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 TargetThreadId, FILETIME TargetThreadCreateTime, UInt32 ContextFlags, UInt16 ContextMask, Pointer Pc, Pointer Sp, Pointer Lr, Pointer Fp, Pointer Reg0, Pointer Reg1, Pointer Reg2, Pointer Reg3, Pointer Reg4, Pointer Reg5, Pointer Reg6, Pointer Reg7, FILETIME RealEventTime, UInt32 PcVadQueryResult, Pointer PcVadAllocationBase, UInt32 PcVadAllocationProtect, UInt32 PcVadRegionType, Pointer PcVadRegionSize, Pointer PcVadCommitSize, UnicodeString PcVadMmfName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_SETTHREADCONTEXT_REMOTE_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_SETTHREADCONTEXT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ContextMask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Pc"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Lr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Fp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg0"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg4"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg5"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg6"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Reg7"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "RealEventTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcVadQueryResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PcVadAllocationBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcVadAllocationProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PcVadRegionType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PcVadRegionSize"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PcVadCommitSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PcVadMmfName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_ALLOCVM26(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_ALLOCVM_LOCAL_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_ALLOCVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_PROTECTVM27(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32 OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey, UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel, UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32 ProtectionMask, UInt32 LastProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_PROTECTVM_LOCAL_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_PROTECTVM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OriginalProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_MAPVIEW28(UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel, UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, Pointer BaseAddress, Pointer ViewSize, UInt32 AllocationType, UInt32 ProtectionMask)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_MAPVIEW_LOCAL_KERNEL_CALLER",
+        "task": "KERNEL_THREATINT_TASK_MAPVIEW",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CallingProcessProtection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingThreadId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CallingThreadCreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "TargetProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetProcessStartKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessSectionSignatureLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetProcessProtection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectionMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_DRIVER_DEVICE(UInt16 DriverNameLength, UnicodeString DriverName, UInt32 CodeIntegrityOption)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_DRIVER_EVENTS",
+        "task": "KERNEL_THREATINT_TASK_DRIVER_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CodeIntegrityOption"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_DRIVER_DEVICE30(UInt16 DriverNameLength, UnicodeString DriverName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_DRIVER_EVENTS",
+        "task": "KERNEL_THREATINT_TASK_DRIVER_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_DRIVER_DEVICE31(UInt16 DriverNameLength, UnicodeString DriverName, UInt16 DeviceNameLength, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_DEVICE_EVENTS",
+        "task": "KERNEL_THREATINT_TASK_DRIVER_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Threat-Intelligence",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "KERNEL_THREATINT_TASK_DRIVER_DEVICE32(UInt16 DriverNameLength, UnicodeString DriverName, UInt16 DeviceNameLength, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "KERNEL_THREATINT_KEYWORD_DEVICE_EVENTS",
+        "task": "KERNEL_THREATINT_TASK_DRIVER_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DriverNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    }
+]

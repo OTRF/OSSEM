@@ -1,0 +1,68 @@
+[
+    {
+        "provider": "Microsoft-Windows-EnergyEfficiencyWizard",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "EnableProvidersNTKL(UInt32 KernelFlags)",
+        "opcode": "NTKL",
+        "keywords": "",
+        "task": "EnableProviders",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "KernelFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-EnergyEfficiencyWizard",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "EnableProvidersEtwProvider(GUID ProviderGUID, UInt32 Rundown)",
+        "opcode": "EtwProvider",
+        "keywords": "",
+        "task": "EnableProviders",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Rundown"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-EnergyEfficiencyWizard",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "TraceStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-EnergyEfficiencyWizard",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "TraceStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

@@ -1,0 +1,1162 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "LoggingWriteBuffer(UnicodeString SessionName, UnicodeString FileName, UInt32 ErrorCode, UInt32 LoggingMode)",
+        "opcode": "WriteBuffer",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Logging",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LoggingWriteBuffer1(UnicodeString SessionName, UInt32 ErrorCode, UInt32 LoggingMode)",
+        "opcode": "WriteBuffer",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Logging",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "SessionStart(UnicodeString SessionName, UnicodeString FileName, UInt32 ErrorCode, UInt32 LoggingMode)",
+        "opcode": "Start",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "SessionStop(UnicodeString SessionName, UnicodeString FileName, UInt32 ErrorCode, UInt32 LoggingMode)",
+        "opcode": "Stop",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "SessionStop_V1(UnicodeString SessionName, UnicodeString FileName, UInt32 ErrorCode, UInt32 LoggingMode, UInt32 FailureReason)",
+        "opcode": "Stop",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "LoggingWriteBuffer4(UnicodeString SessionName, UnicodeString FileName, UInt32 ErrorCode, UInt32 LoggingMode, UInt64 MaxFileSize)",
+        "opcode": "WriteBuffer",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Logging",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxFileSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "LoggingFileSwitch(UnicodeString SessionName, UnicodeString FileName, UInt32 ErrorCode, UInt32 LoggingMode)",
+        "opcode": "FileSwitch",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Logging",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggingMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ProviderRegister(GUID ProviderName)",
+        "opcode": "Register",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ProviderUnregister(GUID ProviderName)",
+        "opcode": "Unregister",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "SessionStart10(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName)",
+        "opcode": "Start",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "SessionStart10_V1(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName, UInt32 MinimumBuffers, UInt32 MaximumBuffers, UInt32 BufferSize, UInt32 PeakBuffersCount, UInt32 CurrentBuffersCount, UInt32 FlushThreshold)",
+        "opcode": "Start",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinimumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlushThreshold"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "SessionStop11(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName)",
+        "opcode": "Stop",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "SessionStop11_V1(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName, UInt32 MinimumBuffers, UInt32 MaximumBuffers, UInt32 BufferSize, UInt32 PeakBuffersCount, UInt32 CurrentBuffersCount, UInt32 FlushThreshold)",
+        "opcode": "Stop",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinimumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlushThreshold"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "11",
+        "version": "2",
+        "event(fields)": "SessionStop11_V2(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName, UInt32 MinimumBuffers, UInt32 MaximumBuffers, UInt32 BufferSize, UInt32 PeakBuffersCount, UInt32 CurrentBuffersCount, UInt32 FlushThreshold, UInt32 EventsLost, UInt32 BuffersLost, UInt32 RealTimeBuffersLost, UInt32 LoggerId)",
+        "opcode": "Stop",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinimumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlushThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsLost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersLost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RealTimeBuffersLost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "SessionConfigure(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName)",
+        "opcode": "Configure",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "SessionFlush(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName)",
+        "opcode": "Flush",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "ProviderEnable(GUID ProviderName, UnicodeString SessionName)",
+        "opcode": "Enable",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_ENABLEMENT",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "ProviderEnable_V1(GUID ProviderName, UnicodeString SessionName, UInt64 MatchAnyKeyword, UInt64 MatchAllKeyword, UInt32 EnableProperty, UInt8 Level)",
+        "opcode": "Enable",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_ENABLEMENT",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MatchAnyKeyword"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MatchAllKeyword"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnableProperty"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Level"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "ProviderDisable(GUID ProviderName, UnicodeString SessionName)",
+        "opcode": "Disable",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_ENABLEMENT",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "SessionConfigure17(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName)",
+        "opcode": "Configure",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "StackTraceUserModeStackTrace()",
+        "opcode": "UserModeStackTrace",
+        "keywords": "",
+        "task": "StackTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "LostEvent(GUID ProviderId, UInt32 StatusCode, UInt16 EventId, UnicodeString SessionName)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_LOST_EVENT",
+        "task": "LostEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "Session(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName, UInt32 MinimumBuffers, UInt32 MaximumBuffers, UInt32 BufferSize, UInt32 PeakBuffersCount, UInt32 CurrentBuffersCount, UInt32 FlushThreshold)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_SESSION",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinimumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlushThreshold"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "Session_V1(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName, UnicodeString LogFileName, UInt32 MinimumBuffers, UInt32 MaximumBuffers, UInt32 BufferSize, UInt32 PeakBuffersCount, UInt32 CurrentBuffersCount, UInt32 FlushThreshold, UInt32 EventsLost, UInt32 BuffersLost, UInt32 RealTimeBuffersLost, UInt32 LoggerId)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_SESSION ETW_KEYWORD_CAPTURE_STATE",
+        "task": "Session",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SessionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogFileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinimumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentBuffersCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlushThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsLost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersLost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RealTimeBuffersLost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoggerId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "SavePersistedLoggerStart_8_1()",
+        "opcode": "Start_8_1",
+        "keywords": "ETW_KEYWORD_SOFT_RESTART",
+        "task": "SavePersistedLogger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "SavePersistedLoggerStop_8_2(UnicodeString FileName, UInt32 BufferSize, UInt32 BuffersPersisted, UInt32 BuffersWritten, UInt32 Status)",
+        "opcode": "Stop_8_2",
+        "keywords": "ETW_KEYWORD_SOFT_RESTART",
+        "task": "SavePersistedLogger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersPersisted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersWritten"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "22",
+        "version": "1",
+        "event(fields)": "SavePersistedLoggerStop_8_2_V1(UnicodeString FileName, UInt32 BufferSize, UInt32 BuffersPersisted, UInt32 BuffersWritten, UInt32 Status, UInt32 BuffersLost)",
+        "opcode": "Stop_8_2",
+        "keywords": "ETW_KEYWORD_SOFT_RESTART",
+        "task": "SavePersistedLogger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersPersisted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersWritten"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersLost"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "SavePersistedLogger(UnicodeString FileName, UInt32 BufferSize, UInt32 BuffersPersisted, UInt32 BuffersWritten, UInt32 Status)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_SOFT_RESTART",
+        "task": "SavePersistedLogger",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersPersisted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersWritten"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "23",
+        "version": "1",
+        "event(fields)": "SavePersistedLogger_V1(UnicodeString FileName, UInt32 BufferSize, UInt32 BuffersPersisted, UInt32 BuffersWritten, UInt32 Status, UInt32 BuffersLost)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_SOFT_RESTART",
+        "task": "SavePersistedLogger",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersPersisted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersWritten"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersLost"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "GUIDEntry(GUID GUID, UInt32 FilterFlags, UInt16 LastEnableLoggerId)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_CAPTURE_STATE",
+        "task": "GUIDEntry",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "GUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FilterFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastEnableLoggerId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "ProviderGroupEntry(GUID GUID, UInt32 FilterFlags, UInt16 LastEnableLoggerId)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_CAPTURE_STATE ETW_KEYWORD_GROUP",
+        "task": "ProviderGroupEntry",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "GUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FilterFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastEnableLoggerId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "EnableInfo(GUID GUID, UInt8 Index, UInt16 LoggerId, UInt64 MatchAnyKeyword, UInt64 MatchAllKeyword, UInt8 Level, UInt32 EnableProperty)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_CAPTURE_STATE",
+        "task": "EnableInfo",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "GUID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LoggerId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MatchAnyKeyword"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MatchAllKeyword"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnableProperty"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Provider(GUID ProviderGUID, GUID GroupGUID, UInt16 Flags, UInt8 EnableMask, UInt8 GroupEnableMask, UInt32 ProcessId)",
+        "opcode": "",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_CAPTURE_STATE",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderGUID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupGUID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "EnableMask"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "GroupEnableMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "ProviderSetProviderTraits(GUID ProviderGuid, UInt32 ErrorCode)",
+        "opcode": "SetProviderTraits",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION ETW_KEYWORD_GROUP",
+        "task": "Provider",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-EventTracing",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "ProviderJoinProviderGroup(GUID ProviderGuid, GUID ProviderGroupGuid)",
+        "opcode": "JoinProviderGroup",
+        "keywords": "ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION ETW_KEYWORD_GROUP",
+        "task": "Provider",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderGroupGuid"
+            }
+        ]
+    }
+]

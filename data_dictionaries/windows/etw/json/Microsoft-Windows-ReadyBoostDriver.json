@@ -1,0 +1,900 @@
+[
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "1",
+        "version": "2",
+        "event(fields)": "StoreReadStart_V2(UInt64 ByteOffset, Pointer Irp, UInt32 ByteLength, UInt32 Flags, Pointer FileKey, UInt16 StoreId, UInt16 VolumeId)",
+        "opcode": "Start",
+        "keywords": "StoreOps",
+        "task": "StoreRead",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ByteOffset"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StoreId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "StoreReadStop_V1(Pointer Irp, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "StoreOps",
+        "task": "StoreRead",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "3",
+        "version": "2",
+        "event(fields)": "StoreAdd_V2(UInt64 DataKey, Pointer DataMgr, UInt32 StoreOffset, UInt16 CompressedSize, UInt16 Flags)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreOffset"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CompressedSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "StoreRemove_V1(UInt64 DataKey, Pointer DataMgr, UInt32 StoreOffset)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "StoreDelete_V1(Pointer StoreKey)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "VolumeMapRundown_V1(UInt16 VolumeId, UInt16 VolumeNameLength, UnicodeString VolumePath)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "VolumeMapRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "9",
+        "version": "1",
+        "event(fields)": "VolumeMapCreate_V1(UInt16 VolumeId, UInt16 VolumeNameLength, UnicodeString VolumePath)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "VolumeMapCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "VolumeMapRemove_V1(UInt16 VolumeId, UInt16 VolumeNameLength, UnicodeString VolumePath)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "VolumeMapRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "StoreIgnoredIO_V1(Pointer Irp, UInt16 Reason, UInt16 Flags)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreIgnoredIO",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "12",
+        "version": "2",
+        "event(fields)": "ReadyBootIO_V2(UInt64 StartTime, UInt64 ByteOffset, Pointer FileKey, Pointer ProcessKey, UInt32 ByteLength, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "ReadyBoot",
+        "task": "ReadyBootIO",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ByteOffset"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FileKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ProcessKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "StoreCorruption_V1(Pointer DataMgr, Pointer VirtualAddress, UInt64 PhysicalAddress, UInt16 Size, UInt8 FileBacked, UInt8 CorruptionType, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "StoreOps StoreDiag",
+        "task": "StoreCorruption",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "VirtualAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PhysicalAddress"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FileBacked"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CorruptionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "StorePageRundown_V1(UInt64 DataKey, Pointer DataMgr, UInt32 StoreOffset, UInt16 CompressedSize, UInt16 Flags)",
+        "opcode": "",
+        "keywords": "StoreContentsRundown",
+        "task": "StorePageRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreOffset"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CompressedSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "15",
+        "version": "2",
+        "event(fields)": "RegionEvict_V2(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "RegionEvict",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "16",
+        "version": "2",
+        "event(fields)": "RegionWrite_V2(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "RegionWrite",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "UnpersistFailure_V1(UInt32 FailReason, HexInt32 FailStatus, UInt16 ObjectPathLength, UnicodeString ObjectPath)",
+        "opcode": "",
+        "keywords": "StoreOps StoreDiag",
+        "task": "UnpersistFailure",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FailReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "18",
+        "version": "1",
+        "event(fields)": "UserActive_V1(UInt8 UserActive)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "UserActive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "UserActive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "StoreIoStats_V1(Pointer StoreKey, UInt32 Size, Binary Data)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreIoStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "GlobalStats_V1(UInt32 Size, Binary Data)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "GlobalStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "21",
+        "version": "1",
+        "event(fields)": "StoreEmpty_V1(Pointer StoreKey, Pointer Param)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "StoreEmpty",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "StoreKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "22",
+        "version": "1",
+        "event(fields)": "RegionRelease_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreOps",
+        "task": "RegionRelease",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "23",
+        "version": "1",
+        "event(fields)": "RegionCompactStart_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "Start",
+        "keywords": "StoreOps",
+        "task": "RegionCompact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "24",
+        "version": "1",
+        "event(fields)": "RegionCompactStop_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "Stop",
+        "keywords": "StoreOps",
+        "task": "RegionCompact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "25",
+        "version": "1",
+        "event(fields)": "RegionRundown_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status, UInt16 SpaceUsed, UInt16 LastAccessTime)",
+        "opcode": "",
+        "keywords": "StoreContentsRundown",
+        "task": "RegionRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DataMgr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SpaceUsed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LastAccessTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "26",
+        "version": "1",
+        "event(fields)": "WriteEvict_V1(UInt64 DataKey, UInt64 LengthInBytes)",
+        "opcode": "",
+        "keywords": "StoreContentsRundown",
+        "task": "WriteEvict",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DataKey"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthInBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "27",
+        "version": "1",
+        "event(fields)": "CacheTermination_V1(UInt8 Reason, HexInt32 FailStatus, UInt16 DeviceDescLength, UnicodeString DeviceDescription, UInt16 ObjectPathLength, UnicodeString ObjectPath)",
+        "opcode": "",
+        "keywords": "StoreOps StoreDiag",
+        "task": "CacheTermination",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceDescLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceDescription"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ObjectPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "28",
+        "version": "1",
+        "event(fields)": "ReadyBootPeriodicStats_V1(UInt32 Size, Binary Data)",
+        "opcode": "",
+        "keywords": "ReadyBoot",
+        "task": "ReadyBootPeriodicStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 SqmType, GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmStreamRowLength, Int16 SqmStreamRow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SqmStreamRow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "30",
+        "version": "1",
+        "event(fields)": "ReadyBootCacheOp_V1(Pointer Key, UInt32 Operation, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "ReadyBoot StoreDiag",
+        "task": "ReadyBootCacheOp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "31",
+        "version": "1",
+        "event(fields)": "HbdrvIrpTag_V1(UInt64 VolumeOffset, UInt32 Length, UInt8 Read, UInt16 Priority, UInt8 PartialBmpHit)",
+        "opcode": "",
+        "keywords": "StoreDiag",
+        "task": "HbdrvIrpTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "VolumeOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Read"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PartialBmpHit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "SyncCallStart(Pointer Key)",
+        "opcode": "Start",
+        "keywords": "ReadyBoot",
+        "task": "SyncCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Key"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ReadyBoostDriver",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "SyncCallStop(Pointer Key, UInt32 Flags)",
+        "opcode": "Stop",
+        "keywords": "ReadyBoot",
+        "task": "SyncCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    }
+]

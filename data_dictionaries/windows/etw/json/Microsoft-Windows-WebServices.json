@@ -1,0 +1,448 @@
+[
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "APIsAPIEnter(UInt32 api)",
+        "opcode": "APIEnter",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "APIsAPIExitSyncSuccess(UInt32 api, UInt32 result)",
+        "opcode": "APIExitSyncSuccess",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "APIsAPIExitSyncFailure(UInt32 api, UInt32 result)",
+        "opcode": "APIExitSyncFailure",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "APIsAPIPending(UInt32 api)",
+        "opcode": "APIPending",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "APIsAPIExitAsyncSuccess(UInt32 api, UInt32 result)",
+        "opcode": "APIExitAsyncSuccess",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "APIsAPIExitAsyncFailure(UInt32 api, UInt32 result)",
+        "opcode": "APIExitAsyncFailure",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "ErrorsError(UInt32 error, UnicodeString errorString)",
+        "opcode": "Error",
+        "keywords": "keywords.Error",
+        "task": "Errors",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "errorString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "IOOperationsIOStarted(UInt32 operation)",
+        "opcode": "IOStarted",
+        "keywords": "keywords.IO",
+        "task": "IOOperations",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "operation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "IOOperationsIOCompleted(UInt32 operation, UInt32 size)",
+        "opcode": "IOCompleted",
+        "keywords": "keywords.IO",
+        "task": "IOOperations",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "IOOperationsIOFailed(UInt32 operation, UInt32 error)",
+        "opcode": "IOFailed",
+        "keywords": "keywords.IO",
+        "task": "IOOperations",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MessageExchangeSendingMessage_Binary(UInt64 correlationId, UInt16 length, UnicodeString message)",
+        "opcode": "SendingMessage_Binary",
+        "keywords": "keywords.BinaryMessage",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MessageExchangeReceivedMessage_Binary(UInt64 correlationId, UInt16 length, UnicodeString message)",
+        "opcode": "ReceivedMessage_Binary",
+        "keywords": "keywords.BinaryMessage",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MessageExchangeSendingMessage_Text(UInt64 correlationId, UInt16 length, UnicodeString message)",
+        "opcode": "SendingMessage_Text",
+        "keywords": "keywords.Message",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "MessageExchangeReceivedMessage_Text(UInt64 correlationId, UInt16 length, UnicodeString message)",
+        "opcode": "ReceivedMessage_Text",
+        "keywords": "keywords.Message",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "MessageExchangeSendingMessageStart(UInt64 correlationId)",
+        "opcode": "SendingMessageStart",
+        "keywords": "keywords.Message",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "MessageExchangeSendingMessageStop(UInt64 correlationId)",
+        "opcode": "SendingMessageStop",
+        "keywords": "keywords.Message",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "MessageExchangeReceivedMessageStart(UInt64 correlationId)",
+        "opcode": "ReceivedMessageStart",
+        "keywords": "keywords.Message",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "MessageExchangeReceivedMessageStop(UInt64 correlationId)",
+        "opcode": "ReceivedMessageStop",
+        "keywords": "keywords.Message",
+        "task": "MessageExchange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "correlationId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "APIsSendingHTTPheaders(UInt16 length, UnicodeString traceString)",
+        "opcode": "SendingHTTPheaders",
+        "keywords": "keywords.Message",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "traceString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "APIsReceivingHTTPheaders(UInt16 length, UnicodeString traceString)",
+        "opcode": "ReceivingHTTPheaders",
+        "keywords": "keywords.Message",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "traceString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebServices",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "APIsTrace(UnicodeString traceString)",
+        "opcode": "Trace",
+        "keywords": "keywords.Error",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "traceString"
+            }
+        ]
+    }
+]

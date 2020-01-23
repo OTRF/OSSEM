@@ -1,0 +1,564 @@
+[
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "OperationFailed(UInt32 OperationType, UnicodeString ProcessName, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "OperationFailed",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "GetUserStorageAreaFailed(UnicodeString ProcessName, UInt32 ProviderType, UInt32 MachineKeyset, Boolean AppContainer, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "GetUserStorageAreaFailed",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AppContainer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "OpenFileInStorageArea(UnicodeString ProcessName, Boolean MachineKeyset, UInt32 DesiredAccess, UnicodeString UserStorageArea, UnicodeString FileName, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "OpenFileInStorageArea",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesiredAccess"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserStorageArea"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DeleteFileInStorageArea(UnicodeString ProcessName, UnicodeString UserStoragePath, UnicodeString FileName, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeleteFileInStorageArea",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserStoragePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DeleteKeyContainer(UnicodeString ProcessName, UnicodeString UserStoragePath, AnsiString FileName, Boolean AppContainer, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeleteKeyContainer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserStoragePath"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AppContainer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MyCreateFile(UnicodeString ProcessName, Boolean MachineKeyset, UnicodeString FilePath, UInt32 DesiredAccess, UInt32 ShareMode, UInt32 CreationDisposition, UInt32 Attributes, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MyCreateFile",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesiredAccess"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShareMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationDisposition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Attributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "SetSecurityOnContainer(UnicodeString ProcessName, UnicodeString FileName, UInt32 ProviderType, Boolean MachineKeyset, UInt32 SecurityInformation, Boolean AppContainer, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SetSecurityOnContainer",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecurityInformation"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AppContainer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "CreateFileW(UnicodeString ProcessName, UnicodeString FilePath, UInt32 DesiredAccess, UInt32 ShareMode, UInt32 CreationDisposition, UInt32 Attributes, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CreateFileW",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesiredAccess"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShareMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationDisposition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Attributes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "DeleteFileW(UnicodeString ProcessName, UnicodeString FilePath, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeleteFileW",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "ReadContainerInfo(UnicodeString ProcessName, UInt32 ProviderType, AnsiString ContainerName, Boolean MachineKeyset, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ReadContainerInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ContainerName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "WriteContainerInfo(UnicodeString ProcessName, UInt32 ProviderType, UnicodeString ContainerName, Boolean MachineKeyset, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WriteContainerInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContainerName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "DeleteContainerInfo(UnicodeString ProcessName, UInt32 ProviderType, AnsiString ContainerName, Boolean MachineKeyset, Boolean AppContainer, UInt32 Status, UnicodeString ErrorDescription)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeleteContainerInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ContainerName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AppContainer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ReadContainerInfo13(UnicodeString ProcessName, UInt32 ProviderType, AnsiString ContainerName, Boolean MachineKeyset)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ReadContainerInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ContainerName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "WriteContainerInfo14(UnicodeString ProcessName, UInt32 ProviderType, UnicodeString ContainerName, Boolean MachineKeyset)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WriteContainerInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContainerName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-DSSEnh",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "DeleteContainerInfo15(UnicodeString ProcessName, UInt32 ProviderType, AnsiString ContainerName, Boolean MachineKeyset, Boolean AppContainer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeleteContainerInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProviderType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ContainerName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MachineKeyset"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AppContainer"
+            }
+        ]
+    }
+]

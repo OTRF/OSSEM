@@ -1,0 +1,495 @@
+[
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "smss:ExecuteImageStart(UInt32 Flags, UInt16 ImageNameLength, UnicodeString ImageName)",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:ExecuteImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ImageNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "smss:ExecuteImageStop(UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:ExecuteImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "smss:InitializeRegistryStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:InitializeRegistry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "smss:InitializeRegistryStop()",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:InitializeRegistry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "smss:SetupExecuteListStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:SetupExecuteList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "smss:SetupExecuteListStop()",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:SetupExecuteList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "smss:BootExecuteListStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:BootExecuteList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "smss:BootExecuteListStop()",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:BootExecuteList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "smss:ProcessFileRenamesStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:ProcessFileRenames",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "smss:ProcessFileRenamesStop()",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:ProcessFileRenames",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "smss:FileRename(UInt16 FromNameLength, UInt16 ToNameLength, UnicodeString FromName, UnicodeString ToName)",
+        "opcode": "",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:FileRename",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FromNameLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ToNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FromName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ToName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "task_0(UInt16 FileNameLength, UnicodeString FileName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "task_013(UnicodeString CurrentRunLevel, UnicodeString TargetRunLevel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentRunLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetRunLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_014(UnicodeString CurrentRunLevel, UnicodeString TargetRunLevel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentRunLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetRunLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_015(UnicodeString CurrentRunLevel, UnicodeString TargetRunLevel, UnicodeString AgentName, UnicodeString Error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentRunLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetRunLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AgentName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_016(UnicodeString CurrentRunLevel, UnicodeString TargetRunLevel, UnicodeString AgentName, UnicodeString Error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentRunLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetRunLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AgentName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "task_017()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "task_018(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "smss:BootExecuteNoPnpSyncListStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:BootExecuteNoPnpSyncList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "smss:BootExecuteNoPnpSyncListStop()",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:BootExecuteNoPnpSyncList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "smss:SerializeBootStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:SerializeBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "smss:SerializeBootStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:SerializeBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "smss:LoadSubsystemStart(UInt32 SessionId, UInt16 ImageNameLength, UnicodeString ImageName)",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:LoadSubsystem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ImageNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "smss:LoadSubsystemStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:LoadSubsystem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "smss:InitializeKnownDllsStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:InitializeKnownDlls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "smss:InitializeKnownDllsStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:InitializeKnownDlls",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "smss:PlatformExecuteListStart()",
+        "opcode": "Start",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:PlatformExecuteList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-SMSS",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "smss:PlatformExecuteListStop()",
+        "opcode": "Stop",
+        "keywords": "smss:Diagnostics",
+        "task": "smss:PlatformExecuteList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

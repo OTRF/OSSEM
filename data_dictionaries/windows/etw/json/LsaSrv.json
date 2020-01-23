@@ -1,0 +1,1089 @@
+[
+    {
+        "provider": "LsaSrv",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString PackageName, UnicodeString UserName, UnicodeString DomainName, UnicodeString ServerName, UInt32 ProtectedUser, HexInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectedUser"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "task_0200(UnicodeString UserName, UnicodeString DomainName, HexInt64 LogonId, SYSTEMTIME LogoffTime, UInt32 PID, UnicodeString Program, UnicodeString PrincipalName, UnicodeString ServerName, UnicodeString PackageName, UnicodeString CallType, HexInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LogonId"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "LogoffTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Program"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrincipalName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "task_0300(SID TargetUserSid, UnicodeString TargetUserName, UnicodeString TargetDomainName, HexInt64 TargetLogonId, GUID TargetLogonGuid, UInt32 EventOrginal, UInt32 EventCountTotal, UnicodeString SidList)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "TargetUserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetDomainName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TargetLogonId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetLogonGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventOrginal"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventCountTotal"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SidList"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "task_0301(SID TargetUserSid, UnicodeString TargetUserName, UnicodeString TargetDomainName, HexInt64 TargetLogonId, GUID TargetLogonGuid, UInt32 LogonType, UInt32 EventIdx, UInt32 EventCountTotal, UnicodeString UserClaims, UnicodeString DeviceClaims)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "TargetUserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetDomainName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TargetLogonId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TargetLogonGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LogonType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventIdx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventCountTotal"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserClaims"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceClaims"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "task_0302(SID UserSid, HexInt64 LogonId, UnicodeString AuthorityName, UnicodeString AccountName, UInt32 Elapse)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LogonId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AuthorityName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Elapse"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "task_0303(UnicodeString PackageName, UnicodeString UserName, UnicodeString DomainName, UInt32 ProtectedUser)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectedUser"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "320",
+        "version": "0",
+        "event(fields)": "task_0320(UnicodeString UserName, UnicodeString DomainName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "321",
+        "version": "0",
+        "event(fields)": "task_0321(UnicodeString Error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "322",
+        "version": "0",
+        "event(fields)": "task_0322()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "5000",
+        "version": "0",
+        "event(fields)": "task_05000(UnicodeString Package, UInt32 __binLength, Binary Exception)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "__binLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Exception"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6027",
+        "version": "0",
+        "event(fields)": "task_06027(UnicodeString Secret, UInt32 __binLength, Binary status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Secret"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "__binLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6033",
+        "version": "0",
+        "event(fields)": "task_06033(UnicodeString Client)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Client"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6035",
+        "version": "0",
+        "event(fields)": "task_06035(SID SID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "SID"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6036",
+        "version": "0",
+        "event(fields)": "task_06036(UnicodeString PID, UnicodeString Program)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Program"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6037",
+        "version": "0",
+        "event(fields)": "task_06037(UnicodeString PID, UnicodeString Program, UnicodeString TargetName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Program"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6038",
+        "version": "0",
+        "event(fields)": "task_06038()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6039",
+        "version": "0",
+        "event(fields)": "task_06039()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6040",
+        "version": "0",
+        "event(fields)": "task_06040(UnicodeString Package, UnicodeString TargetName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6041",
+        "version": "0",
+        "event(fields)": "task_06041(UnicodeString TargetName, UnicodeString TargetVersion)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetVersion"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6144",
+        "version": "0",
+        "event(fields)": "task_06144()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6145",
+        "version": "0",
+        "event(fields)": "task_06145(UnicodeString MissingCAPDNs)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MissingCAPDNs"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6146",
+        "version": "0",
+        "event(fields)": "task_06146(UnicodeString Error, UnicodeString CAPEName, UnicodeString CAPEDesc)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CAPEName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CAPEDesc"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6147",
+        "version": "0",
+        "event(fields)": "task_06147()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6182",
+        "version": "0",
+        "event(fields)": "task_06182(HexInt64 TargetLogonId, UnicodeString AccountName, UnicodeString DomainName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "TargetLogonId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6225",
+        "version": "0",
+        "event(fields)": "LSALogonStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "LSALogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6226",
+        "version": "0",
+        "event(fields)": "LSALogonStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "LSALogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6227",
+        "version": "0",
+        "event(fields)": "LSASID_NameLookupStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "LSASID_NameLookup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6228",
+        "version": "0",
+        "event(fields)": "LSASID_NameLookupStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "LSASID_NameLookup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6229",
+        "version": "0",
+        "event(fields)": "LSASID_NameLookupStart6229()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "LSASID_NameLookup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6230",
+        "version": "0",
+        "event(fields)": "LSASID_NameLookupStop6230()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "LSASID_NameLookup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6231",
+        "version": "0",
+        "event(fields)": "SecurityPackageManagerStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SecurityPackageManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "6232",
+        "version": "0",
+        "event(fields)": "SecurityPackageManagerStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SecurityPackageManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "32773",
+        "version": "0",
+        "event(fields)": "task_032773(UnicodeString Domain, UnicodeString TargetDomain, UInt32 __binLength, Binary status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Domain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetDomain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "__binLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "32774",
+        "version": "0",
+        "event(fields)": "task_032774(UnicodeString Domain, UnicodeString TargetDomain, UInt32 __binLength, Binary status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Domain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetDomain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "__binLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "32775",
+        "version": "0",
+        "event(fields)": "task_032775(UnicodeString Domain, UnicodeString TargetDomain, UInt32 __binLength, Binary status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Domain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetDomain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "__binLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "32777",
+        "version": "0",
+        "event(fields)": "task_032777()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "32779",
+        "version": "0",
+        "event(fields)": "task_032779(GUID SubCategoryGuid)",
+        "opcode": "",
+        "keywords": "WPDBusEnumStartTrigger",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SubCategoryGuid"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "32780",
+        "version": "0",
+        "event(fields)": "task_032780(HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40960",
+        "version": "0",
+        "event(fields)": "task_040960(UnicodeString Target, UnicodeString Protocol, UnicodeString Error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40961",
+        "version": "0",
+        "event(fields)": "task_040961(UnicodeString Target)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Target"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40962",
+        "version": "0",
+        "event(fields)": "task_040962(UnicodeString Target, UnicodeString Protocol)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40964",
+        "version": "0",
+        "event(fields)": "task_040964()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40965",
+        "version": "0",
+        "event(fields)": "task_040965(UnicodeString Target, UnicodeString Protocol)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40966",
+        "version": "0",
+        "event(fields)": "task_040966(UnicodeString Protocol)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40967",
+        "version": "0",
+        "event(fields)": "task_040967(UnicodeString Protocol)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40968",
+        "version": "0",
+        "event(fields)": "task_040968()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "40969",
+        "version": "0",
+        "event(fields)": "task_040969(UnicodeString Protocol)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "45056",
+        "version": "0",
+        "event(fields)": "task_045056()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "45057",
+        "version": "0",
+        "event(fields)": "task_045057(UnicodeString Username, UnicodeString Package, UnicodeString Error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "LsaSrv",
+        "event_id": "45058",
+        "version": "0",
+        "event(fields)": "task_045058(UnicodeString UserName, SYSTEMTIME TimeStamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "TimeStamp"
+            }
+        ]
+    }
+]

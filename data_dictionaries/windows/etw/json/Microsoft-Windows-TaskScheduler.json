@@ -1,0 +1,3273 @@
+[
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "TaskStartedStart(UnicodeString TaskName, UnicodeString UserContext, GUID InstanceId)",
+        "opcode": "Start",
+        "keywords": "ForcedIdleProcessing",
+        "task": "TaskStarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "TaskStartFailedLaunchFailure(UnicodeString TaskName, UnicodeString UserContext, UInt32 ResultCode)",
+        "opcode": "LaunchFailure",
+        "keywords": "ForcedIdleProcessing",
+        "task": "TaskStartFailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "TaskcompletedStop(UnicodeString TaskName, UnicodeString UserContext, GUID InstanceId)",
+        "opcode": "Stop",
+        "keywords": "ForcedIdleProcessing",
+        "task": "Taskcompleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ActionstartfailedRunFailure(UnicodeString TaskName, GUID InstanceId, UnicodeString UserContext, UInt32 ResultCode)",
+        "opcode": "RunFailure",
+        "keywords": "ForcedIdleProcessing",
+        "task": "Actionstartfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "Logonfailure(UnicodeString UserName, UnicodeString ErrorDescription, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Logonfailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "Impersonationfailure(UnicodeString Context, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Impersonationfailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "Taskregistered(UnicodeString TaskName, UnicodeString UserContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskregistered",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonscheduler(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonscheduler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonevent(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "Tasktriggeredbyregistration(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredbyregistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "Tasktriggeredbyuser(UnicodeString TaskName, GUID InstanceId, UnicodeString UserContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredbyuser",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "TaskterminatedTermination(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "Termination",
+        "keywords": "ForcedIdleProcessing",
+        "task": "Taskterminated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,networkunavailable(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,networkunavailable",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "Taskregisteredwithoutsometriggers(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskregisteredwithoutsometriggers",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "Missedtaskstarted(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Missedtaskstarted",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "Taskupdateordeletionerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskupdateordeletionerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "Taskregisteredwithoutcredentials(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskregisteredwithoutcredentials",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "TasktriggeredonIdle(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TasktriggeredonIdle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "Tasktriggeredbycomputerstartup(UnicodeString TaskName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredbycomputerstartup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonlogon(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonlogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonlocalconsoleconnect(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonlocalconsoleconnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonlocalconsoledisconnect(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonlocalconsoledisconnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonremoteconsoleconnect(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonremoteconsoleconnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "Tasktriggeredonremoteconsoledisconnect(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredonremoteconsoledisconnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "Tasktriggeredbylockingtheworkstation(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredbylockingtheworkstation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "Tasktriggeredbyunlockingtheworkstation(UnicodeString TaskName, UnicodeString UserName, GUID InstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredbyunlockingtheworkstation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "Taskrestartedonfailure(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskrestartedonfailure",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "Taskrestartedonfailure_127(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskrestartedonfailure_127",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,beyondendtime(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,beyondendtime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "CreatedTaskProcess(UnicodeString TaskName, UnicodeString Path, UInt32 ProcessID, UInt32 Priority)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CreatedTaskProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,servicebusy(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,servicebusy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,quotaexceeded(UnicodeString TaskName, UInt32 CurrentQuota)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,quotaexceeded",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentQuota"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "Launchconditionwarning,quotaapproaching(UInt32 CurrentQuota)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionwarning,quotaapproaching",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentQuota"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,quotaexceeded_133(UnicodeString TaskName, UnicodeString TaskEngineName, UnicodeString UserName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,quotaexceeded_133",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "Launchconditionwarning,quotaapproaching_134(UnicodeString TaskEngineName, UnicodeString UserName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionwarning,quotaapproaching_134",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,machinenotidle(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,machinenotidle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "Taskregistrationupdated(UnicodeString TaskName, UnicodeString UserName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskregistrationupdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "Taskregistrationdeleted(UnicodeString TaskName, UnicodeString UserName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskregistrationdeleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "Taskdisabled(UnicodeString TaskName, UnicodeString UserName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskdisabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "Tasktriggeredbycomingoutofsuspendmode()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasktriggeredbycomingoutofsuspendmode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "Taskloadingatservicestartupfailed(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskloadingatservicestartupfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "TaskimagerecoveredafterOSmigration(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskimagerecoveredafterOSmigration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "TaskimagerecoveringfailedafterOSmigration(UnicodeString TaskName, HexInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskimagerecoveringfailedafterOSmigration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "Taskisusingacombinationofpropertiesthatisincompatiblewiththeschedulingengine(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskisusingacombinationofpropertiesthatisincompatiblewiththeschedulingengine",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "Taskregistrationoneventfailed(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskregistrationoneventfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "TaskSchedulerfailedtoinstantiatetaskatservicestartup.(UnicodeString TaskName, UnicodeString LogPoint, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskSchedulerfailedtoinstantiatetaskatservicestartup.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LogPoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "Taskwasredirectedtolegacyengine(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskwasredirectedtolegacyengine",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "Missedtaskstartrejected(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Missedtaskstartrejected",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "TaskCompletionPending(UnicodeString TaskPath)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "TaskCompletionPending",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "ActionstartedStart(UnicodeString TaskName, UnicodeString ActionName, GUID TaskInstanceId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Actionstarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "200",
+        "version": "1",
+        "event(fields)": "ActionstartedStart_V1(UnicodeString TaskName, UnicodeString ActionName, GUID TaskInstanceId, UInt32 EnginePID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Actionstarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnginePID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "ActioncompletedStop(UnicodeString TaskName, UnicodeString ActionName, GUID TaskInstanceId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Actioncompleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "201",
+        "version": "1",
+        "event(fields)": "ActioncompletedStop_V1(UnicodeString TaskName, GUID TaskInstanceId, UnicodeString ActionName, UInt32 ResultCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Actioncompleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "201",
+        "version": "2",
+        "event(fields)": "ActioncompletedStop_V2(UnicodeString TaskName, GUID TaskInstanceId, UnicodeString ActionName, UInt32 ResultCode, UInt32 EnginePID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Actioncompleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnginePID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "ActionfailedRunFailure(UnicodeString TaskName, GUID TaskInstanceId, UnicodeString ActionName, UInt32 ResultCode)",
+        "opcode": "RunFailure",
+        "keywords": "",
+        "task": "Actionfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "202",
+        "version": "1",
+        "event(fields)": "ActionfailedRunFailure_V1(UnicodeString TaskName, GUID TaskInstanceId, UnicodeString ActionName, UInt32 ResultCode, UInt32 EnginePID)",
+        "opcode": "RunFailure",
+        "keywords": "",
+        "task": "Actionfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnginePID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "ActionfailedtostartLaunchFailure(UnicodeString TaskName, GUID TaskInstanceId, UnicodeString ActionName, UInt32 ResultCode)",
+        "opcode": "LaunchFailure",
+        "keywords": "",
+        "task": "Actionfailedtostart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "Taskfailedtostartonevent(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskfailedtostartonevent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "Taskfailedtostartoneventpatternmatch(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskfailedtostartoneventpatternmatch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "TaskenginelaunchedStart(UnicodeString TaskEngineName, UInt32 ProcessID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Taskenginelaunched",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "TaskengineproperlyshutdownStop(UnicodeString TaskEngineName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Taskengineproperlyshutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "TaskengineshutdownduetoerrorFailure(UnicodeString TaskEngineName, UnicodeString ErrorDescription, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "Taskengineshutdownduetoerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "Tasksenttoengine(UnicodeString TaskName, UnicodeString TaskEngineName, GUID TaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Tasksenttoengine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "305",
+        "version": "0",
+        "event(fields)": "TaskfailedtobesenttoengineFailure(UnicodeString TaskName, UnicodeString TaskEngineName, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "Taskfailedtobesenttoengine",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "EnginefailedtoreceivethetaskFailure(UnicodeString TaskEngineName, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "Enginefailedtoreceivethetask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "307",
+        "version": "0",
+        "event(fields)": "ServiceEngineconnectionfailure(UnicodeString TaskEngineName, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "ServiceEngineconnectionfailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "308",
+        "version": "0",
+        "event(fields)": "ServiceEngineconnected(UnicodeString TaskEngineName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ServiceEngineconnected",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "309",
+        "version": "0",
+        "event(fields)": "Engineorphaned(UInt32 TaskCount, UnicodeString TaskEngineName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Engineorphaned",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "310",
+        "version": "0",
+        "event(fields)": "TaskEnginestarted(UnicodeString TaskEngineName, UnicodeString Command, UInt32 ProcessID, UInt32 ThreadID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskEnginestarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "311",
+        "version": "0",
+        "event(fields)": "TaskEnginefailedtostartLaunchFailure(UnicodeString TaskEngineName, UnicodeString Command, UnicodeString ErrorDescription, UInt32 ResultCode)",
+        "opcode": "LaunchFailure",
+        "keywords": "",
+        "task": "TaskEnginefailedtostart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "312",
+        "version": "0",
+        "event(fields)": "TaskEnginejobobjectcreated(UnicodeString TaskEngineName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskEnginejobobjectcreated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "313",
+        "version": "0",
+        "event(fields)": "ServiceEnginechannelready(UnicodeString TaskEngineName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ServiceEnginechannelready",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "314",
+        "version": "0",
+        "event(fields)": "TaskEngineidle(UnicodeString TaskEngineName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskEngineidle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "315",
+        "version": "0",
+        "event(fields)": "ServiceEngineconnectionfailure_315Failure(UnicodeString TaskEngineName, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "ServiceEngineconnectionfailure_315",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "316",
+        "version": "0",
+        "event(fields)": "EnginefailedtosendmessagetoserviceFailure(UnicodeString TaskEngineName, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "Enginefailedtosendmessagetoservice",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "317",
+        "version": "0",
+        "event(fields)": "TaskEnginestarted_317Start(UnicodeString TaskEngineName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TaskEnginestarted_317",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "318",
+        "version": "0",
+        "event(fields)": "Taskengineproperlyshutdown_318Stop(UnicodeString TaskEngineName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Taskengineproperlyshutdown_318",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "319",
+        "version": "0",
+        "event(fields)": "TaskEnginereceivedmessagetostarttaskStart(UnicodeString TaskEngineName, UnicodeString TaskName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TaskEnginereceivedmessagetostarttask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "320",
+        "version": "0",
+        "event(fields)": "TaskEnginereceivedmessagetostoptaskStop(UnicodeString TaskEngineName, GUID TaskInstanceId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TaskEnginereceivedmessagetostoptask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskEngineName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "322",
+        "version": "0",
+        "event(fields)": "Launchrequestignored,instancealreadyrunning(UnicodeString TaskName, GUID TaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchrequestignored,instancealreadyrunning",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "323",
+        "version": "0",
+        "event(fields)": "Launchrequestacknowledged,currentinstancestopped(UnicodeString TaskName, GUID StoppedTaskInstanceId, GUID NewTaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchrequestacknowledged,currentinstancestopped",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "StoppedTaskInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "NewTaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "324",
+        "version": "0",
+        "event(fields)": "Launchrequestqueued,instancealreadyrunning(UnicodeString TaskName, GUID QueuedTaskInstanceId, GUID RunningTaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchrequestqueued,instancealreadyrunning",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "QueuedTaskInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "RunningTaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "325",
+        "version": "0",
+        "event(fields)": "Launchrequestqueued(UnicodeString TaskName, GUID QueuedTaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchrequestqueued",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "QueuedTaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "326",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,computeronbatteries(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,computeronbatteries",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "327",
+        "version": "0",
+        "event(fields)": "Taskstoppingduetoswitchingtobatteries(UnicodeString TaskName, GUID TaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskstoppingduetoswitchingtobatteries",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "328",
+        "version": "0",
+        "event(fields)": "Taskstoppingduetocomputernotidle(UnicodeString TaskName, GUID TaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskstoppingduetocomputernotidle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "329",
+        "version": "0",
+        "event(fields)": "Taskstoppingduetotimeoutreached(UnicodeString TaskName, GUID TaskInstanceId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskstoppingduetotimeoutreached",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "330",
+        "version": "0",
+        "event(fields)": "Taskstoppingduetouserrequest(UnicodeString TaskName, GUID TaskInstanceId, UnicodeString UserContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskstoppingduetouserrequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "331",
+        "version": "0",
+        "event(fields)": "Taskfailedtostopontimeout(UnicodeString TaskName, GUID TaskInstanceId, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Taskfailedtostopontimeout",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TaskInstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "332",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,usernotlogged_on(UnicodeString TaskName, UnicodeString UserName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,usernotlogged_on",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "333",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,sessionisRemoteAppSession(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,sessionisRemoteAppSession",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "334",
+        "version": "0",
+        "event(fields)": "Launchconditionnotmet,sessionisaWorkerSession(UnicodeString TaskName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Launchconditionnotmet,sessionisaWorkerSession",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "400",
+        "version": "0",
+        "event(fields)": "ServicestartedStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Servicestarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "401",
+        "version": "0",
+        "event(fields)": "ServicefailedtostartLaunchFailure(UnicodeString ErrorDescription, UInt32 ResultCode)",
+        "opcode": "LaunchFailure",
+        "keywords": "",
+        "task": "Servicefailedtostart",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "402",
+        "version": "0",
+        "event(fields)": "ServiceisshuttingdownStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Serviceisshuttingdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "403",
+        "version": "0",
+        "event(fields)": "ServicecriticalerrorFailure(UnicodeString ErrorDescription, UInt32 ResultCode)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "Servicecriticalerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "404",
+        "version": "0",
+        "event(fields)": "ServiceRPCerror(UnicodeString ErrorDescription, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ServiceRPCerror",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "405",
+        "version": "0",
+        "event(fields)": "ServiceCOMerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ServiceCOMerror",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "406",
+        "version": "0",
+        "event(fields)": "Credstoreinitializationerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Credstoreinitializationerror",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "407",
+        "version": "0",
+        "event(fields)": "LSAinitializationerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LSAinitializationerror",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "408",
+        "version": "0",
+        "event(fields)": "Idledetectionerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Idledetectionerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "409",
+        "version": "0",
+        "event(fields)": "Timechangenotificationerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Timechangenotificationerror",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "410",
+        "version": "0",
+        "event(fields)": "Wakeuptimererror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Wakeuptimererror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "411",
+        "version": "0",
+        "event(fields)": "Servicesignaledtimechange()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Servicesignaledtimechange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "412",
+        "version": "0",
+        "event(fields)": "Servicecriticalerror(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Servicecriticalerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "413",
+        "version": "0",
+        "event(fields)": "Servicecriticalerror413(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Servicecriticalerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "414",
+        "version": "0",
+        "event(fields)": "TaskMisconfiguration(UnicodeString TaskName, UnicodeString Parameter)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskMisconfiguration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "500",
+        "version": "0",
+        "event(fields)": "IdleTaskRegister(UInt32 IdleTaskId, UInt32 ProcessId)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskRegister",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IdleTaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "501",
+        "version": "0",
+        "event(fields)": "IdleTaskUnregister(UInt32 IdleTaskId, UInt32 ProcessId)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskUnregister",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IdleTaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "IdleTaskExecuteStart(UInt32 IdleTaskId, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IdleTaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "503",
+        "version": "0",
+        "event(fields)": "IdleTaskExecuteStop(UInt32 IdleTaskId, UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IdleTaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "504",
+        "version": "0",
+        "event(fields)": "IdleTaskNotifyStart(UInt32 IdleTaskId, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskNotify",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IdleTaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "505",
+        "version": "0",
+        "event(fields)": "IdleTaskNotifyStop(UInt32 IdleTaskId, UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskNotify",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IdleTaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "506",
+        "version": "0",
+        "event(fields)": "IdleTaskExplicitProcessingStart()",
+        "opcode": "Start",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskExplicitProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "507",
+        "version": "0",
+        "event(fields)": "IdleTaskExplicitProcessingStop()",
+        "opcode": "Stop",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskExplicitProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "508",
+        "version": "0",
+        "event(fields)": "IdleTaskExplicitProcessingActive()",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskExplicitProcessingActive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "509",
+        "version": "0",
+        "event(fields)": "IdleTaskPowerNotificationReceived(UnicodeString NotificationType, UInt32 State)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskPowerNotificationReceived",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NotificationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "510",
+        "version": "0",
+        "event(fields)": "IdleTaskPerfTrackResourceConsumption(UInt32 NoIdleReason, UInt32 DATA1, UInt32 DATA2)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskPerfTrackResourceConsumption",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NoIdleReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DATA1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DATA2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "511",
+        "version": "0",
+        "event(fields)": "IdleTaskPerfTrackIdleExit(UInt32 TimeSinceUserNotPresent, UInt32 DATA)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleTaskPerfTrackIdleExit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeSinceUserNotPresent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DATA"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "512",
+        "version": "0",
+        "event(fields)": "IdleCheckPoint(UInt32 DetectionResult, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "ForcedIdleProcessing",
+        "task": "IdleCheckPoint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DetectionResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "700",
+        "version": "0",
+        "event(fields)": "Compatibilitymodulestarted()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymodulestarted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "701",
+        "version": "0",
+        "event(fields)": "Compatibilitymodulefailedtostart(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymodulefailedtostart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "702",
+        "version": "0",
+        "event(fields)": "CompatibilitymoduleRPCfailed(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CompatibilitymoduleRPCfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "703",
+        "version": "0",
+        "event(fields)": "CompatibilitymoduleNetScheduleAPIfailed(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CompatibilitymoduleNetScheduleAPIfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "704",
+        "version": "0",
+        "event(fields)": "CompatibilitymoduleLSAfailed(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CompatibilitymoduleLSAfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "705",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduledirectorymonitoringfailed(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduledirectorymonitoringfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "706",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletaskstatusupdatefailed(UnicodeString TaskName, UInt32 TaskStatus, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletaskstatusupdatefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "707",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletaskdeletionfailed(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletaskdeletionfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "708",
+        "version": "0",
+        "event(fields)": "Compatibilitymodulesecuritydescriptorfailed(UnicodeString SecurityDescriptor, UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymodulesecuritydescriptorfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SecurityDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "709",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletaskupdatefailed(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletaskupdatefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "710",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "711",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed711(UnicodeString Account, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Account"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "712",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed712(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "713",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed713(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "714",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed714(UnicodeString TaskName, UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "715",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed715(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "716",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradefailed716(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "717",
+        "version": "0",
+        "event(fields)": "Compatibilitymoduletasksupgradeundetermined(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Compatibilitymoduletasksupgradeundetermined",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "718",
+        "version": "0",
+        "event(fields)": "Credentialstoreupgradefailed(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Credentialstoreupgradefailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "719",
+        "version": "0",
+        "event(fields)": "TaskSchedulerOperationallogwasdisabled()",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskSchedulerOperationallogwasdisabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "800",
+        "version": "0",
+        "event(fields)": "Maintenancestatehaschanged(UInt32 hc_stateid, UnicodeString LastRunDateTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancestatehaschanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hc_stateid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastRunDateTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "801",
+        "version": "0",
+        "event(fields)": "Maintenancelaunchfailed(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancelaunchfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "802",
+        "version": "0",
+        "event(fields)": "Maintenancere_configurationfailed(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancere_configurationfailed",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "803",
+        "version": "0",
+        "event(fields)": "MaintenanceSchedulerenginetaskerror(UnicodeString Task, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MaintenanceSchedulerenginetaskerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "804",
+        "version": "0",
+        "event(fields)": "Maintenancetaskcycledependencydetected(UnicodeString Task)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancetaskcycledependencydetected",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "805",
+        "version": "0",
+        "event(fields)": "Maintenancetaskisbehinddeadline(UnicodeString Task)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancetaskisbehinddeadline",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "806",
+        "version": "0",
+        "event(fields)": "Maintenancetaskprocessingerror(UnicodeString Task, UInt32 InfoCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancetaskprocessingerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "807",
+        "version": "0",
+        "event(fields)": "Maintenancecomplete(UInt32 LauncherId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancecomplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LauncherId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "808",
+        "version": "0",
+        "event(fields)": "Maintenancewakeuprequested(UnicodeString Task)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Maintenancewakeuprequested",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "809",
+        "version": "0",
+        "event(fields)": "MaintenanceSchedulerconfigurationerror(UnicodeString FailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MaintenanceSchedulerconfigurationerror",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "998",
+        "version": "0",
+        "event(fields)": "MethodFailure(UnicodeString Name, UInt32 HRESULT, UnicodeString File, UInt32 Line)",
+        "opcode": "Failure",
+        "keywords": "",
+        "task": "MethodFailure",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "File"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-TaskScheduler",
+        "event_id": "999",
+        "version": "0",
+        "event(fields)": "Debug(UnicodeString String)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Debug",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1337 @@
+[
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1000",
+        "version": "1",
+        "event(fields)": "VirtualRebalanceStart_V1(UInt32 StoreBitmap)",
+        "opcode": "Start",
+        "keywords": "Store",
+        "task": "VirtualRebalance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreBitmap"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1001",
+        "version": "1",
+        "event(fields)": "VirtualRebalanceStop_V1(UInt32 StoreBitmap)",
+        "opcode": "Stop",
+        "keywords": "Store",
+        "task": "VirtualRebalance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreBitmap"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1002",
+        "version": "1",
+        "event(fields)": "EmptyVirtualStore_V1(UInt32 StoreId)",
+        "opcode": "",
+        "keywords": "Store",
+        "task": "EmptyVirtualStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1003",
+        "version": "1",
+        "event(fields)": "CreateVirtualStore_V1(UInt32 StoreId)",
+        "opcode": "",
+        "keywords": "Store",
+        "task": "CreateVirtualStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1004",
+        "version": "1",
+        "event(fields)": "DeleteVirtualStore_V1(UInt32 StoreId)",
+        "opcode": "",
+        "keywords": "Store",
+        "task": "DeleteVirtualStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1005",
+        "version": "1",
+        "event(fields)": "MemoryInversionReaction_V1(UInt32 StoreId)",
+        "opcode": "",
+        "keywords": "Store",
+        "task": "MemoryInversionReaction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1006",
+        "version": "1",
+        "event(fields)": "InMemoryCompression_V1(UInt32 StoreId, UInt32 PageCount, UInt32 ScoreLevel)",
+        "opcode": "",
+        "keywords": "Store",
+        "task": "InMemoryCompression",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScoreLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1007",
+        "version": "1",
+        "event(fields)": "InMemoryDecompression_V1(UInt32 StoreId, UInt32 PageCount, UInt32 ScoreLevel)",
+        "opcode": "",
+        "keywords": "Store",
+        "task": "InMemoryDecompression",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScoreLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1008",
+        "version": "1",
+        "event(fields)": "StoreLogAdd_V1(Pointer ContainerKey, Pointer VirtualAddress, UInt32 Flags, UInt32 InterpretedPid)",
+        "opcode": "",
+        "keywords": "StoreLog",
+        "task": "StoreLogAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ContainerKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "VirtualAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterpretedPid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1009",
+        "version": "1",
+        "event(fields)": "StoreLogRemove_V1(Pointer ContainerKey, Pointer VirtualAddress, UInt32 Flags, UInt32 InterpretedPid)",
+        "opcode": "",
+        "keywords": "StoreLog",
+        "task": "StoreLogRemove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ContainerKey"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "VirtualAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterpretedPid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1010",
+        "version": "1",
+        "event(fields)": "StoreLogFull_V1()",
+        "opcode": "",
+        "keywords": "StoreLog",
+        "task": "StoreLogFull",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1011",
+        "version": "1",
+        "event(fields)": "StoreLogEmpty_V1(UInt32 StoreBitmap)",
+        "opcode": "",
+        "keywords": "StoreLog",
+        "task": "StoreLogEmpty",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreBitmap"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1012",
+        "version": "1",
+        "event(fields)": "StoreLogDelete_V1(UInt32 StoreBitmap)",
+        "opcode": "",
+        "keywords": "StoreLog",
+        "task": "StoreLogDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StoreBitmap"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1013",
+        "version": "2",
+        "event(fields)": "PerfTrackWorkingSet_V2(UInt32 Private, UInt32 TotalPrivate, UInt32 Total, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackWorkingSet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Private"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalPrivate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Total"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1014",
+        "version": "1",
+        "event(fields)": "PerfTrackPagedPool_V1(UInt32 AllocPages, UInt32 AllocCount, UInt32 FreeCount, AnsiString Tag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackPagedPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1015",
+        "version": "1",
+        "event(fields)": "PerfTrackNonPagedPool_V1(UInt32 AllocPages, UInt32 AllocCount, UInt32 FreeCount, AnsiString Tag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackNonPagedPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1016",
+        "version": "1",
+        "event(fields)": "PerfTrackPhysical_V1(UInt32 InUse, UInt32 Free, UInt32 Available, UInt32 Cached, UInt32 PagedPool, UInt32 NonPagedPool, UInt32 Commit, UInt32 CommitLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackPhysical",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Free"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Available"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Cached"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagedPool"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NonPagedPool"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Commit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommitLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1017",
+        "version": "1",
+        "event(fields)": "PerfTrackSessionPool_V1(UInt32 AllocPages, UInt32 AllocCount, UInt32 FreeCount, AnsiString Tag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackSessionPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1018",
+        "version": "1",
+        "event(fields)": "PerfTrackNXNonPagedPool_V1(UInt32 AllocPages, UInt32 AllocCount, UInt32 FreeCount, AnsiString Tag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackNXNonPagedPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Tag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1019",
+        "version": "1",
+        "event(fields)": "PerfTrackNonPagedPoolFrag_V1(UInt32 Fragmentation, UInt32 AllocPages, UInt32 CommitPages, UInt32 ActivePages)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackNonPagedPoolFrag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Fragmentation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommitPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivePages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1020",
+        "version": "1",
+        "event(fields)": "PerfTrackPagedPoolFrag_V1(UInt32 Fragmentation, UInt32 AllocPages, UInt32 CommitPages, UInt32 ActivePages)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackPagedPoolFrag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Fragmentation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommitPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivePages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1021",
+        "version": "1",
+        "event(fields)": "PerfTrackSessionPoolFrag_V1(UInt32 Fragmentation, UInt32 AllocPages, UInt32 CommitPages, UInt32 ActivePages)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackSessionPoolFrag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Fragmentation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommitPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivePages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1038",
+        "version": "1",
+        "event(fields)": "PerfTrackHandleCounts_V1(UInt32 Processes, UInt32 Handles, UInt32 Objects, UInt32 Threads)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackHandleCounts",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Processes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Handles"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Objects"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Threads"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1039",
+        "version": "1",
+        "event(fields)": "PredictorQuery_V1(HexInt32 AppKey, UInt32 PredictionPurpose, Double Probability)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PredictorQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PredictionPurpose"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Probability"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1040",
+        "version": "1",
+        "event(fields)": "PrelaunchHeartBeatStart_V1()",
+        "opcode": "Start",
+        "keywords": "PfAp",
+        "task": "PrelaunchHeartBeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1041",
+        "version": "2",
+        "event(fields)": "PrelaunchHeartBeatStop_V2(HexInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "PfAp",
+        "task": "PrelaunchHeartBeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1042",
+        "version": "1",
+        "event(fields)": "PrelaunchPredictorQuery_V1(HexInt32 AppKey, UnicodeString AUMID)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrelaunchPredictorQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1043",
+        "version": "1",
+        "event(fields)": "PrelaunchStart_V1(UInt32 Reason, UnicodeString AUMID)",
+        "opcode": "Start",
+        "keywords": "PfAp",
+        "task": "Prelaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1044",
+        "version": "1",
+        "event(fields)": "PrelaunchStop_V1(HexInt32 HResult)",
+        "opcode": "Stop",
+        "keywords": "PfAp",
+        "task": "Prelaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1045",
+        "version": "1",
+        "event(fields)": "PrelaunchEnqueue_V1(UInt32 Reason, UnicodeString AUMID)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrelaunchEnqueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1046",
+        "version": "1",
+        "event(fields)": "PrelaunchDequeue_V1(UInt32 SecondsSpentInQueue, UnicodeString AUMID, UInt32 Reason, HexInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrelaunchDequeue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SecondsSpentInQueue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1047",
+        "version": "1",
+        "event(fields)": "PrelaunchWorkerStart_V1()",
+        "opcode": "Start",
+        "keywords": "PfAp",
+        "task": "PrelaunchWorker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1048",
+        "version": "2",
+        "event(fields)": "PrelaunchWorkerStop_V2(HexInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "PfAp",
+        "task": "PrelaunchWorker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1049",
+        "version": "1",
+        "event(fields)": "PrelaunchProcessCommand_V1(UInt32 CommandCode, UnicodeString AUMID)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrelaunchProcessCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1050",
+        "version": "1",
+        "event(fields)": "PrelaunchIdleCheck_V1(UInt32 CPUUtilization, UInt32 DiskUtilization, UInt32 GPUUtilization, UInt32 AvailableMemory, UInt32 ModifiedMemory, Boolean OkToPrelaunch)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrelaunchIdleCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUUtilization"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskUtilization"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GPUUtilization"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AvailableMemory"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModifiedMemory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OkToPrelaunch"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1051",
+        "version": "0",
+        "event(fields)": "PerfTrackModernWorkingSet(UInt32 PrivateWS, UInt32 TotalPrivate, UInt32 TotalWS, HexInt32 ProcessAgeMHiandAppStateLo, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrackModernWorkingSet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PrivateWS"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalPrivate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalWS"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ProcessAgeMHiandAppStateLo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1052",
+        "version": "1",
+        "event(fields)": "PrefetchHeartBeatStart_V1(UInt8 BgTaskCountUnrestricted, UInt8 BgTaskCountACOnly)",
+        "opcode": "Start",
+        "keywords": "PfAp",
+        "task": "PrefetchHeartBeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "BgTaskCountUnrestricted"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BgTaskCountACOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1052",
+        "version": "2",
+        "event(fields)": "PrefetchHeartBeatStart_V2()",
+        "opcode": "Start",
+        "keywords": "PfAp",
+        "task": "PrefetchHeartBeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1053",
+        "version": "2",
+        "event(fields)": "PrefetchHeartBeatStop_V2(HexInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "PfAp",
+        "task": "PrefetchHeartBeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1054",
+        "version": "1",
+        "event(fields)": "PrefetchPredictorQuery_V1(HexInt32 AppKey, UnicodeString FullPackageName, Boolean LongLookahead, Int16 BenefitScore)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchPredictorQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LongLookahead"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "BenefitScore"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1055",
+        "version": "1",
+        "event(fields)": "PrefetchScheduleTask_V1(HexInt32 AppKey, UnicodeString FullPackageName, UInt32 UsedConditions)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchScheduleTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UsedConditions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1055",
+        "version": "2",
+        "event(fields)": "PrefetchScheduleTask_V2(HexInt32 AppKey, UnicodeString FullPackageName)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchScheduleTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1056",
+        "version": "1",
+        "event(fields)": "PostlaunchAppFail_V1(HexInt32 AppNameKey, UnicodeString AUMID, UInt8 NewFailCount, UInt32 LaunchResult, UInt8 Requeue, UInt32 AppStatus)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PostlaunchAppFail",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppNameKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewFailCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LaunchResult"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Requeue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1057",
+        "version": "1",
+        "event(fields)": "AppSkip_V1(HexInt32 AppNameKey, UnicodeString AUMID, UInt32 AppSkipReason)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "AppSkip",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppNameKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppSkipReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1058",
+        "version": "1",
+        "event(fields)": "PrefetchBenefitReport_V1(HexInt32 AppKey, UnicodeString FullPackageName, UInt32 TimeFromPrefetchToSwitchInMS, Int16 NewBenefitScore, Int16 NewAggregateBenefitScore)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchBenefitReport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeFromPrefetchToSwitchInMS"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "NewBenefitScore"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "NewAggregateBenefitScore"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1059",
+        "version": "1",
+        "event(fields)": "PrefetchIsCandidate_V1(HexInt32 AppKey, UnicodeString FullPackageName, UInt32 ReasonsNotToPrefetch)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchIsCandidate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonsNotToPrefetch"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1060",
+        "version": "1",
+        "event(fields)": "PrefetchDecision_V1(HexInt32 AppKey, UnicodeString FullPackageName, Boolean ACPowered, Double Threshold, Double Probability)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchDecision",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ACPowered"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Threshold"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Probability"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1061",
+        "version": "1",
+        "event(fields)": "PrefetchStartCallback_V1(HexInt32 AppKey, UnicodeString FullPackageName, FILETIME PreviousPrefetchTime, UInt32 PrefetchCount)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrefetchStartCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "PreviousPrefetchTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1062",
+        "version": "1",
+        "event(fields)": "DeploymentCommand_V1(HexInt32 AppKey, UnicodeString AUMID, UInt32 Command, UInt32 AppType)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "DeploymentCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1063",
+        "version": "1",
+        "event(fields)": "FetchCommand_V1(HexInt32 AppKey, UnicodeString FullPackageName, UInt32 Command)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "FetchCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1064",
+        "version": "1",
+        "event(fields)": "AppUseCommand_V1(HexInt32 AppKey, UnicodeString FullPackageName, UInt32 PID)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "AppUseCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FullPackageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1065",
+        "version": "1",
+        "event(fields)": "PrelaunchAppCrash_V1(HexInt32 AppKey, UnicodeString AUMID)",
+        "opcode": "",
+        "keywords": "PfAp",
+        "task": "PrelaunchAppCrash",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "AppKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1066",
+        "version": "1",
+        "event(fields)": "PageCombiningStart_V1()",
+        "opcode": "Start",
+        "keywords": "Combine",
+        "task": "PageCombining",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Superfetch",
+        "event_id": "1067",
+        "version": "1",
+        "event(fields)": "PageCombiningStop_V1(Pointer PagesCombined)",
+        "opcode": "Stop",
+        "keywords": "Combine",
+        "task": "PageCombining",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "PagesCombined"
+            }
+        ]
+    }
+]

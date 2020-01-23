@@ -1,0 +1,666 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "PrefetchSectionsStart(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhase, UInt32 PrefetchType, UInt8 IsTricklePhase)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "PrefetchSections",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsTricklePhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "PrefetchSectionsStart_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhaseMask, UInt32 PrefetchType, UInt8 IsTricklePhase)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "PrefetchSections",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhaseMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsTricklePhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "PrefetchSectionsStop(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhase, UInt32 PrefetchType, UInt8 IsTricklePhase, UInt64 NumPagesPrefetched, UInt32 NumReadLists)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "PrefetchSections",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsTricklePhase"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumPagesPrefetched"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumReadLists"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "PrefetchSectionsStop_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhaseMask, UInt32 PrefetchType, UInt8 IsTricklePhase, UInt64 NumPagesPrefetched, UInt32 NumReadLists)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "PrefetchSections",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhaseMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsTricklePhase"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumPagesPrefetched"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumReadLists"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "PrefetchMetadataStart(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhase)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "PrefetchMetadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "PrefetchMetadataStart_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhaseMask)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "PrefetchMetadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhaseMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "PrefetchMetadataStop(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhase)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "PrefetchMetadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "PrefetchMetadataStop_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhaseMask)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "PrefetchMetadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrefetchPhaseMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "OpenVolumesStart(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "OpenVolumes",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "OpenVolumesStop(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "OpenVolumes",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "EndTrace(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 EndReason)",
+        "opcode": "",
+        "keywords": "BasicInformation",
+        "task": "EndTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EndReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ScenarioDecision(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt16 ActionFlags, UInt8 TraceReason, UInt8 PrefetchReason)",
+        "opcode": "",
+        "keywords": "BasicInformation",
+        "task": "ScenarioDecision",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ActionFlags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TraceReason"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PrefetchReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "ScenarioDecision_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt16 ActionFlags, UInt8 TraceReason, UInt8 PrefetchReason, UInt32 NumLaunches, UInt32 TimeSinceLastLaunchInS)",
+        "opcode": "",
+        "keywords": "BasicInformation",
+        "task": "ScenarioDecision",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ActionFlags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TraceReason"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PrefetchReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumLaunches"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeSinceLastLaunchInS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "9",
+        "version": "1",
+        "event(fields)": "GetReadListsStart_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 WorkItemsCount)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "GetReadLists",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkItemsCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "GetReadListsStop_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "GetReadLists",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "AsyncWorkerStart(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 NumPhases)",
+        "opcode": "Start",
+        "keywords": "BasicInformation",
+        "task": "AsyncWorker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPhases"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "AsyncWorkerStop(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType)",
+        "opcode": "Stop",
+        "keywords": "BasicInformation",
+        "task": "AsyncWorker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Prefetch",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "AsyncWorker(UInt16 ScenarioNameLength, UnicodeString ScenarioName, UInt32 ScenarioHashId, UInt32 ScenarioType)",
+        "opcode": "",
+        "keywords": "BasicInformation",
+        "task": "AsyncWorker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ScenarioNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioHashId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioType"
+            }
+        ]
+    }
+]

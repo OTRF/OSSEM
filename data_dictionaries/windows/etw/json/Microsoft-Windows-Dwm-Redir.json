@@ -1,0 +1,286 @@
+[
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "RedirGetSharedHandle(UInt32 FlipChain, UInt32 SerialNumber, UInt32 BuffersEmpty, UInt32 Index, UInt32 IndexUnconfirmed, Pointer hSurface)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirGetSharedHandle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FlipChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersEmpty"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IndexUnconfirmed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "RedirUpdateSharedSurface(UInt32 FlipChain, UInt32 SerialNumber, UInt32 BuffersEmpty, UInt32 Index, UInt32 IndexUnconfirmed, Pointer hSurface)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirUpdateSharedSurface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FlipChain"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuffersEmpty"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IndexUnconfirmed"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hSurface"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "RedirAsyncFlush(UInt32 ProcessID, UInt32 AsyncFlushType)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirAsyncFlush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AsyncFlushType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "RedirDxResize(Pointer Hwnd, UInt32 xSizeOld, UInt32 ySizeOld, Pointer formatOld, UInt32 xSizeNew, UInt32 ySizeNew, Pointer formatNew)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirDxResize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Hwnd"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "xSizeOld"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ySizeOld"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "formatOld"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "xSizeNew"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ySizeNew"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "formatNew"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "RedirDwmUpdate(Pointer Hwnd, UInt32 MessageId, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirDwmUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Hwnd"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MessageId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "RedirSetLivePreviewExcludeHwnd(Pointer hwnd, Boolean fExcludedFromLivePreview)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirSetLivePreviewExcludeHwnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "hwnd"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fExcludedFromLivePreview"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "RedirProcessLogicalSurface(UInt64 logicalSurfaceHandle, UInt64 spriteHandle, UInt64 windowHandle)",
+        "opcode": "",
+        "keywords": "DwmRedir",
+        "task": "RedirProcessLogicalSurface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "logicalSurfaceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "spriteHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "windowHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "RedirVisualCreateDefaultInteraction(UInt32 Channel, UInt32 visualHandle, UInt32 interactionHandle, UInt64 visualInternalHandleAndChannel, UInt64 interactionInternalHandleAndChannel)",
+        "opcode": "",
+        "keywords": "DwmInput",
+        "task": "RedirVisualCreateDefaultInteraction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "visualHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "interactionHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "visualInternalHandleAndChannel"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "interactionInternalHandleAndChannel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "RedirProcessLPCMessageStart(UInt32 Enum)",
+        "opcode": "Start",
+        "keywords": "DwmRedir DwmInput DwmInputPerf",
+        "task": "RedirProcessLPCMessage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Enum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Dwm-Redir",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "RedirProcessLPCMessageStop(UInt32 Enum)",
+        "opcode": "Stop",
+        "keywords": "DwmRedir DwmInput DwmInputPerf",
+        "task": "RedirProcessLPCMessage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Enum"
+            }
+        ]
+    }
+]
