@@ -5,6 +5,7 @@
 ## Event JSON
 
 ```json
+{
   "ts": 1230820619.37404,
   "uid": "C7CPz03joozzNBGox1",
   "id.orig_h": "10.1.1.1",
@@ -16,6 +17,7 @@
   "cyu": "a46560d4548108cf99308319b3b85346",
   "cyutags": "46,PAD-SNI-STK-VER-CCS-NONC-AEAD-UAID-SCID-TCID-PDMD-SMHL-ICSL-NONP-PUBS-MIDS-SCLS-KEXS-XLCT-CSCT-COPT-CCRT-IRTT-CFCW-SFCW",
   "server_name": "adservice.google.com"
+}
 ```
 
 ## Data Dictionary
