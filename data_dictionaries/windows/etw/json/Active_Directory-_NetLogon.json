@@ -1,0 +1,80 @@
+[
+    {
+        "provider": "Active Directory: NetLogon",
+        "category": "{393da8c0-dbed-11d2-895b-00c04f79ab69}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NlServerAuth_Start(String Client, String Account, UInt32 ChannelType, UInt32 NegotiatedFlags)",
+        "event_type": "Start",
+        "description": "NetLogon Server Authentication",
+        "event_fields": [
+            {
+                "field_type": "String",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "String",
+                "field_name": "Account"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NegotiatedFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Active Directory: NetLogon",
+        "category": "{393da8c0-dbed-11d2-895b-00c04f79ab69}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NlServerAuth_End(String Client, String Account, UInt32 ChannelType, UInt32 NegotiatedFlags, UInt32 Status)",
+        "event_type": "End",
+        "description": "NetLogon Server Authentication",
+        "event_fields": [
+            {
+                "field_type": "String",
+                "field_name": "Client"
+            },
+            {
+                "field_type": "String",
+                "field_name": "Account"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NegotiatedFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Active Directory: NetLogon",
+        "category": "{63dbb180-dbed-11d2-895b-00c04f79ab69}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NlSecChanlSetup_Start()",
+        "event_type": "Start",
+        "description": "NetLogon Secure Channel Setup",
+        "event_fields": []
+    },
+    {
+        "provider": "Active Directory: NetLogon",
+        "category": "{63dbb180-dbed-11d2-895b-00c04f79ab69}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NlSecChanlSetup_End()",
+        "event_type": "End",
+        "description": "NetLogon Secure Channel Setup",
+        "event_fields": []
+    }
+]

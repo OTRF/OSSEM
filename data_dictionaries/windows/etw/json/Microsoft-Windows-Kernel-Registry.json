@@ -1,0 +1,1067 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0CreateKey(Pointer BaseObject, Pointer KeyObject, UInt32 Status, UInt32 Disposition, UnicodeString BaseName, UnicodeString RelativeName)",
+        "opcode": "CreateKey",
+        "keywords": "CreateKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Disposition"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BaseName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RelativeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_0OpenKey(Pointer BaseObject, Pointer KeyObject, UInt32 Status, UInt32 Disposition, UnicodeString BaseName, UnicodeString RelativeName)",
+        "opcode": "OpenKey",
+        "keywords": "OpenKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "BaseObject"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Disposition"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BaseName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RelativeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_0DeleteKey(Pointer KeyObject, UInt32 Status, UnicodeString KeyName)",
+        "opcode": "DeleteKey",
+        "keywords": "DeleteKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_0QueryKey(Pointer KeyObject, UInt32 Status, UInt32 InfoClass, UInt32 DataSize, UnicodeString KeyName, UInt16 CapturedDataSize, Binary CapturedData)",
+        "opcode": "QueryKey",
+        "keywords": "QueryKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CapturedDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CapturedData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_0SetValueKey(Pointer KeyObject, UInt32 Status, UInt32 Type, UInt32 DataSize, UnicodeString KeyName, UnicodeString ValueName, UInt16 CapturedDataSize, Binary CapturedData, UInt32 PreviousDataType, UInt32 PreviousDataSize, UInt16 PreviousDataCapturedSize, Binary PreviousData)",
+        "opcode": "SetValueKey",
+        "keywords": "SetValueKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ValueName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CapturedDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CapturedData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousDataType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousDataSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PreviousDataCapturedSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PreviousData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "task_0DeleteValueKey(Pointer KeyObject, UInt32 Status, UnicodeString KeyName, UnicodeString ValueName)",
+        "opcode": "DeleteValueKey",
+        "keywords": "DeleteValueKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ValueName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "task_0QueryValueKey(Pointer KeyObject, UInt32 Status, UInt32 InfoClass, UInt32 DataSize, UnicodeString KeyName, UnicodeString ValueName, UInt16 CapturedDataSize, Binary CapturedData)",
+        "opcode": "QueryValueKey",
+        "keywords": "QueryValueKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ValueName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CapturedDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CapturedData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "task_0EnumerateKey(Pointer KeyObject, UInt32 Status, UInt32 Index, UInt32 InfoClass, UInt32 DataSize, UnicodeString KeyName, UInt16 CapturedDataSize, Binary CapturedData)",
+        "opcode": "EnumerateKey",
+        "keywords": "EnumerateKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CapturedDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CapturedData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "task_0EnumerateValueKey(Pointer KeyObject, UInt32 Status, UInt32 Index, UInt32 InfoClass, UInt32 DataSize, UnicodeString KeyName, UInt16 CapturedDataSize, Binary CapturedData)",
+        "opcode": "EnumerateValueKey",
+        "keywords": "EnumerateValueKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CapturedDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CapturedData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "task_0QueryMultipleValueKey(Pointer KeyObject, UInt32 Status, UInt32 EntryCount, UInt32 DataSize, UnicodeString KeyName)",
+        "opcode": "QueryMultipleValueKey",
+        "keywords": "QueryMultipleValueKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EntryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "task_0SetInformationKey(Pointer KeyObject, UInt32 Status, UInt32 InfoClass, UInt32 DataSize, UnicodeString KeyName, UInt16 CapturedDataSize, Binary CapturedData)",
+        "opcode": "SetInformationKey",
+        "keywords": "SetInformationKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InfoClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CapturedDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CapturedData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "task_0FlushKey(Pointer KeyObject, UInt32 Status, UnicodeString KeyName)",
+        "opcode": "FlushKey",
+        "keywords": "FlushKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "task_0CloseKey(Pointer KeyObject, UInt32 Status, UnicodeString KeyName)",
+        "opcode": "CloseKey",
+        "keywords": "CloseKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_0QuerySecurityKey(Pointer KeyObject, UInt32 Status, UnicodeString KeyName)",
+        "opcode": "QuerySecurityKey",
+        "keywords": "QuerySecurityKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_0SetSecurityKey(Pointer KeyObject, UInt32 Status, UnicodeString KeyName)",
+        "opcode": "SetSecurityKey",
+        "keywords": "SetSecurityKey",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "KeyObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.Start()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.RegPerfOpHiveMountBaseFileMounted(UnicodeString HiveFilePath, UInt32 FileSize)",
+        "opcode": "RegPerfOpHiveMountBaseFileMounted",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveFilePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.RegPerfOpHiveMountLogEntryApplied(UInt32 TotalEntrySize, UInt32 BytesRecovered)",
+        "opcode": "RegPerfOpHiveMountLogEntryApplied",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalEntrySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesRecovered"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.Stop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofunloadinghives.Start(UnicodeString HiveFilePath, UnicodeString HiveMountPoint)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofunloadinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveFilePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveMountPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofunloadinghives.Stop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofunloadinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.Start(UnicodeString HiveFilePath, UnicodeString HiveMountPoint, HexInt32 FlushFlags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveFilePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveMountPoint"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FlushFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushBecameActiveFlusher()",
+        "opcode": "RegPerfOpHiveFlushBecameActiveFlusher",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushGatheredLogData(UInt32 BytesGathered)",
+        "opcode": "RegPerfOpHiveFlushGatheredLogData",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesGathered"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushGatheredPrimaryData(UInt32 BytesGathered)",
+        "opcode": "RegPerfOpHiveFlushGatheredPrimaryData",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesGathered"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushWroteLogFile(UInt32 WritesIssued, UInt32 BytesWritten)",
+        "opcode": "RegPerfOpHiveFlushWroteLogFile",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WritesIssued"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesWritten"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushWrotePrimaryFile(UInt32 WritesIssued, UInt32 BytesWritten)",
+        "opcode": "RegPerfOpHiveFlushWrotePrimaryFile",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WritesIssued"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesWritten"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushBoostedActiveFlusher()",
+        "opcode": "RegPerfOpHiveFlushBoostedActiveFlusher",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushStartWaitForActive()",
+        "opcode": "RegPerfOpHiveFlushStartWaitForActive",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushFinishWaitForActive()",
+        "opcode": "RegPerfOpHiveFlushFinishWaitForActive",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofflushinghives.Stop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofflushinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofregistryshutdown.Start()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofregistryshutdown.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofregistryshutdown.Start33()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofregistryshutdown.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofregistryshutdown.RegPerfOpShutdownFlushStart()",
+        "opcode": "RegPerfOpShutdownFlushStart",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofregistryshutdown.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofregistryshutdown.RegPerfOpShutdownFlushStop()",
+        "opcode": "RegPerfOpShutdownFlushStop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofregistryshutdown.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofregistryshutdown.Stop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofregistryshutdown.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofloadinghives.Start(UnicodeString SourceFile, HexInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofloadinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofloadinghives.Stop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofloadinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofrestoringhives.Start(UnicodeString SourceFile, HexInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofrestoringhives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceFile"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofrestoringhives.Stop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofrestoringhives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofexportinghives.Start(UnicodeString SourceKeyPath)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofexportinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceKeyPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofexportinghives.RegPerfOpSaveFileCopied()",
+        "opcode": "RegPerfOpSaveFileCopied",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofexportinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofexportinghives.RegPerfOpSaveTreeCopied()",
+        "opcode": "RegPerfOpSaveTreeCopied",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofexportinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofexportinghives.RegPerfOpSaveFileWritten()",
+        "opcode": "RegPerfOpSaveFileWritten",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofexportinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Registry",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "Thisgroupofeventstrackstheperformanceofexportinghives.Stop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Thisgroupofeventstrackstheperformanceofexportinghives.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    }
+]

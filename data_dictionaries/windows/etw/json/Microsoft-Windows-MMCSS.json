@@ -1,0 +1,322 @@
+[
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "Scheduler_Priority_Change_V1(UInt32 ProcessID, UInt32 ThreadID, UInt8 Priority, UInt32 TaskIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Scheduler_Priority_Change",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "Scheduler_Wakeup_V1(UInt32 Reason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Scheduler_Wakeup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "Scheduler_Sleep_V1(UInt32 Reason, UInt32 Duration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Scheduler_Sleep",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "Service_Start_V1()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Service_Start",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "Service_Stop_V1()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Service_Stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "Thread_Join_V1(UInt32 ThreadID, UInt8 MediumPriority, UInt8 LowPriority, UInt8 UberLowPriority, UnicodeString TaskName, UInt32 TaskIndex, UInt8 Category, UInt8 Flags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Thread_Join",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MediumPriority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LowPriority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "UberLowPriority"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "Thread_Leave_V1(UInt32 ThreadID, UInt8 OriginalBasePriority)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Thread_Leave",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OriginalBasePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "TaskIndex_Yield_V1(UInt32 TaskIndex, UInt32 Duration, UInt32 PreDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskIndex_Yield",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "TaskIndex_YieldCancel_V1(UInt32 TaskIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskIndex_YieldCancel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "Set_MultimediaMode_V1(UInt32 TaskIndex, UInt32 ThreadTag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Set_MultimediaMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "TaskIndex_DeadlineExpired_V1(UInt32 TaskIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskIndex_DeadlineExpired",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "TurboEngaged_V1(UInt32 TurboEngaged)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TurboEngaged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TurboEngaged"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "ThreadBufferingStart_V1(UInt32 ThreadID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ThreadBuffering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "18",
+        "version": "1",
+        "event(fields)": "ThreadBufferingStop_V1(UInt32 ThreadID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ThreadBuffering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MMCSS",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "TaskIndex_PreDeadlineExpired_V1(UInt32 TaskIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskIndex_PreDeadlineExpired",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskIndex"
+            }
+        ]
+    }
+]

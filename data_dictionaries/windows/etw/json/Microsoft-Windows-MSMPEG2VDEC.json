@@ -1,0 +1,947 @@
+[
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "H264_NotifyDecode(UInt32 IDRCount, Int32 POC, UInt8 PictureType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "H264_NotifyDecode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IDRCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "POC"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PictureType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "H264_NotifySkip(UInt32 IDRCount, Int32 POC, UInt8 PictureType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "H264_NotifySkip",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IDRCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "POC"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PictureType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "H264_NotifyOutput(UInt32 IDRCount, Int32 POC)",
+        "opcode": "",
+        "keywords": "",
+        "task": "H264_NotifyOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IDRCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "POC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "H264_DecodeTaskStart(UInt8 TaskID, UInt32 IDRCount, Int32 POC)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "H264_DecodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "TaskID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IDRCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "POC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "H264_DecodeTaskStop(UInt8 TaskID, UInt32 IDRCount, Int32 POC)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "H264_DecodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "TaskID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IDRCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "POC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "H264_EncryptInputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "H264_EncryptInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "H264_EncryptInputStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "H264_EncryptInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "H264_NotifyCorruptedInput()",
+        "opcode": "",
+        "keywords": "",
+        "task": "H264_NotifyCorruptedInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "H264_SetQualityMode(UInt8 QualityMode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "H264_SetQualityMode",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "QualityMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "H264_FormatChange(UInt32 Width, UInt32 Height, UInt32 SARWidth, UInt32 SARHeight, UInt8 BitDepthLuma, UInt8 BitDepthChroma, UInt8 ChromaFormat)",
+        "opcode": "",
+        "keywords": "",
+        "task": "H264_FormatChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SARWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SARHeight"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BitDepthLuma"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BitDepthChroma"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ChromaFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MPEG2_NotifyDiscover(UInt8 PictureType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG2_NotifyDiscover",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PictureType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MPEG2_NotifySkip(UInt8 PictureType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG2_NotifySkip",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PictureType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MPEG2_DecodeTaskStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MPEG2_DecodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "MPEG2_NotifyCorruptedInput()",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG2_NotifyCorruptedInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "DShow_PlaybackStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DShow_Playback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "DShow_PlaybackStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DShow_Playback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "DShow_NotifyCodec(UInt8 CodecID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DShow_NotifyCodec",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "CodecID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "DShow_ReceiveStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DShow_Receive",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "DShow_ReceiveStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DShow_Receive",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "DShow_DeliverStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DShow_Deliver",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "DShow_DeliverStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DShow_Deliver",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "DShow_SetOutputAttribute(Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DShow_SetOutputAttribute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "DShow_NotifyQuality(UInt8 QualityType, Int32 Proportion, Int64 Late, Int64 TimeStamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DShow_NotifyQuality",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "QualityType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Proportion"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Late"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "DShow_NewDXVAConfig(GUID DecoderGUID, GUID ConfigBitstreamEncryption, GUID ConfigMBcontrolEncryption, GUID ConfigResidDiffEncryption, UInt32 ConfigBitstreamRaw, UInt32 ConfigMBcontrolRasterOrder, UInt32 ConfigResidDiffHost, UInt32 ConfigSpatialResid8, UInt32 ConfigResid8Subtraction, UInt32 ConfigSpatialHost8or9Clipping, UInt32 ConfigSpatialResidInterleaved, UInt32 ConfigIntraResidUnsigned, UInt32 ConfigResidDiffAccelerator, UInt32 ConfigHostInverseScan, UInt32 ConfigSpecificIDCT, UInt32 Config4GroupedCoefs, UInt32 ConfigMinRenderTargetBuffCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DShow_NewDXVAConfig",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DecoderGUID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ConfigBitstreamEncryption"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ConfigMBcontrolEncryption"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ConfigResidDiffEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigBitstreamRaw"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigMBcontrolRasterOrder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigResidDiffHost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigSpatialResid8"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigResid8Subtraction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigSpatialHost8or9Clipping"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigSpatialResidInterleaved"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigIntraResidUnsigned"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigResidDiffAccelerator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigHostInverseScan"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigSpecificIDCT"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Config4GroupedCoefs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConfigMinRenderTargetBuffCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "DShow_GetOutputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DShow_GetOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "DShow_GetOutputStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DShow_GetOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "MFT_PlaybackStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFT_Playback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "MFT_PlaybackStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFT_Playback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "MFT_ProcessInputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFT_ProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "MFT_ProcessInputStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFT_ProcessInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "MFT_ProcessOutputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFT_ProcessOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "MFT_ProcessOutputStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFT_ProcessOutput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "MFT_SetOutputAttribute(Int64 SampleTime, Int64 SampleDuration, Int8 PicStructPresent, Int8 PicStruct)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFT_SetOutputAttribute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "PicStructPresent"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "PicStruct"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "MFT_NotifySampleLag(Int64 SampleLag)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFT_NotifySampleLag",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleLag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "MFT_ProcessMessage(UInt32 Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFT_ProcessMessage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "DXVA_CreateVideoDecoderStart(GUID DecoderGUID, UInt32 NumSurfaces, UInt32 Width, UInt32 Height, UInt32 RenderTarget, UInt32 D3DFormat)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXVA_CreateVideoDecoder",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DecoderGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumSurfaces"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RenderTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "D3DFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "DXVA_CreateVideoDecoderStop(GUID DecoderGUID, UInt32 NumSurfaces, UInt32 Width, UInt32 Height, UInt32 RenderTarget, UInt32 D3DFormat)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXVA_CreateVideoDecoder",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DecoderGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumSurfaces"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RenderTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "D3DFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "DXVA_BeginFrameStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXVA_BeginFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "DXVA_BeginFrameStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXVA_BeginFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "DXVA_GetBufferStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXVA_GetBuffer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "DXVA_GetBufferStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXVA_GetBuffer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "DXVA_ReleaseBufferStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXVA_ReleaseBuffer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "DXVA_ReleaseBufferStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXVA_ReleaseBuffer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "DXVA_ExecuteStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXVA_Execute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "DXVA_ExecuteStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXVA_Execute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "DXVA_EndFrameStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DXVA_EndFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "DXVA_EndFrameStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DXVA_EndFrame",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "MPEG2_EncryptInputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MPEG2_EncryptInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "MPEG2_EncryptInputStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MPEG2_EncryptInput",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "MFT_SleepStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFT_Sleep",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MSMPEG2VDEC",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "MFT_SleepStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFT_Sleep",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

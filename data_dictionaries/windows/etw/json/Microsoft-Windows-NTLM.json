@@ -1,0 +1,496 @@
+[
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString AccountName, UnicodeString DeviceName, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "task_0101(UnicodeString AccountName, UnicodeString DeviceName, HexInt32 Status, UnicodeString SiloName, UnicodeString PolicyName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SiloName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PolicyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "task_0301(UnicodeString AccountName, UnicodeString DeviceName, HexInt32 Status, UnicodeString SiloName, UnicodeString PolicyName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SiloName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PolicyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4001",
+        "version": "0",
+        "event(fields)": "BlockingNTLM(UnicodeString TargetName, UnicodeString UserName, UnicodeString DomainName, UInt32 CallerPID, UnicodeString ProcessName, HexInt64 ClientLUID, UnicodeString ClientUserName, UnicodeString ClientDomainName, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BlockingNTLM",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ClientLUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4002",
+        "version": "0",
+        "event(fields)": "BlockingNTLM4002(UInt32 CallerPID, UnicodeString ProcessName, HexInt64 ClientLUID, UnicodeString ClientUserName, UnicodeString ClientDomainName, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BlockingNTLM",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ClientLUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4003",
+        "version": "0",
+        "event(fields)": "BlockingNTLM4003(UnicodeString UserName, UnicodeString DomainName, UnicodeString Workstation, UInt32 CallerPID, UnicodeString ProcessName, UInt32 LogonType, Boolean InProc, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BlockingNTLM",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Workstation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LogonType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InProc"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4010",
+        "version": "0",
+        "event(fields)": "task_04010(UInt32 CallerPID, UnicodeString ProcessName, HexInt32 NegotiatedSecurity, HexInt32 RequiredSecurity)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NegotiatedSecurity"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequiredSecurity"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4011",
+        "version": "0",
+        "event(fields)": "task_04011(UInt32 CallerPID, UnicodeString ProcessName, HexInt32 NegotiatedSecurity, HexInt32 RequiredSecurity)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NegotiatedSecurity"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequiredSecurity"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4012",
+        "version": "0",
+        "event(fields)": "task_04012(UnicodeString AccountName, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "4013",
+        "version": "0",
+        "event(fields)": "task_04013(UnicodeString TargetName, UnicodeString UserName, UnicodeString DomainName, UInt32 CallerPID, UnicodeString ProcessName, HexInt64 ClientLUID, UnicodeString ClientUserName, UnicodeString ClientDomainName, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ClientLUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "8001",
+        "version": "0",
+        "event(fields)": "AuditingNTLM(UnicodeString TargetName, UnicodeString UserName, UnicodeString DomainName, UInt32 CallerPID, UnicodeString ProcessName, HexInt64 ClientLUID, UnicodeString ClientUserName, UnicodeString ClientDomainName, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AuditingNTLM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ClientLUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "8002",
+        "version": "0",
+        "event(fields)": "AuditingNTLM8002(UInt32 CallerPID, UnicodeString ProcessName, HexInt64 ClientLUID, UnicodeString ClientUserName, UnicodeString ClientDomainName, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AuditingNTLM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ClientLUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientUserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientDomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NTLM",
+        "event_id": "8003",
+        "version": "0",
+        "event(fields)": "AuditingNTLM8003(UnicodeString UserName, UnicodeString DomainName, UnicodeString Workstation, UInt32 CallerPID, UnicodeString ProcessName, UInt32 LogonType, Boolean InProc, UnicodeString MechanismOID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AuditingNTLM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Workstation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerPID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LogonType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InProc"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MechanismOID"
+            }
+        ]
+    }
+]

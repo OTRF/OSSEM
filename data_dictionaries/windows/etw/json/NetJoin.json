@@ -1,0 +1,50 @@
+[
+    {
+        "provider": "NetJoin",
+        "event_id": "4096",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString DomainName, UnicodeString ComputerName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ComputerName"
+            }
+        ]
+    },
+    {
+        "provider": "NetJoin",
+        "event_id": "4097",
+        "version": "0",
+        "event(fields)": "task_04097(UnicodeString DomainName, UnicodeString ComputerName, UInt32 NetStatusCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ComputerName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NetStatusCode"
+            }
+        ]
+    }
+]

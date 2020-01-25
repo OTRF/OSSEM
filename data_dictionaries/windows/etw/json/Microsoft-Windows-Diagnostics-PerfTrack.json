@@ -1,0 +1,1036 @@
+[
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "GenericScenario_WDIInit()",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "GenericScenario_WDIInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "GenericScenario_WDIUnload()",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "GenericScenario_WDIUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "GenericScenario_AllocatedInstance()",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "GenericScenario_AllocatedInstance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "PerfPipe_TraceCapture_StartEnd(Int64 StartTimeStamp, GUID StartProviderId, UInt16 StartEventId, UInt8 StartEventVersion, Int64 StopTimeStamp, GUID StopProviderId, UInt16 StopEventId, UInt8 StopEventVersion, GUID ScenarioId, UInt32 SqmId, UInt32 Duration, UInt32 RuleId)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "PerfPipe_TraceCapture_StartEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "StartTimeStamp"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "StartProviderId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StartEventId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StartEventVersion"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "StopTimeStamp"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "StopProviderId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StopEventId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StopEventVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "PerfPipe_TraceCapture_Trigger(Int64 TriggerTimeStamp, GUID TriggerProviderId, UInt16 TriggerEventId, UInt8 TriggerEventVersion, GUID ScenarioId, UInt32 SqmId, UInt32 Duration, UInt32 RuleId)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "PerfPipe_TraceCapture_Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "TriggerTimeStamp"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerProviderId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "TriggerEventId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TriggerEventVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RuleId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "500",
+        "version": "0",
+        "event(fields)": "SqmLogger_AddToScenarioStream(UInt32 CanAddToScenarioStream, UInt32 ScenarioId, UInt32 ScenarioDuration, UInt32 ScenarioPackedContext, UInt32 MoshTimeValue, UnicodeString ScenarioMetadata)",
+        "opcode": "",
+        "keywords": "SQMStatus",
+        "task": "SqmLogger_AddToScenarioStream",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CanAddToScenarioStream"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioPackedContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MoshTimeValue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioMetadata"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "800",
+        "version": "0",
+        "event(fields)": "ConfigCriteria_Result(UInt32 SqmId, UInt32 SqmValue)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "ConfigCriteria_Result",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "IdleDetection_PostBootStart(UnicodeString MostRecentPreviousBuild, UInt64 WhenUpgradedFrom)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IdleDetection_PostBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MostRecentPreviousBuild"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WhenUpgradedFrom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "IdleDetection_PostResumeFromSleepStart(UnicodeString MostRecentPreviousBuild, UInt64 WhenUpgradedFrom)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IdleDetection_PostResumeFromSleep",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MostRecentPreviousBuild"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WhenUpgradedFrom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1102",
+        "version": "0",
+        "event(fields)": "IdleDetection_PostResumeFromHibernateStart(UnicodeString MostRecentPreviousBuild, UInt64 WhenUpgradedFrom)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IdleDetection_PostResumeFromHibernate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MostRecentPreviousBuild"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WhenUpgradedFrom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1103",
+        "version": "0",
+        "event(fields)": "IdleDetection_Stop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IdleDetection_Stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1104",
+        "version": "0",
+        "event(fields)": "IdleDetection_CancelStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IdleDetection_Cancel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1105",
+        "version": "0",
+        "event(fields)": "IdleDetection_Parameters(UnicodeString Resource, UInt32 NumResources, UInt32 SliceDuration_msec, UInt32 RequiredIdleDuration_msec, UInt32 NumOverlaps, UInt32 MaximumUsagePerSlice_Percent, Boolean NormalizeTime)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "IdleDetection_Parameters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumResources"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceDuration_msec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequiredIdleDuration_msec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumOverlaps"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumUsagePerSlice_Percent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NormalizeTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1106",
+        "version": "0",
+        "event(fields)": "IdleDetection_Sample(UnicodeString Resource, UInt32 ResourceId, UInt32 BusyPercentage, Int64 LastIdleTime, Int64 LastTotalTime, Int64 CurrentIdleTime, Int64 CurrentTotalTime)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "IdleDetection_Sample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResourceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BusyPercentage"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "LastIdleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "LastTotalTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "CurrentIdleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "CurrentTotalTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1107",
+        "version": "0",
+        "event(fields)": "IdleDetection_Sample_Error(UnicodeString Resource, UInt32 HResult)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "IdleDetection_Sample_Error",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1108",
+        "version": "0",
+        "event(fields)": "IdleDetection_SliceSummary(UnicodeString Resource, UInt32 CombinedBusyPercentage, Boolean IsIdle, UInt64 IdleTimeFound)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "IdleDetection_SliceSummary",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CombinedBusyPercentage"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsIdle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IdleTimeFound"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1109",
+        "version": "0",
+        "event(fields)": "IdleDetection_Disk_OpenedDisk(UnicodeString DevicePath)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "IdleDetection_Disk_OpenedDisk",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DevicePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1110",
+        "version": "0",
+        "event(fields)": "IdleDetection_Status_Info(Int64 AccumulatedIdleTime)",
+        "opcode": "",
+        "keywords": "PerfTrackStatus",
+        "task": "IdleDetection_Status_Info",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "AccumulatedIdleTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1111",
+        "version": "0",
+        "event(fields)": "IdleDetection_PostResumeFromHybridbootStart(UnicodeString MostRecentPreviousBuild, UInt64 WhenUpgradedFrom)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IdleDetection_PostResumeFromHybridboot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MostRecentPreviousBuild"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WhenUpgradedFrom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1112",
+        "version": "0",
+        "event(fields)": "IdleDetection_PostResumeFromConnectedStandbyStart(UnicodeString MostRecentPreviousBuild, UInt64 WhenUpgradedFrom)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IdleDetection_PostResumeFromConnectedStandby",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MostRecentPreviousBuild"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WhenUpgradedFrom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1113",
+        "version": "0",
+        "event(fields)": "IdleDetection_MeasureStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IdleDetection_MeasureStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1500",
+        "version": "0",
+        "event(fields)": "MainPath_HybridBoot(UInt32 MainPathHybridbootTimeMs, UInt32 PostTimeMs, UInt32 ResumeTimeMs, UInt32 AdditionalMetadata)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MainPath_HybridBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MainPathHybridbootTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PostTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResumeTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdditionalMetadata"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1500",
+        "version": "1",
+        "event(fields)": "MainPath_HybridBoot_V1(UInt32 MainPathHybridbootTimeMs, UInt32 PostTimeMs, UInt32 ResumeTimeMs, UInt32 AdditionalMetadata, UInt32 ReadyBootTrainingCountSinceLastServicing)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MainPath_HybridBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MainPathHybridbootTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PostTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResumeTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdditionalMetadata"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadyBootTrainingCountSinceLastServicing"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1501",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStart(UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString ScenarioName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_moStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1502",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_metadataStop(UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString ScenarioName, UnicodeString PackageFullName, UnicodeString PRAID, UInt32 Dword1, UInt32 Dword2, UInt32 Dword3, UInt32 Dword4, UInt32 Dword5, UnicodeString String1, UnicodeString String2)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_metadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PRAID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1503",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop(UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString ScenarioName, UnicodeString PackageFullName, UnicodeString PRAID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PRAID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1504",
+        "version": "0",
+        "event(fields)": "PerfTrack_moTrigger_metadata(UInt32 Duration, UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString ScenarioName, UnicodeString PackageFullName, UnicodeString PRAID, UInt32 Dword1, UInt32 Dword2, UInt32 Dword3, UInt32 Dword4, UInt32 Dword5, UnicodeString String1, UnicodeString String2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrack_moTrigger_metadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PRAID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1505",
+        "version": "0",
+        "event(fields)": "PerfTrack_moTrigger(UInt32 Duration, UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString ScenarioName, UnicodeString PackageFullName, UnicodeString PRAID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PerfTrack_moTrigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScenarioId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScenarioName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PRAID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1506",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_launchVisibleCompleteStop(UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString PackageFullName, UnicodeString AUMID, UInt32 ActivationKind)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_launchVisibleComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationKind"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1507",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_launchResponsiveStop(UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString PackageFullName, UnicodeString AUMID, UInt32 ActivationKind)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_launchResponsive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationKind"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1508",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_resumeVisibleCompleteStop(UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString PackageFullName, UnicodeString AUMID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_resumeVisibleComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1509",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_resumeResponsiveStop(UInt32 ControlFlags, UnicodeString MatchKey, UnicodeString PackageFullName, UnicodeString AUMID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_resumeResponsive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchKey"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1510",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_resizeVisibleCompleteStop(UInt32 ControlFlags, UInt32 ViewId, UnicodeString PackageFullName, UnicodeString AUMID, UInt32 ResizeFlags, UInt32 WindowSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_resizeVisibleComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResizeFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WindowSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnostics-PerfTrack",
+        "event_id": "1511",
+        "version": "0",
+        "event(fields)": "PerfTrack_moStop_resizeResponsiveStop(UInt32 ControlFlags, UInt32 ViewId, UnicodeString PackageFullName, UnicodeString AUMID, UInt32 ResizeFlags, UInt32 WindowSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_moStop_resizeResponsive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AUMID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResizeFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WindowSize"
+            }
+        ]
+    }
+]

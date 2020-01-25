@@ -1,0 +1,1905 @@
+[
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1000",
+        "version": "1",
+        "event(fields)": "Startupofthedrivermanagerservice.Start_V1(UnicodeString Version)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Startupofthedrivermanagerservice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1000",
+        "version": "2",
+        "event(fields)": "Startupofthedrivermanagerservice.Start_V2()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Startupofthedrivermanagerservice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1001",
+        "version": "1",
+        "event(fields)": "Startupofthedrivermanagerservice.Stop_V1(UnicodeString Version, UInt32 Error)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Startupofthedrivermanagerservice.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1001",
+        "version": "2",
+        "event(fields)": "Startupofthedrivermanagerservice.Stop_V2(UInt32 Error)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Startupofthedrivermanagerservice.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1002",
+        "version": "1",
+        "event(fields)": "Startupofthedrivermanagerservice.Stop1002_V1()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Startupofthedrivermanagerservice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1003",
+        "version": "1",
+        "event(fields)": "Creationofanewdriverhostprocess.Start_V1(GUID LifetimeId, UnicodeString HostGuid, UnicodeString InstanceId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Creationofanewdriverhostprocess.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1004",
+        "version": "1",
+        "event(fields)": "Creationofanewdriverhostprocess.Stop_V1(GUID LifetimeId, UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Creationofanewdriverhostprocess.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1005",
+        "version": "1",
+        "event(fields)": "Creationofanewdriverhostprocess.Stop1005_V1(GUID LifetimeId, UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Creationofanewdriverhostprocess.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1006",
+        "version": "1",
+        "event(fields)": "Shutdownofadriverhostprocess.Start_V1(GUID LifetimeId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Shutdownofadriverhostprocess.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1007",
+        "version": "1",
+        "event(fields)": "Shutdownofadriverhostprocess._V1(GUID LifetimeId, UInt8 Problem, UInt8 DetectedBy, UInt8 ActiveOperation, UInt32 ExitCode, UInt32 Message, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Shutdownofadriverhostprocess.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DetectedBy"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActiveOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "1008",
+        "version": "1",
+        "event(fields)": "Shutdownofadriverhostprocess.Stop_V1(GUID LifetimeId, UInt32 TerminationStatus, UInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Shutdownofadriverhostprocess.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TerminationStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2000",
+        "version": "1",
+        "event(fields)": "Startupofanewdriverhostprocess.Start_V1(GUID LifetimeId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Startupofanewdriverhostprocess.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2001",
+        "version": "1",
+        "event(fields)": "Startupofanewdriverhostprocess.Stop_V1(GUID LifetimeId, UInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Startupofanewdriverhostprocess.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2002",
+        "version": "1",
+        "event(fields)": "Startupofanewdriverhostprocess.Stop2002_V1(GUID LifetimeId, UInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Startupofanewdriverhostprocess.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2003",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice.Start_V1(GUID LifetimeId, UnicodeString InstanceId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2004",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice.Start2004_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UnicodeString Service, GUID ClsId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Service"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ClsId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2005",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice._V1(GUID LifetimeId, UnicodeString InstanceId, UnicodeString ModulePath, UnicodeString CompanyName, UnicodeString FileDescription, UnicodeString FileVersion)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CompanyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2006",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice.Stop_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2007",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice.Stop2007_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2010",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice.Stop2010_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2011",
+        "version": "1",
+        "event(fields)": "Loadingdriverstocontrolanewlydiscovereddevice.Stop2011_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Loadingdriverstocontrolanewlydiscovereddevice.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2100",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Start_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2101",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Stop_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2102",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Stop2102_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2103",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Stop2103_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2105",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Start2105_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2106",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Start2106_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2107",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardevice.Start2107_V1(GUID LifetimeId, UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardevice.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MajorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorCode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument2"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument3"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Argument4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2900",
+        "version": "1",
+        "event(fields)": "Shutdownofadriverhostprocess._41Start_V1(GUID LifetimeId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Shutdownofadriverhostprocess._41",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "2901",
+        "version": "1",
+        "event(fields)": "Shutdownofadriverhostprocess._41Stop_V1(GUID LifetimeId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Shutdownofadriverhostprocess._41",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "3000",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.Start_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt8 StateMachine, UInt32 Event, UInt32 Queueing)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Queueing"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "3001",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardriverinadevicestack._V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt8 StateMachine, UInt32 Event)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "3010",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.Start3010_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt32 StateMachine, UInt32 CurrentState, UInt32 Event, UInt32 NewState)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "3011",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.Stop_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt8 StateMachine, UInt32 CurrentState)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "3020",
+        "version": "1",
+        "event(fields)": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.Stop3020_V1(GUID LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt8 StateMachine, UInt32 Event)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PnporPowerManagementoperationtoaparticulardriverinadevicestack.",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StateMachine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10000",
+        "version": "1",
+        "event(fields)": "Installationorupdateofdevicedrivers.Start_V1(UnicodeString DeviceId, UnicodeString FrameworkVersion)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Installationorupdateofdevicedrivers.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameworkVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10001",
+        "version": "1",
+        "event(fields)": "Installationorupdateofdevicedrivers._V1(UnicodeString ServiceName, GUID CLSID, UnicodeString FxVersion, Boolean Upgrade)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Installationorupdateofdevicedrivers.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FxVersion"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Upgrade"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10002",
+        "version": "1",
+        "event(fields)": "Installationorupdateofdevicedrivers.10002_V1(UnicodeString ServiceName, GUID CLSID, UnicodeString FxVersion, Boolean Upgrade)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Installationorupdateofdevicedrivers.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FxVersion"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Upgrade"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10100",
+        "version": "1",
+        "event(fields)": "Installationorupdateofdevicedrivers.Stop_V1(UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Installationorupdateofdevicedrivers.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10101",
+        "version": "1",
+        "event(fields)": "Installationorupdateofdevicedrivers.Stop10101_V1(UInt32 FinalStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Installationorupdateofdevicedrivers.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10110",
+        "version": "1",
+        "event(fields)": "User_modeDriverproblems._V1(GUID LifetimeId, UInt8 Problem, UInt8 DetectedBy, UInt8 ActiveOperation, UInt32 ExitCode, UInt32 Message, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "User_modeDriverproblems.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Problem"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DetectedBy"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActiveOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10111",
+        "version": "1",
+        "event(fields)": "User_modeDriverproblems.10111_V1(GUID LifetimeId, UnicodeString FriendlyName, UnicodeString Location, UnicodeString InstanceId, UInt32 RestartCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "User_modeDriverproblems.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RestartCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10112",
+        "version": "1",
+        "event(fields)": "User_modeDriverproblems.10112_V1(GUID LifetimeId, UnicodeString FriendlyName, UnicodeString Location, UnicodeString InstanceId, UInt32 RestartCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "User_modeDriverproblems.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RestartCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10113",
+        "version": "1",
+        "event(fields)": "Startupofanewdriverhostprocess._V1(GUID LifetimeId, UnicodeString InstanceId, UnicodeString ConflictingParameter, UInt64 Value, UnicodeString DriverName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Startupofanewdriverhostprocess.",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConflictingParameter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10115",
+        "version": "1",
+        "event(fields)": "User_modeDriverproblems.10115_V1(GUID LifetimeId, UnicodeString FriendlyName, UnicodeString Location, UnicodeString InstanceId, UInt32 RestartCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "User_modeDriverproblems.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RestartCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10116",
+        "version": "1",
+        "event(fields)": "User_modeDriverproblems.10116_V1(GUID LifetimeId, UnicodeString FriendlyName, UnicodeString Location, UnicodeString InstanceId, UInt32 RestartCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "User_modeDriverproblems.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LifetimeId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RestartCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10117",
+        "version": "1",
+        "event(fields)": "Installationorupdateofdevicedrivers.10117_V1(UnicodeString ServiceName, UInt32 ActualFuntionTableCount, UInt32 ExpectedFuntionTableCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Installationorupdateofdevicedrivers.",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualFuntionTableCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedFuntionTableCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "10118",
+        "version": "1",
+        "event(fields)": "StartupoftheUMDFreflector_V1()",
+        "opcode": "",
+        "keywords": "",
+        "task": "StartupoftheUMDFreflector",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "19999",
+        "version": "1",
+        "event(fields)": "TestingUMDF_V1(UnicodeString String)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TestingUMDF",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "20030",
+        "version": "1",
+        "event(fields)": "PowerTransition_DriverStart_V1(Pointer Irp, Pointer Device, UnicodeString DriverName)",
+        "opcode": "Start",
+        "keywords": "umdf:PowerTransition",
+        "task": "PowerTransition_Driver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "20031",
+        "version": "1",
+        "event(fields)": "PowerTransition_DriverStop_V1(Pointer Irp, Pointer Device)",
+        "opcode": "Stop",
+        "keywords": "umdf:PowerTransition",
+        "task": "PowerTransition_Driver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "20032",
+        "version": "1",
+        "event(fields)": "PowerTransition_DriverNestingStart_V1(Pointer Irp, Pointer Device)",
+        "opcode": "NestingStart",
+        "keywords": "umdf:PowerTransition",
+        "task": "PowerTransition_Driver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "20033",
+        "version": "1",
+        "event(fields)": "PowerTransition_DriverNestingStop_V1(Pointer Irp, Pointer Device)",
+        "opcode": "NestingStop",
+        "keywords": "umdf:PowerTransition",
+        "task": "PowerTransition_Driver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30008",
+        "version": "1",
+        "event(fields)": "DDIcalltoreadfromHardware.Start_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DDIcalltoreadfromHardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30009",
+        "version": "1",
+        "event(fields)": "DDIcalltoreadfromHardware.Stop_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DDIcalltoreadfromHardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30010",
+        "version": "1",
+        "event(fields)": "ReadfromHardware.Start_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ReadfromHardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30011",
+        "version": "1",
+        "event(fields)": "ReadfromHardware.Stop_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ReadfromHardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30012",
+        "version": "1",
+        "event(fields)": "DDIcalltoWritetohardware.Start_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DDIcalltoWritetohardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30013",
+        "version": "1",
+        "event(fields)": "DDIcalltoWritetohardware.Stop_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DDIcalltoWritetohardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30014",
+        "version": "1",
+        "event(fields)": "Writetohardware.Start_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Writetohardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30015",
+        "version": "1",
+        "event(fields)": "Writetohardware.Stop_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Writetohardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30016",
+        "version": "1",
+        "event(fields)": "ReadfromHardware.Start30016_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ReadfromHardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30017",
+        "version": "1",
+        "event(fields)": "ReadfromHardware.Stop30017_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ReadfromHardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30018",
+        "version": "1",
+        "event(fields)": "Writetohardware.Start30018_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Writetohardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30019",
+        "version": "1",
+        "event(fields)": "Writetohardware.Stop30019_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize, UInt32 HwAccessBufferCount)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Writetohardware.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessTargetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HwAccessBufferCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30020",
+        "version": "1",
+        "event(fields)": "UMDFhardwareinterruptnotification._V1(UInt32 InterruptMessageNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UMDFhardwareinterruptnotification.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterruptMessageNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+        "event_id": "30021",
+        "version": "1",
+        "event(fields)": "UMDFhardwareinterruptnotification.30021_V1(UInt32 InterruptMessageNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UMDFhardwareinterruptnotification.",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterruptMessageNumber"
+            }
+        ]
+    }
+]

@@ -1,0 +1,430 @@
+[
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustionresolverisstarted.()",
+        "opcode": "Eventsloggedwhentheresourceexhaustionresolverisstarted.",
+        "keywords": "RDR_RES_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustionresolverisstopped.()",
+        "opcode": "Eventsloggedwhentheresourceexhaustionresolverisstopped.",
+        "keywords": "RDR_RES_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions(UInt32 TimeSinceLastUI, FILETIME EventGenerationTime, UInt32 EventType, UInt32 DropReasonCode, UInt8 TimesUIShown, UInt8 MaxCommit)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeSinceLastUI"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "EventGenerationTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DropReasonCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TimesUIShown"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MaxCommit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "UIEventsEventsloggedbeforeUIislaunched.(UnicodeString Process_1_Name, UInt32 Process_1_ID, FILETIME Process_1_CreationTime, UnicodeString Process_1_Version, UnicodeString Process_2_Name, UInt32 Process_2_ID, FILETIME Process_2_CreationTime, UnicodeString Process_2_Version, UnicodeString Process_3_Name, UInt32 Process_3_ID, FILETIME Process_3_CreationTime, UnicodeString Process_3_Version, UInt32 ResolverID, FILETIME EventGenerationTime)",
+        "opcode": "EventsloggedbeforeUIislaunched.",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "UIEvents",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_1_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_1_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_1_CreationTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_1_Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_2_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_2_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_2_CreationTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_2_Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_3_Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Process_3_ID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Process_3_CreationTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Process_3_Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResolverID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "EventGenerationTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustionresolverisstarted.1005(UInt32 ErrorCode)",
+        "opcode": "Eventsloggedwhentheresourceexhaustionresolverisstarted.",
+        "keywords": "RDR_RES_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedwhentheresourceexhaustionresolverisstopped.1006(UInt32 ErrorCode)",
+        "opcode": "Eventsloggedwhentheresourceexhaustionresolverisstopped.",
+        "keywords": "RDR_RES_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "LifecycleEventsEventsloggedafteramemoryallocation.(UInt64 RequestSize, UInt32 ErrorCode)",
+        "opcode": "Eventsloggedafteramemoryallocation.",
+        "keywords": "RDR_RES_KEYWORD_LIFECYCLE",
+        "task": "LifecycleEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "UIEventsEventsloggedafterUIislaunchedorafteranattempttolaunchtheUIismade.(UInt32 ErrorCode)",
+        "opcode": "EventsloggedafterUIislaunchedorafteranattempttolaunchtheUIismade.",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "UIEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "UIEventsEventsloggedafterUIislaunchedorafteranattempttolaunchtheUIismade.1009(UInt32 UIDisplayTime, Int32 UserAction, UInt8 MaxCommit)",
+        "opcode": "EventsloggedafterUIislaunchedorafteranattempttolaunchtheUIismade.",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "UIEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UIDisplayTime"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UserAction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MaxCommit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions1010(UInt32 ReasonCode, Int32 UserAction, UInt8 MaxCommit)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UserAction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MaxCommit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions1011(UInt32 ReasonCode, Int32 UserAction, UInt8 MaxCommit)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UserAction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MaxCommit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions1012(UInt8 TimesUIShown, Int32 UserAction)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "TimesUIShown"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UserAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions1013(UInt8 TimesUIShown, Int32 UserAction)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "TimesUIShown"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UserAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "LeakDiagnosisEventsEventsloggedafteranattempttolaunchtheleakdiagnoserismade.(UnicodeString ProcessImageName, UInt32 PID, FILETIME CreationTime, UInt32 DropReasonCode)",
+        "opcode": "Eventsloggedafteranattempttolaunchtheleakdiagnoserismade.",
+        "keywords": "RDR_RES_KEYWORD_LEAK_DIAGNOSIS",
+        "task": "LeakDiagnosisEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreationTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DropReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedwhendiagnosisisstarted.(UInt32 Event)",
+        "opcode": "Eventsloggedwhendiagnosisisstarted.",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions1016(UInt32 ErrorCode, UInt8 ResolutionAttempted)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResolutionAttempted"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "ResolutionEventsEventsloggedafterperformingtheresolutionactions1017(UInt32 UIDisplayTime, Int32 UserAction, UInt8 MaxCommit)",
+        "opcode": "Eventsloggedafterperformingtheresolutionactions",
+        "keywords": "RDR_RES_KEYWORD_MEMORY_EXHAUSTION",
+        "task": "ResolutionEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UIDisplayTime"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UserAction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MaxCommit"
+            }
+        ]
+    }
+]

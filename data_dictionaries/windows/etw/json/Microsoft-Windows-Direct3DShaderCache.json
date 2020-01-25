@@ -1,0 +1,1138 @@
+[
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ShaderCacheStart(Pointer Cache, UInt32 Type, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "Objects",
+        "task": "ShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ShaderCacheStop(Pointer Cache, UInt32 Type, UInt32 Flags)",
+        "opcode": "Stop",
+        "keywords": "Objects",
+        "task": "ShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ShaderCacheDCStart(Pointer Cache, UInt32 Type, UInt32 Flags)",
+        "opcode": "DC_Start",
+        "keywords": "Objects",
+        "task": "ShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "CreateShaderCacheStart(UInt32 Flags, GUID GUID, UnicodeString Filename, UInt32 FileCreateDisposition, UInt32 Mode, UInt32 MaximumInMemoryCacheSizeBytes, UInt32 MaximumInMemoryCacheEntries, UInt32 MaximumWriteQueueBytes, UInt32 MaximumWriteQueueNumEntries, UInt32 MaximumValueFileSizeBytes)",
+        "opcode": "Start",
+        "keywords": "APIs Profiling",
+        "task": "CreateShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileCreateDisposition"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumInMemoryCacheSizeBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumInMemoryCacheEntries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumWriteQueueBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumWriteQueueNumEntries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumValueFileSizeBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "CreateShaderCacheStop(Int32 Return, Pointer Cache)",
+        "opcode": "Stop",
+        "keywords": "APIs Profiling",
+        "task": "CreateShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Return"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "DestroyShaderCacheStart(Pointer Cache)",
+        "opcode": "Start",
+        "keywords": "APIs Profiling",
+        "task": "DestroyShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "DestroyShaderCacheStop()",
+        "opcode": "Stop",
+        "keywords": "APIs Profiling",
+        "task": "DestroyShaderCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "FindValueStart(Pointer Cache, UInt32 NumKeyParts, UInt8 KeyParts, Binary PrecomputedHash)",
+        "opcode": "Start",
+        "keywords": "APIs Profiling",
+        "task": "FindValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumKeyParts"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "KeyParts"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PrecomputedHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "FindValueStop(Int32 Return, Pointer FoundValue, UInt32 FoundValueSize)",
+        "opcode": "Stop",
+        "keywords": "APIs Profiling",
+        "task": "FindValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Return"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FoundValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FoundValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "AddValueStart(Pointer Cache, UInt32 NumKeyParts, UInt16 KeyParts, Binary PrecomputedHash, Pointer Value, UInt32 ValueSize)",
+        "opcode": "Start",
+        "keywords": "APIs Profiling",
+        "task": "AddValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumKeyParts"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "KeyParts"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PrecomputedHash"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "AddValueStop(Int32 Return)",
+        "opcode": "Stop",
+        "keywords": "APIs Profiling",
+        "task": "AddValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Return"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "FreeFoundValueStart(Pointer Value, UInt32 ValueSize)",
+        "opcode": "Start",
+        "keywords": "APIs Profiling",
+        "task": "FreeFoundValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "FreeFoundValueStop()",
+        "opcode": "Stop",
+        "keywords": "APIs Profiling",
+        "task": "FreeFoundValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "FlushStart(Pointer Cache)",
+        "opcode": "Start",
+        "keywords": "APIs Profiling",
+        "task": "Flush",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Cache"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "FlushStop(Int32 Return)",
+        "opcode": "Stop",
+        "keywords": "APIs Profiling",
+        "task": "Flush",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Return"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "UWPSuspend()",
+        "opcode": "",
+        "keywords": "Events Profiling",
+        "task": "UWPSuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "L1Full(UInt32 NumEntries, UInt64 CurrentMemoryUsage, UInt64 MemoryBudget)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L1Full",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MemoryBudget"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "L1AddStart(UInt32 NumEntries, UInt64 CurrentMemoryUsage, UInt32 DeltaSize)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "L1Add",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeltaSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "L1AddStop(UInt32 NumEntries, UInt64 CurrentMemoryUsage)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "L1Add",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "L1TrimStart(UInt32 NumEntries, UInt64 CurrentMemoryUsage)",
+        "opcode": "Start",
+        "keywords": "Events",
+        "task": "L1Trim",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "L1TrimStop(UInt32 NumEntries, UInt64 CurrentMemoryUsage, UInt64 MemoryBudget)",
+        "opcode": "Stop",
+        "keywords": "Events",
+        "task": "L1Trim",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MemoryBudget"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "L1Free(UInt32 NumEntries, UInt64 CurrentMemoryUsage, UInt32 DeltaSize)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L1Free",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeltaSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "L1Clear(UInt32 NumEntries, UInt64 CurrentMemoryUsage, UInt64 MemoryBudget)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L1Clear",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentMemoryUsage"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MemoryBudget"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "IndexFileGrow(UInt32 TotalPages, UInt64 TotalSize)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "IndexFileGrow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalPages"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "InitIndexFile(UnicodeString Filename, UInt32 FileCreateDisposition)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "InitIndexFile",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileCreateDisposition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "ClearIndexFile()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "ClearIndexFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "FileError(UInt32 LastError, UInt32 FileType, UInt32 FileOp)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "FileError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FileOp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "DoubleAdd()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "DoubleAdd",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "DoubleAdd114()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "DoubleAdd",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "L1Full115()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L1Full",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "CRCFailure()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "CRCFailure",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "CRCFailure117()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "CRCFailure",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "GuardFileError()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "GuardFileError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "GuardFileError119()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "GuardFileError",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "L2Full(UInt64 CurrentFileSize, UInt64 CurrentWriteQueueSize, UInt64 MaximimFileSize, UInt32 NewValueSize)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L2Full",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentFileSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentWriteQueueSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaximimFileSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "L2WriteQueueFull(UInt64 CurrentFileSize, UInt64 CurrentWriteQueueSize, UInt64 MaximimWriteQueueSize, UInt32 NewValueSize)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L2WriteQueueFull",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentFileSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentWriteQueueSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaximimWriteQueueSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "L2WriteQueueAdd(UInt64 CurrentFileSize, UInt64 CurrentWriteQueueSize, UInt64 MaximimWriteQueueSize, UInt32 NewValueSize)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L2WriteQueueAdd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentFileSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentWriteQueueSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaximimWriteQueueSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "L2WriteQueueTooSmall(UInt64 CurrentFileSize, UInt64 CurrentWriteQueueSize, UInt64 MaximimWriteQueueSize, UInt32 NewValueSize)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L2WriteQueueTooSmall",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentFileSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentWriteQueueSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaximimWriteQueueSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewValueSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "L2ReadLock(UInt32 NumMappedValues, UInt64 MappedMemoryUsage)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L2ReadLock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumMappedValues"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MappedMemoryUsage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "L2ReadUnlock(UInt32 NumMappedValues, UInt64 MappedMemoryUsage)",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "L2ReadUnlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumMappedValues"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MappedMemoryUsage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "HashCollision()",
+        "opcode": "",
+        "keywords": "Events",
+        "task": "HashCollision",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "501",
+        "version": "0",
+        "event(fields)": "FileWriteStart(UInt32 FileType, UInt64 NumBytes)",
+        "opcode": "Start",
+        "keywords": "Profiling",
+        "task": "FileWrite",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "FileWriteStop(UInt32 FileType, UInt64 NumBytes)",
+        "opcode": "Stop",
+        "keywords": "Profiling",
+        "task": "FileWrite",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "503",
+        "version": "0",
+        "event(fields)": "FileReadStart(UInt32 FileType, UInt64 NumBytes)",
+        "opcode": "Start",
+        "keywords": "Profiling",
+        "task": "FileRead",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "504",
+        "version": "0",
+        "event(fields)": "FileReadStop(UInt32 FileType, UInt64 NumBytes)",
+        "opcode": "Stop",
+        "keywords": "Profiling",
+        "task": "FileRead",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3DShaderCache",
+        "event_id": "2001",
+        "version": "1",
+        "event(fields)": "StatisticsTelemetry_V1(Boolean UTCReplace_AppSessionGuid, UnicodeString Filename, UInt32 NumLookups, UInt32 NumCacheHits, UInt32 NumL1Hits, UInt32 NumL1HitsInCacheFromAdd, UInt32 NumAddRequests, UInt32 NumFailedAdds, UInt64 FailedAddTotalSize, UInt32 MaxInMemoryEntries, UInt32 MaxInMemorySize, UInt32 NumDiskEntries, UInt64 IndexFileSize, UInt64 ValueFileSize, UInt64 CompressedValueFileSize, Boolean HadCRCFailure, UInt32 NumHashCollisions, UInt64 TotalKeySize, UInt64 TotalValueSize, Double AverageKeySize, Double AverageValueSize, UInt32 MaxKeySize, UInt32 MaxValueSize, Double TotalFindTime, Double TotalAddTime, Double AverageFindTime, Double AverageAddTime, Double MaxFindTime, Double MaxAddTime, Double InitializationTime, Boolean DesiredOpen, Boolean SuccessfulOpen)",
+        "opcode": "",
+        "keywords": "Events keyword_400000000000",
+        "task": "StatisticsTelemetry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "UTCReplace_AppSessionGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumLookups"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumCacheHits"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumL1Hits"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumL1HitsInCacheFromAdd"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumAddRequests"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumFailedAdds"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FailedAddTotalSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxInMemoryEntries"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxInMemorySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumDiskEntries"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IndexFileSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValueFileSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CompressedValueFileSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HadCRCFailure"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumHashCollisions"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalKeySize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalValueSize"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "AverageKeySize"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "AverageValueSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxKeySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxValueSize"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "TotalFindTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "TotalAddTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "AverageFindTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "AverageAddTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "MaxFindTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "MaxAddTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "InitializationTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DesiredOpen"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SuccessfulOpen"
+            }
+        ]
+    }
+]

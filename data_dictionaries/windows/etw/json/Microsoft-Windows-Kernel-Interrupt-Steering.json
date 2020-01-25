@@ -1,0 +1,282 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "InterruptSteeringMaskRundown(UInt32 LoadPercent, UInt32 GsivCount, UInt32 MaskCount, UInt16 GroupCount, Pointer Mask)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringMaskRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LoadPercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GsivCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaskCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "GroupCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Mask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "InterruptSteeringMaskChange(UInt32 LoadPercent, UInt32 GsivCount, UInt32 MaskCount, UInt16 GroupCount, Pointer Mask)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringMaskChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LoadPercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GsivCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaskCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "GroupCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Mask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "InterruptSteeringStateRundown(UInt32 Gsiv, UInt32 NewTarget, UInt32 OldTarget, UInt32 Vector, Pointer ServiceRoutine, UInt32 IsrLoad, UInt32 DpcLoad)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringStateRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vector"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ServiceRoutine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsrLoad"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DpcLoad"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "InterruptSteeringStateConnect(UInt32 Gsiv, UInt32 NewTarget, UInt32 OldTarget, UInt32 Vector, Pointer ServiceRoutine, UInt32 IsrLoad, UInt32 DpcLoad)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringStateConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vector"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ServiceRoutine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsrLoad"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DpcLoad"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "InterruptSteeringStateDisconnect(UInt32 Gsiv, UInt32 NewTarget, UInt32 OldTarget, UInt32 Vector, Pointer ServiceRoutine, UInt32 IsrLoad, UInt32 DpcLoad)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringStateDisconnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vector"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ServiceRoutine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsrLoad"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DpcLoad"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "InterruptSteeringStateRetarget(UInt32 Gsiv, UInt32 NewTarget, UInt32 OldTarget, UInt32 Vector, Pointer ServiceRoutine, UInt32 IsrLoad, UInt32 DpcLoad)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringStateRetarget",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Gsiv"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldTarget"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vector"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ServiceRoutine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsrLoad"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DpcLoad"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "InterruptSteeringProcRundown(UInt32 ProcIndex, UInt32 DeviceInterrupts)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringProcRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceInterrupts"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Interrupt-Steering",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "InterruptSteeringProcChange(UInt32 ProcIndex, UInt32 DeviceInterrupts)",
+        "opcode": "",
+        "keywords": "IntSteer",
+        "task": "InterruptSteeringProcChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceInterrupts"
+            }
+        ]
+    }
+]

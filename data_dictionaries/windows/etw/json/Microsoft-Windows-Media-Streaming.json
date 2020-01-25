@@ -1,0 +1,1245 @@
+[
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "DMR_GetDefaultSettingStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_GetDefaultSetting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "DMR_GetDefaultSettingStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_GetDefaultSetting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "DMR_RegisterAsDMRStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_RegisterAsDMR",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "DMR_RegisterAsDMRStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_RegisterAsDMR",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "DMR_UnregisterAsDMRStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_UnregisterAsDMR",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "DMR_UnregisterAsDMRStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_UnregisterAsDMR",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "DMR_GetDMRUDNStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_GetDMRUDN",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "DMR_GetDMRUDNStop(UnicodeString UDN, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_GetDMRUDN",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UDN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "DMR_OnStateChangedStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_OnStateChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "DMR_OnStateChangedStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_OnStateChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "DMR_GetStateVariablesStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_GetStateVariables",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "DMR_GetStateVariablesStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_GetStateVariables",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "DMR_SetDRMProviderStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_SetDRMProvider",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "DMR_SetDRMProviderStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_SetDRMProvider",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "DMR_GetMFSupportedPlaybackDLNAProfilesStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_GetMFSupportedPlaybackDLNAProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "DMR_GetMFSupportedPlaybackDLNAProfilesStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_GetMFSupportedPlaybackDLNAProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "DMR_SetMuteStart(UInt32 instanceID, UnicodeString String, UInt32 ui32)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_SetMute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ui32"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "DMR_SetMuteStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_SetMute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "DMR_SetVolumeStart(UInt32 instanceID, UnicodeString String, UInt32 ui32)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_SetVolume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ui32"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "DMR_SetVolumeStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_SetVolume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1040",
+        "version": "0",
+        "event(fields)": "DMR_SetAVTransportURIStart(UnicodeString URI, UnicodeString URIMetadata)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_SetAVTransportURI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URI"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URIMetadata"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1041",
+        "version": "0",
+        "event(fields)": "DMR_SetAVTransportURIStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_SetAVTransportURI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1042",
+        "version": "0",
+        "event(fields)": "DMR_PlayStart(UInt32 instanceID, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_Play",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1043",
+        "version": "0",
+        "event(fields)": "DMR_PlayStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_Play",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1044",
+        "version": "0",
+        "event(fields)": "DMR_StopStart(UInt32 instanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_Stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1045",
+        "version": "0",
+        "event(fields)": "DMR_Stop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_Stop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1046",
+        "version": "0",
+        "event(fields)": "DMR_PauseStart(UInt32 instanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_Pause",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1047",
+        "version": "0",
+        "event(fields)": "DMR_PauseStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_Pause",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1048",
+        "version": "0",
+        "event(fields)": "DMR_SeekStart(UInt32 instanceID, UnicodeString String1, UnicodeString String2)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_Seek",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1049",
+        "version": "0",
+        "event(fields)": "DMR_SeekStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_Seek",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1050",
+        "version": "0",
+        "event(fields)": "DMR_NextStart(UInt32 instanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_Next",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1051",
+        "version": "0",
+        "event(fields)": "DMR_NextStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_Next",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1052",
+        "version": "0",
+        "event(fields)": "DMR_PreviousStart(UInt32 instanceID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_Previous",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1053",
+        "version": "0",
+        "event(fields)": "DMR_PreviousStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_Previous",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1054",
+        "version": "0",
+        "event(fields)": "DMR_SetPlayModeStart(UInt32 instanceID, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_SetPlayMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "instanceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1055",
+        "version": "0",
+        "event(fields)": "DMR_SetPlayModeStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_SetPlayMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1056",
+        "version": "0",
+        "event(fields)": "DMR_InvokeActionStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DMR_InvokeAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1057",
+        "version": "0",
+        "event(fields)": "DMR_InvokeActionStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DMR_InvokeAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "1058",
+        "version": "0",
+        "event(fields)": "DMR_LastChange(UInt32 dispid, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DMR_LastChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dispid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3000",
+        "version": "0",
+        "event(fields)": "MediaRenderer_lifetimeStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaRenderer_lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "MediaRenderer_lifetimeStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaRenderer_lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "MediaRenderer(Pointer Object, UInt32 Value)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MediaRenderer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3050",
+        "version": "0",
+        "event(fields)": "AVTransport(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3051",
+        "version": "0",
+        "event(fields)": "AVTransport3051(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3052",
+        "version": "0",
+        "event(fields)": "AVTransport3052(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3053",
+        "version": "0",
+        "event(fields)": "AVTransport3053(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3054",
+        "version": "0",
+        "event(fields)": "AVTransport3054(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3055",
+        "version": "0",
+        "event(fields)": "AVTransport3055(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3056",
+        "version": "0",
+        "event(fields)": "AVTransport3056(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3057",
+        "version": "0",
+        "event(fields)": "AVTransport3057(Pointer Object, UnicodeString Uri, UnicodeString Metadata)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Metadata"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3058",
+        "version": "0",
+        "event(fields)": "AVTransport3058(Pointer Object, UnicodeString Uri, UnicodeString Metadata)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AVTransport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Metadata"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3100",
+        "version": "0",
+        "event(fields)": "ConnectionManager(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ConnectionManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3101",
+        "version": "0",
+        "event(fields)": "MediaDeliveryEngine_lifetimeStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaDeliveryEngine_lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3102",
+        "version": "0",
+        "event(fields)": "MediaDeliveryEngine_lifetimeStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaDeliveryEngine_lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3103",
+        "version": "0",
+        "event(fields)": "MediaDeliveryEngine_starttheserverStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaDeliveryEngine_starttheserver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3104",
+        "version": "0",
+        "event(fields)": "MediaDeliveryEngine_starttheserverStop(Pointer Object, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaDeliveryEngine_starttheserver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3105",
+        "version": "0",
+        "event(fields)": "MediaDeliveryEngine_getthesourcemetadataStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MediaDeliveryEngine_getthesourcemetadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3106",
+        "version": "0",
+        "event(fields)": "MediaDeliveryEngine_getthesourcemetadataStop(Pointer Object, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MediaDeliveryEngine_getthesourcemetadata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3150",
+        "version": "0",
+        "event(fields)": "UPnPRequestStart(Pointer Object, UnicodeString String)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UPnPRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3151",
+        "version": "0",
+        "event(fields)": "UPnPRequestStop(Pointer Object, UnicodeString String, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UPnPRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3201",
+        "version": "0",
+        "event(fields)": "Populate_ContextMenuStart(UInt32 MenuItemCount, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Populate_ContextMenu",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MenuItemCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3202",
+        "version": "0",
+        "event(fields)": "Populate_ContextMenuStop(UInt32 MenuItemCount, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Populate_ContextMenu",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MenuItemCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3203",
+        "version": "0",
+        "event(fields)": "PlayTo_VerifyShouldDisplayStart(UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PlayTo_VerifyShouldDisplay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3204",
+        "version": "0",
+        "event(fields)": "PlayTo_VerifyShouldDisplayStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PlayTo_VerifyShouldDisplay",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3205",
+        "version": "0",
+        "event(fields)": "LaunchDMCStart(UInt32 ItemCount, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "LaunchDMC",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Media-Streaming",
+        "event_id": "3206",
+        "version": "0",
+        "event(fields)": "LaunchDMCStop(UInt32 ItemCount, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "LaunchDMC",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

@@ -1,0 +1,944 @@
+[
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 Status, UInt32 FlowType, UInt32 SendSpecTokenRate, UInt32 SendSpecTokenBucketSize, UInt32 SendSpecPeakBandwidth, UInt32 SendSpecLatency, UInt32 SendSpecDelayVariation, UInt32 SendSpecServiceType, UInt32 SendSpecMaxSduSize, UInt32 SendSpecMinimumPolicedSize, UInt32 QoSObjectBufferLen, Binary QoSObjectBuffer)",
+        "opcode": "",
+        "keywords": "ut:Configuration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QoSObjectBufferLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "QoSObjectBuffer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "task_0Start_V1(UInt32 Status, UInt32 FlowType, UInt32 SendSpecTokenRate, UInt32 SendSpecTokenBucketSize, UInt32 SendSpecPeakBandwidth, UInt32 SendSpecLatency, UInt32 SendSpecDelayVariation, UInt32 SendSpecServiceType, UInt32 SendSpecMaxSduSize, UInt32 SendSpecMinimumPolicedSize, Int16 DsClass, Int16 TrafficClass, UInt32 QoSObjectBufferLen, Binary QoSObjectBuffer, UInt8 DefaultSystemFlow)",
+        "opcode": "Start",
+        "keywords": "ut:Configuration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "DsClass"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "TrafficClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QoSObjectBufferLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "QoSObjectBuffer"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DefaultSystemFlow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_02(UInt32 Status, UInt32 FlowType, UInt32 OldSendSpecTokenRate, UInt32 OldSendSpecTokenBucketSize, UInt32 OldSendSpecPeakBandwidth, UInt32 OldSendSpecLatency, UInt32 OldSendSpecDelayVariation, UInt32 OldSendSpecServiceType, UInt32 OldSendSpecMaxSduSize, UInt32 OldSendSpecMinimumPolicedSize, UInt32 NewSendSpecTokenRate, UInt32 NewSendSpecTokenBucketSize, UInt32 NewSendSpecPeakBandwidth, UInt32 NewSendSpecLatency, UInt32 NewSendSpecDelayVariation, UInt32 NewSendSpecServiceType, UInt32 NewSendSpecMaxSduSize, UInt32 NewSendSpecMinimumPolicedSize, UInt32 NewQoSObjectBufferLen, Binary NewQoSObjectBuffer)",
+        "opcode": "",
+        "keywords": "ut:Configuration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewQoSObjectBufferLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "NewQoSObjectBuffer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "task_02_V1(UInt32 Status, UInt32 FlowType, UInt32 SendSpecTokenRate, UInt32 SendSpecTokenBucketSize, UInt32 SendSpecPeakBandwidth, UInt32 SendSpecLatency, UInt32 SendSpecDelayVariation, UInt32 SendSpecServiceType, UInt32 SendSpecMaxSduSize, UInt32 SendSpecMinimumPolicedSize, Int16 DsClass, Int16 TrafficClass, UInt32 NewQoSObjectBufferLen, Binary NewQoSObjectBuffer, UInt32 AffectedPackets)",
+        "opcode": "",
+        "keywords": "ut:Configuration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "DsClass"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "TrafficClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewQoSObjectBufferLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "NewQoSObjectBuffer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AffectedPackets"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_03(Binary NetLuid, UInt32 NdisMediumType, UnicodeString FriendlyName, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "ut:Global",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NdisMediumType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_03_V1(UInt64 NetLuid, UInt32 NdisMediumType, UInt32 FriendlyNameLen, UnicodeString FriendlyName, UInt32 DeviceNameLen, UnicodeString DeviceName, UInt32 Context)",
+        "opcode": "",
+        "keywords": "ut:Global",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NdisMediumType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FriendlyNameLen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNameLen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_04(Binary NetLuid, UInt32 NdisMediumType, UnicodeString FriendlyName, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NdisMediumType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "task_04_V1(UInt64 NetLuid, UInt32 NdisMediumType, UInt32 FriendlyNameLen, UnicodeString FriendlyName, UInt32 DeviceNameLen, UnicodeString DeviceName, UInt32 Context)",
+        "opcode": "",
+        "keywords": "ut:Global",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NdisMediumType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FriendlyNameLen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FriendlyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNameLen"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05(UInt32 FlowType, UInt32 OldSendSpecTokenRate, UInt32 OldSendSpecTokenBucketSize, UInt32 OldSendSpecPeakBandwidth, UInt32 OldSendSpecLatency, UInt32 OldSendSpecDelayVariation, UInt32 OldSendSpecServiceType, UInt32 OldSendSpecMaxSduSize, UInt32 OldSendSpecMinimumPolicedSize, UInt32 NewSendSpecTokenRate, UInt32 NewSendSpecTokenBucketSize, UInt32 NewSendSpecPeakBandwidth, UInt32 NewSendSpecLatency, UInt32 NewSendSpecDelayVariation, UInt32 NewSendSpecServiceType, UInt32 NewSendSpecMaxSduSize, UInt32 NewSendSpecMinimumPolicedSize, UInt32 NewQoSObjectBufferLen, Binary NewQoSObjectBuffer, UInt32 AffectedPackets)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldSendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecTokenRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecTokenBucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecPeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecLatency"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecDelayVariation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecServiceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecMaxSduSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendSpecMinimumPolicedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewQoSObjectBufferLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "NewQoSObjectBuffer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AffectedPackets"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "task_0Stop(UInt32 DroppedPackets, UInt32 PacketsScheduled, UInt32 PacketsTransmitted, UInt64 BytesScheduled, UInt64 BytesTransmitted, UInt32 NblSent, UInt32 NblComplete)",
+        "opcode": "Stop",
+        "keywords": "ut:Configuration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DroppedPackets"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketsScheduled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketsTransmitted"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesScheduled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesTransmitted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NblSent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NblComplete"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "task_07(UInt32 DropReason)",
+        "opcode": "",
+        "keywords": "keyword_10000000000 keyword_40000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DropReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "task_08(Int16 DsClass, Int16 TrafficClass, Int16 Wmm)",
+        "opcode": "",
+        "keywords": "keyword_40000000000",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int16",
+                "field_name": "DsClass"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "TrafficClass"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Wmm"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "task_09(UInt32 Allow)",
+        "opcode": "",
+        "keywords": "ut:Global",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Allow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "task_011(UInt64 CurrentTime, UInt32 BytesSent, UInt32 BytesDropped, UInt32 NewSendWindow, UInt32 MinSendWindow, UInt32 Weight, Int64 SBytesRequested, UInt32 DropRate, UInt64 IdleIntervals, UInt32 RcSendWindow, UInt32 RcEpisodeLength, UInt32 RcStatMuxFactor, UInt32 RcExitThreshold, UInt32 AverageMaxBytesRequested)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesSent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesDropped"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendWindow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinSendWindow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Weight"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SBytesRequested"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DropRate"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IdleIntervals"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RcSendWindow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RcEpisodeLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RcStatMuxFactor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RcExitThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AverageMaxBytesRequested"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "task_012(Binary NetLuid, UInt64 CurrentTime, UInt32 ActiveFlows, UInt32 ActiveWeight, UInt32 NewSendWindow)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveFlows"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveWeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSendWindow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "task_013(UInt32 FlowConformanceEvent, UInt64 CurrentTime, UInt64 LastConformanceTime, UInt64 PeakConformanceTime, UInt64 Tokens, UInt64 MaxTokens, UInt64 Rate, UInt32 LastConformanceCredits)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowConformanceEvent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastConformanceTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PeakConformanceTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Tokens"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxTokens"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Rate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastConformanceCredits"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_014(UInt32 FlowSendQueueEvent, UInt64 CurrentTime, UInt64 IdleTime, UInt64 DelayTime, UInt32 BytesRequested, UInt32 BytesSent, UInt32 BytesQueued)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowSendQueueEvent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IdleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DelayTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesRequested"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesSent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesQueued"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_015(UInt32 TimerEvent, UInt32 TimerId, UInt64 CurrentTime, UInt64 SetTime, UInt64 RunTime, UInt32 FlowsProcessed, UInt32 NblsSent, UInt32 NblsDropped, UInt32 Flags)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerEvent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SetTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RunTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FlowsProcessed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NblsSent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NblsDropped"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-QoS-Pacer",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_016(Binary NetLuid, UInt64 CurrentTime, UInt32 BytesRequested, UInt32 BytesCompleted, UInt32 BytesInQueue, Int64 BufferAvailable, Int64 BetaTerm, Int64 AlphaTerm, Int64 DeltaSendWindow, Int64 NewSendWindow)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesRequested"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesCompleted"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesInQueue"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "BufferAvailable"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "BetaTerm"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "AlphaTerm"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaSendWindow"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "NewSendWindow"
+            }
+        ]
+    }
+]

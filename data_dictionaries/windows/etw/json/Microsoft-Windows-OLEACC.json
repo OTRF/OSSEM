@@ -1,0 +1,88 @@
+[
+    {
+        "provider": "Microsoft-Windows-OLEACC",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "OLEACC_IAccessibleErrors(UnicodeString Method, UInt32 Hresult, UnicodeString Details, UnicodeString SourceHwnd, UnicodeString Provider)",
+        "opcode": "",
+        "keywords": "",
+        "task": "OLEACC_IAccessibleErrors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Hresult"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Details"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceHwnd"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Provider"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OLEACC",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "OLEACC_ClientApiCallStart(UInt32 MethodIndex, Pointer Object, Int32 Parameter)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "OLEACC_ClientApiCall",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OLEACC",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "OLEACC_ClientApiCallStop(UInt32 MethodIndex, Pointer Object, Int32 Parameter)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "OLEACC_ClientApiCall",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Parameter"
+            }
+        ]
+    }
+]

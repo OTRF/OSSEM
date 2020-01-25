@@ -1,0 +1,46 @@
+[
+    {
+        "provider": "Microsoft-Windows-Processor-Aggregator",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LogicalProcessorIdlingPUR(UInt32 NumProcessors)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LogicalProcessorIdlingPUR",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NumProcessors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Processor-Aggregator",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "LogicalProcessorIdlingOST(UInt32 Requested, UInt32 Acknowledged, Boolean IsSuccess)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LogicalProcessorIdlingOST",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Requested"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Acknowledged"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSuccess"
+            }
+        ]
+    }
+]

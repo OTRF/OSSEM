@@ -1,0 +1,165 @@
+[
+    {
+        "provider": "Microsoft-Windows-Setup",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "ExecuteSetupPhaseStart(UInt32 SetupPhase)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keyword_400000000000",
+        "task": "ExecuteSetupPhase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SetupPhase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Setup",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "ExecuteSetupPhaseStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keyword_400000000000",
+        "task": "ExecuteSetupPhase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Setup",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "SysprepSpecializeStart()",
+        "opcode": "Start",
+        "keywords": "keyPerformance keySysprep keyword_400000000000",
+        "task": "SysprepSpecialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Setup",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "SysprepSpecializeStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keySysprep keyword_400000000000",
+        "task": "SysprepSpecialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Setup",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "Setupinformation(UnicodeString HostOSName, Boolean Installwasanupgrade, Boolean HostOSwasWindowsPE, UInt32 HostOSmajorversion, UInt32 HostOSminorversion, UInt32 HostOSbuildversion, UnicodeString HostOSservicepackName, UInt32 HostOSservicepackmajorversion, UInt32 HostOSservicepackminorversion)",
+        "opcode": "",
+        "keywords": "keyword_800000000000",
+        "task": "Setupinformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostOSName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Installwasanupgrade"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HostOSwasWindowsPE"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSmajorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSminorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSbuildversion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostOSservicepackName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSservicepackmajorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSservicepackminorversion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Setup",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "OSinformation(UnicodeString OSName, UnicodeString OSEditionID, UInt32 OSmajorversion, UInt32 OSminorversion, UInt32 OSbuildversion, UnicodeString OSservicepackName, UInt32 OSservicepackmajorversion, UInt32 OSservicepackminorversion)",
+        "opcode": "",
+        "keywords": "keyword_400000000000",
+        "task": "OSinformation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OSName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OSEditionID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OSmajorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OSminorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OSbuildversion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OSservicepackName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OSservicepackmajorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OSservicepackminorversion"
+            }
+        ]
+    }
+]

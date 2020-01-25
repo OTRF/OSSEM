@@ -1,0 +1,1644 @@
+[
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "Manipulation_SetInputStart(UInt32 PointerId, UInt32 ContactId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_SetInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Manipulation_SetInputStop(UInt32 PointerId, UInt32 ContactId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_SetInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "Manipulation_SetContactStart(UInt32 PointerId, Pointer RegionPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_SetContact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Manipulation_SetContactStop(UInt32 PointerId, Pointer RegionPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_SetContact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "Manipulation_EnumTargetsStart(UInt32 PointerId, UInt32 ContactId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_EnumTargets",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "Manipulation_EnumTargetsStop(UInt32 PointerId, UInt32 ContactId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_EnumTargets",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessInput_RegionUpdateStart(UInt32 PointerId, Pointer RegionPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ProcessInput_RegionUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessInput_RegionUpdateStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ProcessInput_RegionUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessInput_MotionUpdate(Pointer MotionPointer, Pointer RegionPointer, Pointer LayerPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_ProcessInput_MotionUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MotionPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RegionPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "LayerPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessInputInteractionStart(UInt32 PointerId, UInt32 ContactId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ProcessInputInteraction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessInputInteractionStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ProcessInputInteraction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "Manipulation_LayerCommit(Pointer LayerPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_LayerCommit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "LayerPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "Manipulation_RunningStart(Pointer ViewportPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_Running",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "Manipulation_RunningStop(Pointer ViewportPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_Running",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "Manipulation_InertiaStart(Pointer ViewportPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_Inertia",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "Manipulation_InertiaStop(Pointer ViewportPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_Inertia",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "Manipulation_DManipTrigger(UInt32 DManipLatency, UnicodeString ProcessName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_DManipTrigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DManipLatency"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "Manipulation_UpdateTransform(Pointer ContentPointer, Int32 TransformType, Float xPosition, Float yPosition, Float zPosition, UInt64 PredictedTimeGap)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_UpdateTransform",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ContentPointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TransformType"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "xPosition"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "yPosition"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "zPosition"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PredictedTimeGap"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "Manipulation_ViewportAbandonStart(Pointer ViewportPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ViewportAbandon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "Manipulation_ViewportAbandonStop(Pointer ViewportPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ViewportAbandon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorOnViewportStatusChangedStart(Pointer CompositorPointer, Pointer ViewportPointer, Int32 CurrentStatus, Int32 PreviousStatus)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorOnViewportStatusChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentStatus"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PreviousStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorOnViewportStatusChangedStop(Pointer CompositorPointer, Pointer ViewportPointer, Int32 CurrentStatus, Int32 PreviousStatus)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorOnViewportStatusChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentStatus"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PreviousStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorOnViewportUpdatedStart(Pointer CompositorPointer, Pointer ViewportPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorOnViewportUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorOnViewportUpdatedStop(Pointer CompositorPointer, Pointer ViewportPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorOnViewportUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorOnContentUpdatedStart(Pointer CompositorPointer, Pointer ContentPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorOnContentUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ContentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorOnContentUpdatedStop(Pointer CompositorPointer, Pointer ContentPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorOnContentUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ContentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorUpdateStart(Pointer CompositorPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "Manipulation_DCompCompositorUpdateStop(Pointer CompositorPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_DCompCompositorUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CompositorPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "Manipulation_ManagerActivateStart(Pointer ManagerPointer, Pointer hWnd)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ManagerActivate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ManagerPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hWnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "Manipulation_ManagerActivateStop(Pointer ManagerPointer, Pointer hWnd)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ManagerActivate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ManagerPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hWnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "Manipulation_ManagerDeactivateStart(Pointer ManagerPointer, Pointer hWnd)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ManagerDeactivate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ManagerPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hWnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "Manipulation_ManagerDeactivateStop(Pointer ManagerPointer, Pointer hWnd)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ManagerDeactivate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ManagerPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hWnd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "Manipulation_ManagerCreateViewportStart(Pointer ManagerPointer, Pointer FrameInfo, Pointer hWnd, Pointer ViewportPointer, Pointer primaryContentPointer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ManagerCreateViewport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ManagerPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FrameInfo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hWnd"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "primaryContentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "Manipulation_ManagerCreateViewportStop(Pointer ManagerPointer, Pointer FrameInfo, Pointer hWnd, Pointer ViewportPointer, Pointer primaryContentPointer)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ManagerCreateViewport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ManagerPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FrameInfo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hWnd"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "primaryContentPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "Manipulation_ImplicitHitTestStart(UInt32 ContactId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ImplicitHitTest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "Manipulation_ImplicitHitTestStop(UInt32 ContactId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ImplicitHitTest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessBufferedQueueStart(Int32 MessagesQueuedOrProcessed)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ProcessBufferedQueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "MessagesQueuedOrProcessed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessBufferedQueueStop(Int32 MessagesQueuedOrProcessed)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ProcessBufferedQueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "MessagesQueuedOrProcessed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessAutoInputStart(UInt32 PointerId, UInt32 FrameId, UInt32 Message)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ProcessAutoInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "Manipulation_ProcessAutoInputStop(UInt32 PointerId, UInt32 FrameId, UInt32 Message)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ProcessAutoInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "Manipulation_Behaviors(Pointer content, Int32 dimension, Float inertiaStartValue, Float originalRestPoint, Float outputRestPoint, Int32 outputRestPointPriority, Int32 outputRestPointCurveId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Behaviors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "dimension"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "inertiaStartValue"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "originalRestPoint"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "outputRestPoint"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "outputRestPointPriority"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "outputRestPointCurveId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "Manipulation_Behaviors68(Pointer content, Int32 motionType, UInt32 index, Int32 bIsNewSnapValues, Float newSnapPointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Behaviors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "motionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "index"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "bIsNewSnapValues"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "newSnapPointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "Manipulation_Behaviors69(Pointer content, Int32 motionType, Float interval, Float offset)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Behaviors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "motionType"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "interval"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "offset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "Manipulation_Behaviors70(Pointer content, Float restPointX, Float restPointY, Float restPointZ, Int32 curveIdX, Int32 curveIdY, Int32 curveIdZ)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Behaviors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "restPointX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "restPointY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "restPointZ"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "curveIdX"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "curveIdY"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "curveIdZ"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "Manipulation_Prediction(UInt64 time, UInt64 processTime, UInt64 compositionTime, UInt64 predictedTimeGap, Float predictionX, Float predictionY)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Prediction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "time"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "processTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "compositionTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "predictedTimeGap"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "predictionX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "predictionY"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "Manipulation_Inertia(UInt64 inertiaStartTime, UInt64 time, UInt64 processTime, UInt64 compositionTime, Double timerElapsedTime, Double timerOffset, Double animationTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Inertia",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "inertiaStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "time"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "processTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "compositionTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "timerElapsedTime"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "timerOffset"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "animationTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "Manipulation_ParametricMotionStart(Pointer content, UInt32 targetMotionType, UInt32 sourceMotionType, UInt32 curveCount)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ParametricMotion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "targetMotionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "sourceMotionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "curveCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "Manipulation_ParametricMotionStop(Pointer content)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ParametricMotion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "Manipulation_ParametricMotionStart75(Pointer content, Float inputScaleX, Float inputScaleY, Float inputTranslateX, Float inputTranslateY)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_ParametricMotion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "inputScaleX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "inputScaleY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "inputTranslateX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "inputTranslateY"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "Manipulation_ParametricMotionStop76(Pointer content, Float outputScaleX, Float outputScaleY, Float outputTranslateX, Float outputTranslateY, UInt32 computedMotionTypes)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_ParametricMotion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "outputScaleX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "outputScaleY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "outputTranslateX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "outputTranslateY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "computedMotionTypes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "Manipulation_Inertia77(Double pNewValue, Double pOldValue, Double timeDeltaInMS)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Inertia",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "pNewValue"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "pOldValue"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "timeDeltaInMS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "Manipulation_ViewportEnable(Pointer ViewportPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_ViewportEnable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "Manipulation_ViewportDisable(Pointer ViewportPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_ViewportDisable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ViewportPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "Manipulation_ZoomToRect(Pointer viewport, Boolean animate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_ZoomToRect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "viewport"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "animate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "Manipulation_Storyboard(Pointer storyboard, Pointer content, UInt32 status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Storyboard",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "storyboard"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "content"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "Manipulation_PointerAssociation(UInt32 PointerId, UInt32 ContactId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_PointerAssociation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContactId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "Manipulation_InputHandled(UInt32 PointerId, UInt32 FrameId, UInt32 Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_InputHandled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "Manipulation_Telemetry(UInt64 UniqueKey, UInt32 InertiaType, UInt64 KernelInputReadTime, UInt64 HostInputSendTime, UInt64 ContainerInputReceiveTime, UInt64 InteractionLibraryStartTime, UInt32 CoalescedFrameCount, UInt32 InputType, UInt16 PointerCount, UInt32 FrameId, UInt32 ManipulationFrameId, UInt16 ZoomToRectCount, Boolean Valid, Boolean InertiaZoom)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Telemetry",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InertiaType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KernelInputReadTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HostInputSendTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ContainerInputReceiveTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "InteractionLibraryStartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CoalescedFrameCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PointerCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManipulationFrameId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ZoomToRectCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Valid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "InertiaZoom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "Manipulation_TelemetryStart(UnicodeString AppUserModeId, UInt32 AppType, UInt32 InteractionLibraryType, UInt64 UniqueKey, UInt16 SurfaceWidth, UInt16 SurfaceHeight)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Manipulation_Telemetry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppUserModeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractionLibraryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueKey"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SurfaceWidth"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SurfaceHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "Manipulation_Telemetry86(UInt64 UniqueKey, UInt32 InputType, UInt16 NumTouchPoints, UInt32 ManipulationFrameId, UInt32 FrameId, UInt32 InteractionType, UInt64 KernelInputStartTime, UInt64 HostInputSendTime, UInt64 ContainerInputReceiveTime, UInt64 QpcInteractionLibraryStart, UInt64 QpcInteractionLibraryStop, UInt64 HostPerformanceFrequency, UInt16 ZoomToRectCalls, UInt32 CoalescedFrames)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Telemetry",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NumTouchPoints"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManipulationFrameId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InteractionType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KernelInputStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HostInputSendTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ContainerInputReceiveTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QpcInteractionLibraryStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QpcInteractionLibraryStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HostPerformanceFrequency"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ZoomToRectCalls"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CoalescedFrames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "Manipulation_TelemetryStop(UInt64 UniqueKey)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Manipulation_Telemetry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UniqueKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "Manipulation_Telemetry88(UInt64 InteractionLibraryStartTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_Telemetry",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InteractionLibraryStartTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "Manipulation_TurnOffInteraction(Pointer Viewport, Pointer Interaction)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_TurnOffInteraction",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Viewport"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Interaction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectManipulation",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "Manipulation_TurnOnInteraction(Pointer Viewport, Pointer Interaction)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Manipulation_TurnOnInteraction",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Viewport"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Interaction"
+            }
+        ]
+    }
+]

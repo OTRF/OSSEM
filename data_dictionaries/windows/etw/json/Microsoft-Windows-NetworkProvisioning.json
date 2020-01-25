@@ -1,0 +1,784 @@
+[
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "CreateDocumentStart(UInt64 SizeOfXMLInBytes)",
+        "opcode": "Start",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SizeOfXMLInBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "CreateDocumentStop(Int32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "CreateDocument(Int32 Result)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "CreateDocument1003(Int32 Result)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "CreateDocument1004(Int32 ErrorCode, UnicodeString CarrierId, UnicodeString SubscriberId, UnicodeString DeviceId, UnicodeString Signer, UnicodeString CertificateIssuer, UnicodeString CertificateSubject)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CarrierId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Signer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CertificateIssuer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CertificateSubject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "CreateDocument1005(UInt64 StreamSize, UInt64 StreamSizeLimit)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamSize"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StreamSizeLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "CreateDocument1006(UInt32 ErrorCode, UnicodeString ErrorMessage, UnicodeString Description)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMessage"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Description"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "CreateDocument1007(UInt32 ErrorCode, Int32 Line, Int32 LinePos, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "LinePos"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "CreateDocument1008(Int32 Result)",
+        "opcode": "",
+        "keywords": "XmlValidation ut:Configuration",
+        "task": "CreateDocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "2000",
+        "version": "0",
+        "event(fields)": "ProvisioningDocumentStart()",
+        "opcode": "Start",
+        "keywords": "XmlProcessing ut:Configuration",
+        "task": "ProvisioningDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "ProvisioningDocumentStop(Int32 ErrorCode, Boolean ErrorOccurred)",
+        "opcode": "Stop",
+        "keywords": "XmlProcessing ut:Configuration",
+        "task": "ProvisioningDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorOccurred"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "ProvisioningDocument(Boolean BoolResult)",
+        "opcode": "",
+        "keywords": "XmlProcessing ut:Configuration",
+        "task": "ProvisioningDocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "BoolResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "4001",
+        "version": "0",
+        "event(fields)": "RefreshTask(Int32 Result)",
+        "opcode": "",
+        "keywords": "XmlProcessing ut:Configuration",
+        "task": "RefreshTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5000",
+        "version": "0",
+        "event(fields)": "ActivationTask(UInt32 ActivationMethod, UnicodeString CarrierId, UnicodeString SubscriberId, UnicodeString Params)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationMethod"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CarrierId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Params"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "ActivationTask5001(UInt32 ActivationMethod, UnicodeString CarrierId, UnicodeString SubscriberId, UnicodeString Params, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationMethod"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CarrierId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Params"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "ActivationTask5002(GUID InterfaceGuid)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5003",
+        "version": "0",
+        "event(fields)": "ActivationTask5003(GUID InterfaceGuid, UInt32 RadioState, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RadioState"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5004",
+        "version": "0",
+        "event(fields)": "ActivationTask5004(GUID InterfaceGuid, UInt32 RegisterState)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegisterState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5005",
+        "version": "0",
+        "event(fields)": "ActivationTask5005(GUID InterfaceGuid, UInt32 ProfileType, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProfileType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5006",
+        "version": "0",
+        "event(fields)": "ActivationTask5006(GUID InterfaceGuid, UnicodeString ProfileName, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProfileName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "5007",
+        "version": "0",
+        "event(fields)": "ActivationTask5007(GUID InterfaceGuid, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ActivationTask ut:Configuration",
+        "task": "ActivationTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "6000",
+        "version": "0",
+        "event(fields)": "PurgeTask()",
+        "opcode": "",
+        "keywords": "PurgeTask ut:Configuration",
+        "task": "PurgeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "6001",
+        "version": "0",
+        "event(fields)": "PurgeTask6001(Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "PurgeTask ut:Configuration",
+        "task": "PurgeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "6002",
+        "version": "0",
+        "event(fields)": "PurgeTask6002(UnicodeString CarrierId, UnicodeString SubscriberId, UnicodeString AppId)",
+        "opcode": "",
+        "keywords": "PurgeTask ut:Configuration",
+        "task": "PurgeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CarrierId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "9000",
+        "version": "0",
+        "event(fields)": "InvokeHandlersStart(UnicodeString HandlerName)",
+        "opcode": "Start",
+        "keywords": "XmlProcessing ut:Configuration",
+        "task": "InvokeHandlers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HandlerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "9001",
+        "version": "0",
+        "event(fields)": "InvokeHandlersStop(UnicodeString HandlerName, Int32 ErrorCode, Boolean HasResults)",
+        "opcode": "Stop",
+        "keywords": "XmlProcessing ut:Configuration",
+        "task": "InvokeHandlers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HandlerName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasResults"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "9100",
+        "version": "0",
+        "event(fields)": "InvokeHandlersStart9100(UnicodeString HandlerName)",
+        "opcode": "Start",
+        "keywords": "Purge ut:Configuration",
+        "task": "InvokeHandlers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HandlerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "9101",
+        "version": "0",
+        "event(fields)": "InvokeHandlersStop9101(UnicodeString HandlerName)",
+        "opcode": "Stop",
+        "keywords": "Purge ut:Configuration",
+        "task": "InvokeHandlers",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HandlerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "10000",
+        "version": "0",
+        "event(fields)": "ApplyProfiles(UInt32 ServiceName, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "Diagnostics Service ut:Configuration",
+        "task": "ApplyProfiles",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "10001",
+        "version": "0",
+        "event(fields)": "ApplyProfiles10001(GUID InterfaceGuid, UnicodeString ProfileName, Int32 ErrorCode, UInt32 ReasonCode)",
+        "opcode": "",
+        "keywords": "ut:Configuration",
+        "task": "ApplyProfiles",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProfileName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "10002",
+        "version": "0",
+        "event(fields)": "ApplyProfiles10002(GUID InterfaceGuid, UnicodeString ProfileName, Int32 ErrorCode, UInt32 ReasonCode)",
+        "opcode": "",
+        "keywords": "Diagnostics Profile ut:Configuration",
+        "task": "ApplyProfiles",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProfileName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "10003",
+        "version": "0",
+        "event(fields)": "ApplyProfiles10003(GUID InterfaceGuid, UnicodeString ProfileName, Int32 ErrorCode, UInt32 Parameter)",
+        "opcode": "",
+        "keywords": "Diagnostics Profile Metadata ut:Configuration",
+        "task": "ApplyProfiles",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProfileName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "11000",
+        "version": "0",
+        "event(fields)": "Notifications(UInt64 Position, UnicodeString RulesXml, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "Diagnostics Notifications ut:Configuration",
+        "task": "Notifications",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Position"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RulesXml"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkProvisioning",
+        "event_id": "20000",
+        "version": "0",
+        "event(fields)": "ProvisioningAgent(UnicodeString CallerAppId, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "Diagnostics ProvisioningAgent ut:Configuration",
+        "task": "ProvisioningAgent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallerAppId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

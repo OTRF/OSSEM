@@ -1,0 +1,636 @@
+[
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "SystemBatteryStatusChange(Boolean BatteryPresent, UInt32 PowerState, UInt32 Capacity)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SystemBatteryStatusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "BatteryPresent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Capacity"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "SystemBatteryStatusRundown(Boolean BatteryPresent, UInt32 PowerState, UInt32 Capacity)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SystemBatteryStatusRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "BatteryPresent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Capacity"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "BatteryBayRundown(Pointer Handle, Boolean BatteryPresent)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BatteryBayRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BatteryPresent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "BixUpdated(Pointer Handle, UInt32 Revision, UInt32 PowerUnit, UInt32 DesignCapacity, UInt32 LastFullChargeCapacity, UInt32 BatteryTechnology, UInt32 DesignVoltage, UInt32 WarningDesignCapacity, UInt32 LowDesignCapacity, UInt32 CapacityGranularity1, UInt32 CapacityGranularity2, UInt32 CycleCount, UInt32 MeasurementAccuracy, UInt32 MaxSamplingTime, UInt32 MinSamplingTIme, UInt32 MaxAveragingInterval, UInt32 MinAveragingInterval, AnsiString ModelNumber, AnsiString SerialNumber, AnsiString BatteryType, AnsiString OemInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BixUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Revision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastFullChargeCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryTechnology"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignVoltage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CycleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MeasurementAccuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxSamplingTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinSamplingTIme"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxAveragingInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinAveragingInterval"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ModelNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "BatteryType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "OemInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "BixRundown(Pointer Handle, UInt32 Revision, UInt32 PowerUnit, UInt32 DesignCapacity, UInt32 LastFullChargeCapacity, UInt32 BatteryTechnology, UInt32 DesignVoltage, UInt32 WarningDesignCapacity, UInt32 LowDesignCapacity, UInt32 CapacityGranularity1, UInt32 CapacityGranularity2, UInt32 CycleCount, UInt32 MeasurementAccuracy, UInt32 MaxSamplingTime, UInt32 MinSamplingTIme, UInt32 MaxAveragingInterval, UInt32 MinAveragingInterval, AnsiString ModelNumber, AnsiString SerialNumber, AnsiString BatteryType, AnsiString OemInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BixRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Revision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastFullChargeCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryTechnology"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignVoltage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CycleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MeasurementAccuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxSamplingTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinSamplingTIme"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxAveragingInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinAveragingInterval"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ModelNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "BatteryType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "OemInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "BifUpdated(Pointer Handle, UInt32 PowerUnit, UInt32 DesignCapacity, UInt32 LastFullChargeCapacity, UInt32 BatteryTechnology, UInt32 DesignVoltage, UInt32 WarningDesignCapacity, UInt32 LowDesignCapacity, UInt32 CapacityGranularity1, UInt32 CapacityGranularity2, AnsiString ModelNumber, AnsiString SerialNumber, AnsiString BatteryType, AnsiString OemInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BifUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastFullChargeCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryTechnology"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignVoltage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity2"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ModelNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "BatteryType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "OemInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "BifRundown(Pointer Handle, UInt32 PowerUnit, UInt32 DesignCapacity, UInt32 LastFullChargeCapacity, UInt32 BatteryTechnology, UInt32 DesignVoltage, UInt32 WarningDesignCapacity, UInt32 LowDesignCapacity, UInt32 CapacityGranularity1, UInt32 CapacityGranularity2, AnsiString ModelNumber, AnsiString SerialNumber, AnsiString BatteryType, AnsiString OemInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BifRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastFullChargeCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryTechnology"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesignVoltage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowDesignCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CapacityGranularity2"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ModelNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "BatteryType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "OemInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "BstUpdated(Pointer Handle, UInt32 State, UInt32 PresentRate, UInt32 RemainingCapacity, UInt32 PresentVoltage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BstUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentVoltage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "BstRundown(Pointer Handle, UInt32 State, UInt32 PresentRate, UInt32 RemainingCapacity, UInt32 PresentVoltage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BstRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingCapacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentVoltage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "BtpSet(Pointer Handle, UInt32 TripPoint)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BtpSet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TripPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "BtpRundown(Pointer Handle, UInt32 TripPoint)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BtpRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TripPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "AcpiNotify(Pointer Handle, UInt32 Notification)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AcpiNotify",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Notification"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "BatteryPercentRemaining(UInt32 RemainingPercentage, Int32 PercentageChange, UInt32 AcDc, UInt32 ElapsedTimeMs)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BatteryPercentRemaining",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingPercentage"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PercentageChange"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcDc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ElapsedTimeMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "BatteryChargingWatchdogUpdated(Pointer Handle, UInt32 BatteryState, UInt32 WatchdogState, UInt32 WatchdogTimeout)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BatteryChargingWatchdogUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogTimeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Battery",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "BatteryChargingWatchdogRundown(Pointer Handle, UInt32 BatteryState, UInt32 WatchdogState, UInt32 WatchdogTimeout)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BatteryChargingWatchdogRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogTimeout"
+            }
+        ]
+    }
+]

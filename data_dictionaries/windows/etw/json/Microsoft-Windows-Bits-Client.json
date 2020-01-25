@@ -1,0 +1,3032 @@
+[
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "task_0Start()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0Resume(GUID JobGuid, UnicodeString Title)",
+        "opcode": "Resume",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "JobGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_0Suspend(GUID JobGuid, UnicodeString Title)",
+        "opcode": "Suspend",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "JobGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString string, UnicodeString string2, UnicodeString string3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_0_V1(UnicodeString jobTitle, GUID jobId, UnicodeString jobOwner)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobTitle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "3",
+        "version": "2",
+        "event(fields)": "task_0_V2(UnicodeString jobTitle, GUID jobId, UnicodeString jobOwner, UnicodeString processPath, UInt32 processId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobTitle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "processPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "processId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_04(UnicodeString User, UnicodeString jobTitle, GUID jobId, UnicodeString jobOwner, UInt64 fileCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobTitle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "task_04_V1(UnicodeString User, UnicodeString jobTitle, GUID jobId, UnicodeString jobOwner, UInt64 fileCount, UInt64 bytesTransferred, UInt64 bytesTransferredFromPeer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobTitle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferredFromPeer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05(UnicodeString User, UnicodeString jobTitle, GUID jobId, UnicodeString jobOwner, UInt64 fileCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobTitle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "peerneighborlist(server)_listeningforclientsStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "peerneighborlist(server)_listeningforclients",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "peerneighborlist(server)_listeningforclientsStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "peerneighborlist(server)_listeningforclients",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "peerneighborlist(server)_listeningforclientsStop12()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "peerneighborlist(server)_listeningforclients",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "listenviaWS_DiscoveryforserverannouncementsStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "listenviaWS_DiscoveryforserverannouncementsStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "listenviaWS_DiscoveryforserverannouncementsStop15()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "listenviaWS_Discoveryforserverannouncements()",
+        "opcode": "",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "task_017(Boolean peerCacheEnabled, Boolean peerClientEnabled, Boolean peerServerEnabled, UInt32 maxPeers, UInt32 maxClients, UInt32 maxContentAge, UInt32 maxCacheSize, UInt32 minCacheDiskSize, UnicodeString cacheDenyUrls, UInt8 denyUrlCount, UnicodeString denyUrls)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "peerCacheEnabled"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "peerClientEnabled"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "peerServerEnabled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxPeers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxClients"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxContentAge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "maxCacheSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "minCacheDiskSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "cacheDenyUrls"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "denyUrlCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "denyUrls"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "listenviaWS_DiscoveryforserverannouncementsENYINGORIGNORINGANINCOMINGPACKETenyingorignoringanincomingpacket(UnicodeString packet, UInt32 hr, UnicodeString fqdn, Binary sourceAddress, UInt8 addressCount, UnicodeString addresses)",
+        "opcode": "denyingorignoringanincomingpacket",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "packet"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fqdn"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "sourceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "addressCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "addresses"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "listenviaWS_DiscoveryforserverannouncementsEPLYINGTOANINCOMINGREQUESTeplyingtoanincomingrequest(UnicodeString fqdn, Boolean authenticated, Boolean online, UInt8 addressCount, UInt16 addressLength)",
+        "opcode": "replyingtoanincomingrequest",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fqdn"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "authenticated"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "online"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "addressCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "addressLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "listenviaWS_DiscoveryforserverannouncementsEPLYINGTOANINCOMINGREQUESTeplyingtoanincomingrequest20(UnicodeString fqdn, Boolean authenticated, Boolean online, UInt8 addressCount, UInt16 addressLength)",
+        "opcode": "replyingtoanincomingrequest",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fqdn"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "authenticated"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "online"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "addressCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "addressLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "listenviaWS_Discoveryforserverannouncements21(UnicodeString fqdn, Boolean authenticated, Boolean online, UInt8 addressCount, UInt16 addressLength)",
+        "opcode": "",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fqdn"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "authenticated"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "online"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "addressCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "addressLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "listenviaWS_Discoveryforserverannouncements22(UnicodeString fqdn, Boolean authenticated, Boolean online, UInt8 addressCount, UInt16 addressLength)",
+        "opcode": "",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fqdn"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "authenticated"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "online"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "addressCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "addressLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "listenviaWS_Discoveryforserverannouncements23(SID user)",
+        "opcode": "",
+        "keywords": "",
+        "task": "listenviaWS_Discoveryforserverannouncements",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "user"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "peerneighborlist(server)_listeningforclientsEPLYINGTOANINCOMINGREQUESTeplyingtoanincomingrequest(Binary sourceAddress)",
+        "opcode": "replyingtoanincomingrequest",
+        "keywords": "",
+        "task": "peerneighborlist(server)_listeningforclients",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "sourceAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "peerneighborlist(server)_listeningforclientsENYINGORIGNORINGANINCOMINGPACKETenyingorignoringanincomingpacket(Binary sourceAddress, UnicodeString packet, UInt32 hr)",
+        "opcode": "denyingorignoringanincomingpacket",
+        "keywords": "",
+        "task": "peerneighborlist(server)_listeningforclients",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "sourceAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "packet"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "apeersearchforaparticularURLStart(GUID searchId, GUID jobId, UnicodeString url, FILETIME timestamp)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "apeersearchforaparticularURL",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "searchId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "apeersearchforaparticularURLStop(GUID searchId, GUID jobId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "apeersearchforaparticularURL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "searchId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "aparticularrequestwithinapeersearchStart(GUID requestId, GUID searchId, UnicodeString peer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "aparticularrequestwithinapeersearch",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "requestId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "searchId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "aparticularrequestwithinapeersearchStop(GUID requestId, GUID SearchId, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "aparticularrequestwithinapeersearch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "requestId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SearchId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "aparticularrequestwithinapeersearchStop31(GUID requestId, GUID SearchId, UInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "aparticularrequestwithinapeersearch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "requestId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SearchId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "aparticularrequestwithinapeersearch(GUID requestId, GUID id, UnicodeString url, UInt16 rangecount, Int16 Range)",
+        "opcode": "",
+        "keywords": "",
+        "task": "aparticularrequestwithinapeersearch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "requestId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "rangecount"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Range"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "peerneighborlist(server)_listeningforclients(UInt8 count, UnicodeString addresses)",
+        "opcode": "",
+        "keywords": "",
+        "task": "peerneighborlist(server)_listeningforclients",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "count"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "addresses"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "task_034(UnicodeString jobName, GUID jobId, UInt64 FileCount, UInt32 jobTransferPolicy, UInt32 globalTransferPolicy)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "jobTransferPolicy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "globalTransferPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "task_037(UInt32 nlmCost, UInt32 usage, UInt32 cap, UInt32 isThrottled, UInt32 isOvercap, UInt32 isRoaming, UInt32 globalTransferPolicy)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "nlmCost"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "usage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "isThrottled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "isOvercap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "isRoaming"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "globalTransferPolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "task_0Start59(GUID transferId, UnicodeString name, GUID Id, UnicodeString url, UnicodeString peer, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal, UInt64 bytesTransferred)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fileTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "59",
+        "version": "1",
+        "event(fields)": "task_0Start59_V1(GUID transferId, UnicodeString name, GUID Id, UnicodeString url, UnicodeString peer, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal, UInt64 bytesTransferred, UInt64 bytesTransferredFromPeer)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fileTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferredFromPeer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "task_0Stop(GUID transferId, UnicodeString name, GUID Id, UnicodeString url, UnicodeString peer, UInt32 hr, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal, UInt64 bytesTransferred, UnicodeString proxy)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fileTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "60",
+        "version": "1",
+        "event(fields)": "task_0Stop_V1(GUID transferId, UnicodeString name, GUID Id, UnicodeString url, UnicodeString peer, UInt32 hr, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal, UInt64 bytesTransferred, UnicodeString proxy, UInt64 peerProtocolFlags, UInt64 bytesTransferredFromPeer, UInt32 AdditionalInfoHr, UInt32 PeerContextInfo, UInt64 bandwidthLimit, Boolean ignoreBandwidthLimitsOnLan)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fileTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "peerProtocolFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferredFromPeer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdditionalInfoHr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeerContextInfo"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bandwidthLimit"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ignoreBandwidthLimitsOnLan"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "task_0Stop61(GUID transferId, UnicodeString name, GUID Id, UnicodeString url, UnicodeString peer, UInt32 hr, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal, UInt64 bytesTransferred, UnicodeString proxy)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fileTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "61",
+        "version": "1",
+        "event(fields)": "task_0Stop61_V1(GUID transferId, UnicodeString name, GUID Id, UnicodeString url, UnicodeString peer, UInt32 hr, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal, UInt64 bytesTransferred, UnicodeString proxy, UInt64 peerProtocolFlags, UInt64 bytesTransferredFromPeer, UInt32 AdditionalInfoHr, UInt32 PeerContextInfo, UInt64 bandwidthLimit, Boolean ignoreBandwidthLimitsOnLan)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "peer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fileTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTotal"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferred"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "peerProtocolFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferredFromPeer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdditionalInfoHr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeerContextInfo"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bandwidthLimit"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ignoreBandwidthLimitsOnLan"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "task_062(UnicodeString Title, UnicodeString Owner, UnicodeString Url, GUID Id)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "task_063(UnicodeString Job, UnicodeString Url, UnicodeString Pgm, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Job"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pgm"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "task_064(UnicodeString Job, UnicodeString Url, UnicodeString Pgm, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Job"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pgm"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "task_0Start70(Binary clientAddress)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "clientAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "task_071(UnicodeString url, FILETIME timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "task_072(GUID id, UnicodeString url, UInt16 rangecount, UInt8 Range)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "rangecount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Range"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "task_073(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "task_074(UInt16 status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "task_0Stop75()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "task_0Send()",
+        "opcode": "Send",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "task_0Start77()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "task_078(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "task_079()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "task_080()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "task_081(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "task_082(UnicodeString Title, UInt32 PolicyValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PolicyValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "task_083(UnicodeString Title, UInt32 PolicyValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PolicyValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "aparticularrequestwithinapeersearchStop101(GUID requestId, UnicodeString responseXml)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "aparticularrequestwithinapeersearch",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "requestId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "responseXml"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "task_0102(GUID xferId, UInt8 count, Int8 ranges)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "xferId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "count"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "ranges"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "task_0200(UnicodeString url, UInt32 hr, UnicodeString proxy, UnicodeString job, UnicodeString owner, GUID jobId, GUID xferId, UnicodeString proxyServerList)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxy"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "job"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "owner"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "xferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxyServerList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "task_0201(UnicodeString job, GUID jobId, UnicodeString jobOwner, UnicodeString url, GUID transferId, UnicodeString proxyServerList, UnicodeString proxyBypassList, UInt32 error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "job"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "transferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxyServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxyBypassList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "task_0202(UnicodeString jobName, UnicodeString jobOwner, GUID jobId, UnicodeString url, GUID xferId, UnicodeString proxy, UInt32 hr, UInt64 fileLength, UnicodeString HTTPVersion, UnicodeString URLRange)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobOwner"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "xferId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "proxy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fileLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HTTPVersion"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URLRange"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "task_0203(UnicodeString string, UnicodeString string2, UnicodeString string3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "203",
+        "version": "1",
+        "event(fields)": "task_0203_V1(UnicodeString server, UnicodeString job, UnicodeString url, UnicodeString scheme, UnicodeString user)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "server"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "job"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "scheme"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "user"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "task_0204(UnicodeString string, UnicodeString string2, UnicodeString string3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "204",
+        "version": "1",
+        "event(fields)": "task_0204_V1(UnicodeString server, UnicodeString job, UnicodeString url, UnicodeString scheme, UnicodeString user)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "server"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "job"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "scheme"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "user"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "task_0205(UInt8 profileType, FILETIME currSlotStartTime, UInt64 currSlotBandwidthLimit, FILETIME nextSlotStartTime, UInt64 nextSlotBandwidthLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "profileType"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "currSlotStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "currSlotBandwidthLimit"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "nextSlotStartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "nextSlotBandwidthLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "task_0206(UnicodeString jobName, UnicodeString url)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "task_0207(UnicodeString jobName, UnicodeString url)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "task_0208(UnicodeString jobName, UnicodeString url)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "task_0209(UnicodeString jobName, GUID jobId, UInt32 isRoaming)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "isRoaming"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "task_0210(UnicodeString jobName, UnicodeString url)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "task_0211(GUID JobGuid, UnicodeString Title, UInt32 ErrorCode, UInt32 Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "JobGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "task_0212(UInt32 SystemEvent)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SystemEvent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "task_0213(UnicodeString jobName, GUID jobId, UInt64 FileCount, UInt32 BlockReasonErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "jobName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "jobId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockReasonErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "281",
+        "version": "0",
+        "event(fields)": "task_0281()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "282",
+        "version": "0",
+        "event(fields)": "task_0282()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "283",
+        "version": "0",
+        "event(fields)": "task_0283()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "284",
+        "version": "0",
+        "event(fields)": "task_0284()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "285",
+        "version": "0",
+        "event(fields)": "task_0285()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "286",
+        "version": "0",
+        "event(fields)": "task_0286()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "287",
+        "version": "0",
+        "event(fields)": "task_0287()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "288",
+        "version": "0",
+        "event(fields)": "task_0288()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "289",
+        "version": "0",
+        "event(fields)": "task_0289()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "290",
+        "version": "0",
+        "event(fields)": "task_0290()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "291",
+        "version": "0",
+        "event(fields)": "task_0291()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "task_0301()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "task_0302()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "task_0303()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "task_0304()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "305",
+        "version": "0",
+        "event(fields)": "task_0305()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "task_0306()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "307",
+        "version": "0",
+        "event(fields)": "task_0307(Double number)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "number"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "308",
+        "version": "0",
+        "event(fields)": "task_0308(Double number)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "number"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "309",
+        "version": "0",
+        "event(fields)": "task_0309()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "310",
+        "version": "0",
+        "event(fields)": "task_0310(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "311",
+        "version": "0",
+        "event(fields)": "task_0311(GUID JobId, UnicodeString JobName, UnicodeString url, UInt32 ErrorCode, UInt8 ErrorContext, UInt64 bytesTransferredFromPeer, UInt64 PeerProtocolFlags)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "JobName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ErrorContext"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "bytesTransferredFromPeer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PeerProtocolFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "312",
+        "version": "0",
+        "event(fields)": "task_0312(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16384",
+        "version": "0",
+        "event(fields)": "task_016384(GUID Id, UnicodeString Title, UnicodeString Owner, UnicodeString User)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16385",
+        "version": "0",
+        "event(fields)": "task_016385(GUID Id, UnicodeString Title, UnicodeString FileList)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16386",
+        "version": "0",
+        "event(fields)": "task_016386(GUID Id, UnicodeString Title, UnicodeString FileList)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16387",
+        "version": "0",
+        "event(fields)": "task_016387(GUID Id, UnicodeString Title, UnicodeString Owner, UnicodeString PropertyName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16388",
+        "version": "0",
+        "event(fields)": "task_016388(GUID Id, UnicodeString Title, UnicodeString Owner, UnicodeString User)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16389",
+        "version": "0",
+        "event(fields)": "task_016389(GUID Id, UnicodeString Title, UnicodeString Owner, UInt32 DayCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DayCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16390",
+        "version": "0",
+        "event(fields)": "task_016390(GUID Id, UnicodeString Title, UnicodeString Owner, UInt32 RetryWaitTime)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RetryWaitTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16391",
+        "version": "0",
+        "event(fields)": "task_016391()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16392",
+        "version": "0",
+        "event(fields)": "task_016392(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16393",
+        "version": "0",
+        "event(fields)": "task_016393(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16394",
+        "version": "0",
+        "event(fields)": "task_016394()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16395",
+        "version": "0",
+        "event(fields)": "task_016395()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16396",
+        "version": "0",
+        "event(fields)": "task_016396(UnicodeString rule, Boolean enabled, UInt32 status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "rule"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "enabled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16397",
+        "version": "0",
+        "event(fields)": "task_016397(UnicodeString entityName, UInt32 currentSize, UInt32 currentLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "entityName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16398",
+        "version": "0",
+        "event(fields)": "task_016398(UnicodeString entityName, UInt32 currentSize, UInt32 currentLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "entityName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16400",
+        "version": "0",
+        "event(fields)": "task_016400(UnicodeString entityName, UInt32 currentSize, UInt32 currentLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "entityName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16401",
+        "version": "0",
+        "event(fields)": "task_016401(UnicodeString entityName, UInt32 currentSize, UInt32 currentLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "entityName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16402",
+        "version": "0",
+        "event(fields)": "task_016402(UnicodeString entityName, UInt32 currentSize, UInt32 currentLimit)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "entityName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "currentLimit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16404",
+        "version": "0",
+        "event(fields)": "task_016404(UnicodeString function, UInt32 line, UInt32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "function"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "16405",
+        "version": "0",
+        "event(fields)": "task_016405(UnicodeString Key, UnicodeString SubKeyOrValueName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubKeyOrValueName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Bits-Client",
+        "event_id": "17005",
+        "version": "0",
+        "event(fields)": "task_017005(UnicodeString string, UnicodeString string2, UnicodeString string3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "string3"
+            }
+        ]
+    }
+]

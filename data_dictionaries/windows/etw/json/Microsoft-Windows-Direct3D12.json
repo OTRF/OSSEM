@@ -1,0 +1,3698 @@
+[
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "Name(Pointer pObject, UInt32 CchOldDebugObjectName, AnsiString OldDebugObjectName, UInt32 CchNewDebugObjectName, AnsiString NewDebugObjectName)",
+        "opcode": "",
+        "keywords": "Names",
+        "task": "Name",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchOldDebugObjectName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "OldDebugObjectName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchNewDebugObjectName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "NewDebugObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NameDCStart(Pointer pObject, UInt32 CchDebugObjectName, AnsiString DebugObjectName)",
+        "opcode": "DC_Start",
+        "keywords": "Names",
+        "task": "Name",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchDebugObjectName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "DebugObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DeviceStart(Pointer pID3D12Device, UInt32 FeatureLevel, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, UInt64 UMDeviceVersion)",
+        "opcode": "Start",
+        "keywords": "Devices ObjectLifetime",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMAdapter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMAdapterVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMDevice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMDeviceVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DeviceStop(Pointer pID3D12Device, UInt32 FeatureLevel, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, UInt64 UMDeviceVersion)",
+        "opcode": "Stop",
+        "keywords": "Devices ObjectLifetime",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMAdapter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMAdapterVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMDevice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMDeviceVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DeviceDCStart(Pointer pID3D12Device, UInt32 FeatureLevel, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, UInt64 UMDeviceVersion)",
+        "opcode": "DC_Start",
+        "keywords": "Devices ObjectLifetime",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAdapter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMAdapter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMAdapterVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMDevice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UMDeviceVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "Device(Pointer SemaphoreHandle, UInt32 AdjustValue, UInt32 PresentCount)",
+        "opcode": "",
+        "keywords": "Devices",
+        "task": "Device",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SemaphoreHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdjustValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "D3DSupplemental(UInt32 BufferSize, Binary Buffer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "D3DSupplemental",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Buffer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "Marker(Pointer pID3D12CommandQueue, UInt32 Metadata, UInt32 DataSize, UInt8 Data)",
+        "opcode": "",
+        "keywords": "Markers",
+        "task": "Marker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Metadata"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "MarkerStart(Pointer pID3D12CommandQueue, UInt32 Metadata, UInt32 DataSize, UInt8 Data)",
+        "opcode": "Start",
+        "keywords": "Markers",
+        "task": "Marker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Metadata"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "MarkerStop(Pointer pID3D12CommandQueue)",
+        "opcode": "Stop",
+        "keywords": "Markers",
+        "task": "Marker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandQueue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "Marker38(Pointer pID3D12CommandList, UInt64 APISequenceNumber, UInt32 Metadata, UInt32 DataSize, UInt8 Data)",
+        "opcode": "",
+        "keywords": "Markers",
+        "task": "Marker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "APISequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Metadata"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "RuntimeMarker(UInt64 CPUFrequency, UInt64 FirstAPISequenceNumber, Pointer pID3D12CommandList, UInt32 CPUTimeHigh, UInt8 ThreadIDCount, UInt32 ThreadIDs, UInt32 DataSize, UInt8 Data)",
+        "opcode": "",
+        "keywords": "RenderOperationMarkers",
+        "task": "RuntimeMarker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "CPUFrequency"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FirstAPISequenceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUTimeHigh"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ThreadIDCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadIDs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "RuntimeDroppedCall(Pointer pID3D12DeviceContext, UInt32 Type)",
+        "opcode": "",
+        "keywords": "RenderOperationMarkers",
+        "task": "RuntimeDroppedCall",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12DeviceContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "RuntimeMarker41(Pointer pID3D12CommandQueue, UInt32 ContextCount, UInt32 Contexts, UInt32 LoopIteration, UInt32 SubmitCommandCBSequence, UInt32 FirstAPISequenceNumberHigh, UInt32 CompletedAPISequenceNumberSize, UInt32 CompletedAPISequenceNumber)",
+        "opcode": "",
+        "keywords": "RenderOperationMarkers",
+        "task": "RuntimeMarker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Contexts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoopIteration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubmitCommandCBSequence"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FirstAPISequenceNumberHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CompletedAPISequenceNumberSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CompletedAPISequenceNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "CustomDriverMarker(UInt64 InsertionAPISequenceNumber, Pointer pID3D12CommandList, Int32 Index, UnicodeString MarkerDescription)",
+        "opcode": "",
+        "keywords": "DriverCustomMarkers",
+        "task": "CustomDriverMarker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InsertionAPISequenceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MarkerDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "CommandQueueStart(Pointer pID3D12Device, Pointer pCommandQueue, UInt32 type, UInt32 ContextCount, UInt32 UMDContexts, Int32 Priority, UInt32 Flags, UInt32 NodeMask)",
+        "opcode": "Start",
+        "keywords": "Devices ObjectLifetime",
+        "task": "CommandQueue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pCommandQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMDContexts"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "CommandQueueStop(Pointer pID3D12Device, Pointer pCommandQueue, UInt32 type, UInt32 ContextCount, UInt32 UMDContexts, Int32 Priority, UInt32 Flags, UInt32 NodeMask)",
+        "opcode": "Stop",
+        "keywords": "Devices ObjectLifetime",
+        "task": "CommandQueue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pCommandQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMDContexts"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "CommandQueueDCStart(Pointer pID3D12Device, Pointer pCommandQueue, UInt32 type, UInt32 ContextCount, UInt32 UMDContexts, Int32 Priority, UInt32 Flags, UInt32 NodeMask)",
+        "opcode": "DC_Start",
+        "keywords": "Devices ObjectLifetime",
+        "task": "CommandQueue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pCommandQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UMDContexts"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "CommandListStart(Pointer pID3D12Device, Pointer pID3D12CommandList, UInt64 SequenceNumber, UInt32 type)",
+        "opcode": "Start",
+        "keywords": "Devices ObjectLifetime",
+        "task": "CommandList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "CommandListStop(Pointer pID3D12Device, Pointer pID3D12CommandList, UInt64 SequenceNumber, UInt32 type)",
+        "opcode": "Stop",
+        "keywords": "Devices ObjectLifetime",
+        "task": "CommandList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "CommandList(Pointer pID3D12Device, Pointer pID3D12CommandList, UInt64 SequenceNumber, UInt32 type)",
+        "opcode": "",
+        "keywords": "Devices",
+        "task": "CommandList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "ExecuteCommandListStart(Pointer pID3D12CommandQueue, Pointer pID3D12CommandList)",
+        "opcode": "Start",
+        "keywords": "Devices",
+        "task": "ExecuteCommandList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandQueue"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "ExecuteCommandListStop(Pointer pID3D12CommandQueue, Pointer pID3D12CommandList)",
+        "opcode": "Stop",
+        "keywords": "Devices",
+        "task": "ExecuteCommandList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandQueue"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "Name55(Pointer pObject, UInt32 CchOldDebugObjectName, UnicodeString OldDebugObjectName, UInt32 CchNewDebugObjectName, UnicodeString NewDebugObjectName)",
+        "opcode": "",
+        "keywords": "Names",
+        "task": "Name",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchOldDebugObjectName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldDebugObjectName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchNewDebugObjectName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewDebugObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "NameDCStart56(Pointer pObject, UInt32 CchDebugObjectName, UnicodeString DebugObjectName)",
+        "opcode": "DC_Start",
+        "keywords": "Names",
+        "task": "Name",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CchDebugObjectName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DebugObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "FenceStart(Pointer pID3D12Device, Pointer pID3D12Fence, Pointer pDXGKFence)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Fence",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Fence"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDXGKFence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "FenceStop(Pointer pID3D12Device, Pointer pID3D12Fence, Pointer pDXGKFence)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Fence",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Fence"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDXGKFence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "FenceDCStart(Pointer pID3D12Device, Pointer pID3D12Fence, Pointer pDXGKFence)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Fence",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Fence"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pDXGKFence"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "CommandAllocatorStart(Pointer pID3D12Device, Pointer pID3D12CommandAllocator, UInt32 type)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandAllocator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "CommandAllocatorStop(Pointer pID3D12Device, Pointer pID3D12CommandAllocator, UInt32 type)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandAllocator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "CommandAllocatorDCStart(Pointer pID3D12Device, Pointer pID3D12CommandAllocator, UInt32 type)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandAllocator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "GraphicsPipelineStateStart(Pointer pID3D12Device, Pointer pID3D12GraphicsPipelineState)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "GraphicsPipelineState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12GraphicsPipelineState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "GraphicsPipelineStateStop(Pointer pID3D12Device, Pointer pID3D12GraphicsPipelineState)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "GraphicsPipelineState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12GraphicsPipelineState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "GraphicsPipelineStateDCStart(Pointer pID3D12Device, Pointer pID3D12GraphicsPipelineState)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "GraphicsPipelineState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12GraphicsPipelineState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "DescriptorHeapStart(Pointer pID3D12Device, Pointer pID3D12DescriptorHeap, UInt32 Type, UInt32 NumDescriptors, UInt32 Flags, UInt32 NodeMask)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "DescriptorHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12DescriptorHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumDescriptors"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "DescriptorHeapStop(Pointer pID3D12Device, Pointer pID3D12DescriptorHeap, UInt32 Type, UInt32 NumDescriptors, UInt32 Flags, UInt32 NodeMask)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "DescriptorHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12DescriptorHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumDescriptors"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "DescriptorHeapDCStart(Pointer pID3D12Device, Pointer pID3D12DescriptorHeap, UInt32 Type, UInt32 NumDescriptors, UInt32 Flags, UInt32 NodeMask)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "DescriptorHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12DescriptorHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumDescriptors"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "RootSignatureStart(Pointer pID3D12Device, Pointer pID3D12RootSignature, UInt32 NodeMask)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "RootSignature",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12RootSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "RootSignatureStop(Pointer pID3D12Device, Pointer pID3D12RootSignature, UInt32 NodeMask)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "RootSignature",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12RootSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "RootSignatureDCStart(Pointer pID3D12Device, Pointer pID3D12RootSignature, UInt32 NodeMask)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "RootSignature",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12RootSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "HeapStart(Pointer pID3D12Device, Pointer pID3D12Heap, UInt64 SizeInBytes, UInt64 Alignment, UInt32 Type, UInt32 CPUPageProperty, UInt32 MemoryPoolPreference, UInt32 CreationNodeMask, UInt32 VisibleNodeMask, UInt32 Flags, Pointer pID3D12ConjoinedResource, UInt32 hKMAllocation, UInt32 hKMResource)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Heap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Heap"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SizeInBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Alignment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUPageProperty"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryPoolPreference"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationNodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VisibleNodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12ConjoinedResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAllocation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "HeapStop(Pointer pID3D12Device, Pointer pID3D12Heap, UInt64 SizeInBytes, UInt64 Alignment, UInt32 Type, UInt32 CPUPageProperty, UInt32 MemoryPoolPreference, UInt32 CreationNodeMask, UInt32 VisibleNodeMask, UInt32 Flags, Pointer pID3D12ConjoinedResource, UInt32 hKMAllocation, UInt32 hKMResource)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Heap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Heap"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SizeInBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Alignment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUPageProperty"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryPoolPreference"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationNodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VisibleNodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12ConjoinedResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAllocation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "HeapDCStart(Pointer pID3D12Device, Pointer pID3D12Heap, UInt64 SizeInBytes, UInt64 Alignment, UInt32 Type, UInt32 CPUPageProperty, UInt32 MemoryPoolPreference, UInt32 CreationNodeMask, UInt32 VisibleNodeMask, UInt32 Flags, Pointer pID3D12ConjoinedResource, UInt32 hKMAllocation, UInt32 hKMResource)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Heap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Heap"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SizeInBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Alignment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUPageProperty"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryPoolPreference"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CreationNodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VisibleNodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12ConjoinedResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMAllocation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "QueryHeapStart(Pointer pID3D12Device, Pointer pID3D12QueryHeap, UInt32 Type, UInt32 Count, UInt32 NodeMask)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "QueryHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12QueryHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "QueryHeapStop(Pointer pID3D12Device, Pointer pID3D12QueryHeap, UInt32 Type, UInt32 Count, UInt32 NodeMask)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "QueryHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12QueryHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "QueryHeapDCStart(Pointer pID3D12Device, Pointer pID3D12QueryHeap, UInt32 Type, UInt32 Count, UInt32 NodeMask)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "QueryHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12QueryHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "CommandSignatureStart(Pointer pID3D12Device, Pointer pID3D12CommandSignature, UInt32 ByteStride, UInt32 NumArgumentDescs, UInt32 NodeMask)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandSignature",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteStride"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumArgumentDescs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "CommandSignatureStop(Pointer pID3D12Device, Pointer pID3D12CommandSignature, UInt32 ByteStride, UInt32 NumArgumentDescs, UInt32 NodeMask)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandSignature",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteStride"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumArgumentDescs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "CommandSignatureDCStart(Pointer pID3D12Device, Pointer pID3D12CommandSignature, UInt32 ByteStride, UInt32 NumArgumentDescs, UInt32 NodeMask)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandSignature",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandSignature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteStride"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumArgumentDescs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "PipelineLibraryStart(Pointer pID3D12Device, Pointer pID3D12PipelineLibrary)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "PipelineLibrary",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12PipelineLibrary"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "PipelineLibraryStop(Pointer pID3D12Device, Pointer pID3D12PipelineLibrary)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "PipelineLibrary",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12PipelineLibrary"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "PipelineLibraryDCStart(Pointer pID3D12Device, Pointer pID3D12PipelineLibrary)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "PipelineLibrary",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12PipelineLibrary"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "VideoDecoderStart(Pointer pID3D12Device, Pointer pID3D12VideoDecoder, UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoDecoder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoDecoder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DecodeProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitstreamEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "VideoDecoderStop(Pointer pID3D12Device, Pointer pID3D12VideoDecoder, UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoDecoder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoDecoder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DecodeProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitstreamEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "VideoDecoderDCStart(Pointer pID3D12Device, Pointer pID3D12VideoDecoder, UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoDecoder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoDecoder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DecodeProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitstreamEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "VideoProcessorStart(Pointer pID3D12Device, Pointer pID3D12VideoProcessor, UInt32 NodeMask)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoProcessor",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoProcessor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "VideoProcessorStop(Pointer pID3D12Device, Pointer pID3D12VideoProcessor, UInt32 NodeMask)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoProcessor",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoProcessor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "VideoProcessorDCStart(Pointer pID3D12Device, Pointer pID3D12VideoProcessor, UInt32 NodeMask)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoProcessor",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoProcessor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "CommandListDCStart(Pointer pID3D12Device, Pointer pID3D12CommandList, UInt64 SequenceNumber, UInt32 type)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandList",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "91",
+        "version": "1",
+        "event(fields)": "ResourceStart_V1(Pointer pID3D12Device, Pointer pID3D12Resource, Pointer hUMResource, UInt32 Dimension, UInt64 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 PlaneCount, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 Layout, UInt32 Flags, UInt32 HeapType, Pointer pHeap, UInt64 ImmutableHeapOffset, UInt64 PlacedAlignment, UInt64 PlacedSize, UInt32 NumTilesForResource, UInt32 NumPackedMips, UInt32 NumTilesForPackedMips, Pointer pImmutableBuffer, UInt64 ImmutableBufferOffset)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Resource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlaneCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Layout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pHeap"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImmutableHeapOffset"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlacedAlignment"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlacedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumTilesForResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackedMips"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumTilesForPackedMips"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pImmutableBuffer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImmutableBufferOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "92",
+        "version": "1",
+        "event(fields)": "ResourceStop_V1(Pointer pID3D12Device, Pointer pID3D12Resource, Pointer hUMResource, UInt32 Dimension, UInt64 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 PlaneCount, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 Layout, UInt32 Flags, UInt32 HeapType, Pointer pHeap, UInt64 ImmutableHeapOffset, UInt64 PlacedAlignment, UInt64 PlacedSize, UInt32 NumTilesForResource, UInt32 NumPackedMips, UInt32 NumTilesForPackedMips, Pointer pImmutableBuffer, UInt64 ImmutableBufferOffset)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Resource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlaneCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Layout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pHeap"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImmutableHeapOffset"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlacedAlignment"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlacedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumTilesForResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackedMips"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumTilesForPackedMips"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pImmutableBuffer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImmutableBufferOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "93",
+        "version": "1",
+        "event(fields)": "ResourceDCStart_V1(Pointer pID3D12Device, Pointer pID3D12Resource, Pointer hUMResource, UInt32 Dimension, UInt64 Width, UInt32 Height, UInt32 Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 PlaneCount, UInt32 Format, UInt32 SampleCount, UInt32 SampleQuality, UInt32 Layout, UInt32 Flags, UInt32 HeapType, Pointer pHeap, UInt64 ImmutableHeapOffset, UInt64 PlacedAlignment, UInt64 PlacedSize, UInt32 NumTilesForResource, UInt32 NumPackedMips, UInt32 NumTilesForPackedMips, Pointer pImmutableBuffer, UInt64 ImmutableBufferOffset)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "Resource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dimension"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Depth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MipLevels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ArraySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlaneCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleQuality"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Layout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pHeap"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImmutableHeapOffset"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlacedAlignment"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PlacedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumTilesForResource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackedMips"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumTilesForPackedMips"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pImmutableBuffer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ImmutableBufferOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "94",
+        "version": "1",
+        "event(fields)": "AllocationInfo_V1(Pointer pID3D12Device, Pointer pObject, UInt32 NumVirtualAddressInfos, UInt16 pVirtualAddressInfos, UInt32 NumKMTInfos, Int64 pKMTInfos)",
+        "opcode": "",
+        "keywords": "Resources",
+        "task": "AllocationInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumVirtualAddressInfos"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "pVirtualAddressInfos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumKMTInfos"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "pKMTInfos"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "CommandAllocatorUnacquire(Pointer pID3D12Device, Pointer pID3D12CommandAllocator, Pointer pID3D12CommandList, Int32 m_hr)",
+        "opcode": "",
+        "keywords": "Resources",
+        "task": "CommandAllocatorUnacquire",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandAllocator"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "m_hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "VideoDecoderHeapStart(Pointer pID3D12Device, Pointer pID3D12VideoDecoderHeap, UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat, UInt32 DecodeWidth, UInt32 DecodeHeight, UInt32 MaxDecodePictureBufferCount, Float FrameRate, UInt32 BitRate)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoDecoderHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoDecoderHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DecodeProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitstreamEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxDecodePictureBufferCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "FrameRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitRate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "VideoDecoderHeapStop(Pointer pID3D12Device, Pointer pID3D12VideoDecoderHeap, UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat, UInt32 DecodeWidth, UInt32 DecodeHeight, UInt32 MaxDecodePictureBufferCount, Float FrameRate, UInt32 BitRate)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoDecoderHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoDecoderHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DecodeProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitstreamEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxDecodePictureBufferCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "FrameRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitRate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "VideoDecoderHeapDCStart(Pointer pID3D12Device, Pointer pID3D12VideoDecoderHeap, UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat, UInt32 DecodeWidth, UInt32 DecodeHeight, UInt32 MaxDecodePictureBufferCount, Float FrameRate, UInt32 BitRate)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoDecoderHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoDecoderHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DecodeProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitstreamEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DecodeHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxDecodePictureBufferCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "FrameRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitRate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "ExtendedFeatureVersion(Pointer pID3D12Device, UInt32 NumExtendedFeatures, Int8 pExtendedFeatures)",
+        "opcode": "",
+        "keywords": "Devices ObjectLifetime",
+        "task": "ExtendedFeatureVersion",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumExtendedFeatures"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "pExtendedFeatures"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "JournalEntry(UInt32 Index, HexInt32 Code, UInt32 ThreadId, AnsiString Message)",
+        "opcode": "",
+        "keywords": "Devices JournalEntries",
+        "task": "JournalEntry",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Code"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "CommandPoolStart(Pointer pID3D12Device, Pointer pID3D12CommandPool)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandPool",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandPool"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "CommandPoolStop(Pointer pID3D12Device, Pointer pID3D12CommandPool)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandPool",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandPool"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "CommandPoolDCStart(Pointer pID3D12Device, Pointer pID3D12CommandPool)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandPool",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandPool"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "CommandRecorderStart(Pointer pID3D12Device, Pointer pID3D12CommandRecorder, UInt32 supportFlags)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandRecorder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandRecorder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "supportFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "CommandRecorderStop(Pointer pID3D12Device, Pointer pID3D12CommandRecorder, UInt32 supportFlags)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandRecorder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandRecorder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "supportFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "CommandRecorderDCStart(Pointer pID3D12Device, Pointer pID3D12CommandRecorder, UInt32 supportFlags)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "CommandRecorder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandRecorder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "supportFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "CommandRecorderAcquireStart(Pointer pID3D12Device, Pointer pID3D12CommandRecorder, Pointer pID3D12CommandList, Int32 m_hr)",
+        "opcode": "Start",
+        "keywords": "Resources",
+        "task": "CommandRecorderAcquire",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandRecorder"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "m_hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "CommandRecorderUnacquireStop(Pointer pID3D12Device, Pointer pID3D12CommandRecorder, Pointer pID3D12CommandList, Int32 m_hr)",
+        "opcode": "Stop",
+        "keywords": "Resources",
+        "task": "CommandRecorderUnacquire",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandRecorder"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12CommandList"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "m_hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "CreateHeapSharedHandle(UInt32 hKMResource, Pointer hUMSharedResource, UnicodeString Name)",
+        "opcode": "",
+        "keywords": "Resources",
+        "task": "CreateHeapSharedHandle",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hKMResource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "hUMSharedResource"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "StateObjectStart(Pointer pID3D12Device, Pointer pID3D12StateObject)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "StateObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12StateObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "StateObjectStop(Pointer pID3D12Device, Pointer pID3D12StateObject)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "StateObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12StateObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "StateObjectDCStart(Pointer pID3D12Device, Pointer pID3D12StateObject)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "StateObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12StateObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "MetaCommandStart(Pointer pID3D12Device, Pointer pID3D12MetaCommand, GUID CommandId)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "MetaCommand",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12MetaCommand"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CommandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "MetaCommandStop(Pointer pID3D12Device, Pointer pID3D12MetaCommand, GUID CommandId)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "MetaCommand",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12MetaCommand"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CommandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "MetaCommandDCStart(Pointer pID3D12Device, Pointer pID3D12MetaCommand, GUID CommandId)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "MetaCommand",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12MetaCommand"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CommandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "ProtectedResourceSessionStart(Pointer pID3D12Device, Pointer pID3D12ProtectedResourceSession, UInt32 NodeMask, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "ProtectedResourceSession",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12ProtectedResourceSession"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "ProtectedResourceSessionStop(Pointer pID3D12Device, Pointer pID3D12ProtectedResourceSession, UInt32 NodeMask, UInt32 Flags)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "ProtectedResourceSession",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12ProtectedResourceSession"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "ProtectedResourceSessionDCStart(Pointer pID3D12Device, Pointer pID3D12ProtectedResourceSession, UInt32 NodeMask, UInt32 Flags)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "ProtectedResourceSession",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12ProtectedResourceSession"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "LifetimeTrackerStart(Pointer pID3D12Device, Pointer pID3D12LifetimeTracker)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "LifetimeTracker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12LifetimeTracker"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "LifetimeTrackerStop(Pointer pID3D12Device, Pointer pID3D12LifetimeTracker)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "LifetimeTracker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12LifetimeTracker"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "LifetimeTrackerDCStart(Pointer pID3D12Device, Pointer pID3D12LifetimeTracker)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "LifetimeTracker",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12LifetimeTracker"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "SchedulingGroupStart(Pointer pID3D12Device, Pointer pID3D12SchedulingGroup)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "SchedulingGroup",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12SchedulingGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "SchedulingGroupStop(Pointer pID3D12Device, Pointer pID3D12SchedulingGroup)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "SchedulingGroup",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12SchedulingGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "SchedulingGroupDCStart(Pointer pID3D12Device, Pointer pID3D12SchedulingGroup)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "SchedulingGroup",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12SchedulingGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "VideoMotionEstimatorStart(Pointer pID3D12Device, Pointer pID3D12VideoMotionEstimator, UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32 MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoMotionEstimator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoMotionEstimator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Precision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxHeightInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinHeightInBlocks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "VideoMotionEstimatorStop(Pointer pID3D12Device, Pointer pID3D12VideoMotionEstimator, UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32 MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoMotionEstimator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoMotionEstimator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Precision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxHeightInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinHeightInBlocks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "VideoMotionEstimatorDCStart(Pointer pID3D12Device, Pointer pID3D12VideoMotionEstimator, UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32 MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoMotionEstimator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoMotionEstimator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Precision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxHeightInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinHeightInBlocks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "VideoMotionVectorHeapStart(Pointer pID3D12Device, Pointer pID3D12VideoMotionVectorHeap, UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32 MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoMotionVectorHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoMotionVectorHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Precision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxHeightInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinHeightInBlocks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "VideoMotionVectorHeapStop(Pointer pID3D12Device, Pointer pID3D12VideoMotionVectorHeap, UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32 MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoMotionVectorHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoMotionVectorHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Precision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxHeightInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinHeightInBlocks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "VideoMotionVectorHeapDCStart(Pointer pID3D12Device, Pointer pID3D12VideoMotionVectorHeap, UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32 MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoMotionVectorHeap",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoMotionVectorHeap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Precision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxHeightInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWidthInBlocks"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinHeightInBlocks"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "131",
+        "version": "1",
+        "event(fields)": "DecodePictureLists_V1(Pointer pID3D12Device, Pointer pID3D12Decoder, Boolean CurrPic, UInt32 NumRefPicListEntries, Pointer RefPicList, Pointer pID3D12OutputTexture2D, UInt32 OutputSubresource, Pointer pReferenceTexture2D, UInt32 ReferenceSubresource, UInt32 NumReferences, SID ReferenceTexture2Ds, HexInt32 SubresourceIndicies, HexInt64 ReferenceDecoderHeaps)",
+        "opcode": "",
+        "keywords": "DecodeInfo",
+        "task": "DecodePictureLists",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Decoder"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CurrPic"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumRefPicListEntries"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "RefPicList"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12OutputTexture2D"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputSubresource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pReferenceTexture2D"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceSubresource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumReferences"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "ReferenceTexture2Ds"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SubresourceIndicies"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ReferenceDecoderHeaps"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "BackgroundWorkStart(Pointer pID3D12Device)",
+        "opcode": "Start",
+        "keywords": "Markers",
+        "task": "BackgroundWork",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "BackgroundWorkStop(Pointer pID3D12Device)",
+        "opcode": "Stop",
+        "keywords": "Markers",
+        "task": "BackgroundWork",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "BackgroundWork(Pointer pID3D12Device)",
+        "opcode": "",
+        "keywords": "Markers",
+        "task": "BackgroundWork",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "VideoExtensionCommandStart(Pointer pID3D12Device, Pointer pID3D12VideoExtensionCommand, UInt32 NodeMask, GUID CommandId)",
+        "opcode": "Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoExtensionCommand",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoExtensionCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CommandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "VideoExtensionCommandStop(Pointer pID3D12Device, Pointer pID3D12VideoExtensionCommand, UInt32 NodeMask, GUID CommandId)",
+        "opcode": "Stop",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoExtensionCommand",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoExtensionCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CommandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Direct3D12",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "VideoExtensionCommandDCStart(Pointer pID3D12Device, Pointer pID3D12VideoExtensionCommand, UInt32 NodeMask, GUID CommandId)",
+        "opcode": "DC_Start",
+        "keywords": "Resources ObjectLifetime",
+        "task": "VideoExtensionCommand",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12Device"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pID3D12VideoExtensionCommand"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NodeMask"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CommandId"
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "provider": "Microsoft-Windows-WEPHOSTSVC",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "TASK_SERVICE(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TASK_SERVICE",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WEPHOSTSVC",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "TASK_SERVICE2(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TASK_SERVICE",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WEPHOSTSVC",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "TASK_SERVICEStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TASK_SERVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WEPHOSTSVC",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "TASK_SERVICEStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TASK_SERVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

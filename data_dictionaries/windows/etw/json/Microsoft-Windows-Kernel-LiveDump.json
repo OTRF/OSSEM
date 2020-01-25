@@ -1,0 +1,498 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LiveDumpCaptureDumpDataAPIAPIStart()",
+        "opcode": "APIStart",
+        "keywords": "",
+        "task": "LiveDumpCaptureDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "LiveDumpCaptureDumpDataAPIAPIEnd(UInt32 NTStatus)",
+        "opcode": "APIEnd",
+        "keywords": "",
+        "task": "LiveDumpCaptureDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "LiveDumpCaptureDumpDataAPIDumpFileWriteStart()",
+        "opcode": "DumpFileWriteStart",
+        "keywords": "",
+        "task": "LiveDumpCaptureDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "LiveDumpCaptureDumpDataAPIDumpFileWriteEnd(UInt32 NTStatus, UInt64 TotalBytes, UInt64 HeaderBytes, UInt64 PrimaryDataBytes, UInt64 SecondaryDataBytes)",
+        "opcode": "DumpFileWriteEnd",
+        "keywords": "",
+        "task": "LiveDumpCaptureDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HeaderBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SecondaryDataBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "LiveDumpCaptureDumpDataAPIBufferAllocationData()",
+        "opcode": "BufferAllocationData",
+        "keywords": "",
+        "task": "LiveDumpCaptureDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "SizingWorkflowMirroringStart()",
+        "opcode": "MirroringStart",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "SizingWorkflowMirroringPhase0End()",
+        "opcode": "MirroringPhase0End",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "SizingWorkflowMirroringPhase1End()",
+        "opcode": "MirroringPhase1End",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "SizingWorkflowSystemQuiesceStart()",
+        "opcode": "SystemQuiesceStart",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "SizingWorkflowSystemQuiesceEnd()",
+        "opcode": "SystemQuiesceEnd",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "SizingWorkflowBufferEstimationData(UInt64 NtEstimatedRequiredPrimaryDataBytes, UInt64 NtEstimatedPrimaryDataBytes, UInt64 HvEstimatedPrimaryDataBytes, UInt64 HvEstimatedSecondaryDataBytes)",
+        "opcode": "BufferEstimationData",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NtEstimatedRequiredPrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NtEstimatedPrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HvEstimatedPrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HvEstimatedSecondaryDataBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "SizingWorkflowBufferAllocationData(UInt64 NtPrimaryDataBytes, UInt64 HvPrimaryDataBytes, UInt64 HvSecondaryDataBytes)",
+        "opcode": "BufferAllocationData",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NtPrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HvPrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HvSecondaryDataBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "SizingWorkflowRemovePagesCallbacks()",
+        "opcode": "RemovePagesCallbacks",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "SizingWorkflowRemovePagesCallbacks109()",
+        "opcode": "RemovePagesCallbacks",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "SizingWorkflowRemovePagesCallbacks110(AnsiString CallbackIdentifier)",
+        "opcode": "RemovePagesCallbacks",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "CallbackIdentifier"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "SizingWorkflowRemovePagesCallbacks111(AnsiString CallbackIdentifier)",
+        "opcode": "RemovePagesCallbacks",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "CallbackIdentifier"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "SizingWorkflowRemovePagesCallbacks112(AnsiString CallbackIdentifier, UInt32 NTStatus)",
+        "opcode": "RemovePagesCallbacks",
+        "keywords": "",
+        "task": "SizingWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "CallbackIdentifier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowMirroringStart()",
+        "opcode": "MirroringStart",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowMirroringPhase0End()",
+        "opcode": "MirroringPhase0End",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowMirroringPhase1End()",
+        "opcode": "MirroringPhase1End",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowSystemQuiesceStart()",
+        "opcode": "SystemQuiesceStart",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowSystemQuiesceEnd()",
+        "opcode": "SystemQuiesceEnd",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowCopyingMemoryPagesStart()",
+        "opcode": "CopyingMemoryPagesStart",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "CapturePagesWorkflowCopyingMemoryPagesEnd()",
+        "opcode": "CopyingMemoryPagesEnd",
+        "keywords": "",
+        "task": "CapturePagesWorkflow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "LiveDumpWriteDeferredDumpDataAPIAPIStart()",
+        "opcode": "APIStart",
+        "keywords": "",
+        "task": "LiveDumpWriteDeferredDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "LiveDumpWriteDeferredDumpDataAPIAPIEnd(UInt32 NTStatus)",
+        "opcode": "APIEnd",
+        "keywords": "",
+        "task": "LiveDumpWriteDeferredDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "LiveDumpWriteDeferredDumpDataAPIDumpFileWriteStart()",
+        "opcode": "DumpFileWriteStart",
+        "keywords": "",
+        "task": "LiveDumpWriteDeferredDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "LiveDumpWriteDeferredDumpDataAPIDumpFileWriteEnd(UInt32 NTStatus, UInt64 TotalBytes, UInt64 HeaderBytes, UInt64 PrimaryDataBytes, UInt64 SecondaryDataBytes)",
+        "opcode": "DumpFileWriteEnd",
+        "keywords": "",
+        "task": "LiveDumpWriteDeferredDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HeaderBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PrimaryDataBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SecondaryDataBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "LiveDumpDiscardDeferredDumpDataAPIAPIStart()",
+        "opcode": "APIStart",
+        "keywords": "",
+        "task": "LiveDumpDiscardDeferredDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-LiveDump",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "LiveDumpDiscardDeferredDumpDataAPIAPIEnd(UInt32 NTStatus)",
+        "opcode": "APIEnd",
+        "keywords": "",
+        "task": "LiveDumpDiscardDeferredDumpDataAPI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    }
+]

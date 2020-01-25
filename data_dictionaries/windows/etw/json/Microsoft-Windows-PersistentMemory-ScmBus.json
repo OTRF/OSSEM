@@ -1,0 +1,342 @@
+[
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "task_01_V1(UInt64 StartAddress, UInt64 Size)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "StartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "task_02_V1(Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter, Pointer DeviceObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_03_V1(Pointer Irp, HexInt32 Status, Pointer DeviceObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "task_04_V1(Pointer Irp, HexInt32 MinorFunction, HexInt32 Type, Pointer DeviceObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "task_05_V1(Pointer Irp, HexInt32 Status, Pointer DeviceObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "task_06_V1(AnsiString CertificationArea, AnsiString FailureMessage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "CertificationArea"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FailureMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "task_07_V1(AnsiString CertificationArea, AnsiString FailureMessage)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "CertificationArea"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "FailureMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "task_08_V1(HexInt32 Status, HexInt32 ExtendedStatus, UInt32 Size, HexInt64 StartAddress, HexInt64 Length, HexInt64 RestartAddress, HexInt64 RestartLength, Boolean VolatileMemory, Boolean PersistentMemory, Boolean Overflow, UInt32 NumErrorRecords)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExtendedStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartAddress"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "RestartAddress"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "RestartLength"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "VolatileMemory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PersistentMemory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Overflow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumErrorRecords"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "101",
+        "version": "1",
+        "event(fields)": "task_0101_V1(HexInt32 NfitHandle, HexInt64 StartAddress, HexInt64 Length)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartAddress"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "task_0(GUID DeviceGuid, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "400",
+        "version": "1",
+        "event(fields)": "task_0400_V1(HexInt32 NfitHandle, UnicodeString Location, HexInt64 StartAddress, HexInt64 Length)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartAddress"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-ScmBus",
+        "event_id": "900",
+        "version": "0",
+        "event(fields)": "task_0900(GUID DeviceGuid, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    }
+]

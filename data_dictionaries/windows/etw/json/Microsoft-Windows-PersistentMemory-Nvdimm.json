@@ -1,0 +1,2444 @@
+[
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "201",
+        "version": "1",
+        "event(fields)": "task_0201_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 Reason, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "202",
+        "version": "1",
+        "event(fields)": "task_0202_V1(GUID DeviceGuid, HexInt32 NfitHandle)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "203",
+        "version": "1",
+        "event(fields)": "task_0203_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 UnsafeShutdownCount, UInt32 BaselineUnsafeShutdownCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BaselineUnsafeShutdownCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "205",
+        "version": "1",
+        "event(fields)": "task_0205_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, UInt32 NtStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "206",
+        "version": "2",
+        "event(fields)": "task_0206_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean SaveFailed, Boolean RestoreFailed, Boolean PlatformFlushFailed, Boolean ArmFailed, HexInt64 TechnologySpecificDetails)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SaveFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "RestoreFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PlatformFlushFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ArmFailed"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TechnologySpecificDetails"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "207",
+        "version": "2",
+        "event(fields)": "task_0207_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean SaveFailed, Boolean RestoreFailed, Boolean PlatformFlushFailed, Boolean ArmFailed, HexInt64 TechnologySpecificDetails)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SaveFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "RestoreFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PlatformFlushFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ArmFailed"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TechnologySpecificDetails"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "300",
+        "version": "2",
+        "event(fields)": "task_0300_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean LostPersistence, Boolean WarningThresholdExceeded, Boolean PersistenceRestored, Boolean BelowWarningThreshold, Boolean ModuleHealth_VoltageRegulatorFailed, Boolean ModuleHealth_VddLost, Boolean ModuleHealth_VppLost, Boolean ModuleHealth_VttLost, Boolean ModuleHealth_DramNotInSelfRefresh, Boolean ModuleHealth_ControllerHardwareError, Boolean ModuleHealth_NvmControllerError, Boolean ModuleHealth_NvmLifetimeError, Boolean ModuleHealth_NotEnoughEnergyForSave, Boolean ModuleHealth_InvalidFirmwareError, Boolean ModuleHealth_ConfigDataError, Boolean ModuleHealth_NoEnergySourcePresent, Boolean ModuleHealth_EnergySourcePolicyNotSet, Boolean ModuleHealth_EnergySourceHardwareError, Boolean ModuleHealth_EnergySourceHealthAssessmentError, UInt32 EncodedModuleTemperature, Boolean ErrorThreshold_NvmLifetimeError, Boolean ErrorThreshold_EnergySourceLifetimeError, Boolean ErrorThreshold_EnergySourceTemperatureError, Boolean WarningThreshold_NvmLifetimeWarning, Boolean WarningThreshold_EnergySourceLifetimeWarning, Boolean WarningThreshold_EnergySourceTemperatureWarning, UInt32 NvmLifetimePercentage, UInt32 UncorrectableMemoryErrorCount, UInt32 CorrectableMemoryErrorAboveThresholdEventCount, HexInt32 LastBackup_TriggerInformation, HexInt32 LastBackup_SaveFailureInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThresholdExceeded"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PersistenceRestored"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BelowWarningThreshold"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VoltageRegulatorFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VddLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VppLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VttLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_DramNotInSelfRefresh"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ControllerHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmControllerError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NotEnoughEnergyForSave"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_InvalidFirmwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ConfigDataError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NoEnergySourcePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourcePolicyNotSet"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHealthAssessmentError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedModuleTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceTemperatureError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_NvmLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceTemperatureWarning"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NvmLifetimePercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncorrectableMemoryErrorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrectableMemoryErrorAboveThresholdEventCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_TriggerInformation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_SaveFailureInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "301",
+        "version": "2",
+        "event(fields)": "task_0301_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean LostPersistence, Boolean WarningThresholdExceeded, Boolean PersistenceRestored, Boolean BelowWarningThreshold, Boolean ModuleHealth_VoltageRegulatorFailed, Boolean ModuleHealth_VddLost, Boolean ModuleHealth_VppLost, Boolean ModuleHealth_VttLost, Boolean ModuleHealth_DramNotInSelfRefresh, Boolean ModuleHealth_ControllerHardwareError, Boolean ModuleHealth_NvmControllerError, Boolean ModuleHealth_NvmLifetimeError, Boolean ModuleHealth_NotEnoughEnergyForSave, Boolean ModuleHealth_InvalidFirmwareError, Boolean ModuleHealth_ConfigDataError, Boolean ModuleHealth_NoEnergySourcePresent, Boolean ModuleHealth_EnergySourcePolicyNotSet, Boolean ModuleHealth_EnergySourceHardwareError, Boolean ModuleHealth_EnergySourceHealthAssessmentError, UInt32 EncodedModuleTemperature, Boolean ErrorThreshold_NvmLifetimeError, Boolean ErrorThreshold_EnergySourceLifetimeError, Boolean ErrorThreshold_EnergySourceTemperatureError, Boolean WarningThreshold_NvmLifetimeWarning, Boolean WarningThreshold_EnergySourceLifetimeWarning, Boolean WarningThreshold_EnergySourceTemperatureWarning, UInt32 NvmLifetimePercentage, UInt32 UncorrectableMemoryErrorCount, UInt32 CorrectableMemoryErrorAboveThresholdEventCount, HexInt32 LastBackup_TriggerInformation, HexInt32 LastBackup_SaveFailureInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThresholdExceeded"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PersistenceRestored"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BelowWarningThreshold"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VoltageRegulatorFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VddLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VppLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VttLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_DramNotInSelfRefresh"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ControllerHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmControllerError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NotEnoughEnergyForSave"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_InvalidFirmwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ConfigDataError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NoEnergySourcePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourcePolicyNotSet"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHealthAssessmentError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedModuleTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceTemperatureError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_NvmLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceTemperatureWarning"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NvmLifetimePercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncorrectableMemoryErrorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrectableMemoryErrorAboveThresholdEventCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_TriggerInformation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_SaveFailureInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "302",
+        "version": "2",
+        "event(fields)": "task_0302_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean LostPersistence, Boolean WarningThresholdExceeded, Boolean PersistenceRestored, Boolean BelowWarningThreshold, Boolean ModuleHealth_VoltageRegulatorFailed, Boolean ModuleHealth_VddLost, Boolean ModuleHealth_VppLost, Boolean ModuleHealth_VttLost, Boolean ModuleHealth_DramNotInSelfRefresh, Boolean ModuleHealth_ControllerHardwareError, Boolean ModuleHealth_NvmControllerError, Boolean ModuleHealth_NvmLifetimeError, Boolean ModuleHealth_NotEnoughEnergyForSave, Boolean ModuleHealth_InvalidFirmwareError, Boolean ModuleHealth_ConfigDataError, Boolean ModuleHealth_NoEnergySourcePresent, Boolean ModuleHealth_EnergySourcePolicyNotSet, Boolean ModuleHealth_EnergySourceHardwareError, Boolean ModuleHealth_EnergySourceHealthAssessmentError, UInt32 EncodedModuleTemperature, Boolean ErrorThreshold_NvmLifetimeError, Boolean ErrorThreshold_EnergySourceLifetimeError, Boolean ErrorThreshold_EnergySourceTemperatureError, Boolean WarningThreshold_NvmLifetimeWarning, Boolean WarningThreshold_EnergySourceLifetimeWarning, Boolean WarningThreshold_EnergySourceTemperatureWarning, UInt32 NvmLifetimePercentage, UInt32 UncorrectableMemoryErrorCount, UInt32 CorrectableMemoryErrorAboveThresholdEventCount, HexInt32 LastBackup_TriggerInformation, HexInt32 LastBackup_SaveFailureInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThresholdExceeded"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PersistenceRestored"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BelowWarningThreshold"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VoltageRegulatorFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VddLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VppLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VttLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_DramNotInSelfRefresh"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ControllerHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmControllerError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NotEnoughEnergyForSave"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_InvalidFirmwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ConfigDataError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NoEnergySourcePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourcePolicyNotSet"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHealthAssessmentError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedModuleTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceTemperatureError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_NvmLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceTemperatureWarning"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NvmLifetimePercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncorrectableMemoryErrorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrectableMemoryErrorAboveThresholdEventCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_TriggerInformation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_SaveFailureInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "303",
+        "version": "1",
+        "event(fields)": "task_0303_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, UInt32 MemoryEventCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryEventCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "304",
+        "version": "1",
+        "event(fields)": "task_0304_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, UInt32 MemoryEventCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryEventCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "305",
+        "version": "2",
+        "event(fields)": "task_0305_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean LostPersistence, Boolean WarningThresholdExceeded, Boolean PersistenceRestored, Boolean BelowWarningThreshold, Boolean ModuleHealth_VoltageRegulatorFailed, Boolean ModuleHealth_VddLost, Boolean ModuleHealth_VppLost, Boolean ModuleHealth_VttLost, Boolean ModuleHealth_DramNotInSelfRefresh, Boolean ModuleHealth_ControllerHardwareError, Boolean ModuleHealth_NvmControllerError, Boolean ModuleHealth_NvmLifetimeError, Boolean ModuleHealth_NotEnoughEnergyForSave, Boolean ModuleHealth_InvalidFirmwareError, Boolean ModuleHealth_ConfigDataError, Boolean ModuleHealth_NoEnergySourcePresent, Boolean ModuleHealth_EnergySourcePolicyNotSet, Boolean ModuleHealth_EnergySourceHardwareError, Boolean ModuleHealth_EnergySourceHealthAssessmentError, UInt32 EncodedModuleTemperature, Boolean ErrorThreshold_NvmLifetimeError, Boolean ErrorThreshold_EnergySourceLifetimeError, Boolean ErrorThreshold_EnergySourceTemperatureError, Boolean WarningThreshold_NvmLifetimeWarning, Boolean WarningThreshold_EnergySourceLifetimeWarning, Boolean WarningThreshold_EnergySourceTemperatureWarning, UInt32 NvmLifetimePercentage, UInt32 UncorrectableMemoryErrorCount, UInt32 CorrectableMemoryErrorAboveThresholdEventCount, HexInt32 LastBackup_TriggerInformation, HexInt32 LastBackup_SaveFailureInformation)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThresholdExceeded"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PersistenceRestored"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BelowWarningThreshold"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VoltageRegulatorFailed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VddLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VppLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_VttLost"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_DramNotInSelfRefresh"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ControllerHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmControllerError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NotEnoughEnergyForSave"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_InvalidFirmwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_ConfigDataError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_NoEnergySourcePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourcePolicyNotSet"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHardwareError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ModuleHealth_EnergySourceHealthAssessmentError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EncodedModuleTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_NvmLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceLifetimeError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ErrorThreshold_EnergySourceTemperatureError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_NvmLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceLifetimeWarning"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WarningThreshold_EnergySourceTemperatureWarning"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NvmLifetimePercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UncorrectableMemoryErrorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrectableMemoryErrorAboveThresholdEventCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_TriggerInformation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastBackup_SaveFailureInformation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "task_0(GUID DeviceGuid, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "400",
+        "version": "1",
+        "event(fields)": "task_0400_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "401",
+        "version": "1",
+        "event(fields)": "task_0401_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "402",
+        "version": "1",
+        "event(fields)": "task_0402_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "403",
+        "version": "1",
+        "event(fields)": "task_0403_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "404",
+        "version": "1",
+        "event(fields)": "task_0404_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "405",
+        "version": "1",
+        "event(fields)": "task_0405_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "406",
+        "version": "1",
+        "event(fields)": "task_0406_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "407",
+        "version": "1",
+        "event(fields)": "task_0407_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence, Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent, Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistence"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostDataPersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LostWritePersistenceImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalErrorImminent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NvdimmNotArmed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "501",
+        "version": "2",
+        "event(fields)": "task_0501_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "502",
+        "version": "2",
+        "event(fields)": "task_0502_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "503",
+        "version": "2",
+        "event(fields)": "task_0503_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "504",
+        "version": "2",
+        "event(fields)": "task_0504_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "505",
+        "version": "2",
+        "event(fields)": "task_0505_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "506",
+        "version": "2",
+        "event(fields)": "task_0506_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "507",
+        "version": "2",
+        "event(fields)": "task_0507_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "508",
+        "version": "2",
+        "event(fields)": "task_0508_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus, UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining, Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32 MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount, UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus, UInt32 VendorSpecificDataSize, Binary VendorSpecificData)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FatalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CriticalStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonCriticalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpareBlocksRemainingPercentage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LifetimePercentageUsed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_SpareBlocksRemaining"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_MediaTemperature"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AlarmTrip_ControllerTemperature"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MediaTemperatureInMultiple"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ControllerTemperatureInMultiple"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnsafeShutdownCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AitDramStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShutdownStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HealthCheckStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsEnergyBacked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceFailed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EnergySourceHealthCheckStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorSpecificDataSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "VendorSpecificData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "509",
+        "version": "1",
+        "event(fields)": "task_0509_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString Location, UInt32 SecurityState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecurityState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-Nvdimm",
+        "event_id": "900",
+        "version": "0",
+        "event(fields)": "task_0900(GUID DeviceGuid, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DeviceGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    }
+]

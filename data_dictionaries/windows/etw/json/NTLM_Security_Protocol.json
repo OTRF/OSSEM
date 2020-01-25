@@ -1,0 +1,211 @@
+[
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{19196b33-a302-4c12-9d5a-eac149e93c46}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NtlmLogonUser_Start()",
+        "event_type": "Start",
+        "description": "NTLM Logon User",
+        "event_fields": []
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{19196b33-a302-4c12-9d5a-eac149e93c46}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NtlmLogonUser_End(UInt32 Status, UInt32 LogonType, String UserName, String DomainName)",
+        "event_type": "End",
+        "description": "NTLM Logon User",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LogonType"
+            },
+            {
+                "field_type": "String",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "DomainName"
+            }
+        ]
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{34d84181-c28a-41d8-bb9e-995190df83df}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NtlmValidateUser_Start()",
+        "event_type": "Start",
+        "description": "NTLM Validate Credentials",
+        "event_fields": []
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{34d84181-c28a-41d8-bb9e-995190df83df}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NtlmValidateUser_End(UInt32 Success, String LogonServer, String LogonDomain, String UserName, String Workstation)",
+        "event_type": "End",
+        "description": "NTLM Validate Credentials",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Success"
+            },
+            {
+                "field_type": "String",
+                "field_name": "LogonServer"
+            },
+            {
+                "field_type": "String",
+                "field_name": "LogonDomain"
+            },
+            {
+                "field_type": "String",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "Workstation"
+            }
+        ]
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{6df28b22-73be-45cc-ba80-8b332b35a21d}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NtlmClientInitialize_Start(UInt32 StageHint, UInt32 InContext)",
+        "event_type": "Start",
+        "description": "NTLM Client Initialize",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StageHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InContext"
+            }
+        ]
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{6df28b22-73be-45cc-ba80-8b332b35a21d}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NtlmClientInitialize_End(UInt32 StageHint, UInt32 InContext, UInt32 OutContext, UInt32 Status)",
+        "event_type": "End",
+        "description": "NTLM Client Initialize",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StageHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{94d4c9eb-0d01-41ae-99e8-15b26b593a83}",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "NtlmServerAccept_Info(UInt32 StageHint, UInt32 InContext, UInt32 OutContext, UInt32 Flags, String UserName, String DomainName, String Workstation)",
+        "event_type": "Info",
+        "description": "NTLM Server Accept",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StageHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "String",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "Workstation"
+            }
+        ]
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{94d4c9eb-0d01-41ae-99e8-15b26b593a83}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NtlmServerAccept_Start(UInt32 StageHint, UInt32 InContext)",
+        "event_type": "Start",
+        "description": "NTLM Server Accept",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StageHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InContext"
+            }
+        ]
+    },
+    {
+        "provider": "NTLM Security Protocol",
+        "category": "{94d4c9eb-0d01-41ae-99e8-15b26b593a83}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NtlmServerAccept_End(UInt32 StageHint, UInt32 InContext, UInt32 OutContext, UInt32 Status)",
+        "event_type": "End",
+        "description": "NTLM Server Accept",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StageHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

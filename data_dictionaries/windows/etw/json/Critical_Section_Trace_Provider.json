@@ -1,0 +1,48 @@
+[
+    {
+        "provider": "Critical Section Trace Provider",
+        "category": "{3AC66736-CC59-4cff-8115-8DF50E39816B}",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "CritSecCollision(UInt32 LockCount, UInt32 SpinCount, UInt32 OwningThread, UInt32 CritSecAddr)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LockCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpinCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OwningThread"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CritSecAddr"
+            }
+        ]
+    },
+    {
+        "provider": "Critical Section Trace Provider",
+        "category": "{3AC66736-CC59-4cff-8115-8DF50E39816B}",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "CritSecInit(UInt32 SpinCount, UInt32 CritSecAddr)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SpinCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CritSecAddr"
+            }
+        ]
+    }
+]

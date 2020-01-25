@@ -1,0 +1,1432 @@
+[
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "SourceReader_SetCurrentMediaTypeStart(Pointer Object, UInt32 StreamIndex, GUID MajorType, GUID Subtype)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SourceReader_SetCurrentMediaType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MajorType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Subtype"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "SourceReader_SetCurrentMediaTypeStop(Pointer Object, UInt32 StreamIndex, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SourceReader_SetCurrentMediaType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "SourceReader_SetCurrentPositionStart(Pointer Object, GUID TimeFormat, UInt32 VariantType, UInt64 Position)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SourceReader_SetCurrentPosition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TimeFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VariantType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Position"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "SourceReader_SetCurrentPositionStop(Pointer Object, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SourceReader_SetCurrentPosition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "SourceReader_ReadSampleStart(Pointer Object, UInt32 StreamIndex, UInt32 ControlFlags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SourceReader_ReadSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "SourceReader_ReadSampleStop(Pointer Object, UInt32 ErrorCode, UInt32 ActualStreamIndex, UInt32 StreamFlags, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32 Size, Boolean Discontinuity, Boolean CleanPoint)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SourceReader_ReadSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualStreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamFlags"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Discontinuity"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CleanPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "SourceReader_FlushStart(Pointer Object, UInt32 StreamIndex)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SourceReader_Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "SourceReader_FlushStop(Pointer Object, UInt32 StreamIndex)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SourceReader_Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "SourceReader_MediaSourceEvent(Pointer Object, UInt32 EventType, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SourceReader_MediaSourceEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "SourceReader_MediaStreamEvent(Pointer Object, UInt32 StreamIndex, UInt32 EventType, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SourceReader_MediaStreamEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "SourceReader_Error(Pointer Object, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SourceReader_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "SourceReader_CapturePluginCreated(Pointer Object, UInt32 StreamIndex, Pointer MFT, GUID CLSID, Pointer vtable)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SourceReader_CapturePluginCreated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MFT"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "vtable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "SourceReader_TransformChange()",
+        "opcode": "",
+        "keywords": "",
+        "task": "SourceReader_TransformChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "SourceReader_Error14(Pointer Object, UInt32 StreamIndex, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SourceReader_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "SourceReader_RequestSampleStart(Pointer Object, UInt64 RequestCounter, UInt32 StreamIndex)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SourceReader_RequestSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestCounter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "SourceReader_RequestSampleStop(Pointer Object, UInt64 RequestCounter, UInt32 StreamIndex)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SourceReader_RequestSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestCounter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "SinkWriter_SetInputMediaTypeStart(Pointer Object, UInt32 StreamIndex, GUID MajorType, GUID Subtype)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SinkWriter_SetInputMediaType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MajorType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Subtype"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "SinkWriter_SetInputMediaTypeStop(Pointer Object, UInt32 StreamIndex, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SinkWriter_SetInputMediaType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "SinkWriter_BeginWriting(Pointer Object)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_BeginWriting",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "SinkWriter_WriteSample(Pointer Object, UInt32 StreamIndex, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32 Size, Boolean Discontinuity, Boolean CleanPoint)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_WriteSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Discontinuity"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CleanPoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "SinkWriter_StreamTick(Pointer Object, UInt32 StreamIndex, UInt64 Timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_StreamTick",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "SinkWriter_MarkerStart(Pointer Object, UInt32 StreamIndex, Pointer Context)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SinkWriter_Marker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "SinkWriter_MarkerStop(Pointer Object, UInt32 StreamIndex, Pointer Context)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SinkWriter_Marker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "SinkWriter_ProcessSample(Pointer Object, UInt32 StreamIndex, Pointer Sample, UInt64 Timestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_ProcessSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "SinkWriter_FinalizeStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SinkWriter_Finalize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "SinkWriter_FinalizeStop(Pointer Object, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SinkWriter_Finalize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "SinkWriter_MediaSinkEvent(Pointer Object, UInt32 EventType, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_MediaSinkEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "SinkWriter_StreamSinkEvent(Pointer Object, UInt32 StreamIndex, UInt32 EventType, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_StreamSinkEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "SinkWriter_ThrottleStart(Pointer Object, UInt32 StreamIndex, UInt32 Threshold, UInt64 ClockTime, UInt64 Timestamp)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SinkWriter_Throttle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Threshold"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ClockTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "SinkWriter_ThrottleStop(Pointer Object, UInt32 StreamIndex, UInt32 Delay)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SinkWriter_Throttle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Delay"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "SinkWriter_Error(Pointer Object, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "SinkWriter_Error115(Pointer Object, UInt32 StreamIndex, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "SinkWriter_StateChange(Pointer Object, UInt32 OldState, UInt32 NewState, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_StateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "SinkWriter_EndOfSegment(Pointer Object, UInt32 StreamIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_EndOfSegment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "SinkWriter_Flush(Pointer Object, UInt32 StreamIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "SinkWriter_TransformChange()",
+        "opcode": "",
+        "keywords": "",
+        "task": "SinkWriter_TransformChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "Transform_ProcessInput(Pointer Object, UInt32 StreamIndex, Pointer Transform, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32 Size, Boolean Discontinuity, Boolean CleanPoint, UInt32 TransformType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Discontinuity"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CleanPoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransformType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "Transform_ProcessInput201(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "Transform_ProcessOutput(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 OutputStreamIndex, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32 Size, Boolean Discontinuity, Boolean CleanPoint, UInt32 TransformType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputStreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Discontinuity"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CleanPoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransformType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "Transform_ProcessOutput203(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "Transform_ProcessMessage(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 Message, Pointer Param)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_ProcessMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Param"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "Transform_Event(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 EventType, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_Event",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "Transform_ProcessEvent(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 EventType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_ProcessEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "Transform_Created(Pointer Object, UInt32 StreamIndex, Pointer MFT, GUID CLSID, Pointer vtable)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_Created",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MFT"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "vtable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "Transform_Destroyed(Pointer Object, UInt32 StreamIndex, Pointer MFT, GUID CLSID, Pointer vtable)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_Destroyed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MFT"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "CLSID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "vtable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "Transform_ProcessStart(Pointer Object, UInt32 StreamIndex, Pointer Transform, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32 Size, Boolean Discontinuity, Boolean CleanPoint, UInt32 TransformType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Transform_Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Discontinuity"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CleanPoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransformType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "Transform_ProcessStop(Pointer Object, UInt32 StreamIndex, Pointer Transform, UInt32 OutputStreamIndex, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32 Size, Boolean Discontinuity, Boolean CleanPoint, UInt32 TransformType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Transform_Process",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Transform"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OutputStreamIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sample"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Discontinuity"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CleanPoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransformType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MediaFoundation-MFReadWrite",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "Transform_SetInputType(Pointer Object, UInt32 TransformType, AnsiString MediaType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Transform_SetInputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransformType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            }
+        ]
+    }
+]

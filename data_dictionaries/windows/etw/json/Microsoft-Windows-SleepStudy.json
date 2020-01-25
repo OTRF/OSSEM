@@ -1,0 +1,122 @@
+[
+    {
+        "provider": "Microsoft-Windows-SleepStudy",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ScenarioBlocker(UInt8 ScenarioInstanceId, GUID ParentGuid, UInt32 BlockerNameLength, UnicodeString BlockerName, GUID BlockerGuid, UInt64 ActiveTime)",
+        "opcode": "",
+        "keywords": "sleepstudy",
+        "task": "ScenarioBlocker",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ParentGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockerNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BlockerName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BlockerGuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActiveTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SleepStudy",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ScenarioBlockerData(UInt8 ScenarioInstanceId, UInt32 DataCount, Int8 Data)",
+        "opcode": "",
+        "keywords": "sleepstudy",
+        "task": "ScenarioBlockerData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioInstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataCount"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SleepStudy",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "TopOffendersPerfTrack(UInt32 ActiveTimeAndCommonData, UInt32 TopLevelActiveTime, UnicodeString BlockerHierarchyLevel1, UnicodeString BlockerHierarchyLevel2, UnicodeString BlockerHierarchyLevel3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TopOffendersPerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveTimeAndCommonData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TopLevelActiveTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BlockerHierarchyLevel1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BlockerHierarchyLevel2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BlockerHierarchyLevel3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SleepStudy",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "SubsystemContextInfo(UInt32 DataCount, AnsiString Data)",
+        "opcode": "",
+        "keywords": "sleepstudy",
+        "task": "SubsystemContextInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Data"
+            }
+        ]
+    }
+]

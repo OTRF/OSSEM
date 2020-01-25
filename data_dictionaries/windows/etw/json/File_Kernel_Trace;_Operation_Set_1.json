@@ -1,0 +1,5291 @@
+[
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "243",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "249",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "253",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "254",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "File Kernel Trace; Operation Set 1",
+        "category": "{F681E6CC-EC6C-4ee9-90A6-C0C4E83276C2}",
+        "event_id": "255",
+        "version": "0",
+        "event(fields)": "FileOperation(UInt32 Status, UInt8 Operation, UInt8 MinorOperation, UInt32 SequenceNumber, UInt8 IsPagingIO, UInt8 IsFastIO, UInt8 IsDirectory, UInt8 CreateOnExisting, SInt64 StartTime, UInt32 ProcessId, SInt64 ProcessCreateTime, UInt64 FileObject, SInt64 LastAccessTime, UInt32 SessionId, UInt64 WindowStation, UInt32 AccessToken, UInt32 SidLength, UInt32 ParametersLength, UInt32 ResultLength, UInt32 PreviousValueLength, Object UserSID, UInt8 OperationalParameters, UInt8 ResultData, UInt8 PreviousValue, String FileName, String VolumeDosName, String VolumeGuidName, String VolumeName)",
+        "event_type": "FileTrace",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "MinorOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsPagingIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsFastIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsDirectory"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CreateOnExisting"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "ProcessCreateTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "SInt64",
+                "field_name": "LastAccessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WindowStation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParametersLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousValueLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationalParameters"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ResultData"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PreviousValue"
+            },
+            {
+                "field_type": "String",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeDosName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeGuidName"
+            },
+            {
+                "field_type": "String",
+                "field_name": "VolumeName"
+            }
+        ]
+    }
+]

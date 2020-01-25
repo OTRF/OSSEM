@@ -1,0 +1,3874 @@
+[
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "ESE_TraceBaseId_Trace()",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "ESE_TraceBaseId_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "ESE_BF_Trace()",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "ESE_BF_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "ESE_Block_Trace()",
+        "opcode": "",
+        "keywords": "BF",
+        "task": "ESE_Block_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ESE_CacheNewPage_Trace(UInt32 ifmp, UInt32 pgno, UInt32 LatchFlags, UInt32 objid, UInt32 PageFlags, UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass, UInt64 dbtimeDirtied, UInt16 itagMicFree, UInt16 cbFree)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheNewPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LatchFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ParentObjectClass"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "dbtimeDirtied"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "itagMicFree"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cbFree"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "ESE_CacheReadPage_Trace(UInt32 ifmp, UInt32 pgno, UInt32 LatchFlags, UInt32 objid, UInt32 PageFlags, UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass, UInt64 dbtimeDirtied, UInt16 itagMicFree, UInt16 cbFree)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheReadPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LatchFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ParentObjectClass"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "dbtimeDirtied"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "itagMicFree"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cbFree"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "ESE_CachePrereadPage_Trace(UInt32 ifmp, UInt32 pgno, UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CachePrereadPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ParentObjectClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "ESE_CacheWritePage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32 objid, UInt32 PageFlags, UInt32 DirtyLevel, UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass)",
+        "opcode": "",
+        "keywords": "Performance BF BFRESMGR",
+        "task": "ESE_CacheWritePage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ParentObjectClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "ESE_CacheEvictPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32 fCurrentVersion, Int32 errBF, UInt32 bfef, UInt32 pctPriority)",
+        "opcode": "",
+        "keywords": "BF BFRESMGR DataWorkingSet",
+        "task": "ESE_CacheEvictPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fCurrentVersion"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errBF"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bfef"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pctPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "ESE_CacheRequestPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32 bflf, UInt32 objid, UInt32 PageFlags, UInt32 bflt, UInt32 pctPriority, UInt32 bfrtf, UInt8 ClientType)",
+        "opcode": "",
+        "keywords": "BF BFRESMGR",
+        "task": "ESE_CacheRequestPage_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bflf"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bflt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pctPriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bfrtf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "ESE_LatchPageDeprecated_Trace()",
+        "opcode": "",
+        "keywords": "Performance BF BFRESMGR",
+        "task": "ESE_LatchPageDeprecated_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "ESE_CacheDirtyPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32 objid, UInt32 PageFlags, UInt32 DirtyLevel, UInt64 LgposModify, UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass)",
+        "opcode": "",
+        "keywords": "Performance BF BFRESMGR",
+        "task": "ESE_CacheDirtyPage_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PageFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyLevel"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LgposModify"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ParentObjectClass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "ESE_TransactionBegin_Trace(Pointer SessionNumber, Pointer TransactionNumber, UInt8 TransactionLevel)",
+        "opcode": "",
+        "keywords": "Transaction",
+        "task": "ESE_TransactionBegin_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SessionNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TransactionNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TransactionLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "ESE_TransactionCommit_Trace(Pointer SessionNumber, Pointer TransactionNumber, UInt8 TransactionLevel)",
+        "opcode": "",
+        "keywords": "Transaction",
+        "task": "ESE_TransactionCommit_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SessionNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TransactionNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TransactionLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "ESE_TransactionRollback_Trace(Pointer SessionNumber, Pointer TransactionNumber, UInt8 TransactionLevel)",
+        "opcode": "",
+        "keywords": "Transaction",
+        "task": "ESE_TransactionRollback_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SessionNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TransactionNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TransactionLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "ESE_SpaceAllocExt_Trace(UInt32 ifmp, UInt32 pgnoFDP, UInt32 pgnoFirst, UInt32 cpg, UInt32 objidFDP, UInt8 tce)",
+        "opcode": "",
+        "keywords": "Space",
+        "task": "ESE_SpaceAllocExt_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFDP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFirst"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cpg"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objidFDP"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "ESE_SpaceFreeExt_Trace(UInt32 ifmp, UInt32 pgnoFDP, UInt32 pgnoFirst, UInt32 cpg, UInt32 objidFDP, UInt8 tce)",
+        "opcode": "",
+        "keywords": "Space",
+        "task": "ESE_SpaceFreeExt_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFDP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFirst"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cpg"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objidFDP"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "ESE_SpaceAllocPage_Trace(UInt32 ifmp, UInt32 pgnoFDP, UInt32 pgnoAlloc, UInt32 objidFDP, UInt8 tce)",
+        "opcode": "",
+        "keywords": "Space DataWorkingSet",
+        "task": "ESE_SpaceAllocPage_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFDP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoAlloc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objidFDP"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "ESE_SpaceFreePage_Trace(UInt32 ifmp, UInt32 pgnoFDP, UInt32 pgnoFree, UInt32 objidFDP, UInt8 tce)",
+        "opcode": "",
+        "keywords": "Space DataWorkingSet",
+        "task": "ESE_SpaceFreePage_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFDP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgnoFree"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objidFDP"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "ESE_IorunEnqueue_Trace(UInt64 iFile, UInt64 ibOffset, UInt32 cbData, UInt32 tidAlloc, UInt32 fHeapA, UInt32 fWrite, UInt32 EngineFileType, UInt64 EngineFileId, UInt32 cusecEnqueueLatency)",
+        "opcode": "",
+        "keywords": "IO",
+        "task": "ESE_IorunEnqueue_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "iFile"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ibOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "tidAlloc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fHeapA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EngineFileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EngineFileId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cusecEnqueueLatency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "ESE_IorunDequeue_Trace(UInt64 iFile, UInt64 ibOffset, UInt32 cbData, UInt32 tidAlloc, UInt32 fHeapA, UInt32 fWrite, UInt32 Iorp, UInt32 Iors, UInt32 Ioru, UInt32 Iorf, UInt32 grbitQos, UInt64 cmsecTimeInQueue, UInt32 EngineFileType, UInt64 EngineFileId, UInt64 cDispatchPass, UInt16 cIorunCombined, UInt32 cusecDequeueLatency)",
+        "opcode": "",
+        "keywords": "IO",
+        "task": "ESE_IorunDequeue_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "iFile"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ibOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "tidAlloc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fHeapA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "grbitQos"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cmsecTimeInQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EngineFileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EngineFileId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cDispatchPass"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cIorunCombined"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cusecDequeueLatency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "ESE_IOCompletion_Trace(UInt64 iFile, UInt32 fMultiIor, UInt8 fWrite, UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass, UInt64 ibOffset, UInt32 cbTransfer, UInt32 error, UInt32 qosHighestFirst, UInt64 cmsecIOElapsed, UInt32 dtickCompletionDelay, UInt32 tidAlloc, UInt32 EngineFileType, UInt64 EngineFileId, UInt32 fmfFile, UInt32 DiskNumber, UInt32 dwEngineObjid)",
+        "opcode": "",
+        "keywords": "IO",
+        "task": "ESE_IOCompletion_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "iFile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fMultiIor"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ParentObjectClass"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ibOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbTransfer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "qosHighestFirst"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cmsecIOElapsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickCompletionDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "tidAlloc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EngineFileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EngineFileId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fmfFile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwEngineObjid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "ESE_LogStall_Trace()",
+        "opcode": "",
+        "keywords": "LOG StallLatencies",
+        "task": "ESE_LogStall_Trace",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "ESE_LogWrite_Trace(Int32 lgenData, UInt32 ibLogData, UInt32 cbLogData)",
+        "opcode": "",
+        "keywords": "LOG",
+        "task": "ESE_LogWrite_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "lgenData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ibLogData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbLogData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "ESE_EventLogInfo_Trace(UnicodeString szTrace)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "ESE_EventLogInfo_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "ESE_EventLogWarn_Trace(UnicodeString szTrace)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "ESE_EventLogWarn_Trace",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "ESE_EventLogError_Trace(UnicodeString szTrace)",
+        "opcode": "",
+        "keywords": "Trace",
+        "task": "ESE_EventLogError_Trace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "ESE_TimerQueueSchedule_Trace(Pointer pfnTask, Pointer pvTaskContext, Pointer dwContext, UInt32 dtickDelay, UInt32 dtickPeriod)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TimerQueueSchedule_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnTask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvTaskContext"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickPeriod"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "ESE_TimerQueueRun_Trace(Pointer pfnTask, Pointer pvTaskContext, Pointer dwContext, UInt64 cRuns)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TimerQueueRun_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnTask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvTaskContext"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwContext"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cRuns"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "ESE_TimerQueueCancel_Trace(Pointer pfnTask, Pointer pvTaskContext)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TimerQueueCancel_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnTask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvTaskContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "ESE_TimerTaskSchedule_Trace(Pointer posttTimerHandle, Pointer pfnTask, Pointer pvTaskGroupContext, Pointer pvRuntimeContext, UInt32 dtickMinDelay, UInt32 dtickSlopDelay)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TimerTaskSchedule_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "posttTimerHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnTask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvTaskGroupContext"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvRuntimeContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickMinDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickSlopDelay"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "ESE_TimerTaskRun_Trace(Pointer posttTimerHandle, Pointer pfnTask, Pointer pvTaskGroupContext, Pointer pvRuntimeContext, UInt64 cRuns)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TimerTaskRun_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "posttTimerHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnTask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvTaskGroupContext"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvRuntimeContext"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cRuns"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "ESE_TimerTaskCancel_Trace(Pointer posttTimerHandle, Pointer pfnTask, Pointer pvTaskGroupContext)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TimerTaskCancel_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "posttTimerHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnTask"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvTaskGroupContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "ESE_TaskManagerPost_Trace(Pointer ptm, Pointer pfnCompletion, UInt32 dwCompletionKey1, Pointer dwCompletionKey2)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TaskManagerPost_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ptm"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnCompletion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCompletionKey1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwCompletionKey2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "ESE_TaskManagerRun_Trace(Pointer ptm, Pointer pfnCompletion, UInt32 dwCompletionKey1, Pointer dwCompletionKey2, UInt32 gle, Pointer dwThreadContext)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_TaskManagerRun_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ptm"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnCompletion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCompletionKey1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwCompletionKey2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "gle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwThreadContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "ESE_GPTaskManagerPost_Trace(Pointer pgptm, Pointer pfnCompletion, Pointer pvParam, Pointer pTaskInfo)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_GPTaskManagerPost_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pgptm"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnCompletion"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvParam"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pTaskInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "ESE_GPTaskManagerRun_Trace(Pointer pgptm, Pointer pfnCompletion, Pointer pvParam, Pointer pTaskInfo)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_GPTaskManagerRun_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pgptm"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnCompletion"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pvParam"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pTaskInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "ESE_TestMarker_Trace(UInt64 qwMarkerID, AnsiString szAnnotation)",
+        "opcode": "",
+        "keywords": "Test",
+        "task": "ESE_TestMarker_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "qwMarkerID"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szAnnotation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "ESE_ThreadCreate_Trace(Pointer Thread, Pointer pfnStart, Pointer dwParam)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_ThreadCreate_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Thread"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnStart"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwParam"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "ESE_ThreadStart_Trace(Pointer Thread, Pointer pfnStart, Pointer dwParam)",
+        "opcode": "",
+        "keywords": "Task",
+        "task": "ESE_ThreadStart_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Thread"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "pfnStart"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "dwParam"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "ESE_CacheVersionPage_Trace(UInt32 ifmp, UInt32 pgno)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheVersionPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "ESE_CacheVersionCopyPage_Trace(UInt32 ifmp, UInt32 pgno)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheVersionCopyPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "ESE_CacheResize_Trace(Int64 cbfCacheAddressableInitial, Int64 cbfCacheSizeInitial, Int64 cbfCacheAddressableFinal, Int64 cbfCacheSizeFinal)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheResize_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "cbfCacheAddressableInitial"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "cbfCacheSizeInitial"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "cbfCacheAddressableFinal"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "cbfCacheSizeFinal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "ESE_CacheLimitResize_Trace(Int64 cbfCacheSizeLimitInitial, Int64 cbfCacheSizeLimitFinal)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheLimitResize_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "cbfCacheSizeLimitInitial"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "cbfCacheSizeLimitFinal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "ESE_CacheScavengeProgress_Trace(Int64 iRun, Int32 cbfVisited, Int32 cbfCacheSize, Int32 cbfCacheTarget, Int32 cbfCacheSizeStartShrink, UInt32 dtickShrinkDuration, Int32 cbfAvail, Int32 cbfAvailPoolLow, Int32 cbfAvailPoolHigh, Int32 cbfFlushPending, Int32 cbfFlushPendingSlow, Int32 cbfFlushPendingHung, Int32 cbfOutOfMemory, Int32 cbfPermanentErrs, Int32 eStopReason, Int32 errRun)",
+        "opcode": "",
+        "keywords": "Performance BF",
+        "task": "ESE_CacheScavengeProgress_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "iRun"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfVisited"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfCacheSize"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfCacheTarget"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfCacheSizeStartShrink"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickShrinkDuration"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfAvail"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfAvailPoolLow"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfAvailPoolHigh"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfFlushPending"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfFlushPendingSlow"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfFlushPendingHung"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfOutOfMemory"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "cbfPermanentErrs"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "eStopReason"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errRun"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "ESE_ApiCall_TraceStart(UInt32 opApi)",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "ESE_ApiCall_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "opApi"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "ESE_ApiCall_TraceStop(UInt32 opApi, Int32 err)",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "ESE_ApiCall_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "opApi"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "err"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "ESE_ResMgrInit_Trace(UInt32 tick, Int32 K, Double csecCorrelatedTouch, Double csecTimeout, Double csecUncertainty, Double dblHashLoadFactor, Double dblHashUniformity, Double dblSpeedSizeTradeoff)",
+        "opcode": "",
+        "keywords": "BFRESMGR",
+        "task": "ESE_ResMgrInit_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "K"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "csecCorrelatedTouch"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "csecTimeout"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "csecUncertainty"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "dblHashLoadFactor"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "dblHashUniformity"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "dblSpeedSizeTradeoff"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "ESE_ResMgrTerm_Trace(UInt32 tick)",
+        "opcode": "",
+        "keywords": "BFRESMGR",
+        "task": "ESE_ResMgrTerm_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "ESE_CacheCachePage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32 bflf, UInt32 bflt, UInt32 pctPriority, UInt32 bfrtf, UInt8 ClientType)",
+        "opcode": "",
+        "keywords": "BF BFRESMGR",
+        "task": "ESE_CacheCachePage_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bflf"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bflt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pctPriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bfrtf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ClientType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "ESE_MarkPageAsSuperCold_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno)",
+        "opcode": "",
+        "keywords": "BF BFRESMGR",
+        "task": "ESE_MarkPageAsSuperCold_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "ESE_CacheMissLatency_Trace(UInt32 ifmp, UInt32 pgno, UInt32 dwUserId, UInt8 bOperationId, UInt8 bOperationType, UInt8 bClientType, UInt8 bFlags, UInt32 dwCorrelationId, UInt8 iorp, UInt8 iors, UInt8 iort, UInt8 ioru, UInt8 iorf, UInt8 tce, UInt64 usecsWait, UInt8 bftcmr)",
+        "opcode": "",
+        "keywords": "BF StallLatencies",
+        "task": "ESE_CacheMissLatency_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwUserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "usecsWait"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bftcmr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "ESE_BTreePrereadPageRequest_Trace(UInt32 ifmp, UInt32 pgno, UInt32 dwUserId, UInt8 bOperationId, UInt8 bOperationType, UInt8 bClientType, UInt8 bFlags, UInt32 dwCorrelationId, UInt8 iorp, UInt8 iors, UInt8 iort, UInt8 ioru, UInt8 iorf, UInt8 tce, UInt8 fOpFlags)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "ESE_BTreePrereadPageRequest_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwUserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fOpFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "ESE_DiskFlushFileBuffers_Trace(UInt32 Disk, UnicodeString wszFileName, UInt32 iofr, UInt64 cioreqFileFlushing, UInt64 usFfb, UInt32 error)",
+        "opcode": "",
+        "keywords": "IO",
+        "task": "ESE_DiskFlushFileBuffers_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Disk"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszFileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iofr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cioreqFileFlushing"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "usFfb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "ESE_DiskFlushFileBuffersBegin_Trace(UInt32 dwDisk, UInt64 hFile, UInt32 iofr)",
+        "opcode": "",
+        "keywords": "IO",
+        "task": "ESE_DiskFlushFileBuffersBegin_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDisk"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "hFile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iofr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "ESE_CacheFirstDirtyPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32 objid, UInt32 fFlags, UInt32 bfdfNew, UInt64 lgposModify, UInt32 dwUserId, UInt8 bOperationId, UInt8 bOperationType, UInt8 bClientType, UInt8 bFlags, UInt32 dwCorrelationId, UInt8 iorp, UInt8 iors, UInt8 iort, UInt8 ioru, UInt8 iorf, UInt8 tce)",
+        "opcode": "",
+        "keywords": "BF DataWorkingSet",
+        "task": "ESE_CacheFirstDirtyPage_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "tick"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pgno"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "objid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bfdfNew"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "lgposModify"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwUserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "ESE_SysStationId_Trace(UInt8 tsidr, UInt32 dwImageVerMajor, UInt32 dwImageVerMinor, UInt32 dwImageBuildMajor, UInt32 dwImageBuildMinor, UnicodeString wszDisplayName)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_SysStationId_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwImageVerMajor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwImageVerMinor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwImageBuildMajor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwImageBuildMinor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszDisplayName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "ESE_InstStationId_Trace(UInt8 tsidr, UInt32 iInstance, UInt8 perfstatusEvent, UnicodeString wszInstanceName, UnicodeString wszDisplayName)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_InstStationId_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iInstance"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "perfstatusEvent"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszInstanceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszDisplayName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "ESE_FmpStationId_Trace(UInt8 tsidr, UInt32 ifmp, UInt32 iInstance, UInt8 dbid, UnicodeString wszDatabaseName)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_FmpStationId_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "iInstance"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "dbid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszDatabaseName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "ESE_DiskStationId_Trace(UInt8 tsidr, UInt32 dwDiskNumber, UnicodeString wszDiskPathId, AnsiString szDiskModel, AnsiString szDiskFirmwareRev, AnsiString szDiskSerialNumber)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_DiskStationId_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDiskNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszDiskPathId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szDiskModel"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szDiskFirmwareRev"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szDiskSerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "ESE_FileStationId_Trace(UInt8 tsidr, UInt64 hFile, UInt32 dwDiskNumber, UInt32 dwEngineFileType, UInt64 qwEngineFileId, UInt32 fmf, UInt64 cbFileSize, UnicodeString wszAbsPath)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_FileStationId_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "hFile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwEngineFileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "qwEngineFileId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fmf"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cbFileSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszAbsPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "ESE_IsamDbfilehdrInfo_Trace(UInt8 tsidr, UInt32 ifmp, UInt32 filetype, UInt32 ulMagic, UInt32 ulChecksum, UInt32 cbPageSize, UInt32 ulDbFlags, Binary psignDb)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_IsamDbfilehdrInfo_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ifmp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "filetype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulMagic"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulChecksum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbPageSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ulDbFlags"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "psignDb"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "ESE_DiskOsDiskCacheInfo_Trace(UInt8 tsidr, Binary posdci)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_DiskOsDiskCacheInfo_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "posdci"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "ESE_DiskOsStorageWriteCacheProp_Trace(UInt8 tsidr, Binary posswcp)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_DiskOsStorageWriteCacheProp_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "posswcp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "ESE_DiskOsDeviceSeekPenaltyDesc_Trace(UInt8 tsidr, Binary posdspd)",
+        "opcode": "",
+        "keywords": "StationId",
+        "task": "ESE_DiskOsDeviceSeekPenaltyDesc_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "tsidr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "posdspd"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "ESE_DirtyPage2Deprecated_Trace()",
+        "opcode": "",
+        "keywords": "",
+        "task": "ESE_DirtyPage2Deprecated_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "ESE_IOCompletion2_Trace(UnicodeString wszFilename, UInt32 fMultiIor, UInt8 fWrite, UInt32 dwUserId, UInt8 bOperationId, UInt8 bOperationType, UInt8 bClientType, UInt8 bFlags, UInt32 dwCorrelationId, UInt8 iorp, UInt8 iors, UInt8 iort, UInt8 ioru, UInt8 iorf, UInt8 tce, AnsiString szClientComponent, AnsiString szClientAction, AnsiString szClientActionContext, GUID guidActivityId, UInt64 ibOffset, UInt32 cbTransfer, UInt32 dwError, UInt32 qosHighestFirst, UInt64 cmsecIOElapsed, UInt32 dtickCompletionDelay, UInt32 tidAlloc, UInt32 dwEngineFileType, UInt64 dwEngineFileId, UInt32 fmfFile, UInt32 dwDiskNumber, UInt32 dwEngineObjid)",
+        "opcode": "",
+        "keywords": "IOEX",
+        "task": "ESE_IOCompletion2_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszFilename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fMultiIor"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwUserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szClientComponent"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szClientAction"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szClientActionContext"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "guidActivityId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ibOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbTransfer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "qosHighestFirst"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cmsecIOElapsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickCompletionDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "tidAlloc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwEngineFileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "dwEngineFileId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fmfFile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwEngineObjid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "ESE_FCBPurgeFailure_Trace(UInt32 iInstance, UInt8 grbitPurgeFlags, UInt8 fcbpfr, UInt8 tce)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ESE_FCBPurgeFailure_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "iInstance"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "grbitPurgeFlags"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fcbpfr"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "167",
+        "version": "0",
+        "event(fields)": "ESE_IOLatencySpikeNotice_Trace(UInt32 dwDiskNumber, UInt32 dtickSpikeLength)",
+        "opcode": "",
+        "keywords": "StallLatencies",
+        "task": "ESE_IOLatencySpikeNotice_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickSpikeLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "ESE_IOCompletion2Sess_Trace(UnicodeString wszFilename, UInt32 fMultiIor, UInt8 fWrite, UInt32 dwUserId, UInt8 bOperationId, UInt8 bOperationType, UInt8 bClientType, UInt8 bFlags, UInt32 dwCorrelationId, UInt8 iorp, UInt8 iors, UInt8 iort, UInt8 ioru, UInt8 iorf, UInt8 tce, AnsiString szClientComponent, AnsiString szClientAction, AnsiString szClientActionContext, GUID guidActivityId, UInt64 ibOffset, UInt32 cbTransfer, UInt32 dwError, UInt32 qosHighestFirst, UInt64 cmsecIOElapsed, UInt32 dtickCompletionDelay, UInt32 tidAlloc, UInt32 dwEngineFileType, UInt64 dwEngineFileId, UInt32 fmfFile, UInt32 dwDiskNumber, UInt32 dwEngineObjid)",
+        "opcode": "",
+        "keywords": "IOSESS",
+        "task": "ESE_IOCompletion2Sess_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "wszFilename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fMultiIor"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwUserId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bOperationType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bClientType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "bFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwCorrelationId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ioru"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "iorf"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "tce"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szClientComponent"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szClientAction"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "szClientActionContext"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "guidActivityId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ibOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "cbTransfer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "qosHighestFirst"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "cmsecIOElapsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dtickCompletionDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "tidAlloc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwEngineFileType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "dwEngineFileId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fmfFile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwEngineObjid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "ESE_tagNull_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagNull_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "ESE_tagInformation_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagInformation_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "ESE_tagErrors_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagErrors_Trace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "ESE_tagAsserts_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagAsserts_Trace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "ESE_tagAPI_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagAPI_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "ESE_tagInitTerm_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagInitTerm_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "ESE_tagBufferManager_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBufferManager_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "ESE_tagBufferManagerHashedLatches_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBufferManagerHashedLatches_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "ESE_tagIO_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagIO_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "ESE_tagMemory_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagMemory_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "ESE_tagVersionStore_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagVersionStore_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "ESE_tagVersionStoreOOM_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagVersionStoreOOM_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "ESE_tagVersionCleanup_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagVersionCleanup_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "ESE_tagCatalog_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagCatalog_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "ESE_tagDDLRead_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDDLRead_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "ESE_tagDDLWrite_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDDLWrite_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "ESE_tagDMLRead_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDMLRead_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "ESE_tagDMLWrite_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDMLWrite_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "ESE_tagDMLConflicts_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDMLConflicts_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "ESE_tagInstances_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagInstances_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "ESE_tagDatabases_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDatabases_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "ESE_tagSessions_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagSessions_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "ESE_tagCursors_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagCursors_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "ESE_tagCursorNavigation_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagCursorNavigation_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "ESE_tagCursorPageRefs_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagCursorPageRefs_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "ESE_tagBtree_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBtree_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "ESE_tagSpace_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagSpace_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "ESE_tagFCBs_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagFCBs_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "ESE_tagTransactions_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagTransactions_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "ESE_tagLogging_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagLogging_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "ESE_tagRecovery_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagRecovery_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "ESE_tagBackup_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBackup_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "ESE_tagRestore_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagRestore_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "ESE_tagOLD_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagOLD_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "ESE_tagEventlog_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagEventlog_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "ESE_tagBufferManagerMaintTasks_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBufferManagerMaintTasks_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "ESE_tagSpaceManagement_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagSpaceManagement_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "ESE_tagSpaceInternal_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagSpaceInternal_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "ESE_tagIOQueue_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagIOQueue_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "ESE_tagDiskVolumeManagement_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagDiskVolumeManagement_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "ESE_tagCallbacks_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagCallbacks_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "ESE_tagIOProblems_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagIOProblems_Trace",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "ESE_tagUpgrade_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagUpgrade_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "243",
+        "version": "0",
+        "event(fields)": "ESE_tagRecoveryValidation_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagRecoveryValidation_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "244",
+        "version": "0",
+        "event(fields)": "ESE_tagBufferManagerBufferCacheState_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBufferManagerBufferCacheState_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "245",
+        "version": "0",
+        "event(fields)": "ESE_tagBufferManagerBufferDirtyState_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagBufferManagerBufferDirtyState_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "246",
+        "version": "0",
+        "event(fields)": "ESE_tagTimerQueue_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagTimerQueue_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "247",
+        "version": "0",
+        "event(fields)": "ESE_tagSortPerf_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagSortPerf_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "248",
+        "version": "0",
+        "event(fields)": "ESE_tagOLDRegistration_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagOLDRegistration_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "249",
+        "version": "0",
+        "event(fields)": "ESE_tagOLDWork_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagOLDWork_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "ESE_tagSysInitTerm_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagSysInitTerm_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "ESE_tagVersionAndStagingChecks_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagVersionAndStagingChecks_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "ESE_tagFile_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagFile_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "253",
+        "version": "0",
+        "event(fields)": "ESE_tagFlushFileBuffers_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagFlushFileBuffers_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "254",
+        "version": "0",
+        "event(fields)": "ESE_tagCheckpointUpdate_Trace(AnsiString szTrace)",
+        "opcode": "",
+        "keywords": "JETTraceTag",
+        "task": "ESE_tagCheckpointUpdate_Trace",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "szTrace"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ESE",
+        "event_id": "5000",
+        "version": "0",
+        "event(fields)": "task_0(UInt8 TableClass, UInt16 OrigSize, UInt16 XpressSize, UInt16 Xpress9Size, UInt32 usecXpressTime, UInt32 usecXpress9Time, Double ShannonEntropy, Double ChiSquared)",
+        "opcode": "",
+        "keywords": "CompressExp",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "TableClass"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "OrigSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "XpressSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Xpress9Size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "usecXpressTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "usecXpress9Time"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "ShannonEntropy"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "ChiSquared"
+            }
+        ]
+    }
+]

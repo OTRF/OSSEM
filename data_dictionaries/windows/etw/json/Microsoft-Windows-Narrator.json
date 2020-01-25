@@ -1,0 +1,3432 @@
+[
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LaunchAppStart()",
+        "opcode": "Start",
+        "keywords": "NarratorStartup PerfInstrumentation",
+        "task": "LaunchApp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "LaunchAppStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "LaunchApp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ScrapeWindowStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ScrapeWindow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "ScrapeWindowStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ScrapeWindow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "InitiateSpeakingStart(Int32 Channel, UnicodeString SpokenText)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InitiateSpeaking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SpokenText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "InitiateSpeakingStop(Int32 Channel, UnicodeString SpokenText)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InitiateSpeaking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SpokenText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "CancelSpeaking(UnicodeString CancelledMessage)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "CancelSpeaking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CancelledMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ModeChange(Int32 NewMode)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "ModeChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "NewMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "NarratorCommandGeneratedStart(Int32 Command)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorCommandGenerated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "NarratorCommandGeneratedStop(Int32 Command)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorCommandGenerated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "NarratorCursorUpdated(UnicodeString AutomationContext)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorCursorUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AutomationContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "InvestigationCursorUpdated(UnicodeString AutomationContext)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "InvestigationCursorUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AutomationContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "NarratorCheckSAPIVoicesStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorCheckSAPIVoices",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "NarratorCheckSAPIVoicesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorCheckSAPIVoices",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "KeyEchoGenerateEvent(UnicodeString SpokenText)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "KeyEchoGenerateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SpokenText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "LaunchSearchAndSelectStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "LaunchSearchAndSelect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "LaunchSearchAndSelectStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "LaunchSearchAndSelect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "QueueAppEvent(Int32 Priority, UnicodeString EventClass, Int32 Parameter)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "QueueAppEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventClass"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "AppClose()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "AppClose",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "SetProgressBarHandlerStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "SetProgressBarHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "SetProgressBarHandlerStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "SetProgressBarHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "TouchModeSwitch(Int32 IsWindowActive)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "TouchModeSwitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "IsWindowActive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "ConsoleUpdated()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "ConsoleUpdated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "OSKToggled(Int32 CurrentOSKState)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "OSKToggled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentOSKState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "ScreenRotated(Int32 CurrentOrientation)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "ScreenRotated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentOrientation"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "TaskbarIsFlashing()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "TaskbarIsFlashing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "ExplorerStateChange(Int32 CurrentState)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "ExplorerStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "ProcessFocusChangeStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessFocusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "ProcessFocusChangeStop(Int32 EventCancelled, Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "NarratorStartup PerfInstrumentation",
+        "task": "ProcessFocusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventCancelled"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "ToggleSelectionMode(Int32 SeletionModeEnabled)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "ToggleSelectionMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "SeletionModeEnabled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "ProcessNarratorCommandStart(Int32 Command)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessNarratorCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "ProcessNarratorCommandStop(Int32 Command)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessNarratorCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "SAPISpeechComplete()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "SAPISpeechComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "NarratorPlaySound(Int32 SoundResourceId)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorPlaySound",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "SoundResourceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "EventQueued(UnicodeString EventType, Int32 EventId, Int32 Priority)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "EventQueued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ProcessInputEventStart(UnicodeString EventType, Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessInputEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "NarratorGetElementFromPointStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorGetElementFromPoint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "NarratorGetElementFromPointStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorGetElementFromPoint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "InvestigateUpdateTextPatternStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InvestigateUpdateTextPattern",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "InvestigateUpdateTextPatternStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InvestigateUpdateTextPattern",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "TextPatternUpdateCursorStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "TextPatternUpdateCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "TextPatternUpdateCursorStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "TextPatternUpdateCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "SetFocusStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "SetFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "RenderFocusStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "RenderFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "RenderFocusStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "RenderFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "TextQueued(Int32 EventId)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "TextQueued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "HighlightCursorStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "HighlightCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "HighlightCursorStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "HighlightCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "SetFocusStop(Int32 WasCanceled, Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "SetFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "WasCanceled"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "ProcessInputEventStop(UnicodeString EventType, Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessInputEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "TextDequeued(Int32 EventId)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "TextDequeued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "SapiTextSpeak(UnicodeString SpokenText)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "SapiTextSpeak",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SpokenText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "NavigationOriginIdStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NavigationOriginId",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "NavigationOriginIdStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NavigationOriginId",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "NavigationTargetIdStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NavigationTargetId",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "NavigationTargetIdStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NavigationTargetId",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "UiaFocusVerificationStart(Int32 ElementAddress)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaFocusVerification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ElementAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "UiaFocusVerificationStop(Int32 ElementAddress)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaFocusVerification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ElementAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "UiaSecondFocusVerificationStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaSecondFocusVerification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "UiaSecondFocusVerificationStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaSecondFocusVerification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "CheckContextStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CheckContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "CheckContextStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CheckContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "InitializeGlobalsStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InitializeGlobals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "InitializeGlobalsStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InitializeGlobals",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "InitializeMonitorsStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InitializeMonitors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "InitializeMonitorsStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InitializeMonitors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "BeginMonitoringStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "BeginMonitoring",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "BeginMonitoringStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "BeginMonitoring",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "CreateUiStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CreateUi",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "CreateUiStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CreateUi",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "ExitNarratorSpeechStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ExitNarratorSpeech",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "ExitNarratorSpeechStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ExitNarratorSpeech",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "ShutdownMonitorsStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownMonitors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "ShutdownMonitorsStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownMonitors",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "ClearWindowTreeCacheStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ClearWindowTreeCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "ClearWindowTreeCacheStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ClearWindowTreeCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "ClearEventQueueStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ClearEventQueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "ClearEventQueueStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ClearEventQueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "ShutdownComponentsStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownComponents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "ShutdownComponentsStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownComponents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "ShutdownUiaStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownUia",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ShutdownUiaStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownUia",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "GetTargetTextPatternElementStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "GetTargetTextPatternElement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "GetTargetTextPatternElementStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "GetTargetTextPatternElement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "TextPatternCommandExecutionStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "TextPatternCommandExecution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "TextPatternCommandExecutionStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "TextPatternCommandExecution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "FindNextOrPreviousHeaderStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "FindNextOrPreviousHeader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "FindNextOrPreviousHeaderStart109(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "FindNextOrPreviousHeader",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "FindActionElementStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "FindActionElement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "FindActionElementStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "FindActionElement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "DetermineActionSequenceStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DetermineActionSequence",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "DetermineActionSequenceStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DetermineActionSequence",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "ExecuteActionStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ExecuteAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "ExecuteActionStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ExecuteAction",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "CalculateEchoCharacterStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CalculateEchoCharacter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "CalculateEchoCharacterStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CalculateEchoCharacter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "CheckShouldEchoCharacterStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CheckShouldEchoCharacter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "CheckShouldEchoCharacterStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CheckShouldEchoCharacter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "TextEventPreprocessingStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "TextEventPreprocessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "TextEventPreprocessingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "TextEventPreprocessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "InitializeTextPatternStateStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InitializeTextPatternState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "InitializeTextPatternStateStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InitializeTextPatternState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "GenerateTextEventTextChangeStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "GenerateTextEventTextChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "GenerateTextEventTextChangeStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "GenerateTextEventTextChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "TextEventParentUpdateStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "TextEventParentUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "TextEventParentUpdateStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "TextEventParentUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "UpdateNarratorContextStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateNarratorContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "UpdateNarratorContextStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateNarratorContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "ElementTextGenerationStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ElementTextGeneration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "ElementTextGenerationStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ElementTextGeneration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "GenerateTextPatternTextStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "GenerateTextPatternText",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "GenerateTextPatternTextStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "GenerateTextPatternText",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "FindTextPatternActionElementStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "FindTextPatternActionElement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "FindTextPatternActionElementStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "FindTextPatternActionElement",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "InternalGetTextPatternUnitChangeStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InternalGetTextPatternUnitChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "InternalGetTextPatternUnitChangeStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InternalGetTextPatternUnitChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "SaveCharactersAroundTextCursorStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "SaveCharactersAroundTextCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "SaveCharactersAroundTextCursorStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "SaveCharactersAroundTextCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "GenerateNonDegenerateTextChangeStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "GenerateNonDegenerateTextChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "GenerateNonDegenerateTextChangeStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "GenerateNonDegenerateTextChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "ShutdownFocusMonitorStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownFocusMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "ShutdownFocusMonitorStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownFocusMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "ShutdownMouseMonitorStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownMouseMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "ShutdownMouseMonitorStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownMouseMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "ShutdownTouchMonitorStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownTouchMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "ShutdownTouchMonitorStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownTouchMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "ShutdownCommandGeneratorStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownCommandGenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "ShutdownCommandGeneratorStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownCommandGenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "ShutdownSystemMonitorStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownSystemMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "ShutdownSystemMonitorStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownSystemMonitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "UpdateSoftFocus(UnicodeString AutomationContext)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateSoftFocus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AutomationContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "BreakChunkIntoFormatsStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "BreakChunkIntoFormats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "BreakChunkIntoFormatsStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "BreakChunkIntoFormats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "GetFormatReadingStart(Int32 EventId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "GetFormatReading",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "GetFormatReadingStop(Int32 EventId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "GetFormatReading",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "DetailedReadingDataStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DetailedReadingData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "DetailedReadingDataStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DetailedReadingData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "EventQProcessStart(Int32 MessageType)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "EventQProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "MessageType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "EventQProcessStop(Int32 MessageType)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "EventQProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "MessageType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "RebuildCacheStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "RebuildCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "RebuildCacheStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "RebuildCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "CancellationCheckStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CancellationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "CancellationCheckStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CancellationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "UiaFocusEventReceivedStart(Int32 ElementAddress)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaFocusEventReceived",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ElementAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "UiaFocusEventReceivedStop(Int32 ElementAddress)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaFocusEventReceived",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ElementAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "FocusProcessingEnqueuedStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "FocusProcessingEnqueued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "FocusProcessingEnqueuedStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "FocusProcessingEnqueued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "NarratorPerformanceScenarioStart(Int32 NarratorPerfScenario)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorPerformanceScenario",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "NarratorPerfScenario"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "NarratorPerformanceScenarioStop(Int32 NarratorPerfScenario)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorPerformanceScenario",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "NarratorPerfScenario"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "IsElementInPeripheralUIStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "IsElementInPeripheralUI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "IsElementInPeripheralUIStop(Int32 IsElementInPeripheralUI)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "IsElementInPeripheralUI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "IsElementInPeripheralUI"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "UpdateNarratorCursorStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateNarratorCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "UpdateNarratorCursorStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateNarratorCursor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "UpdateCursorPositionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateCursorPosition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "UpdateCursorPositionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdateCursorPosition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "IsElementOnSoftKeyboardStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "IsElementOnSoftKeyboard",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "IsElementOnSoftKeyboardStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "IsElementOnSoftKeyboard",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "186",
+        "version": "0",
+        "event(fields)": "HandleNavigationCommandStart(Int32 Command)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "HandleNavigationCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "HandleNavigationCommandStop(Int32 Command)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "HandleNavigationCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Command"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "188",
+        "version": "0",
+        "event(fields)": "ProcessTextPatternCommandStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessTextPatternCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "ProcessTextPatternCommandStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessTextPatternCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "190",
+        "version": "0",
+        "event(fields)": "JumpToHeadingStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "JumpToHeading",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "191",
+        "version": "0",
+        "event(fields)": "JumpToHeadingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "JumpToHeading",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "194",
+        "version": "0",
+        "event(fields)": "PlaceCaretStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "PlaceCaret",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "195",
+        "version": "0",
+        "event(fields)": "PlaceCaretStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "PlaceCaret",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "196",
+        "version": "0",
+        "event(fields)": "ProcessSelectionChangeStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessSelectionChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "197",
+        "version": "0",
+        "event(fields)": "ProcessSelectionChangeStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessSelectionChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "ProcessDegenerateSelectionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessDegenerateSelection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "ProcessDegenerateSelectionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessDegenerateSelection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "ContinuousReading_GenerateSegmentStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_GenerateSegment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "ContinuousReading_GenerateSegmentStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_GenerateSegment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "GetNextChunkStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "GetNextChunk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "GetNextChunkStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "GetNextChunk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "IsPlaceCaretPositionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "IsPlaceCaretPosition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "IsPlaceCaretPositionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "IsPlaceCaretPosition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "UiaAutomationEventHandlerStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaAutomationEventHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "UiaAutomationEventHandlerStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UiaAutomationEventHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "ProcessHookMessageStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessHookMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "ProcessHookMessageStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessHookMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "AutomationEventProcessingEnqueuedStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "AutomationEventProcessingEnqueued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "AutomationEventProcessingEnqueuedStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "AutomationEventProcessingEnqueued",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "TextSelectionChangedEventProcessingStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "TextSelectionChangedEventProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "TextSelectionChangedEventProcessingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "TextSelectionChangedEventProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "SAPIOneCoreSSMLProcessingStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "SAPIOneCoreSSMLProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "SAPIOneCoreSSMLProcessingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "SAPIOneCoreSSMLProcessing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "SAPIOneCorePopulateAudioStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "SAPIOneCorePopulateAudio",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "SAPIOneCorePopulateAudioStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "SAPIOneCorePopulateAudio",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "CacheSessionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CacheSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "CacheSessionStop(Int32 HitCount, Int32 MissCount, Int32 IgnoreCount, Int32 RemoveCount)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CacheSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "HitCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MissCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "IgnoreCount"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "RemoveCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "SAPIOneCorePopulateAudio()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "SAPIOneCorePopulateAudio",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "NarratorTouchInterpretationStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorTouchInterpretation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "NarratorTouchInterpretationStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorTouchInterpretation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "ProcessTextSegmentStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessTextSegment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "ProcessTextSegmentStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProcessTextSegment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "ContinuousReadingModeStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReadingMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "ContinuousReadingModeStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReadingMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "ProgressiveRenderStart(Int32 GroupNumber)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ProgressiveRender",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "GroupNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "ProgressiveRenderStop(Int32 GroupNumber)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ProgressiveRender",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "GroupNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "AudioPlayBackCompleted()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "AudioPlayBackCompleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "SegmentGeneration(Int32 NumberSegments)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "SegmentGeneration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "NumberSegments"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "NarratorInitializeStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "NarratorInitializeStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorInitialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "NarratorRunStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorRun",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "NarratorShortcutDisabled()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorShortcutDisabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "NarratorAlreadyRunning()",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorAlreadyRunning",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "NarratorQueueState(UnicodeString EventType)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorQueueState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "NarratorFindStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorFind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "NarratorFindStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorFind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "ContinuousReading_SetUpScopeStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_SetUpScope",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "ContinuousReading_SetUpScopeStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_SetUpScope",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "243",
+        "version": "0",
+        "event(fields)": "ContinuousReading_ProcessSingleChunkStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_ProcessSingleChunk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "244",
+        "version": "0",
+        "event(fields)": "ContinuousReading_ProcessSingleChunkStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_ProcessSingleChunk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "245",
+        "version": "0",
+        "event(fields)": "ContinuousReading_GetCompleteTextFragmentStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_GetCompleteTextFragment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "246",
+        "version": "0",
+        "event(fields)": "ContinuousReading_GetCompleteTextFragmentStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ContinuousReading_GetCompleteTextFragment",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "247",
+        "version": "0",
+        "event(fields)": "ChunkGenerator_GenerateChunksStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ChunkGenerator_GenerateChunks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "248",
+        "version": "0",
+        "event(fields)": "ChunkGenerator_GenerateChunksStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ChunkGenerator_GenerateChunks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "249",
+        "version": "0",
+        "event(fields)": "ChunkGenerator_GenerateSingleChunkStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ChunkGenerator_GenerateSingleChunk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "ChunkGenerator_GenerateSingleChunkStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ChunkGenerator_GenerateSingleChunk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "NarratorProcessQueueTrigger(UnicodeString Trigger)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "NarratorProcessQueueTrigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Trigger"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "ControlTemplateReadingStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ControlTemplateReading",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Narrator",
+        "event_id": "253",
+        "version": "0",
+        "event(fields)": "ControlTemplateReadingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ControlTemplateReading",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

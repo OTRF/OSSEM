@@ -1,0 +1,128 @@
+[
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "Autostart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "Autostart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "AutostartStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "Autostart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "StartingGroupStart(UnicodeString GroupName)",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "StartingGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "StartingGroupStop(UnicodeString GroupName)",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "StartingGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "ServiceStatusChange(UInt32 ExecutionPhase, UInt32 CurrentState, UInt32 StartType, UInt32 PID, UnicodeString ServiceName, UnicodeString ImageName)",
+        "opcode": "StatusChange",
+        "keywords": "Performance",
+        "task": "ServiceStatusChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ExecutionPhase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "PerfCriticalAutostart()",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "PerfCriticalAutostart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Services",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "PerfCriticalAutostartStop()",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "PerfCriticalAutostart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

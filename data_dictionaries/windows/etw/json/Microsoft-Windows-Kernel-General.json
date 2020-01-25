@@ -1,0 +1,837 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(FILETIME NewTime, FILETIME OldTime)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_KEYWORD_TIME",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "NewTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OldTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "SystemTimeChange_V1(FILETIME NewTime, FILETIME OldTime, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_KEYWORD_TIME",
+        "task": "SystemTimeChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "NewTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OldTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "1",
+        "version": "2",
+        "event(fields)": "SystemTimeChange_V2(FILETIME NewTime, FILETIME OldTime, UInt32 Reason, UnicodeString ProcessName, UInt32 ProcessID)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_KEYWORD_TIME",
+        "task": "SystemTimeChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "NewTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "OldTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_02()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_03()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_04()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05(HexInt32 FinalStatus, UInt16 ExtraStringLength, UnicodeString ExtraString)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "FinalStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ExtraStringLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ExtraString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "task_06(HexInt32 FinalStatus, UInt16 ExtraStringLength, UnicodeString ExtraString)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "FinalStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ExtraStringLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ExtraString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "task_011(UInt16 ExtraStringLength, UnicodeString ExtraString, GUID TmId, GUID RmId, HexInt32 Status, UInt32 InternalCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ExtraStringLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ExtraString"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TmId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "RmId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InternalCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "SystemStart(UInt32 MajorVersion, UInt32 MinorVersion, UInt32 BuildVersion, UInt32 QfeVersion, UInt16 ServiceVersion, UInt32 BootMode, FILETIME StartTime)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "SystemStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MajorVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinorVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BuildVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QfeVersion"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ServiceVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BootMode"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "SystemStop(FILETIME StopTime)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "SystemStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "StopTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_014(UnicodeString Mode, UnicodeString ObjectType, UnicodeString ObjectName, UnicodeString ProcessName, UnicodeString ObjectCreatorProcessName, HexInt32 AccessMask, UInt32 TokenType, UInt32 ImpersonationLevel, UInt32 SessionId, UInt32 LowBoxNumber, UInt32 TokenGroupsCount, 28 TokenGroups, UInt32 TokenPackageCount, 30 TokenPackage, UInt32 TokenCapabilityCount, 31 TokenCapabilities, UInt32 TokenTrustLevelCount, 33 TokenTrustLevel, UInt8 SecurityDescriptorRevision, UInt16 SecurityDescriptorControl, SID SecurityDescriptorOwner, SID SecurityDescriptorGroup, UInt8 DaclRevision, UInt16 DaclAceCount, 34 DaclAce, UInt8 SaclRevision, UInt16 SaclAceCount, 38 SaclAce)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_SECURITY_ACCESSCHECK",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Mode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectCreatorProcessName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AccessMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImpersonationLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowBoxNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenGroupsCount"
+            },
+            {
+                "field_type": "28",
+                "field_name": "TokenGroups"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenPackageCount"
+            },
+            {
+                "field_type": "30",
+                "field_name": "TokenPackage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenCapabilityCount"
+            },
+            {
+                "field_type": "31",
+                "field_name": "TokenCapabilities"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenTrustLevelCount"
+            },
+            {
+                "field_type": "33",
+                "field_name": "TokenTrustLevel"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SecurityDescriptorRevision"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SecurityDescriptorControl"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "SecurityDescriptorOwner"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "SecurityDescriptorGroup"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DaclRevision"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DaclAceCount"
+            },
+            {
+                "field_type": "34",
+                "field_name": "DaclAce"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SaclRevision"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SaclAceCount"
+            },
+            {
+                "field_type": "38",
+                "field_name": "SaclAce"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_015(UInt16 HiveNameLength, UnicodeString HiveName, UInt32 OriginalSize, UInt32 NewSize)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "HiveNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_016(UInt16 HiveNameLength, UnicodeString HiveName, UInt32 KeysUpdated, UInt32 DirtyPages)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "HiveNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HiveName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "KeysUpdated"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DirtyPages"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "task_017(UnicodeString ActionName, UnicodeString ProcessName, UnicodeString AccountName, UnicodeString AuthorityName, HexInt64 TokenId, HexInt64 AuthenticationId, UInt32 TokenType, UInt32 ImpersonationLevel, HexInt32 TokenFlags, Int64 SidValuesReferenceCount, UInt32 SidValuesCount, GUID SidValues, Int64 SharedSidValuesReferenceCount, UInt32 SharedSidValuesCount, Pointer SharedSidValues)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_TOKEN_SID_MANAGEMENT",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActionName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AuthorityName"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TokenId"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "AuthenticationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImpersonationLevel"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "TokenFlags"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SidValuesReferenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SidValuesCount"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SidValues"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SharedSidValuesReferenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SharedSidValuesCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SharedSidValues"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "SoftBootInfo(FILETIME TransitionStartTime, FILETIME CurrentTime, UInt32 SoftRestartCount)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "SoftBootInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "TransitionStartTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CurrentTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SoftRestartCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "BootPerformanceData(UInt64 MmPhase0Start, UInt64 MmPhase0Stop, UInt64 Phase1Start, UInt64 KsrExtensionStart, UInt64 KsrExtensionStop, UInt64 StartProcessorsStart, UInt64 StartProcessorsStop)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "BootPerformanceData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase0Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase0Stop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Phase1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KsrExtensionStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KsrExtensionStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartProcessorsStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartProcessorsStop"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "BootPerformanceData_V1(UInt64 MmPhase0Start, UInt64 MmPhase0Stop, UInt64 Phase1Start, UInt64 KsrExtensionStart, UInt64 KsrExtensionStop, UInt64 StartProcessorsStart, UInt64 StartProcessorsStop, UInt64 AutoLoggerInitStart, UInt64 AutoLoggerInitStop)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "BootPerformanceData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase0Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase0Stop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Phase1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KsrExtensionStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KsrExtensionStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartProcessorsStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartProcessorsStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AutoLoggerInitStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AutoLoggerInitStop"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "19",
+        "version": "2",
+        "event(fields)": "BootPerformanceData_V2(UInt64 MmPhase0Start, UInt64 MmPhase0Stop, UInt64 Phase1Start, UInt64 KsrExtensionStart, UInt64 KsrExtensionStop, UInt64 StartProcessorsStart, UInt64 StartProcessorsStop, UInt64 AutoLoggerInitStart, UInt64 AutoLoggerInitStop, UInt64 MmPhase1Start, UInt64 MmPhase1Stop, UInt64 HalPhase0StartCycleTime, UInt64 HalPhase0StopCycleTime)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "BootPerformanceData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase0Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase0Stop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Phase1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KsrExtensionStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "KsrExtensionStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartProcessorsStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartProcessorsStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AutoLoggerInitStart"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AutoLoggerInitStop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MmPhase1Stop"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HalPhase0StartCycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HalPhase0StopCycleTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "LeapSecondDataUpdate(UInt32 UpdateReason, Boolean EnabledNew, UInt32 CountNew, UInt32 CountOld)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_KEYWORD_TIME",
+        "task": "LeapSecondDataUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdateReason"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "EnabledNew"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CountNew"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CountOld"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "LeapSecondDataParseFailure(UInt32 FailureResult)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_KEYWORD_TIME",
+        "task": "LeapSecondDataParseFailure",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FailureResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "TimeZoneBiasChange(Int32 NewBias, Int32 OldBias)",
+        "opcode": "",
+        "keywords": "KERNEL_GENERAL_KEYWORD_TIME",
+        "task": "TimeZoneBiasChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "NewBias"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "OldBias"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-General",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "VsmPerformanceData(UInt64 VsmCleanupTime, UInt64 Mark0, UInt64 Mark1, UInt64 Mark2, UInt64 Mark3, UInt64 Mark4, UInt64 Mark5, UInt64 Mark6, UInt64 Mark7)",
+        "opcode": "",
+        "keywords": "BootPerformance",
+        "task": "VsmPerformanceData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "VsmCleanupTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark0"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark1"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark2"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark3"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark4"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark5"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark6"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Mark7"
+            }
+        ]
+    }
+]

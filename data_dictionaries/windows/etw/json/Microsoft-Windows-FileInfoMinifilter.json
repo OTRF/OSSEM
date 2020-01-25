@@ -1,0 +1,80 @@
+[
+    {
+        "provider": "Microsoft-Windows-FileInfoMinifilter",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "fi:FileNameCreate(Pointer FileObject, UInt16 PathLength, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "fi:FileNameCreate",
+        "task": "fi:FileNameCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileInfoMinifilter",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "fi:FileNameRundown(Pointer FileObject, UInt16 PathLength, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "fi:FileNameRundown",
+        "task": "fi:FileNameRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileInfoMinifilter",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "fi:FileNameDelete(Pointer FileObject, UInt16 PathLength, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "fi:FileNameDelete",
+        "task": "fi:FileNameDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FileObject"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "PathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    }
+]

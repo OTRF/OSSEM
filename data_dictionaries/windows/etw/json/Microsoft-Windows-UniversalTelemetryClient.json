@@ -1,0 +1,628 @@
+[
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "Tenant_Register(UnicodeString Environment, UnicodeString IKey, UInt32 DiskSizeInBytes, UInt32 DailyUploadQuotaInBytes, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "Tenant",
+        "task": "Tenant_Register",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskSizeInBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DailyUploadQuotaInBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "Tenant_Unregister(UnicodeString Environment, UnicodeString IKey, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "Tenant",
+        "task": "Tenant_Unregister",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "Tenant_UpdateDailyUploadQuota(UnicodeString Environment, UnicodeString IKey, UInt32 DailyUploadQuotaInBytes, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "Tenant",
+        "task": "Tenant_UpdateDailyUploadQuota",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DailyUploadQuotaInBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "Upload_UrlChanged(UnicodeString Environment, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_UrlChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "Upload_ConnectionError(UnicodeString Environment, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_ConnectionError",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "Upload_SevilleBandwidthMonitor_TierChange(UnicodeString Environment, UInt64 BytesUploadedSoFar, UInt64 BytesAllowed, UInt32 PercentageUsed, UInt32 NewTier, UInt32 OldTier)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleBandwidthMonitor_TierChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesUploadedSoFar"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesAllowed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PercentageUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewTier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldTier"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "Upload_SevilleEventStorage_TierChange(UnicodeString Environment, UInt32 PercentageFullInEachRingBuffer)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleEventStorage_TierChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PercentageFullInEachRingBuffer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "Upload_UnconfiguredDynamicRegion(UnicodeString Environment, UnicodeString Region)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_UnconfiguredDynamicRegion",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Region"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "Upload_SevilleEventStorage_StorageThrottled(UnicodeString Environment, UInt32 UploadQuota, Double PercentageQuotaUsed)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleEventStorage_StorageThrottled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UploadQuota"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "PercentageQuotaUsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "Upload_SevilleBandwidth_Throttled(UnicodeString Environment, UInt64 UploadQuota)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleBandwidth_Throttled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UploadQuota"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Upload_SevilleEventlog_Info(UnicodeString Environment, UInt32 EventsUploaded, UInt32 EventsDropped, UInt64 LastEventlogWrittenTime)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleEventlog_Info",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsUploaded"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsDropped"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastEventlogWrittenTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "Upload_SevilleEventlog_Warning(UnicodeString Environment, UInt32 EventsUploaded, UInt32 EventsDropped, UInt64 LastEventlogWrittenTime, UInt32 SuccessfulConnections, UInt32 FailedConnections, UInt32 LastHttpError)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleEventlog_Warning",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsUploaded"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsDropped"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastEventlogWrittenTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SuccessfulConnections"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedConnections"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastHttpError"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Upload_SevilleEventlog_Error(UnicodeString Environment, UInt32 EventsUploaded, UInt32 EventsDropped, UInt64 LastEventlogWrittenTime, UInt32 FailedConnections, UInt32 LastHttpError, Boolean ProxySettingDetected, UInt32 SslCertValidationFailures, UInt32 LastSslCertFailure)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Upload_SevilleEventlog_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsUploaded"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventsDropped"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LastEventlogWrittenTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedConnections"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastHttpError"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ProxySettingDetected"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SslCertValidationFailures"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastSslCertFailure"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "Service_ServiceStart(UnicodeString Environment, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_ServiceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "Service_InternetAvailable(UnicodeString Environment, Boolean State)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_InternetAvailable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "Service_FreeNetworkAvailable(UnicodeString Environment, Boolean State)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_FreeNetworkAvailable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "Service_OnBatteryPower(UnicodeString Environment, Boolean State)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_OnBatteryPower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "Service_OnBatterySaver(UnicodeString Environment, Boolean State)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_OnBatterySaver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "Service_InConnectedStandby(UnicodeString Environment, Boolean State)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_InConnectedStandby",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "Service_PowerLimitExceeded(UnicodeString Environment, Boolean State)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_PowerLimitExceeded",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "Service_OptInLevelChange(UnicodeString Environment, UInt32 OldInfo, UInt32 NewInfo, Int32 SettingAuthority)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "Service_OptInLevelChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldInfo"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewInfo"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SettingAuthority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "Agent_IdleStateChange(UnicodeString Environment, UnicodeString AgentId, Boolean IsIdle, UInt64 IdleDurationMillis)",
+        "opcode": "",
+        "keywords": "Agent",
+        "task": "Agent_IdleStateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AgentId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsIdle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IdleDurationMillis"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UniversalTelemetryClient",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "Service_OptInApiEventlog_Info(UInt32 OldLevel, UInt32 NewLevel, UnicodeString Source)",
+        "opcode": "",
+        "keywords": "Upload",
+        "task": "Service_OptInApiEventlog_Info",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewLevel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            }
+        ]
+    }
+]

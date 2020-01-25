@@ -1,0 +1,1862 @@
+[
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AsyncOperationAsyncoperationstart(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationstart",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AsyncOperationAsyncoperationfailure(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "AsyncOperationAsyncoperationcomplete(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationcomplete",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AsyncOperationAsyncoperationfailure4(UInt32 asyncOperation, Pointer asyncObject, UInt32 errorCode, Int32 hresult)",
+        "opcode": "Asyncoperationfailure",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncOperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "AsyncOperationAsyncoperationabort(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationabort",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "AsyncOperationAsyncoperationclose(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "Asyncoperationclose",
+        "keywords": "keywords.AsyncOperation",
+        "task": "AsyncOperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation(UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation8(UnicodeString str1, UnicodeString str2)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation9(UnicodeString str1, UnicodeString str2)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation10(UnicodeString str1, UnicodeString str2)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation11(UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation12(UnicodeString uri, UInt32 port, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "port"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation13(UnicodeString str1, UnicodeString str2, HexInt32 flags)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "str2"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation14(UnicodeString uri, UInt32 port, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "port"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation15(Pointer obj1, Pointer obj2, UnicodeString uri)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj1"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation16(Pointer obj, UInt32 length)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation17(Pointer obj, UInt32 length)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation18(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation19(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation20(Pointer obj, UInt32 length)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation21(Pointer obj, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation22(Pointer obj, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation23(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation24(Pointer obj, UInt32 statusCode, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "statusCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation25(Pointer obj, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation26(Pointer obj, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation27(Pointer obj, UInt32 length, UInt32 limit)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "limit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation28(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation29(Pointer obj, UnicodeString statusDescription)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation30(Pointer obj)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation31(UnicodeString statusDescription, UInt32 int1, UInt32 int2, UInt32 int3, UInt32 int4)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "int4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation32(UnicodeString uri, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "WebSocketConnectHTTPoperation33(UInt32 asyncOperation, Pointer asyncObject, UnicodeString response, UInt32 errorCode, Int32 hresult)",
+        "opcode": "HTTPoperation",
+        "keywords": "keywords.Http",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "response"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "APIsAPIEnter(UInt32 runtimeClass, UInt32 api)",
+        "opcode": "APIEnter",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "APIsAPIExit(UInt32 runtimeClass, UInt32 api)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "APIsAPIExit36(UInt32 runtimeClass, UInt32 api, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "APIsAPIExit37(UInt32 win32Api, UInt32 error, UInt32 errorMessage)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "win32Api"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "APIsAPIExit38(Pointer obj, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "APIsAPIExit39(Pointer obj, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "APIExit",
+        "keywords": "keywords.API",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "SocketReceiveProcessingafterread(Pointer obj, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "Processingafterread",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "SocketReceiveProcessingafterread41(Pointer obj, UInt32 bytesRead, UInt32 size, Binary address)",
+        "opcode": "Processingafterread",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bytesRead"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "SocketReceiveStartread(Pointer obj, Pointer handle)",
+        "opcode": "Startread",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "handle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "SocketReceiveReaderror(Pointer obj, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "Readerror",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "SocketReceiveStartread44(UInt32 asyncOperation, Pointer obj, UInt32 length, Pointer handle)",
+        "opcode": "Startread",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "handle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "SocketReceiveStartread45(UInt32 asyncOperation, Pointer obj, UInt32 read, UInt32 length)",
+        "opcode": "Startread",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "read"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "SocketReceiveReadcomplete(UInt32 asyncOperation, Pointer obj, UInt32 length)",
+        "opcode": "Readcomplete",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "SocketConnectTCPconnected(Pointer obj, UnicodeString port1, UnicodeString ip, UnicodeString port2)",
+        "opcode": "TCPconnected",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "port1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ip"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "port2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "SocketConnectTCPconnected48(Pointer obj, UInt32 size, Binary address)",
+        "opcode": "TCPconnected",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "SocketReceiveProcessingafterread49(Pointer obj, UInt32 size, Binary address)",
+        "opcode": "Processingafterread",
+        "keywords": "keywords.Socket",
+        "task": "SocketReceive",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "SocketSendWritecomplete(UInt32 asyncOperation, Pointer obj, UInt32 length)",
+        "opcode": "Writecomplete",
+        "keywords": "keywords.Socket",
+        "task": "SocketSend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "SocketSendStartwrite(UInt32 asyncOperation, Pointer obj, UInt32 length, Pointer handle)",
+        "opcode": "Startwrite",
+        "keywords": "keywords.Socket",
+        "task": "SocketSend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "handle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "WebSocketReceiveProcessingafterread(Pointer obj)",
+        "opcode": "Processingafterread",
+        "keywords": "keywords.WebSocket",
+        "task": "WebSocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "WebSocketReceiveProcessingafterread53(Pointer obj, UInt32 length)",
+        "opcode": "Processingafterread",
+        "keywords": "keywords.WebSocket",
+        "task": "WebSocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "WebSocketReceiveReaderror(Pointer obj, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "Readerror",
+        "keywords": "keywords.WebSocket",
+        "task": "WebSocketReceive",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "WebSocketReceiveProcessingafterread55(Pointer obj, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "Processingafterread",
+        "keywords": "keywords.WebSocket",
+        "task": "WebSocketReceive",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "WebSocketSendStartwrite(Pointer obj)",
+        "opcode": "Startwrite",
+        "keywords": "keywords.WebSocket",
+        "task": "WebSocketSend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "WebSocketReceiveStartread(Pointer obj, UInt32 statusCode, UnicodeString statusDescription)",
+        "opcode": "Startread",
+        "keywords": "keywords.WebSocket",
+        "task": "WebSocketReceive",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "statusCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "statusDescription"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "SocketIOI/Oerror(Pointer obj, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "I/Oerror",
+        "keywords": "keywords.Socket",
+        "task": "SocketIO",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "SocketSendWritecomplete60(UInt32 asyncOperation, Pointer obj, UInt32 length)",
+        "opcode": "Writecomplete",
+        "keywords": "keywords.Socket",
+        "task": "SocketSend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "SocketSendStartwrite61(UInt32 asyncOperation, Pointer obj, UInt32 length, Pointer handle)",
+        "opcode": "Startwrite",
+        "keywords": "keywords.Socket",
+        "task": "SocketSend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "length"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "handle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "APIsRtcCompleteDelivery(UInt32 runtimeClass, UInt32 pendingOperations)",
+        "opcode": "RtcCompleteDelivery",
+        "keywords": "keywords.Rtc",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pendingOperations"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "APIsRtcCompleteDelivery63(UInt32 runtimeClass, UInt32 pendingOperations, UInt32 winsockPendingOperations, Boolean winsockDataAvailable)",
+        "opcode": "RtcCompleteDelivery",
+        "keywords": "keywords.Rtc",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pendingOperations"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "winsockPendingOperations"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "winsockDataAvailable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "APIsRtcFlush(UInt32 runtimeClass, UInt32 pendingOperations)",
+        "opcode": "RtcFlush",
+        "keywords": "keywords.Rtc",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pendingOperations"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "APIsRtcFlush65(UInt32 runtimeClass, UInt32 pendingOperations)",
+        "opcode": "RtcFlush",
+        "keywords": "keywords.Rtc",
+        "task": "APIs",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "runtimeClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pendingOperations"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "SocketConnect(UInt32 connectorType)",
+        "opcode": "",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "connectorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "SocketConnect67(UnicodeString value, UInt32 resolutionResult)",
+        "opcode": "",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resolutionResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "SocketConnect68(UnicodeString value, UInt32 errorCode, UInt32 errorMessage)",
+        "opcode": "",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "SocketConnect69(UInt32 errorCount, UInt32 errorList)",
+        "opcode": "",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "SocketConnect70(UnicodeString certificateThumbprint, Boolean hasFatalError, UInt32 errorCount, UInt32 errorList, UInt32 intermediateCertificatesCount, UnicodeString intermediateCertificatesList)",
+        "opcode": "",
+        "keywords": "keywords.Socket",
+        "task": "SocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "certificateThumbprint"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "hasFatalError"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "errorList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "intermediateCertificatesCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "intermediateCertificatesList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "SocketIOI/Oerror71(Pointer obj, UInt32 hresult, Int32 errorMessage)",
+        "opcode": "I/Oerror",
+        "keywords": "keywords.Socket",
+        "task": "SocketIO",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hresult"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "errorMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "WebSocketConnect(Pointer obj)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "obj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "task_0(AnsiString functionName, Int32 lineNumber, Int32 status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "functionName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "lineNumber"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "WebSocketConnect74(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "WebSocketConnect75(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "WebSocketConnect76(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WebSocketConnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Runtime-Networking",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "WebSocketConnect77(UInt32 asyncOperation, Pointer asyncObject)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WebSocketConnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "asyncOperation"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "asyncObject"
+            }
+        ]
+    }
+]

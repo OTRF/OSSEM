@@ -1,0 +1,70 @@
+[
+    {
+        "provider": "Microsoft-Windows-AuthenticationProvider",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString PackageName, UnicodeString UserName, UnicodeString DomainName, UnicodeString ServerName, UInt32 ProtectedUser, HexInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectedUser"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AuthenticationProvider",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "task_0304(UnicodeString PackageName, UnicodeString UserName, UnicodeString DomainName, UInt32 ProtectedUser)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DomainName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProtectedUser"
+            }
+        ]
+    }
+]

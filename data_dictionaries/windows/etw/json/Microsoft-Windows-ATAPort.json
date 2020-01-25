@@ -1,0 +1,1434 @@
+[
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "LPMstatechangeATAPORT_OPCODE_LPM_POWERSTATE_PARTIAL(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_LPM_POWERSTATE_PARTIAL",
+        "keywords": "LinkPowerMgmt",
+        "task": "LPMstatechange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LPMstatechangeATAPORT_OPCODE_LPM_POWERSTATE_SLUMBER(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_LPM_POWERSTATE_SLUMBER",
+        "keywords": "LinkPowerMgmt",
+        "task": "LPMstatechange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_DEV_ENUM_INIT(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType)",
+        "opcode": "ATAPORT_OPCODE_DEV_ENUM_INIT",
+        "keywords": "DeviceEnumeration",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_DEV_ENUM_COMPLETE(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType)",
+        "opcode": "ATAPORT_OPCODE_DEV_ENUM_COMPLETE",
+        "keywords": "DeviceEnumeration",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_XFER_MODE_CHANGE(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt8 DMAtoPIO, UInt8 StepDownInDMAModes)",
+        "opcode": "ATAPORT_OPCODE_XFER_MODE_CHANGE",
+        "keywords": "XferModeChange",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DMAtoPIO"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "StepDownInDMAModes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_IO_REQUEST_COMPLETE(UInt32 DeviceAddress, UInt32 RequestSequence, UInt64 QueueTime, UInt64 DeviceTime, Pointer MasterIRP, UInt32 ActiveRequestCount, UInt16 IRBFunction, UInt8 DeviceCommand, UInt8 IRBStatus, UInt8 ATAStatus)",
+        "opcode": "ATAPORT_OPCODE_IO_REQUEST_COMPLETE",
+        "keywords": "AllIORequests",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestSequence"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueueTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeviceTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MasterIRP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveRequestCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "IRBFunction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DeviceCommand"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRBStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ATAStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_IO_REQUEST_TIMEOUT(UInt32 DeviceAddress, UInt32 RequestSequence, UInt64 QueueTime, UInt64 DeviceTime, Pointer MasterIRP, UInt32 ActiveRequestCount, UInt16 IRBFunction, UInt8 DeviceCommand, UInt8 IRBStatus, UInt8 ATAStatus)",
+        "opcode": "ATAPORT_OPCODE_IO_REQUEST_TIMEOUT",
+        "keywords": "IOErrors",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestSequence"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueueTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeviceTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MasterIRP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveRequestCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "IRBFunction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DeviceCommand"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRBStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ATAStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_IO_REQUEST_TRANSPORT_ERROR(UInt32 DeviceAddress, UInt32 RequestSequence, UInt64 QueueTime, UInt64 DeviceTime, Pointer MasterIRP, UInt32 ActiveRequestCount, UInt16 IRBFunction, UInt8 DeviceCommand, UInt8 IRBStatus, UInt8 ATAStatus)",
+        "opcode": "ATAPORT_OPCODE_IO_REQUEST_TRANSPORT_ERROR",
+        "keywords": "IOErrors",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestSequence"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueueTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DeviceTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MasterIRP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveRequestCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "IRBFunction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DeviceCommand"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRBStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ATAStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_DEVICE_MISSING(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType)",
+        "opcode": "ATAPORT_OPCODE_DEVICE_MISSING",
+        "keywords": "DeviceEnumeration",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_CHANNEL_RESET_INIT(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_CHANNEL_RESET_INIT",
+        "keywords": "Reset",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_CHANNEL_RESET_COMPLETE(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_CHANNEL_RESET_COMPLETE",
+        "keywords": "Reset",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_DEVICE_RESET_INIT(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_DEVICE_RESET_INIT",
+        "keywords": "Reset",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_DEVICE_RESET_COMPLETE(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_DEVICE_RESET_COMPLETE",
+        "keywords": "Reset",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_CHANNEL_START_INIT()",
+        "opcode": "ATAPORT_OPCODE_CHANNEL_START_INIT",
+        "keywords": "DeviceEnumeration",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_CHANNEL_START_COMPLETE()",
+        "opcode": "ATAPORT_OPCODE_CHANNEL_START_COMPLETE",
+        "keywords": "DeviceEnumeration",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_GET_TELEMETRY_INIT(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_GET_TELEMETRY_INIT",
+        "keywords": "Reset",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "113",
+        "version": "1",
+        "event(fields)": "Port_V1(UInt8 PortNumber, UInt8 BusNumber, UInt8 TargetId, UInt8 LUN, UInt32 FailureReason)",
+        "opcode": "",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite PnP Enum",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "BusNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailureReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "ATAportGeneralATAPORT_OPCODE_GET_TELEMETRY_COMPLETE(UInt32 SCSIAddressSize, UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt32 DeviceType, UInt32 Result)",
+        "opcode": "ATAPORT_OPCODE_GET_TELEMETRY_COMPLETE",
+        "keywords": "Reset",
+        "task": "ATAportGeneral",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SCSIAddressSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "PathID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TargetID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "114",
+        "version": "1",
+        "event(fields)": "Port114_V1(Pointer Irp, UInt8 TransferModeChangeType)",
+        "opcode": "",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "TransferModeChangeType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "200",
+        "version": "1",
+        "event(fields)": "Port200_V1(UInt64 RequestDurationin100ns, Pointer Irp, UInt8 Command, UInt8 SrbStatus, Pointer OriginalIrp)",
+        "opcode": "",
+        "keywords": "IO_Performance",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "201",
+        "version": "1",
+        "event(fields)": "Port201_V1(UInt64 RequestDurationin100ns, Pointer Irp, UInt8 Command, UInt8 SrbStatus, Pointer OriginalIrp)",
+        "opcode": "",
+        "keywords": "IO_Performance",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDurationin100ns"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "202",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest._V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "203",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.203_V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "204",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.204_V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read PagingRead",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "205",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.205_V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write PagingWrite",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "206",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.206_V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read LowMemoryRead",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "207",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.207_V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write LowMemoryWrite",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinbytes"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "208",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest._V1(Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "209",
+        "version": "1",
+        "event(fields)": "PortRetryhandling._V1(Pointer Irp, UInt32 CurrentRetryCount)",
+        "opcode": "Retryhandling.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentRetryCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "210",
+        "version": "1",
+        "event(fields)": "Port210_V1(Pointer Irp, UInt8 Bus, UInt8 Target, UInt8 LUN)",
+        "opcode": "",
+        "keywords": "Flush",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Bus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "211",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest.211_V1(Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Flush",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "212",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.212_V1(Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "IOCTL",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "213",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.213_V1(Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "WMI",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "214",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest.214_V1(Pointer Irp, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "IOCTL WMI",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "215",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.215_V1(Pointer Irp, HexInt32 MinorFunction, UInt8 Type, HexInt32 OldState, HexInt32 NewState, HexInt32 Action, HexInt32 PowerStateContext)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Power",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PowerStateContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "216",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest.216_V1(Pointer Irp, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Power",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "217",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.217_V1(Pointer Irp, HexInt32 MinorFunction, HexInt32 Type, Pointer DeviceObject)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "PnP",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "218",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest.218_V1(Pointer Irp, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "PnP",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "219",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest.219_V1(Pointer Irp, UInt32 NumberOfChildren, HexInt32 Status)",
+        "opcode": "Completionofrequest.",
+        "keywords": "PnP Enum",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfChildren"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "220",
+        "version": "1",
+        "event(fields)": "PortQueue_relatedoperation._V1(HexInt32 QueueTag, UInt8 Operation, HexInt32 Status)",
+        "opcode": "Queue_relatedoperation.",
+        "keywords": "Queue",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "QueueTag"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ATAPort",
+        "event_id": "221",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.221_V1(Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "PassThrough IOCTL",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    }
+]

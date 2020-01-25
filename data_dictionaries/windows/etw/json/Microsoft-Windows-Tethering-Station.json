@@ -1,0 +1,64 @@
+[
+    {
+        "provider": "Microsoft-Windows-Tethering-Station",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "task_0Start(GUID WlanInterfaceGuid)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WlanInterfaceGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Tethering-Station",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "task_0Stop(GUID WlanInterfaceGuid, UInt32 Scenario, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WlanInterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Tethering-Station",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "task_0Stop1003(GUID WlanInterfaceGuid)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "WlanInterfaceGuid"
+            }
+        ]
+    }
+]

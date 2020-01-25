@@ -1,0 +1,346 @@
+[
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "StateChange(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 OldState, UInt32 NewState, UInt32 MixedWorkItems, UInt32 PureWorkItems, UInt32 SystemWorkItems, UInt32 Flags, UInt64 CycleTime, UInt64 NetworkTokens)",
+        "opcode": "",
+        "keywords": "StateChange",
+        "task": "StateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MixedWorkItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PureWorkItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SystemWorkItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "PolicySuspend(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 Flags, UInt64 CycleTime, UInt64 NetworkTokens)",
+        "opcode": "",
+        "keywords": "Policy",
+        "task": "PolicySuspend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "PolicyResume(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 Flags, UInt64 CycleTime, UInt64 NetworkTokens)",
+        "opcode": "",
+        "keywords": "Policy",
+        "task": "PolicyResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "PriorityChange(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 PlmRequestedPriority, UInt32 EffectivePriority)",
+        "opcode": "",
+        "keywords": "PriorityChange",
+        "task": "PriorityChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlmRequestedPriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EffectivePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "StateChangeDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 OldState, UInt32 NewState, UInt32 MixedWorkItems, UInt32 PureWorkItems, UInt32 SystemWorkItems, UInt32 Flags, UInt64 CycleTime, UInt64 NetworkTokens)",
+        "opcode": "DC_Stop",
+        "keywords": "StateChange",
+        "task": "StateChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MixedWorkItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PureWorkItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SystemWorkItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "PriorityChangeDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 PlmRequestedPriority, UInt32 EffectivePriority)",
+        "opcode": "DC_Stop",
+        "keywords": "PriorityChange",
+        "task": "PriorityChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlmRequestedPriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EffectivePriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "RundownDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 State, UInt32 Flags, UInt32 PlmRequestedPriority, UInt32 EffectivePriority, UInt64 CycleTime, UInt64 NetworkTokens)",
+        "opcode": "DC_Stop",
+        "keywords": "Rundown",
+        "task": "Rundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PlmRequestedPriority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EffectivePriority"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ProcessStateManager",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ProcessRegisterDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey, UInt32 ActivationFlags, UInt64 HostId)",
+        "opcode": "DC_Stop",
+        "keywords": "ProcessRegister",
+        "task": "ProcessRegister",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PsmKey"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActivationFlags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HostId"
+            }
+        ]
+    }
+]

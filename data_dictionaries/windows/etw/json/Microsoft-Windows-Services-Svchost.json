@@ -1,0 +1,38 @@
+[
+    {
+        "provider": "Microsoft-Windows-Services-Svchost",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "ServiceMainStart(UnicodeString ServiceName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ServiceMain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Services-Svchost",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "ServiceMainStop(UnicodeString ServiceName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ServiceMain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            }
+        ]
+    }
+]

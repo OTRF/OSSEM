@@ -1,0 +1,38 @@
+[
+    {
+        "provider": "Microsoft-Windows-Graphics-Capture-Server",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "CAPTURE_STARTED(UInt32 processId)",
+        "opcode": "",
+        "keywords": "CaptureServer",
+        "task": "CAPTURE_STARTED",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "processId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Graphics-Capture-Server",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "CAPTURE_STOPPED(UInt32 processId)",
+        "opcode": "",
+        "keywords": "CaptureServer",
+        "task": "CAPTURE_STOPPED",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "processId"
+            }
+        ]
+    }
+]

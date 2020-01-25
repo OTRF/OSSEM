@@ -1,0 +1,114 @@
+[
+    {
+        "provider": "Microsoft-OneCore-OnlineSetup",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "RunSetupSpecializationStart(UnicodeString CommandLine)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "RunSetupSpecialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-OneCore-OnlineSetup",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "RunSetupSpecializationStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "RunSetupSpecialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-OneCore-OnlineSetup",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "SetupProcessUnattendStart(UnicodeString Pass)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "SetupProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-OneCore-OnlineSetup",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "SetupProcessUnattendStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "SetupProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-OneCore-OnlineSetup",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "SetupProcessUnattendStop2003(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "SetupProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-OneCore-OnlineSetup",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "SetupProcessUnattend(UnicodeString Pass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "keyDiagnostic",
+        "task": "SetupProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    }
+]

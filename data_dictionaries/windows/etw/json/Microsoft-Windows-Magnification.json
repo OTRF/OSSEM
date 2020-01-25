@@ -1,0 +1,338 @@
+[
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LensCreate(UInt64 hWndLensCtx)",
+        "opcode": "",
+        "keywords": "Magnification",
+        "task": "LensCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "LensDestroy(UInt64 hWndLensCtx)",
+        "opcode": "",
+        "keywords": "Magnification",
+        "task": "LensDestroy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "SetWindowSource(UInt64 hWndLensCtx, AnsiString SrcRect)",
+        "opcode": "",
+        "keywords": "Magnification",
+        "task": "SetWindowSource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SrcRect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "SetWindowTransform(UInt64 hWndLensCtx, AnsiString Transform)",
+        "opcode": "",
+        "keywords": "Magnification",
+        "task": "SetWindowTransform",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Transform"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "UpdateLensContentStart(UInt64 hWndLensCtx, UInt32 DesktopComposited)",
+        "opcode": "Start",
+        "keywords": "Magnification",
+        "task": "UpdateLensContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesktopComposited"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "UpdateLensContentStop(UInt64 hWndLensCtx, UInt32 DesktopComposited)",
+        "opcode": "Stop",
+        "keywords": "Magnification",
+        "task": "UpdateLensContent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DesktopComposited"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "UpdateContentSurfacesStart(UInt64 hWndLensCtx, UInt64 UpdateId)",
+        "opcode": "Start",
+        "keywords": "Magnification",
+        "task": "UpdateContentSurfaces",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UpdateId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "UpdateContentSurfacesStop(UInt64 hWndLensCtx, UInt64 UpdateId)",
+        "opcode": "Stop",
+        "keywords": "Magnification",
+        "task": "UpdateContentSurfaces",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UpdateId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "UpdateRedirectionSurfacesStart(UInt64 hWndLensCtx, UInt64 UpdateId)",
+        "opcode": "Start",
+        "keywords": "Magnification",
+        "task": "UpdateRedirectionSurfaces",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UpdateId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "UpdateRedirectionSurfacesStop(UInt64 hWndLensCtx, UInt64 UpdateId)",
+        "opcode": "Stop",
+        "keywords": "Magnification",
+        "task": "UpdateRedirectionSurfaces",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UpdateId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "UpdateRedirectionResourcesStart(UInt64 hWndLensCtx, UInt64 UpdateId)",
+        "opcode": "Start",
+        "keywords": "Magnification",
+        "task": "UpdateRedirectionResources",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UpdateId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "UpdateRedirectionResourcesStop(UInt64 hWndLensCtx, UInt64 UpdateId)",
+        "opcode": "Stop",
+        "keywords": "Magnification",
+        "task": "UpdateRedirectionResources",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UpdateId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "UpdateSettingsStart(UInt64 hWndLensCtx)",
+        "opcode": "Start",
+        "keywords": "Magnification",
+        "task": "UpdateSettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "UpdateSettingsStop(UInt64 hWndLensCtx)",
+        "opcode": "Stop",
+        "keywords": "Magnification",
+        "task": "UpdateSettings",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "RecreateTexturesStart(UInt64 hWndLensCtx, UInt32 Width, UInt32 Height)",
+        "opcode": "Start",
+        "keywords": "Magnification",
+        "task": "RecreateTextures",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Magnification",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "RecreateTexturesStop(UInt64 hWndLensCtx)",
+        "opcode": "Stop",
+        "keywords": "Magnification",
+        "task": "RecreateTextures",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "hWndLensCtx"
+            }
+        ]
+    }
+]

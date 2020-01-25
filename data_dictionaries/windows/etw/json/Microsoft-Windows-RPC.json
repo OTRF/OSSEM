@@ -1,0 +1,522 @@
+[
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "RpcClientCallStop_V1(UnicodeString ImageName, UnicodeString ComputerName, UInt32 ProcessID, SYSTEMTIME TimeStamp, UInt32 GeneratingComponent, HexInt32 Status, UInt16 DetectionLocation, UInt16 Flags, UInt16 NumberOfParameters, UInt64 Params)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "RpcClientCall",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ComputerName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeneratingComponent"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DetectionLocation"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NumberOfParameters"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Params"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "RpcServerCall_V1(UnicodeString ImangeName, GUID InterfaceUuid, GUID FilterKey)",
+        "opcode": "",
+        "keywords": "",
+        "task": "RpcServerCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImangeName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "FilterKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "task_0_V1(UnicodeString ImageName, UInt16 DetectionLocation, UInt32 Status, HexInt32 AdditionalData1, HexInt32 AdditionalData2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DetectionLocation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AdditionalData1"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "AdditionalData2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "Debug_V1(UInt8 Subject, UInt8 Verb, UInt64 SubjectPointer, UInt64 ObjectPointer, UInt64 DataPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Debug",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Subject"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SubjectPointer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ObjectPointer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DataPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "RpcClientCallStart_V1(GUID InterfaceUuid, UInt32 ProcNum, UInt32 Protocol, UnicodeString NetworkAddress, UnicodeString Endpoint, UnicodeString Options, UInt32 AuthenticationLevel, UInt32 AuthenticationService, UInt32 ImpersonationLevel)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "RpcClientCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcNum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Options"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthenticationLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthenticationService"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImpersonationLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "RpcServerCallStart_V1(GUID InterfaceUuid, UInt32 ProcNum, UInt32 Protocol, UnicodeString NetworkAddress, UnicodeString Endpoint, UnicodeString Options, UInt32 AuthenticationLevel, UInt32 AuthenticationService, UInt32 ImpersonationLevel)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "RpcServerCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcNum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Options"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthenticationLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthenticationService"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImpersonationLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "RpcClientCallStop7_V1(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "RpcClientCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "RpcServerCallStop_V1(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "RpcServerCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "9",
+        "version": "1",
+        "event(fields)": "task_09_V1(UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "Debug10_V1(UInt64 SubjectPointer, UInt32 FragmentSize, Binary Fragment)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Debug",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SubjectPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FragmentSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Fragment"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "Debug11_V1(UInt64 SubjectPointer, UInt32 FragmentSize, Binary Fragment)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Debug",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SubjectPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FragmentSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Fragment"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "DebugStart_V1(UInt32 ObjectType, UInt32 Operation, UInt64 Address, UInt64 Data)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Debug",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ObjectType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "DebugStop_V1(UInt32 ObjectType, UInt32 Operation, UInt64 Address, UInt64 Data)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Debug",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ObjectType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "FunctionTraceStart_V1(GUID InterfaceUuid, GUID TypeMgrUuid, UInt32 Flags, UInt32 MaxCalls, UInt32 SDSize, Binary SD)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunctionTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TypeMgrUuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxCalls"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SDSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "SD"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "FunctionTraceStop_V1(GUID InterfaceUuid, GUID TypeMgrUuid, UInt32 Flags, UInt32 MaxCalls)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FunctionTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceUuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "TypeMgrUuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxCalls"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RPC",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "FunctionTraceStart16_V1(UnicodeString Protocol, UnicodeString Endpoint, UnicodeString NetworkAddress, UInt32 PendingQueueSize, UInt32 EndpointFlags, UInt32 NicFlags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FunctionTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PendingQueueSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EndpointFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NicFlags"
+            }
+        ]
+    }
+]

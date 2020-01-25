@@ -1,0 +1,145 @@
+[
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "RunOobeLdrStart(UnicodeString CommandLine)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "RunOobeLdr",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "RunOobeLdrStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "RunOobeLdr",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "OobeLdrProcessUnattendStart(UnicodeString Pass)",
+        "opcode": "Start",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "OobeLdrProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "OobeLdrProcessUnattendStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "OobeLdrProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "OobeLdrProcessUnattendStop2003(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "OobeLdrProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "OobeLdrProcessUnattend(UnicodeString Pass, UnicodeString FilePath)",
+        "opcode": "",
+        "keywords": "keyDiagnostic keyword_200000000000",
+        "task": "OobeLdrProcessUnattend",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "LaunchOobeStart()",
+        "opcode": "Start",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "LaunchOobe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-OobeLdr",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "LaunchOobeStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance keyword_200000000000",
+        "task": "LaunchOobe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

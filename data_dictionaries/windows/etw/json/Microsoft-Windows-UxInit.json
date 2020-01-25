@@ -1,0 +1,229 @@
+[
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "CVSCache_Initializing(UnicodeString CacheFileName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CVSCache_Initializing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CacheFileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "LoadFromCacheStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "LoadFromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "LoadFromCacheStop(Int32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "LoadFromCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "WriteToCacheStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WriteToCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "WriteToCacheStop(Int32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WriteToCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "InitializeUserThemeStart(Int32 monitorConfig, Boolean fPolicyCheckOnly)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "InitializeUserTheme",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "monitorConfig"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fPolicyCheckOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "InitializeUserThemeStart7(Int32 monitorConfig, Boolean fPolicyCheckOnly)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "InitializeUserTheme",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "monitorConfig"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fPolicyCheckOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ReuseExistingThemeData(Int32 monitorConfig, Int32 systemDpi, Boolean IsHighContrastMode, Int32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ReuseExistingThemeData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "monitorConfig"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "systemDpi"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsHighContrastMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ApplyNewThemeData(Int32 monitorConfig, Int32 systemDpi, Boolean IsHighContrastMode, Int32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ApplyNewThemeData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "monitorConfig"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "systemDpi"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsHighContrastMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "LoadThemeAsSystem(Int32 monitorConfig, Int32 systemDpi, Boolean IsHighContrastMode, Int32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LoadThemeAsSystem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "monitorConfig"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "systemDpi"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsHighContrastMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-UxInit",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ThemeServiceStart()",
+        "opcode": "",
+        "keywords": "",
+        "task": "ThemeServiceStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

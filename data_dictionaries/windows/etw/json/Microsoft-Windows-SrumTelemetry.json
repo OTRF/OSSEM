@@ -1,0 +1,260 @@
+[
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 BatteryDrainRate, UInt32 PowerBitpack, UInt32 Duration, UInt32 AppCpuCyclesBitpack, UnicodeString TimeStamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BatteryDrainRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerBitpack"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppCpuCyclesBitpack"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TimeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "2004",
+        "version": "0",
+        "event(fields)": "task_02004(UInt32 JoulesPerHourScreenOnDC, UInt32 JoulesPerHourScreenOffDC, UInt32 DCTimeBitpack, UInt32 CPUCyclesOnDCBitpack, UInt32 DiskMBRead, UInt32 DiskMBWritten)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JoulesPerHourScreenOnDC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JoulesPerHourScreenOffDC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DCTimeBitpack"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CPUCyclesOnDCBitpack"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskMBRead"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskMBWritten"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "2005",
+        "version": "0",
+        "event(fields)": "task_02005(UInt32 PowerInMilliwatts, UInt32 CpuStatsBitpack, UInt32 DiskAndNetStatsBitPack, UInt32 DurationBitPack, UnicodeString ModernAppPackageName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerInMilliwatts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CpuStatsBitpack"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskAndNetStatsBitPack"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DurationBitPack"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModernAppPackageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "3003",
+        "version": "0",
+        "event(fields)": "task_03003(Int32 PreviousBrightnessLevel, UInt32 PreviousBrightnessDurationInSeconds, Int32 NewBrightnessLevel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "PreviousBrightnessLevel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousBrightnessDurationInSeconds"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NewBrightnessLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "3004",
+        "version": "0",
+        "event(fields)": "task_03004(Int32 CurrentBrightnessLevel)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "CurrentBrightnessLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "3005",
+        "version": "0",
+        "event(fields)": "task_03005(UInt32 PreviousStateDurationInSeconds, Int8 NewEnergySaverState)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousStateDurationInSeconds"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "NewEnergySaverState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SrumTelemetry",
+        "event_id": "3006",
+        "version": "0",
+        "event(fields)": "E3HistoryTaskDCStop(SYSTEMTIME TimeStamp, UnicodeString AppId, UnicodeString UserId, UInt64 EnergyLoss, UInt64 CpuEnergyConsumption, UInt64 SocEnergyConsumption, UInt64 DisplayEnergyConsumption, UInt64 DiskEnergyConsumption, UInt64 NetworkEnergyConsumption, UInt64 MbbEnergyConsumption, UInt64 OtherEnergyConsumption, UInt64 TotalEnergyConsumption, Boolean MeasuredPower, Boolean OnBattery, Boolean Foreground, Boolean ScreenOn, Boolean BatterySaverActive, Boolean LowPowerEpochActive)",
+        "opcode": "DC_Stop",
+        "keywords": "",
+        "task": "E3HistoryTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EnergyLoss"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CpuEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SocEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DisplayEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetworkEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MbbEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OtherEnergyConsumption"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalEnergyConsumption"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MeasuredPower"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "OnBattery"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Foreground"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ScreenOn"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "BatterySaverActive"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LowPowerEpochActive"
+            }
+        ]
+    }
+]

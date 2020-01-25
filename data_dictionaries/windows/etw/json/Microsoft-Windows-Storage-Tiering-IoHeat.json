@@ -1,0 +1,168 @@
+[
+    {
+        "provider": "Microsoft-Windows-Storage-Tiering-IoHeat",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "HeatInit(GUID VolumeGuid, UInt32 VolumeIdHash)",
+        "opcode": "",
+        "keywords": "STORAGE_TIERING_KEYWORD_INIT",
+        "task": "HeatInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeIdHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Storage-Tiering-IoHeat",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MeasureHeat(UInt64 FileIDLower, UInt64 FileIDUpper, UInt64 Offset, UInt32 Length, UInt32 VolumeIdHash)",
+        "opcode": "",
+        "keywords": "STORAGE_TIERING_KEYWORD_DATA STORAGE_TIERING_KEYWORD_READ",
+        "task": "MeasureHeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDLower"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDUpper"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Offset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeIdHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Storage-Tiering-IoHeat",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MeasureHeat3(UInt64 FileIDLower, UInt64 FileIDUpper, UInt64 Offset, UInt32 Length, UInt32 VolumeIdHash)",
+        "opcode": "",
+        "keywords": "STORAGE_TIERING_KEYWORD_DATA STORAGE_TIERING_KEYWORD_WRITE",
+        "task": "MeasureHeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDLower"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDUpper"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Offset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeIdHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Storage-Tiering-IoHeat",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MeasureHeat4(UInt64 FileIDLower, UInt64 FileIDUpper, UInt64 Offset, UInt32 Length, UInt32 VolumeIdHash)",
+        "opcode": "",
+        "keywords": "STORAGE_TIERING_KEYWORD_DATA STORAGE_TIERING_KEYWORD_DELETE",
+        "task": "MeasureHeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDLower"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDUpper"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Offset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeIdHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Storage-Tiering-IoHeat",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MeasureHeat5(UInt64 FileIDLower, UInt64 FileIDUpper, UInt64 Offset, UInt32 Length, UInt32 Source, UInt32 Destination, UInt32 VolumeIdHash)",
+        "opcode": "",
+        "keywords": "STORAGE_TIERING_KEYWORD_DATA STORAGE_TIERING_KEYWORD_TIERMOVE",
+        "task": "MeasureHeat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDLower"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FileIDUpper"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Offset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Destination"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VolumeIdHash"
+            }
+        ]
+    }
+]

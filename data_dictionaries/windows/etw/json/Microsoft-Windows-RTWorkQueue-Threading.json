@@ -1,0 +1,1556 @@
+[
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4435",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExecuteStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer AsyncResult, Boolean LongRunning)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Execute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LongRunning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4436",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExecuteStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer AsyncResult, Boolean LongRunning)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Execute",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LongRunning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4437",
+        "version": "0",
+        "event(fields)": "WorkQueue:QueueStart(Pointer WorkQueuePointer, Int32 QueueDepth, Pointer AsyncResult)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Queue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "QueueDepth"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4438",
+        "version": "0",
+        "event(fields)": "WorkQueue:QueueStop(Pointer WorkQueuePointer, Int32 QueueDepth, Pointer AsyncResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Queue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "QueueDepth"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4439",
+        "version": "0",
+        "event(fields)": "WorkQueue:ThreadStart(Pointer WorkQueuePointer, UInt32 WordQueueID, UInt32 ThreadCount, UInt32 ThreadID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Thread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WordQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4440",
+        "version": "0",
+        "event(fields)": "WorkQueue:ThreadStop(Pointer WorkQueuePointer, UInt32 WordQueueID, UInt32 ThreadCount, UInt32 ThreadID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Thread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WordQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4454",
+        "version": "0",
+        "event(fields)": "MMCSSRegistrationStart(Pointer Queue, UInt32 ThreadID, Pointer Handle, UInt32 Error, UnicodeString Class, Int32 Priority, UInt32 TaskID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MMCSSRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Queue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4455",
+        "version": "0",
+        "event(fields)": "MMCSSRegistrationStop(Pointer Queue, UInt32 ThreadID, Pointer Handle, UInt32 Error, UnicodeString Class, Int32 Priority, UInt32 TaskID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MMCSSRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Queue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4472",
+        "version": "0",
+        "event(fields)": "WorkQueue:Queue_CreateStart(Pointer WorkQueuePointer, Int32 WorkQueueID, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Queue_Create",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4473",
+        "version": "0",
+        "event(fields)": "WorkQueue:Queue_CreateStop(Pointer WorkQueuePointer, Int32 WorkQueueID, UInt32 Flags)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Queue_Create",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4474",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExecutecallbackStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 BaseWorkQueueID, UInt32 ThreadID, Pointer AsyncResult, Pointer AsyncResultVTable, Boolean LongRunning)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Executecallback",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BaseWorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResultVTable"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LongRunning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4475",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExecutecallbackStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 BaseWorkQueueID, UInt32 ThreadID, Pointer AsyncResult, Pointer AsyncResultVTable, Boolean LongRunning)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Executecallback",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BaseWorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResult"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AsyncResultVTable"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "LongRunning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4476",
+        "version": "0",
+        "event(fields)": "WorkQueue:MMCSSTransitionStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, UnicodeString Class, Int32 Priority, UInt32 TaskID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:MMCSSTransition",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4477",
+        "version": "0",
+        "event(fields)": "WorkQueue:MMCSSTransitionStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, UnicodeString Class, Int32 Priority, UInt32 TaskID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:MMCSSTransition",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4478",
+        "version": "0",
+        "event(fields)": "WorkQueue:UpdateDeadlinesStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskID, Int64 PreviousDeadline, Int64 NextDeadline, Int32 lDelay_ms, Int32 lPreDelay_ms)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:UpdateDeadlines",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskID"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "PreviousDeadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "NextDeadline"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "lDelay_ms"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "lPreDelay_ms"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4479",
+        "version": "0",
+        "event(fields)": "WorkQueue:UpdateDeadlinesStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskID, Int64 PreviousDeadline, Int64 NextDeadline, Int32 lDelay_ms, Int32 lPreDelay_ms)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:UpdateDeadlines",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskID"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "PreviousDeadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "NextDeadline"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "lDelay_ms"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "lPreDelay_ms"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4480",
+        "version": "0",
+        "event(fields)": "WorkQueue:AddDeadlineStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer ItemPointer, Int64 GlobalDeadline, Int64 DeltaAhead_usec)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:AddDeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ItemPointer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "GlobalDeadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaAhead_usec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4481",
+        "version": "0",
+        "event(fields)": "WorkQueue:AddDeadlineStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer ItemPointer, Int64 GlobalDeadline, Int64 DeltaAhead_usec)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:AddDeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ItemPointer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "GlobalDeadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaAhead_usec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4482",
+        "version": "0",
+        "event(fields)": "WorkQueue:AddImmediateDeadlineStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer ItemPointer, Int64 GlobalDeadline, Int64 DeltaAhead_usec)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:AddImmediateDeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ItemPointer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "GlobalDeadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaAhead_usec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4483",
+        "version": "0",
+        "event(fields)": "WorkQueue:AddImmediateDeadlineStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer ItemPointer, Int64 GlobalDeadline, Int64 DeltaAhead_usec)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:AddImmediateDeadline",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ItemPointer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "GlobalDeadline"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "DeltaAhead_usec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4484",
+        "version": "0",
+        "event(fields)": "WorkQueue:DeadlineYieldStart(UInt32 WorkQueueID, UInt32 Yield)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:DeadlineYield",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Yield"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4485",
+        "version": "0",
+        "event(fields)": "WorkQueue:DeadlineYieldStop(UInt32 WorkQueueID, UInt32 Yield)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:DeadlineYield",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Yield"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4486",
+        "version": "0",
+        "event(fields)": "WorkQueue:UpdateDeadlineQueue(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TotalCount, UInt32 ImmediateCount, Int64 NextDeadline, Pointer ItemPointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:UpdateDeadlineQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImmediateCount"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "NextDeadline"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ItemPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4487",
+        "version": "0",
+        "event(fields)": "WorkQueue:LongRunningStart(UInt32 WorkQueueID, UInt32 TaskGroupID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:LongRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroupID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4488",
+        "version": "0",
+        "event(fields)": "WorkQueue:LongRunningStop(UInt32 WorkQueueID, UInt32 TaskGroupID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:LongRunning",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroupID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4489",
+        "version": "0",
+        "event(fields)": "WorkQueue:StartTimer(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer TimerPointer, Int64 Timeout, Boolean IsPeriodic)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:StartTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TimerPointer"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "Timeout"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsPeriodic"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4490",
+        "version": "0",
+        "event(fields)": "WorkQueue:ExecuteTimer(Pointer WorkQueuePointer, UInt32 WorkQueueID, Pointer TimerPointer, Boolean IsPeriodic)",
+        "opcode": "",
+        "keywords": "",
+        "task": "WorkQueue:ExecuteTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TimerPointer"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsPeriodic"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4493",
+        "version": "0",
+        "event(fields)": "UpdateSelectWorkQueuesCpuGroupMaskStart(UInt64 ProcessorGroup, UInt64 ProcessorMask)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UpdateSelectWorkQueuesCpuGroupMask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorGroup"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4494",
+        "version": "0",
+        "event(fields)": "UpdateSelectWorkQueuesCpuGroupMaskStop(UInt64 ProcessorGroup, UInt64 ProcessorMask, UInt32 hResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UpdateSelectWorkQueuesCpuGroupMask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorGroup"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4495",
+        "version": "0",
+        "event(fields)": "SubscribeCpuGroupMaskChangeWNF(UInt32 queryStatus, UInt32 subscribeStatus, UInt32 changeStamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SubscribeCpuGroupMaskChangeWNF",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "queryStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "subscribeStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "changeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4496",
+        "version": "0",
+        "event(fields)": "UpdateWorkqueueCpuGroupMask(UInt32 dwWorkQueue, UnicodeString Class, UInt64 ProcessorGroup, UInt64 ProcessorMask)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UpdateWorkqueueCpuGroupMask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "dwWorkQueue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorGroup"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4497",
+        "version": "0",
+        "event(fields)": "CpuGroupMaskChangeWnfCallback(UInt32 ChangeStamp, UInt32 CurChangeStamp, UInt64 ProcessorGroup, UInt64 ProcessorMask, UInt32 Length)",
+        "opcode": "",
+        "keywords": "",
+        "task": "CpuGroupMaskChangeWnfCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ChangeStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurChangeStamp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorGroup"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessorMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4498",
+        "version": "0",
+        "event(fields)": "SetThreadCpuGroupMask(Pointer pWorkQueue, UnicodeString Class, Int32 Priority, Int32 ThreadId, UInt64 CurProcessorGroup, UInt64 CurProcessorMask, UInt64 NewProcessorGroup, UInt64 NewProcessorMask, Int32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SetThreadCpuGroupMask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "pWorkQueue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Priority"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurProcessorGroup"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CurProcessorMask"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewProcessorGroup"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NewProcessorMask"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4499",
+        "version": "0",
+        "event(fields)": "WorkQueue:NotificationStart(Pointer WorkQueuePointer, Int32 WorkQueueID)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Notification",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4500",
+        "version": "0",
+        "event(fields)": "WorkQueue:NotificationStop(Pointer WorkQueuePointer, Int32 WorkQueueID)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Notification",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueueID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4501",
+        "version": "0",
+        "event(fields)": "WorkQueue:DebounceStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Debounce",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4502",
+        "version": "0",
+        "event(fields)": "WorkQueue:DebounceStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Debounce",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4503",
+        "version": "0",
+        "event(fields)": "WorkQueue:BufferingStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:Buffering",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4504",
+        "version": "0",
+        "event(fields)": "WorkQueue:BufferingStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:Buffering",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4505",
+        "version": "0",
+        "event(fields)": "Platform:AllocIndexStart(Pointer Platform, Int32 WorkQueueID, Int32 Index)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Platform:AllocIndex",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Index"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4506",
+        "version": "0",
+        "event(fields)": "Platform:AllocIndexStop(Pointer Platform, Int32 WorkQueueID, Int32 Index)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Platform:AllocIndex",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Index"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4507",
+        "version": "0",
+        "event(fields)": "Platform:InitStart(Pointer Platform)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Platform:Init",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4508",
+        "version": "0",
+        "event(fields)": "Platform:InitStop(Pointer Platform)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Platform:Init",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4509",
+        "version": "0",
+        "event(fields)": "Platform:ShutdownStart(Pointer Platform)",
+        "opcode": "Start",
+        "keywords": "Telemetry",
+        "task": "Platform:Shutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4510",
+        "version": "0",
+        "event(fields)": "Platform:ShutdownStop(Pointer Platform)",
+        "opcode": "Stop",
+        "keywords": "Telemetry",
+        "task": "Platform:Shutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4511",
+        "version": "0",
+        "event(fields)": "Platform:Shutdown(Pointer Platform)",
+        "opcode": "",
+        "keywords": "DiagTrack",
+        "task": "Platform:Shutdown",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4512",
+        "version": "0",
+        "event(fields)": "Platform:Shutdown_WorkQueueStart(Pointer Platform, Int32 WorkQueue, Int32 Index)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Platform:Shutdown_WorkQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueue"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Index"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4513",
+        "version": "0",
+        "event(fields)": "Platform:Shutdown_WorkQueueStop(Pointer Platform, Int32 WorkQueue, Int32 Index)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Platform:Shutdown_WorkQueue",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Platform"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WorkQueue"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Index"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4514",
+        "version": "0",
+        "event(fields)": "WorkQueue:RunLimitStart(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "WorkQueue:RunLimit",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4515",
+        "version": "0",
+        "event(fields)": "WorkQueue:RunLimitStop(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "WorkQueue:RunLimit",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4516",
+        "version": "0",
+        "event(fields)": "WorkQueue:RunLimit(Pointer WorkQueuePointer, UInt32 WorkQueueID, UInt32 TaskGroup)",
+        "opcode": "",
+        "keywords": "Telemetry",
+        "task": "WorkQueue:RunLimit",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "WorkQueuePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkQueueID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4517",
+        "version": "0",
+        "event(fields)": "TaskGroupStart(Pointer TaskGroup)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TaskGroup",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4518",
+        "version": "0",
+        "event(fields)": "TaskGroupStop(Pointer TaskGroup)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TaskGroup",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "TaskGroup"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4519",
+        "version": "0",
+        "event(fields)": "TaskGroup(Pointer TaskGroup, UInt32 RefCount)",
+        "opcode": "",
+        "keywords": "Telemetry",
+        "task": "TaskGroup",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "TaskGroup"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-RTWorkQueue-Threading",
+        "event_id": "4520",
+        "version": "0",
+        "event(fields)": "TaskGroup4520(UInt32 ObjectCount)",
+        "opcode": "",
+        "keywords": "Telemetry",
+        "task": "TaskGroup",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ObjectCount"
+            }
+        ]
+    }
+]

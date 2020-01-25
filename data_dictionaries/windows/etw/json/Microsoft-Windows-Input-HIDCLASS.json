@@ -1,0 +1,66 @@
+[
+    {
+        "provider": "Microsoft-Windows-Input-HIDCLASS",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "HIDCLASSRundownStart()",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "HIDCLASSRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Input-HIDCLASS",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "HIDCLASSRundownStop()",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "HIDCLASSRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Input-HIDCLASS",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_0Information(Pointer DeviceObject, UInt16 VendorID, UInt16 ProductID, UInt16 VersionNumber, UInt32 ReportDescriptorLength, Binary ReportDescriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VendorID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ProductID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VersionNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReportDescriptorLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ReportDescriptor"
+            }
+        ]
+    }
+]

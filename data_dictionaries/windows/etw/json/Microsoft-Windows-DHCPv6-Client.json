@@ -1,0 +1,2124 @@
+[
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventLostIpAddress(UnicodeString InterfaceGUID, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "LostIpAddress",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InterfaceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventLeaseRenewalFailed(UInt32 HWLength, Binary HWAddress, UInt32 StatusCode)",
+        "opcode": "LeaseRenewalFailed",
+        "keywords": "DHCPV6_AOAC",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "ServiceStateEventErrorServiceStop(UInt32 StatusCode, UInt32 DwordVal)",
+        "opcode": "ErrorServiceStop",
+        "keywords": "",
+        "task": "ServiceStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventIPConflict(UnicodeString InterfaceGUID, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "IPConflict",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InterfaceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "MediaStateEventRAChanged(UInt32 InterfaceId, Boolean Flag1, Boolean Flag2)",
+        "opcode": "RAChanged",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag1"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventInitNetworkInterfaceFailed(UInt32 StatusCode)",
+        "opcode": "InitNetworkInterfaceFailed",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "ServiceStateEventDHCPv6DUIDValidationFailed(UInt32 HWLength, Binary HWAddress, UInt32 DUIDLength, Binary DUID, UInt32 NewHWLength, Binary NewHWAddress, UInt32 NewDUIDLength, Binary NewDUID)",
+        "opcode": "DHCPv6DUIDValidationFailed",
+        "keywords": "",
+        "task": "ServiceStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DUIDLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "DUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewHWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "NewHWAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewDUIDLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "NewDUID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventDHCPv6NetworkHintMatch(UnicodeString NetworkHintString, UnicodeString NetworkHint, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "DHCPv6NetworkHintMatch",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHintString"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventDHCPv6NetworkHintStatefullConfig(Binary Address1, UnicodeString NetworkHintString, UnicodeString NetworkHint, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "DHCPv6NetworkHintStatefullConfig",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "Address1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHintString"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventDHCPv6NetworkHintStatelessConfig(UnicodeString NetworkHintString, UnicodeString NetworkHint, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "DHCPv6NetworkHintStatelessConfig",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHintString"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventDHCPv6NetworkHintConfigExpired(UnicodeString NetworkHintString, UnicodeString NetworkHint, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "DHCPv6NetworkHintConfigExpired",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHintString"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NetworkHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "50057",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventNetworkError(UInt32 StatusCode)",
+        "opcode": "NetworkError",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "50071",
+        "version": "0",
+        "event(fields)": "MediaStateEventAcquireNICReference(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "AcquireNICReference",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "50072",
+        "version": "0",
+        "event(fields)": "MediaStateEventReleaseNICReference(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReleaseNICReference",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51001",
+        "version": "0",
+        "event(fields)": "MediaStateEventMediaConnect(UInt32 InterfaceId)",
+        "opcode": "MediaConnect",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51002",
+        "version": "0",
+        "event(fields)": "MediaStateEventMediaDisconnect(UInt32 InterfaceId)",
+        "opcode": "MediaDisconnect",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51004",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInitConfirmReply(UInt32 InterfaceId)",
+        "opcode": "InitConfirmReply",
+        "keywords": "DHCPV6_AOAC",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51005",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInitSARR(UInt32 InterfaceId, UInt32 DwordVal1, UInt32 DwordVal2)",
+        "opcode": "InitSARR",
+        "keywords": "DHCPV6_AOAC",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51006",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventSolicitSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "SolicitSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51007",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAdvertiseReceived(UInt32 InterfaceId, UInt32 StatusCode, Binary Address)",
+        "opcode": "AdvertiseReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51008",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAdvertiseDiscarded(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "AdvertiseDiscarded",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51009",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventRequestSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "RequestSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51010",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReplyForRequestReceived(UInt32 InterfaceId, UInt32 StatusCode, Binary Address)",
+        "opcode": "ReplyForRequestReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51011",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidReplyForRequestReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InvalidReplyForRequestReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51012",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventRenewSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "RenewSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51013",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReplyForRenewReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReplyForRenewReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51014",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidReplyForRenewReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InvalidReplyForRenewReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51015",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventRebindSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "RebindSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51016",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReplyForRebindReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReplyForRebindReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51017",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidReplyForRebindReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InvalidReplyForRebindReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51018",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReleaseSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReleaseSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51019",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventDeclineSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "DeclineSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51020",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReplyForDeclineReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReplyForDeclineReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51021",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidReplyForDeclineReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InvalidReplyForDeclineReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51022",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventConfirmSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ConfirmSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51023",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReplyForConfirmReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReplyForConfirmReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51024",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidReplyForConfirmReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InvalidReplyForConfirmReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51025",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInfoRequestSent(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InfoRequestSent",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51026",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventReplyForInfoRequestReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ReplyForInfoRequestReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51027",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidReplyForInfoRequestReceived(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InvalidReplyForInfoRequestReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51029",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventErrorCreatingPacket(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ErrorCreatingPacket",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51030",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventErrorExtractingOptions(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ErrorExtractingOptions",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51031",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventStatefulToStateless(UInt32 InterfaceId, UInt32 StatusCode, UInt32 Dword1, UInt32 Dword2)",
+        "opcode": "StatefulToStateless",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51032",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventStatelessToStateful(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "StatelessToStateful",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51033",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventNonDhcpToStateful(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "NonDhcpToStateful",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51034",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventNonDhcpToStateless(UInt32 InterfaceId, UInt32 StatusCode, UInt32 Dword1, UInt32 Dword2)",
+        "opcode": "NonDhcpToStateless",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51035",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventStaticMode(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "StaticMode",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51036",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventErrorInParsing(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ErrorInParsing",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51037",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInformationRefreshTimeOptionReceived(UInt32 InterfaceId, UInt32 RefreshTime)",
+        "opcode": "InformationRefreshTimeOptionReceived",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefreshTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51038",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInformationRefreshTimeExpired(UInt32 InterfaceId)",
+        "opcode": "InformationRefreshTimeExpired",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51039",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventAddressPlumbed(Binary Address, UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "AddressPlumbed",
+        "keywords": "DHCPV6_AOAC",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51040",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventAddressUnplumbed(Binary Address, UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "AddressUnplumbed",
+        "keywords": "DHCPV6_AOAC",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51043",
+        "version": "0",
+        "event(fields)": "MediaStateEventInterfaceAdded(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "InterfaceAdded",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51044",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventErrorInitializingInterface(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ErrorInitializingInterface",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51045",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventErrorPlumbingParameters(UInt32 StatusCode)",
+        "opcode": "ErrorPlumbingParameters",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51046",
+        "version": "0",
+        "event(fields)": "ServiceStateEventServiceStart()",
+        "opcode": "ServiceStart",
+        "keywords": "",
+        "task": "ServiceStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51047",
+        "version": "0",
+        "event(fields)": "ServiceStateEventServiceStop(UInt32 DwordVal)",
+        "opcode": "ServiceStop",
+        "keywords": "",
+        "task": "ServiceStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51048",
+        "version": "0",
+        "event(fields)": "WinsockStateEventErrorOpeningSocket(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ErrorOpeningSocket",
+        "keywords": "",
+        "task": "WinsockStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51049",
+        "version": "0",
+        "event(fields)": "WinsockStateEventErrorClosingSocket(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "ErrorClosingSocket",
+        "keywords": "",
+        "task": "WinsockStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51050",
+        "version": "0",
+        "event(fields)": "DNSStateEventDnsRegistrationDone(UInt32 InterfaceId, UInt32 StatusCode, UInt32 Dword)",
+        "opcode": "DnsRegistrationDone",
+        "keywords": "",
+        "task": "DNSStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Dword"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51051",
+        "version": "0",
+        "event(fields)": "DNSStateEventNSDEREGISTRATIONDONEnsDeregistrationDone(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "dnsDeregistrationDone",
+        "keywords": "",
+        "task": "DNSStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51057",
+        "version": "0",
+        "event(fields)": "ServiceStateEventServiceStopWithRefCount(UInt32 DwordVal)",
+        "opcode": "ServiceStopWithRefCount",
+        "keywords": "",
+        "task": "ServiceStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51058",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventStatefulToStateful(UInt32 InterfaceId, UInt32 StatusCode)",
+        "opcode": "StatefulToStateful",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51059",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventInvalidMessageDiscarded()",
+        "opcode": "InvalidMessageDiscarded",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51060",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventSetClassID(UnicodeString InterfaceGUID, UInt32 HWLength, Binary HWAddress)",
+        "opcode": "SetClassID",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InterfaceGUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51061",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventAddressAlreadyExists(Binary Address, UInt32 InterfaceId)",
+        "opcode": "AddressAlreadyExists",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51062",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventFailedToObtainLease(UInt32 HWLength, Binary HWAddress, UInt32 StatusCode)",
+        "opcode": "FailedToObtainLease",
+        "keywords": "DHCPV6_AOAC",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HWLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HWAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51063",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventFirewallPortExempted(UInt32 DwordVal, UInt32 InterfaceId, UInt32 DwordVal1)",
+        "opcode": "FirewallPortExempted",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51064",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventFirewallPortClosed(UInt32 DwordVal, UInt32 InterfaceId, UInt32 DwordVal1)",
+        "opcode": "FirewallPortClosed",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51065",
+        "version": "0",
+        "event(fields)": "AddressConfigurationStateEventModeChanging(UInt32 InterfaceId, UInt32 NewMode)",
+        "opcode": "ModeChanging",
+        "keywords": "",
+        "task": "AddressConfigurationStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51066",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAggressiveRetryOn(UInt32 InterfaceId)",
+        "opcode": "AggressiveRetryOn",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51067",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAbandonSolicitInCSSinceDhcp(UInt32 DwordVal1, UInt32 InterfaceId, UInt32 Address1, UInt32 DwordVal2, UInt32 DwordVal3)",
+        "opcode": "AbandonSolicitInCSSinceDhcp",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Address1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51068",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAbandonSolicitInCSSinceStatic(UInt32 DwordVal1, UInt32 InterfaceId, UInt32 Address1, UInt32 DwordVal2, UInt32 DwordVal3)",
+        "opcode": "AbandonSolicitInCSSinceStatic",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Address1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51069",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventDontStartSolicitInCSSinceV4Plumbed(UInt32 InterfaceId, UInt32 Address1, UInt32 DwordVal1, UInt32 DwordVal2)",
+        "opcode": "DontStartSolicitInCSSinceV4Plumbed",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Address1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51070",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventStartSolicitInCSSinceV4Unplumbed(UInt32 InterfaceId, UInt32 DwordVal1, UInt32 DwordVal2)",
+        "opcode": "StartSolicitInCSSinceV4Unplumbed",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51073",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventFirewallPortExemptionTriggered(UInt32 InterfaceId, UInt32 DwordVal1)",
+        "opcode": "FirewallPortExemptionTriggered",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51074",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventFirewallPortCloseTriggered(UInt32 InterfaceId, UInt32 DwordVal1)",
+        "opcode": "FirewallPortCloseTriggered",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51075",
+        "version": "0",
+        "event(fields)": "NetworkParameterStateEventNotifyCSEntry()",
+        "opcode": "NotifyCSEntry",
+        "keywords": "",
+        "task": "NetworkParameterStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51076",
+        "version": "0",
+        "event(fields)": "NetworkParameterStateEventNotifyCSExit()",
+        "opcode": "NotifyCSExit",
+        "keywords": "",
+        "task": "NetworkParameterStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51077",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventStartSolicitInCSAtCompulsoryTime(UInt32 InterfaceId, UInt32 DwordVal1, UInt32 DwordVal2)",
+        "opcode": "StartSolicitInCSAtCompulsoryTime",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51078",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventEnableDhcpV6(UInt32 InterfaceId, UInt32 DwordVal1)",
+        "opcode": "EnableDhcpV6",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51079",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventDisableDhcpV6(UInt32 InterfaceId, UInt32 DwordVal1)",
+        "opcode": "DisableDhcpV6",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51080",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventNoProcessingSinceDhcpV6Disabled(UInt32 InterfaceId)",
+        "opcode": "NoProcessingSinceDhcpV6Disabled",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51081",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAbandonSolicitInCSSinceV6Static(UInt32 DwordVal1, UInt32 InterfaceId, Binary Address, UInt32 DwordVal2, UInt32 DwordVal3)",
+        "opcode": "AbandonSolicitInCSSinceV6Static",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51082",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAbandonSolicitInCSSinceV6Stateless(UInt32 DwordVal1, UInt32 InterfaceId, Binary Address, UInt32 DwordVal2, UInt32 DwordVal3)",
+        "opcode": "AbandonSolicitInCSSinceV6Stateless",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51083",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventAbandonSolicitSinceNonMulticast(UInt32 InterfaceId)",
+        "opcode": "AbandonSolicitSinceNonMulticast",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "51084",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventNoteFlagValues(UInt32 InterfaceId, UInt32 DwordVal1, UInt32 DwordVal2)",
+        "opcode": "NoteFlagValues",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DwordVal2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "60000",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventPerfTrackSARR(GUID InterfaceGuid, UInt32 InterfaceId, Binary Address1)",
+        "opcode": "PerfTrackSARR",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "60001",
+        "version": "0",
+        "event(fields)": "ProtocolStateEventPerfTrackInfoRequest(GUID InterfaceGuid, UInt32 InterfaceId)",
+        "opcode": "PerfTrackInfoRequest",
+        "keywords": "",
+        "task": "ProtocolStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "60002",
+        "version": "0",
+        "event(fields)": "MediaStateEventPerfTrackMediaConnect(GUID InterfaceGuid, UInt32 InterfaceId)",
+        "opcode": "PerfTrackMediaConnect",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DHCPv6-Client",
+        "event_id": "60003",
+        "version": "0",
+        "event(fields)": "MediaStateEventPerfTrackMediaConnectEnd(GUID InterfaceGuid, UInt32 InterfaceId)",
+        "opcode": "PerfTrackMediaConnectEnd",
+        "keywords": "",
+        "task": "MediaStateEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceId"
+            }
+        ]
+    }
+]

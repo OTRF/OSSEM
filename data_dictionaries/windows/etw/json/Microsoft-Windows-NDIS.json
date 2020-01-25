@@ -1,0 +1,4713 @@
+[
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10000",
+        "version": "0",
+        "event(fields)": "Request(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, GUID LowerIf)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "LowerIf"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10001",
+        "version": "0",
+        "event(fields)": "Request10001(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, GUID LowerIf)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "LowerIf"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10002",
+        "version": "0",
+        "event(fields)": "PnP(UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "PnP ut:Global",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10003",
+        "version": "0",
+        "event(fields)": "PnP10003(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "PnP LwtDiagnostic ut:Global",
+        "task": "PnP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10004",
+        "version": "0",
+        "event(fields)": "PnP10004(UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10005",
+        "version": "0",
+        "event(fields)": "Init(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Init",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10006",
+        "version": "0",
+        "event(fields)": "Bind(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UnicodeString ProtocolName, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Bind",
+        "task": "Bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtocolName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10007",
+        "version": "0",
+        "event(fields)": "Init10007(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Init LwtDiagnostic",
+        "task": "Init",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10008",
+        "version": "0",
+        "event(fields)": "Request10008(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10009",
+        "version": "0",
+        "event(fields)": "Power(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10010",
+        "version": "0",
+        "event(fields)": "Request10010(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10011",
+        "version": "0",
+        "event(fields)": "WMI(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "WMI",
+        "task": "WMI",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10012",
+        "version": "0",
+        "event(fields)": "Interface(UInt32 CompartmentId)",
+        "opcode": "",
+        "keywords": "Interface",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CompartmentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10013",
+        "version": "0",
+        "event(fields)": "Interface10013(UInt32 IfType, UInt64 NetLuid, UInt32 StructType, UInt32 ParameterLen, UInt32 ParameterOffset)",
+        "opcode": "",
+        "keywords": "Interface",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StructType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParameterLen"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParameterOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10014",
+        "version": "0",
+        "event(fields)": "Interface10014(UInt32 IfType, UInt64 NetLuid)",
+        "opcode": "",
+        "keywords": "Interface",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10015",
+        "version": "0",
+        "event(fields)": "Interface10015(GUID NetworkId)",
+        "opcode": "",
+        "keywords": "Interface",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "NetworkId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10016",
+        "version": "0",
+        "event(fields)": "Request10016(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10017",
+        "version": "0",
+        "event(fields)": "Bind10017(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UnicodeString ProtocolName)",
+        "opcode": "",
+        "keywords": "Bind",
+        "task": "Bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtocolName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10018",
+        "version": "0",
+        "event(fields)": "Request10018(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10019",
+        "version": "0",
+        "event(fields)": "Power10019(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10020",
+        "version": "0",
+        "event(fields)": "Port(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Port",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10021",
+        "version": "0",
+        "event(fields)": "Port10021(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Port",
+        "task": "Port",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10022",
+        "version": "0",
+        "event(fields)": "Interface10022(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Interface",
+        "task": "Interface",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10023",
+        "version": "0",
+        "event(fields)": "Power10023(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Type, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10024",
+        "version": "0",
+        "event(fields)": "PnP10024(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 IrpMinorFunction)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IrpMinorFunction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10025",
+        "version": "0",
+        "event(fields)": "WMI10025(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 IrpMinorFunction)",
+        "opcode": "",
+        "keywords": "WMI",
+        "task": "WMI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IrpMinorFunction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10026",
+        "version": "0",
+        "event(fields)": "WMI10026(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "WMI",
+        "task": "WMI",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10027",
+        "version": "0",
+        "event(fields)": "Init10027(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Init",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10028",
+        "version": "0",
+        "event(fields)": "PnP10028(GUID MiniportIfGuid, UInt32 MiniportIfIndex, UInt64 MiniportNetLuid, GUID FilterIfGuid, UInt32 FilterIfIndex, UInt64 FilterNetLuid, HexInt32 OriginalMediaType, HexInt32 NewMediaType)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "MiniportIfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiniportIfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MiniportNetLuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "FilterIfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FilterIfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FilterNetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OriginalMediaType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NewMediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10029",
+        "version": "0",
+        "event(fields)": "Init10029(UnicodeString FilterName, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "Init ut:Global",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10030",
+        "version": "0",
+        "event(fields)": "Init10030(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Init",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10031",
+        "version": "0",
+        "event(fields)": "WMI10031(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "WMI",
+        "task": "WMI",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10032",
+        "version": "0",
+        "event(fields)": "Init10032(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Reason, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Init LwtDiagnostic",
+        "task": "Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10033",
+        "version": "0",
+        "event(fields)": "Init10033(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Reason, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Init LwtDiagnostic",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10034",
+        "version": "0",
+        "event(fields)": "PnP10034(UInt32 ErrorCode, UInt32 Location, UInt32 Context, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10035",
+        "version": "0",
+        "event(fields)": "Power10035(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Type, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10037",
+        "version": "0",
+        "event(fields)": "Bind10037(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Bind",
+        "task": "Bind",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10038",
+        "version": "0",
+        "event(fields)": "WMI10038(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "WMI",
+        "task": "WMI",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10039",
+        "version": "0",
+        "event(fields)": "Power10039(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10040",
+        "version": "0",
+        "event(fields)": "PnP10040(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 StateFlags)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StateFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10041",
+        "version": "0",
+        "event(fields)": "PnP10041(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 StateFlags)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StateFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10042",
+        "version": "0",
+        "event(fields)": "Bind10042(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Bind",
+        "task": "Bind",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10043",
+        "version": "0",
+        "event(fields)": "WorkItem(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Action)",
+        "opcode": "",
+        "keywords": "WorkItem",
+        "task": "WorkItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Action"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10044",
+        "version": "0",
+        "event(fields)": "Power10044(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10045",
+        "version": "0",
+        "event(fields)": "PnP10045(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Binary MacAddress)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MacAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10046",
+        "version": "0",
+        "event(fields)": "Power10046(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Type, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10047",
+        "version": "0",
+        "event(fields)": "Power10047(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10048",
+        "version": "0",
+        "event(fields)": "Power10048(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 SystemState, HexInt32 DeviceState)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SystemState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10049",
+        "version": "0",
+        "event(fields)": "Power10049(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Type, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10050",
+        "version": "0",
+        "event(fields)": "Init10050(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Init",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10052",
+        "version": "0",
+        "event(fields)": "PnP10052(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Oid, UInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Oid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10053",
+        "version": "0",
+        "event(fields)": "Bind10053(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Bind",
+        "task": "Bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10054",
+        "version": "0",
+        "event(fields)": "Port10054(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Reason, UInt32 Port)",
+        "opcode": "",
+        "keywords": "Port LwtDiagnostic",
+        "task": "Port",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Port"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10055",
+        "version": "0",
+        "event(fields)": "Power10055(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10056",
+        "version": "0",
+        "event(fields)": "Power10056(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10057",
+        "version": "0",
+        "event(fields)": "Power10057(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10058",
+        "version": "0",
+        "event(fields)": "Power10058(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10059",
+        "version": "0",
+        "event(fields)": "Power10059(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10060",
+        "version": "0",
+        "event(fields)": "Power10060(UInt32 Context, UInt32 State)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10061",
+        "version": "0",
+        "event(fields)": "Power10061(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10062",
+        "version": "0",
+        "event(fields)": "Power10062(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10063",
+        "version": "0",
+        "event(fields)": "Power10063(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10064",
+        "version": "0",
+        "event(fields)": "Power10064(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10065",
+        "version": "0",
+        "event(fields)": "Power10065(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 SystemState, HexInt32 DeviceState)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SystemState"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "DeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10066",
+        "version": "0",
+        "event(fields)": "Power10066(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10067",
+        "version": "0",
+        "event(fields)": "Power10067(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10068",
+        "version": "0",
+        "event(fields)": "Power10068(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10069",
+        "version": "0",
+        "event(fields)": "Bind10069(UInt32 Layer, UnicodeString ProtocolName, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "Bind ut:Global",
+        "task": "Bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Layer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtocolName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10070",
+        "version": "0",
+        "event(fields)": "Bind10070(UInt32 Layer, UnicodeString ProtocolName, UnicodeString DeviceName)",
+        "opcode": "",
+        "keywords": "Bind ut:Global",
+        "task": "Bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Layer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtocolName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10071",
+        "version": "0",
+        "event(fields)": "PnP10071(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10072",
+        "version": "0",
+        "event(fields)": "Power10072(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10073",
+        "version": "0",
+        "event(fields)": "Power10073(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10074",
+        "version": "0",
+        "event(fields)": "Power10074(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Oid, Boolean Set)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Oid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Set"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10075",
+        "version": "0",
+        "event(fields)": "Bind10075(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Bind",
+        "task": "Bind",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10076",
+        "version": "0",
+        "event(fields)": "Init10076(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Init",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10077",
+        "version": "0",
+        "event(fields)": "Init10077(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Init",
+        "task": "Init",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10078",
+        "version": "0",
+        "event(fields)": "SendM(Pointer OpenRef, Pointer Packet)",
+        "opcode": "",
+        "keywords": "SendM",
+        "task": "SendM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "OpenRef"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Packet"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10079",
+        "version": "0",
+        "event(fields)": "Request10079(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Boolean CompletedAtOpen, Pointer Open, Pointer Request)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CompletedAtOpen"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Open"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10080",
+        "version": "0",
+        "event(fields)": "Request10080(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10081",
+        "version": "0",
+        "event(fields)": "Request10081(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10082",
+        "version": "0",
+        "event(fields)": "Request10082(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10083",
+        "version": "0",
+        "event(fields)": "Request10083(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10084",
+        "version": "0",
+        "event(fields)": "Request10084(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Open, HexInt32 OriginalMediaType, HexInt32 ExpectedMediaType)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Open"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OriginalMediaType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExpectedMediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10085",
+        "version": "0",
+        "event(fields)": "Request10085(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Open, HexInt32 OriginalMediaType, HexInt32 ExpectedMediaType)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Open"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "OriginalMediaType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExpectedMediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10086",
+        "version": "0",
+        "event(fields)": "Request10086(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10087",
+        "version": "0",
+        "event(fields)": "Power10087(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Type, HexInt32 State)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10088",
+        "version": "0",
+        "event(fields)": "PnP10088(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UnicodeString Transport, HexInt32 PnPEvent, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Transport"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PnPEvent"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10089",
+        "version": "0",
+        "event(fields)": "PnP10089(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "PnP",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10090",
+        "version": "0",
+        "event(fields)": "Protocol(UnicodeString ProtocolName, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "Protocol",
+        "task": "Protocol",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtocolName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10091",
+        "version": "0",
+        "event(fields)": "Power10091(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10092",
+        "version": "0",
+        "event(fields)": "Power10092(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10093",
+        "version": "0",
+        "event(fields)": "Power10093(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10094",
+        "version": "0",
+        "event(fields)": "Log(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UnicodeString AdapterName, UInt32 Error, UInt32 ErrorValueCount, UInt32 ErrorValues)",
+        "opcode": "",
+        "keywords": "Log",
+        "task": "Log",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorValueCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorValues"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10095",
+        "version": "0",
+        "event(fields)": "Request10095(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10096",
+        "version": "0",
+        "event(fields)": "Port10096(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Reason, UInt32 Port)",
+        "opcode": "",
+        "keywords": "Port",
+        "task": "Port",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Port"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10097",
+        "version": "0",
+        "event(fields)": "Power10097(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10098",
+        "version": "0",
+        "event(fields)": "Power10098(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10099",
+        "version": "0",
+        "event(fields)": "Power10099(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10100",
+        "version": "0",
+        "event(fields)": "Power10100(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10101",
+        "version": "0",
+        "event(fields)": "Request10101(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, Boolean CompleteRequest, HexInt32 Status, UInt32 Oid)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CompleteRequest"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Oid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10102",
+        "version": "0",
+        "event(fields)": "Request10102(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Pointer Request, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10103",
+        "version": "0",
+        "event(fields)": "WorkItem10103(GUID IfGuid, UInt8 State, UInt32 Location)",
+        "opcode": "",
+        "keywords": "WorkItem",
+        "task": "WorkItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10104",
+        "version": "0",
+        "event(fields)": "Indication(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Flags, HexInt32 PnPFlags, UInt32 DevicePowerState)",
+        "opcode": "",
+        "keywords": "Indication LwtDiagnostic",
+        "task": "Indication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PnPFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DevicePowerState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10105",
+        "version": "0",
+        "event(fields)": "Indication10105(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32 Flags, HexInt32 PnPFlags, UInt32 DevicePowerState)",
+        "opcode": "",
+        "keywords": "Indication LwtDiagnostic",
+        "task": "Indication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PnPFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DevicePowerState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10106",
+        "version": "0",
+        "event(fields)": "Indication10106(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 OperationalStatus, UInt32 OperationalStatusFlags)",
+        "opcode": "",
+        "keywords": "Indication",
+        "task": "Indication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationalStatusFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10107",
+        "version": "0",
+        "event(fields)": "Indication10107(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 OperationalStatus, UInt32 OperationalStatusFlags)",
+        "opcode": "",
+        "keywords": "Indication",
+        "task": "Indication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationalStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationalStatusFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10108",
+        "version": "0",
+        "event(fields)": "Indication10108(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 ChangeType)",
+        "opcode": "",
+        "keywords": "Indication",
+        "task": "Indication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChangeType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10109",
+        "version": "0",
+        "event(fields)": "Request10109(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10110",
+        "version": "0",
+        "event(fields)": "Request10110(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10111",
+        "version": "0",
+        "event(fields)": "Request10111(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10112",
+        "version": "0",
+        "event(fields)": "Request10112(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType, HexInt32 Status, UInt32 Location)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10113",
+        "version": "0",
+        "event(fields)": "Request10113(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10114",
+        "version": "0",
+        "event(fields)": "Request10114(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType, GUID LowerIf)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "LowerIf"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10115",
+        "version": "0",
+        "event(fields)": "Request10115(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType, GUID LowerIf)",
+        "opcode": "",
+        "keywords": "Request",
+        "task": "Request",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "LowerIf"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10200",
+        "version": "0",
+        "event(fields)": "ReceiveThrottling(UInt32 NetLuidIndex, UInt32 FunctionType)",
+        "opcode": "",
+        "keywords": "ReceiveThrottling",
+        "task": "ReceiveThrottling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10201",
+        "version": "0",
+        "event(fields)": "ReceiveThrottling10201(UInt32 NetLuidIndex, UInt32 FunctionType, UInt64 Duration)",
+        "opcode": "",
+        "keywords": "ReceiveThrottling",
+        "task": "ReceiveThrottling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10202",
+        "version": "0",
+        "event(fields)": "ReceiveThrottling10202(UInt32 NetLuidIndex)",
+        "opcode": "",
+        "keywords": "ReceiveThrottling",
+        "task": "ReceiveThrottling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10203",
+        "version": "0",
+        "event(fields)": "ReceiveThrottling10203(UInt32 NetLuidIndex, UInt64 Duration, UInt32 NumberOfNbls)",
+        "opcode": "",
+        "keywords": "ReceiveThrottling",
+        "task": "ReceiveThrottling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfNbls"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10204",
+        "version": "0",
+        "event(fields)": "ReceiveThrottling10204(UInt32 NetLuidIndex, UInt32 CurrentProcessorIndex, UInt32 NumberOfNetBufferLists, UInt32 ProcessingDurationMilliseconds, UInt32 PreviousLimit, UInt32 NewLimit, UInt32 IndividualMeasurement, UInt32 CummulativeMeasurement)",
+        "opcode": "",
+        "keywords": "ReceiveThrottling",
+        "task": "ReceiveThrottling",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentProcessorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfNetBufferLists"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessingDurationMilliseconds"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreviousLimit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewLimit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IndividualMeasurement"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CummulativeMeasurement"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10300",
+        "version": "0",
+        "event(fields)": "Power10300(UInt32 NetLuidIndex)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10301",
+        "version": "0",
+        "event(fields)": "Power10301(UInt32 NetLuidIndex, UInt32 NdisStatusCode)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NdisStatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10302",
+        "version": "0",
+        "event(fields)": "Power10302(UInt32 NetLuidIndex, UInt32 ResumeReason)",
+        "opcode": "",
+        "keywords": "Power",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NetLuidIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResumeReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10303",
+        "version": "0",
+        "event(fields)": "Power10303(UInt64 InterfaceLuid, UInt32 ComponentId, UInt32 ComponentRefCount, UInt32 InterfaceRefCount)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InterfaceLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentRefCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceRefCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10304",
+        "version": "0",
+        "event(fields)": "Power10304(UInt64 InterfaceLuid, UInt32 ComponentId, UInt32 ComponentRefCount, UInt32 InterfaceRefCount)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InterfaceLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentRefCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceRefCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10305",
+        "version": "0",
+        "event(fields)": "Power10305(UInt64 IfLuid, UInt32 WakeReason)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WakeReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10306",
+        "version": "0",
+        "event(fields)": "Power10306(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10307",
+        "version": "0",
+        "event(fields)": "Power10307(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10308",
+        "version": "0",
+        "event(fields)": "Power10308(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10309",
+        "version": "0",
+        "event(fields)": "Power10309(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 Status)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10310",
+        "version": "0",
+        "event(fields)": "Power10310(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10311",
+        "version": "0",
+        "event(fields)": "PnP10311(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UnicodeString AdapterName, UInt32 MiniportEventEnum)",
+        "opcode": "",
+        "keywords": "PnP Init Power LwtDiagnostic",
+        "task": "PnP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiniportEventEnum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10312",
+        "version": "0",
+        "event(fields)": "WorkItem10312(GUID IfGuid, UInt8 State, UInt32 Location, GUID MiniportIfGuid, UnicodeString MiniportAdapterName, UnicodeString FilterInstanceName, UnicodeString FilterFriendlyName)",
+        "opcode": "",
+        "keywords": "WorkItem",
+        "task": "WorkItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "MiniportIfGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MiniportAdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterInstanceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterFriendlyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10313",
+        "version": "0",
+        "event(fields)": "Power10313()",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10314",
+        "version": "0",
+        "event(fields)": "Power10314(UInt64 Duration)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10315",
+        "version": "0",
+        "event(fields)": "Power10315(UInt32 IfIndex, UInt64 IfLuid, UInt64 ActiveTime, UInt32 PowerTransitionCount)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActiveTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PowerTransitionCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10316",
+        "version": "0",
+        "event(fields)": "Power10316(UInt64 InterfaceLuid, UInt32 ComponentId, UInt64 ActiveTime)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InterfaceLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActiveTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10317",
+        "version": "0",
+        "event(fields)": "PnP10317(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UnicodeString AdapterName, UInt32 MiniportEventEnum)",
+        "opcode": "",
+        "keywords": "PnP Init Power LwtDiagnostic",
+        "task": "PnP",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MiniportEventEnum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10320",
+        "version": "0",
+        "event(fields)": "RefcountrundownStart(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid)",
+        "opcode": "Start",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Refcountrundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10321",
+        "version": "0",
+        "event(fields)": "Refcountrundown(UInt64 NetLuid, UInt32 ComponentId, UInt32 RefcountValue)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Refcountrundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RefcountValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10322",
+        "version": "0",
+        "event(fields)": "RefcountrundownStop(UInt64 NetLuid, UInt32 StopFlags)",
+        "opcode": "Stop",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Refcountrundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StopFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10323",
+        "version": "0",
+        "event(fields)": "Power10323(UInt32 IfIndex, UInt64 IfLuid, UnicodeString PowerStateFrom, UnicodeString PowerStateTo, UInt64 IfInUnicastPackets, UInt64 IfOutUnicastPackets, UInt64 IfInMulticastPackets, UInt64 IfOutMulticastPackets, UInt64 IfInBroadcastPackets, UInt64 IfOutBroadcastPackets)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PowerStateFrom"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PowerStateTo"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfInUnicastPackets"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfOutUnicastPackets"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfInMulticastPackets"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfOutMulticastPackets"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfInBroadcastPackets"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfOutBroadcastPackets"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10324",
+        "version": "0",
+        "event(fields)": "Power10324(UInt8 ScenarioInstanceId, GUID ParentGuid, GUID BlockerGuid, Pointer PhysicalDeviceNode)",
+        "opcode": "",
+        "keywords": "SleepStudy",
+        "task": "Power",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioInstanceId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ParentGuid"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "BlockerGuid"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "PhysicalDeviceNode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10325",
+        "version": "0",
+        "event(fields)": "Power10325(GUID IfGuid, UInt32 WakePacketSize, Binary WakePacketPayload)",
+        "opcode": "",
+        "keywords": "Power LwtDiagnostic keyword_20000000000",
+        "task": "Power",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WakePacketSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "WakePacketPayload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10400",
+        "version": "0",
+        "event(fields)": "task_0(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UnicodeString AdapterName, UInt32 ResetReason, UInt32 ResetCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResetReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResetCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "10401",
+        "version": "0",
+        "event(fields)": "Interface10401(UInt64 NetLuid)",
+        "opcode": "",
+        "keywords": "Interface",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "NetLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60001",
+        "version": "0",
+        "event(fields)": "task_060001(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60002",
+        "version": "0",
+        "event(fields)": "task_060002(UInt32 WarningCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60003",
+        "version": "0",
+        "event(fields)": "task_060003(UInt8 NextState, UInt32 Context)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "NextState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60004",
+        "version": "0",
+        "event(fields)": "task_060004(UInt32 Context, UInt32 UpdateReasonCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdateReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60101",
+        "version": "0",
+        "event(fields)": "task_060101(UInt32 SourceAddress, UInt32 SourcePort, UInt32 DestinationAddress, UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationPort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60102",
+        "version": "0",
+        "event(fields)": "task_060102(Binary SourceAddress, UInt32 SourcePort, Binary DestinationAddress, UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "SourceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePort"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "DestinationAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationPort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NDIS",
+        "event_id": "60103",
+        "version": "0",
+        "event(fields)": "task_060103(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    }
+]

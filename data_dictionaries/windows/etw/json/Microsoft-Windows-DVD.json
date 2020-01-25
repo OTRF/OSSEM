@@ -1,0 +1,488 @@
+[
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "NavSendSample(Pointer Object, Int32 StreamID, Int32 StreamType, Int32 IsRunning, Int64 rtTimestamp, Int64 rtNow, Int64 rtAhead, Int32 SyncPoint, Int32 TimeDisc, Int32 Length)",
+        "opcode": "",
+        "keywords": "",
+        "task": "NavSendSample",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "StreamType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "IsRunning"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtTimestamp"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtNow"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtAhead"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SyncPoint"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TimeDisc"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "NavFlushStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavFlush",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "NavFlushStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavFlush",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "NavStillTimerStart(Pointer Object, Int32 Duration)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavStillTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "NavStillTimerStop(Pointer Object, Int32 Duration)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavStillTimer",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "NavParsePCI(Pointer Object, Int32 HaveRun, Int32 IsRunning, Int32 UsedGetTime, Int32 SetTimeToNow, Int32 CellTimeDisc, Int64 rtNow, Int64 rtTime0, Int64 rtNow_Time0, Int64 VOBULen)",
+        "opcode": "",
+        "keywords": "",
+        "task": "NavParsePCI",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HaveRun"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "IsRunning"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "UsedGetTime"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SetTimeToNow"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "CellTimeDisc"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtNow"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtTime0"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "rtNow_Time0"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "VOBULen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "NavThrottleStart(Pointer Object, Int32 Duration, Int32 MaxLatency)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavThrottle",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MaxLatency"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "NavThrottleStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavThrottle",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "NavPumpWaitStart(Pointer Object, Int32 HandleMask)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavPumpWait",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HandleMask"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "NavPumpWaitStop(Pointer Object, Int32 WakeIndex, Int32 LastError, Int32 IOIndex, Int32 ExtraEventInfo)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavPumpWait",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "WakeIndex"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "IOIndex"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ExtraEventInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "NavSendEventNotification(Pointer Object, Int32 Type, Int32 Param1, Int32 Param2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "NavSendEventNotification",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Param1"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "NavDomainChange(Pointer Object, Int32 Domain, Int32 VTSN)",
+        "opcode": "",
+        "keywords": "",
+        "task": "NavDomainChange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Domain"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "VTSN"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "NavSendErrorNotification(Pointer Object, Int32 Param1, Int32 Param2)",
+        "opcode": "",
+        "keywords": "",
+        "task": "NavSendErrorNotification",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Param1"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "NavStartStreamingStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavStartStreaming",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "NavStartStreamingStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavStartStreaming",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "NavCreateFileStart(Pointer Object, UnicodeString Filename)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavCreateFile",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filename"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "NavCreateFileStop(Pointer Object, Int32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavCreateFile",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "NavMutexLockStart(Pointer Object)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NavMutexLock",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DVD",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "NavMutexLockStop(Pointer Object)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NavMutexLock",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Object"
+            }
+        ]
+    }
+]

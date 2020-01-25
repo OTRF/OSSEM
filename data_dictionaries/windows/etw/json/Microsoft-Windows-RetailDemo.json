@@ -1,0 +1,54 @@
+[
+    {
+        "provider": "Microsoft-Windows-RetailDemo",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "RetailDemo_Service_LifetimeStart()",
+        "opcode": "Start",
+        "keywords": "Service",
+        "task": "RetailDemo_Service_Lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-RetailDemo",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "RetailDemo_Service_LifetimeStop()",
+        "opcode": "Stop",
+        "keywords": "Service",
+        "task": "RetailDemo_Service_Lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-RetailDemo",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "RetailDemo_Service_Error(AnsiString ErrorState, AnsiString ErrorPhase, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "",
+        "task": "RetailDemo_Service_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "ErrorState"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ErrorPhase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    }
+]

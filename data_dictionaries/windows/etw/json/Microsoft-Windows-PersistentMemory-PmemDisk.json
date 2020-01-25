@@ -1,0 +1,866 @@
+[
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(UInt64 StartAddress, UInt64 Size)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "StartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_02(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, UInt64 RequestDuration, Pointer Irp, Boolean IsWrite, UInt32 NtStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDuration"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_03(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, UInt64 RequestDuration, Pointer Irp, Boolean IsWrite, UInt32 NtStatus)",
+        "opcode": "",
+        "keywords": "IO_Performance",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDuration"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsWrite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "task_0101(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, UInt8 IRPMJ, UInt64 LengthOfTransfer, HexInt64 LBA)",
+        "opcode": "",
+        "keywords": "Read",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRPMJ"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransfer"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "task_0102(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, UInt8 IRPMJ, UInt64 LengthOfTransfer, HexInt64 LBA)",
+        "opcode": "",
+        "keywords": "Write",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRPMJ"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransfer"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "task_0103(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, UInt8 IRPMJ, UInt64 LengthOfTransfer, HexInt64 LBA)",
+        "opcode": "",
+        "keywords": "Read PagingRead",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRPMJ"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransfer"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "task_0104(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, UInt8 IRPMJ, UInt64 LengthOfTransfer, HexInt64 LBA)",
+        "opcode": "",
+        "keywords": "Write PagingWrite",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IRPMJ"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransfer"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "task_0105(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, HexInt32 NTStatus)",
+        "opcode": "",
+        "keywords": "Read Write PagingRead PagingWrite",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "task_0106(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)",
+        "opcode": "",
+        "keywords": "IOCTL",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MajorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "task_0107(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "IOCTL",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "task_0108(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, HexInt32 MinorFunction, HexInt32 Type, Pointer DeviceObject)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MinorFunction"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DeviceObject"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "task_0109(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer Irp, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "PnP",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceNumber"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "task_0202(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UInt32 Reason, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "task_0203(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "task_0204(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "task_0205(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "task_0206(GUID LogicalPersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, GUID PhysicalNvdimmGuid, UInt32 NfitHandle, UInt32 NvdimmHealthStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "LogicalPersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PhysicalNvdimmGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NfitHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NvdimmHealthStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "task_0207(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "task_0209(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "task_0211(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "task_0212(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "task_0213(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "task_0214(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "SerialNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "task_0215(GUID PersistentMemoryDiskGuid, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "task_0300(GUID PersistentMemoryDiskGuid)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "task_0301(GUID PersistentMemoryDiskGuid)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "task_0302(GUID PersistentMemoryDiskGuid)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PersistentMemory-PmemDisk",
+        "event_id": "900",
+        "version": "0",
+        "event(fields)": "task_0900(GUID PersistentMemoryDiskGuid, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PersistentMemoryDiskGuid"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    }
+]

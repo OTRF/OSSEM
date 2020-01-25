@@ -1,0 +1,285 @@
+[
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "InvocationStart(UnicodeString Uri)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Invocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "InvocationStop(UnicodeString Uri, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Invocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "ParseStart(UnicodeString Uri)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Parse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "Parse(UnicodeString Scheme)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Parse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Scheme"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "Parse203(UnicodeString SearchView)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Parse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SearchView"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "ParseStop(UnicodeString Uri, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Parse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "ParseParameterStart(UnicodeString Parameter)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ParseParameter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "ParseParameter(UnicodeString Parameter, UnicodeString ParameterValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ParseParameter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParameterValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "ParseParameter303(UnicodeString Parameter, UnicodeString ParameterValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ParseParameter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParameterValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "ParseParameter304(UnicodeString Parameter, UnicodeString Value, UInt32 Result)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ParseParameter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "305",
+        "version": "0",
+        "event(fields)": "ParseParameter305(UnicodeString Parameter, UnicodeString OldValue, UnicodeString NewValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ParseParameter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldValue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "ParseParameterStop(UnicodeString Parameter, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ParseParameter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "401",
+        "version": "0",
+        "event(fields)": "SearchInvocationStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SearchInvocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-Search-UriHandler",
+        "event_id": "402",
+        "version": "0",
+        "event(fields)": "SearchInvocationStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SearchInvocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    }
+]

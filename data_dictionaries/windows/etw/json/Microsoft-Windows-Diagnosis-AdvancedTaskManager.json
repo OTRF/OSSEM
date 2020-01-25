@@ -1,0 +1,2331 @@
+[
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5016",
+        "version": "0",
+        "event(fields)": "task_0(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5017",
+        "version": "0",
+        "event(fields)": "task_05017(AnsiString FileName, UInt32 Line, Pointer Address)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5018",
+        "version": "0",
+        "event(fields)": "task_05018(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size, Pointer OrigAddress)",
+        "opcode": "",
+        "keywords": "memory",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OrigAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5100",
+        "version": "0",
+        "event(fields)": "ListUpdate(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState, UnicodeString ItemContent)",
+        "opcode": "Update",
+        "keywords": "list",
+        "task": "ListUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemPos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ItemContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5101",
+        "version": "0",
+        "event(fields)": "ListUpdateInsert(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState, UnicodeString ItemContent)",
+        "opcode": "Insert",
+        "keywords": "list",
+        "task": "ListUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemPos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ItemContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5102",
+        "version": "0",
+        "event(fields)": "ListUpdateDelete(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState, UnicodeString ItemContent)",
+        "opcode": "Delete",
+        "keywords": "list",
+        "task": "ListUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TableId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemPos"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ItemState"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ItemContent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5103",
+        "version": "0",
+        "event(fields)": "task_05103(AnsiString FileName, AnsiString Function, UInt32 Line, UnicodeString ErrorText)",
+        "opcode": "",
+        "keywords": "error",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorText"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5200",
+        "version": "0",
+        "event(fields)": "PerfTrack_TM8_LaunchStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_TM8_Launch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5201",
+        "version": "0",
+        "event(fields)": "PerfTrack_TM8_LaunchStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_TM8_Launch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5202",
+        "version": "0",
+        "event(fields)": "PerfTrack_TM8_TabSwitchStart(UInt32 TabId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_TM8_TabSwitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TabId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5203",
+        "version": "0",
+        "event(fields)": "PerfTrack_TM8_TabSwitchStop(UInt32 TabId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_TM8_TabSwitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TabId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5204",
+        "version": "0",
+        "event(fields)": "PerfTrack_TM8_KillProcessStart(UnicodeString ProcessOrPackageName, UnicodeString Version, UInt32 TimeDateStamp, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "PerfTrack_TM8_KillProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessOrPackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5205",
+        "version": "0",
+        "event(fields)": "PerfTrack_TM8_KillProcessStop(UnicodeString ProcessOrPackageName, UnicodeString Version, UInt32 TimeDateStamp, UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "PerfTrack_TM8_KillProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessOrPackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5301",
+        "version": "0",
+        "event(fields)": "TM8_Window_LaunchStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "TM8_Window_Launch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5302",
+        "version": "0",
+        "event(fields)": "TM8_Window_LaunchStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "TM8_Window_Launch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5303",
+        "version": "0",
+        "event(fields)": "Monitor_SetupStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Monitor_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5304",
+        "version": "0",
+        "event(fields)": "Monitor_SetupStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Monitor_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5351",
+        "version": "0",
+        "event(fields)": "Dashboard_SetupStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5352",
+        "version": "0",
+        "event(fields)": "Dashboard_SetupStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5353",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5354",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5355",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_CPU_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_CPU_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5356",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_CPU_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_CPU_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5357",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_Memory_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Memory_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5358",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_Memory_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Memory_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5359",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_Disk_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Disk_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5360",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_Disk_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Disk_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5361",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_Network_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Network_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5362",
+        "version": "0",
+        "event(fields)": "Dashboard_Sidebar_Network_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Sidebar_Network_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5363",
+        "version": "0",
+        "event(fields)": "Dashboard_LoadPageTemplateStart(UInt32 PageId)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_LoadPageTemplate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5364",
+        "version": "0",
+        "event(fields)": "Dashboard_LoadPageTemplateStop(UInt32 PageId)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_LoadPageTemplate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5365",
+        "version": "0",
+        "event(fields)": "Dashboard_CPUView_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_CPUView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5366",
+        "version": "0",
+        "event(fields)": "Dashboard_CPUView_InitStop(UnicodeString ResourceName, UInt32 ProcessorCoreCount, UInt32 LogicalProcessorCount, UInt32 NumaNodeCount, UnicodeString MaxCPUSpeed, UnicodeString CurrentCPUSpeed, UnicodeString Virtualization)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_CPUView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ResourceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessorCoreCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LogicalProcessorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumaNodeCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MaxCPUSpeed"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CurrentCPUSpeed"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Virtualization"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5367",
+        "version": "0",
+        "event(fields)": "Dashboard_MemoryView_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_MemoryView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5368",
+        "version": "0",
+        "event(fields)": "Dashboard_MemoryView_InitStop(UnicodeString ResourceName, UnicodeString MemorySpeed, UnicodeString SlotsUsed, UnicodeString AvailableMemory, UnicodeString CachedMemory, UnicodeString CommittedMemory)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_MemoryView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ResourceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MemorySpeed"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SlotsUsed"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AvailableMemory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CachedMemory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommittedMemory"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5369",
+        "version": "0",
+        "event(fields)": "Dashboard_DiskView_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_DiskView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5370",
+        "version": "0",
+        "event(fields)": "Dashboard_DiskView_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_DiskView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5371",
+        "version": "0",
+        "event(fields)": "Dashboard_NetworkView_InitStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_NetworkView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5372",
+        "version": "0",
+        "event(fields)": "Dashboard_NetworkView_InitStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_NetworkView_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5373",
+        "version": "0",
+        "event(fields)": "Dashboard_RenderStart(UInt32 PageId)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Render",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5374",
+        "version": "0",
+        "event(fields)": "Dashboard_RenderStop(UInt32 PageId)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Render",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5375",
+        "version": "0",
+        "event(fields)": "Dashboard_SwitchResourceStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_SwitchResource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5376",
+        "version": "0",
+        "event(fields)": "Dashboard_SwitchResourceStop(UInt32 OldPageId, UInt32 NewPageId)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_SwitchResource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldPageId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewPageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5379",
+        "version": "0",
+        "event(fields)": "Dashboard_Disk_EnumerateDisksStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Disk_EnumerateDisks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5380",
+        "version": "0",
+        "event(fields)": "Dashboard_Disk_EnumerateDisksStop(UInt32 DiskCount)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Disk_EnumerateDisks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5381",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_EnumerateAdaptersStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_EnumerateAdapters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5382",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_EnumerateAdaptersStop(UInt32 AdapterCount)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_EnumerateAdapters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AdapterCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5383",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_RefreshAdaptersStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_RefreshAdapters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5384",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_RefreshAdaptersStop(UInt32 AdapterCount)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_RefreshAdapters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AdapterCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5385",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_WifiSetPropertiesStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_WifiSetProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5386",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_WifiSetPropertiesStop(UnicodeString SSID, UnicodeString PhysicalNetworkType, UInt32 SignalQuality)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_WifiSetProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SSID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PhysicalNetworkType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignalQuality"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5387",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_WWanSetPropertiesStart()",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_WWanSetProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5388",
+        "version": "0",
+        "event(fields)": "Dashboard_Network_Adapter_WWanSetPropertiesStop(UnicodeString ServiceProvider, UnicodeString PhysicalNetworkType, UInt32 SignalQuality)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_Network_Adapter_WWanSetProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PhysicalNetworkType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignalQuality"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5389",
+        "version": "0",
+        "event(fields)": "Dashboard_ChangeSummaryViewStart(UInt32 Snap, UInt32 CurrentView)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_ChangeSummaryView",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Snap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentView"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5390",
+        "version": "0",
+        "event(fields)": "Dashboard_ChangeSummaryViewStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_ChangeSummaryView",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5391",
+        "version": "0",
+        "event(fields)": "Dashboard_TurnChartsOnOffStart(UInt32 ChartsOn, UInt32 CurrentView)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_TurnChartsOnOff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ChartsOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentView"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5392",
+        "version": "0",
+        "event(fields)": "Dashboard_TurnChartsOnOffStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_TurnChartsOnOff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5393",
+        "version": "0",
+        "event(fields)": "Dashboard_AddDiskStart(UInt32 OldCount, UInt32 NewCount)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_AddDisk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5394",
+        "version": "0",
+        "event(fields)": "Dashboard_AddDiskStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_AddDisk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5395",
+        "version": "0",
+        "event(fields)": "Dashboard_RemoveDiskStart(UInt32 OldCount, UInt32 NewCount)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_RemoveDisk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5396",
+        "version": "0",
+        "event(fields)": "Dashboard_RemoveDiskStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_RemoveDisk",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5397",
+        "version": "0",
+        "event(fields)": "Dashboard_AddAdapterStart(UInt32 OldCount, UInt32 NewCount)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_AddAdapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5398",
+        "version": "0",
+        "event(fields)": "Dashboard_AddAdapterStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_AddAdapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5399",
+        "version": "0",
+        "event(fields)": "Dashboard_RemoveAdapterStart(UInt32 OldCount, UInt32 NewCount)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_RemoveAdapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5400",
+        "version": "0",
+        "event(fields)": "Dashboard_RemoveAdapterStop()",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_RemoveAdapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5401",
+        "version": "0",
+        "event(fields)": "Dashboard_DiskPerfIOCTLStart(UInt32 DiskNumber)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_DiskPerfIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5402",
+        "version": "0",
+        "event(fields)": "Dashboard_DiskPerfIOCTLStop(UInt32 Hresult, UInt32 QueryByteReturned)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_DiskPerfIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Hresult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryByteReturned"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5403",
+        "version": "0",
+        "event(fields)": "Dashboard_ChartScaleChangedUpdate(UnicodeString ChartId, UInt32 FromScaleIndex, UnicodeString FromScaleString, UInt32 ToScaleIndex, UnicodeString ToScaleString)",
+        "opcode": "Update",
+        "keywords": "dashboard",
+        "task": "Dashboard_ChartScaleChanged",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ChartId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FromScaleIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FromScaleString"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ToScaleIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ToScaleString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5404",
+        "version": "0",
+        "event(fields)": "Dashboard_DiskLengthIOCTLStart(UInt32 DiskNumber)",
+        "opcode": "Start",
+        "keywords": "dashboard",
+        "task": "Dashboard_DiskLengthIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5405",
+        "version": "0",
+        "event(fields)": "Dashboard_DiskLengthIOCTLStop(UInt32 Hresult, UInt32 QueryByteReturned, UInt64 LengthInByte)",
+        "opcode": "Stop",
+        "keywords": "dashboard",
+        "task": "Dashboard_DiskLengthIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Hresult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryByteReturned"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthInByte"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5501",
+        "version": "0",
+        "event(fields)": "UI_RenderStart(UInt32 TabId)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "UI_Render",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TabId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5502",
+        "version": "0",
+        "event(fields)": "UI_RenderStop(UInt32 TabId)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "UI_Render",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TabId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5503",
+        "version": "0",
+        "event(fields)": "UI_DataSortStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "UI_DataSort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5504",
+        "version": "0",
+        "event(fields)": "UI_DataSortStop(UInt32 PageId)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "UI_DataSort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5505",
+        "version": "0",
+        "event(fields)": "UI_ClickExpandoStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "UI_ClickExpando",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5506",
+        "version": "0",
+        "event(fields)": "UI_ClickExpandoStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "UI_ClickExpando",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5651",
+        "version": "0",
+        "event(fields)": "DataMonitor_AppInfo_UpdateStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_AppInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5652",
+        "version": "0",
+        "event(fields)": "DataMonitor_AppInfo_UpdateStop(UInt32 NewItems, UInt32 UpdatedItems)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_AppInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NewItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdatedItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5653",
+        "version": "0",
+        "event(fields)": "DataMonitor_WindowInfo_UpdateStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_WindowInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5654",
+        "version": "0",
+        "event(fields)": "DataMonitor_WindowInfo_UpdateStop(UInt32 NewItems, UInt32 UpdatedItems)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_WindowInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NewItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdatedItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5655",
+        "version": "0",
+        "event(fields)": "DataMonitor_AppServiceInfo_UpdateStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_AppServiceInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5656",
+        "version": "0",
+        "event(fields)": "DataMonitor_AppServiceInfo_UpdateStop(UInt32 NewItems, UInt32 UpdatedItems)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_AppServiceInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NewItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdatedItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5657",
+        "version": "0",
+        "event(fields)": "DataMonitor_TrayIconInfo_UpdateStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_TrayIconInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5658",
+        "version": "0",
+        "event(fields)": "DataMonitor_TrayIconInfo_UpdateStop(UInt32 NewItems, UInt32 UpdatedItems)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_TrayIconInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NewItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdatedItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5659",
+        "version": "0",
+        "event(fields)": "DataMonitor_UserInfo_UpdateStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_UserInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "5660",
+        "version": "0",
+        "event(fields)": "DataMonitor_UserInfo_UpdateStop(UInt32 NewItems, UInt32 UpdatedItems)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "DataMonitor_UserInfo_Update",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NewItems"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdatedItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6001",
+        "version": "0",
+        "event(fields)": "Actions_InvokeMenuStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_InvokeMenu",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6002",
+        "version": "0",
+        "event(fields)": "Actions_InvokeMenuStop(UInt64 ItemType, UInt32 MenuId)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_InvokeMenu",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ItemType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MenuId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6003",
+        "version": "0",
+        "event(fields)": "Actions_RightClickPopupStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_RightClickPopup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6004",
+        "version": "0",
+        "event(fields)": "Actions_RightClickPopupStop(UInt64 ItemType)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_RightClickPopup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ItemType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6005",
+        "version": "0",
+        "event(fields)": "Actions_EndTask_ProcessStart(UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_EndTask_Process",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6006",
+        "version": "0",
+        "event(fields)": "Actions_EndTask_ProcessStop(UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_EndTask_Process",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6007",
+        "version": "0",
+        "event(fields)": "Actions_EndTask_WindowStart(UInt32 WindowHandle)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_EndTask_Window",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WindowHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6008",
+        "version": "0",
+        "event(fields)": "Actions_EndTask_WindowStop(UInt32 WindowHandle)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_EndTask_Window",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WindowHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6009",
+        "version": "0",
+        "event(fields)": "Actions_EndTask_ServiceStart(UnicodeString ServiceName)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_EndTask_Service",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6010",
+        "version": "0",
+        "event(fields)": "Actions_EndTask_ServiceStop(UnicodeString ServiceName)",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_EndTask_Service",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServiceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6011",
+        "version": "0",
+        "event(fields)": "Actions_SortbyStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_Sortby",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6012",
+        "version": "0",
+        "event(fields)": "Actions_SortbyStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_Sortby",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6013",
+        "version": "0",
+        "event(fields)": "Actions_SortDUITreeStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_SortDUITree",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6014",
+        "version": "0",
+        "event(fields)": "Actions_SortDUITreeStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_SortDUITree",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6015",
+        "version": "0",
+        "event(fields)": "Actions_ColSwapStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_ColSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6016",
+        "version": "0",
+        "event(fields)": "Actions_ColSwapStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_ColSwap",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6017",
+        "version": "0",
+        "event(fields)": "Actions_ColResizeStart()",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_ColResize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6018",
+        "version": "0",
+        "event(fields)": "Actions_ColResizeStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_ColResize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6019",
+        "version": "0",
+        "event(fields)": "Actions_ChangeViewStart(UInt32 FromTab, UInt32 ToTab)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_ChangeView",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FromTab"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ToTab"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6020",
+        "version": "0",
+        "event(fields)": "Actions_ChangeViewStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_ChangeView",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6021",
+        "version": "0",
+        "event(fields)": "Monitor_ChangeViewStart(UInt32 FromTab, UInt32 ToTab)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Monitor_ChangeView",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FromTab"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ToTab"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6022",
+        "version": "0",
+        "event(fields)": "Monitor_ChangeViewStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Monitor_ChangeView",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6023",
+        "version": "0",
+        "event(fields)": "Actions_ConfirmCommandStart(UInt32 CommandId)",
+        "opcode": "Start",
+        "keywords": "ui",
+        "task": "Actions_ConfirmCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6024",
+        "version": "0",
+        "event(fields)": "Actions_ConfirmCommandStop()",
+        "opcode": "Stop",
+        "keywords": "ui",
+        "task": "Actions_ConfirmCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6025",
+        "version": "0",
+        "event(fields)": "Actions_SwitchUser()",
+        "opcode": "",
+        "keywords": "ui",
+        "task": "Actions_SwitchUser",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6026",
+        "version": "0",
+        "event(fields)": "Actions_SendMessage()",
+        "opcode": "",
+        "keywords": "ui",
+        "task": "Actions_SendMessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6027",
+        "version": "0",
+        "event(fields)": "Actions_LogoffUser()",
+        "opcode": "",
+        "keywords": "ui",
+        "task": "Actions_LogoffUser",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "6028",
+        "version": "0",
+        "event(fields)": "Actions_DisconnectUser()",
+        "opcode": "",
+        "keywords": "ui keyword_200000000000",
+        "task": "Actions_DisconnectUser",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7000",
+        "version": "0",
+        "event(fields)": "Startup_ImpactFile_ParseStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "Startup_ImpactFile_Parse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7001",
+        "version": "0",
+        "event(fields)": "Startup_ImpactFile_ParseStop(UInt32 CountOfItemsInStartupXML)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "Startup_ImpactFile_Parse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CountOfItemsInStartupXML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7002",
+        "version": "0",
+        "event(fields)": "Startup_EnumerationStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "Startup_Enumeration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7003",
+        "version": "0",
+        "event(fields)": "Startup_EnumerationStop()",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "Startup_Enumeration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7004",
+        "version": "0",
+        "event(fields)": "Startup_LoadItemsStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "Startup_LoadItems",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7005",
+        "version": "0",
+        "event(fields)": "Startup_LoadItemsStop()",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "Startup_LoadItems",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7100",
+        "version": "0",
+        "event(fields)": "AppHistory_EnumerateInstalledAppsStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_EnumerateInstalledApps",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7101",
+        "version": "0",
+        "event(fields)": "AppHistory_EnumerateInstalledAppsStop()",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_EnumerateInstalledApps",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7102",
+        "version": "0",
+        "event(fields)": "AppHistory_RegisterAndProcessStatsStart(UInt32 SrumProvider)",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_RegisterAndProcessStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SrumProvider"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7103",
+        "version": "0",
+        "event(fields)": "AppHistory_RegisterAndProcessStatsStop(UInt32 SrumProvider)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_RegisterAndProcessStats",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SrumProvider"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7104",
+        "version": "0",
+        "event(fields)": "AppHistory_GetInterfaceCostStart(UInt64 InterfaceLUID, UInt32 ProfileIndex)",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_GetInterfaceCost",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InterfaceLUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProfileIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7105",
+        "version": "0",
+        "event(fields)": "AppHistory_GetInterfaceCostStop(UInt64 InterfaceLUID, UInt32 ProfileIndex)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_GetInterfaceCost",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "InterfaceLUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProfileIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7106",
+        "version": "0",
+        "event(fields)": "AppHistory_ParsePackageIconStart(UnicodeString PackageInstallPath)",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_ParsePackageIcon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageInstallPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7107",
+        "version": "0",
+        "event(fields)": "AppHistory_ParsePackageIconStop(UnicodeString PackageInstallPath)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_ParsePackageIcon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageInstallPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7108",
+        "version": "0",
+        "event(fields)": "AppHistory_AddImmersiveApplicationStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_AddImmersiveApplication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7109",
+        "version": "0",
+        "event(fields)": "AppHistory_AddImmersiveApplicationStop(UnicodeString PackageName, UnicodeString LongDisplayName)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_AddImmersiveApplication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LongDisplayName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7110",
+        "version": "0",
+        "event(fields)": "AppHistory_AddDesktopApplicationStart()",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_AddDesktopApplication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7111",
+        "version": "0",
+        "event(fields)": "AppHistory_AddDesktopApplicationStop(UnicodeString ExePath)",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_AddDesktopApplication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ExePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7112",
+        "version": "0",
+        "event(fields)": "AppHistory_ProcessSrumRecordSetStart(UInt32 SrumProvider, UInt64 SrumRecordSetCount)",
+        "opcode": "Start",
+        "keywords": "datamonitor",
+        "task": "AppHistory_ProcessSrumRecordSet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SrumProvider"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SrumRecordSetCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Diagnosis-AdvancedTaskManager",
+        "event_id": "7113",
+        "version": "0",
+        "event(fields)": "AppHistory_ProcessSrumRecordSetStop()",
+        "opcode": "Stop",
+        "keywords": "datamonitor",
+        "task": "AppHistory_ProcessSrumRecordSet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "801",
+        "version": "0",
+        "event(fields)": "task_0(UInt64 SaContextID, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SaContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "802",
+        "version": "0",
+        "event(fields)": "task_0802(UInt64 SaContextID, UInt32 Result)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SaContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "803",
+        "version": "0",
+        "event(fields)": "task_0803(UInt64 SaContextID, UnicodeString LocalAddr, UnicodeString LocalMask, UInt16 LocalPort, UnicodeString RemoteAddress, UnicodeString RemoteMask, UInt16 RemotePort, UInt8 IPProtocol, UnicodeString LocalTunnelEndpt, UnicodeString RemoteTunnelEndpt)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SaContextID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalAddr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalMask"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "LocalPort"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteMask"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "RemotePort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IPProtocol"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalTunnelEndpt"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteTunnelEndpt"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "804",
+        "version": "0",
+        "event(fields)": "task_0804(UInt64 SaContextID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SaContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "805",
+        "version": "0",
+        "event(fields)": "task_0805(UInt64 SaContextID, UInt32 SPI)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SaContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SPI"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "806",
+        "version": "0",
+        "event(fields)": "SaContextOperationStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SaContextOperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "807",
+        "version": "0",
+        "event(fields)": "SaContextOperationStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SaContextOperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NetworkSecurity",
+        "event_id": "808",
+        "version": "0",
+        "event(fields)": "SaContextOperation(UInt64 SaContextID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SaContextOperation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SaContextID"
+            }
+        ]
+    }
+]

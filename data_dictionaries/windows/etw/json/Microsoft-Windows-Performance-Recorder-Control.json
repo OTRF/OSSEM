@@ -1,0 +1,763 @@
+[
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "Perf_ExternalCallStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatusVerbose",
+        "task": "Perf_ExternalCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "Perf_ExternalCallStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatusVerbose",
+        "task": "Perf_ExternalCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "Perf_LoadProfileFromFileStart(UnicodeString ProfileName, UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadProfileFromFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProfileName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "Perf_LoadProfileFromFileStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadProfileFromFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "Perf_LoadProfileFromStringStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadProfileFromString",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "Perf_LoadProfileFromStringStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadProfileFromString",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "Perf_AddProfileToCollectionStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_AddProfileToCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "Perf_IsEqualProfileStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_IsEqualProfile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "Perf_IsEqualProfileStart108()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_IsEqualProfile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "Perf_AddProfileToCollectionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_AddProfileToCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "Perf_RemoveProfileFromCollectionStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_RemoveProfileFromCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "Perf_RemoveProfileFromCollectionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_RemoveProfileFromCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "Perf_IsEqualProfileCollectionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_IsEqualProfileCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "Perf_IsEqualProfileCollectionStop113()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_IsEqualProfileCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "Perf_LoadTraceMergePropertiesFromFileStart(UnicodeString TraceMergePropertyName, UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadTraceMergePropertiesFromFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TraceMergePropertyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "Perf_LoadTraceMergePropertiesFromFileStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadTraceMergePropertiesFromFile",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "Perf_LoadTraceMergePropertiesFromStringStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadTraceMergePropertiesFromString",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "Perf_LoadTraceMergePropertiesFromStringStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_LoadTraceMergePropertiesFromString",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "Perf_IsEqualTraceMergePropertiesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_IsEqualTraceMergeProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "Perf_IsEqualTraceMergePropertiesStop119()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_IsEqualTraceMergeProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "Perf_StartProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_StartProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "Perf_StartProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_StartProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "Perf_UpdateProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_UpdateProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "Perf_UpdateProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_UpdateProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "Perf_CancelProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_CancelProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "Perf_CancelProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_CancelProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "Perf_SaveProfilesStart(UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_SaveProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "Perf_SaveProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_SaveProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "Perf_StopProfilesStart(UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_StopProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "Perf_StopProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_StopProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "Perf_QueryProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_QueryProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "Perf_QueryProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_QueryProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "Perf_EnableBootTracingStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_EnableBootTracing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "Perf_EnableBootTracingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_EnableBootTracing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "Perf_DisableBootTracingStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_DisableBootTracing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "Perf_DisableBootTracingStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_DisableBootTracing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "Perf_QueryBuiltInProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_QueryBuiltInProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "Perf_QueryBuiltInProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_QueryBuiltInProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "Perf_ControlProgressHandlerBeginStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_ControlProgressHandlerBegin",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "Perf_ControlProgressHandlerBeginStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_ControlProgressHandlerBegin",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "Perf_ControlProgressHandlerUpdateStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_ControlProgressHandlerUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "Perf_ControlProgressHandlerUpdateStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_ControlProgressHandlerUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "Perf_ControlProgressHandlerEndStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_ControlProgressHandlerEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "Perf_ControlProgressHandlerEndStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_ControlProgressHandlerEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "Perf_StartShutdownProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_StartShutdownProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "Perf_StartShutdownProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_StartShutdownProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "Perf_UpdateShutdownProfilesStart()",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_UpdateShutdownProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "Perf_UpdateShutdownProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_UpdateShutdownProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "Perf_MergeShutdownProfilesStart(UnicodeString FileName)",
+        "opcode": "Start",
+        "keywords": "PerfStatus",
+        "task": "Perf_MergeShutdownProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "Perf_MergeShutdownProfilesStop()",
+        "opcode": "Stop",
+        "keywords": "PerfStatus",
+        "task": "Perf_MergeShutdownProfiles",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "Perf_CaptureState(UnicodeString Provider, UnicodeString Error)",
+        "opcode": "",
+        "keywords": "PerfStatus",
+        "task": "Perf_CaptureState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Provider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "Perf_WPRProfileIds(UnicodeString ProfileIds)",
+        "opcode": "",
+        "keywords": "Informational",
+        "task": "Perf_WPRProfileIds",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProfileIds"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Performance-Recorder-Control",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "Debug_WPRCControl(UInt32 DebugType, UInt32 ObjectType, Int32 HResult, UInt32 LineNumber, UnicodeString FileName, UnicodeString FunctionName)",
+        "opcode": "",
+        "keywords": "DebugStatus",
+        "task": "Debug_WPRCControl",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DebugType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ObjectType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionName"
+            }
+        ]
+    }
+]

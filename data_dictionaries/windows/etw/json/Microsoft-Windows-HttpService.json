@@ -1,0 +1,2946 @@
+[
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRecvReq(UInt64 RequestId, UInt64 ConnectionId, UInt32 RemoteAddrLength, Binary RemoteAddr)",
+        "opcode": "RecvReq",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_REQUEST_QUEUE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemoteAddrLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RemoteAddr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskParse(Pointer RequestObj, UInt32 HttpVerb, UnicodeString Url)",
+        "opcode": "Parse",
+        "keywords": "HTTP_KEYWORD_REQUEST",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HttpVerb"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskDeliver(Pointer RequestObj, UInt64 RequestId, UInt32 SiteId, UnicodeString RequestQueueName, UnicodeString Url, UInt32 Status)",
+        "opcode": "Deliver",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_REQUEST_QUEUE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestObj"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestQueueName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRecvResp(UInt64 RequestId, UInt64 ConnectionId, UInt16 StatusCode, AnsiString Verb, UInt32 HeaderLength, UInt16 EntityChunkCount, UInt32 CachePolicy)",
+        "opcode": "RecvResp",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntityChunkCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CachePolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRecvRespLast(UInt64 RequestId)",
+        "opcode": "RecvRespLast",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRecvBody(UInt64 RequestId, UInt64 ConnectionId)",
+        "opcode": "RecvBody",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRecvBodyLast(UInt64 RequestId)",
+        "opcode": "RecvBodyLast",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskFastResp(UInt64 RequestId, UInt64 ConnectionId, UInt16 StatusCode, AnsiString Verb, UInt32 HeaderLength, UInt16 EntityChunkCount, UInt32 CachePolicy)",
+        "opcode": "FastResp",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EntityChunkCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CachePolicy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskFastRespLast(UInt64 RequestId)",
+        "opcode": "FastRespLast",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskSendComplete(UInt64 RequestId, UInt16 HttpStatus)",
+        "opcode": "SendComplete",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "HttpStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskCachedAndSend(UInt64 RequestId, UInt16 HttpStatus)",
+        "opcode": "CachedAndSend",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "HttpStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskFastSend(UInt64 RequestId, UInt16 HttpStatus)",
+        "opcode": "FastSend",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "HttpStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskZeroSend(UInt64 RequestId, UInt16 HttpStatus)",
+        "opcode": "ZeroSend",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "HttpStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskLastSndError(UInt64 RequestId, UInt16 HttpStatus)",
+        "opcode": "LastSndError",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "HttpStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskSndError(UInt64 RequestId, AnsiString Reason, UInt32 Status)",
+        "opcode": "SndError",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskSrvdFrmCache(Pointer RequestObj, UInt32 SiteId, UInt32 BytesSent)",
+        "opcode": "SrvdFrmCache",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesSent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "HTTPRequestTraceTaskSrvdFrmCache_V1(Pointer RequestObj, UInt32 SiteId, UInt32 BytesSent, UInt64 RequestId, AnsiString Encoding)",
+        "opcode": "SrvdFrmCache",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesSent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Encoding"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskCachedNotModified(Pointer RequestObj, UInt32 SiteId, UInt32 BytesSent)",
+        "opcode": "CachedNotModified",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesSent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "HTTPRequestTraceTaskCachedNotModified_V1(Pointer RequestObj, UInt32 SiteId, UInt32 BytesSent, UInt64 RequestId, AnsiString Encoding)",
+        "opcode": "CachedNotModified",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesSent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Encoding"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "HTTPSetupTraceTaskResvUrl(UnicodeString Url, UInt32 ReserveStatus)",
+        "opcode": "ResvUrl",
+        "keywords": "HTTP_KEYWORD_SETUP",
+        "task": "HTTPSetupTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReserveStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "HTTPSetupTraceTaskReadIpListEntry(UInt32 IpAddrLength, Binary IpAddress)",
+        "opcode": "ReadIpListEntry",
+        "keywords": "HTTP_KEYWORD_SETUP",
+        "task": "HTTPSetupTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IpAddrLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "IpAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "HTTPSetupTraceTaskCreatedSslCred(Pointer EndpointConfigObj, UInt32 AddressLength, Binary Address, UInt32 CertHashLength, Binary CertHash, UnicodeString CertStoreName, UInt32 CertCheckMode, UInt32 RevokeFreshnessTime, UInt32 RevokeRetrievalTime, UInt32 Flags, UnicodeString CtlId, UnicodeString CtlStoreName)",
+        "opcode": "CreatedSslCred",
+        "keywords": "HTTP_KEYWORD_SETUP HTTP_KEYWORD_SSL",
+        "task": "HTTPSetupTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EndpointConfigObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CertHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CertHash"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CertStoreName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CertCheckMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RevokeFreshnessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RevokeRetrievalTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CtlId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CtlStoreName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "HTTPSetupTraceTaskCreatedSslCred_V1(Pointer EndpointConfigObj, UnicodeString Endpoint, UInt32 CertHashLength, Binary CertHash, UnicodeString CertStoreName, UInt32 CertCheckMode, UInt32 RevokeFreshnessTime, UInt32 RevokeRetrievalTime, UInt32 Flags, UnicodeString CtlId, UnicodeString CtlStoreName, UInt32 CertificateLoadTimems)",
+        "opcode": "CreatedSslCred",
+        "keywords": "HTTP_KEYWORD_SETUP HTTP_KEYWORD_SSL",
+        "task": "HTTPSetupTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EndpointConfigObj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CertHashLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CertHash"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CertStoreName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CertCheckMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RevokeFreshnessTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RevokeRetrievalTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CtlId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CtlStoreName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CertificateLoadTimems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskConnConnect(Pointer ConnectionObj, UInt32 LocalAddrLength, Binary LocalAddr, UInt32 RemoteAddrLength, Binary RemoteAddr)",
+        "opcode": "ConnConnect",
+        "keywords": "HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocalAddrLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "LocalAddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemoteAddrLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RemoteAddr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskConnIdAssgn(UInt64 RequestId, UInt64 ConnectionId, Pointer ConnectionObj)",
+        "opcode": "ConnIdAssgn",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskConnClose(Pointer ConnectionObj, UInt32 Abortive)",
+        "opcode": "ConnClose",
+        "keywords": "HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Abortive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskConnCleanup(Pointer ConnectionObj)",
+        "opcode": "ConnCleanup",
+        "keywords": "HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskAddedCacheEntry(UnicodeString Uri, UInt16 StatusCode, AnsiString Verb, UInt32 HeaderLength, UInt32 ContentLength, UInt64 ExpirationTime)",
+        "opcode": "AddedCacheEntry",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeaderLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContentLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExpirationTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "25",
+        "version": "1",
+        "event(fields)": "HTTPCacheTraceTaskAddedCacheEntry_V1(UnicodeString Uri, UInt16 StatusCode, AnsiString Verb, UInt32 HeaderLength, UInt32 ContentLength, UInt64 ExpirationTime, AnsiString Encoding)",
+        "opcode": "AddedCacheEntry",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeaderLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContentLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExpirationTime"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Encoding"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskAddCacheEntryFailed(UnicodeString UrlBuffer, UInt32 ErrorStatus)",
+        "opcode": "AddCacheEntryFailed",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UrlBuffer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "26",
+        "version": "1",
+        "event(fields)": "HTTPCacheTraceTaskAddCacheEntryFailed_V1(UnicodeString UrlBuffer, UInt32 ErrorStatus, AnsiString Encoding)",
+        "opcode": "AddCacheEntryFailed",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UrlBuffer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorStatus"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Encoding"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskFlushedCache(UnicodeString Uri, UInt16 StatusCode, AnsiString Verb, UInt32 HeaderLength, UInt32 ContentLength, UInt64 ExpirationTime)",
+        "opcode": "FlushedCache",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeaderLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContentLength"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExpirationTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "HTTPConfigurationPropertyTraceTaskChgUrlGrpProp(UInt32 Property, UInt32 Status)",
+        "opcode": "ChgUrlGrpProp",
+        "keywords": "HTTP_KEYWORD_URL_GROUP",
+        "task": "HTTPConfigurationPropertyTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "HTTPConfigurationPropertyTraceTaskChgSrvSesProp(UInt32 Property, UInt32 Status)",
+        "opcode": "ChgSrvSesProp",
+        "keywords": "HTTP_KEYWORD_SERVER_SESSION",
+        "task": "HTTPConfigurationPropertyTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "HTTPConfigurationPropertyTraceTaskChgReqQueueProp(UInt32 Property, UInt32 Status)",
+        "opcode": "ChgReqQueueProp",
+        "keywords": "HTTP_KEYWORD_REQUEST_QUEUE",
+        "task": "HTTPConfigurationPropertyTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Property"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "HTTPConfigurationPropertyTraceTaskAddUrl(UInt64 UrlGroupId, UnicodeString Url, UInt32 Status)",
+        "opcode": "AddUrl",
+        "keywords": "HTTP_KEYWORD_URL_GROUP",
+        "task": "HTTPConfigurationPropertyTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UrlGroupId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "HTTPConfigurationPropertyTraceTaskRemUrl(UInt64 UrlGroupId, UnicodeString Url)",
+        "opcode": "RemUrl",
+        "keywords": "HTTP_KEYWORD_URL_GROUP",
+        "task": "HTTPConfigurationPropertyTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UrlGroupId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "HTTPConfigurationPropertyTraceTaskRemAllUrls(UInt64 UrlGroupId)",
+        "opcode": "RemAllUrls",
+        "keywords": "HTTP_KEYWORD_URL_GROUP",
+        "task": "HTTPConfigurationPropertyTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "UrlGroupId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslConnEvent(Pointer ConnectionObj)",
+        "opcode": "SslConnEvent",
+        "keywords": "HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslInitiateHandshake(Pointer ConnectionObj)",
+        "opcode": "SslInitiateHandshake",
+        "keywords": "HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslHandshakeComplete(UInt32 Status, Pointer ConnectionObj)",
+        "opcode": "SslHandshakeComplete",
+        "keywords": "HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslInititateSslRcvClientCert(Pointer ConnectionObj)",
+        "opcode": "SslInititateSslRcvClientCert",
+        "keywords": "HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslRcvClientCertFailed(UInt32 Status, Pointer ConnectionObj)",
+        "opcode": "SslRcvClientCertFailed",
+        "keywords": "HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslRcvdRawData(UInt32 DataLength, Pointer ConnectionObj)",
+        "opcode": "SslRcvdRawData",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataLength"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslDlvrdStreamData(UInt32 DataLength, Pointer ConnectionObj)",
+        "opcode": "SslDlvrdStreamData",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataLength"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslAcceptStreamData(UInt32 DataLength, Pointer ConnectionObj)",
+        "opcode": "SslAcceptStreamData",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DataLength"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskSspiCall(UInt64 ConnectionId, AnsiString AuthType, UInt32 SecStatus, UInt32 AuthStatus)",
+        "opcode": "SspiCall",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "AuthType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "43",
+        "version": "1",
+        "event(fields)": "HTTPAuthenticationTraceTaskSspiCall_V1(UInt64 ConnectionId, AnsiString AuthType, UInt32 SecStatus, UInt32 AuthStatus, UInt32 ContextAttributes)",
+        "opcode": "SspiCall",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "AuthType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ContextAttributes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskAuthCacheEntryAdded(UInt64 ConnectionId, AnsiString AuthCacheType, Pointer AccessTokenOrHandle, UInt32 Status)",
+        "opcode": "AuthCacheEntryAdded",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "AuthCacheType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "AccessTokenOrHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskAuthCacheEntryFreed(Pointer AccessTokenOrHandle, UInt32 Status)",
+        "opcode": "AuthCacheEntryFreed",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "AccessTokenOrHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskQosFlowSetReset(UInt64 ConnectionId, UInt32 Bandwidth, UInt32 Status)",
+        "opcode": "QosFlowSetReset",
+        "keywords": "HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "HTTPLoggingTraceTaskLoggingConfigFailed(UInt32 Status, UInt32 Type, UInt32 Group, UnicodeString Directory, UnicodeString Software, UInt32 SiteId)",
+        "opcode": "LoggingConfigFailed",
+        "keywords": "HTTP_KEYWORD_LOGGING",
+        "task": "HTTPLoggingTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Software"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "HTTPLoggingTraceTaskLoggingConfig(UInt32 Present, UInt32 Type, UInt32 Group, UInt32 Format, UnicodeString Directory, UnicodeString Software, UInt32 SiteId)",
+        "opcode": "LoggingConfig",
+        "keywords": "HTTP_KEYWORD_LOGGING",
+        "task": "HTTPLoggingTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Present"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directory"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Software"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "HTTPLoggingTraceTaskLogFileCreateFailed(UInt32 Status, UInt32 Type, UInt32 Group, UInt32 Format, UnicodeString Filename, UInt32 SiteId)",
+        "opcode": "LogFileCreateFailed",
+        "keywords": "HTTP_KEYWORD_LOGGING",
+        "task": "HTTPLoggingTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "HTTPLoggingTraceTaskLogFileCreate(Pointer Handle, UInt32 Type, UInt32 Group, UInt32 Format, UnicodeString Filename, UInt32 SiteId)",
+        "opcode": "LogFileCreate",
+        "keywords": "HTTP_KEYWORD_LOGGING",
+        "task": "HTTPLoggingTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "HTTPLoggingTraceTaskLogFileWrite(UInt32 Status, Pointer Handle, UInt32 Type, UInt32 Group, UInt32 Format, AnsiString ResType, UInt32 SiteId)",
+        "opcode": "LogFileWrite",
+        "keywords": "HTTP_KEYWORD_LOGGING",
+        "task": "HTTPLoggingTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Format"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ResType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SiteId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskParseRequestFailed(UInt32 Status, UInt64 RequestId, AnsiString Reason, UInt32 ErrorCode, UInt32 HintLength, Binary HintData)",
+        "opcode": "ParseRequestFailed",
+        "keywords": "HTTP_KEYWORD_REQUEST",
+        "task": "HTTPRequestTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HintLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HintData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "HTTPTimeoutTraceTaskConnTimedOut(UInt64 ConnectionId, Pointer ConnectionObj, AnsiString Timer)",
+        "opcode": "ConnTimedOut",
+        "keywords": "HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_TIMEOUT",
+        "task": "HTTPTimeoutTraceTask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Timer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslEndpointCreationFailed(Pointer EndpointConfigObj, UInt32 SecStatus, AnsiString Detail)",
+        "opcode": "SslEndpointCreationFailed",
+        "keywords": "HTTP_KEYWORD_SETUP HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EndpointConfigObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Detail"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslDisconnEvent(Pointer ConnectionObj)",
+        "opcode": "SslDisconnEvent",
+        "keywords": "HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslDisconnReq(Pointer ConnectionObj, UInt32 Status)",
+        "opcode": "SslDisconnReq",
+        "keywords": "HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslUnsealMsg(Pointer ConnectionObj, UInt32 SecStatus)",
+        "opcode": "SslUnsealMsg",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslQueryConnInfoFailed(Pointer ConnectionObj, UInt32 SecStatus, AnsiString Detail)",
+        "opcode": "SslQueryConnInfoFailed",
+        "keywords": "HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Detail"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslEndpointConfigNotFound(Pointer ConnectionObj, UInt32 AddressLength, Binary Address)",
+        "opcode": "SslEndpointConfigNotFound",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslAsc(Pointer ConnectionObj, UInt32 SecStatus)",
+        "opcode": "SslAsc",
+        "keywords": "HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslSealMsg(Pointer ConnectionObj, UInt32 SecStatus)",
+        "opcode": "SslSealMsg",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRequestRejected(UInt64 RequestId, AnsiString Reason, UnicodeString RequestQueueName)",
+        "opcode": "RequestRejected",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_REQUEST_QUEUE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestQueueName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskRequestCancelled(UInt64 RequestId, AnsiString Reason, UnicodeString RequestQueueName)",
+        "opcode": "RequestCancelled",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_REQUEST_QUEUE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestQueueName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "HTTPDriverGlobalSettingsTaskHotAddProcFailed(UInt8 NewProcNumber, AnsiString ReasonString, UInt32 Status)",
+        "opcode": "HotAddProcFailed",
+        "keywords": "HTTP_KEYWORD_DRIVER_SETTING",
+        "task": "HTTPDriverGlobalSettingsTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "NewProcNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ReasonString"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "HTTPDriverGlobalSettingsTaskHotAddProcSucceeded(UInt8 NewProcNumber, AnsiString Comment)",
+        "opcode": "HotAddProcSucceeded",
+        "keywords": "HTTP_KEYWORD_DRIVER_SETTING",
+        "task": "HTTPDriverGlobalSettingsTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "NewProcNumber"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Comment"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskUserResponseFlowInit(Pointer FlowHandle, UInt32 Bandwidth, UInt32 PeakBandwidth, UInt32 BurstSize)",
+        "opcode": "UserResponseFlowInit",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FlowHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BurstSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskCachedResponseFlowInit(Pointer FlowHandle, UInt32 Bandwidth, UInt32 PeakBandwidth, UInt32 BurstSize)",
+        "opcode": "CachedResponseFlowInit",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FlowHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BurstSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskFlowInitFailed(UInt32 Bandwidth, UInt32 PeakBandwidth, UInt32 BurstSize, UInt32 Status)",
+        "opcode": "FlowInitFailed",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Bandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PeakBandwidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BurstSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskSetConnectionFlow(Pointer Connection, Pointer FlowHandle)",
+        "opcode": "SetConnectionFlow",
+        "keywords": "HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Connection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FlowHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskRequestAssociatedToConfigurationFlow(Pointer FlowHandle)",
+        "opcode": "RequestAssociatedToConfigurationFlow",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "FlowHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskConnectionFlowFailed(Pointer Connection, Pointer FlowHandle, UInt32 Status)",
+        "opcode": "ConnectionFlowFailed",
+        "keywords": "HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Connection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FlowHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskResponseRangeProcessingOK(UInt64 RequestId, UInt64 ContentBytes, UInt32 NumberOfRanges, UInt64 Range1Start, UInt64 Range1End, UInt64 Range2Start, UInt64 Range2End)",
+        "opcode": "ResponseRangeProcessingOK",
+        "keywords": "HTTP_KEYWORD_RESPONSE",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ContentBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfRanges"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1End"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2End"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskBeginBuildingSlices(UInt64 RequestId, UInt32 NumberOfSlices, UInt32 SliceIndex1, UInt32 SliceIndex2, UInt32 NumberOfRanges, UInt64 Range1Start, UInt64 Range1End, UInt64 Range2Start, UInt64 Range2End)",
+        "opcode": "BeginBuildingSlices",
+        "keywords": "HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfSlices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceIndex1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceIndex2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfRanges"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1End"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2End"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskSendSliceCacheContent(UInt64 RequestId, Pointer CacheEntryPtr, UInt32 NumberOfSlices, UInt32 SliceIndex1, UInt32 SliceIndex2, UInt32 NumberOfRanges, UInt64 Range1Start, UInt64 Range1End, UInt64 Range2Start, UInt64 Range2End)",
+        "opcode": "SendSliceCacheContent",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CacheEntryPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfSlices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceIndex1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceIndex2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfRanges"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1End"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2End"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskCachedSlicesMatchContent(UInt64 RequestId, Pointer CacheEntryPtr, UInt32 NumberOfSlices, UInt32 SliceIndex1, UInt32 SliceIndex2, UInt32 NumberOfRanges, UInt64 Range1Start, UInt64 Range1End, UInt64 Range2Start, UInt64 Range2End)",
+        "opcode": "CachedSlicesMatchContent",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CacheEntryPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfSlices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceIndex1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SliceIndex2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfRanges"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1End"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range2End"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskMergeSlicesToCache(Pointer CacheEntryPtr, UInt32 NofSlicesToMerge, UInt32 NofSlicesInCache)",
+        "opcode": "MergeSlicesToCache",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CacheEntryPtr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NofSlicesToMerge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NofSlicesInCache"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "HTTPCacheTraceTaskFlatCacheRangeSend(Pointer CacheEntryPtr, UInt64 Range1Start, UInt64 Range1End)",
+        "opcode": "FlatCacheRangeSend",
+        "keywords": "HTTP_KEYWORD_CACHE",
+        "task": "HTTPCacheTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CacheEntryPtr"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1Start"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Range1End"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskChannelBindAscParams(UInt64 ConnectionId, UInt32 NoBindBuffers, UInt32 SecFlags)",
+        "opcode": "ChannelBindAscParams",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NoBindBuffers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskServiceBindCheckComplete(UInt64 ConnectionId, Pointer SecContextL, Pointer SecContextH, UInt32 SecStatus, UnicodeString Target)",
+        "opcode": "ServiceBindCheckComplete",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SecContextL"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SecContextH"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SecStatus"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Target"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskChannelBindConfigCapture(UInt8 Hardening, UInt32 Flags, UInt32 ServiceNameCount)",
+        "opcode": "ChannelBindConfigCapture",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Hardening"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ServiceNameCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "HTTPAuthenticationTraceTaskChannelBindPerResponseConfig(AnsiString ReplaceConfigOf)",
+        "opcode": "ChannelBindPerResponseConfig",
+        "keywords": "HTTP_KEYWORD_AUTHENTICATION",
+        "task": "HTTPAuthenticationTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "ReplaceConfigOf"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "HTTPConnectionTraceTaskUsePolicyBasedQoSFlow(Pointer Connection, Pointer FlowHandle)",
+        "opcode": "UsePolicyBasedQoSFlow",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPConnectionTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Connection"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "FlowHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "HTTPThreadPoolThreadPoolExtension(AnsiString PoolType, UInt16 ActivePools)",
+        "opcode": "ThreadPoolExtension",
+        "keywords": "HTTP_KEYWORD_THREAD_POOL",
+        "task": "HTTPThreadPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "PoolType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ActivePools"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "HTTPThreadPoolThreadReady(AnsiString PoolType, UInt16 ActivePools, UInt8 ThreadCount)",
+        "opcode": "ThreadReady",
+        "keywords": "HTTP_KEYWORD_THREAD_POOL",
+        "task": "HTTPThreadPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "PoolType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ActivePools"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ThreadCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "HTTPThreadPoolThreadPoolTrim(AnsiString PoolType, UInt16 ActivePools)",
+        "opcode": "ThreadPoolTrim",
+        "keywords": "HTTP_KEYWORD_THREAD_POOL",
+        "task": "HTTPThreadPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "PoolType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ActivePools"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "HTTPThreadPoolThreadGone(AnsiString PoolType, UInt16 ActivePools, UInt8 ThreadCount)",
+        "opcode": "ThreadGone",
+        "keywords": "HTTP_KEYWORD_THREAD_POOL",
+        "task": "HTTPThreadPool",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "PoolType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ActivePools"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ThreadCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSniParsed(Pointer ConnectionObj, UInt32 Status, UInt32 SniLength, Binary SniHost, UnicodeString NormalizedHost)",
+        "opcode": "SniParsed",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ConnectionObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SniLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "SniHost"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NormalizedHost"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskInitiateOpaqueMode(UInt64 RequestId)",
+        "opcode": "InitiateOpaqueMode",
+        "keywords": "HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskEndpointAutoGenerated(Pointer EndpointConfigObj, UnicodeString EndpointName)",
+        "opcode": "EndpointAutoGenerated",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EndpointConfigObj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskAutoGeneratedEndpointDeleted(Pointer EndpointConfigObj, UnicodeString EndpointName)",
+        "opcode": "AutoGeneratedEndpointDeleted",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EndpointConfigObj"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslEndpointConfigFound(Pointer EndpointConfigObj, UInt32 IpAddrLength, Binary IpAddress, UnicodeString SniHostname, UnicodeString MatchingEndpointName, Boolean AutoGeneratedEndpoint)",
+        "opcode": "SslEndpointConfigFound",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EndpointConfigObj"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IpAddrLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "IpAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SniHostname"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MatchingEndpointName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AutoGeneratedEndpoint"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslEndpointConfigRejected(UInt32 AddressLength, Binary Address)",
+        "opcode": "SslEndpointConfigRejected",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "HTTPResponseTraceTaskParseRequestFailed(UInt32 Status, UInt64 ResponseId, AnsiString Reason, UInt32 ErrorCode, UInt32 HintLength, Binary HintData)",
+        "opcode": "ParseRequestFailed",
+        "keywords": "HTTP_KEYWORD_REQUEST",
+        "task": "HTTPResponseTraceTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ResponseId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HintLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "HintData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslHandshakeFailure(UInt32 LocalAddressLength, Binary LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UnicodeString SniHostname, UInt16 ThumbprintLength, Binary Thumbprint, Boolean ClientDisconnect, Boolean AbortiveDisconnect, UInt32 Status)",
+        "opcode": "SslHandshakeFailure",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LocalAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "LocalAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemoteAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RemoteAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SniHostname"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ThumbprintLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Thumbprint"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ClientDisconnect"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AbortiveDisconnect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskHttpErrorResponseSent(UnicodeString Url, UInt32 Verb, UInt16 StatusCode, Boolean CacheSend, UnicodeString RequestQueue, UInt32 ProcessId, UInt32 ThreadId, AnsiString ImageFileName, UInt64 WorkingSetSize, UInt32 SendStatus, UInt32 ThreadCount, AnsiString ReasonPhrase, AnsiString ErrorCause, UInt32 Verbosity)",
+        "opcode": "HttpErrorResponseSent",
+        "keywords": "HTTP_KEYWORD_REQUEST",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "StatusCode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CacheSend"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestQueue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ImageFileName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WorkingSetSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SendStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ReasonPhrase"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ErrorCause"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Verbosity"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "HTTPSSLTraceTaskSslRenegotiateTimedOut(UInt32 LocalAddressLength, Binary LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UnicodeString SniHostname, UInt16 ThumbprintLength, Binary Thumbprint, Boolean ConnectionBufferFull)",
+        "opcode": "SslRenegotiateTimedOut",
+        "keywords": "HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL",
+        "task": "HTTPSSLTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LocalAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "LocalAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemoteAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "RemoteAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SniHostname"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ThumbprintLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Thumbprint"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ConnectionBufferFull"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-HttpService",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "HTTPRequestTraceTaskHttp11Required(UInt32 Verb, UInt32 FaultCode)",
+        "opcode": "Http11Required",
+        "keywords": "HTTP_KEYWORD_REQUEST",
+        "task": "HTTPRequestTraceTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Verb"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FaultCode"
+            }
+        ]
+    }
+]

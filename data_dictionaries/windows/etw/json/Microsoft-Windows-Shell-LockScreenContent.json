@@ -1,0 +1,805 @@
+[
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SetupStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SetupStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_InitializeStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_InitializeStop(UInt32 ImageCount, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_GetImageStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_GetImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_GetImageStop(UnicodeString ImagePath, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_GetImage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImagePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Manager_InitializeStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Manager_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Manager_InitializeStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Manager_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Manager_PrepareForTransitionStart(Boolean OnPrimaryMonitor, Boolean Initialized)",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Manager_PrepareForTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "OnPrimaryMonitor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Initialized"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Manager_PrepareForTransitionStop(Boolean OnPrimaryMonitor, UInt32 Layout, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Manager_PrepareForTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "OnPrimaryMonitor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Layout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Manager_StartSlideShow()",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Manager_StartSlideShow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Manager_StopSlideShow()",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Manager_StopSlideShow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Slideshow_SlideshowManager_Destroyed()",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Slideshow_SlideshowManager_Destroyed",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "LockScreenContent_DoLayoutStart(Boolean OnPrimaryMonitor, UInt32 LayoutChosen)",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_DoLayout",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "OnPrimaryMonitor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LayoutChosen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "LockScreenContent_DoLayoutStop(Boolean OnPrimaryMonitor, UInt32 LayoutChosen)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_DoLayout",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "OnPrimaryMonitor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LayoutChosen"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "LockScreenContent_TimerTick(Boolean OnPrimaryMonitor)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_TimerTick",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "OnPrimaryMonitor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SlideTransitionStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_SlideTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SlideTransitionStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_SlideTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "LockScreenContent_RandomLayoutGenerated(UInt32 Layout)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_RandomLayoutGenerated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Layout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "LockScreenContent_ScheduleAnimation_TransitionStart(UInt32 EnterLayout, UInt32 ExitLayout, UInt32 Cookie)",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_ScheduleAnimation_Transition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EnterLayout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitLayout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Cookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "LockScreenContent_ScheduleAnimation_TransitionStop(UInt32 EnterLayout, UInt32 ExitLayout, UInt32 Cookie)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_ScheduleAnimation_Transition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EnterLayout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitLayout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Cookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "LockScreenContent_ScheduleAnimation_AmbientStart(UInt32 AmbientLayout, UInt32 Cookie)",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_ScheduleAnimation_Ambient",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AmbientLayout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Cookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "LockScreenContent_ScheduleAnimation_AmbientStop(UInt32 AmbientLayout, UInt32 Cookie)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_ScheduleAnimation_Ambient",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AmbientLayout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Cookie"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SlideshowSlideCache_InitializeStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_SlideshowSlideCache_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SlideshowSlideCache_InitializeStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_SlideshowSlideCache_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SlideshowSlideCache_SetupStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_SlideshowSlideCache_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "LockScreenContent_SlideshowSlideCache_SetupStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_SlideshowSlideCache_Setup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_DisableConstraints(Boolean DualMonitorSourcing, UInt32 Reason)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_DisableConstraints",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "DualMonitorSourcing"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_IngestImageItem(UnicodeString ImagePath, UInt32 PossibleLayoutRegions, UInt32 Bucket, UInt32 ImageWidth, UInt32 ImageHeight, UInt32 MonitorWidth, UInt32 MonitorHeight)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_IngestImageItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImagePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PossibleLayoutRegions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bucket"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MonitorWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MonitorHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_Refresh(Boolean FullRefresh, UInt32 Result)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_Refresh",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "FullRefresh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_InitializeBuckets_RecalculatingBuckets(Boolean WasInitialized)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_InitializeBuckets_RecalculatingBuckets",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "WasInitialized"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "LockScreenContent_ThumbnailFetchStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_ThumbnailFetch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "LockScreenContent_ThumbnailFetchStop(UInt32 Width, UInt32 Height)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_ThumbnailFetch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_InitializeStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_InitializeStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_CreateIItemCollectionStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_CreateIItemCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_CreateIItemCollectionStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_CreateIItemCollection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Slide_InitializeStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Slide_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Slide_InitializeStop(UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Slide_Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_GenerateAvailableItemsStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_GenerateAvailableItems",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_GenerateAvailableItemsStop(UInt32 BucketSize, UInt32 ValidatedItems)",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_GenerateAvailableItems",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BucketSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ValidatedItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Cache_AddSlideToMonitorCacheStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Cache_AddSlideToMonitorCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Cache_AddSlideToMonitorCacheStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Cache_AddSlideToMonitorCache",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_InitializeBucketsStart()",
+        "opcode": "Start",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_InitializeBuckets",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Repository_InitializeBucketsStop()",
+        "opcode": "Stop",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Repository_InitializeBuckets",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-LockScreenContent",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "LockScreenContent_Bucket_ImageVerification(Boolean MeetsLayoutConstraints, Boolean MeetsTimeConstraints, Boolean MeetsSlideReuseConstraints)",
+        "opcode": "",
+        "keywords": "LockScreenContent",
+        "task": "LockScreenContent_Bucket_ImageVerification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "MeetsLayoutConstraints"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MeetsTimeConstraints"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MeetsSlideReuseConstraints"
+            }
+        ]
+    }
+]

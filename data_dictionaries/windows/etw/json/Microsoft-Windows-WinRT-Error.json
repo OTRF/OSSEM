@@ -1,0 +1,89 @@
+[
+    {
+        "provider": "Microsoft-Windows-WinRT-Error",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "OriginateError(Int32 HRESULT, UnicodeString ErrorMesage)",
+        "opcode": "",
+        "keywords": "WinRTError",
+        "task": "OriginateError",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "HRESULT"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMesage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRT-Error",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "OriginateLanguageError(Int32 HRESULT, UnicodeString ErrorMesage, Pointer LanguageErrorPointer)",
+        "opcode": "",
+        "keywords": "WinRTError",
+        "task": "OriginateLanguageError",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "HRESULT"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMesage"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "LanguageErrorPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRT-Error",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "TransformError(Int32 OriginalHRESULT, Int32 NewHRESULT, UnicodeString ErrorMesage)",
+        "opcode": "",
+        "keywords": "WinRTError",
+        "task": "TransformError",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "OriginalHRESULT"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NewHRESULT"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMesage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WinRT-Error",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "ClearError()",
+        "opcode": "",
+        "keywords": "WinRTError",
+        "task": "ClearError",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

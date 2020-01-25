@@ -1,0 +1,209 @@
+[
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(HexInt32 NTStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_02(HexInt32 NTStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_03(UnicodeString Location, HexInt32 NTStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_04(UnicodeString Location, HexInt32 NTStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05()",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "202",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest._V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinblocks, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Read",
+        "task": "Port",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinblocks"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "203",
+        "version": "1",
+        "event(fields)": "PortDispatchingofrequest.203_V1(Pointer Irp, UInt8 Command, UInt64 LengthOfTransferinblocks, HexInt64 LBA, Pointer OriginalIrp)",
+        "opcode": "Dispatchingofrequest.",
+        "keywords": "Write",
+        "task": "Port",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "LengthOfTransferinblocks"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter",
+        "event_id": "208",
+        "version": "1",
+        "event(fields)": "PortCompletionofrequest._V1(Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp)",
+        "opcode": "Completionofrequest.",
+        "keywords": "Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite",
+        "task": "Port",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "NTStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScsiStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SenseKey"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSense"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "AddSenseQ"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    }
+]

@@ -1,0 +1,454 @@
+[
+    {
+        "provider": "Microsoft-Windows-Partition",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 DiskNumber, UInt32 ControlCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Partition",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "task_01002(UInt32 DiskNumber, UInt32 ControlCode, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Partition",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "task_01003(Pointer Process, UInt64 IncrementEnergy, UInt64 SrvTime, UInt64 EndByteOffset, UInt32 IoSize, UInt8 LastIdleState, UInt8 IsRandom)",
+        "opcode": "",
+        "keywords": "power",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Process"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IncrementEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SrvTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EndByteOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IoSize"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LastIdleState"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "IsRandom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Partition",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "task_01004(Pointer Process, UInt64 IncrementEnergy, UInt64 IdleTime, UInt8 LastIdleState)",
+        "opcode": "",
+        "keywords": "power",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Process"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IncrementEnergy"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IdleTime"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LastIdleState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Partition",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "task_01005(UInt64 LocalLastCompTime, UInt64 SharedLastCompTime, UInt64 CompTime)",
+        "opcode": "",
+        "keywords": "power",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LocalLastCompTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SharedLastCompTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CompTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Partition",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "task_01006(UInt32 Version, UInt32 DiskNumber, UInt32 Flags, UInt32 Characteristics, Boolean IsSystemCritical, UInt32 PagingCount, UInt32 HibernationCount, UInt32 DumpCount, UInt32 BytesPerSector, UInt64 Capacity, UInt32 BusType, UnicodeString Manufacturer, UnicodeString Model, UnicodeString Revision, UnicodeString SerialNumber, UnicodeString Location, UnicodeString ParentId, UInt64 IoctlSupport, UInt32 IdFlags, GUID DiskId, GUID AdapterId, GUID RegistryId, GUID PoolId, Boolean FirmwareSupportsUpgrade, UInt8 FirmwareSlotCount, UInt32 StorageIdCount, UInt32 StorageIdCodeSet, UInt32 StorageIdType, UInt32 StorageIdAssociation, UInt32 StorageIdBytes, Binary StorageId, UInt32 WriteCacheType, UInt32 WriteCacheEnabled, UInt32 WriteCacheChangeable, UInt32 WriteThroughSupported, Boolean FlushCacheSupported, Boolean IsPowerProtected, Boolean NVCacheEnabled, UInt32 BytesPerLogicalSector, UInt32 BytesPerPhysicalSector, UInt32 BytesOffsetForSectorAlignment, Boolean IncursSeekPenalty, Boolean IsTrimSupported, Boolean IsThinProvisioned, UInt64 OptimalUnmapGranularity, UInt64 UnmapAlignment, UInt32 NumberOfLogicalCopies, UInt32 NumberOfPhysicalCopies, UInt32 FaultTolerance, UInt32 NumberOfColumns, UInt32 InterleaveBytes, Boolean HybridSupported, UInt64 HybridCacheBytes, UInt32 AdapterMaximumTransferBytes, UInt32 AdapterMaximumTransferPages, UInt32 AdapterAlignmentMask, UnicodeString AdapterSerialNumber, UInt32 PortDriver, Boolean UserRemovalPolicy, UInt32 PartitionStyle, UInt32 PartitionCount, UInt32 PartitionTableBytes, Binary PartitionTable, UInt32 MbrBytes, Binary Mbr, UInt32 Vbr0Bytes, Binary Vbr0, UInt32 Vbr1Bytes, Binary Vbr1, UInt32 Vbr2Bytes, Binary Vbr2, UInt32 Vbr3Size, Binary Vbr3)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Characteristics"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSystemCritical"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagingCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HibernationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DumpCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesPerSector"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Capacity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BusType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Manufacturer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Model"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Revision"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SerialNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IoctlSupport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IdFlags"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "DiskId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "AdapterId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "RegistryId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PoolId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FirmwareSupportsUpgrade"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareSlotCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StorageIdCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StorageIdCodeSet"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StorageIdType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StorageIdAssociation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StorageIdBytes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "StorageId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteCacheType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteCacheEnabled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteCacheChangeable"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteThroughSupported"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FlushCacheSupported"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsPowerProtected"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NVCacheEnabled"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesPerLogicalSector"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesPerPhysicalSector"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesOffsetForSectorAlignment"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IncursSeekPenalty"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsTrimSupported"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsThinProvisioned"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OptimalUnmapGranularity"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UnmapAlignment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfLogicalCopies"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfPhysicalCopies"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FaultTolerance"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfColumns"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterleaveBytes"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HybridSupported"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "HybridCacheBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdapterMaximumTransferBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdapterMaximumTransferPages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdapterAlignmentMask"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSerialNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortDriver"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "UserRemovalPolicy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionStyle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PartitionTableBytes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PartitionTable"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MbrBytes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Mbr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vbr0Bytes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Vbr0"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vbr1Bytes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Vbr1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vbr2Bytes"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Vbr2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Vbr3Size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Vbr3"
+            }
+        ]
+    }
+]

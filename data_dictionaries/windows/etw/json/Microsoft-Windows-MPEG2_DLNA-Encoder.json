@@ -1,0 +1,383 @@
+[
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNAStart(UnicodeString Region, UInt32 VideoX, UInt32 VideoY, UInt32 AudioChannels, UInt32 VideoBitRate, UInt32 AudioBitRate, Int64 SeekOffsetMs)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Region"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VideoX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VideoY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AudioChannels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VideoBitRate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AudioBitRate"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SeekOffsetMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNAStop(UInt64 TotalBytesEncoded, UInt64 VideoFramesReceived, UInt64 VideoFramesEncoded, UInt64 AudioBytesReceived, UInt64 AudioFramesEncoded)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytesEncoded"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VideoFramesReceived"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "VideoFramesEncoded"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AudioBytesReceived"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AudioFramesEncoded"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNA(Int32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNA3(Int64 Timestamp, UInt32 ID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNA4(UInt32 InputID, Int64 InputTimestamp, Int64 TargetTimestamp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InputID"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "InputTimestamp"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TargetTimestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNA5(Int64 Timestamp, UInt32 Bytes)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MPEG_2Encode/MuxforDLNA6()",
+        "opcode": "",
+        "keywords": "",
+        "task": "MPEG_2Encode/MuxforDLNA",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "AudioEncodeSessionConfig(UInt32 MaxBitRate, Int32 SampleRate, UInt8 InputFormat)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AudioEncodeSessionConfig",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxBitRate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SampleRate"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "InputFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "AudioEncodeSessionStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioEncodeSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "AudioEncodeSessionStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioEncodeSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "AudioEncodeTaskStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AudioEncodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "AudioEncodeTaskStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AudioEncodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "VideoEncodeSessionConfig(UInt32 Width, Int32 Height, UInt8 Progressive, Int32 MaxBitRate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VideoEncodeSessionConfig",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Progressive"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MaxBitRate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "VideoEncodeSessionStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "VideoEncodeSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "VideoEncodeSessionStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "VideoEncodeSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "VideoEncodeTaskStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "VideoEncodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "VideoEncodeTaskStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "VideoEncodeTask",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "MuxSessionConfig(UInt8 MuxFormat)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MuxSessionConfig",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "MuxFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "MuxSessionStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MuxSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-MPEG2_DLNA-Encoder",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "MuxSessionStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MuxSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

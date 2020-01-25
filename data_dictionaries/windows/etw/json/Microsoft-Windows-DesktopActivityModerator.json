@@ -1,0 +1,423 @@
+[
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "StartDriverStart()",
+        "opcode": "Start",
+        "keywords": "StartStopDriver",
+        "task": "StartDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "StartDriver()",
+        "opcode": "",
+        "keywords": "StartStopDriver",
+        "task": "StartDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "StartDriverStop(UInt32 NTSTATUS)",
+        "opcode": "Stop",
+        "keywords": "StartStopDriver",
+        "task": "StartDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "NTSTATUS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "StopDriverStart()",
+        "opcode": "Start",
+        "keywords": "StartStopDriver",
+        "task": "StopDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "StopDriverStop()",
+        "opcode": "Stop",
+        "keywords": "StartStopDriver",
+        "task": "StopDriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "SuspendResumeStart(Boolean SuspendFlag)",
+        "opcode": "Start",
+        "keywords": "Control",
+        "task": "SuspendResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "SuspendFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "SuspendResumeStop(Boolean SuspendFlag)",
+        "opcode": "Stop",
+        "keywords": "Control",
+        "task": "SuspendResume",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "SuspendFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "ThrottleStart(Boolean SuspendFlag)",
+        "opcode": "Start",
+        "keywords": "Control",
+        "task": "Throttle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "SuspendFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "ThrottleStop(Boolean SuspendFlag)",
+        "opcode": "Stop",
+        "keywords": "Control",
+        "task": "Throttle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "SuspendFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "ResiliencyEngageStart(Boolean ActiveFlag)",
+        "opcode": "Start",
+        "keywords": "Control",
+        "task": "ResiliencyEngage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "ActiveFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "ResiliencyEngageStop(Boolean ActiveFlag)",
+        "opcode": "Stop",
+        "keywords": "Control",
+        "task": "ResiliencyEngage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "ActiveFlag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "ProcessActivityStart(UInt32 ProcessId, UInt32 SessionId, UInt16 ImageFileNameLength, UnicodeString ImageFileName, UInt16 CommandLineLength, UnicodeString CommandLine)",
+        "opcode": "Start",
+        "keywords": "ProcessActivity",
+        "task": "ProcessActivity",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ImageFileNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageFileName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CommandLineLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "ProcessActivityStop(UInt32 ProcessId, UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "ProcessActivity",
+        "task": "ProcessActivity",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "ProcessExempt(UInt32 ProcessId, UInt32 SessionId, UInt32 ExemptGroup, Boolean Modern)",
+        "opcode": "",
+        "keywords": "Policy",
+        "task": "ProcessExempt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExemptGroup"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Modern"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "PolicyReload(UInt32 PolicyRecords)",
+        "opcode": "",
+        "keywords": "Policy",
+        "task": "PolicyReload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PolicyRecords"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "PdcCallback(UInt32 State, UInt32 NTSTATUS, Boolean WorkItemQueued)",
+        "opcode": "",
+        "keywords": "Pdc",
+        "task": "PdcCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NTSTATUS"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WorkItemQueued"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "PdcCallback52(UInt32 ClientState)",
+        "opcode": "",
+        "keywords": "Pdc",
+        "task": "PdcCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "PdcCallback53(UInt32 Flags)",
+        "opcode": "",
+        "keywords": "Pdc",
+        "task": "PdcCallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "PdcAcknowledge()",
+        "opcode": "",
+        "keywords": "Pdc",
+        "task": "PdcAcknowledge",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "IoTrackingPerfTrack(UInt32 DeviceBucket, UInt32 ElapsedTimeMs, UInt32 FastIoCount, UInt32 SlowIoCount)",
+        "opcode": "",
+        "keywords": "IoTracking",
+        "task": "IoTrackingPerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceBucket"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ElapsedTimeMs"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FastIoCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlowIoCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DesktopActivityModerator",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "IoTrackingCallback(UInt16 DeviceType, UInt32 DeviceBucket, UInt64 ElapsedTime, Boolean SlowIo)",
+        "opcode": "",
+        "keywords": "IoTracking",
+        "task": "IoTrackingCallback",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "DeviceType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceBucket"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ElapsedTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SlowIo"
+            }
+        ]
+    }
+]

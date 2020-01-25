@@ -1,0 +1,3712 @@
+[
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "USBXHCIDriverRundownStart()",
+        "opcode": "Start",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "USBXHCIDriverRundownStop()",
+        "opcode": "Stop",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "USBXHCIControlerRundownInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "USBXHCIControlerRundownInformation_V1(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired, UInt8 fid_MajorVersion, UInt8 fid_MinorVersion, Boolean fid_IsSecureDevice, UInt32 fid_DMAModeInVSM, UInt32 fid_NumberOfDMATargetsInVSM, UInt32 fid_NumberOfResetRecoveryAttempts, UInt32 fid_UsbEndpointOffloadMode, Boolean fid_IsTimeTrackingEnabled, UInt64 fid_DeviceFlags_0, UInt64 fid_DeviceFlags_1, UInt32 fid_CachedHccParams, UInt32 fid_CachedHccParams2, UInt32 fid_MapRegisterCount, UInt32 fid_SecondaryInterrupterCount, UInt32 fid_InterruptMechanism)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MajorVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MinorVersion"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DMAModeInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfDMATargetsInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfResetRecoveryAttempts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbEndpointOffloadMode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsTimeTrackingEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_0"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MapRegisterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SecondaryInterrupterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterruptMechanism"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "3",
+        "version": "2",
+        "event(fields)": "USBXHCIControlerRundownInformation_V2(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt8 fid_MajorVersion, UInt8 fid_MinorVersion, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired, Boolean fid_IsSecureDevice, UInt32 fid_DMAModeInVSM, UInt32 fid_NumberOfDMATargetsInVSM, UInt32 fid_UsbEndpointOffloadMode, Boolean fid_IsTimeTrackingEnabled, UInt64 fid_DeviceFlags_0, UInt64 fid_DeviceFlags_1, UInt32 fid_CachedHcsParams1, UInt32 fid_CachedHcsParams2, UInt32 fid_CachedHcsParams3, UInt32 fid_CachedHccParams1, UInt32 fid_CachedHccParams2, UInt32 fid_MapRegisterCount, UInt32 fid_SecondaryInterrupterCount, UInt32 fid_InterruptMechanism, UInt32 fid_SupportedNumberOfStreams, UInt32 fid_ControllerSuspendResumeCount, UInt32 fid_NumberOfResetRecoveryAttempts, UInt32 fid_RestoreStateFailureCount, UInt32 fid_RHResumeTimeoutCount, UInt32 fid_RHResumeNeededExtendedWaitCount, UInt32 fid_RHSuspendTimeoutCount, UInt32 fid_RHSuspendNeededExtendedWaitCount, UInt32 fid_RHPLCClearedOnU0PriorToU3Count)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MajorVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MinorVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DMAModeInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfDMATargetsInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbEndpointOffloadMode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsTimeTrackingEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_0"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MapRegisterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SecondaryInterrupterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterruptMechanism"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SupportedNumberOfStreams"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerSuspendResumeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfResetRecoveryAttempts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RestoreStateFailureCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHResumeTimeoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHResumeNeededExtendedWaitCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHSuspendTimeoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHSuspendNeededExtendedWaitCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHPLCClearedOnU0PriorToU3Count"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "3",
+        "version": "3",
+        "event(fields)": "USBXHCIControlerRundownInformation_V3(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt8 fid_MajorVersion, UInt8 fid_MinorVersion, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired, Boolean fid_IsSecureDevice, UInt32 fid_DMAModeInVSM, UInt32 fid_NumberOfDMATargetsInVSM, UInt32 fid_UsbEndpointOffloadMode, Boolean fid_IsTimeTrackingEnabled, UInt64 fid_DeviceFlags_0, UInt64 fid_DeviceFlags_1, UInt32 fid_CachedHcsParams1, UInt32 fid_CachedHcsParams2, UInt32 fid_CachedHcsParams3, UInt32 fid_CachedHccParams1, UInt32 fid_CachedHccParams2, UInt32 fid_MapRegisterCount, UInt32 fid_SecondaryInterrupterCount, UInt32 fid_InterruptMechanism, UInt32 fid_SupportedNumberOfStreams, UInt32 fid_ControllerSuspendResumeCount, UInt32 fid_NumberOfResetRecoveryAttempts, UInt32 fid_RestoreStateFailureCount, UInt32 fid_RHResumeTimeoutCount, UInt32 fid_RHResumeNeededExtendedWaitCount, UInt32 fid_RHSuspendTimeoutCount, UInt32 fid_RHSuspendNeededExtendedWaitCount, UInt32 fid_RHPLCClearedOnU0PriorToU3Count, 43 fid_Device_Capabilities)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MajorVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MinorVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DMAModeInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfDMATargetsInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbEndpointOffloadMode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsTimeTrackingEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_0"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MapRegisterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SecondaryInterrupterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterruptMechanism"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SupportedNumberOfStreams"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerSuspendResumeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfResetRecoveryAttempts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RestoreStateFailureCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHResumeTimeoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHResumeNeededExtendedWaitCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHSuspendTimeoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHSuspendNeededExtendedWaitCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHPLCClearedOnU0PriorToU3Count"
+            },
+            {
+                "field_type": "43",
+                "field_name": "fid_Device_Capabilities"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "USBXHCIDeviceRundownInformation(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "USBXHCIDeviceRundownInformation_V1(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Binary fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "4",
+        "version": "2",
+        "event(fields)": "USBXHCIDeviceRundownInformation_V2(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, SYSTEMTIME fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "4",
+        "version": "3",
+        "event(fields)": "USBXHCIDeviceRundownInformation_V3(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Struct fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus, Boolean fid_IsFirmwareHashValid, Boolean fid_IsFirmwareHashQueried, Boolean fid_IsFirmwareHashFromDevicePresent, Boolean fid_IsFirmwareHashFromSDEVEntryPresent, UInt8 FirmwareHashFromDevice, UInt8 FirmwareHashFromSDEVEntry)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Struct",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashValid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashQueried"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromDevicePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromSDEVEntryPresent"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromDevice"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromSDEVEntry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "USBXHCIEndpointRundownInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_USB_Endpoint_Descriptor, Double fid_USB_SuperSpeed_Endpoint_Companion_Descriptor, FILETIME fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USBXHCIEndpointRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "fid_USB_SuperSpeed_Endpoint_Companion_Descriptor"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerCreateInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIControllerCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "USBXHCIControllerCreateInformation_V1(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired, FILETIME fid_Device_Capabilities)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIControllerCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fid_Device_Capabilities"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerDeleteInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIControllerDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "USBXHCIDeviceCreateInformation(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "USBXHCIDeviceCreateInformation_V1(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Binary fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "8",
+        "version": "2",
+        "event(fields)": "USBXHCIDeviceCreateInformation_V2(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, SYSTEMTIME fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "8",
+        "version": "3",
+        "event(fields)": "USBXHCIDeviceCreateInformation_V3(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Struct fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus, Boolean fid_IsFirmwareHashValid, Boolean fid_IsFirmwareHashQueried, Boolean fid_IsFirmwareHashFromDevicePresent, Boolean fid_IsFirmwareHashFromSDEVEntryPresent, UInt8 FirmwareHashFromDevice, UInt8 FirmwareHashFromSDEVEntry)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Struct",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashValid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashQueried"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromDevicePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromSDEVEntryPresent"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromDevice"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromSDEVEntry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "USBXHCIDeviceUpdateInformation(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "9",
+        "version": "1",
+        "event(fields)": "USBXHCIDeviceUpdateInformation_V1(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Binary fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "9",
+        "version": "2",
+        "event(fields)": "USBXHCIDeviceUpdateInformation_V2(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, SYSTEMTIME fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "9",
+        "version": "3",
+        "event(fields)": "USBXHCIDeviceUpdateInformation_V3(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Struct fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus, Boolean fid_IsFirmwareHashValid, Boolean fid_IsFirmwareHashQueried, Boolean fid_IsFirmwareHashFromDevicePresent, Boolean fid_IsFirmwareHashFromSDEVEntryPresent, UInt8 FirmwareHashFromDevice, UInt8 FirmwareHashFromSDEVEntry)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Struct",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashValid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashQueried"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromDevicePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromSDEVEntryPresent"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromDevice"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromSDEVEntry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "USBXHCIDeviceDeleteInformation(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "USBXHCIDeviceDeleteInformation_V1(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Binary fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "10",
+        "version": "2",
+        "event(fields)": "USBXHCIDeviceDeleteInformation_V2(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, SYSTEMTIME fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "10",
+        "version": "3",
+        "event(fields)": "USBXHCIDeviceDeleteInformation_V3(Pointer fid_UcxController, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Struct fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice, Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue, UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus, Boolean fid_IsFirmwareHashValid, Boolean fid_IsFirmwareHashQueried, Boolean fid_IsFirmwareHashFromDevicePresent, Boolean fid_IsFirmwareHashFromSDEVEntryPresent, UInt8 FirmwareHashFromDevice, UInt8 FirmwareHashFromSDEVEntry)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIDeviceDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Struct",
+                "field_name": "fid_USB_Device_Descriptor"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsProxyUSBDevice"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsDeviceContextLocal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashValid"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashQueried"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromDevicePresent"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsFirmwareHashFromSDEVEntryPresent"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromDevice"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "FirmwareHashFromSDEVEntry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "USBXHCIEndpointCreateInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_USB_Endpoint_Descriptor, Double fid_USB_SuperSpeed_Endpoint_Companion_Descriptor, FILETIME fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIEndpointCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "fid_USB_SuperSpeed_Endpoint_Companion_Descriptor"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "USBXHCIEndpointUpdateInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_USB_Endpoint_Descriptor, Double fid_USB_SuperSpeed_Endpoint_Companion_Descriptor, FILETIME fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIEndpointUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "fid_USB_SuperSpeed_Endpoint_Companion_Descriptor"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "USBXHCIEndpointDeleteInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_USB_Endpoint_Descriptor, Double fid_USB_SuperSpeed_Endpoint_Companion_Descriptor, FILETIME fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIEndpointDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "fid_USB_SuperSpeed_Endpoint_Companion_Descriptor"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_0(Pointer fid_UcxController, UInt32 DeviceDescLength, UnicodeString DeviceDescription, UInt32 StartDeviceFailReason)",
+        "opcode": "",
+        "keywords": "keyword_400000000000",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceDescLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceDescription"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StartDeviceFailReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerFirmwareVersionUpdateInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBXHCIControllerFirmwareVersionUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0EntryStart(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0EntryStop(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0EntryPostInterruptsEnabledStart(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0EntryPostInterruptsEnabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0EntryPostInterruptsEnabledStop(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0EntryPostInterruptsEnabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0ExitPreInterruptsDisabledStart(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0ExitPreInterruptsDisabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0ExitPreInterruptsDisabledStop(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0ExitPreInterruptsDisabled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0ExitStart(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerD0ExitStop(Pointer fid_UcxController, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerD0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerSaveStateStart(Pointer fid_UcxController)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerSaveState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerSaveStateStop(Pointer fid_UcxController, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerSaveState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerRestoreStateStart(Pointer fid_UcxController)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerRestoreState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerRestoreStateStop(Pointer fid_UcxController, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "USBXHCIControllerRestoreState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerInternalResetStart(Pointer fid_UcxController)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "USBXHCIControllerInternalReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerInternalResetStop(Pointer fid_UcxController, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "USBXHCIControllerInternalReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerErrorInformation(Pointer fid_UcxController, Pointer fid_UcxDevice, Pointer fid_UcxEndpoint, UInt64 fid_HWVerifierFlag, AnsiString fid_Description, Binary fid_CommandTRB, Binary fid_EventTRB)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost keyword_400000000000",
+        "task": "USBXHCIControllerError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxEndpoint"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_HWVerifierFlag"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_Description"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_CommandTRB"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_EventTRB"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "USBXHCICommandInformation(Pointer fid_UcxController, Pointer fid_CrbPointer, Binary fid_Command_TRB)",
+        "opcode": "Information",
+        "keywords": "Default ControllerCommand",
+        "task": "USBXHCICommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_CrbPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_Command_TRB"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "USBXHCICommandInformation32(Pointer fid_UcxController, Pointer fid_CrbPointer, Binary fid_Command_TRB, UInt8 fid_CommandWaitlistReason)",
+        "opcode": "Information",
+        "keywords": "Default ControllerCommand",
+        "task": "USBXHCICommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_CrbPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_Command_TRB"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_CommandWaitlistReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "USBXHCICommandInformation33(Pointer fid_UcxController, Pointer fid_CrbPointer, Binary fid_Command_TRB, UInt32 fid_CompletionStatus, UInt8 fid_CompletionCode)",
+        "opcode": "Information",
+        "keywords": "Default ControllerCommand",
+        "task": "USBXHCICommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_CrbPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_Command_TRB"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CompletionStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_CompletionCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "USBXHCICommandInformation34(Pointer fid_UcxController, Pointer fid_CrbPointer, Binary fid_Command_TRB, UInt32 fid_CompletionStatus, UInt8 fid_CompletionCode)",
+        "opcode": "Information",
+        "keywords": "Default ControllerCommand keyword_400000000000",
+        "task": "USBXHCICommand",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_CrbPointer"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_Command_TRB"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CompletionStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_CompletionCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "USBXHCICommandInformation35(Pointer fid_UcxController, GUID fid_Capability, UInt32 fid_NtStatus, UInt32 fid_NumStaticStreams)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "USBXHCICommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fid_Capability"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumStaticStreams"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "task_0Information(Pointer fid_UcxController, Boolean fid_WdfPowerReferenceForDebuggerAcquired)",
+        "opcode": "Information",
+        "keywords": "Default Power",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "RequesttoVTL1IUMtrustletStart(UInt32 fid_TrustletRequestOpCode, UInt32 fid_InputBufferLength, UInt32 fid_OutputBufferLength, UInt32 fid_OutstandingRequestsAtSendTime)",
+        "opcode": "Start",
+        "keywords": "Default Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "37",
+        "version": "1",
+        "event(fields)": "RequesttoVTL1IUMtrustletStart_V1(UInt32 fid_TrustletRequestOpCode, UInt32 fid_InputBufferLength, UInt32 fid_OutputBufferLength, UInt32 fid_OutstandingRequestsAtSendTime)",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutputBufferLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "RequesttoVTL1IUMtrustletRequestfromVTL0driverreceivedintrustlet(UInt32 fid_TrustletRequestOpCode, UInt32 fid_OutstandingRequestsAtSendTime)",
+        "opcode": "RequestfromVTL0driverreceivedintrustlet",
+        "keywords": "Default Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "38",
+        "version": "1",
+        "event(fields)": "RequesttoVTL1IUMtrustletRequestfromVTL0driverreceivedintrustlet_V1(UInt32 fid_TrustletRequestOpCode, UInt32 fid_OutstandingRequestsAtSendTime)",
+        "opcode": "RequestfromVTL0driverreceivedintrustlet",
+        "keywords": "Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "RequesttoVTL1IUMtrustletRequestfromVTL0drivercompletedintrustlet(UInt32 fid_TrustletRequestOpCode, UInt32 fid_OutstandingRequestsAtSendTime)",
+        "opcode": "RequestfromVTL0drivercompletedintrustlet",
+        "keywords": "Default Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "39",
+        "version": "1",
+        "event(fields)": "RequesttoVTL1IUMtrustletRequestfromVTL0drivercompletedintrustlet_V1(UInt32 fid_TrustletRequestOpCode, UInt32 fid_OutstandingRequestsAtSendTime)",
+        "opcode": "RequestfromVTL0drivercompletedintrustlet",
+        "keywords": "Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "RequesttoVTL1IUMtrustletStop(UInt32 fid_TrustletRequestOpCode, UInt32 fid_OutstandingRequestsAtSendTime, UInt64 fid_TimeInNs)",
+        "opcode": "Stop",
+        "keywords": "Default Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_TimeInNs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "40",
+        "version": "1",
+        "event(fields)": "RequesttoVTL1IUMtrustletStop_V1(UInt32 fid_TrustletRequestOpCode, UInt32 fid_OutstandingRequestsAtSendTime, UInt64 fid_TimeInNs)",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "RequesttoVTL1IUMtrustlet",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TrustletRequestOpCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_OutstandingRequestsAtSendTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_TimeInNs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "USBtransferUSBtransferinitialized(UInt8 fid_SlotId, UInt32 fid_EndpointContextIndex, UInt32 fid_StreamId, UInt32 fid_BytesTotal)",
+        "opcode": "USBtransferinitialized",
+        "keywords": "Default Performance",
+        "task": "USBtransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_EndpointContextIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BytesTotal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "41",
+        "version": "1",
+        "event(fields)": "USBtransferUSBtransferinitialized_V1(UInt8 fid_SlotId, UInt32 fid_EndpointContextIndex, UInt32 fid_StreamId, UInt32 fid_BytesTotal)",
+        "opcode": "USBtransferinitialized",
+        "keywords": "Performance",
+        "task": "USBtransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_EndpointContextIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BytesTotal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "task_042(UInt32 fid_InterrupterNumber)",
+        "opcode": "",
+        "keywords": "Default Performance",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterrupterNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "42",
+        "version": "1",
+        "event(fields)": "task_042_V1(UInt32 fid_InterrupterNumber)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterrupterNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "Deferredwork(DPC/WorkItem)Start(UInt32 fid_InterrupterNumber)",
+        "opcode": "Start",
+        "keywords": "Default Performance",
+        "task": "Deferredwork(DPC/WorkItem)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterrupterNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "43",
+        "version": "1",
+        "event(fields)": "Deferredwork(DPC/WorkItem)Start_V1(UInt32 fid_InterrupterNumber)",
+        "opcode": "Start",
+        "keywords": "Performance",
+        "task": "Deferredwork(DPC/WorkItem)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterrupterNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "Deferredwork(DPC/WorkItem)Stop(UInt32 fid_InterrupterNumber)",
+        "opcode": "Stop",
+        "keywords": "Default Performance",
+        "task": "Deferredwork(DPC/WorkItem)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterrupterNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "44",
+        "version": "1",
+        "event(fields)": "Deferredwork(DPC/WorkItem)Stop_V1(UInt32 fid_InterrupterNumber)",
+        "opcode": "Stop",
+        "keywords": "Performance",
+        "task": "Deferredwork(DPC/WorkItem)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterrupterNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "task_045(UInt8 fid_SlotId, UInt32 fid_EndpointContextIndex, UInt32 fid_StreamId)",
+        "opcode": "",
+        "keywords": "Default Performance",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_EndpointContextIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "45",
+        "version": "1",
+        "event(fields)": "task_045_V1(UInt8 fid_SlotId, UInt32 fid_EndpointContextIndex, UInt32 fid_StreamId)",
+        "opcode": "",
+        "keywords": "Performance",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SlotId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_EndpointContextIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "StartTrackingForTimeSyncInformation(Pointer fid_UcxController, Boolean fid_IsStartupDelayTolerable, UInt32 fid_RequestorMode, UInt32 fid_NtStatus, Pointer fid_TimeTrackingHandle)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "StartTrackingForTimeSync",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsStartupDelayTolerable"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RequestorMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_TimeTrackingHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "StopTrackingForTimeSyncInformation(Pointer fid_UcxController, Pointer fid_TimeTrackingHandle, Boolean fid_IsCloseHandleFromClient, UInt32 fid_RequestorMode, UInt32 fid_NtStatus, UInt32 fid_NumberOfGetFrameQpcCalls, UInt32 fid_NumberOfFrameQpcTranslations)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "StopTrackingForTimeSync",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_TimeTrackingHandle"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsCloseHandleFromClient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RequestorMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfGetFrameQpcCalls"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfFrameQpcTranslations"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "ConfigureEndpointInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UInt32 fid_ConfigurationValue, UInt32 fid_InterfaceNumber, UInt32 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "ConfigureEndpoint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ConfigurationValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterfaceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_AlternateSetting"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LastConfigureEndpointStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBXHCI",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "USBXHCIControllerHealthInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt8 fid_MajorVersion, UInt8 fid_MinorVersion, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64 fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32 fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired, Boolean fid_IsSecureDevice, UInt32 fid_DMAModeInVSM, UInt32 fid_NumberOfDMATargetsInVSM, UInt32 fid_UsbEndpointOffloadMode, Boolean fid_IsTimeTrackingEnabled, UInt64 fid_DeviceFlags_0, UInt64 fid_DeviceFlags_1, UInt32 fid_CachedHcsParams1, UInt32 fid_CachedHcsParams2, UInt32 fid_CachedHcsParams3, UInt32 fid_CachedHccParams1, UInt32 fid_CachedHccParams2, UInt32 fid_MapRegisterCount, UInt32 fid_SecondaryInterrupterCount, UInt32 fid_InterruptMechanism, UInt32 fid_SupportedNumberOfStreams, UInt32 fid_ControllerSuspendResumeCount, UInt32 fid_NumberOfResetRecoveryAttempts, UInt32 fid_RestoreStateFailureCount, UInt32 fid_RHResumeTimeoutCount, UInt32 fid_RHResumeNeededExtendedWaitCount, UInt32 fid_RHSuspendTimeoutCount, UInt32 fid_RHSuspendNeededExtendedWaitCount, UInt32 fid_RHPLCClearedOnU0PriorToU3Count, 45 fid_Device_Capabilities, UInt32 fid_ErrorPortNumber, UInt32 fid_PortStatusAndControl)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "USBXHCIControllerHealthInformation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MajorVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MinorVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_FirmwareVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_S0IdleStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InstanceNumber"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_WdfPowerReferenceForDebuggerAcquired"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsSecureDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DMAModeInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfDMATargetsInVSM"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbEndpointOffloadMode"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_IsTimeTrackingEnabled"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_0"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_DeviceFlags_1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHcsParams3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedHccParams2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MapRegisterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SecondaryInterrupterCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_InterruptMechanism"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SupportedNumberOfStreams"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerSuspendResumeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfResetRecoveryAttempts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RestoreStateFailureCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHResumeTimeoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHResumeNeededExtendedWaitCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHSuspendTimeoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHSuspendNeededExtendedWaitCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RHPLCClearedOnU0PriorToU3Count"
+            },
+            {
+                "field_type": "45",
+                "field_name": "fid_Device_Capabilities"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ErrorPortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortStatusAndControl"
+            }
+        ]
+    }
+]

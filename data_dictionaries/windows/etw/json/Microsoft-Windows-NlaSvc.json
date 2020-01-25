@@ -1,0 +1,1392 @@
+[
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4001",
+        "version": "0",
+        "event(fields)": "WaitforIdentificationStart(GUID InterfaceGuid, UInt8 CurrentOrNextState)",
+        "opcode": "Start",
+        "keywords": "Identification keyword_200000000000",
+        "task": "WaitforIdentification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentOrNextState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4002",
+        "version": "0",
+        "event(fields)": "WaitforIdentificationStop(GUID InterfaceGuid, UInt8 CurrentOrNextState)",
+        "opcode": "Stop",
+        "keywords": "Identification keyword_200000000000",
+        "task": "WaitforIdentification",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "CurrentOrNextState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4101",
+        "version": "0",
+        "event(fields)": "TriggerMediaConnect(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "MediaConnect",
+        "keywords": "Trigger LwtDiagnostic",
+        "task": "Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4102",
+        "version": "0",
+        "event(fields)": "TriggerMediaDisconnect(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "MediaDisconnect",
+        "keywords": "Trigger LwtDiagnostic",
+        "task": "Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4103",
+        "version": "0",
+        "event(fields)": "TriggerRouteChange(GUID InterfaceGuid, UInt32 MibNotificationType)",
+        "opcode": "RouteChange",
+        "keywords": "Trigger",
+        "task": "Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MibNotificationType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4104",
+        "version": "0",
+        "event(fields)": "TriggerAddressChange(GUID InterfaceGuid, UInt32 MibNotificationType)",
+        "opcode": "AddressChange",
+        "keywords": "Trigger",
+        "task": "Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MibNotificationType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4105",
+        "version": "0",
+        "event(fields)": "TriggerQuarantineStateChange()",
+        "opcode": "QuarantineStateChange",
+        "keywords": "Trigger",
+        "task": "Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4106",
+        "version": "0",
+        "event(fields)": "TriggerDhcpNotification()",
+        "opcode": "DhcpNotification",
+        "keywords": "Trigger",
+        "task": "Trigger",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4201",
+        "version": "0",
+        "event(fields)": "GatewayResolutionStart()",
+        "opcode": "Start",
+        "keywords": "Resolver",
+        "task": "GatewayResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4202",
+        "version": "0",
+        "event(fields)": "GatewayResolutionStop()",
+        "opcode": "Stop",
+        "keywords": "Resolver",
+        "task": "GatewayResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4203",
+        "version": "0",
+        "event(fields)": "GatewayResolutionStart4203(GUID InterfaceGuid, UnicodeString GatewayIpAddress)",
+        "opcode": "Start",
+        "keywords": "Resolver",
+        "task": "GatewayResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GatewayIpAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4204",
+        "version": "0",
+        "event(fields)": "GatewayResolutionStop4204(GUID InterfaceGuid, UnicodeString GatewayIpAddress, UInt32 ErrorCode, UInt32 NlnsState, UInt16 MacAddrLen, Binary MacAddr)",
+        "opcode": "Stop",
+        "keywords": "Resolver",
+        "task": "GatewayResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GatewayIpAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NlnsState"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MacAddrLen"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MacAddr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4205",
+        "version": "0",
+        "event(fields)": "GatewayResolutionFailed(GUID InterfaceGuid, UnicodeString GatewayIpAddress, UInt32 ErrorCode)",
+        "opcode": "Failed",
+        "keywords": "Resolver LwtDiagnostic",
+        "task": "GatewayResolution",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GatewayIpAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4251",
+        "version": "0",
+        "event(fields)": "PluginDataIndication(UnicodeString PluginName, UnicodeString EntityName, UInt16 IndicatedRowCount, UInt16 RowsWithInterfacesIndicatedCount, GUID RowInterfaceGuid)",
+        "opcode": "DataIndication",
+        "keywords": "Plugin",
+        "task": "Plugin",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PluginName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EntityName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "IndicatedRowCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "RowsWithInterfacesIndicatedCount"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "RowInterfaceGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4261",
+        "version": "0",
+        "event(fields)": "DhcpStabilized(GUID InterfaceGuid, UInt32 NlaState)",
+        "opcode": "Stabilized",
+        "keywords": "Trigger LwtDiagnostic",
+        "task": "Dhcp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NlaState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4301",
+        "version": "0",
+        "event(fields)": "IntranetResolutionStart()",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "IntranetResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4302",
+        "version": "0",
+        "event(fields)": "IntranetResolutionStop()",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "IntranetResolution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4311",
+        "version": "0",
+        "event(fields)": "DsGetDcName(DnsSuffix)Start(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "DsGetDcName(DnsSuffix)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4312",
+        "version": "0",
+        "event(fields)": "DsGetDcName(DnsSuffix)Stop(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "DsGetDcName(DnsSuffix)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4313",
+        "version": "0",
+        "event(fields)": "DsGetDcName(DnsSuffix)Failed(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Failed",
+        "keywords": "Resolver Intranet LwtDiagnostic",
+        "task": "DsGetDcName(DnsSuffix)",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4321",
+        "version": "0",
+        "event(fields)": "DsGetDcName(Ds)Start(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "DsGetDcName(Ds)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4322",
+        "version": "0",
+        "event(fields)": "DsGetDcName(Ds)Stop(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "DsGetDcName(Ds)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4323",
+        "version": "0",
+        "event(fields)": "DsGetDcName(Ds)Failed(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Failed",
+        "keywords": "Resolver Intranet LwtDiagnostic",
+        "task": "DsGetDcName(Ds)",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4331",
+        "version": "0",
+        "event(fields)": "DsGetDcName(RootDomainGuid)Start(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "DsGetDcName(RootDomainGuid)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4332",
+        "version": "0",
+        "event(fields)": "DsGetDcName(RootDomainGuid)Stop(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "DsGetDcName(RootDomainGuid)",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4333",
+        "version": "0",
+        "event(fields)": "DsGetDcName(RootDomainGuid)Failed(UnicodeString DnsSuffix, UInt32 Flags, UInt32 ErrorCode, UnicodeString RetrievedDomain, UnicodeString RetrievedForest)",
+        "opcode": "Failed",
+        "keywords": "Resolver Intranet LwtDiagnostic",
+        "task": "DsGetDcName(RootDomainGuid)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedDomain"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RetrievedForest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4341",
+        "version": "0",
+        "event(fields)": "LdapAuthenticationStart(UnicodeString InterfaceName, UnicodeString Addresses, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "LdapAuthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InterfaceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4342",
+        "version": "0",
+        "event(fields)": "LdapAuthenticationStop(UnicodeString InterfaceName, UnicodeString Addresses, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "LdapAuthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InterfaceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4343",
+        "version": "0",
+        "event(fields)": "LdapAuthenticationFailed(UnicodeString InterfaceName, UnicodeString Addresses, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Failed",
+        "keywords": "Resolver Intranet LwtDiagnostic",
+        "task": "LdapAuthentication",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InterfaceName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4351",
+        "version": "0",
+        "event(fields)": "ldap_connectStart(UnicodeString Addresses, UnicodeString DcName, UInt32 TryNumber, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "ldap_connect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DcName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4352",
+        "version": "0",
+        "event(fields)": "ldap_connectStop(UnicodeString Addresses, UnicodeString DcName, UInt32 TryNumber, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "ldap_connect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DcName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4353",
+        "version": "0",
+        "event(fields)": "ldap_connectFailed(UnicodeString Addresses, UnicodeString DcName, UInt32 TryNumber, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Failed",
+        "keywords": "Resolver Intranet LwtDiagnostic",
+        "task": "ldap_connect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DcName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4354",
+        "version": "0",
+        "event(fields)": "ldap_bindStart(UnicodeString Addresses, UnicodeString DcName, UInt32 TryNumber, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "Resolver Intranet",
+        "task": "ldap_bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DcName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4355",
+        "version": "0",
+        "event(fields)": "ldap_bindStop(UnicodeString Addresses, UnicodeString DcName, UInt32 TryNumber, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "Resolver Intranet",
+        "task": "ldap_bind",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DcName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4356",
+        "version": "0",
+        "event(fields)": "ldap_bindFailed(UnicodeString Addresses, UnicodeString DcName, UInt32 TryNumber, UInt32 TryCount, UInt32 ErrorCode)",
+        "opcode": "Failed",
+        "keywords": "Resolver Intranet LwtDiagnostic",
+        "task": "ldap_bind",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Addresses"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DcName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TryCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4401",
+        "version": "0",
+        "event(fields)": "Identifying(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Identifying",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4402",
+        "version": "0",
+        "event(fields)": "Identified(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Identified",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4403",
+        "version": "0",
+        "event(fields)": "Disconnect(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Disconnect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4404",
+        "version": "0",
+        "event(fields)": "Identified4404(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "Identified",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4405",
+        "version": "0",
+        "event(fields)": "Identified4405(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Identified",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4407",
+        "version": "0",
+        "event(fields)": "InterfaceMediaConnect(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "MediaConnect",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4408",
+        "version": "0",
+        "event(fields)": "InterfaceMediaDisconnect(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "MediaDisconnect",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4409",
+        "version": "0",
+        "event(fields)": "Interface(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "Interface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4410",
+        "version": "0",
+        "event(fields)": "Identified4410(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification LwtDiagnostic",
+        "task": "Identified",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4411",
+        "version": "0",
+        "event(fields)": "Identified4411(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature, UInt32 SignatureSource)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "Identified",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SignatureLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Signature"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "4451",
+        "version": "0",
+        "event(fields)": "LdapAuthentication(GUID InterfaceGuid, UInt32 AuthCapUnlikelyReason, UInt32 SpeculativeTimeout)",
+        "opcode": "",
+        "keywords": "",
+        "task": "LdapAuthentication",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AuthCapUnlikelyReason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpeculativeTimeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "DhcpStabilized5001(GUID InterfaceGuid, UInt32 NlaState)",
+        "opcode": "Stabilized",
+        "keywords": "",
+        "task": "Dhcp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NlaState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "Identified5002(GUID InterfaceGuid, UInt32 SignatureSource, UInt32 SignatureCharacteristics)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Identified",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureSource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SignatureCharacteristics"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "6101",
+        "version": "0",
+        "event(fields)": "PerftrackCancel(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "PerftrackCancel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "6102",
+        "version": "0",
+        "event(fields)": "PerftrackCancel6102(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "PerftrackCancel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "6103",
+        "version": "0",
+        "event(fields)": "PerftrackCancel6103(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "PerftrackCancel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-NlaSvc",
+        "event_id": "6104",
+        "version": "0",
+        "event(fields)": "PerftrackCancel6104(GUID InterfaceGuid, UnicodeString AdapterName)",
+        "opcode": "",
+        "keywords": "Identification",
+        "task": "PerftrackCancel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "InterfaceGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            }
+        ]
+    }
+]

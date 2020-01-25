@@ -1,0 +1,398 @@
+[
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MonitorEnumerated(UInt64 Token, UInt32 Type, UInt32 LowerThreshold, UInt32 UpperThreshold, UInt32 Value, Boolean Mitigating, UnicodeString Name)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MonitorEnumerated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowerThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpperThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Mitigating"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MonitorRundown(UInt64 Token, UInt32 Type, UInt32 LowerThreshold, UInt32 UpperThreshold, UInt32 Value, Boolean Mitigating, UnicodeString Name)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MonitorRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowerThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpperThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Mitigating"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MonitorValueChange(UInt64 Token, UInt32 Value)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MonitorValueChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MonitorMitigatingChange(UInt64 Token, Boolean Mitigating)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MonitorMitigatingChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Mitigating"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MonitorThresholdChange(UInt64 Token, UInt32 LowerThreshold, UInt32 UpperThreshold)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MonitorThresholdChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowerThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpperThreshold"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MonitorRemoved(UInt64 Token)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MonitorRemoved",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MitigationEvent(UInt32 Event, UInt32 Type, UInt32 LowerThreshold, UInt32 UpperThreshold, UInt32 Value, UnicodeString Initiator)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MitigationEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LowerThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpperThreshold"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Initiator"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "PolicyEnumerated(UInt64 Token, UnicodeString Name, UnicodeString Parameters)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PolicyEnumerated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameters"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "PolicyRundown(UInt64 Token, UnicodeString Name, UnicodeString Parameters)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PolicyRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Parameters"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "PolicyRemoved(UInt64 Token)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PolicyRemoved",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MitigationEnumerated(UInt64 Token, UInt32 Type, UInt32 DisengagedValue, UInt32 FullyEngagedValue, UInt32 Value, UnicodeString Name)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MitigationEnumerated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DisengagedValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FullyEngagedValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MitigationRundown(UInt64 Token, UInt32 Type, UInt32 DisengagedValue, UInt32 FullyEngagedValue, UInt32 Value, UnicodeString Name)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MitigationRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DisengagedValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FullyEngagedValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MitigationValueChange(UInt64 Token, UInt32 Value)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MitigationValueChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LimitsManagement",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "MitigationRemoved(UInt64 Token)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MitigationRemoved",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Token"
+            }
+        ]
+    }
+]

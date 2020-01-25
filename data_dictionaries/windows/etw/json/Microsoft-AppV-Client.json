@@ -1,0 +1,6552 @@
+[
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "ClientStartupStart_V1()",
+        "opcode": "Start",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "ClientShutdownStop_V1()",
+        "opcode": "Stop",
+        "keywords": "Shutdown",
+        "task": "ClientShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "ClientStartupStart3_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "Start",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "ClientStartupStart4_V1(UInt32 Error)",
+        "opcode": "Start",
+        "keywords": "Startup Logon",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "5",
+        "version": "1",
+        "event(fields)": "UserLogonStart_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Start",
+        "keywords": "Logon",
+        "task": "UserLogon",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "UserLogoffStop_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Stop",
+        "keywords": "Logoff",
+        "task": "UserLogoff",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "APIRequestSend_V1(Int32 Error)",
+        "opcode": "Send",
+        "keywords": "API",
+        "task": "APIRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "UserLogonStart8_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Start",
+        "keywords": "Logon",
+        "task": "UserLogon",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9",
+        "version": "1",
+        "event(fields)": "APIRequest9_V1(UInt32 CurrentImpersonationLevel)",
+        "opcode": "",
+        "keywords": "API",
+        "task": "APIRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentImpersonationLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "APIRequest10_V1()",
+        "opcode": "",
+        "keywords": "API",
+        "task": "APIRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "ClientStartup_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "ClientShutdown_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Shutdown",
+        "task": "ClientShutdown",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "APIRequest(Int32 Error)",
+        "opcode": "",
+        "keywords": "",
+        "task": "APIRequest",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14",
+        "version": "1",
+        "event(fields)": "ClientStartupStart14_V1()",
+        "opcode": "Start",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "ClientStartupStart15_V1()",
+        "opcode": "Start",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "ClientStartupStart16_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Start",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "ClientStartupStart17_V1(UnicodeString StringParam1, UnicodeString StringParam2, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Start",
+        "keywords": "Startup",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "101",
+        "version": "1",
+        "event(fields)": "APIRequestStart_V1(UnicodeString Item)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "APIRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "102",
+        "version": "1",
+        "event(fields)": "APIRequestStop_V1(UnicodeString Name, Int32 HResult)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "APIRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1001",
+        "version": "1",
+        "event(fields)": "ClientShutdownStop1001_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Stop",
+        "keywords": "Shutdown",
+        "task": "ClientShutdown",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1002",
+        "version": "1",
+        "event(fields)": "ConfigurePackage_V1(GUID Package, GUID Version, UnicodeString Folder)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Folder"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1003",
+        "version": "1",
+        "event(fields)": "PublishPackage_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1004",
+        "version": "1",
+        "event(fields)": "PublishPackage1004_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1005",
+        "version": "1",
+        "event(fields)": "UnpublishPackage_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1006",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1006_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1007",
+        "version": "1",
+        "event(fields)": "RemovePackage_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1008",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1008_V1(GUID Package, GUID Version, UnicodeString Folder, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Folder"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1009",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1010",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup1010_V1(GUID PackageGroup, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1011",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1012",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1012_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1013",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1014",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1014_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1015",
+        "version": "1",
+        "event(fields)": "RemoveVirtualApplicationConnectionGroup_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemoveVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1016",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1016_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1017",
+        "version": "1",
+        "event(fields)": "RemovePackage1017_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1018",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1018_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1019",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1019_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1020",
+        "version": "1",
+        "event(fields)": "RemovePackage1020_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1021",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1021_V1(GUID ConnectionGroup, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1022",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1022_V1(GUID ConnectionGroup, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1023",
+        "version": "1",
+        "event(fields)": "RemoveVirtualApplicationConnectionGroup1023_V1(GUID ConnectionGroup, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemoveVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1024",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1024_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1025",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1025_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1026",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1026_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1027",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1027_V1(GUID Id, GUID Version, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1028",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1028_V1(GUID Id, GUID Version, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1029",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1029_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1030",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1030_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1031",
+        "version": "1",
+        "event(fields)": "PublishPackage1031_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1032",
+        "version": "1",
+        "event(fields)": "PublishPackage1032_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1033",
+        "version": "1",
+        "event(fields)": "PublishPackage1033_V1(GUID Id, GUID Version, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1034",
+        "version": "1",
+        "event(fields)": "PublishPackage1034_V1(GUID Id, GUID Version, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1035",
+        "version": "1",
+        "event(fields)": "PublishPackage1035_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1036",
+        "version": "1",
+        "event(fields)": "PublishPackage1036_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1037",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1037_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1038",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1038_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1039",
+        "version": "1",
+        "event(fields)": "RemovePackage1039_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1040",
+        "version": "1",
+        "event(fields)": "RemovePackage1040_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1041",
+        "version": "1",
+        "event(fields)": "RepairPackage_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RepairPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1042",
+        "version": "1",
+        "event(fields)": "RepairPackage1042_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RepairPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1043",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup1043_V1(GUID Id, GUID Version, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1044",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup1044_V1(GUID ConnectionGroup, GUID GroupVersion, GUID Package, GUID PackageVersion)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1045",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup1045_V1(GUID Id, GUID Version, UnicodeString Path)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1046",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup1046_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1047",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1047_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1048",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1048_V1(GUID ConnectionGroup, GUID GroupVersion, GUID Package, GUID PackageVersion)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1049",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1049_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1050",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1050_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1051",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1051_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1052",
+        "version": "1",
+        "event(fields)": "RemoveVirtualApplicationConnectionGroup1052_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemoveVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1053",
+        "version": "1",
+        "event(fields)": "RemoveVirtualApplicationConnectionGroup1053_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemoveVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1054",
+        "version": "1",
+        "event(fields)": "RepairVirtualApplicationConnectionGroup_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RepairVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1055",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1055_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1056",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1056_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1057",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1057_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1058",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1058_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1059",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1059_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1060",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1060_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1061",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1061_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1062",
+        "version": "1",
+        "event(fields)": "UnpublishVirtualApplicationConnectionGroup1062_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1063",
+        "version": "1",
+        "event(fields)": "PublishPackage1063_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1064",
+        "version": "1",
+        "event(fields)": "PublishPackage1064_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1065",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1065_V1(GUID ConnectionGroup, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1066",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1066_V1(GUID ConnectionGroup, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1067",
+        "version": "1",
+        "event(fields)": "PublishPackage1067_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1068",
+        "version": "1",
+        "event(fields)": "PublishPackage1068_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1069",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1069_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1070",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1070_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1071",
+        "version": "1",
+        "event(fields)": "PublishPackage1071_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1072",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup1072_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1073",
+        "version": "1",
+        "event(fields)": "PublishPackage1073_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1074",
+        "version": "1",
+        "event(fields)": "RemovePackage1074_V1(GUID Package, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1075",
+        "version": "1",
+        "event(fields)": "RemoveVirtualApplicationConnectionGroup1075_V1(GUID ConnectionGroup, GUID Version, UInt64 ActivityID)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemoveVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1076",
+        "version": "1",
+        "event(fields)": "PublishPackage1076_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1077",
+        "version": "1",
+        "event(fields)": "PublishPackage1077_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1078",
+        "version": "1",
+        "event(fields)": "PublishPackage1078_V1(GUID PackageId, GUID PackageVersion, GUID GroupId, GUID GroupVersion)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1079",
+        "version": "1",
+        "event(fields)": "ConfigurePackage1079_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1080",
+        "version": "1",
+        "event(fields)": "RemovePackage1080_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "RemovePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1082",
+        "version": "1",
+        "event(fields)": "PublishPackage1082_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "1083",
+        "version": "1",
+        "event(fields)": "UnpublishPackage1083_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2001",
+        "version": "1",
+        "event(fields)": "UserLogon_V1(UnicodeString LastFolder, UnicodeString ReqFolder, Int32 Error)",
+        "opcode": "",
+        "keywords": "Startup Logon Catalog",
+        "task": "UserLogon",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastFolder"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReqFolder"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2002",
+        "version": "1",
+        "event(fields)": "UserLogon2002_V1(UnicodeString LastFolder, UnicodeString ReqFolder, Int32 Error)",
+        "opcode": "",
+        "keywords": "Startup Logon Catalog",
+        "task": "UserLogon",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastFolder"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReqFolder"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2003",
+        "version": "1",
+        "event(fields)": "UserLogon2003_V1(UnicodeString LastFolder, UnicodeString ReqFolder)",
+        "opcode": "",
+        "keywords": "Startup Logon Catalog",
+        "task": "UserLogon",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LastFolder"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReqFolder"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2004",
+        "version": "1",
+        "event(fields)": "task_0_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Startup Catalog",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2005",
+        "version": "1",
+        "event(fields)": "ClientStartup2005_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Startup Catalog",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "2006",
+        "version": "1",
+        "event(fields)": "ClientStartup2006_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Startup Catalog",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "3001",
+        "version": "1",
+        "event(fields)": "Impersonation/DeimpersonationStop_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Stop",
+        "keywords": "Common",
+        "task": "Impersonation/Deimpersonation",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "3002",
+        "version": "1",
+        "event(fields)": "Impersonation/DeimpersonationStop3002_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "Stop",
+        "keywords": "Common",
+        "task": "Impersonation/Deimpersonation",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4001",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts_V1(UInt32 ScriptScope, UnicodeString EventType, UnicodeString CommandLine, UInt32 Error)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4002",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4002_V1(UInt64 Timeout, UInt32 ScriptScope, UnicodeString EventType, UnicodeString CommandLine)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Timeout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4004",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4004_V1(UInt32 ScriptScope, GUID Package, UnicodeString EventType, UnicodeString UserSid, UnicodeString CommandLine)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4005",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4005_V1(UInt32 ScriptScope, GUID Package, UnicodeString EventType)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4006",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4006_V1(GUID tGuid, UnicodeString tString, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "tGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "tString"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4007",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4007_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4008",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4008_V1(UInt64 Timeout, UInt32 ScriptScope, UnicodeString EventType, UnicodeString CommandLine)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Timeout"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4009",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4009_V1(UInt32 ScriptScope, UnicodeString EventType, UnicodeString CommandLine, UInt32 Error)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4010",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4010_V1(UInt32 ScriptScope, UnicodeString EventType, UnicodeString CommandLine, UInt32 Error)",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptScope"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "4011",
+        "version": "1",
+        "event(fields)": "ExecuteEmbeddedScripts4011_V1()",
+        "opcode": "",
+        "keywords": "EmbeddedScripting",
+        "task": "ExecuteEmbeddedScripts",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "5001",
+        "version": "1",
+        "event(fields)": "VirtualFileSystemRedirection_V1()",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "VirtualFileSystemRedirection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "5002",
+        "version": "1",
+        "event(fields)": "VirtualFileSystemRedirection5002_V1()",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "VirtualFileSystemRedirection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "5003",
+        "version": "1",
+        "event(fields)": "VirtualFileSystemRedirection5003_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "VirtualFileSystemRedirection",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6001",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6002",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6002_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6006",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6006_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6007",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6007_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6008",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6008_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6009",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6009_V1(UInt32 Error)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6010",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6010_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6011",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6011_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6012",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6012_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6013",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6013_V1()",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6014",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6014_V1()",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6015",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6015_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "6016",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualServices6016_V1()",
+        "opcode": "",
+        "keywords": "VirtualServices",
+        "task": "ConfigureVirtualServices",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "7001",
+        "version": "1",
+        "event(fields)": "SettingChanges_V1(UInt32 Error)",
+        "opcode": "",
+        "keywords": "Settings",
+        "task": "SettingChanges",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8001",
+        "version": "1",
+        "event(fields)": "ParseDynamicConfigurationFile_V1(UInt32 Error, UnicodeString Reason, Int64 line, Int64 column, Int64 offset)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ParseDynamicConfigurationFile",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "line"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "column"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "offset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8002",
+        "version": "1",
+        "event(fields)": "ParseDynamicConfigurationFile8002_V1(Int32 Error, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ParseDynamicConfigurationFile",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8003",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8003_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8004",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8004_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8005",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8005_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8006",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8006_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8007",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8007_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8008",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8008_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8009",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8009_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8010",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8010_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8011",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8011_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8012",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8012_V1(GUID ConnectionGroup, GUID GroupVersion, GUID Package, GUID PackageVersion)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8013",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8013_V1(GUID ConnectionGroup, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow, UnicodeString Sid)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8014",
+        "version": "1",
+        "event(fields)": "ConfigureVirtualApplicationConnectionGroup8014_V1(GUID ConnectionGroup, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow, UnicodeString Sid)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigureVirtualApplicationConnectionGroup",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8015",
+        "version": "1",
+        "event(fields)": "ConfigurePackage8015_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "8016",
+        "version": "1",
+        "event(fields)": "ConfigurePackage8016_V1(UnicodeString tString, GUID PackageId, GUID PackageVersion)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "ConfigurePackage",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "tString"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9001",
+        "version": "1",
+        "event(fields)": "PowerShellInvoke_V1(UnicodeString Command, UnicodeString ErrorWarning)",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PowerShellInvoke",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorWarning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9002",
+        "version": "1",
+        "event(fields)": "PowerShellInvoke9002_V1(UnicodeString Command, UnicodeString ErrorWarning)",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PowerShellInvoke",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Command"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorWarning"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9003",
+        "version": "1",
+        "event(fields)": "PSObjectGetPropertyValue_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectGetPropertyValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9004",
+        "version": "1",
+        "event(fields)": "PSObjectGetPropertyValue9004_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectGetPropertyValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9005",
+        "version": "1",
+        "event(fields)": "PSObjectGetPropertyValue9005_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectGetPropertyValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9006",
+        "version": "1",
+        "event(fields)": "PSObjectGetPropertyValue9006_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectGetPropertyValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9007",
+        "version": "1",
+        "event(fields)": "PSObjectInvokeMethod_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectInvokeMethod",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9008",
+        "version": "1",
+        "event(fields)": "PSObjectInvokeMethod9008_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectInvokeMethod",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9009",
+        "version": "1",
+        "event(fields)": "PowershellProcess_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PowershellProcess",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9010",
+        "version": "1",
+        "event(fields)": "PowershellProcess9010_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PowershellProcess",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "9012",
+        "version": "1",
+        "event(fields)": "PSObjectGetPropertyValue9012_V1()",
+        "opcode": "",
+        "keywords": "ClientManagement",
+        "task": "PSObjectGetPropertyValue",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "10001",
+        "version": "1",
+        "event(fields)": "SubsystemStartup_V1(UInt32 PID, GUID Package, GUID Version, UnicodeString SubsystemName, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Subsystems",
+        "task": "SubsystemStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubsystemName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "10002",
+        "version": "1",
+        "event(fields)": "ClientStartup10002_V1(UInt32 Value)",
+        "opcode": "",
+        "keywords": "Subsystems",
+        "task": "ClientStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11002",
+        "version": "1",
+        "event(fields)": "PublishPackage11002_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11003",
+        "version": "1",
+        "event(fields)": "UnpublishPackage11003_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "UnpublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11004",
+        "version": "1",
+        "event(fields)": "PublishPackage11004_V1(GUID Package)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11005",
+        "version": "1",
+        "event(fields)": "PublishPackage11005_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11006",
+        "version": "1",
+        "event(fields)": "UnpublishPackage11006_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "UnpublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11007",
+        "version": "1",
+        "event(fields)": "PublishPackage11007_V1(GUID Package, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11008",
+        "version": "1",
+        "event(fields)": "PublishPackage11008_V1(GUID Package, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11009",
+        "version": "1",
+        "event(fields)": "PublishPackage11009_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11010",
+        "version": "1",
+        "event(fields)": "PublishPackage11010_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11011",
+        "version": "1",
+        "event(fields)": "PublishPackage11011_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "11012",
+        "version": "1",
+        "event(fields)": "PublishPackage11012_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "",
+        "keywords": "ClientCoExistence",
+        "task": "PublishPackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "12001",
+        "version": "1",
+        "event(fields)": "VirtualEnvironmentStart_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "Start",
+        "keywords": "VREG",
+        "task": "VirtualEnvironmentStart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13001",
+        "version": "1",
+        "event(fields)": "UserStateDeletion_V1(GUID Package)",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "UserStateDeletion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13002",
+        "version": "1",
+        "event(fields)": "UserStateDeletion13002_V1(GUID Package, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "UserStateDeletion",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13003",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch_V1(UnicodeString ProcessName, GUID Package, UInt32 Pid, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessName"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13004",
+        "version": "1",
+        "event(fields)": "ConfigurePackage13004_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13005",
+        "version": "1",
+        "event(fields)": "PublishPackage13005_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13006",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup13006_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VFS",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13007",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch13007_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13008",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch13008_V1(UInt64 ErrorHigh, UInt64 ErrorLow, UInt64 ProcessID, GUID PackageId, GUID PackageVersion)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13009",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch13009_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13010",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch13010_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13011",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch13011_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "13012",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch13012_V1(GUID ConnectionGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14001",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14002",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14002_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14003",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14003_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14004",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14004_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14005",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14005_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14006",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14006_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14007",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14007_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14008",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14008_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14009",
+        "version": "1",
+        "event(fields)": "Streaming_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14010",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14010_V1(GUID Package, GUID Version, UnicodeString Folder)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Folder"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14011",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14011_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14012",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14012_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14013",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14013_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14014",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14014_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14015",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14015_V1(GUID Package, GUID Version, UnicodeString Folder)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Folder"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14016",
+        "version": "1",
+        "event(fields)": "Streaming14016_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14017",
+        "version": "1",
+        "event(fields)": "Streaming14017_V1(GUID Package, GUID Version, UInt32 Hresult)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Hresult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14018",
+        "version": "1",
+        "event(fields)": "Streaming14018_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14019",
+        "version": "1",
+        "event(fields)": "Streaming14019_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14020",
+        "version": "1",
+        "event(fields)": "ConfigurePackage14020_V1(GUID Package, GUID Version)",
+        "opcode": "",
+        "keywords": "Publishing",
+        "task": "ConfigurePackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14021",
+        "version": "1",
+        "event(fields)": "Streaming14021_V1(GUID tGuid, UnicodeString tString, Int32 HResult)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "tGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "tString"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14022",
+        "version": "1",
+        "event(fields)": "Streaming14022_V1(Int32 Error)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14023",
+        "version": "1",
+        "event(fields)": "Streaming14023_V1(UnicodeString File, Pointer Pid)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "File"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Pid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14024",
+        "version": "1",
+        "event(fields)": "Streaming14024_V1(UnicodeString File, Pointer Pid, UnicodeString Sid)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "File"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Pid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14025",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14025_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14026",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14026_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14027",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14027_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14028",
+        "version": "1",
+        "event(fields)": "BackgroundStreaming14028_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "BackgroundStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "14029",
+        "version": "1",
+        "event(fields)": "Streaming14029_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "15001",
+        "version": "1",
+        "event(fields)": "ConnecttoAppVClientService_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "ClientStreamingUX",
+        "task": "ConnecttoAppVClientService",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "15002",
+        "version": "1",
+        "event(fields)": "ConnecttoAppVClientService15002_V1(Int32 HResult)",
+        "opcode": "",
+        "keywords": "ClientStreamingUX",
+        "task": "ConnecttoAppVClientService",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "15003",
+        "version": "1",
+        "event(fields)": "StopPackageorConnectionGroup_V1(GUID VirtualEnvironmentId, GUID VirtualEnvironmentVersion, UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "ClientStreamingUX",
+        "task": "StopPackageorConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VirtualEnvironmentId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "VirtualEnvironmentVersion"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "16001",
+        "version": "1",
+        "event(fields)": "VirtualEnvironmentStart16001_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "VOBJ",
+        "task": "VirtualEnvironmentStart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "16002",
+        "version": "1",
+        "event(fields)": "VirtualEnvironmentStart16002_V1(GUID PackageGroup, GUID Version)",
+        "opcode": "",
+        "keywords": "VOBJ",
+        "task": "VirtualEnvironmentStart",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "16003",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup16003_V1(GUID PackageGroup, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VOBJ",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "16004",
+        "version": "1",
+        "event(fields)": "PublishPackage16004_V1(GUID PackageId, GUID PackageVersion, GUID GroupId, GUID GroupVersion, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VOBJ",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17001",
+        "version": "1",
+        "event(fields)": "UploadReportingData_V1(UnicodeString Item, UInt32 Error)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "UploadReportingData",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17002",
+        "version": "1",
+        "event(fields)": "UploadReportingData17002_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "UploadReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17003",
+        "version": "1",
+        "event(fields)": "CreateReportingData_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17004",
+        "version": "1",
+        "event(fields)": "CreateReportingData17004_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17005",
+        "version": "1",
+        "event(fields)": "CreateReportingData17005_V1()",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17006",
+        "version": "1",
+        "event(fields)": "UploadReportingData17006_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "UploadReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17007",
+        "version": "1",
+        "event(fields)": "CreateReportingData17007_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17008",
+        "version": "1",
+        "event(fields)": "CreateReportingData17008_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17009",
+        "version": "1",
+        "event(fields)": "CreateReportingData17009_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17010",
+        "version": "1",
+        "event(fields)": "CreateReportingData17010_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17011",
+        "version": "1",
+        "event(fields)": "UploadReportingData17011_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "UploadReportingData",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "17012",
+        "version": "1",
+        "event(fields)": "CreateReportingData17012_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Reporting",
+        "task": "CreateReportingData",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "18001",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch18001_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "18002",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch18002_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "18003",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch18003_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "18004",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch18004_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "18005",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch18005_V1(UnicodeString StringParam1, UnicodeString StringParam2, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "18006",
+        "version": "1",
+        "event(fields)": "ApplicationLaunch18006_V1(GUID ConnectionGroup, GUID GroupVersion, GUID Package, GUID PackageVersion)",
+        "opcode": "",
+        "keywords": "VirtualAppLaunch",
+        "task": "ApplicationLaunch",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ConnectionGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19001",
+        "version": "1",
+        "event(fields)": "PublishingRefresh_V1(UnicodeString String, Boolean Flag)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19002",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19002_V1(UnicodeString String, Boolean Flag, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19010",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19010_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19011",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19011_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19101",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19101_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19102",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19102_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19103",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19103_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19104",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19104_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19105",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19105_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19106",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19106_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19107",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19107_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19108",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19108_V1(GUID Guid1, GUID Guid2, GUID Guid3)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Guid1"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Guid2"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Guid3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19201",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19201_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19202",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19202_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19203",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19203_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19204",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19204_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19205",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19205_V1(UnicodeString StringParam, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StringParam"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19301",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19301_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19302",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19302_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19303",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19303_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19304",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19304_V1(GUID Package, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19401",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19401_V1(UInt32 Value, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19402",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19402_V1(UInt32 Value, UnicodeString String)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19403",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19403_V1(UInt32 Value)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19404",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19404_V1(UInt32 Value)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19405",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19405_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19406",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19406_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19407",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19407_V1(UInt32 Value1, UInt32 Value2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19408",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19408_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19501",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19501_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19502",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19502_V1(UnicodeString Item)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19801",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19801_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19802",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19802_V1(UnicodeString String, Boolean Flag1, Boolean Flag2, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag1"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19803",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19803_V1(UnicodeString String, Boolean Flag1, Boolean Flag2, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "String"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag1"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Flag2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19804",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19804_V1()",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "19805",
+        "version": "1",
+        "event(fields)": "PublishingRefresh19805_V1(UInt64 ErrorHigh, UInt64 ErrorLow)",
+        "opcode": "",
+        "keywords": "PublishingRefresh",
+        "task": "PublishingRefresh",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "20001",
+        "version": "1",
+        "event(fields)": "PublishVirtualApplicationConnectionGroup20001_V1(GUID PackageGroup, GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "PublishVirtualApplicationConnectionGroup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageGroup"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "20002",
+        "version": "1",
+        "event(fields)": "PublishPackage20002_V1(GUID PackageId, GUID PackageVersion, GUID GroupId, GUID GroupVersion, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "20101",
+        "version": "1",
+        "event(fields)": "PublishPackage20101_V1(GUID PackageId, GUID PackageVersion, GUID GroupId, GUID GroupVersion, UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "DynamicConfiguration",
+        "task": "PublishPackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "PackageVersion"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "GroupVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "21001",
+        "version": "1",
+        "event(fields)": "Integration_V1(UInt32 ErrorHigh, UInt32 ErrorLow)",
+        "opcode": "",
+        "keywords": "Integration",
+        "task": "Integration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorHigh"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "21002",
+        "version": "1",
+        "event(fields)": "Integration21002_V1()",
+        "opcode": "",
+        "keywords": "Integration",
+        "task": "Integration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "22001",
+        "version": "1",
+        "event(fields)": "SidebySide_V1(UnicodeString Item1, UnicodeString Item2)",
+        "opcode": "",
+        "keywords": "SxS",
+        "task": "SidebySide",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Item2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "23001",
+        "version": "1",
+        "event(fields)": "Streaming23001_V1()",
+        "opcode": "",
+        "keywords": "Streaming",
+        "task": "Streaming",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "24001",
+        "version": "1",
+        "event(fields)": "Enable/DisableAppv_V1(Int32 Error)",
+        "opcode": "",
+        "keywords": "AppManagementConfiguration",
+        "task": "Enable/DisableAppv",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-AppV-Client",
+        "event_id": "24002",
+        "version": "1",
+        "event(fields)": "Enable/DisableAppv24002_V1(Int32 Error)",
+        "opcode": "",
+        "keywords": "AppManagementConfiguration",
+        "task": "Enable/DisableAppv",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    }
+]

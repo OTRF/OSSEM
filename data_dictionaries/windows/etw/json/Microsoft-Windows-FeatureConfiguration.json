@@ -1,0 +1,134 @@
+[
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEvents(Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEvents1002(UnicodeString RegKeyName, UnicodeString ValueName, UInt32 ValueType, Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegKeyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ValueName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ValueType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEvents1004(Int32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEventsOpCodeforsettingfeaturestate(UInt32 FeatureId, UInt32 FeatureState)",
+        "opcode": "OpCodeforsettingfeaturestate",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEventsOpCodeforre_settingfeaturestate(UInt32 FeatureId)",
+        "opcode": "OpCodeforre_settingfeaturestate",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FeatureId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEventsStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FeatureConfiguration",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "FeatureConfigurationEventsStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FeatureConfigurationEvents",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

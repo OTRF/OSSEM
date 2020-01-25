@@ -1,0 +1,86 @@
+[
+    {
+        "provider": "Microsoft-Windows-Websocket-Protocol-Component",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "Parser(UnicodeString TraceMessage, HexInt32 Error)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "Parser",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TraceMessage"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Websocket-Protocol-Component",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ActionqueueStart(UInt32 Id, UInt32 OperationType)",
+        "opcode": "Start",
+        "keywords": "keywords.KW_ALL",
+        "task": "Actionqueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Websocket-Protocol-Component",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "Actionqueue(UInt32 Id, UInt32 ActionType)",
+        "opcode": "",
+        "keywords": "keywords.KW_ALL",
+        "task": "Actionqueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActionType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Websocket-Protocol-Component",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "ActionqueueStop(UInt32 Id)",
+        "opcode": "Stop",
+        "keywords": "keywords.KW_ALL",
+        "task": "Actionqueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "provider": "Microsoft-Windows-Shell-OpenWith",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "ShowImmersiveOpenWithStart(UnicodeString Target, Boolean TargetIsURL)",
+        "opcode": "Start",
+        "keywords": "OpenWith",
+        "task": "ShowImmersiveOpenWith",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TargetIsURL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Shell-OpenWith",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "ShowImmersiveOpenWithStop(UInt32 HRESULT)",
+        "opcode": "Stop",
+        "keywords": "OpenWith",
+        "task": "ShowImmersiveOpenWith",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    }
+]

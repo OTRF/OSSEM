@@ -1,0 +1,412 @@
+[
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10000",
+        "version": "0",
+        "event(fields)": "task_0()",
+        "opcode": "",
+        "keywords": "ut:Global",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10001",
+        "version": "0",
+        "event(fields)": "task_010001()",
+        "opcode": "",
+        "keywords": "ut:Global",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10010",
+        "version": "0",
+        "event(fields)": "task_010010(UInt32 IfIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10011",
+        "version": "0",
+        "event(fields)": "task_010011(UInt32 IfIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10020",
+        "version": "0",
+        "event(fields)": "task_010020(UInt32 IfIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10021",
+        "version": "0",
+        "event(fields)": "task_010021(UInt32 IfIndex, UInt32 RejectReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RejectReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10030",
+        "version": "0",
+        "event(fields)": "task_010030(UInt32 IfIndex, UInt32 AdminParameter, UInt32 OldValue, UInt32 NewValue)",
+        "opcode": "",
+        "keywords": "ut:Configuration",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AdminParameter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10040",
+        "version": "0",
+        "event(fields)": "task_010040(UInt32 IfIndex, UInt32 PacketPayloadLength, Binary PacketPayload)",
+        "opcode": "",
+        "keywords": "ut:SendPath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketPayloadLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PacketPayload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10041",
+        "version": "0",
+        "event(fields)": "task_010041(UInt32 IfIndex, UInt32 SequenceNumber, UInt32 PacketPayloadLength, Binary PacketPayload)",
+        "opcode": "",
+        "keywords": "ut:ReceivePath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketPayloadLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "PacketPayload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10042",
+        "version": "0",
+        "event(fields)": "task_010042(UInt32 IfIndex, UInt32 SequenceNumber, UInt32 PacketDiscardReason)",
+        "opcode": "",
+        "keywords": "ut:ReceivePath",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PacketDiscardReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10043",
+        "version": "0",
+        "event(fields)": "task_010043(UInt32 IfIndex, UInt32 SequenceNumber)",
+        "opcode": "",
+        "keywords": "ut:ReceivePath",
+        "task": "task_0",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SequenceNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10050",
+        "version": "0",
+        "event(fields)": "task_010050(UInt32 IfIndex, UInt32 MsapIdLength, Binary MsapId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsapIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MsapId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10051",
+        "version": "0",
+        "event(fields)": "task_010051(UInt32 IfIndex, UInt32 MsapIdLength, Binary MsapId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsapIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MsapId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10052",
+        "version": "0",
+        "event(fields)": "task_010052(UInt32 IfIndex, UInt32 MsapIdLength, Binary MsapId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsapIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MsapId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10053",
+        "version": "0",
+        "event(fields)": "task_010053(UInt32 IfIndex, UInt32 MsapIdLength, Binary MsapId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsapIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "MsapId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10060",
+        "version": "0",
+        "event(fields)": "task_010060(UInt32 IfIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10061",
+        "version": "0",
+        "event(fields)": "task_010061(UInt32 IfIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-LinkLayerDiscoveryProtocol",
+        "event_id": "10062",
+        "version": "0",
+        "event(fields)": "task_010062(UInt32 IfIndex, UInt32 ExistingMsapIdLength, Binary ExistingMsapId, UInt32 ReceivedMsapIdLength, Binary ReceivedMsapId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExistingMsapIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ExistingMsapId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReceivedMsapIdLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ReceivedMsapId"
+            }
+        ]
+    }
+]

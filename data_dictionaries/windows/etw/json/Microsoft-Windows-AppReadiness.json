@@ -1,0 +1,3889 @@
+[
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "AppReadiness_Error(UnicodeString User, UnicodeString Operation, UnicodeString PackageId, Int32 Result, UnicodeString Error)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "AppReadiness_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "AppReadiness_Error11(Int32 Error, AnsiString Expression, AnsiString Function, AnsiString File, Int32 Line)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "AppReadiness_Error",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Expression"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "File"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Line"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "AppReadiness_Error12(UnicodeString User, UnicodeString Error, Int32 Result)",
+        "opcode": "",
+        "keywords": "Error",
+        "task": "AppReadiness_Error",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service_LifetimeStart()",
+        "opcode": "Start",
+        "keywords": "Service",
+        "task": "AppReadiness_Service_Lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service_LifetimeStop()",
+        "opcode": "Stop",
+        "keywords": "Service",
+        "task": "AppReadiness_Service_Lifetime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service_ThreadStart()",
+        "opcode": "Start",
+        "keywords": "Service",
+        "task": "AppReadiness_Service_Thread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service_ThreadStop()",
+        "opcode": "Stop",
+        "keywords": "Service",
+        "task": "AppReadiness_Service_Thread",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service(UInt32 Status, HexInt32 ExitCode)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "AppReadiness_Service",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service105(Boolean IsIdle, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "AppReadiness_Service",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsIdle"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service106(UnicodeString User)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "AppReadiness_Service",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service107(UnicodeString User)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "AppReadiness_Service",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "AppReadiness_PackageChangeStart(UInt32 Source)",
+        "opcode": "Start",
+        "keywords": "Service",
+        "task": "AppReadiness_PackageChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "AppReadiness_PackageChangeStop(UInt32 Source, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Service",
+        "task": "AppReadiness_PackageChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "AppReadiness_Service110(UInt32 ReferencesLeaked, UInt32 ShutdownDelayMsec)",
+        "opcode": "",
+        "keywords": "Service",
+        "task": "AppReadiness_Service",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferencesLeaked"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShutdownDelayMsec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStart(UnicodeString User)",
+        "opcode": "Start",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop(UnicodeString User)",
+        "opcode": "Stop",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks(UnicodeString User, UInt32 NumPackages, UnicodeString PackageInfo)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackages"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStart206(UnicodeString User, UnicodeString TaskId, UInt32 Priority)",
+        "opcode": "Start",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop207(UnicodeString User, UnicodeString TaskId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks209(UnicodeString User, UInt32 From, UInt32 To)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "From"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "To"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks210(UnicodeString User)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks211(UnicodeString User)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks212(UnicodeString SID, UInt32 NumPackages, UnicodeString PackageFamilyName)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackages"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks213(UnicodeString Username, UnicodeString Package, UInt32 Operation, Double Elapsed)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Elapsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks214(UnicodeString User, UnicodeString Package, UInt32 Operation, Int32 Error, Double Elapsed)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Elapsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks215(UnicodeString Username, UnicodeString Task, Int32 Error, Double Elapsed)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Elapsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks216(UnicodeString User, FILETIME ResumeAt)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ResumeAt"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks217(UnicodeString User)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks218(UnicodeString User, UnicodeString Package, UInt32 Operation, Int32 Error, FILETIME AttemptAfter)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "AttemptAfter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks219(UnicodeString SID, UInt32 NumPackages, UnicodeString PackageFamilyName)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackages"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks220(UnicodeString Username, UnicodeString Task, Double Elapsed)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Elapsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks221(UnicodeString Username, UnicodeString Task)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks222(UnicodeString User, UnicodeString TaskId, UInt32 OpposingOperation, Boolean TaskCanceled)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OpposingOperation"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "TaskCanceled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ShutdownStart(UnicodeString User)",
+        "opcode": "Start",
+        "keywords": "User",
+        "task": "AppReadiness_User_Shutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ShutdownStop(UnicodeString User)",
+        "opcode": "Stop",
+        "keywords": "User",
+        "task": "AppReadiness_User_Shutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_Shutdown(UnicodeString Username, UnicodeString Task)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_Shutdown",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Username"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_Shutdown226(UnicodeString User)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_Shutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks227(UnicodeString User, UnicodeString TaskId, UInt32 Priority)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks228(UnicodeString Task, Double Elapsed)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Elapsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks229(UnicodeString TaskId, UInt32 Priority)",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Priority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks230()",
+        "opcode": "",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStart231()",
+        "opcode": "Start",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop232(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStart233()",
+        "opcode": "Start",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop234(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "User",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStart235()",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop236(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStart237()",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop238(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasksStop239(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks keyword_400000000000",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks240(UnicodeString User, UnicodeString TaskId, UInt32 TaskCount)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "AppReadiness_User_ProcessTasks241(UnicodeString User, UnicodeString TaskId, UInt32 TaskCount)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_User_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart(UnicodeString User, UnicodeString TaskId)",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop(UnicodeString User, UnicodeString TaskId, Int32 Result, Double Duration)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart302(UnicodeString User, UnicodeString GroupId)",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop303(UnicodeString User, UnicodeString GroupId, Int32 Result, Double Duration)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask(UnicodeString User, UnicodeString GroupId, UnicodeString TaskId, Int32 Result)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GroupId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "305",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask305(UnicodeString User, UnicodeString PackageFamilyName, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask306(UnicodeString User, UnicodeString TaskId)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "307",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask307(UnicodeString User, UnicodeString PackageFamilyName, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "308",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask308(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Source, Int32 Result)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "309",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart309(UnicodeString User)",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "310",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop310(UnicodeString User)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "311",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask311(UnicodeString User, UnicodeString Key, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "312",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask312(UnicodeString User, UInt32 Source, UInt32 NumPackages, UnicodeString PackageFamilyName)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumPackages"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "313",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask313(UnicodeString User, UnicodeString Group, UnicodeString Task)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "314",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask314(UnicodeString User, UnicodeString Group, UnicodeString Task)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Group"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Task"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "315",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask315(UnicodeString User, UnicodeString PackageFamilyName, UnicodeString Reason)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "316",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask316(UnicodeString User, UnicodeString PackageFamilyName)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "317",
+        "version": "0",
+        "event(fields)": "AppReadiness_PreRegister_PackageStart(UnicodeString PackageId)",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_PreRegister_Package",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "318",
+        "version": "0",
+        "event(fields)": "AppReadiness_PreRegister_PackageStop(UnicodeString PackageId)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_PreRegister_Package",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "319",
+        "version": "0",
+        "event(fields)": "AppReadiness_PreRegister_Package(UnicodeString PackageId, Int32 Result)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_PreRegister_Package",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "320",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask320(UnicodeString Key, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Tasks keyword_400000000000",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Key"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "321",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart321()",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "322",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop322(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "323",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart323()",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "324",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop324(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "325",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop325(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks keyword_400000000000",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "326",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart326()",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "327",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop327(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "328",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStart328()",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "329",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop329(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "330",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTaskStop330(HexInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "Tasks keyword_400000000000",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_InstallStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_Install",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_InstallStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_Install",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_RemoveStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_Remove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_RemoveStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_Remove",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_GetTaskStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_GetTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_GetTaskStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_GetTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_ProcessTasksStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_ProcessTasksStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_ProcessTasks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_HandlePackageChangeStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_HandlePackageChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_HandlePackageChangeStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_HandlePackageChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_CreateTaskStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_CreateTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_CreateTaskStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_CreateTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_EnterLogonPhaseStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_EnterLogonPhase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_EnterLogonPhaseStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_EnterLogonPhase",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_ResolveStoreCategoriesStart(UnicodeString User, UInt32 ProcessId)",
+        "opcode": "Start",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_ResolveStoreCategories",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_ResolveStoreCategoriesStop(UnicodeString User, UInt32 ProcessId, Int32 Result)",
+        "opcode": "Stop",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_ResolveStoreCategories",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "AppReadiness_Api_DisableInAuditMode(Boolean IsAuditMode)",
+        "opcode": "",
+        "keywords": "Api",
+        "task": "AppReadiness_Api_DisableInAuditMode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsAuditMode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2000",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackageStart(UnicodeString User, UnicodeString PackageFamilyName)",
+        "opcode": "Start",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackageStop(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "Stop",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2003",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage2003(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2005",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage2005(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2006",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage2006(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2007",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage2007(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2008",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage2008(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2009",
+        "version": "0",
+        "event(fields)": "AppReadiness_ScorePackage2009(UnicodeString User, UnicodeString PackageFamilyName, UInt32 Score)",
+        "opcode": "",
+        "keywords": "Scoring",
+        "task": "AppReadiness_ScorePackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Score"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2500",
+        "version": "0",
+        "event(fields)": "AppReadiness_BrokerSessionStart(UnicodeString User)",
+        "opcode": "Start",
+        "keywords": "BrokerSession",
+        "task": "AppReadiness_BrokerSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2501",
+        "version": "0",
+        "event(fields)": "AppReadiness_BrokerSessionStop(UnicodeString User, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "BrokerSession",
+        "task": "AppReadiness_BrokerSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2502",
+        "version": "0",
+        "event(fields)": "AppReadiness_BrokerSession(UnicodeString User, UnicodeString Package, UInt32 Result)",
+        "opcode": "",
+        "keywords": "BrokerSession",
+        "task": "AppReadiness_BrokerSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2503",
+        "version": "0",
+        "event(fields)": "AppReadiness_BrokerSession2503(UnicodeString User, UnicodeString Package, UInt32 Result)",
+        "opcode": "",
+        "keywords": "BrokerSession",
+        "task": "AppReadiness_BrokerSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Package"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "2504",
+        "version": "0",
+        "event(fields)": "AppReadiness_BrokerSession2504(UnicodeString User, UInt32 Result)",
+        "opcode": "",
+        "keywords": "BrokerSession",
+        "task": "AppReadiness_BrokerSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "3000",
+        "version": "0",
+        "event(fields)": "AppReadiness_PerfTrackStart(UnicodeString TaskId)",
+        "opcode": "Start",
+        "keywords": "Tasks",
+        "task": "AppReadiness_PerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "AppReadiness_PerfTrackStop(UnicodeString TaskId)",
+        "opcode": "Stop",
+        "keywords": "Tasks",
+        "task": "AppReadiness_PerfTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TaskId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "4000",
+        "version": "0",
+        "event(fields)": "AppReadiness_TriggerTask_Run(UnicodeString User, Int32 Result)",
+        "opcode": "",
+        "keywords": "Triggers",
+        "task": "AppReadiness_TriggerTask_Run",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "4001",
+        "version": "0",
+        "event(fields)": "AppReadiness_MaintenanceTask_Run(UnicodeString User, Int32 Result)",
+        "opcode": "",
+        "keywords": "Triggers",
+        "task": "AppReadiness_MaintenanceTask_Run",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5000",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5002(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5003",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5003(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5004",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5004(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5005",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5005(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5006",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5006(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5007",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5007(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5008",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5008(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5009",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5009(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5010",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5010(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5011",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5011(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5012",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5012(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5013",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5013(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5014",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5014(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5015",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5015(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5016",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5016(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5017",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5017(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5018",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5018(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5019",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5019(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5020",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5020(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5021",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5021(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5022",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5022(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5023",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5023(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5024",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5024(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5025",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5025(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5026",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5026(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5027",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5027(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5028",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5028(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5029",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5029(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5030",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5030(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5031",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5031(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5032",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5032(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5033",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5033(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5034",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5034(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5035",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5035(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5036",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5036(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5037",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5037(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5038",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5038(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5039",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5039(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5040",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5040(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5041",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5041(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5042",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5042(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5043",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5043(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5044",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask5044(UnicodeString User, Int32 Result)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5045",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask5045(UnicodeString User, Int32 Result)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5046",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask5046(UnicodeString User)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5047",
+        "version": "0",
+        "event(fields)": "AppReadiness_ExecuteTask5047(UnicodeString User)",
+        "opcode": "",
+        "keywords": "Tasks",
+        "task": "AppReadiness_ExecuteTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "User"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5048",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStart5048(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Start",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AppReadiness",
+        "event_id": "5049",
+        "version": "0",
+        "event(fields)": "AppReadiness_TimelineStop5049(UnicodeString UserId, UnicodeString PackageFamilyName, UnicodeString ActivityId)",
+        "opcode": "Stop",
+        "keywords": "Timeline",
+        "task": "AppReadiness_Timeline",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ActivityId"
+            }
+        ]
+    }
+]

@@ -1,0 +1,924 @@
+[
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "SettingChangeModify(UnicodeString Class, UInt32 Setting, UnicodeString AccountOwner, UnicodeString OldValue, UnicodeString NewValue, UInt32 Reason, UnicodeString Optional)",
+        "opcode": "Modify",
+        "keywords": "WPC",
+        "task": "SettingChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Class"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Setting"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountOwner"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldValue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Optional"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "GameStartLaunch(GUID AppID, GUID InstanceID, UnicodeString Version, UnicodeString Path, UnicodeString Rating, GUID RatingsSystem, UInt32 Reason, UInt32 DescriptorCount, UnicodeString Descriptor, UInt32 PID)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "GameStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "AppID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "InstanceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Rating"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "RatingsSystem"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DescriptorCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Descriptor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "UrlVisitWeb(UnicodeString URL, UnicodeString Application, UnicodeString Version, UInt32 Reason, GUID RatingSystemID, UInt32 CategoryCount, UnicodeString Category)",
+        "opcode": "Web",
+        "keywords": "WPC",
+        "task": "UrlVisit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "RatingSystemID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CategoryCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Category"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "EmailReceivedLaunch(UnicodeString Sender, UnicodeString Application, UnicodeString Version, UnicodeString Subject, UInt32 Reason, UInt32 RecipientCount, UnicodeString Recipient, UInt32 AttachmentCount, UnicodeString AttachmentName, SYSTEMTIME ReceivedTime, UnicodeString EmailAccount)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "EmailReceived",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sender"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecipientCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Recipient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AttachmentCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AttachmentName"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "ReceivedTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EmailAccount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "EmailSentLaunch(UnicodeString Sender, UnicodeString Application, UnicodeString Version, UnicodeString Subject, UInt32 Reason, UInt32 RecipientCount, UnicodeString Recipient, UInt32 AttachmentCount, UnicodeString AttachmentName, UnicodeString EmailAccount)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "EmailSent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sender"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Subject"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecipientCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Recipient"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AttachmentCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AttachmentName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EmailAccount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MediaPlaybackLaunch(UnicodeString Application, UnicodeString Version, UInt32 MediaType, UnicodeString Path, UnicodeString Title, UInt32 PML, UnicodeString Album, UInt32 ExplicitContent, UInt32 Reason)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "MediaPlayback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MediaType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PML"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Album"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExplicitContent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "IMInvitationLaunch(UnicodeString Application, UnicodeString Version, UnicodeString AccountName, UnicodeString ConversationID, UnicodeString RequestingIP, UnicodeString Sender, UInt32 Reason, UInt32 RecipientCount, UnicodeString Recipient)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "IMInvitation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConversationID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestingIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sender"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecipientCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Recipient"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "IMJoinLaunch(UnicodeString Application, UnicodeString Version, UnicodeString AccountName, UnicodeString ConversationID, UnicodeString JoiningIP, UnicodeString JoiningUser, UInt32 Reason, UInt32 MemberCount, UnicodeString Member, UnicodeString Sender)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "IMJoin",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConversationID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "JoiningIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "JoiningUser"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemberCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Member"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sender"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "IMLeaveLaunch(UnicodeString Application, UnicodeString Version, UnicodeString AccountName, UnicodeString ConversationID, UnicodeString LeavingIP, UnicodeString LeavingUser, UInt32 Reason, UInt32 MemberCount, UnicodeString Member, UInt32 Flags)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "IMLeave",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConversationID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LeavingIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LeavingUser"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemberCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Member"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "FileDownloadWeb(UnicodeString URL, UnicodeString Application, UnicodeString Version, UInt32 Reason, UnicodeString Path)",
+        "opcode": "Web",
+        "keywords": "WPC ThirdParty",
+        "task": "FileDownload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "IMFeatureLaunch(UnicodeString Application, UnicodeString Version, UnicodeString AccountName, UnicodeString ConversationID, UInt32 MediaType, UInt32 Reason, UInt32 RecipientCount, UnicodeString Recipient, UnicodeString Sender, UnicodeString SenderIP, UnicodeString Data)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "IMFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConversationID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MediaType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RecipientCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Recipient"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Sender"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SenderIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "CustomSystem(UnicodeString Publisher, UnicodeString Application, UnicodeString Version, UnicodeString Event, UnicodeString Value1, UnicodeString Value2, UnicodeString Value3, UInt32 Blocked, UnicodeString Reason)",
+        "opcode": "System",
+        "keywords": "WPC ThirdParty",
+        "task": "Custom",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Publisher"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Blocked"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "EmailContactLaunch(UnicodeString Application, UnicodeString Version, UnicodeString OldName, UnicodeString OldAddress, UnicodeString NewName, UnicodeString NewAddress, UInt32 Reason, UnicodeString EmailAccount)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "EmailContact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EmailAccount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "IMContactLaunch(UnicodeString Application, UnicodeString Version, UnicodeString AccountName, UnicodeString OldName, UnicodeString OldID, UnicodeString NewName, UnicodeString NewID, UInt32 Reason)",
+        "opcode": "Launch",
+        "keywords": "WPC ThirdParty",
+        "task": "IMContact",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Version"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AccountName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "ApplicationBlockedLaunch(SYSTEMTIME Timestamp, UnicodeString UserID, UnicodeString Path, UnicodeString RuleID)",
+        "opcode": "Launch",
+        "keywords": "WPC",
+        "task": "ApplicationBlocked",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RuleID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "ApplicationOverrideLaunch(UnicodeString UserID, UnicodeString Path, UInt32 Reason)",
+        "opcode": "Launch",
+        "keywords": "WPC",
+        "task": "ApplicationOverride",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "WebOverrideLaunch(UnicodeString UserID, UnicodeString URL, UInt32 Reason)",
+        "opcode": "Launch",
+        "keywords": "WPC",
+        "task": "WebOverride",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "WebsiteVisitWeb(UnicodeString Url, UInt32 Decision, UnicodeString Categories, UnicodeString BlockedCategories, UnicodeString SerializedApplication, UnicodeString Title, UnicodeString ContentType, UnicodeString Referrer, UnicodeString Telemetry)",
+        "opcode": "Web",
+        "keywords": "WPC",
+        "task": "WebsiteVisit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Decision"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Categories"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BlockedCategories"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SerializedApplication"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContentType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Referrer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Telemetry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "ApplicationLaunch(UnicodeString SerializedApplication, UInt32 State, UInt32 ProcessId, FILETIME CreationTime, UInt64 TimeUsed)",
+        "opcode": "Launch",
+        "keywords": "WPC",
+        "task": "Application",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SerializedApplication"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreationTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeUsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "ComputerUsageSystem(UInt64 Id, UInt64 TimeUsed)",
+        "opcode": "System",
+        "keywords": "WPC",
+        "task": "ComputerUsage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeUsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-ParentalControls",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "ContentUsageSystem(UnicodeString ContentProviderId, UnicodeString ContentProviderTitle, UnicodeString Id, UnicodeString Title, UInt32 Category, UnicodeString Ratings, UInt32 Decision)",
+        "opcode": "System",
+        "keywords": "WPC",
+        "task": "ContentUsage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContentProviderId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ContentProviderTitle"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ratings"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Decision"
+            }
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "UnderlyingResourceStart(Pointer D3D10Level9Resource, Pointer m_hDX9Resource, UInt32 Usage)",
+        "opcode": "Start",
+        "keywords": "Resources",
+        "task": "UnderlyingResource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "D3D10Level9Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_hDX9Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "UnderlyingResourceStop(Pointer D3D10Level9Resource, Pointer m_hDX9Resource, UInt32 Usage)",
+        "opcode": "Stop",
+        "keywords": "Resources",
+        "task": "UnderlyingResource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "D3D10Level9Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_hDX9Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "UnderlyingResourceDCStart(Pointer D3D10Level9Resource, Pointer m_hDX9Resource, UInt32 Usage)",
+        "opcode": "DC_Start",
+        "keywords": "Resources",
+        "task": "UnderlyingResource",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "D3D10Level9Resource"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "m_hDX9Resource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Usage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "UMD9CreateDeviceStart()",
+        "opcode": "Start",
+        "keywords": "Devices",
+        "task": "UMD9CreateDevice",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "UMD9CreateDeviceStop()",
+        "opcode": "Stop",
+        "keywords": "Devices",
+        "task": "UMD9CreateDevice",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "UMD9PostCreateDeviceStart()",
+        "opcode": "Start",
+        "keywords": "Devices",
+        "task": "UMD9PostCreateDevice",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "UMD9PostCreateDeviceStop()",
+        "opcode": "Stop",
+        "keywords": "Devices",
+        "task": "UMD9PostCreateDevice",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "UMD9ReOpenAdapterStart()",
+        "opcode": "Start",
+        "keywords": "Devices",
+        "task": "UMD9ReOpenAdapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-D3D10Level9",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "UMD9ReOpenAdapterStop()",
+        "opcode": "Stop",
+        "keywords": "Devices",
+        "task": "UMD9ReOpenAdapter",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

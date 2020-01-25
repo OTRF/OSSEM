@@ -1,0 +1,268 @@
+[
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "GatherentropyforthesystemrandomnumbergeneratorStart(UInt64 SourceNumber, UnicodeString SourceName, UInt32 SourceType)",
+        "opcode": "Start",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_REGISTRATION",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "GatherentropyforthesystemrandomnumbergeneratorStop(UInt64 SourceNumber, UnicodeString SourceName)",
+        "opcode": "Stop",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_REGISTRATION",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SourceName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "Gatherentropyforthesystemrandomnumbergenerator(UInt64 SourceNumber, UInt32 BytesProvided, Int32 EntropyEstimate, UInt32 nData, Binary Data)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_DATA",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesProvided"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EntropyEstimate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nData"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "Gatherentropyforthesystemrandomnumbergenerator4(UInt64 SourceNumber, HexInt32 ResultStatus, UInt64 TimeTaken)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_DATA",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceNumber"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ResultStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeTaken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Gatherentropyforthesystemrandomnumbergenerator16(UInt32 Source, UInt32 Policy, UInt32 ResultCode, HexInt32 ResultStatus, UInt64 Time, UInt32 BytesProvided, UInt32 nData, Binary Data)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_DATA",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Policy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ResultStatus"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Time"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytesProvided"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nData"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Gatherentropyforthesystemrandomnumbergenerator32(UInt64 PoolReseedCount, UInt32 ReseedType, UInt32 nData, Binary Data)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_DATA",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PoolReseedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReseedType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nData"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Gatherentropyforthesystemrandomnumbergenerator33(UInt32 PoolNo, UInt32 nData, Binary Data)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_ENTROPY_DATA",
+        "task": "Gatherentropyforthesystemrandomnumbergenerator",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PoolNo"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nData"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "Prng(HexInt64 PrngAddress, UInt32 nData, Binary Data)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_PRNG",
+        "task": "Prng",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "PrngAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nData"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Crypto-RNG",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "Prng49(HexInt64 PrngAddress, UInt64 BytesProduced, UInt32 nData, Binary Data)",
+        "opcode": "",
+        "keywords": "KEYWORD_SYSTEMRNG_PRNG",
+        "task": "Prng",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "PrngAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BytesProduced"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "nData"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Data"
+            }
+        ]
+    }
+]

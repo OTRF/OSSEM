@@ -1,0 +1,94 @@
+[
+    {
+        "provider": "Microsoft-Windows-Subsys-Csr",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "csr:ShutdownProcessesStart()",
+        "opcode": "Start",
+        "keywords": "csr:Diagnostics",
+        "task": "csr:ShutdownProcesses",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-Csr",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "csr:ShutdownProcessesStop()",
+        "opcode": "Stop",
+        "keywords": "csr:Diagnostics",
+        "task": "csr:ShutdownProcesses",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-Csr",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "csr:ShutdownProcessStart(UInt32 ProcessId, UInt32 Level, UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "csr:Diagnostics",
+        "task": "csr:ShutdownProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-Csr",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "csr:ShutdownProcessStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "csr:Diagnostics",
+        "task": "csr:ShutdownProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Subsys-Csr",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "csr:ShutdownProcessStop_V1(UInt32 Status, UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "csr:Diagnostics",
+        "task": "csr:ShutdownProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    }
+]

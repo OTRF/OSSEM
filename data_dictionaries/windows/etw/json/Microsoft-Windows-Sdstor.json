@@ -1,0 +1,179 @@
+[
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "Io(UInt8 Port, UInt8 Bus, UInt8 Target, UInt8 LUN, UInt64 RequestDuration, UInt32 CDBLength, Binary CDB, UInt8 SrbStatus, Pointer Irp, Pointer OriginalIrp)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Io",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Port"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Bus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "Target"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "LUN"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestDuration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CDBLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CDB"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "SrbStatus"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "OriginalIrp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "PackedCommand(UInt32 PackedCommandCount, UInt32 NumIrpsPacked)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PackedCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PackedCommandCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumIrpsPacked"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "PackedCommand102(UInt32 PackedCommandCount, UInt32 NumIrpsPacked)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PackedCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PackedCommandCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumIrpsPacked"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "HighPriorityInterrupt()",
+        "opcode": "",
+        "keywords": "",
+        "task": "HighPriorityInterrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "HighPriorityInterrupt104()",
+        "opcode": "",
+        "keywords": "",
+        "task": "HighPriorityInterrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "HighPriorityInterrupt105(UInt32 ResultCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "HighPriorityInterrupt",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ResultCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "Flush()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sdstor",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "Discard(UInt64 LBA, UInt32 Length)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Discard",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "LBA"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            }
+        ]
+    }
+]

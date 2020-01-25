@@ -1,0 +1,370 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "SEMScenarioLifecycleScenariostartenablescontextproviderstotheWDIcontextlogger.(GUID ProviderID, UInt16 EventID, UInt32 DroppedEventCount, UInt8 ActionCount, Int16 SemActions)",
+        "opcode": "ScenariostartenablescontextproviderstotheWDIcontextlogger.",
+        "keywords": "context",
+        "task": "SEMScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DroppedEventCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActionCount"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SemActions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "SEMScenarioLifecycleScenarioenddisablescontextproviderstotheWDIcontextlogger.(GUID ProviderID, UInt16 EventID, UInt32 DroppedEventCount, UInt8 ActionCount, Int16 SemActions)",
+        "opcode": "ScenarioenddisablescontextproviderstotheWDIcontextlogger.",
+        "keywords": "context",
+        "task": "SEMScenarioLifecycle",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DroppedEventCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ActionCount"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SemActions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "SEMScenarioLifecycleWhenascenariohasremainedin_flightbeyondthemaximumtimewindowitisautomaticallyterminatedbytheSEM.(GUID ProviderID, UInt16 EventID)",
+        "opcode": "Whenascenariohasremainedin_flightbeyondthemaximumtimewindowitisautomaticallyterminatedbytheSEM.",
+        "keywords": "diag",
+        "task": "SEMScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "SEMScenarioLifecycleTheSEMreceivedarequesttostartanewscenario,butthemaximumnumberofscenarioswerealreadyin_flight.(GUID ProviderID, UInt16 EventID, UInt8 ScenarioCount, UInt8 ScenarioInflightItems)",
+        "opcode": "TheSEMreceivedarequesttostartanewscenario,butthemaximumnumberofscenarioswerealreadyin_flight.",
+        "keywords": "",
+        "task": "SEMScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ScenarioInflightItems"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "SEMScenarioLifecycleAscenariostartattemptfailedintheSEM.(GUID ProviderID, UInt16 EventID, UInt32 NTStatus)",
+        "opcode": "AscenariostartattemptfailedintheSEM.",
+        "keywords": "",
+        "task": "SEMScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "SEMScenarioLifecycleAscenarioendattemptfailedintheSEM.(GUID ProviderID, UInt16 EventID, UInt32 NTStatus)",
+        "opcode": "AscenarioendattemptfailedintheSEM.",
+        "keywords": "",
+        "task": "SEMScenarioLifecycle",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "SEMInitializationTheSEMisconfiguredwithmorescenariosthanthemaximumallowedcount.(GUID ProviderID, UInt16 EventID)",
+        "opcode": "TheSEMisconfiguredwithmorescenariosthanthemaximumallowedcount.",
+        "keywords": "",
+        "task": "SEMInitialization",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "SEMInitializationTheSEMisconfiguredwithascenariowithtoomanycontextproviders.(GUID ProviderID, UInt16 EventID)",
+        "opcode": "TheSEMisconfiguredwithascenariowithtoomanycontextproviders.",
+        "keywords": "",
+        "task": "SEMInitialization",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "SEMInitializationTheSEMisconfiguredwithascenariothathastoomanyendevents.(GUID ProviderID, UInt16 EventID)",
+        "opcode": "TheSEMisconfiguredwithascenariothathastoomanyendevents.",
+        "keywords": "",
+        "task": "SEMInitialization",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "SEMInitializationThenumberofprovidersspecifiedacrossallscenariosisabovethemaximumallowedamount.(GUID ProviderID)",
+        "opcode": "Thenumberofprovidersspecifiedacrossallscenariosisabovethemaximumallowedamount.",
+        "keywords": "",
+        "task": "SEMInitialization",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "SEMInitializationThereisaninvalidconfigurationparameterintheSEMregistrynamespace.(GUID ProviderID, UInt16 EventID, UInt32 NTStatus)",
+        "opcode": "ThereisaninvalidconfigurationparameterintheSEMregistrynamespace.",
+        "keywords": "",
+        "task": "SEMInitialization",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ProviderID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "EventID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NTStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 SqmType, SID SqmSid)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "SqmSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "task_044(GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmType, UInt32 SqmDWORDDatapointValue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmDWORDDatapointValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-WDI",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "task_045(GUID SqmSessionGuid, UInt32 SqmID, UInt32 SqmType, UInt32 SqmStreamRowLength, Int16 SqmStreamRow)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SqmSessionGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SqmStreamRowLength"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "SqmStreamRow"
+            }
+        ]
+    }
+]

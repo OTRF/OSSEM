@@ -1,0 +1,205 @@
+[
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ConfigurationLoadStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ConfigurationLoad",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ConfigurationLoadStop(Int32 Result, UnicodeString ConfigFilePath)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ConfigurationLoad",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "CatalogLoadStart(UnicodeString CatalogPath1, UnicodeString CatalogPath2)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CatalogLoad",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "CatalogLoadStop(Int32 Result, UnicodeString CatalogPath1, UnicodeString CatalogPath2)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CatalogLoad",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "ConfigurationSaveStart(UnicodeString ConfigFilePath)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ConfigurationSave",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "ConfigurationSaveStop(UnicodeString ConfigFilePath)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ConfigurationSave",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "BackupCycleStart(UnicodeString ConfigFilePath, UInt32 BackupType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "BackupCycle",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BackupType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "BackupCycleStop(UnicodeString ConfigFilePath)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "BackupCycle",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "BackupStopStart(UnicodeString ConfigFilePath, Boolean StopSync)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "BackupStop",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "StopSync"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Service",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "BackupStop(UnicodeString ConfigFilePath, Boolean StopSync)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "BackupStop",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConfigFilePath"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "StopSync"
+            }
+        ]
+    }
+]

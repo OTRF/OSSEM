@@ -1,0 +1,5478 @@
+[
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "ProcessterminationduetocriticalfailureUnexpectedprocesstermination(UInt32 OperationCode, HexInt32 Error)",
+        "opcode": "Unexpectedprocesstermination",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Processterminationduetocriticalfailure",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OperationCode"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "AddingaprinterSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Addingaprinter",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "AddingaprinterSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Addingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "DeletingaprinterSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Deletingaprinter",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "DeletingaprinterSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Deletingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "StartingadocumentprintjobSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Startingadocumentprintjob",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "StartingadocumentprintjobSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Startingadocumentprintjob",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "EndingadocumentprintjobSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Endingadocumentprintjob",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "EndingadocumentprintjobSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Endingadocumentprintjob",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_DRIVER",
+        "task": "Addingaprinterdriver",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_DRIVER",
+        "task": "Addingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "OpeningaprinterhandleSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL",
+        "task": "Openingaprinterhandle",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "OpeningaprinterhandleSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL",
+        "task": "Openingaprinterhandle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "StartinganewdocumentpageSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Startinganewdocumentpage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "StartinganewdocumentpageSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Startinganewdocumentpage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "EndingadocumentpageSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Endingadocumentpage",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "EndingadocumentpageSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB",
+        "task": "Endingadocumentpage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "SettingprinterconfigurationSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString PrinterName, HexInt32 Status)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Settingprinterconfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "AddingaprinterconnectionSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_CONNECTION",
+        "task": "Addingaprinterconnection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "AddingaprinterconnectionSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_CONNECTION",
+        "task": "Addingaprinterconnection",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "DeletingaprinterconnectionSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_CONNECTION",
+        "task": "Deletingaprinterconnection",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "DeletingaprinterconnectionSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_CONNECTION",
+        "task": "Deletingaprinterconnection",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "OpeningaprinterhandleSpoolerOperationFailed207(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL",
+        "task": "Openingaprinterhandle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "ClosingaprinterhandleSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL",
+        "task": "Closingaprinterhandle",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "ClosingaprinterhandleSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL",
+        "task": "Closingaprinterhandle",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "ParsingaprinterdriverinfSpoolerOperationSucceeded(UnicodeString Label, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString InfPath, UnicodeString DriverName, UnicodeString InstallSection, UnicodeString ProcessorArchitecture, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Parsingaprinterdriverinf",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstallSection"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "ParsingaprinterdriverinfSpoolerOperationFailed(UnicodeString Label, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString InfPath, UnicodeString DriverName, UnicodeString InstallSection, UnicodeString ProcessorArchitecture, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Parsingaprinterdriverinf",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstallSection"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationSucceeded(UnicodeString Label, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString InfPath, UnicodeString DriverName, UnicodeString InstallSection, UnicodeString ProcessorArchitecture, UnicodeString PackageAware, UnicodeString CoreDriverDependencies, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstallSection"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageAware"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CoreDriverDependencies"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed(UnicodeString Label, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString InfPath, UnicodeString DriverName, UnicodeString InstallSection, UnicodeString ProcessorArchitecture, UnicodeString PackageAware, UnicodeString CoreDriverDependencies, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstallSection"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageAware"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CoreDriverDependencies"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationSucceeded216(UnicodeString Context, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString ProcessorArchitecture, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed217(UnicodeString Context, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString ProcessorArchitecture, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "CopyingaprinterdriverpackageSpoolerOperationSucceeded(UnicodeString Label, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString Server, UnicodeString InfPath, UnicodeString DestInfPath, UnicodeString ProcessorArchitecture, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Copyingaprinterdriverpackage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Server"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestInfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "CopyingaprinterdriverpackageSpoolerOperationFailed(UnicodeString Label, UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString Server, UnicodeString InfPath, UnicodeString DestInfPath, UnicodeString ProcessorArchitecture, HexInt32 LastError, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Copyingaprinterdriverpackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdditionalInfo"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Server"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DestInfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProcessorArchitecture"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "EnumeratingprintersSpoolerOperationSucceeded(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Enumeratingprinters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "EnumeratingprintersSpoolerOperationFailed(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_PRINTER",
+        "task": "Enumeratingprinters",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "TracingaspoolermessageSpoolerTrace(UnicodeString Message, HexInt32 LastError)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_TRACE",
+        "task": "Tracingaspoolermessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "TracingaspoolermessageSpoolerOperationFailed(UnicodeString Message, HexInt32 LastError)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_TRACE",
+        "task": "Tracingaspoolermessage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "LastError"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed(UnicodeString Function, HexInt32 Error, UnicodeString Server)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Server"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed225(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed226(UnicodeString DriverName, UnicodeString InfPath, UInt32 DriverModelVersion)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DriverModelVersion"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed227(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed228(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed229(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerWarning(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerWarning231(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerWarning232(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerWarning233(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "DeletingaprinterdriverSpoolerWarning(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Deletingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed235(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, UnicodeString Directive, UnicodeString Value)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directive"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed236(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, UnicodeString Directive, Boolean ClassDriverOnly, Boolean NonClassDriverOnly)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directive"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ClassDriverOnly"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "NonClassDriverOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed237(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, UnicodeString Directive, Boolean EmptyToken, Boolean IncorrectNumberOfTokens)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directive"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "EmptyToken"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IncorrectNumberOfTokens"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed238(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, UnicodeString Directive, UnicodeString Value)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directive"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed239(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, UnicodeString Directive, UnicodeString Value)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Directive"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed240(UnicodeString DriverName, UnicodeString InfPath, Boolean MissingManifest, Boolean MultipleManifests)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MissingManifest"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MultipleManifests"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerWarning241(UnicodeString DriverName, UnicodeString InfPath, UnicodeString RequiredClassDriver, HexInt32 HResult)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP",
+        "task": "Installingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InfPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequiredClassDriver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "AddingaprinterSpoolerOperationFailed242(UnicodeString PrinterName, UnicodeString DriverName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP",
+        "task": "Addingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "AddingaprinterSpoolerOperationSucceeded300(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "DeletingaprinterSpoolerOperationSucceeded301(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Deletingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "302",
+        "version": "0",
+        "event(fields)": "DeletingaprinterSpoolerOperationStarted(UnicodeString param1)",
+        "opcode": "SpoolerOperationStarted",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Deletingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "PausingaprinterSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Pausingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "ResumingaprinterSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Resumingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "305",
+        "version": "0",
+        "event(fields)": "PurgingjobsfromprinterqueueSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Purgingjobsfromprinterqueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "SettingprinterconfigurationSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Settingprinterconfiguration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "307",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationSucceeded(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "308",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationSucceeded308(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "309",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationSucceeded309(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "310",
+        "version": "0",
+        "event(fields)": "DeletingadocumentSpoolerOperationSucceeded(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Deletingadocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "311",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationSucceeded311(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "312",
+        "version": "0",
+        "event(fields)": "AddingaprintformSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprintform",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "313",
+        "version": "0",
+        "event(fields)": "DeletingaprintformSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Deletingaprintform",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "314",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "315",
+        "version": "0",
+        "event(fields)": "SharingaprinterSpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Sharingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "316",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationSucceeded316(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinterdriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "317",
+        "version": "0",
+        "event(fields)": "DeletingaprinterdriverSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Deletingaprinterdriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "318",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationFailed318(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "319",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationFailed319(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "320",
+        "version": "0",
+        "event(fields)": "InitializingtheprintspoolerSpoolerOperationFailed(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingtheprintspooler",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "321",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationSucceeded321(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinterdriver",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "322",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "323",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed323(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "325",
+        "version": "0",
+        "event(fields)": "RemovingaprinterfromtheActiveDirectorySpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "RemovingaprinterfromtheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "326",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed326(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "327",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed327(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "328",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed328(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "329",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed329(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "331",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed331(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "332",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationSucceeded(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "333",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed333(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "334",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationSucceeded334(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "335",
+        "version": "0",
+        "event(fields)": "RemovingaprinterfromtheActiveDirectorySpoolerOperationFailed335(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "RemovingaprinterfromtheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "336",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationSucceeded336(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "337",
+        "version": "0",
+        "event(fields)": "PublishingaprinterintheActiveDirectorySpoolerOperationFailed337(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "PublishingaprinterintheActiveDirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "338",
+        "version": "0",
+        "event(fields)": "RemovingaprinterfromtheActiveDirectorySpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "RemovingaprinterfromtheActiveDirectory",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "342",
+        "version": "0",
+        "event(fields)": "PruningaprinterSpoolerOperationSucceeded(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "Pruningaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "343",
+        "version": "0",
+        "event(fields)": "PruningaprinterSpoolerOperationSucceeded343(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "Pruningaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "344",
+        "version": "0",
+        "event(fields)": "PruningaprinterSpoolerOperationSucceeded344(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "Pruningaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "345",
+        "version": "0",
+        "event(fields)": "PruningaprinterSpoolerOperationSucceeded345(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "Pruningaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "346",
+        "version": "0",
+        "event(fields)": "PruningaprinterSpoolerOperationSucceeded346(UnicodeString param1)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "Pruningaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "347",
+        "version": "0",
+        "event(fields)": "PruningaprinterSpoolerOperationFailed(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR",
+        "task": "Pruningaprinter",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "348",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerWarning(UnicodeString param1)",
+        "opcode": "SpoolerWarning",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "349",
+        "version": "0",
+        "event(fields)": "InitializingtheprintspoolerSpoolerOperationFailed349(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingtheprintspooler",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "350",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationFailed350(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "351",
+        "version": "0",
+        "event(fields)": "AddingaprinterSpoolerOperationFailed351(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "352",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationSucceeded352(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "353",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationFailed353()",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "354",
+        "version": "0",
+        "event(fields)": "InitializingSpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializing",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "356",
+        "version": "0",
+        "event(fields)": "AddingaprinterdriverSpoolerOperationFailed356(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinterdriver",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "359",
+        "version": "0",
+        "event(fields)": "AddingaprinterSpoolerOperationFailed359(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Addingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "360",
+        "version": "0",
+        "event(fields)": "SettingprinterconfigurationSpoolerOperationFailed360(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Settingprinterconfiguration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "361",
+        "version": "0",
+        "event(fields)": "InitializingtheprintspoolerSpoolerOperationFailed361(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingtheprintspooler",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "362",
+        "version": "0",
+        "event(fields)": "InitializingtheprintspoolerSpoolerOperationFailed362(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingtheprintspooler",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "363",
+        "version": "0",
+        "event(fields)": "InitializingtheprintspoolerSpoolerOperationFailed363(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingtheprintspooler",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "364",
+        "version": "0",
+        "event(fields)": "InitializingaprintprocessorSpoolerOperationFailed(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingaprintprocessor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "365",
+        "version": "0",
+        "event(fields)": "InitializingaprintprocessorSpoolerOperationFailed365(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingaprintprocessor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "366",
+        "version": "0",
+        "event(fields)": "InitializingtheprintspoolerSpoolerOperationFailed366(UnicodeString param1)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingtheprintspooler",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "367",
+        "version": "0",
+        "event(fields)": "InitializingaprintprocessorSpoolerOperationFailed367(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Initializingaprintprocessor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "368",
+        "version": "0",
+        "event(fields)": "VerifyingorregeneratingaprintdriverpackageSpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Verifyingorregeneratingaprintdriverpackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "369",
+        "version": "0",
+        "event(fields)": "VerifyingorregeneratingaprintdriverpackageSpoolerOperationFailed369(UnicodeString param1, UnicodeString param2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Verifyingorregeneratingaprintdriverpackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "370",
+        "version": "0",
+        "event(fields)": "VerifyingorregeneratingaprintdriverpackageSpoolerOperationFailed370(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Verifyingorregeneratingaprintdriverpackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "371",
+        "version": "0",
+        "event(fields)": "UnsharingaprinterSpoolerOperationFailed(UnicodeString param1, UnicodeString param2, UnicodeString param3)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC",
+        "task": "Unsharingaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "372",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationFailed372(UnicodeString param1, UnicodeString param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString param6, UnicodeString param7, UnicodeString param8, UnicodeString param9, UnicodeString param10, UnicodeString param11)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param2"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param4"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param5"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param6"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param7"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param8"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param9"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param10"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "param11"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "373",
+        "version": "0",
+        "event(fields)": "PrintingadocumentSpoolerOperationFailed373()",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC",
+        "task": "Printingadocument",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "503",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed503(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "504",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed504(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "505",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed505(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "507",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed507(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "508",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed508(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "509",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed509(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "510",
+        "version": "0",
+        "event(fields)": "InitializingaprintproviderSpoolerOperationFailed(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Initializingaprintprovider",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "511",
+        "version": "0",
+        "event(fields)": "InitializingaprintproviderSpoolerOperationFailed511(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Initializingaprintprovider",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "512",
+        "version": "0",
+        "event(fields)": "InitializingaprintproviderSpoolerOperationFailed512(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Initializingaprintprovider",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "513",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed513(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "514",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed514(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "515",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed515(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "516",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed516(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "517",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed517(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "518",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed518(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "519",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed519(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "520",
+        "version": "0",
+        "event(fields)": "Routingprintspoolercommand(s)SpoolerOperationFailed520(UnicodeString Name, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER",
+        "task": "Routingprintspoolercommand(s)",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "600",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed600(UnicodeString DriverSource, UnicodeString Driver, UnicodeString Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverSource"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "601",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed601(UnicodeString DriverSource, UnicodeString Driver, UnicodeString Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverSource"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "602",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed602(UnicodeString RegistryKey1, UnicodeString RegistryKey2)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegistryKey1"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegistryKey2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "603",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed603(UnicodeString RegistryKey)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegistryKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "604",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed604(UnicodeString Name)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "701",
+        "version": "0",
+        "event(fields)": "ExecutingprintfiltersinthespoolerpipelineSpoolerOperationFailed(HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_PIPELINE",
+        "task": "Executingprintfiltersinthespoolerpipeline",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "702",
+        "version": "0",
+        "event(fields)": "ExecutingprintfiltersinthespoolerpipelineSpoolerOperationFailed702(HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_PIPELINE",
+        "task": "Executingprintfiltersinthespoolerpipeline",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "703",
+        "version": "0",
+        "event(fields)": "ExecutingprintfiltersinthespoolerpipelineSpoolerOperationFailed703(HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_PIPELINE",
+        "task": "Executingprintfiltersinthespoolerpipeline",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "704",
+        "version": "0",
+        "event(fields)": "ExecutingprintfiltersinthespoolerpipelineSpoolerOperationFailed704(HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_PIPELINE",
+        "task": "Executingprintfiltersinthespoolerpipeline",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "800",
+        "version": "0",
+        "event(fields)": "PrintjobdiagnosticsStart(UInt32 JobId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Printjobdiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "801",
+        "version": "0",
+        "event(fields)": "Printjobdiagnostics(UInt32 JobId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Printjobdiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "802",
+        "version": "0",
+        "event(fields)": "PrintjobdiagnosticsStop(UInt32 JobId, UInt32 JobSize, UInt32 DataType, UInt32 Pages, UInt32 PagesPerSide, Int16 FilesOpened, UInt32 JobSizeHigh)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Printjobdiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pages"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PagesPerSide"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "FilesOpened"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobSizeHigh"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "805",
+        "version": "0",
+        "event(fields)": "Printjobdiagnostics805(UInt32 JobId, UInt32 GdiJobSize, UInt32 ICMMethod, Int16 Color, Int16 XRes, Int16 YRes, Int16 Quality, Int16 Copies, Int16 TTOption)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Printjobdiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GdiJobSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ICMMethod"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Color"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "XRes"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "YRes"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Quality"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Copies"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "TTOption"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "806",
+        "version": "0",
+        "event(fields)": "Printjobdiagnostics806(UInt32 JobId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Printjobdiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "807",
+        "version": "0",
+        "event(fields)": "Printjobdiagnostics807(UInt32 JobId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Printjobdiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "808",
+        "version": "0",
+        "event(fields)": "InitializingSpoolerOperationFailed808(UnicodeString PluginDllName, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Initializing",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PluginDllName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "809",
+        "version": "0",
+        "event(fields)": "DeletingadirectorySpoolerOperationFailed(UnicodeString DirectoryName, HexInt32 WaitForReboot, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Deletingadirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectoryName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WaitForReboot"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "810",
+        "version": "0",
+        "event(fields)": "DeletingadirectorySpoolerOperationFailed810(UnicodeString DirectoryName, HexInt32 WaitForReboot, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Deletingadirectory",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectoryName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WaitForReboot"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "811",
+        "version": "0",
+        "event(fields)": "ExecutingafileoperationSpoolerOperationFailed(UnicodeString Source, UnicodeString Destination, HexInt32 Flags, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Executingafileoperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Destination"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "812",
+        "version": "0",
+        "event(fields)": "ExecutingafileoperationSpoolerOperationFailed812(UnicodeString Source, UnicodeString Destination, HexInt32 Flags, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Executingafileoperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Destination"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "813",
+        "version": "0",
+        "event(fields)": "ExecutingafileoperationSpoolerOperationFailed813(UnicodeString Source, UnicodeString Destination, HexInt32 Flags, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Executingafileoperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Destination"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "814",
+        "version": "0",
+        "event(fields)": "InitializingaprintprocessorSpoolerOperationFailed814(UnicodeString Processor, UnicodeString Environment, UnicodeString Path, HexInt32 ErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL",
+        "task": "Initializingaprintprocessor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Processor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Environment"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "815",
+        "version": "0",
+        "event(fields)": "EnablingspoolerRPCendpointsSpoolerOperationFailed(UnicodeString ProtocolSequence, UnicodeString EndPoint, HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_ROUTER",
+        "task": "EnablingspoolerRPCendpoints",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProtocolSequence"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndPoint"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "816",
+        "version": "0",
+        "event(fields)": "EnablingspoolerRPCendpointsSpoolerOperationFailed816(UnicodeString ValidatedProtocolSequence, UnicodeString ExpectedProtocolSequence, HexInt32 ErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_ROUTER",
+        "task": "EnablingspoolerRPCendpoints",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ValidatedProtocolSequence"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ExpectedProtocolSequence"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "817",
+        "version": "0",
+        "event(fields)": "EnablingspoolerRPCendpointsSpoolerOperationFailed817(HexInt32 WindowsStarterEdition, HexInt32 SuiteStorageServer, HexInt32 SystemPrintingDisabled, HexInt32 SuiteBlade, HexInt32 SuiteEmbeddedRestricted, HexInt32 SuiteComputerServer)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_ROUTER",
+        "task": "EnablingspoolerRPCendpoints",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "WindowsStarterEdition"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SuiteStorageServer"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SystemPrintingDisabled"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SuiteBlade"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SuiteEmbeddedRestricted"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SuiteComputerServer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "818",
+        "version": "0",
+        "event(fields)": "EnablingspoolerRPCendpointsSpoolerOperationFailed818(HexInt32 ErrorCode, Int16 Context)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_ROUTER",
+        "task": "EnablingspoolerRPCendpoints",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "819",
+        "version": "0",
+        "event(fields)": "ClientSideRenderingrevertingtoServerSideRenderingSpoolerTrace(UnicodeString Policy)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "ClientSideRenderingrevertingtoServerSideRendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Policy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "820",
+        "version": "0",
+        "event(fields)": "ClientSideRenderingrevertingtoServerSideRenderingSpoolerOperationFailed(UnicodeString PrintProcessor, UnicodeString Connection, HexInt32 IsXpsPrinter, HexInt32 ErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "ClientSideRenderingrevertingtoServerSideRendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrintProcessor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Connection"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IsXpsPrinter"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "821",
+        "version": "0",
+        "event(fields)": "ClientSideRenderingrevertingtoServerSideRenderingSpoolerTrace821(UInt32 JobId, HexInt32 Level, HexInt32 Status)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "ClientSideRenderingrevertingtoServerSideRendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "822",
+        "version": "0",
+        "event(fields)": "ClientSideRenderingrevertingtoServerSideRenderingSpoolerOperationFailed822(UnicodeString LocalPrintProcessor, UnicodeString RemotePrintProcessor, UnicodeString DefaultPrintProcessor, UnicodeString LocalDataType, UnicodeString RemoteDataType, UnicodeString DefaultDataType, HexInt32 ErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "ClientSideRenderingrevertingtoServerSideRendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalPrintProcessor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemotePrintProcessor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DefaultPrintProcessor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalDataType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RemoteDataType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DefaultDataType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "823",
+        "version": "0",
+        "event(fields)": "ChangingthedefaultprinterSpoolerOperationSucceeded(UInt32 DefaultPrinterSelectedBySpooler, UnicodeString OldDefaultPrinter, UnicodeString NewDefaultPrinter, HexInt32 Status, UnicodeString Module)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Changingthedefaultprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DefaultPrinterSelectedBySpooler"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OldDefaultPrinter"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewDefaultPrinter"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "824",
+        "version": "0",
+        "event(fields)": "ExecutingprintfiltersinthespoolerpipelineSpoolerOperationFailed824(UnicodeString DocumentName, UInt32 JobId, UnicodeString PrintQueue, UnicodeString ErrorInfo)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_PIPELINE",
+        "task": "Executingprintfiltersinthespoolerpipeline",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DocumentName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrintQueue"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorInfo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "825",
+        "version": "0",
+        "event(fields)": "ClientSideRenderingrevertingtoServerSideRenderingSpoolerOperationFailed825(UnicodeString PrintProcessor, UnicodeString Connection, HexInt32 IsXpsPrinter, HexInt32 ErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "ClientSideRenderingrevertingtoServerSideRendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrintProcessor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Connection"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "IsXpsPrinter"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "826",
+        "version": "0",
+        "event(fields)": "ClientSideRenderingrevertingtoServerSideRenderingSpoolerOperationSucceeded(UnicodeString PrinterName, UnicodeString PrinterPath, UnicodeString PortName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "ClientSideRenderingrevertingtoServerSideRendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PortName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "827",
+        "version": "0",
+        "event(fields)": "ExecutingXPSPrintAPIcallsXPSPrintAPIfailure(UnicodeString QueueName)",
+        "opcode": "XPSPrintAPIfailure",
+        "keywords": "XPS_PRINT_API_KEYWORD",
+        "task": "ExecutingXPSPrintAPIcalls",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueueName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "828",
+        "version": "0",
+        "event(fields)": "ExecutingXPSPrintAPIcallsXPSPrintAPIfailure828(UInt32 JobId, HexInt32 ErrorCode)",
+        "opcode": "XPSPrintAPIfailure",
+        "keywords": "XPS_PRINT_API_KEYWORD",
+        "task": "ExecutingXPSPrintAPIcalls",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "829",
+        "version": "0",
+        "event(fields)": "XPSPrintAPIperformancetrackingStart(UnicodeString Name, UnicodeString Context, HexInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "XPS_PRINT_API_KEYWORD_PERFORMANCE",
+        "task": "XPSPrintAPIperformancetracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "830",
+        "version": "0",
+        "event(fields)": "XPSPrintAPIperformancetrackingStop(UnicodeString Name, UnicodeString Context, HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "XPS_PRINT_API_KEYWORD_PERFORMANCE",
+        "task": "XPSPrintAPIperformancetracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "831",
+        "version": "0",
+        "event(fields)": "XPSPrintAPIperformancetrackingStart831(UnicodeString Name, UnicodeString Context, HexInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "XPS_PRINT_API_KEYWORD_PERFORMANCE",
+        "task": "XPSPrintAPIperformancetracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "832",
+        "version": "0",
+        "event(fields)": "XPSPrintAPIperformancetrackingStop832(UnicodeString Name, UnicodeString Context, HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "XPS_PRINT_API_KEYWORD_PERFORMANCE",
+        "task": "XPSPrintAPIperformancetracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "833",
+        "version": "0",
+        "event(fields)": "GeneralprintspoolerperformancetrackingStart(UnicodeString Name, UnicodeString Context, HexInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Generalprintspoolerperformancetracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "834",
+        "version": "0",
+        "event(fields)": "GeneralprintspoolerperformancetrackingStop(UnicodeString Name, UnicodeString Context, HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "SPOOLER_KEYWORD",
+        "task": "Generalprintspoolerperformancetracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "842",
+        "version": "0",
+        "event(fields)": "Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded(UInt32 JobId, UnicodeString Processor, UnicodeString Printer, UnicodeString Driver, UInt32 IsolationMode, HexInt32 Error)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX",
+        "task": "Isolatingprinterdriversandotherplug_ins",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Processor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Printer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsolationMode"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "843",
+        "version": "0",
+        "event(fields)": "Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded843(UInt32 SucceededRpcCalls, UInt32 FailedRpcCalls)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX",
+        "task": "Isolatingprinterdriversandotherplug_ins",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SucceededRpcCalls"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FailedRpcCalls"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "844",
+        "version": "0",
+        "event(fields)": "Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded844(UInt32 IsolationMode, UnicodeString Printer, UnicodeString Driver)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX",
+        "task": "Isolatingprinterdriversandotherplug_ins",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IsolationMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Printer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "845",
+        "version": "0",
+        "event(fields)": "Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded845(UnicodeString Module, UnicodeString Printer, UnicodeString Driver, HexInt32 Error)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX",
+        "task": "Isolatingprinterdriversandotherplug_ins",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Module"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Printer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "846",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationSucceeded(UnicodeString PrinterName, UInt32 PrinterAge, UInt32 ExpiryAge)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PrinterAge"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpiryAge"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "847",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationSucceeded847(UnicodeString PrinterName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "848",
+        "version": "0",
+        "event(fields)": "SharingaprinterSpoolerOperationSucceeded(UnicodeString PrinterName, UnicodeString ShareName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER",
+        "task": "Sharingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ShareName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "849",
+        "version": "0",
+        "event(fields)": "UnsharingaprinterSpoolerOperationSucceeded(UnicodeString PrinterName, UnicodeString ShareName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD_PRINTER",
+        "task": "Unsharingaprinter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ShareName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "850",
+        "version": "0",
+        "event(fields)": "PrintdriveroperationSpoolerOperationFailed(UnicodeString Driver, UnicodeString Function)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER",
+        "task": "Printdriveroperation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Function"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "851",
+        "version": "0",
+        "event(fields)": "AddingaprinterconnectionSpoolerOperationFailed851(UnicodeString PrintQueue, HexInt32 Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION",
+        "task": "Addingaprinterconnection",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrintQueue"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "852",
+        "version": "0",
+        "event(fields)": "InstallingaprinterdriverSpoolerOperationFailed852(UnicodeString OriginalDriver, UnicodeString NewDriver, UnicodeString PrinterName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_DRIVER",
+        "task": "Installingaprinterdriver",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OriginalDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NewDriver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "853",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed853(HexInt32 Error, UnicodeString PrinterName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "854",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed854(HexInt32 Error, UnicodeString PrinterName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "855",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed855(UnicodeString PrinterName, UInt32 AccessCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccessCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "856",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "857",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace857(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "858",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace858(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "859",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace859(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "860",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace860(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "861",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace861(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "862",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace862(UnicodeString ConnectionName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "863",
+        "version": "0",
+        "event(fields)": "ConnectionreconfiguredSpoolerTrace863(UnicodeString ConnectionName, HexInt32 Error)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "Connectionreconfigured",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ConnectionName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "864",
+        "version": "0",
+        "event(fields)": "ServicingWindowsFaxandScanSpoolerOperationFailed(HexInt32 HResult)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD SETUP_WFS_KEYWORD",
+        "task": "ServicingWindowsFaxandScan",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "865",
+        "version": "0",
+        "event(fields)": "Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded865(UInt32 Failures, UInt32 Jobs, UnicodeString PrinterName, UnicodeString DriverName)",
+        "opcode": "SpoolerOperationSucceeded",
+        "keywords": "SPOOLER_KEYWORD SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX",
+        "task": "Isolatingprinterdriversandotherplug_ins",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Failures"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jobs"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DriverName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "866",
+        "version": "0",
+        "event(fields)": "CreatingaPlugandPlaydeviceobjectinstanceforaprinterSpoolerOperationFailed(UnicodeString PrinterName, UnicodeString DeviceObjectInstanceIdentifier, HexInt32 HResultErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER",
+        "task": "CreatingaPlugandPlaydeviceobjectinstanceforaprinter",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PrinterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceObjectInstanceIdentifier"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResultErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "867",
+        "version": "0",
+        "event(fields)": "InitializingtheWS_PrintPortMonitorSpoolerOperationFailed(HexInt32 HResultErrorCode)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_WSDMON",
+        "task": "InitializingtheWS_PrintPortMonitor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "HResultErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "868",
+        "version": "0",
+        "event(fields)": "BOPEventOfflineArchiveFullSpoolerTrace(UnicodeString MachineName)",
+        "opcode": "SpoolerTrace",
+        "keywords": "SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING",
+        "task": "BOPEventOfflineArchiveFull",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MachineName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "869",
+        "version": "0",
+        "event(fields)": "VerifyingorregeneratingaprintdriverpackageSpoolerOperationFailed869(UnicodeString Label, HexInt32 ErrorCode, UnicodeString ObjectName)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_DRIVER",
+        "task": "Verifyingorregeneratingaprintdriverpackage",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Label"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ObjectName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-PrintService",
+        "event_id": "870",
+        "version": "0",
+        "event(fields)": "Client_siderenderingSpoolerOperationFailed870(UnicodeString Driver, UnicodeString Error)",
+        "opcode": "SpoolerOperationFailed",
+        "keywords": "SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR",
+        "task": "Client_siderendering",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Error"
+            }
+        ]
+    }
+]

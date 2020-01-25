@@ -1,0 +1,964 @@
+[
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "CacheCheckStart(UnicodeString URL)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CacheCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "CacheCheckStop(UnicodeString URL)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CacheCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DatCheckStart(UnicodeString URL)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DatCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DatCheckStop(UnicodeString URL)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DatCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "URSCallStart(UInt32 ReqType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReqType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "URSCallStop(UInt32 ReqType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReqType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "TelemetryCheckStart(UInt32 ReqType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReqType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "TelemetryCheckStop(UInt32 ReqType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ReqType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "CacheCheck(UnicodeString URL, Boolean CacheExist)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "CacheCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CacheExist"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "DatCheck(UnicodeString URL, Boolean DatExist)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "DatCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DatExist"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "URSCall(UInt32 numElements, UnicodeString DefaultLangId, UnicodeString lastOverrideToken, UnicodeString newOverrideToken)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "numElements"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DefaultLangId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "lastOverrideToken"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "newOverrideToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "URSCall12(UnicodeString URL, UnicodeString RawURL, UnicodeString UrlType, UnicodeString ReqType, UnicodeString HostIP)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RawURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UrlType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReqType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostIP"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "URSCall13(UnicodeString URL, UnicodeString RawURL, UnicodeString UrlType, UnicodeString ReqType, UnicodeString HostIP)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RawURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UrlType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReqType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostIP"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "URSCall14(UnicodeString URL, UnicodeString Categories, UInt32 HC, UInt32 PC)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Categories"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "TelemetryCheck(UnicodeString GUID, UnicodeString DV, UnicodeString FV, UnicodeString OSV, UnicodeString BrowserLang, UnicodeString ReportType, UnicodeString ClientID, UnicodeString TopURL, UnicodeString RawTopURL, UnicodeString TopReferURL, UnicodeString RawTopReferURL, UnicodeString HostIP, UnicodeString Threats, UInt32 FramesCount, UnicodeString WhyString)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GUID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DV"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FV"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OSV"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BrowserLang"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReportType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClientID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TopURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RawTopURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TopReferURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RawTopReferURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Threats"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FramesCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "WhyString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "TelemetryCheck16(UnicodeString FrameURL, UnicodeString RawFrameURL, UnicodeString FramePCL, UnicodeString FrameTricks, UnicodeString Framekeywords, UnicodeString FrameUrlType, UnicodeString FrameIP, UnicodeString Signature)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RawFrameURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FramePCL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameTricks"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Framekeywords"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameUrlType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Signature"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "TelemetryCheck17(UnicodeString FrameURL, UnicodeString RawFrameURL, UnicodeString FramePCL, UnicodeString FrameTricks, UnicodeString Framekeywords, UnicodeString FrameUrlType, UnicodeString FrameIP, UnicodeString Signature)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RawFrameURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FramePCL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameTricks"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Framekeywords"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameUrlType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameIP"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Signature"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "URLReputationCheck(UnicodeString URL, UnicodeString Categories, UInt32 HC, UInt32 PC)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Categories"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "URLReputationCheck19(UnicodeString URL, Double PCL, UInt32 THREAT, UnicodeString Heuristic)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "PCL"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "THREAT"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Heuristic"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "URLReputationCheck20(UnicodeString URL, Double PCL, UInt32 THREAT, UnicodeString Heuristic, Boolean HasAnyInputFields, Boolean HasPasswordField)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "PCL"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "THREAT"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Heuristic"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasAnyInputFields"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasPasswordField"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "URLReputationCheck21(UnicodeString URL, UInt32 LinksCount, UInt32 TopTargetCount)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LinksCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TopTargetCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "URLReputationCheck22(UnicodeString URL, UnicodeString CanonURL)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CanonURL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "URSCall23(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "URSCall24(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "URSCall25(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "URSCall26(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URSCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "TelemetryCheck27(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "TelemetryCheck28(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "TelemetryCheck29(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "TelemetryCheck30(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "URLReputationCheck31(UnicodeString URL, UInt32 FinalHRESULT, UInt32 THREAT, UInt32 UrsStatus, Boolean AllUrlsFoundInDat, UnicodeString BlockedUrl, Boolean IsBlockedUrlTopFrame, UInt64 BlockedUrlCategories, UnicodeString UrlFetchState)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FinalHRESULT"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "THREAT"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UrsStatus"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "AllUrlsFoundInDat"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "BlockedUrl"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBlockedUrlTopFrame"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "BlockedUrlCategories"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UrlFetchState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "URLReputationCheck32(UnicodeString Info, UnicodeString URL)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "URLReputationCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "FeedbackCall(UnicodeString Info, UnicodeString XML)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "FeedbackCall",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Info"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "XML"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "TelemetryCheck34(UnicodeString FrameURL, UnicodeString ScriptSource)",
+        "opcode": "",
+        "keywords": "functionality",
+        "task": "TelemetryCheck",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameURL"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ScriptSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IE-SmartScreen",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString Uri, UnicodeString ReferrerUri, UnicodeString RedirectUri, UInt32 CallingProcessId, UInt64 CallingProcessCreationTime, UnicodeString RequestId, UnicodeString FinalResult)",
+        "opcode": "",
+        "keywords": "info",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Uri"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReferrerUri"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RedirectUri"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallingProcessId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CallingProcessCreationTime"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FinalResult"
+            }
+        ]
+    }
+]

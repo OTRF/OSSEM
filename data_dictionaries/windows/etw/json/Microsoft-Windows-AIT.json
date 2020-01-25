@@ -1,0 +1,211 @@
+[
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AitFeature(GUID FeatureGuid, Binary ApplicationImageHeaderHash)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AitFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "FeatureGuid"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ApplicationImageHeaderHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AitParentAitFeature(UInt16 cchParentImagePathIncludingNull, GUID FeatureGuid, Binary ParentProcessImageHeaderHash, UnicodeString ParentImagePath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AitParentAitFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "cchParentImagePathIncludingNull"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "FeatureGuid"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ParentProcessImageHeaderHash"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ParentImagePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "AitAppInfo(UInt16 cchAppPathIncludingNull, Binary ApplicationImageHeaderHash, UnicodeString AppPath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AitAppInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "cchAppPathIncludingNull"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ApplicationImageHeaderHash"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AitSystemUsageByDll(Binary Flags, UInt16 cchIdStringIncludingNull, UInt16 cchDllPathIncludingNull, UInt32 Category, UInt32 ManifestVersion, Binary DllHeaderHash, Binary ApplicationImageHeaderHash, AnsiString IdString, UnicodeString DllPath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AitSystemUsageByDll",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cchIdStringIncludingNull"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cchDllPathIncludingNull"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManifestVersion"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "DllHeaderHash"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ApplicationImageHeaderHash"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "IdString"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DllPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "AitSystemUsageByExe(Binary Flags, UInt16 cchIdStringIncludingNull, UInt32 Category, UInt32 ManifestVersion, Binary ApplicationImageHeaderHash, AnsiString IdString)",
+        "opcode": "",
+        "keywords": "",
+        "task": "AitSystemUsageByExe",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cchIdStringIncludingNull"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Category"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ManifestVersion"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "ApplicationImageHeaderHash"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "IdString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "AitProcessEnd()",
+        "opcode": "",
+        "keywords": "",
+        "task": "AitProcessEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-AIT",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "KitFeature(GUID FeatureGuid, UInt32 CallerIdType, UInt16 cchImagePath, UnicodeString ImagePath)",
+        "opcode": "",
+        "keywords": "",
+        "task": "KitFeature",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "FeatureGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerIdType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "cchImagePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImagePath"
+            }
+        ]
+    }
+]

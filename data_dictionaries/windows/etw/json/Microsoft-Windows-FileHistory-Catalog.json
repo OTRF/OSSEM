@@ -1,0 +1,826 @@
+[
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AttachStart(UnicodeString CatalogPath, UnicodeString CatalogPath2, Int32 ReadOnly)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Attach",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath2"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ReadOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AttachStop(UnicodeString CatalogPath, UnicodeString CatalogPath2, Int32 ReadOnly)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Attach",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath2"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ReadOnly"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "DetachStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Detach",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "DetachStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Detach",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "CreateStart(UnicodeString CatalogPath, UnicodeString CatalogPath2)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Create",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "CreateStop(UnicodeString CatalogPath, UnicodeString CatalogPath2)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Create",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CatalogPath2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "AddNamespaceRecordStart(UnicodeString Path)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AddNamespaceRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "AddNamespaceRecordStop(UnicodeString Path)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AddNamespaceRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "UpdateNamespaceRecordStart(Int32 id, UnicodeString Path)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UpdateNamespaceRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "UpdateNamespaceRecordStop(Int32 id, UnicodeString Path)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UpdateNamespaceRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "GetNamespaceRecordStart(Int32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "GetNamespaceRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "GetNamespaceRecordStop(Int32 id)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "GetNamespaceRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "AddFileRecordStart(UnicodeString Path)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AddFileRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "AddFileRecordStop(UnicodeString Path)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AddFileRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "UpdateFileRecordStart(Int32 id, UnicodeString Path)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UpdateFileRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "UpdateFileRecordStop(Int32 id, UnicodeString Path)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UpdateFileRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "GetFileRecordStart(Int32 id)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "GetFileRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "GetFileRecordStop(Int32 id)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "GetFileRecord",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "FindNsRecordsByFullPathStart(UnicodeString Path, Int32 InitialPosition)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindNsRecordsByFullPath",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "InitialPosition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "FindNsRecordsByFullPathStop(UnicodeString Path, Int32 InitialPosition)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindNsRecordsByFullPath",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "InitialPosition"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "FindPointInTimeFolderStart(UnicodeString Path, Int32 BackupSetId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindPointInTimeFolder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "FindPointInTimeFolderStop(UnicodeString Path, Int32 BackupSetId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindPointInTimeFolder",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Path"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "FindNsRecordsByFileRecordIdStart(Int32 FileRecordId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindNsRecordsByFileRecordId",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "FileRecordId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "FindNsRecordsByFileRecordIdStop(Int32 FileRecordId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindNsRecordsByFileRecordId",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "FileRecordId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "FindFileRecordsByStateStart(Int32 State, Int32 Sort)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindFileRecordsByState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Sort"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "FindFileRecordsByStateStop(Int32 State, Int32 Sort)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindFileRecordsByState",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Sort"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "FindLibrariesTimelineStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindLibrariesTimeline",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "FindLibrariesTimelineStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindLibrariesTimeline",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "FindLibraryTimelineStart(UnicodeString LibraryName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindLibraryTimeline",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LibraryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "FindLibraryTimelineStop(UnicodeString LibraryName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindLibraryTimeline",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LibraryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "FindPointInTimeLibrariesStart(Int32 BackupSetId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindPointInTimeLibraries",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "FindPointInTimeLibrariesStop(Int32 BackupSetId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindPointInTimeLibraries",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "FindPointInTimeLibraryStart(UnicodeString LibraryName, Int32 BackupSetId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindPointInTimeLibrary",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LibraryName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "FindPointInTimeLibraryStop(UnicodeString LibraryName, Int32 BackupSetId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindPointInTimeLibrary",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LibraryName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "FindAllLibraryRecordsStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindAllLibraryRecords",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "FindAllLibraryRecordsStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindAllLibraryRecords",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "ReattachStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Reattach",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "ReattachStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Reattach",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "MoveNextStart(UnicodeString IteratorName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MoveNext",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IteratorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "MoveNextStop(UnicodeString IteratorName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MoveNext",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IteratorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "MovePreviousStart(UnicodeString IteratorName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MovePrevious",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IteratorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "MovePreviousStop(UnicodeString IteratorName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MovePrevious",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IteratorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "FindNsRecordsByTVisibleStart(Int32 BackupSetId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FindNsRecordsByTVisible",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-FileHistory-Catalog",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "FindNsRecordsByTVisibleStop(Int32 BackupSetId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FindNsRecordsByTVisible",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "BackupSetId"
+            }
+        ]
+    }
+]

@@ -1,0 +1,538 @@
+[
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddeviceservicing/updatetaskStart(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Applicationinitiateddeviceservicing/updatetask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddeviceservicing/updatetask(GUID TriggerID, Int32 TaskProcessID, UnicodeString Device)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Applicationinitiateddeviceservicing/updatetask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TaskProcessID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddeviceservicing/updatetaskStop(GUID TriggerID, UInt32 Reason, UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddeviceservicing/updatetask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddeviceservicing/updatetaskStop4(GUID TriggerID, Int32 Duration)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddeviceservicing/updatetask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddeviceservicing/updatetaskStop5(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments, UInt32 Reason, Int32 Error)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddeviceservicing/updatetask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddeviceservicing/updatetaskStop6(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments, Int32 Error)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddeviceservicing/updatetask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "ApplicationinitiateddevicebackgroundtaskStart(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Applicationinitiateddevicebackgroundtask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "Applicationinitiateddevicebackgroundtask(GUID TriggerID, Int32 TaskProcessID, UnicodeString Device)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Applicationinitiateddevicebackgroundtask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TaskProcessID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ApplicationinitiateddevicebackgroundtaskStop(GUID TriggerID, UInt32 Reason, UnicodeString Device)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddevicebackgroundtask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ApplicationinitiateddevicebackgroundtaskStop13(GUID TriggerID, Int32 Duration)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddevicebackgroundtask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "ApplicationinitiateddevicebackgroundtaskStop14(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments, UInt32 Reason, Int32 Error)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddevicebackgroundtask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "ApplicationinitiateddevicebackgroundtaskStop15(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments, Int32 Error)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Applicationinitiateddevicebackgroundtask",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "DeviceTriggerPerformanceStart(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "DeviceTriggerPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "DeviceTriggerPerformanceStop(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DeviceTriggerPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "DeviceTriggerPerformanceStop22(GUID TriggerID, UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "DeviceTriggerPerformance",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "TriggerID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Application"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Device"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HardwareId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Arguments"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Devices-Background",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "DeviceAttemptAssociationAudit(UnicodeString packageName, UnicodeString aepId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DeviceAttemptAssociationAudit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "packageName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "aepId"
+            }
+        ]
+    }
+]

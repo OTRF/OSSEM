@@ -1,0 +1,38 @@
+[
+    {
+        "provider": "Microsoft-Windows-DomainJoinManagerTriggerProvider",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0Opcode_DomainJoinEvent(GUID DomainMembershipChangeGuid)",
+        "opcode": "Opcode_DomainJoinEvent",
+        "keywords": "Keyword_DomainJoinEvent",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DomainMembershipChangeGuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DomainJoinManagerTriggerProvider",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_0Opcode_DomainUnjoinEvent(GUID DomainMembershipChangeGuid)",
+        "opcode": "Opcode_DomainUnjoinEvent",
+        "keywords": "Keyword_DomainUnjoinEvent",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "DomainMembershipChangeGuid"
+            }
+        ]
+    }
+]

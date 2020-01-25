@@ -1,0 +1,1079 @@
+[
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AdapterInitAsync()",
+        "opcode": "InitAsync",
+        "keywords": "DdiCalls",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AdapterInitFinished(Int64 IddAdapterLuid)",
+        "opcode": "InitFinished",
+        "keywords": "DdiCallbacks",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "AdapterCommit(Int64 IddAdapterLuid)",
+        "opcode": "Commit",
+        "keywords": "DdiCallbacks",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "AdapterUpdateMaxBandwidth(Int64 IddAdapterLuid, UInt64 Bandwidth)",
+        "opcode": "UpdateMaxBandwidth",
+        "keywords": "DdiCalls",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Bandwidth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "AdapterDestroy(Int64 IddAdapterLuid)",
+        "opcode": "Destroy",
+        "keywords": "DdiCalls",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MonitorCreate(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 DescriptorType)",
+        "opcode": "Create",
+        "keywords": "DdiCalls",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DescriptorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MonitorArrival(Int64 IddAdapterLuid, UInt32 ConnectorIndex)",
+        "opcode": "Arrival",
+        "keywords": "DdiCalls",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "MonitorCreate_2_13(Int64 IddAdapterLuid, UInt32 ConnectorIndex)",
+        "opcode": "Create_2_13",
+        "keywords": "DdiCalls",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "MonitorGetDefaultDescriptionModes(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 InputModeCount)",
+        "opcode": "GetDefaultDescriptionModes",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputModeCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MonitorQueryTargetModes(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 InputModeCount)",
+        "opcode": "QueryTargetModes",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InputModeCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MonitorAssignSwapChain(Int64 IddAdapterLuid, UInt32 ConnectorIndex, Pointer Handle)",
+        "opcode": "AssignSwapChain",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Handle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MonitorUnassignSwapChain(Int64 IddAdapterLuid, UInt32 ConnectorIndex)",
+        "opcode": "UnassignSwapChain",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MonitorI2CTransmit(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 SevenBitI2CAddress, UInt32 DataSizeInBytes)",
+        "opcode": "I2CTransmit",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SevenBitI2CAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSizeInBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "MonitorI2CReceive(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 SevenBitI2CAddress, UInt32 DataSizeInBytes, UInt32 Flags)",
+        "opcode": "I2CReceive",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SevenBitI2CAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DataSizeInBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "MonitorSetGammaRamp(Int64 IddAdapterLuid, UInt32 ConnectorIndex)",
+        "opcode": "SetGammaRamp",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "MonitorUpdateModes(Int64 IddAdapterLuid, UInt32 ConnectorIndex)",
+        "opcode": "UpdateModes",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "MonitorSetupHardwareCursor(Int64 IddAdapterLuid, UInt32 ConnectorIndex)",
+        "opcode": "SetupHardwareCursor",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "MonitorQueryHardwareCursor(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 LastShapeId)",
+        "opcode": "QueryHardwareCursor",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastShapeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "SwapChainCreate(Pointer SwapChainPointer)",
+        "opcode": "Create",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "SwapChainDestroy_3_12(Pointer SwapChainPointer)",
+        "opcode": "Destroy_3_12",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "SwapChainSetDevice(Pointer SwapChainPointer)",
+        "opcode": "SetDevice",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "SwapChainReleaseAndAcquireBuffer(Pointer SwapChainPointer)",
+        "opcode": "ReleaseAndAcquireBuffer",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "SwapChainGetDirtyRects(Pointer SwapChainPointer)",
+        "opcode": "GetDirtyRects",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "SwapChainGetMoveRegions(Pointer SwapChainPointer)",
+        "opcode": "GetMoveRegions",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "SwapChainFinishProcessingFrame(Pointer SwapChainPointer)",
+        "opcode": "FinishProcessingFrame",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "SwapChainReportFrameStatistics(Pointer SwapChainPointer, UInt32 PresentationFrameNumber, UInt32 FrameStatus, UInt32 ReencodeNumber, UInt32 FrameSliceTotal, UInt32 CurrentSlice, UInt64 FrameAcquireQpcTime, UInt32 FrameProcessingStepsCount, UInt64 SendStartQpcTime, UInt64 SendStopQpcTime, UInt64 SendCompleteQpcTime, UInt32 Flags, UInt32 ProcessedPixelCount, UInt32 FrameSizeInBytes)",
+        "opcode": "ReportFrameStatistics",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentationFrameNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReencodeNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameSliceTotal"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentSlice"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "FrameAcquireQpcTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameProcessingStepsCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SendStartQpcTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SendStopQpcTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SendCompleteQpcTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessedPixelCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameSizeInBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "OPMGetCertificateSize()",
+        "opcode": "GetCertificateSize",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "OPMGetCertificate()",
+        "opcode": "GetCertificate",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "OPMCreateProtectedOutput()",
+        "opcode": "CreateProtectedOutput",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "OPMGetRandomNumber()",
+        "opcode": "GetRandomNumber",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "OPMSetSigningKeyAndSequenceNumbers()",
+        "opcode": "SetSigningKeyAndSequenceNumbers",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "OPMGetInformation()",
+        "opcode": "GetInformation",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "OPMConfigureProtectedOutput()",
+        "opcode": "ConfigureProtectedOutput",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "OPMDestroyProtectedOutput()",
+        "opcode": "DestroyProtectedOutput",
+        "keywords": "DdiCallbacks",
+        "task": "OPM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "task_0Return()",
+        "opcode": "Return",
+        "keywords": "DdiCalls",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "MonitorTraceTargetModes(Boolean Valid, Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 TargetModeIndex, UInt64 PixelRate, Float VSync, UInt32 ActiveWidth, UInt32 ActiveHeight, UInt64 RequiredBandwidth)",
+        "opcode": "TraceTargetModes",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Valid"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetModeIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PixelRate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "VSync"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveHeight"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequiredBandwidth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "MonitorTraceMonitorModes(Boolean Valid, Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 MonitorModeIndex, UInt64 PixelRate, Float VSync, UInt32 ActiveWidth, UInt32 ActiveHeight, UInt16 VSyncDivider, UInt64 RequiredBandwidth)",
+        "opcode": "TraceMonitorModes",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Valid"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MonitorModeIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "PixelRate"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "VSync"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveHeight"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VSyncDivider"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequiredBandwidth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "task_0Start()",
+        "opcode": "Start",
+        "keywords": "DdiCallbacks",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "task_0Stop()",
+        "opcode": "Stop",
+        "keywords": "DdiCallbacks",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "DeviceParseMonitorDescription()",
+        "opcode": "ParseMonitorDescription",
+        "keywords": "DdiCallbacks",
+        "task": "Device",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "AdapterTraceCommitPaths(Int64 IddAdapterLuid, UInt32 PathIndex, UInt32 PathFlags, UInt32 Width, UInt32 Height)",
+        "opcode": "TraceCommitPaths",
+        "keywords": "DdiCallbacks",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PathIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PathFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "SwapChainReportFrameStatistics42(Pointer SwapChainPointer, UInt32 PresentationFrameNumber, UInt32 ReencodeNumber, UInt32 CurrentSlice, UInt32 StepIndex, UInt32 StepType, UInt64 QpcTime, UInt32 Data1, UInt32 Data2)",
+        "opcode": "ReportFrameStatistics",
+        "keywords": "DdiCallbacks",
+        "task": "SwapChain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SwapChainPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PresentationFrameNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReencodeNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentSlice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StepIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StepType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QpcTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Data1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Data2"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "MonitorOpmSetMftContext(Int64 IddAdapterLuid, UInt32 ConnectorIndex, Int64 MftContext)",
+        "opcode": "OpmSetMftContext",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "MftContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "MonitorGetPhysicalSize(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 PhysicalWidth, UInt32 PhysicalHeight)",
+        "opcode": "GetPhysicalSize",
+        "keywords": "DdiCallbacks",
+        "task": "Monitor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalHeight"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-IndirectDisplays-ClassExtension-Events",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "AdapterDisplayConfigUpdate(Int64 IddAdapterLuid, UInt32 PathIdx, UInt32 MonitorConnectorIndex, UInt32 Positionx, UInt32 Positiony, UInt32 ResolutionWidth, UInt32 ResolutionHeight, Float VSync, UInt32 VSyncDivider, UInt32 Rotation, UInt32 DPI, UInt32 PhysicalSizeWidth, UInt32 PhysicalSizeHeight)",
+        "opcode": "DisplayConfigUpdate",
+        "keywords": "DdiCalls",
+        "task": "Adapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "IddAdapterLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PathIdx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MonitorConnectorIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Positionx"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Positiony"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResolutionWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResolutionHeight"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "VSync"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VSyncDivider"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Rotation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DPI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalSizeWidth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PhysicalSizeHeight"
+            }
+        ]
+    }
+]

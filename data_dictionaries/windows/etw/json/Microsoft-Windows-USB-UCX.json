@@ -1,0 +1,2986 @@
+[
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "UCXDriverRundownStart()",
+        "opcode": "Start",
+        "keywords": "Default Rundown",
+        "task": "UCXDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "UCXDriverRundownStop()",
+        "opcode": "Stop",
+        "keywords": "Default Rundown",
+        "task": "UCXDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "UCXControlerRundownInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "UCXControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "UCXRootHubRundownInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "UCXRootHubRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "UCXDeviceRundownInformation(Pointer fid_UcxController, Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "UCXDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "UCXEndpointRundownInformation(Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_PipeHandle, UInt8 fid_UCX_Endpoint_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "UCXEndpointRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_UCX_Endpoint_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "UCXStaticStreamRundownInformation(Pointer fid_UsbDevice, Pointer fid_EndpointPipeHandle, UInt32 fid_StreamID, Pointer fid_StreamPipeHandle)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "UCXStaticStreamRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_EndpointPipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_StreamPipeHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "UCXControllerCreateInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXControllerCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "UCXControllerDeleteInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXControllerDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "UCXRootHubCreateInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXRootHubCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "UCXRootHubDeleteInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXRootHubDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "UCXRootHubPrepareHardwareInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXRootHubPrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "UCXRootHubReleaseHardwareInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXRootHubReleaseHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "UCXDeviceCreateInformation(Pointer fid_UcxController, Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXDeviceCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "UCXDeviceDeleteInformation(Pointer fid_UcxController, Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXDeviceDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "UCXEndpointCreateInformation(Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_PipeHandle, UInt8 fid_UCX_Endpoint_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXEndpointCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_UCX_Endpoint_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "UCXEndpointDeleteInformation(Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_PipeHandle, UInt8 fid_UCX_Endpoint_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXEndpointDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_UCX_Endpoint_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "UCXStaticStreamCreateInformation(Pointer fid_UsbDevice, Pointer fid_EndpointPipeHandle, UInt32 fid_StreamID, Pointer fid_StreamPipeHandle)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXStaticStreamCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_EndpointPipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_StreamPipeHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "UCXStaticStreamDeleteInformation(Pointer fid_UsbDevice, Pointer fid_EndpointPipeHandle, UInt32 fid_StreamID, Pointer fid_StreamPipeHandle)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXStaticStreamDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_EndpointPipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StreamID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_StreamPipeHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFERStop(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_CONTROL_TRANSFER, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "21",
+        "version": "1",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFERStop_V1(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_CONTROL_TRANSFER, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFERStop22(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int64 fid_UCX_URB_CONTROL_TRANSFER, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength, UInt8 fid_URB_TransferData)",
+        "opcode": "Stop",
+        "keywords": "PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_URB_TransferDataLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_URB_TransferData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFER_EXStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER_EX)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER_EX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER_EX"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFER_EXStop(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_CONTROL_TRANSFER_EX, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER_EX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER_EX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "24",
+        "version": "1",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFER_EXStop_V1(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_CONTROL_TRANSFER_EX, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER_EX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER_EX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CONTROL_TRANSFER_EXStop25(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int64 fid_UCX_URB_CONTROL_TRANSFER_EX, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength, UInt8 fid_URB_TransferData)",
+        "opcode": "Stop",
+        "keywords": "PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CONTROL_TRANSFER_EX",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER_EX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_URB_TransferDataLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_URB_TransferData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFERStop(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace",
+        "task": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "27",
+        "version": "1",
+        "event(fields)": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFERStop_V1(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFERStop28(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int64 fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength, UInt8 fid_URB_TransferData)",
+        "opcode": "Stop",
+        "keywords": "PartialDataBusTrace",
+        "task": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_URB_TransferDataLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_URB_TransferData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFERStop29(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int64 fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength, UInt8 fid_URB_TransferData)",
+        "opcode": "Stop",
+        "keywords": "FullDataBusTrace",
+        "task": "URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_URB_TransferDataLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_URB_TransferData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_ISOCH_TRANSFERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_NumberOfPackets, UInt32 fid_UCX_URB_ISOCH_TRANSFER, CountedMbcsString fid_UCX_URB_ISO_PACKETS)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_ISOCH_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_NumberOfPackets"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UCX_URB_ISOCH_TRANSFER"
+            },
+            {
+                "field_type": "CountedMbcsString",
+                "field_name": "fid_UCX_URB_ISO_PACKETS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_ISOCH_TRANSFERStop(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_NumberOfPackets, Int64 fid_UCX_URB_ISOCH_TRANSFER, Struct fid_UCX_URB_ISO_PACKETS, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_ISOCH_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_NumberOfPackets"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_UCX_URB_ISOCH_TRANSFER"
+            },
+            {
+                "field_type": "Struct",
+                "field_name": "fid_UCX_URB_ISO_PACKETS"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_ISOCH_TRANSFERStop32(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_NumberOfPackets, Float fid_UCX_URB_ISOCH_TRANSFER, 26 fid_UCX_URB_ISO_PACKETS, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength, UInt8 fid_URB_TransferData)",
+        "opcode": "Stop",
+        "keywords": "PartialDataBusTrace",
+        "task": "URB_FUNCTION_ISOCH_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_NumberOfPackets"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_UCX_URB_ISOCH_TRANSFER"
+            },
+            {
+                "field_type": "26",
+                "field_name": "fid_UCX_URB_ISO_PACKETS"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_URB_TransferDataLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_URB_TransferData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_ISOCH_TRANSFERStop33(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_NumberOfPackets, Float fid_UCX_URB_ISOCH_TRANSFER, 26 fid_UCX_URB_ISO_PACKETS, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength, UInt8 fid_URB_TransferData)",
+        "opcode": "Stop",
+        "keywords": "FullDataBusTrace",
+        "task": "URB_FUNCTION_ISOCH_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_NumberOfPackets"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_UCX_URB_ISOCH_TRANSFER"
+            },
+            {
+                "field_type": "26",
+                "field_name": "fid_UCX_URB_ISO_PACKETS"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_URB_TransferDataLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_URB_TransferData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_DESCRIPTOR_FROM_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_DESCRIPTOR_FROM_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_FEATURE_TO_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_FEATURE_TO_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_FEATURE_TO_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_FEATURE_TO_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_FEATURE_TO_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_FEATURE_TO_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SET_FEATURE_TO_OTHERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SET_FEATURE_TO_OTHER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLEAR_FEATURE_TO_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLEAR_FEATURE_TO_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLEAR_FEATURE_TO_OTHERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLEAR_FEATURE_TO_OTHER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_STATUS_FROM_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_STATUS_FROM_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_STATUS_FROM_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_STATUS_FROM_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_STATUS_FROM_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_STATUS_FROM_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_STATUS_FROM_OTHERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_STATUS_FROM_OTHER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLASS_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLASS_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLASS_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLASS_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLASS_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLASS_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_CLASS_OTHERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_CLASS_OTHER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_VENDOR_DEVICEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_VENDOR_DEVICE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_VENDOR_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_VENDOR_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_VENDOR_ENDPOINTStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_VENDOR_ENDPOINT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_VENDOR_OTHERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_VENDOR_OTHER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_CONFIGURATIONStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_CONFIGURATION",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_INTERFACEStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_INTERFACE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_GET_MS_FEATURE_DESCRIPTORStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_CONTROL_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_CONTROL_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "ENDPOINT_STATE_MACHINE_TRANSITIONInformation(Pointer fid_Endpoint, Pointer fid_URB_PipeHandle, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine",
+        "task": "ENDPOINT_STATE_MACHINE_TRANSITION",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_PipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "ENDPOINT_STATE_MACHINE_EVENTInformation(Pointer fid_Endpoint, Pointer fid_URB_PipeHandle, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine",
+        "task": "ENDPOINT_STATE_MACHINE_EVENT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_PipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "UCXEndpointRundownInformation65(Pointer fid_Endpoint, Pointer fid_URB_PipeHandle, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine Rundown",
+        "task": "UCXEndpointRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_PipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "UCXEndpointRundownInformation66(Pointer fid_Endpoint, Pointer fid_URB_PipeHandle, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine Rundown",
+        "task": "UCXEndpointRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_PipeHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "CONTROLLER_STATE_MACHINE_TRANSITIONInformation(Pointer fid_UcxController, Pointer fid_SmEngineContext, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine",
+        "task": "CONTROLLER_STATE_MACHINE_TRANSITION",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_SmEngineContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "CONTROLLER_STATE_MACHINE_EVENTInformation(Pointer fid_UcxController, Pointer fid_SmEngineContext, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine",
+        "task": "CONTROLLER_STATE_MACHINE_EVENT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_SmEngineContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "UCXControlerRundownInformation69(Pointer fid_UcxController, Pointer fid_SmEngineContext, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine Rundown",
+        "task": "UCXControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_SmEngineContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "UCXControlerRundownInformation70(Pointer fid_UcxController, Pointer fid_SmEngineContext, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "StateMachine Rundown",
+        "task": "UCXControlerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_SmEngineContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "UCXRootHubInitiatingWakeInformation(Pointer fid_UcxController, Pointer fid_UsbDevice, UnicodeString fid_DeviceInterfacePath)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "UCXRootHubInitiatingWake",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_SECURE_BULK_OR_INTERRUPT_TRANSFER)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_SECURE_BULK_OR_INTERRUPT_TRANSFER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFERStop(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_SECURE_BULK_OR_INTERRUPT_TRANSFER, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace",
+        "task": "URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_SECURE_BULK_OR_INTERRUPT_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "73",
+        "version": "1",
+        "event(fields)": "URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFERStop_V1(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, Int32 fid_UCX_URB_SECURE_BULK_OR_INTERRUPT_TRANSFER, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "fid_UCX_URB_SECURE_BULK_OR_INTERRUPT_TRANSFER"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SECURE_ISOCH_TRANSFERStart(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_NumberOfPackets, UInt32 fid_UCX_URB_SECURE_ISOCH_TRANSFER, CountedUtf16String fid_UCX_URB_ISO_PACKETS)",
+        "opcode": "Start",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SECURE_ISOCH_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_NumberOfPackets"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UCX_URB_SECURE_ISOCH_TRANSFER"
+            },
+            {
+                "field_type": "CountedUtf16String",
+                "field_name": "fid_UCX_URB_ISO_PACKETS"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-UCX",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "URB_FUNCTION_SECURE_ISOCH_TRANSFERStop(Pointer fid_UcxController, Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_UCX_URB_NumberOfPackets, Int64 fid_UCX_URB_SECURE_ISOCH_TRANSFER, CountedMbcsString fid_UCX_URB_ISO_PACKETS, UInt32 fid_IRP_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "HeadersBusTrace PartialDataBusTrace FullDataBusTrace",
+        "task": "URB_FUNCTION_SECURE_ISOCH_TRANSFER",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UcxController"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_PipeHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IRP_Ptr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_UCX_URB_NumberOfPackets"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "fid_UCX_URB_SECURE_ISOCH_TRANSFER"
+            },
+            {
+                "field_type": "CountedMbcsString",
+                "field_name": "fid_UCX_URB_ISO_PACKETS"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IRP_NtStatus"
+            }
+        ]
+    }
+]

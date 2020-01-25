@@ -1,0 +1,238 @@
+[
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MFH264Enc_EncodeSessionStart(Pointer EncoderInstance, Int32 Complexity, Int32 RateCtrlMode, Int32 ContentType, Int32 BufferSize, Int32 AverageBitRate, Int32 PeakBitRate, Int32 EntropyMode, Int32 MultithreadEncodingMode, Int32 NumberOfWorkerThreads)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFH264Enc_EncodeSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Complexity"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "RateCtrlMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "ContentType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "BufferSize"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "AverageBitRate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "PeakBitRate"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "EntropyMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "MultithreadEncodingMode"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NumberOfWorkerThreads"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MFH264Enc_EncodeSessionStop(Pointer EncoderInstance)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFH264Enc_EncodeSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MFH264Enc_TrackSampleStart(Pointer EncoderInstance, Int64 SampleTime)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFH264Enc_TrackSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MFH264Enc_TrackSampleStop(Pointer EncoderInstance, Int64 SampleTime)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFH264Enc_TrackSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MFH264Enc_WorkItemStart(Pointer EncoderInstance, Int64 TimeStamp, Int32 Type)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MFH264Enc_WorkItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MFH264Enc_WorkItemStop(Pointer EncoderInstance, Int64 TimeStamp, Int32 Type)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MFH264Enc_WorkItem",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MFH264Enc_RateControl(Pointer EncoderInstance, Int64 TimeStamp, Int32 GOPNumber, Int32 FrameNumber, Double FrameRate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFH264Enc_RateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "GOPNumber"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameNumber"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "FrameRate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MFH264Enc",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "MFH264Enc_RateControl8(Pointer EncoderInstance, Int64 TimeStamp, Int32 GOPNumber, Int32 FrameNumber, Int32 BitRate)",
+        "opcode": "",
+        "keywords": "",
+        "task": "MFH264Enc_RateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "GOPNumber"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameNumber"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "BitRate"
+            }
+        ]
+    }
+]

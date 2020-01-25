@@ -1,0 +1,763 @@
+[
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "wmvdecod_VC1_DecodeTaskStart(UInt64 PictureID, Int32 FrameType, Int32 TaskType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_VC1_DecodeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "PictureID"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "FrameType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "TaskType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "wmvdecod_VC1_DecodeTaskStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_VC1_DecodeTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "wmvdecod_InitStart(UInt32 FourCC, Int32 Width, Int32 Height)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FourCC"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "wmvdecod_InitStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_Init",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "wmvdecod_setExtendedFormatStart(UInt32 FormatSize, Binary Format)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_setExtendedFormat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FormatSize"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Format"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "wmvdecod_setExtendedFormatStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_setExtendedFormat",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessInputStart(UInt32 SampleSizeInBytes, Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleSizeInBytes"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessInputStop(UInt32 VOP, UInt32 Frame)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "VOP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Frame"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessInput(UInt32 VOP, UInt32 Frame, Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "",
+        "keywords": "",
+        "task": "wmvdecod_ProcessInput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "VOP"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Frame"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessOutputStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessOutputStop(Int64 SampleTime, Int64 SampleDuration)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleDuration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "wmvdecod_LoopFilterStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_LoopFilter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "wmvdecod_LoopFilterStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_LoopFilter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "wmvdecod_DeblockingStart(UInt32 Level)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_Deblocking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "wmvdecod_DeblockingStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_Deblocking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessOutputStart15()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "wmvdecod_ProcessOutputStop16()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_ProcessOutput",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "wmvdecod_ColorConvStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_ColorConv",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "wmvdecod_ColorConvStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_ColorConv",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_GetBufferStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_GetBuffer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_GetBufferStop20(Int32 TypeIndex, UInt32 BufferSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_GetBuffer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "TypeIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BufferSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_ReleaseBufferStop(Int32 TypeIndex)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_ReleaseBuffer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "TypeIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_ReleaseBufferStop22()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_ReleaseBuffer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2Stop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2Stop24()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2Stop25()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2Stop26()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_BeginFrameStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_BeginFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_BeginFrameStop28()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_BeginFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_EndFrameStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_EndFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_EndFrameStop30()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_EndFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_ExecuteStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_Execute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_ExecuteStop32()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_Execute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_MFSampleOutStart(UInt32 SampleIndex)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_MFSampleOut",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA2_MFSampleReturnStart(UInt32 SampleIndex)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_DXVA2_MFSampleReturn",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "wmvdecod_FormatChangeStart(Int32 OrigWidth, Int32 OrigHeight, UInt32 OrigAspectRatioX, UInt32 OrigAspectRatioY, Int32 NewWidth, Int32 NewHeight, UInt32 NewAspectRatioX, UInt32 NewAspectRatioY)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_FormatChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "OrigWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "OrigHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OrigAspectRatioX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OrigAspectRatioY"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NewWidth"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "NewHeight"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewAspectRatioX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewAspectRatioY"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "wmvdecod_MonitorSwitchStart(UInt32 SwitchType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_MonitorSwitch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SwitchType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "wmvdecod_QualityManagerStart(Int64 rtLagTime, UInt32 dwDropModeCurrent, UInt32 dwPostModeCurrent, UInt32 dwDropModeNew, UInt32 dwPostModeNew)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_QualityManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "rtLagTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDropModeCurrent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwPostModeCurrent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwDropModeNew"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwPostModeNew"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "wmvdecod_MFMessages_D3DStart(UInt32 D3DAWARE)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_MFMessages_D3D",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "D3DAWARE"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "wmvdecod_MFMessages_BeginStreamingStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_MFMessages_BeginStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "wmvdecod_MFMessages_EndStreamingStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_MFMessages_EndStreaming",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "wmvdecod_MFMessages_DrainStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_MFMessages_Drain",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "wmvdecod_MFMessages_FlushStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_MFMessages_Flush",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA_EncryptFrameStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "wmvdecod_DXVA_EncryptFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-wmvdecod",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "wmvdecod_DXVA_EncryptFrameStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "wmvdecod_DXVA_EncryptFrame",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

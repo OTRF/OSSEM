@@ -1,0 +1,423 @@
+[
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Initialize(Pointer Instance, HexInt32 Processors)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Instance"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Processors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "Initialize17()",
+        "opcode": "",
+        "keywords": "",
+        "task": "Initialize",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Shutdown(Pointer Pointer)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Shutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Shutdown33(UInt32 SourceVoiceCount, UInt32 SubmixVoiceCount, UInt32 MasteringVoiceCount)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Shutdown",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceVoiceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubmixVoiceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MasteringVoiceCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "SubmixVoiceCreate(Pointer Address, UInt32 ProcessingStage, UInt32 Channels, UInt32 SampleRate)",
+        "opcode": "Create",
+        "keywords": "",
+        "task": "SubmixVoice",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessingStage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Channels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleRate"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "SubmixVoiceCreate49(UInt32 OriginalHz, UInt32 NewHz, UInt32 Quantum)",
+        "opcode": "Create",
+        "keywords": "",
+        "task": "SubmixVoice",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Quantum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "MasteringVoiceCreate(Pointer Address, UInt32 Channels, UInt32 SampleRate, UnicodeString RendererId)",
+        "opcode": "Create",
+        "keywords": "",
+        "task": "MasteringVoice",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Channels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleRate"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RendererId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "MasteringVoiceCreate65(UInt32 OriginalHz, UInt32 NewHz, UInt32 Quantum)",
+        "opcode": "Create",
+        "keywords": "",
+        "task": "MasteringVoice",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OriginalHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewHz"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Quantum"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "MasteringVoiceCreate66(Pointer Address, UInt32 Channels, UInt32 SampleRate, UnicodeString RendererId)",
+        "opcode": "Create",
+        "keywords": "",
+        "task": "MasteringVoice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Channels"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SampleRate"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RendererId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "MasteringVoiceCreate67(UnicodeString DeviceId, UnicodeString EndpointId)",
+        "opcode": "Create",
+        "keywords": "",
+        "task": "MasteringVoice",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EndpointId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "task_0(Int32 hr)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Critical",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "ProcessingPerformanceWarning(Float Time, UInt32 Callback)",
+        "opcode": "PerformanceWarning",
+        "keywords": "",
+        "task": "Processing",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "Time"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Callback"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "ProcessingPerformanceWarning97(Float Value)",
+        "opcode": "PerformanceWarning",
+        "keywords": "",
+        "task": "Processing",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "ProcessingPerformanceWarning98(UInt32 Value)",
+        "opcode": "PerformanceWarning",
+        "keywords": "",
+        "task": "Processing",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "SourceVoicePerformanceWarning(Pointer Pointer)",
+        "opcode": "PerformanceWarning",
+        "keywords": "",
+        "task": "SourceVoice",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "ProcessingStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Processing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "ProcessingStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Processing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAudio2",
+        "event_id": "256",
+        "version": "0",
+        "event(fields)": "Processing(UInt32 MinimumCyclesPerQuantum, UInt32 MaximumCyclesPerQuantum, UInt32 GlitchesSinceEngineStarted, Float CpuUsage, UInt32 LatencyInSamples, UInt32 TotalMemoryUsage, UInt32 ActiveSourceVoices, UInt32 TotalSourceVoices, UInt32 ActiveSubmixVoices, UInt32 ActiveResamplers, UInt32 ActiveMatrixMixers)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Processing",
+        "level": "",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MinimumCyclesPerQuantum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaximumCyclesPerQuantum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GlitchesSinceEngineStarted"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "CpuUsage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LatencyInSamples"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalMemoryUsage"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveSourceVoices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalSourceVoices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveSubmixVoices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveResamplers"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActiveMatrixMixers"
+            }
+        ]
+    }
+]

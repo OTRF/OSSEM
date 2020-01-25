@@ -1,0 +1,216 @@
+[
+    {
+        "provider": "Microsoft-Windows-WER-Diag",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString CorruptedFilePath, UnicodeString CrashedAppName, UInt32 ExceptionCode, UInt32 ExceptionStatusCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CorruptedFilePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CrashedAppName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExceptionCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExceptionStatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WER-Diag",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "task_02(UInt32 ExceptionCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ExceptionCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WER-Diag",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "task_03(UInt32 ProcessId, UInt32 ModuleNameLength, UnicodeString ModuleName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ModuleNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WER-Diag",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "task_04(UInt32 ProcessId, UnicodeString ModuleName, UInt64 StartTime, UInt64 CrashTimeFromStart)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModuleName"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CrashTimeFromStart"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WER-Diag",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "task_05(UnicodeString AppPath, UInt32 ProcessId, FILETIME ProcessStartTime, Boolean Is64Bit, Pointer CallReturnAddress, UnicodeString CallReturnModName, UInt32 CallReturnModOffset, UInt32 CallReturnInstructionBytesLength, Binary CallReturnInstructionBytes, Pointer CallReturnBaseAddress, Pointer CallReturnRegionSize, UInt32 CallReturnState, UInt32 CallReturnProtect, UInt32 CallReturnType, Pointer TargetAddress, UnicodeString TargetModName, UInt32 TargetModOffset, UInt32 TargetInstructionBytesLength, Binary TargetInstructionBytes, Pointer TargetBaseAddress, Pointer TargetRegionSize, UInt32 TargetState, UInt32 TargetProtect, UInt32 TargetType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ProcessStartTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Is64Bit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CallReturnAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallReturnModName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallReturnModOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallReturnInstructionBytesLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "CallReturnInstructionBytes"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CallReturnBaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CallReturnRegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallReturnState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallReturnProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallReturnType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TargetAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TargetModName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetModOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetInstructionBytesLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "TargetInstructionBytes"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TargetBaseAddress"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TargetRegionSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetProtect"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetType"
+            }
+        ]
+    }
+]

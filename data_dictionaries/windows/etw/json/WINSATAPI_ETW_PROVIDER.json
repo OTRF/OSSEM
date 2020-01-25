@@ -1,0 +1,292 @@
+[
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "Application(UInt32 TestV1, UInt32 TestV2, UInt32 TestV3, UnicodeString TestV4)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TestV1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TestV2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TestV3"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TestV4"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ApplicationStart(FILETIME StartTimeOfDay)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTimeOfDay"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "Application2(UInt16 CommandLineSize, UnicodeString CommandLine)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "CommandLineSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ApplicationStop(UInt32 ExitCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "Application4(UInt32 Win32Error, UInt16 CantMsgSize, UnicodeString CantMsg)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Win32Error"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CantMsgSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CantMsg"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "Application5(HexInt32 FailingHresult, GUID FailingInterfaceCLSID, UInt16 SourceSize, UnicodeString Source, UInt16 InfterfaceSize, UnicodeString Interface, UInt16 ErrorMsgSize, UnicodeString ErrorMsg, UInt16 CantMsgSize, UnicodeString CantMsg)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailingHresult"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "FailingInterfaceCLSID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Source"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "InfterfaceSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Interface"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ErrorMsgSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMsg"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CantMsgSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CantMsg"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "Application6(UInt16 ErrorMsgSize, UnicodeString ErrorMsg)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ErrorMsgSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMsg"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "Application7(HexInt32 FailingHresult, UInt16 ErrorMsgSize, UnicodeString ErrorMsg, UInt16 CantMsgSize, UnicodeString CantMsg)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "FailingHresult"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "ErrorMsgSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ErrorMsg"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "CantMsgSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CantMsg"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "Application8(UInt16 MessageSize, AnsiString Message)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "MessageSize"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "Application9(UInt16 PhaseID, UInt16 DescriptionSize, UnicodeString Description)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PhaseID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "DescriptionSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Description"
+            }
+        ]
+    },
+    {
+        "provider": "WINSATAPI_ETW_PROVIDER",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "Application10(UInt16 PhaseID)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Application",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "PhaseID"
+            }
+        ]
+    }
+]

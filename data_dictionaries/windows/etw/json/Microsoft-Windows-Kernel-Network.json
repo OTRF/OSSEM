@@ -1,0 +1,1094 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDatasent.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 startime, UInt32 endtime, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Datasent.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "startime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "endtime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDatareceived.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Datareceived.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPConnectionattempted.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt16 mss, UInt16 sackopt, UInt16 tsopt, UInt16 wsopt, UInt32 rcvwin, UInt16 rcvwinscale, UInt16 sndwinscale, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Connectionattempted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "mss"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sackopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "tsopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "wsopt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "rcvwin"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "rcvwinscale"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sndwinscale"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDisconnectissued.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Disconnectissued.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDataretransmitted.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Dataretransmitted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPConnectionaccepted.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt16 mss, UInt16 sackopt, UInt16 tsopt, UInt16 wsopt, UInt32 rcvwin, UInt16 rcvwinscale, UInt16 sndwinscale, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Connectionaccepted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "mss"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sackopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "tsopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "wsopt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "rcvwin"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "rcvwinscale"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sndwinscale"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPReconnectattempted.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Reconnectattempted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPTCPconnectionattemptfailed.(UInt16 Proto, UInt16 FailureCode)",
+        "opcode": "TCPconnectionattemptfailed.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4 KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "Proto"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FailureCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPProtocolcopieddataonbehalfofuser.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Protocolcopieddataonbehalfofuser.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDatasent.26(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 startime, UInt32 endtime, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Datasent.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "startime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "endtime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDatareceived.27(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Datareceived.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPConnectionattempted.28(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt16 mss, UInt16 sackopt, UInt16 tsopt, UInt16 wsopt, UInt32 rcvwin, UInt16 rcvwinscale, UInt16 sndwinscale, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Connectionattempted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "mss"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sackopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "tsopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "wsopt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "rcvwin"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "rcvwinscale"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sndwinscale"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDisconnectissued.29(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Disconnectissued.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPDataretransmitted.30(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Dataretransmitted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPConnectionaccepted.31(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt16 mss, UInt16 sackopt, UInt16 tsopt, UInt16 wsopt, UInt32 rcvwin, UInt16 rcvwinscale, UInt16 sndwinscale, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Connectionaccepted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "mss"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sackopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "tsopt"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "wsopt"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "rcvwin"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "rcvwinscale"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sndwinscale"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPReconnectattempted.32(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Reconnectattempted.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_TCPIPProtocolcopieddataonbehalfofuser.34(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "Protocolcopieddataonbehalfofuser.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_TCPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_UDPIPDatasentoverUDPprotocol.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "DatasentoverUDPprotocol.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_UDPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_UDPIPDatareceivedoverUDPprotocol.(UInt32 PID, UInt32 size, UInt32 daddr, UInt32 saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "DatareceivedoverUDPprotocol.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4",
+        "task": "KERNEL_NETWORK_TASK_UDPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_UDPIPUDPconnectionattemptfailed.(UInt16 Proto, UInt16 FailureCode)",
+        "opcode": "UDPconnectionattemptfailed.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV4 KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_UDPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "Proto"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FailureCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_UDPIPDatasentoverUDPprotocol.58(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "DatasentoverUDPprotocol.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_UDPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Network",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "KERNEL_NETWORK_TASK_UDPIPDatareceivedoverUDPprotocol.59(UInt32 PID, UInt32 size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)",
+        "opcode": "DatareceivedoverUDPprotocol.",
+        "keywords": "KERNEL_NETWORK_KEYWORD_IPV6",
+        "task": "KERNEL_NETWORK_TASK_UDPIP",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "daddr"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "saddr"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "dport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "sport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "seqnum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "connid"
+            }
+        ]
+    }
+]

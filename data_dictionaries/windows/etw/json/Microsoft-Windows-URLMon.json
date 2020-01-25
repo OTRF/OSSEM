@@ -1,0 +1,190 @@
+[
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "801",
+        "version": "0",
+        "event(fields)": "URLMON_Queue_Msg(UInt32 Msg, UnicodeString URL)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_Queue_Msg",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Msg"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "802",
+        "version": "0",
+        "event(fields)": "URLMON_Process_Queued_Msg(UInt32 Msg, UnicodeString URL)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_Process_Queued_Msg",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Msg"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "803",
+        "version": "0",
+        "event(fields)": "URLMON_CINet_Read(UInt32 Msg, UnicodeString URL, UInt32 Bytes)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_CINet_Read",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Msg"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "804",
+        "version": "0",
+        "event(fields)": "URLMON_CINet_Read804(UInt32 Bytes, UnicodeString URL)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_CINet_Read",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Bytes"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "805",
+        "version": "0",
+        "event(fields)": "URLMON_CInet_Start(UInt32 Flags, UnicodeString URL)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_CInet_Start",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "806",
+        "version": "0",
+        "event(fields)": "URLMON_CINet_Abort(UInt32 Reason, UnicodeString URL)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_CINet_Abort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "807",
+        "version": "0",
+        "event(fields)": "URLMON_CINet_Binding(Pointer CInet, Pointer Binding)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD URLMON_KEYWORD_HTTPDIAG",
+        "task": "URLMON_CINet_Binding",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "CInet"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Binding"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-URLMon",
+        "event_id": "808",
+        "version": "0",
+        "event(fields)": "URLMON_CINet_Write(UInt32 Operation, UInt32 Bytes, UnicodeString URL, Pointer CInet)",
+        "opcode": "",
+        "keywords": "URLMON_KEYWORD",
+        "task": "URLMON_CINet_Write",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Bytes"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "URL"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CInet"
+            }
+        ]
+    }
+]

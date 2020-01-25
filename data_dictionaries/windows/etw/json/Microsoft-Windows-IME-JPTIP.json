@@ -1,0 +1,50 @@
+[
+    {
+        "provider": "Microsoft-Windows-IME-JPTIP",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "TaskID:IMEInvokeCommandStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TaskID:IMEInvokeCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IME-JPTIP",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "TaskID:IMEInvokeCommandStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TaskID:IMEInvokeCommand",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-IME-JPTIP",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "TaskID:IME_JPN_HWKBD_CandUIProcess(UInt32 Duration, UInt32 IMEType)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TaskID:IME_JPN_HWKBD_CandUIProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IMEType"
+            }
+        ]
+    }
+]

@@ -1,0 +1,4531 @@
+[
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "TraceMessage(Pointer Message)",
+        "opcode": "",
+        "keywords": "Error Selfhost",
+        "task": "TraceMessage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "task_0(UInt32 ExInfo0, UInt32 ExInfo1, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Error Selfhost",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ExInfo0"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExInfo1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "task_014(UInt32 Component, UInt32 ComponentMsgId, UnicodeString szCustomString, UInt32 dwArg1)",
+        "opcode": "",
+        "keywords": "Selfhost Init",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Component"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ComponentMsgId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "szCustomString"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwArg1"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "task_015(HexInt32 Status, AnsiString Filename, UInt32 Line)",
+        "opcode": "",
+        "keywords": "Error Selfhost",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_016(UInt32 HR, UnicodeString CustomMessage, AnsiString Function, AnsiString CallingCode, AnsiString Filename, UInt32 Line)",
+        "opcode": "",
+        "keywords": "Error Selfhost",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HR"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CustomMessage"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Function"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "CallingCode"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Filename"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "task_017(Pointer context, UInt32 component, Boolean istakeref)",
+        "opcode": "",
+        "keywords": "Error Selfhost",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "component"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "istakeref"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "LocationSession(UInt32 Accuracy, UInt32 Generate, UInt32 dwHint, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "Selfhost FixSession ClientApi",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Accuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Generate"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "dwHint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "LocationSession101(Double Latitude, Double Longitude, Double Altitude, Double HorizontalAccuracy, Double VerticalAccuracy, Double Heading, Double Velocity, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "Selfhost Position FixSession ClientApi",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Altitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "HorizontalAccuracy"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "VerticalAccuracy"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Heading"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Velocity"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "task_0200(UInt32 Result, UInt32 GnssEventType, UInt64 NumberOfBytesTransferred, UInt32 GnssEventSize)",
+        "opcode": "",
+        "keywords": "FixSession Gnss",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GnssEventType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumberOfBytesTransferred"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GnssEventSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "LocationSessionStart(UInt32 SessionId, UInt32 SessionType, UInt32 RequestParameter)",
+        "opcode": "Start",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestParameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "LocationSessionStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "LocationSessionStart203(UInt32 SessionId, UInt32 SessionType, UInt32 RequestParameter)",
+        "opcode": "Start",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestParameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "LocationSessionStop204(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "LocationSession205(UInt32 SessionId, UInt32 Status, FILETIME Timestamp, Boolean IsIntermediate, Double Latitude, Double Longitude, Double Altitude, Double Speed, Double Heading, UInt32 hAccuracy, UInt32 vAccuracy, UInt32 SpeedAccuracy, Float hDilutionOfPrecision, Float PositionDilutionOfPrecision)",
+        "opcode": "",
+        "keywords": "Position FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsIntermediate"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Altitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Speed"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Heading"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hAccuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "vAccuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpeedAccuracy"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "hDilutionOfPrecision"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PositionDilutionOfPrecision"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "LocationSessionStart206(UInt32 SessionId, UInt32 SessionType, UInt32 RequestParameter)",
+        "opcode": "Start",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestParameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "LocationSessionStart207(UInt32 SessionId, UInt32 Ioctl, UInt32 Result, UInt32 Duration)",
+        "opcode": "Start",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Ioctl"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "LocationSessionStart208(UInt32 SessionId, UnicodeString SatelliteData)",
+        "opcode": "Start",
+        "keywords": "FixSession Gnss",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SatelliteData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "task_0209(UInt32 SessionId, UInt32 Result, UInt64 NumberOfBytesTransferred, UInt32 FixLevelOfDetails, UInt32 ExpectedMinimumBytes, UInt32 ExpectedMinimumSatelliteBytes)",
+        "opcode": "",
+        "keywords": "FixSession Gnss",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumberOfBytesTransferred"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FixLevelOfDetails"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedMinimumBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExpectedMinimumSatelliteBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "LocationSessionStart210(UInt32 SessionId, UInt32 Pe, UInt32 SessionType, UInt32 AccuracyType, UInt32 AccuracyValue, UInt32 RequestParameter, UInt32 AgeValue, Boolean IsVenueMandatory, Boolean IsClientSession, UInt32 AttachedAcquireId, UInt32 OwnerId)",
+        "opcode": "Start",
+        "keywords": "Selfhost FixSession",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccuracyType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccuracyValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestParameter"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AgeValue"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsVenueMandatory"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsClientSession"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AttachedAcquireId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OwnerId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "LocationSessionStop211(UInt32 SessionId, UInt32 Pe, UInt32 Result)",
+        "opcode": "Stop",
+        "keywords": "FixSession",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "LocationSession212(UInt32 SessionId, UInt32 Pe, UInt32 Status, UInt32 SourcePe, FILETIME Timestamp, Boolean IsIntermediate, Double Latitude, Double Longitude, UInt32 HorizontalAccuracy, Double Speed, UnicodeString Floor, UnicodeString VenueId)",
+        "opcode": "",
+        "keywords": "Selfhost Position FixSession",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePe"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsIntermediate"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HorizontalAccuracy"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Speed"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Floor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VenueId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "LocationSession213(UInt32 SessionId, UInt32 Pe, GUID ProductId, UnicodeString UserSid, UnicodeString PackageId, UnicodeString CallerName)",
+        "opcode": "",
+        "keywords": "Selfhost Position FixSession",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "ProductId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "OrionSession(UInt32 Result, UInt32 ReportStatus, FILETIME Timestamp)",
+        "opcode": "",
+        "keywords": "Selfhost Orion",
+        "task": "OrionSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReportStatus"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "OrionSession221(UInt32 Result, UInt32 ReportStatus, UInt32 BlobSize)",
+        "opcode": "",
+        "keywords": "Selfhost Orion",
+        "task": "OrionSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReportStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlobSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "OrionSession222(UInt32 WinHttpResult, UInt32 OrionResult, Double Latitude, Double Longitude, Double Accuracy)",
+        "opcode": "",
+        "keywords": "Selfhost Orion",
+        "task": "OrionSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WinHttpResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OrionResult"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Accuracy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "SuplSession(AnsiString Hslp, UInt32 HslpSource, AnsiString HslpFromImsi)",
+        "opcode": "",
+        "keywords": "Selfhost Supl",
+        "task": "SuplSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Hslp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HslpSource"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "HslpFromImsi"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "SuplSession231(AnsiString MPC, AnsiString PDE, UInt8 ApplicationType)",
+        "opcode": "",
+        "keywords": "Selfhost Supl",
+        "task": "SuplSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "MPC"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "PDE"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "ApplicationType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "SuplSession232(UInt32 Major, UInt32 Minor)",
+        "opcode": "",
+        "keywords": "Selfhost Supl",
+        "task": "SuplSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Major"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Minor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "SuplSession233(UInt32 Action, AnsiString Name, UInt32 Size)",
+        "opcode": "",
+        "keywords": "Selfhost Supl",
+        "task": "SuplSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "Initialization(UInt32 CommandType, UInt32 Value)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CommandType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "Initialization235(UInt32 InjectionType, UInt32 InjectionStatus, UInt32 InjectionDataSize)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionDataSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "Initialization236(UInt32 RequestId, UInt32 RequestType, UInt32 RequestNotificationType, UInt32 RequestPlaneType)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestNotificationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestPlaneType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "Initialization237(UInt32 RequestId, UInt32 UserResponse)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserResponse"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "Initialization238(UInt32 Value)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Value"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "Initialization239(UInt32 InjectionType, UInt32 BlobFormat)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlobFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "Initialization240(UInt32 Trigger, UInt32 RegStatus)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss Supl",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Trigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "Initialization241(UInt32 InjectionType)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "Initialization242(UInt32 InjectionStatus, Double Latitude, Double Longitude, Double Altitude, Double Speed, Double Heading, UInt32 hAccuracy)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionStatus"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Altitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Speed"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Heading"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hAccuracy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "243",
+        "version": "0",
+        "event(fields)": "Initialization243(UInt32 InjectionStatus, FILETIME UtcTime, UInt32 Uncertainty)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionStatus"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "UtcTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Uncertainty"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "244",
+        "version": "0",
+        "event(fields)": "Initialization244(UInt32 InjectionStatus, UInt32 BlobVersion, UInt32 BlobFormat, UInt32 BlobSize)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InjectionStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlobVersion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlobFormat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlobSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "245",
+        "version": "0",
+        "event(fields)": "Initialization245(UInt32 AppId, UInt32 GeofenceId, UInt32 ReturnId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReturnId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "246",
+        "version": "0",
+        "event(fields)": "Initialization246(UInt32 Id, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "247",
+        "version": "0",
+        "event(fields)": "Initialization247(UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "248",
+        "version": "0",
+        "event(fields)": "Initialization248(UInt32 Id, UInt32 State)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "249",
+        "version": "0",
+        "event(fields)": "Initialization249(UInt32 State)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "CellPE(UInt32 ARFCN, UInt32 BaseStationID, UInt32 CellID, UInt32 LocationAreaCode)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ARFCN"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BaseStationID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CellID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationAreaCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "CellPE251(UInt32 MobileCountryCode, UInt32 MobileNetworkCode, UInt32 CellID, UInt32 LocationAreaCode)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MobileCountryCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MobileNetworkCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CellID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationAreaCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "CellPE252(UInt32 BaseLat, UInt32 BaseLong, UInt32 BaseStationID, UInt32 NID, UInt32 SID)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "BaseLat"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BaseLong"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BaseStationID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "253",
+        "version": "0",
+        "event(fields)": "CellPE253(UInt32 MobileCountryCode, UInt32 MobileNetworkCode, UInt32 CellID)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MobileCountryCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MobileNetworkCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CellID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "254",
+        "version": "0",
+        "event(fields)": "CellPE254(UnicodeString Neighbors)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Neighbors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "255",
+        "version": "0",
+        "event(fields)": "CellPE255(UInt32 MobileCountryCode, UInt32 MobileNetworkCode, UInt32 LocationAreaCode, UInt32 CellID)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MobileCountryCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MobileNetworkCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationAreaCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CellID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "256",
+        "version": "0",
+        "event(fields)": "CellPE256(UInt32 Params, UInt32 Executor, UInt32 UiccApp, UInt32 LocationAreaCode, UInt32 TrackingAreaCode, UInt32 CellID)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Params"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Executor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UiccApp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LocationAreaCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TrackingAreaCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CellID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "257",
+        "version": "0",
+        "event(fields)": "CellPE257(UInt32 hrResult)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hrResult"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "258",
+        "version": "0",
+        "event(fields)": "CellPE258(UnicodeString NeighborsBeaconHash)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NeighborsBeaconHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "259",
+        "version": "0",
+        "event(fields)": "CellPEAdvance(Boolean IsMulticellUsed)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe",
+        "task": "CellPEAdvance",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsMulticellUsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "260",
+        "version": "0",
+        "event(fields)": "WiFiAdapter(UnicodeString MacAddress, Int32 SignalStrength)",
+        "opcode": "",
+        "keywords": "WiFiTracing",
+        "task": "WiFiAdapter",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MacAddress"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "SignalStrength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "261",
+        "version": "0",
+        "event(fields)": "WiFiAdapter261(UnicodeString Name, UInt32 State)",
+        "opcode": "",
+        "keywords": "Selfhost WiFiTracing",
+        "task": "WiFiAdapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "262",
+        "version": "0",
+        "event(fields)": "WiFiAdapter262(UnicodeString MacAddresses)",
+        "opcode": "",
+        "keywords": "WiFiTracing",
+        "task": "WiFiAdapter",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MacAddresses"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "265",
+        "version": "0",
+        "event(fields)": "Initialization265(UInt32 Status, Boolean IsRecoverable, UnicodeString Description)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsRecoverable"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Description"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "266",
+        "version": "0",
+        "event(fields)": "Initialization266(Boolean DeviceAvailable, UnicodeString SymbolicLink, Boolean DeviceInUse, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "DeviceAvailable"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "DeviceInUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "267",
+        "version": "0",
+        "event(fields)": "Initialization267(UnicodeString SymbolicLink, Boolean IsExternal)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsExternal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "268",
+        "version": "0",
+        "event(fields)": "Initialization268(UnicodeString SymbolicLink, Boolean IsExternal)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsExternal"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "269",
+        "version": "0",
+        "event(fields)": "Initialization269(UnicodeString SymbolicLink)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "270",
+        "version": "0",
+        "event(fields)": "CommonPE(UInt32 Result, UInt32 PE)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe WifiPe",
+        "task": "CommonPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PE"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "271",
+        "version": "0",
+        "event(fields)": "CommonPE271(UInt32 Result, UInt32 PE)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe WifiPe",
+        "task": "CommonPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PE"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "272",
+        "version": "0",
+        "event(fields)": "CommonPE272(UInt32 AdapterName, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Selfhost CellPe WifiPe",
+        "task": "CommonPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "273",
+        "version": "0",
+        "event(fields)": "VenuePE(Pointer RequestId, UnicodeString CachedPositions)",
+        "opcode": "",
+        "keywords": "Selfhost VenuePE",
+        "task": "VenuePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CachedPositions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "274",
+        "version": "0",
+        "event(fields)": "VenuePE274(Boolean IsInsideVenue, Double Lat, Double Lon, UInt32 Acc, UInt32 SourcePe)",
+        "opcode": "",
+        "keywords": "Selfhost VenuePE",
+        "task": "VenuePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsInsideVenue"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Lat"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Lon"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Acc"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePe"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "280",
+        "version": "0",
+        "event(fields)": "Crowdsource(UInt32 DcpProfile, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Selfhost Crowdsource",
+        "task": "Crowdsource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DcpProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "281",
+        "version": "0",
+        "event(fields)": "Crowdsource281(UInt32 SizeInBytes, UInt32 DcpProfile, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Selfhost Crowdsource",
+        "task": "Crowdsource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SizeInBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DcpProfile"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "282",
+        "version": "0",
+        "event(fields)": "Crowdsource282(UInt32 SourcePE, Boolean IsReadyForData, Boolean IsValidData, UInt32 Result)",
+        "opcode": "",
+        "keywords": "Selfhost Crowdsource",
+        "task": "Crowdsource",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePE"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsReadyForData"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsValidData"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "283",
+        "version": "0",
+        "event(fields)": "Crowdsource283(UInt32 rawDataListSize, Boolean IsCollectionStateActive)",
+        "opcode": "",
+        "keywords": "Selfhost Crowdsource",
+        "task": "Crowdsource",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "rawDataListSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsCollectionStateActive"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "284",
+        "version": "0",
+        "event(fields)": "Crowdsource284(UInt32 Level, UInt32 CollectionType, Boolean IsBufferFull, Boolean IsBatterySavings, Boolean IsUserPresenceOn)",
+        "opcode": "",
+        "keywords": "Selfhost Crowdsource",
+        "task": "Crowdsource",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Level"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBufferFull"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBatterySavings"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsUserPresenceOn"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "290",
+        "version": "0",
+        "event(fields)": "CompositePE(UInt32 PrimaryPE, UInt32 AcquireId)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PrimaryPE"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcquireId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "291",
+        "version": "0",
+        "event(fields)": "CompositePE291(UInt32 PeRole, UInt32 RemainingTime, UInt32 hr, UInt32 AcquireId)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PeRole"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemainingTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcquireId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "292",
+        "version": "0",
+        "event(fields)": "CompositePE292(UInt32 Status, UInt32 SourcePe, UInt32 Accuracy, UInt32 AcquireId)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePe"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Accuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcquireId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "294",
+        "version": "0",
+        "event(fields)": "CompositePE294(UInt32 DistanceThreshold, Double Speed, Boolean MDUsed, UInt32 MovementPrecision, UInt32 SpeedBasedWaitTimeSec, UInt32 MDBasedWaitTimeSec, UInt32 MinWaitTimeToMeetBudgetSec, UInt32 SelectedWaitTimeSec, UInt64 CumulativeRunningTimeSec, UInt64 CumulativeAcquireTimeSec, UInt32 RequestsCount, Boolean IsSpeedUnknown, Boolean RecentMovementTimeBoundApplied, UInt32 AcquireId)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DistanceThreshold"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Speed"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "MDUsed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MovementPrecision"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SpeedBasedWaitTimeSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MDBasedWaitTimeSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinWaitTimeToMeetBudgetSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SelectedWaitTimeSec"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CumulativeRunningTimeSec"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CumulativeAcquireTimeSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestsCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSpeedUnknown"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "RecentMovementTimeBoundApplied"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcquireId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "295",
+        "version": "0",
+        "event(fields)": "CompositePE295(Double SpeedEstimate, Double Bearing, UInt32 NumberOfPositions)",
+        "opcode": "",
+        "keywords": "SpeedEstimatorTracing",
+        "task": "CompositePE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "SpeedEstimate"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Bearing"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfPositions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "296",
+        "version": "0",
+        "event(fields)": "CompositePE296(UInt64 Timestamp, Double Latitude, Double Longitude, Double hAccuracy)",
+        "opcode": "",
+        "keywords": "SpeedEstimatorTracing",
+        "task": "CompositePE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "hAccuracy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "298",
+        "version": "0",
+        "event(fields)": "CompositePE298(UInt32 UnreliablePositionAccuracy, UInt32 UnreliablePositionSourcePe, UInt32 ReliablePositionAccuracy, UInt32 ReliablePositionSourcePe, UInt32 AcquireId)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "UnreliablePositionAccuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnreliablePositionSourcePe"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReliablePositionAccuracy"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReliablePositionSourcePe"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcquireId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "299",
+        "version": "0",
+        "event(fields)": "CompositePE299(UInt32 PeCount, UInt32 Pe1, UInt32 Pe2, UInt32 Pe3, UInt32 Pe4, UInt32 Pe5, UInt32 Pe6)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe1"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe2"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe3"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe4"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe5"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Pe6"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "300",
+        "version": "0",
+        "event(fields)": "WebproxyRequest(HexInt32 RequestId, UInt32 RequestType, UInt32 EndpointLengthInChars, UnicodeString Endpoint, UInt32 TrackingIdLengthInChars, UnicodeString TrackingId)",
+        "opcode": "",
+        "keywords": "Selfhost Orion WebproxyTracing",
+        "task": "WebproxyRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EndpointLengthInChars"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Endpoint"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TrackingIdLengthInChars"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TrackingId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "WebproxyResponse(HexInt32 RequestId, UInt32 RequestType, Double Latitude, Double Longitude, UInt32 ServerStatus, HexInt32 MappedHResult, UInt32 Accuracy, UnicodeString Floor, UnicodeString VenueId, UInt32 StatusStringLengthInChars, UnicodeString StatusString, UInt32 OrionSource)",
+        "opcode": "",
+        "keywords": "Selfhost Orion WebproxyTracing",
+        "task": "WebproxyResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ServerStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MappedHResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Accuracy"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Floor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VenueId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusStringLengthInChars"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StatusString"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OrionSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "303",
+        "version": "0",
+        "event(fields)": "WebproxyResponse303(HexInt32 RequestId, UInt32 RequestType, UInt32 ServerStatus, HexInt32 MappedHResult, UInt32 StatusStringLengthInChars, UnicodeString StatusString)",
+        "opcode": "",
+        "keywords": "Selfhost Orion WebproxyTracing",
+        "task": "WebproxyResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ServerStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MappedHResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusStringLengthInChars"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StatusString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "304",
+        "version": "0",
+        "event(fields)": "WebproxyResponse304(HexInt32 RequestId, UInt32 RequestType, UInt32 ServerStatus, HexInt32 MappedHResult, UInt32 StatusStringLengthInChars, UnicodeString StatusString)",
+        "opcode": "",
+        "keywords": "Selfhost Orion WebproxyTracing",
+        "task": "WebproxyResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ServerStatus"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "MappedHResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusStringLengthInChars"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StatusString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "306",
+        "version": "0",
+        "event(fields)": "Canceled(HexInt32 RequestId, UInt32 RequestType, UInt32 Reason, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost Orion WebproxyTracing",
+        "task": "Canceled",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Reason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "307",
+        "version": "0",
+        "event(fields)": "WinHttpEvent(HexInt32 WebproxyRequestId, UInt32 WebproxyRequestType, HexInt32 WinHttpHandle, UInt32 WinHttpEventType, UInt32 WinhttpCallbackStatus)",
+        "opcode": "",
+        "keywords": "WebproxyTracing",
+        "task": "WinHttpEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "WebproxyRequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WebproxyRequestType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WinHttpHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinHttpEventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinhttpCallbackStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "308",
+        "version": "0",
+        "event(fields)": "WinHttpAPICall(HexInt32 WebproxyRequestId, UInt32 WebproxyRequestType, HexInt32 WinHttpHandle, UInt32 WinHttpApiType, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "WebproxyTracing",
+        "task": "WinHttpAPICall",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "WebproxyRequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WebproxyRequestType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "WinHttpHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinHttpApiType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "309",
+        "version": "0",
+        "event(fields)": "WebproxyRequestInfo(UInt32 PayloadLengthInChars, UnicodeString Payload)",
+        "opcode": "",
+        "keywords": "WebproxyTracing",
+        "task": "WebproxyRequestInfo",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadLengthInChars"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Payload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "310",
+        "version": "0",
+        "event(fields)": "WebproxyResponseInfo(UInt32 PayloadLengthInChars, AnsiString Payload)",
+        "opcode": "",
+        "keywords": "WebproxyTracing",
+        "task": "WebproxyResponseInfo",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadLengthInChars"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Payload"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "401",
+        "version": "0",
+        "event(fields)": "CompositePE401(UInt32 hr, UInt32 hrWifiRegistration, UInt32 hrCellRegistration, UInt32 WifiConnectionState, Boolean WifiThrottlingOn, UInt64 WifiThrottlingOnElapsedTimeSec, Boolean CellThrottlingOn, UInt64 CellThrottlingOnElapsedTimeSec, Boolean ActivityDetectionThrottlingOn, UInt64 ActivityDetectionThrottlingOnElapsedTimeSec)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hrWifiRegistration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hrCellRegistration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WifiConnectionState"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WifiThrottlingOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WifiThrottlingOnElapsedTimeSec"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CellThrottlingOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CellThrottlingOnElapsedTimeSec"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ActivityDetectionThrottlingOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ActivityDetectionThrottlingOnElapsedTimeSec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "402",
+        "version": "0",
+        "event(fields)": "CompositePE402(UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "403",
+        "version": "0",
+        "event(fields)": "CompositePE403(UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "404",
+        "version": "0",
+        "event(fields)": "CompositePE404(UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "405",
+        "version": "0",
+        "event(fields)": "CompositePE405(UInt32 hr, UInt32 WifiConnectionState, Boolean WifiThrottlingOn, UInt64 WifiThrottlingOnElapsedTimeSec, Boolean CellThrottlingOn, UInt64 CellThrottlingOnElapsedTimeSec, Boolean ADThrottlingOn, UInt64 ADThrottlingOnElapsedTimeSec)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WifiConnectionState"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "WifiThrottlingOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "WifiThrottlingOnElapsedTimeSec"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "CellThrottlingOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CellThrottlingOnElapsedTimeSec"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "ADThrottlingOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ADThrottlingOnElapsedTimeSec"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "406",
+        "version": "0",
+        "event(fields)": "CompositePE406(UInt32 PeName, Boolean IsPrimaryNativeTracking, UInt32 AcquireId)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsPrimaryNativeTracking"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AcquireId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "407",
+        "version": "0",
+        "event(fields)": "CompositePE407(UInt32 SessionType, Boolean IsSupportsNativePT, Boolean IsSupportsNativeDT, Boolean IsSupportsRequest)",
+        "opcode": "",
+        "keywords": "Selfhost CompositePe",
+        "task": "CompositePE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSupportsNativePT"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSupportsNativeDT"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSupportsRequest"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "500",
+        "version": "0",
+        "event(fields)": "Geolocation(Pointer GeolocationClass, UInt32 SessionType, UInt32 AgeValue, UInt32 AccuracyValue, UInt32 RequestParameter)",
+        "opcode": "",
+        "keywords": "Selfhost FixSession ClientApi",
+        "task": "Geolocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "GeolocationClass"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AgeValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AccuracyValue"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestParameter"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "501",
+        "version": "0",
+        "event(fields)": "Geolocation501(Pointer GeolocationClass, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost FixSession ClientApi",
+        "task": "Geolocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "GeolocationClass"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "Geolocation502(Pointer GeolocationClass, HexInt32 PositionStatus, Double Latitude, Double Longitude, UInt32 HorizontalAccuracy, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost Position FixSession ClientApi",
+        "task": "Geolocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "GeolocationClass"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PositionStatus"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HorizontalAccuracy"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "503",
+        "version": "0",
+        "event(fields)": "Geolocation503(Pointer Geolocator, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost Position FixSession ClientApi",
+        "task": "Geolocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Geolocator"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "504",
+        "version": "0",
+        "event(fields)": "Geolocation504(Int32 State)",
+        "opcode": "",
+        "keywords": "ClientApi",
+        "task": "Geolocation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "525",
+        "version": "0",
+        "event(fields)": "Geofencing(UInt32 Index, Double Latitude, Double Longitude, Double Radius, UInt64 StartTime, UInt64 Duration, UInt64 DwellTime, Boolean SingleUse)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "526",
+        "version": "0",
+        "event(fields)": "Geofencing526(UInt32 Index, Double Latitude, Double Longitude, Double Radius, UInt64 StartTime, UInt64 Duration, UInt64 DwellTime, Boolean SingleUse)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "527",
+        "version": "0",
+        "event(fields)": "Geofencing527()",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "528",
+        "version": "0",
+        "event(fields)": "Geofencing528(UInt32 TriggerType)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "529",
+        "version": "0",
+        "event(fields)": "Geofencing529(UInt32 TriggerType)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "530",
+        "version": "0",
+        "event(fields)": "Geofencing530()",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "531",
+        "version": "0",
+        "event(fields)": "Geofencing531(UInt32 TriggerType)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "532",
+        "version": "0",
+        "event(fields)": "Geofencing532()",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "533",
+        "version": "0",
+        "event(fields)": "Geofencing533()",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "534",
+        "version": "0",
+        "event(fields)": "Geofencing534(UInt32 AppId, UInt32 GeofenceId, Double Latitude, Double Longitude, Double Radius, FILETIME StartTime, UInt64 Duration, UInt64 DwellTime, Boolean SingleUse)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "550",
+        "version": "0",
+        "event(fields)": "Geofencing550(AnsiString Operation, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "551",
+        "version": "0",
+        "event(fields)": "Geofencing551(AnsiString Operation, UInt32 ClientId, GUID EventId, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost ClientApi",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "AnsiString",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "552",
+        "version": "0",
+        "event(fields)": "Geofencing552(UInt32 TriggerType, UInt32 ForegroundEvent, UInt32 RegistrationOperation, UInt32 ProccessId, UInt32 ApplicationId, GUID EventId, HexInt32 Status)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ForegroundEvent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegistrationOperation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProccessId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ApplicationId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "553",
+        "version": "0",
+        "event(fields)": "Geofencing553(UInt32 AppId, UInt32 GeofenceId, Double Latitude, Double Longitude, Double Radius, FILETIME StartTime, UInt64 Duration, UInt64 DwellTime, Boolean SingleUse, HexInt32 hr, UnicodeString CallerName)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "554",
+        "version": "0",
+        "event(fields)": "Geofencing554(UInt32 AppId, UInt32 GeofenceId, HexInt32 hr, UnicodeString CallerName)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "555",
+        "version": "0",
+        "event(fields)": "Geofencing555(UInt32 AppId, HexInt32 hr, UnicodeString CallerName)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CallerName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "556",
+        "version": "0",
+        "event(fields)": "Geofencing556(UInt32 AppId, UInt32 GeofencesCount, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofencesCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "557",
+        "version": "0",
+        "event(fields)": "Geofencing557(UInt32 AppId, UInt32 GeofenceReportsCount, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceReportsCount"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "558",
+        "version": "0",
+        "event(fields)": "Geofencing558(UInt32 GeofenceId, UInt32 Trigger, UInt32 RemovalReason, HexInt32 PositionStatus, Double Latitude, Double Longitude, UInt32 Accuracy)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Trigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemovalReason"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "PositionStatus"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Accuracy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "559",
+        "version": "0",
+        "event(fields)": "Geofencing559(UInt32 WnfForegroundEvent)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WnfForegroundEvent"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "560",
+        "version": "0",
+        "event(fields)": "Geofencing560(UInt32 ClientId, UInt64 EventId, HexInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Geofencing",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "600",
+        "version": "0",
+        "event(fields)": "GCWLogEvent(UInt32 InstanceId, UInt32 EventType, UInt32 EventSource, UInt32 TaskhostSource, UInt32 CurrentState, UInt32 Timeout)",
+        "opcode": "",
+        "keywords": "Selfhost FixSession ClientApi ManagedApi",
+        "task": "GCWLogEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventSource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TaskhostSource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "601",
+        "version": "0",
+        "event(fields)": "GCWStateLogEvent(UInt32 InstanceId, UInt32 GeoStatus, UInt32 GeoPermission)",
+        "opcode": "",
+        "keywords": "Selfhost FixSession ClientApi ManagedApi",
+        "task": "GCWStateLogEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "InstanceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeoStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeoPermission"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "700",
+        "version": "0",
+        "event(fields)": "GeofenceTracking(UInt32 AppId, UInt32 GeofenceId, UInt32 Trigger, Double Latitude, Double Longitude)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Trigger"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "701",
+        "version": "0",
+        "event(fields)": "GeofenceTracking701(UInt32 Tracker, UInt32 AppId, UInt32 GeofenceId, UInt32 State, Double Latitude, Double Longitude)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Tracker"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "702",
+        "version": "0",
+        "event(fields)": "GeofenceTracking702()",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "703",
+        "version": "0",
+        "event(fields)": "GeofenceTracking703(Double Latitude, Double Longitude, Double Radius, UInt32 NumberOfGeofences)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumberOfGeofences"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "704",
+        "version": "0",
+        "event(fields)": "GeofenceTracking704(UInt32 AppId)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "705",
+        "version": "0",
+        "event(fields)": "GeofenceTracking705(UInt32 AppId)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "706",
+        "version": "0",
+        "event(fields)": "GeofenceTracking706(UInt32 Tracker, UInt32 AppId, UInt32 GeofenceId, Double Latitude, Double Longitude, Double Radius, UInt64 DwellTime, FILETIME StartTime, UInt64 Duration, Boolean SingleUse)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Tracker"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "707",
+        "version": "0",
+        "event(fields)": "GeofenceTracking707(UInt32 Tracker, UInt32 AppId, UInt32 GeofenceId)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Tracker"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "708",
+        "version": "0",
+        "event(fields)": "GeofenceTracking708(Boolean Active, Double Distance, Double Accuracy)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Active"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Distance"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Accuracy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "709",
+        "version": "0",
+        "event(fields)": "GeofenceTracking709(UInt32 AppId, UInt32 GeofenceId, Double Latitude, Double Longitude, Double Radius, UInt64 DwellTime, FILETIME StartTime, UInt64 Duration, Boolean SingleUse)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "710",
+        "version": "0",
+        "event(fields)": "GeofenceTracking710(UInt32 Tracker, UInt32 State)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Tracker"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "711",
+        "version": "0",
+        "event(fields)": "GeofenceTracking711(UInt32 Tracker, Boolean Enabled)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Tracker"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Enabled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "712",
+        "version": "0",
+        "event(fields)": "GeofenceTracking712(UInt32 AppId, UInt32 GeofenceId, Double Latitude, Double Longitude, Double Radius, UInt64 DwellTime, FILETIME StartTime, UInt64 Duration, Boolean SingleUse, UInt32 TrackedGeofencesCount, UInt32 InternalTrackedGeofencesCount)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Radius"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DwellTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "StartTime"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SingleUse"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TrackedGeofencesCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InternalTrackedGeofencesCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "713",
+        "version": "0",
+        "event(fields)": "GeofenceTracking713(UInt32 AppId, UInt32 GeofenceId, UInt32 TrackedGeofencesCount, UInt32 InternalTrackedGeofencesCount)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceTracking",
+        "task": "GeofenceTracking",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TrackedGeofencesCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InternalTrackedGeofencesCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "800",
+        "version": "0",
+        "event(fields)": "LocationSession800(UnicodeString Scenario, UInt32 TTFF, UInt32 Accuracy)",
+        "opcode": "",
+        "keywords": "Performance Selfhost",
+        "task": "LocationSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Scenario"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TTFF"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Accuracy"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "900",
+        "version": "0",
+        "event(fields)": "GeofenceStore(UInt32 AppId, UInt32 GeofenceId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "901",
+        "version": "0",
+        "event(fields)": "GeofenceStore901(UInt32 AppId, UInt32 GeofenceId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "902",
+        "version": "0",
+        "event(fields)": "GeofenceStore902(UInt32 AppId, UInt32 GeofenceId, UInt32 TriggerState, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TriggerState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "903",
+        "version": "0",
+        "event(fields)": "GeofenceStore903(UInt32 AppId, UInt32 GeofenceId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "904",
+        "version": "0",
+        "event(fields)": "GeofenceStore904(UInt32 AppId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "905",
+        "version": "0",
+        "event(fields)": "GeofenceStore905(UInt32 AppId, UInt32 GeofenceCount, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "906",
+        "version": "0",
+        "event(fields)": "GeofenceStore906(Double Latitude, Double Longitude, UInt32 AppCount, UInt32 GeofenceCount, UInt32 TransitionGeofenceCount, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "Latitude"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Longitude"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GeofenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TransitionGeofenceCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "907",
+        "version": "0",
+        "event(fields)": "GeofenceStore907(UInt32 AppId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "908",
+        "version": "0",
+        "event(fields)": "GeofenceStore908(UnicodeString Message, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "909",
+        "version": "0",
+        "event(fields)": "GeofenceStore909(UnicodeString AppContext, UInt32 AppId, UInt32 hr)",
+        "opcode": "",
+        "keywords": "Selfhost GeofenceStore",
+        "task": "GeofenceStore",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "GeofencePowerStart(UnicodeString Scenario)",
+        "opcode": "Start",
+        "keywords": "Performance Selfhost",
+        "task": "GeofencePower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Scenario"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "GeofencePowerStop(UnicodeString Scenario)",
+        "opcode": "Stop",
+        "keywords": "Performance Selfhost",
+        "task": "GeofencePower",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Scenario"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "Permissions(Pointer ClientID, UInt32 UnconditionalPermissions, UInt32 PolicyPermissions, UInt32 WinLegacyPolicyPermission, UInt32 MasterPermissions, UInt32 UserPermissions, UInt32 UserWinLegacyPolicyPermissions, UInt32 AppPermissions, Boolean IsAppContainer, UnicodeString UserSid, UnicodeString PackageFamilyName)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Permissions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ClientID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UnconditionalPermissions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PolicyPermissions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WinLegacyPolicyPermission"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MasterPermissions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserPermissions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UserWinLegacyPolicyPermissions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AppPermissions"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsAppContainer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "Permissions1101(Pointer ClientID, UnicodeString UserSid, UnicodeString PackageFamilyName)",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Permissions",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ClientID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFamilyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1200",
+        "version": "0",
+        "event(fields)": "Misc()",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Misc",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1201",
+        "version": "0",
+        "event(fields)": "Misc1201()",
+        "opcode": "",
+        "keywords": "Selfhost",
+        "task": "Misc",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1250",
+        "version": "0",
+        "event(fields)": "WifiPE(UInt32 PositionId, UInt32 InferenceResult, UInt32 PositionSource, UInt32 PositionStatus)",
+        "opcode": "",
+        "keywords": "Selfhost WiFiTracing WifiPe",
+        "task": "WifiPE",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PositionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InferenceResult"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PositionSource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PositionStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-WindowsPhone-LocationServiceProvider",
+        "event_id": "1251",
+        "version": "0",
+        "event(fields)": "Initialization1251(UInt32 Trigger, UInt32 RegStatus)",
+        "opcode": "",
+        "keywords": "Selfhost Init Gnss Supl",
+        "task": "Initialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Trigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegStatus"
+            }
+        ]
+    }
+]

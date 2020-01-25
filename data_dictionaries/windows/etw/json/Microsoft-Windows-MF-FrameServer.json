@@ -1,0 +1,366 @@
+[
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "FrameServerFsProxySetOutputTypeStart(UInt32 PinId, AnsiString MediaType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FrameServerFsProxySetOutputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PinId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "MediaType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "FrameServerFsProxySetOutputTypeStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FrameServerFsProxySetOutputType",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "FrameServerFsProxyD3dManagerStart(UnicodeString D3dDesc, HexInt64 LUID, UInt32 VendorId, UInt32 DeviceId, UInt32 SubSysId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FrameServerFsProxyD3dManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "D3dDesc"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "LUID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "VendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSysId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "FrameServerFsProxyD3dManagerStop(HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FrameServerFsProxyD3dManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "string.FrameServerFsProxyInitializationStart(UnicodeString SymbolicLink, UInt32 Devices, UInt32 Streams, UInt32 StreamType, HexInt32 hr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "string.FrameServerFsProxyInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Devices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Streams"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "string.FrameServerFsProxyInitializationStop(UnicodeString SymbolicLink, UInt32 Devices, UInt32 Streams, UInt32 StreamType, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "string.FrameServerFsProxyInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Devices"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Streams"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamType"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "string.FrameServerFsClientCreateSampleStart(UInt32 StreamId, UInt64 TimeStamp, UInt32 Duration, UInt32 MemoryType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "string.FrameServerFsClientCreateSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimeStamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MemoryType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "string.FrameServerFsClientCreateSampleStart9(HexInt32 hr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "string.FrameServerFsClientCreateSample",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "FrameServerCaptureStatisticsStart(UInt32 StreamId, UInt32 StatSource, UInt32 Flags, UInt64 Requests, UInt64 Input, UInt64 Output, UInt64 Dropped, Double FrameDelayRMSAccumulator, UInt32 FrameDelayRMSCounter, UInt64 ExpectedFrameDelay, HexInt32 hr, UnicodeString SymbolicLink)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FrameServerCaptureStatistics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "StreamId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatSource"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Requests"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Input"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Output"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Dropped"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "FrameDelayRMSAccumulator"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameDelayRMSCounter"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ExpectedFrameDelay"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "FrameServerWatchdogTimerTaskStart(UInt32 TimerScope, UInt64 TimerScopeId, UInt32 WatchdogOperation, UInt64 DurationToTriggerInHns, UnicodeString SymbolicLink)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FrameServerWatchdogTimerTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerScope"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimerScopeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogOperation"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DurationToTriggerInHns"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SymbolicLink"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "FrameServerWatchdogTimerTaskStop(UInt32 TimerScope, UInt64 TimerScopeId, UInt32 WatchdogOperation, UInt64 DurationToCompletionInHns)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FrameServerWatchdogTimerTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerScope"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimerScopeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogOperation"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DurationToCompletionInHns"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-MF-FrameServer",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "FrameServerWatchdogTimerTaskStop13(UInt32 TimerScope, UInt64 TimerScopeId, UInt32 WatchdogOperation, HexInt32 hr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FrameServerWatchdogTimerTask",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerScope"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TimerScopeId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WatchdogOperation"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "hr"
+            }
+        ]
+    }
+]

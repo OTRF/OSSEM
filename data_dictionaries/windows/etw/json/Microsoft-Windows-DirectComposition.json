@@ -1,0 +1,1740 @@
+[
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "RESOURCE_CREATION(UInt32 channelHandle, UInt32 resourceHandle, UInt64 externalHandleAndChannel, UInt32 resourceType, Boolean createShared, Boolean openShared, UInt64 resourcePointer)",
+        "opcode": "",
+        "keywords": "DCompBasic DCompInput",
+        "task": "RESOURCE_CREATION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "externalHandleAndChannel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "createShared"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "openShared"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "BEGIN_DRAWStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer, Int32 left, Int32 top, Int32 right, Int32 bottom)",
+        "opcode": "Start",
+        "keywords": "DCompBasic DCompMemory",
+        "task": "BEGIN_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "left"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "top"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "right"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "bottom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "BEGIN_DRAWStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "BEGIN_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "END_DRAWStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic",
+        "task": "END_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "END_DRAWStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "END_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "TRIMStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic DCompMemory",
+        "task": "TRIM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "TRIMStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "TRIM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "RESIZEStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic DCompMemory",
+        "task": "RESIZE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "RESIZEStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "RESIZE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "UPDATE_TOKENStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic",
+        "task": "UPDATE_TOKEN",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "UPDATE_TOKENStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "UPDATE_TOKEN",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "SUSPEND_DRAWStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic",
+        "task": "SUSPEND_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "SUSPEND_DRAWStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "SUSPEND_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "RESUME_DRAWStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic",
+        "task": "RESUME_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "RESUME_DRAWStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "RESUME_DRAW",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "ATLAS_ALLOCATE(UInt64 Id, UInt32 Width, UInt32 Height, UInt32 BitDepth, Boolean IsTexturingAtlas, UInt32 ChannelHandle, UInt32 PixelFormat)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_ALLOCATE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitDepth"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsTexturingAtlas"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PixelFormat"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "ATLAS_FREE(UInt64 Id)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_FREE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "ATLAS_ENTRY_ALLOCATE(UInt64 AtlasId, UInt32 X, UInt32 Y, UInt32 Width, UInt32 Height, UInt64 EntryId)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_ENTRY_ALLOCATE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AtlasId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "X"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Y"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EntryId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "ATLAS_ENTRY_FREE(UInt64 AtlasId, UInt32 X, UInt32 Y, UInt32 Width, UInt32 Height, UInt64 EntryId)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_ENTRY_FREE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AtlasId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "X"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Y"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EntryId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "ATLAS_UTILIZATION(UInt64 Id, UInt32 Width, UInt32 Height, UInt32 BitDepth, Float PercentUsed)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_UTILIZATION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BitDepth"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PercentUsed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "SCROLLStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)",
+        "opcode": "Start",
+        "keywords": "DCompBasic",
+        "task": "SCROLL",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "SCROLLStop()",
+        "opcode": "Stop",
+        "keywords": "DCompBasic",
+        "task": "SCROLL",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "DEVICE_CREATE(UInt64 DeviceId, UInt32 ChannelHandle)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "DEVICE_CREATE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "DEVICE_DESTROY(UInt64 DeviceId, UInt32 ChannelHandle)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "DEVICE_DESTROY",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "DEVICE_COMMIT(UInt64 DeviceId, UInt32 ChannelHandle, UInt32 LastCommittedBatchId, UInt32 LastConfirmedBatchId)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "DEVICE_COMMIT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "DeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastCommittedBatchId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastConfirmedBatchId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "ATLAS_USE_INFO(UInt64 Id, UInt64 Owner, UInt32 UseType, Int32 XData, Int32 YData)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_USE_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Owner"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UseType"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "XData"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "YData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "ATLAS_ENTRY_MARK_FOR_DISPOSE(UInt64 Id)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_ENTRY_MARK_FOR_DISPOSE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "ATLAS_ENTRY_MARK_AVAILABLE(UInt64 Id)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_ENTRY_MARK_AVAILABLE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "ATLAS_ENTRY_REUSE(UInt64 AtlasId, UInt32 X, UInt32 Y, UInt32 Width, UInt32 Height, UInt64 EntryId)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_ENTRY_REUSE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AtlasId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "X"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Y"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "EntryId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "RESOURCE_RELEASE(UInt32 channelHandle, UInt32 resourceHandle, UInt64 resourcePointer)",
+        "opcode": "",
+        "keywords": "DCompBasic",
+        "task": "RESOURCE_RELEASE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "resourcePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "CREATE_CLUMP(UInt64 clumpPointer, UInt64 virtualSurfacePointer, UInt32 left, UInt32 top, UInt32 right, UInt32 bottom)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "CREATE_CLUMP",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "clumpPointer"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "virtualSurfacePointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "left"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "top"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "right"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "bottom"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "DESTROY_CLUMP(UInt64 clumpPointer)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "DESTROY_CLUMP",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "clumpPointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "PUSH_DOWNStart(UInt64 surfacePointer)",
+        "opcode": "Start",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "PUSH_DOWN",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "surfacePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "PUSH_DOWNStop(UInt64 surfacePointer)",
+        "opcode": "Stop",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "PUSH_DOWN",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "surfacePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "RECLUMPStart(UInt64 surfacePointer)",
+        "opcode": "Start",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "RECLUMP",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "surfacePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "RECLUMPStop(UInt64 surfacePointer)",
+        "opcode": "Stop",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "RECLUMP",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "surfacePointer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "VIRTUAL_SURFACE_COUNTERS(UInt32 percentValidTiles, UInt32 pixelsPerClump)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "VIRTUAL_SURFACE_COUNTERS",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "percentValidTiles"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pixelsPerClump"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "CAP_ALLOCATION_STATS(UInt32 ChannelHandle, UInt32 LastCommittedBatchId, UInt64 largeSurfacesTotalAllocated, UInt64 largeSurfacesInUseAllocated, UInt64 largeSurfacesInUseActual, UInt64 largeSurfacesPeakInUseActual, UInt64 largeSurfacesAllowed, UInt64 poolsTotalAllocated, UInt64 poolsInUseAllocated, UInt64 poolsInUseActual, UInt64 poolsPeakInUseActual, UInt64 poolsAllowed, UInt64 largeSurfacesPendingRelease, UInt64 poolsPendingRelease, UInt64 largeSurfacesMaxStructuralWaste, UInt64 poolsMaxStructuralWaste)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "CAP_ALLOCATION_STATS",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ChannelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastCommittedBatchId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesTotalAllocated"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesInUseAllocated"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesInUseActual"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesPeakInUseActual"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesAllowed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsTotalAllocated"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsInUseAllocated"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsInUseActual"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsPeakInUseActual"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsAllowed"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesPendingRelease"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsPendingRelease"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "largeSurfacesMaxStructuralWaste"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "poolsMaxStructuralWaste"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "CAP_RELEASE_SURFACE(UInt64 Id, UInt32 Width, UInt32 Height)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "CAP_RELEASE_SURFACE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "BLOCK_FOR_EXCESSIVE_PENDINGStart(UInt64 Id)",
+        "opcode": "Start",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "BLOCK_FOR_EXCESSIVE_PENDING",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "BLOCK_FOR_EXCESSIVE_PENDINGStop(UInt64 Id)",
+        "opcode": "Stop",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "BLOCK_FOR_EXCESSIVE_PENDING",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "OFFER_RECLAIM(UInt64 Id, UInt32 Width, UInt32 Height)",
+        "opcode": "",
+        "keywords": "DCompMemory OfferReclaim",
+        "task": "OFFER_RECLAIM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "OFFER_RECLAIM43(UInt64 Id, UInt32 Width, UInt32 Height, Boolean PixelsDiscarded, Boolean SurfaceInvalid)",
+        "opcode": "",
+        "keywords": "DCompMemory OfferReclaim",
+        "task": "OFFER_RECLAIM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Height"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "PixelsDiscarded"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "SurfaceInvalid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "CAP_MAXIMUMStart(UInt64 Id)",
+        "opcode": "Start",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "CAP_MAXIMUM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "CAP_MAXIMUMStop(UInt64 Id)",
+        "opcode": "Stop",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "CAP_MAXIMUM",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "Id"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "CREATE_SHARED_MEMORY_SECTION(UInt64 section, UInt32 size)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompSharedMemory",
+        "task": "CREATE_SHARED_MEMORY_SECTION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "section"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "DESTROY_SHARED_MEMORY_SECTION(UInt64 section, UInt32 size)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompSharedMemory",
+        "task": "DESTROY_SHARED_MEMORY_SECTION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "section"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "ALLOCATE_FROM_SHARED_MEMORY_SECTION(UInt64 section, UInt32 allocationSize, UInt32 sectionSize, Boolean heap)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompSharedMemory",
+        "task": "ALLOCATE_FROM_SHARED_MEMORY_SECTION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "section"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "allocationSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "sectionSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "heap"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "FREE_FROM_SHARED_MEMORY_SECTION()",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompSharedMemory",
+        "task": "FREE_FROM_SHARED_MEMORY_SECTION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "ANIMATION_SCENARIO_BEGIN(UInt64 deviceId, UInt32 channelHandle, UInt16 version, UInt16 scenarioPriority, UInt16 flags, UInt64 qpcInitiate, UInt64 qpcInput, UInt32 msIntendedDuration, GUID scenarioGuid, UnicodeString scenarioName, UnicodeString scenarioDetails)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompAnimationTelemetry",
+        "task": "ANIMATION_SCENARIO_BEGIN",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "deviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "version"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "scenarioPriority"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "flags"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "qpcInitiate"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "qpcInput"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "msIntendedDuration"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "scenarioGuid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "scenarioName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "scenarioDetails"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "ANIMATION_SCENARIO_REFERENCE(UInt64 deviceId, UInt32 channelHandle, GUID scenarioGuid, UInt64 uniqueKey)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompAnimationTelemetry",
+        "task": "ANIMATION_SCENARIO_REFERENCE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "deviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "scenarioGuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "uniqueKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ANIMATION_SCENARIO_UNREFERENCE(UInt64 deviceId, UInt32 channelHandle, GUID scenarioGuid, UInt64 uniqueKey)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompAnimationTelemetry",
+        "task": "ANIMATION_SCENARIO_UNREFERENCE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "deviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "scenarioGuid"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "uniqueKey"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "PRIMITIVE_GROUP_UPDATE(UInt32 channelHandle, UInt32 resourceHandle, UInt32 flags, UInt32 batchCount, UInt32 totalPrimitiveCount, Float boundsLeft, Float boundsTop, Float boundsRight, Float boundsBottom, UInt16 singlePrimitiveInfoLength, UInt16 surfaceInfoLength, Binary surfaceInfo, UInt16 primitivesLength, Binary primitives)",
+        "opcode": "",
+        "keywords": "DCompPrimitives",
+        "task": "PRIMITIVE_GROUP_UPDATE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "channelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "resourceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "batchCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "totalPrimitiveCount"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "boundsLeft"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "boundsTop"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "boundsRight"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "boundsBottom"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "singlePrimitiveInfoLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "surfaceInfoLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "surfaceInfo"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "primitivesLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "primitives"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "ATLAS_RESIZE(UInt32 TargetX, UInt32 TargetY, UInt32 MinX, UInt32 MinY, UInt32 MaxX, UInt32 MaxY, UInt32 RequestX, UInt32 RequestY, UInt32 ShrinkX, UInt32 ShrinkY, UInt32 GrowX, UInt32 GrowY, UInt32 AtlasX, UInt32 AtlasY)",
+        "opcode": "",
+        "keywords": "DCompDiagnostic DCompMemory",
+        "task": "ATLAS_RESIZE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MinY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MaxY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShrinkX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ShrinkY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GrowX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "GrowY"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AtlasX"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AtlasY"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "VISUAL_SET_INTERACTION(UInt32 Channel, UInt32 visualHandle, UInt32 interactionHandle, UInt64 visualAndChannelHandle, UInt64 interactionAndChannelHandle)",
+        "opcode": "",
+        "keywords": "DCompInput",
+        "task": "VISUAL_SET_INTERACTION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "visualHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "interactionHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "visualAndChannelHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "interactionAndChannelHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "VISUAL_SET_INPUTSINK(UInt64 visualAndChannelHandle, Pointer inputSinkHandle)",
+        "opcode": "",
+        "keywords": "DCompInput",
+        "task": "VISUAL_SET_INPUTSINK",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "visualAndChannelHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "inputSinkHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "VISUAL_REDIRECT_MOUSE(UInt32 Channel, UInt32 visualHandle, UInt64 visualAndChannelHandle, Pointer windowHandle, UInt32 mouseConfigMask, UInt32 mouseConfigValues)",
+        "opcode": "",
+        "keywords": "DCompInput",
+        "task": "VISUAL_REDIRECT_MOUSE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "visualHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "visualAndChannelHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "windowHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "mouseConfigMask"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "mouseConfigValues"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "INTERACTION_CONFIGURATION(UInt32 Channel, UInt32 interactionHandle, UInt64 interactionAndChannelHandle, UInt32 propertyId)",
+        "opcode": "",
+        "keywords": "DCompInput",
+        "task": "INTERACTION_CONFIGURATION",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "interactionHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "interactionAndChannelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "propertyId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "INTERACTION_CAPTURE_POINTER(UInt32 Channel, UInt32 interactionHandle, UInt64 interactionAndChannelHandle, UInt32 captureType, UInt32 pointerId, UInt64 pointerTimeStamp)",
+        "opcode": "",
+        "keywords": "DCompInput",
+        "task": "INTERACTION_CAPTURE_POINTER",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Channel"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "interactionHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "interactionAndChannelHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "captureType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "pointerId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "pointerTimeStamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "FLIP_CONSUME_PRESENTStart()",
+        "opcode": "Start",
+        "keywords": "FlipManager",
+        "task": "FLIP_CONSUME_PRESENT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "FLIP_CONSUME_PRESENTStop(UInt32 result)",
+        "opcode": "Stop",
+        "keywords": "FlipManager",
+        "task": "FLIP_CONSUME_PRESENT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "FLIP_CONSUME_PRESENT_CALLOUTStart()",
+        "opcode": "Start",
+        "keywords": "FlipManager",
+        "task": "FLIP_CONSUME_PRESENT_CALLOUT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "FLIP_CONSUME_PRESENT_CALLOUTStop(UInt32 result)",
+        "opcode": "Stop",
+        "keywords": "FlipManager",
+        "task": "FLIP_CONSUME_PRESENT_CALLOUT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "FLIP_PRODUCE_PRESENTStart()",
+        "opcode": "Start",
+        "keywords": "FlipManager",
+        "task": "FLIP_PRODUCE_PRESENT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-DirectComposition",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "FLIP_PRODUCE_PRESENTStop(UInt64 presentId, UInt32 result)",
+        "opcode": "Stop",
+        "keywords": "FlipManager",
+        "task": "FLIP_PRODUCE_PRESENT",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "presentId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "result"
+            }
+        ]
+    }
+]

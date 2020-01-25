@@ -1,0 +1,110 @@
+[
+    {
+        "provider": "Microsoft-Windows-SetupUGC",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "RunSetupUGCStart(UnicodeString CommandLine)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "RunSetupUGC",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandLine"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupUGC",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "RunSetupUGCStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "RunSetupUGC",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupUGC",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "RunningProcessorsforPassStart(UnicodeString Pass)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "RunningProcessorsforPass",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Pass"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupUGC",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "RunningProcessorsforPassStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "RunningProcessorsforPass",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupUGC",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "RunningProcessorStart(UnicodeString Processor)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "RunningProcessor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Processor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupUGC",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "RunningProcessorStop(UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "RunningProcessor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    }
+]

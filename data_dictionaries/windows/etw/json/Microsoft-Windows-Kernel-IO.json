@@ -1,0 +1,154 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-IO",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "VolumeMountStart(GUID VolumeGuid, UInt16 VolumeNameLength, UnicodeString VolumeName)",
+        "opcode": "Start",
+        "keywords": "VolumeMounts",
+        "task": "VolumeMount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-IO",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "VolumeMountStop(GUID VolumeGuid, UInt16 VolumeNameLength, UnicodeString VolumeName)",
+        "opcode": "Stop",
+        "keywords": "VolumeMounts",
+        "task": "VolumeMount",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-IO",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "VolumeMountStop3(GUID VolumeGuid, UInt16 VolumeNameLength, UnicodeString VolumeName, HexInt32 Error)",
+        "opcode": "Stop",
+        "keywords": "VolumeMounts",
+        "task": "VolumeMount",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "VolumeGuid"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-IO",
+        "event_id": "1205",
+        "version": "0",
+        "event(fields)": "task_0(UInt16 FilterNameLength, UnicodeString FilterName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FilterNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-IO",
+        "event_id": "1206",
+        "version": "0",
+        "event(fields)": "task_01206(UInt16 FilterNameLength, UnicodeString FilterName, UInt16 VolumeNameLength, UnicodeString VolumeName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "FilterNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FilterName"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "VolumeNameLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-IO",
+        "event_id": "1207",
+        "version": "0",
+        "event(fields)": "task_01207(UInt32 DumpEncryptionFailureReason)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DumpEncryptionFailureReason"
+            }
+        ]
+    }
+]

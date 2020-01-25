@@ -1,0 +1,66 @@
+[
+    {
+        "provider": "Microsoft-Windows-Volume",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "task_0(GUID Id, UInt32 DiskNumber, UInt64 DiskOffset, UInt32 ControlCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Volume",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "task_01002(GUID Id, UInt32 DiskNumber, UInt64 DiskOffset, UInt32 ControlCode, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Id"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DiskNumber"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "DiskOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    }
+]

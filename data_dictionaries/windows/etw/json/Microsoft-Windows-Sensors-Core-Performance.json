@@ -1,0 +1,466 @@
+[
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "SensorsIoctlTaskStart(UInt32 IoctlType, Pointer SensorObj)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SensorsIoctlTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "SensorsIoctlTaskStop(UInt32 IoctlType, Pointer SensorObj)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SensorsIoctlTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "CollectionListSerializationTaskStart(UInt32 PayloadSize)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CollectionListSerializationTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "CollectionListSerializationTaskStop(UInt32 PayloadSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CollectionListSerializationTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "CollectionListAllocateAndSerializationTaskStart(UInt32 PayloadSize)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CollectionListAllocateAndSerializationTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "CollectionListAllocateAndSerializationTaskStop(UInt32 PayloadSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CollectionListAllocateAndSerializationTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "CollectionListDeserializationTaskStart(UInt32 PayloadSize)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CollectionListDeserializationTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "CollectionListDeserializationTaskStop(UInt32 PayloadSize)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CollectionListDeserializationTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PayloadSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "SensorsNativeIoctlTaskStart(UInt32 IoctlType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SensorsNativeIoctlTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "SensorsNativeIoctlTaskStop(UInt32 IoctlType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SensorsNativeIoctlTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "NativeToCxIoctlTransferTaskStart(UInt32 IoctlType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NativeToCxIoctlTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "NativeToCxIoctlTransferTaskStop(UInt32 IoctlType, Pointer SensorObj)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NativeToCxIoctlTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "CxToNativeIoctlTransferTaskStart(UInt32 IoctlType, Pointer SensorObj)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CxToNativeIoctlTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "CxToNativeIoctlTransferTaskStop(UInt32 IoctlType)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CxToNativeIoctlTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IoctlType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "SensorsCxReadTaskStart(Pointer SensorObj, Pointer CollectionListPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SensorsCxReadTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CollectionListPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "SensorsCxReadTaskStop(Pointer SensorObj, Pointer CollectionListPtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SensorsCxReadTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CollectionListPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "NativeToCxReadTransferTaskStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "NativeToCxReadTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "NativeToCxReadTransferTaskStop(Pointer SensorObj, Pointer CollectionListPtr)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "NativeToCxReadTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CollectionListPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "CxToNativeReadTransferTaskStart(Pointer SensorObj, Pointer CollectionListPtr)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CxToNativeReadTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "SensorObj"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "CollectionListPtr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "CxToNativeReadTransferTaskStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CxToNativeReadTransferTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "SensorSubscription(Pointer Driver, Pointer Sensor, UInt32 ClientPID, GUID Type, UInt32 Interval)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SensorSubscription",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Driver"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Sensor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientPID"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Interval"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "SensorsCxReadTask(Pointer Sensor, Pointer DriverCollectionList)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SensorsCxReadTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Sensor"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverCollectionList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors-Core-Performance",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "SensorsCxReadTask1023(Pointer Sensor, Pointer DriverCollectionList, Pointer BufferCollectionList)",
+        "opcode": "",
+        "keywords": "",
+        "task": "SensorsCxReadTask",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Sensor"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DriverCollectionList"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "BufferCollectionList"
+            }
+        ]
+    }
+]

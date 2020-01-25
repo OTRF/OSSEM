@@ -1,0 +1,747 @@
+[
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "NavigationStart(UnicodeString StartUrl, UnicodeString TerminateUrl)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StartUrl"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TerminateUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "NavigationStart1001(UnicodeString StartUrl)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "StartUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "NavigationStart1002(UnicodeString Url)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "NavigationStart1003(UnicodeString Url)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "NavigationCompleteStop(UnicodeString Url)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "NavigationCompleteStop1011(UnicodeString Url)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationComplete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "NavigationRedirectStart(UnicodeString RedirectedUrl, UnicodeString OriginalUrl, UInt32 HttpStatusCode)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationRedirect",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RedirectedUrl"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OriginalUrl"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HttpStatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "NavigationNewWindowStart(UnicodeString Url, UnicodeString ReferrerUrl)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationNewWindow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReferrerUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "NavigationDelegateStart(UnicodeString Url)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationDelegate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "NavigationNewScriptEngineStart(UnicodeString Url)",
+        "opcode": "Start",
+        "keywords": "AuthHost",
+        "task": "NavigationNewScriptEngine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "NavigationNewWindow(UnicodeString Url, UnicodeString ReferrerUrl)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "NavigationNewWindow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReferrerUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1040",
+        "version": "0",
+        "event(fields)": "NavigationTerminateStop(UnicodeString Url, UnicodeString TerminateUrl)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationTerminate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TerminateUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1041",
+        "version": "0",
+        "event(fields)": "NavigationTerminateStop1041(UnicodeString Title, UnicodeString Url, UnicodeString TerminateUrl)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationTerminate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Title"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TerminateUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1042",
+        "version": "0",
+        "event(fields)": "NavigationTerminateStop1042()",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationTerminate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1043",
+        "version": "0",
+        "event(fields)": "NavigationTerminateStop1043(UnicodeString Post, UnicodeString Url, UnicodeString TerminateUrl)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationTerminate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Post"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TerminateUrl"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1050",
+        "version": "0",
+        "event(fields)": "NavigationErrorStop(UnicodeString Url, HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1051",
+        "version": "0",
+        "event(fields)": "NavigationErrorStop1051(UnicodeString Url, UInt32 HttpStatusCode)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "NavigationError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HttpStatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "SecurityProblem(UInt32 Problem)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityProblem",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Problem"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "SecurityProblemStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "AuthHost",
+        "task": "SecurityProblem",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1200",
+        "version": "0",
+        "event(fields)": "SecurityManager(HexInt32 Action, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1201",
+        "version": "0",
+        "event(fields)": "SecurityManager1201(HexInt32 Action, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1202",
+        "version": "0",
+        "event(fields)": "SecurityManager1202(HexInt32 Action, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "Action"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1203",
+        "version": "0",
+        "event(fields)": "SecurityManager1203(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1204",
+        "version": "0",
+        "event(fields)": "SecurityManager1204(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1205",
+        "version": "0",
+        "event(fields)": "SecurityManager1205(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1206",
+        "version": "0",
+        "event(fields)": "SecurityManager1206(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1300",
+        "version": "0",
+        "event(fields)": "SecurityManager1300(GUID Clsid, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Clsid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1301",
+        "version": "0",
+        "event(fields)": "SecurityManager1301(GUID Clsid, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Clsid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1310",
+        "version": "0",
+        "event(fields)": "SecurityManager1310(GUID Clsid, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Clsid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1311",
+        "version": "0",
+        "event(fields)": "SecurityManager1311(GUID Clsid, UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "SecurityManager",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "Clsid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1400",
+        "version": "0",
+        "event(fields)": "MetaTag(UnicodeString Content)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Content"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1401",
+        "version": "0",
+        "event(fields)": "MetaTag1401(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1402",
+        "version": "0",
+        "event(fields)": "MetaTag1402(UnicodeString Content, HexInt32 ConvertedValue)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Content"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ConvertedValue"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1403",
+        "version": "0",
+        "event(fields)": "MetaTag1403(UnicodeString Content)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Content"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1404",
+        "version": "0",
+        "event(fields)": "MetaTag1404(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1405",
+        "version": "0",
+        "event(fields)": "MetaTag1405(UnicodeString Url)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WebAuth",
+        "event_id": "1406",
+        "version": "0",
+        "event(fields)": "MetaTag1406(UnicodeString Url, HexInt32 StatusCode)",
+        "opcode": "",
+        "keywords": "AuthHost",
+        "task": "MetaTag",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    }
+]

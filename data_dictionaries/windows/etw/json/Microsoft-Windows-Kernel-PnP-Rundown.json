@@ -1,0 +1,106 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP-Rundown",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ConnectionResourceConsumer(Pointer ResourceConsumerPdo, HexInt64 ConnectionId, UInt32 ResourceConsumerInstancePathLength, UnicodeString ResourceConsumerInstancePath)",
+        "opcode": "",
+        "keywords": "SleepStudy",
+        "task": "ConnectionResourceConsumer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ResourceConsumerPdo"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "ConnectionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResourceConsumerInstancePathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ResourceConsumerInstancePath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP-Rundown",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ParentPdo(Pointer Pdo, Pointer ParentPdo)",
+        "opcode": "",
+        "keywords": "SleepStudy",
+        "task": "ParentPdo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Pdo"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ParentPdo"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP-Rundown",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ParentDevNode(Pointer DevNode, Pointer ParentDevNode)",
+        "opcode": "",
+        "keywords": "SleepStudy",
+        "task": "ParentDevNode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DevNode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ParentDevNode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-PnP-Rundown",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "ParentDevNode_V1(Pointer DevNode, Pointer ParentDevNode, UInt32 InstancePathLength, UnicodeString InstancePath)",
+        "opcode": "",
+        "keywords": "SleepStudy",
+        "task": "ParentDevNode",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "DevNode"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ParentDevNode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InstancePathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InstancePath"
+            }
+        ]
+    }
+]

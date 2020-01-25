@@ -1,0 +1,336 @@
+[
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "0",
+        "version": "0",
+        "event(fields)": "VC1ENC_ACCEPTINPUTStart(Int64 SampleTime, Pointer SamplePointer, Pointer EncoderInstance)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "VC1ENC_ACCEPTINPUT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "VC1ENC_ACCEPTINPUTStop(Int64 SampleTime, Pointer SamplePointer, Pointer EncoderInstance)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "VC1ENC_ACCEPTINPUT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "VC1ENC_PRODUCEOUTPUTStart(Int64 SampleTime, Pointer SamplePointer, Pointer EncoderInstance)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "VC1ENC_PRODUCEOUTPUT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "VC1ENC_PRODUCEOUTPUTStop(Int64 SampleTime, Pointer SamplePointer, Pointer EncoderInstance)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "VC1ENC_PRODUCEOUTPUT",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "SamplePointer"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "VC1ENC_SEQ_INFO(Int32 CodingMode, UInt32 InterlaceCodingType, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_SEQ_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "CodingMode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterlaceCodingType"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "VC1ENC_FRAME_BUFFERLEVEL_INFO(Int32 BufferLevelInfo, Int64 SampleTime, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_FRAME_BUFFERLEVEL_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "BufferLevelInfo"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "VC1ENC_FRAME_NOOFREENCODE_INFO(Int32 NumberOfReencode, Int64 SampleTime, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_FRAME_NOOFREENCODE_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "NumberOfReencode"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "VC1ENC_FRAME_DROP_INFO(Int64 SampleTime, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_FRAME_DROP_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "VC1ENC_FRAME_MODECOST_INFO(Double MixedMVCost, Double OneMVQPBicubicCost, Double OneMVHPBicubicCost, Double OneMVHPBilinearCost, Double IntraCost, Int64 SampleTime, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_FRAME_MODECOST_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Double",
+                "field_name": "MixedMVCost"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "OneMVQPBicubicCost"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "OneMVHPBicubicCost"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "OneMVHPBilinearCost"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "IntraCost"
+            },
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "VC1ENC_FRAME_PTOI_INFO(Int64 SampleTime, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_FRAME_PTOI_INFO",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int64",
+                "field_name": "SampleTime"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "VC1ENC_ADAPTIVE_RESCHANGE(UInt32 Resolution, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_ADAPTIVE_RESCHANGE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Resolution"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "VC1ENC_ADAPTIVE_AVAILBANDWIDTH(UInt32 Bitrate, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_ADAPTIVE_AVAILBANDWIDTH",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Bitrate"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-WMVENCOD",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "VC1ENC_ADAPTIVE_VIDEOBITRATE(UInt32 Bitrate, Pointer EncoderInstance)",
+        "opcode": "",
+        "keywords": "",
+        "task": "VC1ENC_ADAPTIVE_VIDEOBITRATE",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Bitrate"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "EncoderInstance"
+            }
+        ]
+    }
+]

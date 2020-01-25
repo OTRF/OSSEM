@@ -1,0 +1,5102 @@
+[
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownStart()",
+        "opcode": "Start",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownStop()",
+        "opcode": "Stop",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MAUSBControllerRundownInformation(Pointer fid_Controller, UInt32 fid_WdfDevicePowerState)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBControllerRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MAUSBDeviceRundownInformation(Pointer fid_Controller, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_MaUsbDeviceHandle, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDeviceRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MAUSBEndpointRundownInformation(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Float fid_USB_Endpoint_Descriptor, UInt8 fid_IsLinkManaged, UInt16 fid_CreditConsumptionUnit, UInt32 fid_BufferSize, UInt16 fid_IsochProgrammingDelay, UInt16 fid_IsochResponseDelay, UInt32 fid_IsochSegmentsPerFrame, UInt32 fid_MaxIsochSegmentSize)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBEndpointRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_IsLinkManaged"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CreditConsumptionUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BufferSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_IsochProgrammingDelay"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_IsochResponseDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IsochSegmentsPerFrame"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaxIsochSegmentSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MAUSBControllerCreateInformation(Pointer fid_Controller, UInt32 fid_WdfDevicePowerState)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBControllerCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "MAUSBControllerDeleteInformation(Pointer fid_Controller, UInt32 fid_WdfDevicePowerState)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBControllerDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_WdfDevicePowerState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "MAUSBDeviceCreateInformation(Pointer fid_Controller, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_MaUsbDeviceHandle, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBDeviceCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "MAUSBDeviceUpdateInformation(Pointer fid_Controller, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_MaUsbDeviceHandle, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBDeviceUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MAUSBDeviceDeleteInformation(Pointer fid_Controller, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_MaUsbDeviceHandle, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBDeviceDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "MAUSBEndpointCreateInformation(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt8 fid_USB_Endpoint_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBEndpointCreate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "MAUSBEndpointUpdateInformation(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt8 fid_USB_Endpoint_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBEndpointUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "MAUSBEndpointDeleteInformation(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt8 fid_USB_Endpoint_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "MAUSBEndpointDelete",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "MAUSBControllerD0EntryStart(Pointer fid_Controller, UInt32 fid_DeviceState, UInt32 fid_PowerAction)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "MAUSBControllerD0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "MAUSBControllerD0EntryStop(Pointer fid_Controller, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "MAUSBControllerD0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "MAUSBControllerD0ExitStart(Pointer fid_Controller, UInt32 fid_DeviceState, UInt32 fid_PowerAction)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "MAUSBControllerD0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "MAUSBControllerD0ExitStop(Pointer fid_Controller, UInt32 fid_DeviceState, UInt32 fid_PowerAction, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "MAUSBControllerD0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "MAUSBControllerInternalResetStart(Pointer fid_Controller)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "MAUSBControllerInternalReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "MAUSBControllerInternalResetStop(Pointer fid_Controller, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "MAUSBControllerInternalReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "MAUSBControllerQueryCapabilityInformation(Pointer fid_Controller, GUID fid_Capability, UInt32 fid_NtStatus, UInt32 fid_NumStaticStreams)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "MAUSBControllerQueryCapability",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fid_Capability"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumStaticStreams"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation(Pointer fid_Controller, Pointer fid_WdfRequest, UInt8 fid_SubType, UInt16 fid_DeviceHandle, UInt8 fid_DeviceAddress, UInt8 fid_Ssid, UInt8 fid_StatusCode, UInt16 fid_DialogToken, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SubType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Ssid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_StatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DialogToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation51(Pointer fid_Controller, Pointer fid_WdfRequest, UInt8 fid_SubType, UInt16 fid_DeviceHandle, UInt8 fid_DeviceAddress, UInt8 fid_Ssid, UInt8 fid_StatusCode, UInt16 fid_DialogToken, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SubType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Ssid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_StatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DialogToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation52(Pointer fid_Controller, Pointer fid_WdfRequest, UInt8 fid_SubType, UInt16 fid_DeviceHandle, UInt8 fid_DeviceAddress, UInt8 fid_Ssid, UInt8 fid_StatusCode, UInt16 fid_DialogToken, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SubType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Ssid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_StatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DialogToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation53(Pointer fid_Controller, Pointer fid_WdfRequest, UInt8 fid_SubType, UInt16 fid_DeviceHandle, UInt8 fid_DeviceAddress, UInt8 fid_Ssid, UInt8 fid_StatusCode, UInt16 fid_DialogToken, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SubType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Ssid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_StatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_DialogToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation54(Pointer fid_Controller, UInt32 fid_Error)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Error"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation55(Pointer fid_Controller, UInt32 fid_ExpectedSubtype, UInt32 fid_ActualSubtype)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost",
+        "task": "PALManagementChannel",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ExpectedSubtype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ActualSubtype"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation56(Pointer fid_Controller, UInt32 fid_Subtype, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost",
+        "task": "PALManagementChannel",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Subtype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation57(Pointer fid_Controller, UInt32 fid_Subtype)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost",
+        "task": "PALManagementChannel",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Subtype"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation58(Pointer fid_Controller, UInt32 fid_Subtype, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost",
+        "task": "PALManagementChannel",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Subtype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation59(Pointer fid_Controller, UInt32 fid_Subtype, UInt32 fid_Size)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost",
+        "task": "PALManagementChannel",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Subtype"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Size"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "StateMachineInformation(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32 fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransitionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SourceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "StateMachineInformation61(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_Exception, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Exception"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "StateMachineInformation62(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32 fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransitionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SourceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "StateMachineInformation63(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_Exception, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Exception"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "StateMachineInformation64(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32 fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransitionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SourceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "StateMachineInformation65(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_Exception, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Exception"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "StateMachineInformation66(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32 fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransitionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SourceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "StateMachineInformation67(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_Exception, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Exception"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "USBTransferInformation(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_MaUsbEndpointHandle, Pointer fid_UsbTransferRequest, UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt32 fid_TransferBufferLength)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaUsbEndpointHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTransferRequest"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferDirection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferBufferLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "USBTransferInformation71(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_MaUsbEndpointHandle, Pointer fid_UsbTransferRequest, UInt32 fid_BytesTransferred, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaUsbEndpointHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTransferRequest"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BytesTransferred"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "USBTransferInformation72(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_UsbTransferRequest, UInt16 fid_EndpointHandle, UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt32 fid_RemainingSizeOrCredit, UInt32 fid_BytesTotal, UInt8 fid_RequestId, UInt32 fid_SequenceNumber, UInt8 fid_FlagBitRetry)",
+        "opcode": "Information",
+        "keywords": "IRP MAUSBTraffic",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTransferRequest"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferDirection"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RemainingSizeOrCredit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BytesTotal"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SequenceNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_FlagBitRetry"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "USBTransferInformation73(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_UsbTransferRequest, UInt16 fid_EndpointHandle, UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt8 fid_RequestId, UInt32 fid_SequenceNumber, UInt32 fid_MaUsbStatus)",
+        "opcode": "Information",
+        "keywords": "IRP MAUSBTraffic",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTransferRequest"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferDirection"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "USBTransferInformation74(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_EndpointHandle, UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt8 fid_RequestId, UInt32 fid_SequenceNumber, UInt16 fid_Length, UInt32 fid_MaUsbStatus, UInt8 fid_AckRequest, UInt8 fid_FlagBitRetry, UInt32 fid_RemainingSizeOrCredit, UInt8 fid_EndOfTransfer)",
+        "opcode": "Information",
+        "keywords": "IRP MAUSBTraffic",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferDirection"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SequenceNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AckRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_FlagBitRetry"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RemainingSizeOrCredit"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_EndOfTransfer"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation75(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Speed_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Speed_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation76(Pointer fid_Controller, AnsiString fid_MAUSB_Device_P_Out_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_P_Out_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation77(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Speed_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Speed_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation78(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Synch_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Synch_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation79(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Container_Id_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Container_Id_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation80(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Link_Sleep_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Link_Sleep_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "IPDataTransferInformation(Pointer fid_WdfRequest, Pointer fid_Irp, Pointer fid_IoChannelHandle, UInt64 fid_NumberOfBytes)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "IPDataTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Irp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IoChannelHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_NumberOfBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "IPDataTransferInformation101(Pointer fid_WdfRequest, Pointer fid_Irp, UInt64 fid_NumberOfBytes, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "IPDataTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Irp"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_NumberOfBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "IPDataTransferInformation102(Pointer fid_WdfRequest, Pointer fid_IoChannelHandle, UInt64 fid_NumberOfBytes)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "IPDataTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_IoChannelHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_NumberOfBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "IPDataTransferInformation103(Pointer fid_WdfRequest, UInt64 fid_NumberOfBytes, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "IPDataTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_WdfRequest"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_NumberOfBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "IPSocketInformation(Pointer fid_FdoContext, UInt32 fid_LocalAddressLength, Binary fid_LocalAddress, UInt32 fid_RemoteAddressLength, Binary fid_RemoteAddress, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "IPSocket",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_FdoContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_LocalAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_LocalAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_RemoteAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "fid_RemoteAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "IPSocketInformation105(Pointer fid_FdoContext, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "IPSocket",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_FdoContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "MAUSBEndpointCreateInformation106(Pointer fid_Controller, Pointer fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath, UInt32 fid_MaUsbDeviceHandle, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts, UInt32 fid_NumberOfTTs, Float fid_USB_Device_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "MAUSBEndpointCreate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbTtHubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbDeviceHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsHub"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NumberOfTTs"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Device_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation108(Pointer fid_Controller, UInt32 fid_ControllerResetReason)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerResetReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "PALManagementChannelInformation109(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Float fid_USB_Endpoint_Descriptor, UInt8 fid_IsLinkManaged, UInt16 fid_CreditConsumptionUnit, UInt32 fid_BufferSize, UInt16 fid_IsochProgrammingDelay, UInt16 fid_IsochResponseDelay, UInt32 fid_IsochSegmentsPerFrame, UInt32 fid_MaxIsochSegmentSize)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "PALManagementChannel",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_IsLinkManaged"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CreditConsumptionUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BufferSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_IsochProgrammingDelay"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_IsochResponseDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IsochSegmentsPerFrame"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaxIsochSegmentSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "StateMachineInformation110(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32 fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransitionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SourceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "StateMachineInformation111(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_Exception, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Exception"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "StateMachineInformation112(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32 fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransitionType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SourceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "StateMachineInformation113(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_Exception, UInt32 fid_State, UInt32 fid_Event)",
+        "opcode": "Information",
+        "keywords": "Default StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_ObjectHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Exception"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "USBTransferInformation114(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_EndpointHandle, UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt8 fid_RequestId, UInt32 fid_SequenceNumber, UInt16 fid_Length, UInt32 fid_MaUsbStatus, UInt8 fid_AckRequest, UInt8 fid_NegativeCredit, UInt8 fid_EndOfTransfer, UInt16 fid_NumberOfIsochHeaders, UInt8 fid_MTDValid, UInt8 fid_ASAPDelivery, UInt32 fid_PresentationTime, UInt16 fid_NumberOfIsochSegments, UInt32 fid_NominalBusInterval)",
+        "opcode": "Information",
+        "keywords": "IRP MAUSBTraffic",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferDirection"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SequenceNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AckRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NegativeCredit"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_EndOfTransfer"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_NumberOfIsochHeaders"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MTDValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ASAPDelivery"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PresentationTime"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_NumberOfIsochSegments"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NominalBusInterval"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "USBTransferInformation115(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_EndpointHandle, UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt8 fid_RequestId, UInt32 fid_SequenceNumber, UInt16 fid_Length, UInt32 fid_MaUsbStatus, UInt8 fid_AckRequest, UInt8 fid_NegativeCredit, UInt8 fid_EndOfTransfer, UInt16 fid_NumberOfIsochHeaders, UInt8 fid_MTDValid, UInt8 fid_ASAPDelivery, UInt32 fid_PresentationTime, UInt16 fid_NumberOfIsochSegments, UInt32 fid_NominalBusInterval)",
+        "opcode": "Information",
+        "keywords": "IRP MAUSBTraffic",
+        "task": "USBTransfer",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TransferDirection"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RequestId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_SequenceNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaUsbStatus"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AckRequest"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NegativeCredit"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_EndOfTransfer"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_NumberOfIsochHeaders"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MTDValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ASAPDelivery"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PresentationTime"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_NumberOfIsochSegments"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NominalBusInterval"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "WSBInformation(Pointer fid_Controller, UInt16 fid_PortNumber, UInt16 fid_RemotePortNumber, UInt8 fid_IsUdp)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "WSB",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_RemotePortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_IsUdp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "WSBInformation117(Pointer fid_Controller, UInt16 fid_PortNumber, UInt16 fid_RemotePortNumber, UInt8 fid_IsUdp)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "WSB",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_RemotePortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_IsUdp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "MAUSBEndpointCreateInformation118(Pointer fid_Controller, Pointer fid_UsbDevice, Pointer fid_Endpoint, Float fid_USB_Endpoint_Descriptor, UInt8 fid_IsLinkManaged, UInt16 fid_CreditConsumptionUnit, UInt32 fid_BufferSize, UInt16 fid_IsochProgrammingDelay, UInt16 fid_IsochResponseDelay, UInt32 fid_IsochSegmentsPerFrame, UInt32 fid_MaxIsochSegmentSize)",
+        "opcode": "Information",
+        "keywords": "Default HWVerifyHost keyword_400000000000",
+        "task": "MAUSBEndpointCreate",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Endpoint"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "fid_USB_Endpoint_Descriptor"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_IsLinkManaged"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CreditConsumptionUnit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_BufferSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_IsochProgrammingDelay"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_IsochResponseDelay"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IsochSegmentsPerFrame"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_MaxIsochSegmentSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Speed_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Speed_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation120(Pointer fid_Controller, AnsiString fid_MAUSB_Device_P_Out_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_P_Out_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation121(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Speed_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Speed_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation122(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Synch_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Synch_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation123(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Container_Id_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Container_Id_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation124(Pointer fid_Controller, AnsiString fid_MAUSB_Device_Link_Sleep_Capability_Descriptor)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_MAUSB_Device_Link_Sleep_Capability_Descriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "MAUSBDriverRundownInformation125(Pointer fid_Controller, UInt16 fid_NumberOfEndpoints, UInt8 fid_NumberOfDevices, UInt8 fid_NumberOfStreams, UInt8 fid_DeviceType, UInt16 fid_MaxOutstandingTransferRequests, UInt16 fid_MaxOutstandingManagementRequests)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "MAUSBDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_NumberOfEndpoints"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfDevices"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfStreams"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DeviceType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaxOutstandingTransferRequests"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaxOutstandingManagementRequests"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "task_0Information(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt16 fid_ResponseTimeout)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ResponseTimeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "task_0Information202(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "task_0Information203(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_RouteStringPort1, UInt8 fid_RouteStringPort2, UInt8 fid_RouteStringPort3, UInt8 fid_RouteStringPort4, UInt8 fid_RouteStringPort5, UInt8 fid_USBSpeed, UInt16 fid_HubDeviceHandle, UInt16 fid_ParentHSHubDeviceHandle, UInt8 fid_ParentHSHubPort, UInt8 fid_MTT, UInt8 fid_LaneSpeedExponent, UInt8 fid_SublinkType, UInt8 fid_LaneCount, UInt8 fid_LinkProtocol, UInt16 fid_LaneSpeedMantissa)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RouteStringPort1"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RouteStringPort2"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RouteStringPort3"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RouteStringPort4"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_RouteStringPort5"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_USBSpeed"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HubDeviceHandle"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ParentHSHubDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ParentHSHubPort"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_MTT"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_LaneSpeedExponent"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SublinkType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_LaneCount"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_LinkProtocol"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_LaneSpeedMantissa"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "task_0Information204(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "task_0Information205(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "task_0Information206(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt16 fid_USBDeviceHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_USBDeviceHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "task_0Information207(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "task_0Information208(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt16 fid_EP0Handle, UInt16 fid_MaxPacketSize)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EP0Handle"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaxPacketSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "task_0Information209(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "task_0Information210(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpHandlesToInactivate, UInt8 fid_SuspendFlag, UInt16 fid_EndpointHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpHandlesToInactivate"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SuspendFlag"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "task_0Information211(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "task_0Information212(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt32 fid_UpdateDevReqFields)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UpdateDevReqFields"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "task_0Information213(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "task_0Information214(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpHandlesWithError, UInt16 fid_EndpointHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpHandlesWithError"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "task_0Information215(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpHandlesToDelete, UInt16 fid_EndpointHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpHandlesToDelete"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "task_0Information216(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpHandlesWithError, UInt16 fid_EndpointHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpHandlesWithError"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "task_0Information217(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEPHandlesWithError, UInt16 fid_EPHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEPHandlesWithError"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EPHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "task_0Information218(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "task_0Information219(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "task_0Information220(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEPResetInformationBlocks, UInt16 fid_EPHandle, UInt8 fid_TransferStatePreserve)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEPResetInformationBlocks"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EPHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_TransferStatePreserve"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "task_0Information221(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "task_0Information222(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "task_0Information223(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_UsbDeviceAddress)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_UsbDeviceAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "task_0Information224(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpDescriptors)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpDescriptors"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "task_0Information225(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt16 fid_NumberOfEndpoints, UInt8 fid_NumberOfDevices, UInt8 fid_NumberOfStreams, UInt8 fid_DeviceType, UInt8 fid_DescriptorCount, UInt32 fid_DescriptorLength, UInt16 fid_MaxOutstandingTransferRequests, UInt16 fid_MaxOutstandingManagementRequests)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_NumberOfEndpoints"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfDevices"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfStreams"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DeviceType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_DescriptorCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DescriptorLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaxOutstandingTransferRequests"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_MaxOutstandingManagementRequests"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "task_0Information226(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "task_0Information227(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpHandlesWithError, UInt16 fid_EndpointHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpHandlesWithError"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "task_0Information228(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "task_0Information229(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt16 fid_EP0Handle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EP0Handle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "task_0Information230(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpDescriptors, UInt8 fid_SizeOfEPDescriptor)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpDescriptors"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_SizeOfEPDescriptor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "task_0Information231(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken, UInt8 fid_NumberOfEpHandlesToActivate, UInt16 fid_EndpointHandle)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_NumberOfEpHandlesToActivate"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_EndpointHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "task_0Information232(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-MAUSBHOST",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "task_0Information233(Pointer fid_Controller, UInt8 fid_HeaderVersion, UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp, UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle, UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode, UInt16 fid_HeaderDialogToken)",
+        "opcode": "Information",
+        "keywords": "MAUSBTraffic",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Controller"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderVersion"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitHost"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitRetry"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderFlagBitTimeStamp"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSubType"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderType"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderLength"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDeviceHandle"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderDeviceAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderSSID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_HeaderStatusCode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_HeaderDialogToken"
+            }
+        ]
+    }
+]

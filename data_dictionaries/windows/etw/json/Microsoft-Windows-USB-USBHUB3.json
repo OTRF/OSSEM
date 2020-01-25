@@ -1,0 +1,4824 @@
+[
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownStart()",
+        "opcode": "Start",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownStop()",
+        "opcode": "Stop",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation(Pointer fid_UsbDevice, Int8 fid_USB30_HubDescriptor, UInt32 fid_CurrentWdfPowerDeviceState)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USB30_HubDescriptor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation4(Pointer fid_UsbDevice, Int8 fid_USB20_HubDescriptor, UInt32 fid_CurrentWdfPowerDeviceState)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USB20_HubDescriptor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation5(Pointer fid_UsbDevice, UInt32 fid_CurrentWdfPowerDeviceState)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation6(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString fid_DeviceInterfacePath, HexInt32 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength, UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended, UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "fid_DeviceDescriptor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ConfigurationDescriptorLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_PdoName"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Suspended"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Usb20LpmStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "6",
+        "version": "1",
+        "event(fields)": "USB3.0HubDriverRundownInformation6_V1(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString fid_DeviceInterfacePath, 27 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength, UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended, UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus, UInt32 fid_ControllerParentBusType, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            },
+            {
+                "field_type": "27",
+                "field_name": "fid_DeviceDescriptor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ConfigurationDescriptorLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_PdoName"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Suspended"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Usb20LpmStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "6",
+        "version": "2",
+        "event(fields)": "USB3.0HubDriverRundownInformation6_V2(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString fid_DeviceInterfacePath, 31 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength, UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended, UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus, UInt32 fid_ControllerParentBusType, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId, Boolean fid_GetFirmwareImageHashSupport, Boolean fid_DisallowFirmwareUpdateSupport, UInt32 fid_GetFirmwareHashNtStatus, UInt32 fid_GetFirmwareHashUsbdStatus)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            },
+            {
+                "field_type": "31",
+                "field_name": "fid_DeviceDescriptor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ConfigurationDescriptorLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_PdoName"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Suspended"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Usb20LpmStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_GetFirmwareImageHashSupport"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_DisallowFirmwareUpdateSupport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_GetFirmwareHashNtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_GetFirmwareHashUsbdStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation7(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "7",
+        "version": "1",
+        "event(fields)": "USB3.0HubDriverRundownInformation7_V1(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId, UInt32 fid_ControllerParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation8(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "8",
+        "version": "1",
+        "event(fields)": "USB3.0HubDriverRundownInformation8_V1(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId, UInt32 fid_ControllerParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation9(Pointer fid_UsbDevice, UInt32 fid_PortNumber, Int8 fid_USBHUB_Acpi_Upc_Package)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_Acpi_Upc_Package"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "USB3.0HubDriverRundownInformation10(Pointer fid_UsbDevice, UInt32 fid_PortNumber, Int8 fid_USBHUB_Acpi_Pld)",
+        "opcode": "Information",
+        "keywords": "Default Rundown",
+        "task": "USB3.0HubDriverRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_Acpi_Pld"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "PrepareHardwareStart(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "PrepareHardwareStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation(Pointer fid_UsbDevice, Int8 fid_USB30_HubDescriptor, UInt32 fid_CurrentWdfPowerDeviceState)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USB30_HubDescriptor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation23(Pointer fid_UsbDevice, Int8 fid_USB20_HubDescriptor, UInt32 fid_CurrentWdfPowerDeviceState)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USB20_HubDescriptor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation24(Pointer fid_UsbDevice, UInt32 fid_CurrentWdfPowerDeviceState)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation25(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "25",
+        "version": "1",
+        "event(fields)": "PrepareHardwareInformation25_V1(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId, UInt32 fid_ControllerParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation26(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "26",
+        "version": "1",
+        "event(fields)": "PrepareHardwareInformation26_V1(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId, UInt32 fid_ControllerParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation27(Pointer fid_UsbDevice, UInt32 fid_PortNumber, Int8 fid_USBHUB_Acpi_Upc_Package)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_Acpi_Upc_Package"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation28(Pointer fid_UsbDevice, UInt32 fid_PortNumber, Int8 fid_USBHUB_Acpi_Pld)",
+        "opcode": "Information",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBHUB_Acpi_Pld"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "AddDeviceStart()",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "AddDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "AddDeviceStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "AddDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "ReleaseHardwareStart(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "ReleaseHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "ReleaseHardwareStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "ReleaseHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "D0EntryStart(Pointer fid_UsbDevice, UInt32 fid_TargetState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "D0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "D0EntryStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus, UInt32 fid_PowerAction)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "D0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "D0ExitStart(Pointer fid_UsbDevice, UInt32 fid_TargetState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "D0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "D0ExitStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus, UInt32 fid_PowerAction)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "D0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalStart(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "SurpriseRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalStop(Pointer fid_UsbDevice)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "SurpriseRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "CleanupStart(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "Cleanup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "CleanupStop(Pointer fid_UsbDevice)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "Cleanup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "PrepareHardwareStart41(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "PrepareHardwareStop42(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "PrepareHardwareInformation43(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString fid_DeviceInterfacePath, HexInt32 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength, UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended, UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus)",
+        "opcode": "Information",
+        "keywords": "Default PnP keyword_400000000000",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "fid_DeviceDescriptor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ConfigurationDescriptorLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_PdoName"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Suspended"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Usb20LpmStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "43",
+        "version": "1",
+        "event(fields)": "PrepareHardwareInformation43_V1(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString fid_DeviceInterfacePath, 27 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength, UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended, UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus, UInt32 fid_ControllerParentBusType, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId)",
+        "opcode": "Information",
+        "keywords": "Default PnP keyword_400000000000",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            },
+            {
+                "field_type": "27",
+                "field_name": "fid_DeviceDescriptor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ConfigurationDescriptorLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_PdoName"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Suspended"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Usb20LpmStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "43",
+        "version": "2",
+        "event(fields)": "PrepareHardwareInformation43_V2(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString fid_DeviceInterfacePath, 31 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength, UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended, UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus, UInt32 fid_ControllerParentBusType, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId, Boolean fid_GetFirmwareImageHashSupport, Boolean fid_DisallowFirmwareUpdateSupport, UInt32 fid_GetFirmwareHashNtStatus, UInt32 fid_GetFirmwareHashUsbdStatus)",
+        "opcode": "Information",
+        "keywords": "Default PnP keyword_400000000000",
+        "task": "PrepareHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceDescription"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_DeviceInterfacePath"
+            },
+            {
+                "field_type": "31",
+                "field_name": "fid_DeviceDescriptor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_ConfigurationDescriptorLength"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationDescriptor"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_PdoName"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_Suspended"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPathDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortPath"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentWdfPowerDeviceState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Usb20LpmStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortFlagAcpiUpcValid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_PortConnectorType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "fid_UcmConnectorId"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_GetFirmwareImageHashSupport"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "fid_DisallowFirmwareUpdateSupport"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_GetFirmwareHashNtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_GetFirmwareHashUsbdStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "PrepareHardwareError(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default PnP",
+        "task": "PrepareHardware",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "PrepareHardwareError45(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default PnP keyword_400000000000",
+        "task": "PrepareHardware",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "AddDeviceStart47()",
+        "opcode": "Start",
+        "keywords": "Default PnP keyword_400000000000",
+        "task": "AddDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "AddDeviceStop48(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default PnP keyword_400000000000",
+        "task": "AddDevice",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "ReleaseHardwareStart49(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "ReleaseHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "ReleaseHardwareStop50(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "ReleaseHardware",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "D0EntryStart51(Pointer fid_UsbDevice, UInt32 fid_TargetState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "D0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "D0EntryStop52(Pointer fid_UsbDevice, UInt32 fid_NtStatus, UInt32 fid_PowerAction)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "D0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "D0ExitStart53(Pointer fid_UsbDevice, UInt32 fid_TargetState, UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)",
+        "opcode": "Start",
+        "keywords": "Default Power",
+        "task": "D0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TargetState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_WaitWakePending"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "D0ExitStop54(Pointer fid_UsbDevice, UInt32 fid_NtStatus, UInt32 fid_PowerAction)",
+        "opcode": "Stop",
+        "keywords": "Default Power",
+        "task": "D0Exit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PowerAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalStart55(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "SurpriseRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalStop56(Pointer fid_UsbDevice)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "SurpriseRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "CleanupStart57(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default PnP",
+        "task": "Cleanup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "CleanupStop58(Pointer fid_UsbDevice)",
+        "opcode": "Stop",
+        "keywords": "Default PnP",
+        "task": "Cleanup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationStart(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Start",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationStop(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError63(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError64(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError65(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "D0EntryInformation(Pointer fid_UsbDevice)",
+        "opcode": "Information",
+        "keywords": "Default Power",
+        "task": "D0Entry",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError71(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError72(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError73(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError74(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError75(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError76(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError77(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError78(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError79(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError80(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError81(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError82(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError83(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError84(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError85(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "ClientRequestStart(Pointer fid_UsbDevice, UInt32 fid_IoctlCode)",
+        "opcode": "Start",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IoctlCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "ClientRequestStop(Pointer fid_UsbDevice, UInt32 fid_IoctlCode, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IoctlCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "ClientRequestStart92(Pointer fid_UsbDevice, UInt32 fid_UrbFunction)",
+        "opcode": "Start",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UrbFunction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "ClientRequestStop93(Pointer fid_UsbDevice, UInt32 fid_UrbFunction, UInt32 fid_UsbdStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UrbFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "ClientRequestError(Pointer fid_UsbDevice, Pointer fid_URB_Ptr, Int8 fid_USBPORT_URB_HEADER)",
+        "opcode": "Error",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBPORT_URB_HEADER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "ClientRequestError95(Pointer fid_UsbDevice, Pointer fid_URB_Ptr, Int8 fid_USBPORT_URB_HEADER)",
+        "opcode": "Error",
+        "keywords": "Default IRP keyword_400000000000",
+        "task": "ClientRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_URB_Ptr"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "fid_USBPORT_URB_HEADER"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "ClientRequestStart96(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "ClientRequestStop97(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "ClientRequestInformation(Pointer fid_UsbDevice)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "USBPortInformation(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt16 fid_PortStatus, UInt16 fid_PortChange)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBPort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortChange"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "USBPortInformation101(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt16 fid_PortStatus, UInt16 fid_PortChange)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "USBPort",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PortChange"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "USBPortError(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default",
+        "task": "USBPort",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "USBPortError103(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default",
+        "task": "USBPort",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "StateMachineInformation(Pointer fid_UsbDevice, Pointer fid_Context, UInt32 fid_StartIndex, UInt32 fid_State, UInt32 fid_Event, UInt32 fid_Depth)",
+        "opcode": "Information",
+        "keywords": "StateMachine",
+        "task": "StateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StartIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Depth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "StateMachineError(Pointer fid_UsbDevice, Pointer fid_Context, UInt32 fid_StartIndex, UInt32 fid_State, UInt32 fid_Event, UInt32 fid_Depth)",
+        "opcode": "Error",
+        "keywords": "Default",
+        "task": "StateMachine",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_StartIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_State"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Depth"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "HubResetStart(Pointer fid_UsbDevice)",
+        "opcode": "Start",
+        "keywords": "Default",
+        "task": "HubReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "HubResetStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "HubReset",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "HubResetStop122(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Stop",
+        "keywords": "Default",
+        "task": "HubReset",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "USBPortStop(UInt32 fid_PortNumber, UInt16 fid_PreviousPortStatus, UInt16 fid_CurrentPortStatus, UInt16 fid_CurrentPortChange, UInt32 fid_Event)",
+        "opcode": "Stop",
+        "keywords": "Default Power HWVerifyHub",
+        "task": "USBPort",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PreviousPortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CurrentPortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CurrentPortChange"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "123",
+        "version": "1",
+        "event(fields)": "USBPortStop_V1(UInt32 fid_PortNumber, UInt16 fid_PreviousPortStatus, UInt16 fid_CurrentPortStatus, UInt16 fid_CurrentPortChange, UInt32 fid_Event, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice)",
+        "opcode": "Stop",
+        "keywords": "Default Power HWVerifyHub",
+        "task": "USBPort",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PreviousPortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CurrentPortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CurrentPortChange"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_Event"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "ControlTransferError(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default HWVerifyHub",
+        "task": "ControlTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "ControlTransferError131(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default HWVerifyHub",
+        "task": "ControlTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "ControlTransferError132(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default HWVerifyDevice",
+        "task": "ControlTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "ControlTransferError133(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default HWVerifyHub",
+        "task": "ControlTransfer",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "AddDeviceError(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default HWVerifyHub keyword_400000000000",
+        "task": "AddDevice",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop141(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop142(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop143(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop144(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop145(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStart(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Start",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop147(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop148(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop149(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStart150(Pointer fid_UsbDevice, UInt32 fid_PortNumber)",
+        "opcode": "Start",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop151(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop152(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop153(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop154(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop155(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop156(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "User_ModeIOCTLStop157(Pointer fid_UsbDevice, UInt32 fid_IoctlCode, UInt32 fid_NtStatus)",
+        "opcode": "Stop",
+        "keywords": "Default IRP HWVerifyDevice",
+        "task": "User_ModeIOCTL",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IoctlCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError160(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError161(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError162(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError163(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError164(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError165(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError166(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "167",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError167(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError168(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError169(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError170(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError171(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError172(Pointer fid_UsbDevice, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError173(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyHub keyword_400000000000",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError174(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyHub",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError175(Pointer fid_UsbDevice, UInt32 fid_DeviceIsComposite, UInt32 fid_DeviceWakeupSupport, UInt16 fid_InterfaceRemoteWakeupCapable)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceIsComposite"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceWakeupSupport"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_InterfaceRemoteWakeupCapable"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError176(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError177(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyHub",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError178(Pointer fid_HubDevice, AnsiString fid_CachedSerialNumber, UInt32 fid_CachedSerialNumberLength, UnicodeString fid_NewSerialNumber, UInt32 fid_NewSerialNumberLength)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyHub",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_CachedSerialNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CachedSerialNumberLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_NewSerialNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NewSerialNumberLength"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "ClientRequestError179(Pointer fid_UsbDevice, UInt32 fid_IoctlCode, UInt32 fid_UrbFunction)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyHub",
+        "task": "ClientRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IoctlCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UrbFunction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "179",
+        "version": "1",
+        "event(fields)": "ClientRequestError179_V1(Pointer fid_UsbDevice, UInt32 fid_IoctlCode, UInt32 fid_UrbFunction, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice, UInt32 fid_EventCount)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyHub",
+        "task": "ClientRequest",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_IoctlCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UrbFunction"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_EventCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "ClientRequestInformation180(Pointer fid_UsbDevice, GUID fid_Capability, UInt32 fid_NtStatus)",
+        "opcode": "Information",
+        "keywords": "Default IRP",
+        "task": "ClientRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "fid_Capability"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError181(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError182(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError183(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "184",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError184(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationWarning(Pointer fid_HubDevice, Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_NtStatus)",
+        "opcode": "Warning",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_HubDevice"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "186",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError186(Pointer fid_UsbDevice, UInt8 fid_bNumberOfAlternateModes, UInt8 fid_bPreferredAlternateMode, UInt16 fid_VconnPower, UnicodeString fid_AdditionalInfoUrlString)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bNumberOfAlternateModes"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bPreferredAlternateMode"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_VconnPower"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_AdditionalInfoUrlString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError187(Pointer fid_UsbDevice, UInt16 fid_Svid, UInt8 fid_AlternateMode, UnicodeString fid_AlternateModeString, UInt8 fid_ConfigurationStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_Svid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_AlternateModeString"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "188",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationInformation(Pointer fid_UsbDevice, UInt16 fid_Svid, UInt8 fid_AlternateMode, UnicodeString fid_AlternateModeString, UInt8 fid_ConfigurationStatus)",
+        "opcode": "Information",
+        "keywords": "Default Enumeration HWVerifyDevice",
+        "task": "USBDeviceEnumeration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_Svid"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_AlternateMode"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "fid_AlternateModeString"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_ConfigurationStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError189(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "190",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError190(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "191",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError191(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "192",
+        "version": "0",
+        "event(fields)": "DescriptorValidationError192(Pointer fid_UsbDevice)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "DescriptorValidation",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "194",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalInformation(Pointer fid_UsbDevice, UInt32 fid_DripsWatchdogResult, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice)",
+        "opcode": "Information",
+        "keywords": "Default keyword_400000000000",
+        "task": "SurpriseRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DripsWatchdogResult"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "195",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalInformation195(Pointer fid_UsbDevice, UInt32 fid_DripsWatchdogResult, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice)",
+        "opcode": "Information",
+        "keywords": "Default",
+        "task": "SurpriseRemoval",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DripsWatchdogResult"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "196",
+        "version": "0",
+        "event(fields)": "SurpriseRemovalWarning(Pointer fid_UsbDevice, UInt32 fid_DripsWatchdogResult, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice)",
+        "opcode": "Warning",
+        "keywords": "Default",
+        "task": "SurpriseRemoval",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DripsWatchdogResult"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "197",
+        "version": "0",
+        "event(fields)": "USBDeviceEnumerationError197(Pointer fid_UsbDevice, UInt32 fid_EnumMsgId, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice, UInt32 fid_DeviceSpeed, UInt32 fid_NtStatus, UInt32 fid_UsbdStatus, UInt32 fid_PortNumber, UInt32 fid_TotalHubDepth, UInt32 fid_PortProtocol, UInt16 fid_PreviousPortStatus, UInt16 fid_CumulativePortChange, UInt32 fid_CurrentFeatureSelector, UInt16 fid_bNumberOfPorts, UInt32 fid_ControllerParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt16 fid_idVendorParentHub, UInt16 fid_idProductParentHub, UInt16 fid_bcdDeviceParentHub)",
+        "opcode": "Error",
+        "keywords": "Default Enumeration HWVerifyDevice keyword_400000000000",
+        "task": "USBDeviceEnumeration",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_EnumMsgId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceSpeed"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_NtStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_UsbdStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_TotalHubDepth"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PortProtocol"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_PreviousPortStatus"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_CumulativePortChange"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_CurrentFeatureSelector"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bNumberOfPorts"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_ControllerParentBusType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciBus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciFunction"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciVendorId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciDeviceId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_PciRevisionId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiVendorId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiDeviceId"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "fid_AcpiRevisionId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendorParentHub"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProductParentHub"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDeviceParentHub"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-USB-USBHUB3",
+        "event_id": "198",
+        "version": "0",
+        "event(fields)": "IllegalEndpointSharingAcrossInterfacesError(Pointer fid_UsbDevice, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice, UInt32 fid_DeviceSpeed, UInt8 fid_bEndpointAddress, UInt8 fid_bInterfaceNumber1, UInt8 fid_bAlternateSetting1, UInt8 fid_bInterfaceNumber2, UInt8 fid_bAlternateSetting2)",
+        "opcode": "Error",
+        "keywords": "Default HWVerifyDevice keyword_400000000000",
+        "task": "IllegalEndpointSharingAcrossInterfaces",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "fid_UsbDevice"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idVendor"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_idProduct"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "fid_bcdDevice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "fid_DeviceSpeed"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bEndpointAddress"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bInterfaceNumber1"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bAlternateSetting1"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bInterfaceNumber2"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "fid_bAlternateSetting2"
+            }
+        ]
+    }
+]

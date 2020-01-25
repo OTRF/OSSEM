@@ -1,0 +1,122 @@
+[
+    {
+        "provider": "Microsoft-Windows-SystemEventsBroker",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "SebEventCreate_V1(GUID BrokeredEventId, SID UserSID, UInt32 EventType)",
+        "opcode": "Create",
+        "keywords": "TraceSebEvent",
+        "task": "SebEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SystemEventsBroker",
+        "event_id": "16",
+        "version": "1",
+        "event(fields)": "SebEventDelete_V1(GUID BrokeredEventId)",
+        "opcode": "Delete",
+        "keywords": "TraceSebEvent",
+        "task": "SebEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SystemEventsBroker",
+        "event_id": "17",
+        "version": "1",
+        "event(fields)": "SebEventSignal_V1(GUID BrokeredEventId)",
+        "opcode": "Signal",
+        "keywords": "TraceSebEvent",
+        "task": "SebEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SystemEventsBroker",
+        "event_id": "18",
+        "version": "1",
+        "event(fields)": "SebEventDrop_V1(GUID BrokeredEventId)",
+        "opcode": "Drop",
+        "keywords": "TraceSebEvent",
+        "task": "SebEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "BrokeredEventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SystemEventsBroker",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "SebEventSessionConnected_V1(UInt32 SessionID, SID UserSID)",
+        "opcode": "SessionConnected",
+        "keywords": "TraceSebEvent",
+        "task": "SebEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SystemEventsBroker",
+        "event_id": "19",
+        "version": "2",
+        "event(fields)": "SebEventSessionConnected_V2(UInt32 SessionID)",
+        "opcode": "SessionConnected",
+        "keywords": "TraceSebEvent",
+        "task": "SebEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            }
+        ]
+    }
+]

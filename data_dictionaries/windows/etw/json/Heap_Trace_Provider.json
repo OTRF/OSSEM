@@ -1,0 +1,688 @@
+[
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "32",
+        "version": "2",
+        "event(fields)": "HeapCreate_V2(UInt32 HeapHandle, UInt32 HeapFlags)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "32",
+        "version": "3",
+        "event(fields)": "HeapCreate(UInt32 HeapHandle, UInt32 HeapFlags, Object ReservedSpace, Object CommittedSpace, Object AllocatedSpace)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapFlags"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "ReservedSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "CommittedSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "AllocatedSpace"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "33",
+        "version": "2",
+        "event(fields)": "HeapAlloc(UInt32 HeapHandle, Object AllocSize, UInt32 AllocAddress, UInt32 SourceId)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "AllocSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceId"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "34",
+        "version": "2",
+        "event(fields)": "HeapRealloc(UInt32 HeapHandle, UInt32 NewAllocAddress, UInt32 OldAllocAddress, Object NewAllocSize, Object OldAllocSize, UInt32 SourceId)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewAllocAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "OldAllocAddress"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "NewAllocSize"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "OldAllocSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceId"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "35",
+        "version": "2",
+        "event(fields)": "Heap_TypeGroup1(UInt32 HeapHandle)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "36",
+        "version": "2",
+        "event(fields)": "HeapFree(UInt32 HeapHandle, UInt32 FreeAddress, UInt32 SourceId)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceId"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "37",
+        "version": "3",
+        "event(fields)": "HeapExpand(UInt32 HeapHandle, Object CommittedSize, UInt32 CommitAddress, Object FreeSpace, Object CommittedSpace, Object ReservedSpace, UInt32 NoOfUCRs, Object AllocatedSpace)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "CommittedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CommitAddress"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "FreeSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "CommittedSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "ReservedSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NoOfUCRs"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "AllocatedSpace"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "38",
+        "version": "2",
+        "event(fields)": "HeapSnapShot_V2(UInt32 HeapHandle, Object FreeSpace, Object CommittedSpace, Object ReservedSpace, UInt32 HeapFlags, UInt32 ProcessId, Object LargeUCRSpace, UInt32 FreeListLength, UInt32 UCRLength)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "FreeSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "CommittedSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "ReservedSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "LargeUCRSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeListLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UCRLength"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "38",
+        "version": "3",
+        "event(fields)": "HeapSnapShot(UInt32 HeapHandle, Object FreeSpace, Object CommittedSpace, Object ReservedSpace, UInt32 HeapFlags, UInt32 ProcessId, Object LargeUCRSpace, UInt32 FreeListLength, UInt32 UCRLength, Object AllocatedSpace)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "FreeSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "CommittedSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "ReservedSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapFlags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "LargeUCRSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeListLength"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UCRLength"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "AllocatedSpace"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "42",
+        "version": "3",
+        "event(fields)": "HeapContract(UInt32 HeapHandle, Object DeCommittedSize, UInt32 DeCommitAddress, Object FreeSpace, Object CommittedSpace, Object ReservedSpace, UInt32 NoOfUCRs, Object AllocatedSpace)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "DeCommittedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DeCommitAddress"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "FreeSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "CommittedSpace"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "ReservedSpace"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NoOfUCRs"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "AllocatedSpace"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "43",
+        "version": "2",
+        "event(fields)": "Heap_TypeGroup1(UInt32 HeapHandle)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "44",
+        "version": "2",
+        "event(fields)": "Heap_TypeGroup1(UInt32 HeapHandle)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "45",
+        "version": "2",
+        "event(fields)": "Heap_TypeGroup1(UInt32 HeapHandle)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "46",
+        "version": "2",
+        "event(fields)": "Heap_TypeGroup1(UInt32 HeapHandle)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "47",
+        "version": "2",
+        "event(fields)": "Heap_SubsegmentGroup(UInt32 HeapHandle, UInt32 SubSegment, Object SubSegmentSize, Object BlockSize)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "SubSegmentSize"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "BlockSize"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "48",
+        "version": "2",
+        "event(fields)": "Heap_SubsegmentGroup(UInt32 HeapHandle, UInt32 SubSegment, Object SubSegmentSize, Object BlockSize)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "SubSegmentSize"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "BlockSize"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "49",
+        "version": "2",
+        "event(fields)": "Heap_SubsegmentGroup(UInt32 HeapHandle, UInt32 SubSegment, Object SubSegmentSize, Object BlockSize)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "SubSegmentSize"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "BlockSize"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "50",
+        "version": "2",
+        "event(fields)": "Heap_SubsegmentGroup(UInt32 HeapHandle, UInt32 SubSegment, Object SubSegmentSize, Object BlockSize)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "SubSegmentSize"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "BlockSize"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "51",
+        "version": "2",
+        "event(fields)": "HeapCommitDecommit(UInt32 HeapHandle, UInt32 Block, Object Size, UInt32 Caller)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Block"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Caller"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "52",
+        "version": "2",
+        "event(fields)": "HeapCommitDecommit(UInt32 HeapHandle, UInt32 Block, Object Size, UInt32 Caller)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Block"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Caller"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "53",
+        "version": "2",
+        "event(fields)": "HeapSubsegmentInitialize(UInt32 HeapHandle, UInt32 SubSegment, Object BlockSize, Object BlockCount, UInt32 AffinityIndex)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "Object",
+                "field_name": "BlockCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AffinityIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "54",
+        "version": "2",
+        "event(fields)": "HeapAffinityManagerEnable(UInt32 HeapHandle, UInt32 BucketIndex)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BucketIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "55",
+        "version": "2",
+        "event(fields)": "HeapAffinitySlotAssigned(UInt32 SlotIndex)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "56",
+        "version": "2",
+        "event(fields)": "HeapSubSegmentActivated(UInt32 HeapHandle, UInt32 SubSegment)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "57",
+        "version": "2",
+        "event(fields)": "HeapAffinitySlotChanged(UInt32 Heap, UInt32 SubSegment, UInt32 SlotIndex)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Heap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SlotIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Heap Trace Provider",
+        "category": "{222962ab-6180-4b88-a825-346b75f2a24a}",
+        "event_id": "58",
+        "version": "2",
+        "event(fields)": "HeapSubsegmentReuseThresholdActivated(UInt32 Heap, UInt32 SubSegment, UInt32 BucketIndex)",
+        "event_type": "",
+        "description": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Heap"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubSegment"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BucketIndex"
+            }
+        ]
+    }
+]

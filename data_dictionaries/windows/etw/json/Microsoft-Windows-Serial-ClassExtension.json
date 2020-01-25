@@ -1,0 +1,200 @@
+[
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1000",
+        "version": "1",
+        "event(fields)": "Startupoftheserialclassextension_V1(UnicodeString ControlDeviceName, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Startupoftheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControlDeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1001",
+        "version": "1",
+        "event(fields)": "Startupoftheserialclassextension1001_V1(UnicodeString ControlDeviceName, UInt32 Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Startupoftheserialclassextension",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ControlDeviceName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1002",
+        "version": "1",
+        "event(fields)": "IOControlreceivedbytheserialclassextensionStart_V1(Pointer Request, UnicodeString IoControlCodeString)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "IOControlreceivedbytheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IoControlCodeString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1003",
+        "version": "1",
+        "event(fields)": "IOControlreceivedbytheserialclassextensionStop_V1(Pointer Request, UnicodeString IoControlCodeString)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "IOControlreceivedbytheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "IoControlCodeString"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1004",
+        "version": "1",
+        "event(fields)": "RequestreceivedbytheserialclassextensionStart_V1(Pointer Request, UInt32 Length)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Requestreceivedbytheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1005",
+        "version": "1",
+        "event(fields)": "RequestreceivedbytheserialclassextensionStart1005_V1(Pointer Request, UInt32 Length)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "Requestreceivedbytheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1006",
+        "version": "1",
+        "event(fields)": "RequestreceivedbytheserialclassextensionStop_V1(Pointer Request, UInt32 Length, UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "Requestreceivedbytheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Length"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1007",
+        "version": "1",
+        "event(fields)": "Requestreceivedbytheserialclassextension_V1(UInt8 Data)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Requestreceivedbytheserialclassextension",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "Data"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Serial-ClassExtension",
+        "event_id": "1008",
+        "version": "1",
+        "event(fields)": "Requestreceivedbytheserialclassextension1008_V1(Pointer Request, Pointer Queue)",
+        "opcode": "",
+        "keywords": "",
+        "task": "Requestreceivedbytheserialclassextension",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Request"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Queue"
+            }
+        ]
+    }
+]

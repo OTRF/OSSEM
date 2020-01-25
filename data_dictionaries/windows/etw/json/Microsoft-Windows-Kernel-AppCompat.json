@@ -1,0 +1,280 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "task_0(UInt16 ExecutablePathLength, UnicodeString ExecutablePath, UInt16 RegistryPathLength, UnicodeString RegistryPath)",
+        "opcode": "",
+        "keywords": "RegWrpAccessDenied",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt16",
+                "field_name": "ExecutablePathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ExecutablePath"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "RegistryPathLength"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RegistryPath"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "CompatCacheInitStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatCacheInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "CompatCacheInitStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatCacheInit",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "CompatCacheUpdateStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatCacheUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "CompatCacheUpdateStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatCacheUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "CompatCacheQueryStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatCacheQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "CompatCacheQueryStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatCacheQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "CompatCdbQueryStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatCdbQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "CompatCdbQueryStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatCdbQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "CompatMapQuirksStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatMapQuirks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "CompatMapQuirksStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatMapQuirks",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "CompatUserModeQueryStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatUserModeQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "CompatUserModeQueryStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatUserModeQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "CompatSdbQueryStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatSdbQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "CompatSdbQueryStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatSdbQuery",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "CompatCacheQueryProcessStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "CompatCacheQueryProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-AppCompat",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "CompatCacheQueryProcessStop(HexInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "CompatCacheQueryProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    }
+]

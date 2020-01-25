@@ -1,0 +1,1889 @@
+[
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "AuthenticateUserStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation keyword_200000000000",
+        "task": "AuthenticateUser",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "AuthenticateUserStop(UInt32 Win32Status)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation keyword_200000000000",
+        "task": "AuthenticateUser",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Win32Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "UpdatePerUserSystemParametersStart(UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdatePerUserSystemParameters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "UpdatePerUserSystemParametersStop(UInt32 Flags)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "UpdatePerUserSystemParameters",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "CheckWindowsLicenseStatusStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CheckWindowsLicenseStatus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "CheckWindowsLicenseStatusStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CheckWindowsLicenseStatus",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "RestoringNetConnectionsStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "RestoringNetConnections",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "RestoringNetConnectionsStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "RestoringNetConnections",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "ExecuteShellCommandListStart(UnicodeString CommandList)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ExecuteShellCommandList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "CommandList"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "ExecuteShellCommandListStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation PerfDiagnostics",
+        "task": "ExecuteShellCommandList",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ThemesOnLogonPreStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnLogonPre",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ThemesOnLogonPreStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnLogonPre",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "ThemesOnLogonPostStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnLogonPost",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "ThemesOnLogonPostStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnLogonPost",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "ThemesOnLogoffStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnLogoff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "ThemesOnLogoffStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnLogoff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "DwmpCreateSessionProcessStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpCreateSessionProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "DwmpCreateSessionProcessStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpCreateSessionProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "DwmpTerminateSessionProcessStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpTerminateSessionProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "DwmpTerminateSessionProcessStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpTerminateSessionProcess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "DwmpNotifyUserLogonStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpNotifyUserLogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "DwmpNotifyUserLogonStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpNotifyUserLogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "ThemesOnEarlyCreateSessionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnEarlyCreateSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "ThemesOnEarlyCreateSessionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnEarlyCreateSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "DwmpNotifyUserLogoffStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpNotifyUserLogoff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "DwmpNotifyUserLogoffStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DwmpNotifyUserLogoff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "CreatePrimaryTerminalStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CreatePrimaryTerminal",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "CreatePrimaryTerminalStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CreatePrimaryTerminal",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "StartLogonUIStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "StartLogonUI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "StartLogonUIStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "StartLogonUI",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "RunStateMachineStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "RunStateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "RunStateMachineStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "RunStateMachine",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "WaitForLSMStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "WaitForLSM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "WaitForLSMStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "WaitForLSM",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "DisplayWelcomeScreenStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "DisplayWelcomeScreen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "DisplayWelcomeScreenStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "DisplayWelcomeScreen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "RequestCredentialsStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "RequestCredentials",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "RequestCredentialsStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "RequestCredentials",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "ThemesOnCreateSessionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnCreateSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "ThemesOnCreateSessionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnCreateSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "ThemesOnTerminateSessionStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnTerminateSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "ThemesOnTerminateSessionStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ThemesOnTerminateSession",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "301",
+        "version": "0",
+        "event(fields)": "ReceivedLogoffRequest(UInt32 Flags)",
+        "opcode": "",
+        "keywords": "PerfInstrumentation",
+        "task": "ReceivedLogoffRequest",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "401",
+        "version": "0",
+        "event(fields)": "ShutdownWindowsStart(UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownWindows",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "402",
+        "version": "0",
+        "event(fields)": "ShutdownWindowsStop(UInt32 Win32Status)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ShutdownWindows",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Win32Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "403",
+        "version": "0",
+        "event(fields)": "InitiateShutdownStart(UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "InitiateShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "404",
+        "version": "0",
+        "event(fields)": "InitiateShutdownStop(UInt32 Win32Status)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "InitiateShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Win32Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "501",
+        "version": "0",
+        "event(fields)": "WluiServerStartupStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "WluiServerStartup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "502",
+        "version": "0",
+        "event(fields)": "WluiServerStartupStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "WluiServerStartup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "503",
+        "version": "0",
+        "event(fields)": "WluiServerShutdownStart()",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "WluiServerShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "504",
+        "version": "0",
+        "event(fields)": "WluiServerShutdownStop()",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "WluiServerShutdown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "505",
+        "version": "0",
+        "event(fields)": "WluiServerStartup()",
+        "opcode": "",
+        "keywords": "",
+        "task": "WluiServerStartup",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "801",
+        "version": "0",
+        "event(fields)": "NotifyExecuteStart(UInt32 Event)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation PerfTrackContext keyword_200000000000",
+        "task": "NotifyExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "802",
+        "version": "0",
+        "event(fields)": "NotifyExecuteStop(UInt32 Event)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation keyword_200000000000",
+        "task": "NotifyExecute",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "803",
+        "version": "0",
+        "event(fields)": "NotifyServicesStart(UInt32 EventCode, UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "NotifyServices",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "804",
+        "version": "0",
+        "event(fields)": "NotifyServicesStop(UInt32 EventCode, UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "NotifyServices",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "805",
+        "version": "0",
+        "event(fields)": "NotifySubscriberStart(UInt32 Event, UnicodeString SubscriberName)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation keyword_200000000000",
+        "task": "NotifySubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "806",
+        "version": "0",
+        "event(fields)": "NotifySubscriberStop(UInt32 Event, UnicodeString SubscriberName)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation keyword_200000000000",
+        "task": "NotifySubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "807",
+        "version": "0",
+        "event(fields)": "NotifySubscriberNotificationPended(UInt32 Event, UnicodeString SubscriberName, UnicodeString Message)",
+        "opcode": "NotificationPended",
+        "keywords": "PerfInstrumentation",
+        "task": "NotifySubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "808",
+        "version": "0",
+        "event(fields)": "NotifySubscriberNotificationFailed(UInt32 Event, UnicodeString SubscriberName, UnicodeString Message)",
+        "opcode": "NotificationFailed",
+        "keywords": "PerfInstrumentation",
+        "task": "NotifySubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Message"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "809",
+        "version": "0",
+        "event(fields)": "ConnectToSubscriberStart(UnicodeString SubscriberName)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "ConnectToSubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "810",
+        "version": "0",
+        "event(fields)": "ConnectToSubscriberStop(UnicodeString SubscriberName)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "ConnectToSubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "811",
+        "version": "0",
+        "event(fields)": "CallSubscriberStart(UInt32 Event, UnicodeString SubscriberName)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation",
+        "task": "CallSubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "812",
+        "version": "0",
+        "event(fields)": "CallSubscriberStop(UInt32 Event, UnicodeString SubscriberName)",
+        "opcode": "Stop",
+        "keywords": "PerfInstrumentation",
+        "task": "CallSubscriber",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Event"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SubscriberName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "LogonHours(UInt32 ActionId, UInt32 TimeLeft)",
+        "opcode": "",
+        "keywords": "NotificationEvents",
+        "task": "LogonHours",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ActionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeLeft"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "task_0PCODE_64pcode_64()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "EAS(SID UserSid, UnicodeString UserName, UnicodeString UserDomain)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EAS",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserDomain"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1102",
+        "version": "0",
+        "event(fields)": "EAS1102(SID UserSid, UnicodeString UserName, UnicodeString UserDomain)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EAS",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserDomain"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1103",
+        "version": "0",
+        "event(fields)": "EAS1103(SID UserSid, UnicodeString UserName, UnicodeString UserDomain)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EAS",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "UserDomain"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "1104",
+        "version": "0",
+        "event(fields)": "EAS1104(UInt32 Win32Status)",
+        "opcode": "",
+        "keywords": "",
+        "task": "EAS",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Win32Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4002",
+        "version": "0",
+        "event(fields)": "task_0PCODE_64pcode_644002()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4003",
+        "version": "0",
+        "event(fields)": "task_0PCODE_192pcode_192()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4004",
+        "version": "0",
+        "event(fields)": "task_0PCODE_192pcode_1924004()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4005",
+        "version": "0",
+        "event(fields)": "task_0PCODE_192pcode_1924005()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4006",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_128()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4007",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1284007()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4101",
+        "version": "0",
+        "event(fields)": "task_0PCODE_64pcode_644101()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4102",
+        "version": "0",
+        "event(fields)": "task_0PCODE_192pcode_1924102()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4103",
+        "version": "0",
+        "event(fields)": "task_0PCODE_192pcode_1924103()",
+        "opcode": "opcode_192",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4104",
+        "version": "0",
+        "event(fields)": "task_0PCODE_64pcode_644104()",
+        "opcode": "opcode_64",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "4105",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1284105()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5001",
+        "version": "0",
+        "event(fields)": "UserBootStart(UInt32 SessionId)",
+        "opcode": "Start",
+        "keywords": "PerfDiagnostics",
+        "task": "UserBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5002",
+        "version": "0",
+        "event(fields)": "UserBootStop()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "UserBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5003",
+        "version": "0",
+        "event(fields)": "UserBoot(UInt32 SessionId)",
+        "opcode": "",
+        "keywords": "PerfDiagnostics",
+        "task": "UserBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5005",
+        "version": "0",
+        "event(fields)": "UserShellLaunch()",
+        "opcode": "",
+        "keywords": "PerfDiagnostics",
+        "task": "UserShellLaunch",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5007",
+        "version": "0",
+        "event(fields)": "SystemBootStop(UInt32 SessionId)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "SystemBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5007",
+        "version": "1",
+        "event(fields)": "SystemBootStop_V1(UInt32 SessionId, UInt32 ReadyBootTrainingCountSinceLastServicing)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "SystemBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadyBootTrainingCountSinceLastServicing"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "5007",
+        "version": "2",
+        "event(fields)": "SystemBootStop_V2(UInt32 SessionId, UInt32 ReadyBootTrainingCountSinceLastServicing, UInt32 SyncPrefetchErrorCode, UInt32 SyncPrefetchDurationMs)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "SystemBoot",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadyBootTrainingCountSinceLastServicing"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncPrefetchErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SyncPrefetchDurationMs"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6000",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286000()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6001",
+        "version": "0",
+        "event(fields)": "ShutdownDiagnosticsStart(UInt32 Flags)",
+        "opcode": "Start",
+        "keywords": "PerfInstrumentation PerfDiagnostics",
+        "task": "ShutdownDiagnostics",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6001",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286001()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6002",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286002()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6003",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286003()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6004",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286004()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6005",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286005()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6006",
+        "version": "0",
+        "event(fields)": "task_0PCODE_128pcode_1286006()",
+        "opcode": "opcode_128",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6101",
+        "version": "0",
+        "event(fields)": "LogoffRequestToUserFeedbackStart(UInt32 LogoffFlags)",
+        "opcode": "Start",
+        "keywords": "PerfDiagnostics",
+        "task": "LogoffRequestToUserFeedback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LogoffFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6102",
+        "version": "0",
+        "event(fields)": "LogoffRequestToUserFeedbackStop(UInt32 Flags)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "LogoffRequestToUserFeedback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6103",
+        "version": "0",
+        "event(fields)": "LogoffAppsTerminationToSessionEndStart(UInt32 LogoffFlags)",
+        "opcode": "Start",
+        "keywords": "PerfDiagnostics",
+        "task": "LogoffAppsTerminationToSessionEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LogoffFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6104",
+        "version": "0",
+        "event(fields)": "LogoffAppsTerminationToSessionEndStop(UInt32 LogoffFlags)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "LogoffAppsTerminationToSessionEnd",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "LogoffFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6105",
+        "version": "0",
+        "event(fields)": "UnlockStart()",
+        "opcode": "Start",
+        "keywords": "PerfDiagnostics keyword_200000000000",
+        "task": "Unlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6106",
+        "version": "0",
+        "event(fields)": "UnlockStop()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Unlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6107",
+        "version": "0",
+        "event(fields)": "UnlockStop6107(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Unlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6108",
+        "version": "0",
+        "event(fields)": "LogonStart()",
+        "opcode": "Start",
+        "keywords": "PerfDiagnostics keyword_200000000000",
+        "task": "Logon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6109",
+        "version": "0",
+        "event(fields)": "LogonStop(UInt32 Status)",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Logon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6110",
+        "version": "0",
+        "event(fields)": "LogonStop6110()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Logon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6111",
+        "version": "0",
+        "event(fields)": "LogonStop6111()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Logon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6112",
+        "version": "0",
+        "event(fields)": "LogonStop6112()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Logon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6113",
+        "version": "0",
+        "event(fields)": "LockStart()",
+        "opcode": "Start",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Lock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6114",
+        "version": "0",
+        "event(fields)": "LockStop()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "Lock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6115",
+        "version": "0",
+        "event(fields)": "LockStop6115()",
+        "opcode": "Stop",
+        "keywords": "PerfDiagnostics",
+        "task": "Lock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6116",
+        "version": "0",
+        "event(fields)": "Logoff(UInt32 Duration, UInt32 ResolverData)",
+        "opcode": "",
+        "keywords": "PerfDiagnostics keyword_400000000000",
+        "task": "Logoff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Duration"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResolverData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6117",
+        "version": "0",
+        "event(fields)": "DelayLockDisplayLockScreen()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "DelayLockDisplayLockScreen",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6118",
+        "version": "0",
+        "event(fields)": "KillingScreenSaverToLockWorkStation()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "KillingScreenSaverToLockWorkStation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6119",
+        "version": "0",
+        "event(fields)": "AutomaticRestartSignOn()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "AutomaticRestartSignOn",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6120",
+        "version": "0",
+        "event(fields)": "HotKeyLockDesktopInvoked()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "HotKeyLockDesktopInvoked",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6121",
+        "version": "0",
+        "event(fields)": "PINResetLogon()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "PINResetLogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6122",
+        "version": "0",
+        "event(fields)": "PINResetUnlock()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "PINResetUnlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6123",
+        "version": "0",
+        "event(fields)": "AssignedAccessLogon()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "AssignedAccessLogon",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "6124",
+        "version": "0",
+        "event(fields)": "AssignedAccessUnlock()",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "AssignedAccessUnlock",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "7001",
+        "version": "0",
+        "event(fields)": "WinSqmUserLogin(UInt32 TSId, SID UserSid)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "WinSqmUserLogin",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TSId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Winlogon",
+        "event_id": "7002",
+        "version": "0",
+        "event(fields)": "WinSqmUserLogoff(UInt32 TSId, SID UserSid)",
+        "opcode": "",
+        "keywords": "keyword_200000000000",
+        "task": "WinSqmUserLogoff",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TSId"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "UserSid"
+            }
+        ]
+    }
+]

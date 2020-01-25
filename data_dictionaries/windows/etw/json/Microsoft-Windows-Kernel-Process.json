@@ -1,0 +1,1681 @@
+[
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "ProcessStart(UInt32 ProcessID, FILETIME CreateTime, UInt32 ParentProcessID, UInt32 SessionID, UnicodeString ImageName)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "ProcessStart_V1(UInt32 ProcessID, FILETIME CreateTime, UInt32 ParentProcessID, UInt32 SessionID, UInt32 Flags, UnicodeString ImageName)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "1",
+        "version": "2",
+        "event(fields)": "ProcessStart_V2(UInt32 ProcessID, FILETIME CreateTime, UInt32 ParentProcessID, UInt32 SessionID, UInt32 Flags, UnicodeString ImageName, UInt32 ImageChecksum, UInt32 TimeDateStamp, UnicodeString PackageFullName, UnicodeString PackageRelativeAppId)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageChecksum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageRelativeAppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "1",
+        "version": "3",
+        "event(fields)": "ProcessStart_V3(UInt32 ProcessID, UInt64 ProcessSequenceNumber, FILETIME CreateTime, UInt32 ParentProcessID, UInt64 ParentProcessSequenceNumber, UInt32 SessionID, UInt32 Flags, UInt32 ProcessTokenElevationType, UInt32 ProcessTokenIsElevated, SID MandatoryLabel, UnicodeString ImageName, UInt32 ImageChecksum, UInt32 TimeDateStamp, UnicodeString PackageFullName, UnicodeString PackageRelativeAppId)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessSequenceNumber"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentProcessID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentProcessSequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessTokenElevationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessTokenIsElevated"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "MandatoryLabel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageChecksum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageRelativeAppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "ProcessStop(UInt32 ProcessID, FILETIME CreateTime, FILETIME ExitTime, UInt32 ExitCode, UInt32 TokenElevationType, UInt32 HandleCount, UInt64 CommitCharge, UInt64 CommitPeak, AnsiString ImageName)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ExitTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenElevationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HandleCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommitCharge"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommitPeak"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "ProcessStop_V1(UInt32 ProcessID, FILETIME CreateTime, FILETIME ExitTime, UInt32 ExitCode, UInt32 TokenElevationType, UInt32 HandleCount, UInt64 CommitCharge, UInt64 CommitPeak, UInt64 CPUCycleCount, UInt32 ReadOperationCount, UInt32 WriteOperationCount, UInt32 ReadTransferKiloBytes, UInt32 WriteTransferKiloBytes, UInt32 HardFaultCount, AnsiString ImageName)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ExitTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenElevationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HandleCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommitCharge"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommitPeak"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CPUCycleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadOperationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteOperationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadTransferKiloBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteTransferKiloBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HardFaultCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "2",
+        "version": "2",
+        "event(fields)": "ProcessStop_V2(UInt32 ProcessID, UInt64 ProcessSequenceNumber, FILETIME CreateTime, FILETIME ExitTime, UInt32 ExitCode, UInt32 TokenElevationType, UInt32 HandleCount, UInt64 CommitCharge, UInt64 CommitPeak, UInt64 CPUCycleCount, UInt32 ReadOperationCount, UInt32 WriteOperationCount, UInt32 ReadTransferKiloBytes, UInt32 WriteTransferKiloBytes, UInt32 HardFaultCount, AnsiString ImageName)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessSequenceNumber"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "ExitTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ExitCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TokenElevationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HandleCount"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommitCharge"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommitPeak"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CPUCycleCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadOperationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteOperationCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReadTransferKiloBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "WriteTransferKiloBytes"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HardFaultCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "ThreadStart(UInt32 ProcessID, UInt32 ThreadID, Pointer StackBase, Pointer StackLimit, Pointer UserStackBase, Pointer UserStackLimit, Pointer StartAddr, Pointer Win32StartAddr, Pointer TebBase)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_THREAD",
+        "task": "ThreadStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Win32StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TebBase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "3",
+        "version": "1",
+        "event(fields)": "ThreadStart_V1(UInt32 ProcessID, UInt32 ThreadID, Pointer StackBase, Pointer StackLimit, Pointer UserStackBase, Pointer UserStackLimit, Pointer StartAddr, Pointer Win32StartAddr, Pointer TebBase, UInt32 SubProcessTag)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_THREAD",
+        "task": "ThreadStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Win32StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TebBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubProcessTag"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "ThreadStop(UInt32 ProcessID, UInt32 ThreadID, Pointer StackBase, Pointer StackLimit, Pointer UserStackBase, Pointer UserStackLimit, Pointer StartAddr, Pointer Win32StartAddr, Pointer TebBase)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_THREAD",
+        "task": "ThreadStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Win32StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TebBase"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "4",
+        "version": "1",
+        "event(fields)": "ThreadStop_V1(UInt32 ProcessID, UInt32 ThreadID, Pointer StackBase, Pointer StackLimit, Pointer UserStackBase, Pointer UserStackLimit, Pointer StartAddr, Pointer Win32StartAddr, Pointer TebBase, UInt32 SubProcessTag, UInt64 CycleTime)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_THREAD",
+        "task": "ThreadStop",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "UserStackLimit"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Win32StartAddr"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "TebBase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubProcessTag"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CycleTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "ImageLoad(Pointer ImageBase, Pointer ImageSize, UInt32 ProcessID, UInt32 ImageCheckSum, UInt32 TimeDateStamp, Pointer DefaultBase, UnicodeString ImageName)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_IMAGE",
+        "task": "ImageLoad",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ImageBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ImageSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageCheckSum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DefaultBase"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "ImageUnload(Pointer ImageBase, Pointer ImageSize, UInt32 ProcessID, UInt32 ImageCheckSum, UInt32 TimeDateStamp, Pointer DefaultBase, UnicodeString ImageName)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_IMAGE",
+        "task": "ImageUnload",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ImageBase"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ImageSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageCheckSum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DefaultBase"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "CpuBasePriorityChange(UInt32 ProcessID, UInt32 ThreadID, UInt8 OldPriority, UInt8 NewPriority)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_CPU_PRIORITY",
+        "task": "CpuBasePriorityChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldPriority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "CpuPriorityChange(UInt32 ProcessID, UInt32 ThreadID, UInt8 OldPriority, UInt8 NewPriority)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_CPU_PRIORITY",
+        "task": "CpuPriorityChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldPriority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "PagePriorityChange(UInt32 ProcessID, UInt32 ThreadID, UInt8 OldPriority, UInt8 NewPriority)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_OTHER_PRIORITY",
+        "task": "PagePriorityChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldPriority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "IoPriorityChange(UInt32 ProcessID, UInt32 ThreadID, UInt8 OldPriority, UInt8 NewPriority)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_OTHER_PRIORITY",
+        "task": "IoPriorityChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ThreadID"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "OldPriority"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "NewPriority"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ProcessFreezeStart(UInt32 FrozenProcessID)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_PROCESS_FREEZE",
+        "task": "ProcessFreeze",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FrozenProcessID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "ProcessFreezeStart_V1(UInt32 FrozenProcessID, FILETIME CreateTime)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_PROCESS_FREEZE",
+        "task": "ProcessFreeze",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FrozenProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ProcessFreezeStop(UInt32 FrozenProcessID)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_PROCESS_FREEZE",
+        "task": "ProcessFreeze",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FrozenProcessID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "ProcessFreezeStop_V1(UInt32 FrozenProcessID, FILETIME CreateTime)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_PROCESS_FREEZE",
+        "task": "ProcessFreeze",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FrozenProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "JobStart(GUID ContainerID, UInt32 JobID, UInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB",
+        "task": "JobStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "JobTerminateStop(GUID ContainerID, UInt32 JobID, UInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB",
+        "task": "JobTerminate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "ProcessRundown(UInt32 ProcessID, FILETIME CreateTime, UInt32 ParentProcessID, UInt32 SessionID, UInt32 Flags, UnicodeString ImageName, UInt32 ImageChecksum, UInt32 TimeDateStamp, UnicodeString PackageFullName, UnicodeString PackageRelativeAppId)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentProcessID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageChecksum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageRelativeAppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "15",
+        "version": "1",
+        "event(fields)": "ProcessRundown_V1(UInt32 ProcessID, UInt64 ProcessSequenceNumber, FILETIME CreateTime, UInt32 ParentProcessID, UInt64 ParentProcessSequenceNumber, UInt32 SessionID, UInt32 Flags, UInt32 ProcessTokenElevationType, UInt32 ProcessTokenIsElevated, SID MandatoryLabel, UnicodeString ImageName, UInt32 ImageChecksum, UInt32 TimeDateStamp, UnicodeString PackageFullName, UnicodeString PackageRelativeAppId)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_PROCESS",
+        "task": "ProcessRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ProcessSequenceNumber"
+            },
+            {
+                "field_type": "FILETIME",
+                "field_name": "CreateTime"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ParentProcessID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentProcessSequenceNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SessionID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Flags"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessTokenElevationType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessTokenIsElevated"
+            },
+            {
+                "field_type": "SID",
+                "field_name": "MandatoryLabel"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ImageName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ImageChecksum"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimeDateStamp"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageFullName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PackageRelativeAppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "task_0()",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_ENABLE_PROCESS_TRACING_CALLBACKS",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "PsDiskIoAttributionStart(UInt32 JobID, Pointer DiskIoAttribution, UInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsDiskIoAttribution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DiskIoAttribution"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "PsDiskIoAttributionStop(UInt32 JobID, Pointer DiskIoAttribution, UInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsDiskIoAttribution",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "DiskIoAttribution"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "PsIoRateControlStart(UInt32 JobID, Pointer IoRateControl, UInt32 ControlType, UInt32 RateType, UInt32 RateAmount, UInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsIoRateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "IoRateControl"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RateType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RateAmount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "19",
+        "version": "1",
+        "event(fields)": "PsIoRateControlStart_V1(UInt32 JobID, Pointer IoRateControl, UInt64 MaxIops, UInt64 MaxBandwidth, UInt64 MaxTimePercent, UInt64 ReservationIops, UInt64 ReservationBandwidth, UInt64 ReservationTimePercent, UInt64 CriticalReservationIops, UInt64 CriticalReservationBandwidth, UInt64 CriticalReservationTimePercent, UInt32 ControlFlags, UnicodeString VolumeName, UInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsIoRateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "IoRateControl"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationTimePercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "19",
+        "version": "2",
+        "event(fields)": "PsIoRateControlStart_V2(UInt32 JobID, Pointer IoRateControl, UInt64 MaxIops, UInt64 MaxBandwidth, UInt64 MaxTimePercent, UInt64 ReservationIops, UInt64 ReservationBandwidth, UInt64 ReservationTimePercent, UInt64 CriticalReservationIops, UInt64 CriticalReservationBandwidth, UInt64 CriticalReservationTimePercent, UInt64 SoftMaxIops, UInt64 SoftMaxBandwidth, UInt64 SoftMaxTimePercent, UInt32 ControlFlags, UnicodeString VolumeName, UInt32 StatusCode)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsIoRateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "IoRateControl"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SoftMaxIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SoftMaxBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SoftMaxTimePercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "PsIoRateControlStop(UInt32 JobID, Pointer IoRateControl, UInt32 ControlType, UInt32 RateType, UInt32 RateAmount, UInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsIoRateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "IoRateControl"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RateType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RateAmount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "PsIoRateControlStop_V1(UInt32 JobID, Pointer IoRateControl, UInt64 MaxIops, UInt64 MaxBandwidth, UInt64 MaxTimePercent, UInt64 ReservationIops, UInt64 ReservationBandwidth, UInt64 ReservationTimePercent, UInt64 CriticalReservationIops, UInt64 CriticalReservationBandwidth, UInt64 CriticalReservationTimePercent, UInt32 ControlFlags, UnicodeString VolumeName, UInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsIoRateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "IoRateControl"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationTimePercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "20",
+        "version": "2",
+        "event(fields)": "PsIoRateControlStop_V2(UInt32 JobID, Pointer IoRateControl, UInt64 MaxIops, UInt64 MaxBandwidth, UInt64 MaxTimePercent, UInt64 ReservationIops, UInt64 ReservationBandwidth, UInt64 ReservationTimePercent, UInt64 CriticalReservationIops, UInt64 CriticalReservationBandwidth, UInt64 CriticalReservationTimePercent, UInt64 SoftMaxIops, UInt64 SoftMaxBandwidth, UInt64 SoftMaxTimePercent, UInt32 ControlFlags, UnicodeString VolumeName, UInt32 StatusCode)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB_IO",
+        "task": "PsIoRateControl",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "IoRateControl"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MaxTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservationTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CriticalReservationTimePercent"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SoftMaxIops"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SoftMaxBandwidth"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SoftMaxTimePercent"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ControlFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "VolumeName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "StatusCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "ThreadWorkOnBehalfUpdate(UInt32 OldWorkOnBehalfThreadID, UInt32 NewWorkOnBehalfThreadID)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_WORK_ON_BEHALF",
+        "task": "ThreadWorkOnBehalfUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "OldWorkOnBehalfThreadID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NewWorkOnBehalfThreadID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "JobServerSiloStart(GUID ContainerID, UInt32 JobID, UInt16 State)",
+        "opcode": "",
+        "keywords": "WINEVENT_KEYWORD_JOB_SILO",
+        "task": "JobServerSiloStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "JobServerSiloStart23(GUID ContainerID, UInt32 JobID, UnicodeString MonitorName)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB_SILO",
+        "task": "JobServerSiloStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MonitorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "JobServerSiloStartStop(GUID ContainerID, UInt32 JobID, UInt32 Status, UnicodeString MonitorName)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB_SILO",
+        "task": "JobServerSiloStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MonitorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "JobServerSiloStart25(GUID ContainerID, UInt32 JobID, UnicodeString MonitorName)",
+        "opcode": "Start",
+        "keywords": "WINEVENT_KEYWORD_JOB_SILO",
+        "task": "JobServerSiloStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MonitorName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Kernel-Process",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "JobServerSiloStartStop26(GUID ContainerID, UInt32 JobID, UnicodeString MonitorName)",
+        "opcode": "Stop",
+        "keywords": "WINEVENT_KEYWORD_JOB_SILO",
+        "task": "JobServerSiloStart",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "ContainerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JobID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MonitorName"
+            }
+        ]
+    }
+]

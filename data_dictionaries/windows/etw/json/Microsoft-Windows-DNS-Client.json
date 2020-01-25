@@ -1,0 +1,3100 @@
+[
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1000",
+        "version": "0",
+        "event(fields)": "DnsNoServerConfigV4(UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsNoServerConfigV4",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "DnsServerForInterface(UnicodeString Interface, UInt32 TotalServerCount, UInt32 Index, UInt8 DynamicAddress, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsServerForInterface",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Interface"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TotalServerCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Index"
+            },
+            {
+                "field_type": "UInt8",
+                "field_name": "DynamicAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "DnsServerQueryChange(UnicodeString Interface, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsServerQueryChange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Interface"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "DnsServerValidationSuccess(UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsServerValidationSuccess",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "DnsServerValidationFailure(UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsServerValidationFailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "DnsMissingPrimarySuffix(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsMissingPrimarySuffix",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "DnsMissingPrimarySuffixSystem(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsMissingPrimarySuffixSystem",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "DnsNonMatchingSuffix(UnicodeString DnsSuffix, UnicodeString AdSuffix)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsNonMatchingSuffix",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdSuffix"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "DnsNonMatchingSuffixSystem(UnicodeString DnsSuffix, UnicodeString AdSuffix)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsNonMatchingSuffixSystem",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsSuffix"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdSuffix"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "DnsHostFileError(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsHostFileError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "DnsHostFileErrorSystem(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsHostFileErrorSystem",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "DnsAllServersTimeout(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsAllServersTimeout",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "DnsAllServersTimeoutSystem(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsAllServersTimeoutSystem",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "DnsServerTimeout(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsServerTimeout",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "DnsNameError(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsNameError",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "DnsAuthoritativeResponse(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsAuthoritativeResponse",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "DnsLinkLocal(UnicodeString QueryName, UInt32 AddressLength, Binary Address, UInt32 DnsAddressLength, Binary DnsAddress)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsLinkLocal",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsAddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "DnsAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "DnsNoServerConfigV6(UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsNoServerConfigV6",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1020",
+        "version": "0",
+        "event(fields)": "DnsReadPolicyTable(UnicodeString KeyName, UInt32 DnsSecValidationRequired, UInt32 DnsQueryOverIPSec, UInt32 DnsEncryption, UnicodeString DirectAccessServerList, UInt32 RemoteIPSEC, UInt32 RemoteEncryption, UInt32 ProxyType, UnicodeString ProxyName)",
+        "opcode": "",
+        "keywords": "ut:PolicyTable",
+        "task": "DnsReadPolicyTable",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsSecValidationRequired"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsQueryOverIPSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsEncryption"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectAccessServerList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemoteIPSEC"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RemoteEncryption"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProxyType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProxyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1021",
+        "version": "0",
+        "event(fields)": "DnsMatchPolicyInfo(UnicodeString QueryName, UnicodeString KeyName, UInt32 DnsSecValidationRequired, UInt32 DnsQueryOverIPSec, UInt32 DnsEncryption, UnicodeString DirectAccessServerList, UInt32 ProxyType, UnicodeString ProxyName)",
+        "opcode": "",
+        "keywords": "ut:PolicyTable",
+        "task": "DnsMatchPolicyInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsSecValidationRequired"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsQueryOverIPSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsEncryption"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectAccessServerList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProxyType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProxyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1022",
+        "version": "0",
+        "event(fields)": "DnsSecureNoFallback(UnicodeString QueryName)",
+        "opcode": "",
+        "keywords": "ut:PolicyTable",
+        "task": "DnsSecureNoFallback",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1023",
+        "version": "0",
+        "event(fields)": "DnsPolicySystemReadError(UnicodeString RuleName, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsPolicySystemReadError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RuleName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1024",
+        "version": "0",
+        "event(fields)": "DnsQueryBadXid(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsQueryBadXid",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1025",
+        "version": "0",
+        "event(fields)": "DnsQueryInvalidServerIp(UnicodeString QueryName, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsQueryInvalidServerIp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1026",
+        "version": "0",
+        "event(fields)": "DnsQueryInvalidQuestion(UnicodeString QueryName, UnicodeString ResponseQuestion, UInt32 AddressLength, Binary Address)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsQueryInvalidQuestion",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ResponseQuestion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AddressLength"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "Address"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1027",
+        "version": "0",
+        "event(fields)": "task_0(UnicodeString QueryName)",
+        "opcode": "",
+        "keywords": "ut:PolicyTable",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "1028",
+        "version": "0",
+        "event(fields)": "DnsMatchPolicyInfo1028(UnicodeString QueryName, UnicodeString KeyName, UInt32 DnsSecValidationRequired, UInt32 DnsQueryOverIPSec, UInt32 DnsEncryption, UnicodeString DirectAccessServerList, UInt32 ProxyType, UnicodeString ProxyName, UnicodeString GenericServerList, UInt32 IdnConfig)",
+        "opcode": "",
+        "keywords": "ut:PolicyTable",
+        "task": "DnsMatchPolicyInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "KeyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsSecValidationRequired"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsQueryOverIPSec"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DnsEncryption"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DirectAccessServerList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProxyType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ProxyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GenericServerList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IdnConfig"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3000",
+        "version": "0",
+        "event(fields)": "task_03000(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions)",
+        "opcode": "",
+        "keywords": "ut:PerfCheckPoints",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "task_03001(UInt32 Status)",
+        "opcode": "",
+        "keywords": "ut:PerfCheckPoints",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "task_03002(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions)",
+        "opcode": "",
+        "keywords": "ut:PerfCheckPoints",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3003",
+        "version": "0",
+        "event(fields)": "task_03003(UnicodeString QueryName, UInt32 QueryType, UInt32 Status)",
+        "opcode": "",
+        "keywords": "ut:PerfCheckPoints",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3004",
+        "version": "0",
+        "event(fields)": "task_03004(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions)",
+        "opcode": "",
+        "keywords": "ut:PerfCheckPoints",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3005",
+        "version": "0",
+        "event(fields)": "task_03005(UnicodeString QueryName, UInt32 QueryType, UInt32 Status)",
+        "opcode": "",
+        "keywords": "ut:PerfCheckPoints",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3006",
+        "version": "0",
+        "event(fields)": "task_03006(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions, UnicodeString ServerList, UInt32 IsNetworkQuery, UInt32 NetworkQueryIndex, UInt32 InterfaceIndex, UInt32 IsAsyncQuery)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ServerList"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsNetworkQuery"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NetworkQueryIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsAsyncQuery"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3007",
+        "version": "0",
+        "event(fields)": "task_03007(UnicodeString QueryName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3008",
+        "version": "0",
+        "event(fields)": "task_03008(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions, UInt32 QueryStatus, UnicodeString QueryResults)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryStatus"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryResults"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3009",
+        "version": "0",
+        "event(fields)": "task_03009(UnicodeString QueryName, UInt32 IsParallelNetworkQuery, UInt32 NetworkIndex, UInt32 InterfaceCount, UnicodeString AdapterName, UnicodeString LocalAddress, UnicodeString DNSServerAddress)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IsParallelNetworkQuery"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NetworkIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DNSServerAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3010",
+        "version": "0",
+        "event(fields)": "task_03010(UnicodeString QueryName, UInt32 QueryType, UnicodeString DnsServerIpAddress)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerIpAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3011",
+        "version": "0",
+        "event(fields)": "task_03011(UnicodeString QueryName, UInt32 QueryType, UnicodeString DnsServerIpAddress, UInt32 ResponseStatus)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerIpAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ResponseStatus"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3012",
+        "version": "0",
+        "event(fields)": "task_03012(UnicodeString QueryName, UInt32 NetworkIndex, UInt32 InterfaceCount, UnicodeString AdapterName, UnicodeString LocalAddress)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NetworkIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "LocalAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3013",
+        "version": "0",
+        "event(fields)": "task_03013(UnicodeString QueryName, UInt32 Status, UnicodeString QueryResults)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryResults"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3014",
+        "version": "0",
+        "event(fields)": "task_03014(UnicodeString QueryName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3015",
+        "version": "0",
+        "event(fields)": "task_03015(UnicodeString QueryName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3016",
+        "version": "0",
+        "event(fields)": "task_03016(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions, UInt32 InterfaceIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3018",
+        "version": "0",
+        "event(fields)": "task_03018(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions, UInt32 Status, UnicodeString QueryResults)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "QueryOptions"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryResults"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3019",
+        "version": "0",
+        "event(fields)": "task_03019(UnicodeString QueryName, UInt32 QueryType, UInt32 InterfaceIndex, UInt32 NetworkIndex)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NetworkIndex"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "3020",
+        "version": "0",
+        "event(fields)": "task_03020(UnicodeString QueryName, UInt32 QueryType, UInt32 NetworkIndex, UInt32 InterfaceIndex, UInt32 Status, UnicodeString QueryResults)",
+        "opcode": "",
+        "keywords": "",
+        "task": "task_0",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QueryType"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NetworkIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterfaceIndex"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Status"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "QueryResults"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8001",
+        "version": "0",
+        "event(fields)": "DnsGenericError(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsGenericError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8002",
+        "version": "0",
+        "event(fields)": "DnsGenericError8002(UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "ut:DnsAutoLogKeyword",
+        "task": "DnsGenericError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8003",
+        "version": "0",
+        "event(fields)": "DnsRegistration(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8004",
+        "version": "0",
+        "event(fields)": "DnsRegistration8004(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8005",
+        "version": "0",
+        "event(fields)": "DnsRegistration8005(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8006",
+        "version": "0",
+        "event(fields)": "DnsRegistration8006(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8007",
+        "version": "0",
+        "event(fields)": "DnsRegistration8007(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8008",
+        "version": "0",
+        "event(fields)": "DnsRegistration8008(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8009",
+        "version": "0",
+        "event(fields)": "DnsRegistration8009(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8010",
+        "version": "0",
+        "event(fields)": "DnsRegistration8010(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8011",
+        "version": "0",
+        "event(fields)": "DnsRegistration8011(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8012",
+        "version": "0",
+        "event(fields)": "DnsRegistration8012(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8013",
+        "version": "0",
+        "event(fields)": "DnsRegistration8013(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8014",
+        "version": "0",
+        "event(fields)": "DnsRegistration8014(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8015",
+        "version": "0",
+        "event(fields)": "DnsRegistration8015(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8016",
+        "version": "0",
+        "event(fields)": "DnsRegistration8016(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8017",
+        "version": "0",
+        "event(fields)": "DnsRegistration8017(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8018",
+        "version": "0",
+        "event(fields)": "DnsRegistration8018(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8019",
+        "version": "0",
+        "event(fields)": "DnsRegistration8019(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8020",
+        "version": "0",
+        "event(fields)": "DnsRegistration8020(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8021",
+        "version": "0",
+        "event(fields)": "DnsRegistration8021(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8022",
+        "version": "0",
+        "event(fields)": "DnsRegistration8022(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8023",
+        "version": "0",
+        "event(fields)": "DnsRegistration8023(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8024",
+        "version": "0",
+        "event(fields)": "DnsRegistration8024(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8025",
+        "version": "0",
+        "event(fields)": "DnsRegistration8025(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8026",
+        "version": "0",
+        "event(fields)": "DnsRegistration8026(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8027",
+        "version": "0",
+        "event(fields)": "DnsRegistration8027(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8028",
+        "version": "0",
+        "event(fields)": "DnsRegistration8028(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8029",
+        "version": "0",
+        "event(fields)": "DnsRegistration8029(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8030",
+        "version": "0",
+        "event(fields)": "DnsRegistration8030(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8031",
+        "version": "0",
+        "event(fields)": "DnsRegistration8031(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8032",
+        "version": "0",
+        "event(fields)": "DnsRegistration8032(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8033",
+        "version": "0",
+        "event(fields)": "DnsRegistration8033(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8034",
+        "version": "0",
+        "event(fields)": "DnsRegistration8034(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8035",
+        "version": "0",
+        "event(fields)": "DnsRegistration8035(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8036",
+        "version": "0",
+        "event(fields)": "DnsRegistration8036(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8037",
+        "version": "0",
+        "event(fields)": "DnsRegistration8037(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "8038",
+        "version": "0",
+        "event(fields)": "DnsRegistration8038(UnicodeString AdapterName, UnicodeString HostName, UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer, UnicodeString Ipaddress, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsRegistration",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AdapterSuffixName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "DnsServerList"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SentUpdateServer"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Ipaddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60004",
+        "version": "0",
+        "event(fields)": "DnsNetError(UInt32 ErrorCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsNetError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60005",
+        "version": "0",
+        "event(fields)": "DnsNetWarning(UInt32 WarningCode, UInt32 Location, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsNetWarning",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WarningCode"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Location"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60006",
+        "version": "0",
+        "event(fields)": "DnsStateTransition(UInt8 NextState, UInt32 Context)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsStateTransition",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt8",
+                "field_name": "NextState"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60007",
+        "version": "0",
+        "event(fields)": "DnsContextUpdate(UInt32 Context, UInt32 UpdateReasonCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsContextUpdate",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "UpdateReasonCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60008",
+        "version": "0",
+        "event(fields)": "DnsPolicyReadError(UnicodeString RuleName, UInt32 ErrorCode)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsPolicyReadError",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "RuleName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60101",
+        "version": "0",
+        "event(fields)": "DnsV4Tuple(UInt32 SourceAddress, UInt32 SourcePort, UInt32 DestinationAddress, UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsV4Tuple",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationPort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60102",
+        "version": "0",
+        "event(fields)": "DnsV6Tuple(Binary SourceAddress, UInt32 SourcePort, Binary DestinationAddress, UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsV6Tuple",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Binary",
+                "field_name": "SourceAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourcePort"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "DestinationAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "DestinationPort"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Protocol"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-DNS-Client",
+        "event_id": "60103",
+        "version": "0",
+        "event(fields)": "DnsInterfaceInfo(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)",
+        "opcode": "",
+        "keywords": "",
+        "task": "DnsInterfaceInfo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "IfGuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "IfIndex"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "IfLuid"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ReferenceContext"
+            }
+        ]
+    }
+]

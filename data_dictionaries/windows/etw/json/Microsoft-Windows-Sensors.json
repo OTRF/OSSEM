@@ -1,0 +1,1644 @@
+[
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_DeviceStartupStart(UInt32 DeviceID)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_DeviceStartup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_DeviceStartupStop(UInt32 DeviceID)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_DeviceStartup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "DeviceID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_EventLatencyStart(UInt32 SensorType)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_EventLatency",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_EventLatencyStop(UInt32 SensorType)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_EventLatency",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_SetPropertiesStart(UnicodeString SensorObjectId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_SetProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_SetPropertiesStop(UnicodeString SensorObjectId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_SetProperties",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1007",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_GetPropertyValuesStart(UnicodeString SensorObjectId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_GetPropertyValues",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1008",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_GetPropertyValuesStop(UnicodeString SensorObjectId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_GetPropertyValues",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1009",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_GetDataFieldsStart(UnicodeString SensorObjectId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_GetDataFields",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1010",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_GetDataFieldsStop(UnicodeString SensorObjectId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_GetDataFields",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1011",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_PostDataEventStart(UnicodeString SensorObjectId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_PostDataEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1012",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_PostDataEventStop(UnicodeString SensorObjectId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_PostDataEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1013",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_PreAsyncReadStart(UnicodeString SensorObjectId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_PreAsyncRead",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1014",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_PreAsyncReadStop(UnicodeString SensorObjectId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_PreAsyncRead",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1015",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_RaiseDataEvent(UnicodeString SensorObjectId, SYSTEMTIME Timestamp, UInt32 NumSubscribers)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_RaiseDataEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "NumSubscribers"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1016",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_SetStateStart(UnicodeString SensorObjectId, UInt32 SensorState)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_SetState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1017",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_SetStateStop(UnicodeString SensorObjectId, UInt32 SensorState)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_SetState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1018",
+        "version": "0",
+        "event(fields)": "Deviceisbeingpoweredup()",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "Deviceisbeingpoweredup",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1019",
+        "version": "0",
+        "event(fields)": "Deviceisbeingpowereddown()",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "Deviceisbeingpowereddown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1100",
+        "version": "0",
+        "event(fields)": "SensorServicedataupdatedeventStart(GUID SENSOR_ID, SYSTEMTIME Timestamp)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorServicedataupdatedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1101",
+        "version": "0",
+        "event(fields)": "SensorServicedataupdatedeventStop(GUID SENSOR_ID, SYSTEMTIME Timestamp)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorServicedataupdatedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1102",
+        "version": "0",
+        "event(fields)": "SensorServiceperiodicreportonmemoryusage(UInt32 WorkingSet)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceperiodicreportonmemoryusage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "WorkingSet"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1103",
+        "version": "0",
+        "event(fields)": "SensorServiceperiodicreportoncpuusage(Float CPUUsage)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceperiodicreportoncpuusage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "CPUUsage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1104",
+        "version": "0",
+        "event(fields)": "SensorServiceresultsfromqueryingasensor(GUID SENSOR_ID, SYSTEMTIME Timestamp, UInt32 HRESULT, Pointer ReportPointer, UInt32 SensorStateThisSensor, UInt32 SensorStateAccumulated)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceresultsfromqueryingasensor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ReportPointer"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorStateThisSensor"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorStateAccumulated"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1105",
+        "version": "0",
+        "event(fields)": "SensorServicetimerqueuecallbackfororientation,abouttowritequadrantangletoaggregatedsensor(Float QuadrantAngle)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServicetimerqueuecallbackfororientation,abouttowritequadrantangletoaggregatedsensor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "QuadrantAngle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1106",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,sensorstateusedinprocessingdata(UInt32 SensorState)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,sensorstateusedinprocessingdata",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1107",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,readingsensordatasuccessful(Float AccelerationX, Float AccelerationY, Float AccelerationZ, Float PitchCalibration)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,readingsensordatasuccessful",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "AccelerationX"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "AccelerationY"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "AccelerationZ"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PitchCalibration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1108",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,pitchangletestresult(UInt32 IsPitchGreaterThanThreshold, Float PitchAngle, Float PitchThreshold, Float PitchCalibration)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,pitchangletestresult",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "IsPitchGreaterThanThreshold"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PitchAngle"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PitchThreshold"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "PitchCalibration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1109",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,screenorientationresult(Float Theta, Float AngularCalibration)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,screenorientationresult",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "Theta"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "AngularCalibration"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1110",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,thetanegativesoadded360(Float Theta)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,thetanegativesoadded360",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "Theta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1111",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,testingiftherewasaquadrantchange(UInt32 GoodAngle, UInt32 Quadrant, UInt32 LastQuadrant)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,testingiftherewasaquadrantchange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "GoodAngle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Quadrant"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastQuadrant"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1112",
+        "version": "0",
+        "event(fields)": "SensorServiceprocessingsensordatafororientation,statusandactiontakenontimerqueue(UInt32 TimerQueueStatus, UInt32 TimerQueueAction)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServiceprocessingsensordatafororientation,statusandactiontakenontimerqueue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerQueueStatus"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TimerQueueAction"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1113",
+        "version": "0",
+        "event(fields)": "SensorServicetimerqueuecallbackfororientation,testingiftherewasaquadrantchange(UInt32 GoodAngle, UInt32 Quadrant, UInt32 LastQuadrant, Float Theta)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServicetimerqueuecallbackfororientation,testingiftherewasaquadrantchange",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "GoodAngle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Quadrant"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LastQuadrant"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Theta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1114",
+        "version": "0",
+        "event(fields)": "SensorServicetimerqueuecallbackfororientation,testingifthescreenrotatedpastangularthresholdintonextquadrant(UInt32 GoodAngle, UInt32 Quadrant, Float AngularThreshold, Float Theta)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorServicetimerqueuecallbackfororientation,testingifthescreenrotatedpastangularthresholdintonextquadrant",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "GoodAngle"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Quadrant"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "AngularThreshold"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Theta"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1119",
+        "version": "0",
+        "event(fields)": "SensorServicesettingquadrantangleinaggregatedsensorStart(Float QuadrantAngle)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorServicesettingquadrantangleinaggregatedsensor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "QuadrantAngle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1120",
+        "version": "0",
+        "event(fields)": "SensorServicesettingquadrantangleinaggregatedsensorStop(Float QuadrantAngle)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorServicesettingquadrantangleinaggregatedsensor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Float",
+                "field_name": "QuadrantAngle"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1121",
+        "version": "0",
+        "event(fields)": "SensorServicestatechangedeventStart(GUID SENSOR_ID, UInt32 SensorState)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorServicestatechangedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1122",
+        "version": "0",
+        "event(fields)": "SensorServicestatechangedeventStop(GUID SENSOR_ID, UInt32 SensorState)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorServicestatechangedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1123",
+        "version": "0",
+        "event(fields)": "SensorServicesettingsensorstateinaggregatedsensorStart(UInt32 SensorState)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorServicesettingsensorstateinaggregatedsensor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1124",
+        "version": "0",
+        "event(fields)": "SensorServicesettingsensorstateinaggregatedsensorStop(UInt32 SensorState)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorServicesettingsensorstateinaggregatedsensor",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1201",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionInitializationStart()",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1202",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionInitializationStop()",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionInitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1203",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionUninitializationStart()",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionUninitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1204",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionUninitializationStop()",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionUninitialization",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1205",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionProcessIoControlHandlerStart()",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionProcessIoControlHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1206",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionProcessIoControlHandlerStop()",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionProcessIoControlHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1207",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionPostEventHandlerStart(UnicodeString SensorObjectId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionPostEventHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1208",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionPostEventHandlerStop(UnicodeString SensorObjectId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionPostEventHandler",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1209",
+        "version": "0",
+        "event(fields)": "SensorClassExtensionClientInformationevent(UInt32 EventNumber, UInt32 EventCount, GUID SENSOR_ID, UInt32 ConnectedClients, UInt32 SubscribedClients, UInt32 SilentClients, UInt32 PID, UInt32 ClientBitfield)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorClassExtensionClientInformationevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EventCount"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ConnectedClients"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SubscribedClients"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SilentClients"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClientBitfield"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1301",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltofireISensorEvents::OnDataUpdatedeventStart(UnicodeString SensorObjectId, GUID SENSOR_ID, SYSTEMTIME Timestamp)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltofireISensorEvents::OnDataUpdatedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1302",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltofireISensorEvents::OnDataUpdatedeventStop(UnicodeString SensorObjectId, GUID SENSOR_ID, SYSTEMTIME Timestamp)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltofireISensorEvents::OnDataUpdatedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "SYSTEMTIME",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1303",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltogetsensordatareportStart(GUID SENSOR_ID)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltogetsensordatareport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1304",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltogetsensordatareportStop(GUID SENSOR_ID)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltogetsensordatareport",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1305",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltogetasensorpropertyvalueStart(GUID SENSOR_ID)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltogetasensorpropertyvalue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1306",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltogetasensorpropertyvalueStop(GUID SENSOR_ID)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltogetasensorpropertyvalue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1307",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltogetsensorpropertyvaluesStart(GUID SENSOR_ID)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltogetsensorpropertyvalues",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1308",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltogetsensorpropertyvaluesStop(GUID SENSOR_ID)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltogetsensorpropertyvalues",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1309",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltosetsensorpropertyvaluesStart(GUID SENSOR_ID)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltosetsensorpropertyvalues",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1310",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltosetsensorpropertyvaluesStop(GUID SENSOR_ID)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltosetsensorpropertyvalues",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1311",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltofireISensorEvents::OnStateChangedeventStart(UnicodeString SensorObjectId, GUID SENSOR_ID, UInt32 SensorState)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltofireISensorEvents::OnStateChangedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1312",
+        "version": "0",
+        "event(fields)": "SensorAPIcalltofireISensorEvents::OnStateChangedeventStop(UnicodeString SensorObjectId, GUID SENSOR_ID, UInt32 SensorState)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "SensorAPIcalltofireISensorEvents::OnStateChangedevent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SensorState"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1501",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1502",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1502(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1503",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1503(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1504",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1504(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1505",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1505(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1506",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1506(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1507",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1507(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1508",
+        "version": "0",
+        "event(fields)": "ValidationfailureinHIDsensorreportdescriptor1508(UnicodeString SensorObjectId, GUID SENSOR_ID)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "ValidationfailureinHIDsensorreportdescriptor",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1509",
+        "version": "0",
+        "event(fields)": "HIDsensorfeaturereportfailure(UnicodeString SensorObjectId, GUID SENSOR_ID, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "HIDsensorfeaturereportfailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1510",
+        "version": "0",
+        "event(fields)": "HIDsensorinputreportfailure(UnicodeString SensorObjectId, GUID SENSOR_ID, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "HIDsensorinputreportfailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1511",
+        "version": "0",
+        "event(fields)": "HIDsensorinputreportfailure1511(UnicodeString SensorObjectId, GUID SENSOR_ID, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "HIDsensorinputreportfailure",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "1512",
+        "version": "0",
+        "event(fields)": "SensPerf_Task_SensorsHIDClassDriver_DeviceReconnect(UnicodeString SensorObjectId, GUID SENSOR_ID, UInt32 HRESULT)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensPerf_Task_SensorsHIDClassDriver_DeviceReconnect",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "SensorObjectId"
+            },
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HRESULT"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "2001",
+        "version": "0",
+        "event(fields)": "PerfMarkersfortimebetweenstartingLocationAPIandconsentpromptappearsStart()",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "PerfMarkersfortimebetweenstartingLocationAPIandconsentpromptappears",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "2002",
+        "version": "0",
+        "event(fields)": "PerfMarkersfortimebetweenstartingLocationAPIandconsentpromptappearsStop()",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "PerfMarkersfortimebetweenstartingLocationAPIandconsentpromptappears",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "InformationalPerfMarkerforuseinoutputtingagenericmessage(UnicodeString GenericMessage)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "InformationalPerfMarkerforuseinoutputtingagenericmessage",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "GenericMessage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "SensorPlatformDataEvent(GUID SENSOR_ID, UInt32 MethodId)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "SensorPlatformDataEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "GUID",
+                "field_name": "SENSOR_ID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "10001",
+        "version": "0",
+        "event(fields)": "PerfTrackmeasurementofauto_rotationStart(UInt32 EventId)",
+        "opcode": "Start",
+        "keywords": "SensPerf",
+        "task": "PerfTrackmeasurementofauto_rotation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "10002",
+        "version": "0",
+        "event(fields)": "PerfTrackmeasurementofauto_rotationStop(UInt32 EventId)",
+        "opcode": "Stop",
+        "keywords": "SensPerf",
+        "task": "PerfTrackmeasurementofauto_rotation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Sensors",
+        "event_id": "10003",
+        "version": "0",
+        "event(fields)": "PerfTrackmeasurementofauto_rotation_10002(UInt32 EventId, UInt32 QuadrantChangeInterval, UInt32 Angle)",
+        "opcode": "",
+        "keywords": "SensPerf",
+        "task": "PerfTrackmeasurementofauto_rotation_10002",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "EventId"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "QuadrantChangeInterval"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Angle"
+            }
+        ]
+    }
+]

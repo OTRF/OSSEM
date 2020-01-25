@@ -1,0 +1,5741 @@
+[
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "MethodRundownDCStartInit()",
+        "opcode": "DCStartInit",
+        "keywords": "JScriptStartRundown",
+        "task": "MethodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "MethodRundownDCStartComplete()",
+        "opcode": "DCStartComplete",
+        "keywords": "JScriptStartRundown",
+        "task": "MethodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "MethodRundownDCEndInit()",
+        "opcode": "DCEndInit",
+        "keywords": "JScriptEndRundown",
+        "task": "MethodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "MethodRundownDCEndComplete()",
+        "opcode": "DCEndComplete",
+        "keywords": "JScriptEndRundown",
+        "task": "MethodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "MethodRundownMethodDCStart(Pointer ScriptContextID, Pointer MethodStartAddress, UInt64 MethodSize, UInt32 MethodID, UInt16 MethodFlags, UInt16 MethodAddressRangeID, UInt64 SourceID, UInt32 Line, UInt32 Column, UnicodeString MethodName)",
+        "opcode": "MethodDCStart",
+        "keywords": "JScriptStartRundown",
+        "task": "MethodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodAddressRangeID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "MethodRundownMethodDCEnd(Pointer ScriptContextID, Pointer MethodStartAddress, UInt64 MethodSize, UInt32 MethodID, UInt16 MethodFlags, UInt16 MethodAddressRangeID, UInt64 SourceID, UInt32 Line, UInt32 Column, UnicodeString MethodName)",
+        "opcode": "MethodDCEnd",
+        "keywords": "JScriptEndRundown",
+        "task": "MethodRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodAddressRangeID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "ScriptContextRundownScriptContextDCStart(Pointer ScriptContextID)",
+        "opcode": "ScriptContextDCStart",
+        "keywords": "JScriptStartRundown",
+        "task": "ScriptContextRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "ScriptContextRundownScriptContextDCEnd(Pointer ScriptContextID)",
+        "opcode": "ScriptContextDCEnd",
+        "keywords": "JScriptEndRundown",
+        "task": "ScriptContextRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "MethodRuntimeMethodLoad(Pointer ScriptContextID, Pointer MethodStartAddress, UInt64 MethodSize, UInt32 MethodID, UInt16 MethodFlags, UInt16 MethodAddressRangeID, UInt64 SourceID, UInt32 Line, UInt32 Column, UnicodeString MethodName)",
+        "opcode": "MethodLoad",
+        "keywords": "JScriptRuntime",
+        "task": "MethodRuntime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodAddressRangeID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "MethodRuntimeMethodUnload(Pointer ScriptContextID, Pointer MethodStartAddress, UInt64 MethodSize, UInt32 MethodID, UInt16 MethodFlags, UInt16 MethodAddressRangeID, UInt64 SourceID, UInt32 Line, UInt32 Column, UnicodeString MethodName)",
+        "opcode": "MethodUnload",
+        "keywords": "JScriptRuntime",
+        "task": "MethodRuntime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodFlags"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "MethodAddressRangeID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Line"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Column"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "ScriptContextRuntimeScriptContextLoad(Pointer ScriptContextID)",
+        "opcode": "ScriptContextLoad",
+        "keywords": "JScriptRuntime",
+        "task": "ScriptContextRuntime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "12",
+        "version": "0",
+        "event(fields)": "ScriptContextRuntimeScriptContextUnload(Pointer ScriptContextID)",
+        "opcode": "ScriptContextUnload",
+        "keywords": "JScriptRuntime",
+        "task": "ScriptContextRuntime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_ResolveTypeStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_ResolveType",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_ResolveTypeStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_ResolveType",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_ConstructRuntimeClassStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_ConstructRuntimeClass",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_ConstructRuntimeClassStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_ConstructRuntimeClass",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_MethodCallStart(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_MethodCall",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_MethodCallStop(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_MethodCall",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_RawMethodCallStart(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_RawMethodCall",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_RawMethodCallStop(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_RawMethodCall",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokesJsDelegateStart(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokesJsDelegate",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokesJsDelegateStop(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokesJsDelegate",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokeNativeDelegateStart(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokeNativeDelegate",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokeNativeDelegateStop(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokeNativeDelegate",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_AddEventListenerStart(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_AddEventListener",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_AddEventListenerStop(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_AddEventListener",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_RemoveEventListenerStart(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_RemoveEventListener",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_RemoveEventListenerStop(UnicodeString TypeName, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_RemoveEventListener",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetTypeMetaDataInformationStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetTypeMetaDataInformation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetTypeMetaDataInformationStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetTypeMetaDataInformation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_SetEventHandlerStart(UnicodeString TypeName, UnicodeString EventName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_SetEventHandler",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_SetEventHandlerStop(UnicodeString TypeName, UnicodeString EventName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_SetEventHandler",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_RemoveAllEventsAndEventHandlersStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_RemoveAllEventsAndEventHandlers",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_RemoveAllEventsAndEventHandlersStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_RemoveAllEventsAndEventHandlers",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokeEventStart(UnicodeString TypeName, UnicodeString EventName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokeEvent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokeEventStop(UnicodeString TypeName, UnicodeString EventName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokeEvent",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokeEventEvParamPrepStart(UnicodeString TypeName, UnicodeString EventName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokeEventEvParamPrep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_InvokeEventEvParamPrepStop(UnicodeString TypeName, UnicodeString EventName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_InvokeEventEvParamPrep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "ScriptContextRundownSourceDCStart(UInt64 SourceID, Pointer ScriptContextID, UInt32 SourceFlags, UnicodeString Url)",
+        "opcode": "SourceDCStart",
+        "keywords": "JScriptStartRundown",
+        "task": "ScriptContextRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "ScriptContextRundownSourceDCEnd(UInt64 SourceID, Pointer ScriptContextID, UInt32 SourceFlags, UnicodeString Url)",
+        "opcode": "SourceDCEnd",
+        "keywords": "JScriptEndRundown",
+        "task": "ScriptContextRundown",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "ScriptContextRuntimeSourceLoad(UInt64 SourceID, Pointer ScriptContextID, UInt32 SourceFlags, UnicodeString Url)",
+        "opcode": "SourceLoad",
+        "keywords": "JScriptRuntime",
+        "task": "ScriptContextRuntime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "ScriptContextRuntimeSourceUnload(UInt64 SourceID, Pointer ScriptContextID, UInt32 SourceFlags, UnicodeString Url)",
+        "opcode": "SourceUnload",
+        "keywords": "JScriptRuntime",
+        "task": "ScriptContextRuntime",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceFlags"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetExprFromConcreteTypeNameStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetExprFromConcreteTypeName",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetExprFromConcreteTypeNameStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetExprFromConcreteTypeName",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetTypeFromTypeNamePartsStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetTypeFromTypeNameParts",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "46",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetTypeFromTypeNamePartsStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetTypeFromTypeNameParts",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "47",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_ReferenceOrArrayGetValueStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_ReferenceOrArrayGetValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "48",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_ReferenceOrArrayGetValueStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_ReferenceOrArrayGetValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "49",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_PropertyValueVarFromGRCNStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_PropertyValueVarFromGRCN",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "50",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_PropertyValueVarFromGRCNStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_PropertyValueVarFromGRCN",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "51",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_VarFromGRCNStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_VarFromGRCN",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "52",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_VarFromGRCNStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_VarFromGRCN",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "53",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_WriteIReferenceStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_WriteIReference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_WriteIReferenceStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_WriteIReference",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_WriteInspectableStart(Boolean IsBoxed)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_WriteInspectable",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBoxed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_WriteInspectableStop(Boolean IsBoxed)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_WriteInspectable",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsBoxed"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetNonArrayTypeAsPropertyValueStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetNonArrayTypeAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetNonArrayTypeAsPropertyValueStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetNonArrayTypeAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetNonArrayBasicTypeAsPropertyValueStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetNonArrayBasicTypeAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetNonArrayBasicTypeAsPropertyValueStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetNonArrayBasicTypeAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetTypedArrayAsPropertyValueStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetTypedArrayAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetTypedArrayAsPropertyValueStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetTypedArrayAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetBasicTypedArrayAsPropertyValueStart(UnicodeString TypeName)",
+        "opcode": "Start",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetBasicTypedArrayAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "Jscript_Projection_GetBasicTypedArrayAsPropertyValueStop(UnicodeString TypeName)",
+        "opcode": "Stop",
+        "keywords": "JScriptProjection",
+        "task": "Jscript_Projection_GetBasicTypedArrayAsPropertyValue",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "ParseMethodStart(UInt64 SourceID, Pointer ScriptContextID, UInt32 MethodID, UInt32 ASTSize, Boolean IsDeferred, UnicodeString MethodName)",
+        "opcode": "Start",
+        "keywords": "JScriptFrontend",
+        "task": "ParseMethod",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ASTSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsDeferred"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "ParseMethodStop(UInt64 SourceID, Pointer ScriptContextID, UInt32 MethodID, UInt32 ASTSize, Boolean IsDeferred, UnicodeString MethodName)",
+        "opcode": "Stop",
+        "keywords": "JScriptFrontend",
+        "task": "ParseMethod",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ASTSize"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsDeferred"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "GenerateBytecodeMethod(UInt64 SourceID, Pointer ScriptContextID, UInt32 MethodID, UInt32 BytecodeCount, UInt32 BytecodeSize, UnicodeString MethodName)",
+        "opcode": "",
+        "keywords": "JScriptFrontend",
+        "task": "GenerateBytecodeMethod",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytecodeCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BytecodeSize"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ResetMarksStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ResetMarksStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ScanRootsStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ScanRootsStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ScanStackStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ScanStack",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ScanStackStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ScanStack",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "Jscript_GC_MarkStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Mark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "Jscript_GC_MarkStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Mark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "Jscript_GC_RescanStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Rescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "Jscript_GC_RescanStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Rescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Sweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepStop(Pointer RecyclerID, UInt32 SweptBytes)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Sweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SweptBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SetupBackgroundSweepStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SetupBackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SetupBackgroundSweepStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SetupBackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundSweepStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundSweepStop(Pointer RecyclerID, UInt32 SweptBytes)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SweptBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "Jscript_GC_TransferSweptObjectsStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_TransferSweptObjects",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "Jscript_GC_TransferSweptObjectsStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_TransferSweptObjects",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "Jscript_GC_DisposeStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Dispose",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "Jscript_GC_DisposeStop(Pointer RecyclerID, UInt32 SweptBytes)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Dispose",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SweptBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundMarkStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundMarkStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ResetWriteWatchStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ResetWriteWatchStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "Jscript_Profile_PersistenceSave(UInt64 SourceID, Pointer ScriptContextID, UInt32 Size, Boolean IsSaveOnClose)",
+        "opcode": "Save",
+        "keywords": "JScriptProfile",
+        "task": "Jscript_Profile_Persistence",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsSaveOnClose"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "ScriptContextRuntimeScriptContextOnStartupComplete(Pointer ScriptContextID)",
+        "opcode": "ScriptContextOnStartupComplete",
+        "keywords": "JScriptProfile",
+        "task": "ScriptContextRuntime",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "Jscript_Profile_PersistenceLoad(UInt64 SourceID, Pointer ScriptContextID)",
+        "opcode": "Load",
+        "keywords": "JScriptProfile",
+        "task": "Jscript_Profile_Persistence",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SourceID"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContextID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "Jscript_Backend_Inline(UInt32 CallerMethodID, UInt32 InlineeMethodID, UnicodeString Caller, UnicodeString Inlinee)",
+        "opcode": "",
+        "keywords": "JscriptBackend",
+        "task": "Jscript_Backend_Inline",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CallerMethodID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InlineeMethodID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Caller"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Inlinee"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "Jscript_Method_JitStart_45_17(UInt32 MethodID, UnicodeString MethodName, Pointer ScriptContext, UInt32 InterpretedCount, UInt32 SourceCodeSize, UInt32 ByteCodeSize, UInt32 ByteCodeInLoopSize, UInt16 JitLevel)",
+        "opcode": "Start_45_17",
+        "keywords": "JscriptJit",
+        "task": "Jscript_Method_Jit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterpretedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceCodeSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteCodeSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ByteCodeInLoopSize"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "JitLevel"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "Jscript_Method_JitStop_45_18(UInt32 MethodID, UnicodeString MethodName, Pointer ScriptContext, UInt32 InterpretedCount, Pointer MethodStartAddress, UInt64 MethodSize)",
+        "opcode": "Stop_45_18",
+        "keywords": "JscriptJit",
+        "task": "Jscript_Method_Jit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterpretedCount"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "MethodStartAddress"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "MethodSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "Jscript_Method_JitQueue(UInt32 MethodID, UnicodeString MethodName, Pointer ScriptContext, UInt32 InterpretedCount)",
+        "opcode": "Queue",
+        "keywords": "JscriptJit",
+        "task": "Jscript_Method_Jit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterpretedCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "Jscript_Method_JitDequeue(UInt32 MethodID, UnicodeString MethodName, Pointer ScriptContext, UInt32 InterpretedCount)",
+        "opcode": "Dequeue",
+        "keywords": "JscriptJit",
+        "task": "Jscript_Method_Jit",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "MethodName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "ScriptContext"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "InterpretedCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "Jscript_GC_IdleCollectStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "Jscript_GC_IdleCollect(Pointer RecyclerID)",
+        "opcode": "",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "Jscript_GC_IdleCollect102(Pointer RecyclerID)",
+        "opcode": "",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "Jscript_GC_IdleCollect103(Pointer RecyclerID)",
+        "opcode": "",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "Jscript_GC_IdleCollectStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "Jscript_Page_Allocator_SizeUsedPageSize(UInt64 SizeInBytes)",
+        "opcode": "UsedPageSize",
+        "keywords": "JScriptMemoryTracing",
+        "task": "Jscript_Page_Allocator_Size",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "SizeInBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "106",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationFree_Memory(UInt32 Count, AnsiString Values)",
+        "opcode": "Free_Memory",
+        "keywords": "JScriptObjectCleanup",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Count"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "Values"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "107",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationFree_Memory_Block(Pointer MemoryAddress, UInt32 BlockSize, UInt32 ObjectSize)",
+        "opcode": "Free_Memory_Block",
+        "keywords": "JScriptObjectCleanup",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BlockSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ObjectSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "108",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_Object(Pointer MemoryAddress)",
+        "opcode": "Allocate_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "109",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_Array(Pointer MemoryAddress)",
+        "opcode": "Allocate_Array",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "110",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_Function(Pointer MemoryAddress, UInt32 MethodID)",
+        "opcode": "Allocate_Function",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MethodID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "111",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_DOM_Object(Pointer MemoryAddress, UInt32 TypeId)",
+        "opcode": "Allocate_DOM_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TypeId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "112",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_JSProxy_Object(Pointer MemoryAddress, UnicodeString TypeName)",
+        "opcode": "Allocate_WinRT_JSProxy_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "113",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_PixelArray(Pointer MemoryAddress)",
+        "opcode": "Allocate_PixelArray",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "114",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationExternal_AddRef(Pointer MemoryAddress)",
+        "opcode": "External_AddRef",
+        "keywords": "JScriptExternalReferenceAddRef",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "115",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationExternal_Release(Pointer MemoryAddress)",
+        "opcode": "External_Release",
+        "keywords": "JScriptExternalReferenceRelease",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "116",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_RuntimeClass_Object(Pointer MemoryAddress, UnicodeString TypeName)",
+        "opcode": "Allocate_WinRT_RuntimeClass_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "117",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_Namespace_Object(Pointer MemoryAddress, UnicodeString TypeName)",
+        "opcode": "Allocate_WinRT_Namespace_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "118",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_Struct_Object(Pointer MemoryAddress, UnicodeString TypeName)",
+        "opcode": "Allocate_WinRT_Struct_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "119",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_Enum_Object(Pointer MemoryAddress, UnicodeString TypeName)",
+        "opcode": "Allocate_WinRT_Enum_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "120",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_TypedArray_Object(Pointer MemoryAddress, UnicodeString TypeName)",
+        "opcode": "Allocate_WinRT_TypedArray_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "121",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_Delegate_Object(Pointer MemoryAddress, UnicodeString TypeName, Pointer jsVar)",
+        "opcode": "Allocate_WinRT_Delegate_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "jsVar"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "122",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_EventHandler_Object(Pointer MemoryAddress, UnicodeString TypeName, Pointer callback, UnicodeString EventName)",
+        "opcode": "Allocate_WinRT_EventHandler_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "callback"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "EventName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "123",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_Collections_Object(Pointer MemoryAddress, UnicodeString TypeName, Pointer jsVar)",
+        "opcode": "Allocate_WinRT_Collections_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "jsVar"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "124",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationAllocate_WinRT_PropertyValue_Object(Pointer MemoryAddress, UnicodeString TypeName, Boolean IsArray)",
+        "opcode": "Allocate_WinRT_PropertyValue_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "TypeName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsArray"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "125",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationFree_WinRT_Delegate_Object(Pointer MemoryAddress)",
+        "opcode": "Free_WinRT_Delegate_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "126",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationFree_WinRT_EventHandler_Object(Pointer MemoryAddress)",
+        "opcode": "Free_WinRT_EventHandler_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "127",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationFree_WinRT_Collections_Object(Pointer MemoryAddress)",
+        "opcode": "Free_WinRT_Collections_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "128",
+        "version": "0",
+        "event(fields)": "Jscript_Recycler_AllocationFree_WinRT_PropertyValue_Object(Pointer MemoryAddress)",
+        "opcode": "Free_WinRT_PropertyValue_Object",
+        "keywords": "JScriptObjectAllocation",
+        "task": "Jscript_Recycler_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "MemoryAddress"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "129",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepWeakRefStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SweepWeakRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "130",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepWeakRefStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SweepWeakRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "131",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ProcessTrackedObjectStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ProcessTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "132",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ProcessTrackedObjectStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ProcessTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "133",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ProcessClientTrackedObjectStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ProcessClientTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "134",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ProcessClientTrackedObjectStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ProcessClientTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "135",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundZeroPageStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "136",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundZeroPageStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "137",
+        "version": "0",
+        "event(fields)": "Jscript_GC_FlushZeroPageStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_FlushZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "138",
+        "version": "0",
+        "event(fields)": "Jscript_GC_FlushZeroPageStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_FlushZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "139",
+        "version": "0",
+        "event(fields)": "Jscript_GC_DecommitConcurrentCollectPageAllocatorStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_DecommitConcurrentCollectPageAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "140",
+        "version": "0",
+        "event(fields)": "Jscript_GC_DecommitConcurrentCollectPageAllocatorStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_DecommitConcurrentCollectPageAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "141",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepPartialReusePageStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SweepPartialReusePage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "142",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepPartialReusePageStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SweepPartialReusePage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "143",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundRescanStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundRescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "144",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundRescanStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundRescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "145",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundResetWriteWatchStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "146",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundResetWriteWatchStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "147",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundScanRootsStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "148",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundScanRootsStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "149",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundResetMarksStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "150",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundResetMarksStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "151",
+        "version": "0",
+        "event(fields)": "Jscript_GC_RescanMarkWaitStart(Pointer RecyclerID, UInt32 Timeout)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_RescanMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "152",
+        "version": "0",
+        "event(fields)": "Jscript_GC_RescanMarkWaitStop(Pointer RecyclerID, Boolean HasTimedout)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_RescanMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasTimedout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "153",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SynchronousMarkWaitStart(Pointer RecyclerID, UInt32 Timeout)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SynchronousMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "154",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SynchronousMarkWaitStop(Pointer RecyclerID, Boolean HasTimedout)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SynchronousMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasTimedout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "155",
+        "version": "0",
+        "event(fields)": "Jscript_GC_FinishConcurrentWaitStart(Pointer RecyclerID, UInt32 Timeout)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_FinishConcurrentWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "156",
+        "version": "0",
+        "event(fields)": "Jscript_GC_FinishConcurrentWaitStop(Pointer RecyclerID, Boolean HasTimedout)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_FinishConcurrentWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasTimedout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "157",
+        "version": "0",
+        "event(fields)": "Jscript_GC_EndMarkOnLowMemoryStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_EndMarkOnLowMemory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "158",
+        "version": "0",
+        "event(fields)": "Jscript_GC_EndMarkOnLowMemoryStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_EndMarkOnLowMemory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "159",
+        "version": "0",
+        "event(fields)": "Jscript_AsyncCausality_StackTrace(UInt64 AsyncOperationId, UInt16 FrameCount, UInt16 NameBufferCount, UnicodeString NameBuffer, Int16 Frames)",
+        "opcode": "",
+        "keywords": "JScriptAsyncCausality",
+        "task": "Jscript_AsyncCausality_StackTrace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "AsyncOperationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "NameBufferCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "NameBuffer"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Frames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "160",
+        "version": "0",
+        "event(fields)": "JScript_ByteCodeDeserializeStart(Pointer Element, UInt32 Zero)",
+        "opcode": "Start",
+        "keywords": "JScriptByteCode",
+        "task": "JScript_ByteCodeDeserialize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Element"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Zero"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "161",
+        "version": "0",
+        "event(fields)": "JScript_ByteCodeDeserializeStop(Pointer Element, UInt32 Zero)",
+        "opcode": "Stop",
+        "keywords": "JScriptByteCode",
+        "task": "JScript_ByteCodeDeserialize",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Element"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Zero"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "162",
+        "version": "0",
+        "event(fields)": "Jscript_Hosting_BinaryInconsistency(UInt32 Jscript9EngineSize, UInt32 MshtmlEngineSize, UInt32 Jscript9ContextSize, UInt32 MshtmlContextSize, UInt32 Jscript9LibrarySize, UInt32 MshtmlLibrarySize, UInt32 Jscript9CEOSize, UInt32 MshtmlCEOSize, UInt32 Jscript9ScriptEngineOffset, UInt32 MshtmlScriptEngineOffset, UInt32 Jscript9ScriptContextOffset, UInt32 MshtmlScriptContextOffset, UInt32 Jscript9LibraryOffset, UInt32 MshtmlLibraryOffset, UInt32 Jscript9TypeOffset, UInt32 MshtmlTypeOffset, UInt32 Jscript9TypeIdOffset, UInt32 MshtmlTypeIdOffset, UInt32 Jscript9TaggedIntSize, UInt32 MshtmlTaggIntSize, UInt32 Jscript9NumberSize, UInt32 MshtmlNumberSize, UInt32 Jscript9TypeIdLimit, UInt32 MshtmlTypeIdLimit, UInt32 JScript9NumberUtilitiesSize, UInt32 MsHtmlNumberUtilitiesSize, UInt32 JScript9NumberUtilitiesOffset, UInt32 MsHtmlNumberUtilitiesOffset)",
+        "opcode": "",
+        "keywords": "JScriptHosting",
+        "task": "Jscript_Hosting_BinaryInconsistency",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9EngineSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlEngineSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9ContextSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlContextSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9LibrarySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlLibrarySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9CEOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlCEOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9ScriptEngineOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlScriptEngineOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9ScriptContextOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlScriptContextOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9LibraryOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlLibraryOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9TypeOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTypeOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9TypeIdOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTypeIdOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9TaggedIntSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTaggIntSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9NumberSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlNumberSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Jscript9TypeIdLimit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTypeIdLimit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JScript9NumberUtilitiesSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsHtmlNumberUtilitiesSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "JScript9NumberUtilitiesOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsHtmlNumberUtilitiesOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "163",
+        "version": "0",
+        "event(fields)": "Jscript_Hosting_BinaryConsistencyInfo(UInt32 MshtmlEngineSize, UInt32 MshtmlContextSize, UInt32 MshtmlLibrarySize, UInt32 MshtmlCEOSize, UInt32 MshtmlScriptEngineOffset, UInt32 MshtmlScriptContextOffset, UInt32 MshtmlLibraryOffset, UInt32 MshtmlTypeOffset, UInt32 MshtmlTypeIdOffset, UInt32 MshtmlTaggIntSize, UInt32 MshtmlNumberSize, UInt32 MshtmlTypeIdLimit, UInt32 MsHtmlNumberUtilitiesSize, UInt32 MsHtmlNumberUtilitiesOffset)",
+        "opcode": "",
+        "keywords": "JScriptHosting",
+        "task": "Jscript_Hosting_BinaryConsistencyInfo",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlEngineSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlContextSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlLibrarySize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlCEOSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlScriptEngineOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlScriptContextOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlLibraryOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTypeOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTypeIdOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTaggIntSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlNumberSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MshtmlTypeIdLimit"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsHtmlNumberUtilitiesSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MsHtmlNumberUtilitiesOffset"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "164",
+        "version": "0",
+        "event(fields)": "Jscript_StackTrace(UInt64 OperationId, UInt16 FrameCount, UInt32 FrameNameBufferCount, UnicodeString FrameNameBuffer, Int16 Frames)",
+        "opcode": "",
+        "keywords": "JScriptStackTrace",
+        "task": "Jscript_StackTrace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameNameBufferCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameNameBuffer"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Frames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "165",
+        "version": "0",
+        "event(fields)": "Jscript_AsyncCausality_StackTrace165(UInt64 OperationId, UInt16 FrameCount, UInt32 FrameNameBufferCount, UnicodeString FrameNameBuffer, Int16 Frames)",
+        "opcode": "",
+        "keywords": "JScriptAsyncCausality_V2",
+        "task": "Jscript_AsyncCausality_StackTrace",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "OperationId"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "FrameCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FrameNameBufferCount"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FrameNameBuffer"
+            },
+            {
+                "field_type": "Int16",
+                "field_name": "Frames"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "166",
+        "version": "0",
+        "event(fields)": "Jscript_Host_Native(Pointer ModuleID, Binary SHA1Hash, UnicodeString Url, HexInt32 ModuleSize)",
+        "opcode": "",
+        "keywords": "JscriptJit",
+        "task": "Jscript_Host_Native",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "SHA1Hash"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Url"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "ModuleSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "167",
+        "version": "0",
+        "event(fields)": "Jscript_Host_Native167(Pointer ModuleID, HexInt32 SerializationIndex, UnicodeString Name, HexInt32 FunctionOffset, HexInt32 FunctionSize)",
+        "opcode": "",
+        "keywords": "JscriptJit",
+        "task": "Jscript_Host_Native",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ModuleID"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "SerializationIndex"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FunctionOffset"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "FunctionSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "168",
+        "version": "0",
+        "event(fields)": "Jscript_SourceMapping(UnicodeString ReasonBuffer, UInt16 SourceRequestFor)",
+        "opcode": "",
+        "keywords": "JScriptSourceMapping",
+        "task": "Jscript_SourceMapping",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ReasonBuffer"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SourceRequestFor"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "169",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ParallelMarkStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "170",
+        "version": "0",
+        "event(fields)": "Jscript_GC_ParallelMarkStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_ParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "171",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundParallelMarkStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "172",
+        "version": "0",
+        "event(fields)": "Jscript_GC_BackgroundParallelMarkStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_BackgroundParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "173",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ResetMarksStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "174",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ResetMarksStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "175",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ScanRootsStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "176",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ScanRootsStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "177",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ScanStackStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ScanStack",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "178",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ScanStackStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ScanStack",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "179",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_MarkStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Mark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "180",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_MarkStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Mark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "181",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_RescanStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Rescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "182",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_RescanStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Rescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "183",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Sweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "184",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepStop(Pointer RecyclerID, UInt32 SweptBytes)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Sweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SweptBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "185",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SetupBackgroundSweepStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SetupBackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "186",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SetupBackgroundSweepStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SetupBackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "187",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundSweepStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "188",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundSweepStop(Pointer RecyclerID, UInt32 SweptBytes)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundSweep",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SweptBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "189",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_TransferSweptObjectsStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_TransferSweptObjects",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "190",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_TransferSweptObjectsStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_TransferSweptObjects",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "191",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_DisposeStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Dispose",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "192",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_DisposeStop(Pointer RecyclerID, UInt32 SweptBytes)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Dispose",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SweptBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "193",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundMarkStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "194",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundMarkStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "195",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ResetWriteWatchStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "196",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ResetWriteWatchStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "197",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_IdleCollectStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "198",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_IdleCollect(Pointer RecyclerID)",
+        "opcode": "",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "199",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_IdleCollect199(Pointer RecyclerID)",
+        "opcode": "",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "200",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_IdleCollect200(Pointer RecyclerID)",
+        "opcode": "",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "201",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_IdleCollectStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_IdleCollect",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "202",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepWeakRefStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SweepWeakRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "203",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepWeakRefStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SweepWeakRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "204",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ProcessTrackedObjectStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ProcessTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "205",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ProcessTrackedObjectStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ProcessTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "206",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ProcessClientTrackedObjectStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ProcessClientTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "207",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ProcessClientTrackedObjectStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ProcessClientTrackedObject",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "208",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundZeroPageStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "209",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundZeroPageStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "210",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_FlushZeroPageStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_FlushZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "211",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_FlushZeroPageStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_FlushZeroPage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "212",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_DecommitConcurrentCollectPageAllocatorStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_DecommitConcurrentCollectPageAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "213",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_DecommitConcurrentCollectPageAllocatorStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_DecommitConcurrentCollectPageAllocator",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "214",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepPartialReusePageStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SweepPartialReusePage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "215",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepPartialReusePageStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SweepPartialReusePage",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "216",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundRescanStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundRescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "217",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundRescanStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundRescan",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "218",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundResetWriteWatchStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "219",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundResetWriteWatchStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundResetWriteWatch",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "220",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundScanRootsStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "221",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundScanRootsStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundScanRoots",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "222",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundResetMarksStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "223",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundResetMarksStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundResetMarks",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "224",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_RescanMarkWaitStart(Pointer RecyclerID, UInt32 Timeout)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_RescanMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "225",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_RescanMarkWaitStop(Pointer RecyclerID, Boolean HasTimedout)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_RescanMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasTimedout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "226",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SynchronousMarkWaitStart(Pointer RecyclerID, UInt32 Timeout)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SynchronousMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "227",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SynchronousMarkWaitStop(Pointer RecyclerID, Boolean HasTimedout)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SynchronousMarkWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasTimedout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "228",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_FinishConcurrentWaitStart(Pointer RecyclerID, UInt32 Timeout)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_FinishConcurrentWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Timeout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "229",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_FinishConcurrentWaitStop(Pointer RecyclerID, Boolean HasTimedout)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_FinishConcurrentWait",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "HasTimedout"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "230",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_EndMarkOnLowMemoryStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_EndMarkOnLowMemory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "231",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_EndMarkOnLowMemoryStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_EndMarkOnLowMemory",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "232",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ParallelMarkStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "233",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_ParallelMarkStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_ParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "234",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundParallelMarkStart(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "235",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_BackgroundParallelMarkStop(Pointer RecyclerID, Int8 BackgroundMarkRescanCount)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_BackgroundParallelMark",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Int8",
+                "field_name": "BackgroundMarkRescanCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "236",
+        "version": "0",
+        "event(fields)": "Memprotect_GCStart(Pointer Element, UInt32 Zero)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Element"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Zero"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "237",
+        "version": "0",
+        "event(fields)": "Memprotect_GCStop(Pointer Element, UInt32 Zero)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "Element"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Zero"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "238",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_Allocation(Pointer HeapHandle, UInt64 Size, Pointer Address, UInt32 Source)",
+        "opcode": "",
+        "keywords": "MemProtectObjectAllocation",
+        "task": "Memprotect_GC_Allocation",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Size"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "239",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_Unroot(Pointer HeapHandle, Pointer Address, UInt32 Source)",
+        "opcode": "",
+        "keywords": "MemProtectObjectAllocation",
+        "task": "Memprotect_GC_Unroot",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "HeapHandle"
+            },
+            {
+                "field_type": "Pointer",
+                "field_name": "Address"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Source"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "240",
+        "version": "0",
+        "event(fields)": "Jscript_GC_Init(Pointer RecyclerID, Double Timestamp)",
+        "opcode": "",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Init",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "Timestamp"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "241",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_Heap_Size(Pointer RecyclerID, UInt64 UsedBytes, UInt64 ReservedBytes, UInt64 CommittedBytes, UInt64 NumberOfSegments, Boolean FromGC)",
+        "opcode": "",
+        "keywords": "MemProtectHeapSize",
+        "task": "Memprotect_GC_Heap_Size",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UsedBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ReservedBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "CommittedBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "NumberOfSegments"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FromGC"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "242",
+        "version": "0",
+        "event(fields)": "Jscript_Internal_Generic_Event(UnicodeString eventData)",
+        "opcode": "",
+        "keywords": "Internal",
+        "task": "Jscript_Internal_Generic_Event",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "eventData"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "243",
+        "version": "0",
+        "event(fields)": "Jscript_GC_Bucket_Stats(Pointer RecyclerID, UInt16 Type, UInt16 SizeCat, UInt64 UsedBytes, UInt64 TotalBytes)",
+        "opcode": "",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Bucket_Stats",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SizeCat"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UsedBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "244",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_Bucket_Stats(Pointer RecyclerID, UInt16 Type, UInt16 SizeCat, UInt64 UsedBytes, UInt64 TotalBytes)",
+        "opcode": "",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_Bucket_Stats",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "Type"
+            },
+            {
+                "field_type": "UInt16",
+                "field_name": "SizeCat"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "UsedBytes"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TotalBytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "245",
+        "version": "0",
+        "event(fields)": "Jscript_Backend_Bailout(UInt32 FunctionMethodID, UInt32 FunctionSourceID, UnicodeString FunctionDisplayName, UInt32 BailoutKind, UInt32 BailoutCount, UInt32 CallCount, AnsiString RejitReason, Boolean Rethunk)",
+        "opcode": "",
+        "keywords": "JscriptBackend",
+        "task": "Jscript_Backend_Bailout",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionMethodID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionSourceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionDisplayName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BailoutKind"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BailoutCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CallCount"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "RejitReason"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Rethunk"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "246",
+        "version": "0",
+        "event(fields)": "Jscript_Backend_Bailout_LoopBody(UInt32 FunctionMethodID, UInt32 FunctionSourceID, UnicodeString FunctionDisplayName, UInt32 LoopNumber, UInt32 BailoutKind, AnsiString RejitReason)",
+        "opcode": "",
+        "keywords": "JscriptBackend",
+        "task": "Jscript_Backend_Bailout_LoopBody",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionMethodID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FunctionSourceID"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FunctionDisplayName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LoopNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "BailoutKind"
+            },
+            {
+                "field_type": "AnsiString",
+                "field_name": "RejitReason"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "247",
+        "version": "0",
+        "event(fields)": "Jscript_GC_Clear_InlineCacheStart()",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Clear_InlineCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "248",
+        "version": "0",
+        "event(fields)": "Jscript_GC_Clear_InlineCacheStop(Pointer ThreadContextID, UInt32 ScriptContextCount, UInt32 AllocatedSize, UInt32 PreClearFreeSize, UInt32 FreeSize, UInt32 PolyInlineCacheSize)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_Clear_InlineCache",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "ThreadContextID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScriptContextCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "AllocatedSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PreClearFreeSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "FreeSize"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PolyInlineCacheSize"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "249",
+        "version": "0",
+        "event(fields)": "Jscript_GC_PreSweepCallbackStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_PreSweepCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "250",
+        "version": "0",
+        "event(fields)": "Jscript_GC_PreSweepCallbackStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_PreSweepCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "251",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_PreSweepCallbackStart(Pointer RecyclerID)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_PreSweepCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "252",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_PreSweepCallbackStop(Pointer RecyclerID)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_PreSweepCallback",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "253",
+        "version": "0",
+        "event(fields)": "Jscript_GC_SweepWeakRefStop253(Pointer RecyclerID, UInt32 ScannedCount, UInt32 ClearedCount, UInt32 RegionScannedCount, UInt32 RegionClearedCount)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC_SweepWeakRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScannedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClearedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionScannedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionClearedCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "254",
+        "version": "0",
+        "event(fields)": "Memprotect_GC_SweepWeakRefStop254(Pointer RecyclerID, UInt32 ScannedCount, UInt32 ClearedCount, UInt32 RegionScannedCount, UInt32 RegionClearedCount)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC_SweepWeakRef",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ScannedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ClearedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionScannedCount"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RegionClearedCount"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "255",
+        "version": "0",
+        "event(fields)": "Jscript_GC2Start(Pointer RecyclerID, UInt32 Phase, UInt32 CollectionTrigger, UInt32 CollectionStartFlags)",
+        "opcode": "Start",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC2",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionTrigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionStartFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "256",
+        "version": "0",
+        "event(fields)": "Jscript_GC2Stop(Pointer RecyclerID, UInt32 Phase, UInt32 CollectionTrigger, UInt32 CollectionStartFlags)",
+        "opcode": "Stop",
+        "keywords": "JScriptGarbageCollection",
+        "task": "Jscript_GC2",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionTrigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionStartFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "257",
+        "version": "0",
+        "event(fields)": "Memprotect_GC2Start(Pointer RecyclerID, UInt32 Phase, UInt32 CollectionTrigger, UInt32 CollectionStartFlags)",
+        "opcode": "Start",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC2",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionTrigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionStartFlags"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-JScript",
+        "event_id": "258",
+        "version": "0",
+        "event(fields)": "Memprotect_GC2Stop(Pointer RecyclerID, UInt32 Phase, UInt32 CollectionTrigger, UInt32 CollectionStartFlags)",
+        "opcode": "Stop",
+        "keywords": "MemProtectGarbageCollection",
+        "task": "Memprotect_GC2",
+        "level": "Always",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Pointer",
+                "field_name": "RecyclerID"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Phase"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionTrigger"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "CollectionStartFlags"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1004 @@
+[
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1",
+        "version": "1",
+        "event(fields)": "TableEventBucketSplit_V1(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketSplit",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "2",
+        "version": "1",
+        "event(fields)": "TableEventBucketMerge_V1(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketMerge",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "10",
+        "version": "1",
+        "event(fields)": "TreeUpdateTaskWriteB+tree_V1(UInt32 PageCount, HexInt64 IdHigh, HexInt64 IdLow)",
+        "opcode": "WriteB+tree",
+        "keywords": "",
+        "task": "TreeUpdateTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "11",
+        "version": "1",
+        "event(fields)": "VolumeCheckpoint_V1(UInt32 PageCount, HexInt64 IdHigh, HexInt64 IdLow)",
+        "opcode": "Checkpoint",
+        "keywords": "",
+        "task": "VolumeCheckpoint",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "12",
+        "version": "1",
+        "event(fields)": "TreeUpdateTaskStartedwritingB+tree_V1(UInt32 PageCount, HexInt64 IdHigh, HexInt64 IdLow)",
+        "opcode": "StartedwritingB+tree",
+        "keywords": "",
+        "task": "TreeUpdateTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "13",
+        "version": "1",
+        "event(fields)": "TreeUpdateTaskFinishedwritingB+tree_V1(UInt32 PageCount, HexInt64 IdHigh, HexInt64 IdLow)",
+        "opcode": "FinishedwritingB+tree",
+        "keywords": "",
+        "task": "TreeUpdateTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "20",
+        "version": "1",
+        "event(fields)": "ForwardProgressLFF:RedoLog_V1(UInt32 Pending, UInt32 Amount, HexInt64 Lsn1, HexInt64 Lsn2, HexInt64 Lsn3)",
+        "opcode": "RedoLog",
+        "keywords": "",
+        "task": "ForwardProgress",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Pending"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Amount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn1"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn2"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "21",
+        "version": "1",
+        "event(fields)": "ForwardProgressLFF:ProtectedSpace_V1(UInt32 PageCount, HexInt64 IdHigh, HexInt64 IdLow)",
+        "opcode": "ProtectedSpace",
+        "keywords": "",
+        "task": "ForwardProgress",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "PageCount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "22",
+        "version": "1",
+        "event(fields)": "AllocationAllocationrange_V1(Boolean IsMetadata, UInt32 RequestedTier, UInt32 ActualTier, UInt64 RequestedStartOfRange, UInt64 RequestedCountOfRange, UInt64 AllocatedStartOfRange, UInt64 AllocatedCountOfRange)",
+        "opcode": "Allocationrange",
+        "keywords": "",
+        "task": "Allocation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "IsMetadata"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "RequestedTier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ActualTier"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestedStartOfRange"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "RequestedCountOfRange"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AllocatedStartOfRange"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "AllocatedCountOfRange"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "23",
+        "version": "1",
+        "event(fields)": "ForwardProgressLogtailadvance_V1(UInt32 Pending, UInt32 Amount, HexInt64 Lsn1, HexInt64 Lsn2, HexInt64 Lsn3)",
+        "opcode": "Logtailadvance",
+        "keywords": "",
+        "task": "ForwardProgress",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Pending"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Amount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn1"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn2"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "24",
+        "version": "1",
+        "event(fields)": "ForwardProgressLogpulselazywriter_V1(UInt32 Pending, UInt32 Amount, HexInt64 Lsn1, HexInt64 Lsn2, HexInt64 Lsn3)",
+        "opcode": "Logpulselazywriter",
+        "keywords": "",
+        "task": "ForwardProgress",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Pending"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Amount"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn1"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn2"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lsn3"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "25",
+        "version": "1",
+        "event(fields)": "AllocationContainermove_V1(UInt32 SourceTier, UInt32 TargetTier, HexInt64 SourceStartOfRange, HexInt64 SourceCountOfRange, HexInt64 TargetPhysicalOffset, UInt32 SsdFillRatio, UInt32 HddFillRatio, Boolean IsTargetReserved, HexInt64 DestageAllocationCount, Boolean FailedSsdDestage)",
+        "opcode": "Containermove",
+        "keywords": "",
+        "task": "Allocation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "SourceTier"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TargetTier"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "SourceStartOfRange"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "SourceCountOfRange"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "TargetPhysicalOffset"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "SsdFillRatio"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HddFillRatio"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsTargetReserved"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "DestageAllocationCount"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "FailedSsdDestage"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "50",
+        "version": "1",
+        "event(fields)": "ContentionBucketreadcollision_V1(HexInt64 IdHigh, HexInt64 IdLow, HexInt64 Lcn, HexInt32 Level)",
+        "opcode": "Bucketreadcollision",
+        "keywords": "",
+        "task": "Contention",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lcn"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Level"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "51",
+        "version": "1",
+        "event(fields)": "ContentionBucketlockcollision_V1(HexInt64 IdHigh, HexInt64 IdLow, HexInt64 Lcn, HexInt32 Level)",
+        "opcode": "Bucketlockcollision",
+        "keywords": "",
+        "task": "Contention",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lcn"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Level"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "52",
+        "version": "1",
+        "event(fields)": "ContentionBucketcowcollision_V1(HexInt64 IdHigh, HexInt64 IdLow, HexInt64 Lcn, HexInt32 Level)",
+        "opcode": "Bucketcowcollision",
+        "keywords": "",
+        "task": "Contention",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lcn"
+            },
+            {
+                "field_type": "HexInt32",
+                "field_name": "Level"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "100",
+        "version": "1",
+        "event(fields)": "ErrorDetectedB+nodeCRCmismatch_V1(HexInt64 IdHigh, HexInt64 IdLow, HexInt64 PageLcn, HexInt64 Lcn, HexInt64 PageVirtualClock, HexInt64 VolumeVirtualClock, Boolean Scrubbing)",
+        "opcode": "B+nodeCRCmismatch",
+        "keywords": "",
+        "task": "ErrorDetected",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "PageLcn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lcn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "PageVirtualClock"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "VolumeVirtualClock"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Scrubbing"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "101",
+        "version": "1",
+        "event(fields)": "ErrorDetectedB+noderepairedviaredundantcopy_V1(HexInt64 Lcn, Boolean Scrubbing)",
+        "opcode": "B+noderepairedviaredundantcopy",
+        "keywords": "",
+        "task": "ErrorDetected",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "Lcn"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "Scrubbing"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1000",
+        "version": "2",
+        "event(fields)": "TableEventBucketSplit1000_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketSplit",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1002",
+        "version": "2",
+        "event(fields)": "TableEventBucketSplit1002_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketSplit",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1003",
+        "version": "2",
+        "event(fields)": "TableEventBucketMerge1003_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketMerge",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1004",
+        "version": "2",
+        "event(fields)": "TableEventBucketMerge1004_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketMerge",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1005",
+        "version": "2",
+        "event(fields)": "TableEventBucketSplit1005_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketSplit",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1006",
+        "version": "2",
+        "event(fields)": "TableEventBucketSplit1006_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketSplit",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1007",
+        "version": "2",
+        "event(fields)": "TableEventBucketMerge1007_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketMerge",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1008",
+        "version": "2",
+        "event(fields)": "TableEventBucketMerge1008_V2(HexInt64 IdHigh, HexInt64 IdLow, UInt32 TableType)",
+        "opcode": "BucketMerge",
+        "keywords": "",
+        "task": "TableEvent",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdHigh"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "IdLow"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "TableType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1011",
+        "version": "2",
+        "event(fields)": "LogRedo_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1012",
+        "version": "2",
+        "event(fields)": "LogRedo1012_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1013",
+        "version": "2",
+        "event(fields)": "LogRedo1013_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1014",
+        "version": "2",
+        "event(fields)": "LogRedo1014_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1015",
+        "version": "2",
+        "event(fields)": "LogRedo1015_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1016",
+        "version": "2",
+        "event(fields)": "LogRedo1016_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1017",
+        "version": "2",
+        "event(fields)": "LogRedo1017_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1018",
+        "version": "2",
+        "event(fields)": "LogRedo1018_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1019",
+        "version": "2",
+        "event(fields)": "LogRedo1019_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-Minstore",
+        "event_id": "1020",
+        "version": "2",
+        "event(fields)": "LogRedo1020_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)",
+        "opcode": "LogRedo",
+        "keywords": "",
+        "task": "LogRedo",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "HexInt64",
+                "field_name": "StartLsn"
+            },
+            {
+                "field_type": "HexInt64",
+                "field_name": "EndLsn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TransactionsRemaining"
+            }
+        ]
+    }
+]

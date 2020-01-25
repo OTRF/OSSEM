@@ -1,0 +1,2184 @@
+[
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "1",
+        "version": "0",
+        "event(fields)": "InputEventStart()",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "InputEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "2",
+        "version": "0",
+        "event(fields)": "InputEventStop()",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "InputEvent",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "3",
+        "version": "0",
+        "event(fields)": "TappedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "Tapped",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "4",
+        "version": "0",
+        "event(fields)": "TappedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "Tapped",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "5",
+        "version": "0",
+        "event(fields)": "DoubleTappedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "DoubleTapped",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "6",
+        "version": "0",
+        "event(fields)": "DoubleTappedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "DoubleTapped",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "7",
+        "version": "0",
+        "event(fields)": "HoldingStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "Holding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "8",
+        "version": "0",
+        "event(fields)": "HoldingStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "Holding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "9",
+        "version": "0",
+        "event(fields)": "RightTappedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "RightTapped",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "10",
+        "version": "0",
+        "event(fields)": "RightTappedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "RightTapped",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "11",
+        "version": "0",
+        "event(fields)": "PointerPressedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerPressed",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "13",
+        "version": "0",
+        "event(fields)": "PointerPressedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerPressed",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "14",
+        "version": "0",
+        "event(fields)": "PointerMovedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerMoved",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "15",
+        "version": "0",
+        "event(fields)": "PointerMovedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerMoved",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "16",
+        "version": "0",
+        "event(fields)": "PointerReleasedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerReleased",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "17",
+        "version": "0",
+        "event(fields)": "PointerReleasedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerReleased",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "18",
+        "version": "0",
+        "event(fields)": "PointerEnteredStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerEntered",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "19",
+        "version": "0",
+        "event(fields)": "PointerEnteredStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerEntered",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "20",
+        "version": "0",
+        "event(fields)": "PointerExitedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerExited",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "21",
+        "version": "0",
+        "event(fields)": "PointerExitedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerExited",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "22",
+        "version": "0",
+        "event(fields)": "PointerCaptureLostStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerCaptureLost",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "23",
+        "version": "0",
+        "event(fields)": "PointerCaptureLostStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerCaptureLost",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "24",
+        "version": "0",
+        "event(fields)": "PointerCanceledStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerCanceled",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "25",
+        "version": "0",
+        "event(fields)": "PointerCanceledStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerCanceled",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "26",
+        "version": "0",
+        "event(fields)": "PointerWheelChangedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "PointerWheelChanged",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PointerDeviceType"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "27",
+        "version": "0",
+        "event(fields)": "PointerWheelChangedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "PointerWheelChanged",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "28",
+        "version": "0",
+        "event(fields)": "DragEnterStart(UInt64 RegisterdOn, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "DragEnter",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "29",
+        "version": "0",
+        "event(fields)": "DragEnterStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "DragEnter",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "30",
+        "version": "0",
+        "event(fields)": "DragLeaveStart(UInt64 RegisterdOn, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "DragLeave",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "31",
+        "version": "0",
+        "event(fields)": "DragLeaveStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "DragLeave",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "32",
+        "version": "0",
+        "event(fields)": "DragOverStart(UInt64 RegisterdOn, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "DragOver",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "33",
+        "version": "0",
+        "event(fields)": "DragOverStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "DragOver",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "34",
+        "version": "0",
+        "event(fields)": "DropStart(UInt64 RegisterdOn, UInt64 OriginalSource)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "Drop",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "35",
+        "version": "0",
+        "event(fields)": "DropStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "Drop",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "36",
+        "version": "0",
+        "event(fields)": "ManipulationStartingStart(UInt64 RegisterdOn, UInt64 OriginalSource, UInt64 Container, UInt32 Mode)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "ManipulationStarting",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Container"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "Mode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "37",
+        "version": "0",
+        "event(fields)": "ManipulationStartingStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "ManipulationStarting",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "38",
+        "version": "0",
+        "event(fields)": "ManipulationInertiaStartingStart(UInt64 RegisterdOn, UInt64 OriginalSource, UInt64 Container)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "ManipulationInertiaStarting",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Container"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "39",
+        "version": "0",
+        "event(fields)": "ManipulationInertiaStartingStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "ManipulationInertiaStarting",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "40",
+        "version": "0",
+        "event(fields)": "ManipulationStartedStart(UInt64 RegisterdOn, UInt64 OriginalSource, UInt64 Container)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "ManipulationStarted",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Container"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "41",
+        "version": "0",
+        "event(fields)": "ManipulationStartedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "ManipulationStarted",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "42",
+        "version": "0",
+        "event(fields)": "ManipulationDeltaStart(UInt64 RegisterdOn, UInt64 OriginalSource, UInt64 Container, Boolean IsInertial)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "ManipulationDelta",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Container"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsInertial"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "43",
+        "version": "0",
+        "event(fields)": "ManipulationDeltaStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "ManipulationDelta",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "44",
+        "version": "0",
+        "event(fields)": "ManipulationCompletedStart(UInt64 RegisterdOn, UInt64 OriginalSource, UInt64 Container, Boolean IsInertial)",
+        "opcode": "Start",
+        "keywords": "Input",
+        "task": "ManipulationCompleted",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "RegisterdOn"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "OriginalSource"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "Container"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsInertial"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "45",
+        "version": "0",
+        "event(fields)": "ManipulationCompletedStop(Boolean Handled)",
+        "opcode": "Stop",
+        "keywords": "Input",
+        "task": "ManipulationCompleted",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Boolean",
+                "field_name": "Handled"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "54",
+        "version": "0",
+        "event(fields)": "AppBarOpenStart(UInt32 AppBarType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AppBarOpen",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppBarType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "55",
+        "version": "0",
+        "event(fields)": "AppBarOpenStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AppBarOpen",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "56",
+        "version": "0",
+        "event(fields)": "AppBarClosedStart(UInt32 AppBarType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "AppBarClosed",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "AppBarType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "57",
+        "version": "0",
+        "event(fields)": "AppBarClosedStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "AppBarClosed",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "58",
+        "version": "0",
+        "event(fields)": "UpdateLayout(UInt64 ElementId, UInt64 ParentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "UpdateLayout",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "59",
+        "version": "0",
+        "event(fields)": "InvalidateArrange(UInt64 ElementId, UInt64 ParentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "InvalidateArrange",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "60",
+        "version": "0",
+        "event(fields)": "InvalidateMeasure(UInt64 ElementId, UInt64 ParentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "InvalidateMeasure",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "61",
+        "version": "0",
+        "event(fields)": "ElementAdded(UInt64 ElementId, UInt64 ParentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ElementAdded",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "62",
+        "version": "0",
+        "event(fields)": "ElementRemoved(UInt64 ElementId, UInt64 ParentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ElementRemoved",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "63",
+        "version": "0",
+        "event(fields)": "PropertyChanged(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName, UInt32 PropertyEffect)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PropertyChanged",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PropertyEffect"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "63",
+        "version": "1",
+        "event(fields)": "PropertyChanged_V1(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName, UInt32 PropertyEffect, UInt64 ValueInt, UnicodeString ValueString, Double ValueDouble)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PropertyChanged",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "PropertyEffect"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ValueInt"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ValueString"
+            },
+            {
+                "field_type": "Double",
+                "field_name": "ValueDouble"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "64",
+        "version": "0",
+        "event(fields)": "MeasureOverrideStart(UInt64 ElementId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "MeasureOverride",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "65",
+        "version": "0",
+        "event(fields)": "MeasureOverrideStop(UInt64 ElementId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "MeasureOverride",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "66",
+        "version": "0",
+        "event(fields)": "ArrangeOverrideStart(UInt64 ElementId)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ArrangeOverride",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "67",
+        "version": "0",
+        "event(fields)": "ArrangeOverrideStop(UInt64 ElementId)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ArrangeOverride",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "68",
+        "version": "0",
+        "event(fields)": "SetAnimationStart(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "SetAnimation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "69",
+        "version": "0",
+        "event(fields)": "SetAnimationStop(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "SetAnimation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "70",
+        "version": "0",
+        "event(fields)": "ClearAnimationStart(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "ClearAnimation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "71",
+        "version": "0",
+        "event(fields)": "ClearAnimationStop(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "ClearAnimation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "72",
+        "version": "0",
+        "event(fields)": "UpdateTargetBindingStart(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName, UnicodeString ModelTypeName, UnicodeString ModelPropertyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UpdateTargetBinding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModelTypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModelPropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "72",
+        "version": "1",
+        "event(fields)": "UpdateTargetBindingStart_V1(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName, UnicodeString ModelTypeName, UnicodeString ModelPropertyName, Boolean IsPropertyTemplateBound, UInt32 EffectiveSourceType)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UpdateTargetBinding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModelTypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModelPropertyName"
+            },
+            {
+                "field_type": "Boolean",
+                "field_name": "IsPropertyTemplateBound"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "EffectiveSourceType"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "73",
+        "version": "0",
+        "event(fields)": "UpdateTargetBindingStop(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UpdateTargetBinding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "74",
+        "version": "0",
+        "event(fields)": "UpdateSourceBindingStart(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName, UnicodeString ModelTypeName, UnicodeString ModelPropertyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "UpdateSourceBinding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModelTypeName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModelPropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "75",
+        "version": "0",
+        "event(fields)": "UpdateSourceBindingStop(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "UpdateSourceBinding",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "76",
+        "version": "0",
+        "event(fields)": "VisualStateManagerGoToStateStart(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "VisualStateManagerGoToState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "77",
+        "version": "0",
+        "event(fields)": "VisualStateManagerGoToStateStop(UInt64 ElementId, UInt64 ParentId, UnicodeString PropertyName)",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "VisualStateManagerGoToState",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "78",
+        "version": "0",
+        "event(fields)": "TimedTextTrace(UnicodeString PropertyName)",
+        "opcode": "",
+        "keywords": "",
+        "task": "TimedTextTrace",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "PropertyName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "79",
+        "version": "0",
+        "event(fields)": "TimedTextCueStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TimedTextCue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "80",
+        "version": "0",
+        "event(fields)": "TimedTextCueStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TimedTextCue",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "81",
+        "version": "0",
+        "event(fields)": "TimedTextTrackStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "TimedTextTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "82",
+        "version": "0",
+        "event(fields)": "TimedTextTrackStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "TimedTextTrack",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "83",
+        "version": "0",
+        "event(fields)": "ElementCreatedWithSource(UInt64 ElementId, UnicodeString FileURI, UInt32 LineNumber, UInt32 ColumnNumber, UnicodeString FileHash)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ElementCreatedWithSource",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileURI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColumnNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "83",
+        "version": "1",
+        "event(fields)": "ElementCreatedWithSource_V1(UInt64 ElementId, UnicodeString ClassName, UnicodeString FileURI, UInt32 LineNumber, UInt32 ColumnNumber, UnicodeString FileHash)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ElementCreatedWithSource",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ClassName"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileURI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColumnNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "84",
+        "version": "0",
+        "event(fields)": "ResourceDictionaryAddWithSource(UInt64 ResourceDictionaryId, UInt64 ResourceId, UnicodeString FileURI, UInt32 LineNumber, UInt32 ColumnNumber, UnicodeString FileHash)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ResourceDictionaryAddWithSource",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ResourceDictionaryId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ResourceId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileURI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColumnNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "85",
+        "version": "0",
+        "event(fields)": "BeginStoryboardWithSource(UInt64 ElementId, UInt64 TargetElementId, UnicodeString FileURI, UInt32 LineNumber, UInt32 ColumnNumber, UnicodeString FileHash)",
+        "opcode": "",
+        "keywords": "",
+        "task": "BeginStoryboardWithSource",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "TargetElementId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileURI"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "LineNumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ColumnNumber"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "FileHash"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "86",
+        "version": "0",
+        "event(fields)": "FrameworkElementLoadingStart()",
+        "opcode": "Start",
+        "keywords": "",
+        "task": "FrameworkElementLoading",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "87",
+        "version": "0",
+        "event(fields)": "FrameworkElementLoadingStop()",
+        "opcode": "Stop",
+        "keywords": "",
+        "task": "FrameworkElementLoading",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "88",
+        "version": "0",
+        "event(fields)": "ImageSourceRelation(UInt64 ElementId, UInt64 ParentId, UnicodeString Name)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ImageSourceRelation",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "89",
+        "version": "0",
+        "event(fields)": "ElementAccessibility(UInt64 ElementId, UInt64 ParentId, UnicodeString Name, UnicodeString Type)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ElementAccessibility",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "90",
+        "version": "0",
+        "event(fields)": "ResourceUsingXName(UInt64 ElementId, UInt64 ParentId, UnicodeString Name, UnicodeString Type)",
+        "opcode": "",
+        "keywords": "",
+        "task": "ResourceUsingXName",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Type"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "91",
+        "version": "0",
+        "event(fields)": "PeerCreated(UInt64 ElementId, UInt64 ParentId)",
+        "opcode": "",
+        "keywords": "",
+        "task": "PeerCreated",
+        "level": "Verbose",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt64",
+                "field_name": "ElementId"
+            },
+            {
+                "field_type": "UInt64",
+                "field_name": "ParentId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "92",
+        "version": "0",
+        "event(fields)": "CueRemoved()",
+        "opcode": "",
+        "keywords": "",
+        "task": "CueRemoved",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "93",
+        "version": "0",
+        "event(fields)": "DesignerActivationStart()",
+        "opcode": "Start",
+        "keywords": "DesignerAppManager",
+        "task": "DesignerActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "94",
+        "version": "0",
+        "event(fields)": "DesignerActivationStop(UInt32 Result, UInt32 ProcessId)",
+        "opcode": "Stop",
+        "keywords": "DesignerAppManager",
+        "task": "DesignerActivation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ProcessId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "95",
+        "version": "0",
+        "event(fields)": "DesignerAppViewClose(UInt32 Result, UInt32 ViewId)",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "DesignerAppViewClose",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Result"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "96",
+        "version": "0",
+        "event(fields)": "UpdateViewSize(UInt32 ViewId, Float Width, Float Height)",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "UpdateViewSize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Width"
+            },
+            {
+                "field_type": "Float",
+                "field_name": "Height"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "97",
+        "version": "0",
+        "event(fields)": "UpdateViewState(UInt32 ViewId, UnicodeString State)",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "UpdateViewState",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "State"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "98",
+        "version": "0",
+        "event(fields)": "SetHostedApp()",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "SetHostedApp",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "99",
+        "version": "0",
+        "event(fields)": "SetHostedAppWindow(Int32 ViewId)",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "SetHostedAppWindow",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "ViewId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "100",
+        "version": "0",
+        "event(fields)": "AssociateActivationContext(UInt32 Context, UInt32 ViewId)",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "AssociateActivationContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "101",
+        "version": "0",
+        "event(fields)": "AppWindowReadyForPresentation()",
+        "opcode": "",
+        "keywords": "DesignerAppManager",
+        "task": "AppWindowReadyForPresentation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "102",
+        "version": "0",
+        "event(fields)": "InitializeStop(UnicodeString AppId)",
+        "opcode": "Stop",
+        "keywords": "DesignerAppManager",
+        "task": "Initialize",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "AppId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "103",
+        "version": "0",
+        "event(fields)": "GetActivationContextStop(UInt32 Context, UInt32 ViewId)",
+        "opcode": "Stop",
+        "keywords": "DesignerAppManager",
+        "task": "GetActivationContext",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Context"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ViewId"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "104",
+        "version": "0",
+        "event(fields)": "UnusedTextFormatterDeleted()",
+        "opcode": "",
+        "keywords": "",
+        "task": "UnusedTextFormatterDeleted",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-XAML-Diagnostics",
+        "event_id": "105",
+        "version": "0",
+        "event(fields)": "TextFormatterCreated()",
+        "opcode": "",
+        "keywords": "",
+        "task": "TextFormatterCreated",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    }
+]

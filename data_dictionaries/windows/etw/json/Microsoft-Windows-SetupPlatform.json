@@ -1,0 +1,154 @@
+[
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "1001",
+        "version": "0",
+        "event(fields)": "RunoperationStart(UnicodeString Operation, UInt32 ErrorCode)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "Runoperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "1002",
+        "version": "0",
+        "event(fields)": "RunoperationStop(UnicodeString Operation, UInt32 ErrorCode)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "Runoperation",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Operation"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "ErrorCode"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "1003",
+        "version": "0",
+        "event(fields)": "OnlinegatherStart(UnicodeString OfflineWinDir, UInt32 MachineSpecific)",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "Onlinegather",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OfflineWinDir"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MachineSpecific"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "1004",
+        "version": "0",
+        "event(fields)": "OnlinegatherStop(UnicodeString OfflineWinDir, UInt32 MachineSpecific)",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "Onlinegather",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "OfflineWinDir"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "MachineSpecific"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "1005",
+        "version": "0",
+        "event(fields)": "OfflinegatherStart()",
+        "opcode": "Start",
+        "keywords": "keyPerformance",
+        "task": "Offlinegather",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "1006",
+        "version": "0",
+        "event(fields)": "OfflinegatherStop()",
+        "opcode": "Stop",
+        "keywords": "keyPerformance",
+        "task": "Offlinegather",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-SetupPlatform",
+        "event_id": "2005",
+        "version": "0",
+        "event(fields)": "InstallWindowsTask(UInt32 Installationchoice, UInt32 HostOSMajorversion, UInt32 HostOSMinorversion, UInt32 HostOSBuildnumber, UInt32 HostOSServicepackmajornumber, UInt32 HostOSServicepackminornumber)",
+        "opcode": "",
+        "keywords": "",
+        "task": "InstallWindowsTask",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "Installationchoice"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSMajorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSMinorversion"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSBuildnumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSServicepackmajornumber"
+            },
+            {
+                "field_type": "UInt32",
+                "field_name": "HostOSServicepackminornumber"
+            }
+        ]
+    }
+]

@@ -1,0 +1,310 @@
+[
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3001",
+        "version": "0",
+        "event(fields)": "CheckGenericEPORTCHECKeportCheck(UInt32 CurrentCheckBit)",
+        "opcode": "reportCheck",
+        "keywords": "",
+        "task": "CheckGeneric",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UInt32",
+                "field_name": "CurrentCheckBit"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3002",
+        "version": "0",
+        "event(fields)": "CheckSecureBootEnabledECUREBOOTENABLEDFAILEDCHECKecurebootEnabledFailedCheck()",
+        "opcode": "securebootEnabledFailedCheck",
+        "keywords": "",
+        "task": "CheckSecureBootEnabled",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3003",
+        "version": "0",
+        "event(fields)": "CheckSecureBootEnabledECUREBOOTENABLEDFAILEDTOCHECKecurebootEnabledFailedToCheck(Int32 hr)",
+        "opcode": "securebootEnabledFailedToCheck",
+        "keywords": "",
+        "task": "CheckSecureBootEnabled",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3004",
+        "version": "0",
+        "event(fields)": "CheckCertificatesERTSFAILEDCHECKertsFailedCheck(UnicodeString name, UnicodeString database, Binary bytes)",
+        "opcode": "certsFailedCheck",
+        "keywords": "",
+        "task": "CheckCertificates",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "name"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "database"
+            },
+            {
+                "field_type": "Binary",
+                "field_name": "bytes"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3005",
+        "version": "0",
+        "event(fields)": "CheckCertificatesERTSFAILEDTOCHECKertsFailedToCheck(Int32 hr)",
+        "opcode": "certsFailedToCheck",
+        "keywords": "",
+        "task": "CheckCertificates",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3006",
+        "version": "0",
+        "event(fields)": "CheckSecureBootPolicyECUREBOOTPOLICYFAILEDCHECKecurebootPolicyFailedCheck()",
+        "opcode": "securebootPolicyFailedCheck",
+        "keywords": "",
+        "task": "CheckSecureBootPolicy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": []
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3007",
+        "version": "0",
+        "event(fields)": "CheckSecureBootPolicyECUREBOOTPOLICYFAILEDTOCHECKecurebootPolicyFailedToCheck(Int32 hr)",
+        "opcode": "securebootPolicyFailedToCheck",
+        "keywords": "",
+        "task": "CheckSecureBootPolicy",
+        "level": "Warning",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3008",
+        "version": "0",
+        "event(fields)": "CheckHostLockdownPolicyHostLockdownCheck(UnicodeString HostProvider, UnicodeString ModulePath, UnicodeString Method, UnicodeString InternalName)",
+        "opcode": "HostLockdownCheck",
+        "keywords": "",
+        "task": "CheckHostLockdownPolicy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InternalName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3009",
+        "version": "0",
+        "event(fields)": "CheckHostLockdownPolicyHostLockdownCheck3009(UnicodeString HostProvider, UnicodeString ModulePath, UnicodeString Method, UnicodeString InternalName, Int32 hr)",
+        "opcode": "HostLockdownCheck",
+        "keywords": "",
+        "task": "CheckHostLockdownPolicy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InternalName"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3010",
+        "version": "0",
+        "event(fields)": "CheckHostLockdownPolicyHostLockdownCheck3010(UnicodeString HostProvider, UnicodeString ModulePath, UnicodeString Method, UnicodeString InternalName)",
+        "opcode": "HostLockdownCheck",
+        "keywords": "",
+        "task": "CheckHostLockdownPolicy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InternalName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3011",
+        "version": "0",
+        "event(fields)": "CheckHostLockdownPolicyHostLockdownCheck3011(UnicodeString HostProvider, UnicodeString ModulePath, UnicodeString Method, Int32 hr)",
+        "opcode": "HostLockdownCheck",
+        "keywords": "",
+        "task": "CheckHostLockdownPolicy",
+        "level": "Error",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "Int32",
+                "field_name": "hr"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3012",
+        "version": "0",
+        "event(fields)": "CheckHostLockdownPolicyHostLockdownCheck3012(UnicodeString HostProvider, UnicodeString ModulePath, UnicodeString Method, UnicodeString InternalName)",
+        "opcode": "HostLockdownCheck",
+        "keywords": "",
+        "task": "CheckHostLockdownPolicy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InternalName"
+            }
+        ]
+    },
+    {
+        "provider": "Microsoft-Windows-VerifyHardwareSecurity",
+        "event_id": "3013",
+        "version": "0",
+        "event(fields)": "CheckHostLockdownPolicyHostLockdownCheck3013(UnicodeString HostProvider, UnicodeString ModulePath, UnicodeString Method, UnicodeString InternalName)",
+        "opcode": "HostLockdownCheck",
+        "keywords": "",
+        "task": "CheckHostLockdownPolicy",
+        "level": "Informational",
+        "evtlog_channel": "",
+        "evtlog_message": "",
+        "event_fields": [
+            {
+                "field_type": "UnicodeString",
+                "field_name": "HostProvider"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "ModulePath"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "Method"
+            },
+            {
+                "field_type": "UnicodeString",
+                "field_name": "InternalName"
+            }
+        ]
+    }
+]
