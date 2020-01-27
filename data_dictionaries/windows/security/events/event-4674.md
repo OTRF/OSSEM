@@ -4,6 +4,10 @@
 
 This event generates when an attempt is made to perform privileged operations on a protected subsystem object after the object is already opened.
 
+## Event Log Illustration & Event XML
+
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4674.md)
+
 ## Data Dictionary
 
 |Standard Name|Field Name|Type|Description|Sample Value|
@@ -20,7 +24,3 @@ This event generates when an attempt is made to perform privileged operations on
 |object_privilege_list|PrivilegeList|string|the list of user privileges which were requested.|SeSecurityPrivilege|
 |process_id|ProcessId|integer|hexadecimal Process ID of the process that attempted the operation on the privileged object.|0x1f0|
 |process_path|ProcessName|string|full path and the name of the executable for the process.|C:\\Windows\\System32\\lsass.exe|
-
-## Reference
-
-[MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4674.md)
