@@ -20,7 +20,7 @@ This event generates when an attempt is made to perform privileged operations on
 |object_type|ObjectType|string|The type of an object that was accessed during the operation.|-|
 |object_name|ObjectName|string|the name of the object that was accessed during the operation.|-|
 |object_handle_id|HandleId|integer|hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID, for example, “4656: A handle to an object was requested” event in appropriate/other subcategory.|0x0|
-|object_access_mask|AccessMask|integer|The desired access mask. This mask depends on Object Server and Object Type parameters values.|16777216|
+|object_access_mask|AccessMask|string|The desired access mask. This mask depends on Object Server and Object Type parameters values.|16777216|
 |object_privilege_list|PrivilegeList|string|the list of user privileges which were requested.|SeSecurityPrivilege|
 |process_id|ProcessId|integer|hexadecimal Process ID of the process that attempted the operation on the privileged object.|0x1f0|
 |process_path|ProcessName|string|full path and the name of the executable for the process.|C:\\Windows\\System32\\lsass.exe|

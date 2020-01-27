@@ -15,7 +15,7 @@ This event indicates that indirect access to an object was requested.
 |object_type|ObjectType|string|The type of an object for which access was requested.|ALPC Port|
 |object_name|ObjectName|string|full path and name of the object for which access was requested.|\\Sessions\\2\\Windows\\DwmApiPort|
 |object_access_list|AccessList|integer||%%4464|
-|object_access_mask|AccessMask|||0x1|
+|object_access_mask|AccessMask|string||0x1|
 |process_id|ProcessId|integer|hexadecimal Process ID of the process through which the access was requested. |0xe60|
 
 ## Reference
