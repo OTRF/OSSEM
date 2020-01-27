@@ -22,7 +22,7 @@ This event indicates that a handle was requested for either an Active Directory 
 |	object_type	|	ObjectType	|	string	|	the type or class of the object that was accessed.	|	SAM\_DOMAIN	|
 |	object_name	|	ObjectName	|	string	|	the name of an object for which access was requested.	|	DC=contoso,DC=local	|
 |	object_handle_id	|	HandleId	|	integer	|	hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID, for example, “4662: An operation was performed on an object.” This parameter might not be captured in the event, and in that case appears as “0x0”.	|	0xdd64d36870	|
-|	object_transaction_id	|	TransactionId	|	string	|	unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same the Transaction ID, such as “4660(S): An object was deleted.”	|	{00000000-0000-0000-0000-000000000000}	|
+|	transaction_guid	|	TransactionId	|	string	|	unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same the Transaction ID, such as “4660(S): An object was deleted.”	|	{00000000-0000-0000-0000-000000000000}	|
 |	object_access_list	|	AccessList	|	string	|	the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type.	|	%%5400	|
 |	object_access_mask	|	AccessMask	|	string	|	hexadecimal mask for the operation that was requested or performed. 	|	0x2d	|
 |	object_privilege_list	|	PrivilegeList	|	string	|	the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as “-”.	|	Ā	|
