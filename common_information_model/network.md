@@ -19,4 +19,4 @@ Event fields used to define metadata about network information seen in a typical
 | network_connection_history | string | TCP Flags and other potential IP header info |  |
 | network_connection_history_detailed | string | Detailed description of the information in network_connection_history |  |
 | network_connection_state | string | The end state of the session/connection as defined in short abbreviation |  |
-| network_connection_state_detailed | string | Detailed description of the information in network_connection_state |  |
+| network_direction | string | User/Device defined name of the direction of the connection | outbound |
