@@ -20,5 +20,5 @@ These events are essential for tracking activity for file objects that are sensi
 | [4663](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4663.md) | An attempt was made to access an object. | Windows Vista, Windows Server 2008 |
 | [4664](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4664.md) | An attempt was made to create a hard link. | Windows Vista, Windows Server 2008 |
 | [4985](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4985.md) | The state of a transaction has changed. | Windows Vista, Windows Server 2008 |
-| 5051 | A file was virtualized. | Windows Vista, Windows Server 2008 |
+| [5051](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-5051.md) | A file was virtualized. | Windows Vista, Windows Server 2008 |
 | [4670](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4670.md) | Permissions on an object were changed. | Windows Vista, Windows Server 2008 |
