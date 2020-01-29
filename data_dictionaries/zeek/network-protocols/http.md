@@ -94,7 +94,7 @@
 |     src_mime_type     |     orig_mime_types     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.    |   `["text/html"]`   |
 |     http_header_origin     |     origin     |     string     |     Value of the Origin header from the client     |     ``     |
 |     http_response_body_original     |     post_body     |     string     |     Content from the source/client inside the HTTP request body.     |   `{"pkg_utime":"0","conf_utime":"1555582468054"}`    |
-|     http_proxied     |     proxied     |     array_string     |     All of the headers that may indicate if the request was proxied. example: `FORWARDED`;`X-FORWARDED-FOR`;`X-FORWARDED-FROM`;`CLIENT-IP`;`VIA`;`XROXY-CONNECTION`;`PROXY-CONNECTION`    |   ``    |
+|     TBD     |     proxied     |     array_string     |     All of the headers that may indicate if the request was proxied. example: `FORWARDED`;`X-FORWARDED-FOR`;`X-FORWARDED-FROM`;`CLIENT-IP`;`VIA`;`XROXY-CONNECTION`;`PROXY-CONNECTION`    |   ``    |
 |     http_referrer_ original     |     referrer     |     string     |     Value of the "referer" header. The comment is deliberately misspelled like the standard declares, but the name used here is “referrer” spelled correctly     |     `http://localcontrol.netflix.com/js/boot.js`     |
 |     http_request_body_bytes     |     request_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the client     |     `0`     |
 |     http_response_body_bytes     |     response_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the server     |     `4951`     |
