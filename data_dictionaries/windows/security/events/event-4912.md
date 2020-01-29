@@ -13,10 +13,10 @@ This event generates every time Per User Audit Policy was changed.
 |user_domain|SubjectDomainName|string|subject's domain or computer name.|CONTOSO|
 |user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x11ae30|
 |target_user_sid|TargetUserSid|string|SID of account for which the Per User Audit Policy was changed.|S-1-5-21-3457937927-2839227994-823803824-2104|
-|category_id|CategoryId|integer|the name of auditing category which subcategory state was changed.|%%8276|
-|subcategory_id|SubcategoryId|integer|the name of auditing subcategory which state was changed.|%%13312|
-|subcategory_guid|SubcategoryGuid|string|the unique GUID of changed subcategory.|{0CCE922B-69AE-11D9-BED3-505054503030}|
-|subcategory_policy_changes|AuditPolicyChanges|string|changes which were made for the subcategory.|%%8452|
+|policy_category_id|CategoryId|integer|the name of auditing category which subcategory state was changed.|%%8276|
+|policy_subcategory_id|SubcategoryId|integer|the name of auditing subcategory which state was changed.|%%13312|
+|policy_subcategory_guid|SubcategoryGuid|string|the unique GUID of changed subcategory.|{0CCE922B-69AE-11D9-BED3-505054503030}|
+|policy_changes|AuditPolicyChanges|string|changes which were made for the subcategory.|%%8452|
 
 ## Reference
 
