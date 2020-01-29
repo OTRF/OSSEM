@@ -4,6 +4,9 @@
 
 This event generates every time that recovery is attempted for a DPAPI Master Key.
 
+## Event Log Illustration & Event XML
+[MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4693.md)
+
 ## Data Dictionary
 
 |Standard Name|Field Name|Type|Description|Sample Value|
@@ -14,10 +17,6 @@ This event generates every time that recovery is attempted for a DPAPI Master Ke
 |user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x30d7c|
 |master_key_id|MasterKeyId|string|unique identifier of a master key which was recovered.|0445c766-75f0-4de7-82ad-d9d97aad59f6|
 |recovery_key_reason|RecoveryReason|integer|hexadecimal code of recovery reason.|0x5c005c|
-|recovery_key_hostname|RecoveryServer|string|the name (typically – DNS name) of the computer that you contacted to recover your Master Key.|DC01.contoso.local|
+|target_host_name|RecoveryServer|string|the name (typically – DNS name) of the computer that you contacted to recover your Master Key.|DC01.contoso.local|
 |recovery_key_id|RecoveryKeyId|string|unique identifier of a recovery key.|None|
 |event_failure_reason|FailureId|integer|hexadecimal unique status code.|0x380000|
-
-## Reference
-
-[MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4693.md)
