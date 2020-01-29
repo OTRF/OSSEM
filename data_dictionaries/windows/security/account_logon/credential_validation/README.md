@@ -18,4 +18,4 @@ The main reason to enable this auditing subcategory is to handle local accounts 
 | 4774 | An account was mapped for logon [Event does not occour] | Windows Vista, Windows Server 2008 |
 | 4775 | An account could not be mapped for logon [Event does not occour] | Windows Vista, Windows Server 2008 |
 | [4776](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4776.md) | The computer attempted to validate the credentials for an account | Windows Vista, Windows Server 2008 |
-| 4777 | AThe domain controller failed to validate the credentials for an account | Windows Vista, Windows Server 2008 |
+| [4777](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security/events/event-4777.md) | AThe domain controller failed to validate the credentials for an account | Windows Vista, Windows Server 2008 |
