@@ -14,7 +14,7 @@ This event generates every time an Active Directory object is deleted.
 |----------------|----------------|----------------|----------------|----------------|
 |dsoperation_app_correlation_id|AppCorrelationID|string|always has “-“ value. Not in use.|-|
 |host_domain|DSName|string|the name of an Active Directory domain, where the object was deleted.|contoso.local|
-||DSType|string|has “Active Directory Domain Services” value for this event.|%%14676|
+|dsobject_domain_type|DSType|string|has “Active Directory Domain Services” value for this event.|%%14676|
 |user_sid|SubjectUserSid|string|SID of account that requested the “delete object” operation.|S-1-5-21-3457937927-2839227994-823803824-1104|
 |user_name|SubjectUserName|string|the name of the account that requested the “delete object” operation.|dadmin|
 |user_domain|SubjectDomainName|string|subject’s domain or computer name.|CONTOSO|
