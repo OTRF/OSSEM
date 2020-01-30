@@ -31,5 +31,5 @@ It is important to remember that in DNS logs their are multiple servers that may
 | dns_response_name | array_string | The results returned for the dns query. can contain a mix of IPs or domains | `8.8.8.8` |
 | dns_response_ttl | array_float | The time to live (TTL) for each dns_response_name | `` |
 | dns_rtt | float | round trip time (RTT) of the dns query to answer | `0.006946` |
-| dns_transaction_id | integer | 16-bit identifier assigned by the program that generated the DNS query. Can be used to match up DNS requests across software/clients | `19729` |
-| dns_transaction_id_hex | string | `dns_transaction_id` in hexadecimal format | `4D11` |
+| dns_transaction_id | integer | Hexadecimal identifier assigned by the program that generated the DNS query. Is 16-bit. Can be used to match up DNS requests across software/clients | `4D11` |
+| dns_transaction_id_hex | string | `dns_transaction_id` in decimal format | `19729` |
