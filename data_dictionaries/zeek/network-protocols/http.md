@@ -100,14 +100,14 @@
 |     http_response_body_bytes     |     response_body_len     |     integer     |     Actual uncompressed content size of the data transferred from the server     |     `4951`     |
 |     http_response_header_names     |     server_header_names     |     array_string     |          present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the server. No header values are included here, just the header names.   |   ` ["HOST", "USER-AGENT", "ACCEPT", "ACCEPT-LANGUAGE", "ACCEPT-ENCODING", "ACCEPT-CHARSET", "KEEP-ALIVE", "CONNECTION", "DATE", "SERVER", "MICROSOFTOFFICEWEBSERVER", "X-POWERED-BY", "CONTENT-LENGTH", "CONTENT-TYPE", "SET-COOKIE", "CACHE-CONTROL"]`  |
 |     dst_mime_type     |     resp_mime_types     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.    |   `["text/plain", "application/pdf" ]`   |
-|     **TBD**     |     omniture     |     boolean     |          present if policy/protocols/http/software-browser-plugins.bro is loaded Indicates if the server is an omniture advertising server.   |   ``  |
+|     TBD     |     omniture     |     boolean     |          present if policy/protocols/http/software-browser-plugins.bro is loaded Indicates if the server is an omniture advertising server.   |   ``  |
 |     http_status_code     |     status_code     |     integer     |     Status code returned by the server     |     `500`     |
 |     http_status_message     |     status_msg     |     string     |     Status message returned by the server     |     `Internal Server Error`     |
-|     **TBD**     |     trans_depth     |     integer     |     Represents the pipelined depth into the connection of this request/response transaction     |     `1`     |
+|     TBD     |     trans_depth     |     integer     |     Represents the pipelined depth into the connection of this request/response transaction     |     `1`     |
 |     http_version     |     version     |     string     |     Value of the version portion of the request.   |    `1.2`   |
 |     dst_file_path     |     resp_filenames     |     array_string     |          present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the server.   |   `UserHistorySheetNew.xls`  |
-|     **TBD**     |     flash_version     |     string     |          present if policy/protocols/http/software-browser-plugins.bro is loaded The unparsed Flash version, if detected.   |   ``  |
-|     **TBD**     |     tags     |     array_string     |     A set of indicators of various attributes discovered and related to a particular request/response pair     |     `["HTTP::URI_SQLI"]`     |
+|     TBD     |     flash_version     |     string     |          present if policy/protocols/http/software-browser-plugins.bro is loaded The unparsed Flash version, if detected.   |   ``  |
+|     TBD     |     tags     |     array_string     |     A set of indicators of various attributes discovered and related to a particular request/response pair     |     `["HTTP::URI_SQLI"]`     |
 |     url_original     |     uri     |     string     |     URI used in the request     |     `/demoactivebusinessdirectory/default.asp?catid=0+and+1=0`     |
-|     **TBD**     |     uri_vars     |     array_string     |          present if policy/protocols/http/var-extraction-uri.bro is loaded Variable names from the URI.   |   ``  |
+|     TBD     |     uri_vars     |     array_string     |          present if policy/protocols/http/var-extraction-uri.bro is loaded Variable names from the URI.   |   ``  |
 |     user_agent_original    |     user_agent     |     string     |     Value of the User-Agent header from the client     |     `Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.5) Gecko/2008120122 Firefox/3.0.5`     |

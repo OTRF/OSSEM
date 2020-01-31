@@ -57,9 +57,9 @@
 |     dst_certificate_issuer_name     |     issuer     |     string     | Subject of the signer of the X.509 certificate offered by the server. present if base/protocols/ssl/files.bro is loaded|   `CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie PSU,L=Nicosia,C=CY`  |
 |     dst_certificate_sha1     |     resp_certificate_sha1     |     string     |     sha1 representation of the server's certificate |     ``     |
 |     dst_certificate_subject_name     |     subject     |     string     | Subject of the X.509 certificate offered by the server. present if base/protocols/ssl/files.bro is loaded |   `CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie PSU,L=Nicosia,C=CY`  |
-|     **TBD**     |     valid_ct_logs     |     integer     | Number of different Logs for which valid SCTs were encountered in the connection. present if policy/protocols/ssl/validate-sct.bro is loaded |   ``  |
-|     **TBD**     |     valid_ct_operators     |     integer     | Number of different Log operators of which valid SCTs were encountered in the connection. present if policy/protocols/ssl/validate-sct.bro is loaded   |   ``  |
-|     **TBD**     |     valid_ct_operators_list     |     array_string     | List of operators for which valid SCTs were encountered in the connection. present if policy/protocols/ssl/validate-sct.bro is loaded |   ``  |
+|     TBD     |     valid_ct_logs     |     integer     | Number of different Logs for which valid SCTs were encountered in the connection. present if policy/protocols/ssl/validate-sct.bro is loaded |   ``  |
+|     TBD     |     valid_ct_operators     |     integer     | Number of different Log operators of which valid SCTs were encountered in the connection. present if policy/protocols/ssl/validate-sct.bro is loaded   |   ``  |
+|     TBD     |     valid_ct_operators_list     |     array_string     | List of operators for which valid SCTs were encountered in the connection. present if policy/protocols/ssl/validate-sct.bro is loaded |   ``  |
 |     tls_certificate_validation_status     |     validation_status     |     boolean     | Result of certificate validation for this connection. present if policy/protocols/ssl/validate-certs.bro is loaded | `self signed certificate` |
 |     tls_version     |     version     |     string     |     SSL/TLS version that the server chose.   |   `TLSv10`   |
 |     tls_version_number     |     version_num     |     integer     |     Numeric SSL/TLS version that the server chose     |     ``     |
