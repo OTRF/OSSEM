@@ -22,6 +22,6 @@ This event generates every time the Key Distribution Center fails to issue a Ker
 |	ticket_pre_auth_type	|	PreAuthType	|	integer	|	the code of pre-Authentication type which was used in TGT request.	|	15	|
 |	src_ip_addr	|	IpAddress	|	ip	|	IP address of the computer from which the TGT request was received. 	|	::ffff:10.0.0.12	|
 |	src_port	|	IpPort	|	integer	|	source port number of client network connection (TGT request connection).	|	49254	|
-|	certificate_issuer_name	|	CertIssuerName	|	string	|	the name of the Certification Authority that issued the smart card certificate. Populated in Issued by field in certificate.	|		|
+|	certificate_issuer	|	CertIssuerName	|	string	|	the name of the Certification Authority that issued the smart card certificate. Populated in Issued by field in certificate.	|		|
 |	certificate_serial_number	|	CertSerialNumber	|	string	|	smart card certificate’s serial number. Can be found in Serial number field in the certificate.	|		|
-|	certificate_thumbprint	|	CertThumbprint	|	string	|	smart card certificate’s thumbprint. Can be found in Thumbprint field in the certificate.	|		|
+|	certificate_hash_sha1	|	CertThumbprint	|	string	|	smart card certificate’s thumbprint. Can be found in Thumbprint field in the certificate.	|		|
