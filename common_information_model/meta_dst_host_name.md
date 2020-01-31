@@ -7,3 +7,5 @@
 1. Detect typosquatting  
 Example of a, similar, real world implementation to detect typo squatting:  
 https://blog.neu5ron.com/2018/04/typosquatting-detection-with-elk-bro-nsm.html
+
+This document is a work in progress, but is a foundational start is here to be included.

@@ -2,7 +2,7 @@
 
 Event fields used to define metadata about the User-Agent header in an application. Most commonly this header/field is seen in HTTP log sources. However, can also be seen in SIP and SMTP.
 
-Work in progress...
+This document is a work in progress, but is a foundational start there is included.
 
 ## Data Fields
 

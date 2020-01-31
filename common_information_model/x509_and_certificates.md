@@ -2,7 +2,7 @@
 
 Data about X509 and Certificates. These would commonly be found in TLS/SSL connections, smart card certificates, kerberos requests, code signing of PE's and executables, etc...
 
-Work in Progress...  
+This document is a work in progress, but is a foundational start there is included. Specifically the main foundations of certificate information is already in here.
 
 ## Data Fields
 
