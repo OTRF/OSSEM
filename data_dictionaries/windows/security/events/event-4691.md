@@ -14,8 +14,8 @@ This event indicates that indirect access to an object was requested.
 |user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x36509|
 |object_type|ObjectType|string|The type of an object for which access was requested.|ALPC Port|
 |object_name|ObjectName|string|full path and name of the object for which access was requested.|\\Sessions\\2\\Windows\\DwmApiPort|
-|object_access_list|AccessList|integer||%%4464|
-|object_access_mask|AccessMask|||0x1|
+|object_access_list|AccessList|string|the list of user privileges which were requested|%%4464|
+|object_access_mask|AccessMask|string|The value of this parameter is in decimal format. There is no detailed information about this parameter in this document. If Desired Access is not presented, then this parameter will have “0” value.|0x1|
 |process_id|ProcessId|integer|hexadecimal Process ID of the process through which the access was requested. |0xe60|
 
 ## Reference

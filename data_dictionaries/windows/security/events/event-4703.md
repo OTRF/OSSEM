@@ -18,8 +18,8 @@ This event generates when token privileges.
 |target_user_logon_id|TargetLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x3e7|
 |process_path|ProcessName|string|full path and the name of the executable for the process.|C:\\Windows\\System32\\svchost.exe|
 |process_id|ProcessId|integer|hexadecimal Process ID of the process that enabled or disabled token privileges. |0x270|
-|user_enabled_privilege_list|EnabledPrivilegeList|string|the list of enabled user rights.|SeAssignPrimaryTokenPrivilege SeIncreaseQuotaPrivilege SeSecurityPrivilege SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeSystemtimePrivilege SeBackupPrivilege SeRestorePrivilege SeShutdownPrivilege SeSystemEnvironmentPrivilege SeUndockPrivilege SeManageVolumePrivilege|
-|user_disabled_privilege_list|DisabledPrivilegeList|string|the list of disabled user rights|-|
+|target_user_enabled_privilege_list|EnabledPrivilegeList|string|the list of enabled user rights.|SeAssignPrimaryTokenPrivilege SeIncreaseQuotaPrivilege SeSecurityPrivilege SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeSystemtimePrivilege SeBackupPrivilege SeRestorePrivilege SeShutdownPrivilege SeSystemEnvironmentPrivilege SeUndockPrivilege SeManageVolumePrivilege|
+|target_user_disabled_privilege_list|DisabledPrivilegeList|string|the list of disabled user rights|-|
 
 ## Reference
 

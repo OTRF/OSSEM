@@ -4,6 +4,10 @@
 
 This event generates when an attempt was made to perform privileged system service operations. This event generates, for example, when SeSystemtimePrivilege, SeCreateGlobalPrivilege, or SeTcbPrivilege privilege was used.
 
+## Event Log Illustration & Event XML
+
+[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4673.md)
+
 ## Data Dictionary
 
 |Standard Name|Field Name|Type|Description|Sample Value|
@@ -16,8 +20,4 @@ This event generates when an attempt was made to perform privileged system servi
 |process_path|ProcessName|string|full path and the name of the executable for the process.|C:\Windows\System32\lsass.exe|
 |object_server|ObjectServer|string|contains the name of the Windows subsystem calling the routine.|NT Local Security Authority / Authentication Service|
 |user_privilege_list|PrivilegeList|string|the list of user privileges which were requested.|SeCreateGlobalPrivilege|
-||Service|string|supplies a name of the privileged subsystem service or function.|LsaRegisterLogonProcess()|
-
-## Reference
-
-[MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4673.md)
+|service_name|Service|string|supplies a name of the privileged subsystem service or function.|LsaRegisterLogonProcess()|

@@ -12,10 +12,10 @@ This event generates when the computer's audit policy changes.
 |user_name|SubjectUserName|string|he name of the account that made a change to local audit policy.|DC01$|
 |user_domain|SubjectDomainName|string|subject's domain or computer name.|CONTOSO|
 |user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x3e7|
-|category_id|CategoryId|integer|the name of auditing Category which subcategory was changed.|%%8274|
-|subcategory_id|SubcategoryId|integer|the name of auditing Subcategory which was changed|%%12807|
-|subcategory_guid|SubcategoryGuid|string|the unique subcategory GUID|{0CCE9223-69AE-11D9-BED3-505054503030}|
-|subcategory_policy_changes|AuditPolicyChanges|integer|changes which were made for "Subcategory"|%%8448, %%8450|
+|policy_category_id|CategoryId|integer|the name of auditing Category which subcategory was changed.|%%8274|
+|policy_subcategory_id|SubcategoryId|integer|the name of auditing Subcategory which was changed|%%12807|
+|policy_subcategory_guid|SubcategoryGuid|string|the unique subcategory GUID|{0CCE9223-69AE-11D9-BED3-505054503030}|
+|policy_changes|AuditPolicyChanges|integer|changes which were made for "Subcategory"|%%8448, %%8450|
 
 ## Reference
 

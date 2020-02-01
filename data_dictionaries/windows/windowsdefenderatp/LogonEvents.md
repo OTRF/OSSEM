@@ -26,7 +26,7 @@ Login and other authentication events
 |	logon_type	|	LogonType	|	string	|	Type of logon session	|		|
 |	logon_id	|	LogonId	|	string	|	Identifier for a logon session. This identifier is unique on the same machine only between restarts.	|		|
 |	dst_host_name	|	RemoteComputerName	|	string	|	Name of the machine that performed a remote operation on the affected machine. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name, or a host name without domain information.	|		|
-|	dst_ip	|	RemoteIP	|	string	|	IP address that was being connected to	|		|
+|	dst_ip_addr	|	RemoteIP	|	string	|	IP address that was being connected to	|		|
 |	remote_ip_type	|	RemoteIPType	|	string	|	Type of IP address, for example Public, Private, Reserved, Loopback, Teredo, FourToSixMapping, and Broadcast	|		|
 |	dst_port	|	RemotePort	|	int	|	TCP port on the remote device that was being connected to	|		|
 |	additional_fields	|	AdditionalFields	|	string	|	Additional information about the event in JSON array format	|		|

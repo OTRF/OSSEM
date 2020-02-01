@@ -53,7 +53,7 @@ A new process has started (or exited) on an endpoint monitored by Carbon Black.
 |	process_process_creation_time	|	parent_create_time	|	INTEGER	|	seconds since epoch of parent process create time	|	1447440685	|
 |	process_parent_hash	|	parent_md5	|	TEXT	|	MD5 of parent’s executable image	|	79227C1E2225DE455F365B607A6D46FB	|
 |	process_parent_file_path	|	parent_path	|	TEXT	|	file path of parent’s executable image	|	/sbin/launcd	|
-|   parent_process_id       |   parent_pid  |   INTEGER     | OS Process id of parent process   |   28463   |
+|   process_parent_id       |   parent_pid  |   INTEGER     | OS Process id of parent process   |   28463   |
 |	process_parent_guid	|	parent_process_guid	|	TEXT	|	Cb Process GUID of parent process	|	00000001-0000-0af4-01d1-1e444bf4c3dd	|
 |	file_path	|	path	|	TEXT	|	file path of the child processes’ executable image	|   /Applications/Notes.app/Contents/Notes	|
 |	process_id	|	pid	|	INTEGER	|	OS Process id of child process	|	19721	|

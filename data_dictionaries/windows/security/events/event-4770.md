@@ -20,5 +20,5 @@ This event generates for every Ticket Granting Service (TGS) ticket renewal. Thi
 |	service_id	|	ServiceSid	|	string	|	SID of the account or computer object for which the TGS ticket was renewed. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.		|	S-1-5-21-3457937927-2839227994-823803824-502	|
 |	ticket_options	|	TicketOptions	|	string	|	this is a set of different Ticket Flags in hexadecimal format.		|	0x2	|
 |	ticket_encryption_type	|	TicketEncryptionType	|	string	|	the cryptographic suite that was used in renewed TGS.		|	0x12	|
-|	src_ip	|	IpAddress	|	ip	|	IP address of the computer from which the TGS renewal request was received. 		|	::ffff:10.0.0.12	|
+|	src_ip_addr	|	IpAddress	|	ip	|	IP address of the computer from which the TGS renewal request was received. 		|	::ffff:10.0.0.12	|
 |	src_port	|	IpPort	|	integer	|	source port number of client network connection (TGS renewal request connection).		|	49964	|

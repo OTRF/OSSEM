@@ -88,7 +88,7 @@
 | scheduled task creation | user | created | scheduled task|
 | scheduled task deletion | user | deleted | scheduled task|
 | scheduled task enable | user | enabled | scheduled task|
-| scheduled tast disable | user | disabled | scheduled task|
+| scheduled task disable | user | disabled | scheduled task|
 | scheduled task update | user | updated | scheduled task|
 | win registry key access | user | accessed | registry|
 | win registry key deletion | user | deleted | registry|

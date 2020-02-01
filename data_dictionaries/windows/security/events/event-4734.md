@@ -14,9 +14,9 @@ This event generates every time security-enabled (security) local group is delet
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	target_group_name	|	TargetUserName	|	string	|	the name of the group that was deleted. For example: ServiceDesk	|	AccountOperators	|
-|	target_group domain	|	TargetDomainName	|	string	|	domain or computer name of the deleted group.	|	CONTOSO	|
-|	target_group_sid	|	TargetSid	|	string	|	SID of deleted group. Event Viewer automatically tries to resolve SIDs and show the group name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-3457937927-2839227994-823803824-6605	|
+|	group_name	|	TargetUserName	|	string	|	the name of the group that was deleted. For example: ServiceDesk	|	AccountOperators	|
+|	group_domain	|	TargetDomainName	|	string	|	domain or computer name of the deleted group.	|	CONTOSO	|
+|	group_sid	|	TargetSid	|	string	|	SID of deleted group. Event Viewer automatically tries to resolve SIDs and show the group name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-3457937927-2839227994-823803824-6605	|
 |	user_sid	|	SubjectUserSid	|	string	|	SID of account that requested the “delete group” operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	SubjectUserName	|	string	|	the name of the account that requested the “delete group” operation.	|	dadmin	|
 |	user_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|

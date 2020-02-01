@@ -19,7 +19,7 @@ This event generates every time user object is changed.
 
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
-|	dumny	|	Dummy	|	string	|		|	-	|
+|	user_attribute_dummy	|	Dummy	|	string	|		|	-	|
 |	target_user_name	|	TargetUserName	|	string	|	the name of the account that was changed.	|	ksmith	|
 |	target_user_domain	|	TargetDomainName	|	string	|	target account’s domain or computer name.	|	CONTOSO	|
 |	target_user_sid	|	TargetSid	|	string	|	SID of account that was changed. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.	|	S-1-5-21-3457937927-2839227994-823803824-6609	|

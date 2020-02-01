@@ -10,7 +10,7 @@ This event generates when Windows Filtering Platform.
 |---|---|---|---|---|
 |process_id|ProcessId|string|hexadecimal Process ID of the process to which blocked network packet was sent.|4556|
 |process_path|Application|string|full path and the name of the executable for the process.|\\device\\harddiskvolume2\\documents\\listener.exe|
-||Direction|string|full path and the name of the executable for the process.|%%14592|
+|network_direction|Direction|string|full path and the name of the executable for the process.|%%14592|
 |src_ip_addr|SourceAddress|string|local IP address on which application received the packet.|10.0.0.100|
 |src_port|SourcePort|integer|port number on which application received the packet.|49278|
 |dst_ip_addr|DestAddress|string|IP address from which packet was received or initiated.|10.0.0.10|

@@ -20,14 +20,14 @@ Network connection and related events
 |	machine_id	|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
 |	computer_name	|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
 |	action_type	|	ActionType	|	string	|	Type of activity that triggered the event	|		|
-|	dst_ip	|	RemoteIP	|	string	|	IP address that was being connected to	|		|
+|	dst_ip_addr	|	RemoteIP	|	string	|	IP address that was being connected to	|		|
 |	dst_port	|	RemotePort	|	int	|	TCP port on the remote device that was being connected to	|		|
 |	dst_host_name	|	RemoteUrl	|	string	|	URL or fully qualified domain name (FQDN) that was being connected to	|		|
-|	src_ip	|	LocalIP	|	string	|	IP address assigned to the local machine used during communication	|		|
+|	src_ip_addr	|	LocalIP	|	string	|	IP address assigned to the local machine used during communication	|		|
 |	src_port	|	LocalPort	|	int	|	TCP port on the local machine used during communication	|		|
 |	network_protocol	|	Protocol	|	string	|	IP protocol used, whether TCP or UDP	|		|
 |	src_ip_type	|	LocalIPType	|	string	|		Type of IP address, for example Public, Private, Reserved, Loopback, Teredo, FourToSixMapping, and Broadcast	|		|
-|	dst_ip_type	|	RemoteIPType	|	string	|	Type of IP address, for example Public, Private, Reserved, Loopback, Teredo, FourToSixMapping, and Broadcast	|		|
+|	dst_ip_addr_type	|	RemoteIPType	|	string	|	Type of IP address, for example Public, Private, Reserved, Loopback, Teredo, FourToSixMapping, and Broadcast	|		|
 |	hash_sha1	|	InitiatingProcessSHA1	|	string	|	SHA-1 of the process (image file) that initiated the event	|		|
 |	hash_md5	|	InitiatingProcessMD5	|	string	|	MD5 hash of the process (image file) that initiated the event	|		|
 |	process_name	|	InitiatingProcessFileName	|	string	|	Name of the process that initiated the event	|		|

@@ -30,3 +30,4 @@ Event fields used to define metadata about users in an network environment.
 |	user_upn	|	string	|	UPN of the account for which delegation was requested.	|	dadmin@contoso	|
 |	user_cred_type	|	string	|	types of credentials which were presented for delegation	|	%%8098	|
 |	user_identity	|	string	|	User Principal Name (UPN) or another type of account identifier for which 802.1x authentication request was made.	|	host/XXXXXXXX.redmond.corp.microsoft.com	|
+|	user_password	|	string	|	User password if seen in the request. Commonly seen in network logs and authentication proxy/logs.	|	bobspassword	|

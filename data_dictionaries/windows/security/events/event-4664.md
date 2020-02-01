@@ -20,4 +20,4 @@ This event generates when an NTFS hard link was successfully created.
 |	user_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x43659	|
 |	file_name	|	FileName	|	string	|	the name of a file or folder that new hard link refers to.	|	C:\\notepad.exe	|
 |	file_link_name	|	LinkName	|	string	|	full path name with new hard link file name.	|	C:\\Docs\\My.exe	|
-|	transaction_id	|	TransactionId	|	string	|	unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID, such as “4660(S): An object was deleted.”	|	{00000000-0000-0000-0000-000000000000}	|
+|	transaction_guid	|	TransactionId	|	string	|	unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID, such as “4660(S): An object was deleted.”	|	{00000000-0000-0000-0000-000000000000}	|

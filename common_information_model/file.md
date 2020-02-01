@@ -8,7 +8,7 @@ Event fields used to define metadata about files either locally or over the wire
 |--------|---------|-------|-------|
 | file_name | string | name of a file without its full path | a.exe |
 | file_path | string | full path of a file including the name of the file | C:\users\wardog\z.exe |
-| file_extension | string | The file extension of a file (.txt, .exe, etc) | zip |
+| file_extension | string | The file extension of a file (.txt, .exe, etc) | exe |
 | file_mime_type | string | Specifies the MIME type name specified for a file | application/msword |
 | file_size | string | Specifies the size of a file, in bytes | 45 |
 | file_system_block_size | integer | Block size of filesystem | |
@@ -20,5 +20,7 @@ Event fields used to define metadata about files either locally or over the wire
 | file_inode | integer | Filesystem inode number | |
 | file_hard_links | integer | Number of hard links | 3 |
 | file_symlink | integer | 1 if the path is a symlink, otherwise 0 | 0 |
+| file_symlink_name	|	string	|	path of the symlink	|	C:\\Docs\\My.exe	|
+| file_link_name	|	string	|	path of the hard link	|	C:\\Docs\\My.exe	|
 | file_timestamp_creation | integer | The file's current creation Timestamp on the disk | 2016-11-25 18:21:47 | 
 | file_timestamp_previous_creation | integer | The file's previous creation timestamp | 2017-07-30 23:26:47 |
