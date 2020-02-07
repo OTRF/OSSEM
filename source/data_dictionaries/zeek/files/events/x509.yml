@@ -1,0 +1,141 @@
+title: x509 Log
+description: null
+platform: zeek
+log_source: files
+event_code: x509
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: string
+  description: File id of this certificate
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: basic_constraints_ca
+  type: boolean
+  description: CA flag set
+  sample_value: 'false'
+- standard_name: TBD
+  standard_type: TBD
+  name: basic_constraints_path_len
+  type: integer
+  description: Maximum path length
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_cn
+  type: string
+  description: Last (most specific) common name
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_curve
+  type: string
+  description: Curve, if EC-certificate
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_exponent
+  type: string
+  description: Exponent, if RSA-certificate
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_issuer
+  type: string
+  description: Issuer
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_key_alg
+  type: string
+  description: Name of the key algorithm
+  sample_value: rsaEncryption
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_key_length
+  type: integer
+  description: Key length in bits
+  sample_value: '2084'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_key_type
+  type: string
+  description: Key type, if key parsable by openssl (either rsa, dsa or ec)
+  sample_value: rsa
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_not_valid_after
+  type: date_time
+  description: Timestamp after when certificate is not valid
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_not_valid_before
+  type: date_time
+  description: Timestamp before when certificate is not valid
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_serial
+  type: string
+  description: Serial number.
+  sample_value: 01F4DB;2F00024CD8CBAD57B4A422DB55000000022CD8
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_sig_alg
+  type: string
+  description: Name of the signature algorithm
+  sample_value: dsaWithSHA1
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_subject
+  type: string
+  description: Subject
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: certificate_version
+  type: integer
+  description: Version number
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: logcert
+  type: boolean
+  description: present if policy/protocols/ssl/log-hostcerts-only.bro is loaded Logging
+    of certificate is suppressed if set to F
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: san_dns
+  type: array_string
+  description: List of DNS entries in SAN
+  sample_value: bobsyauncle.domain.local
+- standard_name: TBD
+  standard_type: TBD
+  name: san_email
+  type: array_string
+  description: List of email entries in SAN
+  sample_value: bobsyauncle@somedomain.local
+- standard_name: TBD
+  standard_type: TBD
+  name: san_ip
+  type: array_ip
+  description: List of IP entries in SAN
+  sample_value: 10.1.1.1
+- standard_name: TBD
+  standard_type: TBD
+  name: san_uri
+  type: array_string
+  description: List of URI entries in SAN
+  sample_value: /bobs/ya/uncle/uncl.txt
+references: []
+tags: []

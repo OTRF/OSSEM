@@ -1,0 +1,15 @@
+# Event 62 - Service_InConnectedStandby
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Environment|TBD|UnicodeString|None|None|
+|TBD|State|TBD|Boolean|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Service
+* etw_task_Service_InConnectedStandby

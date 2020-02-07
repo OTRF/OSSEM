@@ -1,0 +1,165 @@
+title: SO Host Data - Logon Session Table
+description: Get-SOHostData uses the LsaEnumerateLogonSessions and LsaGetLogonSessionData
+  APIs to enumerate active Logon Sessions running on the target system.
+platform: windows
+log_source: so-host-data
+event_code: logonsession
+event_fields:
+- standard_name: source_type
+  standard_type: TBD
+  name: SourceType
+  type: TEXT
+  description: Type of data represented
+  sample_value: WinEvent-LogonSession
+- standard_name: id
+  standard_type: TBD
+  name: Id
+  type: TEXT
+  description: SO Host Data's unique identifier of this instance
+  sample_value: EC0AC744FFFBE3228F9E73EC60FA74F3BAB8330DFBCA51B269FC8A3B3B5DD7CD
+- standard_name: logon_id
+  standard_type: TBD
+  name: LogonId
+  type: LONG
+  description: Unique identifier for Logon Session
+  sample_value: '351709'
+- standard_name: username
+  standard_type: TBD
+  name: UserName
+  type: TEXT
+  description: Account name that owns the logon session
+  sample_value: tester
+- standard_name: logon_domain
+  standard_type: TBD
+  name: LogonDomain
+  type: TEXT
+  description: Domain name used to authenticate
+  sample_value: ''
+- standard_name: authentication_package
+  standard_type: TBD
+  name: AuthenticationPackage
+  type: TEXT
+  description: Authentication package used to authenticate
+  sample_value: NTLM
+- standard_name: logon_type
+  standard_type: TBD
+  name: LogonType
+  type: TEXT
+  description: Logon method
+  sample_value: Interactive
+- standard_name: session
+  standard_type: TBD
+  name: Session
+  type: LONG
+  description: Terminal services session identifier
+  sample_value: '1'
+- standard_name: sid
+  standard_type: TBD
+  name: Sid
+  type: TEXT
+  description: User's security identifier
+  sample_value: S-1-5-21-386661145-2656271985-3844047388-1001
+- standard_name: logon_time
+  standard_type: TBD
+  name: LogonTime
+  type: DATE
+  description: Time the session owner logged on
+  sample_value: 2/20/2018 6:05:46 PM
+- standard_name: logon_server
+  standard_type: TBD
+  name: LogonServer
+  type: TEXT
+  description: Server used to authenticate
+  sample_value: DESKTOP-HMTGQ0R
+- standard_name: dns_domain_name
+  standard_type: TBD
+  name: DnsDomainName
+  type: TEXT
+  description: DNS name of the logon session owner
+  sample_value: ''
+- standard_name: upn
+  standard_type: TBD
+  name: Upn
+  type: TEXT
+  description: User principal name of the logon session owner
+  sample_value: ''
+- standard_name: user_flags
+  standard_type: TBD
+  name: UserFlags
+  type: INTEGER
+  description: User flags for logon session
+  sample_value: '33056'
+- standard_name: last_successful_logon
+  standard_type: TBD
+  name: LastSuccessfulLogon
+  type: INTEGER
+  description: Information about the last logon
+  sample_value: '0'
+- standard_name: last_failed_logon
+  standard_type: TBD
+  name: LastFailedLogon
+  type: ''
+  description: ''
+  sample_value: '0'
+- standard_name: failed_attempt_count_since_last_successful_logon
+  standard_type: TBD
+  name: FailedAttemptCountSinceLastSuccessfulLogon
+  type: ''
+  description: ''
+  sample_value: '0'
+- standard_name: logon_script
+  standard_type: TBD
+  name: LogonScript
+  type: TEXT
+  description: Script user for logging on
+  sample_value: ''
+- standard_name: profile_path
+  standard_type: TBD
+  name: ProfilePath
+  type: TEXT
+  description: Path of the user's profile
+  sample_value: ''
+- standard_name: home_directory
+  standard_type: TBD
+  name: HomeDirectory
+  type: TEXT
+  description: Home directory for the user's logon session
+  sample_value: ''
+- standard_name: home_directory_drive
+  standard_type: TBD
+  name: HomeDirectoryDrive
+  type: TEXT
+  description: Drive location of the home directory
+  sample_value: ''
+- standard_name: logoff_time
+  standard_type: TBD
+  name: LogoffTime
+  type: DATE
+  description: Time when session user logged off
+  sample_value: 1/1/1970 1:00:00 AM
+- standard_name: kickoff_time
+  standard_type: TBD
+  name: KickoffTime
+  type: DATE
+  description: Time that the session must end
+  sample_value: 1/1/1970 1:00:00 AM
+- standard_name: password_last_set
+  standard_type: TBD
+  name: PasswordLastSet
+  type: DATE
+  description: Time when the user last set their password
+  sample_value: 8/13/2015 5:43:32 PM
+- standard_name: password_can_change
+  standard_type: TBD
+  name: PasswordCanChange
+  type: DATE
+  description: Time when password can change
+  sample_value: 8/14/2015 5:43:32 PM
+- standard_name: password_must_change
+  standard_type: TBD
+  name: PasswordMustChange
+  type: DATE
+  description: Time when password must change
+  sample_value: 1/1/1970 1:00:00 AM
+references: []
+tags: []

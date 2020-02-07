@@ -1,0 +1,14 @@
+# Event 13 - ThemePreview
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|type|TBD|UInt32|None|None|
+|TBD|pszBackgroundFile|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_ThemePreview

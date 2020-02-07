@@ -1,0 +1,34 @@
+# DNS Log
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|@timestamp|ts|TBD|date_time|Timestamp of the beginning of the event in epoch format|1300475167.096535|
+|network_protocol|proto|TBD|string|The transport layer protocol of the connection.|udp|
+|src_ip_addr|id.orig_h|TBD|ip|The originating/source IP address|192.168.50.50|
+|src_port|id.orig_p|TBD|integer|The originating/source port|1026|
+|dst_ip_addr|id.resp_h|TBD|ip|The responding/destination IP address|192.168.0.1|
+|dst_port|id.resp_p|TBD|integer|The responding/destination port|53|
+|event_uid|uid|TBD|string|Unique ID for the connection.|CHhAvVGS1DHFjwGM9|
+|dns_flags_authoritative|AA|TBD|boolean|The Authoritative Answer bit for response messages specifies that the responding name server is an authority for the domain name in the question section.|false|
+|dns_additional_name|addl|TBD|array_string|present if policy/protocols/dns/auth-addl.bro is loaded Additional responses for the query.|[ "69.1.200.68", "202.49.59.6" ]|
+|dns_additional_authoritative_name|auth|TBD|array_string|present if policy/protocols/dns/auth-addl.bro is loaded Authoritative responses for the query.|[ "a.ns.madduck.net", "aventura.bhms-groep.nl", "ns1.mailworx.net", "slartibartfast.bhms-groep.nl", "zbasel.fortytwo.ch", "usenet.net.nz" ]|
+|dns_response_name|answers|TBD|array_string|The set of resource descriptions in the query answer. Can be any string.|"67.129.68.9", "69.44.57.60", "207.234.209.181", "209.132.176.4", "216.27.185.42", "24.34.79.42", "24.123.202.230", "63.164.62.249", "64.112.189.11", "65.125.233.206", "66.33.206.5", "66.33.216.11", "66.92.68.246", "66.111.46.200", "66.115.136.4"|
+|dns_response_ttl|TTLs|TBD|array_float|The caching intervals of the associated RRs described by the answers field.|[ 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463 ]|
+|dns_flags_recursion_available|RA|TBD|boolean|The Recursion Available bit in a response message indicates that the name server supports recursive queries.|true|
+|dns_flags_recursion_desired|RD|TBD|boolean|The Recursion Desired bit in a request message indicates that the client wants recursive service for this query.|true|
+|dns_rejected|rejected|TBD|boolean|The DNS query was rejected by the server.|false|
+|dns_flags_truncated|TC|TBD|boolean|The Truncation bit specifies that the message was truncated.|true|
+|dns_flags_z|Z|TBD|integer|Reserved field that is usually zero in queries and responses.|0|
+|dns_query_class|qclass|TBD|integer|The QCLASS value specifying the class of the query.|1|
+|dns_query_class_name|qclass_name|TBD|string|Descriptive name for the class of the query.|C_INTERNET|
+|dns_query_type|qtype|TBD|integer|QTYPE value specifying the type of the query.|1|
+|dns_query_type_name|qtype_name|TBD|string|Descriptive name for the type of the query.|A|
+|dns_query_name|query|TBD|string|The domain name that is the subject of the DNS query.|us.pool.ntp.org|
+|dns_response_code_name|rcode_name|TBD|string|Descriptive name for the response code value.|NOERROR|
+|dns_rtt|rtt|TBD|float|Round trip time for the query and response. This indicates the delay between when the request was seen until the answer started.|0.006946|
+|dns_response_code|rcode|TBD|integer|The response code value in DNS response messages.|0|
+|dns_transaction_id|trans_id|TBD|string|16-bit identifier assigned by the program that generated the DNS query. Also used in responses to match up replies to outstanding queries.|43|

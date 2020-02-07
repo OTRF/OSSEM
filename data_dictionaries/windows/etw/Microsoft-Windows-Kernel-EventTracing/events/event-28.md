@@ -1,0 +1,16 @@
+# Event 28 - Provider
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ProviderGuid|TBD|GUID|None|None|
+|TBD|ErrorCode|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Error
+* etw_keywords_ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION ETW_KEYWORD_GROUP
+* etw_opcode_SetProviderTraits
+* etw_task_Provider

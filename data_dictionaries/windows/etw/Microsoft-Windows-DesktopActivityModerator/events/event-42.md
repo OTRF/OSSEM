@@ -1,0 +1,14 @@
+# Event 42 - PolicyReload
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|PolicyRecords|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Policy
+* etw_task_PolicyReload

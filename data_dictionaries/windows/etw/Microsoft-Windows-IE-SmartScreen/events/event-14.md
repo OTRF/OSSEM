@@ -1,0 +1,17 @@
+# Event 14 - URSCall
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|URL|TBD|UnicodeString|None|None|
+|TBD|Categories|TBD|UnicodeString|None|None|
+|TBD|HC|TBD|UInt32|None|None|
+|TBD|PC|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_functionality
+* etw_task_URSCall

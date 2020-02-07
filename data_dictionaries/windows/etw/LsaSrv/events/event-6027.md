@@ -1,0 +1,15 @@
+# Event 6027 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Secret|TBD|UnicodeString|None|None|
+|TBD|__binLength|TBD|UInt32|None|None|
+|TBD|status|TBD|Binary|None|None|
+
+## Tags
+* etw_level_Error
+* etw_task_task_0

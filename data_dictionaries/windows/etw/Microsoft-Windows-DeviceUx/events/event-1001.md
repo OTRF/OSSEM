@@ -1,0 +1,14 @@
+# Event 1001 - BWContextHandler_UninstallError
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ErrorCode|TBD|HexInt32|None|None|
+
+## Tags
+* etw_level_Warning
+* etw_keywords_DeviceUX
+* etw_task_BWContextHandler_UninstallError

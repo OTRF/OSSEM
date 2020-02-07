@@ -1,0 +1,78 @@
+title: 'Event ID 4758: A security-enabled universal group was deleted'
+description: Event 4758 is the same as 4734, but it is generated for a universal 
+  security group instead of a local security group. All event fields, XML, 
+  and recommendations are the same. The type of group is the only difference.
+
+  Event 4758(S) generates only for domain groups, so the Local sections in 
+  event 4734 do not apply.
+platform: windows
+log_source: security
+event_code: '4758'
+event_fields:
+- standard_name: group_name
+  standard_type: TBD
+  name: TargetUserName
+  type: string
+  description: 'the name of the group that was deleted. For example: ServiceDesk'
+  sample_value: AccountOperators
+- standard_name: group_domain
+  standard_type: TBD
+  name: TargetDomainName
+  type: string
+  description: domain or computer name of the deleted group.
+  sample_value: CONTOSO
+- standard_name: group_sid
+  standard_type: TBD
+  name: TargetSid
+  type: string
+  description: SID of deleted group. Event Viewer automatically tries to resolve SIDs
+    and show the group name. If the SID cannot be resolved, you will see the source
+    data in the event.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-6605
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that requested the "delete group" operation. Event Viewer
+    automatically tries to resolve SIDs and show the account name. If the SID cannot
+    be resolved, you will see the source data in the event.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that requested the "delete group" operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x35e38'
+- standard_name: user_privilege_list
+  standard_type: TBD
+  name: PrivilegeList
+  type: string
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-". See full list of user privileges in "Table 8.
+    User Privileges.".
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4734.md
+- text: MS Security Auditing Category - Account Management
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management
+- text: MS Security Auditing Sub-category - Audit Security Group Management
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-group-management.md
+tags:
+- Account Management
+- Audit Security Group Management

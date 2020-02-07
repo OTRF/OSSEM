@@ -1,0 +1,15 @@
+# Event 216 - IDXGIFactory_GetWindowAssociation
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|pThis|TBD|Pointer|None|None|
+|TBD|phWnd|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Always
+* etw_opcode_Start
+* etw_task_IDXGIFactory_GetWindowAssociation

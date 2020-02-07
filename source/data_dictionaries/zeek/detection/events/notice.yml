@@ -1,0 +1,158 @@
+title: Notice Log
+description: null
+platform: zeek
+log_source: detection
+event_code: notice
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: An absolute time indicating when the notice occurred, defaults to the
+    current network time in epoch
+  sample_value: '1300475167.096535'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: fuid
+  type: string
+  description: A file unique ID if this notice is related to a file. If the f field
+    is provided, this will be automatically filled out
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: file_desc
+  type: string
+  description: Frequently files can be "described" to give a bit more context. This
+    field will typically be automatically filled out from an fa_file record. For example,
+    if a notice was related to a file over HTTP, the URL of the request would be shown
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: file_mime_type
+  type: string
+  description: A mime type if the notice is related to a file. If the f field is provided,
+    this will be automatically filled out
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: src
+  type: ip
+  description: Source IP address
+  sample_value: 10.1.1.1
+- standard_name: network_protocol
+  standard_type: TBD
+  name: proto
+  type: string
+  description: The transport protocol. Filled automatically when either conn, iconn
+    or p is specified
+  sample_value: tcp
+- standard_name: TBD
+  standard_type: TBD
+  name: actions
+  type: array_string
+  description: The actions which have been applied to this notice.
+  sample_value: Notice::ACTION_LOG
+- standard_name: TBD
+  standard_type: TBD
+  name: dropped
+  type: boolean
+  description: present if base/frameworks/notice/actions/drop.bro is loaded Indicate
+    if the $src IP address was dropped and denied network access.
+  sample_value: 'false'
+- standard_name: TBD
+  standard_type: TBD
+  name: email_body_sections
+  type: array_string
+  description: By adding chunks of text into this element, other scripts can expand
+    on notices that are being emailed. The normal way to add text is to extend the
+    vector by handling the Notice::notice event and modifying the notice in place
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: msg
+  type: string
+  description: The human readable message for the notice.
+  sample_value: 8.8.8.8 scanned at least 27 unique hosts on port 8181/tcp in 4m55s
+- standard_name: TBD
+  standard_type: TBD
+  name: note
+  type: string
+  description: The Notice::Type of the notice.
+  sample_value: SSL::Certificate_Expires_Soon
+- standard_name: TBD
+  standard_type: TBD
+  name: n
+  type: integer
+  description: Associated count, or perhaps a status code
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: peer_descr
+  type: string
+  description: Textual description for the peer that raised this notice, including
+    name, host address and port.
+  sample_value: ens192-7
+- standard_name: TBD
+  standard_type: TBD
+  name: sub
+  type: string
+  description: The human readable sub-message.
+  sample_value: 'Sampled servers: 1.213.145.151, 1.213.145.151, 1.213.145.151, 1.213.145.151,
+    1.213.145.151'
+- standard_name: TBD
+  standard_type: TBD
+  name: subpress_for
+  type: integer
+  description: This field indicates the length of time that this unique notice should
+    be suppressed.
+  sample_value: '3600'
+- standard_name: TBD
+  standard_type: TBD
+  name: dst
+  type: ip
+  description: Destination address
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: p
+  type: integer
+  description: '"Associated port, if we don''t have a ""conn_id"".'
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.country_code
+  type: string
+  description: The country code
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.region
+  type: string
+  description: The region
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.city
+  type: string
+  description: The city
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.latitude
+  type: double
+  description: Latitude
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.longitude
+  type: double
+  description: Longitude
+  sample_value: '``'
+references: []
+tags: []

@@ -1,0 +1,18 @@
+# Event 223 - IoSpaceMemory
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Phase|TBD|UInt32|None|None|
+|TBD|Status|TBD|UInt32|None|None|
+|TBD|Tries|TBD|UInt32|None|None|
+|TBD|RemainingNodesCount|TBD|UInt32|None|None|
+|TBD|RemainingNodes|TBD|Int16|None|None|
+
+## Tags
+* etw_level_Error
+* etw_opcode_AllocationFailure
+* etw_task_IoSpaceMemory

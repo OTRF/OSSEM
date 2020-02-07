@@ -1,0 +1,98 @@
+title: Radius Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: radius
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '1812'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: string
+  description: The username, if present.
+  sample_value: host/somecomputername.domain.local
+- standard_name: TBD
+  standard_type: TBD
+  name: ttl
+  type: float
+  description: The duration between the first request and either the "Access-Accept"
+    message or an error. If the field is empty, it means that either the request or
+    response was not seen
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: result
+  type: boolean
+  description: Successful or failed authentication.
+  sample_value: failed
+- standard_name: TBD
+  standard_type: TBD
+  name: mac
+  type: string
+  description: MAC address, if present
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: connect_info
+  type: string
+  description: Connect info, if present
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: framed_addr
+  type: ip
+  description: The address given to the network access server, if present. This is
+    only a hint from the RADIUS server and the network access server is not required
+    to honor the address
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: reply_msg
+  type: string
+  description: Reply message from the server challenge. This is frequently shown to
+    the user authenticating
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: tunnel_client
+  type: string
+  description: Address (IPv4, IPv6, or FQDN) of the initiator end of the tunnel, if
+    present. This is collected from the Tunnel-Client-Endpoint attribute
+  sample_value: '``'
+references: []
+tags: []

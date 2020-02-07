@@ -1,0 +1,15 @@
+# Event 2315 - Launcher_Apps_ViewChange
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ViewFromGuid|TBD|UnicodeString|None|None|
+|TBD|ViewToGuid|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_opcode_Start
+* etw_task_Launcher_Apps_ViewChange

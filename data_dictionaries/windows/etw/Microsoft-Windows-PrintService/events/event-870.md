@@ -1,0 +1,16 @@
+# Event 870 - Client_siderendering
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Driver|TBD|UnicodeString|None|None|
+|TBD|Error|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Error
+* etw_keywords_SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR
+* etw_opcode_SpoolerOperationFailed
+* etw_task_Client_siderendering

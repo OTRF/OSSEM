@@ -1,0 +1,33 @@
+# Event 267 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|SentStatus|TBD|UInt8|None|None|
+|TBD|LE_Flink|TBD|UInt64|None|None|
+|TBD|LE_Blink|TBD|UInt64|None|None|
+|TBD|Length|TBD|UInt32|None|None|
+|TBD|Version|TBD|UInt16|None|None|
+|TBD|Type|TBD|UInt16|None|None|
+|TBD|BthportFlags|TBD|UInt32|None|None|
+|TBD|Status|TBD|UInt32|None|None|
+|TBD|BtStatus|TBD|UInt8|None|None|
+|TBD|BTHPORT_CONTEXT_SIZE|TBD|UInt8|None|None|
+|TBD|Context|TBD|UInt64|None|None|
+|TBD|ClientContext|TBD|UInt64|None|None|
+|TBD|BTHPORT_RESERVED_FIELD_SIZE|TBD|UInt8|None|None|
+|TBD|Reserved|TBD|UInt32|None|None|
+|TBD|bthAddr|TBD|UInt64|None|None|
+|TBD|DataTransferFlags|TBD|UInt32|None|None|
+|TBD|DataLength|TBD|UInt8|None|None|
+|TBD|DataStartSize|TBD|UInt32|None|None|
+|TBD|DataStart|TBD|Binary|None|None|
+|TBD|DataEndSize|TBD|UInt32|None|None|
+|TBD|DataEnd|TBD|Binary|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_task_0

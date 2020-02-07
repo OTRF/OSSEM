@@ -1,0 +1,70 @@
+title: 'Event ID 5378: The requested credentials delegation was disallowed by policy'
+description: This event occurs when an account that is a member of any defined Special
+  Group logs in.
+platform: windows
+log_source: security
+event_code: '5378'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that requested credentials delegation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that requested credentials delegation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x2b1e04'
+- standard_name: logon_security_package_name
+  standard_type: TBD
+  name: Package
+  type: string
+  description: the name of Security Package which was used. Always CREDSSP for this
+    event.
+  sample_value: CREDSSP
+- standard_name: user_identity
+  standard_type: TBD
+  name: UserUPN
+  type: string
+  description: UPN of the account for which delegation was requested.
+  sample_value: dadmin@contoso
+- standard_name: target_server_name
+  standard_type: TBD
+  name: TargetServer
+  type: string
+  description: SPN of the target service for which delegation was requested.
+  sample_value: WSMAN/dc01.contoso.local
+- standard_name: user_cred_type
+  standard_type: TBD
+  name: CredType
+  type: string
+  description: types of credentials which were presented for delegation
+  sample_value: '%%8098'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5378.md
+- text: MS Security Auditing Category - Account Logon
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon
+- text: MS Security Auditing Category - Logon/Logoff
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff
+- text: MS Security Auditing Sub-category - Audit Other Logon/Logoff Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-logon/logoff-events.md
+tags:
+- Account Logon
+- Logon/Logoff
+- Audit Other Logon/Logoff Events

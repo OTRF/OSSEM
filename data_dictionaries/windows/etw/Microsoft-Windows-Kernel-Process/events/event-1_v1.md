@@ -1,0 +1,21 @@
+# Event 1 - ProcessStart
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ProcessID|TBD|UInt32|None|None|
+|TBD|CreateTime|TBD|FILETIME|None|None|
+|TBD|ParentProcessID|TBD|UInt32|None|None|
+|TBD|SessionID|TBD|UInt32|None|None|
+|TBD|Flags|TBD|UInt32|None|None|
+|TBD|ImageName|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_WINEVENT_KEYWORD_PROCESS
+* etw_opcode_Start
+* etw_task_ProcessStart
+* version_1

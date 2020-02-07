@@ -1,0 +1,16 @@
+# Event 501 - FileWrite
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|FileType|TBD|UInt32|None|None|
+|TBD|NumBytes|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Profiling
+* etw_opcode_Start
+* etw_task_FileWrite

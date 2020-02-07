@@ -1,0 +1,67 @@
+title: 'Event ID 4793: The Password Policy Checking API was called'
+description: This event generates each time the Password Policy Checking API is called.
+platform: windows
+log_source: security
+event_code: '4793'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that requested Password Policy Checking API operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that requested Password Policy Checking API
+    operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: string
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x36f67'
+- standard_name: source_host_name
+  standard_type: TBD
+  name: Workstation
+  type: string
+  description: name of the computer from which the Password Policy Checking API was
+    called. Typically, this is the same computer where this event was generated, for
+    example, DC01. Computer name here does not contain $ symbol at the end. It also
+    can be an IP address or the DNS name of the computer.
+  sample_value: DC01
+- standard_name: target_user_name
+  standard_type: TBD
+  name: TargetUserName
+  type: string
+  description: the name of account, which password was provided/requested for validation.
+    This parameter might not be captured in the event, and in that case appears as
+    "-".
+  sample_value: '-'
+- standard_name: event_status
+  standard_type: TBD
+  name: Status
+  type: string
+  description: typically has "0x0" value. Status code is "0x0", no matter meets password
+    domain Password Policy or not.
+  sample_value: '0x0'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4793.md
+- text: MS Security Auditing Category - Account Management
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management
+- text: MS Security Auditing Sub-category - Audit Other Account Management Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-account-management-events.md
+tags:
+- Account Management
+- Audit Other Account Management Events

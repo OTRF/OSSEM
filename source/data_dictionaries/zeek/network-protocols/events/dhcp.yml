@@ -1,0 +1,157 @@
+title: DHCP Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: dhcp
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: client_addr
+  type: ip
+  description: IP address of the client. If a transaction is only a client sending
+    INFORM messages then there is no lease information exchanged so this is helpful
+    to know who sent the messages. Getting an address in this field does require that
+    the client sources at least one DHCP message using a non-broadcast address.
+  sample_value: 10.1.1.1
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: server_addr
+  type: ip
+  description: IP address of the server involved in actually handing out the lease.
+    There could be other servers replying with OFFER messages which won't be represented
+    here. Getting an address in this field also requires that the server handing out
+    the lease also sources packets from a non-broadcast IP address
+  sample_value: 10.2.2.2
+- standard_name: event_uid
+  standard_type: TBD
+  name: uids
+  type: array_string
+  description: A series of unique identifiers of the connections over which DHCP is
+    occurring. This behavior with multiple connections is unique to DHCP because of
+    the way it uses broadcast packets on local networks.
+  sample_value: '``'
+- standard_name: src_domain
+  standard_type: TBD
+  name: domain
+  type: string
+  description: Domain given by the server in option 15.
+  sample_value: somedomain.local
+- standard_name: src_host_name
+  standard_type: TBD
+  name: host_name
+  type: string
+  description: Name given by client in Hostname option 12.
+  sample_value: somegreat-hostname
+- standard_name: dhcp_lease_time
+  standard_type: TBD
+  name: lease_time
+  type: float
+  description: IP address lease interval.
+  sample_value: '6'
+- standard_name: TBD
+  standard_type: TBD
+  name: agent_remote_id
+  type: string
+  description: present if policy/protocols/dhcp/sub-opts.bro is loaded A globally
+    unique identifier added by relay agents to identify the remote host end of the
+    circuit."
+  sample_value: ''
+- standard_name: dhcp_assigned_ip_addr
+  standard_type: TBD
+  name: assigned_addr
+  type: ip
+  description: IP address assigned by the DHCP server.
+  sample_value: 10.3.3.3
+- standard_name: dhcp_circuit_id
+  standard_type: TBD
+  name: circuit_id
+  type: string
+  description: present if policy/protocols/dhcp/sub-opts.bro is loaded Added by DHCP
+    relay agents which terminate switched or permanent circuits. It encodes an agent-local
+    identifier of the circuit from which a DHCP client-to-server packet was received.
+    Typically it should represent a router or switch interface number."
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: client_message
+  type: string
+  description: Message typically accompanied with a DHCP_DECLINE so the client can
+    tell the server why it rejected an address.
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: client_software
+  type: string
+  description: present if policy/protocols/dhcp/software.bro is loaded Software reported
+    by the client in the vendor_class option."
+  sample_value: Cisco Systems, Inc. IP Phone CP-8945
+- standard_name: src_fqdn
+  standard_type: TBD
+  name: client_fqdn
+  type: string
+  description: FQDN given by client in Client FQDN option 81.
+  sample_value: somegreat-hostname.somedomain.local
+- standard_name: src_mac
+  standard_type: TBD
+  name: mac
+  type: string
+  description: Client's hardware address.
+  sample_value: aa:bb:cc:dd:ee:ff
+- standard_name: TBD
+  standard_type: TBD
+  name: msg_orig
+  type: array_ip
+  description: present if policy/protocols/dhcp/msg-orig.bro is loaded The address
+    that originated each message from the msg_types field."
+  sample_value: '[ "0.0.0.0", "0.0.0.0", "0.0.0.0", "0.0.0.0", "192.168.254.1", "192.168.254.1",
+    "192.168.254.1", "192.168.254.1"  ]'
+- standard_name: TBD
+  standard_type: TBD
+  name: msg_types
+  type: array_string
+  description: The DHCP message types seen by this DHCP transaction
+  sample_value: INFORM
+- standard_name: dhcp_requested_ip_addr
+  standard_type: TBD
+  name: requested_addr
+  type: ip
+  description: IP address requested by the client.
+  sample_value: 1.1.1.1
+- standard_name: TBD
+  standard_type: TBD
+  name: server_message
+  type: string
+  description: Message typically accompanied with a DHCP_NAK to let the client know
+    why it rejected the request.
+  sample_value: requested address is incorrect
+- standard_name: TBD
+  standard_type: TBD
+  name: server_software
+  type: string
+  description: present if policy/protocols/dhcp/software.bro is loaded Software reported
+    by the server in the vendor_class option."
+  sample_value: PXEClient
+- standard_name: dhcp_subscriber_id
+  standard_type: TBD
+  name: subscriber_id
+  type: string
+  description: present if policy/protocols/dhcp/sub-opts.bro is loaded The subscriber
+    ID is a value independent of the physical network configuration so that a customer's
+    DHCP configuration can be given to them correctly no matter where they are physically
+    connected."
+  sample_value: ''
+- standard_name: event_duration
+  standard_type: TBD
+  name: duration
+  type: float
+  description: Duration of the DHCP "session" representing the time from the first
+    message to the last.
+  sample_value: ''
+references: []
+tags: []

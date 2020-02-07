@@ -1,0 +1,15 @@
+# Event 1215 - RdClientRADCworkspace
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|refreshTime|TBD|UInt32|None|None|
+|TBD|numberOfFeeds|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_opcode_Thiseventisraisedwhenallthefeedsoftheuserhavebeensubscribedorupdatedcompletely.Welogtheoveralltimeittooktodownloadallfeedsinparallel.
+* etw_task_RdClientRADCworkspace

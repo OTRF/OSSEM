@@ -1,0 +1,15 @@
+# Event 177 - CsComplianceUpdate
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Type|TBD|UInt32|None|None|
+|TBD|State|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_po:Diagnostic
+* etw_task_CsComplianceUpdate

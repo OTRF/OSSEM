@@ -1,0 +1,401 @@
+title: Data Object Relationships
+description: null
+data_fields:
+- sub_data_sources: process creation
+  data_objects_(origin): process
+  relationship: created
+  data_objects_(destination): process
+- sub_data_sources: process termination
+  data_objects_(origin): process
+  relationship: terminated
+  data_objects_(destination): ''
+- sub_data_sources: process write to process
+  data_objects_(origin): process
+  relationship: wrote_to
+  data_objects_(destination): process
+- sub_data_sources: process access
+  data_objects_(origin): process
+  relationship: opened
+  data_objects_(destination): process
+- sub_data_sources: module load
+  data_objects_(origin): process
+  relationship: loaded
+  data_objects_(destination): module
+- sub_data_sources: file creation
+  data_objects_(origin): process
+  relationship: created
+  data_objects_(destination): file
+- sub_data_sources: file modification
+  data_objects_(origin): process
+  relationship: modified
+  data_objects_(destination): file
+- sub_data_sources: file download
+  data_objects_(origin): process
+  relationship: downloaded
+  data_objects_(destination): file
+- sub_data_sources: win registry key creation
+  data_objects_(origin): process
+  relationship: created
+  data_objects_(destination): win registry
+- sub_data_sources: win registry key deletion
+  data_objects_(origin): process
+  relationship: deleted
+  data_objects_(destination): win registry
+- sub_data_sources: win registry key modification
+  data_objects_(origin): process
+  relationship: modified
+  data_objects_(destination): win registry
+- sub_data_sources: win pipe creation
+  data_objects_(origin): process
+  relationship: created
+  data_objects_(destination): pipe
+- sub_data_sources: win pipe connection
+  data_objects_(origin): process
+  relationship: connected_to
+  data_objects_(destination): pipe
+- sub_data_sources: process network connection allow
+  data_objects_(origin): process
+  relationship: connected_to
+  data_objects_(destination): ip
+- sub_data_sources: process network connection allow
+  data_objects_(origin): user
+  relationship: connected_to
+  data_objects_(destination): ip
+- sub_data_sources: NTLM Credentials Validation
+  data_objects_(origin): host
+  relationship: authenticated
+  data_objects_(destination): user
+- sub_data_sources: kerberos TGT request
+  data_objects_(origin): user
+  relationship: requested
+  data_objects_(destination): ticket granting ticket
+- sub_data_sources: kerberos TGT authentication failure
+  data_objects_(origin): user
+  relationship: authenticated_with
+  data_objects_(destination): ticket granting ticket
+- sub_data_sources: kerberos service ticket request
+  data_objects_(origin): user
+  relationship: requested
+  data_objects_(destination): service ticket
+- sub_data_sources: kerberos service ticket renewal
+  data_objects_(origin): user
+  relationship: renewed
+  data_objects_(destination): service ticket
+- sub_data_sources: kerberos service ticket failure
+  data_objects_(origin): user
+  relationship: requested
+  data_objects_(destination): service ticket
+- sub_data_sources: user rdp session
+  data_objects_(origin): user
+  relationship: disconnected_from
+  data_objects_(destination): host
+- sub_data_sources: user rdp session
+  data_objects_(origin): user
+  relationship: connected_to
+  data_objects_(destination): host
+- sub_data_sources: user lock operation
+  data_objects_(origin): user
+  relationship: locked
+  data_objects_(destination): host
+- sub_data_sources: user unlock operation
+  data_objects_(origin): user
+  relationship: unlocked
+  data_objects_(destination): host
+- sub_data_sources: computer account creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): computer
+- sub_data_sources: computer account change
+  data_objects_(origin): user
+  relationship: changed
+  data_objects_(destination): computer
+- sub_data_sources: computer account deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): computer
+- sub_data_sources: distribution group creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): group
+- sub_data_sources: distribution group change
+  data_objects_(origin): user
+  relationship: changed
+  data_objects_(destination): group
+- sub_data_sources: distribution group member addition
+  data_objects_(origin): user
+  relationship: added
+  data_objects_(destination): user
+- sub_data_sources: distribution group member removal
+  data_objects_(origin): user
+  relationship: removed
+  data_objects_(destination): user
+- sub_data_sources: distribution group deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): group
+- sub_data_sources: security group creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): group
+- sub_data_sources: security group member addition
+  data_objects_(origin): user
+  relationship: added
+  data_objects_(destination): user
+- sub_data_sources: security group member removal
+  data_objects_(origin): user
+  relationship: removed
+  data_objects_(destination): user
+- sub_data_sources: security group deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): group
+- sub_data_sources: security group change
+  data_objects_(origin): user
+  relationship: changed
+  data_objects_(destination): group
+- sub_data_sources: security group type change
+  data_objects_(origin): user
+  relationship: changed_type
+  data_objects_(destination): group
+- sub_data_sources: security group enumeration
+  data_objects_(origin): user
+  relationship: enumerated
+  data_objects_(destination): group members
+- sub_data_sources: user account creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): user
+- sub_data_sources: user account enable
+  data_objects_(origin): user
+  relationship: enabled
+  data_objects_(destination): user
+- sub_data_sources: user account password change
+  data_objects_(origin): user
+  relationship: changed_password
+  data_objects_(destination): user
+- sub_data_sources: user account password reset
+  data_objects_(origin): user
+  relationship: reset_password
+  data_objects_(destination): user
+- sub_data_sources: user account disable
+  data_objects_(origin): user
+  relationship: disabled
+  data_objects_(destination): user
+- sub_data_sources: user account deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): user
+- sub_data_sources: user account change
+  data_objects_(origin): user
+  relationship: changed
+  data_objects_(destination): user
+- sub_data_sources: user account lock
+  data_objects_(origin): user
+  relationship: locked
+  data_objects_(destination): user
+- sub_data_sources: user account unlock
+  data_objects_(origin): user
+  relationship: unlocked
+  data_objects_(destination): user
+- sub_data_sources: user account name change
+  data_objects_(origin): user
+  relationship: changed_name
+  data_objects_(destination): user
+- sub_data_sources: user account group enumeration
+  data_objects_(origin): user
+  relationship: enumerated
+  data_objects_(destination): group
+- sub_data_sources: directory service object access
+  data_objects_(origin): user
+  relationship: accessed
+  data_objects_(destination): ad object
+- sub_data_sources: directoy service object handle request
+  data_objects_(origin): user
+  relationship: requested_a_handle
+  data_objects_(destination): ad object
+- sub_data_sources: directory service object modification
+  data_objects_(origin): user
+  relationship: modified
+  data_objects_(destination): ad object
+- sub_data_sources: directory service object creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): ad object
+- sub_data_sources: directory service object restoration
+  data_objects_(origin): user
+  relationship: restored
+  data_objects_(destination): ad object
+- sub_data_sources: directory service object move
+  data_objects_(origin): user
+  relationship: moved
+  data_objects_(destination): ad object
+- sub_data_sources: directory service object deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): ad object
+- sub_data_sources: user account successful authentication
+  data_objects_(origin): user
+  relationship: authenticated
+  data_objects_(destination): host
+- sub_data_sources: user account authentication with explicit credential
+  data_objects_(origin): user
+  relationship: authenticated
+  data_objects_(destination): host
+- sub_data_sources: file access
+  data_objects_(origin): user
+  relationship: accessed
+  data_objects_(destination): file
+- sub_data_sources: network share access
+  data_objects_(origin): user
+  relationship: accessed
+  data_objects_(destination): network share
+- sub_data_sources: network share addition
+  data_objects_(origin): user
+  relationship: added
+  data_objects_(destination): network share
+- sub_data_sources: network share modification
+  data_objects_(origin): user
+  relationship: modified
+  data_objects_(destination): network share
+- sub_data_sources: network share deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): network share
+- sub_data_sources: file access request
+  data_objects_(origin): user
+  relationship: requested_a_handle
+  data_objects_(destination): file
+- sub_data_sources: registry access request
+  data_objects_(origin): user
+  relationship: requested_a_handle
+  data_objects_(destination): registry
+- sub_data_sources: file deletion request
+  data_objects_(origin): user
+  relationship: requested_a_handle
+  data_objects_(destination): file
+- sub_data_sources: registry deletion request
+  data_objects_(origin): user
+  relationship: requested_a_handle
+  data_objects_(destination): registry
+- sub_data_sources: file deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): file
+- sub_data_sources: symbolic link creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): symbolic link
+- sub_data_sources: file permissions change
+  data_objects_(origin): user
+  relationship: changed_permissions
+  data_objects_(destination): file
+- sub_data_sources: process network service connection block
+  data_objects_(origin): host
+  relationship: blocked_service_connection_to
+  data_objects_(destination): process
+- sub_data_sources: process network listener allow
+  data_objects_(origin): host
+  relationship: permitted_listener_on
+  data_objects_(destination): process
+- sub_data_sources: process network listener block
+  data_objects_(origin): host
+  relationship: blocked_listener_on
+  data_objects_(destination): process
+- sub_data_sources: process network connection allow
+  data_objects_(origin): host
+  relationship: permitted_inbound_connection_on
+  data_objects_(destination): process
+- sub_data_sources: process network connection allow
+  data_objects_(origin): process
+  relationship: connected_from
+  data_objects_(destination): ip
+- sub_data_sources: process network connection allow
+  data_objects_(origin): host
+  relationship: permitted_outbound_connection_on
+  data_objects_(destination): process
+- sub_data_sources: process network connection block
+  data_objects_(origin): host
+  relationship: blocked_inbound_connection_on
+  data_objects_(destination): process
+- sub_data_sources: process network connection block
+  data_objects_(origin): host
+  relationship: blocked_outbound_connection_on
+  data_objects_(destination): process
+- sub_data_sources: process network local port bind allow
+  data_objects_(origin): host
+  relationship: permitted_local_port_bind_on
+  data_objects_(destination): process
+- sub_data_sources: process network local port bind allow
+  data_objects_(origin): process
+  relationship: bound _to
+  data_objects_(destination): port
+- sub_data_sources: process network local port bind blocked
+  data_objects_(origin): host
+  relationship: blocked_local_port_bind_on
+  data_objects_(destination): process
+- sub_data_sources: scheduled task creation
+  data_objects_(origin): user
+  relationship: created
+  data_objects_(destination): scheduled task
+- sub_data_sources: scheduled task deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): scheduled task
+- sub_data_sources: scheduled task enable
+  data_objects_(origin): user
+  relationship: enabled
+  data_objects_(destination): scheduled task
+- sub_data_sources: scheduled task disable
+  data_objects_(origin): user
+  relationship: disabled
+  data_objects_(destination): scheduled task
+- sub_data_sources: scheduled task update
+  data_objects_(origin): user
+  relationship: updated
+  data_objects_(destination): scheduled task
+- sub_data_sources: win registry key access
+  data_objects_(origin): user
+  relationship: accessed
+  data_objects_(destination): win registry
+- sub_data_sources: win registry key deletion
+  data_objects_(origin): user
+  relationship: deleted
+  data_objects_(destination): win registry
+- sub_data_sources: win registry key permissions change
+  data_objects_(origin): user
+  relationship: changed_permissions
+  data_objects_(destination): win registry
+- sub_data_sources: win registry key value modification
+  data_objects_(origin): user
+  relationship: modified
+  data_objects_(destination): win registry
+- sub_data_sources: win registry key value modification
+  data_objects_(origin): process
+  relationship: modified
+  data_objects_(destination): win registry
+- sub_data_sources: sam service object handle request
+  data_objects_(origin): user
+  relationship: requested_a_handle
+  data_objects_(destination): sam object
+- sub_data_sources: user account access addition
+  data_objects_(origin): user
+  relationship: granted_access
+  data_objects_(destination): user
+- sub_data_sources: user account access removal
+  data_objects_(origin): user
+  relationship: removed_access
+  data_objects_(destination): user
+- sub_data_sources: non-sensitive privileged service operation
+  data_objects_(origin): process
+  relationship: called
+  data_objects_(destination): service
+- sub_data_sources: sensitive privileged service operation
+  data_objects_(origin): process
+  relationship: called
+  data_objects_(destination): service
+- sub_data_sources: win service installation
+  data_objects_(origin): user
+  relationship: installed
+  data_objects_(destination): service
+resources: []
+tags: []

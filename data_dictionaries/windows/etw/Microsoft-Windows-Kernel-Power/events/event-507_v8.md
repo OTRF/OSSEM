@@ -1,0 +1,49 @@
+# Event 507 - CsExitReason
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|EnergyDrain|TBD|UInt32|None|None|
+|TBD|ActiveResidencyInUs|TBD|UInt64|None|None|
+|TBD|NonDripsTimeActivatedInUs|TBD|UInt64|None|None|
+|TBD|FirstDripsEntryInUs|TBD|UInt64|None|None|
+|TBD|DripsResidencyInUs|TBD|UInt64|None|None|
+|TBD|DurationInUs|TBD|UInt64|None|None|
+|TBD|DripsTransitions|TBD|UInt32|None|None|
+|TBD|FullChargeCapacityRatio|TBD|UInt8|None|None|
+|TBD|AudioPlaying|TBD|Boolean|None|None|
+|TBD|Reason|TBD|UInt32|None|None|
+|TBD|AudioPlaybackInUs|TBD|UInt64|None|None|
+|TBD|NonActivatedCpuInUs|TBD|UInt64|None|None|
+|TBD|PowerStateAc|TBD|Boolean|None|None|
+|TBD|HwDripsResidencyInUs|TBD|UInt64|None|None|
+|TBD|ExitLatencyInUs|TBD|UInt64|None|None|
+|TBD|DisconnectedStandby|TBD|Boolean|None|None|
+|TBD|AoAcCompliantNic|TBD|Boolean|None|None|
+|TBD|NonAttributedCpuInUs|TBD|UInt64|None|None|
+|TBD|ModernSleepEnabledActionsBitmask|TBD|UInt32|None|None|
+|TBD|ModernSleepAppliedActionsBitmask|TBD|UInt32|None|None|
+|TBD|LidOpenState|TBD|Boolean|None|None|
+|TBD|ExternalMonitorConnectedState|TBD|Boolean|None|None|
+|TBD|ScenarioInstanceId|TBD|UInt8|None|None|
+|TBD|IsCsSessionInProgressOnExit|TBD|Boolean|None|None|
+|TBD|BatteryRemainingCapacityOnExit|TBD|UInt32|None|None|
+|TBD|BatteryFullChargeCapacityOnExit|TBD|UInt32|None|None|
+|TBD|ScenarioInstanceIdV2|TBD|UInt64|None|None|
+|TBD|BootId|TBD|UInt32|None|None|
+|TBD|InputSuppressionActionCount|TBD|UInt32|None|None|
+|TBD|NonResiliencyTimeInUs|TBD|UInt64|None|None|
+|TBD|ResiliencyDripsTimeInUs|TBD|UInt64|None|None|
+|TBD|ResiliencyHwDripsTimeInUs|TBD|UInt64|None|None|
+|TBD|GdiOnTime|TBD|UInt64|None|None|
+|TBD|DwmSyncFlushTime|TBD|UInt64|None|None|
+|TBD|MonitorPowerOnTime|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_po:Diagnostic po:SleepStudy po:DiagnosticLight
+* etw_task_CsExitReason
+* version_8

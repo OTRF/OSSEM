@@ -1,0 +1,62 @@
+title: 'Event ID 20: WmiEvent (WmiEventConsumer activity detected)'
+description: This event logs the registration of WMI consumers, recording the consumer
+  name, log, and destination.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected</a>
+platform: windows
+log_source: sysmon
+event_code: '20'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: wmievent type
+  sample_value: WmiConsumerEvent
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: '2018-09-11 23:12:46.606'
+- standard_name: wmi_operation
+  standard_type: TBD
+  name: Operation
+  type: string
+  description: wmievent filter operation
+  sample_value: Created
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: user that created the wmi  consumer
+  sample_value: DESKTOP-LFD11QP\pedro
+- standard_name: wmi_consumer_name
+  standard_type: TBD
+  name: Name
+  type: string
+  description: name of the consumer created
+  sample_value: Updater
+- standard_name: wmi_consumer_type
+  standard_type: TBD
+  name: Type
+  type: string
+  description: Type of wmi consumer
+  sample_value: Command Line
+- standard_name: wmi_consumer_destination
+  standard_type: TBD
+  name: Destination
+  type: string
+  description: command of consumer
+  sample_value: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec
+    bypass -win hidden -noni -enc bm90ZXBhZC5leGU=
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/WMI-events.md
+tags: []

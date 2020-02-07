@@ -1,0 +1,30 @@
+# Event 8004 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|PolicyNameLength|TBD|UInt16|None|None|
+|TBD|PolicyNameBuffer|TBD|UnicodeString|None|None|
+|TBD|RuleId|TBD|GUID|None|None|
+|TBD|RuleNameLength|TBD|UInt16|None|None|
+|TBD|RuleNameBuffer|TBD|UnicodeString|None|None|
+|TBD|RuleSddlLength|TBD|UInt16|None|None|
+|TBD|RuleSddlBuffer|TBD|UnicodeString|None|None|
+|TBD|TargetUser|TBD|SID|None|None|
+|TBD|TargetProcessId|TBD|UInt32|None|None|
+|TBD|FilePathLength|TBD|UInt16|None|None|
+|TBD|FilePathBuffer|TBD|UnicodeString|None|None|
+|TBD|FileHashLength|TBD|UInt16|None|None|
+|TBD|FileHash|TBD|Binary|None|None|
+|TBD|FqbnLength|TBD|UInt16|None|None|
+|TBD|Fqbn|TBD|UnicodeString|None|None|
+|TBD|TargetLogonId|TBD|HexInt64|None|None|
+|TBD|FullFilePathLength|TBD|UInt16|None|None|
+|TBD|FullFilePathBuffer|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Error
+* etw_task_task_0

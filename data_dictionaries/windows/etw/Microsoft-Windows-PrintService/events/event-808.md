@@ -1,0 +1,17 @@
+# Event 808 - Initializing
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|PluginDllName|TBD|UnicodeString|None|None|
+|TBD|ErrorCode|TBD|HexInt32|None|None|
+|TBD|Context|TBD|Int16|None|None|
+
+## Tags
+* etw_level_Error
+* etw_keywords_SPOOLER_KEYWORD
+* etw_opcode_SpoolerOperationFailed
+* etw_task_Initializing

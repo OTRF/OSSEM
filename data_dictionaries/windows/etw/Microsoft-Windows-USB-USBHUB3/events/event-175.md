@@ -1,0 +1,18 @@
+# Event 175 - USBDeviceEnumeration
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|fid_UsbDevice|TBD|Pointer|None|None|
+|TBD|fid_DeviceIsComposite|TBD|UInt32|None|None|
+|TBD|fid_DeviceWakeupSupport|TBD|UInt32|None|None|
+|TBD|fid_InterfaceRemoteWakeupCapable|TBD|UInt16|None|None|
+
+## Tags
+* etw_level_Error
+* etw_keywords_Default Enumeration HWVerifyDevice keyword_400000000000
+* etw_opcode_Error
+* etw_task_USBDeviceEnumeration

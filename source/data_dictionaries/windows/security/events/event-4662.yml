@@ -1,0 +1,126 @@
+title: 'Event ID 4662: An operation was performed on an object'
+description: This event generates every time when an operation was performed on an
+  Active Directory object. This event generates only if appropriate SACL was set for
+  Active Directory object and performed operation meets this SACL. If operation failed
+  then Failure event will be generated. You will get one 4662 for each operation type
+  which was performed.
+platform: windows
+log_source: security
+event_code: '4662'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that requested the operation. Event Viewer automatically
+    tries to resolve SIDs and show the account name. If the SID cannot be resolved,
+    you will see the source data in the event.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that requested the operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: LogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x35867'
+- standard_name: object_server
+  standard_type: TBD
+  name: ObjectServer
+  type: string
+  description: has "DS" value for this event.
+  sample_value: DS
+- standard_name: object_type
+  standard_type: TBD
+  name: ObjectType
+  type: string
+  description: type or class of the object that was accessed.
+  sample_value: '%{bf967a86-0de6-11d0-a285-00aa003049e2}'
+- standard_name: object_name
+  standard_type: TBD
+  name: ObjectName
+  type: string
+  description: distinguished name of the object that was accessed.
+  sample_value: '%{38b3d2e6-9948-4dc1-ae90-1605d5eab9a2}'
+- standard_name: object_operation_type
+  standard_type: TBD
+  name: OperationType
+  type: string
+  description: the type of operation which was performed on an object. Typically has
+    "Object Access" value for this event.
+  sample_value: Object Access
+- standard_name: object_handle_id
+  standard_type: TBD
+  name: HandleId
+  type: integer
+  description: 'hexadecimal value of a handle to Object Name. This field can help
+    you correlate this event with other events that might contain the same Handle
+    ID, for example, "4661: A handle to an object was requested." This parameter might
+    not be captured in the event, and in that case appears as "0x0".'
+  sample_value: '0x0'
+- standard_name: object_access_list
+  standard_type: TBD
+  name: AccessList
+  type: string
+  description: the type of access used for the operation.
+  sample_value: '%%1537'
+- standard_name: object_access_mask
+  standard_type: TBD
+  name: AccessMask
+  type: string
+  description: hexadecimal mask for the type of access used for the operation. See
+  sample_value: '0x10000'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the created process (child)
+  sample_value: '4756'
+- standard_name: object_properties
+  standard_type: TBD
+  name: Properties
+  type: string
+  description: first part is the type of access that was used. Typically has the same
+    value as Accesses field.
+  sample_value: '%%1537 {bf967a86-0de6-11d0-a285-00aa003049e2}'
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID.
+  sample_value: '0x2e80c'
+- standard_name: additionalinfo
+  standard_type: TBD
+  name: AdditionalInfo
+  type: string
+  description: '-'
+  sample_value: '-'
+- standard_name: additionalinfo2
+  standard_type: TBD
+  name: AdditionalInfo2
+  type: string
+  description: '-'
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4662.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Sub-category - Audit Directory Service Access
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-access.md
+tags:
+- DS Access
+- Audit Directory Service Access

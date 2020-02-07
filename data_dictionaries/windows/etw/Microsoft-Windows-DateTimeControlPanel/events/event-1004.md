@@ -1,0 +1,37 @@
+# Event 1004 - Date/TimeControlPanelApplettimezonefunctionality
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Bias|TBD|Int32|None|None|
+|TBD|StandardName|TBD|UnicodeString|None|None|
+|TBD|SystemDatewYear|TBD|UInt16|None|None|
+|TBD|SystemDatewMonth|TBD|UInt16|None|None|
+|TBD|SystemDatewDayOfWeek|TBD|UInt16|None|None|
+|TBD|SystemDatewDay|TBD|UInt16|None|None|
+|TBD|SystemDatewHour|TBD|UInt16|None|None|
+|TBD|SystemDatewMinute|TBD|UInt16|None|None|
+|TBD|SystemDatewSecond|TBD|UInt16|None|None|
+|TBD|SystemDatewMilliseconds|TBD|UInt16|None|None|
+|TBD|StandardBias|TBD|Int32|None|None|
+|TBD|DaylightName|TBD|UnicodeString|None|None|
+|TBD|DaylightDatewYear|TBD|UInt16|None|None|
+|TBD|DaylightDatewMonth|TBD|UInt16|None|None|
+|TBD|DaylightDatewDayOfWeek|TBD|UInt16|None|None|
+|TBD|DaylightDatewDay|TBD|UInt16|None|None|
+|TBD|DaylightDatewHour|TBD|UInt16|None|None|
+|TBD|DaylightDatewMinute|TBD|UInt16|None|None|
+|TBD|DaylightDatewSecond|TBD|UInt16|None|None|
+|TBD|DaylightDatewMilliseconds|TBD|UInt16|None|None|
+|TBD|DaylightBias|TBD|Int32|None|None|
+|TBD|TimeZoneKeyName|TBD|UnicodeString|None|None|
+|TBD|ErrorCode|TBD|UInt32|None|None|
+|TBD|ErrorMessage|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Error
+* etw_opcode_Date/TimeControlPanelAppletoperations
+* etw_task_Date/TimeControlPanelApplettimezonefunctionality

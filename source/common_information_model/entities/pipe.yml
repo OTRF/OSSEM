@@ -1,0 +1,23 @@
+title: Pipe Object
+description: Event fields used to define metadata about pipes being created or connected
+  in an endpoint.
+data_fields:
+- standard_name: pipe_name
+  type: string
+  description: name of pipe created or connected
+  sample_value: \srvsvc
+- standard_name: pipe_instances
+  type: integer
+  description: Number of instances of the named pipe
+  sample_value: ''
+- standard_name: pipe_max_instances
+  type: integer
+  description: The maximum number of instances creatable for this pipe
+  sample_value: ''
+- standard_name: pipe_flags
+  type: string
+  description: The flags indicating whether this pipe connection is a server or client
+    end, and if the pipe for sending messages or bytes
+  sample_value: ''
+resources: []
+tags: []

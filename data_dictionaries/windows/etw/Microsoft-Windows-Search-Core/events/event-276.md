@@ -1,0 +1,20 @@
+# Event 276 - Merge
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ObjectWid|TBD|UInt32|None|None|
+|TBD|UseQueryPerfOpt|TBD|Boolean|None|None|
+|TBD|Restarted|TBD|Boolean|None|None|
+|TBD|IndexIds|TBD|UnicodeString|None|None|
+|TBD|TotalSizeInPages|TBD|UInt32|None|None|
+|TBD|MaxWid|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Indexing
+* etw_opcode_Start
+* etw_task_Merge

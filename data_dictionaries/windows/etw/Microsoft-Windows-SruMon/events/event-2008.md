@@ -1,0 +1,14 @@
+# Event 2008 - SruMonDebugSequenceTrace
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|_Status|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Verbose
+* etw_keywords_KeywordSruMonDebugSequenceTrace KeywordSruMonDebugSequenceErrorTrace
+* etw_task_SruMonDebugSequenceTrace

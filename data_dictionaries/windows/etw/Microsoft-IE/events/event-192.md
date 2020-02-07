@@ -1,0 +1,18 @@
+# Event 192 - Mshtml_Scroll_SetOffset
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|CurrentX|TBD|Int32|None|None|
+|TBD|CurrentY|TBD|Int32|None|None|
+|TBD|DeltaX|TBD|Int32|None|None|
+|TBD|DeltaY|TBD|Int32|None|None|
+
+## Tags
+* etw_level_Always
+* etw_keywords_scroll
+* etw_opcode_Start
+* etw_task_Mshtml_Scroll_SetOffset

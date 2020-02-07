@@ -1,0 +1,94 @@
+title: 'Event ID 5156: The Windows Filtering Platform has permitted a connection'
+description: This event generates when Windows Filtering Platform has allowed a connection.
+platform: windows
+log_source: security
+event_code: '5156'
+event_fields:
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Hexadecimal Process ID of the process which received the connection.
+  sample_value: '4156'
+- standard_name: process_path
+  standard_type: TBD
+  name: Application
+  type: string
+  description: Full path and the name of the executable for the process.
+  sample_value: \device\harddiskvolume2\documents\listener.exe
+- standard_name: TBD
+  standard_type: TBD
+  name: Direction
+  type: string
+  description: Direction of allowed connection.
+  sample_value: Inbound
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: SourceAddress
+  type: ip
+  description: IP address from which the connection was initiated.
+  sample_value: 10.0.0.10
+- standard_name: src_port
+  standard_type: TBD
+  name: SourcePort
+  type: integer
+  description: Port number from which the connection was initiated.
+  sample_value: '3333'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: DestAddress
+  type: ip
+  description: IP address where the connection was received.
+  sample_value: 10.0.0.100
+- standard_name: dst_port
+  standard_type: TBD
+  name: DestPort
+  type: integer
+  description: Port number where the connection was received.
+  sample_value: '49278'
+- standard_name: network_protocol
+  standard_type: TBD
+  name: Protocol
+  type: integer
+  description: Protocol number.
+  sample_value: '6'
+- standard_name: TBD
+  standard_type: TBD
+  name: FilterRTID
+  type: integer
+  description: Unique filter ID which allowed the connection.
+  sample_value: '84576'
+- standard_name: TBD
+  standard_type: TBD
+  name: LayerName
+  type: string
+  description: Application Layer Enforcement layer name.
+  sample_value: '%%14609'
+- standard_name: TBD
+  standard_type: TBD
+  name: LayerRTID
+  type: integer
+  description: Windows Filtering Platform layer identifier.
+  sample_value: '40'
+- standard_name: TBD
+  standard_type: TBD
+  name: RemoteUserID
+  type: ''
+  description: ''
+  sample_value: S-1-0-0
+- standard_name: TBD
+  standard_type: TBD
+  name: RemoteMachineID
+  type: ''
+  description: ''
+  sample_value: S-1-0-0
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5156.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Filtering Platform Connection
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-connection.md
+tags:
+- Object Access
+- Audit Filtering Platform Connection

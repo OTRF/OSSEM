@@ -1,0 +1,15 @@
+# Event 465 - BrowserRoamedSettingChange_WinInet
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|HWND|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Always
+* etw_keywords_roaming
+* etw_opcode_Stop
+* etw_task_BrowserRoamedSettingChange_WinInet

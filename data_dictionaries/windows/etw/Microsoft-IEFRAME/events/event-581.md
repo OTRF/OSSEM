@@ -1,0 +1,16 @@
+# Event 581 - Tab_Terminate_Process
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|TabID|TBD|Int32|None|None|
+|TBD|ProcessID|TBD|Int32|None|None|
+|TBD|HWND|TBD|Pointer|None|None|
+
+## Tags
+* etw_level_Always
+* etw_keywords_hang
+* etw_task_Tab_Terminate_Process

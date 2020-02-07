@@ -1,0 +1,33 @@
+title: Registry Key Schema
+description: Event fields used to define metadata about registry entries in a system.
+data_fields:
+- standard_name: registry_key_name
+  type: string
+  description: ''
+  sample_value: Run
+- standard_name: registry_key_path
+  type: string
+  description: complete path of the registry key
+  sample_value: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+- standard_name: registry_key_value_name
+  type: string
+  description: ''
+  sample_value: SecurityHealth
+- standard_name: registry_key_value_type
+  type: string
+  description: ''
+  sample_value: REG_EXPAND_SZ
+- standard_name: registry_key_value_data
+  type: string
+  description: ''
+  sample_value: '%ProgramFiles%\Windows Defender\MSASCuiL.exe'
+- standard_name: registry_value_old_name
+  type: string
+  description: ''
+  sample_value: SecurityHealth
+- standard_name: registry_value_old_data
+  type: string
+  description: ''
+  sample_value: C:\malware.exe
+resources: []
+tags: []

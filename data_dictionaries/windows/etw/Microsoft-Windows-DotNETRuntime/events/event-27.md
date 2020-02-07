@@ -1,0 +1,16 @@
+# Event 27 - GC
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|HeapNum|TBD|UInt32|None|None|
+|TBD|ClrInstanceID|TBD|UInt16|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_GCKeyword
+* etw_opcode_MarkHandles
+* etw_task_GC

@@ -1,0 +1,34 @@
+title: 'Event ID 4950: A Windows Firewall setting has changed.'
+description: This event generates when Windows Firewall local setting was changed.
+platform: windows
+log_source: security
+event_code: '4950'
+event_fields:
+- standard_name: profile_changed
+  standard_type: TBD
+  name: ProfileChanged
+  type: string
+  description: the name of profile in which setting was changed.
+  sample_value: Domain
+- standard_name: setting_type
+  standard_type: TBD
+  name: SettingType
+  type: string
+  description: the name of the setting which was modified.
+  sample_value: Default Outbound Action
+- standard_name: setting_value
+  standard_type: TBD
+  name: SettingValue
+  type: string
+  description: new value of modified setting.
+  sample_value: Block
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4950.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md
+tags:
+- Policy Change
+- Audit MPSSVC Rule-Level Policy Change

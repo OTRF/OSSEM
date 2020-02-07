@@ -1,0 +1,14 @@
+# Event 7 - TriggerSyncTask
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Username|TBD|UnicodeString|None|None|
+|TBD|HResultFailure|TBD|Int32|None|None|
+
+## Tags
+* etw_level_Error
+* etw_task_TriggerSyncTask

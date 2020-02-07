@@ -1,0 +1,31 @@
+title: Event Tracing for Windows Logs
+description: The Event Tracing for Windows (ETW) infrastructure provides the 
+  foundation for Windows Performance Toolkit. These tools provide a set of 
+  programs that hide the complexity of working directly with the ETW 
+  application programming interfaces (APIs).
+
+  ETW enables the consistent, straightforward capture of kernel and 
+  application events. You can enable or disable event capture at any time 
+  without restarting the system or process. Windows Performance Analyzer (WPA) 
+  presents the information that ETW collects in an easy-to-understand set of 
+  graphs and tables.
+
+  You can capture and present selected events to non-invasively identify and 
+  diagnose system and application performance issues. You can enable or disable 
+  event tracing dynamically. Windows Performance Recorder (WPR) uses ETW to 
+  gather and organize critical system information. WPR acts as the session 
+  controller, starting and stopping the session and selecting which ETW events 
+  to record.
+
+  WPA consumes the event trace log (ETL) file that all event providers produce 
+  in an ETW session. Kernel and application events can provide extensive 
+  details about the operation of the system. Almost every kernel event that 
+  affects overall system performance is defined and available to WPA.
+images: []
+references:
+- text: MS Source
+  link: https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-
+- text: Threat Hunting with ETW events and HELK Series
+  link: https://medium.com/threat-hunters-forge/threat-hunting-with-etw-events-and-helk-part-1-installing-silketw-6eb74815e4a0
+- text: Windows Event Forwarding & .ETL (ETW)
+  link: https://blog.neu5ron.com/2017/03/windows-event-forwarding-etl-etw.html

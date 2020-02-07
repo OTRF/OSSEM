@@ -1,0 +1,63 @@
+title: ETL Schema
+description: Event fields used to define specific metadata about the event during
+  the processing of an ETL pipeline.
+data_fields:
+- standard_name: etl_format_applied
+  type: string
+  description: Formatting or encoding applied during the ETL processing. Also referred
+    to as CODEC in some use cases. Can be an array if multiple formats were applied/determined
+  sample_value: '[ "sylog", "json" ]'
+- standard_name: etl_format_is_cef
+  type: boolean
+  description: During ETL processing, event is determined to be CEF (format)
+  sample_value: 'false'
+- standard_name: etl_format_is_json
+  type: boolean
+  description: During ETL processing, event is determined to be JSON (format)
+  sample_value: 'true'
+- standard_name: etl_format_is_syslog
+  type: boolean
+  description: 'During ETL processing, event is determined to be Syslog (format).
+    Technically you could send data encoded in different format over syslog (ie: CEF
+    or JSON), therefore an event/log can have this tag/field as well as other format
+    fields'
+  sample_value: 'true'
+- standard_name: etl_format_is_xml
+  type: boolean
+  description: During ETL processing, event is determined to be XML (format)
+  sample_value: 'true'
+- standard_name: etl_input_application_name
+  type: string
+  description: 'Application name used to receive or gather the log for the very first
+    portion of the ETL processing (ex: kafka, beats, syslog)'
+  sample_value: kafka
+- standard_name: etl_input_application_protocol
+  type: string
+  description: 'Application protocol used to receive or gather the log for the very
+    first portion of the ETL processing (ex: syslog, http, sftp)'
+  sample_value: kafka
+- standard_name: etl_input_port
+  type: integer
+  description: Port (network) used to receive or gather the log for the very first
+    portion of the ETL processing
+  sample_value: '9092'
+- standard_name: etl_input_protocol
+  type: string
+  description: 'Protocol (network) used to receive or gather the log for the very
+    first portion of the ETL processing (ie: tcp, udp, icmp)'
+  sample_value: tcp
+- standard_name: etl_pipeline
+  type: string
+  description: Used to keep track of tags related to transforms, enrichment, or modifications
+    made in an ETL pipeline
+  sample_value: all-add_processed_timestamp
+- standard_name: etl_processed_timestamp
+  type: date
+  description: The first time the event gets processed by the ETL (processing pipeline)
+  sample_value: 4/11/2018 5:49:25
+- standard_name: etl_version
+  type: string
+  description: The schema or transform versioning that is being applied
+  sample_value: v1.0.1
+resources: []
+tags: []

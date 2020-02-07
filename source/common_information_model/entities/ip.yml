@@ -1,0 +1,31 @@
+title: IP Schema
+description: Event fields used to define metadata about IP addresses in a network.
+  It follows the standard from the Destination and Source categories.
+data_fields:
+- standard_name: dhcp_assigned_ip_addr
+  type: ip
+  description: IP address assigned by the DHCP server.
+  sample_value: 192.168.1.2
+- standard_name: dst_ip_addr
+  type: ip
+  description: destination IP in a network connection
+  sample_value: 8.8.8.8
+- standard_name: dst_nat_ip_addr
+  type: ip
+  description: destination NAT IP in a network connection
+  sample_value: 8.8.8.8
+- standard_name: src_ip_addr
+  type: ip
+  description: source IP in a network connection
+  sample_value: 192.168.1.2
+- standard_name: src_nat_ip_addr
+  type: ip
+  description: source NAT IP in a network connection
+  sample_value: 192.168.1.2
+- standard_name: any_ip_addr
+  type: ip
+  description: Allows searching a single field for all IPs. All IP fields copied/duplicated
+    to a single field in an array.
+  sample_value: 192.168.1.2
+resources: []
+tags: []

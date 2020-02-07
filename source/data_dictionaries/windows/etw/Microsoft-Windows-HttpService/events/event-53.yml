@@ -1,0 +1,30 @@
+title: Event 53 - HTTPTimeoutTraceTask
+description: null
+platform: windows
+log_source: Microsoft-Windows-HttpService
+event_code: 53
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: ConnectionId
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ConnectionObj
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Timer
+  type: AnsiString
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Warning
+- etw_keywords_HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_TIMEOUT
+- etw_opcode_ConnTimedOut
+- etw_task_HTTPTimeoutTraceTask

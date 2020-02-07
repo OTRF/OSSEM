@@ -1,0 +1,15 @@
+# Event 2000 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Prop_Process_UnicodeString|TBD|UnicodeString|None|None|
+|TBD|Prop_ErrorCode|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_POOM_Appointment
+* etw_task_task_0

@@ -1,0 +1,86 @@
+title: NTLM Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: ntlm
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '135'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: domainname
+  type: string
+  description: Domainname given by the client.
+  sample_value: BOBS.BIGWHEEL
+- standard_name: TBD
+  standard_type: TBD
+  name: hostname
+  type: string
+  description: Hostname given by the client.
+  sample_value: BOBSPC
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: string
+  description: Username given by the client.
+  sample_value: bobsyauncle
+- standard_name: TBD
+  standard_type: TBD
+  name: server_nb_computer_name
+  type: string
+  description: NetBIOS name given by the server in a CHALLENGE
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: server_tree_name
+  type: string
+  description: Tree name given by the server in a CHALLENGE
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: success
+  type: boolean
+  description: Indicate whether or not the authentication was successful.
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: server_dns_computer_name
+  type: string
+  description: DNS name given by the server in a CHALLENGE
+  sample_value: '``'
+references: []
+tags: []

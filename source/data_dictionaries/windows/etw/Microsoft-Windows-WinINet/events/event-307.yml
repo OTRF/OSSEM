@@ -1,0 +1,42 @@
+title: Event 307 - WININET_DNS_QUERY
+description: null
+platform: windows
+log_source: Microsoft-Windows-WinINet
+event_code: 307
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: _HostNameLength
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: HostName
+  type: AnsiString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RequestHandle
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: _AddressListLength
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: AddressList
+  type: AnsiString
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_WININET_KEYWORD_CONNECTION
+- etw_opcode_Stop
+- etw_task_WININET_DNS_QUERY

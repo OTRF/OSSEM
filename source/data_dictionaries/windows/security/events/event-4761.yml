@@ -1,0 +1,90 @@
+title: 'Event ID 4761: A member was added to a security-disabled universal group'
+description: Event 4761 is the same as 4751, except it is generated for a 
+  universal distribution group instead of a global distribution group. All 
+  event fields, XML, and recommendations are the same. The type of group is 
+  the only difference.
+platform: windows
+log_source: security
+event_code: '4761'
+event_fields:
+- standard_name: target_user_name
+  standard_type: TBD
+  name: MemberName
+  type: string
+  description: 'distinguished name of account that was added to the group. For example:
+    "CN=Auditor,CN=Users,DC=contoso,DC=local". For some well-known security principals,
+    such as LOCAL SERVICE or ANONYMOUS LOGON, the value of this field is "-".'
+  sample_value: CN=Auditor,CN=Users,DC=contoso,DC=local
+- standard_name: target_user_sig
+  standard_type: TBD
+  name: MemberSid
+  type: string
+  description: SID of account that was added to the group. Event Viewer automatically
+    tries to resolve SIDs and show the group name.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-2104
+- standard_name: group_name
+  standard_type: TBD
+  name: TargetUserName
+  type: string
+  description: 'the name of the group to which new member was added. For example:
+    ServiceDesk'
+  sample_value: ServiceDeskSecond
+- standard_name: group_domain
+  standard_type: TBD
+  name: TargetDomainName
+  type: string
+  description: domain name of the group to which new member was added.
+  sample_value: CONTOSO
+- standard_name: group_sid
+  standard_type: TBD
+  name: TargetSid
+  type: string
+  description: SID of the group to which new member was added. Event Viewer automatically
+    tries to resolve SIDs and show the group name.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-6119
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that requested the "add member to the group" operation.
+    Event Viewer automatically tries to resolve SIDs and show the account name.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that requested the "add member to the group"
+    operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3007b'
+- standard_name: user_privilege_list
+  standard_type: TBD
+  name: PrivilegeList
+  type: string
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-".
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4751.md
+- text: MS Security Auditing Category - Account Management
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management
+- text: MS Security Auditing Sub-category - Audit Distribution Group Management
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-distribution-group-management.md
+tags:
+- Account Management
+- Audit Distribution Group Management

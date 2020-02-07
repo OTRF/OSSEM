@@ -1,0 +1,114 @@
+title: 'Event ID 4663: An attempt was made to access an object'
+description: This event indicates that a specific operation was performed on an object.
+  The object could be a file system, kernel, or registry object, or a file system
+  object on removable storage or a device.
+platform: windows
+log_source: security
+event_code: '4663'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that made an attempt to access an object.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that made an attempt to access an object.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x4367b'
+- standard_name: object_server
+  standard_type: TBD
+  name: ObjectServer
+  type: string
+  description: has "Security" value for this event.
+  sample_value: Security
+- standard_name: object_type
+  standard_type: TBD
+  name: ObjectType
+  type: string
+  description: The type of object that was accessed during the operation.
+  sample_value: File
+- standard_name: object_name
+  standard_type: TBD
+  name: ObjectName
+  type: string
+  description: name and other identifying information for the object for which access
+    was requested. For example, for a file, the path would be included.
+  sample_value: C:\Documents\HBI Data.txt
+- standard_name: object_handle_id
+  standard_type: TBD
+  name: HandleId
+  type: integer
+  description: 'hexadecimal value of a handle to Object Name. This field can be used
+    for correlation with other events, for example with Handle ID field in "4656(S,
+    F): A handle to an object was requested."'
+  sample_value: '0x1bc'
+- standard_name: user_access_list
+  standard_type: TBD
+  name: AccessList
+  type: string
+  description: the list of access rights which were used by Subject\Security ID. These
+    access rights depend on Object Type.
+  sample_value: '%%4417 %%4418'
+- standard_name: object_access_mask
+  standard_type: TBD
+  name: AccessMask
+  type: string
+  description: hexadecimal mask for the requested or performed operation. For more
+    information, see the preceding table.
+  sample_value: '0x6'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: hexadecimal Process ID of the process that accessed the object. Process
+    ID (PID) is a number used by the operating system to uniquely identify an active
+    process.
+  sample_value: '0x458'
+- standard_name: process_path
+  standard_type: TBD
+  name: ProcessName
+  type: string
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\System32\notepad.exe
+- standard_name: object_resource_attributes
+  standard_type: TBD
+  name: ResourceAttributes
+  type: string
+  description: attributes associated with the object. For some objects, the field
+    does not apply and "-" is displayed.
+  sample_value: S:AI(RA;ID;;;;WD;("Impact_MS",TI,0x10020,3000))
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4663.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit File System
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-system.md
+- text: MS Security Auditing Sub-category - Audit Kernel Object
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-kernel-object.md
+- text: MS Security Auditing Sub-category - Audit Registry
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-registry.md
+- text: MS Security Auditing Sub-category - Audit Removable Storage
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-removable-storage.md
+tags:
+- Object Access
+- Audit File System
+- Audit Kernel Object
+- Audit Registry
+- Audit Removable Storage

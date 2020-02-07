@@ -1,0 +1,16 @@
+# Event 6 - MP4SDECD_ProcessInput
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|SampleSizeInBytes|TBD|UInt32|None|None|
+|TBD|SampleTime|TBD|Int64|None|None|
+|TBD|SampleDuration|TBD|Int64|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_opcode_Start
+* etw_task_MP4SDECD_ProcessInput

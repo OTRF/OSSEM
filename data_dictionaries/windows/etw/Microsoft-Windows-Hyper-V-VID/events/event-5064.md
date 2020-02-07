@@ -1,0 +1,17 @@
+# Event 5064 - VMT_VID_GPA_UNMAP
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|FirstPage|TBD|UInt64|None|None|
+|TBD|LastPage|TBD|UInt64|None|None|
+|TBD|PartitionGuid|TBD|GUID|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_VMK_GPA
+* etw_opcode_Start
+* etw_task_VMT_VID_GPA_UNMAP

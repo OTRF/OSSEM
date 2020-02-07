@@ -1,0 +1,14 @@
+# Event 1030 - SecurityMitigationsBroker.Task.DisableAcgEnforcement
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ModuleName|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_SECURITYMITIGATIONBROKER_KEYWORD_ACG
+* etw_task_SecurityMitigationsBroker.Task.DisableAcgEnforcement

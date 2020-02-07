@@ -1,0 +1,122 @@
+title: Intel Log
+description: null
+platform: zeek
+log_source: detection
+event_code: intel
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp when the data was discovered in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '80'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: If a connection was associated with this intelligence hit, this is
+    the uid for the connection
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: fuid
+  type: string
+  description: present if base/frameworks/intel/files.bro is loaded If a file was
+    associated with this intelligence hit, this is the uid for the file.
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: file_mime_type
+  type: string
+  description: present if base/frameworks/intel/files.bro is loaded A mime type if
+    the intelligence hit is related to a file. If the $f field is provided this will
+    be automatically filled out.
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: file_desc
+  type: string
+  description: present if base/frameworks/intel/files.bro is loaded Frequently files
+    can be "described" to give a bit more context. If the $f field is provided this
+    field will be automatically filled out.
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: matched
+  type: string
+  description: Which indicator types matched
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: seen_
+  type: n/a
+  description: Where the data was seen
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: seen.
+  type: n/a
+  description: Where the data was seen
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: indicator
+  type: string
+  description: The string if the data is about a string
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: indicator_type
+  type: string
+  description: The type of data that the indicator represents
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: ip
+  description: If the indicator type was Intel::ADDR, then this field will be present
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: node
+  type: string
+  description: The name of the node where the match was discovered
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: where
+  type: string
+  description: Where the data was discovered
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: sources
+  type: array_string
+  description: Sources which supplied data that resulted in this match.
+  sample_value: Conn::IN_RESP
+references: []
+tags: []

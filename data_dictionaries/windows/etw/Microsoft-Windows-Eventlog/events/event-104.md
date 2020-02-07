@@ -1,0 +1,16 @@
+# Event 104 - Logclear
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|SubjectUserName|TBD|UnicodeString|None|None|
+|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
+|TBD|Channel|TBD|UnicodeString|None|None|
+|TBD|BackupPath|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_Logclear

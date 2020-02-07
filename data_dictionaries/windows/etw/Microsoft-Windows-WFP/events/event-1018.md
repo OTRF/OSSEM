@@ -1,0 +1,41 @@
+# Event 1018 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|LocalSPN|TBD|UnicodeString|None|None|
+|TBD|PeerSPN|TBD|UnicodeString|None|None|
+|TBD|MainModeLocalAddressLength|TBD|UInt32|None|None|
+|TBD|MainModeLocalAddress|TBD|Binary|None|None|
+|TBD|MainModePeerAddressLength|TBD|UInt32|None|None|
+|TBD|MainModePeerAddress|TBD|Binary|None|None|
+|TBD|AuthenticationMethodType|TBD|UInt32|None|None|
+|TBD|EncryptionAlgorithm|TBD|UInt32|None|None|
+|TBD|AuthenticationAlgorithm|TBD|UInt32|None|None|
+|TBD|DiffieHellmanGroup|TBD|UInt32|None|None|
+|TBD|LifetimeMinutes|TBD|UInt32|None|None|
+|TBD|QMLimit|TBD|UInt32|None|None|
+|TBD|Role|TBD|UInt32|None|None|
+|TBD|Impersonation|TBD|UInt32|None|None|
+|TBD|MMFilterId|TBD|UInt64|None|None|
+|TBD|SaLuid|TBD|UInt64|None|None|
+|TBD|LocalUmCertDnSubject|TBD|UnicodeString|None|None|
+|TBD|LocalUmCertShaThumbprintLength|TBD|UInt32|None|None|
+|TBD|LocalUmCertShaThumbprint|TBD|Binary|None|None|
+|TBD|LocalUmCertDnIssuer|TBD|UnicodeString|None|None|
+|TBD|LocalUmCertDnRoot|TBD|UnicodeString|None|None|
+|TBD|PeerUmCertDnSubject|TBD|UnicodeString|None|None|
+|TBD|PeerUmCertShaThumbprintLength|TBD|UInt32|None|None|
+|TBD|PeerUmCertShaThumbprint|TBD|Binary|None|None|
+|TBD|PeerUmCertDnIssuer|TBD|UnicodeString|None|None|
+|TBD|PeerUmCertDnRoot|TBD|UnicodeString|None|None|
+|TBD|UMImpersonation|TBD|UInt32|None|None|
+|TBD|QMFilterId|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_ut:Authentication
+* etw_task_task_0

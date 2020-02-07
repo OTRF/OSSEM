@@ -1,0 +1,15 @@
+# Event 5006 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|OldCollectionId|TBD|UnicodeString|None|None|
+|TBD|NewCollectionId|TBD|UnicodeString|None|None|
+|TBD|HRESULT|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_task_0

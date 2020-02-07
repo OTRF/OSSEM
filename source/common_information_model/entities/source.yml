@@ -1,0 +1,91 @@
+title: Source Schema
+description: Event fields used to define the source (client) in a network connection
+  event.
+data_fields:
+- standard_name: src_bytes
+  type: integer
+  description: network bytes sent by the src_ip_addr
+  sample_value: '100'
+- standard_name: src_domain
+  type: string
+  description: If there is a clear distinction of the domain VS hostname VS FQDN this
+    is the domain field. More often than not this should NOT be used and should be
+    defined in the ./target.md, ./host.md, or ./user.md. However, you may follow the
+    recommendations additional-guidelines/domain_or_hostname_or_fqdn.md if there is
+    a clear example for this
+  sample_value: bigwheel.corporation.local
+- standard_name: src_file_extension
+  type: string
+  description: The file extension of a file (.txt, .exe, etc)
+  sample_value: exe
+- standard_name: src_file_name
+  type: string
+  description: name of a file without its full path
+  sample_value: a.exe
+- standard_name: src_file_path
+  type: string
+  description: full path of a file including the name of the file
+  sample_value: C:\users\wardog\z.exe
+- standard_name: src_fqdn
+  type: string
+  description: If there is a clear distinction of the domain VS hostname VS FQDN this
+    is the FQDN field. More often than not this should NOT be used and should be defined
+    in the ./target.md, ./host.md, or ./user.md. However, you may follow the recommendations
+    additional-guidelines/domain_or_hostname_or_fqdn.md if there is a clear example
+    for this
+  sample_value: bob-berto-pc.bigwheel.corporation.local
+- standard_name: src_host_name
+  type: string
+  description: The Source server, host, hostname, domain, or domain name. Some examples,
+    would include the TLS server name, HTTP Host, DNS Query Name, etc. For information
+    on how to define and use this field refer to the documentation additional-guidelines/domain_or_hostname_or_fqdn.md
+  sample_value: www.google.com
+- standard_name: src_ip_addr
+  type: ip
+  description: Source IP address
+  sample_value: 10.10.10.10
+- standard_name: src_ip_bytes
+  type: integer
+  description: network IP (header) bytes sent by the src_ip_addr
+  sample_value: '100'
+- standard_name: src_is_ipv6
+  type: boolean
+  description: If src_ip_addr is IP version 6
+  sample_value: 'false'
+- standard_name: src_mac
+  type: string
+  description: Source MAC address
+  sample_value: a9:68:82:28:c4:6d
+- standard_name: src_mime_type
+  type: string
+  description: Source MIME type as seen in (layer 7) application layer details or
+    as defined by an application scanner such as an anti-virus/EDR. For HTTP this
+    is usually from the server's "Content-Type" header. https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
+  sample_value: application/pdf
+- standard_name: src_packets
+  type: integer
+  description: Network packets sent
+  sample_value: '5'
+- standard_name: src_port
+  type: integer
+  description: Source port number
+  sample_value: '138'
+- standard_name: src_port_name
+  type: string
+  description: Source port name. This is usually determined by IANA common port assignment.
+    Therefore, this means its a guess and NOT the actual the application used
+  sample_value: netbios-dgm
+- standard_name: src_vlan_id
+  type: integer
+  description: The Source VLAN ID if it can be determined. Most commonly if from a
+    firewall/switch/router then it can be determined
+  sample_value: '100'
+- standard_name: src_vlan_name
+  type: string
+  description: The Source VLAN Name. Most commonly if from a firewall/switch/router
+    then it can be determined
+  sample_value: management
+resources:
+- text: Examples of MIME types
+  link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
+tags: []

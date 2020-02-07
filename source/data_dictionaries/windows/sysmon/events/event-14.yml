@@ -1,0 +1,68 @@
+title: 'Event ID 14: RegistryEvent (Key and Value Rename)'
+description: Registry key and value rename operations map to this event type, recording
+  the new name of the key or value that was renamed.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-14-registryevent-key-and-value-rename">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-14-registryevent-key-and-value-rename</a>
+platform: windows
+log_source: sysmon
+event_code: '14'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: registry event. Registry key and value renamed
+  sample_value: RenameKey
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 6:04
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that renamed a registry value and key
+  sample_value: '{A98268C1-95F9-5ACD-0000-001025861000}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the process that renamed a registry
+    value and key
+  sample_value: '4624'
+- standard_name: process_name
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File name of the process that renamed a registry value and key
+  sample_value: Explorer.EXE
+- standard_name: process_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process that renamed a registry value and key
+  sample_value: C:\WINDOWS\Explorer.EXE
+- standard_name: registry_key_path
+  standard_type: TBD
+  name: TargetObject
+  type: string
+  description: complete path of the registry key
+  sample_value: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\New Key #1'
+- standard_name: registry_key_new_name
+  standard_type: TBD
+  name: NewName
+  type: string
+  description: new name of the registry key
+  sample_value: \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\hello
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-14-registryevent-key-and-value-rename
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md
+tags: []

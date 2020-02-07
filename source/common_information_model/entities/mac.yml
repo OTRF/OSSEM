@@ -1,0 +1,26 @@
+title: MAC Schema
+description: Event fields used to define metadata about MAC addresses in a network.
+  It follows the standard from the Destination and Source categories.
+data_fields:
+- standard_name: mac_address
+  type: mac
+  description: MAC address of the endpoint where the log was created
+  sample_value: 00:11:22:33:44:55
+- standard_name: dst_mac
+  type: ip
+  description: destination MAC in a network connection
+  sample_value: 00:11:22:33:44:55
+- standard_name: dst_nat_mac
+  type: ip
+  description: destination NAT MAC in a network connection
+  sample_value: 00:11:22:33:44:55
+- standard_name: src_mac
+  type: ip
+  description: source MAC in a network connection
+  sample_value: 00:11:22:33:44:55
+- standard_name: src_nat_mac
+  type: ip
+  description: source NAT MAC in a network connection
+  sample_value: 00:11:22:33:44:55
+resources: []
+tags: []

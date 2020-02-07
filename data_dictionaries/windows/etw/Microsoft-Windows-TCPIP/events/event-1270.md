@@ -1,0 +1,15 @@
+# Event 1270 - Ndkpi_Create_Mw
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|NdkObject|TBD|Pointer|None|None|
+|TBD|RequestContext|TBD|Pointer|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_ut:TcpipNdkpi
+* etw_task_Ndkpi_Create_Mw

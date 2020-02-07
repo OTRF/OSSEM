@@ -1,0 +1,16 @@
+# Event 3011 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|QueryName|TBD|UnicodeString|None|None|
+|TBD|QueryType|TBD|UInt32|None|None|
+|TBD|DnsServerIpAddress|TBD|UnicodeString|None|None|
+|TBD|ResponseStatus|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_task_0

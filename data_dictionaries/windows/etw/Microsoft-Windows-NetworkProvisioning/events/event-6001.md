@@ -1,0 +1,14 @@
+# Event 6001 - PurgeTask
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ErrorCode|TBD|Int32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_PurgeTask ut:Configuration
+* etw_task_PurgeTask

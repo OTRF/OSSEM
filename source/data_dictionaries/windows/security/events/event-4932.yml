@@ -1,0 +1,57 @@
+title: 'Event ID 4932: Synchronization of a replica of an Active Directory naming
+  context has begun'
+description: This event generates every time synchronization of a replica of an Active
+  Directory naming context has begun.
+platform: windows
+log_source: security
+event_code: '4932'
+event_fields:
+- standard_name: destination_dra
+  standard_type: TBD
+  name: DestinationDRA
+  type: string
+  description: destination directory replication agent distinguished name.
+  sample_value: CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
+- standard_name: source_dra
+  standard_type: TBD
+  name: SourceDRA
+  type: string
+  description: source directory replication agent distinguished name.
+  sample_value: CN=NTDS Settings,CN=WIN2012R2,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
+- standard_name: naming_context
+  standard_type: TBD
+  name: NamingContext
+  type: string
+  description: naming context to replicate.
+  sample_value: CN=Schema,CN=Configuration,DC=contoso,DC=local
+- standard_name: options
+  standard_type: TBD
+  name: Options
+  type: integer
+  description: decimal value of DRS Options.
+  sample_value: '2147483733'
+- standard_name: session_id
+  standard_type: TBD
+  name: SessionID
+  type: integer
+  description: 'unique identifier of replication session. Using this field you can
+    find "4932: Synchronization of a replica of an Active Directory naming context
+    has begun." and "4933: Synchronization of a replica of an Active Directory naming
+    context has ended." events for the same session.'
+  sample_value: '48'
+- standard_name: start_usn
+  standard_type: TBD
+  name: StartUSN
+  type: integer
+  description: Naming Context's USN number before replication begins.
+  sample_value: '20869'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4932.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Sub-category - Audit Directory Service Replication
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-replication.md
+tags:
+- DS Access
+- Audit Directory Service Replication

@@ -1,0 +1,18 @@
+# Event 12 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ProcessID|TBD|UInt32|None|None|
+|TBD|ThreadID|TBD|UInt32|None|None|
+|TBD|QoSHandle|TBD|Pointer|None|None|
+|TBD|FailureActivity|TBD|UInt32|None|None|
+|TBD|FailureErrorCodeType|TBD|UInt32|None|None|
+|TBD|FailureErrorCode|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_task_0

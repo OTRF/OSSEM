@@ -1,0 +1,55 @@
+title: ingress.event.tamper (Cb Response Tamper)
+description: A process tampered with a critical Carbon Black userspace process or
+  kernel driver.
+platform: windows
+log_source: carbonblack
+event_code: tamper
+event_fields:
+- standard_name: cb_server
+  standard_type: TBD
+  name: cb_server
+  type: TEXT
+  description: Used to distinguish between multiple Cb Response servers. Set this
+    in the "server_name" option of cb-event-forwarder.ini.
+  sample_value: cbserver
+- standard_name: host_name
+  standard_type: TBD
+  name: computer_name
+  type: TEXT
+  description: hostname of the sensor
+  sample_value: JASON-WIN81-VM
+- standard_name: event_type
+  standard_type: TBD
+  name: event_type
+  type: TEXT
+  description: The type of event
+  sample_value: tamper
+- standard_name: sensor_id
+  standard_type: TBD
+  name: sensor_id
+  type: INTEGER
+  description: Sensor ID of associated sensor
+  sample_value: '1'
+- standard_name: tamper_type
+  standard_type: TBD
+  name: tamper_type
+  type: TEXT
+  description: 'The activity which triggered this tamper event: CoreDriverUnloaded,
+    NetworkDriverUnloaded, CbServiceStopped, CbProcessTerminated, or CbCodeInjection'
+  sample_value: CbProcessTerminated
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: timestamp
+  type: INTEGER
+  description: Endpoint timestamp of this event since epoch
+  sample_value: '1450470603'
+- standard_name: event_type_detailed
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: The full type of event
+  sample_value: ingress.event.tamper
+references:
+- text: Carbon Black Developer Docs
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-tamper-cb-response-tamper
+tags: []

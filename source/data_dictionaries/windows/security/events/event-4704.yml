@@ -1,0 +1,55 @@
+title: 'Event ID 4704: A user right was assigned.'
+description: This event generates every time local user right policy is changed and
+  user right was assigned to an account.
+platform: windows
+log_source: security
+event_code: '4704'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that made a change to local user right policy.
+  sample_value: S-1-5-18
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that made a change to local user right policy.
+  sample_value: DC01$
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: target_user_sid
+  standard_type: TBD
+  name: TargetSid
+  type: string
+  description: the SID of security principal for which user rights were assigned.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_privilege_list
+  standard_type: TBD
+  name: PrivilegeList
+  type: string
+  description: the list of assigned user rights.
+  sample_value: SeAuditPrivilege SeIncreaseWorkingSetPrivilege
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4704.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Authorization Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authorization-policy-change.md
+tags:
+- Policy Change
+- Audit Authorization Policy Change

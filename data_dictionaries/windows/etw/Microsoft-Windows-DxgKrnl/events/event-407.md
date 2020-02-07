@@ -1,0 +1,16 @@
+# Event 407 - VmBusSendCommandHostToVm
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|VmBusChannel|TBD|Pointer|None|None|
+|TBD|CommandId|TBD|UInt64|None|None|
+|TBD|CommandType|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Always
+* etw_keywords_VirtualGpu
+* etw_task_VmBusSendCommandHostToVm

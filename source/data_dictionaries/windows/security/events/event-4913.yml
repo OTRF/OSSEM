@@ -1,0 +1,100 @@
+title: 'Event ID 4913: Central Access Policy on the object was changed.'
+description: This event generates when a Central Access Policy on a file system object
+  is changed.
+platform: windows
+log_source: security
+event_code: '4913'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that changed the Central Access Policy on the object.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that changed the Central Access Policy on the
+    object.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x37901'
+- standard_name: object_server
+  standard_type: TBD
+  name: ObjectServer
+  type: string
+  description: has "Security" value for this event.
+  sample_value: Security
+- standard_name: object_type
+  standard_type: TBD
+  name: ObjectType
+  type: string
+  description: The type of an object that was accessed during the operation. Always
+    "File" for this event.
+  sample_value: File
+- standard_name: file_path
+  standard_type: TBD
+  name: ObjectName
+  type: string
+  description: full path and/or name of the object on which the Central Access Policy
+    was changed.
+  sample_value: C:\Audit Files\HBI Data.txt
+- standard_name: object_handle_id
+  standard_type: TBD
+  name: HandleId
+  type: integer
+  description: 'hexadecimal value of a handle to Object Name. This field can help
+    you correlate this event with other events that might contain the same Handle
+    ID, for example, "4663(S): An attempt was made to access an object." This parameter
+    might not be captured in the event, and in that case appears as "0x0".'
+  sample_value: '0x3d4'
+- standard_name: object_old_sd
+  standard_type: TBD
+  name: OldSd
+  type: string
+  description: the Security Descriptor Definition Language (SDDL) value for the old
+    Central Policy ID (for the policy that was formerly applied to the object).
+  sample_value: S:AI
+- standard_name: object_new_sd
+  standard_type: TBD
+  name: NewSd
+  type: string
+  description: the Security Descriptor Definition Language (SDDL) value for the new
+    Central Policy ID (for the policy that has been applied to the object).
+  sample_value: S:ARAI(SP;ID;;;;S-1-17-1442530252-1178042555-1247349694-2318402534)
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: hexadecimal Process ID of the process using which Central Access Policy
+    was changed.
+  sample_value: '0x884'
+- standard_name: process_path
+  standard_type: TBD
+  name: ProcessName
+  type: string
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\System32\dllhost.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4913.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Authorization Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authorization-policy-change.md
+tags:
+- Policy Change
+- Audit Authorization Policy Change

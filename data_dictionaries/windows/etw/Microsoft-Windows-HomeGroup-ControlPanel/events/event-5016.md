@@ -1,0 +1,15 @@
+# Event 5016 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Error|TBD|UnicodeString|None|None|
+|TBD|guid|TBD|GUID|None|None|
+|TBD|DWORD|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Error
+* etw_task_task_0

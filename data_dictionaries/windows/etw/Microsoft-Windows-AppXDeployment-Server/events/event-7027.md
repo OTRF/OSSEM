@@ -1,0 +1,16 @@
+# Event 7027 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|PackageFullName|TBD|UnicodeString|None|None|
+|TBD|UpstreamDependentPackageFullName|TBD|UnicodeString|None|None|
+|TBD|UpstreamDependentPackageKey|TBD|Int64|None|None|
+
+## Tags
+* etw_level_Verbose
+* etw_keywords_RUNTIME_DEH_KEYWORD
+* etw_task_task_0

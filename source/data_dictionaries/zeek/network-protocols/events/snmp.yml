@@ -1,0 +1,104 @@
+title: SNMP Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: snmp
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '161'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: duration
+  type: float
+  description: The amount of time between the first packet belonging to the SNMP session
+    and the latest one seen
+  sample_value: '0.038019'
+- standard_name: TBD
+  standard_type: TBD
+  name: community
+  type: string
+  description: The community string of the first SNMP packet associated with the session.
+    This is used as part of SNMP's (v1 and v2c) administrative/security framework.
+    See RFC 1157 or RFC 1901
+  sample_value: public
+- standard_name: TBD
+  standard_type: TBD
+  name: display_string
+  type: string
+  description: A system description of the SNMP responder endpoint.
+  sample_value: VMware ESXi 5.5.0 build-4722766 VMware, Inc. x86_64
+- standard_name: TBD
+  standard_type: TBD
+  name: get_bulk_requests
+  type: integer
+  description: The number of variable bindings in GetBulkRequest PDUs seen for the
+    session
+  sample_value: '0'
+- standard_name: TBD
+  standard_type: TBD
+  name: get_requests
+  type: integer
+  description: The number of variable bindings in GetRequest/GetNextRequest PDUs seen
+    for the session
+  sample_value: '2'
+- standard_name: TBD
+  standard_type: TBD
+  name: get_responses
+  type: integer
+  description: The number of variable bindings in GetResponse/Response PDUs seen for
+    the session
+  sample_value: '2'
+- standard_name: TBD
+  standard_type: TBD
+  name: set_requests
+  type: integer
+  description: The number of variable bindings in SetRequest PDUs seen for the session
+  sample_value: '1'
+- standard_name: TBD
+  standard_type: TBD
+  name: up_since        date_time
+  type: The time at which the SNMP responder endpoint claims it's been up since
+  description: '``'
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: string
+  description: The version of SNMP being used.
+  sample_value: '1'
+references: []
+tags: []

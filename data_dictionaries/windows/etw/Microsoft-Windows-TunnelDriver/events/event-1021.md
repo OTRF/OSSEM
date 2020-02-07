@@ -1,0 +1,16 @@
+# Event 1021 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|SourceIPv4Address|TBD|UInt32|None|None|
+|TBD|DestinationIPv4Address|TBD|UInt32|None|None|
+|TBD|SourcePort|TBD|UInt16|None|None|
+|TBD|DestinationPort|TBD|UInt16|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_task_task_0

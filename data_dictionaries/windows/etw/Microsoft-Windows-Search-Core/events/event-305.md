@@ -1,0 +1,17 @@
+# Event 305 - CBPool_ForceFlush
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|AvailableCBCount|TBD|UInt32|None|None|
+|TBD|DirtyCBCount|TBD|UInt32|None|None|
+|TBD|InUseCBCount|TBD|UInt32|None|None|
+|TBD|PublishedCBCount|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Indexing IndexPI
+* etw_task_CBPool_ForceFlush

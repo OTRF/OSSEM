@@ -1,0 +1,112 @@
+title: File Table
+description: Interactive filesystem attributes and metadata.
+platform: windows
+log_source: osquery
+event_code: file
+event_fields:
+- standard_name: file_path
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Absolute file path
+  sample_value: ''
+- standard_name: file_directory
+  standard_type: TBD
+  name: directory
+  type: TEXT
+  description: Directory of file(s)
+  sample_value: ''
+- standard_name: file_name
+  standard_type: TBD
+  name: filename
+  type: TEXT
+  description: Name portion of file path
+  sample_value: ''
+- standard_name: file_inode
+  standard_type: TBD
+  name: inode
+  type: BIGINT
+  description: Filesystem inode number
+  sample_value: ''
+- standard_name: user_uid
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: Owning user ID
+  sample_value: ''
+- standard_name: user_gid
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: Owning group ID
+  sample_value: ''
+- standard_name: user_permissions
+  standard_type: TBD
+  name: mode
+  type: TEXT
+  description: Permission bits
+  sample_value: ''
+- standard_name: device_id
+  standard_type: TBD
+  name: device
+  type: BIGINT
+  description: Device ID (optional)
+  sample_value: ''
+- standard_name: file_size
+  standard_type: TBD
+  name: size
+  type: BIGINT
+  description: Size of file in bytes
+  sample_value: ''
+- standard_name: file_block_size
+  standard_type: TBD
+  name: block_size
+  type: INTEGER
+  description: Block size of filesystem
+  sample_value: ''
+- standard_name: date_last_access
+  standard_type: TBD
+  name: atime
+  type: BIGINT
+  description: Last access time
+  sample_value: ''
+- standard_name: date_last_modification
+  standard_type: TBD
+  name: mtime
+  type: BIGINT
+  description: Last modification time
+  sample_value: ''
+- standard_name: date_last_status_change
+  standard_type: TBD
+  name: ctime
+  type: BIGINT
+  description: Last status change time
+  sample_value: ''
+- standard_name: date_creation_time
+  standard_type: TBD
+  name: btime
+  type: BIGINT
+  description: (B)irth or (cr)eate time
+  sample_value: ''
+- standard_name: file_hard_links
+  standard_type: TBD
+  name: hard_links
+  type: INTEGER
+  description: Number of hard links
+  sample_value: ''
+- standard_name: file_symlink
+  standard_type: TBD
+  name: symlink
+  type: INTEGER
+  description: 1 if the path is a symlink, otherwise 0
+  sample_value: ''
+- standard_name: file_type
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: File status
+  sample_value: ''
+references:
+- text: osquery GitHub
+  link: https://github.com/facebook/osquery/blob/master/specs/utility/file.table
+tags: []

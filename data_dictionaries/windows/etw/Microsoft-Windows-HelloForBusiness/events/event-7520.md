@@ -1,0 +1,18 @@
+# Event 7520 - DeviceUnlock
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ErrorText|TBD|UnicodeString|None|None|
+|TBD|Error|TBD|HexInt32|None|None|
+|TBD|CorrelationVector|TBD|AnsiString|None|None|
+|TBD|ProcessingTime|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Error
+* etw_keywords_Internal
+* etw_opcode_Stop
+* etw_task_DeviceUnlock

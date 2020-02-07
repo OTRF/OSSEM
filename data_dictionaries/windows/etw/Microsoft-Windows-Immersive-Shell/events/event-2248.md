@@ -1,0 +1,14 @@
+# Event 2248 - PerfTrack_Share_TimeToApp
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|HWND|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_opcode_Start
+* etw_task_PerfTrack_Share_TimeToApp

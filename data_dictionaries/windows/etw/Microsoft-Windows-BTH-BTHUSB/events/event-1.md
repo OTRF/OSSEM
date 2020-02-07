@@ -1,0 +1,17 @@
+# Event 1 - RadioHostController
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|fid_BTHUSB_HC|TBD|Int8|None|None|
+|TBD|fid_BTHUSB_HC_SELECTIVE_SUSPEND|TBD|Int16|None|None|
+|TBD|fid_BTHUSB_HC_Pdo_Name|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Diagnostic
+* etw_opcode_Information
+* etw_task_RadioHostController

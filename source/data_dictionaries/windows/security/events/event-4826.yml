@@ -1,0 +1,127 @@
+title: 'Event ID 4826: Boot Configuration Data loaded.'
+description: This event generates every time system starts and load current Boot Configuration
+  Data.
+platform: windows
+log_source: security
+event_code: '4826'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that reported this event.
+  sample_value: S-1-5-18
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that reported this event. Always "-" for this
+    event.
+  sample_value: '-'
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name. Always "-" for this event.
+  sample_value: '-'
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: load_options
+  standard_type: TBD
+  name: LoadOptions
+  type: string
+  description: there is no information about this field in this document.
+  sample_value: '-'
+- standard_name: advanced_options
+  standard_type: TBD
+  name: AdvancedOptions
+  type: string
+  description: shows whether Windows is configured for system boot to the legacy menu
+    (F8 menu) on the next boot (Yes or No). You can enable advanced boot using "bcdedit
+    /set onetimeadvancedoptions yes" command.
+  sample_value: '%%1843'
+- standard_name: config_access_policy
+  standard_type: TBD
+  name: ConfigAccessPolicy
+  type: string
+  description: there is no information about this field in this document.
+  sample_value: '%%1846'
+- standard_name: remote_event_logging
+  standard_type: TBD
+  name: RemoteEventLogging
+  type: string
+  description: there is no information about this field in this document.
+  sample_value: '%%1843'
+- standard_name: kernel_debug
+  standard_type: TBD
+  name: KernelDebug
+  type: string
+  description: shows whether Windows kernel debugging is enabled or not (Yes or No).
+    You can enable kernel debugging using "bcdedit /debug on" command.
+  sample_value: '%%1843'
+- standard_name: vsm_launch_type
+  standard_type: TBD
+  name: VsmLaunchType
+  type: string
+  description: there is no information about this field in this document.
+  sample_value: '%%1848'
+- standard_name: test_signing
+  standard_type: TBD
+  name: TestSigning
+  type: string
+  description: shows whether Windows test signing is enabled or not (Yes or No). You
+    can disable test signing using "bcdedit /set testsigning off" command.
+  sample_value: '%%1843'
+- standard_name: flight_signing
+  standard_type: TBD
+  name: FlightSigning
+  type: string
+  description: shows whether Windows flight signing (which allows flight-signed code
+    signing certificates) is enabled or not (Yes or No). You can disable flight signing
+    using "bcdedit /set flightsigning off" command.
+  sample_value: '%%1843'
+- standard_name: disable_integrity_checks
+  standard_type: TBD
+  name: DisableIntegrityChecks
+  type: string
+  description: shows whether Windows integrity check is disabled or not (Yes or No).
+    You can disable integrity checks using "bcdedit /set nointegritychecks on" command.
+  sample_value: '%%1843'
+- standard_name: hypervisor_load_options
+  standard_type: TBD
+  name: HypervisorLoadOptions
+  type: string
+  description: shows hypervisor loadoptions.
+  sample_value: '-'
+- standard_name: hypervisor_launch_type
+  standard_type: TBD
+  name: HypervisorLaunchType
+  type: string
+  description: shows the hypervisor launch options (Off or Auto). If you are setting
+    up a debugger to debug Hyper-V on a target computer, set this option to Auto on
+    the target computer.
+  sample_value: '%%1848'
+- standard_name: hypervisor_debug
+  standard_type: TBD
+  name: HypervisorDebug
+  type: string
+  description: shows the hypervisor launch options (Off or Auto). If you are setting
+    up a debugger to debug Hyper-V on a target computer, set this option to Auto on
+    the target computer.
+  sample_value: '%%1843'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4826.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Other Policy Change Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-policy-change-events.md
+tags:
+- Policy Change
+- Audit Other Policy Change Events

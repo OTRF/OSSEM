@@ -1,0 +1,16 @@
+# Event 2 - PowerTransition
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Status|TBD|UInt32|None|None|
+|TBD|Time|TBD|FILETIME|None|None|
+
+## Tags
+* etw_level_Critical
+* etw_keywords_po:Scenario po:Performance po:SleepDiagnostic
+* etw_opcode_Stop
+* etw_task_PowerTransition

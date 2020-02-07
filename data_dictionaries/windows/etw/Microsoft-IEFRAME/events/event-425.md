@@ -1,0 +1,22 @@
+# Event 425 - ImageStore_Activity_SingleImage
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|PID|TBD|UInt32|None|None|
+|TBD|ActivityType|TBD|UnicodeString|None|None|
+|TBD|ImageKey|TBD|UnicodeString|None|None|
+|TBD|ImageUniqueID|TBD|UInt32|None|None|
+|TBD|ImageDimX|TBD|UInt32|None|None|
+|TBD|ImageDimY|TBD|UInt32|None|None|
+|TBD|ImageCleaningScheme|TBD|UInt32|None|None|
+|TBD|ImageLastUpdatedTime|TBD|UInt64|None|None|
+|TBD|ImageLastRetrievedTime|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Always
+* etw_keywords_imagestore
+* etw_task_ImageStore_Activity_SingleImage

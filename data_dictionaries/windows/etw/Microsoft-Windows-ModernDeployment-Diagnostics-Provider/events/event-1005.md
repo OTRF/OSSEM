@@ -1,0 +1,16 @@
+# Event 1005 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|HRESULT|TBD|HexInt32|None|None|
+|TBD|File|TBD|AnsiString|None|None|
+|TBD|Line|TBD|Int32|None|None|
+|TBD|Message|TBD|UnicodeString|None|None|
+
+## Tags
+* etw_level_Error
+* etw_task_task_0

@@ -1,0 +1,14 @@
+# Event 1018 - AddressConfigurationStateEvent
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|StatusCode|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Error
+* etw_opcode_Dhcpv6InitFailed
+* etw_task_AddressConfigurationStateEvent

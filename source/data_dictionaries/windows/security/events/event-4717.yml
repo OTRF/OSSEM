@@ -1,0 +1,56 @@
+title: 'Event ID 4717: System security access was granted to an account'
+description: This event generates every time local logon user right policy is changed
+  and logon right was granted to an account. You will see unique event for every user
+  if logon user rights were granted to multiple accounts.
+platform: windows
+log_source: security
+event_code: '4717'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: AccessGranted
+  type: string
+  description: the name of granted logon right.
+  sample_value: SeChangeNotifyPrivilege
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that made a change to local logon right user policy.
+  sample_value: DADOMAIN\DaUser
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that made a change to local logon right user
+    policy.
+  sample_value: DaUser
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: "\_subject's domain or computer name."
+  sample_value: DADOMAIN
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x3e7'
+- standard_name: target_user_sid
+  standard_type: TBD
+  name: TargetSid
+  type: string
+  description: the SID of the security principal for which logon right was granted.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-2104
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4717.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Authentication Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authentication-policy-change.md
+tags:
+- Policy Change
+- Audit Authentication Policy Change

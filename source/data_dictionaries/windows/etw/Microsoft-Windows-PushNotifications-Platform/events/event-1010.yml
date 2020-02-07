@@ -1,0 +1,93 @@
+title: Event 1010 - NewCloudNotificationArrival
+description: null
+platform: windows
+log_source: Microsoft-Windows-PushNotifications-Platform
+event_code: 1010
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: NotificationType
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ChannelId
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: AppUserModelId
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: TrackingId
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: MessageId
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Timestamp
+  type: Double
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Expiry
+  type: Double
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Tag
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Group
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Action
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: OfflineCacheCount
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: CacheRollover
+  type: Boolean
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: OfflineBundleId
+  type: UnicodeString
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_wpndebug_cloudtoast_isolate wpndebug_raw_isolate wpnconn wpnperf_FirstCloudNotification
+  wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrival
+  wpnperf_NewCloudNotificationArrivalWithCloudImage wpntroubleshoot wpndebug_cloudtile_isolate
+  wpndev_NotificationE2E
+- etw_opcode_Start
+- etw_task_NewCloudNotificationArrival

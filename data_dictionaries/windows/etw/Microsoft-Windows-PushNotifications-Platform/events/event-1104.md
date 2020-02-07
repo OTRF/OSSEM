@@ -1,0 +1,21 @@
+# Event 1104 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ChannelId|TBD|AnsiString|None|None|
+|TBD|CommandSize|TBD|UInt32|None|None|
+|TBD|Command|TBD|Binary|None|None|
+|TBD|Namespace|TBD|AnsiString|None|None|
+|TBD|ContextId|TBD|UInt64|None|None|
+|TBD|PayloadSize|TBD|UInt32|None|None|
+|TBD|Payload|TBD|Binary|None|None|
+|TBD|UserId|TBD|UInt64|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_wpnprv
+* etw_task_task_0

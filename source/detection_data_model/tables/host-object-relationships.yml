@@ -1,0 +1,65 @@
+title: Host Object Relationships
+description: null
+data_fields:
+- att&ck_data_source: Windows event logs, Authentication logs
+  sub_data_source: NTLM Credentials Validation
+  source_data_object: host
+  relationship: authenticated
+  destination_data_object: user
+  eventid: '4776'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network service connection block
+  source_data_object: host
+  relationship: blocked_service_connection_to
+  destination_data_object: process
+  eventid: '5031'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network listener allow
+  source_data_object: host
+  relationship: permitted_listener_on
+  destination_data_object: process
+  eventid: '5154'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network listener block
+  source_data_object: host
+  relationship: blocked_listener_on
+  destination_data_object: process
+  eventid: '5155'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network connection allow
+  source_data_object: host
+  relationship: permitted_inbound_connection_on
+  destination_data_object: process
+  eventid: '5156'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network connection allow
+  source_data_object: host
+  relationship: permitted_outbound_connection_on
+  destination_data_object: process
+  eventid: '5156'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network connection block
+  source_data_object: host
+  relationship: blocked_inbound_connection_on
+  destination_data_object: process
+  eventid: '5157'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network connection block
+  source_data_object: host
+  relationship: blocked_outbound_connection_on
+  destination_data_object: process
+  eventid: '5157'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network local port bind allow
+  source_data_object: host
+  relationship: permitted_local_port_bind_on
+  destination_data_object: process
+  eventid: '5158'
+- att&ck_data_source: Process use of network
+  sub_data_source: process network local port bind blocked
+  source_data_object: host
+  relationship: blocked_local_port_bind_on
+  destination_data_object: process
+  eventid: '5159'
+resources: []
+tags: []

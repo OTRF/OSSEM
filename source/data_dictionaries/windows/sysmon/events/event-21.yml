@@ -1,0 +1,55 @@
+title: 'Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)'
+description: When a consumer binds to a filter, this event logs the consumer name
+  and filter path.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-21-wmievent-wmieventconsumertofilter-activity-detected">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-21-wmievent-wmieventconsumertofilter-activity-detected</a>
+platform: windows
+log_source: sysmon
+event_code: '21'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: wmievent type
+  sample_value: WmiBindingEvent
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: '2018-09-12 00:47:16.997'
+- standard_name: wmi_operation
+  standard_type: TBD
+  name: Operation
+  type: string
+  description: wmievent filter operation
+  sample_value: Created
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: user that created the wmi filter
+  sample_value: DESKTOP-LFD11QP\pedro
+- standard_name: wmi_consumer_path
+  standard_type: TBD
+  name: Consumer
+  type: string
+  description: Consumer created to bind
+  sample_value: CommandLineEventConsumer.Name=\"Updater\"
+- standard_name: wmi_filter_path
+  standard_type: TBD
+  name: Filter
+  type: string
+  description: Filter created to bind
+  sample_value: __EventFilter.Name=\"Updater\"
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-21-wmievent-wmieventconsumertofilter-activity-detected
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/WMI-events.md
+tags: []

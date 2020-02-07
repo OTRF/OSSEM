@@ -1,0 +1,74 @@
+title: 'Event ID 4693: Recovery of data protection master key was attempted.'
+description: This event generates every time that recovery is attempted for a DPAPI
+  Master Key.
+platform: windows
+log_source: security
+event_code: '4693'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: string
+  description: SID of account that requested the "recover" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: string
+  description: the name of the account that requested the "recover" operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: string
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x30d7c'
+- standard_name: master_key_id
+  standard_type: TBD
+  name: MasterKeyId
+  type: string
+  description: unique identifier of a master key which was recovered.
+  sample_value: 0445c766-75f0-4de7-82ad-d9d97aad59f6
+- standard_name: recovery_key_reason
+  standard_type: TBD
+  name: RecoveryReason
+  type: integer
+  description: hexadecimal code of recovery reason.
+  sample_value: '0x5c005c'
+- standard_name: target_host_name
+  standard_type: TBD
+  name: RecoveryServer
+  type: string
+  description: the name (typically - DNS name) of the computer that you contacted
+    to recover your Master Key.
+  sample_value: DC01.contoso.local
+- standard_name: recovery_key_id
+  standard_type: TBD
+  name: RecoveryKeyId
+  type: string
+  description: unique identifier of a recovery key.
+  sample_value: None
+- standard_name: event_failure_reason
+  standard_type: TBD
+  name: FailureId
+  type: integer
+  description: hexadecimal unique status code.
+  sample_value: '0x380000'
+references:
+- text: MS SOURCE
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4693.md
+- text: MS Security Auditing Category - Detailed Tracking
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking
+- text: MS Security Auditing Sub-category - Audit DPAPI Activity
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-dpapi-activity.md
+tags:
+- Detailed Tracking
+- Audit DPAPI Activity

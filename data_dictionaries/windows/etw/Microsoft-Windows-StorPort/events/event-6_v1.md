@@ -1,0 +1,17 @@
+# Event 6 - LinkUpnotification
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|MiniportExtension|TBD|Pointer|None|None|
+|TBD|PortNumber|TBD|UInt32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_PortNotification
+* etw_opcode_OpCodeLinkUp
+* etw_task_LinkUpnotification
+* version_1

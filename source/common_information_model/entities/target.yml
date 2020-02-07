@@ -1,0 +1,71 @@
+title: Target
+description: Event fields used to define entities being targeted by other entities
+  locally in a system. This is different from a network connection event. It is more
+  related to events that involve relationships defined locally by entities such as
+  files, processes,users, etc.
+data_fields:
+- standard_name: target_process_guid
+  type: string
+  description: Process Guid of the target process
+  sample_value: '{A98268C1-9C2E-5ACD-0000-00100266AB00}'
+- standard_name: target_process_id
+  type: integer
+  description: Process ID used by the os to identify the target process
+  sample_value: '240'
+- standard_name: target_process_path
+  type: string
+  description: File path of the target process
+  sample_value: C:\Windows\System32\cmd.exe
+- standard_name: target_device
+  type: string
+  description: Target device
+  sample_value: \Device\HarddiskVolume2
+- standard_name: target_host_name
+  type: string
+  description: name of a computer or device (see example of the ../data_dictionaries/windows/security/events/event-4741.md
+    for specific use case
+  sample_value: WIN81$
+- standard_name: target_process_name
+  type: string
+  description: name of the target process without its full path
+  sample_value: MsMpEng.exe
+- standard_name: target_user_name
+  type: string
+  description: the name of the account whose credentials were used
+  sample_value: ladmin
+- standard_name: target_user_domain
+  type: string
+  description: subject's domain or computer name
+  sample_value: CONTOSO
+- standard_name: target_user_logon_guid
+  type: string
+  description: 'a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested
+    event on a domain controller.'
+  sample_value: '{0887F1E4-39EA-D53C-804F-31D568A06274}'
+- standard_name: target_server_name
+  type: string
+  description: the name of the server on which the new process was run. Has "localhost"
+    value if the process was run locally.
+  sample_value: localhost
+- standard_name: target_info
+  type: string
+  description: there is no detailed information about this field in this document.
+  sample_value: localhost
+- standard_name: target_user_sid
+  type: string
+  description: SID of account that performed the logon.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-500
+- standard_name: target_user_logon_id
+  type: integer
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x139faf'
+- standard_name: target_user_sid_list
+  type: string
+  description: the list of special group SIDs, which New Logon\Security ID is a member
+    of.
+  sample_value: '{S-1-5-21-3457937927-2839227994-823803824-512}'
+resources: []
+tags: []

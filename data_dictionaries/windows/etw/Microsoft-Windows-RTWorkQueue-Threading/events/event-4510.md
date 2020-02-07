@@ -1,0 +1,15 @@
+# Event 4510 - Platform:Shutdown
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Platform|TBD|Pointer|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_Telemetry
+* etw_opcode_Stop
+* etw_task_Platform:Shutdown

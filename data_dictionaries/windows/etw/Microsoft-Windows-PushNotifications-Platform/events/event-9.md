@@ -1,0 +1,16 @@
+# Event 9 - SwitchPrivilege
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|ResultedPrivilege|TBD|UInt32|None|None|
+|TBD|Error|TBD|Int32|None|None|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_wpnplat
+* etw_opcode_Stop
+* etw_task_SwitchPrivilege
