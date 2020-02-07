@@ -27,3 +27,4 @@ Event fields used to define metadata about files either locally or over the wire
 | file_changed_time | date | When the file was last changed. Also known as `ctime` | 2016-11-25 18:21:47 |
 | file_modified_time | date | When the file was last modified. Also known as `mtime` | 2016-11-25 18:21:47 |
 | file_previous_name | string | The file's previous name | C:\\Windows\system32\cmd.exe |
+| file_system_type | string | The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs | ntfs |
