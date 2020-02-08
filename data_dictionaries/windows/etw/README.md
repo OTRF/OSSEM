@@ -8,7 +8,7 @@ WPA consumes the event trace log (ETL) file that all event providers produce in 
 
 ## Sub Data Sets
 |Data Set|Description|
-|---|---|---|
+|---|---|
 |[Intel-iaLPSS2-I2C ETW events](Intel-iaLPSS2-I2C/)|This page contains the list of events for Intel-iaLPSS2-I2C, as collected by the Event Tracing for Windows.|
 |[Microsoft-Windows-StorDiag ETW events](Microsoft-Windows-StorDiag/)|This page contains the list of events for Microsoft-Windows-StorDiag, as collected by the Event Tracing for Windows.|
 |[Microsoft-Windows-GroupPolicyTriggerProvider ETW events](Microsoft-Windows-GroupPolicyTriggerProvider/)|This page contains the list of events for Microsoft-Windows-GroupPolicyTriggerProvider, as collected by the Event Tracing for Windows.|

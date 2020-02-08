@@ -12,7 +12,7 @@ The main field to pivot across will be normalized to event_uid and all other UID
 
 ## Sub Data Sets
 |Data Set|Description|
-|---|---|---|
+|---|---|
 |[Zeek Network Observations Event Logs](network-observations/)|Data collected about certificates, software, hosts, modbus, software, services/applications, etc.. that it has seen over time. Example, the various software seen by a host over time.|
 |[Zeek Network Protocol Event Logs](network-protocols/)|Network protocol/application logs containing all the metadata it collects and records for that specific protocol. These are the most commonly used Zeek logs|
 |[Zeek Miscellaneous Event Logs](miscellaneous/)|Events regarding abnormal traffic (ie: protocols that are not adhering to an RFC) and or that could commonly be used to try to evade different detections/analyzers for that protocol.|

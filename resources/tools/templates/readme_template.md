@@ -13,10 +13,11 @@
 ## Sub Data Sets
 {%- if entry['data_set_type'] == 'Data Set' %}
 |{{entry['data_set_type']}}|Description|
+|---|---|
 {%- else %}
 |{{entry['data_set_type']}}|Description|Tags|
-{%- endif %}
 |---|---|---|
+{%- endif %}
 {%- if entry['sub_data_sets'] %}
 {%- for row in entry['sub_data_sets'] %}
 {%- if entry['data_set_type'] == 'Data Set' %}
