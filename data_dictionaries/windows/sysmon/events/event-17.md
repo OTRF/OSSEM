@@ -1,7 +1,7 @@
 # Event ID 17: PipeEvent (Pipe Created)
 
 ## Description
-This event generates when a named pipe is created. Malware often uses named pipes for interprocess communication.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-17-pipeevent-pipe-created">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-17-pipeevent-pipe-created</a>
+This event generates when a named pipe is created. Malware often uses named pipes for interprocess communication.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

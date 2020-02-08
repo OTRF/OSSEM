@@ -1,7 +1,7 @@
 # Event ID 3: Network connection
 
 ## Description
-The network connection event logs TCP/UDP connections on the machine. It is disabled by default. Each connection is linked to a process through the ProcessId and ProcessGUID fields. The event also contains the source and destination host names IP addresses, port numbers and IPv6 status.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-3-network-connection">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-3-network-connection</a>
+The network connection event logs TCP/UDP connections on the machine. It is disabled by default. Each connection is linked to a process through the ProcessId and ProcessGUID fields. The event also contains the source and destination host names IP addresses, port numbers and IPv6 status.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

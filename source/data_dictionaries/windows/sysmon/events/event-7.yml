@@ -4,7 +4,7 @@ description: The image loaded event logs when a module is loaded in a specific p
   It indicates the process in which the module is loaded, hashes and signature information.
   The signature is created asynchronously for performance reasons and indicates if
   the file was removed after loading. This event should be configured carefully, as
-  monitoring all image load events will generate a large number of events.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-7-image-loaded">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-7-image-loaded</a>
+  monitoring all image load events will generate a large number of events.
 platform: windows
 log_source: sysmon
 event_code: '7'

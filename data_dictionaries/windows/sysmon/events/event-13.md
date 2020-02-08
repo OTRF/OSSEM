@@ -1,7 +1,7 @@
 # Event ID 13: RegistryEvent (Value Set)
 
 ## Description
-This Registry event type identifies Registry value modifications. The event records the value written for Registry values of type DWORD and QWORD.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-13-registryevent-value-set">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-13-registryevent-value-set</a>
+This Registry event type identifies Registry value modifications. The event records the value written for Registry values of type DWORD and QWORD.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

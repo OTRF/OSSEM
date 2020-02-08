@@ -1,7 +1,7 @@
 # Event ID 6: Driver loaded
 
 ## Description
-The driver loaded events provides information about a driver being loaded on the system. The configured hashes are provided as well as signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-6-driver-loaded">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-6-driver-loaded</a>
+The driver loaded events provides information about a driver being loaded on the system. The configured hashes are provided as well as signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

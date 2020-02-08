@@ -1,7 +1,7 @@
 # Event ID 5: Process terminated
 
 ## Description
-The process terminate event reports when a process terminates. It provides the UtcTime, ProcessGuid and ProcessId of the process.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-5-process-terminated">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-5-process-terminated</a>
+The process terminate event reports when a process terminates. It provides the UtcTime, ProcessGuid and ProcessId of the process.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

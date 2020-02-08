@@ -1,7 +1,7 @@
 # Event ID 11: FileCreate
 
 ## Description
-File create operations are logged when a file is created or overwritten. This event is useful for monitoring autostart locations, like the Startup folder, as well as temporary and download directories, which are common places malware drops during initial infection.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-11-filecreate">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-11-filecreate</a>
+File create operations are logged when a file is created or overwritten. This event is useful for monitoring autostart locations, like the Startup folder, as well as temporary and download directories, which are common places malware drops during initial infection.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

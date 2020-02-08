@@ -1,7 +1,7 @@
 # Event ID 18: PipeEvent (Pipe Connected)
 
 ## Description
-This event logs when a named pipe connection is made between a client and a server.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-18-pipeevent-pipe-connected">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-18-pipeevent-pipe-connected</a>
+This event logs when a named pipe connection is made between a client and a server.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

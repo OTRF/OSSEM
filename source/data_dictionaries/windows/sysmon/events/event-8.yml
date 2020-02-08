@@ -4,8 +4,7 @@ description: 'The CreateRemoteThread event detects when a process creates a thre
   other processes. The event indicates the source and target process. It gives information
   on the code that will be run in the new thread: StartAddress, StartModule and StartFunction.
   Note that StartModule and StartFunction fields are inferred, they might be empty
-  if the starting address is outside loaded modules or known exported functions.<a
-  href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-8-createremotethread">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-8-createremotethread</a>'
+  if the starting address is outside loaded modules or known exported functions.'
 platform: windows
 log_source: sysmon
 event_code: '8'

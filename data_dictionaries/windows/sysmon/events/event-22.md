@@ -1,7 +1,7 @@
 # Event ID 22: DNSEvent (DNS query)
 
 ## Description
-This event generates when a process executes a DNS query, whether the result is successful or fails, cached or not.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-22-dnsevent-dns-query">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-22-dnsevent-dns-query</a>
+This event generates when a process executes a DNS query, whether the result is successful or fails, cached or not.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

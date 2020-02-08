@@ -1,7 +1,7 @@
 # Event ID 20: WmiEvent (WmiEventConsumer activity detected)
 
 ## Description
-This event logs the registration of WMI consumers, recording the consumer name, log, and destination.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected</a>
+This event logs the registration of WMI consumers, recording the consumer name, log, and destination.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

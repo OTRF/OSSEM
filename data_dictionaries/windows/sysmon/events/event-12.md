@@ -1,7 +1,7 @@
 # Event ID 12: RegistryEvent (Object create and delete)
 
 ## Description
-Registry key and value create and delete operations map to this event type, which can be useful for monitoring for changes to Registry autostart locations, or specific malware registry modifications.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-12-registryevent-object-create-and-delete">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-12-registryevent-object-create-and-delete</a>
+Registry key and value create and delete operations map to this event type, which can be useful for monitoring for changes to Registry autostart locations, or specific malware registry modifications.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

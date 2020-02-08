@@ -1,7 +1,7 @@
 # Event ID 4: Sysmon service state changed
 
 ## Description
-The service state change event reports the state of the Sysmon service (started or stopped).<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-4-sysmon-service-state-changed">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-4-sysmon-service-state-changed</a>
+The service state change event reports the state of the Sysmon service (started or stopped).
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 14: RegistryEvent (Key and Value Rename)
 
 ## Description
-Registry key and value rename operations map to this event type, recording the new name of the key or value that was renamed.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-14-registryevent-key-and-value-rename">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-14-registryevent-key-and-value-rename</a>
+Registry key and value rename operations map to this event type, recording the new name of the key or value that was renamed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 19: WmiEvent (WmiEventFilter activity detected)
 
 ## Description
-When a WMI event filter is registered, which is a method used by malware to execute, this event logs the WMI namespace, filter name and filter expression.<a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-19-wmievent-wmieventfilter-activity-detected">https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-19-wmievent-wmieventfilter-activity-detected</a>
+When a WMI event filter is registered, which is a method used by malware to execute, this event logs the WMI namespace, filter name and filter expression.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
