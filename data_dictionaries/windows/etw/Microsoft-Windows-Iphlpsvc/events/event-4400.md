@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AddrLength|TBD|UInt32|None|None|
-|TBD|ClientIP|TBD|Binary|None|None|
-|TBD|QuestionName|TBD|UnicodeString|None|None|
-|TBD|TranslatedIPv4Address|TBD|UInt32|None|None|
+|TBD|AddrLength|UInt32|None|`None`|
+|TBD|ClientIP|Binary|None|`None`|
+|TBD|QuestionName|UnicodeString|None|`None`|
+|TBD|TranslatedIPv4Address|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

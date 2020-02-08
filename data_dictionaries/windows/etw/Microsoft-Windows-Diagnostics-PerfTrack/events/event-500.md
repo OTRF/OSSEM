@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CanAddToScenarioStream|TBD|UInt32|None|None|
-|TBD|ScenarioId|TBD|UInt32|None|None|
-|TBD|ScenarioDuration|TBD|UInt32|None|None|
-|TBD|ScenarioPackedContext|TBD|UInt32|None|None|
-|TBD|MoshTimeValue|TBD|UInt32|None|None|
-|TBD|ScenarioMetadata|TBD|UnicodeString|None|None|
+|TBD|CanAddToScenarioStream|UInt32|None|`None`|
+|TBD|ScenarioId|UInt32|None|`None`|
+|TBD|ScenarioDuration|UInt32|None|`None`|
+|TBD|ScenarioPackedContext|UInt32|None|`None`|
+|TBD|MoshTimeValue|UInt32|None|`None`|
+|TBD|ScenarioMetadata|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

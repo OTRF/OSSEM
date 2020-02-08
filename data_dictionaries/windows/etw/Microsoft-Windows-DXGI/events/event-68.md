@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIOutput|TBD|Pointer|None|None|
-|TBD|Format|TBD|UInt32|None|None|
-|TBD|ColorSpace|TBD|UInt32|None|None|
-|TBD|OutputFlags|TBD|UInt32|None|None|
-|TBD|Result|TBD|UInt32|None|None|
+|TBD|pIDXGIOutput|Pointer|None|`None`|
+|TBD|Format|UInt32|None|`None`|
+|TBD|ColorSpace|UInt32|None|`None`|
+|TBD|OutputFlags|UInt32|None|`None`|
+|TBD|Result|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

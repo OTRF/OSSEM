@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fUseSleep|TBD|UInt32|None|None|
-|TBD|dwSleep|TBD|UInt32|None|None|
+|TBD|fUseSleep|UInt32|None|`None`|
+|TBD|dwSleep|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

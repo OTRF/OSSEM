@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|channelHandle|TBD|UInt32|None|None|
-|TBD|processId|TBD|UInt32|None|None|
-|TBD|numberOfDCompAnimationsActive|TBD|UInt64|None|None|
-|TBD|numberOfWinRTAnimationsActive|TBD|UInt64|None|None|
+|TBD|channelHandle|UInt32|None|`None`|
+|TBD|processId|UInt32|None|`None`|
+|TBD|numberOfDCompAnimationsActive|UInt64|None|`None`|
+|TBD|numberOfWinRTAnimationsActive|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

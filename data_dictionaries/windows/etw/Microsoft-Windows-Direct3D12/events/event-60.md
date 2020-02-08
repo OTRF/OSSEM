@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pID3D12Device|TBD|Pointer|None|None|
-|TBD|pID3D12CommandAllocator|TBD|Pointer|None|None|
-|TBD|type|TBD|UInt32|None|None|
+|TBD|pID3D12Device|Pointer|None|`None`|
+|TBD|pID3D12CommandAllocator|Pointer|None|`None`|
+|TBD|type|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

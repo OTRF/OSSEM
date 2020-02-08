@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceGUID|TBD|GUID|None|None|
-|TBD|DeviceNumber|TBD|UInt32|None|None|
-|TBD|Vendor|TBD|AnsiString|None|None|
-|TBD|Model|TBD|AnsiString|None|None|
-|TBD|FirmwareVersion|TBD|AnsiString|None|None|
-|TBD|SerialNumber|TBD|AnsiString|None|None|
-|TBD|DownLevelIrpStatus|TBD|HexInt32|None|None|
-|TBD|SrbStatus|TBD|UInt8|None|None|
-|TBD|SrbFunction|TBD|HexInt32|None|None|
-|TBD|SrbFlags|TBD|HexInt32|None|None|
-|TBD|NumberOfRetriesDone|TBD|UInt8|None|None|
+|TBD|DeviceGUID|GUID|None|`None`|
+|TBD|DeviceNumber|UInt32|None|`None`|
+|TBD|Vendor|AnsiString|None|`None`|
+|TBD|Model|AnsiString|None|`None`|
+|TBD|FirmwareVersion|AnsiString|None|`None`|
+|TBD|SerialNumber|AnsiString|None|`None`|
+|TBD|DownLevelIrpStatus|HexInt32|None|`None`|
+|TBD|SrbStatus|UInt8|None|`None`|
+|TBD|SrbFunction|HexInt32|None|`None`|
+|TBD|SrbFlags|HexInt32|None|`None`|
+|TBD|NumberOfRetriesDone|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Error

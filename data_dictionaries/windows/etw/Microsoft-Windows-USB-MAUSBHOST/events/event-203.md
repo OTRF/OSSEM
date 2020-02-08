@@ -6,34 +6,34 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_HeaderVersion|TBD|UInt8|None|None|
-|TBD|fid_HeaderFlagBitHost|TBD|UInt8|None|None|
-|TBD|fid_HeaderFlagBitRetry|TBD|UInt8|None|None|
-|TBD|fid_HeaderFlagBitTimeStamp|TBD|UInt8|None|None|
-|TBD|fid_HeaderSubType|TBD|UInt8|None|None|
-|TBD|fid_HeaderType|TBD|UInt8|None|None|
-|TBD|fid_HeaderLength|TBD|UInt16|None|None|
-|TBD|fid_HeaderDeviceHandle|TBD|UInt16|None|None|
-|TBD|fid_HeaderDeviceAddress|TBD|UInt8|None|None|
-|TBD|fid_HeaderSSID|TBD|UInt8|None|None|
-|TBD|fid_HeaderStatusCode|TBD|UInt8|None|None|
-|TBD|fid_HeaderDialogToken|TBD|UInt16|None|None|
-|TBD|fid_RouteStringPort1|TBD|UInt8|None|None|
-|TBD|fid_RouteStringPort2|TBD|UInt8|None|None|
-|TBD|fid_RouteStringPort3|TBD|UInt8|None|None|
-|TBD|fid_RouteStringPort4|TBD|UInt8|None|None|
-|TBD|fid_RouteStringPort5|TBD|UInt8|None|None|
-|TBD|fid_USBSpeed|TBD|UInt8|None|None|
-|TBD|fid_HubDeviceHandle|TBD|UInt16|None|None|
-|TBD|fid_ParentHSHubDeviceHandle|TBD|UInt16|None|None|
-|TBD|fid_ParentHSHubPort|TBD|UInt8|None|None|
-|TBD|fid_MTT|TBD|UInt8|None|None|
-|TBD|fid_LaneSpeedExponent|TBD|UInt8|None|None|
-|TBD|fid_SublinkType|TBD|UInt8|None|None|
-|TBD|fid_LaneCount|TBD|UInt8|None|None|
-|TBD|fid_LinkProtocol|TBD|UInt8|None|None|
-|TBD|fid_LaneSpeedMantissa|TBD|UInt16|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_HeaderVersion|UInt8|None|`None`|
+|TBD|fid_HeaderFlagBitHost|UInt8|None|`None`|
+|TBD|fid_HeaderFlagBitRetry|UInt8|None|`None`|
+|TBD|fid_HeaderFlagBitTimeStamp|UInt8|None|`None`|
+|TBD|fid_HeaderSubType|UInt8|None|`None`|
+|TBD|fid_HeaderType|UInt8|None|`None`|
+|TBD|fid_HeaderLength|UInt16|None|`None`|
+|TBD|fid_HeaderDeviceHandle|UInt16|None|`None`|
+|TBD|fid_HeaderDeviceAddress|UInt8|None|`None`|
+|TBD|fid_HeaderSSID|UInt8|None|`None`|
+|TBD|fid_HeaderStatusCode|UInt8|None|`None`|
+|TBD|fid_HeaderDialogToken|UInt16|None|`None`|
+|TBD|fid_RouteStringPort1|UInt8|None|`None`|
+|TBD|fid_RouteStringPort2|UInt8|None|`None`|
+|TBD|fid_RouteStringPort3|UInt8|None|`None`|
+|TBD|fid_RouteStringPort4|UInt8|None|`None`|
+|TBD|fid_RouteStringPort5|UInt8|None|`None`|
+|TBD|fid_USBSpeed|UInt8|None|`None`|
+|TBD|fid_HubDeviceHandle|UInt16|None|`None`|
+|TBD|fid_ParentHSHubDeviceHandle|UInt16|None|`None`|
+|TBD|fid_ParentHSHubPort|UInt8|None|`None`|
+|TBD|fid_MTT|UInt8|None|`None`|
+|TBD|fid_LaneSpeedExponent|UInt8|None|`None`|
+|TBD|fid_SublinkType|UInt8|None|`None`|
+|TBD|fid_LaneCount|UInt8|None|`None`|
+|TBD|fid_LinkProtocol|UInt8|None|`None`|
+|TBD|fid_LaneSpeedMantissa|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

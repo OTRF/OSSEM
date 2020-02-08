@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|S0LowPowerDozeTimerCancelled|TBD|Boolean|None|None|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|S0LowPowerDozeTimerCancelled|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsPolicyConfigured|TBD|Boolean|None|None|
-|TBD|MaxTimeToWait|TBD|UInt32|None|None|
-|TBD|TimeWaitedAtStartup|TBD|UInt32|None|None|
-|TBD|DidWaitTimeout|TBD|Boolean|None|None|
+|TBD|IsPolicyConfigured|Boolean|None|`None`|
+|TBD|MaxTimeToWait|UInt32|None|`None`|
+|TBD|TimeWaitedAtStartup|UInt32|None|`None`|
+|TBD|DidWaitTimeout|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

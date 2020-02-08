@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ClrInstanceID|TBD|UInt16|None|None|
-|TBD|Sku|TBD|UInt16|None|None|
-|TBD|BclMajorVersion|TBD|UInt16|None|None|
-|TBD|BclMinorVersion|TBD|UInt16|None|None|
-|TBD|BclBuildNumber|TBD|UInt16|None|None|
-|TBD|BclQfeNumber|TBD|UInt16|None|None|
-|TBD|VMMajorVersion|TBD|UInt16|None|None|
-|TBD|VMMinorVersion|TBD|UInt16|None|None|
-|TBD|VMBuildNumber|TBD|UInt16|None|None|
-|TBD|VMQfeNumber|TBD|UInt16|None|None|
-|TBD|StartupFlags|TBD|UInt32|None|None|
-|TBD|StartupMode|TBD|UInt8|None|None|
-|TBD|CommandLine|TBD|UnicodeString|None|None|
-|TBD|ComObjectGuid|TBD|GUID|None|None|
-|TBD|RuntimeDllPath|TBD|UnicodeString|None|None|
+|TBD|ClrInstanceID|UInt16|None|`None`|
+|TBD|Sku|UInt16|None|`None`|
+|TBD|BclMajorVersion|UInt16|None|`None`|
+|TBD|BclMinorVersion|UInt16|None|`None`|
+|TBD|BclBuildNumber|UInt16|None|`None`|
+|TBD|BclQfeNumber|UInt16|None|`None`|
+|TBD|VMMajorVersion|UInt16|None|`None`|
+|TBD|VMMinorVersion|UInt16|None|`None`|
+|TBD|VMBuildNumber|UInt16|None|`None`|
+|TBD|VMQfeNumber|UInt16|None|`None`|
+|TBD|StartupFlags|UInt32|None|`None`|
+|TBD|StartupMode|UInt8|None|`None`|
+|TBD|CommandLine|UnicodeString|None|`None`|
+|TBD|ComObjectGuid|GUID|None|`None`|
+|TBD|RuntimeDllPath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

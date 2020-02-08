@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|pDmaBuffer|TBD|Pointer|None|None|
-|TBD|PatchLocationCount|TBD|UInt32|None|None|
-|TBD|PatchLocationAllocationIndex|TBD|UInt32|None|None|
-|TBD|PatchLocationSlotId|TBD|UInt32|None|None|
-|TBD|PatchLocationReserved|TBD|UInt32|None|None|
-|TBD|PatchLocationDriverId|TBD|UInt32|None|None|
-|TBD|PatchLocationAllocationOffset|TBD|UInt32|None|None|
-|TBD|PatchLocationPatchOffset|TBD|UInt32|None|None|
-|TBD|PatchLocationSplitOffset|TBD|UInt32|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|pDmaBuffer|Pointer|None|`None`|
+|TBD|PatchLocationCount|UInt32|None|`None`|
+|TBD|PatchLocationAllocationIndex|UInt32|None|`None`|
+|TBD|PatchLocationSlotId|UInt32|None|`None`|
+|TBD|PatchLocationReserved|UInt32|None|`None`|
+|TBD|PatchLocationDriverId|UInt32|None|`None`|
+|TBD|PatchLocationAllocationOffset|UInt32|None|`None`|
+|TBD|PatchLocationPatchOffset|UInt32|None|`None`|
+|TBD|PatchLocationSplitOffset|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

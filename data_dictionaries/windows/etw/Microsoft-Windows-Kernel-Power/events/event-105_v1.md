@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AcOnline|TBD|Boolean|None|None|
-|TBD|RemainingCapacity|TBD|UInt32|None|None|
-|TBD|FullChargeCapacity|TBD|UInt32|None|None|
+|TBD|AcOnline|Boolean|None|`None`|
+|TBD|RemainingCapacity|UInt32|None|`None`|
+|TBD|FullChargeCapacity|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

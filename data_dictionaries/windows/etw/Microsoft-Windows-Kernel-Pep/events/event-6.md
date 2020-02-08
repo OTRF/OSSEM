@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PlatformStateCount|TBD|UInt32|None|None|
-|TBD|PlatformIdleStateResidency|TBD|AnsiString|None|None|
+|TBD|PlatformStateCount|UInt32|None|`None`|
+|TBD|PlatformIdleStateResidency|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessorFeatures|TBD|HexInt64|None|None|
-|TBD|XsaveFeatures|TBD|HexInt64|None|None|
-|TBD|CLFlushSize|TBD|UInt32|None|None|
+|TBD|ProcessorFeatures|HexInt64|None|`None`|
+|TBD|XsaveFeatures|HexInt64|None|`None`|
+|TBD|CLFlushSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

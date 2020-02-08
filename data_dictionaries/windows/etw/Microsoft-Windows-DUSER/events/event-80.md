@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pStoryboard|TBD|Pointer|None|None|
-|TBD|nAnimationId|TBD|Int32|None|None|
-|TBD|nStoryboardId|TBD|Int32|None|None|
-|TBD|nCode|TBD|Int32|None|None|
-|TBD|flProcessingDelay|TBD|Float|None|None|
+|TBD|pStoryboard|Pointer|None|`None`|
+|TBD|nAnimationId|Int32|None|`None`|
+|TBD|nStoryboardId|Int32|None|`None`|
+|TBD|nCode|Int32|None|`None`|
+|TBD|flProcessingDelay|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

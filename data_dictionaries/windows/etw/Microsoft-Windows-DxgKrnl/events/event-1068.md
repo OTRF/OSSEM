@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FrameNumber|TBD|Int32|None|None|
-|TBD|FrameDisplayTime|TBD|Int64|None|None|
-|TBD|PresentOnVSyncCount|TBD|Int32|None|None|
+|TBD|FrameNumber|Int32|None|`None`|
+|TBD|FrameDisplayTime|Int64|None|`None`|
+|TBD|PresentOnVSyncCount|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

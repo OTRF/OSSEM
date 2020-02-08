@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EntryPointLength|TBD|UInt16|None|None|
-|TBD|TaskEntryPoint|TBD|UnicodeString|None|None|
-|TBD|NameLength|TBD|UInt16|None|None|
-|TBD|TaskName|TBD|UnicodeString|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|InstanceId|TBD|GUID|None|None|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|UserSid|TBD|SID|None|None|
-|TBD|LockScreen|TBD|Boolean|None|None|
+|TBD|EntryPointLength|UInt16|None|`None`|
+|TBD|TaskEntryPoint|UnicodeString|None|`None`|
+|TBD|NameLength|UInt16|None|`None`|
+|TBD|TaskName|UnicodeString|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|InstanceId|GUID|None|`None`|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|UserSid|SID|None|`None`|
+|TBD|LockScreen|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Error

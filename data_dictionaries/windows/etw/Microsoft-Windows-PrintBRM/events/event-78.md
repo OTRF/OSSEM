@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PrintProcessorName|TBD|UnicodeString|None|None|
-|TBD|PrintProcessorArchitecture|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
+|TBD|PrintProcessorName|UnicodeString|None|`None`|
+|TBD|PrintProcessorArchitecture|UnicodeString|None|`None`|
+|TBD|ErrorCode|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

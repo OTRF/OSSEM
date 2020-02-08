@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|RawURL|TBD|UnicodeString|None|None|
-|TBD|UrlType|TBD|UnicodeString|None|None|
-|TBD|ReqType|TBD|UnicodeString|None|None|
-|TBD|HostIP|TBD|UnicodeString|None|None|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|RawURL|UnicodeString|None|`None`|
+|TBD|UrlType|UnicodeString|None|`None`|
+|TBD|ReqType|UnicodeString|None|`None`|
+|TBD|HostIP|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Object|TBD|Pointer|None|None|
-|TBD|StreamID|TBD|Int32|None|None|
-|TBD|Oldstate|TBD|Int32|None|None|
-|TBD|Newstate|TBD|Int32|None|None|
+|TBD|Object|Pointer|None|`None`|
+|TBD|StreamID|Int32|None|`None`|
+|TBD|Oldstate|Int32|None|`None`|
+|TBD|Newstate|Int32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|bQueryTM|TBD|Boolean|None|None|
-|TBD|bScmEnabled|TBD|Boolean|None|None|
-|TBD|bCredEnabled|TBD|Boolean|None|None|
-|TBD|bCPEnabled|TBD|Boolean|None|None|
-|TBD|dwTMFlags|TBD|UInt32|None|None|
-|TBD|bCloudEnabled|TBD|Boolean|None|None|
+|TBD|bQueryTM|Boolean|None|`None`|
+|TBD|bScmEnabled|Boolean|None|`None`|
+|TBD|bCredEnabled|Boolean|None|`None`|
+|TBD|bCPEnabled|Boolean|None|`None`|
+|TBD|dwTMFlags|UInt32|None|`None`|
+|TBD|bCloudEnabled|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

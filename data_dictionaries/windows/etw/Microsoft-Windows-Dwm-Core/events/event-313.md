@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PrimitiveGroupToDrawListGeneratorCreated|TBD|UInt32|None|None|
-|TBD|PrimitiveGroupToDrawListGeneratorCacheUpdated|TBD|UInt32|None|None|
+|TBD|PrimitiveGroupToDrawListGeneratorCreated|UInt32|None|`None`|
+|TBD|PrimitiveGroupToDrawListGeneratorCacheUpdated|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

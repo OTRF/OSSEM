@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|DomainName|TBD|UnicodeString|None|None|
-|TBD|Workstation|TBD|UnicodeString|None|None|
-|TBD|CallerPID|TBD|UInt32|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|LogonType|TBD|UInt32|None|None|
-|TBD|InProc|TBD|Boolean|None|None|
-|TBD|MechanismOID|TBD|UnicodeString|None|None|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|DomainName|UnicodeString|None|`None`|
+|TBD|Workstation|UnicodeString|None|`None`|
+|TBD|CallerPID|UInt32|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|LogonType|UInt32|None|`None`|
+|TBD|InProc|Boolean|None|`None`|
+|TBD|MechanismOID|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

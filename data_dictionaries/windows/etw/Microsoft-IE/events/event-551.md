@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prerender_URL|TBD|UnicodeString|None|None|
-|TBD|Deferred_Item|TBD|UInt32|None|None|
+|TBD|Prerender_URL|UnicodeString|None|`None`|
+|TBD|Deferred_Item|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Connection|TBD|Pointer|None|None|
-|TBD|SlowStartThreshold|TBD|UInt32|None|None|
-|TBD|K|TBD|UInt32|None|None|
-|TBD|WindowMax|TBD|UInt32|None|None|
-|TBD|WindowLastMax|TBD|UInt32|None|None|
+|TBD|Connection|Pointer|None|`None`|
+|TBD|SlowStartThreshold|UInt32|None|`None`|
+|TBD|K|UInt32|None|`None`|
+|TBD|WindowMax|UInt32|None|`None`|
+|TBD|WindowLastMax|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

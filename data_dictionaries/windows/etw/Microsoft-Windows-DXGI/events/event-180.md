@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pThis|TBD|Pointer|None|None|
-|TBD|iBuffer|TBD|UInt32|None|None|
-|TBD|Interface|TBD|GUID|None|None|
-|TBD|ppSurface|TBD|Pointer|None|None|
+|TBD|pThis|Pointer|None|`None`|
+|TBD|iBuffer|UInt32|None|`None`|
+|TBD|Interface|GUID|None|`None`|
+|TBD|ppSurface|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

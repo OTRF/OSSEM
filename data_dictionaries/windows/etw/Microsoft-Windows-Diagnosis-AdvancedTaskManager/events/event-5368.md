@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResourceName|TBD|UnicodeString|None|None|
-|TBD|MemorySpeed|TBD|UnicodeString|None|None|
-|TBD|SlotsUsed|TBD|UnicodeString|None|None|
-|TBD|AvailableMemory|TBD|UnicodeString|None|None|
-|TBD|CachedMemory|TBD|UnicodeString|None|None|
-|TBD|CommittedMemory|TBD|UnicodeString|None|None|
+|TBD|ResourceName|UnicodeString|None|`None`|
+|TBD|MemorySpeed|UnicodeString|None|`None`|
+|TBD|SlotsUsed|UnicodeString|None|`None`|
+|TBD|AvailableMemory|UnicodeString|None|`None`|
+|TBD|CachedMemory|UnicodeString|None|`None`|
+|TBD|CommittedMemory|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hCompSurf|TBD|UInt64|None|None|
-|TBD|nodeType|TBD|UInt32|None|None|
-|TBD|nodeContentType|TBD|UInt32|None|None|
-|TBD|nodeBoundsLeft|TBD|Int32|None|None|
-|TBD|nodeBoundsTop|TBD|Int32|None|None|
-|TBD|nodeBoundsRight|TBD|Int32|None|None|
-|TBD|nodeBoundsBottom|TBD|Int32|None|None|
+|TBD|hCompSurf|UInt64|None|`None`|
+|TBD|nodeType|UInt32|None|`None`|
+|TBD|nodeContentType|UInt32|None|`None`|
+|TBD|nodeBoundsLeft|Int32|None|`None`|
+|TBD|nodeBoundsTop|Int32|None|`None`|
+|TBD|nodeBoundsRight|Int32|None|`None`|
+|TBD|nodeBoundsBottom|Int32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SpbController|TBD|Pointer|None|None|
-|TBD|SpbTarget|TBD|Pointer|None|None|
-|TBD|SpbRequest|TBD|Pointer|None|None|
-|TBD|Length|TBD|UInt64|None|None|
+|TBD|SpbController|Pointer|None|`None`|
+|TBD|SpbTarget|Pointer|None|`None`|
+|TBD|SpbRequest|Pointer|None|`None`|
+|TBD|Length|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

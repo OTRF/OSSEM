@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TargetVolumeGuid|TBD|GUID|None|None|
-|TBD|PersistentDeleteReason|TBD|UInt16|None|None|
-|TBD|PersistentDeleteStatus|TBD|HexInt32|None|None|
-|TBD|SourceFile|TBD|HexInt32|None|None|
-|TBD|SourceLine|TBD|UInt16|None|None|
-|TBD|SourceTag|TBD|UInt32|None|None|
+|TBD|TargetVolumeGuid|GUID|None|`None`|
+|TBD|PersistentDeleteReason|UInt16|None|`None`|
+|TBD|PersistentDeleteStatus|HexInt32|None|`None`|
+|TBD|SourceFile|HexInt32|None|`None`|
+|TBD|SourceLine|UInt16|None|`None`|
+|TBD|SourceTag|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

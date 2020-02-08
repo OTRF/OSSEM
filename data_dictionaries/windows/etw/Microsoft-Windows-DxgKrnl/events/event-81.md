@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hProcessId|TBD|Pointer|None|None|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|AllocationPriorityClass|TBD|UInt32|None|None|
-|TBD|Policy|TBD|UInt32|None|None|
-|TBD|Value|TBD|UInt64|None|None|
-|TBD|ulHysteresisCount|TBD|UInt32|None|None|
-|TBD|ulHysteresisNext|TBD|UInt32|None|None|
+|TBD|hProcessId|Pointer|None|`None`|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|AllocationPriorityClass|UInt32|None|`None`|
+|TBD|Policy|UInt32|None|`None`|
+|TBD|Value|UInt64|None|`None`|
+|TBD|ulHysteresisCount|UInt32|None|`None`|
+|TBD|ulHysteresisNext|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

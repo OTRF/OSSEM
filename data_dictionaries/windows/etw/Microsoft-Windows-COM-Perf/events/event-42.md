@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CallTraceId|TBD|UInt32|None|None|
-|TBD|HRESULT|TBD|Int32|None|None|
-|TBD|SourceOfHRESULT|TBD|UInt32|None|None|
+|TBD|CallTraceId|UInt32|None|`None`|
+|TBD|HRESULT|Int32|None|`None`|
+|TBD|SourceOfHRESULT|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

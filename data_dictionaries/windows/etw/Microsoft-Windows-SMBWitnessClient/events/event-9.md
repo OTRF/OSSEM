@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|WitnessServerIP|TBD|UnicodeString|None|None|
-|TBD|NetName|TBD|UnicodeString|None|None|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|WitnessServerIP|UnicodeString|None|`None`|
+|TBD|NetName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

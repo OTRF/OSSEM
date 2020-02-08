@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CPU|TBD|HexInt32|None|None|
-|TBD|LeafNumber|TBD|HexInt64|None|None|
-|TBD|Register|TBD|HexInt64|None|None|
-|TBD|BSPCpuidData|TBD|HexInt64|None|None|
-|TBD|APCpuidData|TBD|HexInt64|None|None|
+|TBD|CPU|HexInt32|None|`None`|
+|TBD|LeafNumber|HexInt64|None|`None`|
+|TBD|Register|HexInt64|None|`None`|
+|TBD|BSPCpuidData|HexInt64|None|`None`|
+|TBD|APCpuidData|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Error

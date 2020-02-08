@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WebclntLookupServieTrigger|TBD|GUID|None|None|
+|TBD|WebclntLookupServieTrigger|GUID|None|`None`|
 
 ## Tags
 * etw_level_Always

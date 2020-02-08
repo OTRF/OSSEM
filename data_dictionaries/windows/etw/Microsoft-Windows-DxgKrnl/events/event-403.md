@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VmBusChannel|TBD|Pointer|None|None|
-|TBD|CommandId|TBD|UInt64|None|None|
-|TBD|CommandType|TBD|UInt32|None|None|
+|TBD|VmBusChannel|Pointer|None|`None`|
+|TBD|CommandId|UInt64|None|`None`|
+|TBD|CommandType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

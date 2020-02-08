@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SourceIPv4Address|TBD|UInt32|None|None|
-|TBD|SourcePort|TBD|UInt16|None|None|
-|TBD|UpperValue|TBD|UInt16|None|None|
-|TBD|LowerValue|TBD|UInt16|None|None|
-|TBD|PortPredicted|TBD|UInt16|None|None|
+|TBD|SourceIPv4Address|UInt32|None|`None`|
+|TBD|SourcePort|UInt16|None|`None`|
+|TBD|UpperValue|UInt16|None|`None`|
+|TBD|LowerValue|UInt16|None|`None`|
+|TBD|PortPredicted|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

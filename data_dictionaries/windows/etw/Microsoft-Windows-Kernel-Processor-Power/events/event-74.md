@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PreviousActiveScenarioId|TBD|UInt32|None|None|
-|TBD|NewActiveScenarioId|TBD|UInt32|None|None|
+|TBD|PreviousActiveScenarioId|UInt32|None|`None`|
+|TBD|NewActiveScenarioId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

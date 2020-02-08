@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|context|TBD|Pointer|None|None|
-|TBD|pinOutput|TBD|Pointer|None|None|
-|TBD|pinOutputName|TBD|UnicodeString|None|None|
-|TBD|pinInput|TBD|Pointer|None|None|
-|TBD|pinInputName|TBD|UnicodeString|None|None|
+|TBD|context|Pointer|None|`None`|
+|TBD|pinOutput|Pointer|None|`None`|
+|TBD|pinOutputName|UnicodeString|None|`None`|
+|TBD|pinInput|Pointer|None|`None`|
+|TBD|pinInputName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

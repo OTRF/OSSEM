@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DiskAvail|TBD|Double|None|None|
-|TBD|LowDiskThreshold|TBD|UInt32|None|None|
-|TBD|IsLow|TBD|Boolean|None|None|
+|TBD|DiskAvail|Double|None|`None`|
+|TBD|LowDiskThreshold|UInt32|None|`None`|
+|TBD|IsLow|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

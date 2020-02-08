@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LuidHighPart|TBD|UInt32|None|None|
-|TBD|LuidLowPart|TBD|UInt32|None|None|
-|TBD|DomainName|TBD|UnicodeString|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|Refresh|TBD|Boolean|None|None|
-|TBD|CurrentFileTime|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
+|TBD|LuidHighPart|UInt32|None|`None`|
+|TBD|LuidLowPart|UInt32|None|`None`|
+|TBD|DomainName|UnicodeString|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|Refresh|Boolean|None|`None`|
+|TBD|CurrentFileTime|UnicodeString|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

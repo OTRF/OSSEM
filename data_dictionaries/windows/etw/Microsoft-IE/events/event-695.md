@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|DesiredOffsetX|TBD|Float|None|None|
-|TBD|DesiredOffsetY|TBD|Float|None|None|
-|TBD|DesiredZoomFactor|TBD|Float|None|None|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|DesiredOffsetX|Float|None|`None`|
+|TBD|DesiredOffsetY|Float|None|`None`|
+|TBD|DesiredZoomFactor|Float|None|`None`|
 
 ## Tags
 * etw_level_Always

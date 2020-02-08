@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WinRTCaptureEngine|TBD|Pointer|None|None|
-|TBD|ExecutablePath|TBD|UnicodeString|None|None|
+|TBD|WinRTCaptureEngine|Pointer|None|`None`|
+|TBD|ExecutablePath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

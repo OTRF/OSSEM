@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DsClass|TBD|Int16|None|None|
-|TBD|TrafficClass|TBD|Int16|None|None|
-|TBD|Wmm|TBD|Int16|None|None|
+|TBD|DsClass|Int16|None|`None`|
+|TBD|TrafficClass|Int16|None|`None`|
+|TBD|Wmm|Int16|None|`None`|
 
 ## Tags
 * etw_level_Warning

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Model|TBD|UnicodeString|None|None|
-|TBD|Manufacturer|TBD|UnicodeString|None|None|
-|TBD|Provider|TBD|UnicodeString|None|None|
-|TBD|HardwareID|TBD|UnicodeString|None|None|
-|TBD|DriverDate|TBD|FILETIME|None|None|
-|TBD|DriverVersion|TBD|UInt64|None|None|
+|TBD|Model|UnicodeString|None|`None`|
+|TBD|Manufacturer|UnicodeString|None|`None`|
+|TBD|Provider|UnicodeString|None|`None`|
+|TBD|HardwareID|UnicodeString|None|`None`|
+|TBD|DriverDate|FILETIME|None|`None`|
+|TBD|DriverVersion|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

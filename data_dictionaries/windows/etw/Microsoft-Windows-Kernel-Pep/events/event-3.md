@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VoltageRailId|TBD|UInt32|None|None|
-|TBD|DeviceId|TBD|Pointer|None|None|
-|TBD|ComponentIndex|TBD|UInt32|None|None|
-|TBD|CurrentFrequencyKHz|TBD|UInt32|None|None|
-|TBD|MaxFrequencyKHz|TBD|UInt32|None|None|
-|TBD|PlatformStateDependencyCount|TBD|UInt32|None|None|
-|TBD|PlatformStateDependency|TBD|Int64|None|None|
-|TBD|ComponentDescriptionLength|TBD|UInt32|None|None|
-|TBD|ComponentDescription|TBD|UnicodeString|None|None|
+|TBD|VoltageRailId|UInt32|None|`None`|
+|TBD|DeviceId|Pointer|None|`None`|
+|TBD|ComponentIndex|UInt32|None|`None`|
+|TBD|CurrentFrequencyKHz|UInt32|None|`None`|
+|TBD|MaxFrequencyKHz|UInt32|None|`None`|
+|TBD|PlatformStateDependencyCount|UInt32|None|`None`|
+|TBD|PlatformStateDependency|Int64|None|`None`|
+|TBD|ComponentDescriptionLength|UInt32|None|`None`|
+|TBD|ComponentDescription|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

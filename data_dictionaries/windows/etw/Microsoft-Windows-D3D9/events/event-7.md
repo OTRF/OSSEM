@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LogicalSurfaceHandle|TBD|UInt64|None|None|
-|TBD|BackBufferNumber|TBD|UInt32|None|None|
-|TBD|BackBufferHandle|TBD|UInt32|None|None|
+|TBD|LogicalSurfaceHandle|UInt64|None|`None`|
+|TBD|BackBufferNumber|UInt32|None|`None`|
+|TBD|BackBufferHandle|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_SessionId|TBD|UnicodeString|None|None|
-|TBD|Prop_UpdateId|TBD|UnicodeString|None|None|
-|TBD|Prop_FlightId|TBD|UnicodeString|None|None|
+|TBD|Prop_SessionId|UnicodeString|None|`None`|
+|TBD|Prop_UpdateId|UnicodeString|None|`None`|
+|TBD|Prop_FlightId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

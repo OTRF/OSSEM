@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PlmFlags|TBD|HexInt32|None|None|
+|TBD|PlmFlags|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

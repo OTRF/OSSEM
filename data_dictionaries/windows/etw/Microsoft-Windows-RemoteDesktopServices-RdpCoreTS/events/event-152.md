@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimestampMs|TBD|UInt32|None|None|
-|TBD|NumHeartbeats|TBD|UInt32|None|None|
-|TBD|LastDataPacketMs|TBD|UInt32|None|None|
-|TBD|LastHeartbeatMs|TBD|UInt32|None|None|
+|TBD|TimestampMs|UInt32|None|`None`|
+|TBD|NumHeartbeats|UInt32|None|`None`|
+|TBD|LastDataPacketMs|UInt32|None|`None`|
+|TBD|LastHeartbeatMs|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

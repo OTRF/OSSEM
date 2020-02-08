@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DroppedFrames|TBD|UInt32|None|None|
-|TBD|TotalFrames|TBD|UInt32|None|None|
-|TBD|GraphicsDeviceId|TBD|UInt32|None|None|
-|TBD|GraphicsDriverVersion|TBD|UnicodeString|None|None|
-|TBD|SinkDeviceInformation|TBD|UnicodeString|None|None|
+|TBD|DroppedFrames|UInt32|None|`None`|
+|TBD|TotalFrames|UInt32|None|`None`|
+|TBD|GraphicsDeviceId|UInt32|None|`None`|
+|TBD|GraphicsDriverVersion|UnicodeString|None|`None`|
+|TBD|SinkDeviceInformation|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RB_HistoryCount|TBD|UInt32|None|None|
-|TBD|RB_BootPlanAge|TBD|UInt32|None|None|
-|TBD|RB_DiskAssessmentRPM|TBD|UInt32|None|None|
+|TBD|RB_HistoryCount|UInt32|None|`None`|
+|TBD|RB_BootPlanAge|UInt32|None|`None`|
+|TBD|RB_DiskAssessmentRPM|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Cache|TBD|Pointer|None|None|
-|TBD|NumKeyParts|TBD|UInt32|None|None|
-|TBD|KeyParts|TBD|UInt8|None|None|
-|TBD|PrecomputedHash|TBD|Binary|None|None|
+|TBD|Cache|Pointer|None|`None`|
+|TBD|NumKeyParts|UInt32|None|`None`|
+|TBD|KeyParts|UInt8|None|`None`|
+|TBD|PrecomputedHash|Binary|None|`None`|
 
 ## Tags
 * etw_level_Always

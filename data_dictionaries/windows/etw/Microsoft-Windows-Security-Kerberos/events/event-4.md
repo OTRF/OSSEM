@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Server|TBD|UnicodeString|None|None|
-|TBD|TargetRealm|TBD|UnicodeString|None|None|
-|TBD|Targetname|TBD|UnicodeString|None|None|
-|TBD|ClientRealm|TBD|UnicodeString|None|None|
-|TBD|__binLength|TBD|UInt32|None|None|
-|TBD|binary|TBD|Binary|None|None|
+|TBD|Server|UnicodeString|None|`None`|
+|TBD|TargetRealm|UnicodeString|None|`None`|
+|TBD|Targetname|UnicodeString|None|`None`|
+|TBD|ClientRealm|UnicodeString|None|`None`|
+|TBD|__binLength|UInt32|None|`None`|
+|TBD|binary|Binary|None|`None`|
 
 ## Tags
 * etw_level_Always

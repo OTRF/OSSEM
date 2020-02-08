@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResetReasonMask|TBD|UInt32|None|None|
+|TBD|ResetReasonMask|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Critical

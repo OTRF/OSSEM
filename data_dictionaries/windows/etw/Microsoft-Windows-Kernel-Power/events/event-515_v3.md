@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ScenarioGuid|TBD|GUID|None|None|
-|TBD|ScenarioInstanceId|TBD|UInt8|None|None|
-|TBD|CsEnterReason|TBD|UInt32|None|None|
-|TBD|BatteryRemainingCapacityOnEnter|TBD|UInt32|None|None|
-|TBD|BatteryFullChargeCapacityOnEnter|TBD|UInt32|None|None|
-|TBD|ScenarioInstanceIdV2|TBD|UInt64|None|None|
-|TBD|BootId|TBD|UInt32|None|None|
-|TBD|CurrentSystemTime|TBD|FILETIME|None|None|
+|TBD|ScenarioGuid|GUID|None|`None`|
+|TBD|ScenarioInstanceId|UInt8|None|`None`|
+|TBD|CsEnterReason|UInt32|None|`None`|
+|TBD|BatteryRemainingCapacityOnEnter|UInt32|None|`None`|
+|TBD|BatteryFullChargeCapacityOnEnter|UInt32|None|`None`|
+|TBD|ScenarioInstanceIdV2|UInt64|None|`None`|
+|TBD|BootId|UInt32|None|`None`|
+|TBD|CurrentSystemTime|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceBiosNameLength|TBD|UInt16|None|None|
-|TBD|DeviceBiosName|TBD|UnicodeString|None|None|
-|TBD|DeviceResetType|TBD|UInt16|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|DeviceBiosNameLength|UInt16|None|`None`|
+|TBD|DeviceBiosName|UnicodeString|None|`None`|
+|TBD|DeviceResetType|UInt16|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

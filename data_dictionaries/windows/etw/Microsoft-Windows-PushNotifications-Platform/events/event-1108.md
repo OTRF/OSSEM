@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Namespace|TBD|AnsiString|None|None|
-|TBD|UserId|TBD|AnsiString|None|None|
-|TBD|PayloadSize|TBD|UInt32|None|None|
-|TBD|MsgId|TBD|UInt64|None|None|
-|TBD|Ack|TBD|Boolean|None|None|
+|TBD|Namespace|AnsiString|None|`None`|
+|TBD|UserId|AnsiString|None|`None`|
+|TBD|PayloadSize|UInt32|None|`None`|
+|TBD|MsgId|UInt64|None|`None`|
+|TBD|Ack|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LastSampleEndTimeMSec|TBD|UInt64|None|None|
-|TBD|CurrentPresentationClockTimeMSec|TBD|UInt64|None|None|
-|TBD|AudioDriftDroppedSampleCount|TBD|UInt64|None|None|
-|TBD|ThisPtr|TBD|Pointer|None|None|
+|TBD|LastSampleEndTimeMSec|UInt64|None|`None`|
+|TBD|CurrentPresentationClockTimeMSec|UInt64|None|`None`|
+|TBD|AudioDriftDroppedSampleCount|UInt64|None|`None`|
+|TBD|ThisPtr|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TaskName|TBD|AnsiString|None|None|
-|TBD|ScriptExecutionTime|TBD|UInt32|None|None|
-|TBD|IsIgnoredInTelemetry|TBD|Boolean|None|None|
+|TBD|TaskName|AnsiString|None|`None`|
+|TBD|ScriptExecutionTime|UInt32|None|`None`|
+|TBD|IsIgnoredInTelemetry|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

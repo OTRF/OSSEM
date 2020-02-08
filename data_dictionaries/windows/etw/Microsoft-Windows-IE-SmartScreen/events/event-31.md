@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|FinalHRESULT|TBD|UInt32|None|None|
-|TBD|THREAT|TBD|UInt32|None|None|
-|TBD|UrsStatus|TBD|UInt32|None|None|
-|TBD|AllUrlsFoundInDat|TBD|Boolean|None|None|
-|TBD|BlockedUrl|TBD|UnicodeString|None|None|
-|TBD|IsBlockedUrlTopFrame|TBD|Boolean|None|None|
-|TBD|BlockedUrlCategories|TBD|UInt64|None|None|
-|TBD|UrlFetchState|TBD|UnicodeString|None|None|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|FinalHRESULT|UInt32|None|`None`|
+|TBD|THREAT|UInt32|None|`None`|
+|TBD|UrsStatus|UInt32|None|`None`|
+|TBD|AllUrlsFoundInDat|Boolean|None|`None`|
+|TBD|BlockedUrl|UnicodeString|None|`None`|
+|TBD|IsBlockedUrlTopFrame|Boolean|None|`None`|
+|TBD|BlockedUrlCategories|UInt64|None|`None`|
+|TBD|UrlFetchState|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

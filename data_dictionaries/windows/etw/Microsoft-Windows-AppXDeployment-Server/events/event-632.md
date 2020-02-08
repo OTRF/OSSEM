@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeploymentOperation|TBD|UInt32|None|None|
-|TBD|MainPackageMoniker|TBD|UnicodeString|None|None|
-|TBD|ResiliencyCurrentState|TBD|UInt32|None|None|
-|TBD|ResiliencyFilePath|TBD|UnicodeString|None|None|
+|TBD|DeploymentOperation|UInt32|None|`None`|
+|TBD|MainPackageMoniker|UnicodeString|None|`None`|
+|TBD|ResiliencyCurrentState|UInt32|None|`None`|
+|TBD|ResiliencyFilePath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

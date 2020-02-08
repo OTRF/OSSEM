@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WindowsStarterEdition|TBD|HexInt32|None|None|
-|TBD|SuiteStorageServer|TBD|HexInt32|None|None|
-|TBD|SystemPrintingDisabled|TBD|HexInt32|None|None|
-|TBD|SuiteBlade|TBD|HexInt32|None|None|
-|TBD|SuiteEmbeddedRestricted|TBD|HexInt32|None|None|
-|TBD|SuiteComputerServer|TBD|HexInt32|None|None|
+|TBD|WindowsStarterEdition|HexInt32|None|`None`|
+|TBD|SuiteStorageServer|HexInt32|None|`None`|
+|TBD|SystemPrintingDisabled|HexInt32|None|`None`|
+|TBD|SuiteBlade|HexInt32|None|`None`|
+|TBD|SuiteEmbeddedRestricted|HexInt32|None|`None`|
+|TBD|SuiteComputerServer|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

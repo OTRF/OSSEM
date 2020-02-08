@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PortNumber|TBD|UInt32|None|None|
-|TBD|Bus|TBD|UInt8|None|None|
-|TBD|Target|TBD|UInt8|None|None|
-|TBD|LUN|TBD|UInt8|None|None|
-|TBD|CurrentD3IdleTimeout|TBD|UInt32|None|None|
-|TBD|NewD3IdleTimeout|TBD|UInt32|None|None|
-|TBD|IoCoalescingOn|TBD|Boolean|None|None|
-|TBD|OnBatteryPower|TBD|Boolean|None|None|
+|TBD|PortNumber|UInt32|None|`None`|
+|TBD|Bus|UInt8|None|`None`|
+|TBD|Target|UInt8|None|`None`|
+|TBD|LUN|UInt8|None|`None`|
+|TBD|CurrentD3IdleTimeout|UInt32|None|`None`|
+|TBD|NewD3IdleTimeout|UInt32|None|`None`|
+|TBD|IoCoalescingOn|Boolean|None|`None`|
+|TBD|OnBatteryPower|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

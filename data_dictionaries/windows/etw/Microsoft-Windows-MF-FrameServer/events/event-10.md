@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StreamId|TBD|UInt32|None|None|
-|TBD|StatSource|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|Requests|TBD|UInt64|None|None|
-|TBD|Input|TBD|UInt64|None|None|
-|TBD|Output|TBD|UInt64|None|None|
-|TBD|Dropped|TBD|UInt64|None|None|
-|TBD|FrameDelayRMSAccumulator|TBD|Double|None|None|
-|TBD|FrameDelayRMSCounter|TBD|UInt32|None|None|
-|TBD|ExpectedFrameDelay|TBD|UInt64|None|None|
-|TBD|hr|TBD|HexInt32|None|None|
-|TBD|SymbolicLink|TBD|UnicodeString|None|None|
+|TBD|StreamId|UInt32|None|`None`|
+|TBD|StatSource|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|Requests|UInt64|None|`None`|
+|TBD|Input|UInt64|None|`None`|
+|TBD|Output|UInt64|None|`None`|
+|TBD|Dropped|UInt64|None|`None`|
+|TBD|FrameDelayRMSAccumulator|Double|None|`None`|
+|TBD|FrameDelayRMSCounter|UInt32|None|`None`|
+|TBD|ExpectedFrameDelay|UInt64|None|`None`|
+|TBD|hr|HexInt32|None|`None`|
+|TBD|SymbolicLink|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

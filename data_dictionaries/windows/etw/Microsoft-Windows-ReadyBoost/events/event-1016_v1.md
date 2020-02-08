@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BootPlanTimestamp|TBD|FILETIME|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|Durationms|TBD|UInt16|None|None|
-|TBD|Reason|TBD|UInt8|None|None|
+|TBD|BootPlanTimestamp|FILETIME|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|Durationms|UInt16|None|`None`|
+|TBD|Reason|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

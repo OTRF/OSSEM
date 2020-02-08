@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VidMmDevice|TBD|Pointer|None|None|
-|TBD|PagingQueue|TBD|Pointer|None|None|
-|TBD|PagingQueuePacket|TBD|Pointer|None|None|
+|TBD|VidMmDevice|Pointer|None|`None`|
+|TBD|PagingQueue|Pointer|None|`None`|
+|TBD|PagingQueuePacket|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

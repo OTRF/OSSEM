@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DurableHandle|TBD|Boolean|None|None|
-|TBD|ResilientHandle|TBD|Boolean|None|None|
-|TBD|PersistentFID|TBD|HexInt64|None|None|
-|TBD|VolatileFID|TBD|HexInt64|None|None|
-|TBD|ResumeKey|TBD|GUID|None|None|
-|TBD|ShareNameLength|TBD|UInt16|None|None|
-|TBD|ShareName|TBD|UnicodeString|None|None|
-|TBD|FileNameLength|TBD|UInt16|None|None|
-|TBD|FileName|TBD|UnicodeString|None|None|
+|TBD|DurableHandle|Boolean|None|`None`|
+|TBD|ResilientHandle|Boolean|None|`None`|
+|TBD|PersistentFID|HexInt64|None|`None`|
+|TBD|VolatileFID|HexInt64|None|`None`|
+|TBD|ResumeKey|GUID|None|`None`|
+|TBD|ShareNameLength|UInt16|None|`None`|
+|TBD|ShareName|UnicodeString|None|`None`|
+|TBD|FileNameLength|UInt16|None|`None`|
+|TBD|FileName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

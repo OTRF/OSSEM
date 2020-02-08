@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectionObj|TBD|Pointer|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|SniLength|TBD|UInt32|None|None|
-|TBD|SniHost|TBD|Binary|None|None|
-|TBD|NormalizedHost|TBD|UnicodeString|None|None|
+|TBD|ConnectionObj|Pointer|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|SniLength|UInt32|None|`None`|
+|TBD|SniHost|Binary|None|`None`|
+|TBD|NormalizedHost|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

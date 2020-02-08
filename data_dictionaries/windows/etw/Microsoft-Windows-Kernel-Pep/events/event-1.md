@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VoltageRailId|TBD|UInt32|None|None|
-|TBD|VoltageRailName|TBD|UnicodeString|None|None|
-|TBD|CurrentVoltageMv|TBD|UInt32|None|None|
-|TBD|MaxVoltageMv|TBD|UInt32|None|None|
+|TBD|VoltageRailId|UInt32|None|`None`|
+|TBD|VoltageRailName|UnicodeString|None|`None`|
+|TBD|CurrentVoltageMv|UInt32|None|`None`|
+|TBD|MaxVoltageMv|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

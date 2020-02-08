@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_SoftwareName|TBD|UnicodeString|None|None|
-|TBD|Prop_DeviceInstanceId|TBD|UnicodeString|None|None|
-|TBD|Prop_InstallTime|TBD|UInt64|None|None|
+|TBD|Prop_SoftwareName|UnicodeString|None|`None`|
+|TBD|Prop_DeviceInstanceId|UnicodeString|None|`None`|
+|TBD|Prop_InstallTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

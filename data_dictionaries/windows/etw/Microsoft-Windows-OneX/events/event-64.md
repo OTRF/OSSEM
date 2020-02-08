@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PortId|TBD|UInt32|None|None|
-|TBD|PacketLength|TBD|UInt16|None|None|
-|TBD|PacketType|TBD|UInt32|None|None|
-|TBD|Identifier|TBD|UInt8|None|None|
-|TBD|EapMethodType|TBD|UInt32|None|None|
+|TBD|PortId|UInt32|None|`None`|
+|TBD|PacketLength|UInt16|None|`None`|
+|TBD|PacketType|UInt32|None|`None`|
+|TBD|Identifier|UInt8|None|`None`|
+|TBD|EapMethodType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

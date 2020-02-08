@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|skuId|TBD|GUID|None|None|
-|TBD|productId|TBD|GUID|None|None|
-|TBD|taskInstanceId|TBD|UInt32|None|None|
-|TBD|taskType|TBD|UInt32|None|None|
-|TBD|newState|TBD|UInt32|None|None|
-|TBD|reasonForStateChange|TBD|UInt32|None|None|
-|TBD|duration|TBD|UInt64|None|None|
-|TBD|peak|TBD|UInt64|None|None|
+|TBD|skuId|GUID|None|`None`|
+|TBD|productId|GUID|None|`None`|
+|TBD|taskInstanceId|UInt32|None|`None`|
+|TBD|taskType|UInt32|None|`None`|
+|TBD|newState|UInt32|None|`None`|
+|TBD|reasonForStateChange|UInt32|None|`None`|
+|TBD|duration|UInt64|None|`None`|
+|TBD|peak|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

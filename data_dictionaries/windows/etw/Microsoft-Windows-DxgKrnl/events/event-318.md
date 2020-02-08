@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DWMCount|TBD|UInt32|None|None|
-|TBD|VsyncCount|TBD|UInt32|None|None|
-|TBD|VsyncFlag|TBD|UInt32|None|None|
-|TBD|VsyncWaiters|TBD|UInt32|None|None|
+|TBD|DWMCount|UInt32|None|`None`|
+|TBD|VsyncCount|UInt32|None|`None`|
+|TBD|VsyncFlag|UInt32|None|`None`|
+|TBD|VsyncWaiters|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

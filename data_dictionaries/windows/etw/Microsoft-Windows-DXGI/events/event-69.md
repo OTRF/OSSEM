@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapchain|TBD|Pointer|None|None|
-|TBD|ColorSpace|TBD|UInt32|None|None|
+|TBD|pIDXGISwapchain|Pointer|None|`None`|
+|TBD|ColorSpace|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

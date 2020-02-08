@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HKL|TBD|UInt32|None|None|
-|TBD|gutter|TBD|UInt32|None|None|
-|TBD|IsSplitLayout|TBD|Boolean|None|None|
-|TBD|LeftBumpId|TBD|Int32|None|None|
-|TBD|RightBumpId|TBD|Int32|None|None|
-|TBD|left|TBD|Int32|None|None|
-|TBD|top|TBD|Int32|None|None|
-|TBD|right|TBD|Int32|None|None|
-|TBD|bottom|TBD|Int32|None|None|
+|TBD|HKL|UInt32|None|`None`|
+|TBD|gutter|UInt32|None|`None`|
+|TBD|IsSplitLayout|Boolean|None|`None`|
+|TBD|LeftBumpId|Int32|None|`None`|
+|TBD|RightBumpId|Int32|None|`None`|
+|TBD|left|Int32|None|`None`|
+|TBD|top|Int32|None|`None`|
+|TBD|right|Int32|None|`None`|
+|TBD|bottom|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

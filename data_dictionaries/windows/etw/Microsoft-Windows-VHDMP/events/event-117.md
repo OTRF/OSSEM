@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VhdFile|TBD|UnicodeString|None|None|
-|TBD|VmId|TBD|GUID|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|RefType|TBD|UInt32|None|None|
-|TBD|Mode|TBD|UInt32|None|None|
-|TBD|PendingRecoveryCount|TBD|UInt32|None|None|
+|TBD|VhdFile|UnicodeString|None|`None`|
+|TBD|VmId|GUID|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|RefType|UInt32|None|`None`|
+|TBD|Mode|UInt32|None|`None`|
+|TBD|PendingRecoveryCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

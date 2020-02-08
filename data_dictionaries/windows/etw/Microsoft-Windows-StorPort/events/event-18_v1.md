@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterName|TBD|UnicodeString|None|None|
-|TBD|PortNumber|TBD|UInt32|None|None|
-|TBD|CurrentOutstanding|TBD|UInt32|None|None|
-|TBD|HighWaterMark|TBD|UInt32|None|None|
-|TBD|MaxCount|TBD|UInt32|None|None|
-|TBD|MemAllocFailures|TBD|UInt32|None|None|
-|TBD|ConsecutiveFailures|TBD|UInt32|None|None|
-|TBD|SuspendCount|TBD|UInt32|None|None|
+|TBD|AdapterName|UnicodeString|None|`None`|
+|TBD|PortNumber|UInt32|None|`None`|
+|TBD|CurrentOutstanding|UInt32|None|`None`|
+|TBD|HighWaterMark|UInt32|None|`None`|
+|TBD|MaxCount|UInt32|None|`None`|
+|TBD|MemAllocFailures|UInt32|None|`None`|
+|TBD|ConsecutiveFailures|UInt32|None|`None`|
+|TBD|SuspendCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

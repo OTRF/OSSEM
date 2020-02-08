@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LogicalPersistentMemoryDiskGuid|TBD|GUID|None|None|
-|TBD|VendorId|TBD|AnsiString|None|None|
-|TBD|ProductId|TBD|AnsiString|None|None|
-|TBD|SerialNumber|TBD|AnsiString|None|None|
-|TBD|PhysicalNvdimmGuid|TBD|GUID|None|None|
-|TBD|NfitHandle|TBD|UInt32|None|None|
-|TBD|NvdimmHealthStatus|TBD|UInt32|None|None|
+|TBD|LogicalPersistentMemoryDiskGuid|GUID|None|`None`|
+|TBD|VendorId|AnsiString|None|`None`|
+|TBD|ProductId|AnsiString|None|`None`|
+|TBD|SerialNumber|AnsiString|None|`None`|
+|TBD|PhysicalNvdimmGuid|GUID|None|`None`|
+|TBD|NfitHandle|UInt32|None|`None`|
+|TBD|NvdimmHealthStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

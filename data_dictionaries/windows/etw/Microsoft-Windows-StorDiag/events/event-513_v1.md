@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceGUID|TBD|GUID|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|InputBufferLength|TBD|UInt32|None|None|
-|TBD|DeviceNumber|TBD|UInt32|None|None|
-|TBD|PortDriverCodeSet|TBD|UInt32|None|None|
-|TBD|FirmwareGetInfoSupport|TBD|UInt32|None|None|
-|TBD|HWFirmwareSupportUpgrade|TBD|UInt8|None|None|
-|TBD|ImagePayloadAlignment|TBD|UInt32|None|None|
-|TBD|SlotCount|TBD|UInt8|None|None|
-|TBD|SlotIndex|TBD|UInt32|None|None|
-|TBD|FWImageVersion|TBD|UInt32|None|None|
-|TBD|FWSize|TBD|UInt32|None|None|
-|TBD|FWSlot|TBD|UInt8|None|None|
-|TBD|FWImageBufferSize|TBD|UInt64|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|FWImageOffset|TBD|UInt64|None|None|
+|TBD|DeviceGUID|GUID|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|InputBufferLength|UInt32|None|`None`|
+|TBD|DeviceNumber|UInt32|None|`None`|
+|TBD|PortDriverCodeSet|UInt32|None|`None`|
+|TBD|FirmwareGetInfoSupport|UInt32|None|`None`|
+|TBD|HWFirmwareSupportUpgrade|UInt8|None|`None`|
+|TBD|ImagePayloadAlignment|UInt32|None|`None`|
+|TBD|SlotCount|UInt8|None|`None`|
+|TBD|SlotIndex|UInt32|None|`None`|
+|TBD|FWImageVersion|UInt32|None|`None`|
+|TBD|FWSize|UInt32|None|`None`|
+|TBD|FWSlot|UInt8|None|`None`|
+|TBD|FWImageBufferSize|UInt64|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|FWImageOffset|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Error

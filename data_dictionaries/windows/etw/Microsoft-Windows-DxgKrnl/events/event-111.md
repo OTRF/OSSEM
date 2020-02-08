@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|VidPnSourceIdNotToInvalidate|TBD|UInt32|None|None|
-|TBD|ClientType|TBD|UInt8|None|None|
-|TBD|VidPnChange|TBD|UInt8|None|None|
-|TBD|ReclaimClonedTarget|TBD|Boolean|None|None|
-|TBD|CleanupAfterFailedCommitVidPn|TBD|Boolean|None|None|
-|TBD|ForceAllActiveVidPnModeListInvalidation|TBD|Boolean|None|None|
-|TBD|ModeChangeRequestId|TBD|UInt32|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|VidPnSourceIdNotToInvalidate|UInt32|None|`None`|
+|TBD|ClientType|UInt8|None|`None`|
+|TBD|VidPnChange|UInt8|None|`None`|
+|TBD|ReclaimClonedTarget|Boolean|None|`None`|
+|TBD|CleanupAfterFailedCommitVidPn|Boolean|None|`None`|
+|TBD|ForceAllActiveVidPnModeListInvalidation|Boolean|None|`None`|
+|TBD|ModeChangeRequestId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

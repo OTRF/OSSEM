@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JobId|TBD|UnicodeString|None|None|
-|TBD|activity|TBD|UnicodeString|None|None|
-|TBD|currentOperation|TBD|UnicodeString|None|None|
-|TBD|statusDescription|TBD|UnicodeString|None|None|
-|TBD|percentComplete|TBD|UInt32|None|None|
-|TBD|secondsRemaining|TBD|UInt32|None|None|
+|TBD|JobId|UnicodeString|None|`None`|
+|TBD|activity|UnicodeString|None|`None`|
+|TBD|currentOperation|UnicodeString|None|`None`|
+|TBD|statusDescription|UnicodeString|None|`None`|
+|TBD|percentComplete|UInt32|None|`None`|
+|TBD|secondsRemaining|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

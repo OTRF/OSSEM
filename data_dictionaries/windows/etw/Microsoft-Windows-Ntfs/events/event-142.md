@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VolumeGuid|TBD|GUID|None|None|
-|TBD|VolumeNameLength|TBD|UInt32|None|None|
-|TBD|VolumeName|TBD|UnicodeString|None|None|
-|TBD|LowestFreeSpaceInBytes|TBD|UInt64|None|None|
-|TBD|HighestFreeSpaceInBytes|TBD|UInt64|None|None|
-|TBD|IsBootVolume|TBD|Boolean|None|None|
+|TBD|VolumeGuid|GUID|None|`None`|
+|TBD|VolumeNameLength|UInt32|None|`None`|
+|TBD|VolumeName|UnicodeString|None|`None`|
+|TBD|LowestFreeSpaceInBytes|UInt64|None|`None`|
+|TBD|HighestFreeSpaceInBytes|UInt64|None|`None`|
+|TBD|IsBootVolume|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

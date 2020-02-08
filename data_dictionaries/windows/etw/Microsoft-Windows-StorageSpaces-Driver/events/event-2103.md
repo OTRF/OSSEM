@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SpaceId|TBD|GUID|None|None|
-|TBD|LogType|TBD|UInt32|None|None|
-|TBD|Lsn|TBD|UInt64|None|None|
-|TBD|Length|TBD|UInt32|None|None|
-|TBD|Reason|TBD|UInt8|None|None|
+|TBD|SpaceId|GUID|None|`None`|
+|TBD|LogType|UInt32|None|`None`|
+|TBD|Lsn|UInt64|None|`None`|
+|TBD|Length|UInt32|None|`None`|
+|TBD|Reason|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

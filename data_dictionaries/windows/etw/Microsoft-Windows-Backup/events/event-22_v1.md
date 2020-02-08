@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HRESULT|TBD|UInt32|None|None|
-|TBD|BackupTime|TBD|FILETIME|None|None|
-|TBD|BackupTarget|TBD|UnicodeString|None|None|
-|TBD|BackupTime2|TBD|FILETIME|None|None|
-|TBD|HRESULT2|TBD|UInt32|None|None|
-|TBD|NumOfVolumes|TBD|UInt32|None|None|
-|TBD|VolumeNames|TBD|UnicodeString|None|None|
+|TBD|HRESULT|UInt32|None|`None`|
+|TBD|BackupTime|FILETIME|None|`None`|
+|TBD|BackupTarget|UnicodeString|None|`None`|
+|TBD|BackupTime2|FILETIME|None|`None`|
+|TBD|HRESULT2|UInt32|None|`None`|
+|TBD|NumOfVolumes|UInt32|None|`None`|
+|TBD|VolumeNames|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

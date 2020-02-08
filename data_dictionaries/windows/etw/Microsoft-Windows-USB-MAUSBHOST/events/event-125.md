@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_NumberOfEndpoints|TBD|UInt16|None|None|
-|TBD|fid_NumberOfDevices|TBD|UInt8|None|None|
-|TBD|fid_NumberOfStreams|TBD|UInt8|None|None|
-|TBD|fid_DeviceType|TBD|UInt8|None|None|
-|TBD|fid_MaxOutstandingTransferRequests|TBD|UInt16|None|None|
-|TBD|fid_MaxOutstandingManagementRequests|TBD|UInt16|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_NumberOfEndpoints|UInt16|None|`None`|
+|TBD|fid_NumberOfDevices|UInt8|None|`None`|
+|TBD|fid_NumberOfStreams|UInt8|None|`None`|
+|TBD|fid_DeviceType|UInt8|None|`None`|
+|TBD|fid_MaxOutstandingTransferRequests|UInt16|None|`None`|
+|TBD|fid_MaxOutstandingManagementRequests|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

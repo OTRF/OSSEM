@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ROIWidth|TBD|Int32|None|None|
-|TBD|ROIHeight|TBD|Int32|None|None|
-|TBD|ROIX|TBD|Int32|None|None|
-|TBD|ROIY|TBD|Int32|None|None|
-|TBD|Subband|TBD|UInt8|None|None|
-|TBD|BitStreamFormat|TBD|UInt8|None|None|
-|TBD|Orientation|TBD|UInt8|None|None|
-|TBD|IgnoreOverlap|TBD|UInt8|None|None|
-|TBD|DiscardAlpha|TBD|UInt8|None|None|
+|TBD|ROIWidth|Int32|None|`None`|
+|TBD|ROIHeight|Int32|None|`None`|
+|TBD|ROIX|Int32|None|`None`|
+|TBD|ROIY|Int32|None|`None`|
+|TBD|Subband|UInt8|None|`None`|
+|TBD|BitStreamFormat|UInt8|None|`None`|
+|TBD|Orientation|UInt8|None|`None`|
+|TBD|IgnoreOverlap|UInt8|None|`None`|
+|TBD|DiscardAlpha|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Verbose

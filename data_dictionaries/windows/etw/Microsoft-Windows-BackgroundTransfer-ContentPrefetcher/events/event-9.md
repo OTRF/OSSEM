@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|statusCode|TBD|UInt32|None|None|
-|TBD|errorReason|TBD|UnicodeString|None|None|
-|TBD|sourceText|TBD|UnicodeString|None|None|
-|TBD|errorOffset|TBD|UInt32|None|None|
+|TBD|statusCode|UInt32|None|`None`|
+|TBD|errorReason|UnicodeString|None|`None`|
+|TBD|sourceText|UnicodeString|None|`None`|
+|TBD|errorOffset|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

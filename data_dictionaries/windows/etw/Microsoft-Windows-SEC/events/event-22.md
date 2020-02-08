@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SequenceNumber|TBD|UInt64|None|None|
-|TBD|ProcessId|TBD|HexInt32|None|None|
-|TBD|ProcessTime|TBD|Int64|None|None|
-|TBD|ThreadId|TBD|HexInt32|None|None|
-|TBD|UserSid|TBD|SID|None|None|
-|TBD|SessionId|TBD|HexInt32|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|CommandLine|TBD|UnicodeString|None|None|
-|TBD|ProcessStartKey|TBD|UInt64|None|None|
-|TBD|CommandLineTruncated|TBD|Boolean|None|None|
-|TBD|CommandLineSize|TBD|HexInt32|None|None|
+|TBD|SequenceNumber|UInt64|None|`None`|
+|TBD|ProcessId|HexInt32|None|`None`|
+|TBD|ProcessTime|Int64|None|`None`|
+|TBD|ThreadId|HexInt32|None|`None`|
+|TBD|UserSid|SID|None|`None`|
+|TBD|SessionId|HexInt32|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|CommandLine|UnicodeString|None|`None`|
+|TBD|ProcessStartKey|UInt64|None|`None`|
+|TBD|CommandLineTruncated|Boolean|None|`None`|
+|TBD|CommandLineSize|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EventNumber|TBD|UInt32|None|None|
-|TBD|EventCount|TBD|UInt32|None|None|
-|TBD|SENSOR_ID|TBD|GUID|None|None|
-|TBD|ConnectedClients|TBD|UInt32|None|None|
-|TBD|SubscribedClients|TBD|UInt32|None|None|
-|TBD|SilentClients|TBD|UInt32|None|None|
-|TBD|PID|TBD|UInt32|None|None|
-|TBD|ClientBitfield|TBD|UInt32|None|None|
+|TBD|EventNumber|UInt32|None|`None`|
+|TBD|EventCount|UInt32|None|`None`|
+|TBD|SENSOR_ID|GUID|None|`None`|
+|TBD|ConnectedClients|UInt32|None|`None`|
+|TBD|SubscribedClients|UInt32|None|`None`|
+|TBD|SilentClients|UInt32|None|`None`|
+|TBD|PID|UInt32|None|`None`|
+|TBD|ClientBitfield|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

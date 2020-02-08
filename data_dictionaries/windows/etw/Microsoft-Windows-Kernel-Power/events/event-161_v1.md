@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResiliencyPhaseNonActivatedNoDripsMs|TBD|UInt32|None|None|
-|TBD|NonActivatedCpuTimeMs|TBD|UInt32|None|None|
-|TBD|DurationThisPeriodMs|TBD|UInt32|None|None|
-|TBD|OnAc|TBD|Boolean|None|None|
-|TBD|EnergyDrainMw|TBD|UInt32|None|None|
-|TBD|DeviceConstraint|TBD|Boolean|None|None|
-|TBD|ActionsTaken|TBD|UInt8|None|None|
-|TBD|DeviceServiceNameLength|TBD|UInt16|None|None|
-|TBD|DeviceServiceName|TBD|UnicodeString|None|None|
-|TBD|ChildServiceNameLength|TBD|UInt16|None|None|
-|TBD|ChildServiceName|TBD|UnicodeString|None|None|
-|TBD|PepPreVeto|TBD|UInt32|None|None|
+|TBD|ResiliencyPhaseNonActivatedNoDripsMs|UInt32|None|`None`|
+|TBD|NonActivatedCpuTimeMs|UInt32|None|`None`|
+|TBD|DurationThisPeriodMs|UInt32|None|`None`|
+|TBD|OnAc|Boolean|None|`None`|
+|TBD|EnergyDrainMw|UInt32|None|`None`|
+|TBD|DeviceConstraint|Boolean|None|`None`|
+|TBD|ActionsTaken|UInt8|None|`None`|
+|TBD|DeviceServiceNameLength|UInt16|None|`None`|
+|TBD|DeviceServiceName|UnicodeString|None|`None`|
+|TBD|ChildServiceNameLength|UInt16|None|`None`|
+|TBD|ChildServiceName|UnicodeString|None|`None`|
+|TBD|PepPreVeto|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

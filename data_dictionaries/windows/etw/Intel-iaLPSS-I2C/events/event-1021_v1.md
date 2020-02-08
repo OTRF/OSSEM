@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TxDmaEnabler|TBD|Pointer|None|None|
-|TBD|RxDmaEnabler|TBD|Pointer|None|None|
-|TBD|WDFDevice|TBD|Pointer|None|None|
-|TBD|MMIO|TBD|HexInt64|None|None|
-|TBD|Status|TBD|UnicodeString|None|None|
+|TBD|TxDmaEnabler|Pointer|None|`None`|
+|TBD|RxDmaEnabler|Pointer|None|`None`|
+|TBD|WDFDevice|Pointer|None|`None`|
+|TBD|MMIO|HexInt64|None|`None`|
+|TBD|Status|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

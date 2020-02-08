@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|hDmaBuffer|TBD|Pointer|None|None|
-|TBD|ContinueNextBuffer|TBD|Boolean|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|ContextAllocation|TBD|UInt64|None|None|
-|TBD|ContextAllocationSize|TBD|UInt64|None|None|
-|TBD|pDriverPrivateData|TBD|Pointer|None|None|
-|TBD|DriverPrivateDataSize|TBD|UInt32|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|hDmaBuffer|Pointer|None|`None`|
+|TBD|ContinueNextBuffer|Boolean|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|ContextAllocation|UInt64|None|`None`|
+|TBD|ContextAllocationSize|UInt64|None|`None`|
+|TBD|pDriverPrivateData|Pointer|None|`None`|
+|TBD|DriverPrivateDataSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

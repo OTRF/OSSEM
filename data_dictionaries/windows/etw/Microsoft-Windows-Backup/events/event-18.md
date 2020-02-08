@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BackupTime|TBD|FILETIME|None|None|
-|TBD|TemplateId|TBD|GUID|None|None|
+|TBD|BackupTime|FILETIME|None|`None`|
+|TBD|TemplateId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Error

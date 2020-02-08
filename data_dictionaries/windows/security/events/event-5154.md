@@ -6,14 +6,14 @@ This event generates every time Windows Filtering Platform permits an applicatio
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|process_id|ProcessId|TBD|integer|hexadecimal Process ID of the process which was permitted to listen on the port.|4152|
-|process_path|Application|TBD|UnicostringdeString|Full path and the name of the executable for the process.|\device\harddiskvolume2\documents\listener.exe|
-|src_ip_addr|SourceAddress|TBD|ip|Local IP address on which application requested to listen on the port.|0.0.0.0|
-|src_port|SourcePort|TBD|integer|Source TCP\UDP port number which was requested for listening by application.|44|
-|network_protocol|Protocol|TBD|integer|Protocol number.|6|
-|TBD|FilterRTID|TBD|integer|Unique filter ID which allows application to listen on the specific port.|0|
-|TBD|LayerName|TBD|string|Application Layer Enforcement layer name.|%%14609|
-|TBD|LayerRTID|TBD|integer|Windows Filtering Platform layer identifier.|40|
+|process_id|ProcessId|integer|hexadecimal Process ID of the process which was permitted to listen on the port.|`4152`|
+|process_path|Application|UnicostringdeString|Full path and the name of the executable for the process.|`\device\harddiskvolume2\documents\listener.exe`|
+|src_ip_addr|SourceAddress|ip|Local IP address on which application requested to listen on the port.|`0.0.0.0`|
+|src_port|SourcePort|integer|Source TCP\UDP port number which was requested for listening by application.|`44`|
+|network_protocol|Protocol|integer|Protocol number.|`6`|
+|TBD|FilterRTID|integer|Unique filter ID which allows application to listen on the specific port.|`0`|
+|TBD|LayerName|string|Application Layer Enforcement layer name.|`%%14609`|
+|TBD|LayerRTID|integer|Windows Filtering Platform layer identifier.|`40`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5154.md)

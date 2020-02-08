@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Category|TBD|HexInt32|None|None|
-|TBD|PsmKey|TBD|UnicodeString|None|None|
+|TBD|Category|HexInt32|None|`None`|
+|TBD|PsmKey|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Critical

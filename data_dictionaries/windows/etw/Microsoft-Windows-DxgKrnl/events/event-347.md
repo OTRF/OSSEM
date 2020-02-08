@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|PageInPass|TBD|UInt32|None|None|
-|TBD|OverBudget|TBD|Boolean|None|None|
-|TBD|PriorityBandRestriction|TBD|UInt32|None|None|
-|TBD|PageInPreferredOnly|TBD|Boolean|None|None|
-|TBD|Recoverable|TBD|Boolean|None|None|
-|TBD|FailedVidMmAlloc|TBD|Pointer|None|None|
+|TBD|Status|UInt32|None|`None`|
+|TBD|PageInPass|UInt32|None|`None`|
+|TBD|OverBudget|Boolean|None|`None`|
+|TBD|PriorityBandRestriction|UInt32|None|`None`|
+|TBD|PageInPreferredOnly|Boolean|None|`None`|
+|TBD|Recoverable|Boolean|None|`None`|
+|TBD|FailedVidMmAlloc|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

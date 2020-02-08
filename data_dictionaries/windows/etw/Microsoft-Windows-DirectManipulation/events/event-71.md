@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|time|TBD|UInt64|None|None|
-|TBD|processTime|TBD|UInt64|None|None|
-|TBD|compositionTime|TBD|UInt64|None|None|
-|TBD|predictedTimeGap|TBD|UInt64|None|None|
-|TBD|predictionX|TBD|Float|None|None|
-|TBD|predictionY|TBD|Float|None|None|
+|TBD|time|UInt64|None|`None`|
+|TBD|processTime|UInt64|None|`None`|
+|TBD|compositionTime|UInt64|None|`None`|
+|TBD|predictedTimeGap|UInt64|None|`None`|
+|TBD|predictionX|Float|None|`None`|
+|TBD|predictionY|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

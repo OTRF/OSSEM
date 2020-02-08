@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EncoderBitRate|TBD|UInt64|None|None|
-|TBD|MaxLocalRate|TBD|UInt64|None|None|
-|TBD|MaxRemoteRate|TBD|UInt64|None|None|
+|TBD|EncoderBitRate|UInt64|None|`None`|
+|TBD|MaxLocalRate|UInt64|None|`None`|
+|TBD|MaxRemoteRate|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

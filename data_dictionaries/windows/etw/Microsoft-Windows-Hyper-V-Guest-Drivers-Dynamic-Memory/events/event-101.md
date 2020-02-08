@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HighestHotAddPage|TBD|HexInt64|None|None|
-|TBD|MinPageCount|TBD|UInt64|None|None|
-|TBD|IsHighestPageDetermined|TBD|Boolean|None|None|
-|TBD|SupportsHotAdd|TBD|Boolean|None|None|
-|TBD|SupportsHotRemove|TBD|Boolean|None|None|
-|TBD|SupportsContiguousAllocations|TBD|Boolean|None|None|
-|TBD|SupportsFastContiguousAllocations|TBD|Boolean|None|None|
+|TBD|HighestHotAddPage|HexInt64|None|`None`|
+|TBD|MinPageCount|UInt64|None|`None`|
+|TBD|IsHighestPageDetermined|Boolean|None|`None`|
+|TBD|SupportsHotAdd|Boolean|None|`None`|
+|TBD|SupportsHotRemove|Boolean|None|`None`|
+|TBD|SupportsContiguousAllocations|Boolean|None|`None`|
+|TBD|SupportsFastContiguousAllocations|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

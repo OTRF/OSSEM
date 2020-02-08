@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JobId|TBD|UnicodeString|None|None|
-|TBD|clientChecksum|TBD|UnicodeString|None|None|
-|TBD|checkSumFromServer|TBD|UnicodeString|None|None|
+|TBD|JobId|UnicodeString|None|`None`|
+|TBD|clientChecksum|UnicodeString|None|`None`|
+|TBD|checkSumFromServer|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

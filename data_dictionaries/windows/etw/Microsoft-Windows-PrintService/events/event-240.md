@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DriverName|TBD|UnicodeString|None|None|
-|TBD|InfPath|TBD|UnicodeString|None|None|
-|TBD|MissingManifest|TBD|Boolean|None|None|
-|TBD|MultipleManifests|TBD|Boolean|None|None|
+|TBD|DriverName|UnicodeString|None|`None`|
+|TBD|InfPath|UnicodeString|None|`None`|
+|TBD|MissingManifest|Boolean|None|`None`|
+|TBD|MultipleManifests|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Error

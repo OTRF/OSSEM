@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBHUB_HC|TBD|AnsiString|None|None|
-|TBD|fid_USBHUB_Device|TBD|Int32|None|None|
+|TBD|fid_USBHUB_HC|AnsiString|None|`None`|
+|TBD|fid_USBHUB_Device|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AllocationAmount|TBD|UInt32|None|None|
-|TBD|AllocationKind|TBD|UInt32|None|None|
-|TBD|ClrInstanceID|TBD|UInt16|None|None|
+|TBD|AllocationAmount|UInt32|None|`None`|
+|TBD|AllocationKind|UInt32|None|`None`|
+|TBD|ClrInstanceID|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Verbose

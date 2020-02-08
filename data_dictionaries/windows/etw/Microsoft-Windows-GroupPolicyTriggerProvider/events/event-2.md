@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|GPTriggerEventGuid|TBD|GUID|None|None|
+|TBD|GPTriggerEventGuid|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

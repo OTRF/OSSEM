@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|tsidr|TBD|UInt8|None|None|
-|TBD|ifmp|TBD|UInt32|None|None|
-|TBD|filetype|TBD|UInt32|None|None|
-|TBD|ulMagic|TBD|UInt32|None|None|
-|TBD|ulChecksum|TBD|UInt32|None|None|
-|TBD|cbPageSize|TBD|UInt32|None|None|
-|TBD|ulDbFlags|TBD|UInt32|None|None|
-|TBD|psignDb|TBD|Binary|None|None|
+|TBD|tsidr|UInt8|None|`None`|
+|TBD|ifmp|UInt32|None|`None`|
+|TBD|filetype|UInt32|None|`None`|
+|TBD|ulMagic|UInt32|None|`None`|
+|TBD|ulChecksum|UInt32|None|`None`|
+|TBD|cbPageSize|UInt32|None|`None`|
+|TBD|ulDbFlags|UInt32|None|`None`|
+|TBD|psignDb|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

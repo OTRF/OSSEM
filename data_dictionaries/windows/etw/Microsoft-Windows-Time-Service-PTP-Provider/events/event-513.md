@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BestMasterName|TBD|UnicodeString|None|None|
-|TBD|MasterAddress|TBD|UnicodeString|None|None|
-|TBD|MasterClockId|TBD|UnicodeString|None|None|
-|TBD|MasterPortNum|TBD|UInt32|None|None|
-|TBD|DomainNumber|TBD|UInt32|None|None|
-|TBD|UTCValid|TBD|UInt32|None|None|
-|TBD|CurrentUTCOffset|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UnicodeString|None|None|
-|TBD|GrandMasterClockId|TBD|UnicodeString|None|None|
-|TBD|StepsRemovedFromGrandMaster|TBD|UInt32|None|None|
-|TBD|TimeSourceCode|TBD|UnicodeString|None|None|
-|TBD|LogAnnounceInterval|TBD|Int32|None|None|
-|TBD|TickCount|TBD|UInt64|None|None|
+|TBD|BestMasterName|UnicodeString|None|`None`|
+|TBD|MasterAddress|UnicodeString|None|`None`|
+|TBD|MasterClockId|UnicodeString|None|`None`|
+|TBD|MasterPortNum|UInt32|None|`None`|
+|TBD|DomainNumber|UInt32|None|`None`|
+|TBD|UTCValid|UInt32|None|`None`|
+|TBD|CurrentUTCOffset|UInt32|None|`None`|
+|TBD|Flags|UnicodeString|None|`None`|
+|TBD|GrandMasterClockId|UnicodeString|None|`None`|
+|TBD|StepsRemovedFromGrandMaster|UInt32|None|`None`|
+|TBD|TimeSourceCode|UnicodeString|None|`None`|
+|TBD|LogAnnounceInterval|Int32|None|`None`|
+|TBD|TickCount|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

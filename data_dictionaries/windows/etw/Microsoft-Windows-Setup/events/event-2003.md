@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HostOSName|TBD|UnicodeString|None|None|
-|TBD|Installwasanupgrade|TBD|Boolean|None|None|
-|TBD|HostOSwasWindowsPE|TBD|Boolean|None|None|
-|TBD|HostOSmajorversion|TBD|UInt32|None|None|
-|TBD|HostOSminorversion|TBD|UInt32|None|None|
-|TBD|HostOSbuildversion|TBD|UInt32|None|None|
-|TBD|HostOSservicepackName|TBD|UnicodeString|None|None|
-|TBD|HostOSservicepackmajorversion|TBD|UInt32|None|None|
-|TBD|HostOSservicepackminorversion|TBD|UInt32|None|None|
+|TBD|HostOSName|UnicodeString|None|`None`|
+|TBD|Installwasanupgrade|Boolean|None|`None`|
+|TBD|HostOSwasWindowsPE|Boolean|None|`None`|
+|TBD|HostOSmajorversion|UInt32|None|`None`|
+|TBD|HostOSminorversion|UInt32|None|`None`|
+|TBD|HostOSbuildversion|UInt32|None|`None`|
+|TBD|HostOSservicepackName|UnicodeString|None|`None`|
+|TBD|HostOSservicepackmajorversion|UInt32|None|`None`|
+|TBD|HostOSservicepackminorversion|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

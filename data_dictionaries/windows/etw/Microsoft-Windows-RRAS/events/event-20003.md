@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DebugString|TBD|UnicodeString|None|None|
-|TBD|RoutingDomainID|TBD|GUID|None|None|
-|TBD|RRASUserName|TBD|UnicodeString|None|None|
-|TBD|PortNo|TBD|UnicodeString|None|None|
+|TBD|DebugString|UnicodeString|None|`None`|
+|TBD|RoutingDomainID|GUID|None|`None`|
+|TBD|RRASUserName|UnicodeString|None|`None`|
+|TBD|PortNo|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

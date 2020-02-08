@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DisplayID|TBD|UInt64|None|None|
-|TBD|SyncRefreshCountDelta|TBD|UInt64|None|None|
-|TBD|SyncTimeDeltaMS|TBD|Float|None|None|
+|TBD|DisplayID|UInt64|None|`None`|
+|TBD|SyncRefreshCountDelta|UInt64|None|`None`|
+|TBD|SyncTimeDeltaMS|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

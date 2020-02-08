@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_DeviceIsComposite|TBD|UInt32|None|None|
-|TBD|fid_DeviceWakeupSupport|TBD|UInt32|None|None|
-|TBD|fid_InterfaceRemoteWakeupCapable|TBD|UInt16|None|None|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_DeviceIsComposite|UInt32|None|`None`|
+|TBD|fid_DeviceWakeupSupport|UInt32|None|`None`|
+|TBD|fid_InterfaceRemoteWakeupCapable|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Error

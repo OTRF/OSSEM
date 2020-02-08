@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_Capability|TBD|GUID|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
-|TBD|fid_NumStaticStreams|TBD|UInt32|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_Capability|GUID|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
+|TBD|fid_NumStaticStreams|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

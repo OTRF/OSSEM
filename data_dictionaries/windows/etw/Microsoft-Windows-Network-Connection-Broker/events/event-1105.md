@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NlmEpochBefore|TBD|UInt64|None|None|
-|TBD|NlmSignatureBefore|TBD|Pointer|None|None|
-|TBD|NlmSignatureStableBefore|TBD|Boolean|None|None|
-|TBD|NlmEpochAfter|TBD|UInt64|None|None|
-|TBD|NlmSignatureAfter|TBD|Pointer|None|None|
-|TBD|NlmSignatureStableAfter|TBD|Boolean|None|None|
-|TBD|Value|TBD|UInt32|None|None|
-|TBD|ValueType|TBD|Int32|None|None|
-|TBD|ScheduleUpdate|TBD|Boolean|None|None|
+|TBD|NlmEpochBefore|UInt64|None|`None`|
+|TBD|NlmSignatureBefore|Pointer|None|`None`|
+|TBD|NlmSignatureStableBefore|Boolean|None|`None`|
+|TBD|NlmEpochAfter|UInt64|None|`None`|
+|TBD|NlmSignatureAfter|Pointer|None|`None`|
+|TBD|NlmSignatureStableAfter|Boolean|None|`None`|
+|TBD|Value|UInt32|None|`None`|
+|TBD|ValueType|Int32|None|`None`|
+|TBD|ScheduleUpdate|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

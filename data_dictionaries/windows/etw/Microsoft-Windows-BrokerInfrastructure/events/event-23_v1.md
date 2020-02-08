@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WorkItemId|TBD|GUID|None|None|
-|TBD|BrokerId|TBD|GUID|None|None|
-|TBD|TriggerEventId|TBD|GUID|None|None|
-|TBD|TriggerEventType|TBD|UInt32|None|None|
-|TBD|CriticalActivation|TBD|Boolean|None|None|
-|TBD|EntryPointLength|TBD|UInt16|None|None|
-|TBD|EntryPoint|TBD|UnicodeString|None|None|
-|TBD|NameLength|TBD|UInt16|None|None|
-|TBD|TaskName|TBD|UnicodeString|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|UserSid|TBD|SID|None|None|
-|TBD|ConditionCount|TBD|UInt16|None|None|
-|TBD|ConditinalEvent|TBD|Boolean|None|None|
+|TBD|WorkItemId|GUID|None|`None`|
+|TBD|BrokerId|GUID|None|`None`|
+|TBD|TriggerEventId|GUID|None|`None`|
+|TBD|TriggerEventType|UInt32|None|`None`|
+|TBD|CriticalActivation|Boolean|None|`None`|
+|TBD|EntryPointLength|UInt16|None|`None`|
+|TBD|EntryPoint|UnicodeString|None|`None`|
+|TBD|NameLength|UInt16|None|`None`|
+|TBD|TaskName|UnicodeString|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|UserSid|SID|None|`None`|
+|TBD|ConditionCount|UInt16|None|`None`|
+|TBD|ConditinalEvent|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

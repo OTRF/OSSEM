@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DisableInputToPLMEntry|TBD|UInt32|None|None|
-|TBD|DisableInputToDAMEntry|TBD|UInt32|None|None|
-|TBD|DisableInputToLowPowerEpochEntry|TBD|UInt32|None|None|
-|TBD|PhaseTimesConnection|TBD|UInt32|None|None|
-|TBD|PhaseTimesPresence|TBD|UInt32|None|None|
-|TBD|PhaseTimesPlmAndResiliencyNotification|TBD|UInt32|None|None|
-|TBD|PhaseTimesMaintenance|TBD|UInt32|None|None|
-|TBD|PhaseTimesDamAndLowPower|TBD|UInt32|None|None|
+|TBD|DisableInputToPLMEntry|UInt32|None|`None`|
+|TBD|DisableInputToDAMEntry|UInt32|None|`None`|
+|TBD|DisableInputToLowPowerEpochEntry|UInt32|None|`None`|
+|TBD|PhaseTimesConnection|UInt32|None|`None`|
+|TBD|PhaseTimesPresence|UInt32|None|`None`|
+|TBD|PhaseTimesPlmAndResiliencyNotification|UInt32|None|`None`|
+|TBD|PhaseTimesMaintenance|UInt32|None|`None`|
+|TBD|PhaseTimesDamAndLowPower|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

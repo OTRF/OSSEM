@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_BTHUSB_HC|TBD|Int8|None|None|
-|TBD|fid_BTHUSB_HC_SELECTIVE_SUSPEND|TBD|Int16|None|None|
-|TBD|fid_BTHUSB_HC_Pdo_Name|TBD|UnicodeString|None|None|
+|TBD|fid_BTHUSB_HC|Int8|None|`None`|
+|TBD|fid_BTHUSB_HC_SELECTIVE_SUSPEND|Int16|None|`None`|
+|TBD|fid_BTHUSB_HC_Pdo_Name|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

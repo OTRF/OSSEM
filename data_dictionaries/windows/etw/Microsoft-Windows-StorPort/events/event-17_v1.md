@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterName|TBD|UnicodeString|None|None|
-|TBD|PortNumber|TBD|UInt32|None|None|
-|TBD|CurrentOutstanding|TBD|UInt32|None|None|
-|TBD|OldHighWaterMark|TBD|UInt32|None|None|
-|TBD|NewHighWaterMark|TBD|UInt32|None|None|
-|TBD|MaxCount|TBD|UInt32|None|None|
+|TBD|AdapterName|UnicodeString|None|`None`|
+|TBD|PortNumber|UInt32|None|`None`|
+|TBD|CurrentOutstanding|UInt32|None|`None`|
+|TBD|OldHighWaterMark|UInt32|None|`None`|
+|TBD|NewHighWaterMark|UInt32|None|`None`|
+|TBD|MaxCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

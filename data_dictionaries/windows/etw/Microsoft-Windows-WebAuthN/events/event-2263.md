@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransactionId|TBD|GUID|None|None|
-|TBD|DevicePath|TBD|UnicodeString|None|None|
-|TBD|PairedName|TBD|UnicodeString|None|None|
-|TBD|AAGuid|TBD|GUID|None|None|
-|TBD|U2fProtocol|TBD|Boolean|None|None|
-|TBD|State|TBD|UInt32|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|Error|TBD|HexInt32|None|None|
-|TBD|Win32Error|TBD|HexInt32|None|None|
+|TBD|TransactionId|GUID|None|`None`|
+|TBD|DevicePath|UnicodeString|None|`None`|
+|TBD|PairedName|UnicodeString|None|`None`|
+|TBD|AAGuid|GUID|None|`None`|
+|TBD|U2fProtocol|Boolean|None|`None`|
+|TBD|State|UInt32|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|Error|HexInt32|None|`None`|
+|TBD|Win32Error|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

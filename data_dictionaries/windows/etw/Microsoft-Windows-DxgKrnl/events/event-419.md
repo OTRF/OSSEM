@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|PhysicalAdapterIndex|TBD|UInt16|None|None|
-|TBD|DriverSegmentIndex|TBD|UInt16|None|None|
-|TBD|VprIndex|TBD|UInt16|None|None|
-|TBD|CapacityRatio|TBD|UInt32|None|None|
-|TBD|CurrentRatio|TBD|UInt32|None|None|
-|TBD|Capacity|TBD|UInt64|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|PhysicalAdapterIndex|UInt16|None|`None`|
+|TBD|DriverSegmentIndex|UInt16|None|`None`|
+|TBD|VprIndex|UInt16|None|`None`|
+|TBD|CapacityRatio|UInt32|None|`None`|
+|TBD|CurrentRatio|UInt32|None|`None`|
+|TBD|Capacity|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

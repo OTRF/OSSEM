@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IdleTimeout|TBD|UInt32|None|None|
-|TBD|PollDevInfo|TBD|UInt32|None|None|
-|TBD|NfcIp_Mode|TBD|UInt8|None|None|
-|TBD|Duration|TBD|UInt32|None|None|
-|TBD|LLCP_MIU|TBD|UInt16|None|None|
-|TBD|LLCP_LTO|TBD|UInt8|None|None|
-|TBD|LLCP_RecvWindowSize|TBD|UInt8|None|None|
+|TBD|IdleTimeout|UInt32|None|`None`|
+|TBD|PollDevInfo|UInt32|None|`None`|
+|TBD|NfcIp_Mode|UInt8|None|`None`|
+|TBD|Duration|UInt32|None|`None`|
+|TBD|LLCP_MIU|UInt16|None|`None`|
+|TBD|LLCP_LTO|UInt8|None|`None`|
+|TBD|LLCP_RecvWindowSize|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

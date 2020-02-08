@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Event|TBD|UnicodeString|None|None|
-|TBD|TenantId|TBD|UnicodeString|None|None|
-|TBD|TotalTimeWithoutAdal|TBD|UInt32|None|None|
-|TBD|AdalTime|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
+|TBD|Event|UnicodeString|None|`None`|
+|TBD|TenantId|UnicodeString|None|`None`|
+|TBD|TotalTimeWithoutAdal|UInt32|None|`None`|
+|TBD|AdalTime|UInt32|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

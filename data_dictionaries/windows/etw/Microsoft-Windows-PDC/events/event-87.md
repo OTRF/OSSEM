@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeActivated|TBD|UInt32|None|None|
-|TBD|ConnectedStandbyTimeAndActivationCount|TBD|UInt32|None|None|
-|TBD|ClientIdAndFlags|TBD|UInt32|None|None|
-|TBD|MaxActivationDuration|TBD|UInt32|None|None|
+|TBD|TimeActivated|UInt32|None|`None`|
+|TBD|ConnectedStandbyTimeAndActivationCount|UInt32|None|`None`|
+|TBD|ClientIdAndFlags|UInt32|None|`None`|
+|TBD|MaxActivationDuration|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

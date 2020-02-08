@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessImageName|TBD|UnicodeString|None|None|
-|TBD|PID|TBD|UInt32|None|None|
-|TBD|CreationTime|TBD|FILETIME|None|None|
-|TBD|DropReasonCode|TBD|UInt32|None|None|
+|TBD|ProcessImageName|UnicodeString|None|`None`|
+|TBD|PID|UInt32|None|`None`|
+|TBD|CreationTime|FILETIME|None|`None`|
+|TBD|DropReasonCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

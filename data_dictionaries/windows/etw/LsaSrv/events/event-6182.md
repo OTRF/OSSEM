@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TargetLogonId|TBD|HexInt64|None|None|
-|TBD|AccountName|TBD|UnicodeString|None|None|
-|TBD|DomainName|TBD|UnicodeString|None|None|
+|TBD|TargetLogonId|HexInt64|None|`None`|
+|TBD|AccountName|UnicodeString|None|`None`|
+|TBD|DomainName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

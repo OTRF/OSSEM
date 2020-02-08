@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SpaceId|TBD|GUID|None|None|
-|TBD|Offset|TBD|UInt64|None|None|
-|TBD|DataCount|TBD|UInt32|None|None|
-|TBD|DataBytes|TBD|UInt32|None|None|
-|TBD|TotalCount|TBD|UInt32|None|None|
-|TBD|TotalBytes|TBD|UInt32|None|None|
-|TBD|IsOptimized|TBD|UInt8|None|None|
+|TBD|SpaceId|GUID|None|`None`|
+|TBD|Offset|UInt64|None|`None`|
+|TBD|DataCount|UInt32|None|`None`|
+|TBD|DataBytes|UInt32|None|`None`|
+|TBD|TotalCount|UInt32|None|`None`|
+|TBD|TotalBytes|UInt32|None|`None`|
+|TBD|IsOptimized|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

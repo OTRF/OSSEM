@@ -6,24 +6,24 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Group|TBD|UInt16|None|None|
-|TBD|Number|TBD|UInt8|None|None|
-|TBD|Parked|TBD|Boolean|None|None|
-|TBD|BiosCap|TBD|UInt32|None|None|
-|TBD|ThermalCap|TBD|UInt32|None|None|
-|TBD|DesiredPerformance|TBD|UInt32|None|None|
-|TBD|NominalFrequency|TBD|UInt32|None|None|
-|TBD|MinPercent|TBD|UInt32|None|None|
-|TBD|MaxPercent|TBD|UInt32|None|None|
-|TBD|TolerancePercent|TBD|UInt32|None|None|
-|TBD|DeliveredPerformance|TBD|UInt32|None|None|
-|TBD|EfficiencyClass|TBD|UInt8|None|None|
-|TBD|SchedulingClass|TBD|UInt8|None|None|
-|TBD|Autonomous|TBD|Boolean|None|None|
-|TBD|EppPercent|TBD|UInt32|None|None|
-|TBD|ActivityWindow|TBD|UInt32|None|None|
-|TBD|VirtualLittle|TBD|Boolean|None|None|
-|TBD|RelativePerformance|TBD|UInt32|None|None|
+|TBD|Group|UInt16|None|`None`|
+|TBD|Number|UInt8|None|`None`|
+|TBD|Parked|Boolean|None|`None`|
+|TBD|BiosCap|UInt32|None|`None`|
+|TBD|ThermalCap|UInt32|None|`None`|
+|TBD|DesiredPerformance|UInt32|None|`None`|
+|TBD|NominalFrequency|UInt32|None|`None`|
+|TBD|MinPercent|UInt32|None|`None`|
+|TBD|MaxPercent|UInt32|None|`None`|
+|TBD|TolerancePercent|UInt32|None|`None`|
+|TBD|DeliveredPerformance|UInt32|None|`None`|
+|TBD|EfficiencyClass|UInt8|None|`None`|
+|TBD|SchedulingClass|UInt8|None|`None`|
+|TBD|Autonomous|Boolean|None|`None`|
+|TBD|EppPercent|UInt32|None|`None`|
+|TBD|ActivityWindow|UInt32|None|`None`|
+|TBD|VirtualLittle|Boolean|None|`None`|
+|TBD|RelativePerformance|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

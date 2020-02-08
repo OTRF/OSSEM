@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RemovedMemorySize|TBD|UInt64|None|None|
+|TBD|RemovedMemorySize|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

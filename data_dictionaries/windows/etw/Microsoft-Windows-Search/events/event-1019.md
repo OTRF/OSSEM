@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ExtraInfo|TBD|UnicodeString|None|None|
-|TBD|Phase|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|UnicodeString|None|None|
-|TBD|Path|TBD|UnicodeString|None|None|
+|TBD|ExtraInfo|UnicodeString|None|`None`|
+|TBD|Phase|UnicodeString|None|`None`|
+|TBD|ErrorCode|UnicodeString|None|`None`|
+|TBD|Path|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|iFile|TBD|UInt64|None|None|
-|TBD|ibOffset|TBD|UInt64|None|None|
-|TBD|cbData|TBD|UInt32|None|None|
-|TBD|tidAlloc|TBD|UInt32|None|None|
-|TBD|fHeapA|TBD|UInt32|None|None|
-|TBD|fWrite|TBD|UInt32|None|None|
-|TBD|EngineFileType|TBD|UInt32|None|None|
-|TBD|EngineFileId|TBD|UInt64|None|None|
-|TBD|cusecEnqueueLatency|TBD|UInt32|None|None|
+|TBD|iFile|UInt64|None|`None`|
+|TBD|ibOffset|UInt64|None|`None`|
+|TBD|cbData|UInt32|None|`None`|
+|TBD|tidAlloc|UInt32|None|`None`|
+|TBD|fHeapA|UInt32|None|`None`|
+|TBD|fWrite|UInt32|None|`None`|
+|TBD|EngineFileType|UInt32|None|`None`|
+|TBD|EngineFileId|UInt64|None|`None`|
+|TBD|cusecEnqueueLatency|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

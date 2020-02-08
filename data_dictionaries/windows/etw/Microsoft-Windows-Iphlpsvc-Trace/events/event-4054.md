@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TeredoProtocolState|TBD|UInt32|None|None|
-|TBD|BadorInvalidPacket|TBD|UInt32|None|None|
+|TBD|TeredoProtocolState|UInt32|None|`None`|
+|TBD|BadorInvalidPacket|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

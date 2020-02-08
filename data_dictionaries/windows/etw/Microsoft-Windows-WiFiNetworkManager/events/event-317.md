@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|dwValue|TBD|UInt32|None|None|
-|TBD|ssidLen|TBD|UInt32|None|None|
-|TBD|ssid|TBD|Binary|None|None|
+|TBD|dwValue|UInt32|None|`None`|
+|TBD|ssidLen|UInt32|None|`None`|
+|TBD|ssid|Binary|None|`None`|
 
 ## Tags
 * etw_level_Error

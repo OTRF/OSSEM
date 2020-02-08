@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|SARWidth|TBD|UInt32|None|None|
-|TBD|SARHeight|TBD|UInt32|None|None|
-|TBD|BitDepthLuma|TBD|UInt8|None|None|
-|TBD|BitDepthChroma|TBD|UInt8|None|None|
-|TBD|ChromaFormat|TBD|UInt8|None|None|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|SARWidth|UInt32|None|`None`|
+|TBD|SARHeight|UInt32|None|`None`|
+|TBD|BitDepthLuma|UInt8|None|`None`|
+|TBD|BitDepthChroma|UInt8|None|`None`|
+|TBD|ChromaFormat|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RequestType|TBD|UInt32|None|None|
-|TBD|TcbOrEndpoint|TBD|Pointer|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|InterfaceIndex|TBD|UInt32|None|None|
+|TBD|RequestType|UInt32|None|`None`|
+|TBD|TcbOrEndpoint|Pointer|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|InterfaceIndex|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

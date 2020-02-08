@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkConnector|TBD|Pointer|None|None|
-|TBD|NdkQp|TBD|Pointer|None|None|
-|TBD|IRD|TBD|UInt32|None|None|
-|TBD|ORD|TBD|UInt32|None|None|
-|TBD|DisconnectEventContext|TBD|Pointer|None|None|
-|TBD|RequestContext|TBD|Pointer|None|None|
-|TBD|PrivateDataLength|TBD|UInt32|None|None|
+|TBD|NdkConnector|Pointer|None|`None`|
+|TBD|NdkQp|Pointer|None|`None`|
+|TBD|IRD|UInt32|None|`None`|
+|TBD|ORD|UInt32|None|`None`|
+|TBD|DisconnectEventContext|Pointer|None|`None`|
+|TBD|RequestContext|Pointer|None|`None`|
+|TBD|PrivateDataLength|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

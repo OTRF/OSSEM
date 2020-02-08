@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ShutdownActionType|TBD|UInt32|None|None|
-|TBD|ShutdownEventCode|TBD|UInt32|None|None|
-|TBD|ShutdownReason|TBD|UInt32|None|None|
+|TBD|ShutdownActionType|UInt32|None|`None`|
+|TBD|ShutdownEventCode|UInt32|None|`None`|
+|TBD|ShutdownReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

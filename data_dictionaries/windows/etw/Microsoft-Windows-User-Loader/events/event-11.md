@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessImagePath|TBD|UnicodeString|None|None|
-|TBD|CurDirDllPath|TBD|UnicodeString|None|None|
-|TBD|FoundDllPath|TBD|UnicodeString|None|None|
+|TBD|ProcessImagePath|UnicodeString|None|`None`|
+|TBD|CurDirDllPath|UnicodeString|None|`None`|
+|TBD|FoundDllPath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

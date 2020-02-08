@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PlaylistMgr|TBD|Pointer|None|None|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|IWMPPlaylist|TBD|Pointer|None|None|
-|TBD|HResult|TBD|UInt32|None|None|
+|TBD|PlaylistMgr|Pointer|None|`None`|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|IWMPPlaylist|Pointer|None|`None`|
+|TBD|HResult|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

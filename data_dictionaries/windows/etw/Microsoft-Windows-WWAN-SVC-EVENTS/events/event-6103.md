@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|ConnectInformationFlags|TBD|UInt32|None|None|
-|TBD|APIErrorCode|TBD|UInt32|None|None|
-|TBD|NetworkErrorCode|TBD|UInt32|None|None|
-|TBD|HardwareId|TBD|UnicodeString|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|ConnectInformationFlags|UInt32|None|`None`|
+|TBD|APIErrorCode|UInt32|None|`None`|
+|TBD|NetworkErrorCode|UInt32|None|`None`|
+|TBD|HardwareId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UserInitiated|TBD|Boolean|None|None|
-|TBD|TabID|TBD|UInt32|None|None|
+|TBD|UserInitiated|Boolean|None|`None`|
+|TBD|TabID|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

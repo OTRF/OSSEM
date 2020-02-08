@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportContext|TBD|Pointer|None|None|
-|TBD|ProtectedCallbackContext|TBD|Pointer|None|None|
-|TBD|ProtectionStatus|TBD|UInt32|None|None|
+|TBD|MiniportContext|Pointer|None|`None`|
+|TBD|ProtectedCallbackContext|Pointer|None|`None`|
+|TBD|ProtectionStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

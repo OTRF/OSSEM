@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Orientation|TBD|UInt32|None|None|
-|TBD|SensorOriginated|TBD|Boolean|None|None|
-|TBD|ActiveProcessId|TBD|UInt32|None|None|
+|TBD|Orientation|UInt32|None|`None`|
+|TBD|SensorOriginated|Boolean|None|`None`|
+|TBD|ActiveProcessId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

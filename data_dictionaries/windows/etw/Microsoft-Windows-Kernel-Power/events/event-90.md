@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessorId|TBD|UInt32|None|None|
-|TBD|ThrottleMSR|TBD|HexInt64|None|None|
-|TBD|ElapsedTime|TBD|UInt32|None|None|
-|TBD|LogInterval|TBD|UInt32|None|None|
+|TBD|ProcessorId|UInt32|None|`None`|
+|TBD|ThrottleMSR|HexInt64|None|`None`|
+|TBD|ElapsedTime|UInt32|None|`None`|
+|TBD|LogInterval|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RemoteMachineName|TBD|UnicodeString|None|None|
-|TBD|Errorcode|TBD|UInt32|None|None|
+|TBD|RemoteMachineName|UnicodeString|None|`None`|
+|TBD|Errorcode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

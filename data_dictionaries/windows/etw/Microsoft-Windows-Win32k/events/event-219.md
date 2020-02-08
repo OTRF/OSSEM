@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CallbackCount|TBD|Int8|None|None|
-|TBD|WakeReason|TBD|Int32|None|None|
+|TBD|CallbackCount|Int8|None|`None`|
+|TBD|WakeReason|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

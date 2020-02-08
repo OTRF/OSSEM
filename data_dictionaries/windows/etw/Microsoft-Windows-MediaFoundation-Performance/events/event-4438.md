@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Buffer|TBD|Pointer|None|None|
+|TBD|Buffer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

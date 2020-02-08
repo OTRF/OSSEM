@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NetLuid|TBD|UInt64|None|None|
-|TBD|NdisMediumType|TBD|UInt32|None|None|
-|TBD|FriendlyNameLen|TBD|UInt32|None|None|
-|TBD|FriendlyName|TBD|UnicodeString|None|None|
-|TBD|DeviceNameLen|TBD|UInt32|None|None|
-|TBD|DeviceName|TBD|UnicodeString|None|None|
-|TBD|Context|TBD|UInt32|None|None|
+|TBD|NetLuid|UInt64|None|`None`|
+|TBD|NdisMediumType|UInt32|None|`None`|
+|TBD|FriendlyNameLen|UInt32|None|`None`|
+|TBD|FriendlyName|UnicodeString|None|`None`|
+|TBD|DeviceNameLen|UInt32|None|`None`|
+|TBD|DeviceName|UnicodeString|None|`None`|
+|TBD|Context|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

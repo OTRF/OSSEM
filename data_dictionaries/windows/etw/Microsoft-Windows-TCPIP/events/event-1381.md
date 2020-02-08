@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Endpoint|TBD|Pointer|None|None|
-|TBD|NameResContext|TBD|Pointer|None|None|
-|TBD|DnsName|TBD|UnicodeString|None|None|
-|TBD|InterfaceIndex|TBD|UInt32|None|None|
-|TBD|IpCount|TBD|UInt32|None|None|
-|TBD|IpAddr1Length|TBD|UInt32|None|None|
-|TBD|IpAddr1|TBD|Binary|None|None|
-|TBD|IpAddr2Length|TBD|UInt32|None|None|
-|TBD|IpAddr2|TBD|Binary|None|None|
-|TBD|IpAddr3Length|TBD|UInt32|None|None|
-|TBD|IpAddr3|TBD|Binary|None|None|
-|TBD|IpAddr4Length|TBD|UInt32|None|None|
-|TBD|IpAddr4|TBD|Binary|None|None|
-|TBD|IpAddr5Length|TBD|UInt32|None|None|
-|TBD|IpAddr5|TBD|Binary|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|Endpoint|Pointer|None|`None`|
+|TBD|NameResContext|Pointer|None|`None`|
+|TBD|DnsName|UnicodeString|None|`None`|
+|TBD|InterfaceIndex|UInt32|None|`None`|
+|TBD|IpCount|UInt32|None|`None`|
+|TBD|IpAddr1Length|UInt32|None|`None`|
+|TBD|IpAddr1|Binary|None|`None`|
+|TBD|IpAddr2Length|UInt32|None|`None`|
+|TBD|IpAddr2|Binary|None|`None`|
+|TBD|IpAddr3Length|UInt32|None|`None`|
+|TBD|IpAddr3|Binary|None|`None`|
+|TBD|IpAddr4Length|UInt32|None|`None`|
+|TBD|IpAddr4|Binary|None|`None`|
+|TBD|IpAddr5Length|UInt32|None|`None`|
+|TBD|IpAddr5|Binary|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

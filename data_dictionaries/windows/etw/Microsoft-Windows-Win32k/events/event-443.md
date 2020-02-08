@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Channel|TBD|UInt32|None|None|
-|TBD|InternalHandle|TBD|UInt32|None|None|
-|TBD|ExternalHandle|TBD|UInt32|None|None|
-|TBD|InternalHandleAndChannel|TBD|UInt64|None|None|
-|TBD|ExternalHandleAndChannel|TBD|UInt64|None|None|
-|TBD|ResourceType|TBD|UInt32|None|None|
-|TBD|CreateShared|TBD|Boolean|None|None|
-|TBD|OpenShared|TBD|Boolean|None|None|
+|TBD|Channel|UInt32|None|`None`|
+|TBD|InternalHandle|UInt32|None|`None`|
+|TBD|ExternalHandle|UInt32|None|`None`|
+|TBD|InternalHandleAndChannel|UInt64|None|`None`|
+|TBD|ExternalHandleAndChannel|UInt64|None|`None`|
+|TBD|ResourceType|UInt32|None|`None`|
+|TBD|CreateShared|Boolean|None|`None`|
+|TBD|OpenShared|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

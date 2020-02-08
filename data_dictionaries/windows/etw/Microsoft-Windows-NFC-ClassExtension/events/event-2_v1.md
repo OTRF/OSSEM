@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MessageType|TBD|UInt8|None|None|
-|TBD|PacketBoundaryFlag|TBD|UInt8|None|None|
-|TBD|PacketSize|TBD|UInt16|None|None|
-|TBD|RawPacket|TBD|UInt8|None|None|
+|TBD|MessageType|UInt8|None|`None`|
+|TBD|PacketBoundaryFlag|UInt8|None|`None`|
+|TBD|PacketSize|UInt16|None|`None`|
+|TBD|RawPacket|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Verbose

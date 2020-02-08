@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|ObjectType|TBD|UnicodeString|None|None|
-|TBD|ShareName|TBD|UnicodeString|None|None|
-|TBD|ShareLocalPath|TBD|UnicodeString|None|None|
-|TBD|OldRemark|TBD|UnicodeString|None|None|
-|TBD|NewRemark|TBD|UnicodeString|None|None|
-|TBD|OldMaxUsers|TBD|HexInt32|None|None|
-|TBD|NewMaxUsers|TBD|HexInt32|None|None|
-|TBD|OldShareFlags|TBD|HexInt32|None|None|
-|TBD|NewShareFlags|TBD|HexInt32|None|None|
-|TBD|OldSD|TBD|UnicodeString|None|None|
-|TBD|NewSD|TBD|UnicodeString|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|ObjectType|UnicodeString|None|`None`|
+|TBD|ShareName|UnicodeString|None|`None`|
+|TBD|ShareLocalPath|UnicodeString|None|`None`|
+|TBD|OldRemark|UnicodeString|None|`None`|
+|TBD|NewRemark|UnicodeString|None|`None`|
+|TBD|OldMaxUsers|HexInt32|None|`None`|
+|TBD|NewMaxUsers|HexInt32|None|`None`|
+|TBD|OldShareFlags|HexInt32|None|`None`|
+|TBD|NewShareFlags|HexInt32|None|`None`|
+|TBD|OldSD|UnicodeString|None|`None`|
+|TBD|NewSD|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

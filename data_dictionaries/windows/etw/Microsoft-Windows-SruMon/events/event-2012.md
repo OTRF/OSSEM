@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|_InterfaceGuid|TBD|GUID|None|None|
-|TBD|_InterfaceLuid|TBD|UInt64|None|None|
-|TBD|_Application|TBD|UnicodeString|None|None|
-|TBD|_ProfileId|TBD|UInt64|None|None|
-|TBD|_ProfileFlags|TBD|UInt64|None|None|
-|TBD|_BytesSent|TBD|UInt64|None|None|
-|TBD|_BytesReceived|TBD|UInt64|None|None|
+|TBD|_InterfaceGuid|GUID|None|`None`|
+|TBD|_InterfaceLuid|UInt64|None|`None`|
+|TBD|_Application|UnicodeString|None|`None`|
+|TBD|_ProfileId|UInt64|None|`None`|
+|TBD|_ProfileFlags|UInt64|None|`None`|
+|TBD|_BytesSent|UInt64|None|`None`|
+|TBD|_BytesReceived|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

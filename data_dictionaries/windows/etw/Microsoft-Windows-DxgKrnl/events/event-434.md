@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|hDmaBuffer|TBD|Pointer|None|None|
-|TBD|ContinueNextBuffer|TBD|Boolean|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|MonitoredFenceGpuVa|TBD|UInt64|None|None|
-|TBD|MonitoredFenceValue|TBD|UInt64|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|hDmaBuffer|Pointer|None|`None`|
+|TBD|ContinueNextBuffer|Boolean|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|MonitoredFenceGpuVa|UInt64|None|`None`|
+|TBD|MonitoredFenceValue|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

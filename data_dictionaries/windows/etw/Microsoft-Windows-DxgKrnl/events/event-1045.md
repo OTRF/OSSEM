@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StopSessionReason|TBD|UInt32|None|None|
-|TBD|StopSessionErrorCode|TBD|UInt32|None|None|
-|TBD|GraphicsDeviceId|TBD|UInt32|None|None|
-|TBD|SinkDeviceInformation|TBD|UnicodeString|None|None|
+|TBD|StopSessionReason|UInt32|None|`None`|
+|TBD|StopSessionErrorCode|UInt32|None|`None`|
+|TBD|GraphicsDeviceId|UInt32|None|`None`|
+|TBD|SinkDeviceInformation|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

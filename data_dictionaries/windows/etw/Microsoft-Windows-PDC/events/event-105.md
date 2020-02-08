@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Scenario|TBD|Pointer|None|None|
-|TBD|ActiveCount|TBD|UInt64|None|None|
-|TBD|MaxActiveTime|TBD|UInt64|None|None|
-|TBD|MinActiveTime|TBD|UInt64|None|None|
-|TBD|TotalActiveTime|TBD|UInt64|None|None|
+|TBD|Scenario|Pointer|None|`None`|
+|TBD|ActiveCount|UInt64|None|`None`|
+|TBD|MaxActiveTime|UInt64|None|`None`|
+|TBD|MinActiveTime|UInt64|None|`None`|
+|TBD|TotalActiveTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ChartId|TBD|UnicodeString|None|None|
-|TBD|FromScaleIndex|TBD|UInt32|None|None|
-|TBD|FromScaleString|TBD|UnicodeString|None|None|
-|TBD|ToScaleIndex|TBD|UInt32|None|None|
-|TBD|ToScaleString|TBD|UnicodeString|None|None|
+|TBD|ChartId|UnicodeString|None|`None`|
+|TBD|FromScaleIndex|UInt32|None|`None`|
+|TBD|FromScaleString|UnicodeString|None|`None`|
+|TBD|ToScaleIndex|UInt32|None|`None`|
+|TBD|ToScaleString|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

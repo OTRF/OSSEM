@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Size|TBD|UInt32|None|None|
-|TBD|BatteryTag|TBD|UInt32|None|None|
-|TBD|InformationLevel|TBD|UInt32|None|None|
-|TBD|ChargingSourceType|TBD|UInt32|None|None|
-|TBD|Reserved|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|MaxCurrent|TBD|UInt32|None|None|
-|TBD|Voltage|TBD|UInt32|None|None|
-|TBD|PortType|TBD|UInt32|None|None|
-|TBD|PortId|TBD|UInt64|None|None|
-|TBD|PowerSourceInformation|TBD|Pointer|None|None|
-|TBD|OemCharger|TBD|GUID|None|None|
+|TBD|Size|UInt32|None|`None`|
+|TBD|BatteryTag|UInt32|None|`None`|
+|TBD|InformationLevel|UInt32|None|`None`|
+|TBD|ChargingSourceType|UInt32|None|`None`|
+|TBD|Reserved|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|MaxCurrent|UInt32|None|`None`|
+|TBD|Voltage|UInt32|None|`None`|
+|TBD|PortType|UInt32|None|`None`|
+|TBD|PortId|UInt64|None|`None`|
+|TBD|PowerSourceInformation|Pointer|None|`None`|
+|TBD|OemCharger|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

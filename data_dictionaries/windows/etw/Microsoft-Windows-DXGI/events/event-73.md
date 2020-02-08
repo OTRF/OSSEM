@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIFactory|TBD|Pointer|None|None|
-|TBD|ReparentingOccurred|TBD|Boolean|None|None|
-|TBD|DecidingFactor|TBD|UInt32|None|None|
-|TBD|Message|TBD|AnsiString|None|None|
+|TBD|pIDXGIFactory|Pointer|None|`None`|
+|TBD|ReparentingOccurred|Boolean|None|`None`|
+|TBD|DecidingFactor|UInt32|None|`None`|
+|TBD|Message|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Always

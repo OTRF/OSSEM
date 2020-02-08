@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pVaAllocator|TBD|Pointer|None|None|
-|TBD|hProcessId|TBD|Pointer|None|None|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
+|TBD|pVaAllocator|Pointer|None|`None`|
+|TBD|hProcessId|Pointer|None|`None`|
+|TBD|pDxgAdapter|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

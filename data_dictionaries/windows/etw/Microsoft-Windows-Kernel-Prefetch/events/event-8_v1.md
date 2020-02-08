@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ScenarioNameLength|TBD|UInt16|None|None|
-|TBD|ScenarioName|TBD|UnicodeString|None|None|
-|TBD|ScenarioHashId|TBD|UInt32|None|None|
-|TBD|ScenarioType|TBD|UInt32|None|None|
-|TBD|ActionFlags|TBD|UInt16|None|None|
-|TBD|TraceReason|TBD|UInt8|None|None|
-|TBD|PrefetchReason|TBD|UInt8|None|None|
-|TBD|NumLaunches|TBD|UInt32|None|None|
-|TBD|TimeSinceLastLaunchInS|TBD|UInt32|None|None|
+|TBD|ScenarioNameLength|UInt16|None|`None`|
+|TBD|ScenarioName|UnicodeString|None|`None`|
+|TBD|ScenarioHashId|UInt32|None|`None`|
+|TBD|ScenarioType|UInt32|None|`None`|
+|TBD|ActionFlags|UInt16|None|`None`|
+|TBD|TraceReason|UInt8|None|`None`|
+|TBD|PrefetchReason|UInt8|None|`None`|
+|TBD|NumLaunches|UInt32|None|`None`|
+|TBD|TimeSinceLastLaunchInS|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

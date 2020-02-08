@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DxgDevice|TBD|Pointer|None|None|
-|TBD|PagingQueue|TBD|Pointer|None|None|
-|TBD|PagingQueuePacket|TBD|Pointer|None|None|
-|TBD|SequenceId|TBD|UInt64|None|None|
-|TBD|VidMmOpType|TBD|UInt32|None|None|
-|TBD|Alloc|TBD|Pointer|None|None|
-|TBD|PagingQueueType|TBD|UInt32|None|None|
+|TBD|DxgDevice|Pointer|None|`None`|
+|TBD|PagingQueue|Pointer|None|`None`|
+|TBD|PagingQueuePacket|Pointer|None|`None`|
+|TBD|SequenceId|UInt64|None|`None`|
+|TBD|VidMmOpType|UInt32|None|`None`|
+|TBD|Alloc|Pointer|None|`None`|
+|TBD|PagingQueueType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

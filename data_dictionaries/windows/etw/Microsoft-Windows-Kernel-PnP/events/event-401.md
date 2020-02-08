@@ -6,20 +6,20 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceInstanceId|TBD|UnicodeString|None|None|
-|TBD|DriverName|TBD|UnicodeString|None|None|
-|TBD|ClassGuid|TBD|GUID|None|None|
-|TBD|DriverDate|TBD|UnicodeString|None|None|
-|TBD|DriverVersion|TBD|UnicodeString|None|None|
-|TBD|DriverProvider|TBD|UnicodeString|None|None|
-|TBD|DriverInbox|TBD|Boolean|None|None|
-|TBD|DriverSection|TBD|UnicodeString|None|None|
-|TBD|DriverRank|TBD|HexInt32|None|None|
-|TBD|MatchingDeviceId|TBD|UnicodeString|None|None|
-|TBD|OutrankedDrivers|TBD|UnicodeString|None|None|
-|TBD|DeviceUpdated|TBD|Boolean|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|ParentDeviceInstanceId|TBD|UnicodeString|None|None|
+|TBD|DeviceInstanceId|UnicodeString|None|`None`|
+|TBD|DriverName|UnicodeString|None|`None`|
+|TBD|ClassGuid|GUID|None|`None`|
+|TBD|DriverDate|UnicodeString|None|`None`|
+|TBD|DriverVersion|UnicodeString|None|`None`|
+|TBD|DriverProvider|UnicodeString|None|`None`|
+|TBD|DriverInbox|Boolean|None|`None`|
+|TBD|DriverSection|UnicodeString|None|`None`|
+|TBD|DriverRank|HexInt32|None|`None`|
+|TBD|MatchingDeviceId|UnicodeString|None|`None`|
+|TBD|OutrankedDrivers|UnicodeString|None|`None`|
+|TBD|DeviceUpdated|Boolean|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|ParentDeviceInstanceId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

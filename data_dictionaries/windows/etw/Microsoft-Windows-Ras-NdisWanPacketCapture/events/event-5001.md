@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RoutingDomainID|TBD|UnicodeString|None|None|
-|TBD|RRASUserName|TBD|UnicodeString|None|None|
-|TBD|FragmentSize|TBD|UInt32|None|None|
-|TBD|Fragment|TBD|Binary|None|None|
+|TBD|RoutingDomainID|UnicodeString|None|`None`|
+|TBD|RRASUserName|UnicodeString|None|`None`|
+|TBD|FragmentSize|UInt32|None|`None`|
+|TBD|Fragment|Binary|None|`None`|
 
 ## Tags
 * etw_level_Verbose

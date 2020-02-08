@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CarrierId|TBD|UnicodeString|None|None|
-|TBD|SubscriberId|TBD|UnicodeString|None|None|
-|TBD|AppId|TBD|UnicodeString|None|None|
+|TBD|CarrierId|UnicodeString|None|`None`|
+|TBD|SubscriberId|UnicodeString|None|`None`|
+|TBD|AppId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

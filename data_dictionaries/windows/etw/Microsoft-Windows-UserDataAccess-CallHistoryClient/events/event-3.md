@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ObjPtr|TBD|Pointer|None|None|
-|TBD|ObjType|TBD|Int32|None|None|
-|TBD|ObjId|TBD|Int32|None|None|
-|TBD|PropCode|TBD|HexInt32|None|None|
+|TBD|ObjPtr|Pointer|None|`None`|
+|TBD|ObjType|Int32|None|`None`|
+|TBD|ObjId|Int32|None|`None`|
+|TBD|PropCode|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

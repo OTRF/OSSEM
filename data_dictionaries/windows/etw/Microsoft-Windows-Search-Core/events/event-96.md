@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BackoffReason|TBD|UInt32|None|None|
-|TBD|IndexNewItemReason|TBD|UInt32|None|None|
-|TBD|AllReasons|TBD|UInt32|None|None|
-|TBD|FeatureDisabled|TBD|UInt32|None|None|
-|TBD|PowerSetting|TBD|UInt32|None|None|
-|TBD|BackoffRecoveryIsON|TBD|Boolean|None|None|
-|TBD|ProcessNotifications|TBD|Boolean|None|None|
-|TBD|BackOffOnPendingNotifications|TBD|Boolean|None|None|
-|TBD|PendingHiPriNotifications|TBD|UInt32|None|None|
-|TBD|BackOffOnPowerSetting|TBD|Boolean|None|None|
-|TBD|XPScreenSaverAndNoBattery|TBD|Boolean|None|None|
-|TBD|EnablePHBackoff|TBD|Boolean|None|None|
-|TBD|Merging|TBD|Boolean|None|None|
+|TBD|BackoffReason|UInt32|None|`None`|
+|TBD|IndexNewItemReason|UInt32|None|`None`|
+|TBD|AllReasons|UInt32|None|`None`|
+|TBD|FeatureDisabled|UInt32|None|`None`|
+|TBD|PowerSetting|UInt32|None|`None`|
+|TBD|BackoffRecoveryIsON|Boolean|None|`None`|
+|TBD|ProcessNotifications|Boolean|None|`None`|
+|TBD|BackOffOnPendingNotifications|Boolean|None|`None`|
+|TBD|PendingHiPriNotifications|UInt32|None|`None`|
+|TBD|BackOffOnPowerSetting|Boolean|None|`None`|
+|TBD|XPScreenSaverAndNoBattery|Boolean|None|`None`|
+|TBD|EnablePHBackoff|Boolean|None|`None`|
+|TBD|Merging|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

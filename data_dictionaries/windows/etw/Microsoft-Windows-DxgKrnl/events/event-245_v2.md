@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|SubmitSequence|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|ObjectCount|TBD|UInt32|None|None|
-|TBD|ObjectArray|TBD|Pointer|None|None|
-|TBD|FenceValue|TBD|UInt64|None|None|
-|TBD|pQueuePacket|TBD|Pointer|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|SubmitSequence|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|ObjectCount|UInt32|None|`None`|
+|TBD|ObjectArray|Pointer|None|`None`|
+|TBD|FenceValue|UInt64|None|`None`|
+|TBD|pQueuePacket|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

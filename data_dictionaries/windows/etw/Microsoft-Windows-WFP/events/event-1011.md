@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Timestamp|TBD|FILETIME|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|ScopeId|TBD|UInt32|None|None|
-|TBD|AppId|TBD|UnicodeString|None|None|
-|TBD|UserSID|TBD|SID|None|None|
-|TBD|InternetHostAddress|TBD|UInt32|None|None|
-|TBD|CorpnetHostAddress|TBD|UInt32|None|None|
-|TBD|FailureStatus|TBD|UInt32|None|None|
-|TBD|Direction|TBD|UInt32|None|None|
+|TBD|Timestamp|FILETIME|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|ScopeId|UInt32|None|`None`|
+|TBD|AppId|UnicodeString|None|`None`|
+|TBD|UserSID|SID|None|`None`|
+|TBD|InternetHostAddress|UInt32|None|`None`|
+|TBD|CorpnetHostAddress|UInt32|None|`None`|
+|TBD|FailureStatus|UInt32|None|`None`|
+|TBD|Direction|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

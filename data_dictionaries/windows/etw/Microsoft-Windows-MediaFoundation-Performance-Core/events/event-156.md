@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|bDeviceChange|TBD|Boolean|None|None|
-|TBD|hnsNewStreamStartTime|TBD|Int64|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|bDeviceChange|Boolean|None|`None`|
+|TBD|hnsNewStreamStartTime|Int64|None|`None`|
 
 ## Tags
 * etw_level_Informational

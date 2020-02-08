@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIAdapter|TBD|Pointer|None|None|
-|TBD|pIDXGIFactory|TBD|Pointer|None|None|
-|TBD|KMTAdapterHandle|TBD|UInt32|None|None|
-|TBD|ThunkDLLHandle|TBD|Pointer|None|None|
-|TBD|SharedResources|TBD|Boolean|None|None|
+|TBD|pIDXGIAdapter|Pointer|None|`None`|
+|TBD|pIDXGIFactory|Pointer|None|`None`|
+|TBD|KMTAdapterHandle|UInt32|None|`None`|
+|TBD|ThunkDLLHandle|Pointer|None|`None`|
+|TBD|SharedResources|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

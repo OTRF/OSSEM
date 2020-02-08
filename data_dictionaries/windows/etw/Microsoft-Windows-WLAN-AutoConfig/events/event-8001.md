@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|InterfaceDescription|TBD|UnicodeString|None|None|
-|TBD|ConnectionMode|TBD|UnicodeString|None|None|
-|TBD|ProfileName|TBD|UnicodeString|None|None|
-|TBD|SSID|TBD|UnicodeString|None|None|
-|TBD|BSSType|TBD|UnicodeString|None|None|
-|TBD|PHYType|TBD|UnicodeString|None|None|
-|TBD|AuthenticationAlgorithm|TBD|UnicodeString|None|None|
-|TBD|CipherAlgorithm|TBD|UnicodeString|None|None|
-|TBD|OnexEnabled|TBD|UInt32|None|None|
-|TBD|ConnectionId|TBD|Pointer|None|None|
-|TBD|NonBroadcast|TBD|Boolean|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|InterfaceDescription|UnicodeString|None|`None`|
+|TBD|ConnectionMode|UnicodeString|None|`None`|
+|TBD|ProfileName|UnicodeString|None|`None`|
+|TBD|SSID|UnicodeString|None|`None`|
+|TBD|BSSType|UnicodeString|None|`None`|
+|TBD|PHYType|UnicodeString|None|`None`|
+|TBD|AuthenticationAlgorithm|UnicodeString|None|`None`|
+|TBD|CipherAlgorithm|UnicodeString|None|`None`|
+|TBD|OnexEnabled|UInt32|None|`None`|
+|TBD|ConnectionId|Pointer|None|`None`|
+|TBD|NonBroadcast|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

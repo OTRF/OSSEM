@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CurrentSize|TBD|Pointer|None|None|
-|TBD|PeakSize|TBD|Pointer|None|None|
-|TBD|MinimumWorkingSet|TBD|Pointer|None|None|
-|TBD|MaximumWorkingSet|TBD|Pointer|None|None|
-|TBD|CurrentSizeIncludingTransitionInPages|TBD|Pointer|None|None|
-|TBD|PeakSizeIncludingTransitionInPages|TBD|Pointer|None|None|
-|TBD|PageFaultCount|TBD|UInt32|None|None|
-|TBD|TransitionRePurposeCount|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|CurrentSize|Pointer|None|`None`|
+|TBD|PeakSize|Pointer|None|`None`|
+|TBD|MinimumWorkingSet|Pointer|None|`None`|
+|TBD|MaximumWorkingSet|Pointer|None|`None`|
+|TBD|CurrentSizeIncludingTransitionInPages|Pointer|None|`None`|
+|TBD|PeakSizeIncludingTransitionInPages|Pointer|None|`None`|
+|TBD|PageFaultCount|UInt32|None|`None`|
+|TBD|TransitionRePurposeCount|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

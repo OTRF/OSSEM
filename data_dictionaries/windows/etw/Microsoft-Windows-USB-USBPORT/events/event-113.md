@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBPORT_HC|TBD|Int8|None|None|
-|TBD|fid_USBPORT_Execution_Metrics|TBD|Int64|None|None|
-|TBD|fid_CodeTag|TBD|UnicodeString|None|None|
+|TBD|fid_USBPORT_HC|Int8|None|`None`|
+|TBD|fid_USBPORT_Execution_Metrics|Int64|None|`None`|
+|TBD|fid_CodeTag|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Verbose

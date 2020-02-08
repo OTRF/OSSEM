@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ModuleID|TBD|Pointer|None|None|
-|TBD|SerializationIndex|TBD|HexInt32|None|None|
-|TBD|Name|TBD|UnicodeString|None|None|
-|TBD|FunctionOffset|TBD|HexInt32|None|None|
-|TBD|FunctionSize|TBD|HexInt32|None|None|
+|TBD|ModuleID|Pointer|None|`None`|
+|TBD|SerializationIndex|HexInt32|None|`None`|
+|TBD|Name|UnicodeString|None|`None`|
+|TBD|FunctionOffset|HexInt32|None|`None`|
+|TBD|FunctionSize|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,24 +6,24 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EnergyDrain|TBD|UInt32|None|None|
-|TBD|ActiveResidencyInUs|TBD|UInt64|None|None|
-|TBD|NonDripsTimeActivatedInUs|TBD|UInt64|None|None|
-|TBD|FirstDripsEntryInUs|TBD|UInt64|None|None|
-|TBD|DripsResidencyInUs|TBD|UInt64|None|None|
-|TBD|DurationInUs|TBD|UInt64|None|None|
-|TBD|DripsTransitions|TBD|UInt32|None|None|
-|TBD|FullChargeCapacityRatio|TBD|UInt8|None|None|
-|TBD|AudioPlaying|TBD|Boolean|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|AudioPlaybackInUs|TBD|UInt64|None|None|
-|TBD|NonActivatedCpuInUs|TBD|UInt64|None|None|
-|TBD|PowerStateAc|TBD|Boolean|None|None|
-|TBD|HwDripsResidencyInUs|TBD|UInt64|None|None|
-|TBD|ExitLatencyInUs|TBD|UInt64|None|None|
-|TBD|DisconnectedStandby|TBD|Boolean|None|None|
-|TBD|AoAcCompliantNic|TBD|Boolean|None|None|
-|TBD|NonAttributedCpuInUs|TBD|UInt64|None|None|
+|TBD|EnergyDrain|UInt32|None|`None`|
+|TBD|ActiveResidencyInUs|UInt64|None|`None`|
+|TBD|NonDripsTimeActivatedInUs|UInt64|None|`None`|
+|TBD|FirstDripsEntryInUs|UInt64|None|`None`|
+|TBD|DripsResidencyInUs|UInt64|None|`None`|
+|TBD|DurationInUs|UInt64|None|`None`|
+|TBD|DripsTransitions|UInt32|None|`None`|
+|TBD|FullChargeCapacityRatio|UInt8|None|`None`|
+|TBD|AudioPlaying|Boolean|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|AudioPlaybackInUs|UInt64|None|`None`|
+|TBD|NonActivatedCpuInUs|UInt64|None|`None`|
+|TBD|PowerStateAc|Boolean|None|`None`|
+|TBD|HwDripsResidencyInUs|UInt64|None|`None`|
+|TBD|ExitLatencyInUs|UInt64|None|`None`|
+|TBD|DisconnectedStandby|Boolean|None|`None`|
+|TBD|AoAcCompliantNic|Boolean|None|`None`|
+|TBD|NonAttributedCpuInUs|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Version|TBD|UInt32|None|None|
-|TBD|Size|TBD|UInt32|None|None|
-|TBD|Flags|TBD|HexInt32|None|None|
-|TBD|ConcurrentChannels|TBD|UInt32|None|None|
-|TBD|FirstRedirectionMessageNumber|TBD|UInt32|None|None|
-|TBD|LastRedirectionMessageNumber|TBD|UInt32|None|None|
-|TBD|DeviceNode|TBD|UInt32|None|None|
+|TBD|Version|UInt32|None|`None`|
+|TBD|Size|UInt32|None|`None`|
+|TBD|Flags|HexInt32|None|`None`|
+|TBD|ConcurrentChannels|UInt32|None|`None`|
+|TBD|FirstRedirectionMessageNumber|UInt32|None|`None`|
+|TBD|LastRedirectionMessageNumber|UInt32|None|`None`|
+|TBD|DeviceNode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

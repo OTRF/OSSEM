@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|content|TBD|Pointer|None|None|
-|TBD|outputScaleX|TBD|Float|None|None|
-|TBD|outputScaleY|TBD|Float|None|None|
-|TBD|outputTranslateX|TBD|Float|None|None|
-|TBD|outputTranslateY|TBD|Float|None|None|
-|TBD|computedMotionTypes|TBD|UInt32|None|None|
+|TBD|content|Pointer|None|`None`|
+|TBD|outputScaleX|Float|None|`None`|
+|TBD|outputScaleY|Float|None|`None`|
+|TBD|outputTranslateX|Float|None|`None`|
+|TBD|outputTranslateY|Float|None|`None`|
+|TBD|computedMotionTypes|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

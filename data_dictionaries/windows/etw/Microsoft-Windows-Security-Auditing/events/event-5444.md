@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProviderKey|TBD|GUID|None|None|
-|TBD|ProviderName|TBD|UnicodeString|None|None|
-|TBD|SubLayerKey|TBD|GUID|None|None|
-|TBD|SubLayerName|TBD|UnicodeString|None|None|
-|TBD|SubLayerType|TBD|UnicodeString|None|None|
-|TBD|Weight|TBD|UInt32|None|None|
+|TBD|ProviderKey|GUID|None|`None`|
+|TBD|ProviderName|UnicodeString|None|`None`|
+|TBD|SubLayerKey|GUID|None|`None`|
+|TBD|SubLayerName|UnicodeString|None|`None`|
+|TBD|SubLayerType|UnicodeString|None|`None`|
+|TBD|Weight|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

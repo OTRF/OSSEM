@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EnergyDrain|TBD|UInt32|None|None|
-|TBD|Duration|TBD|UInt32|None|None|
-|TBD|DripsTransitions|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|EnergyDrain|UInt32|None|`None`|
+|TBD|Duration|UInt32|None|`None`|
+|TBD|DripsTransitions|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

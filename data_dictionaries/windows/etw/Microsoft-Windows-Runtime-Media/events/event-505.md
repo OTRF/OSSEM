@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MediaStreamSource|TBD|Pointer|None|None|
-|TBD|EventObject|TBD|Pointer|None|None|
-|TBD|StreamId|TBD|UInt32|None|None|
-|TBD|MediaStreamSample|TBD|Pointer|None|None|
+|TBD|MediaStreamSource|Pointer|None|`None`|
+|TBD|EventObject|Pointer|None|`None`|
+|TBD|StreamId|UInt32|None|`None`|
+|TBD|MediaStreamSample|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

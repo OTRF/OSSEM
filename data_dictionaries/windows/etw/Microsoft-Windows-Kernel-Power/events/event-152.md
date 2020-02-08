@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PassiveSupported|TBD|Boolean|None|None|
-|TBD|ActiveSupported|TBD|Boolean|None|None|
-|TBD|Throttle|TBD|UInt8|None|None|
-|TBD|ActiveEngaged|TBD|Boolean|None|None|
-|TBD|Token|TBD|Pointer|None|None|
-|TBD|DeviceIdLength|TBD|UInt16|None|None|
-|TBD|DeviceId|TBD|UnicodeString|None|None|
+|TBD|PassiveSupported|Boolean|None|`None`|
+|TBD|ActiveSupported|Boolean|None|`None`|
+|TBD|Throttle|UInt8|None|`None`|
+|TBD|ActiveEngaged|Boolean|None|`None`|
+|TBD|Token|Pointer|None|`None`|
+|TBD|DeviceIdLength|UInt16|None|`None`|
+|TBD|DeviceId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

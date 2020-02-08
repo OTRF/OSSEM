@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|dwRestartCount|TBD|UInt32|None|None|
-|TBD|szInputEndpointName|TBD|UnicodeString|None|None|
-|TBD|szOutputEndpointName|TBD|UnicodeString|None|None|
+|TBD|dwRestartCount|UInt32|None|`None`|
+|TBD|szInputEndpointName|UnicodeString|None|`None`|
+|TBD|szOutputEndpointName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

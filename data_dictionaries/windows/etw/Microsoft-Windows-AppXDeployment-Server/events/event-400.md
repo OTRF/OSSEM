@@ -6,24 +6,24 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeploymentOperation|TBD|UInt32|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|Path|TBD|UnicodeString|None|None|
-|TBD|MountPoint|TBD|UnicodeString|None|None|
-|TBD|TargetPlatform|TBD|HexInt32|None|None|
-|TBD|SystemVolume|TBD|Boolean|None|None|
-|TBD|StorageId|TBD|UnicodeString|None|None|
-|TBD|IsCentennial|TBD|Boolean|None|None|
-|TBD|PackageType|TBD|HexInt32|None|None|
-|TBD|IsPackageEncrypted|TBD|Boolean|None|None|
-|TBD|DeploymentOptions|TBD|HexInt64|None|None|
-|TBD|IsStreamingPackage|TBD|Boolean|None|None|
-|TBD|IsInRelatedSet|TBD|Boolean|None|None|
-|TBD|IsPackageUsingBDC|TBD|Boolean|None|None|
-|TBD|MainPackageFamilyName|TBD|UnicodeString|None|None|
-|TBD|CallingProcess|TBD|UnicodeString|None|None|
-|TBD|IsOptional|TBD|Boolean|None|None|
-|TBD|PackageFlags|TBD|HexInt32|None|None|
+|TBD|DeploymentOperation|UInt32|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|Path|UnicodeString|None|`None`|
+|TBD|MountPoint|UnicodeString|None|`None`|
+|TBD|TargetPlatform|HexInt32|None|`None`|
+|TBD|SystemVolume|Boolean|None|`None`|
+|TBD|StorageId|UnicodeString|None|`None`|
+|TBD|IsCentennial|Boolean|None|`None`|
+|TBD|PackageType|HexInt32|None|`None`|
+|TBD|IsPackageEncrypted|Boolean|None|`None`|
+|TBD|DeploymentOptions|HexInt64|None|`None`|
+|TBD|IsStreamingPackage|Boolean|None|`None`|
+|TBD|IsInRelatedSet|Boolean|None|`None`|
+|TBD|IsPackageUsingBDC|Boolean|None|`None`|
+|TBD|MainPackageFamilyName|UnicodeString|None|`None`|
+|TBD|CallingProcess|UnicodeString|None|`None`|
+|TBD|IsOptional|Boolean|None|`None`|
+|TBD|PackageFlags|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

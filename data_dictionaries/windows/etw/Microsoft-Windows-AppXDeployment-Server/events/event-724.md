@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PackageMoniker|TBD|UnicodeString|None|None|
-|TBD|RequestedVersionMajor|TBD|UInt32|None|None|
-|TBD|RequestedVersionMinor|TBD|UInt32|None|None|
-|TBD|RequestedVersionAppModel|TBD|UInt32|None|None|
-|TBD|OSVersionMajor|TBD|UInt32|None|None|
-|TBD|OSVersionMinor|TBD|UInt32|None|None|
-|TBD|OSVersionAppModel|TBD|UInt32|None|None|
+|TBD|PackageMoniker|UnicodeString|None|`None`|
+|TBD|RequestedVersionMajor|UInt32|None|`None`|
+|TBD|RequestedVersionMinor|UInt32|None|`None`|
+|TBD|RequestedVersionAppModel|UInt32|None|`None`|
+|TBD|OSVersionMajor|UInt32|None|`None`|
+|TBD|OSVersionMinor|UInt32|None|`None`|
+|TBD|OSVersionAppModel|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

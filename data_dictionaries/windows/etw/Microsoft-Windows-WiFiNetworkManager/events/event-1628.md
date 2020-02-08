@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|wszStatus|TBD|UnicodeString|None|None|
-|TBD|Ssid|TBD|AnsiString|None|None|
-|TBD|bUserNetwork|TBD|Boolean|None|None|
-|TBD|bACProfile|TBD|Boolean|None|None|
-|TBD|dwProfFlags|TBD|UInt32|None|None|
+|TBD|wszStatus|UnicodeString|None|`None`|
+|TBD|Ssid|AnsiString|None|`None`|
+|TBD|bUserNetwork|Boolean|None|`None`|
+|TBD|bACProfile|Boolean|None|`None`|
+|TBD|dwProfFlags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

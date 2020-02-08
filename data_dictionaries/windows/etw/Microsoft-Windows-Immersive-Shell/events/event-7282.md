@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Result|TBD|UInt32|None|None|
-|TBD|ImpressionGUID|TBD|UnicodeString|None|None|
-|TBD|DataCenter|TBD|UnicodeString|None|None|
-|TBD|IsAbandoned|TBD|Boolean|None|None|
-|TBD|JSONPayload|TBD|UnicodeString|None|None|
+|TBD|Result|UInt32|None|`None`|
+|TBD|ImpressionGUID|UnicodeString|None|`None`|
+|TBD|DataCenter|UnicodeString|None|`None`|
+|TBD|IsAbandoned|Boolean|None|`None`|
+|TBD|JSONPayload|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Verbose

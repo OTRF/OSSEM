@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|inertiaStartTime|TBD|UInt64|None|None|
-|TBD|time|TBD|UInt64|None|None|
-|TBD|processTime|TBD|UInt64|None|None|
-|TBD|compositionTime|TBD|UInt64|None|None|
-|TBD|timerElapsedTime|TBD|Double|None|None|
-|TBD|timerOffset|TBD|Double|None|None|
-|TBD|animationTime|TBD|Double|None|None|
+|TBD|inertiaStartTime|UInt64|None|`None`|
+|TBD|time|UInt64|None|`None`|
+|TBD|processTime|UInt64|None|`None`|
+|TBD|compositionTime|UInt64|None|`None`|
+|TBD|timerElapsedTime|Double|None|`None`|
+|TBD|timerOffset|Double|None|`None`|
+|TBD|animationTime|Double|None|`None`|
 
 ## Tags
 * etw_level_Informational

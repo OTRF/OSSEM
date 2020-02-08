@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PID|TBD|UInt32|None|None|
-|TBD|size|TBD|UInt32|None|None|
-|TBD|daddr|TBD|UInt32|None|None|
-|TBD|saddr|TBD|UInt32|None|None|
-|TBD|dport|TBD|UInt16|None|None|
-|TBD|sport|TBD|UInt16|None|None|
-|TBD|startime|TBD|UInt32|None|None|
-|TBD|endtime|TBD|UInt32|None|None|
-|TBD|seqnum|TBD|UInt32|None|None|
-|TBD|connid|TBD|UInt32|None|None|
+|TBD|PID|UInt32|None|`None`|
+|TBD|size|UInt32|None|`None`|
+|TBD|daddr|UInt32|None|`None`|
+|TBD|saddr|UInt32|None|`None`|
+|TBD|dport|UInt16|None|`None`|
+|TBD|sport|UInt16|None|`None`|
+|TBD|startime|UInt32|None|`None`|
+|TBD|endtime|UInt32|None|`None`|
+|TBD|seqnum|UInt32|None|`None`|
+|TBD|connid|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ElementDDTId|TBD|UInt64|None|None|
-|TBD|StyleProperty|TBD|UnicodeString|None|None|
-|TBD|NewValue|TBD|UnicodeString|None|None|
+|TBD|ElementDDTId|UInt64|None|`None`|
+|TBD|StyleProperty|UnicodeString|None|`None`|
+|TBD|NewValue|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

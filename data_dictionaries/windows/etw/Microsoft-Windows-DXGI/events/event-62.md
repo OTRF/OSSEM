@@ -6,25 +6,25 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|hResource|TBD|Pointer|None|None|
-|TBD|SubResourceIndex|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|SrcRectleft|TBD|UInt32|None|None|
-|TBD|SrcRectright|TBD|UInt32|None|None|
-|TBD|SrcRecttop|TBD|UInt32|None|None|
-|TBD|SrcRectbottom|TBD|UInt32|None|None|
-|TBD|DstRectleft|TBD|UInt32|None|None|
-|TBD|DstRectright|TBD|UInt32|None|None|
-|TBD|DstRecttop|TBD|UInt32|None|None|
-|TBD|DstRectbottom|TBD|UInt32|None|None|
-|TBD|ClipRectleft|TBD|UInt32|None|None|
-|TBD|ClipRectright|TBD|UInt32|None|None|
-|TBD|ClipRecttop|TBD|UInt32|None|None|
-|TBD|ClipRectbottom|TBD|UInt32|None|None|
-|TBD|Blend|TBD|UInt32|None|None|
-|TBD|ColorSpace|TBD|UInt32|None|None|
-|TBD|StretchQuality|TBD|UInt32|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|hResource|Pointer|None|`None`|
+|TBD|SubResourceIndex|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|SrcRectleft|UInt32|None|`None`|
+|TBD|SrcRectright|UInt32|None|`None`|
+|TBD|SrcRecttop|UInt32|None|`None`|
+|TBD|SrcRectbottom|UInt32|None|`None`|
+|TBD|DstRectleft|UInt32|None|`None`|
+|TBD|DstRectright|UInt32|None|`None`|
+|TBD|DstRecttop|UInt32|None|`None`|
+|TBD|DstRectbottom|UInt32|None|`None`|
+|TBD|ClipRectleft|UInt32|None|`None`|
+|TBD|ClipRectright|UInt32|None|`None`|
+|TBD|ClipRecttop|UInt32|None|`None`|
+|TBD|ClipRectbottom|UInt32|None|`None`|
+|TBD|Blend|UInt32|None|`None`|
+|TBD|ColorSpace|UInt32|None|`None`|
+|TBD|StretchQuality|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

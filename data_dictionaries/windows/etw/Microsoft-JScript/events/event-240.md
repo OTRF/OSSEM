@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RecyclerID|TBD|Pointer|None|None|
-|TBD|Timestamp|TBD|Double|None|None|
+|TBD|RecyclerID|Pointer|None|`None`|
+|TBD|Timestamp|Double|None|`None`|
 
 ## Tags
 * etw_level_Always

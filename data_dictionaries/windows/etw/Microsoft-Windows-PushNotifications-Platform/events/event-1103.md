@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransactionId|TBD|Int32|None|None|
-|TBD|TrID|TBD|UInt32|None|None|
+|TBD|TransactionId|Int32|None|`None`|
+|TBD|TrID|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,20 +6,20 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|OpenGUID|TBD|GUID|None|None|
-|TBD|TreeConnectGUID|TBD|GUID|None|None|
-|TBD|SessionGUID|TBD|GUID|None|None|
-|TBD|ConnectionGUID|TBD|GUID|None|None|
-|TBD|ShareGUID|TBD|GUID|None|None|
-|TBD|NameLength|TBD|UInt16|None|None|
-|TBD|Name|TBD|UnicodeString|None|None|
-|TBD|LeaseId|TBD|GUID|None|None|
-|TBD|DesiredAccess|TBD|UInt32|None|None|
-|TBD|SharingMode|TBD|UInt32|None|None|
-|TBD|CreateOptions|TBD|UInt32|None|None|
-|TBD|FileAttributes|TBD|UInt32|None|None|
-|TBD|IsReplay|TBD|Boolean|None|None|
-|TBD|IsResume|TBD|Boolean|None|None|
+|TBD|OpenGUID|GUID|None|`None`|
+|TBD|TreeConnectGUID|GUID|None|`None`|
+|TBD|SessionGUID|GUID|None|`None`|
+|TBD|ConnectionGUID|GUID|None|`None`|
+|TBD|ShareGUID|GUID|None|`None`|
+|TBD|NameLength|UInt16|None|`None`|
+|TBD|Name|UnicodeString|None|`None`|
+|TBD|LeaseId|GUID|None|`None`|
+|TBD|DesiredAccess|UInt32|None|`None`|
+|TBD|SharingMode|UInt32|None|`None`|
+|TBD|CreateOptions|UInt32|None|`None`|
+|TBD|FileAttributes|UInt32|None|`None`|
+|TBD|IsReplay|Boolean|None|`None`|
+|TBD|IsResume|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

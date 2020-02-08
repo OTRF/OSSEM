@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_Capability|TBD|GUID|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_Capability|GUID|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

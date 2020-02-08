@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterName|TBD|UnicodeString|None|None|
-|TBD|PortNumber|TBD|Int32|None|None|
-|TBD|AllocationPolicy|TBD|UInt32|None|None|
-|TBD|DeviceMinSizeInBytes|TBD|UInt32|None|None|
-|TBD|DevicePreferredSizeInBytes|TBD|UInt32|None|None|
-|TBD|PolicyMaxInBytes|TBD|UInt32|None|None|
-|TBD|TargetAllocationSizeInBytes|TBD|UInt32|None|None|
-|TBD|ActualAllocationSizeInBytes|TBD|UInt32|None|None|
-|TBD|RangesAllocated|TBD|UInt32|None|None|
-|TBD|Success|TBD|UInt32|None|None|
-|TBD|FailReason|TBD|UInt32|None|None|
+|TBD|AdapterName|UnicodeString|None|`None`|
+|TBD|PortNumber|Int32|None|`None`|
+|TBD|AllocationPolicy|UInt32|None|`None`|
+|TBD|DeviceMinSizeInBytes|UInt32|None|`None`|
+|TBD|DevicePreferredSizeInBytes|UInt32|None|`None`|
+|TBD|PolicyMaxInBytes|UInt32|None|`None`|
+|TBD|TargetAllocationSizeInBytes|UInt32|None|`None`|
+|TBD|ActualAllocationSizeInBytes|UInt32|None|`None`|
+|TBD|RangesAllocated|UInt32|None|`None`|
+|TBD|Success|UInt32|None|`None`|
+|TBD|FailReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

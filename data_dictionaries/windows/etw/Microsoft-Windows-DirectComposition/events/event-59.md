@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Channel|TBD|UInt32|None|None|
-|TBD|interactionHandle|TBD|UInt32|None|None|
-|TBD|interactionAndChannelHandle|TBD|UInt64|None|None|
-|TBD|captureType|TBD|UInt32|None|None|
-|TBD|pointerId|TBD|UInt32|None|None|
-|TBD|pointerTimeStamp|TBD|UInt64|None|None|
+|TBD|Channel|UInt32|None|`None`|
+|TBD|interactionHandle|UInt32|None|`None`|
+|TBD|interactionAndChannelHandle|UInt64|None|`None`|
+|TBD|captureType|UInt32|None|`None`|
+|TBD|pointerId|UInt32|None|`None`|
+|TBD|pointerTimeStamp|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

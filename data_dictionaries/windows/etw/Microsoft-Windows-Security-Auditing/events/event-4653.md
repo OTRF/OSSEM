@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LocalMMPrincipalName|TBD|UnicodeString|None|None|
-|TBD|RemoteMMPrincipalName|TBD|UnicodeString|None|None|
-|TBD|LocalAddress|TBD|UnicodeString|None|None|
-|TBD|LocalKeyModPort|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|UnicodeString|None|None|
-|TBD|RemoteKeyModPort|TBD|UInt32|None|None|
-|TBD|KeyModName|TBD|UnicodeString|None|None|
-|TBD|FailurePoint|TBD|UnicodeString|None|None|
-|TBD|FailureReason|TBD|UnicodeString|None|None|
-|TBD|MMAuthMethod|TBD|UnicodeString|None|None|
-|TBD|State|TBD|UnicodeString|None|None|
-|TBD|Role|TBD|UnicodeString|None|None|
-|TBD|MMImpersonationState|TBD|UnicodeString|None|None|
-|TBD|MMFilterID|TBD|UInt64|None|None|
-|TBD|InitiatorCookie|TBD|UnicodeString|None|None|
-|TBD|ResponderCookie|TBD|UnicodeString|None|None|
+|TBD|LocalMMPrincipalName|UnicodeString|None|`None`|
+|TBD|RemoteMMPrincipalName|UnicodeString|None|`None`|
+|TBD|LocalAddress|UnicodeString|None|`None`|
+|TBD|LocalKeyModPort|UInt32|None|`None`|
+|TBD|RemoteAddress|UnicodeString|None|`None`|
+|TBD|RemoteKeyModPort|UInt32|None|`None`|
+|TBD|KeyModName|UnicodeString|None|`None`|
+|TBD|FailurePoint|UnicodeString|None|`None`|
+|TBD|FailureReason|UnicodeString|None|`None`|
+|TBD|MMAuthMethod|UnicodeString|None|`None`|
+|TBD|State|UnicodeString|None|`None`|
+|TBD|Role|UnicodeString|None|`None`|
+|TBD|MMImpersonationState|UnicodeString|None|`None`|
+|TBD|MMFilterID|UInt64|None|`None`|
+|TBD|InitiatorCookie|UnicodeString|None|`None`|
+|TBD|ResponderCookie|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

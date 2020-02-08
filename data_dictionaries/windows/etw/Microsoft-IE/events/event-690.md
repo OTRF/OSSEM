@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FailureReason|TBD|UInt32|None|None|
-|TBD|FailureHresult|TBD|HexInt32|None|None|
-|TBD|TargetURL|TBD|UnicodeString|None|None|
-|TBD|EmulationMode|TBD|UInt32|None|None|
+|TBD|FailureReason|UInt32|None|`None`|
+|TBD|FailureHresult|HexInt32|None|`None`|
+|TBD|TargetURL|UnicodeString|None|`None`|
+|TBD|EmulationMode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

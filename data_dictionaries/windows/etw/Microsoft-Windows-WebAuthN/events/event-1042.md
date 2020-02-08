@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransactionId|TBD|GUID|None|None|
-|TBD|RpId|TBD|UnicodeString|None|None|
-|TBD|ClientDataHashAlgId|TBD|UnicodeString|None|None|
-|TBD|ClientDataLength|TBD|UInt32|None|None|
-|TBD|ClientDataHashLength|TBD|UInt32|None|None|
-|TBD|ClientDataHash|TBD|Binary|None|None|
-|TBD|CredentialCount|TBD|UInt32|None|None|
+|TBD|TransactionId|GUID|None|`None`|
+|TBD|RpId|UnicodeString|None|`None`|
+|TBD|ClientDataHashAlgId|UnicodeString|None|`None`|
+|TBD|ClientDataLength|UInt32|None|`None`|
+|TBD|ClientDataHashLength|UInt32|None|`None`|
+|TBD|ClientDataHash|Binary|None|`None`|
+|TBD|CredentialCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

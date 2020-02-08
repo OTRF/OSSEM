@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|State|TBD|UInt32|None|None|
-|TBD|Speed|TBD|UInt32|None|None|
-|TBD|GroupCount|TBD|UInt16|None|None|
-|TBD|Group|TBD|Int64|None|None|
-|TBD|Performance|TBD|UInt32|None|None|
-|TBD|MinPercent|TBD|UInt32|None|None|
-|TBD|MaxPercent|TBD|UInt32|None|None|
-|TBD|TolerancePercent|TBD|UInt32|None|None|
-|TBD|Autonomous|TBD|Boolean|None|None|
+|TBD|State|UInt32|None|`None`|
+|TBD|Speed|UInt32|None|`None`|
+|TBD|GroupCount|UInt16|None|`None`|
+|TBD|Group|Int64|None|`None`|
+|TBD|Performance|UInt32|None|`None`|
+|TBD|MinPercent|UInt32|None|`None`|
+|TBD|MaxPercent|UInt32|None|`None`|
+|TBD|TolerancePercent|UInt32|None|`None`|
+|TBD|Autonomous|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

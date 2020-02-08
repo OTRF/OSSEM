@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|Options|TBD|HexInt32|None|None|
-|TBD|MachineDatabase_Pages|TBD|Int32|None|None|
-|TBD|MachineDatabase_PagesCheckpointed|TBD|Int32|None|None|
-|TBD|DeploymentDatabase_Pages|TBD|Int32|None|None|
-|TBD|DeploymentDatabase_PagesCheckpointed|TBD|Int32|None|None|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|Options|HexInt32|None|`None`|
+|TBD|MachineDatabase_Pages|Int32|None|`None`|
+|TBD|MachineDatabase_PagesCheckpointed|Int32|None|`None`|
+|TBD|DeploymentDatabase_Pages|Int32|None|`None`|
+|TBD|DeploymentDatabase_PagesCheckpointed|Int32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

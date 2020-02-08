@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|GroupPolicyApplied|TBD|UnicodeString|None|None|
-|TBD|Profile|TBD|UnicodeString|None|None|
-|TBD|OperationMode|TBD|UnicodeString|None|None|
-|TBD|RemoteAdminEnabled|TBD|UnicodeString|None|None|
-|TBD|MulticastFlowsEnabled|TBD|UnicodeString|None|None|
-|TBD|LogDroppedPacketsEnabled|TBD|UnicodeString|None|None|
-|TBD|LogSuccessfulConnectionsEnabled|TBD|UnicodeString|None|None|
+|TBD|GroupPolicyApplied|UnicodeString|None|`None`|
+|TBD|Profile|UnicodeString|None|`None`|
+|TBD|OperationMode|UnicodeString|None|`None`|
+|TBD|RemoteAdminEnabled|UnicodeString|None|`None`|
+|TBD|MulticastFlowsEnabled|UnicodeString|None|`None`|
+|TBD|LogDroppedPacketsEnabled|UnicodeString|None|`None`|
+|TBD|LogSuccessfulConnectionsEnabled|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

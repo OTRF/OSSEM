@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ManagerPointer|TBD|Pointer|None|None|
-|TBD|FrameInfo|TBD|Pointer|None|None|
-|TBD|hWnd|TBD|Pointer|None|None|
-|TBD|ViewportPointer|TBD|Pointer|None|None|
-|TBD|primaryContentPointer|TBD|Pointer|None|None|
+|TBD|ManagerPointer|Pointer|None|`None`|
+|TBD|FrameInfo|Pointer|None|`None`|
+|TBD|hWnd|Pointer|None|`None`|
+|TBD|ViewportPointer|Pointer|None|`None`|
+|TBD|primaryContentPointer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

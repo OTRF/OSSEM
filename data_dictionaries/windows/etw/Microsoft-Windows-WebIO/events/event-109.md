@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Request|TBD|Pointer|None|None|
-|TBD|DataChunks|TBD|Pointer|None|None|
-|TBD|TotalChunkLength|TBD|UInt64|None|None|
-|TBD|IsEntity|TBD|Boolean|None|None|
-|TBD|RequestEntityComplete|TBD|Boolean|None|None|
+|TBD|Request|Pointer|None|`None`|
+|TBD|DataChunks|Pointer|None|`None`|
+|TBD|TotalChunkLength|UInt64|None|`None`|
+|TBD|IsEntity|Boolean|None|`None`|
+|TBD|RequestEntityComplete|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

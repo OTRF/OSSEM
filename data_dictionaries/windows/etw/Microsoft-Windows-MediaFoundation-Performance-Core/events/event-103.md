@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|dwFlags|TBD|Int32|None|None|
-|TBD|bUseResampler|TBD|Boolean|None|None|
-|TBD|bClockRateMatchEnabled|TBD|Boolean|None|None|
-|TBD|bUseLightWeightConverters|TBD|Boolean|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|dwFlags|Int32|None|`None`|
+|TBD|bUseResampler|Boolean|None|`None`|
+|TBD|bClockRateMatchEnabled|Boolean|None|`None`|
+|TBD|bUseLightWeightConverters|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

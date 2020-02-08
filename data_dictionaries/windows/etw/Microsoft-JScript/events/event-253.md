@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RecyclerID|TBD|Pointer|None|None|
-|TBD|ScannedCount|TBD|UInt32|None|None|
-|TBD|ClearedCount|TBD|UInt32|None|None|
-|TBD|RegionScannedCount|TBD|UInt32|None|None|
-|TBD|RegionClearedCount|TBD|UInt32|None|None|
+|TBD|RecyclerID|Pointer|None|`None`|
+|TBD|ScannedCount|UInt32|None|`None`|
+|TBD|ClearedCount|UInt32|None|`None`|
+|TBD|RegionScannedCount|UInt32|None|`None`|
+|TBD|RegionClearedCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

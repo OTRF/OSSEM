@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RecordSinkWriter|TBD|Pointer|None|None|
-|TBD|SinkStreamIndex|TBD|UInt32|None|None|
+|TBD|RecordSinkWriter|Pointer|None|`None`|
+|TBD|SinkStreamIndex|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

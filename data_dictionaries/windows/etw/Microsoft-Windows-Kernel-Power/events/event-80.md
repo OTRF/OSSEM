@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ThermalZoneDeviceInstanceLength|TBD|UInt16|None|None|
-|TBD|ThermalZoneDeviceInstance|TBD|UnicodeString|None|None|
-|TBD|CoolingModeLength|TBD|UInt16|None|None|
-|TBD|CoolingMode|TBD|UnicodeString|None|None|
+|TBD|ThermalZoneDeviceInstanceLength|UInt16|None|`None`|
+|TBD|ThermalZoneDeviceInstance|UnicodeString|None|`None`|
+|TBD|CoolingModeLength|UInt16|None|`None`|
+|TBD|CoolingMode|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

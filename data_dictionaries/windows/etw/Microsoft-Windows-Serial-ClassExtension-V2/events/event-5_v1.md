@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Device|TBD|Pointer|None|None|
-|TBD|TransmitTransferSmContext|TBD|Pointer|None|None|
-|TBD|ReceiveTransferSmContext|TBD|Pointer|None|None|
-|TBD|DeviceInstanceId|TBD|UnicodeString|None|None|
+|TBD|Device|Pointer|None|`None`|
+|TBD|TransmitTransferSmContext|Pointer|None|`None`|
+|TBD|ReceiveTransferSmContext|Pointer|None|`None`|
+|TBD|DeviceInstanceId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

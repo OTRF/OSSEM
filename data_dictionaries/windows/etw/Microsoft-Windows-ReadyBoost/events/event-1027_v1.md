@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|UniqueIdLength|TBD|UInt32|None|None|
-|TBD|VolumeUniqueId|TBD|Binary|None|None|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|UniqueIdLength|UInt32|None|`None`|
+|TBD|VolumeUniqueId|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

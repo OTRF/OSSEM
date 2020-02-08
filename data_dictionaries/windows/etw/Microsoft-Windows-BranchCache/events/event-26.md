@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Timestamp|TBD|SYSTEMTIME|None|None|
+|TBD|Timestamp|SYSTEMTIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

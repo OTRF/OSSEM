@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|luidSurface|TBD|Pointer|None|None|
-|TBD|bindId|TBD|UInt64|None|None|
-|TBD|PresentCount|TBD|UInt64|None|None|
-|TBD|fenceValue|TBD|UInt64|None|None|
-|TBD|bDirectFlip|TBD|UInt32|None|None|
-|TBD|DXGI_ALPHA_MODE|TBD|UInt32|None|None|
-|TBD|hmonAssociation|TBD|UInt64|None|None|
-|TBD|bStereoPreferRight|TBD|UInt32|None|None|
-|TBD|bTemporaryMono|TBD|UInt32|None|None|
-|TBD|bSwapPool|TBD|UInt32|None|None|
-|TBD|BufferContentType|TBD|UInt32|None|None|
-|TBD|bIndependentFlip|TBD|UInt32|None|None|
-|TBD|uPesentDuration|TBD|UInt32|None|None|
-|TBD|BufferRealizationType|TBD|UInt32|None|None|
-|TBD|uRealizationIndex|TBD|UInt32|None|None|
-|TBD|hDxSurface|TBD|UInt64|None|None|
+|TBD|luidSurface|Pointer|None|`None`|
+|TBD|bindId|UInt64|None|`None`|
+|TBD|PresentCount|UInt64|None|`None`|
+|TBD|fenceValue|UInt64|None|`None`|
+|TBD|bDirectFlip|UInt32|None|`None`|
+|TBD|DXGI_ALPHA_MODE|UInt32|None|`None`|
+|TBD|hmonAssociation|UInt64|None|`None`|
+|TBD|bStereoPreferRight|UInt32|None|`None`|
+|TBD|bTemporaryMono|UInt32|None|`None`|
+|TBD|bSwapPool|UInt32|None|`None`|
+|TBD|BufferContentType|UInt32|None|`None`|
+|TBD|bIndependentFlip|UInt32|None|`None`|
+|TBD|uPesentDuration|UInt32|None|`None`|
+|TBD|BufferRealizationType|UInt32|None|`None`|
+|TBD|uRealizationIndex|UInt32|None|`None`|
+|TBD|hDxSurface|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

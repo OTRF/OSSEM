@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProtocolHandler|TBD|Pointer|None|None|
-|TBD|UDN|TBD|UnicodeString|None|None|
-|TBD|ObjectID|TBD|UnicodeString|None|None|
-|TBD|IHMECDS|TBD|Pointer|None|None|
-|TBD|HResult|TBD|UInt32|None|None|
+|TBD|ProtocolHandler|Pointer|None|`None`|
+|TBD|UDN|UnicodeString|None|`None`|
+|TBD|ObjectID|UnicodeString|None|`None`|
+|TBD|IHMECDS|Pointer|None|`None`|
+|TBD|HResult|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

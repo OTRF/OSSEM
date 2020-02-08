@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|LoadOptions|TBD|UnicodeString|None|None|
-|TBD|AdvancedOptions|TBD|UnicodeString|None|None|
-|TBD|ConfigAccessPolicy|TBD|UnicodeString|None|None|
-|TBD|RemoteEventLogging|TBD|UnicodeString|None|None|
-|TBD|KernelDebug|TBD|UnicodeString|None|None|
-|TBD|VsmLaunchType|TBD|UnicodeString|None|None|
-|TBD|TestSigning|TBD|UnicodeString|None|None|
-|TBD|FlightSigning|TBD|UnicodeString|None|None|
-|TBD|DisableIntegrityChecks|TBD|UnicodeString|None|None|
-|TBD|HypervisorLoadOptions|TBD|UnicodeString|None|None|
-|TBD|HypervisorLaunchType|TBD|UnicodeString|None|None|
-|TBD|HypervisorDebug|TBD|UnicodeString|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|LoadOptions|UnicodeString|None|`None`|
+|TBD|AdvancedOptions|UnicodeString|None|`None`|
+|TBD|ConfigAccessPolicy|UnicodeString|None|`None`|
+|TBD|RemoteEventLogging|UnicodeString|None|`None`|
+|TBD|KernelDebug|UnicodeString|None|`None`|
+|TBD|VsmLaunchType|UnicodeString|None|`None`|
+|TBD|TestSigning|UnicodeString|None|`None`|
+|TBD|FlightSigning|UnicodeString|None|`None`|
+|TBD|DisableIntegrityChecks|UnicodeString|None|`None`|
+|TBD|HypervisorLoadOptions|UnicodeString|None|`None`|
+|TBD|HypervisorLaunchType|UnicodeString|None|`None`|
+|TBD|HypervisorDebug|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

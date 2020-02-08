@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RootCause|TBD|UnicodeString|None|None|
-|TBD|RootCauseGUID|TBD|GUID|None|None|
-|TBD|RepairOption|TBD|UnicodeString|None|None|
-|TBD|RepairGUID|TBD|GUID|None|None|
-|TBD|SecondsRequired|TBD|UInt32|None|None|
-|TBD|SIDTypeRequired|TBD|UInt32|None|None|
-|TBD|HelperClassName|TBD|UnicodeString|None|None|
-|TBD|InterfaceDesc|TBD|UnicodeString|None|None|
-|TBD|InterfaceGUID|TBD|GUID|None|None|
+|TBD|RootCause|UnicodeString|None|`None`|
+|TBD|RootCauseGUID|GUID|None|`None`|
+|TBD|RepairOption|UnicodeString|None|`None`|
+|TBD|RepairGUID|GUID|None|`None`|
+|TBD|SecondsRequired|UInt32|None|`None`|
+|TBD|SIDTypeRequired|UInt32|None|`None`|
+|TBD|HelperClassName|UnicodeString|None|`None`|
+|TBD|InterfaceDesc|UnicodeString|None|`None`|
+|TBD|InterfaceGUID|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

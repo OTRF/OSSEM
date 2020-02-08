@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Frequency|TBD|UInt32|None|None|
+|TBD|Frequency|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DataKey|TBD|UInt64|None|None|
-|TBD|DataMgr|TBD|Pointer|None|None|
-|TBD|StoreOffset|TBD|UInt32|None|None|
-|TBD|CompressedSize|TBD|UInt16|None|None|
-|TBD|Flags|TBD|UInt16|None|None|
+|TBD|DataKey|UInt64|None|`None`|
+|TBD|DataMgr|Pointer|None|`None`|
+|TBD|StoreOffset|UInt32|None|`None`|
+|TBD|CompressedSize|UInt16|None|`None`|
+|TBD|Flags|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

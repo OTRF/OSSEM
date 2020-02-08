@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectionUsedId|TBD|UInt64|None|None|
-|TBD|Protocol|TBD|UInt8|None|None|
-|TBD|RemoteIPAddress|TBD|UInt32|None|None|
-|TBD|LocalIPAddress|TBD|UInt32|None|None|
-|TBD|RemotePort|TBD|UInt16|None|None|
-|TBD|LocalPort|TBD|UInt16|None|None|
-|TBD|StartTime|TBD|FILETIME|None|None|
+|TBD|ConnectionUsedId|UInt64|None|`None`|
+|TBD|Protocol|UInt8|None|`None`|
+|TBD|RemoteIPAddress|UInt32|None|`None`|
+|TBD|LocalIPAddress|UInt32|None|`None`|
+|TBD|RemotePort|UInt16|None|`None`|
+|TBD|LocalPort|UInt16|None|`None`|
+|TBD|StartTime|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

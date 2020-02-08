@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCompositionSurfaceObject|TBD|Pointer|None|None|
-|TBD|SwapChainIndex|TBD|UInt32|None|None|
-|TBD|PresentCount|TBD|UInt32|None|None|
-|TBD|FenceValue|TBD|UInt64|None|None|
-|TBD|NewState|TBD|UInt32|None|None|
-|TBD|IndependentFlip|TBD|Boolean|None|None|
-|TBD|SkipIndependentFlip|TBD|Boolean|None|None|
-|TBD|CompositionSurfaceLuid|TBD|UInt64|None|None|
-|TBD|BindId|TBD|UInt64|None|None|
+|TBD|pCompositionSurfaceObject|Pointer|None|`None`|
+|TBD|SwapChainIndex|UInt32|None|`None`|
+|TBD|PresentCount|UInt32|None|`None`|
+|TBD|FenceValue|UInt64|None|`None`|
+|TBD|NewState|UInt32|None|`None`|
+|TBD|IndependentFlip|Boolean|None|`None`|
+|TBD|SkipIndependentFlip|Boolean|None|`None`|
+|TBD|CompositionSurfaceLuid|UInt64|None|`None`|
+|TBD|BindId|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

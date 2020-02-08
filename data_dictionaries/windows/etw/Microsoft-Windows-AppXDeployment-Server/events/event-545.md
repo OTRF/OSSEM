@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|FullFilePath|TBD|UnicodeString|None|None|
-|TBD|ErrorText|TBD|UnicodeString|None|None|
-|TBD|ErrorDescription|TBD|UnicodeString|None|None|
-|TBD|LineNumber|TBD|Int32|None|None|
-|TBD|ColumnNumber|TBD|Int32|None|None|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|FullFilePath|UnicodeString|None|`None`|
+|TBD|ErrorText|UnicodeString|None|`None`|
+|TBD|ErrorDescription|UnicodeString|None|`None`|
+|TBD|LineNumber|Int32|None|`None`|
+|TBD|ColumnNumber|Int32|None|`None`|
 
 ## Tags
 * etw_level_Error

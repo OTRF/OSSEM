@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransactionId|TBD|GUID|None|None|
+|TBD|TransactionId|GUID|None|`None`|
 
 ## Tags
 * etw_keywords_Ctap Nfc

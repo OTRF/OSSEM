@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UncPathLength|TBD|UInt16|None|None|
-|TBD|UncPath|TBD|UnicodeString|None|None|
-|TBD|UncHardeningConfigurationLength|TBD|UInt32|None|None|
-|TBD|UncHardeningConfiguration|TBD|UnicodeString|None|None|
-|TBD|PropertyNameLength|TBD|UInt16|None|None|
-|TBD|PropertyName|TBD|UnicodeString|None|None|
-|TBD|PropertyValue|TBD|UInt64|None|None|
+|TBD|UncPathLength|UInt16|None|`None`|
+|TBD|UncPath|UnicodeString|None|`None`|
+|TBD|UncHardeningConfigurationLength|UInt32|None|`None`|
+|TBD|UncHardeningConfiguration|UnicodeString|None|`None`|
+|TBD|PropertyNameLength|UInt16|None|`None`|
+|TBD|PropertyName|UnicodeString|None|`None`|
+|TBD|PropertyValue|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Warning

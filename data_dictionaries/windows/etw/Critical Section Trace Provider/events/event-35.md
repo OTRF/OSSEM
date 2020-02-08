@@ -6,5 +6,5 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SpinCount|TBD|UInt32|None|None|
-|TBD|CritSecAddr|TBD|UInt32|None|None|
+|TBD|SpinCount|UInt32|None|`None`|
+|TBD|CritSecAddr|UInt32|None|`None`|

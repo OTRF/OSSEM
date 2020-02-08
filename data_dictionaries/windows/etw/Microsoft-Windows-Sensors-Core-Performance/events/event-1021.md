@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Driver|TBD|Pointer|None|None|
-|TBD|Sensor|TBD|Pointer|None|None|
-|TBD|ClientPID|TBD|UInt32|None|None|
-|TBD|Type|TBD|GUID|None|None|
-|TBD|Interval|TBD|UInt32|None|None|
+|TBD|Driver|Pointer|None|`None`|
+|TBD|Sensor|Pointer|None|`None`|
+|TBD|ClientPID|UInt32|None|`None`|
+|TBD|Type|GUID|None|`None`|
+|TBD|Interval|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

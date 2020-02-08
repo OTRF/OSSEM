@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ChangeStamp|TBD|UInt32|None|None|
-|TBD|CurChangeStamp|TBD|UInt32|None|None|
-|TBD|ProcessorGroup|TBD|UInt64|None|None|
-|TBD|ProcessorMask|TBD|UInt64|None|None|
-|TBD|Length|TBD|UInt32|None|None|
+|TBD|ChangeStamp|UInt32|None|`None`|
+|TBD|CurChangeStamp|UInt32|None|`None`|
+|TBD|ProcessorGroup|UInt64|None|`None`|
+|TBD|ProcessorMask|UInt64|None|`None`|
+|TBD|Length|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

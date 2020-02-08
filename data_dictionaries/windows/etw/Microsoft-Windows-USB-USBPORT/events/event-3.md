@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBPORT_HC|TBD|UInt16|None|None|
-|TBD|fid_USBPORT_HC_Idle_Status|TBD|Double|None|None|
-|TBD|fid_USBPORT_HC_Pdo_Name|TBD|UnicodeString|None|None|
-|TBD|fid_RunTimePmSetupStatus|TBD|UInt32|None|None|
-|TBD|fid_DevicePowerState|TBD|UInt32|None|None|
-|TBD|fid_AcpiInstanceId|TBD|AnsiString|None|None|
+|TBD|fid_USBPORT_HC|UInt16|None|`None`|
+|TBD|fid_USBPORT_HC_Idle_Status|Double|None|`None`|
+|TBD|fid_USBPORT_HC_Pdo_Name|UnicodeString|None|`None`|
+|TBD|fid_RunTimePmSetupStatus|UInt32|None|`None`|
+|TBD|fid_DevicePowerState|UInt32|None|`None`|
+|TBD|fid_AcpiInstanceId|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

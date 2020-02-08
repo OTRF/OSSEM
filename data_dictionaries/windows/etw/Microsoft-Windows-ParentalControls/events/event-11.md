@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Application|TBD|UnicodeString|None|None|
-|TBD|Version|TBD|UnicodeString|None|None|
-|TBD|AccountName|TBD|UnicodeString|None|None|
-|TBD|ConversationID|TBD|UnicodeString|None|None|
-|TBD|MediaType|TBD|UInt32|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|RecipientCount|TBD|UInt32|None|None|
-|TBD|Recipient|TBD|UnicodeString|None|None|
-|TBD|Sender|TBD|UnicodeString|None|None|
-|TBD|SenderIP|TBD|UnicodeString|None|None|
-|TBD|Data|TBD|UnicodeString|None|None|
+|TBD|Application|UnicodeString|None|`None`|
+|TBD|Version|UnicodeString|None|`None`|
+|TBD|AccountName|UnicodeString|None|`None`|
+|TBD|ConversationID|UnicodeString|None|`None`|
+|TBD|MediaType|UInt32|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|RecipientCount|UInt32|None|`None`|
+|TBD|Recipient|UnicodeString|None|`None`|
+|TBD|Sender|UnicodeString|None|`None`|
+|TBD|SenderIP|UnicodeString|None|`None`|
+|TBD|Data|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

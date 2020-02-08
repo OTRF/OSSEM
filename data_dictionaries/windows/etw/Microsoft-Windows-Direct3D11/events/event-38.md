@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pID3D11DeviceContext|TBD|Pointer|None|None|
-|TBD|APISequenceNumber|TBD|UInt64|None|None|
-|TBD|Label|TBD|UnicodeString|None|None|
-|TBD|Data|TBD|Int32|None|None|
+|TBD|pID3D11DeviceContext|Pointer|None|`None`|
+|TBD|APISequenceNumber|UInt64|None|`None`|
+|TBD|Label|UnicodeString|None|`None`|
+|TBD|Data|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

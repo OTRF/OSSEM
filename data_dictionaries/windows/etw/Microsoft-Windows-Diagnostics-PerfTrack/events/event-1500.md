@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MainPathHybridbootTimeMs|TBD|UInt32|None|None|
-|TBD|PostTimeMs|TBD|UInt32|None|None|
-|TBD|ResumeTimeMs|TBD|UInt32|None|None|
-|TBD|AdditionalMetadata|TBD|UInt32|None|None|
+|TBD|MainPathHybridbootTimeMs|UInt32|None|`None`|
+|TBD|PostTimeMs|UInt32|None|`None`|
+|TBD|ResumeTimeMs|UInt32|None|`None`|
+|TBD|AdditionalMetadata|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

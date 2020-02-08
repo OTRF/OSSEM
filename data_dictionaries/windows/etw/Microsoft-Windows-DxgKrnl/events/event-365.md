@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hVidMmGlobalAlloc|TBD|UInt64|None|None|
+|TBD|hVidMmGlobalAlloc|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

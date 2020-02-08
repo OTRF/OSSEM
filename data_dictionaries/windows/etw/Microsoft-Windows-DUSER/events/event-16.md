@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|nNumberOfPendingDeletions|TBD|Int32|None|None|
+|TBD|nNumberOfPendingDeletions|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

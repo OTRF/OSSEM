@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Query|TBD|UnicodeString|None|None|
-|TBD|Size|TBD|UInt32|None|None|
-|TBD|Provider|TBD|UnicodeString|None|None|
-|TBD|ProviderDll|TBD|UnicodeString|None|None|
-|TBD|Function|TBD|AnsiString|None|None|
+|TBD|Query|UnicodeString|None|`None`|
+|TBD|Size|UInt32|None|`None`|
+|TBD|Provider|UnicodeString|None|`None`|
+|TBD|ProviderDll|UnicodeString|None|`None`|
+|TBD|Function|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Always

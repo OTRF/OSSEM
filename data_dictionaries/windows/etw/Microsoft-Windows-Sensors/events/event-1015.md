@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SensorObjectId|TBD|UnicodeString|None|None|
-|TBD|Timestamp|TBD|SYSTEMTIME|None|None|
-|TBD|NumSubscribers|TBD|UInt32|None|None|
+|TBD|SensorObjectId|UnicodeString|None|`None`|
+|TBD|Timestamp|SYSTEMTIME|None|`None`|
+|TBD|NumSubscribers|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

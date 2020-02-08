@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hLogicalSurface|TBD|UInt64|None|None|
-|TBD|RgnType|TBD|UInt32|None|None|
-|TBD|rcBounds|TBD|Int16|None|None|
-|TBD|NumRects|TBD|UInt32|None|None|
-|TBD|rcData|TBD|Int64|None|None|
+|TBD|hLogicalSurface|UInt64|None|`None`|
+|TBD|RgnType|UInt32|None|`None`|
+|TBD|rcBounds|Int16|None|`None`|
+|TBD|NumRects|UInt32|None|`None`|
+|TBD|rcData|Int64|None|`None`|
 
 ## Tags
 * etw_level_Informational

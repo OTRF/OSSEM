@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsDocVisible|TBD|Boolean|None|None|
-|TBD|NotifyFrame|TBD|Boolean|None|None|
-|TBD|HR|TBD|UInt32|None|None|
+|TBD|IsDocVisible|Boolean|None|`None`|
+|TBD|NotifyFrame|Boolean|None|`None`|
+|TBD|HR|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

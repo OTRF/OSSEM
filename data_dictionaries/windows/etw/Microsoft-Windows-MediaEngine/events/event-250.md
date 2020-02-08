@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|IsDecode|TBD|Boolean|None|None|
-|TBD|DxgiFormat|TBD|UInt32|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|ColorSpaceType|TBD|UInt32|None|None|
-|TBD|BufferCount|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|Dst_Left|TBD|Int32|None|None|
-|TBD|Dst_Top|TBD|Int32|None|None|
-|TBD|Dst_Right|TBD|Int32|None|None|
-|TBD|Dst_Bottom|TBD|Int32|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|IsDecode|Boolean|None|`None`|
+|TBD|DxgiFormat|UInt32|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|ColorSpaceType|UInt32|None|`None`|
+|TBD|BufferCount|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|Dst_Left|Int32|None|`None`|
+|TBD|Dst_Top|Int32|None|`None`|
+|TBD|Dst_Right|Int32|None|`None`|
+|TBD|Dst_Bottom|Int32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

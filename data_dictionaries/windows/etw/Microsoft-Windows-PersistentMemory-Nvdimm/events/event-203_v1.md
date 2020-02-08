@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceGuid|TBD|GUID|None|None|
-|TBD|NfitHandle|TBD|HexInt32|None|None|
-|TBD|UnsafeShutdownCount|TBD|UInt32|None|None|
-|TBD|BaselineUnsafeShutdownCount|TBD|UInt32|None|None|
+|TBD|DeviceGuid|GUID|None|`None`|
+|TBD|NfitHandle|HexInt32|None|`None`|
+|TBD|UnsafeShutdownCount|UInt32|None|`None`|
+|TBD|BaselineUnsafeShutdownCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

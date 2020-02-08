@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Timestamp|TBD|FILETIME|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|ScopeId|TBD|UInt32|None|None|
-|TBD|AppId|TBD|UnicodeString|None|None|
-|TBD|UserSID|TBD|SID|None|None|
-|TBD|ReauthReason|TBD|UInt32|None|None|
-|TBD|OriginalProfile|TBD|UInt32|None|None|
-|TBD|CurrentProfile|TBD|UInt32|None|None|
-|TBD|PacketDirection|TBD|UInt32|None|None|
-|TBD|Loopback|TBD|Boolean|None|None|
-|TBD|FilterId|TBD|UInt64|None|None|
-|TBD|LayerId|TBD|UInt16|None|None|
+|TBD|Timestamp|FILETIME|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|ScopeId|UInt32|None|`None`|
+|TBD|AppId|UnicodeString|None|`None`|
+|TBD|UserSID|SID|None|`None`|
+|TBD|ReauthReason|UInt32|None|`None`|
+|TBD|OriginalProfile|UInt32|None|`None`|
+|TBD|CurrentProfile|UInt32|None|`None`|
+|TBD|PacketDirection|UInt32|None|`None`|
+|TBD|Loopback|Boolean|None|`None`|
+|TBD|FilterId|UInt64|None|`None`|
+|TBD|LayerId|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

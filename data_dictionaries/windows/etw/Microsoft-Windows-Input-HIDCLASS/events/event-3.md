@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceObject|TBD|Pointer|None|None|
-|TBD|VendorID|TBD|UInt16|None|None|
-|TBD|ProductID|TBD|UInt16|None|None|
-|TBD|VersionNumber|TBD|UInt16|None|None|
-|TBD|ReportDescriptorLength|TBD|UInt32|None|None|
-|TBD|ReportDescriptor|TBD|Binary|None|None|
+|TBD|DeviceObject|Pointer|None|`None`|
+|TBD|VendorID|UInt16|None|`None`|
+|TBD|ProductID|UInt16|None|`None`|
+|TBD|VersionNumber|UInt16|None|`None`|
+|TBD|ReportDescriptorLength|UInt32|None|`None`|
+|TBD|ReportDescriptor|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

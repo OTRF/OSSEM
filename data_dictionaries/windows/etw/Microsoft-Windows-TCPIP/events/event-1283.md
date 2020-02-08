@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectEventContext|TBD|Pointer|None|None|
-|TBD|NdkConnector|TBD|Pointer|None|None|
+|TBD|ConnectEventContext|Pointer|None|`None`|
+|TBD|NdkConnector|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

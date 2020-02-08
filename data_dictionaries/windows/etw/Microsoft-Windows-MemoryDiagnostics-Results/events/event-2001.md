@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MemDiagRawDataLength|TBD|UInt32|None|None|
-|TBD|MemDiagRawData|TBD|Binary|None|None|
+|TBD|MemDiagRawDataLength|UInt32|None|`None`|
+|TBD|MemDiagRawData|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

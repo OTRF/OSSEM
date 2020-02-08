@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportDeviceContext|TBD|Pointer|None|None|
-|TBD|TargetId|TBD|UInt32|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|Pitch|TBD|UInt32|None|None|
-|TBD|ColorFormat|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|MiniportDeviceContext|Pointer|None|`None`|
+|TBD|TargetId|UInt32|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|Pitch|UInt32|None|`None`|
+|TBD|ColorFormat|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

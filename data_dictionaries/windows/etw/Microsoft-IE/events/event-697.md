@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fPotentialDoubleTap|TBD|Boolean|None|None|
-|TBD|fDoubleTapTimerPending|TBD|Boolean|None|None|
-|TBD|pMessageTime|TBD|UInt32|None|None|
-|TBD|MaxTimeForSecondTap|TBD|UInt64|None|None|
-|TBD|FirstTapPointX|TBD|Int32|None|None|
-|TBD|FirstTapPointY|TBD|Int32|None|None|
-|TBD|SecondTapPointX|TBD|Int32|None|None|
-|TBD|SecondTapPointY|TBD|Int32|None|None|
-|TBD|fIsDoubleClick|TBD|Boolean|None|None|
+|TBD|fPotentialDoubleTap|Boolean|None|`None`|
+|TBD|fDoubleTapTimerPending|Boolean|None|`None`|
+|TBD|pMessageTime|UInt32|None|`None`|
+|TBD|MaxTimeForSecondTap|UInt64|None|`None`|
+|TBD|FirstTapPointX|Int32|None|`None`|
+|TBD|FirstTapPointY|Int32|None|`None`|
+|TBD|SecondTapPointX|Int32|None|`None`|
+|TBD|SecondTapPointY|Int32|None|`None`|
+|TBD|fIsDoubleClick|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

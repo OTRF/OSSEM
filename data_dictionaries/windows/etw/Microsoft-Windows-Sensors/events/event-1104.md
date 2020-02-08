@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SENSOR_ID|TBD|GUID|None|None|
-|TBD|Timestamp|TBD|SYSTEMTIME|None|None|
-|TBD|HRESULT|TBD|UInt32|None|None|
-|TBD|ReportPointer|TBD|Pointer|None|None|
-|TBD|SensorStateThisSensor|TBD|UInt32|None|None|
-|TBD|SensorStateAccumulated|TBD|UInt32|None|None|
+|TBD|SENSOR_ID|GUID|None|`None`|
+|TBD|Timestamp|SYSTEMTIME|None|`None`|
+|TBD|HRESULT|UInt32|None|`None`|
+|TBD|ReportPointer|Pointer|None|`None`|
+|TBD|SensorStateThisSensor|UInt32|None|`None`|
+|TBD|SensorStateAccumulated|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

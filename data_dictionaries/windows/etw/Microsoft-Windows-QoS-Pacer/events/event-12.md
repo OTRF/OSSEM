@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NetLuid|TBD|Binary|None|None|
-|TBD|CurrentTime|TBD|UInt64|None|None|
-|TBD|ActiveFlows|TBD|UInt32|None|None|
-|TBD|ActiveWeight|TBD|UInt32|None|None|
-|TBD|NewSendWindow|TBD|UInt32|None|None|
+|TBD|NetLuid|Binary|None|`None`|
+|TBD|CurrentTime|UInt64|None|`None`|
+|TBD|ActiveFlows|UInt32|None|`None`|
+|TBD|ActiveWeight|UInt32|None|`None`|
+|TBD|NewSendWindow|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

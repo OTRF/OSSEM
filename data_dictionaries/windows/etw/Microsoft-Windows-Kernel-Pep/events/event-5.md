@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceId|TBD|Pointer|None|None|
-|TBD|ComponentIndex|TBD|UInt32|None|None|
-|TBD|OldComponentFrequencyKHz|TBD|UInt32|None|None|
-|TBD|NewComponentFrequencyKHz|TBD|UInt32|None|None|
+|TBD|DeviceId|Pointer|None|`None`|
+|TBD|ComponentIndex|UInt32|None|`None`|
+|TBD|OldComponentFrequencyKHz|UInt32|None|`None`|
+|TBD|NewComponentFrequencyKHz|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

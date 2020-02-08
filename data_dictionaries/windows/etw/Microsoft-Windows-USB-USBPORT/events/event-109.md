@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBPORT_HC|TBD|UInt8|None|None|
-|TBD|fid_USBPORT_Usbuser_Op_Send_One_Packet|TBD|UInt64|None|None|
-|TBD|fid_PacketDataLength|TBD|UInt16|None|None|
-|TBD|fid_PacketData|TBD|UInt8|None|None|
+|TBD|fid_USBPORT_HC|UInt8|None|`None`|
+|TBD|fid_USBPORT_Usbuser_Op_Send_One_Packet|UInt64|None|`None`|
+|TBD|fid_PacketDataLength|UInt16|None|`None`|
+|TBD|fid_PacketData|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

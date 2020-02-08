@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TaskQueueIndex|TBD|Int32|None|None|
-|TBD|PendingTaskCount|TBD|Int32|None|None|
+|TBD|TaskQueueIndex|Int32|None|`None`|
+|TBD|PendingTaskCount|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

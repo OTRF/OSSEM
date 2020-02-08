@@ -6,27 +6,27 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hWnd|TBD|Pointer|None|None|
-|TBD|X|TBD|UInt32|None|None|
-|TBD|Y|TBD|UInt32|None|None|
-|TBD|inputSinkHandle|TBD|Pointer|None|None|
-|TBD|inputSinkLuid|TBD|UInt64|None|None|
-|TBD|_11|TBD|Float|None|None|
-|TBD|_12|TBD|Float|None|None|
-|TBD|_13|TBD|Float|None|None|
-|TBD|_14|TBD|Float|None|None|
-|TBD|_21|TBD|Float|None|None|
-|TBD|_22|TBD|Float|None|None|
-|TBD|_23|TBD|Float|None|None|
-|TBD|_24|TBD|Float|None|None|
-|TBD|_31|TBD|Float|None|None|
-|TBD|_32|TBD|Float|None|None|
-|TBD|_33|TBD|Float|None|None|
-|TBD|_34|TBD|Float|None|None|
-|TBD|_41|TBD|Float|None|None|
-|TBD|_42|TBD|Float|None|None|
-|TBD|_43|TBD|Float|None|None|
-|TBD|_44|TBD|Float|None|None|
+|TBD|hWnd|Pointer|None|`None`|
+|TBD|X|UInt32|None|`None`|
+|TBD|Y|UInt32|None|`None`|
+|TBD|inputSinkHandle|Pointer|None|`None`|
+|TBD|inputSinkLuid|UInt64|None|`None`|
+|TBD|_11|Float|None|`None`|
+|TBD|_12|Float|None|`None`|
+|TBD|_13|Float|None|`None`|
+|TBD|_14|Float|None|`None`|
+|TBD|_21|Float|None|`None`|
+|TBD|_22|Float|None|`None`|
+|TBD|_23|Float|None|`None`|
+|TBD|_24|Float|None|`None`|
+|TBD|_31|Float|None|`None`|
+|TBD|_32|Float|None|`None`|
+|TBD|_33|Float|None|`None`|
+|TBD|_34|Float|None|`None`|
+|TBD|_41|Float|None|`None`|
+|TBD|_42|Float|None|`None`|
+|TBD|_43|Float|None|`None`|
+|TBD|_44|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

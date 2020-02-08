@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|QueryName|TBD|UnicodeString|None|None|
-|TBD|QueryType|TBD|UInt32|None|None|
-|TBD|QueryOptions|TBD|UInt64|None|None|
-|TBD|ServerList|TBD|UnicodeString|None|None|
-|TBD|IsNetworkQuery|TBD|UInt32|None|None|
-|TBD|NetworkQueryIndex|TBD|UInt32|None|None|
-|TBD|InterfaceIndex|TBD|UInt32|None|None|
-|TBD|IsAsyncQuery|TBD|UInt32|None|None|
+|TBD|QueryName|UnicodeString|None|`None`|
+|TBD|QueryType|UInt32|None|`None`|
+|TBD|QueryOptions|UInt64|None|`None`|
+|TBD|ServerList|UnicodeString|None|`None`|
+|TBD|IsNetworkQuery|UInt32|None|`None`|
+|TBD|NetworkQueryIndex|UInt32|None|`None`|
+|TBD|InterfaceIndex|UInt32|None|`None`|
+|TBD|IsAsyncQuery|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

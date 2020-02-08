@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|TargetName|TBD|UnicodeString|None|None|
-|TBD|Type|TBD|UInt32|None|None|
-|TBD|CountOfCredentialsReturned|TBD|UInt32|None|None|
-|TBD|ReadOperation|TBD|UnicodeString|None|None|
-|TBD|ReturnCode|TBD|UInt32|None|None|
-|TBD|ProcessCreationTime|TBD|FILETIME|None|None|
-|TBD|ClientProcessId|TBD|UInt32|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|TargetName|UnicodeString|None|`None`|
+|TBD|Type|UInt32|None|`None`|
+|TBD|CountOfCredentialsReturned|UInt32|None|`None`|
+|TBD|ReadOperation|UnicodeString|None|`None`|
+|TBD|ReturnCode|UInt32|None|`None`|
+|TBD|ProcessCreationTime|FILETIME|None|`None`|
+|TBD|ClientProcessId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

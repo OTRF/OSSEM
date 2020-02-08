@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ValidBatteryCount|TBD|UInt32|None|None|
-|TBD|ErrorBatteryCount|TBD|UInt32|None|None|
-|TBD|AbandonedBatteryCount|TBD|UInt32|None|None|
+|TBD|ValidBatteryCount|UInt32|None|`None`|
+|TBD|ErrorBatteryCount|UInt32|None|`None`|
+|TBD|AbandonedBatteryCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

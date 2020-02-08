@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UserNameHash|TBD|UnicodeString|None|None|
-|TBD|TimeZoneBias|TBD|Int32|None|None|
-|TBD|TimeZoneName|TBD|UnicodeString|None|None|
+|TBD|UserNameHash|UnicodeString|None|`None`|
+|TBD|TimeZoneBias|Int32|None|`None`|
+|TBD|TimeZoneName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

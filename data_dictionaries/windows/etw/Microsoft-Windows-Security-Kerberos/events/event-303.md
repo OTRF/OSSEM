@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LuidHighPart|TBD|UInt32|None|None|
-|TBD|LuidLowPart|TBD|UInt32|None|None|
-|TBD|DomainName|TBD|UnicodeString|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|UpdateCurrent|TBD|Boolean|None|None|
-|TBD|UpdateOld|TBD|Boolean|None|None|
-|TBD|Refresh|TBD|Boolean|None|None|
-|TBD|LastFileTime|TBD|UnicodeString|None|None|
-|TBD|CurrentFileTime|TBD|UnicodeString|None|None|
+|TBD|LuidHighPart|UInt32|None|`None`|
+|TBD|LuidLowPart|UInt32|None|`None`|
+|TBD|DomainName|UnicodeString|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|UpdateCurrent|Boolean|None|`None`|
+|TBD|UpdateOld|Boolean|None|`None`|
+|TBD|Refresh|Boolean|None|`None`|
+|TBD|LastFileTime|UnicodeString|None|`None`|
+|TBD|CurrentFileTime|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

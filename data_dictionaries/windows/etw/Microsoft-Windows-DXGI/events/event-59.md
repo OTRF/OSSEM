@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIOutput|TBD|Pointer|None|None|
-|TBD|MaxPlanes|TBD|UInt32|None|None|
-|TBD|OverlayMaxRGBPlanes|TBD|UInt32|None|None|
-|TBD|OverlayMaxYUVPlanes|TBD|UInt32|None|None|
-|TBD|OverlayCaps|TBD|UInt32|None|None|
-|TBD|PanelFitterMaxRGBPlanes|TBD|UInt32|None|None|
-|TBD|PanelFitterCaps|TBD|UInt32|None|None|
+|TBD|pIDXGIOutput|Pointer|None|`None`|
+|TBD|MaxPlanes|UInt32|None|`None`|
+|TBD|OverlayMaxRGBPlanes|UInt32|None|`None`|
+|TBD|OverlayMaxYUVPlanes|UInt32|None|`None`|
+|TBD|OverlayCaps|UInt32|None|`None`|
+|TBD|PanelFitterMaxRGBPlanes|UInt32|None|`None`|
+|TBD|PanelFitterCaps|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

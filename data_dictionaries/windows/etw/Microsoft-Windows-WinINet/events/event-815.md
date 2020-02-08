@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|_URLLength|TBD|UInt16|None|None|
-|TBD|URL|TBD|AnsiString|None|None|
-|TBD|Error|TBD|UInt32|None|None|
+|TBD|_URLLength|UInt16|None|`None`|
+|TBD|URL|AnsiString|None|`None`|
+|TBD|Error|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

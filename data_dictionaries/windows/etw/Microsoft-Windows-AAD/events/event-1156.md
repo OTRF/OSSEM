@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|ExpiryTime|TBD|FILETIME|None|None|
-|TBD|PasswordChangeURI|TBD|UnicodeString|None|None|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|ExpiryTime|FILETIME|None|`None`|
+|TBD|PasswordChangeURI|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

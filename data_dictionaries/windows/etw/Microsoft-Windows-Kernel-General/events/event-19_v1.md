@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MmPhase0Start|TBD|UInt64|None|None|
-|TBD|MmPhase0Stop|TBD|UInt64|None|None|
-|TBD|Phase1Start|TBD|UInt64|None|None|
-|TBD|KsrExtensionStart|TBD|UInt64|None|None|
-|TBD|KsrExtensionStop|TBD|UInt64|None|None|
-|TBD|StartProcessorsStart|TBD|UInt64|None|None|
-|TBD|StartProcessorsStop|TBD|UInt64|None|None|
-|TBD|AutoLoggerInitStart|TBD|UInt64|None|None|
-|TBD|AutoLoggerInitStop|TBD|UInt64|None|None|
+|TBD|MmPhase0Start|UInt64|None|`None`|
+|TBD|MmPhase0Stop|UInt64|None|`None`|
+|TBD|Phase1Start|UInt64|None|`None`|
+|TBD|KsrExtensionStart|UInt64|None|`None`|
+|TBD|KsrExtensionStop|UInt64|None|`None`|
+|TBD|StartProcessorsStart|UInt64|None|`None`|
+|TBD|StartProcessorsStop|UInt64|None|`None`|
+|TBD|AutoLoggerInitStart|UInt64|None|`None`|
+|TBD|AutoLoggerInitStop|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

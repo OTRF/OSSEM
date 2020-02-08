@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_Endpoint|TBD|Pointer|None|None|
-|TBD|fid_USB_Endpoint_Descriptor|TBD|Float|None|None|
-|TBD|fid_IsLinkManaged|TBD|UInt8|None|None|
-|TBD|fid_CreditConsumptionUnit|TBD|UInt16|None|None|
-|TBD|fid_BufferSize|TBD|UInt32|None|None|
-|TBD|fid_IsochProgrammingDelay|TBD|UInt16|None|None|
-|TBD|fid_IsochResponseDelay|TBD|UInt16|None|None|
-|TBD|fid_IsochSegmentsPerFrame|TBD|UInt32|None|None|
-|TBD|fid_MaxIsochSegmentSize|TBD|UInt32|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_Endpoint|Pointer|None|`None`|
+|TBD|fid_USB_Endpoint_Descriptor|Float|None|`None`|
+|TBD|fid_IsLinkManaged|UInt8|None|`None`|
+|TBD|fid_CreditConsumptionUnit|UInt16|None|`None`|
+|TBD|fid_BufferSize|UInt32|None|`None`|
+|TBD|fid_IsochProgrammingDelay|UInt16|None|`None`|
+|TBD|fid_IsochResponseDelay|UInt16|None|`None`|
+|TBD|fid_IsochSegmentsPerFrame|UInt32|None|`None`|
+|TBD|fid_MaxIsochSegmentSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

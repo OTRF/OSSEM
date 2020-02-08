@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TaskQueueIndex|TBD|Int32|None|None|
-|TBD|NestingLevel|TBD|Int32|None|None|
-|TBD|TaskConsideredReadyTimeInUs|TBD|UInt64|None|None|
+|TBD|TaskQueueIndex|Int32|None|`None`|
+|TBD|NestingLevel|Int32|None|`None`|
+|TBD|TaskConsideredReadyTimeInUs|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

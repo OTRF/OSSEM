@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Vcb|TBD|Pointer|None|None|
-|TBD|LogFileFullReason|TBD|UInt16|None|None|
-|TBD|LogFileUsePercentage|TBD|UInt16|None|None|
+|TBD|Vcb|Pointer|None|`None`|
+|TBD|LogFileFullReason|UInt16|None|`None`|
+|TBD|LogFileUsePercentage|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

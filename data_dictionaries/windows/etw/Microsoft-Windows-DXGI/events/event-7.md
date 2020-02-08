@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIOutput|TBD|Pointer|None|None|
-|TBD|pIDXGIAdapter|TBD|Pointer|None|None|
-|TBD|VidPnSourceID|TBD|UInt32|None|None|
-|TBD|GDIDeviceName|TBD|UnicodeString|None|None|
+|TBD|pIDXGIOutput|Pointer|None|`None`|
+|TBD|pIDXGIAdapter|Pointer|None|`None`|
+|TBD|VidPnSourceID|UInt32|None|`None`|
+|TBD|GDIDeviceName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

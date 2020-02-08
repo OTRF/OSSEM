@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Leaf|TBD|HexInt32|None|None|
-|TBD|Register|TBD|HexInt32|None|None|
-|TBD|FeaturesNeeded|TBD|HexInt32|None|None|
-|TBD|FeaturesSupported|TBD|HexInt32|None|None|
+|TBD|Leaf|HexInt32|None|`None`|
+|TBD|Register|HexInt32|None|`None`|
+|TBD|FeaturesNeeded|HexInt32|None|`None`|
+|TBD|FeaturesSupported|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

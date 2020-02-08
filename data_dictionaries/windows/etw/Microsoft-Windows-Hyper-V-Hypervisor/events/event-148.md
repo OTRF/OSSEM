@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceId|TBD|HexInt64|None|None|
-|TBD|UnitBaseAddress|TBD|HexInt64|None|None|
-|TBD|PartitionId|TBD|UInt64|None|None|
+|TBD|DeviceId|HexInt64|None|`None`|
+|TBD|UnitBaseAddress|HexInt64|None|`None`|
+|TBD|PartitionId|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Error

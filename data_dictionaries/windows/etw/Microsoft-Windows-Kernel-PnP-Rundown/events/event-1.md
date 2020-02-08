@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResourceConsumerPdo|TBD|Pointer|None|None|
-|TBD|ConnectionId|TBD|HexInt64|None|None|
-|TBD|ResourceConsumerInstancePathLength|TBD|UInt32|None|None|
-|TBD|ResourceConsumerInstancePath|TBD|UnicodeString|None|None|
+|TBD|ResourceConsumerPdo|Pointer|None|`None`|
+|TBD|ConnectionId|HexInt64|None|`None`|
+|TBD|ResourceConsumerInstancePathLength|UInt32|None|`None`|
+|TBD|ResourceConsumerInstancePath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

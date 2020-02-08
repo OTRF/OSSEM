@@ -6,17 +6,17 @@ This event generates every time installation of this device is forbidden by syst
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_sid|SubjectUserSid|TBD|string|SID of account that forbids the device installation.|S-1-5-18|
-|user_name|SubjectUserName|TBD|string|the name of the account that forbids the device installation.|DESKTOP-NFC0HVN$|
-|user_domain|SubjectDomainName|TBD|string|subject's domain or computer name.|WORKGROUP|
-|user_logon_id|SubjectLogonId|TBD|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x3e7|
-|device_id|DeviceId|TBD|string|"Device instance path" attribute of device.|USB\VID_04F3&PID_012D\7&1E3A8971&0&2|
-|device_description|DeviceDescription|TBD|string|"Device description" attribute of device.|Touchscreen|
-|class_id|ClassId|TBD|string|"Class Guid" attribute of device.|{00000000-0000-0000-0000-000000000000}|
-|class_name|ClassName|TBD|string|"Class" attribute of device.|None|
-|hardware_ids|HardwareIds|TBD|string|"Hardware Ids" attribute of device.|USB\VID_04F3&PID_012D&REV_0013 USB\VID_04F3&PID_012D|
-|compatible_ids|CompatibleIds|TBD|string|"Compatible Ids" attribute of device.|USB\Class_03&SubClass_00&Prot_00 USB\Class_03&SubClass_00 USB\Class_03|
-|location_information|LocationInformation|TBD|string|"Location information" attribute of device.|Port#0002.Hub#0004|
+|user_sid|SubjectUserSid|string|SID of account that forbids the device installation.|`S-1-5-18`|
+|user_name|SubjectUserName|string|the name of the account that forbids the device installation.|`DESKTOP-NFC0HVN$`|
+|user_domain|SubjectDomainName|string|subject's domain or computer name.|`WORKGROUP`|
+|user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|`0x3e7`|
+|device_id|DeviceId|string|"Device instance path" attribute of device.|`USB\VID_04F3&PID_012D\7&1E3A8971&0&2`|
+|device_description|DeviceDescription|string|"Device description" attribute of device.|`Touchscreen`|
+|class_id|ClassId|string|"Class Guid" attribute of device.|`{00000000-0000-0000-0000-000000000000}`|
+|class_name|ClassName|string|"Class" attribute of device.|`None`|
+|hardware_ids|HardwareIds|string|"Hardware Ids" attribute of device.|`USB\VID_04F3&PID_012D&REV_0013 USB\VID_04F3&PID_012D`|
+|compatible_ids|CompatibleIds|string|"Compatible Ids" attribute of device.|`USB\Class_03&SubClass_00&Prot_00 USB\Class_03&SubClass_00 USB\Class_03`|
+|location_information|LocationInformation|string|"Location information" attribute of device.|`Port#0002.Hub#0004`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-6423.md)

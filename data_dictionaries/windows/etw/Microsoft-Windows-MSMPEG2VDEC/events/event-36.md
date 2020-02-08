@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DecoderGUID|TBD|GUID|None|None|
-|TBD|NumSurfaces|TBD|UInt32|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|RenderTarget|TBD|UInt32|None|None|
-|TBD|D3DFormat|TBD|UInt32|None|None|
+|TBD|DecoderGUID|GUID|None|`None`|
+|TBD|NumSurfaces|UInt32|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|RenderTarget|UInt32|None|`None`|
+|TBD|D3DFormat|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|DXGIFormat|TBD|UInt32|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|DXGIFormat|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

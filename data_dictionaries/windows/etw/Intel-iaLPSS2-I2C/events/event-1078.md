@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SpbController|TBD|Pointer|None|None|
-|TBD|FxTarget|TBD|Pointer|None|None|
+|TBD|SpbController|Pointer|None|`None`|
+|TBD|FxTarget|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

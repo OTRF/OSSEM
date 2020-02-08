@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Event|TBD|UInt32|None|None|
-|TBD|Interface|TBD|UInt32|None|None|
-|TBD|CompartmentId|TBD|UInt32|None|None|
-|TBD|RouterAddrLength|TBD|UInt32|None|None|
-|TBD|RouterAddress|TBD|Binary|None|None|
-|TBD|DnsAddrLength|TBD|UInt32|None|None|
-|TBD|DNSServerAddress|TBD|Binary|None|None|
-|TBD|DNSSuffix|TBD|AnsiString|None|None|
-|TBD|Lifetime|TBD|UInt32|None|None|
+|TBD|Event|UInt32|None|`None`|
+|TBD|Interface|UInt32|None|`None`|
+|TBD|CompartmentId|UInt32|None|`None`|
+|TBD|RouterAddrLength|UInt32|None|`None`|
+|TBD|RouterAddress|Binary|None|`None`|
+|TBD|DnsAddrLength|UInt32|None|`None`|
+|TBD|DNSServerAddress|Binary|None|`None`|
+|TBD|DNSSuffix|AnsiString|None|`None`|
+|TBD|Lifetime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

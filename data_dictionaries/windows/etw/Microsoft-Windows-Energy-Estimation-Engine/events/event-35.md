@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LastStandbyTotal|TBD|UInt64|None|None|
-|TBD|CurrStandbyTotal|TBD|UInt64|None|None|
-|TBD|DeltaStandbyTotal|TBD|UInt64|None|None|
-|TBD|LastDripsTotal|TBD|UInt64|None|None|
-|TBD|CurrDripsTotal|TBD|UInt64|None|None|
-|TBD|DeltaDripsTotal|TBD|UInt64|None|None|
-|TBD|LastActivationTotal|TBD|UInt64|None|None|
-|TBD|CurrActivationTotal|TBD|UInt64|None|None|
-|TBD|DeltaActivationTotal|TBD|UInt64|None|None|
+|TBD|LastStandbyTotal|UInt64|None|`None`|
+|TBD|CurrStandbyTotal|UInt64|None|`None`|
+|TBD|DeltaStandbyTotal|UInt64|None|`None`|
+|TBD|LastDripsTotal|UInt64|None|`None`|
+|TBD|CurrDripsTotal|UInt64|None|`None`|
+|TBD|DeltaDripsTotal|UInt64|None|`None`|
+|TBD|LastActivationTotal|UInt64|None|`None`|
+|TBD|CurrActivationTotal|UInt64|None|`None`|
+|TBD|DeltaActivationTotal|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

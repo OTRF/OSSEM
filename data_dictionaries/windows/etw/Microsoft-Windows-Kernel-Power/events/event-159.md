@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Throttle|TBD|UInt8|None|None|
-|TBD|Token|TBD|Pointer|None|None|
+|TBD|Throttle|UInt8|None|`None`|
+|TBD|Token|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

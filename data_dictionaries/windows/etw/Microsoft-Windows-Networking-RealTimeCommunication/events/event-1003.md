@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResetReason|TBD|UInt32|None|None|
-|TBD|HardwareSlotReset|TBD|UInt32|None|None|
-|TBD|SoftwareSlotReset|TBD|UInt32|None|None|
+|TBD|ResetReason|UInt32|None|`None`|
+|TBD|HardwareSlotReset|UInt32|None|`None`|
+|TBD|SoftwareSlotReset|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

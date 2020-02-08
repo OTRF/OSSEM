@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsMachine|TBD|Boolean|None|None|
-|TBD|SlowlinkThresholdInMilliseconds|TBD|UInt32|None|None|
-|TBD|DcResponseTimeInMilliseconds|TBD|UInt32|None|None|
+|TBD|IsMachine|Boolean|None|`None`|
+|TBD|SlowlinkThresholdInMilliseconds|UInt32|None|`None`|
+|TBD|DcResponseTimeInMilliseconds|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

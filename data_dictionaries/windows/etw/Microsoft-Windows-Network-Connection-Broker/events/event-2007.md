@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BrokerEventId|TBD|GUID|None|None|
-|TBD|AppName|TBD|UnicodeString|None|None|
-|TBD|CallReason|TBD|Int32|None|None|
+|TBD|BrokerEventId|GUID|None|`None`|
+|TBD|AppName|UnicodeString|None|`None`|
+|TBD|CallReason|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

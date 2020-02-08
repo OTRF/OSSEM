@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|GdiSpritePointer|TBD|UInt64|None|None|
-|TBD|logicalSurfaceHandle|TBD|UInt64|None|None|
+|TBD|GdiSpritePointer|UInt64|None|`None`|
+|TBD|logicalSurfaceHandle|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

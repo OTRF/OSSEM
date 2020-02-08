@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AppUserModelId|TBD|UnicodeString|None|None|
-|TBD|PendingTaskCompletions|TBD|UInt32|None|None|
-|TBD|DeferredTerminate|TBD|Boolean|None|None|
-|TBD|Result|TBD|UInt32|None|None|
+|TBD|AppUserModelId|UnicodeString|None|`None`|
+|TBD|PendingTaskCompletions|UInt32|None|`None`|
+|TBD|DeferredTerminate|Boolean|None|`None`|
+|TBD|Result|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

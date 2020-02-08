@@ -6,20 +6,20 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SSID|TBD|UnicodeString|None|None|
-|TBD|Identity|TBD|UnicodeString|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|PeerMac|TBD|UnicodeString|None|None|
-|TBD|LocalMac|TBD|UnicodeString|None|None|
-|TBD|IntfGuid|TBD|GUID|None|None|
-|TBD|ReasonCode|TBD|HexInt32|None|None|
-|TBD|ReasonText|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|EAPReasonCode|TBD|HexInt32|None|None|
-|TBD|EapRootCauseString|TBD|UnicodeString|None|None|
-|TBD|EAPErrorCode|TBD|HexInt32|None|None|
+|TBD|SSID|UnicodeString|None|`None`|
+|TBD|Identity|UnicodeString|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|PeerMac|UnicodeString|None|`None`|
+|TBD|LocalMac|UnicodeString|None|`None`|
+|TBD|IntfGuid|GUID|None|`None`|
+|TBD|ReasonCode|HexInt32|None|`None`|
+|TBD|ReasonText|UnicodeString|None|`None`|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|EAPReasonCode|HexInt32|None|`None`|
+|TBD|EapRootCauseString|UnicodeString|None|`None`|
+|TBD|EAPErrorCode|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

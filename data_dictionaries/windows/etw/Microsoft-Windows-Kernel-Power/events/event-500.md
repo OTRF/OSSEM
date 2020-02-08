@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SpindownTimeout|TBD|UInt32|None|None|
-|TBD|TimerInterval|TBD|UInt32|None|None|
-|TBD|FlushInterval|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|SpindownTimeout|UInt32|None|`None`|
+|TBD|TimerInterval|UInt32|None|`None`|
+|TBD|FlushInterval|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

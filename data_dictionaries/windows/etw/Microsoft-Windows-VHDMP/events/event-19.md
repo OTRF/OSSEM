@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VhdFileName|TBD|UnicodeString|None|None|
-|TBD|VhdInstanceId|TBD|GUID|None|None|
+|TBD|VhdFileName|UnicodeString|None|`None`|
+|TBD|VhdInstanceId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

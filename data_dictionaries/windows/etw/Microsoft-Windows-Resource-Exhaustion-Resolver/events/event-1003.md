@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeSinceLastUI|TBD|UInt32|None|None|
-|TBD|EventGenerationTime|TBD|FILETIME|None|None|
-|TBD|EventType|TBD|UInt32|None|None|
-|TBD|DropReasonCode|TBD|UInt32|None|None|
-|TBD|TimesUIShown|TBD|UInt8|None|None|
-|TBD|MaxCommit|TBD|UInt8|None|None|
+|TBD|TimeSinceLastUI|UInt32|None|`None`|
+|TBD|EventGenerationTime|FILETIME|None|`None`|
+|TBD|EventType|UInt32|None|`None`|
+|TBD|DropReasonCode|UInt32|None|`None`|
+|TBD|TimesUIShown|UInt8|None|`None`|
+|TBD|MaxCommit|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Warning

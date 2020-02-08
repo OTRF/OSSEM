@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PoFxDeviceHandle|TBD|HexInt64|None|None|
-|TBD|PStateRequested|TBD|UInt32|None|None|
-|TBD|PStateRequestCount|TBD|UInt64|None|None|
+|TBD|PoFxDeviceHandle|HexInt64|None|`None`|
+|TBD|PStateRequested|UInt32|None|`None`|
+|TBD|PStateRequestCount|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

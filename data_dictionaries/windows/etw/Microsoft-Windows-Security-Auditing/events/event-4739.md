@@ -6,27 +6,27 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DomainPolicyChanged|TBD|UnicodeString|None|None|
-|TBD|DomainName|TBD|UnicodeString|None|None|
-|TBD|DomainSid|TBD|SID|None|None|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|PrivilegeList|TBD|UnicodeString|None|None|
-|TBD|MinPasswordAge|TBD|UnicodeString|None|None|
-|TBD|MaxPasswordAge|TBD|UnicodeString|None|None|
-|TBD|ForceLogoff|TBD|UnicodeString|None|None|
-|TBD|LockoutThreshold|TBD|UnicodeString|None|None|
-|TBD|LockoutObservationWindow|TBD|UnicodeString|None|None|
-|TBD|LockoutDuration|TBD|UnicodeString|None|None|
-|TBD|PasswordProperties|TBD|UnicodeString|None|None|
-|TBD|MinPasswordLength|TBD|UnicodeString|None|None|
-|TBD|PasswordHistoryLength|TBD|UnicodeString|None|None|
-|TBD|MachineAccountQuota|TBD|UnicodeString|None|None|
-|TBD|MixedDomainMode|TBD|UnicodeString|None|None|
-|TBD|DomainBehaviorVersion|TBD|UnicodeString|None|None|
-|TBD|OemInformation|TBD|UnicodeString|None|None|
+|TBD|DomainPolicyChanged|UnicodeString|None|`None`|
+|TBD|DomainName|UnicodeString|None|`None`|
+|TBD|DomainSid|SID|None|`None`|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|PrivilegeList|UnicodeString|None|`None`|
+|TBD|MinPasswordAge|UnicodeString|None|`None`|
+|TBD|MaxPasswordAge|UnicodeString|None|`None`|
+|TBD|ForceLogoff|UnicodeString|None|`None`|
+|TBD|LockoutThreshold|UnicodeString|None|`None`|
+|TBD|LockoutObservationWindow|UnicodeString|None|`None`|
+|TBD|LockoutDuration|UnicodeString|None|`None`|
+|TBD|PasswordProperties|UnicodeString|None|`None`|
+|TBD|MinPasswordLength|UnicodeString|None|`None`|
+|TBD|PasswordHistoryLength|UnicodeString|None|`None`|
+|TBD|MachineAccountQuota|UnicodeString|None|`None`|
+|TBD|MixedDomainMode|UnicodeString|None|`None`|
+|TBD|DomainBehaviorVersion|UnicodeString|None|`None`|
+|TBD|OemInformation|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

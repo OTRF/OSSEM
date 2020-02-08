@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NoDisplay|TBD|Boolean|None|None|
-|TBD|OffscreenDisplay|TBD|Boolean|None|None|
-|TBD|StereoDisplay|TBD|Boolean|None|None|
-|TBD|NoSwapChain|TBD|Boolean|None|None|
-|TBD|SingleBufferSwapChain|TBD|Boolean|None|None|
-|TBD|DetachedSwapChain|TBD|Boolean|None|None|
-|TBD|IncompatibleSwapChain|TBD|Boolean|None|None|
-|TBD|NoSurface|TBD|Boolean|None|None|
-|TBD|KillSwitch|TBD|Boolean|None|None|
-|TBD|NonWhitelistedVendor|TBD|Boolean|None|None|
-|TBD|BlacklistedDriver|TBD|Boolean|None|None|
-|TBD|NoCapability|TBD|Boolean|None|None|
+|TBD|NoDisplay|Boolean|None|`None`|
+|TBD|OffscreenDisplay|Boolean|None|`None`|
+|TBD|StereoDisplay|Boolean|None|`None`|
+|TBD|NoSwapChain|Boolean|None|`None`|
+|TBD|SingleBufferSwapChain|Boolean|None|`None`|
+|TBD|DetachedSwapChain|Boolean|None|`None`|
+|TBD|IncompatibleSwapChain|Boolean|None|`None`|
+|TBD|NoSurface|Boolean|None|`None`|
+|TBD|KillSwitch|Boolean|None|`None`|
+|TBD|NonWhitelistedVendor|Boolean|None|`None`|
+|TBD|BlacklistedDriver|Boolean|None|`None`|
+|TBD|NoCapability|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

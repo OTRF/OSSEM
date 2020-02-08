@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SENSOR_ID|TBD|GUID|None|None|
-|TBD|Timestamp|TBD|SYSTEMTIME|None|None|
+|TBD|SENSOR_ID|GUID|None|`None`|
+|TBD|Timestamp|SYSTEMTIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

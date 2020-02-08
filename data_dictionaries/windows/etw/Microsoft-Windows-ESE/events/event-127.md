@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pfnTask|TBD|Pointer|None|None|
-|TBD|pvTaskContext|TBD|Pointer|None|None|
-|TBD|dwContext|TBD|Pointer|None|None|
-|TBD|cRuns|TBD|UInt64|None|None|
+|TBD|pfnTask|Pointer|None|`None`|
+|TBD|pvTaskContext|Pointer|None|`None`|
+|TBD|dwContext|Pointer|None|`None`|
+|TBD|cRuns|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

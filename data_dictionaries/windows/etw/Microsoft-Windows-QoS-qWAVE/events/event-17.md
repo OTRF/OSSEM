@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AddressLen|TBD|UInt32|None|None|
-|TBD|Address|TBD|Binary|None|None|
-|TBD|TrafficType|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|Offlink|TBD|Boolean|None|None|
+|TBD|AddressLen|UInt32|None|`None`|
+|TBD|Address|Binary|None|`None`|
+|TBD|TrafficType|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|Offlink|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

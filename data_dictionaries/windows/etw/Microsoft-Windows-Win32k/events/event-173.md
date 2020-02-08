@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|DelayTimeMs|TBD|UInt32|None|None|
-|TBD|TimeSinceInputRemoveMs|TBD|UInt32|None|None|
-|TBD|TimeSinceOldestInputMs|TBD|UInt32|None|None|
-|TBD|ClassName|TBD|UnicodeString|None|None|
-|TBD|TopLevelClassName|TBD|UnicodeString|None|None|
-|TBD|PackageMoniker|TBD|UnicodeString|None|None|
-|TBD|AppUserModelId|TBD|UnicodeString|None|None|
-|TBD|MessageId|TBD|UInt32|None|None|
-|TBD|WParam|TBD|UInt64|None|None|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|DelayTimeMs|UInt32|None|`None`|
+|TBD|TimeSinceInputRemoveMs|UInt32|None|`None`|
+|TBD|TimeSinceOldestInputMs|UInt32|None|`None`|
+|TBD|ClassName|UnicodeString|None|`None`|
+|TBD|TopLevelClassName|UnicodeString|None|`None`|
+|TBD|PackageMoniker|UnicodeString|None|`None`|
+|TBD|AppUserModelId|UnicodeString|None|`None`|
+|TBD|MessageId|UInt32|None|`None`|
+|TBD|WParam|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

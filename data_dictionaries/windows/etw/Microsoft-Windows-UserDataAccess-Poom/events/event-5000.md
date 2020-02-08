@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_CriticalSection_Name|TBD|UnicodeString|None|None|
-|TBD|Prop_TimeHeld|TBD|UInt64|None|None|
-|TBD|Prop_ReleaseFunction|TBD|UInt32|None|None|
+|TBD|Prop_CriticalSection_Name|UnicodeString|None|`None`|
+|TBD|Prop_TimeHeld|UInt64|None|`None`|
+|TBD|Prop_ReleaseFunction|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

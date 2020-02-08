@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Luid|TBD|UnicodeString|None|None|
-|TBD|ClientPrincipalName|TBD|UnicodeString|None|None|
-|TBD|ServicePrincipalName|TBD|UnicodeString|None|None|
-|TBD|TicketFlags|TBD|UnicodeString|None|None|
-|TBD|StartTime|TBD|UnicodeString|None|None|
-|TBD|EndTime|TBD|UnicodeString|None|None|
-|TBD|RenewUntil|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|UnicodeString|None|None|
+|TBD|Luid|UnicodeString|None|`None`|
+|TBD|ClientPrincipalName|UnicodeString|None|`None`|
+|TBD|ServicePrincipalName|UnicodeString|None|`None`|
+|TBD|TicketFlags|UnicodeString|None|`None`|
+|TBD|StartTime|UnicodeString|None|`None`|
+|TBD|EndTime|UnicodeString|None|`None`|
+|TBD|RenewUntil|UnicodeString|None|`None`|
+|TBD|ErrorCode|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|mbnInterface|TBD|UnicodeString|None|None|
-|TBD|cellularClass|TBD|Int32|None|None|
+|TBD|mbnInterface|UnicodeString|None|`None`|
+|TBD|cellularClass|Int32|None|`None`|
 
 ## Tags
 * etw_level_Warning

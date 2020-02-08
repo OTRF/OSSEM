@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|KaValueType|TBD|UInt32|None|None|
-|TBD|KaValue|TBD|UInt32|None|None|
-|TBD|KaMinLimit|TBD|UInt32|None|None|
+|TBD|KaValueType|UInt32|None|`None`|
+|TBD|KaValue|UInt32|None|`None`|
+|TBD|KaMinLimit|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

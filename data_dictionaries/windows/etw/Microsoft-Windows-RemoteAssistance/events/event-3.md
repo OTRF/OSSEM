@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|file|TBD|UnicodeString|None|None|
-|TBD|line|TBD|UInt32|None|None|
-|TBD|function|TBD|UnicodeString|None|None|
-|TBD|error|TBD|UInt32|None|None|
+|TBD|file|UnicodeString|None|`None`|
+|TBD|line|UInt32|None|`None`|
+|TBD|function|UnicodeString|None|`None`|
+|TBD|error|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Critical

@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IddAdapterLuid|TBD|Int64|None|None|
-|TBD|PathIdx|TBD|UInt32|None|None|
-|TBD|MonitorConnectorIndex|TBD|UInt32|None|None|
-|TBD|Positionx|TBD|UInt32|None|None|
-|TBD|Positiony|TBD|UInt32|None|None|
-|TBD|ResolutionWidth|TBD|UInt32|None|None|
-|TBD|ResolutionHeight|TBD|UInt32|None|None|
-|TBD|VSync|TBD|Float|None|None|
-|TBD|VSyncDivider|TBD|UInt32|None|None|
-|TBD|Rotation|TBD|UInt32|None|None|
-|TBD|DPI|TBD|UInt32|None|None|
-|TBD|PhysicalSizeWidth|TBD|UInt32|None|None|
-|TBD|PhysicalSizeHeight|TBD|UInt32|None|None|
+|TBD|IddAdapterLuid|Int64|None|`None`|
+|TBD|PathIdx|UInt32|None|`None`|
+|TBD|MonitorConnectorIndex|UInt32|None|`None`|
+|TBD|Positionx|UInt32|None|`None`|
+|TBD|Positiony|UInt32|None|`None`|
+|TBD|ResolutionWidth|UInt32|None|`None`|
+|TBD|ResolutionHeight|UInt32|None|`None`|
+|TBD|VSync|Float|None|`None`|
+|TBD|VSyncDivider|UInt32|None|`None`|
+|TBD|Rotation|UInt32|None|`None`|
+|TBD|DPI|UInt32|None|`None`|
+|TBD|PhysicalSizeWidth|UInt32|None|`None`|
+|TBD|PhysicalSizeHeight|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResponseCode|TBD|Int32|None|None|
-|TBD|RequestHandle|TBD|Pointer|None|None|
-|TBD|SocketHandle|TBD|Pointer|None|None|
-|TBD|_VerbLength|TBD|UInt16|None|None|
-|TBD|Verb|TBD|AnsiString|None|None|
-|TBD|_ContentLengthStrLength|TBD|UInt16|None|None|
-|TBD|ContentLength|TBD|AnsiString|None|None|
+|TBD|ResponseCode|Int32|None|`None`|
+|TBD|RequestHandle|Pointer|None|`None`|
+|TBD|SocketHandle|Pointer|None|`None`|
+|TBD|_VerbLength|UInt16|None|`None`|
+|TBD|Verb|AnsiString|None|`None`|
+|TBD|_ContentLengthStrLength|UInt16|None|`None`|
+|TBD|ContentLength|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

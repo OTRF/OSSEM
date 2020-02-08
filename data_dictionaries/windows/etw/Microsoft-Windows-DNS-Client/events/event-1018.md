@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|QueryName|TBD|UnicodeString|None|None|
-|TBD|AddressLength|TBD|UInt32|None|None|
-|TBD|Address|TBD|Binary|None|None|
-|TBD|DnsAddressLength|TBD|UInt32|None|None|
-|TBD|DnsAddress|TBD|Binary|None|None|
+|TBD|QueryName|UnicodeString|None|`None`|
+|TBD|AddressLength|UInt32|None|`None`|
+|TBD|Address|Binary|None|`None`|
+|TBD|DnsAddressLength|UInt32|None|`None`|
+|TBD|DnsAddress|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

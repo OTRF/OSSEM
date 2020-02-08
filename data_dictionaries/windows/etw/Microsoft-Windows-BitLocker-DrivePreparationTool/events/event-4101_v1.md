@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ExtentOffset|TBD|UInt64|None|None|
-|TBD|NewPartitionSize|TBD|UInt64|None|None|
-|TBD|NewDriveLetter|TBD|UnicodeString|None|None|
+|TBD|ExtentOffset|UInt64|None|`None`|
+|TBD|NewPartitionSize|UInt64|None|`None`|
+|TBD|NewDriveLetter|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

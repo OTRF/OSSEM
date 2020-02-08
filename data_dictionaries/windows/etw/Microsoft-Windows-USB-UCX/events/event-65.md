@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Endpoint|TBD|Pointer|None|None|
-|TBD|fid_URB_PipeHandle|TBD|Pointer|None|None|
-|TBD|fid_State|TBD|UInt32|None|None|
-|TBD|fid_Event|TBD|UInt32|None|None|
+|TBD|fid_Endpoint|Pointer|None|`None`|
+|TBD|fid_URB_PipeHandle|Pointer|None|`None`|
+|TBD|fid_State|UInt32|None|`None`|
+|TBD|fid_Event|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

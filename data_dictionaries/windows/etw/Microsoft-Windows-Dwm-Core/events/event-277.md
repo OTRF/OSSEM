@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|manipulationContextPointer|TBD|Pointer|None|None|
-|TBD|pointerId|TBD|UInt32|None|None|
+|TBD|manipulationContextPointer|Pointer|None|`None`|
+|TBD|pointerId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

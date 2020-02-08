@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|OldPartitionCount|TBD|UInt64|None|None|
-|TBD|OldPartitionMask|TBD|UInt64|None|None|
-|TBD|NewPartitionCount|TBD|UInt64|None|None|
-|TBD|NewPartitionMask|TBD|UInt64|None|None|
+|TBD|OldPartitionCount|UInt64|None|`None`|
+|TBD|OldPartitionMask|UInt64|None|`None`|
+|TBD|NewPartitionCount|UInt64|None|`None`|
+|TBD|NewPartitionMask|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hGadget|TBD|UInt32|None|None|
-|TBD|nCode|TBD|UInt32|None|None|
-|TBD|fCopy|TBD|Boolean|None|None|
-|TBD|fRemainLayered|TBD|Boolean|None|None|
+|TBD|hGadget|UInt32|None|`None`|
+|TBD|nCode|UInt32|None|`None`|
+|TBD|fCopy|Boolean|None|`None`|
+|TBD|fRemainLayered|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

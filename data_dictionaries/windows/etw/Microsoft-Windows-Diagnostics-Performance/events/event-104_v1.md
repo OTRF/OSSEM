@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StartTime|TBD|FILETIME|None|None|
-|TBD|NameLength|TBD|UInt32|None|None|
-|TBD|Name|TBD|UnicodeString|None|None|
-|TBD|TotalTime|TBD|UInt32|None|None|
-|TBD|DegradationTime|TBD|UInt32|None|None|
+|TBD|StartTime|FILETIME|None|`None`|
+|TBD|NameLength|UInt32|None|`None`|
+|TBD|Name|UnicodeString|None|`None`|
+|TBD|TotalTime|UInt32|None|`None`|
+|TBD|DegradationTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

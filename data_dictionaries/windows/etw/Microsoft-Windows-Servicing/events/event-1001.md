@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|updateName|TBD|UnicodeString|None|None|
-|TBD|identifier|TBD|UnicodeString|None|None|
-|TBD|releaseType|TBD|UnicodeString|None|None|
-|TBD|updateStateLoc|TBD|UnicodeString|None|None|
-|TBD|updateState|TBD|UnicodeString|None|None|
-|TBD|packageAssembly|TBD|UnicodeString|None|None|
-|TBD|updateDisplayName|TBD|UnicodeString|None|None|
-|TBD|operation|TBD|UnicodeString|None|None|
-|TBD|operationCompleted|TBD|UnicodeString|None|None|
-|TBD|errorCode|TBD|UnicodeString|None|None|
-|TBD|rebootOption|TBD|UnicodeString|None|None|
+|TBD|updateName|UnicodeString|None|`None`|
+|TBD|identifier|UnicodeString|None|`None`|
+|TBD|releaseType|UnicodeString|None|`None`|
+|TBD|updateStateLoc|UnicodeString|None|`None`|
+|TBD|updateState|UnicodeString|None|`None`|
+|TBD|packageAssembly|UnicodeString|None|`None`|
+|TBD|updateDisplayName|UnicodeString|None|`None`|
+|TBD|operation|UnicodeString|None|`None`|
+|TBD|operationCompleted|UnicodeString|None|`None`|
+|TBD|errorCode|UnicodeString|None|`None`|
+|TBD|rebootOption|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

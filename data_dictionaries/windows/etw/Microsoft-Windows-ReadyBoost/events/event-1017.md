@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DefragCompletionTimestamp|TBD|FILETIME|None|None|
+|TBD|DefragCompletionTimestamp|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

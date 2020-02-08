@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pVaAllocator|TBD|Pointer|None|None|
-|TBD|pOwner|TBD|Pointer|None|None|
-|TBD|OwnerOffset|TBD|UInt64|None|None|
-|TBD|StartAddress|TBD|UInt64|None|None|
-|TBD|EndAddress|TBD|UInt64|None|None|
-|TBD|Protection|TBD|UInt64|None|None|
-|TBD|DriverProtection|TBD|UInt64|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|MappedAllocationBase|TBD|UInt64|None|None|
-|TBD|MappedAllocationSize|TBD|UInt64|None|None|
+|TBD|pVaAllocator|Pointer|None|`None`|
+|TBD|pOwner|Pointer|None|`None`|
+|TBD|OwnerOffset|UInt64|None|`None`|
+|TBD|StartAddress|UInt64|None|`None`|
+|TBD|EndAddress|UInt64|None|`None`|
+|TBD|Protection|UInt64|None|`None`|
+|TBD|DriverProtection|UInt64|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|MappedAllocationBase|UInt64|None|`None`|
+|TBD|MappedAllocationSize|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

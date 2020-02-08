@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CGarbageTracker|TBD|Pointer|None|None|
-|TBD|ResourceType|TBD|UInt32|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|RequestedGCType|TBD|UInt32|None|None|
-|TBD|GCType|TBD|UInt32|None|None|
+|TBD|CGarbageTracker|Pointer|None|`None`|
+|TBD|ResourceType|UInt32|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|RequestedGCType|UInt32|None|`None`|
+|TBD|GCType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Tcb|TBD|Pointer|None|None|
-|TBD|TimerType|TBD|UInt32|None|None|
-|TBD|WaitTimeMilliseconds|TBD|UInt32|None|None|
+|TBD|Tcb|Pointer|None|`None`|
+|TBD|TimerType|UInt32|None|`None`|
+|TBD|WaitTimeMilliseconds|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

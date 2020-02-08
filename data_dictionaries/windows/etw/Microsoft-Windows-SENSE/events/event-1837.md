@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|previousCriticalityValue|TBD|UnicodeString|None|None|
-|TBD|IsDefault|TBD|Boolean|None|None|
-|TBD|newCriticalityValue|TBD|UInt32|None|None|
-|TBD|HRESULT|TBD|HexInt32|None|None|
+|TBD|previousCriticalityValue|UnicodeString|None|`None`|
+|TBD|IsDefault|Boolean|None|`None`|
+|TBD|newCriticalityValue|UInt32|None|`None`|
+|TBD|HRESULT|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

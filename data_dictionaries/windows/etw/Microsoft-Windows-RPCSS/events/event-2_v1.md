@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceUUID|TBD|GUID|None|None|
-|TBD|ObjectUUID|TBD|GUID|None|None|
-|TBD|Protocol|TBD|AnsiString|None|None|
-|TBD|EndPoint|TBD|AnsiString|None|None|
+|TBD|InterfaceUUID|GUID|None|`None`|
+|TBD|ObjectUUID|GUID|None|`None`|
+|TBD|Protocol|AnsiString|None|`None`|
+|TBD|EndPoint|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

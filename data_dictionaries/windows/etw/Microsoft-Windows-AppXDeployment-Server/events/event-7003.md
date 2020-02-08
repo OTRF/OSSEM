@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|Key|TBD|UnicodeString|None|None|
-|TBD|Subkey|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|ErrorText|TBD|UnicodeString|None|None|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|Key|UnicodeString|None|`None`|
+|TBD|Subkey|UnicodeString|None|`None`|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|ErrorText|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

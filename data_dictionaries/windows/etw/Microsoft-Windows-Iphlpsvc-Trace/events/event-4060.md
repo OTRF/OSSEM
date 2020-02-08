@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SockAddrLength|TBD|UInt32|None|None|
-|TBD|ServiceType|TBD|UInt32|None|None|
-|TBD|MappingType|TBD|UInt32|None|None|
-|TBD|SocketAddress|TBD|Binary|None|None|
+|TBD|SockAddrLength|UInt32|None|`None`|
+|TBD|ServiceType|UInt32|None|`None`|
+|TBD|MappingType|UInt32|None|`None`|
+|TBD|SocketAddress|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

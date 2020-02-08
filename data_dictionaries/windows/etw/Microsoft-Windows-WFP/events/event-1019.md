@@ -6,27 +6,27 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LocalSpn|TBD|UnicodeString|None|None|
-|TBD|PeerSpn|TBD|UnicodeString|None|None|
-|TBD|MainModeLocalAddressLength|TBD|UInt32|None|None|
-|TBD|MainModeLocalAddress|TBD|Binary|None|None|
-|TBD|MainModePeerAddressLength|TBD|UInt32|None|None|
-|TBD|MainModePeerAddress|TBD|Binary|None|None|
-|TBD|AuthenticationMethodType|TBD|UInt32|None|None|
-|TBD|EncryptionAlgorithm|TBD|UInt32|None|None|
-|TBD|AuthenticationAlgorithm|TBD|UInt32|None|None|
-|TBD|DiffieHellmanGroup|TBD|UInt32|None|None|
-|TBD|LifetimeMinutes|TBD|UInt32|None|None|
-|TBD|QMLimit|TBD|UInt32|None|None|
-|TBD|Role|TBD|UInt32|None|None|
-|TBD|Impersonation|TBD|UInt32|None|None|
-|TBD|MMFilterId|TBD|UInt64|None|None|
-|TBD|SaLuid|TBD|UInt64|None|None|
-|TBD|UMLocalSPN|TBD|UnicodeString|None|None|
-|TBD|UMPeerSPN|TBD|UnicodeString|None|None|
-|TBD|UMAuthenticationMethodType|TBD|UInt32|None|None|
-|TBD|UMImpersonation|TBD|UInt32|None|None|
-|TBD|QMFilterId|TBD|UInt64|None|None|
+|TBD|LocalSpn|UnicodeString|None|`None`|
+|TBD|PeerSpn|UnicodeString|None|`None`|
+|TBD|MainModeLocalAddressLength|UInt32|None|`None`|
+|TBD|MainModeLocalAddress|Binary|None|`None`|
+|TBD|MainModePeerAddressLength|UInt32|None|`None`|
+|TBD|MainModePeerAddress|Binary|None|`None`|
+|TBD|AuthenticationMethodType|UInt32|None|`None`|
+|TBD|EncryptionAlgorithm|UInt32|None|`None`|
+|TBD|AuthenticationAlgorithm|UInt32|None|`None`|
+|TBD|DiffieHellmanGroup|UInt32|None|`None`|
+|TBD|LifetimeMinutes|UInt32|None|`None`|
+|TBD|QMLimit|UInt32|None|`None`|
+|TBD|Role|UInt32|None|`None`|
+|TBD|Impersonation|UInt32|None|`None`|
+|TBD|MMFilterId|UInt64|None|`None`|
+|TBD|SaLuid|UInt64|None|`None`|
+|TBD|UMLocalSPN|UnicodeString|None|`None`|
+|TBD|UMPeerSPN|UnicodeString|None|`None`|
+|TBD|UMAuthenticationMethodType|UInt32|None|`None`|
+|TBD|UMImpersonation|UInt32|None|`None`|
+|TBD|QMFilterId|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

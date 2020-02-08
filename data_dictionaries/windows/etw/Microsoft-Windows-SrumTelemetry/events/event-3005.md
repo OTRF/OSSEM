@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PreviousStateDurationInSeconds|TBD|UInt32|None|None|
-|TBD|NewEnergySaverState|TBD|Int8|None|None|
+|TBD|PreviousStateDurationInSeconds|UInt32|None|`None`|
+|TBD|NewEnergySaverState|Int8|None|`None`|
 
 ## Tags
 * etw_level_Informational

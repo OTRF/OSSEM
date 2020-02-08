@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NetworkAudioEntriesCount|TBD|Int64|None|None|
-|TBD|NetworkingReferenced|TBD|Boolean|None|None|
+|TBD|NetworkAudioEntriesCount|Int64|None|`None`|
+|TBD|NetworkingReferenced|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

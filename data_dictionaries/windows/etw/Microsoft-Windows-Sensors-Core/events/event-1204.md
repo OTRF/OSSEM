@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WdfDevice|TBD|Pointer|None|None|
-|TBD|SensorUsage|TBD|UInt16|None|None|
-|TBD|ReportId|TBD|UInt8|None|None|
-|TBD|Usage|TBD|UInt16|None|None|
+|TBD|WdfDevice|Pointer|None|`None`|
+|TBD|SensorUsage|UInt16|None|`None`|
+|TBD|ReportId|UInt8|None|`None`|
+|TBD|Usage|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Warning

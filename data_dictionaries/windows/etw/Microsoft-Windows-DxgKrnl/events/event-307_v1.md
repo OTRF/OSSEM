@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|hDmaBuffer|TBD|Pointer|None|None|
-|TBD|ContinueNextBuffer|TBD|Boolean|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|AllocationOffset|TBD|UInt64|None|None|
-|TBD|FillSize|TBD|UInt64|None|None|
-|TBD|FillPattern|TBD|UInt32|None|None|
-|TBD|SegmentId|TBD|UInt32|None|None|
-|TBD|DestinationVirtualAddress|TBD|UInt64|None|None|
-|TBD|SegmentOffset|TBD|UInt64|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|hDmaBuffer|Pointer|None|`None`|
+|TBD|ContinueNextBuffer|Boolean|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|AllocationOffset|UInt64|None|`None`|
+|TBD|FillSize|UInt64|None|`None`|
+|TBD|FillPattern|UInt32|None|`None`|
+|TBD|SegmentId|UInt32|None|`None`|
+|TBD|DestinationVirtualAddress|UInt64|None|`None`|
+|TBD|SegmentOffset|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

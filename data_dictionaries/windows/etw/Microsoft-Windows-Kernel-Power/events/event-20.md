@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Irp|TBD|Pointer|None|None|
-|TBD|Device|TBD|Pointer|None|None|
-|TBD|DriverName|TBD|UnicodeString|None|None|
+|TBD|Irp|Pointer|None|`None`|
+|TBD|Device|Pointer|None|`None`|
+|TBD|DriverName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|pDmaBuffer|TBD|Pointer|None|None|
-|TBD|DmaSize|TBD|UInt64|None|None|
-|TBD|AllocationListSize|TBD|UInt64|None|None|
-|TBD|PatchLocationListSize|TBD|UInt64|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|pDmaBuffer|Pointer|None|`None`|
+|TBD|DmaSize|UInt64|None|`None`|
+|TBD|AllocationListSize|UInt64|None|`None`|
+|TBD|PatchLocationListSize|UInt64|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

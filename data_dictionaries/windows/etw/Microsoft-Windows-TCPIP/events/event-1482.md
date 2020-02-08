@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Endpoint|TBD|Pointer|None|None|
-|TBD|SegmentSize|TBD|UInt32|None|None|
-|TBD|MessageLength|TBD|UInt64|None|None|
-|TBD|HwDatagrams|TBD|UInt32|None|None|
-|TBD|HwSegments|TBD|UInt32|None|None|
-|TBD|SwSegments|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|Endpoint|Pointer|None|`None`|
+|TBD|SegmentSize|UInt32|None|`None`|
+|TBD|MessageLength|UInt64|None|`None`|
+|TBD|HwDatagrams|UInt32|None|`None`|
+|TBD|HwSegments|UInt32|None|`None`|
+|TBD|SwSegments|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

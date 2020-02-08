@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UcxController|TBD|Pointer|None|None|
-|TBD|fid_TimeTrackingHandle|TBD|Pointer|None|None|
-|TBD|fid_IsCloseHandleFromClient|TBD|Boolean|None|None|
-|TBD|fid_RequestorMode|TBD|UInt32|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
-|TBD|fid_NumberOfGetFrameQpcCalls|TBD|UInt32|None|None|
-|TBD|fid_NumberOfFrameQpcTranslations|TBD|UInt32|None|None|
+|TBD|fid_UcxController|Pointer|None|`None`|
+|TBD|fid_TimeTrackingHandle|Pointer|None|`None`|
+|TBD|fid_IsCloseHandleFromClient|Boolean|None|`None`|
+|TBD|fid_RequestorMode|UInt32|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
+|TBD|fid_NumberOfGetFrameQpcCalls|UInt32|None|`None`|
+|TBD|fid_NumberOfFrameQpcTranslations|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

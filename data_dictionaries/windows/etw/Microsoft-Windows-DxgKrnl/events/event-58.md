@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|hDmaBuffer|TBD|Pointer|None|None|
-|TBD|ContinueNextBuffer|TBD|Boolean|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|SegmentId|TBD|UInt32|None|None|
-|TBD|OffsetInPages|TBD|UInt64|None|None|
-|TBD|NumberOfPages|TBD|UInt64|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|EvictionResource|TBD|Boolean|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|hDmaBuffer|Pointer|None|`None`|
+|TBD|ContinueNextBuffer|Boolean|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|SegmentId|UInt32|None|`None`|
+|TBD|OffsetInPages|UInt64|None|`None`|
+|TBD|NumberOfPages|UInt64|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|EvictionResource|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

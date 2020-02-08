@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Cache|TBD|Pointer|None|None|
-|TBD|NumKeyParts|TBD|UInt32|None|None|
-|TBD|KeyParts|TBD|UInt16|None|None|
-|TBD|PrecomputedHash|TBD|Binary|None|None|
-|TBD|Value|TBD|Pointer|None|None|
-|TBD|ValueSize|TBD|UInt32|None|None|
+|TBD|Cache|Pointer|None|`None`|
+|TBD|NumKeyParts|UInt32|None|`None`|
+|TBD|KeyParts|UInt16|None|`None`|
+|TBD|PrecomputedHash|Binary|None|`None`|
+|TBD|Value|Pointer|None|`None`|
+|TBD|ValueSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

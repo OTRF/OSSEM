@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCompositionSurfaceObject|TBD|Pointer|None|None|
-|TBD|SwapChainIndex|TBD|UInt32|None|None|
+|TBD|pCompositionSurfaceObject|Pointer|None|`None`|
+|TBD|SwapChainIndex|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BugcheckCode|TBD|UInt32|None|None|
-|TBD|BugcheckParameter1|TBD|Pointer|None|None|
-|TBD|BugcheckParameter2|TBD|Pointer|None|None|
-|TBD|BugcheckParameter3|TBD|Pointer|None|None|
-|TBD|BugcheckParameter4|TBD|Pointer|None|None|
-|TBD|SleepInProgress|TBD|Boolean|None|None|
-|TBD|PowerButtonTimestamp|TBD|UInt64|None|None|
-|TBD|BootAppStatus|TBD|UInt32|None|None|
+|TBD|BugcheckCode|UInt32|None|`None`|
+|TBD|BugcheckParameter1|Pointer|None|`None`|
+|TBD|BugcheckParameter2|Pointer|None|`None`|
+|TBD|BugcheckParameter3|Pointer|None|`None`|
+|TBD|BugcheckParameter4|Pointer|None|`None`|
+|TBD|SleepInProgress|Boolean|None|`None`|
+|TBD|PowerButtonTimestamp|UInt64|None|`None`|
+|TBD|BootAppStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Critical

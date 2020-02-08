@@ -6,20 +6,20 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionGuid|TBD|GUID|None|None|
-|TBD|LoggerMode|TBD|UInt32|None|None|
-|TBD|SessionName|TBD|UnicodeString|None|None|
-|TBD|LogFileName|TBD|UnicodeString|None|None|
-|TBD|MinimumBuffers|TBD|UInt32|None|None|
-|TBD|MaximumBuffers|TBD|UInt32|None|None|
-|TBD|BufferSize|TBD|UInt32|None|None|
-|TBD|PeakBuffersCount|TBD|UInt32|None|None|
-|TBD|CurrentBuffersCount|TBD|UInt32|None|None|
-|TBD|FlushThreshold|TBD|UInt32|None|None|
-|TBD|EventsLost|TBD|UInt32|None|None|
-|TBD|BuffersLost|TBD|UInt32|None|None|
-|TBD|RealTimeBuffersLost|TBD|UInt32|None|None|
-|TBD|LoggerId|TBD|UInt32|None|None|
+|TBD|SessionGuid|GUID|None|`None`|
+|TBD|LoggerMode|UInt32|None|`None`|
+|TBD|SessionName|UnicodeString|None|`None`|
+|TBD|LogFileName|UnicodeString|None|`None`|
+|TBD|MinimumBuffers|UInt32|None|`None`|
+|TBD|MaximumBuffers|UInt32|None|`None`|
+|TBD|BufferSize|UInt32|None|`None`|
+|TBD|PeakBuffersCount|UInt32|None|`None`|
+|TBD|CurrentBuffersCount|UInt32|None|`None`|
+|TBD|FlushThreshold|UInt32|None|`None`|
+|TBD|EventsLost|UInt32|None|`None`|
+|TBD|BuffersLost|UInt32|None|`None`|
+|TBD|RealTimeBuffersLost|UInt32|None|`None`|
+|TBD|LoggerId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fIsDraggingRequested|TBD|Boolean|None|None|
-|TBD|fIsPreviewCurrentlyDisplayed|TBD|Boolean|None|None|
-|TBD|CDMDraggableTouchTarget|TBD|Pointer|None|None|
+|TBD|fIsDraggingRequested|Boolean|None|`None`|
+|TBD|fIsPreviewCurrentlyDisplayed|Boolean|None|`None`|
+|TBD|CDMDraggableTouchTarget|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

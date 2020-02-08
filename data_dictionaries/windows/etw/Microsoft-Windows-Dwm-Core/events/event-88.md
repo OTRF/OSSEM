@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hlsurf|TBD|UInt64|None|None|
-|TBD|uiCookie|TBD|UInt64|None|None|
-|TBD|dwDirtyFlags|TBD|UInt32|None|None|
+|TBD|hlsurf|UInt64|None|`None`|
+|TBD|uiCookie|UInt64|None|`None`|
+|TBD|dwDirtyFlags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

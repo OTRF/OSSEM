@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Timestamp|TBD|Int64|None|None|
-|TBD|Bytes|TBD|UInt32|None|None|
+|TBD|Timestamp|Int64|None|`None`|
+|TBD|Bytes|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

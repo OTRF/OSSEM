@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HostedCacheLocation|TBD|UnicodeString|None|None|
+|TBD|HostedCacheLocation|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

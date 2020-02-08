@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DisplayDeviceFriendlyNameLength|TBD|UInt32|None|None|
-|TBD|DisplayDeviceFriendlyName|TBD|UnicodeString|None|None|
-|TBD|MemoryBandwidth|TBD|UInt32|None|None|
-|TBD|MemorySize|TBD|UInt32|None|None|
-|TBD|Scenario|TBD|UInt32|None|None|
+|TBD|DisplayDeviceFriendlyNameLength|UInt32|None|`None`|
+|TBD|DisplayDeviceFriendlyName|UnicodeString|None|`None`|
+|TBD|MemoryBandwidth|UInt32|None|`None`|
+|TBD|MemorySize|UInt32|None|`None`|
+|TBD|Scenario|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

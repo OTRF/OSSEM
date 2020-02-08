@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SocketID|TBD|GUID|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|PeerSendCreditsGranted|TBD|UInt32|None|None|
-|TBD|PeerSendCredits|TBD|UInt32|None|None|
+|TBD|SocketID|GUID|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|PeerSendCreditsGranted|UInt32|None|`None`|
+|TBD|PeerSendCredits|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

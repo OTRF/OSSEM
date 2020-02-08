@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeSinceStartUs|TBD|UInt32|None|None|
-|TBD|ExpectedFrameTimeUs|TBD|UInt32|None|None|
-|TBD|LastScrollTimeUs|TBD|UInt32|None|None|
+|TBD|TimeSinceStartUs|UInt32|None|`None`|
+|TBD|ExpectedFrameTimeUs|UInt32|None|`None`|
+|TBD|LastScrollTimeUs|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Id|TBD|GUID|None|None|
-|TBD|Manufacturer|TBD|UnicodeString|None|None|
-|TBD|Model|TBD|UnicodeString|None|None|
-|TBD|Serial|TBD|UnicodeString|None|None|
-|TBD|Revision|TBD|UnicodeString|None|None|
-|TBD|DriveCount|TBD|UInt32|None|None|
-|TBD|DriveIoSummary|TBD|Int32|None|None|
+|TBD|Id|GUID|None|`None`|
+|TBD|Manufacturer|UnicodeString|None|`None`|
+|TBD|Model|UnicodeString|None|`None`|
+|TBD|Serial|UnicodeString|None|`None`|
+|TBD|Revision|UnicodeString|None|`None`|
+|TBD|DriveCount|UInt32|None|`None`|
+|TBD|DriveIoSummary|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

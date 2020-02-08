@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeploymentOperation|TBD|UInt32|None|None|
-|TBD|Path|TBD|UnicodeString|None|None|
-|TBD|DependencyPaths|TBD|UnicodeString|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|FlagsHigh|TBD|UInt32|None|None|
-|TBD|CallingProcess|TBD|UnicodeString|None|None|
+|TBD|DeploymentOperation|UInt32|None|`None`|
+|TBD|Path|UnicodeString|None|`None`|
+|TBD|DependencyPaths|UnicodeString|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|FlagsHigh|UInt32|None|`None`|
+|TBD|CallingProcess|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

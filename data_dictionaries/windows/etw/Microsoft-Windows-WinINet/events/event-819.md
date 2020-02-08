@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WPADNetworkDecision|TBD|UInt32|None|None|
-|TBD|NetworkCount|TBD|UInt32|None|None|
+|TBD|WPADNetworkDecision|UInt32|None|`None`|
+|TBD|NetworkCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

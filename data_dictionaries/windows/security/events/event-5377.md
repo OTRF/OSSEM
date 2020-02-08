@@ -6,10 +6,10 @@ This event generates every time the user (Subject) successfully restores the cre
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_sid|SubjectUserSid|TBD|string|SID of account that performed the restore operation.|S-1-5-21-3457937927-2839227994-823803824-1104|
-|user_name|SubjectUserName|TBD|string|the name of the account that performed the restore operation.|dadmin|
-|user_domain|SubjectDomainName|TBD|string|subject's domain or computer name.|CONTOSO|
-|user_logon_id|SubjectLogonId|TBD|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|0x30d7c|
+|user_sid|SubjectUserSid|string|SID of account that performed the restore operation.|`S-1-5-21-3457937927-2839227994-823803824-1104`|
+|user_name|SubjectUserName|string|the name of the account that performed the restore operation.|`dadmin`|
+|user_domain|SubjectDomainName|string|subject's domain or computer name.|`CONTOSO`|
+|user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|`0x30d7c`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5377.md)

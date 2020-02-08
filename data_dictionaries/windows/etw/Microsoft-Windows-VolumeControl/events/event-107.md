@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|PrevChangeStamp|TBD|Int32|None|None|
-|TBD|ChangeStamp|TBD|Int32|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|PrevChangeStamp|Int32|None|`None`|
+|TBD|ChangeStamp|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

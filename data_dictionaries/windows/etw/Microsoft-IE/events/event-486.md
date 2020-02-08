@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CDoc|TBD|Pointer|None|None|
-|TBD|CElement|TBD|Pointer|None|None|
-|TBD|ElementTag|TBD|UInt32|None|None|
-|TBD|PrimaryTouchHandler|TBD|Boolean|None|None|
-|TBD|IndpendentlyComposed|TBD|Boolean|None|None|
-|TBD|TouchConfiguration|TBD|UInt32|None|None|
+|TBD|CDoc|Pointer|None|`None`|
+|TBD|CElement|Pointer|None|`None`|
+|TBD|ElementTag|UInt32|None|`None`|
+|TBD|PrimaryTouchHandler|Boolean|None|`None`|
+|TBD|IndpendentlyComposed|Boolean|None|`None`|
+|TBD|TouchConfiguration|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

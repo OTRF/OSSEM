@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TriggerID|TBD|GUID|None|None|
-|TBD|Application|TBD|UnicodeString|None|None|
-|TBD|TaskType|TBD|UInt32|None|None|
-|TBD|Device|TBD|UnicodeString|None|None|
-|TBD|HardwareId|TBD|UnicodeString|None|None|
-|TBD|Arguments|TBD|UnicodeString|None|None|
-|TBD|Error|TBD|Int32|None|None|
+|TBD|TriggerID|GUID|None|`None`|
+|TBD|Application|UnicodeString|None|`None`|
+|TBD|TaskType|UInt32|None|`None`|
+|TBD|Device|UnicodeString|None|`None`|
+|TBD|HardwareId|UnicodeString|None|`None`|
+|TBD|Arguments|UnicodeString|None|`None`|
+|TBD|Error|Int32|None|`None`|
 
 ## Tags
 * etw_level_Warning

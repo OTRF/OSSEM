@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|tsidr|TBD|UInt8|None|None|
-|TBD|dwDiskNumber|TBD|UInt32|None|None|
-|TBD|wszDiskPathId|TBD|UnicodeString|None|None|
-|TBD|szDiskModel|TBD|AnsiString|None|None|
-|TBD|szDiskFirmwareRev|TBD|AnsiString|None|None|
-|TBD|szDiskSerialNumber|TBD|AnsiString|None|None|
+|TBD|tsidr|UInt8|None|`None`|
+|TBD|dwDiskNumber|UInt32|None|`None`|
+|TBD|wszDiskPathId|UnicodeString|None|`None`|
+|TBD|szDiskModel|AnsiString|None|`None`|
+|TBD|szDiskFirmwareRev|AnsiString|None|`None`|
+|TBD|szDiskSerialNumber|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

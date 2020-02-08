@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_TargetState|TBD|UInt32|None|None|
-|TBD|fid_PowerAction|TBD|UInt32|None|None|
-|TBD|fid_WaitWakePending|TBD|UInt16|None|None|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_TargetState|UInt32|None|`None`|
+|TBD|fid_PowerAction|UInt32|None|`None`|
+|TBD|fid_WaitWakePending|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

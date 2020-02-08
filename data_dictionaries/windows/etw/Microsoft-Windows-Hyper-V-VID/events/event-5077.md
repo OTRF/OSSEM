@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TotalPages|TBD|HexInt64|None|None|
-|TBD|PlatformDirected|TBD|UInt8|None|None|
-|TBD|PartitionFriendlyName|TBD|UnicodeString|None|None|
-|TBD|PartitionName|TBD|UnicodeString|None|None|
-|TBD|Consumed|TBD|UInt8|None|None|
+|TBD|TotalPages|HexInt64|None|`None`|
+|TBD|PlatformDirected|UInt8|None|`None`|
+|TBD|PartitionFriendlyName|UnicodeString|None|`None`|
+|TBD|PartitionName|UnicodeString|None|`None`|
+|TBD|Consumed|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Warning

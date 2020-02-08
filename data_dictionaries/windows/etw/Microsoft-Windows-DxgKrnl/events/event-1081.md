@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportDeviceContext|TBD|Pointer|None|None|
-|TBD|RedirectedForIndirectDisplay|TBD|Boolean|None|None|
-|TBD|VidPnTargetId|TBD|UInt32|None|None|
-|TBD|DriverProtectedOutputHandle|TBD|Pointer|None|None|
-|TBD|ExternalProtectedOutputHandle|TBD|Pointer|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|MiniportDeviceContext|Pointer|None|`None`|
+|TBD|RedirectedForIndirectDisplay|Boolean|None|`None`|
+|TBD|VidPnTargetId|UInt32|None|`None`|
+|TBD|DriverProtectedOutputHandle|Pointer|None|`None`|
+|TBD|ExternalProtectedOutputHandle|Pointer|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SleepTime|TBD|UInt32|None|None|
-|TBD|ResumeTime|TBD|UInt32|None|None|
-|TBD|DriverWakeTime|TBD|UInt32|None|None|
-|TBD|HiberWriteTime|TBD|UInt32|None|None|
-|TBD|HiberReadTime|TBD|UInt32|None|None|
-|TBD|HiberPagesWritten|TBD|UInt32|None|None|
-|TBD|BiosInitTime|TBD|UInt32|None|None|
-|TBD|CheckpointTime|TBD|UInt32|None|None|
+|TBD|SleepTime|UInt32|None|`None`|
+|TBD|ResumeTime|UInt32|None|`None`|
+|TBD|DriverWakeTime|UInt32|None|`None`|
+|TBD|HiberWriteTime|UInt32|None|`None`|
+|TBD|HiberReadTime|UInt32|None|`None`|
+|TBD|HiberPagesWritten|UInt32|None|`None`|
+|TBD|BiosInitTime|UInt32|None|`None`|
+|TBD|CheckpointTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

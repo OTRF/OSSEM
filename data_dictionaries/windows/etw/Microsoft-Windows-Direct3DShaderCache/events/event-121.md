@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CurrentFileSize|TBD|UInt64|None|None|
-|TBD|CurrentWriteQueueSize|TBD|UInt64|None|None|
-|TBD|MaximimWriteQueueSize|TBD|UInt64|None|None|
-|TBD|NewValueSize|TBD|UInt32|None|None|
+|TBD|CurrentFileSize|UInt64|None|`None`|
+|TBD|CurrentWriteQueueSize|UInt64|None|`None`|
+|TBD|MaximimWriteQueueSize|UInt64|None|`None`|
+|TBD|NewValueSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

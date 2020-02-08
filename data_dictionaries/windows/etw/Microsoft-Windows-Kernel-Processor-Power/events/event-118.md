@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Group|TBD|UInt16|None|None|
-|TBD|Number|TBD|UInt8|None|None|
-|TBD|EfficiencyClass|TBD|UInt8|None|None|
-|TBD|SchedulingClass|TBD|UInt8|None|None|
+|TBD|Group|UInt16|None|`None`|
+|TBD|Number|UInt8|None|`None`|
+|TBD|EfficiencyClass|UInt8|None|`None`|
+|TBD|SchedulingClass|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

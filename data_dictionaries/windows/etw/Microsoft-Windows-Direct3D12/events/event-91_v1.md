@@ -6,31 +6,31 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pID3D12Device|TBD|Pointer|None|None|
-|TBD|pID3D12Resource|TBD|Pointer|None|None|
-|TBD|hUMResource|TBD|Pointer|None|None|
-|TBD|Dimension|TBD|UInt32|None|None|
-|TBD|Width|TBD|UInt64|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|Depth|TBD|UInt32|None|None|
-|TBD|MipLevels|TBD|UInt32|None|None|
-|TBD|ArraySize|TBD|UInt32|None|None|
-|TBD|PlaneCount|TBD|UInt32|None|None|
-|TBD|Format|TBD|UInt32|None|None|
-|TBD|SampleCount|TBD|UInt32|None|None|
-|TBD|SampleQuality|TBD|UInt32|None|None|
-|TBD|Layout|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|HeapType|TBD|UInt32|None|None|
-|TBD|pHeap|TBD|Pointer|None|None|
-|TBD|ImmutableHeapOffset|TBD|UInt64|None|None|
-|TBD|PlacedAlignment|TBD|UInt64|None|None|
-|TBD|PlacedSize|TBD|UInt64|None|None|
-|TBD|NumTilesForResource|TBD|UInt32|None|None|
-|TBD|NumPackedMips|TBD|UInt32|None|None|
-|TBD|NumTilesForPackedMips|TBD|UInt32|None|None|
-|TBD|pImmutableBuffer|TBD|Pointer|None|None|
-|TBD|ImmutableBufferOffset|TBD|UInt64|None|None|
+|TBD|pID3D12Device|Pointer|None|`None`|
+|TBD|pID3D12Resource|Pointer|None|`None`|
+|TBD|hUMResource|Pointer|None|`None`|
+|TBD|Dimension|UInt32|None|`None`|
+|TBD|Width|UInt64|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|Depth|UInt32|None|`None`|
+|TBD|MipLevels|UInt32|None|`None`|
+|TBD|ArraySize|UInt32|None|`None`|
+|TBD|PlaneCount|UInt32|None|`None`|
+|TBD|Format|UInt32|None|`None`|
+|TBD|SampleCount|UInt32|None|`None`|
+|TBD|SampleQuality|UInt32|None|`None`|
+|TBD|Layout|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|HeapType|UInt32|None|`None`|
+|TBD|pHeap|Pointer|None|`None`|
+|TBD|ImmutableHeapOffset|UInt64|None|`None`|
+|TBD|PlacedAlignment|UInt64|None|`None`|
+|TBD|PlacedSize|UInt64|None|`None`|
+|TBD|NumTilesForResource|UInt32|None|`None`|
+|TBD|NumPackedMips|UInt32|None|`None`|
+|TBD|NumTilesForPackedMips|UInt32|None|`None`|
+|TBD|pImmutableBuffer|Pointer|None|`None`|
+|TBD|ImmutableBufferOffset|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

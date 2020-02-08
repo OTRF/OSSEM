@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NewInternetConnectionProfile|TBD|Boolean|None|None|
-|TBD|ConnectionCostChanged|TBD|Boolean|None|None|
-|TBD|DomainConnectivityLevelChanged|TBD|Boolean|None|None|
-|TBD|NetworkConnectivityLevelChanged|TBD|Boolean|None|None|
-|TBD|HostNameChanged|TBD|Boolean|None|None|
-|TBD|WwanRegistrationStateChanged|TBD|Boolean|None|None|
-|TBD|TetheringOperationalStateChanged|TBD|Boolean|None|None|
-|TBD|TetheringClientCountChanged|TBD|Boolean|None|None|
+|TBD|NewInternetConnectionProfile|Boolean|None|`None`|
+|TBD|ConnectionCostChanged|Boolean|None|`None`|
+|TBD|DomainConnectivityLevelChanged|Boolean|None|`None`|
+|TBD|NetworkConnectivityLevelChanged|Boolean|None|`None`|
+|TBD|HostNameChanged|Boolean|None|`None`|
+|TBD|WwanRegistrationStateChanged|Boolean|None|`None`|
+|TBD|TetheringOperationalStateChanged|Boolean|None|`None`|
+|TBD|TetheringClientCountChanged|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

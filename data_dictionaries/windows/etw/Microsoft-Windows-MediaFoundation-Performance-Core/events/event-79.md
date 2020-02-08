@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|IsUninitialized|TBD|Boolean|None|None|
-|TBD|bInvalidatingStream|TBD|Boolean|None|None|
-|TBD|mfaOriginalState|TBD|Int32|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|IsUninitialized|Boolean|None|`None`|
+|TBD|bInvalidatingStream|Boolean|None|`None`|
+|TBD|mfaOriginalState|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiracastLuid|TBD|UInt64|None|None|
-|TBD|MiracastDeviceState|TBD|UInt32|None|None|
-|TBD|MiracastDeviceStatus|TBD|UInt32|None|None|
+|TBD|MiracastLuid|UInt64|None|`None`|
+|TBD|MiracastDeviceState|UInt32|None|`None`|
+|TBD|MiracastDeviceStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

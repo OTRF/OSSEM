@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DataMgr|TBD|Pointer|None|None|
-|TBD|VirtualAddress|TBD|Pointer|None|None|
-|TBD|PhysicalAddress|TBD|UInt64|None|None|
-|TBD|Size|TBD|UInt16|None|None|
-|TBD|FileBacked|TBD|UInt8|None|None|
-|TBD|CorruptionType|TBD|UInt8|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|DataMgr|Pointer|None|`None`|
+|TBD|VirtualAddress|Pointer|None|`None`|
+|TBD|PhysicalAddress|UInt64|None|`None`|
+|TBD|Size|UInt16|None|`None`|
+|TBD|FileBacked|UInt8|None|`None`|
+|TBD|CorruptionType|UInt8|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

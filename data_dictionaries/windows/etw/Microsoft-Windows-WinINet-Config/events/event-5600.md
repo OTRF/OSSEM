@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fAutoDetect|TBD|Boolean|None|None|
-|TBD|pwszAutoConfigUrl|TBD|UnicodeString|None|None|
-|TBD|pwszProxy|TBD|UnicodeString|None|None|
-|TBD|pwszProxyBypass|TBD|UnicodeString|None|None|
+|TBD|fAutoDetect|Boolean|None|`None`|
+|TBD|pwszAutoConfigUrl|UnicodeString|None|`None`|
+|TBD|pwszProxy|UnicodeString|None|`None`|
+|TBD|pwszProxyBypass|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

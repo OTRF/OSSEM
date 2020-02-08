@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DxgAdapter|TBD|Pointer|None|None|
-|TBD|Exclusive|TBD|Boolean|None|None|
+|TBD|DxgAdapter|Pointer|None|`None`|
+|TBD|Exclusive|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

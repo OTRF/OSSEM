@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DrvPtr|TBD|Pointer|None|None|
-|TBD|DevPtr|TBD|Pointer|None|None|
+|TBD|DrvPtr|Pointer|None|`None`|
+|TBD|DevPtr|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

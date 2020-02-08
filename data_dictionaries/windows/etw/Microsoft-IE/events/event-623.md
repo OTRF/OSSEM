@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Visible|TBD|Boolean|None|None|
-|TBD|IsDocInvisible|TBD|Boolean|None|None|
+|TBD|Visible|Boolean|None|`None`|
+|TBD|IsDocInvisible|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

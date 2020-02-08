@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MainWebInstanceInitializeTime|TBD|UInt64|None|None|
-|TBD|AppSuspendHandlerInvoked|TBD|UInt64|None|None|
-|TBD|AppSuspendHandlerCompleted|TBD|UInt64|None|None|
-|TBD|WebPlatformSuspendDownloadPending|TBD|Boolean|None|None|
-|TBD|WebPlatformSuspendDownloadCount|TBD|Int32|None|None|
-|TBD|WebPlatformSuspendDownloadWaitStart|TBD|UInt64|None|None|
-|TBD|WebPlatformCleanupPending|TBD|Boolean|None|None|
-|TBD|WebPlatformCleanupStart|TBD|UInt64|None|None|
-|TBD|CurrentSuspendingTimeout|TBD|Int32|None|None|
-|TBD|NewSuspendingTimeout|TBD|Int32|None|None|
-|TBD|PID|TBD|Int32|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|AppUserModelId|TBD|UnicodeString|None|None|
+|TBD|MainWebInstanceInitializeTime|UInt64|None|`None`|
+|TBD|AppSuspendHandlerInvoked|UInt64|None|`None`|
+|TBD|AppSuspendHandlerCompleted|UInt64|None|`None`|
+|TBD|WebPlatformSuspendDownloadPending|Boolean|None|`None`|
+|TBD|WebPlatformSuspendDownloadCount|Int32|None|`None`|
+|TBD|WebPlatformSuspendDownloadWaitStart|UInt64|None|`None`|
+|TBD|WebPlatformCleanupPending|Boolean|None|`None`|
+|TBD|WebPlatformCleanupStart|UInt64|None|`None`|
+|TBD|CurrentSuspendingTimeout|Int32|None|`None`|
+|TBD|NewSuspendingTimeout|Int32|None|`None`|
+|TBD|PID|Int32|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|AppUserModelId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

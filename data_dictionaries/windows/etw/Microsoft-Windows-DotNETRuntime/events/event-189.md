@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MethodBeingCompiledNamespace|TBD|UnicodeString|None|None|
-|TBD|MethodBeingCompiledName|TBD|UnicodeString|None|None|
-|TBD|MethodBeingCompiledNameSignature|TBD|UnicodeString|None|None|
-|TBD|CallerNamespace|TBD|UnicodeString|None|None|
-|TBD|CallerName|TBD|UnicodeString|None|None|
-|TBD|CallerNameSignature|TBD|UnicodeString|None|None|
-|TBD|CalleeNamespace|TBD|UnicodeString|None|None|
-|TBD|CalleeName|TBD|UnicodeString|None|None|
-|TBD|CalleeNameSignature|TBD|UnicodeString|None|None|
-|TBD|TailPrefix|TBD|Boolean|None|None|
-|TBD|FailReason|TBD|AnsiString|None|None|
-|TBD|ClrInstanceID|TBD|UInt16|None|None|
+|TBD|MethodBeingCompiledNamespace|UnicodeString|None|`None`|
+|TBD|MethodBeingCompiledName|UnicodeString|None|`None`|
+|TBD|MethodBeingCompiledNameSignature|UnicodeString|None|`None`|
+|TBD|CallerNamespace|UnicodeString|None|`None`|
+|TBD|CallerName|UnicodeString|None|`None`|
+|TBD|CallerNameSignature|UnicodeString|None|`None`|
+|TBD|CalleeNamespace|UnicodeString|None|`None`|
+|TBD|CalleeName|UnicodeString|None|`None`|
+|TBD|CalleeNameSignature|UnicodeString|None|`None`|
+|TBD|TailPrefix|Boolean|None|`None`|
+|TBD|FailReason|AnsiString|None|`None`|
+|TBD|ClrInstanceID|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JobId|TBD|UnicodeString|None|None|
-|TBD|WMIMessageChannel|TBD|UInt32|None|None|
-|TBD|ResourceId|TBD|UnicodeString|None|None|
-|TBD|MessageBody|TBD|UnicodeString|None|None|
+|TBD|JobId|UnicodeString|None|`None`|
+|TBD|WMIMessageChannel|UInt32|None|`None`|
+|TBD|ResourceId|UnicodeString|None|`None`|
+|TBD|MessageBody|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

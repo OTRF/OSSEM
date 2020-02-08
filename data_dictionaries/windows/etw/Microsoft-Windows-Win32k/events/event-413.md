@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SyncRefreshCount|TBD|UInt32|None|None|
-|TBD|PresentCount|TBD|UInt32|None|None|
-|TBD|CompositionSurfaceLuid|TBD|UInt64|None|None|
-|TBD|BindId|TBD|UInt64|None|None|
+|TBD|SyncRefreshCount|UInt32|None|`None`|
+|TBD|PresentCount|UInt32|None|`None`|
+|TBD|CompositionSurfaceLuid|UInt64|None|`None`|
+|TBD|BindId|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

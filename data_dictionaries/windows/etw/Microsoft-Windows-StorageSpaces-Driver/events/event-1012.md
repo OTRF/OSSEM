@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConfigId|TBD|GUID|None|None|
-|TBD|ScmCount|TBD|UInt32|None|None|
-|TBD|SsdCount|TBD|UInt32|None|None|
-|TBD|HddCount|TBD|UInt32|None|None|
-|TBD|TotalCount|TBD|UInt32|None|None|
-|TBD|AddCount|TBD|UInt32|None|None|
-|TBD|RemoveCount|TBD|UInt32|None|None|
-|TBD|DriveIds|TBD|UnicodeString|None|None|
+|TBD|ConfigId|GUID|None|`None`|
+|TBD|ScmCount|UInt32|None|`None`|
+|TBD|SsdCount|UInt32|None|`None`|
+|TBD|HddCount|UInt32|None|`None`|
+|TBD|TotalCount|UInt32|None|`None`|
+|TBD|AddCount|UInt32|None|`None`|
+|TBD|RemoveCount|UInt32|None|`None`|
+|TBD|DriveIds|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

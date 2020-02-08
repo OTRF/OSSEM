@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pNodeFirstTap|TBD|Pointer|None|None|
-|TBD|pointX|TBD|Int32|None|None|
-|TBD|pointY|TBD|Int32|None|None|
+|TBD|pNodeFirstTap|Pointer|None|`None`|
+|TBD|pointX|Int32|None|`None`|
+|TBD|pointY|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

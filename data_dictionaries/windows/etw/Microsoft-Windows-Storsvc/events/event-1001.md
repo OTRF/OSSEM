@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Version|TBD|UInt32|None|None|
-|TBD|DiskNumber|TBD|UInt32|None|None|
-|TBD|VendorId|TBD|AnsiString|None|None|
-|TBD|ProductId|TBD|AnsiString|None|None|
-|TBD|ProductRevision|TBD|AnsiString|None|None|
-|TBD|SerialNumber|TBD|AnsiString|None|None|
-|TBD|ParentId|TBD|UnicodeString|None|None|
-|TBD|FileSystem|TBD|UnicodeString|None|None|
-|TBD|BusType|TBD|UInt32|None|None|
-|TBD|PartitionStyle|TBD|UInt32|None|None|
-|TBD|VolumeCount|TBD|UInt32|None|None|
-|TBD|ContainsRawVolumes|TBD|Boolean|None|None|
-|TBD|Size|TBD|UInt64|None|None|
+|TBD|Version|UInt32|None|`None`|
+|TBD|DiskNumber|UInt32|None|`None`|
+|TBD|VendorId|AnsiString|None|`None`|
+|TBD|ProductId|AnsiString|None|`None`|
+|TBD|ProductRevision|AnsiString|None|`None`|
+|TBD|SerialNumber|AnsiString|None|`None`|
+|TBD|ParentId|UnicodeString|None|`None`|
+|TBD|FileSystem|UnicodeString|None|`None`|
+|TBD|BusType|UInt32|None|`None`|
+|TBD|PartitionStyle|UInt32|None|`None`|
+|TBD|VolumeCount|UInt32|None|`None`|
+|TBD|ContainsRawVolumes|Boolean|None|`None`|
+|TBD|Size|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

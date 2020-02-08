@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_Subtype|TBD|UInt32|None|None|
-|TBD|fid_Size|TBD|UInt32|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_Subtype|UInt32|None|`None`|
+|TBD|fid_Size|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

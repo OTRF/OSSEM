@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Tcb|TBD|Pointer|None|None|
-|TBD|TimerValue|TBD|UInt32|None|None|
-|TBD|BytesToSend|TBD|Pointer|None|None|
-|TBD|SendAvailable|TBD|UInt32|None|None|
-|TBD|Cwnd|TBD|UInt32|None|None|
-|TBD|MaxSndWnd|TBD|Pointer|None|None|
+|TBD|Tcb|Pointer|None|`None`|
+|TBD|TimerValue|UInt32|None|`None`|
+|TBD|BytesToSend|Pointer|None|`None`|
+|TBD|SendAvailable|UInt32|None|`None`|
+|TBD|Cwnd|UInt32|None|`None`|
+|TBD|MaxSndWnd|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

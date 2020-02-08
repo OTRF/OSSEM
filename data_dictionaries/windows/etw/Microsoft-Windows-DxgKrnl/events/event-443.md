@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Id|TBD|UInt64|None|None|
-|TBD|CurrentTime|TBD|UInt64|None|None|
-|TBD|CurrentPowerLevel|TBD|UInt32|None|None|
-|TBD|SubmissionTime|TBD|UInt64|None|None|
-|TBD|RequestedDeadline|TBD|UInt64|None|None|
-|TBD|CompletionDeadline|TBD|UInt64|None|None|
+|TBD|Id|UInt64|None|`None`|
+|TBD|CurrentTime|UInt64|None|`None`|
+|TBD|CurrentPowerLevel|UInt32|None|`None`|
+|TBD|SubmissionTime|UInt64|None|`None`|
+|TBD|RequestedDeadline|UInt64|None|`None`|
+|TBD|CompletionDeadline|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

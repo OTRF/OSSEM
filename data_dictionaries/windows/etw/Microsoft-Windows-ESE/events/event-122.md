@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|lgenData|TBD|Int32|None|None|
-|TBD|ibLogData|TBD|UInt32|None|None|
-|TBD|cbLogData|TBD|UInt32|None|None|
+|TBD|lgenData|Int32|None|`None`|
+|TBD|ibLogData|UInt32|None|`None`|
+|TBD|cbLogData|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|runningAppsList|TBD|UnicodeString|None|None|
-|TBD|directlyServicedPackagesList|TBD|UnicodeString|None|None|
-|TBD|indirectlyServicedPackagesList|TBD|UnicodeString|None|None|
-|TBD|numAttempts|TBD|UInt64|None|None|
-|TBD|isSessionLocked|TBD|Boolean|None|None|
+|TBD|runningAppsList|UnicodeString|None|`None`|
+|TBD|directlyServicedPackagesList|UnicodeString|None|`None`|
+|TBD|indirectlyServicedPackagesList|UnicodeString|None|`None`|
+|TBD|numAttempts|UInt64|None|`None`|
+|TBD|isSessionLocked|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

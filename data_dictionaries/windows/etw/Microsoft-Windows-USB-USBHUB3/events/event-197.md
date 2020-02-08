@@ -6,34 +6,34 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_EnumMsgId|TBD|UInt32|None|None|
-|TBD|fid_idVendor|TBD|UInt16|None|None|
-|TBD|fid_idProduct|TBD|UInt16|None|None|
-|TBD|fid_bcdDevice|TBD|UInt16|None|None|
-|TBD|fid_DeviceSpeed|TBD|UInt32|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
-|TBD|fid_UsbdStatus|TBD|UInt32|None|None|
-|TBD|fid_PortNumber|TBD|UInt32|None|None|
-|TBD|fid_TotalHubDepth|TBD|UInt32|None|None|
-|TBD|fid_PortProtocol|TBD|UInt32|None|None|
-|TBD|fid_PreviousPortStatus|TBD|UInt16|None|None|
-|TBD|fid_CumulativePortChange|TBD|UInt16|None|None|
-|TBD|fid_CurrentFeatureSelector|TBD|UInt32|None|None|
-|TBD|fid_bNumberOfPorts|TBD|UInt16|None|None|
-|TBD|fid_ControllerParentBusType|TBD|UInt32|None|None|
-|TBD|fid_PciBus|TBD|UInt32|None|None|
-|TBD|fid_PciDevice|TBD|UInt32|None|None|
-|TBD|fid_PciFunction|TBD|UInt32|None|None|
-|TBD|fid_PciVendorId|TBD|UInt32|None|None|
-|TBD|fid_PciDeviceId|TBD|UInt32|None|None|
-|TBD|fid_PciRevisionId|TBD|UInt32|None|None|
-|TBD|fid_AcpiVendorId|TBD|AnsiString|None|None|
-|TBD|fid_AcpiDeviceId|TBD|AnsiString|None|None|
-|TBD|fid_AcpiRevisionId|TBD|AnsiString|None|None|
-|TBD|fid_idVendorParentHub|TBD|UInt16|None|None|
-|TBD|fid_idProductParentHub|TBD|UInt16|None|None|
-|TBD|fid_bcdDeviceParentHub|TBD|UInt16|None|None|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_EnumMsgId|UInt32|None|`None`|
+|TBD|fid_idVendor|UInt16|None|`None`|
+|TBD|fid_idProduct|UInt16|None|`None`|
+|TBD|fid_bcdDevice|UInt16|None|`None`|
+|TBD|fid_DeviceSpeed|UInt32|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
+|TBD|fid_UsbdStatus|UInt32|None|`None`|
+|TBD|fid_PortNumber|UInt32|None|`None`|
+|TBD|fid_TotalHubDepth|UInt32|None|`None`|
+|TBD|fid_PortProtocol|UInt32|None|`None`|
+|TBD|fid_PreviousPortStatus|UInt16|None|`None`|
+|TBD|fid_CumulativePortChange|UInt16|None|`None`|
+|TBD|fid_CurrentFeatureSelector|UInt32|None|`None`|
+|TBD|fid_bNumberOfPorts|UInt16|None|`None`|
+|TBD|fid_ControllerParentBusType|UInt32|None|`None`|
+|TBD|fid_PciBus|UInt32|None|`None`|
+|TBD|fid_PciDevice|UInt32|None|`None`|
+|TBD|fid_PciFunction|UInt32|None|`None`|
+|TBD|fid_PciVendorId|UInt32|None|`None`|
+|TBD|fid_PciDeviceId|UInt32|None|`None`|
+|TBD|fid_PciRevisionId|UInt32|None|`None`|
+|TBD|fid_AcpiVendorId|AnsiString|None|`None`|
+|TBD|fid_AcpiDeviceId|AnsiString|None|`None`|
+|TBD|fid_AcpiRevisionId|AnsiString|None|`None`|
+|TBD|fid_idVendorParentHub|UInt16|None|`None`|
+|TBD|fid_idProductParentHub|UInt16|None|`None`|
+|TBD|fid_bcdDeviceParentHub|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Error

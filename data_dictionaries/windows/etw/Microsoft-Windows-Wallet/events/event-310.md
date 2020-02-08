@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ItemId|TBD|HexInt64|None|None|
-|TBD|WalletItemPropertyType|TBD|UInt32|None|None|
+|TBD|ItemId|HexInt64|None|`None`|
+|TBD|WalletItemPropertyType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

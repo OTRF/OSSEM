@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PhysicalAddress|TBD|HexInt64|None|None|
-|TBD|Pending|TBD|UInt8|None|None|
-|TBD|PlatformDirected|TBD|UInt8|None|None|
-|TBD|Uncorrected|TBD|UInt8|None|None|
-|TBD|Persisted|TBD|UInt8|None|None|
+|TBD|PhysicalAddress|HexInt64|None|`None`|
+|TBD|Pending|UInt8|None|`None`|
+|TBD|PlatformDirected|UInt8|None|`None`|
+|TBD|Uncorrected|UInt8|None|`None`|
+|TBD|Persisted|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

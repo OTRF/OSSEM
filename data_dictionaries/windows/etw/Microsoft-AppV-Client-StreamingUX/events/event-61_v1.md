@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|packageId|TBD|GUID|None|None|
-|TBD|versionId|TBD|GUID|None|None|
-|TBD|percentageComplete|TBD|UInt64|None|None|
+|TBD|packageId|GUID|None|`None`|
+|TBD|versionId|GUID|None|`None`|
+|TBD|percentageComplete|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

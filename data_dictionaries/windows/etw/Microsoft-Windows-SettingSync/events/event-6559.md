@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SettingUnitId|TBD|UnicodeString|None|None|
-|TBD|WriteStatus|TBD|UInt32|None|None|
+|TBD|SettingUnitId|UnicodeString|None|`None`|
+|TBD|WriteStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

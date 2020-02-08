@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessID|TBD|UInt32|None|None|
-|TBD|CreateTime|TBD|FILETIME|None|None|
-|TBD|ExitTime|TBD|FILETIME|None|None|
-|TBD|ExitCode|TBD|UInt32|None|None|
-|TBD|TokenElevationType|TBD|UInt32|None|None|
-|TBD|HandleCount|TBD|UInt32|None|None|
-|TBD|CommitCharge|TBD|UInt64|None|None|
-|TBD|CommitPeak|TBD|UInt64|None|None|
-|TBD|ImageName|TBD|AnsiString|None|None|
+|TBD|ProcessID|UInt32|None|`None`|
+|TBD|CreateTime|FILETIME|None|`None`|
+|TBD|ExitTime|FILETIME|None|`None`|
+|TBD|ExitCode|UInt32|None|`None`|
+|TBD|TokenElevationType|UInt32|None|`None`|
+|TBD|HandleCount|UInt32|None|`None`|
+|TBD|CommitCharge|UInt64|None|`None`|
+|TBD|CommitPeak|UInt64|None|`None`|
+|TBD|ImageName|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

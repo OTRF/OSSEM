@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EventType|TBD|UnicodeString|None|None|
-|TBD|EventParam|TBD|Pointer|None|None|
-|TBD|EventTarget|TBD|Pointer|None|None|
-|TBD|EventPhase|TBD|UInt16|None|None|
-|TBD|PropagationStatus|TBD|UInt32|None|None|
-|TBD|ListenerUsesCapture|TBD|Boolean|None|None|
-|TBD|FunctionId|TBD|UInt32|None|None|
-|TBD|Object|TBD|UInt64|None|None|
-|TBD|ScriptContextId|TBD|UInt64|None|None|
+|TBD|EventType|UnicodeString|None|`None`|
+|TBD|EventParam|Pointer|None|`None`|
+|TBD|EventTarget|Pointer|None|`None`|
+|TBD|EventPhase|UInt16|None|`None`|
+|TBD|PropagationStatus|UInt32|None|`None`|
+|TBD|ListenerUsesCapture|Boolean|None|`None`|
+|TBD|FunctionId|UInt32|None|`None`|
+|TBD|Object|UInt64|None|`None`|
+|TBD|ScriptContextId|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

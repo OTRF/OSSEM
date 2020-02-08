@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceStreamName|TBD|UnicodeString|None|None|
-|TBD|DeviceStreamId|TBD|UInt32|None|None|
-|TBD|MFTStreamId|TBD|UInt32|None|None|
-|TBD|samplePointer|TBD|Pointer|None|None|
-|TBD|SampleTimestamp|TBD|UInt64|None|None|
-|TBD|ExpectedSampleCompletionNumber|TBD|UInt64|None|None|
-|TBD|ActualSampleCompletionNumber|TBD|UInt64|None|None|
+|TBD|DeviceStreamName|UnicodeString|None|`None`|
+|TBD|DeviceStreamId|UInt32|None|`None`|
+|TBD|MFTStreamId|UInt32|None|`None`|
+|TBD|samplePointer|Pointer|None|`None`|
+|TBD|SampleTimestamp|UInt64|None|`None`|
+|TBD|ExpectedSampleCompletionNumber|UInt64|None|`None`|
+|TBD|ActualSampleCompletionNumber|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

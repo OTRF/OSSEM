@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsRoamingEnabled|TBD|Boolean|None|None|
-|TBD|RoamingReasonCode|TBD|UInt32|None|None|
-|TBD|IsBackupEnabled|TBD|Boolean|None|None|
-|TBD|BackupReasonCode|TBD|UInt32|None|None|
-|TBD|ProviderId|TBD|GUID|None|None|
+|TBD|IsRoamingEnabled|Boolean|None|`None`|
+|TBD|RoamingReasonCode|UInt32|None|`None`|
+|TBD|IsBackupEnabled|Boolean|None|`None`|
+|TBD|BackupReasonCode|UInt32|None|`None`|
+|TBD|ProviderId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

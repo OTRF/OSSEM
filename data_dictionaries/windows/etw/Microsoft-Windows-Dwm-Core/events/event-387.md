@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DirtyPropagatedCount|TBD|UInt32|None|None|
-|TBD|DirtyPropagated|TBD|UInt32|None|None|
-|TBD|DirtyGeneratedCount|TBD|UInt32|None|None|
-|TBD|DirtyGenerated|TBD|UInt32|None|None|
-|TBD|CompositorRenderedCount|TBD|UInt32|None|None|
-|TBD|CompositorRendered|TBD|UInt32|None|None|
-|TBD|BatchesProcessedCount|TBD|UInt32|None|None|
-|TBD|BatchesProcessed|TBD|UInt32|None|None|
-|TBD|KeyframeAnimationsCalculatedCount|TBD|UInt32|None|None|
-|TBD|KeyframeAnimationsCalculated|TBD|UInt32|None|None|
+|TBD|DirtyPropagatedCount|UInt32|None|`None`|
+|TBD|DirtyPropagated|UInt32|None|`None`|
+|TBD|DirtyGeneratedCount|UInt32|None|`None`|
+|TBD|DirtyGenerated|UInt32|None|`None`|
+|TBD|CompositorRenderedCount|UInt32|None|`None`|
+|TBD|CompositorRendered|UInt32|None|`None`|
+|TBD|BatchesProcessedCount|UInt32|None|`None`|
+|TBD|BatchesProcessed|UInt32|None|`None`|
+|TBD|KeyframeAnimationsCalculatedCount|UInt32|None|`None`|
+|TBD|KeyframeAnimationsCalculated|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

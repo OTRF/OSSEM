@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Environment|TBD|UnicodeString|None|None|
-|TBD|EventsUploaded|TBD|UInt32|None|None|
-|TBD|EventsDropped|TBD|UInt32|None|None|
-|TBD|LastEventlogWrittenTime|TBD|UInt64|None|None|
-|TBD|FailedConnections|TBD|UInt32|None|None|
-|TBD|LastHttpError|TBD|UInt32|None|None|
-|TBD|ProxySettingDetected|TBD|Boolean|None|None|
-|TBD|SslCertValidationFailures|TBD|UInt32|None|None|
-|TBD|LastSslCertFailure|TBD|UInt32|None|None|
+|TBD|Environment|UnicodeString|None|`None`|
+|TBD|EventsUploaded|UInt32|None|`None`|
+|TBD|EventsDropped|UInt32|None|`None`|
+|TBD|LastEventlogWrittenTime|UInt64|None|`None`|
+|TBD|FailedConnections|UInt32|None|`None`|
+|TBD|LastHttpError|UInt32|None|`None`|
+|TBD|ProxySettingDetected|Boolean|None|`None`|
+|TBD|SslCertValidationFailures|UInt32|None|`None`|
+|TBD|LastSslCertFailure|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

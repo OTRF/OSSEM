@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|UInt64|None|None|
-|TBD|ProviderName|TBD|UnicodeString|None|None|
-|TBD|ModuleName|TBD|UnicodeString|None|None|
-|TBD|Operation|TBD|UnicodeString|None|None|
-|TBD|ReturnCode|TBD|UInt32|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|UInt64|None|`None`|
+|TBD|ProviderName|UnicodeString|None|`None`|
+|TBD|ModuleName|UnicodeString|None|`None`|
+|TBD|Operation|UnicodeString|None|`None`|
+|TBD|ReturnCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

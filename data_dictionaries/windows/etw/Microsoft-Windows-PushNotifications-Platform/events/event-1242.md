@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PowerManagementType|TBD|UInt32|None|None|
-|TBD|ConnectionType|TBD|UInt32|None|None|
+|TBD|PowerManagementType|UInt32|None|`None`|
+|TBD|ConnectionType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

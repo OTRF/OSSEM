@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterLuid|TBD|UInt64|None|None|
-|TBD|DisableD3Requests|TBD|Boolean|None|None|
-|TBD|GetMiniportStatus|TBD|UInt32|None|None|
+|TBD|AdapterLuid|UInt64|None|`None`|
+|TBD|DisableD3Requests|Boolean|None|`None`|
+|TBD|GetMiniportStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

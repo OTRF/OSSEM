@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapterAllocation|TBD|Pointer|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|Format|TBD|UInt32|None|None|
-|TBD|RefreshRateNumerator|TBD|UInt32|None|None|
-|TBD|RefreshRateDenominator|TBD|UInt32|None|None|
-|TBD|VidPnSourceId|TBD|UInt32|None|None|
+|TBD|pDxgAdapterAllocation|Pointer|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|Format|UInt32|None|`None`|
+|TBD|RefreshRateNumerator|UInt32|None|`None`|
+|TBD|RefreshRateDenominator|UInt32|None|`None`|
+|TBD|VidPnSourceId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SBLayer|TBD|Pointer|None|None|
-|TBD|DCompSurface|TBD|Pointer|None|None|
-|TBD|Width|TBD|Int32|None|None|
-|TBD|Height|TBD|Int32|None|None|
-|TBD|AlphaMode|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|SBLayer|Pointer|None|`None`|
+|TBD|DCompSurface|Pointer|None|`None`|
+|TBD|Width|Int32|None|`None`|
+|TBD|Height|Int32|None|`None`|
+|TBD|AlphaMode|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

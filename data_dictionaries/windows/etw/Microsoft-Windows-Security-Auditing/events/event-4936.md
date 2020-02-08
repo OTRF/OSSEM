@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ReplicationEvent|TBD|UInt32|None|None|
-|TBD|AuditStatusCode|TBD|UInt32|None|None|
-|TBD|ReplicationStatusCode|TBD|UInt32|None|None|
+|TBD|ReplicationEvent|UInt32|None|`None`|
+|TBD|AuditStatusCode|UInt32|None|`None`|
+|TBD|ReplicationStatusCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|OID|TBD|UInt64|None|None|
-|TBD|TokenModifiedLuid|TBD|UInt64|None|None|
-|TBD|SetId|TBD|UInt64|None|None|
-|TBD|CurrentSequenceNumber|TBD|UInt16|None|None|
-|TBD|LastSequenceNumber|TBD|UInt16|None|None|
+|TBD|OID|UInt64|None|`None`|
+|TBD|TokenModifiedLuid|UInt64|None|`None`|
+|TBD|SetId|UInt64|None|`None`|
+|TBD|CurrentSequenceNumber|UInt16|None|`None`|
+|TBD|LastSequenceNumber|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MTPBTPacketLength|TBD|UInt32|None|None|
-|TBD|MTPBTPacketType|TBD|UInt16|None|None|
-|TBD|MTPBTPacketSeqID|TBD|UInt16|None|None|
+|TBD|MTPBTPacketLength|UInt32|None|`None`|
+|TBD|MTPBTPacketType|UInt16|None|`None`|
+|TBD|MTPBTPacketSeqID|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

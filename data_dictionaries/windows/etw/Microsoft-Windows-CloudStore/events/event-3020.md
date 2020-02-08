@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CorrelationVector|TBD|AnsiString|None|None|
-|TBD|ActivitiesCount|TBD|UInt16|None|None|
+|TBD|CorrelationVector|AnsiString|None|`None`|
+|TBD|ActivitiesCount|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

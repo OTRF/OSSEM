@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AddressLen|TBD|UInt32|None|None|
-|TBD|Address|TBD|Binary|None|None|
-|TBD|TrafficType|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|FailureActivity|TBD|UInt32|None|None|
-|TBD|FailureErrorCodeType|TBD|UInt32|None|None|
-|TBD|FailureErrorCode|TBD|UInt32|None|None|
+|TBD|AddressLen|UInt32|None|`None`|
+|TBD|Address|Binary|None|`None`|
+|TBD|TrafficType|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|FailureActivity|UInt32|None|`None`|
+|TBD|FailureErrorCodeType|UInt32|None|`None`|
+|TBD|FailureErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

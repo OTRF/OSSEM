@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PluginDllName|TBD|UnicodeString|None|None|
+|TBD|PluginDllName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

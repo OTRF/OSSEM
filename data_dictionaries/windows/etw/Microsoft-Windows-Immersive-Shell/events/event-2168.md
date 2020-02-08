@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ClientAllowsUX|TBD|Boolean|None|None|
-|TBD|FileIsUpdated|TBD|Boolean|None|None|
+|TBD|ClientAllowsUX|Boolean|None|`None`|
+|TBD|FileIsUpdated|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

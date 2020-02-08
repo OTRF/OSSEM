@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|tag|TBD|AnsiString|None|None|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|segmentID|TBD|UInt32|None|None|
-|TBD|numberPending|TBD|UInt32|None|None|
-|TBD|time|TBD|Int64|None|None|
-|TBD|sample|TBD|Pointer|None|None|
+|TBD|tag|AnsiString|None|`None`|
+|TBD|object|Pointer|None|`None`|
+|TBD|segmentID|UInt32|None|`None`|
+|TBD|numberPending|UInt32|None|`None`|
+|TBD|time|Int64|None|`None`|
+|TBD|sample|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

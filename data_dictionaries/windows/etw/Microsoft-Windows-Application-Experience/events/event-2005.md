@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|QuirkId|TBD|UInt32|None|None|
-|TBD|QuirkName|TBD|UnicodeString|None|None|
-|TBD|CommandLine|TBD|UnicodeString|None|None|
-|TBD|Enabled|TBD|UInt8|None|None|
-|TBD|Forced|TBD|UInt8|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|ApplicationUserModelId|TBD|UnicodeString|None|None|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|QuirkId|UInt32|None|`None`|
+|TBD|QuirkName|UnicodeString|None|`None`|
+|TBD|CommandLine|UnicodeString|None|`None`|
+|TBD|Enabled|UInt8|None|`None`|
+|TBD|Forced|UInt8|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|ApplicationUserModelId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

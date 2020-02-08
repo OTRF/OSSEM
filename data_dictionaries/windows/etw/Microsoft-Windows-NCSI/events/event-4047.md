@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|IfLuid|TBD|UInt64|None|None|
-|TBD|Family|TBD|UInt32|None|None|
-|TBD|IpAddressLength|TBD|UInt32|None|None|
-|TBD|IpAddress|TBD|Binary|None|None|
-|TBD|MacAddressLength|TBD|UInt32|None|None|
-|TBD|MacAddress|TBD|Binary|None|None|
-|TBD|KnownProxyless|TBD|Boolean|None|None|
-|TBD|KnownHotspot|TBD|Boolean|None|None|
-|TBD|KnownOppInternet|TBD|Boolean|None|None|
-|TBD|KnownProxiedOppInternet|TBD|Boolean|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|IfLuid|UInt64|None|`None`|
+|TBD|Family|UInt32|None|`None`|
+|TBD|IpAddressLength|UInt32|None|`None`|
+|TBD|IpAddress|Binary|None|`None`|
+|TBD|MacAddressLength|UInt32|None|`None`|
+|TBD|MacAddress|Binary|None|`None`|
+|TBD|KnownProxyless|Boolean|None|`None`|
+|TBD|KnownHotspot|Boolean|None|`None`|
+|TBD|KnownOppInternet|Boolean|None|`None`|
+|TBD|KnownProxiedOppInternet|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

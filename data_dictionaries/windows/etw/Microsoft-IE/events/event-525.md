@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CHTMLCanvasElement|TBD|Pointer|None|None|
-|TBD|Operation|TBD|UInt32|None|None|
-|TBD|canvasWidth|TBD|UInt32|None|None|
-|TBD|canvasHeight|TBD|UInt32|None|None|
-|TBD|DestLeft|TBD|Float|None|None|
-|TBD|DestTop|TBD|Float|None|None|
-|TBD|ScaledSizeWidth|TBD|Float|None|None|
-|TBD|ScaledSizeHeight|TBD|Float|None|None|
+|TBD|CHTMLCanvasElement|Pointer|None|`None`|
+|TBD|Operation|UInt32|None|`None`|
+|TBD|canvasWidth|UInt32|None|`None`|
+|TBD|canvasHeight|UInt32|None|`None`|
+|TBD|DestLeft|Float|None|`None`|
+|TBD|DestTop|Float|None|`None`|
+|TBD|ScaledSizeWidth|Float|None|`None`|
+|TBD|ScaledSizeHeight|Float|None|`None`|
 
 ## Tags
 * etw_level_Always

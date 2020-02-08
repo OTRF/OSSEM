@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsBaseCRL|TBD|UnicodeString|None|None|
-|TBD|CRLNumber|TBD|UnicodeString|None|None|
-|TBD|KeyContainer|TBD|UnicodeString|None|None|
-|TBD|NextPublish|TBD|UnicodeString|None|None|
-|TBD|PublishURLs|TBD|UnicodeString|None|None|
+|TBD|IsBaseCRL|UnicodeString|None|`None`|
+|TBD|CRLNumber|UnicodeString|None|`None`|
+|TBD|KeyContainer|UnicodeString|None|`None`|
+|TBD|NextPublish|UnicodeString|None|`None`|
+|TBD|PublishURLs|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

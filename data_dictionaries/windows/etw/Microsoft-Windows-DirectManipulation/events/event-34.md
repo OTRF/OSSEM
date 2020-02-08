@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MotionPointer|TBD|Pointer|None|None|
-|TBD|RegionPointer|TBD|Pointer|None|None|
-|TBD|LayerPointer|TBD|Pointer|None|None|
+|TBD|MotionPointer|Pointer|None|`None`|
+|TBD|RegionPointer|Pointer|None|`None`|
+|TBD|LayerPointer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

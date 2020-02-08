@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBPORT_HC|TBD|Float|None|None|
-|TBD|fid_USBPORT_Device|TBD|FILETIME|None|None|
-|TBD|fid_USBPORT_Endpoint|TBD|Struct|None|None|
-|TBD|fid_USBPORT_Endpoint_Descriptor|TBD|27|None|None|
-|TBD|fid_USBPORT_Execution_Metrics|TBD|33|None|None|
-|TBD|fid_AdapterObject|TBD|Pointer|None|None|
-|TBD|fid_TransferBufferLength|TBD|UInt32|None|None|
-|TBD|fid_WriteData|TBD|Boolean|None|None|
-|TBD|fid_LengthRemaining|TBD|UInt32|None|None|
-|TBD|fid_CurrentVA|TBD|Pointer|None|None|
-|TBD|fid_CodeTag|TBD|UnicodeString|None|None|
+|TBD|fid_USBPORT_HC|Float|None|`None`|
+|TBD|fid_USBPORT_Device|FILETIME|None|`None`|
+|TBD|fid_USBPORT_Endpoint|Struct|None|`None`|
+|TBD|fid_USBPORT_Endpoint_Descriptor|27|None|`None`|
+|TBD|fid_USBPORT_Execution_Metrics|33|None|`None`|
+|TBD|fid_AdapterObject|Pointer|None|`None`|
+|TBD|fid_TransferBufferLength|UInt32|None|`None`|
+|TBD|fid_WriteData|Boolean|None|`None`|
+|TBD|fid_LengthRemaining|UInt32|None|`None`|
+|TBD|fid_CurrentVA|Pointer|None|`None`|
+|TBD|fid_CodeTag|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Verbose

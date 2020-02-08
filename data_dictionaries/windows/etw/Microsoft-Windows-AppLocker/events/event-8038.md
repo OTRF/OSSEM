@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TotalSignatureCount|TBD|UInt32|None|None|
-|TBD|Signature|TBD|UInt32|None|None|
-|TBD|PublisherNameLength|TBD|UInt16|None|None|
-|TBD|PublisherName|TBD|UnicodeString|None|None|
-|TBD|IssuerNameLength|TBD|UInt16|None|None|
-|TBD|IssuerName|TBD|UnicodeString|None|None|
-|TBD|PublisherTBSHashSize|TBD|UInt32|None|None|
-|TBD|PublisherTBSHash|TBD|Binary|None|None|
-|TBD|IssuerTBSHashSize|TBD|UInt32|None|None|
-|TBD|IssuerTBSHash|TBD|Binary|None|None|
+|TBD|TotalSignatureCount|UInt32|None|`None`|
+|TBD|Signature|UInt32|None|`None`|
+|TBD|PublisherNameLength|UInt16|None|`None`|
+|TBD|PublisherName|UnicodeString|None|`None`|
+|TBD|IssuerNameLength|UInt16|None|`None`|
+|TBD|IssuerName|UnicodeString|None|`None`|
+|TBD|PublisherTBSHashSize|UInt32|None|`None`|
+|TBD|PublisherTBSHash|Binary|None|`None`|
+|TBD|IssuerTBSHashSize|UInt32|None|`None`|
+|TBD|IssuerTBSHash|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

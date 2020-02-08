@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SleepState|TBD|UInt32|None|None|
+|TBD|SleepState|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

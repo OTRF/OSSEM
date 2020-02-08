@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pRegionSurface|TBD|Pointer|None|None|
-|TBD|pSurface|TBD|Pointer|None|None|
+|TBD|pRegionSurface|Pointer|None|`None`|
+|TBD|pSurface|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

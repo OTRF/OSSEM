@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AppUserModelId|TBD|UnicodeString|None|None|
-|TBD|PhoneVoipAgentId|TBD|GUID|None|None|
+|TBD|AppUserModelId|UnicodeString|None|`None`|
+|TBD|PhoneVoipAgentId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

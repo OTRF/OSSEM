@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectionId|TBD|UInt64|None|None|
-|TBD|AuthCacheType|TBD|AnsiString|None|None|
-|TBD|AccessTokenOrHandle|TBD|Pointer|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|ConnectionId|UInt64|None|`None`|
+|TBD|AuthCacheType|AnsiString|None|`None`|
+|TBD|AccessTokenOrHandle|Pointer|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

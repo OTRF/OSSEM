@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RadcClientType|TBD|UnicodeString|None|None|
-|TBD|RadcClientStage|TBD|UnicodeString|None|None|
+|TBD|RadcClientType|UnicodeString|None|`None`|
+|TBD|RadcClientStage|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

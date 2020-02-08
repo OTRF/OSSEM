@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IpType|TBD|UnicodeString|None|None|
-|TBD|IpAddress|TBD|UnicodeString|None|None|
+|TBD|IpType|UnicodeString|None|`None`|
+|TBD|IpAddress|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

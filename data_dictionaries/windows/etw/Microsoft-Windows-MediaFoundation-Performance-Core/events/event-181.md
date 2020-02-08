@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|m_pCurrentMediaType|TBD|Int64|None|None|
-|TBD|IsStreamInvalidating|TBD|Boolean|None|None|
-|TBD|hrAEFormatQuery|TBD|UInt32|None|None|
-|TBD|hFormatResult|TBD|UInt32|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|m_pCurrentMediaType|Int64|None|`None`|
+|TBD|IsStreamInvalidating|Boolean|None|`None`|
+|TBD|hrAEFormatQuery|UInt32|None|`None`|
+|TBD|hFormatResult|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

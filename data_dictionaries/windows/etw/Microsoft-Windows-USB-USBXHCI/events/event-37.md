@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_TrustletRequestOpCode|TBD|UInt32|None|None|
-|TBD|fid_InputBufferLength|TBD|UInt32|None|None|
-|TBD|fid_OutputBufferLength|TBD|UInt32|None|None|
-|TBD|fid_OutstandingRequestsAtSendTime|TBD|UInt32|None|None|
+|TBD|fid_TrustletRequestOpCode|UInt32|None|`None`|
+|TBD|fid_InputBufferLength|UInt32|None|`None`|
+|TBD|fid_OutputBufferLength|UInt32|None|`None`|
+|TBD|fid_OutstandingRequestsAtSendTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

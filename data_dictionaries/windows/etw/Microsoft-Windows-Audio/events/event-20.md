@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Format|TBD|UInt32|None|None|
-|TBD|SamplingRate|TBD|UInt32|None|None|
-|TBD|bAudioSrvStreamResourceType|TBD|Boolean|None|None|
+|TBD|Format|UInt32|None|`None`|
+|TBD|SamplingRate|UInt32|None|`None`|
+|TBD|bAudioSrvStreamResourceType|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

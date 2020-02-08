@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|GlobalIpv6AddressCount|TBD|UInt32|None|None|
-|TBD|Ipv4Connectivity|TBD|Boolean|None|None|
-|TBD|Ipv6Connectivity|TBD|Boolean|None|None|
-|TBD|CorpConnectivity|TBD|Boolean|None|None|
+|TBD|GlobalIpv6AddressCount|UInt32|None|`None`|
+|TBD|Ipv4Connectivity|Boolean|None|`None`|
+|TBD|Ipv6Connectivity|Boolean|None|`None`|
+|TBD|CorpConnectivity|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

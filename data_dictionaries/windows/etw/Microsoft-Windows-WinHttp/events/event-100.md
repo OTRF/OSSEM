@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hRequest|TBD|Pointer|None|None|
-|TBD|AuthTargets|TBD|UInt32|None|None|
-|TBD|AuthScheme|TBD|UInt32|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|Password|TBD|UnicodeString|None|None|
+|TBD|hRequest|Pointer|None|`None`|
+|TBD|AuthTargets|UInt32|None|`None`|
+|TBD|AuthScheme|UInt32|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|Password|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|OverridedNotificationId|TBD|UInt32|None|None|
-|TBD|OverridingNotificationId|TBD|UInt32|None|None|
+|TBD|OverridedNotificationId|UInt32|None|`None`|
+|TBD|OverridingNotificationId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

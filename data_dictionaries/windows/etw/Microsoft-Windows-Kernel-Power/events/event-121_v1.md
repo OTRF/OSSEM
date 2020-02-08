@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DriverWakeTime|TBD|UInt32|None|None|
-|TBD|TotalResumeTime|TBD|UInt32|None|None|
-|TBD|BiosInitTime|TBD|UInt32|None|None|
-|TBD|ResumeAppsTime|TBD|UInt32|None|None|
-|TBD|ResumeServicesTime|TBD|UInt32|None|None|
+|TBD|DriverWakeTime|UInt32|None|`None`|
+|TBD|TotalResumeTime|UInt32|None|`None`|
+|TBD|BiosInitTime|UInt32|None|`None`|
+|TBD|ResumeAppsTime|UInt32|None|`None`|
+|TBD|ResumeServicesTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

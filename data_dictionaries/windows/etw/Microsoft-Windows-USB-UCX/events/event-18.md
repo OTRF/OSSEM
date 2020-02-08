@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_EndpointPipeHandle|TBD|Pointer|None|None|
-|TBD|fid_StreamID|TBD|UInt32|None|None|
-|TBD|fid_StreamPipeHandle|TBD|Pointer|None|None|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_EndpointPipeHandle|Pointer|None|`None`|
+|TBD|fid_StreamID|UInt32|None|`None`|
+|TBD|fid_StreamPipeHandle|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

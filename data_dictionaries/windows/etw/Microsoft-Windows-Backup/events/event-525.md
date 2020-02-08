@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VolumeGuid|TBD|GUID|None|None|
-|TBD|VolumeFriendlyName|TBD|UnicodeString|None|None|
-|TBD|BackupSourceNumUnreadableBytes|TBD|Int64|None|None|
+|TBD|VolumeGuid|GUID|None|`None`|
+|TBD|VolumeFriendlyName|UnicodeString|None|`None`|
+|TBD|BackupSourceNumUnreadableBytes|Int64|None|`None`|
 
 ## Tags
 * etw_level_Warning

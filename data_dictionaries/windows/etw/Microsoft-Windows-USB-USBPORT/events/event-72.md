@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBPORT_HC|TBD|Int64|None|None|
-|TBD|fid_USBPORT_Device|TBD|GUID|None|None|
-|TBD|fid_USBPORT_Endpoint|TBD|CountedUtf16String|None|None|
-|TBD|fid_USBPORT_Endpoint_Descriptor|TBD|25|None|None|
-|TBD|fid_IRP_Ptr|TBD|Pointer|None|None|
-|TBD|fid_URB_Ptr|TBD|Pointer|None|None|
-|TBD|fid_USBPORT_URB_NumberOfPackets|TBD|UInt16|None|None|
-|TBD|fid_USBPORT_URB_ISOCH_TRANSFER|TBD|31|None|None|
-|TBD|fid_USBPORT_URB_ISO_PACKETS|TBD|46|None|None|
+|TBD|fid_USBPORT_HC|Int64|None|`None`|
+|TBD|fid_USBPORT_Device|GUID|None|`None`|
+|TBD|fid_USBPORT_Endpoint|CountedUtf16String|None|`None`|
+|TBD|fid_USBPORT_Endpoint_Descriptor|25|None|`None`|
+|TBD|fid_IRP_Ptr|Pointer|None|`None`|
+|TBD|fid_URB_Ptr|Pointer|None|`None`|
+|TBD|fid_USBPORT_URB_NumberOfPackets|UInt16|None|`None`|
+|TBD|fid_USBPORT_URB_ISOCH_TRANSFER|31|None|`None`|
+|TBD|fid_USBPORT_URB_ISO_PACKETS|46|None|`None`|
 
 ## Tags
 * etw_level_Informational

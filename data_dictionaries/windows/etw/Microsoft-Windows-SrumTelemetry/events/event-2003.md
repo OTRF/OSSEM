@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BatteryDrainRate|TBD|UInt32|None|None|
-|TBD|PowerBitpack|TBD|UInt32|None|None|
-|TBD|Duration|TBD|UInt32|None|None|
-|TBD|AppCpuCyclesBitpack|TBD|UInt32|None|None|
-|TBD|TimeStamp|TBD|UnicodeString|None|None|
+|TBD|BatteryDrainRate|UInt32|None|`None`|
+|TBD|PowerBitpack|UInt32|None|`None`|
+|TBD|Duration|UInt32|None|`None`|
+|TBD|AppCpuCyclesBitpack|UInt32|None|`None`|
+|TBD|TimeStamp|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

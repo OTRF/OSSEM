@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DManipLatency|TBD|UInt32|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
+|TBD|DManipLatency|UInt32|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

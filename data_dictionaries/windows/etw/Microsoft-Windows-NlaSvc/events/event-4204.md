@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|GatewayIpAddress|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|NlnsState|TBD|UInt32|None|None|
-|TBD|MacAddrLen|TBD|UInt16|None|None|
-|TBD|MacAddr|TBD|Binary|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|GatewayIpAddress|UnicodeString|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|NlnsState|UInt32|None|`None`|
+|TBD|MacAddrLen|UInt16|None|`None`|
+|TBD|MacAddr|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

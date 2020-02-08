@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|cchParentImagePathIncludingNull|TBD|UInt16|None|None|
-|TBD|FeatureGuid|TBD|GUID|None|None|
-|TBD|ParentProcessImageHeaderHash|TBD|Binary|None|None|
-|TBD|ParentImagePath|TBD|UnicodeString|None|None|
+|TBD|cchParentImagePathIncludingNull|UInt16|None|`None`|
+|TBD|FeatureGuid|GUID|None|`None`|
+|TBD|ParentProcessImageHeaderHash|Binary|None|`None`|
+|TBD|ParentImagePath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

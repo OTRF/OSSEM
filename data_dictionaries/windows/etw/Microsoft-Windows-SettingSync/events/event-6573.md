@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HasInternetConnection|TBD|Boolean|None|None|
-|TBD|IsRoaming|TBD|Boolean|None|None|
+|TBD|HasInternetConnection|Boolean|None|`None`|
+|TBD|IsRoaming|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Warning

@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|TargetUserSid|TBD|SID|None|None|
-|TBD|TargetUserName|TBD|UnicodeString|None|None|
-|TBD|TargetDomainName|TBD|UnicodeString|None|None|
-|TBD|TargetLogonId|TBD|HexInt64|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|ProcessId|TBD|Pointer|None|None|
-|TBD|EnabledPrivilegeList|TBD|UnicodeString|None|None|
-|TBD|DisabledPrivilegeList|TBD|UnicodeString|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|TargetUserSid|SID|None|`None`|
+|TBD|TargetUserName|UnicodeString|None|`None`|
+|TBD|TargetDomainName|UnicodeString|None|`None`|
+|TBD|TargetLogonId|HexInt64|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|ProcessId|Pointer|None|`None`|
+|TBD|EnabledPrivilegeList|UnicodeString|None|`None`|
+|TBD|DisabledPrivilegeList|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

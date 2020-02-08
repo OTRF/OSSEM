@@ -6,31 +6,31 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|surfaceLuid|TBD|UInt64|None|None|
-|TBD|IsDirectFlipCompatible|TBD|Int32|None|None|
-|TBD|IsAdvancedDirectFlipCompatible|TBD|Int32|None|None|
-|TBD|IsOverlayCompatible|TBD|Int32|None|None|
-|TBD|IsOverlayRequired|TBD|Int32|None|None|
-|TBD|fNoOverlappingContent|TBD|Int32|None|None|
-|TBD|SurfaceWidth|TBD|Int32|None|None|
-|TBD|SurfaceHeight|TBD|Int32|None|None|
-|TBD|PixelFormat|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|SrcRectLeft|TBD|Int32|None|None|
-|TBD|SrcRectTop|TBD|Int32|None|None|
-|TBD|SrcRectRight|TBD|Int32|None|None|
-|TBD|SrcRectBottom|TBD|Int32|None|None|
-|TBD|DstRectLeft|TBD|Int32|None|None|
-|TBD|DstRectTop|TBD|Int32|None|None|
-|TBD|DstRectRight|TBD|Int32|None|None|
-|TBD|DstRectBottom|TBD|Int32|None|None|
-|TBD|ClipRectLeft|TBD|Int32|None|None|
-|TBD|ClipRectTop|TBD|Int32|None|None|
-|TBD|ClipRectRight|TBD|Int32|None|None|
-|TBD|ClipRectBottom|TBD|Int32|None|None|
-|TBD|Rotation|TBD|UInt32|None|None|
-|TBD|Blend|TBD|UInt32|None|None|
-|TBD|ColorSpace|TBD|UInt32|None|None|
+|TBD|surfaceLuid|UInt64|None|`None`|
+|TBD|IsDirectFlipCompatible|Int32|None|`None`|
+|TBD|IsAdvancedDirectFlipCompatible|Int32|None|`None`|
+|TBD|IsOverlayCompatible|Int32|None|`None`|
+|TBD|IsOverlayRequired|Int32|None|`None`|
+|TBD|fNoOverlappingContent|Int32|None|`None`|
+|TBD|SurfaceWidth|Int32|None|`None`|
+|TBD|SurfaceHeight|Int32|None|`None`|
+|TBD|PixelFormat|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|SrcRectLeft|Int32|None|`None`|
+|TBD|SrcRectTop|Int32|None|`None`|
+|TBD|SrcRectRight|Int32|None|`None`|
+|TBD|SrcRectBottom|Int32|None|`None`|
+|TBD|DstRectLeft|Int32|None|`None`|
+|TBD|DstRectTop|Int32|None|`None`|
+|TBD|DstRectRight|Int32|None|`None`|
+|TBD|DstRectBottom|Int32|None|`None`|
+|TBD|ClipRectLeft|Int32|None|`None`|
+|TBD|ClipRectTop|Int32|None|`None`|
+|TBD|ClipRectRight|Int32|None|`None`|
+|TBD|ClipRectBottom|Int32|None|`None`|
+|TBD|Rotation|UInt32|None|`None`|
+|TBD|Blend|UInt32|None|`None`|
+|TBD|ColorSpace|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

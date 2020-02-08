@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fExistingUserOrPostZDP|TBD|Boolean|None|None|
-|TBD|fZDP|TBD|Boolean|None|None|
-|TBD|fTouchDevice|TBD|Boolean|None|None|
-|TBD|fMouseDevice|TBD|Boolean|None|None|
+|TBD|fExistingUserOrPostZDP|Boolean|None|`None`|
+|TBD|fZDP|Boolean|None|`None`|
+|TBD|fTouchDevice|Boolean|None|`None`|
+|TBD|fMouseDevice|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

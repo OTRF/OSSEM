@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|runtimeClass|TBD|UInt32|None|None|
-|TBD|pendingOperations|TBD|UInt32|None|None|
-|TBD|winsockPendingOperations|TBD|UInt32|None|None|
-|TBD|winsockDataAvailable|TBD|Boolean|None|None|
+|TBD|runtimeClass|UInt32|None|`None`|
+|TBD|pendingOperations|UInt32|None|`None`|
+|TBD|winsockPendingOperations|UInt32|None|`None`|
+|TBD|winsockDataAvailable|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

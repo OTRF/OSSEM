@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DisplayID|TBD|UInt32|None|None|
-|TBD|OldEffectivePeriod|TBD|Float|None|None|
-|TBD|NewEffectivePeriod|TBD|Float|None|None|
+|TBD|DisplayID|UInt32|None|`None`|
+|TBD|OldEffectivePeriod|Float|None|`None`|
+|TBD|NewEffectivePeriod|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

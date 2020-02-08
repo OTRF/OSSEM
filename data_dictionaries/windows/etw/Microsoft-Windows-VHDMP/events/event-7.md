@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ParentLastWriteGUID|TBD|GUID|None|None|
-|TBD|ExpectedParentLastWriteGUID1|TBD|GUID|None|None|
-|TBD|ExpectedParentLastWriteGUID2|TBD|GUID|None|None|
-|TBD|VhdFileName|TBD|UnicodeString|None|None|
+|TBD|ParentLastWriteGUID|GUID|None|`None`|
+|TBD|ExpectedParentLastWriteGUID1|GUID|None|`None`|
+|TBD|ExpectedParentLastWriteGUID2|GUID|None|`None`|
+|TBD|VhdFileName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

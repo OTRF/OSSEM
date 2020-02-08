@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Command|TBD|UnicodeString|None|None|
-|TBD|TransactionId|TBD|GUID|None|None|
-|TBD|ResponseLength|TBD|UInt32|None|None|
-|TBD|Response|TBD|Binary|None|None|
+|TBD|Command|UnicodeString|None|`None`|
+|TBD|TransactionId|GUID|None|`None`|
+|TBD|ResponseLength|UInt32|None|`None`|
+|TBD|Response|Binary|None|`None`|
 
 ## Tags
 * etw_keywords_Ctap

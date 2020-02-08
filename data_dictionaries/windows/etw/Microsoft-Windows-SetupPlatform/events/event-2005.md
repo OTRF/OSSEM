@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Installationchoice|TBD|UInt32|None|None|
-|TBD|HostOSMajorversion|TBD|UInt32|None|None|
-|TBD|HostOSMinorversion|TBD|UInt32|None|None|
-|TBD|HostOSBuildnumber|TBD|UInt32|None|None|
-|TBD|HostOSServicepackmajornumber|TBD|UInt32|None|None|
-|TBD|HostOSServicepackminornumber|TBD|UInt32|None|None|
+|TBD|Installationchoice|UInt32|None|`None`|
+|TBD|HostOSMajorversion|UInt32|None|`None`|
+|TBD|HostOSMinorversion|UInt32|None|`None`|
+|TBD|HostOSBuildnumber|UInt32|None|`None`|
+|TBD|HostOSServicepackmajornumber|UInt32|None|`None`|
+|TBD|HostOSServicepackminornumber|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

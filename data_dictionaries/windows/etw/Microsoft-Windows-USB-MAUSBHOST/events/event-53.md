@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_WdfRequest|TBD|Pointer|None|None|
-|TBD|fid_SubType|TBD|UInt8|None|None|
-|TBD|fid_DeviceHandle|TBD|UInt16|None|None|
-|TBD|fid_DeviceAddress|TBD|UInt8|None|None|
-|TBD|fid_Ssid|TBD|UInt8|None|None|
-|TBD|fid_StatusCode|TBD|UInt8|None|None|
-|TBD|fid_DialogToken|TBD|UInt16|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_WdfRequest|Pointer|None|`None`|
+|TBD|fid_SubType|UInt8|None|`None`|
+|TBD|fid_DeviceHandle|UInt16|None|`None`|
+|TBD|fid_DeviceAddress|UInt8|None|`None`|
+|TBD|fid_Ssid|UInt8|None|`None`|
+|TBD|fid_StatusCode|UInt8|None|`None`|
+|TBD|fid_DialogToken|UInt16|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

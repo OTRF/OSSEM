@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Sender|TBD|UnicodeString|None|None|
-|TBD|Application|TBD|UnicodeString|None|None|
-|TBD|Version|TBD|UnicodeString|None|None|
-|TBD|Subject|TBD|UnicodeString|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|RecipientCount|TBD|UInt32|None|None|
-|TBD|Recipient|TBD|UnicodeString|None|None|
-|TBD|AttachmentCount|TBD|UInt32|None|None|
-|TBD|AttachmentName|TBD|UnicodeString|None|None|
-|TBD|EmailAccount|TBD|UnicodeString|None|None|
+|TBD|Sender|UnicodeString|None|`None`|
+|TBD|Application|UnicodeString|None|`None`|
+|TBD|Version|UnicodeString|None|`None`|
+|TBD|Subject|UnicodeString|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|RecipientCount|UInt32|None|`None`|
+|TBD|Recipient|UnicodeString|None|`None`|
+|TBD|AttachmentCount|UInt32|None|`None`|
+|TBD|AttachmentName|UnicodeString|None|`None`|
+|TBD|EmailAccount|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

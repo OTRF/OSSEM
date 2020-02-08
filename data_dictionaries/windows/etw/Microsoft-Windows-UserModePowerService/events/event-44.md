@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeInStandby|TBD|UInt32|None|None|
-|TBD|RemainingBatteryPercentage|TBD|UInt32|None|None|
-|TBD|RemainingBatteryTime|TBD|UInt32|None|None|
-|TBD|ReserveBatteryTime|TBD|UInt32|None|None|
-|TBD|ExecuteAction|TBD|Boolean|None|None|
-|TBD|RejectReason|TBD|UInt32|None|None|
+|TBD|TimeInStandby|UInt32|None|`None`|
+|TBD|RemainingBatteryPercentage|UInt32|None|`None`|
+|TBD|RemainingBatteryTime|UInt32|None|`None`|
+|TBD|ReserveBatteryTime|UInt32|None|`None`|
+|TBD|ExecuteAction|Boolean|None|`None`|
+|TBD|RejectReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

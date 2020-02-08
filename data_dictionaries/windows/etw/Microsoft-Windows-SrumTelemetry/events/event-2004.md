@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JoulesPerHourScreenOnDC|TBD|UInt32|None|None|
-|TBD|JoulesPerHourScreenOffDC|TBD|UInt32|None|None|
-|TBD|DCTimeBitpack|TBD|UInt32|None|None|
-|TBD|CPUCyclesOnDCBitpack|TBD|UInt32|None|None|
-|TBD|DiskMBRead|TBD|UInt32|None|None|
-|TBD|DiskMBWritten|TBD|UInt32|None|None|
+|TBD|JoulesPerHourScreenOnDC|UInt32|None|`None`|
+|TBD|JoulesPerHourScreenOffDC|UInt32|None|`None`|
+|TBD|DCTimeBitpack|UInt32|None|`None`|
+|TBD|CPUCyclesOnDCBitpack|UInt32|None|`None`|
+|TBD|DiskMBRead|UInt32|None|`None`|
+|TBD|DiskMBWritten|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

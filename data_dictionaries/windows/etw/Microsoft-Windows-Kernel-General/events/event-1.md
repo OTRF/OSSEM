@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NewTime|TBD|FILETIME|None|None|
-|TBD|OldTime|TBD|FILETIME|None|None|
+|TBD|NewTime|FILETIME|None|`None`|
+|TBD|OldTime|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

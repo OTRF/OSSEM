@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pSwapChain|TBD|Pointer|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|bProducer|TBD|Int32|None|None|
-|TBD|hDevice|TBD|UInt32|None|None|
-|TBD|SurfaceCount|TBD|UInt32|None|None|
-|TBD|hBufferAvailableEvent|TBD|Pointer|None|None|
-|TBD|hNtSwapChain|TBD|Pointer|None|None|
+|TBD|pSwapChain|Pointer|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|bProducer|Int32|None|`None`|
+|TBD|hDevice|UInt32|None|`None`|
+|TBD|SurfaceCount|UInt32|None|`None`|
+|TBD|hBufferAvailableEvent|Pointer|None|`None`|
+|TBD|hNtSwapChain|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

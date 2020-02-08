@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportIfIndex|TBD|UInt32|None|None|
-|TBD|LowerIfIndex|TBD|UInt32|None|None|
-|TBD|MediaType|TBD|UInt32|None|None|
-|TBD|ReferenceContext|TBD|UInt32|None|None|
+|TBD|MiniportIfIndex|UInt32|None|`None`|
+|TBD|LowerIfIndex|UInt32|None|`None`|
+|TBD|MediaType|UInt32|None|`None`|
+|TBD|ReferenceContext|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

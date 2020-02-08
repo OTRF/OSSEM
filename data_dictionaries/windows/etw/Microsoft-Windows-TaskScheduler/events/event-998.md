@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Name|TBD|UnicodeString|None|None|
-|TBD|HRESULT|TBD|UInt32|None|None|
-|TBD|File|TBD|UnicodeString|None|None|
-|TBD|Line|TBD|UInt32|None|None|
+|TBD|Name|UnicodeString|None|`None`|
+|TBD|HRESULT|UInt32|None|`None`|
+|TBD|File|UnicodeString|None|`None`|
+|TBD|Line|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

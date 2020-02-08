@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CsSessionId|TBD|UInt8|None|None|
-|TBD|DeviceObject|TBD|Pointer|None|None|
+|TBD|CsSessionId|UInt8|None|`None`|
+|TBD|DeviceObject|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

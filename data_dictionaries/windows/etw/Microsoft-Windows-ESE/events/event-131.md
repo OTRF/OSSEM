@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|posttTimerHandle|TBD|Pointer|None|None|
-|TBD|pfnTask|TBD|Pointer|None|None|
-|TBD|pvTaskGroupContext|TBD|Pointer|None|None|
+|TBD|posttTimerHandle|Pointer|None|`None`|
+|TBD|pfnTask|Pointer|None|`None`|
+|TBD|pvTaskGroupContext|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

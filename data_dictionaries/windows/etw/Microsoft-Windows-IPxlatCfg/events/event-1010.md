@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceLuid|TBD|UInt64|None|None|
+|TBD|InterfaceLuid|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

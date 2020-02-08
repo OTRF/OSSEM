@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SocketID|TBD|GUID|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|ProtocolVersion|TBD|UInt16|None|None|
-|TBD|MaxReadWriteSize|TBD|UInt32|None|None|
-|TBD|MaxReceiveSize|TBD|UInt32|None|None|
-|TBD|MaxFragmentedReceiveSize|TBD|UInt32|None|None|
-|TBD|MaxSendSize|TBD|UInt32|None|None|
-|TBD|MaxFragmentedSendSize|TBD|UInt32|None|None|
-|TBD|InboundReadDepth|TBD|UInt32|None|None|
-|TBD|OutboundReadDepth|TBD|UInt32|None|None|
+|TBD|SocketID|GUID|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|ProtocolVersion|UInt16|None|`None`|
+|TBD|MaxReadWriteSize|UInt32|None|`None`|
+|TBD|MaxReceiveSize|UInt32|None|`None`|
+|TBD|MaxFragmentedReceiveSize|UInt32|None|`None`|
+|TBD|MaxSendSize|UInt32|None|`None`|
+|TBD|MaxFragmentedSendSize|UInt32|None|`None`|
+|TBD|InboundReadDepth|UInt32|None|`None`|
+|TBD|OutboundReadDepth|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

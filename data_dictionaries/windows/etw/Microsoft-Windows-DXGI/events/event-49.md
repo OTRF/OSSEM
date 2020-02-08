@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|OldWindowed|TBD|Boolean|None|None|
-|TBD|pOldOutput|TBD|Pointer|None|None|
-|TBD|pOldPrimary|TBD|Pointer|None|None|
-|TBD|pOldProxyPrimary|TBD|Pointer|None|None|
-|TBD|OldWinFlipProxyBufferCount|TBD|UInt8|None|None|
-|TBD|OldSwapEffect|TBD|UInt32|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|OldWindowed|Boolean|None|`None`|
+|TBD|pOldOutput|Pointer|None|`None`|
+|TBD|pOldPrimary|Pointer|None|`None`|
+|TBD|pOldProxyPrimary|Pointer|None|`None`|
+|TBD|OldWinFlipProxyBufferCount|UInt8|None|`None`|
+|TBD|OldSwapEffect|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,20 +6,20 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Timestamp|TBD|FILETIME|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|EtherType|TBD|UInt16|None|None|
-|TBD|MediaType|TBD|UInt32|None|None|
-|TBD|InterfaceType|TBD|UInt32|None|None|
-|TBD|VlanTag|TBD|UInt16|None|None|
-|TBD|FilterId|TBD|UInt64|None|None|
-|TBD|LayerId|TBD|UInt16|None|None|
-|TBD|vSwitchId|TBD|UnicodeString|None|None|
-|TBD|SourcevSwitchPort|TBD|UInt32|None|None|
-|TBD|DestinationvSwitchPort|TBD|UInt32|None|None|
+|TBD|Timestamp|FILETIME|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|EtherType|UInt16|None|`None`|
+|TBD|MediaType|UInt32|None|`None`|
+|TBD|InterfaceType|UInt32|None|`None`|
+|TBD|VlanTag|UInt16|None|`None`|
+|TBD|FilterId|UInt64|None|`None`|
+|TBD|LayerId|UInt16|None|`None`|
+|TBD|vSwitchId|UnicodeString|None|`None`|
+|TBD|SourcevSwitchPort|UInt32|None|`None`|
+|TBD|DestinationvSwitchPort|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|_fBusy|TBD|Boolean|None|None|
-|TBD|fBusy|TBD|Boolean|None|None|
+|TBD|_fBusy|Boolean|None|`None`|
+|TBD|fBusy|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

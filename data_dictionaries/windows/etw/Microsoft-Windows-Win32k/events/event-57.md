@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hLogicalSurfSwapChainBinding|TBD|UInt64|None|None|
-|TBD|DesktopCompositorStatus|TBD|UInt8|None|None|
+|TBD|hLogicalSurfSwapChainBinding|UInt64|None|`None`|
+|TBD|DesktopCompositorStatus|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

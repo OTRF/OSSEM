@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AcpiOverrideType|TBD|UInt16|None|None|
+|TBD|AcpiOverrideType|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

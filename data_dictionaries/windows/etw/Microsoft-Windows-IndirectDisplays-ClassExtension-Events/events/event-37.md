@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Valid|TBD|Boolean|None|None|
-|TBD|IddAdapterLuid|TBD|Int64|None|None|
-|TBD|ConnectorIndex|TBD|UInt32|None|None|
-|TBD|MonitorModeIndex|TBD|UInt32|None|None|
-|TBD|PixelRate|TBD|UInt64|None|None|
-|TBD|VSync|TBD|Float|None|None|
-|TBD|ActiveWidth|TBD|UInt32|None|None|
-|TBD|ActiveHeight|TBD|UInt32|None|None|
-|TBD|VSyncDivider|TBD|UInt16|None|None|
-|TBD|RequiredBandwidth|TBD|UInt64|None|None|
+|TBD|Valid|Boolean|None|`None`|
+|TBD|IddAdapterLuid|Int64|None|`None`|
+|TBD|ConnectorIndex|UInt32|None|`None`|
+|TBD|MonitorModeIndex|UInt32|None|`None`|
+|TBD|PixelRate|UInt64|None|`None`|
+|TBD|VSync|Float|None|`None`|
+|TBD|ActiveWidth|UInt32|None|`None`|
+|TBD|ActiveHeight|UInt32|None|`None`|
+|TBD|VSyncDivider|UInt16|None|`None`|
+|TBD|RequiredBandwidth|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

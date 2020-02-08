@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Error_DUID|TBD|GUID|None|None|
-|TBD|Error_Partnership|TBD|GUID|None|None|
-|TBD|Error_Type|TBD|UInt8|None|None|
-|TBD|Error_HResult|TBD|Int32|None|None|
-|TBD|Error_Time|TBD|FILETIME|None|None|
-|TBD|nameLen|TBD|UInt32|None|None|
-|TBD|dataName|TBD|Binary|None|None|
-|TBD|descLen|TBD|UInt32|None|None|
-|TBD|dataDesc|TBD|Binary|None|None|
-|TBD|detailLen|TBD|UInt32|None|None|
-|TBD|dataDetail|TBD|Binary|None|None|
-|TBD|Error_Link|TBD|UnicodeString|None|None|
+|TBD|Error_DUID|GUID|None|`None`|
+|TBD|Error_Partnership|GUID|None|`None`|
+|TBD|Error_Type|UInt8|None|`None`|
+|TBD|Error_HResult|Int32|None|`None`|
+|TBD|Error_Time|FILETIME|None|`None`|
+|TBD|nameLen|UInt32|None|`None`|
+|TBD|dataName|Binary|None|`None`|
+|TBD|descLen|UInt32|None|`None`|
+|TBD|dataDesc|Binary|None|`None`|
+|TBD|detailLen|UInt32|None|`None`|
+|TBD|dataDetail|Binary|None|`None`|
+|TBD|Error_Link|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

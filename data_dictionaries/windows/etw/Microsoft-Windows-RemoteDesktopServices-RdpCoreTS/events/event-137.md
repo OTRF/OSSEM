@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TunnelID|TBD|UInt32|None|None|
-|TBD|RTT|TBD|UInt32|None|None|
-|TBD|Bandwidth|TBD|UInt32|None|None|
+|TBD|TunnelID|UInt32|None|`None`|
+|TBD|RTT|UInt32|None|`None`|
+|TBD|Bandwidth|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

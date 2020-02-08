@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsAlbumArt|TBD|Boolean|None|None|
-|TBD|IsStream|TBD|Boolean|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
+|TBD|IsAlbumArt|Boolean|None|`None`|
+|TBD|IsStream|Boolean|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

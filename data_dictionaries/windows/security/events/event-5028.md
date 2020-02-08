@@ -6,7 +6,7 @@ This error indicates one of two situations, low memory resources or Windows Fire
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|error_code|ErrorCode|TBD|string|unique error code.|2147942413|
+|error_code|ErrorCode|string|unique error code.|`2147942413`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5028.md)

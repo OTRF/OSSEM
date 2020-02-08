@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FilterId|TBD|UInt16|None|None|
-|TBD|FilterName|TBD|UnicodeString|None|None|
-|TBD|MacAddress1|TBD|Binary|None|None|
-|TBD|MacAddress2|TBD|Binary|None|None|
-|TBD|EtherType|TBD|UInt16|None|None|
-|TBD|VlanId|TBD|UInt16|None|None|
-|TBD|IpAddress1|TBD|Binary|None|None|
-|TBD|IpAddress2|TBD|Binary|None|None|
-|TBD|Protocol|TBD|UInt8|None|None|
-|TBD|Port1|TBD|UInt16|None|None|
-|TBD|Port2|TBD|UInt16|None|None|
-|TBD|TCPFlags|TBD|UInt8|None|None|
+|TBD|FilterId|UInt16|None|`None`|
+|TBD|FilterName|UnicodeString|None|`None`|
+|TBD|MacAddress1|Binary|None|`None`|
+|TBD|MacAddress2|Binary|None|`None`|
+|TBD|EtherType|UInt16|None|`None`|
+|TBD|VlanId|UInt16|None|`None`|
+|TBD|IpAddress1|Binary|None|`None`|
+|TBD|IpAddress2|Binary|None|`None`|
+|TBD|Protocol|UInt8|None|`None`|
+|TBD|Port1|UInt16|None|`None`|
+|TBD|Port2|UInt16|None|`None`|
+|TBD|TCPFlags|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

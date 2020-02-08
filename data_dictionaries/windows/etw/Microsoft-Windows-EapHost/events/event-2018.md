@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionID|TBD|Int32|None|None|
-|TBD|ServerOfferedMethod|TBD|Int32|None|None|
-|TBD|ClientRequestedMethod|TBD|AnsiString|None|None|
+|TBD|SessionID|Int32|None|`None`|
+|TBD|ServerOfferedMethod|Int32|None|`None`|
+|TBD|ClientRequestedMethod|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pollingInterval|TBD|UInt16|None|None|
-|TBD|acPowerState|TBD|Boolean|None|None|
-|TBD|batterySavingState|TBD|Boolean|None|None|
-|TBD|batteryLowState|TBD|Boolean|None|None|
-|TBD|batteryCriticalState|TBD|Boolean|None|None|
+|TBD|pollingInterval|UInt16|None|`None`|
+|TBD|acPowerState|Boolean|None|`None`|
+|TBD|batterySavingState|Boolean|None|`None`|
+|TBD|batteryLowState|Boolean|None|`None`|
+|TBD|batteryCriticalState|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

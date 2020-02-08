@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ThermalZoneDeviceInstanceLength|TBD|UInt16|None|None|
-|TBD|ThermalZoneDeviceInstance|TBD|UnicodeString|None|None|
-|TBD|ActiveCoolingState|TBD|UInt16|None|None|
-|TBD|ActivePoint|TBD|Int32|None|None|
-|TBD|PassiveCoolingState|TBD|UInt16|None|None|
-|TBD|ThrottleLimit|TBD|Int32|None|None|
-|TBD|ThermalStandby|TBD|Boolean|None|None|
-|TBD|OverThrottled|TBD|Boolean|None|None|
+|TBD|ThermalZoneDeviceInstanceLength|UInt16|None|`None`|
+|TBD|ThermalZoneDeviceInstance|UnicodeString|None|`None`|
+|TBD|ActiveCoolingState|UInt16|None|`None`|
+|TBD|ActivePoint|Int32|None|`None`|
+|TBD|PassiveCoolingState|UInt16|None|`None`|
+|TBD|ThrottleLimit|Int32|None|`None`|
+|TBD|ThermalStandby|Boolean|None|`None`|
+|TBD|OverThrottled|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

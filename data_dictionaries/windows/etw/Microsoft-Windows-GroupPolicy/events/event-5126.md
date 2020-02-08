@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsMachine|TBD|Boolean|None|None|
-|TBD|IsBackgroundProcessing|TBD|Boolean|None|None|
-|TBD|IsAsyncProcessing|TBD|Boolean|None|None|
-|TBD|NumberOfGPOsDownloaded|TBD|UInt32|None|None|
-|TBD|NumberOfGPOsApplicable|TBD|UInt32|None|None|
-|TBD|GPODownloadTimeElapsedInMilliseconds|TBD|UInt32|None|None|
+|TBD|IsMachine|Boolean|None|`None`|
+|TBD|IsBackgroundProcessing|Boolean|None|`None`|
+|TBD|IsAsyncProcessing|Boolean|None|`None`|
+|TBD|NumberOfGPOsDownloaded|UInt32|None|`None`|
+|TBD|NumberOfGPOsApplicable|UInt32|None|`None`|
+|TBD|GPODownloadTimeElapsedInMilliseconds|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

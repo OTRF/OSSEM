@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|BackBufferNumber|TBD|UInt32|None|None|
-|TBD|BackBufferHandle|TBD|Pointer|None|None|
-|TBD|BackBufferEventHandle|TBD|Pointer|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|BackBufferNumber|UInt32|None|`None`|
+|TBD|BackBufferHandle|Pointer|None|`None`|
+|TBD|BackBufferEventHandle|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

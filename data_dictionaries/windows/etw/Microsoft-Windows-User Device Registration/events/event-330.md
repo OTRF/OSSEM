@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AzureADTenantName|TBD|UnicodeString|None|None|
-|TBD|EnterpriseDrsName|TBD|UnicodeString|None|None|
+|TBD|AzureADTenantName|UnicodeString|None|`None`|
+|TBD|EnterpriseDrsName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

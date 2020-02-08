@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HwDrawListCachesInvalidated|TBD|UInt32|None|None|
-|TBD|HwDrawListCachesUpdated|TBD|UInt32|None|None|
+|TBD|HwDrawListCachesInvalidated|UInt32|None|`None`|
+|TBD|HwDrawListCachesUpdated|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

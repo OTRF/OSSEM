@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UserAgent|TBD|UnicodeString|None|None|
-|TBD|AccessType|TBD|UInt32|None|None|
-|TBD|ProxyName|TBD|UnicodeString|None|None|
-|TBD|ProxyBypassList|TBD|UnicodeString|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
+|TBD|UserAgent|UnicodeString|None|`None`|
+|TBD|AccessType|UInt32|None|`None`|
+|TBD|ProxyName|UnicodeString|None|`None`|
+|TBD|ProxyBypassList|UnicodeString|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ThermalZoneDeviceInstanceLength|TBD|UInt16|None|None|
-|TBD|ThermalZoneDeviceInstance|TBD|UnicodeString|None|None|
-|TBD|Temperature|TBD|UInt32|None|None|
+|TBD|ThermalZoneDeviceInstanceLength|UInt16|None|`None`|
+|TBD|ThermalZoneDeviceInstance|UnicodeString|None|`None`|
+|TBD|Temperature|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

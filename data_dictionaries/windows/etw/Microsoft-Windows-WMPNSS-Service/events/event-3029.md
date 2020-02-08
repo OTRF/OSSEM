@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsAlbumArt|TBD|Boolean|None|None|
-|TBD|IsTranscode|TBD|Boolean|None|None|
-|TBD|FormatID|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
+|TBD|IsAlbumArt|Boolean|None|`None`|
+|TBD|IsTranscode|Boolean|None|`None`|
+|TBD|FormatID|UInt32|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

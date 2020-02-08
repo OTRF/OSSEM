@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CollisionTargetType|TBD|UInt32|None|None|
-|TBD|CollisionTargetName|TBD|UnicodeString|None|None|
-|TBD|ForestRoot|TBD|UnicodeString|None|None|
-|TBD|TopLevelName|TBD|UnicodeString|None|None|
-|TBD|DnsName|TBD|UnicodeString|None|None|
-|TBD|NetbiosName|TBD|UnicodeString|None|None|
-|TBD|DomainSid|TBD|SID|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|CollisionTargetType|UInt32|None|`None`|
+|TBD|CollisionTargetName|UnicodeString|None|`None`|
+|TBD|ForestRoot|UnicodeString|None|`None`|
+|TBD|TopLevelName|UnicodeString|None|`None`|
+|TBD|DnsName|UnicodeString|None|`None`|
+|TBD|NetbiosName|UnicodeString|None|`None`|
+|TBD|DomainSid|SID|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

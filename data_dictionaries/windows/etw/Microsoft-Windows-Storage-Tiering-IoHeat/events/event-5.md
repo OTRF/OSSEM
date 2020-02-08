@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FileIDLower|TBD|UInt64|None|None|
-|TBD|FileIDUpper|TBD|UInt64|None|None|
-|TBD|Offset|TBD|UInt64|None|None|
-|TBD|Length|TBD|UInt32|None|None|
-|TBD|Source|TBD|UInt32|None|None|
-|TBD|Destination|TBD|UInt32|None|None|
-|TBD|VolumeIdHash|TBD|UInt32|None|None|
+|TBD|FileIDLower|UInt64|None|`None`|
+|TBD|FileIDUpper|UInt64|None|`None`|
+|TBD|Offset|UInt64|None|`None`|
+|TBD|Length|UInt32|None|`None`|
+|TBD|Source|UInt32|None|`None`|
+|TBD|Destination|UInt32|None|`None`|
+|TBD|VolumeIdHash|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

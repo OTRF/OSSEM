@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ThermalZoneDeviceInstanceLength|TBD|UInt16|None|None|
-|TBD|ThermalZoneDeviceInstance|TBD|UnicodeString|None|None|
-|TBD|ShutdownTime|TBD|FILETIME|None|None|
-|TBD|_CRT|TBD|UInt32|None|None|
+|TBD|ThermalZoneDeviceInstanceLength|UInt16|None|`None`|
+|TBD|ThermalZoneDeviceInstance|UnicodeString|None|`None`|
+|TBD|ShutdownTime|FILETIME|None|`None`|
+|TBD|_CRT|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

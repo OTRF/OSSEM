@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|isLosigHardwareResource|TBD|Boolean|None|None|
+|TBD|isLosigHardwareResource|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

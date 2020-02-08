@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UpdatedTimestamp|TBD|FILETIME|None|None|
-|TBD|InitialTimestamp|TBD|FILETIME|None|None|
-|TBD|CollectionId|TBD|UnicodeString|None|None|
-|TBD|SettingUnitId|TBD|UnicodeString|None|None|
-|TBD|Operation|TBD|UnicodeString|None|None|
+|TBD|UpdatedTimestamp|FILETIME|None|`None`|
+|TBD|InitialTimestamp|FILETIME|None|`None`|
+|TBD|CollectionId|UnicodeString|None|`None`|
+|TBD|SettingUnitId|UnicodeString|None|`None`|
+|TBD|Operation|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

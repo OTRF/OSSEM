@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NetworkChangeGuid|TBD|GUID|None|None|
+|TBD|NetworkChangeGuid|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

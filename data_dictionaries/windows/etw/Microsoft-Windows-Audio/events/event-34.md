@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCCrossProcessServerOutputEndpoint|TBD|Pointer|None|None|
-|TBD|WriteBytePos|TBD|UInt64|None|None|
-|TBD|DroppedBytes|TBD|UInt32|None|None|
-|TBD|ReadBytePos|TBD|UInt64|None|None|
-|TBD|BytesToWrite|TBD|UInt32|None|None|
+|TBD|pCCrossProcessServerOutputEndpoint|Pointer|None|`None`|
+|TBD|WriteBytePos|UInt64|None|`None`|
+|TBD|DroppedBytes|UInt32|None|`None`|
+|TBD|ReadBytePos|UInt64|None|`None`|
+|TBD|BytesToWrite|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

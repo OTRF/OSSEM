@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkSrq|TBD|Pointer|None|None|
-|TBD|SrqDepth|TBD|UInt32|None|None|
-|TBD|NotifyThreshold|TBD|UInt32|None|None|
-|TBD|RequestContext|TBD|Pointer|None|None|
+|TBD|NdkSrq|Pointer|None|`None`|
+|TBD|SrqDepth|UInt32|None|`None`|
+|TBD|NotifyThreshold|UInt32|None|`None`|
+|TBD|RequestContext|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

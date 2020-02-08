@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IfIndex|TBD|UInt32|None|None|
-|TBD|CompartmentId|TBD|UInt32|None|None|
-|TBD|AddressFamily|TBD|UInt32|None|None|
-|TBD|OldConnectivityStatus|TBD|UInt32|None|None|
-|TBD|NewConnectivityStatus|TBD|UInt32|None|None|
+|TBD|IfIndex|UInt32|None|`None`|
+|TBD|CompartmentId|UInt32|None|`None`|
+|TBD|AddressFamily|UInt32|None|`None`|
+|TBD|OldConnectivityStatus|UInt32|None|`None`|
+|TBD|NewConnectivityStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

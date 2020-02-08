@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Server|TBD|UnicodeString|None|None|
-|TBD|KDCRealm|TBD|UnicodeString|None|None|
-|TBD|__binLength|TBD|UInt32|None|None|
-|TBD|binary|TBD|Binary|None|None|
+|TBD|Server|UnicodeString|None|`None`|
+|TBD|KDCRealm|UnicodeString|None|`None`|
+|TBD|__binLength|UInt32|None|`None`|
+|TBD|binary|Binary|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BugcheckCode|TBD|UInt32|None|None|
-|TBD|BugcheckParameter1|TBD|Pointer|None|None|
-|TBD|BugcheckParameter2|TBD|Pointer|None|None|
-|TBD|BugcheckParameter3|TBD|Pointer|None|None|
-|TBD|BugcheckParameter4|TBD|Pointer|None|None|
-|TBD|SleepInProgress|TBD|UInt32|None|None|
-|TBD|PowerButtonTimestamp|TBD|UInt64|None|None|
-|TBD|BootAppStatus|TBD|UInt32|None|None|
-|TBD|Checkpoint|TBD|UInt8|None|None|
-|TBD|ConnectedStandbyInProgress|TBD|Boolean|None|None|
-|TBD|SystemSleepTransitionsToOn|TBD|UInt32|None|None|
-|TBD|CsEntryScenarioInstanceId|TBD|UInt8|None|None|
+|TBD|BugcheckCode|UInt32|None|`None`|
+|TBD|BugcheckParameter1|Pointer|None|`None`|
+|TBD|BugcheckParameter2|Pointer|None|`None`|
+|TBD|BugcheckParameter3|Pointer|None|`None`|
+|TBD|BugcheckParameter4|Pointer|None|`None`|
+|TBD|SleepInProgress|UInt32|None|`None`|
+|TBD|PowerButtonTimestamp|UInt64|None|`None`|
+|TBD|BootAppStatus|UInt32|None|`None`|
+|TBD|Checkpoint|UInt8|None|`None`|
+|TBD|ConnectedStandbyInProgress|Boolean|None|`None`|
+|TBD|SystemSleepTransitionsToOn|UInt32|None|`None`|
+|TBD|CsEntryScenarioInstanceId|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Critical

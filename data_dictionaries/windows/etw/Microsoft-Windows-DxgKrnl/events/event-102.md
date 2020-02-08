@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|VidPnSourceId|TBD|UInt32|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|Format|TBD|UInt32|None|None|
-|TBD|RefreshRateNumerator|TBD|UInt32|None|None|
-|TBD|RefreshRateDenominator|TBD|UInt32|None|None|
-|TBD|ScanLineOrdering|TBD|UInt32|None|None|
-|TBD|Orientation|TBD|UInt32|None|None|
-|TBD|DisplayFixedOutput|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|NumSamples|TBD|UInt32|None|None|
-|TBD|NumQualityLevels|TBD|UInt32|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|VidPnSourceId|UInt32|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|Format|UInt32|None|`None`|
+|TBD|RefreshRateNumerator|UInt32|None|`None`|
+|TBD|RefreshRateDenominator|UInt32|None|`None`|
+|TBD|ScanLineOrdering|UInt32|None|`None`|
+|TBD|Orientation|UInt32|None|`None`|
+|TBD|DisplayFixedOutput|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|NumSamples|UInt32|None|`None`|
+|TBD|NumQualityLevels|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

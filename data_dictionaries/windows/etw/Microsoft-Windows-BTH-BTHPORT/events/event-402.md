@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CommandPacketsAllowed|TBD|UInt8|None|None|
-|TBD|AclWriteCredits|TBD|UInt16|None|None|
-|TBD|BIP_Type|TBD|UInt8|None|None|
-|TBD|BIP_DataLen|TBD|UInt32|None|None|
-|TBD|BIP_Data|TBD|Binary|None|None|
+|TBD|CommandPacketsAllowed|UInt8|None|`None`|
+|TBD|AclWriteCredits|UInt16|None|`None`|
+|TBD|BIP_Type|UInt8|None|`None`|
+|TBD|BIP_DataLen|UInt32|None|`None`|
+|TBD|BIP_Data|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SystemCommitLimit|TBD|UInt64|None|None|
-|TBD|SystemCommitCharge|TBD|UInt64|None|None|
+|TBD|SystemCommitLimit|UInt64|None|`None`|
+|TBD|SystemCommitCharge|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Warning

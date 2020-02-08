@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DispNode|TBD|Pointer|None|None|
-|TBD|NodeDescription|TBD|UnicodeString|None|None|
-|TBD|HasDependentCompositionEffect|TBD|Boolean|None|None|
-|TBD|HasRoundedBorders|TBD|Boolean|None|None|
+|TBD|DispNode|Pointer|None|`None`|
+|TBD|NodeDescription|UnicodeString|None|`None`|
+|TBD|HasDependentCompositionEffect|Boolean|None|`None`|
+|TBD|HasRoundedBorders|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

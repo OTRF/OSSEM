@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|CurrentOrNextState|TBD|UInt8|None|None|
-|TBD|IfLuid|TBD|UInt64|None|None|
-|TBD|CorporateLocation|TBD|UInt8|None|None|
-|TBD|CorporateLocationMetadata|TBD|UInt32|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|CurrentOrNextState|UInt8|None|`None`|
+|TBD|IfLuid|UInt64|None|`None`|
+|TBD|CorporateLocation|UInt8|None|`None`|
+|TBD|CorporateLocationMetadata|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

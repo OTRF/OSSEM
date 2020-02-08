@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportIfIndex|TBD|UInt32|None|None|
-|TBD|LowerIfIndex|TBD|UInt32|None|None|
-|TBD|FragmentSize|TBD|UInt32|None|None|
-|TBD|Fragment|TBD|Binary|None|None|
-|TBD|GftFlowEntryId|TBD|UInt64|None|None|
-|TBD|GftOffloadInformation|TBD|UInt64|None|None|
+|TBD|MiniportIfIndex|UInt32|None|`None`|
+|TBD|LowerIfIndex|UInt32|None|`None`|
+|TBD|FragmentSize|UInt32|None|`None`|
+|TBD|Fragment|Binary|None|`None`|
+|TBD|GftFlowEntryId|UInt64|None|`None`|
+|TBD|GftOffloadInformation|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

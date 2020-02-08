@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CDoc|TBD|Pointer|None|None|
-|TBD|BaseOpticalZoom|TBD|Float|None|None|
-|TBD|BaseOpticalZoomDefault|TBD|Float|None|None|
-|TBD|HostDpiAware|TBD|Boolean|None|None|
-|TBD|StaticViewportSizeApplied|TBD|Boolean|None|None|
-|TBD|AtViewportHasDeviceWidthOrHeight|TBD|Boolean|None|None|
+|TBD|CDoc|Pointer|None|`None`|
+|TBD|BaseOpticalZoom|Float|None|`None`|
+|TBD|BaseOpticalZoomDefault|Float|None|`None`|
+|TBD|HostDpiAware|Boolean|None|`None`|
+|TBD|StaticViewportSizeApplied|Boolean|None|`None`|
+|TBD|AtViewportHasDeviceWidthOrHeight|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

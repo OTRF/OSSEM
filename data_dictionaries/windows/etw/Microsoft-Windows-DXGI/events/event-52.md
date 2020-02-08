@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIOutput|TBD|Pointer|None|None|
-|TBD|ReturnValue|TBD|UInt32|None|None|
-|TBD|WidthResult|TBD|UInt32|None|None|
-|TBD|HeightResult|TBD|UInt32|None|None|
-|TBD|RefreshNumeratorResult|TBD|UInt32|None|None|
-|TBD|RefreshDenominatorResult|TBD|UInt32|None|None|
-|TBD|FormatResult|TBD|UInt32|None|None|
-|TBD|ScanlineOrderingResult|TBD|UInt32|None|None|
-|TBD|ScalingResult|TBD|UInt32|None|None|
+|TBD|pIDXGIOutput|Pointer|None|`None`|
+|TBD|ReturnValue|UInt32|None|`None`|
+|TBD|WidthResult|UInt32|None|`None`|
+|TBD|HeightResult|UInt32|None|`None`|
+|TBD|RefreshNumeratorResult|UInt32|None|`None`|
+|TBD|RefreshDenominatorResult|UInt32|None|`None`|
+|TBD|FormatResult|UInt32|None|`None`|
+|TBD|ScanlineOrderingResult|UInt32|None|`None`|
+|TBD|ScalingResult|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

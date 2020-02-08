@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HiberfileSizeKB|TBD|UInt32|None|None|
-|TBD|TotalHibernateTime|TBD|UInt32|None|None|
-|TBD|HiberHiberFileTime|TBD|UInt32|None|None|
+|TBD|HiberfileSizeKB|UInt32|None|`None`|
+|TBD|TotalHibernateTime|UInt32|None|`None`|
+|TBD|HiberHiberFileTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

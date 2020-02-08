@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCCrossProcessClientInputEndpoint|TBD|Pointer|None|None|
-|TBD|Unused|TBD|UInt32|None|None|
+|TBD|pCCrossProcessClientInputEndpoint|Pointer|None|`None`|
+|TBD|Unused|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

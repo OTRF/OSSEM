@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FlowConformanceEvent|TBD|UInt32|None|None|
-|TBD|CurrentTime|TBD|UInt64|None|None|
-|TBD|LastConformanceTime|TBD|UInt64|None|None|
-|TBD|PeakConformanceTime|TBD|UInt64|None|None|
-|TBD|Tokens|TBD|UInt64|None|None|
-|TBD|MaxTokens|TBD|UInt64|None|None|
-|TBD|Rate|TBD|UInt64|None|None|
-|TBD|LastConformanceCredits|TBD|UInt32|None|None|
+|TBD|FlowConformanceEvent|UInt32|None|`None`|
+|TBD|CurrentTime|UInt64|None|`None`|
+|TBD|LastConformanceTime|UInt64|None|`None`|
+|TBD|PeakConformanceTime|UInt64|None|`None`|
+|TBD|Tokens|UInt64|None|`None`|
+|TBD|MaxTokens|UInt64|None|`None`|
+|TBD|Rate|UInt64|None|`None`|
+|TBD|LastConformanceCredits|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

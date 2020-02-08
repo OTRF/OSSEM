@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Pointer|TBD|Pointer|None|None|
-|TBD|dwSourceStreamIndex|TBD|UInt32|None|None|
-|TBD|guidPropertySet|TBD|GUID|None|None|
-|TBD|propertyID|TBD|UInt32|None|None|
-|TBD|HResult|TBD|UInt32|None|None|
+|TBD|Pointer|Pointer|None|`None`|
+|TBD|dwSourceStreamIndex|UInt32|None|`None`|
+|TBD|guidPropertySet|GUID|None|`None`|
+|TBD|propertyID|UInt32|None|`None`|
+|TBD|HResult|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

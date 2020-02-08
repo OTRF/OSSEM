@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BackupTemplateID|TBD|GUID|None|None|
-|TBD|SystemStateBackup|TBD|Boolean|None|None|
+|TBD|BackupTemplateID|GUID|None|`None`|
+|TBD|SystemStateBackup|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_UpTime_Seconds|TBD|Int64|None|None|
-|TBD|Prop_WorkTime_MilliSeconds|TBD|Int64|None|None|
+|TBD|Prop_UpTime_Seconds|Int64|None|`None`|
+|TBD|Prop_WorkTime_MilliSeconds|Int64|None|`None`|
 
 ## Tags
 * etw_level_Informational

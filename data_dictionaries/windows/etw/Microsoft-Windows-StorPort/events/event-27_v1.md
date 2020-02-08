@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PortNumber|TBD|UInt32|None|None|
-|TBD|AdapterHardwareId|TBD|UnicodeString|None|None|
-|TBD|MiniportName|TBD|UnicodeString|None|None|
-|TBD|AdapterInterfaceType|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt64|None|None|
-|TBD|AllowStorageD3|TBD|Boolean|None|None|
-|TBD|AcpiDsdProperty|TBD|UInt32|None|None|
-|TBD|StorageD3RegistryState|TBD|UInt32|None|None|
-|TBD|StorageD3Enable|TBD|Boolean|None|None|
+|TBD|PortNumber|UInt32|None|`None`|
+|TBD|AdapterHardwareId|UnicodeString|None|`None`|
+|TBD|MiniportName|UnicodeString|None|`None`|
+|TBD|AdapterInterfaceType|UInt32|None|`None`|
+|TBD|Flags|UInt64|None|`None`|
+|TBD|AllowStorageD3|Boolean|None|`None`|
+|TBD|AcpiDsdProperty|UInt32|None|`None`|
+|TBD|StorageD3RegistryState|UInt32|None|`None`|
+|TBD|StorageD3Enable|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

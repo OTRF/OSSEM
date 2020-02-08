@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PID|TBD|UInt32|None|None|
-|TBD|size|TBD|UInt32|None|None|
-|TBD|daddr|TBD|Binary|None|None|
-|TBD|saddr|TBD|Binary|None|None|
-|TBD|dport|TBD|UInt16|None|None|
-|TBD|sport|TBD|UInt16|None|None|
-|TBD|mss|TBD|UInt16|None|None|
-|TBD|sackopt|TBD|UInt16|None|None|
-|TBD|tsopt|TBD|UInt16|None|None|
-|TBD|wsopt|TBD|UInt16|None|None|
-|TBD|rcvwin|TBD|UInt32|None|None|
-|TBD|rcvwinscale|TBD|UInt16|None|None|
-|TBD|sndwinscale|TBD|UInt16|None|None|
-|TBD|seqnum|TBD|UInt32|None|None|
-|TBD|connid|TBD|UInt32|None|None|
+|TBD|PID|UInt32|None|`None`|
+|TBD|size|UInt32|None|`None`|
+|TBD|daddr|Binary|None|`None`|
+|TBD|saddr|Binary|None|`None`|
+|TBD|dport|UInt16|None|`None`|
+|TBD|sport|UInt16|None|`None`|
+|TBD|mss|UInt16|None|`None`|
+|TBD|sackopt|UInt16|None|`None`|
+|TBD|tsopt|UInt16|None|`None`|
+|TBD|wsopt|UInt16|None|`None`|
+|TBD|rcvwin|UInt32|None|`None`|
+|TBD|rcvwinscale|UInt16|None|`None`|
+|TBD|sndwinscale|UInt16|None|`None`|
+|TBD|seqnum|UInt32|None|`None`|
+|TBD|connid|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

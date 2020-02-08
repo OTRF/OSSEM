@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|FlowType|TBD|UInt32|None|None|
-|TBD|SendSpecTokenRate|TBD|UInt32|None|None|
-|TBD|SendSpecTokenBucketSize|TBD|UInt32|None|None|
-|TBD|SendSpecPeakBandwidth|TBD|UInt32|None|None|
-|TBD|SendSpecLatency|TBD|UInt32|None|None|
-|TBD|SendSpecDelayVariation|TBD|UInt32|None|None|
-|TBD|SendSpecServiceType|TBD|UInt32|None|None|
-|TBD|SendSpecMaxSduSize|TBD|UInt32|None|None|
-|TBD|SendSpecMinimumPolicedSize|TBD|UInt32|None|None|
-|TBD|DsClass|TBD|Int16|None|None|
-|TBD|TrafficClass|TBD|Int16|None|None|
-|TBD|QoSObjectBufferLen|TBD|UInt32|None|None|
-|TBD|QoSObjectBuffer|TBD|Binary|None|None|
-|TBD|DefaultSystemFlow|TBD|UInt8|None|None|
+|TBD|Status|UInt32|None|`None`|
+|TBD|FlowType|UInt32|None|`None`|
+|TBD|SendSpecTokenRate|UInt32|None|`None`|
+|TBD|SendSpecTokenBucketSize|UInt32|None|`None`|
+|TBD|SendSpecPeakBandwidth|UInt32|None|`None`|
+|TBD|SendSpecLatency|UInt32|None|`None`|
+|TBD|SendSpecDelayVariation|UInt32|None|`None`|
+|TBD|SendSpecServiceType|UInt32|None|`None`|
+|TBD|SendSpecMaxSduSize|UInt32|None|`None`|
+|TBD|SendSpecMinimumPolicedSize|UInt32|None|`None`|
+|TBD|DsClass|Int16|None|`None`|
+|TBD|TrafficClass|Int16|None|`None`|
+|TBD|QoSObjectBufferLen|UInt32|None|`None`|
+|TBD|QoSObjectBuffer|Binary|None|`None`|
+|TBD|DefaultSystemFlow|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

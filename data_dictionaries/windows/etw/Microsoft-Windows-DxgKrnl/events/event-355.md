@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|NodeOrdinal|TBD|UInt32|None|None|
-|TBD|YieldExpirationInterval|TBD|UInt64|None|None|
-|TBD|YieldTimerExpirationInterval|TBD|UInt64|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|NodeOrdinal|UInt32|None|`None`|
+|TBD|YieldExpirationInterval|UInt64|None|`None`|
+|TBD|YieldTimerExpirationInterval|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

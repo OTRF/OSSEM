@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MeetsLayoutConstraints|TBD|Boolean|None|None|
-|TBD|MeetsTimeConstraints|TBD|Boolean|None|None|
-|TBD|MeetsSlideReuseConstraints|TBD|Boolean|None|None|
+|TBD|MeetsLayoutConstraints|Boolean|None|`None`|
+|TBD|MeetsTimeConstraints|Boolean|None|`None`|
+|TBD|MeetsSlideReuseConstraints|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

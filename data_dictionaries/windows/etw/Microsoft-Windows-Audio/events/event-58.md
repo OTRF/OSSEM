@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|flow|TBD|UInt32|None|None|
-|TBD|role|TBD|UInt32|None|None|
-|TBD|TargetProcessId|TBD|UInt32|None|None|
+|TBD|flow|UInt32|None|`None`|
+|TBD|role|UInt32|None|`None`|
+|TBD|TargetProcessId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

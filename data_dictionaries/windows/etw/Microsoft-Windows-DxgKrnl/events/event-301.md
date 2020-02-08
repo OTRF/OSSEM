@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EProcess|TBD|Pointer|None|None|
-|TBD|Range|TBD|Pointer|None|None|
-|TBD|Block|TBD|Pointer|None|None|
-|TBD|Section|TBD|Pointer|None|None|
-|TBD|Heap|TBD|Pointer|None|None|
-|TBD|StartAddress|TBD|Pointer|None|None|
-|TBD|EndAddress|TBD|Pointer|None|None|
-|TBD|HeapType|TBD|UInt32|None|None|
-|TBD|CreationState|TBD|UInt32|None|None|
+|TBD|EProcess|Pointer|None|`None`|
+|TBD|Range|Pointer|None|`None`|
+|TBD|Block|Pointer|None|`None`|
+|TBD|Section|Pointer|None|`None`|
+|TBD|Heap|Pointer|None|`None`|
+|TBD|StartAddress|Pointer|None|`None`|
+|TBD|EndAddress|Pointer|None|`None`|
+|TBD|HeapType|UInt32|None|`None`|
+|TBD|CreationState|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

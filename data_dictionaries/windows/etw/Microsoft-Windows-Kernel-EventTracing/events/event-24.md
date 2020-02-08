@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|GUID|TBD|GUID|None|None|
-|TBD|FilterFlags|TBD|UInt32|None|None|
-|TBD|LastEnableLoggerId|TBD|UInt16|None|None|
+|TBD|GUID|GUID|None|`None`|
+|TBD|FilterFlags|UInt32|None|`None`|
+|TBD|LastEnableLoggerId|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Verbose

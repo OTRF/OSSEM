@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|profileType|TBD|UInt8|None|None|
-|TBD|currSlotStartTime|TBD|FILETIME|None|None|
-|TBD|currSlotBandwidthLimit|TBD|UInt64|None|None|
-|TBD|nextSlotStartTime|TBD|FILETIME|None|None|
-|TBD|nextSlotBandwidthLimit|TBD|UInt64|None|None|
+|TBD|profileType|UInt8|None|`None`|
+|TBD|currSlotStartTime|FILETIME|None|`None`|
+|TBD|currSlotBandwidthLimit|UInt64|None|`None`|
+|TBD|nextSlotStartTime|FILETIME|None|`None`|
+|TBD|nextSlotBandwidthLimit|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

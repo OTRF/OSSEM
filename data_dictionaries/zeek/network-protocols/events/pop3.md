@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|@stream|TBD|string|||
-|@timestamp|ts|TBD|date_time|||
-|TBD|username|TBD|string|||
-|TBD|successful_commands|TBD||||
+|TBD|@stream|string||``|
+|@timestamp|ts|date_time||``|
+|TBD|username|string||``|
+|TBD|successful_commands|||``|

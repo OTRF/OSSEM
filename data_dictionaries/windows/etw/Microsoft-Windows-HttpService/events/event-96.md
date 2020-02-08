@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|SniHostname|TBD|UnicodeString|None|None|
-|TBD|ThumbprintLength|TBD|UInt16|None|None|
-|TBD|Thumbprint|TBD|Binary|None|None|
-|TBD|ClientDisconnect|TBD|Boolean|None|None|
-|TBD|AbortiveDisconnect|TBD|Boolean|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|SniHostname|UnicodeString|None|`None`|
+|TBD|ThumbprintLength|UInt16|None|`None`|
+|TBD|Thumbprint|Binary|None|`None`|
+|TBD|ClientDisconnect|Boolean|None|`None`|
+|TBD|AbortiveDisconnect|Boolean|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

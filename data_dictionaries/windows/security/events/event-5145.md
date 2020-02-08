@@ -6,19 +6,19 @@ This event generates every time network share object (file or folder) was access
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_sid|SubjectUserSid|TBD|string|SID of account that requested access to network share object.|S-1-5-21-3457937927-2839227994-823803824-1104|
-|user_name|SubjectUserName|TBD|string|the name of the account that requested access to network share object.|dadmin|
-|user_domain|SubjectDomainName|TBD|string|subject's domain or computer name|CONTOSO|
-|user_logon_id|SubjectLogonId|TBD|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|0x541f35|
-|object_type|ObjectType|TBD|string|The type of an object that was accessed during the operation. Always "File" for this event.|File|
-|src_ip_addr|IpAddress|TBD|ip|source IP address from which access was performed.|10.0.0.100|
-|src_port|IpPort|TBD|integer|source TCP or UDP port which was used from remote or local machine to request the access.|49212|
-|share_name|ShareName|TBD|string|the name of accessed network share.|\*\Documents|
-|share_local_path|ShareLocalPath|TBD|string|the full system (NTFS) path for accessed share. The format is: \??\PATH|\??\C:\Documents|
-|share_relative_target_name|RelativeTargetName|TBD|string|relative name of the accessed target file or folder. This file-path is relative to the network share. If access was requested for the share itself, then this field appears as "\"|Bginfo.exe|
-|share_access_mask|AccessMask|TBD|string|the sum of hexadecimal values of requested access rights. See "Table 13. File access codes."|0x1|
-|user_access_reason|AccessReason|TBD|string|the list of access check results.|%%1541: %%1801 D:(A;;FA;;;WD) %%4416: %%1801 D:(A;;FA;;;WD) %%4423: %%1801 D:(A;;FA;;;WD)|
-|user_access_list|AccessList|TBD|string|the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)" value for this event.|%%4416|
+|user_sid|SubjectUserSid|string|SID of account that requested access to network share object.|`S-1-5-21-3457937927-2839227994-823803824-1104`|
+|user_name|SubjectUserName|string|the name of the account that requested access to network share object.|`dadmin`|
+|user_domain|SubjectDomainName|string|subject's domain or computer name|`CONTOSO`|
+|user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x541f35`|
+|object_type|ObjectType|string|The type of an object that was accessed during the operation. Always "File" for this event.|`File`|
+|src_ip_addr|IpAddress|ip|source IP address from which access was performed.|`10.0.0.100`|
+|src_port|IpPort|integer|source TCP or UDP port which was used from remote or local machine to request the access.|`49212`|
+|share_name|ShareName|string|the name of accessed network share.|`\*\Documents`|
+|share_local_path|ShareLocalPath|string|the full system (NTFS) path for accessed share. The format is: \??\PATH|`\??\C:\Documents`|
+|share_relative_target_name|RelativeTargetName|string|relative name of the accessed target file or folder. This file-path is relative to the network share. If access was requested for the share itself, then this field appears as "\"|`Bginfo.exe`|
+|share_access_mask|AccessMask|string|the sum of hexadecimal values of requested access rights. See "Table 13. File access codes."|`0x1`|
+|user_access_reason|AccessReason|string|the list of access check results.|`%%1541: %%1801 D:(A;;FA;;;WD) %%4416: %%1801 D:(A;;FA;;;WD) %%4423: %%1801 D:(A;;FA;;;WD)`|
+|user_access_list|AccessList|string|the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)" value for this event.|`%%4416`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5145.md)

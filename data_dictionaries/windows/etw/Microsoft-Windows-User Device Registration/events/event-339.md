@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fProxy|TBD|UnicodeString|None|None|
-|TBD|fBypass|TBD|UnicodeString|None|None|
-|TBD|INTERNET_SCHEME|TBD|UInt32|None|None|
-|TBD|pwszProxy|TBD|UnicodeString|None|None|
-|TBD|ProxyPort|TBD|UInt32|None|None|
+|TBD|fProxy|UnicodeString|None|`None`|
+|TBD|fBypass|UnicodeString|None|`None`|
+|TBD|INTERNET_SCHEME|UInt32|None|`None`|
+|TBD|pwszProxy|UnicodeString|None|`None`|
+|TBD|ProxyPort|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

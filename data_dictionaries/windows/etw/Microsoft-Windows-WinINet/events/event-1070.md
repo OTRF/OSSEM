@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Handle|TBD|Pointer|None|None|
-|TBD|Operation|TBD|UInt32|None|None|
-|TBD|ClientType|TBD|UInt32|None|None|
-|TBD|ThreadInfoUIType|TBD|UInt32|None|None|
-|TBD|IsSync|TBD|Boolean|None|None|
+|TBD|Handle|Pointer|None|`None`|
+|TBD|Operation|UInt32|None|`None`|
+|TBD|ClientType|UInt32|None|`None`|
+|TBD|ThreadInfoUIType|UInt32|None|`None`|
+|TBD|IsSync|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

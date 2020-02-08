@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Object|TBD|Pointer|None|None|
-|TBD|Sample|TBD|Pointer|None|None|
-|TBD|Free|TBD|Int32|None|None|
-|TBD|Allocated|TBD|Int32|None|None|
-|TBD|MinSampleCount|TBD|Int32|None|None|
+|TBD|Object|Pointer|None|`None`|
+|TBD|Sample|Pointer|None|`None`|
+|TBD|Free|Int32|None|`None`|
+|TBD|Allocated|Int32|None|`None`|
+|TBD|MinSampleCount|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

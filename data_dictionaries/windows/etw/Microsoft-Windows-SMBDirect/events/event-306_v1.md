@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SocketID|TBD|GUID|None|None|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|MinVersion|TBD|UInt16|None|None|
-|TBD|MaxVersion|TBD|UInt16|None|None|
-|TBD|PeerMinVersion|TBD|UInt16|None|None|
-|TBD|PeerMaxVersion|TBD|UInt16|None|None|
+|TBD|SocketID|GUID|None|`None`|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|MinVersion|UInt16|None|`None`|
+|TBD|MaxVersion|UInt16|None|`None`|
+|TBD|PeerMinVersion|UInt16|None|`None`|
+|TBD|PeerMaxVersion|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CertValidated|TBD|UInt32|None|None|
-|TBD|cbHash|TBD|UInt32|None|None|
-|TBD|pbHash|TBD|AnsiString|None|None|
-|TBD|ContainerName|TBD|UnicodeString|None|None|
-|TBD|ProviderName|TBD|UnicodeString|None|None|
-|TBD|DisplayInformation|TBD|UnicodeString|None|None|
-|TBD|dwCapabilities|TBD|AnsiString|None|None|
-|TBD|bIsCurrentKey|TBD|AnsiString|None|None|
-|TBD|eKeyType|TBD|AnsiString|None|None|
+|TBD|CertValidated|UInt32|None|`None`|
+|TBD|cbHash|UInt32|None|`None`|
+|TBD|pbHash|AnsiString|None|`None`|
+|TBD|ContainerName|UnicodeString|None|`None`|
+|TBD|ProviderName|UnicodeString|None|`None`|
+|TBD|DisplayInformation|UnicodeString|None|`None`|
+|TBD|dwCapabilities|AnsiString|None|`None`|
+|TBD|bIsCurrentKey|AnsiString|None|`None`|
+|TBD|eKeyType|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

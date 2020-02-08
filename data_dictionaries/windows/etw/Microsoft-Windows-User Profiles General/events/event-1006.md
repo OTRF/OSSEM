@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FileName|TBD|UnicodeString|None|None|
-|TBD|FileSizeInKb|TBD|UInt64|None|None|
-|TBD|SourceLocation|TBD|UnicodeString|None|None|
-|TBD|DestinationLocation|TBD|UnicodeString|None|None|
-|TBD|CopyTimeInSec|TBD|UInt64|None|None|
+|TBD|FileName|UnicodeString|None|`None`|
+|TBD|FileSizeInKb|UInt64|None|`None`|
+|TBD|SourceLocation|UnicodeString|None|`None`|
+|TBD|DestinationLocation|UnicodeString|None|`None`|
+|TBD|CopyTimeInSec|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

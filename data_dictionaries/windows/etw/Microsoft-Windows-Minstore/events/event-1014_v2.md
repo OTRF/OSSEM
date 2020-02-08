@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StartLsn|TBD|HexInt64|None|None|
-|TBD|EndLsn|TBD|HexInt64|None|None|
-|TBD|TransactionsRemaining|TBD|UInt64|None|None|
+|TBD|StartLsn|HexInt64|None|`None`|
+|TBD|EndLsn|HexInt64|None|`None`|
+|TBD|TransactionsRemaining|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeoutMSec|TBD|UInt64|None|None|
-|TBD|ElapsedTimeMSec|TBD|UInt64|None|None|
+|TBD|TimeoutMSec|UInt64|None|`None`|
+|TBD|ElapsedTimeMSec|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

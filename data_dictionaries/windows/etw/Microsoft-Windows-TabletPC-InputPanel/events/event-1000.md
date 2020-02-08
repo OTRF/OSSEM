@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResolutionWidth|TBD|Int32|None|None|
-|TBD|ResolutionHeight|TBD|Int32|None|None|
-|TBD|PhysicalWidthInHiMetric|TBD|Int32|None|None|
-|TBD|PhysicalHeightInHiMetric|TBD|Int32|None|None|
+|TBD|ResolutionWidth|Int32|None|`None`|
+|TBD|ResolutionHeight|Int32|None|`None`|
+|TBD|PhysicalWidthInHiMetric|Int32|None|`None`|
+|TBD|PhysicalHeightInHiMetric|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

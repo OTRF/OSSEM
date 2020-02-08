@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CElement|TBD|Pointer|None|None|
-|TBD|CDMDraggableTouchTargetHandler|TBD|Pointer|None|None|
+|TBD|CElement|Pointer|None|`None`|
+|TBD|CDMDraggableTouchTargetHandler|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

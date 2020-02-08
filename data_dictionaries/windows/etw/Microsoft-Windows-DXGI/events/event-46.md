@@ -6,24 +6,24 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|ReturnValue|TBD|UInt32|None|None|
-|TBD|NewUserBackbufferCount|TBD|UInt8|None|None|
-|TBD|NewBackbufferCount|TBD|UInt8|None|None|
-|TBD|ppNewBackBuffers|TBD|Pointer|None|None|
-|TBD|pNewPrimary|TBD|Pointer|None|None|
-|TBD|pNewProxyPrimary|TBD|Pointer|None|None|
-|TBD|NewWidth|TBD|UInt32|None|None|
-|TBD|NewHeight|TBD|UInt32|None|None|
-|TBD|NewFormat|TBD|UInt32|None|None|
-|TBD|NewFlags|TBD|UInt32|None|None|
-|TBD|NewRedirected|TBD|Boolean|None|None|
-|TBD|NewLogicalSurfaceHandle|TBD|UInt64|None|None|
-|TBD|NewBackbufferHandles|TBD|Pointer|None|None|
-|TBD|NewFenceHandle|TBD|Pointer|None|None|
-|TBD|NewFenceValue|TBD|UInt64|None|None|
-|TBD|NewActualbufferCount|TBD|UInt8|None|None|
-|TBD|NewWinFlipProxyBufferCount|TBD|UInt8|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|ReturnValue|UInt32|None|`None`|
+|TBD|NewUserBackbufferCount|UInt8|None|`None`|
+|TBD|NewBackbufferCount|UInt8|None|`None`|
+|TBD|ppNewBackBuffers|Pointer|None|`None`|
+|TBD|pNewPrimary|Pointer|None|`None`|
+|TBD|pNewProxyPrimary|Pointer|None|`None`|
+|TBD|NewWidth|UInt32|None|`None`|
+|TBD|NewHeight|UInt32|None|`None`|
+|TBD|NewFormat|UInt32|None|`None`|
+|TBD|NewFlags|UInt32|None|`None`|
+|TBD|NewRedirected|Boolean|None|`None`|
+|TBD|NewLogicalSurfaceHandle|UInt64|None|`None`|
+|TBD|NewBackbufferHandles|Pointer|None|`None`|
+|TBD|NewFenceHandle|Pointer|None|`None`|
+|TBD|NewFenceValue|UInt64|None|`None`|
+|TBD|NewActualbufferCount|UInt8|None|`None`|
+|TBD|NewWinFlipProxyBufferCount|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Always

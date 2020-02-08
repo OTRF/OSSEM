@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResourceFlag|TBD|UInt8|None|None|
-|TBD|GeneralFlag|TBD|UInt8|None|None|
-|TBD|TypeSpecificFlag|TBD|UInt8|None|None|
-|TBD|Granularity|TBD|UInt64|None|None|
-|TBD|AddressMin|TBD|UInt64|None|None|
-|TBD|AddressMax|TBD|UInt64|None|None|
-|TBD|AddressTranslation|TBD|UInt64|None|None|
-|TBD|AddressLength|TBD|UInt64|None|None|
+|TBD|ResourceFlag|UInt8|None|`None`|
+|TBD|GeneralFlag|UInt8|None|`None`|
+|TBD|TypeSpecificFlag|UInt8|None|`None`|
+|TBD|Granularity|UInt64|None|`None`|
+|TBD|AddressMin|UInt64|None|`None`|
+|TBD|AddressMax|UInt64|None|`None`|
+|TBD|AddressTranslation|UInt64|None|`None`|
+|TBD|AddressLength|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

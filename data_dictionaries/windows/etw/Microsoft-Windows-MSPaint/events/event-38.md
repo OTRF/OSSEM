@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResizeskewOperationresult|TBD|Int32|None|None|
-|TBD|Widthofthecanvas|TBD|Int32|None|None|
-|TBD|Heightofthecanvas|TBD|Int32|None|None|
-|TBD|Horizontalresizepercentage|TBD|Int32|None|None|
-|TBD|Verticalresizepercentage|TBD|Int32|None|None|
-|TBD|Horizontalskewangle|TBD|Int32|None|None|
-|TBD|Verticalskewangle|TBD|Int32|None|None|
+|TBD|ResizeskewOperationresult|Int32|None|`None`|
+|TBD|Widthofthecanvas|Int32|None|`None`|
+|TBD|Heightofthecanvas|Int32|None|`None`|
+|TBD|Horizontalresizepercentage|Int32|None|`None`|
+|TBD|Verticalresizepercentage|Int32|None|`None`|
+|TBD|Horizontalskewangle|Int32|None|`None`|
+|TBD|Verticalskewangle|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

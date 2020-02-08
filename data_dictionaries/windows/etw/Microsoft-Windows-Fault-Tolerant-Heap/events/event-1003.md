@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FthEnabledPID|TBD|UInt32|None|None|
-|TBD|FthEnabledProcessName|TBD|UnicodeString|None|None|
-|TBD|FthEnabledProcessStartup|TBD|FILETIME|None|None|
+|TBD|FthEnabledPID|UInt32|None|`None`|
+|TBD|FthEnabledProcessName|UnicodeString|None|`None`|
+|TBD|FthEnabledProcessStartup|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

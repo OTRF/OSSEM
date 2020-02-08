@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Reader|TBD|UnicodeString|None|None|
-|TBD|Timeout|TBD|UnicodeString|None|None|
-|TBD|PID|TBD|UnicodeString|None|None|
+|TBD|Reader|UnicodeString|None|`None`|
+|TBD|Timeout|UnicodeString|None|`None`|
+|TBD|PID|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

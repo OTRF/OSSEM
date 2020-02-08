@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Aspect|TBD|Int32|None|None|
-|TBD|PageIndex|TBD|UInt32|None|None|
-|TBD|IsCancelled|TBD|Boolean|None|None|
+|TBD|Aspect|Int32|None|`None`|
+|TBD|PageIndex|UInt32|None|`None`|
+|TBD|IsCancelled|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

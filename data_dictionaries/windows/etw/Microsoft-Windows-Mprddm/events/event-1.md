@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|connectionID|TBD|Pointer|None|None|
-|TBD|userName|TBD|UnicodeString|None|None|
-|TBD|remoteIPv4Address|TBD|UnicodeString|None|None|
-|TBD|remoteIPv6Address|TBD|UnicodeString|None|None|
-|TBD|ispAddress|TBD|UnicodeString|None|None|
-|TBD|deviceType|TBD|UInt32|None|None|
-|TBD|tunnelType|TBD|UnicodeString|None|None|
-|TBD|portName|TBD|UnicodeString|None|None|
-|TBD|authenticationProtocol|TBD|UInt32|None|None|
-|TBD|authenticationData|TBD|UInt32|None|None|
-|TBD|eapTypeId|TBD|UInt32|None|None|
-|TBD|embeddedEapTypeId|TBD|UInt32|None|None|
-|TBD|quarantineState|TBD|UInt32|None|None|
-|TBD|connectionStartTime|TBD|FILETIME|None|None|
-|TBD|isS2SConnection|TBD|UInt32|None|None|
-|TBD|routingDomainId|TBD|GUID|None|None|
+|TBD|connectionID|Pointer|None|`None`|
+|TBD|userName|UnicodeString|None|`None`|
+|TBD|remoteIPv4Address|UnicodeString|None|`None`|
+|TBD|remoteIPv6Address|UnicodeString|None|`None`|
+|TBD|ispAddress|UnicodeString|None|`None`|
+|TBD|deviceType|UInt32|None|`None`|
+|TBD|tunnelType|UnicodeString|None|`None`|
+|TBD|portName|UnicodeString|None|`None`|
+|TBD|authenticationProtocol|UInt32|None|`None`|
+|TBD|authenticationData|UInt32|None|`None`|
+|TBD|eapTypeId|UInt32|None|`None`|
+|TBD|embeddedEapTypeId|UInt32|None|`None`|
+|TBD|quarantineState|UInt32|None|`None`|
+|TBD|connectionStartTime|FILETIME|None|`None`|
+|TBD|isS2SConnection|UInt32|None|`None`|
+|TBD|routingDomainId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CoId|TBD|UnicodeString|None|None|
-|TBD|SHA1CertificateHash|TBD|UnicodeString|None|None|
-|TBD|SHA256CertificateHash|TBD|UnicodeString|None|None|
+|TBD|CoId|UnicodeString|None|`None`|
+|TBD|SHA1CertificateHash|UnicodeString|None|`None`|
+|TBD|SHA256CertificateHash|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

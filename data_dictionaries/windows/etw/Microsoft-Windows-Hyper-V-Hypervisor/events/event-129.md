@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HardwarePresent|TBD|Boolean|None|None|
-|TBD|HardwareEnabled|TBD|Boolean|None|None|
-|TBD|Policy|TBD|HexInt64|None|None|
-|TBD|EnabledFeatures|TBD|HexInt64|None|None|
-|TBD|InternalInfo|TBD|HexInt64|None|None|
-|TBD|Problems|TBD|HexInt64|None|None|
-|TBD|AdditionalInfo|TBD|HexInt64|None|None|
+|TBD|HardwarePresent|Boolean|None|`None`|
+|TBD|HardwareEnabled|Boolean|None|`None`|
+|TBD|Policy|HexInt64|None|`None`|
+|TBD|EnabledFeatures|HexInt64|None|`None`|
+|TBD|InternalInfo|HexInt64|None|`None`|
+|TBD|Problems|HexInt64|None|`None`|
+|TBD|AdditionalInfo|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

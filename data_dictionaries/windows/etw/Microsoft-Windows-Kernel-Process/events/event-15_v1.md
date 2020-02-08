@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessID|TBD|UInt32|None|None|
-|TBD|ProcessSequenceNumber|TBD|UInt64|None|None|
-|TBD|CreateTime|TBD|FILETIME|None|None|
-|TBD|ParentProcessID|TBD|UInt32|None|None|
-|TBD|ParentProcessSequenceNumber|TBD|UInt64|None|None|
-|TBD|SessionID|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|ProcessTokenElevationType|TBD|UInt32|None|None|
-|TBD|ProcessTokenIsElevated|TBD|UInt32|None|None|
-|TBD|MandatoryLabel|TBD|SID|None|None|
-|TBD|ImageName|TBD|UnicodeString|None|None|
-|TBD|ImageChecksum|TBD|UInt32|None|None|
-|TBD|TimeDateStamp|TBD|UInt32|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|PackageRelativeAppId|TBD|UnicodeString|None|None|
+|TBD|ProcessID|UInt32|None|`None`|
+|TBD|ProcessSequenceNumber|UInt64|None|`None`|
+|TBD|CreateTime|FILETIME|None|`None`|
+|TBD|ParentProcessID|UInt32|None|`None`|
+|TBD|ParentProcessSequenceNumber|UInt64|None|`None`|
+|TBD|SessionID|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|ProcessTokenElevationType|UInt32|None|`None`|
+|TBD|ProcessTokenIsElevated|UInt32|None|`None`|
+|TBD|MandatoryLabel|SID|None|`None`|
+|TBD|ImageName|UnicodeString|None|`None`|
+|TBD|ImageChecksum|UInt32|None|`None`|
+|TBD|TimeDateStamp|UInt32|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|PackageRelativeAppId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

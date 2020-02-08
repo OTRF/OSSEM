@@ -6,23 +6,23 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ShareNameLength|TBD|UInt16|None|None|
-|TBD|ShareName|TBD|UnicodeString|None|None|
-|TBD|SharePathLength|TBD|UInt16|None|None|
-|TBD|SharePath|TBD|UnicodeString|None|None|
-|TBD|ClientAddressLength|TBD|UInt32|None|None|
-|TBD|ClientAddress|TBD|Binary|None|None|
-|TBD|UserNameLength|TBD|UInt16|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|ClientNameLength|TBD|UInt16|None|None|
-|TBD|ClientName|TBD|UnicodeString|None|None|
-|TBD|MappedAccess|TBD|HexInt32|None|None|
-|TBD|GrantedAccess|TBD|HexInt32|None|None|
-|TBD|ShareSecurityDescriptorLength|TBD|UInt32|None|None|
-|TBD|ShareSecurityDescriptor|TBD|Binary|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|TranslatedStatus|TBD|HexInt32|None|None|
-|TBD|SessionID|TBD|HexInt64|None|None|
+|TBD|ShareNameLength|UInt16|None|`None`|
+|TBD|ShareName|UnicodeString|None|`None`|
+|TBD|SharePathLength|UInt16|None|`None`|
+|TBD|SharePath|UnicodeString|None|`None`|
+|TBD|ClientAddressLength|UInt32|None|`None`|
+|TBD|ClientAddress|Binary|None|`None`|
+|TBD|UserNameLength|UInt16|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|ClientNameLength|UInt16|None|`None`|
+|TBD|ClientName|UnicodeString|None|`None`|
+|TBD|MappedAccess|HexInt32|None|`None`|
+|TBD|GrantedAccess|HexInt32|None|`None`|
+|TBD|ShareSecurityDescriptorLength|UInt32|None|`None`|
+|TBD|ShareSecurityDescriptor|Binary|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|TranslatedStatus|HexInt32|None|`None`|
+|TBD|SessionID|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Error

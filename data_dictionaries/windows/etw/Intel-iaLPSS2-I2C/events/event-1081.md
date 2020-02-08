@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SlaveAddress|TBD|UInt16|None|None|
-|TBD|AddressMode|TBD|UInt32|None|None|
-|TBD|ClkFreq|TBD|UInt64|None|None|
+|TBD|SlaveAddress|UInt16|None|`None`|
+|TBD|AddressMode|UInt32|None|`None`|
+|TBD|ClkFreq|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

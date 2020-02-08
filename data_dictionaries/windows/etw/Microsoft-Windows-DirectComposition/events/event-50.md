@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|deviceId|TBD|UInt64|None|None|
-|TBD|channelHandle|TBD|UInt32|None|None|
-|TBD|version|TBD|UInt16|None|None|
-|TBD|scenarioPriority|TBD|UInt16|None|None|
-|TBD|flags|TBD|UInt16|None|None|
-|TBD|qpcInitiate|TBD|UInt64|None|None|
-|TBD|qpcInput|TBD|UInt64|None|None|
-|TBD|msIntendedDuration|TBD|UInt32|None|None|
-|TBD|scenarioGuid|TBD|GUID|None|None|
-|TBD|scenarioName|TBD|UnicodeString|None|None|
-|TBD|scenarioDetails|TBD|UnicodeString|None|None|
+|TBD|deviceId|UInt64|None|`None`|
+|TBD|channelHandle|UInt32|None|`None`|
+|TBD|version|UInt16|None|`None`|
+|TBD|scenarioPriority|UInt16|None|`None`|
+|TBD|flags|UInt16|None|`None`|
+|TBD|qpcInitiate|UInt64|None|`None`|
+|TBD|qpcInput|UInt64|None|`None`|
+|TBD|msIntendedDuration|UInt32|None|`None`|
+|TBD|scenarioGuid|GUID|None|`None`|
+|TBD|scenarioName|UnicodeString|None|`None`|
+|TBD|scenarioDetails|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Verbose

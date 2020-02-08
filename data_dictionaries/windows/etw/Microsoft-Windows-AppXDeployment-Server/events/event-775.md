@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MissingPackageFamily|TBD|UnicodeString|None|None|
-|TBD|CurrentlyInstalledPackages|TBD|UnicodeString|None|None|
-|TBD|PackagesToBeInstalled|TBD|UnicodeString|None|None|
+|TBD|MissingPackageFamily|UnicodeString|None|`None`|
+|TBD|CurrentlyInstalledPackages|UnicodeString|None|`None`|
+|TBD|PackagesToBeInstalled|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BackupTime|TBD|FILETIME|None|None|
-|TBD|FailedVolumeNames|TBD|UnicodeString|None|None|
-|TBD|BackupFailureLogPath|TBD|UnicodeString|None|None|
+|TBD|BackupTime|FILETIME|None|`None`|
+|TBD|FailedVolumeNames|UnicodeString|None|`None`|
+|TBD|BackupFailureLogPath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

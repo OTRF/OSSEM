@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|dwIndex|TBD|UInt32|None|None|
-|TBD|szNetwork|TBD|AnsiString|None|None|
-|TBD|wsConnection|TBD|UnicodeString|None|None|
-|TBD|dwCfgWt|TBD|UInt32|None|None|
-|TBD|dwCalcWt|TBD|UInt32|None|None|
-|TBD|dwProfFlags|TBD|UInt32|None|None|
+|TBD|dwIndex|UInt32|None|`None`|
+|TBD|szNetwork|AnsiString|None|`None`|
+|TBD|wsConnection|UnicodeString|None|`None`|
+|TBD|dwCfgWt|UInt32|None|`None`|
+|TBD|dwCalcWt|UInt32|None|`None`|
+|TBD|dwProfFlags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

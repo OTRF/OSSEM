@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_ErrorCode|TBD|UInt32|None|None|
-|TBD|Prop_FullKnowledgeSize|TBD|UInt32|None|None|
-|TBD|Prop_LoggedKnowledgeSize|TBD|UInt32|None|None|
-|TBD|Prop_Knowledge|TBD|Binary|None|None|
+|TBD|Prop_ErrorCode|UInt32|None|`None`|
+|TBD|Prop_FullKnowledgeSize|UInt32|None|`None`|
+|TBD|Prop_LoggedKnowledgeSize|UInt32|None|`None`|
+|TBD|Prop_Knowledge|Binary|None|`None`|
 
 ## Tags
 * etw_level_Error

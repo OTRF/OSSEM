@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|KspSessionID|TBD|UnicodeString|None|None|
+|TBD|KspSessionID|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

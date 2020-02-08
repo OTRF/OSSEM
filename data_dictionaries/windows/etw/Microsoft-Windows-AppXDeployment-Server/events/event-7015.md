@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|PackageRelativeApplicationId|TBD|UnicodeString|None|None|
-|TBD|ApplicationIndex|TBD|Int32|None|None|
-|TBD|PropertyId|TBD|UInt32|None|None|
-|TBD|Value|TBD|UnicodeString|None|None|
-|TBD|Type|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|ErrorText|TBD|UnicodeString|None|None|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|PackageRelativeApplicationId|UnicodeString|None|`None`|
+|TBD|ApplicationIndex|Int32|None|`None`|
+|TBD|PropertyId|UInt32|None|`None`|
+|TBD|Value|UnicodeString|None|`None`|
+|TBD|Type|UInt32|None|`None`|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|ErrorText|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

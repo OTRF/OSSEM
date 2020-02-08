@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsDisplayMetadata|TBD|Boolean|None|None|
-|TBD|MinLuminance|TBD|UInt32|None|None|
-|TBD|MaxLuminance|TBD|UInt32|None|None|
+|TBD|IsDisplayMetadata|Boolean|None|`None`|
+|TBD|MinLuminance|UInt32|None|`None`|
+|TBD|MaxLuminance|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

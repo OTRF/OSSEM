@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ElamDriverNameLength|TBD|UInt16|None|None|
-|TBD|ElamDriverName|TBD|UnicodeString|None|None|
+|TBD|ElamDriverNameLength|UInt16|None|`None`|
+|TBD|ElamDriverName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ShareNameLength|TBD|UInt16|None|None|
-|TBD|ShareName|TBD|UnicodeString|None|None|
-|TBD|SharePathLength|TBD|UInt16|None|None|
-|TBD|SharePath|TBD|UnicodeString|None|None|
-|TBD|ClientAddressLength|TBD|UInt32|None|None|
-|TBD|ClientAddress|TBD|Binary|None|None|
-|TBD|ClientNameLength|TBD|UInt16|None|None|
-|TBD|ClientName|TBD|UnicodeString|None|None|
+|TBD|ShareNameLength|UInt16|None|`None`|
+|TBD|ShareName|UnicodeString|None|`None`|
+|TBD|SharePathLength|UInt16|None|`None`|
+|TBD|SharePath|UnicodeString|None|`None`|
+|TBD|ClientAddressLength|UInt32|None|`None`|
+|TBD|ClientAddress|Binary|None|`None`|
+|TBD|ClientNameLength|UInt16|None|`None`|
+|TBD|ClientName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

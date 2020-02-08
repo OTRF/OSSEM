@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HiberfileSize|TBD|UInt32|None|None|
-|TBD|TotalHybridShutdownTime|TBD|UInt32|None|None|
-|TBD|HiberfileCreateTime|TBD|UInt32|None|None|
-|TBD|SystemShutdownTime|TBD|UInt32|None|None|
+|TBD|HiberfileSize|UInt32|None|`None`|
+|TBD|TotalHybridShutdownTime|UInt32|None|`None`|
+|TBD|HiberfileCreateTime|UInt32|None|`None`|
+|TBD|SystemShutdownTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

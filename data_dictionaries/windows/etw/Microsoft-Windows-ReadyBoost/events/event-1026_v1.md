@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VolumeUniqueId|TBD|UnicodeString|None|None|
-|TBD|OldRdbAttachState|TBD|UInt16|None|None|
-|TBD|NewRdbAttachState|TBD|UInt16|None|None|
-|TBD|OldHbdrvAttachState|TBD|UInt16|None|None|
-|TBD|NewHbdrvAttachState|TBD|UInt16|None|None|
-|TBD|VolumePath|TBD|UnicodeString|None|None|
+|TBD|VolumeUniqueId|UnicodeString|None|`None`|
+|TBD|OldRdbAttachState|UInt16|None|`None`|
+|TBD|NewRdbAttachState|UInt16|None|`None`|
+|TBD|OldHbdrvAttachState|UInt16|None|`None`|
+|TBD|NewHbdrvAttachState|UInt16|None|`None`|
+|TBD|VolumePath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Description|TBD|UnicodeString|None|None|
-|TBD|Appprovidedtime|TBD|UInt32|None|None|
-|TBD|Currentkeepalivetime|TBD|UInt32|None|None|
-|TBD|Loweredkeepalivetime|TBD|UInt32|None|None|
-|TBD|WNStestinputtime|TBD|UInt32|None|None|
+|TBD|Description|UnicodeString|None|`None`|
+|TBD|Appprovidedtime|UInt32|None|`None`|
+|TBD|Currentkeepalivetime|UInt32|None|`None`|
+|TBD|Loweredkeepalivetime|UInt32|None|`None`|
+|TBD|WNStestinputtime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

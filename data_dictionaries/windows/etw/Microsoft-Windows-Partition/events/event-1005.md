@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LocalLastCompTime|TBD|UInt64|None|None|
-|TBD|SharedLastCompTime|TBD|UInt64|None|None|
-|TBD|CompTime|TBD|UInt64|None|None|
+|TBD|LocalLastCompTime|UInt64|None|`None`|
+|TBD|SharedLastCompTime|UInt64|None|`None`|
+|TBD|CompTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

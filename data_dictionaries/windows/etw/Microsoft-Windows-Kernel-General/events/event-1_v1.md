@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NewTime|TBD|FILETIME|None|None|
-|TBD|OldTime|TBD|FILETIME|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
+|TBD|NewTime|FILETIME|None|`None`|
+|TBD|OldTime|FILETIME|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

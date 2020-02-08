@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|PlacementRestriction|TBD|UInt32|None|None|
-|TBD|SegmentGroup|TBD|UInt32|None|None|
-|TBD|StartIndex|TBD|UInt32|None|None|
-|TBD|EndIndex|TBD|UInt32|None|None|
-|TBD|TrimmingPriorityLimit|TBD|UInt32|None|None|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|PlacementRestriction|UInt32|None|`None`|
+|TBD|SegmentGroup|UInt32|None|`None`|
+|TBD|StartIndex|UInt32|None|`None`|
+|TBD|EndIndex|UInt32|None|`None`|
+|TBD|TrimmingPriorityLimit|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

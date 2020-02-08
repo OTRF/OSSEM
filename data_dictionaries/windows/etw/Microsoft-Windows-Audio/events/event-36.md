@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pOwner|TBD|Pointer|None|None|
-|TBD|NextStreamingPacketToComplete|TBD|UInt32|None|None|
-|TBD|MaxPacketCount|TBD|UInt32|None|None|
+|TBD|pOwner|Pointer|None|`None`|
+|TBD|NextStreamingPacketToComplete|UInt32|None|`None`|
+|TBD|MaxPacketCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

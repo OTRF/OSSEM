@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|LidOpenState|TBD|Boolean|None|None|
-|TBD|ExternalMonitorConnectedState|TBD|Boolean|None|None|
-|TBD|ScenarioInstanceId|TBD|UInt8|None|None|
-|TBD|BatteryRemainingCapacityOnEnter|TBD|UInt32|None|None|
-|TBD|BatteryFullChargeCapacityOnEnter|TBD|UInt32|None|None|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|LidOpenState|Boolean|None|`None`|
+|TBD|ExternalMonitorConnectedState|Boolean|None|`None`|
+|TBD|ScenarioInstanceId|UInt8|None|`None`|
+|TBD|BatteryRemainingCapacityOnEnter|UInt32|None|`None`|
+|TBD|BatteryFullChargeCapacityOnEnter|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

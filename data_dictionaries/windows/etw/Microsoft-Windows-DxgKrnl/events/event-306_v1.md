@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|hDmaBuffer|TBD|Pointer|None|None|
-|TBD|ContinueNextBuffer|TBD|Boolean|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|AllocationOffset|TBD|UInt64|None|None|
-|TBD|TransferSize|TBD|UInt64|None|None|
-|TBD|SourceSegmentId|TBD|UInt32|None|None|
-|TBD|DestinationSegmentId|TBD|UInt32|None|None|
-|TBD|SourceVirtualAddress|TBD|UInt64|None|None|
-|TBD|DestinationVirtualAddress|TBD|UInt64|None|None|
-|TBD|SourcePageTable|TBD|UInt64|None|None|
-|TBD|TransferDirection|TBD|UInt32|None|None|
-|TBD|TransferFlags|TBD|UInt32|None|None|
-|TBD|DestinationPageTable|TBD|UInt64|None|None|
-|TBD|SourceSegmentOffset|TBD|UInt64|None|None|
-|TBD|DestinationSegmentOffset|TBD|UInt64|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|hDmaBuffer|Pointer|None|`None`|
+|TBD|ContinueNextBuffer|Boolean|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|AllocationOffset|UInt64|None|`None`|
+|TBD|TransferSize|UInt64|None|`None`|
+|TBD|SourceSegmentId|UInt32|None|`None`|
+|TBD|DestinationSegmentId|UInt32|None|`None`|
+|TBD|SourceVirtualAddress|UInt64|None|`None`|
+|TBD|DestinationVirtualAddress|UInt64|None|`None`|
+|TBD|SourcePageTable|UInt64|None|`None`|
+|TBD|TransferDirection|UInt32|None|`None`|
+|TBD|TransferFlags|UInt32|None|`None`|
+|TBD|DestinationPageTable|UInt64|None|`None`|
+|TBD|SourceSegmentOffset|UInt64|None|`None`|
+|TBD|DestinationSegmentOffset|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

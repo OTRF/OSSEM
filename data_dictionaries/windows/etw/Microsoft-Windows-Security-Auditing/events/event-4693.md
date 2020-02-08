@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|MasterKeyId|TBD|UnicodeString|None|None|
-|TBD|RecoveryReason|TBD|HexInt32|None|None|
-|TBD|RecoveryServer|TBD|UnicodeString|None|None|
-|TBD|RecoveryKeyId|TBD|UnicodeString|None|None|
-|TBD|FailureId|TBD|HexInt32|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|MasterKeyId|UnicodeString|None|`None`|
+|TBD|RecoveryReason|HexInt32|None|`None`|
+|TBD|RecoveryServer|UnicodeString|None|`None`|
+|TBD|RecoveryKeyId|UnicodeString|None|`None`|
+|TBD|FailureId|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

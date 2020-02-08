@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CleanupContainerErrorCode|TBD|UInt32|None|None|
-|TBD|MakeTemporaryErrorCode|TBD|UInt32|None|None|
-|TBD|PackageName|TBD|UnicodeString|None|None|
-|TBD|ContainerId|TBD|UnicodeString|None|None|
+|TBD|CleanupContainerErrorCode|UInt32|None|`None`|
+|TBD|MakeTemporaryErrorCode|UInt32|None|`None`|
+|TBD|PackageName|UnicodeString|None|`None`|
+|TBD|ContainerId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

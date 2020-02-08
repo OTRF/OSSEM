@@ -6,27 +6,27 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CorrelationVector|TBD|AnsiString|None|None|
-|TBD|QualifiedTypeName|TBD|AnsiString|None|None|
-|TBD|SchemaSize|TBD|UInt32|None|None|
-|TBD|Schema|TBD|Binary|None|None|
-|TBD|ForceLastWriterWins|TBD|Boolean|None|None|
-|TBD|OriginalVersion|TBD|UInt64|None|None|
-|TBD|OriginalTombstoned|TBD|Boolean|None|None|
-|TBD|OriginalSize|TBD|UInt32|None|None|
-|TBD|OriginalData|TBD|Binary|None|None|
-|TBD|TheirsVersion|TBD|UInt64|None|None|
-|TBD|TheirsTombstoned|TBD|Boolean|None|None|
-|TBD|TheirsSize|TBD|UInt32|None|None|
-|TBD|TheirsData|TBD|Binary|None|None|
-|TBD|YoursVersion|TBD|UInt64|None|None|
-|TBD|YoursTombstoned|TBD|Boolean|None|None|
-|TBD|YoursSize|TBD|UInt32|None|None|
-|TBD|YoursData|TBD|Binary|None|None|
-|TBD|ResolvedVersion|TBD|UInt64|None|None|
-|TBD|ResolvedTombstoned|TBD|Boolean|None|None|
-|TBD|ResolvedSize|TBD|UInt32|None|None|
-|TBD|ResolvedData|TBD|Binary|None|None|
+|TBD|CorrelationVector|AnsiString|None|`None`|
+|TBD|QualifiedTypeName|AnsiString|None|`None`|
+|TBD|SchemaSize|UInt32|None|`None`|
+|TBD|Schema|Binary|None|`None`|
+|TBD|ForceLastWriterWins|Boolean|None|`None`|
+|TBD|OriginalVersion|UInt64|None|`None`|
+|TBD|OriginalTombstoned|Boolean|None|`None`|
+|TBD|OriginalSize|UInt32|None|`None`|
+|TBD|OriginalData|Binary|None|`None`|
+|TBD|TheirsVersion|UInt64|None|`None`|
+|TBD|TheirsTombstoned|Boolean|None|`None`|
+|TBD|TheirsSize|UInt32|None|`None`|
+|TBD|TheirsData|Binary|None|`None`|
+|TBD|YoursVersion|UInt64|None|`None`|
+|TBD|YoursTombstoned|Boolean|None|`None`|
+|TBD|YoursSize|UInt32|None|`None`|
+|TBD|YoursData|Binary|None|`None`|
+|TBD|ResolvedVersion|UInt64|None|`None`|
+|TBD|ResolvedTombstoned|Boolean|None|`None`|
+|TBD|ResolvedSize|UInt32|None|`None`|
+|TBD|ResolvedData|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

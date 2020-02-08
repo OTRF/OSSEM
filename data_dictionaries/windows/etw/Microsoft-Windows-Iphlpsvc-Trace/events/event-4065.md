@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AddrLength|TBD|UInt32|None|None|
-|TBD|PrimaryorSecondary|TBD|UnicodeString|None|None|
-|TBD|SocketAddress|TBD|Binary|None|None|
+|TBD|AddrLength|UInt32|None|`None`|
+|TBD|PrimaryorSecondary|UnicodeString|None|`None`|
+|TBD|SocketAddress|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

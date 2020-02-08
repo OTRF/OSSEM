@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Interface|TBD|UInt32|None|None|
-|TBD|IpAddrLength|TBD|UInt32|None|None|
-|TBD|IPAddress|TBD|Binary|None|None|
-|TBD|WoLEvent|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|Interface|UInt32|None|`None`|
+|TBD|IpAddrLength|UInt32|None|`None`|
+|TBD|IPAddress|Binary|None|`None`|
+|TBD|WoLEvent|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

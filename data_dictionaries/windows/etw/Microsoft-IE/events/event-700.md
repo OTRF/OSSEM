@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Msg|TBD|HexInt32|None|None|
-|TBD|TimeStamp|TBD|UInt64|None|None|
-|TBD|PointerId|TBD|UInt32|None|None|
-|TBD|FrameId|TBD|UInt32|None|None|
-|TBD|PointerType|TBD|UInt32|None|None|
-|TBD|ScreenX|TBD|UInt32|None|None|
-|TBD|ScreenY|TBD|UInt32|None|None|
-|TBD|ClientX|TBD|UInt32|None|None|
-|TBD|ClientY|TBD|UInt32|None|None|
-|TBD|ButtonChanged|TBD|UInt32|None|None|
-|TBD|ButtonState|TBD|HexInt32|None|None|
-|TBD|PointerFlags|TBD|HexInt32|None|None|
+|TBD|Msg|HexInt32|None|`None`|
+|TBD|TimeStamp|UInt64|None|`None`|
+|TBD|PointerId|UInt32|None|`None`|
+|TBD|FrameId|UInt32|None|`None`|
+|TBD|PointerType|UInt32|None|`None`|
+|TBD|ScreenX|UInt32|None|`None`|
+|TBD|ScreenY|UInt32|None|`None`|
+|TBD|ClientX|UInt32|None|`None`|
+|TBD|ClientY|UInt32|None|`None`|
+|TBD|ButtonChanged|UInt32|None|`None`|
+|TBD|ButtonState|HexInt32|None|`None`|
+|TBD|PointerFlags|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

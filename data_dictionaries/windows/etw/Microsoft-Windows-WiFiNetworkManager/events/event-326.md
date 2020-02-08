@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ssidLen|TBD|UInt32|None|None|
-|TBD|ssid|TBD|Binary|None|None|
+|TBD|ssidLen|UInt32|None|`None`|
+|TBD|ssid|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

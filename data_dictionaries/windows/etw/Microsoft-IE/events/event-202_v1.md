@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Object|TBD|Pointer|None|None|
-|TBD|TimerId|TBD|UInt32|None|None|
-|TBD|DeltaMs|TBD|Int32|None|None|
-|TBD|PeriodMs|TBD|Int32|None|None|
-|TBD|CurrentTimeMs|TBD|UInt64|None|None|
-|TBD|Flags|TBD|HexInt32|None|None|
-|TBD|Callback|TBD|Pointer|None|None|
+|TBD|Object|Pointer|None|`None`|
+|TBD|TimerId|UInt32|None|`None`|
+|TBD|DeltaMs|Int32|None|`None`|
+|TBD|PeriodMs|Int32|None|`None`|
+|TBD|CurrentTimeMs|UInt64|None|`None`|
+|TBD|Flags|HexInt32|None|`None`|
+|TBD|Callback|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

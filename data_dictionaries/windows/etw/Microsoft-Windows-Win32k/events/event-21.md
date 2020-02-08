@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hLogicalSurfSwapChainBind|TBD|UInt64|None|None|
-|TBD|ConfirmReason|TBD|UInt32|None|None|
-|TBD|LastPresentId|TBD|UInt32|None|None|
-|TBD|LastFrameCount|TBD|UInt32|None|None|
-|TBD|SyncFrameCount|TBD|UInt32|None|None|
-|TBD|LastFrameTime|TBD|UInt64|None|None|
+|TBD|hLogicalSurfSwapChainBind|UInt64|None|`None`|
+|TBD|ConfirmReason|UInt32|None|`None`|
+|TBD|LastPresentId|UInt32|None|`None`|
+|TBD|LastFrameCount|UInt32|None|`None`|
+|TBD|SyncFrameCount|UInt32|None|`None`|
+|TBD|LastFrameTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ActivationMethod|TBD|UInt32|None|None|
-|TBD|CarrierId|TBD|UnicodeString|None|None|
-|TBD|SubscriberId|TBD|UnicodeString|None|None|
-|TBD|Params|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|Int32|None|None|
+|TBD|ActivationMethod|UInt32|None|`None`|
+|TBD|CarrierId|UnicodeString|None|`None`|
+|TBD|SubscriberId|UnicodeString|None|`None`|
+|TBD|Params|UnicodeString|None|`None`|
+|TBD|ErrorCode|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

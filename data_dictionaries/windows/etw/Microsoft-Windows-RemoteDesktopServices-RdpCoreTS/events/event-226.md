@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StateTransition|TBD|UnicodeString|None|None|
-|TBD|PreviousState|TBD|UInt32|None|None|
-|TBD|PreviousStateName|TBD|UnicodeString|None|None|
-|TBD|NewState|TBD|UInt32|None|None|
-|TBD|NewStateName|TBD|UnicodeString|None|None|
-|TBD|Event|TBD|UInt32|None|None|
-|TBD|EventName|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
+|TBD|StateTransition|UnicodeString|None|`None`|
+|TBD|PreviousState|UInt32|None|`None`|
+|TBD|PreviousStateName|UnicodeString|None|`None`|
+|TBD|NewState|UInt32|None|`None`|
+|TBD|NewStateName|UnicodeString|None|`None`|
+|TBD|Event|UInt32|None|`None`|
+|TBD|EventName|UnicodeString|None|`None`|
+|TBD|ErrorCode|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

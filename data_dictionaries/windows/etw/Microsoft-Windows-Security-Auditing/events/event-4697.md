@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|ServiceName|TBD|UnicodeString|None|None|
-|TBD|ServiceFileName|TBD|UnicodeString|None|None|
-|TBD|ServiceType|TBD|HexInt32|None|None|
-|TBD|ServiceStartType|TBD|UInt32|None|None|
-|TBD|ServiceAccount|TBD|UnicodeString|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|ServiceName|UnicodeString|None|`None`|
+|TBD|ServiceFileName|UnicodeString|None|`None`|
+|TBD|ServiceType|HexInt32|None|`None`|
+|TBD|ServiceStartType|UInt32|None|`None`|
+|TBD|ServiceAccount|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

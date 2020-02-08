@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HINTERNET|TBD|Pointer|None|None|
-|TBD|_UserAgentLength|TBD|UInt16|None|None|
-|TBD|UserAgent|TBD|AnsiString|None|None|
-|TBD|_AccessTypeLength|TBD|UInt16|None|None|
-|TBD|AccessType|TBD|AnsiString|None|None|
-|TBD|_ProxyListLength|TBD|UInt16|None|None|
-|TBD|ProxyList|TBD|AnsiString|None|None|
-|TBD|_ProxyBypassListLength|TBD|UInt16|None|None|
-|TBD|ProxyBypassList|TBD|AnsiString|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|HINTERNET|Pointer|None|`None`|
+|TBD|_UserAgentLength|UInt16|None|`None`|
+|TBD|UserAgent|AnsiString|None|`None`|
+|TBD|_AccessTypeLength|UInt16|None|`None`|
+|TBD|AccessType|AnsiString|None|`None`|
+|TBD|_ProxyListLength|UInt16|None|`None`|
+|TBD|ProxyList|AnsiString|None|`None`|
+|TBD|_ProxyBypassListLength|UInt16|None|`None`|
+|TBD|ProxyBypassList|AnsiString|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

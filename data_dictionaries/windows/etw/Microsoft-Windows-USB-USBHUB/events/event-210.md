@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBHUB_HC|TBD|Int32|None|None|
-|TBD|fid_USBHUB_Hub|TBD|Double|None|None|
-|TBD|fid_PortNumber|TBD|UInt32|None|None|
-|TBD|fid_Class|TBD|UInt32|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
-|TBD|fid_UsbdStatus|TBD|UInt32|None|None|
-|TBD|fid_DebugText|TBD|AnsiString|None|None|
+|TBD|fid_USBHUB_HC|Int32|None|`None`|
+|TBD|fid_USBHUB_Hub|Double|None|`None`|
+|TBD|fid_PortNumber|UInt32|None|`None`|
+|TBD|fid_Class|UInt32|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
+|TBD|fid_UsbdStatus|UInt32|None|`None`|
+|TBD|fid_DebugText|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

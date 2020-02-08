@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TargetState|TBD|UInt32|None|None|
-|TBD|EffectiveState|TBD|UInt32|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|TransitionsToOn|TBD|UInt32|None|None|
+|TBD|TargetState|UInt32|None|`None`|
+|TBD|EffectiveState|UInt32|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|TransitionsToOn|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

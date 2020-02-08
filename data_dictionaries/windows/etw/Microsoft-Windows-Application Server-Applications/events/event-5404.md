@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|tokenType|TBD|UnicodeString|None|None|
-|TBD|tokenID|TBD|UnicodeString|None|None|
-|TBD|errorMessage|TBD|UnicodeString|None|None|
-|TBD|HostReference|TBD|UnicodeString|None|None|
-|TBD|AppDomain|TBD|UnicodeString|None|None|
+|TBD|tokenType|UnicodeString|None|`None`|
+|TBD|tokenID|UnicodeString|None|`None`|
+|TBD|errorMessage|UnicodeString|None|`None`|
+|TBD|HostReference|UnicodeString|None|`None`|
+|TBD|AppDomain|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

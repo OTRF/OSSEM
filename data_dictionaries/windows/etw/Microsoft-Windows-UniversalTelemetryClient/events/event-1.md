@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Environment|TBD|UnicodeString|None|None|
-|TBD|IKey|TBD|UnicodeString|None|None|
-|TBD|DiskSizeInBytes|TBD|UInt32|None|None|
-|TBD|DailyUploadQuotaInBytes|TBD|UInt32|None|None|
-|TBD|HRESULT|TBD|UInt32|None|None|
+|TBD|Environment|UnicodeString|None|`None`|
+|TBD|IKey|UnicodeString|None|`None`|
+|TBD|DiskSizeInBytes|UInt32|None|`None`|
+|TBD|DailyUploadQuotaInBytes|UInt32|None|`None`|
+|TBD|HRESULT|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

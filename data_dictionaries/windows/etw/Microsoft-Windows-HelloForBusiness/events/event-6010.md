@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|KeyName|TBD|UnicodeString|None|None|
-|TBD|KeyUseCredUnavailableReason|TBD|UInt32|None|None|
+|TBD|KeyName|UnicodeString|None|`None`|
+|TBD|KeyUseCredUnavailableReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

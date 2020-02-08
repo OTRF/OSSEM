@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SinkPointer|TBD|Pointer|None|None|
-|TBD|SamplePointer|TBD|Pointer|None|None|
-|TBD|SinkStreamIndex|TBD|UInt32|None|None|
-|TBD|Timestamp|TBD|UInt64|None|None|
-|TBD|RefTimestamp|TBD|UInt64|None|None|
+|TBD|SinkPointer|Pointer|None|`None`|
+|TBD|SamplePointer|Pointer|None|`None`|
+|TBD|SinkStreamIndex|UInt32|None|`None`|
+|TBD|Timestamp|UInt64|None|`None`|
+|TBD|RefTimestamp|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

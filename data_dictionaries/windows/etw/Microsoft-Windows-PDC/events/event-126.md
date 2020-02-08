@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CurrentPhase|TBD|UInt8|None|None|
-|TBD|CurrentPhaseNotificationsState|TBD|UInt8|None|None|
-|TBD|CurrentPhaseNotificationsStatus|TBD|UInt32|None|None|
-|TBD|CurrentPhasePdcSequence|TBD|UInt32|None|None|
-|TBD|CallbackStatus|TBD|UInt32|None|None|
-|TBD|CallbackPdcSequence|TBD|UInt32|None|None|
+|TBD|CurrentPhase|UInt8|None|`None`|
+|TBD|CurrentPhaseNotificationsState|UInt8|None|`None`|
+|TBD|CurrentPhaseNotificationsStatus|UInt32|None|`None`|
+|TBD|CurrentPhasePdcSequence|UInt32|None|`None`|
+|TBD|CallbackStatus|UInt32|None|`None`|
+|TBD|CallbackPdcSequence|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

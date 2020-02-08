@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SavedKeyId|TBD|GUID|None|None|
-|TBD|SavedKeyName|TBD|UnicodeString|None|None|
-|TBD|SavedIdpDomain|TBD|UnicodeString|None|None|
-|TBD|SavedTenantId|TBD|UnicodeString|None|None|
-|TBD|SavedUserEmail|TBD|UnicodeString|None|None|
-|TBD|KeyName|TBD|UnicodeString|None|None|
-|TBD|IdpDomain|TBD|UnicodeString|None|None|
-|TBD|TenantId|TBD|UnicodeString|None|None|
-|TBD|UserEmail|TBD|UnicodeString|None|None|
+|TBD|SavedKeyId|GUID|None|`None`|
+|TBD|SavedKeyName|UnicodeString|None|`None`|
+|TBD|SavedIdpDomain|UnicodeString|None|`None`|
+|TBD|SavedTenantId|UnicodeString|None|`None`|
+|TBD|SavedUserEmail|UnicodeString|None|`None`|
+|TBD|KeyName|UnicodeString|None|`None`|
+|TBD|IdpDomain|UnicodeString|None|`None`|
+|TBD|TenantId|UnicodeString|None|`None`|
+|TBD|UserEmail|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

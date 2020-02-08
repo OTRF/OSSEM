@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ExitCode|TBD|Int32|None|None|
-|TBD|RequestId|TBD|UnicodeString|None|None|
-|TBD|Time|TBD|UnicodeString|None|None|
-|TBD|HttpStatus|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|UnicodeString|None|None|
-|TBD|ErrorSubCode|TBD|UnicodeString|None|None|
-|TBD|ServerErrorMessage|TBD|UnicodeString|None|None|
-|TBD|ServerResponse|TBD|UnicodeString|None|None|
+|TBD|ExitCode|Int32|None|`None`|
+|TBD|RequestId|UnicodeString|None|`None`|
+|TBD|Time|UnicodeString|None|`None`|
+|TBD|HttpStatus|UInt32|None|`None`|
+|TBD|ErrorCode|UnicodeString|None|`None`|
+|TBD|ErrorSubCode|UnicodeString|None|`None`|
+|TBD|ServerErrorMessage|UnicodeString|None|`None`|
+|TBD|ServerResponse|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorSource|TBD|UInt32|None|None|
-|TBD|Bank|TBD|HexInt32|None|None|
-|TBD|MciStatus|TBD|HexInt64|None|None|
-|TBD|MciAddr|TBD|HexInt64|None|None|
-|TBD|MciMisc|TBD|HexInt64|None|None|
-|TBD|FRUText|TBD|AnsiString|None|None|
+|TBD|ErrorSource|UInt32|None|`None`|
+|TBD|Bank|HexInt32|None|`None`|
+|TBD|MciStatus|HexInt64|None|`None`|
+|TBD|MciAddr|HexInt64|None|`None`|
+|TBD|MciMisc|HexInt64|None|`None`|
+|TBD|FRUText|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Warning

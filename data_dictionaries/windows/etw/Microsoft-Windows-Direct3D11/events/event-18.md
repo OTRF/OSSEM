@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Resources|TBD|UInt32|None|None|
-|TBD|pIDXGISurfaces|TBD|Pointer|None|None|
-|TBD|hNewKMResources|TBD|UInt32|None|None|
+|TBD|Resources|UInt32|None|`None`|
+|TBD|pIDXGISurfaces|Pointer|None|`None`|
+|TBD|hNewKMResources|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

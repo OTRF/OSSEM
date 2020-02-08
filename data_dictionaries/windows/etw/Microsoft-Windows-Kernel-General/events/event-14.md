@@ -6,34 +6,34 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Mode|TBD|UnicodeString|None|None|
-|TBD|ObjectType|TBD|UnicodeString|None|None|
-|TBD|ObjectName|TBD|UnicodeString|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|ObjectCreatorProcessName|TBD|UnicodeString|None|None|
-|TBD|AccessMask|TBD|HexInt32|None|None|
-|TBD|TokenType|TBD|UInt32|None|None|
-|TBD|ImpersonationLevel|TBD|UInt32|None|None|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|LowBoxNumber|TBD|UInt32|None|None|
-|TBD|TokenGroupsCount|TBD|UInt32|None|None|
-|TBD|TokenGroups|TBD|28|None|None|
-|TBD|TokenPackageCount|TBD|UInt32|None|None|
-|TBD|TokenPackage|TBD|30|None|None|
-|TBD|TokenCapabilityCount|TBD|UInt32|None|None|
-|TBD|TokenCapabilities|TBD|31|None|None|
-|TBD|TokenTrustLevelCount|TBD|UInt32|None|None|
-|TBD|TokenTrustLevel|TBD|33|None|None|
-|TBD|SecurityDescriptorRevision|TBD|UInt8|None|None|
-|TBD|SecurityDescriptorControl|TBD|UInt16|None|None|
-|TBD|SecurityDescriptorOwner|TBD|SID|None|None|
-|TBD|SecurityDescriptorGroup|TBD|SID|None|None|
-|TBD|DaclRevision|TBD|UInt8|None|None|
-|TBD|DaclAceCount|TBD|UInt16|None|None|
-|TBD|DaclAce|TBD|34|None|None|
-|TBD|SaclRevision|TBD|UInt8|None|None|
-|TBD|SaclAceCount|TBD|UInt16|None|None|
-|TBD|SaclAce|TBD|38|None|None|
+|TBD|Mode|UnicodeString|None|`None`|
+|TBD|ObjectType|UnicodeString|None|`None`|
+|TBD|ObjectName|UnicodeString|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|ObjectCreatorProcessName|UnicodeString|None|`None`|
+|TBD|AccessMask|HexInt32|None|`None`|
+|TBD|TokenType|UInt32|None|`None`|
+|TBD|ImpersonationLevel|UInt32|None|`None`|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|LowBoxNumber|UInt32|None|`None`|
+|TBD|TokenGroupsCount|UInt32|None|`None`|
+|TBD|TokenGroups|28|None|`None`|
+|TBD|TokenPackageCount|UInt32|None|`None`|
+|TBD|TokenPackage|30|None|`None`|
+|TBD|TokenCapabilityCount|UInt32|None|`None`|
+|TBD|TokenCapabilities|31|None|`None`|
+|TBD|TokenTrustLevelCount|UInt32|None|`None`|
+|TBD|TokenTrustLevel|33|None|`None`|
+|TBD|SecurityDescriptorRevision|UInt8|None|`None`|
+|TBD|SecurityDescriptorControl|UInt16|None|`None`|
+|TBD|SecurityDescriptorOwner|SID|None|`None`|
+|TBD|SecurityDescriptorGroup|SID|None|`None`|
+|TBD|DaclRevision|UInt8|None|`None`|
+|TBD|DaclAceCount|UInt16|None|`None`|
+|TBD|DaclAce|34|None|`None`|
+|TBD|SaclRevision|UInt8|None|`None`|
+|TBD|SaclAceCount|UInt16|None|`None`|
+|TBD|SaclAce|38|None|`None`|
 
 ## Tags
 * etw_level_Error

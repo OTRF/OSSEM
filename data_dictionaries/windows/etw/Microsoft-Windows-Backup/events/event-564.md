@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BackupTime|TBD|FILETIME|None|None|
-|TBD|BackupTargetFriendlyName|TBD|UnicodeString|None|None|
-|TBD|BackupUserName|TBD|UnicodeString|None|None|
+|TBD|BackupTime|FILETIME|None|`None`|
+|TBD|BackupTargetFriendlyName|UnicodeString|None|`None`|
+|TBD|BackupUserName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VhdFile|TBD|UnicodeString|None|None|
-|TBD|VmId|TBD|GUID|None|None|
-|TBD|VhdIoType|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|VhdFile|UnicodeString|None|`None`|
+|TBD|VmId|GUID|None|`None`|
+|TBD|VhdIoType|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AccelerationX|TBD|Float|None|None|
-|TBD|AccelerationY|TBD|Float|None|None|
-|TBD|AccelerationZ|TBD|Float|None|None|
-|TBD|PitchCalibration|TBD|Float|None|None|
+|TBD|AccelerationX|Float|None|`None`|
+|TBD|AccelerationY|Float|None|`None`|
+|TBD|AccelerationZ|Float|None|`None`|
+|TBD|PitchCalibration|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

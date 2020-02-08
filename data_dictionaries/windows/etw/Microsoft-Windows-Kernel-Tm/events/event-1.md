@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TxUow|TBD|GUID|None|None|
-|TBD|TxDescriptionLength|TBD|UInt16|None|None|
-|TBD|TxDescription|TBD|UnicodeString|None|None|
-|TBD|ClfsStatus|TBD|HexInt32|None|None|
+|TBD|TxUow|GUID|None|`None`|
+|TBD|TxDescriptionLength|UInt16|None|`None`|
+|TBD|TxDescription|UnicodeString|None|`None`|
+|TBD|ClfsStatus|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

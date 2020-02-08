@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RequestId|TBD|UInt32|None|None|
-|TBD|RequestCountInHighPriority|TBD|UInt32|None|None|
-|TBD|RequestCountInMedPriority|TBD|UInt32|None|None|
-|TBD|RequestCountInLowPriority|TBD|UInt32|None|None|
+|TBD|RequestId|UInt32|None|`None`|
+|TBD|RequestCountInHighPriority|UInt32|None|`None`|
+|TBD|RequestCountInMedPriority|UInt32|None|`None`|
+|TBD|RequestCountInLowPriority|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

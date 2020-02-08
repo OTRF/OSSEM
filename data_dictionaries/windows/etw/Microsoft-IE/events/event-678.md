@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DManipDragDropConfiguration|TBD|UInt32|None|None|
-|TBD|CDMDraggableTouchTarget|TBD|Pointer|None|None|
+|TBD|DManipDragDropConfiguration|UInt32|None|`None`|
+|TBD|CDMDraggableTouchTarget|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

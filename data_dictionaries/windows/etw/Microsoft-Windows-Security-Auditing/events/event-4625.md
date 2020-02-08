@@ -6,27 +6,27 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|TargetUserSid|TBD|SID|None|None|
-|TBD|TargetUserName|TBD|UnicodeString|None|None|
-|TBD|TargetDomainName|TBD|UnicodeString|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|FailureReason|TBD|UnicodeString|None|None|
-|TBD|SubStatus|TBD|HexInt32|None|None|
-|TBD|LogonType|TBD|UInt32|None|None|
-|TBD|LogonProcessName|TBD|UnicodeString|None|None|
-|TBD|AuthenticationPackageName|TBD|UnicodeString|None|None|
-|TBD|WorkstationName|TBD|UnicodeString|None|None|
-|TBD|TransmittedServices|TBD|UnicodeString|None|None|
-|TBD|LmPackageName|TBD|UnicodeString|None|None|
-|TBD|KeyLength|TBD|UInt32|None|None|
-|TBD|ProcessId|TBD|Pointer|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|IpAddress|TBD|UnicodeString|None|None|
-|TBD|IpPort|TBD|UnicodeString|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|TargetUserSid|SID|None|`None`|
+|TBD|TargetUserName|UnicodeString|None|`None`|
+|TBD|TargetDomainName|UnicodeString|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|FailureReason|UnicodeString|None|`None`|
+|TBD|SubStatus|HexInt32|None|`None`|
+|TBD|LogonType|UInt32|None|`None`|
+|TBD|LogonProcessName|UnicodeString|None|`None`|
+|TBD|AuthenticationPackageName|UnicodeString|None|`None`|
+|TBD|WorkstationName|UnicodeString|None|`None`|
+|TBD|TransmittedServices|UnicodeString|None|`None`|
+|TBD|LmPackageName|UnicodeString|None|`None`|
+|TBD|KeyLength|UInt32|None|`None`|
+|TBD|ProcessId|Pointer|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|IpAddress|UnicodeString|None|`None`|
+|TBD|IpPort|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ShouldPassivePollRun|TBD|Boolean|None|None|
-|TBD|WasPassivePollRunning|TBD|Boolean|None|None|
-|TBD|IsPassivePollAllowed|TBD|Boolean|None|None|
-|TBD|ClientPresent|TBD|Boolean|None|None|
-|TBD|UserPresent|TBD|Boolean|None|None|
-|TBD|NetworkQuietMode|TBD|Boolean|None|None|
-|TBD|DeadUserPollCount|TBD|UInt32|None|None|
-|TBD|DeadNetPollCountV4|TBD|UInt32|None|None|
-|TBD|DeadNetPollCountV6|TBD|UInt32|None|None|
+|TBD|ShouldPassivePollRun|Boolean|None|`None`|
+|TBD|WasPassivePollRunning|Boolean|None|`None`|
+|TBD|IsPassivePollAllowed|Boolean|None|`None`|
+|TBD|ClientPresent|Boolean|None|`None`|
+|TBD|UserPresent|Boolean|None|`None`|
+|TBD|NetworkQuietMode|Boolean|None|`None`|
+|TBD|DeadUserPollCount|UInt32|None|`None`|
+|TBD|DeadNetPollCountV4|UInt32|None|`None`|
+|TBD|DeadNetPollCountV6|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimerQueueStatus|TBD|UInt32|None|None|
-|TBD|TimerQueueAction|TBD|UInt32|None|None|
+|TBD|TimerQueueStatus|UInt32|None|`None`|
+|TBD|TimerQueueAction|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Threshold|TBD|UInt32|None|None|
-|TBD|LowestIdleness|TBD|UInt32|None|None|
-|TBD|AverageIdleness|TBD|UInt32|None|None|
-|TBD|AccruedIdleTime|TBD|UInt32|None|None|
-|TBD|NonIdleIgnored|TBD|Boolean|None|None|
-|TBD|IdleToSleep|TBD|Boolean|None|None|
-|TBD|NonIdleReferences|TBD|Boolean|None|None|
+|TBD|Threshold|UInt32|None|`None`|
+|TBD|LowestIdleness|UInt32|None|`None`|
+|TBD|AverageIdleness|UInt32|None|`None`|
+|TBD|AccruedIdleTime|UInt32|None|`None`|
+|TBD|NonIdleIgnored|Boolean|None|`None`|
+|TBD|IdleToSleep|Boolean|None|`None`|
+|TBD|NonIdleReferences|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsCapable|TBD|UInt32|None|None|
-|TBD|AllowDwmcoreInSession|TBD|UInt32|None|None|
-|TBD|RemoteAppEnabled|TBD|UInt32|None|None|
-|TBD|AllowDwmcoreInClient|TBD|UInt32|None|None|
-|TBD|AllowThemesInCLient|TBD|UInt32|None|None|
+|TBD|IsCapable|UInt32|None|`None`|
+|TBD|AllowDwmcoreInSession|UInt32|None|`None`|
+|TBD|RemoteAppEnabled|UInt32|None|`None`|
+|TBD|AllowDwmcoreInClient|UInt32|None|`None`|
+|TBD|AllowThemesInCLient|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

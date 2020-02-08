@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Message|TBD|UnicodeString|None|None|
-|TBD|DeviceIsJoined|TBD|UnicodeString|None|None|
-|TBD|AADPrt|TBD|UnicodeString|None|None|
-|TBD|NgcPolicyEnabled|TBD|UnicodeString|None|None|
-|TBD|NgcPostLogonProvisioningEnabled|TBD|UnicodeString|None|None|
-|TBD|NgcHardwarePolicyMet|TBD|UnicodeString|None|None|
-|TBD|UserIsRemote|TBD|UnicodeString|None|None|
-|TBD|LogonCertRequired|TBD|UnicodeString|None|None|
-|TBD|MachinePolicySource|TBD|UnicodeString|None|None|
+|TBD|Message|UnicodeString|None|`None`|
+|TBD|DeviceIsJoined|UnicodeString|None|`None`|
+|TBD|AADPrt|UnicodeString|None|`None`|
+|TBD|NgcPolicyEnabled|UnicodeString|None|`None`|
+|TBD|NgcPostLogonProvisioningEnabled|UnicodeString|None|`None`|
+|TBD|NgcHardwarePolicyMet|UnicodeString|None|`None`|
+|TBD|UserIsRemote|UnicodeString|None|`None`|
+|TBD|LogonCertRequired|UnicodeString|None|`None`|
+|TBD|MachinePolicySource|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

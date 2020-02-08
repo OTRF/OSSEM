@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Plugin|TBD|SID|None|None|
-|TBD|InitialProfile|TBD|UnicodeString|None|None|
-|TBD|InitialEventType|TBD|UInt32|None|None|
-|TBD|NumPacketsSent|TBD|UInt32|None|None|
-|TBD|NumPacketsReceived|TBD|UInt32|None|None|
-|TBD|LastError|TBD|UInt32|None|None|
+|TBD|Plugin|SID|None|`None`|
+|TBD|InitialProfile|UnicodeString|None|`None`|
+|TBD|InitialEventType|UInt32|None|`None`|
+|TBD|NumPacketsSent|UInt32|None|`None`|
+|TBD|NumPacketsReceived|UInt32|None|`None`|
+|TBD|LastError|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

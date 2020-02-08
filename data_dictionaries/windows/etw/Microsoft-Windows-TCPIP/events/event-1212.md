@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Profile|TBD|UInt32|None|None|
-|TBD|State|TBD|UInt32|None|None|
-|TBD|Qualified|TBD|UInt32|None|None|
-|TBD|EreQualified|TBD|UInt32|None|None|
+|TBD|Profile|UInt32|None|`None`|
+|TBD|State|UInt32|None|`None`|
+|TBD|Qualified|UInt32|None|`None`|
+|TBD|EreQualified|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

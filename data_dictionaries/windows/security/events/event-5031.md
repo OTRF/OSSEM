@@ -6,8 +6,8 @@ This event generates when an application was blocked from accepting incoming con
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Profiles|TBD|string|Network profile using which application was blocked.|Domain|
-|process_path|Application|TBD|string|Full path and file name of executable file for blocked application.|C:\documents\listener.exe|
+|TBD|Profiles|string|Network profile using which application was blocked.|`Domain`|
+|process_path|Application|string|Full path and file name of executable file for blocked application.|`C:\documents\listener.exe`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5031.md)

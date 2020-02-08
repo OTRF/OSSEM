@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TessellatedRect_UnClipped|TBD|UInt32|None|None|
-|TBD|TessellatedRect_AxisAlignedRectClip|TBD|UInt32|None|None|
-|TBD|TessellatedRect_GeneralClip|TBD|UInt32|None|None|
+|TBD|TessellatedRect_UnClipped|UInt32|None|`None`|
+|TBD|TessellatedRect_AxisAlignedRectClip|UInt32|None|`None`|
+|TBD|TessellatedRect_GeneralClip|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

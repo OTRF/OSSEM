@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|ForestRoot|TBD|UnicodeString|None|None|
-|TBD|ForestRootSid|TBD|SID|None|None|
-|TBD|OperationId|TBD|HexInt64|None|None|
-|TBD|EntryType|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|TopLevelName|TBD|UnicodeString|None|None|
-|TBD|DnsName|TBD|UnicodeString|None|None|
-|TBD|NetbiosName|TBD|UnicodeString|None|None|
-|TBD|DomainSid|TBD|SID|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|ForestRoot|UnicodeString|None|`None`|
+|TBD|ForestRootSid|SID|None|`None`|
+|TBD|OperationId|HexInt64|None|`None`|
+|TBD|EntryType|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|TopLevelName|UnicodeString|None|`None`|
+|TBD|DnsName|UnicodeString|None|`None`|
+|TBD|NetbiosName|UnicodeString|None|`None`|
+|TBD|DomainSid|SID|None|`None`|
 
 ## Tags
 * etw_level_Informational

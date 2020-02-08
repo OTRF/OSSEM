@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_String1|TBD|UnicodeString|None|None|
-|TBD|Prop_Dword_1|TBD|UInt32|None|None|
-|TBD|Prop_Dword_2|TBD|UInt32|None|None|
+|TBD|Prop_String1|UnicodeString|None|`None`|
+|TBD|Prop_Dword_1|UInt32|None|`None`|
+|TBD|Prop_Dword_2|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

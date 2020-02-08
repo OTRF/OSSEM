@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VirtualHeterogeneitySupported|TBD|Boolean|None|None|
-|TBD|VirtualHeterogeneityOn|TBD|Boolean|None|None|
-|TBD|DisableReasons|TBD|UInt32|None|None|
+|TBD|VirtualHeterogeneitySupported|Boolean|None|`None`|
+|TBD|VirtualHeterogeneityOn|Boolean|None|`None`|
+|TBD|DisableReasons|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

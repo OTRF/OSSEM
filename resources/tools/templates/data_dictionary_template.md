@@ -7,7 +7,7 @@
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
 {%- for row in entry['event_fields'] %}
-|{{row['standard_name']}}|{{row['name']}}|{{row['standard_type']}}|{{row['type']}}|{{row['description']}}|{{row['sample_value']}}|
+|{{row['standard_name']}}|{{row['name']}}|{{row['type']}}|{{row['description']}}|`{{row['sample_value']}}`|
 {%- endfor %}
 {% if entry['references'] %}
 ## Resources

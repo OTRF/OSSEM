@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AddrLength|TBD|UInt32|None|None|
-|TBD|ServiceType|TBD|UInt32|None|None|
-|TBD|ReceivedTeredoPacketType|TBD|UInt32|None|None|
-|TBD|MappedTeredoPacketType|TBD|UInt32|None|None|
-|TBD|DestinationIPAddress|TBD|Binary|None|None|
+|TBD|AddrLength|UInt32|None|`None`|
+|TBD|ServiceType|UInt32|None|`None`|
+|TBD|ReceivedTeredoPacketType|UInt32|None|`None`|
+|TBD|MappedTeredoPacketType|UInt32|None|`None`|
+|TBD|DestinationIPAddress|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

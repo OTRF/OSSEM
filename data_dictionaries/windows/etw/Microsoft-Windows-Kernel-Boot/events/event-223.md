@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Phase|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|Tries|TBD|UInt32|None|None|
-|TBD|RemainingNodesCount|TBD|UInt32|None|None|
-|TBD|RemainingNodes|TBD|Int16|None|None|
+|TBD|Phase|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|Tries|UInt32|None|`None`|
+|TBD|RemainingNodesCount|UInt32|None|`None`|
+|TBD|RemainingNodes|Int16|None|`None`|
 
 ## Tags
 * etw_level_Error

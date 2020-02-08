@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|Time|TBD|FILETIME|None|None|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|Time|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Critical

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PeristentUniqueId|TBD|GUID|None|None|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|ReportIntervalMs|TBD|UInt32|None|None|
-|TBD|ReportLatencyMs|TBD|UInt32|None|None|
-|TBD|IsStreaming|TBD|Boolean|None|None|
+|TBD|PeristentUniqueId|GUID|None|`None`|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|ReportIntervalMs|UInt32|None|`None`|
+|TBD|ReportLatencyMs|UInt32|None|`None`|
+|TBD|IsStreaming|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

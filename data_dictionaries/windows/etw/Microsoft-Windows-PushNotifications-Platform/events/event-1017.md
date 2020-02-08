@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DateSource|TBD|UInt32|None|None|
-|TBD|BillingCycle|TBD|FILETIME|None|None|
+|TBD|DateSource|UInt32|None|`None`|
+|TBD|BillingCycle|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

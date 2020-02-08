@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|surfaceLuid|TBD|UInt64|None|None|
-|TBD|IsDirectFlipCompatible|TBD|Int32|None|None|
-|TBD|IsAdvancedDirectFlipCompatible|TBD|Int32|None|None|
-|TBD|IsOverlayCompatible|TBD|Int32|None|None|
-|TBD|IsOverlayRequired|TBD|Int32|None|None|
-|TBD|BoundsLeft|TBD|Int32|None|None|
-|TBD|BoundsTop|TBD|Int32|None|None|
-|TBD|BoundsRight|TBD|Int32|None|None|
-|TBD|BoundsBottom|TBD|Int32|None|None|
+|TBD|surfaceLuid|UInt64|None|`None`|
+|TBD|IsDirectFlipCompatible|Int32|None|`None`|
+|TBD|IsAdvancedDirectFlipCompatible|Int32|None|`None`|
+|TBD|IsOverlayCompatible|Int32|None|`None`|
+|TBD|IsOverlayRequired|Int32|None|`None`|
+|TBD|BoundsLeft|Int32|None|`None`|
+|TBD|BoundsTop|Int32|None|`None`|
+|TBD|BoundsRight|Int32|None|`None`|
+|TBD|BoundsBottom|Int32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

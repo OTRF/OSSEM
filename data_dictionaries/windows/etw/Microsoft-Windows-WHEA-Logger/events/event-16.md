@@ -6,31 +6,31 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorSource|TBD|UInt32|None|None|
-|TBD|FRUId|TBD|GUID|None|None|
-|TBD|FRUText|TBD|AnsiString|None|None|
-|TBD|ValidBits|TBD|HexInt64|None|None|
-|TBD|PortType|TBD|UInt32|None|None|
-|TBD|Version|TBD|HexInt32|None|None|
-|TBD|Command|TBD|HexInt32|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
-|TBD|Bus|TBD|HexInt32|None|None|
-|TBD|Device|TBD|HexInt32|None|None|
-|TBD|Function|TBD|HexInt32|None|None|
-|TBD|Segment|TBD|HexInt32|None|None|
-|TBD|SecondaryBus|TBD|HexInt32|None|None|
-|TBD|Slot|TBD|HexInt32|None|None|
-|TBD|VendorID|TBD|HexInt32|None|None|
-|TBD|DeviceID|TBD|HexInt32|None|None|
-|TBD|ClassCode|TBD|HexInt32|None|None|
-|TBD|DeviceSerialNumber|TBD|HexInt64|None|None|
-|TBD|BridgeControl|TBD|HexInt32|None|None|
-|TBD|BridgeStatus|TBD|HexInt32|None|None|
-|TBD|UncorrectableErrorStatus|TBD|HexInt32|None|None|
-|TBD|CorrectableErrorStatus|TBD|HexInt32|None|None|
-|TBD|HeaderLog|TBD|Binary|None|None|
-|TBD|Length|TBD|UInt32|None|None|
-|TBD|RawData|TBD|Binary|None|None|
+|TBD|ErrorSource|UInt32|None|`None`|
+|TBD|FRUId|GUID|None|`None`|
+|TBD|FRUText|AnsiString|None|`None`|
+|TBD|ValidBits|HexInt64|None|`None`|
+|TBD|PortType|UInt32|None|`None`|
+|TBD|Version|HexInt32|None|`None`|
+|TBD|Command|HexInt32|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
+|TBD|Bus|HexInt32|None|`None`|
+|TBD|Device|HexInt32|None|`None`|
+|TBD|Function|HexInt32|None|`None`|
+|TBD|Segment|HexInt32|None|`None`|
+|TBD|SecondaryBus|HexInt32|None|`None`|
+|TBD|Slot|HexInt32|None|`None`|
+|TBD|VendorID|HexInt32|None|`None`|
+|TBD|DeviceID|HexInt32|None|`None`|
+|TBD|ClassCode|HexInt32|None|`None`|
+|TBD|DeviceSerialNumber|HexInt64|None|`None`|
+|TBD|BridgeControl|HexInt32|None|`None`|
+|TBD|BridgeStatus|HexInt32|None|`None`|
+|TBD|UncorrectableErrorStatus|HexInt32|None|`None`|
+|TBD|CorrectableErrorStatus|HexInt32|None|`None`|
+|TBD|HeaderLog|Binary|None|`None`|
+|TBD|Length|UInt32|None|`None`|
+|TBD|RawData|Binary|None|`None`|
 
 ## Tags
 * etw_level_Error

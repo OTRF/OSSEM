@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|job|TBD|UnicodeString|None|None|
-|TBD|jobId|TBD|GUID|None|None|
-|TBD|jobOwner|TBD|UnicodeString|None|None|
-|TBD|url|TBD|UnicodeString|None|None|
-|TBD|transferId|TBD|GUID|None|None|
-|TBD|proxyServerList|TBD|UnicodeString|None|None|
-|TBD|proxyBypassList|TBD|UnicodeString|None|None|
-|TBD|error|TBD|UInt32|None|None|
+|TBD|job|UnicodeString|None|`None`|
+|TBD|jobId|GUID|None|`None`|
+|TBD|jobOwner|UnicodeString|None|`None`|
+|TBD|url|UnicodeString|None|`None`|
+|TBD|transferId|GUID|None|`None`|
+|TBD|proxyServerList|UnicodeString|None|`None`|
+|TBD|proxyBypassList|UnicodeString|None|`None`|
+|TBD|error|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

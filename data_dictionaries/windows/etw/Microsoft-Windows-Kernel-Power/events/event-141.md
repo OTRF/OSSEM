@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FanDuration|TBD|UInt32|None|None|
-|TBD|ActivationDelay|TBD|UInt32|None|None|
+|TBD|FanDuration|UInt32|None|`None`|
+|TBD|ActivationDelay|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

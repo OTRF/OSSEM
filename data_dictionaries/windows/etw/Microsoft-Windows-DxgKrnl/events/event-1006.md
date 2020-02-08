@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportContext|TBD|Pointer|None|None|
-|TBD|MiracastContext|TBD|Pointer|None|None|
+|TBD|MiniportContext|Pointer|None|`None`|
+|TBD|MiracastContext|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

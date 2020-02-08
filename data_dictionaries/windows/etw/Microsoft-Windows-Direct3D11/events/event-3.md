@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pID3D11Device|TBD|Pointer|None|None|
-|TBD|pIDXGIDevice|TBD|Pointer|None|None|
-|TBD|pIDXGIAdapter|TBD|Pointer|None|None|
-|TBD|CreationFlags|TBD|UInt32|None|None|
-|TBD|FeatureLevel|TBD|UInt32|None|None|
-|TBD|FeatureSupport|TBD|UInt32|None|None|
-|TBD|hKMAdapter|TBD|UInt32|None|None|
-|TBD|hUMAdapter|TBD|Pointer|None|None|
-|TBD|UMAdapterVersion|TBD|UInt64|None|None|
-|TBD|hKMDevice|TBD|UInt32|None|None|
-|TBD|hUMDevice|TBD|Pointer|None|None|
-|TBD|UMDeviceVersion|TBD|UInt64|None|None|
-|TBD|UMDeviceFlags|TBD|UInt32|None|None|
+|TBD|pID3D11Device|Pointer|None|`None`|
+|TBD|pIDXGIDevice|Pointer|None|`None`|
+|TBD|pIDXGIAdapter|Pointer|None|`None`|
+|TBD|CreationFlags|UInt32|None|`None`|
+|TBD|FeatureLevel|UInt32|None|`None`|
+|TBD|FeatureSupport|UInt32|None|`None`|
+|TBD|hKMAdapter|UInt32|None|`None`|
+|TBD|hUMAdapter|Pointer|None|`None`|
+|TBD|UMAdapterVersion|UInt64|None|`None`|
+|TBD|hKMDevice|UInt32|None|`None`|
+|TBD|hUMDevice|Pointer|None|`None`|
+|TBD|UMDeviceVersion|UInt64|None|`None`|
+|TBD|UMDeviceFlags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

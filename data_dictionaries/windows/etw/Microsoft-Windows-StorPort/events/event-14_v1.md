@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Field|TBD|UnicodeString|None|None|
-|TBD|PivotField|TBD|UnicodeString|None|None|
-|TBD|PivotValue|TBD|HexInt32|None|None|
-|TBD|OriginalValue|TBD|UInt32|None|None|
-|TBD|NewValue|TBD|UInt32|None|None|
+|TBD|Field|UnicodeString|None|`None`|
+|TBD|PivotField|UnicodeString|None|`None`|
+|TBD|PivotValue|HexInt32|None|`None`|
+|TBD|OriginalValue|UInt32|None|`None`|
+|TBD|NewValue|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

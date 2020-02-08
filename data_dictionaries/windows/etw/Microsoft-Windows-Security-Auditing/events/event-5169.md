@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|OpCorrelationID|TBD|GUID|None|None|
-|TBD|AppCorrelationID|TBD|UnicodeString|None|None|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|DSName|TBD|UnicodeString|None|None|
-|TBD|DSType|TBD|UnicodeString|None|None|
-|TBD|ObjectDN|TBD|UnicodeString|None|None|
-|TBD|ObjectGUID|TBD|GUID|None|None|
-|TBD|ObjectClass|TBD|UnicodeString|None|None|
-|TBD|AttributeLDAPDisplayName|TBD|UnicodeString|None|None|
-|TBD|AttributeSyntaxOID|TBD|UnicodeString|None|None|
-|TBD|AttributeValue|TBD|UnicodeString|None|None|
-|TBD|ExpirationTime|TBD|FILETIME|None|None|
-|TBD|OperationType|TBD|UnicodeString|None|None|
+|TBD|OpCorrelationID|GUID|None|`None`|
+|TBD|AppCorrelationID|UnicodeString|None|`None`|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|DSName|UnicodeString|None|`None`|
+|TBD|DSType|UnicodeString|None|`None`|
+|TBD|ObjectDN|UnicodeString|None|`None`|
+|TBD|ObjectGUID|GUID|None|`None`|
+|TBD|ObjectClass|UnicodeString|None|`None`|
+|TBD|AttributeLDAPDisplayName|UnicodeString|None|`None`|
+|TBD|AttributeSyntaxOID|UnicodeString|None|`None`|
+|TBD|AttributeValue|UnicodeString|None|`None`|
+|TBD|ExpirationTime|FILETIME|None|`None`|
+|TBD|OperationType|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

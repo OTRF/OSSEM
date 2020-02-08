@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProviderName|TBD|UnicodeString|None|None|
-|TBD|ProviderDLL|TBD|UnicodeString|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|LoadPhase|TBD|UInt32|None|None|
+|TBD|ProviderName|UnicodeString|None|`None`|
+|TBD|ProviderDLL|UnicodeString|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|LoadPhase|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Critical

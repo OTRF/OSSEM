@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HistoryMs|TBD|UInt32|None|None|
-|TBD|NumHeartbeats|TBD|UInt32|None|None|
-|TBD|MaxRecentTimeNoPacketMs|TBD|UInt32|None|None|
-|TBD|MaxTotalTimeNoDataMs|TBD|UInt32|None|None|
-|TBD|MaxTotalTimeNoHeartbeatMs|TBD|UInt32|None|None|
-|TBD|MaxTotalTimeNoPacketMs|TBD|UInt32|None|None|
-|TBD|TimeNoLastPacketMs|TBD|UInt32|None|None|
+|TBD|HistoryMs|UInt32|None|`None`|
+|TBD|NumHeartbeats|UInt32|None|`None`|
+|TBD|MaxRecentTimeNoPacketMs|UInt32|None|`None`|
+|TBD|MaxTotalTimeNoDataMs|UInt32|None|`None`|
+|TBD|MaxTotalTimeNoHeartbeatMs|UInt32|None|`None`|
+|TBD|MaxTotalTimeNoPacketMs|UInt32|None|`None`|
+|TBD|TimeNoLastPacketMs|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

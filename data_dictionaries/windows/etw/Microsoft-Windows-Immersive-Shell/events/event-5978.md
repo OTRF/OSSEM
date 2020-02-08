@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|aamActivationId|TBD|UInt64|None|None|
-|TBD|AppId|TBD|UnicodeString|None|None|
-|TBD|MatchKey|TBD|UnicodeString|None|None|
+|TBD|aamActivationId|UInt64|None|`None`|
+|TBD|AppId|UnicodeString|None|`None`|
+|TBD|MatchKey|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

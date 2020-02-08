@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|Function|TBD|AnsiString|None|None|
-|TBD|LineNumber|TBD|UInt32|None|None|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|Function|AnsiString|None|`None`|
+|TBD|LineNumber|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

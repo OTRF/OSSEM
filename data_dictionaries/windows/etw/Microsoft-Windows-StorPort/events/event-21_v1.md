@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HwInitializationDataSize|TBD|HexInt32|None|None|
-|TBD|AdapterInterfaceType|TBD|UInt32|None|None|
-|TBD|DeviceExtensionSize|TBD|HexInt32|None|None|
-|TBD|SpecificLuExtensionSize|TBD|HexInt32|None|None|
-|TBD|SrbExtensionSize|TBD|HexInt32|None|None|
-|TBD|FeatureSupport|TBD|HexInt32|None|None|
-|TBD|SrbTypeFlags|TBD|HexInt32|None|None|
-|TBD|AddressTypeFlags|TBD|HexInt32|None|None|
-|TBD|HwFreeAdapterResources|TBD|HexInt64|None|None|
-|TBD|HwProcessServiceRequest|TBD|HexInt64|None|None|
-|TBD|HwCompleteServiceIrp|TBD|HexInt64|None|None|
-|TBD|HwInitializeTracing|TBD|HexInt64|None|None|
-|TBD|HwCleanupTracing|TBD|HexInt64|None|None|
+|TBD|HwInitializationDataSize|HexInt32|None|`None`|
+|TBD|AdapterInterfaceType|UInt32|None|`None`|
+|TBD|DeviceExtensionSize|HexInt32|None|`None`|
+|TBD|SpecificLuExtensionSize|HexInt32|None|`None`|
+|TBD|SrbExtensionSize|HexInt32|None|`None`|
+|TBD|FeatureSupport|HexInt32|None|`None`|
+|TBD|SrbTypeFlags|HexInt32|None|`None`|
+|TBD|AddressTypeFlags|HexInt32|None|`None`|
+|TBD|HwFreeAdapterResources|HexInt64|None|`None`|
+|TBD|HwProcessServiceRequest|HexInt64|None|`None`|
+|TBD|HwCompleteServiceIrp|HexInt64|None|`None`|
+|TBD|HwInitializeTracing|HexInt64|None|`None`|
+|TBD|HwCleanupTracing|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

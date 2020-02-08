@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WorkItemId|TBD|GUID|None|None|
-|TBD|BrokerId|TBD|GUID|None|None|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|TaskExecuted|TBD|Boolean|None|None|
-|TBD|Result|TBD|UInt32|None|None|
-|TBD|UserSid|TBD|SID|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|EntryPointLength|TBD|UInt16|None|None|
-|TBD|EntryPoint|TBD|UnicodeString|None|None|
-|TBD|ApplicationId|TBD|UInt64|None|None|
-|TBD|CpuThrottleCount|TBD|UInt16|None|None|
-|TBD|NetThrottleCount|TBD|UInt16|None|None|
-|TBD|WatchdogDuration|TBD|UInt32|None|None|
-|TBD|WatchdogIteration|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt16|None|None|
+|TBD|WorkItemId|GUID|None|`None`|
+|TBD|BrokerId|GUID|None|`None`|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|TaskExecuted|Boolean|None|`None`|
+|TBD|Result|UInt32|None|`None`|
+|TBD|UserSid|SID|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|EntryPointLength|UInt16|None|`None`|
+|TBD|EntryPoint|UnicodeString|None|`None`|
+|TBD|ApplicationId|UInt64|None|`None`|
+|TBD|CpuThrottleCount|UInt16|None|`None`|
+|TBD|NetThrottleCount|UInt16|None|`None`|
+|TBD|WatchdogDuration|UInt32|None|`None`|
+|TBD|WatchdogIteration|UInt32|None|`None`|
+|TBD|Flags|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

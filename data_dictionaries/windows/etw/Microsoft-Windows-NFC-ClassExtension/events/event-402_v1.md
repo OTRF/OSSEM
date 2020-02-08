@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NfcRadioTurnedOff|TBD|Boolean|None|None|
-|TBD|NfcRadioFlightMode|TBD|Boolean|None|None|
-|TBD|SERadioTurnedOff|TBD|Boolean|None|None|
-|TBD|SERadioFlightMode|TBD|Boolean|None|None|
+|TBD|NfcRadioTurnedOff|Boolean|None|`None`|
+|TBD|NfcRadioFlightMode|Boolean|None|`None`|
+|TBD|SERadioTurnedOff|Boolean|None|`None`|
+|TBD|SERadioFlightMode|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

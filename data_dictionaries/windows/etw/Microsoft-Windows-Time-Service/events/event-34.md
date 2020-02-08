@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SystemTimeChangeSeconds|TBD|Int64|None|None|
-|TBD|MaxSystemTimeChangeSeconds|TBD|UInt32|None|None|
-|TBD|TimeSource|TBD|UnicodeString|None|None|
+|TBD|SystemTimeChangeSeconds|Int64|None|`None`|
+|TBD|MaxSystemTimeChangeSeconds|UInt32|None|`None`|
+|TBD|TimeSource|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

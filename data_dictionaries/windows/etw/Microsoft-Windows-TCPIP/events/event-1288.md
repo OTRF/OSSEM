@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkConnector|TBD|Pointer|None|None|
-|TBD|IRD|TBD|UInt32|None|None|
-|TBD|ORD|TBD|UInt32|None|None|
-|TBD|PrivateDataLength|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|NdkConnector|Pointer|None|`None`|
+|TBD|IRD|UInt32|None|`None`|
+|TBD|ORD|UInt32|None|`None`|
+|TBD|PrivateDataLength|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

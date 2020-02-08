@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Client|TBD|Pointer|None|None|
-|TBD|PdcId|TBD|UInt32|None|None|
-|TBD|Active|TBD|Boolean|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|ClientNameLength|TBD|UInt32|None|None|
-|TBD|ClientName|TBD|UnicodeString|None|None|
+|TBD|Client|Pointer|None|`None`|
+|TBD|PdcId|UInt32|None|`None`|
+|TBD|Active|Boolean|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|ClientNameLength|UInt32|None|`None`|
+|TBD|ClientName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

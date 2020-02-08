@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pRequest|TBD|Pointer|None|None|
-|TBD|pDevice|TBD|Pointer|None|None|
-|TBD|pTarget|TBD|Pointer|None|None|
-|TBD|IOCTL|TBD|UnicodeString|None|None|
-|TBD|TargetI2CAddress|TBD|HexInt64|None|None|
-|TBD|MMIO|TBD|HexInt64|None|None|
+|TBD|pRequest|Pointer|None|`None`|
+|TBD|pDevice|Pointer|None|`None`|
+|TBD|pTarget|Pointer|None|`None`|
+|TBD|IOCTL|UnicodeString|None|`None`|
+|TBD|TargetI2CAddress|HexInt64|None|`None`|
+|TBD|MMIO|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

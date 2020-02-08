@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_CoreServiceMode|TBD|UInt32|None|None|
+|TBD|Prop_CoreServiceMode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

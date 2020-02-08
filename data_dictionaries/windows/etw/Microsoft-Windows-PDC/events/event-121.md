@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PreviousTargetPhase|TBD|UInt8|None|None|
-|TBD|NewTargetPhase|TBD|UInt8|None|None|
-|TBD|CurrentPhase|TBD|UInt8|None|None|
+|TBD|PreviousTargetPhase|UInt8|None|`None`|
+|TBD|NewTargetPhase|UInt8|None|`None`|
+|TBD|CurrentPhase|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Always

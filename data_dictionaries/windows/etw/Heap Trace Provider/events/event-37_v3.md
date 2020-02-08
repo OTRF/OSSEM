@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HeapHandle|TBD|UInt32|None|None|
-|TBD|CommittedSize|TBD|Object|None|None|
-|TBD|CommitAddress|TBD|UInt32|None|None|
-|TBD|FreeSpace|TBD|Object|None|None|
-|TBD|CommittedSpace|TBD|Object|None|None|
-|TBD|ReservedSpace|TBD|Object|None|None|
-|TBD|NoOfUCRs|TBD|UInt32|None|None|
-|TBD|AllocatedSpace|TBD|Object|None|None|
+|TBD|HeapHandle|UInt32|None|`None`|
+|TBD|CommittedSize|Object|None|`None`|
+|TBD|CommitAddress|UInt32|None|`None`|
+|TBD|FreeSpace|Object|None|`None`|
+|TBD|CommittedSpace|Object|None|`None`|
+|TBD|ReservedSpace|Object|None|`None`|
+|TBD|NoOfUCRs|UInt32|None|`None`|
+|TBD|AllocatedSpace|Object|None|`None`|
 
 ## Tags
 * version_3

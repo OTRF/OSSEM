@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|KernelSupport|TBD|Boolean|None|None|
-|TBD|DriverFailed|TBD|Boolean|None|None|
-|TBD|InvalidParam|TBD|Boolean|None|None|
-|TBD|NumPlanes|TBD|UInt32|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|KernelSupport|Boolean|None|`None`|
+|TBD|DriverFailed|Boolean|None|`None`|
+|TBD|InvalidParam|Boolean|None|`None`|
+|TBD|NumPlanes|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

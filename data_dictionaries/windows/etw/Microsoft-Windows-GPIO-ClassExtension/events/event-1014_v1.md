@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EnableRegister|TBD|UInt64|None|None|
-|TBD|MaskRegister|TBD|UInt64|None|None|
-|TBD|StatusRegister|TBD|UInt64|None|None|
-|TBD|NonEnabledActiveInterrupts|TBD|UInt64|None|None|
-|TBD|ReplayRegister|TBD|UInt64|None|None|
+|TBD|EnableRegister|UInt64|None|`None`|
+|TBD|MaskRegister|UInt64|None|`None`|
+|TBD|StatusRegister|UInt64|None|`None`|
+|TBD|NonEnabledActiveInterrupts|UInt64|None|`None`|
+|TBD|ReplayRegister|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

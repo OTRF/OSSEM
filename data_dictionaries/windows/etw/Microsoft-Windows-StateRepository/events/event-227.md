@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|Checkpoint|TBD|Int32|None|None|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|Checkpoint|Int32|None|`None`|
 
 ## Tags
 * etw_level_Critical

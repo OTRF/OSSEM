@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DiskId|TBD|GUID|None|None|
-|TBD|Type|TBD|HexInt32|None|None|
-|TBD|Offset|TBD|UInt64|None|None|
-|TBD|Size|TBD|UInt64|None|None|
-|TBD|VolumeId|TBD|GUID|None|None|
+|TBD|DiskId|GUID|None|`None`|
+|TBD|Type|HexInt32|None|`None`|
+|TBD|Offset|UInt64|None|`None`|
+|TBD|Size|UInt64|None|`None`|
+|TBD|VolumeId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

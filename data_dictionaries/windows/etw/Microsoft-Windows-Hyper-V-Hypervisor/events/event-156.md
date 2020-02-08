@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NotAffectedRdclNo|TBD|Boolean|None|None|
-|TBD|NotAffectedAtom|TBD|Boolean|None|None|
-|TBD|CacheFlushSupported|TBD|Boolean|None|None|
-|TBD|SmtEnabled|TBD|Boolean|None|None|
-|TBD|ParentHypervisorFlushes|TBD|Boolean|None|None|
-|TBD|DisabledLoadOption|TBD|Boolean|None|None|
-|TBD|Enabled|TBD|Boolean|None|None|
-|TBD|CacheFlushNeeded|TBD|Boolean|None|None|
+|TBD|NotAffectedRdclNo|Boolean|None|`None`|
+|TBD|NotAffectedAtom|Boolean|None|`None`|
+|TBD|CacheFlushSupported|Boolean|None|`None`|
+|TBD|SmtEnabled|Boolean|None|`None`|
+|TBD|ParentHypervisorFlushes|Boolean|None|`None`|
+|TBD|DisabledLoadOption|Boolean|None|`None`|
+|TBD|Enabled|Boolean|None|`None`|
+|TBD|CacheFlushNeeded|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PhotoSink|TBD|Pointer|None|None|
-|TBD|XVP|TBD|Pointer|None|None|
+|TBD|PhotoSink|Pointer|None|`None`|
+|TBD|XVP|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

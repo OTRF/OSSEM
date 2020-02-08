@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|ProcessIdOwningFocus|TBD|UInt32|None|None|
-|TBD|ProcessCreateTimeOwningFocus|TBD|FILETIME|None|None|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|ProcessIdOwningFocus|UInt32|None|`None`|
+|TBD|ProcessCreateTimeOwningFocus|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

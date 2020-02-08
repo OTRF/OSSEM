@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WinREVolumeName|TBD|UnicodeString|None|None|
-|TBD|DriveLetter|TBD|UnicodeString|None|None|
-|TBD|DiskNumber|TBD|UInt32|None|None|
-|TBD|PartitionNumber|TBD|UInt32|None|None|
+|TBD|WinREVolumeName|UnicodeString|None|`None`|
+|TBD|DriveLetter|UnicodeString|None|`None`|
+|TBD|DiskNumber|UInt32|None|`None`|
+|TBD|PartitionNumber|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

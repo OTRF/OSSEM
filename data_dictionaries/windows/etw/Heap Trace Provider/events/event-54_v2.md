@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HeapHandle|TBD|UInt32|None|None|
-|TBD|BucketIndex|TBD|UInt32|None|None|
+|TBD|HeapHandle|UInt32|None|`None`|
+|TBD|BucketIndex|UInt32|None|`None`|
 
 ## Tags
 * version_2

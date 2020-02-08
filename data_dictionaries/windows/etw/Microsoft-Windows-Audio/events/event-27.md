@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCMonitor|TBD|Pointer|None|None|
-|TBD|DevicePosition|TBD|UInt64|None|None|
-|TBD|QPCPosition|TBD|UInt64|None|None|
+|TBD|pCMonitor|Pointer|None|`None`|
+|TBD|DevicePosition|UInt64|None|`None`|
+|TBD|QPCPosition|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGUID|TBD|GUID|None|None|
+|TBD|InterfaceGUID|GUID|None|`None`|
 
 ## Tags
 * etw_level_Verbose

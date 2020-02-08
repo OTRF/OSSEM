@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ContainerKey|TBD|Pointer|None|None|
-|TBD|VirtualAddress|TBD|Pointer|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|InterpretedPid|TBD|UInt32|None|None|
+|TBD|ContainerKey|Pointer|None|`None`|
+|TBD|VirtualAddress|Pointer|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|InterpretedPid|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

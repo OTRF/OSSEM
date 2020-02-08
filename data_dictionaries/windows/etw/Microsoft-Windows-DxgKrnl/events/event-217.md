@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|hProcessId|TBD|Pointer|None|None|
-|TBD|PreemptionTime|TBD|UInt64|None|None|
-|TBD|SchedulingDelay|TBD|UInt64|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|hProcessId|Pointer|None|`None`|
+|TBD|PreemptionTime|UInt64|None|`None`|
+|TBD|SchedulingDelay|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

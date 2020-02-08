@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|OpCorrelationID|TBD|GUID|None|None|
-|TBD|AppCorrelationID|TBD|UnicodeString|None|None|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|DSName|TBD|UnicodeString|None|None|
-|TBD|DSType|TBD|UnicodeString|None|None|
-|TBD|OldObjectDN|TBD|UnicodeString|None|None|
-|TBD|NewObjectDN|TBD|UnicodeString|None|None|
-|TBD|ObjectGUID|TBD|GUID|None|None|
-|TBD|ObjectClass|TBD|UnicodeString|None|None|
+|TBD|OpCorrelationID|GUID|None|`None`|
+|TBD|AppCorrelationID|UnicodeString|None|`None`|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|DSName|UnicodeString|None|`None`|
+|TBD|DSType|UnicodeString|None|`None`|
+|TBD|OldObjectDN|UnicodeString|None|`None`|
+|TBD|NewObjectDN|UnicodeString|None|`None`|
+|TBD|ObjectGUID|GUID|None|`None`|
+|TBD|ObjectClass|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

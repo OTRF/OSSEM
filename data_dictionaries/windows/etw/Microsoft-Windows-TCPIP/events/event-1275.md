@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkListener|TBD|Pointer|None|None|
-|TBD|SockAddrLength|TBD|UInt32|None|None|
-|TBD|SockAddr|TBD|Binary|None|None|
-|TBD|RequestContext|TBD|Pointer|None|None|
+|TBD|NdkListener|Pointer|None|`None`|
+|TBD|SockAddrLength|UInt32|None|`None`|
+|TBD|SockAddr|Binary|None|`None`|
+|TBD|RequestContext|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

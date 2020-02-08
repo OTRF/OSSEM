@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGIFactory|TBD|Pointer|None|None|
-|TBD|Mode|TBD|UInt32|None|None|
-|TBD|BlockedAdapters|TBD|UInt32|None|None|
-|TBD|PnPID|TBD|UnicodeString|None|None|
-|TBD|DriverVersion|TBD|UnicodeString|None|None|
+|TBD|pIDXGIFactory|Pointer|None|`None`|
+|TBD|Mode|UInt32|None|`None`|
+|TBD|BlockedAdapters|UInt32|None|`None`|
+|TBD|PnPID|UnicodeString|None|`None`|
+|TBD|DriverVersion|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

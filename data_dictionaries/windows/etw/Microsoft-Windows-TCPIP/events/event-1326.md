@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IpAddrLength|TBD|UInt32|None|None|
-|TBD|PreferredSourceIPAddress|TBD|Binary|None|None|
-|TBD|NonPreferredSourceIPAddress|TBD|Binary|None|None|
-|TBD|DestinationIPAddress|TBD|Binary|None|None|
-|TBD|CompartmentId|TBD|UInt32|None|None|
-|TBD|Rule|TBD|UInt32|None|None|
-|TBD|RuleExtension|TBD|UInt32|None|None|
-|TBD|RuleName|TBD|UInt32|None|None|
+|TBD|IpAddrLength|UInt32|None|`None`|
+|TBD|PreferredSourceIPAddress|Binary|None|`None`|
+|TBD|NonPreferredSourceIPAddress|Binary|None|`None`|
+|TBD|DestinationIPAddress|Binary|None|`None`|
+|TBD|CompartmentId|UInt32|None|`None`|
+|TBD|Rule|UInt32|None|`None`|
+|TBD|RuleExtension|UInt32|None|`None`|
+|TBD|RuleName|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

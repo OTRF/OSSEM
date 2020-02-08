@@ -6,24 +6,24 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PolicyNameLength|TBD|UInt16|None|None|
-|TBD|PolicyNameBuffer|TBD|UnicodeString|None|None|
-|TBD|RuleId|TBD|GUID|None|None|
-|TBD|RuleNameLength|TBD|UInt16|None|None|
-|TBD|RuleNameBuffer|TBD|UnicodeString|None|None|
-|TBD|RuleSddlLength|TBD|UInt16|None|None|
-|TBD|RuleSddlBuffer|TBD|UnicodeString|None|None|
-|TBD|TargetUser|TBD|SID|None|None|
-|TBD|TargetProcessId|TBD|UInt32|None|None|
-|TBD|FilePathLength|TBD|UInt16|None|None|
-|TBD|FilePathBuffer|TBD|UnicodeString|None|None|
-|TBD|FileHashLength|TBD|UInt16|None|None|
-|TBD|FileHash|TBD|Binary|None|None|
-|TBD|FqbnLength|TBD|UInt16|None|None|
-|TBD|Fqbn|TBD|UnicodeString|None|None|
-|TBD|TargetLogonId|TBD|HexInt64|None|None|
-|TBD|FullFilePathLength|TBD|UInt16|None|None|
-|TBD|FullFilePathBuffer|TBD|UnicodeString|None|None|
+|TBD|PolicyNameLength|UInt16|None|`None`|
+|TBD|PolicyNameBuffer|UnicodeString|None|`None`|
+|TBD|RuleId|GUID|None|`None`|
+|TBD|RuleNameLength|UInt16|None|`None`|
+|TBD|RuleNameBuffer|UnicodeString|None|`None`|
+|TBD|RuleSddlLength|UInt16|None|`None`|
+|TBD|RuleSddlBuffer|UnicodeString|None|`None`|
+|TBD|TargetUser|SID|None|`None`|
+|TBD|TargetProcessId|UInt32|None|`None`|
+|TBD|FilePathLength|UInt16|None|`None`|
+|TBD|FilePathBuffer|UnicodeString|None|`None`|
+|TBD|FileHashLength|UInt16|None|`None`|
+|TBD|FileHash|Binary|None|`None`|
+|TBD|FqbnLength|UInt16|None|`None`|
+|TBD|Fqbn|UnicodeString|None|`None`|
+|TBD|TargetLogonId|HexInt64|None|`None`|
+|TBD|FullFilePathLength|UInt16|None|`None`|
+|TBD|FullFilePathBuffer|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

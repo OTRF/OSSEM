@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SChannelName|TBD|UnicodeString|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|DomainName|TBD|UnicodeString|None|None|
-|TBD|WorkstationName|TBD|UnicodeString|None|None|
-|TBD|SChannelType|TBD|UInt32|None|None|
+|TBD|SChannelName|UnicodeString|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|DomainName|UnicodeString|None|`None`|
+|TBD|WorkstationName|UnicodeString|None|`None`|
+|TBD|SChannelType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

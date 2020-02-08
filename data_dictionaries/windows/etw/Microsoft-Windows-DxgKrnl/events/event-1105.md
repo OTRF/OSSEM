@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hSyncObj|TBD|UInt32|None|None|
-|TBD|VidPnSourceId|TBD|UInt32|None|None|
-|TBD|hCompSurface|TBD|UInt64|None|None|
-|TBD|CompSurfaceLuid|TBD|UInt64|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|ReturnStatus|TBD|UInt32|None|None|
+|TBD|hSyncObj|UInt32|None|`None`|
+|TBD|VidPnSourceId|UInt32|None|`None`|
+|TBD|hCompSurface|UInt64|None|`None`|
+|TBD|CompSurfaceLuid|UInt64|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|ReturnStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

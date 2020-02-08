@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VoltageRailId|TBD|UInt32|None|None|
-|TBD|OldRailVoltageMv|TBD|UInt32|None|None|
-|TBD|NewRailVoltageMv|TBD|UInt32|None|None|
+|TBD|VoltageRailId|UInt32|None|`None`|
+|TBD|OldRailVoltageMv|UInt32|None|`None`|
+|TBD|NewRailVoltageMv|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

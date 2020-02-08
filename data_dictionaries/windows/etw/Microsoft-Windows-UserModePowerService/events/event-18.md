@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MeterId|TBD|Pointer|None|None|
-|TBD|AbsoluteEnergy|TBD|UInt64|None|None|
-|TBD|AbsoluteTime|TBD|UInt64|None|None|
+|TBD|MeterId|Pointer|None|`None`|
+|TBD|AbsoluteEnergy|UInt64|None|`None`|
+|TBD|AbsoluteTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RawCommandLine|TBD|UnicodeString|None|None|
-|TBD|ShowUsage|TBD|Boolean|None|None|
-|TBD|DisplayDriveInfo|TBD|Boolean|None|None|
-|TBD|TargetDriveLetter|TBD|UnicodeString|None|None|
-|TBD|TargetAction|TBD|UInt32|None|None|
-|TBD|NewSystemDriveLetter|TBD|UnicodeString|None|None|
-|TBD|ShrinkSize|TBD|Int64|None|None|
-|TBD|QuietMode|TBD|Boolean|None|None|
-|TBD|AutoRestart|TBD|Boolean|None|None|
+|TBD|RawCommandLine|UnicodeString|None|`None`|
+|TBD|ShowUsage|Boolean|None|`None`|
+|TBD|DisplayDriveInfo|Boolean|None|`None`|
+|TBD|TargetDriveLetter|UnicodeString|None|`None`|
+|TBD|TargetAction|UInt32|None|`None`|
+|TBD|NewSystemDriveLetter|UnicodeString|None|`None`|
+|TBD|ShrinkSize|Int64|None|`None`|
+|TBD|QuietMode|Boolean|None|`None`|
+|TBD|AutoRestart|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

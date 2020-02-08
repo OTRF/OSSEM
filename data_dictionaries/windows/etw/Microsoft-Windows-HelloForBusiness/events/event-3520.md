@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceUnlockProvider|TBD|UnicodeString|None|None|
-|TBD|DeviceUnlockGroupA|TBD|UnicodeString|None|None|
-|TBD|DeviceUnlockGroupB|TBD|UnicodeString|None|None|
+|TBD|DeviceUnlockProvider|UnicodeString|None|`None`|
+|TBD|DeviceUnlockGroupA|UnicodeString|None|`None`|
+|TBD|DeviceUnlockGroupB|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_FdoContext|TBD|Pointer|None|None|
-|TBD|fid_LocalAddressLength|TBD|UInt32|None|None|
-|TBD|fid_LocalAddress|TBD|Binary|None|None|
-|TBD|fid_RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|fid_RemoteAddress|TBD|Binary|None|None|
-|TBD|fid_NtStatus|TBD|UInt32|None|None|
+|TBD|fid_FdoContext|Pointer|None|`None`|
+|TBD|fid_LocalAddressLength|UInt32|None|`None`|
+|TBD|fid_LocalAddress|Binary|None|`None`|
+|TBD|fid_RemoteAddressLength|UInt32|None|`None`|
+|TBD|fid_RemoteAddress|Binary|None|`None`|
+|TBD|fid_NtStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

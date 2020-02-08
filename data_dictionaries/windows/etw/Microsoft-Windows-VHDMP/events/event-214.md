@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LogFileName|TBD|UnicodeString|None|None|
-|TBD|VhdFileName|TBD|UnicodeString|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|VHDFileTime|TBD|UInt64|None|None|
-|TBD|LogFileTime|TBD|UInt64|None|None|
+|TBD|LogFileName|UnicodeString|None|`None`|
+|TBD|VhdFileName|UnicodeString|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|VHDFileTime|UInt64|None|`None`|
+|TBD|LogFileTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Error

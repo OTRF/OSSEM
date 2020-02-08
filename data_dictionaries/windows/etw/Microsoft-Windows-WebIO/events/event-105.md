@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Request|TBD|Pointer|None|None|
-|TBD|ServerEndpoint|TBD|Pointer|None|None|
-|TBD|ProxyEndpoint|TBD|Pointer|None|None|
-|TBD|ConnectionManager|TBD|Pointer|None|None|
+|TBD|Request|Pointer|None|`None`|
+|TBD|ServerEndpoint|Pointer|None|`None`|
+|TBD|ProxyEndpoint|Pointer|None|`None`|
+|TBD|ConnectionManager|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

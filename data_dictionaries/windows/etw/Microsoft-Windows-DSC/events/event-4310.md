@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RefreshTimerValue|TBD|UInt32|None|None|
+|TBD|RefreshTimerValue|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

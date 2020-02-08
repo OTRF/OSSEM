@@ -6,31 +6,31 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ErrorSource|TBD|UInt32|None|None|
-|TBD|FRUId|TBD|GUID|None|None|
-|TBD|FRUText|TBD|AnsiString|None|None|
-|TBD|ValidBits|TBD|HexInt64|None|None|
-|TBD|ErrorStatus|TBD|HexInt64|None|None|
-|TBD|PhysicalAddress|TBD|HexInt64|None|None|
-|TBD|PhysicalAddressMask|TBD|HexInt64|None|None|
-|TBD|Node|TBD|HexInt32|None|None|
-|TBD|Card|TBD|HexInt32|None|None|
-|TBD|Module|TBD|HexInt32|None|None|
-|TBD|Bank|TBD|HexInt32|None|None|
-|TBD|Device|TBD|HexInt32|None|None|
-|TBD|Row|TBD|HexInt32|None|None|
-|TBD|Column|TBD|HexInt32|None|None|
-|TBD|BitPosition|TBD|HexInt32|None|None|
-|TBD|RequesterId|TBD|HexInt64|None|None|
-|TBD|ResponderId|TBD|HexInt64|None|None|
-|TBD|TargetId|TBD|HexInt64|None|None|
-|TBD|ErrorType|TBD|UInt8|None|None|
-|TBD|Extended|TBD|UInt32|None|None|
-|TBD|RankNumber|TBD|UInt32|None|None|
-|TBD|CardHandle|TBD|UInt32|None|None|
-|TBD|ModuleHandle|TBD|UInt32|None|None|
-|TBD|Length|TBD|UInt32|None|None|
-|TBD|RawData|TBD|Binary|None|None|
+|TBD|ErrorSource|UInt32|None|`None`|
+|TBD|FRUId|GUID|None|`None`|
+|TBD|FRUText|AnsiString|None|`None`|
+|TBD|ValidBits|HexInt64|None|`None`|
+|TBD|ErrorStatus|HexInt64|None|`None`|
+|TBD|PhysicalAddress|HexInt64|None|`None`|
+|TBD|PhysicalAddressMask|HexInt64|None|`None`|
+|TBD|Node|HexInt32|None|`None`|
+|TBD|Card|HexInt32|None|`None`|
+|TBD|Module|HexInt32|None|`None`|
+|TBD|Bank|HexInt32|None|`None`|
+|TBD|Device|HexInt32|None|`None`|
+|TBD|Row|HexInt32|None|`None`|
+|TBD|Column|HexInt32|None|`None`|
+|TBD|BitPosition|HexInt32|None|`None`|
+|TBD|RequesterId|HexInt64|None|`None`|
+|TBD|ResponderId|HexInt64|None|`None`|
+|TBD|TargetId|HexInt64|None|`None`|
+|TBD|ErrorType|UInt8|None|`None`|
+|TBD|Extended|UInt32|None|`None`|
+|TBD|RankNumber|UInt32|None|`None`|
+|TBD|CardHandle|UInt32|None|`None`|
+|TBD|ModuleHandle|UInt32|None|`None`|
+|TBD|Length|UInt32|None|`None`|
+|TBD|RawData|Binary|None|`None`|
 
 ## Tags
 * etw_level_Error

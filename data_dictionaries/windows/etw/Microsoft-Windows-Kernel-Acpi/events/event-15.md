@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FanBiosNameLength|TBD|UInt16|None|None|
-|TBD|FanBiosName|TBD|UnicodeString|None|None|
-|TBD|Control|TBD|UInt32|None|None|
+|TBD|FanBiosNameLength|UInt16|None|`None`|
+|TBD|FanBiosName|UnicodeString|None|`None`|
+|TBD|Control|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

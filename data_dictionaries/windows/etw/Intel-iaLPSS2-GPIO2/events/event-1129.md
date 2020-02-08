@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BankName|TBD|AnsiString|None|None|
-|TBD|Active|TBD|UInt32|None|None|
-|TBD|ActiveRaw|TBD|UInt32|None|None|
-|TBD|ActiveMask|TBD|UInt32|None|None|
+|TBD|BankName|AnsiString|None|`None`|
+|TBD|Active|UInt32|None|`None`|
+|TBD|ActiveRaw|UInt32|None|`None`|
+|TBD|ActiveMask|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

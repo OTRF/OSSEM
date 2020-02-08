@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PoolReseedCount|TBD|UInt64|None|None|
-|TBD|ReseedType|TBD|UInt32|None|None|
-|TBD|nData|TBD|UInt32|None|None|
-|TBD|Data|TBD|Binary|None|None|
+|TBD|PoolReseedCount|UInt64|None|`None`|
+|TBD|ReseedType|UInt32|None|`None`|
+|TBD|nData|UInt32|None|`None`|
+|TBD|Data|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

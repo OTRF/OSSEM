@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IntersectingLayerNode|TBD|Pointer|None|None|
-|TBD|NewImplicitLayerNode|TBD|Pointer|None|None|
-|TBD|ImplicitLayerCount|TBD|Int32|None|None|
+|TBD|IntersectingLayerNode|Pointer|None|`None`|
+|TBD|NewImplicitLayerNode|Pointer|None|`None`|
+|TBD|ImplicitLayerCount|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

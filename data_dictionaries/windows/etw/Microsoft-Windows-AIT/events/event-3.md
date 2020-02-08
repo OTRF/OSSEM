@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|cchAppPathIncludingNull|TBD|UInt16|None|None|
-|TBD|ApplicationImageHeaderHash|TBD|Binary|None|None|
-|TBD|AppPath|TBD|UnicodeString|None|None|
+|TBD|cchAppPathIncludingNull|UInt16|None|`None`|
+|TBD|ApplicationImageHeaderHash|Binary|None|`None`|
+|TBD|AppPath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

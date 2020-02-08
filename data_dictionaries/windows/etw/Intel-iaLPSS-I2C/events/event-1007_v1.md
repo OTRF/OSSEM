@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FxDevice|TBD|Pointer|None|None|
-|TBD|VAddr|TBD|Pointer|None|None|
-|TBD|PAddr|TBD|HexInt64|None|None|
+|TBD|FxDevice|Pointer|None|`None`|
+|TBD|VAddr|Pointer|None|`None`|
+|TBD|PAddr|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

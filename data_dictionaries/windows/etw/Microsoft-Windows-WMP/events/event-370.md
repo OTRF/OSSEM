@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IWMMediaLibrary|TBD|Pointer|None|None|
-|TBD|EnableSharing|TBD|Boolean|None|None|
-|TBD|UpdateACLs|TBD|Boolean|None|None|
-|TBD|HRESULT|TBD|UInt32|None|None|
+|TBD|IWMMediaLibrary|Pointer|None|`None`|
+|TBD|EnableSharing|Boolean|None|`None`|
+|TBD|UpdateACLs|Boolean|None|`None`|
+|TBD|HRESULT|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

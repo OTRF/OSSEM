@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceGuid|TBD|GUID|None|None|
-|TBD|NfitHandle|TBD|HexInt32|None|None|
-|TBD|SlotNumber|TBD|UInt32|None|None|
-|TBD|VendorId|TBD|AnsiString|None|None|
-|TBD|ProductId|TBD|AnsiString|None|None|
-|TBD|SerialNumber|TBD|AnsiString|None|None|
-|TBD|Location|TBD|UnicodeString|None|None|
-|TBD|MemoryEventCount|TBD|UInt32|None|None|
+|TBD|DeviceGuid|GUID|None|`None`|
+|TBD|NfitHandle|HexInt32|None|`None`|
+|TBD|SlotNumber|UInt32|None|`None`|
+|TBD|VendorId|AnsiString|None|`None`|
+|TBD|ProductId|AnsiString|None|`None`|
+|TBD|SerialNumber|AnsiString|None|`None`|
+|TBD|Location|UnicodeString|None|`None`|
+|TBD|MemoryEventCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

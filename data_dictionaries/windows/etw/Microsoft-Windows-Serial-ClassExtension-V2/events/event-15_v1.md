@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Device|TBD|Pointer|None|None|
-|TBD|IOCTL|TBD|HexInt32|None|None|
-|TBD|IOCTLInputBufferLength|TBD|HexInt32|None|None|
-|TBD|IOCTLInputBuffer|TBD|Binary|None|None|
+|TBD|Device|Pointer|None|`None`|
+|TBD|IOCTL|HexInt32|None|`None`|
+|TBD|IOCTLInputBufferLength|HexInt32|None|`None`|
+|TBD|IOCTLInputBuffer|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

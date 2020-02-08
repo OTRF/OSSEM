@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ReassembledEventID|TBD|UInt16|None|None|
-|TBD|FragmentSize|TBD|UInt32|None|None|
-|TBD|FragmentData|TBD|Binary|None|None|
+|TBD|ReassembledEventID|UInt16|None|`None`|
+|TBD|FragmentSize|UInt32|None|`None`|
+|TBD|FragmentData|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

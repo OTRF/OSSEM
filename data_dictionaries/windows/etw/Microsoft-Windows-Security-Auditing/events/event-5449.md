@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|UserSid|TBD|SID|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|ProviderKey|TBD|GUID|None|None|
-|TBD|ProviderName|TBD|UnicodeString|None|None|
-|TBD|ChangeType|TBD|UnicodeString|None|None|
-|TBD|ProviderContextKey|TBD|GUID|None|None|
-|TBD|ProviderContextName|TBD|UnicodeString|None|None|
-|TBD|ProviderContextType|TBD|UnicodeString|None|None|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|UserSid|SID|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|ProviderKey|GUID|None|`None`|
+|TBD|ProviderName|UnicodeString|None|`None`|
+|TBD|ChangeType|UnicodeString|None|`None`|
+|TBD|ProviderContextKey|GUID|None|`None`|
+|TBD|ProviderContextName|UnicodeString|None|`None`|
+|TBD|ProviderContextType|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

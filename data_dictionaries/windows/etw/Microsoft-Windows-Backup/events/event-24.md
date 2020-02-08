@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VolumeGUID|TBD|GUID|None|None|
-|TBD|VolumeFriendlyName|TBD|UnicodeString|None|None|
-|TBD|VhdDeleteReason|TBD|UnicodeString|None|None|
+|TBD|VolumeGUID|GUID|None|`None`|
+|TBD|VolumeFriendlyName|UnicodeString|None|`None`|
+|TBD|VhdDeleteReason|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

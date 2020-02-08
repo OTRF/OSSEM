@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ApartmentId64|TBD|UInt64|None|None|
-|TBD|AptId|TBD|UInt32|None|None|
-|TBD|AptKind|TBD|UInt8|None|None|
+|TBD|ApartmentId64|UInt64|None|`None`|
+|TBD|AptId|UInt32|None|`None`|
+|TBD|AptKind|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

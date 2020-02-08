@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PsmKey|TBD|UnicodeString|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|HiFlags_LoAppCount|TBD|UInt32|None|None|
-|TBD|HiThreshold_LoCurrentMetric|TBD|UInt32|None|None|
-|TBD|SumOfPrivateWsOrSumOfSwapUsageOrPrivateModifiedSize|TBD|UInt32|None|None|
+|TBD|PsmKey|UnicodeString|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|HiFlags_LoAppCount|UInt32|None|`None`|
+|TBD|HiThreshold_LoCurrentMetric|UInt32|None|`None`|
+|TBD|SumOfPrivateWsOrSumOfSwapUsageOrPrivateModifiedSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CurrentX|TBD|Int32|None|None|
-|TBD|CurrentY|TBD|Int32|None|None|
-|TBD|DeltaX|TBD|Int32|None|None|
-|TBD|DeltaY|TBD|Int32|None|None|
+|TBD|CurrentX|Int32|None|`None`|
+|TBD|CurrentY|Int32|None|`None`|
+|TBD|DeltaX|Int32|None|`None`|
+|TBD|DeltaY|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

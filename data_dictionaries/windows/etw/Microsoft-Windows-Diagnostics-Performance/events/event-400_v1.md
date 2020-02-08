@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ShellScenarioStartTime|TBD|FILETIME|None|None|
-|TBD|ShellScenarioEndTime|TBD|FILETIME|None|None|
-|TBD|ShellSubScenario|TBD|UInt32|None|None|
-|TBD|ShellScenarioDuration|TBD|UInt32|None|None|
-|TBD|ShellRootCauseBits|TBD|UInt32|None|None|
-|TBD|ShellAnalysisResult|TBD|UInt32|None|None|
-|TBD|ShellDegradationType|TBD|UInt32|None|None|
-|TBD|ShellTsVersion|TBD|UInt32|None|None|
-|TBD|ShellMachineUpTimeHours|TBD|UInt32|None|None|
-|TBD|ShellMachineSleepPattern|TBD|UInt32|None|None|
+|TBD|ShellScenarioStartTime|FILETIME|None|`None`|
+|TBD|ShellScenarioEndTime|FILETIME|None|`None`|
+|TBD|ShellSubScenario|UInt32|None|`None`|
+|TBD|ShellScenarioDuration|UInt32|None|`None`|
+|TBD|ShellRootCauseBits|UInt32|None|`None`|
+|TBD|ShellAnalysisResult|UInt32|None|`None`|
+|TBD|ShellDegradationType|UInt32|None|`None`|
+|TBD|ShellTsVersion|UInt32|None|`None`|
+|TBD|ShellMachineUpTimeHours|UInt32|None|`None`|
+|TBD|ShellMachineSleepPattern|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

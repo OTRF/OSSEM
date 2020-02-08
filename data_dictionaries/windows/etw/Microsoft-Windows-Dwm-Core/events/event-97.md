@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hwndLensContext|TBD|UInt64|None|None|
-|TBD|UpdateId|TBD|UInt64|None|None|
-|TBD|hr|TBD|UInt32|None|None|
+|TBD|hwndLensContext|UInt64|None|`None`|
+|TBD|UpdateId|UInt64|None|`None`|
+|TBD|hr|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

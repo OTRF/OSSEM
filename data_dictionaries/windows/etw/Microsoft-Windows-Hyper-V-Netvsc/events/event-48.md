@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VfAdapterNameLen|TBD|UInt32|None|None|
-|TBD|VfAdapterName|TBD|UnicodeString|None|None|
+|TBD|VfAdapterNameLen|UInt32|None|`None`|
+|TBD|VfAdapterName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|GoodAngle|TBD|UInt32|None|None|
-|TBD|Quadrant|TBD|UInt32|None|None|
-|TBD|LastQuadrant|TBD|UInt32|None|None|
-|TBD|Theta|TBD|Float|None|None|
+|TBD|GoodAngle|UInt32|None|`None`|
+|TBD|Quadrant|UInt32|None|`None`|
+|TBD|LastQuadrant|UInt32|None|`None`|
+|TBD|Theta|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

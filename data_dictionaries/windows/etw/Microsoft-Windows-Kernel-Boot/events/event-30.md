@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResetEndStart|TBD|UInt64|None|None|
-|TBD|LoadOSImageStart|TBD|UInt64|None|None|
-|TBD|StartOSImageStart|TBD|UInt64|None|None|
-|TBD|ExitBootServicesEntry|TBD|UInt64|None|None|
-|TBD|ExitBootServicesExit|TBD|UInt64|None|None|
+|TBD|ResetEndStart|UInt64|None|`None`|
+|TBD|LoadOSImageStart|UInt64|None|`None`|
+|TBD|StartOSImageStart|UInt64|None|`None`|
+|TBD|ExitBootServicesEntry|UInt64|None|`None`|
+|TBD|ExitBootServicesExit|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SqmType|TBD|UInt32|None|None|
-|TBD|SqmSessionGuid|TBD|GUID|None|None|
-|TBD|SqmID|TBD|UInt32|None|None|
-|TBD|SqmStringDatapointValue|TBD|UnicodeString|None|None|
+|TBD|SqmType|UInt32|None|`None`|
+|TBD|SqmSessionGuid|GUID|None|`None`|
+|TBD|SqmID|UInt32|None|`None`|
+|TBD|SqmStringDatapointValue|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

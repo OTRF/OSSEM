@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Parser|TBD|Pointer|None|None|
-|TBD|ParserType|TBD|UInt32|None|None|
-|TBD|ParseType|TBD|UInt32|None|None|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|IsInline|TBD|Boolean|None|None|
-|TBD|EventContextId|TBD|UInt64|None|None|
+|TBD|Parser|Pointer|None|`None`|
+|TBD|ParserType|UInt32|None|`None`|
+|TBD|ParseType|UInt32|None|`None`|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|IsInline|Boolean|None|`None`|
+|TBD|EventContextId|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

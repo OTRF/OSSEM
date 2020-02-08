@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HoldQpcCounts|TBD|UInt64|None|None|
-|TBD|HoldTimeMs|TBD|UInt32|None|None|
-|TBD|Token|TBD|UInt64|None|None|
+|TBD|HoldQpcCounts|UInt64|None|`None`|
+|TBD|HoldTimeMs|UInt32|None|`None`|
+|TBD|Token|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

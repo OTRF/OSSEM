@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AsyncTaskPointer|TBD|Pointer|None|None|
-|TBD|StreamID|TBD|UInt32|None|None|
-|TBD|BufferPointer|TBD|Pointer|None|None|
-|TBD|PinPointer|TBD|Pointer|None|None|
-|TBD|ParentPointer|TBD|Pointer|None|None|
+|TBD|AsyncTaskPointer|Pointer|None|`None`|
+|TBD|StreamID|UInt32|None|`None`|
+|TBD|BufferPointer|Pointer|None|`None`|
+|TBD|PinPointer|Pointer|None|`None`|
+|TBD|ParentPointer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

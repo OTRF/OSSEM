@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|cHwndTargets|TBD|UInt32|None|None|
-|TBD|cDDATargets|TBD|UInt32|None|None|
-|TBD|cIndirectSwapChainTargets|TBD|UInt32|None|None|
-|TBD|cHolographicTargets|TBD|UInt32|None|None|
+|TBD|cHwndTargets|UInt32|None|`None`|
+|TBD|cDDATargets|UInt32|None|`None`|
+|TBD|cIndirectSwapChainTargets|UInt32|None|`None`|
+|TBD|cHolographicTargets|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

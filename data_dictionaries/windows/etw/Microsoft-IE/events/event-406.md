@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MediaElementId|TBD|UInt32|None|None|
-|TBD|MediaElementIdAttribute|TBD|UnicodeString|None|None|
-|TBD|UniqueDeviceName|TBD|UnicodeString|None|None|
-|TBD|FriendlyDeviceName|TBD|UnicodeString|None|None|
+|TBD|MediaElementId|UInt32|None|`None`|
+|TBD|MediaElementIdAttribute|UnicodeString|None|`None`|
+|TBD|UniqueDeviceName|UnicodeString|None|`None`|
+|TBD|FriendlyDeviceName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RequestId|TBD|UInt64|None|None|
-|TBD|CacheEntryPtr|TBD|Pointer|None|None|
-|TBD|NumberOfSlices|TBD|UInt32|None|None|
-|TBD|SliceIndex1|TBD|UInt32|None|None|
-|TBD|SliceIndex2|TBD|UInt32|None|None|
-|TBD|NumberOfRanges|TBD|UInt32|None|None|
-|TBD|Range1Start|TBD|UInt64|None|None|
-|TBD|Range1End|TBD|UInt64|None|None|
-|TBD|Range2Start|TBD|UInt64|None|None|
-|TBD|Range2End|TBD|UInt64|None|None|
+|TBD|RequestId|UInt64|None|`None`|
+|TBD|CacheEntryPtr|Pointer|None|`None`|
+|TBD|NumberOfSlices|UInt32|None|`None`|
+|TBD|SliceIndex1|UInt32|None|`None`|
+|TBD|SliceIndex2|UInt32|None|`None`|
+|TBD|NumberOfRanges|UInt32|None|`None`|
+|TBD|Range1Start|UInt64|None|`None`|
+|TBD|Range1End|UInt64|None|`None`|
+|TBD|Range2Start|UInt64|None|`None`|
+|TBD|Range2End|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|PermissionType|TBD|UInt32|None|None|
-|TBD|PermissionState|TBD|UInt32|None|None|
-|TBD|IsPrimaryResponse|TBD|Boolean|None|None|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|PermissionType|UInt32|None|`None`|
+|TBD|PermissionState|UInt32|None|`None`|
+|TBD|IsPrimaryResponse|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

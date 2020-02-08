@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|SubjectLogonId|TBD|HexInt64|None|None|
-|TBD|SchemaFriendlyName|TBD|UnicodeString|None|None|
-|TBD|Schema|TBD|GUID|None|None|
-|TBD|Resource|TBD|UnicodeString|None|None|
-|TBD|Identity|TBD|UnicodeString|None|None|
-|TBD|PackageSid|TBD|UnicodeString|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|ReturnCode|TBD|UInt32|None|None|
-|TBD|ProcessCreationTime|TBD|FILETIME|None|None|
-|TBD|ClientProcessId|TBD|UInt32|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|SubjectLogonId|HexInt64|None|`None`|
+|TBD|SchemaFriendlyName|UnicodeString|None|`None`|
+|TBD|Schema|GUID|None|`None`|
+|TBD|Resource|UnicodeString|None|`None`|
+|TBD|Identity|UnicodeString|None|`None`|
+|TBD|PackageSid|UnicodeString|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|ReturnCode|UInt32|None|`None`|
+|TBD|ProcessCreationTime|FILETIME|None|`None`|
+|TBD|ClientProcessId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

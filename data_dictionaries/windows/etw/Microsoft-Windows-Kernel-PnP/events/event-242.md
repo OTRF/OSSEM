@@ -6,23 +6,23 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TargetPath|TBD|UnicodeString|None|None|
-|TBD|TargetAffinity|TBD|HexInt64|None|None|
-|TBD|TargetProcessorCount|TBD|UInt32|None|None|
-|TBD|TargetMemoryCount|TBD|UInt32|None|None|
-|TBD|TargetMemorySize|TBD|HexInt64|None|None|
-|TBD|SparePath|TBD|UnicodeString|None|None|
-|TBD|SpareProcessorCount|TBD|UInt32|None|None|
-|TBD|SpareMemoryCount|TBD|UInt32|None|None|
-|TBD|SpareMemorySize|TBD|HexInt64|None|None|
-|TBD|TimeTotal|TBD|UInt32|None|None|
-|TBD|TimeToQuiesce|TBD|UInt32|None|None|
-|TBD|TimeQuiesced|TBD|UInt32|None|None|
-|TBD|TimeToWake|TBD|UInt32|None|None|
-|TBD|TargetProcessors|TBD|FILETIME|None|None|
-|TBD|TargetMemoryRanges|TBD|SYSTEMTIME|None|None|
-|TBD|SpareProcessors|TBD|HexInt32|None|None|
-|TBD|SpareMemoryRanges|TBD|HexInt64|None|None|
+|TBD|TargetPath|UnicodeString|None|`None`|
+|TBD|TargetAffinity|HexInt64|None|`None`|
+|TBD|TargetProcessorCount|UInt32|None|`None`|
+|TBD|TargetMemoryCount|UInt32|None|`None`|
+|TBD|TargetMemorySize|HexInt64|None|`None`|
+|TBD|SparePath|UnicodeString|None|`None`|
+|TBD|SpareProcessorCount|UInt32|None|`None`|
+|TBD|SpareMemoryCount|UInt32|None|`None`|
+|TBD|SpareMemorySize|HexInt64|None|`None`|
+|TBD|TimeTotal|UInt32|None|`None`|
+|TBD|TimeToQuiesce|UInt32|None|`None`|
+|TBD|TimeQuiesced|UInt32|None|`None`|
+|TBD|TimeToWake|UInt32|None|`None`|
+|TBD|TargetProcessors|FILETIME|None|`None`|
+|TBD|TargetMemoryRanges|SYSTEMTIME|None|`None`|
+|TBD|SpareProcessors|HexInt32|None|`None`|
+|TBD|SpareMemoryRanges|HexInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

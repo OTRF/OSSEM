@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|width|TBD|UInt32|None|None|
-|TBD|height|TBD|UInt32|None|None|
-|TBD|dxgiFormat|TBD|UInt32|None|None|
-|TBD|pixelSize|TBD|UInt32|None|None|
+|TBD|width|UInt32|None|`None`|
+|TBD|height|UInt32|None|`None`|
+|TBD|dxgiFormat|UInt32|None|`None`|
+|TBD|pixelSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

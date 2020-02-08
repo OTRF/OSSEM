@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HardwareConfigurationId|TBD|HexInt32|None|None|
-|TBD|Driver|TBD|UnicodeString|None|None|
-|TBD|StartType|TBD|HexInt32|None|None|
+|TBD|HardwareConfigurationId|HexInt32|None|`None`|
+|TBD|Driver|UnicodeString|None|`None`|
+|TBD|StartType|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

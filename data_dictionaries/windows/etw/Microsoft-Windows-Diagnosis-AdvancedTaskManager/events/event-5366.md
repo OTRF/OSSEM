@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResourceName|TBD|UnicodeString|None|None|
-|TBD|ProcessorCoreCount|TBD|UInt32|None|None|
-|TBD|LogicalProcessorCount|TBD|UInt32|None|None|
-|TBD|NumaNodeCount|TBD|UInt32|None|None|
-|TBD|MaxCPUSpeed|TBD|UnicodeString|None|None|
-|TBD|CurrentCPUSpeed|TBD|UnicodeString|None|None|
-|TBD|Virtualization|TBD|UnicodeString|None|None|
+|TBD|ResourceName|UnicodeString|None|`None`|
+|TBD|ProcessorCoreCount|UInt32|None|`None`|
+|TBD|LogicalProcessorCount|UInt32|None|`None`|
+|TBD|NumaNodeCount|UInt32|None|`None`|
+|TBD|MaxCPUSpeed|UnicodeString|None|`None`|
+|TBD|CurrentCPUSpeed|UnicodeString|None|`None`|
+|TBD|Virtualization|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

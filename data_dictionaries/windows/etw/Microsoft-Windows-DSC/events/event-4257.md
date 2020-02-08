@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JobId|TBD|UnicodeString|None|None|
-|TBD|configurationMode|TBD|UnicodeString|None|None|
-|TBD|configurationModeFrequencyMins|TBD|UInt32|None|None|
-|TBD|refreshmode|TBD|UnicodeString|None|None|
-|TBD|refreshFrequencyMins|TBD|UInt32|None|None|
-|TBD|rebootNodeIfNeeded|TBD|UnicodeString|None|None|
-|TBD|debugMode|TBD|UnicodeString|None|None|
+|TBD|JobId|UnicodeString|None|`None`|
+|TBD|configurationMode|UnicodeString|None|`None`|
+|TBD|configurationModeFrequencyMins|UInt32|None|`None`|
+|TBD|refreshmode|UnicodeString|None|`None`|
+|TBD|refreshFrequencyMins|UInt32|None|`None`|
+|TBD|rebootNodeIfNeeded|UnicodeString|None|`None`|
+|TBD|debugMode|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

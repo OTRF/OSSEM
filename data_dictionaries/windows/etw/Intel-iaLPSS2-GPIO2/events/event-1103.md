@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BankName|TBD|AnsiString|None|None|
-|TBD|PinNo|TBD|UInt32|None|None|
-|TBD|PinOwnership|TBD|UInt32|None|None|
+|TBD|BankName|AnsiString|None|`None`|
+|TBD|PinNo|UInt32|None|`None`|
+|TBD|PinOwnership|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

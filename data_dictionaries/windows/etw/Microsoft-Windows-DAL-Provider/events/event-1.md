@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NetFn|TBD|UInt8|None|None|
-|TBD|CommandID|TBD|UInt8|None|None|
-|TBD|PacketSize|TBD|UInt32|None|None|
-|TBD|PacketData|TBD|Binary|None|None|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|SequenceNumber|TBD|UInt32|None|None|
+|TBD|NetFn|UInt8|None|`None`|
+|TBD|CommandID|UInt8|None|`None`|
+|TBD|PacketSize|UInt32|None|`None`|
+|TBD|PacketData|Binary|None|`None`|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|SequenceNumber|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

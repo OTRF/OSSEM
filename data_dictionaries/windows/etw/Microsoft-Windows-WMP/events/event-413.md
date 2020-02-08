@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|numberofDMRsFound|TBD|UInt32|None|None|
-|TBD|result|TBD|UInt32|None|None|
-|TBD|failureReason|TBD|UInt32|None|None|
+|TBD|numberofDMRsFound|UInt32|None|`None`|
+|TBD|result|UInt32|None|`None`|
+|TBD|failureReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

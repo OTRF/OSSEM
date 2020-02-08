@@ -6,11 +6,11 @@ Script block logging records blocks of code as they are executed by the PowerShe
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|powershell_message_number|MessageNumber|TBD|integer||1|
-|powershell_parameter_binding|MessageTotal|TBD|integer||1|
-|powershell_scriptblock_text|ScriptBlockText|TBD|string|function Invoke-ATTACKAPI..||
-|powershell_scriptblock_id|ScriptBlockId|TBD|string||1c97482f-51a2-4cf9-8abd-df9769b6e373|
-|powershell_Path|Path|TBD|string||C:\Tools\Invoke-ATTACKAPI-master\Invoke-ATTACKAPI.ps1|
+|powershell_message_number|MessageNumber|integer||`1`|
+|powershell_parameter_binding|MessageTotal|integer||`1`|
+|powershell_scriptblock_text|ScriptBlockText|string|function Invoke-ATTACKAPI..|``|
+|powershell_scriptblock_id|ScriptBlockId|string||`1c97482f-51a2-4cf9-8abd-df9769b6e373`|
+|powershell_Path|Path|string||`C:\Tools\Invoke-ATTACKAPI-master\Invoke-ATTACKAPI.ps1`|
 
 ## Resources
 * [FireEye](https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html)

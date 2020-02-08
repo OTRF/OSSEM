@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AsyncResult|TBD|Pointer|None|None|
-|TBD|AsyncResultVTable|TBD|Pointer|None|None|
+|TBD|AsyncResult|Pointer|None|`None`|
+|TBD|AsyncResultVTable|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

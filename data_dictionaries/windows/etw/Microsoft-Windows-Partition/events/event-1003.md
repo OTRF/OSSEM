@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Process|TBD|Pointer|None|None|
-|TBD|IncrementEnergy|TBD|UInt64|None|None|
-|TBD|SrvTime|TBD|UInt64|None|None|
-|TBD|EndByteOffset|TBD|UInt64|None|None|
-|TBD|IoSize|TBD|UInt32|None|None|
-|TBD|LastIdleState|TBD|UInt8|None|None|
-|TBD|IsRandom|TBD|UInt8|None|None|
+|TBD|Process|Pointer|None|`None`|
+|TBD|IncrementEnergy|UInt64|None|`None`|
+|TBD|SrvTime|UInt64|None|`None`|
+|TBD|EndByteOffset|UInt64|None|`None`|
+|TBD|IoSize|UInt32|None|`None`|
+|TBD|LastIdleState|UInt8|None|`None`|
+|TBD|IsRandom|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

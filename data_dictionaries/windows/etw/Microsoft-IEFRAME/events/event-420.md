@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HRESULT|TBD|UInt32|None|None|
-|TBD|TabID|TBD|UInt32|None|None|
-|TBD|SyncTimeout|TBD|UInt32|None|None|
-|TBD|SetHung|TBD|Boolean|None|None|
-|TBD|UserAction|TBD|Boolean|None|None|
+|TBD|HRESULT|UInt32|None|`None`|
+|TBD|TabID|UInt32|None|`None`|
+|TBD|SyncTimeout|UInt32|None|`None`|
+|TBD|SetHung|Boolean|None|`None`|
+|TBD|UserAction|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

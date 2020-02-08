@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsChannelConnection|TBD|Boolean|None|None|
-|TBD|InstanceId|TBD|UInt32|None|None|
+|TBD|IsChannelConnection|Boolean|None|`None`|
+|TBD|InstanceId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

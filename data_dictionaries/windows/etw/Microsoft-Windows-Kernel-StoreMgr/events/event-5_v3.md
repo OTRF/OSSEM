@@ -6,25 +6,25 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StoreKey|TBD|Pointer|None|None|
-|TBD|StoreFileKey|TBD|Pointer|None|None|
-|TBD|UserDataMgr|TBD|Pointer|None|None|
-|TBD|MetadataMgr|TBD|Pointer|None|None|
-|TBD|RegionSize|TBD|UInt32|None|None|
-|TBD|RegionCount|TBD|UInt32|None|None|
-|TBD|BlockSize|TBD|UInt32|None|None|
-|TBD|SectorSize|TBD|UInt32|None|None|
-|TBD|EncryptionStrength|TBD|UInt32|None|None|
-|TBD|StoreType|TBD|UInt16|None|None|
-|TBD|StoreId|TBD|UInt16|None|None|
-|TBD|BlocksStored|TBD|UInt32|None|None|
-|TBD|RegionsInUse|TBD|UInt32|None|None|
-|TBD|TotalSpaceUsed|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|MetaRegionCount|TBD|UInt32|None|None|
-|TBD|MetaRegionsInUse|TBD|UInt32|None|None|
-|TBD|MetaRegionsSpaceUsed|TBD|UInt32|None|None|
-|TBD|StoreTime|TBD|UInt32|None|None|
+|TBD|StoreKey|Pointer|None|`None`|
+|TBD|StoreFileKey|Pointer|None|`None`|
+|TBD|UserDataMgr|Pointer|None|`None`|
+|TBD|MetadataMgr|Pointer|None|`None`|
+|TBD|RegionSize|UInt32|None|`None`|
+|TBD|RegionCount|UInt32|None|`None`|
+|TBD|BlockSize|UInt32|None|`None`|
+|TBD|SectorSize|UInt32|None|`None`|
+|TBD|EncryptionStrength|UInt32|None|`None`|
+|TBD|StoreType|UInt16|None|`None`|
+|TBD|StoreId|UInt16|None|`None`|
+|TBD|BlocksStored|UInt32|None|`None`|
+|TBD|RegionsInUse|UInt32|None|`None`|
+|TBD|TotalSpaceUsed|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|MetaRegionCount|UInt32|None|`None`|
+|TBD|MetaRegionsInUse|UInt32|None|`None`|
+|TBD|MetaRegionsSpaceUsed|UInt32|None|`None`|
+|TBD|StoreTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

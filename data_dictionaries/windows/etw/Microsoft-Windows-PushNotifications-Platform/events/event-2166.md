@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WakeupTime|TBD|FILETIME|None|None|
-|TBD|IsValid|TBD|Boolean|None|None|
+|TBD|WakeupTime|FILETIME|None|`None`|
+|TBD|IsValid|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Verbose

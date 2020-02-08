@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ExitCode|TBD|Int32|None|None|
-|TBD|JoinType|TBD|Int32|None|None|
-|TBD|JoinTypeSymbolicName|TBD|UnicodeString|None|None|
-|TBD|TenantId|TBD|UnicodeString|None|None|
-|TBD|UPN|TBD|UnicodeString|None|None|
+|TBD|ExitCode|Int32|None|`None`|
+|TBD|JoinType|Int32|None|`None`|
+|TBD|JoinTypeSymbolicName|UnicodeString|None|`None`|
+|TBD|TenantId|UnicodeString|None|`None`|
+|TBD|UPN|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

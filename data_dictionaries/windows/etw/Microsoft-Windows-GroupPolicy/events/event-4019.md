@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ScriptName|TBD|UnicodeString|None|None|
-|TBD|ScriptFileSystemPath|TBD|UnicodeString|None|None|
-|TBD|ScriptArguments|TBD|UnicodeString|None|None|
+|TBD|ScriptName|UnicodeString|None|`None`|
+|TBD|ScriptFileSystemPath|UnicodeString|None|`None`|
+|TBD|ScriptArguments|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

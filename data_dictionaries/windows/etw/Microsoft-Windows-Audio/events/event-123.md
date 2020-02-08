@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EndpointId|TBD|UnicodeString|None|None|
-|TBD|category|TBD|UInt32|None|None|
-|TBD|Raw|TBD|Boolean|None|None|
-|TBD|MatchFormat|TBD|Boolean|None|None|
-|TBD|ConnectorType|TBD|UInt32|None|None|
+|TBD|EndpointId|UnicodeString|None|`None`|
+|TBD|category|UInt32|None|`None`|
+|TBD|Raw|Boolean|None|`None`|
+|TBD|MatchFormat|Boolean|None|`None`|
+|TBD|ConnectorType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

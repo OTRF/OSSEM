@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Phase|TBD|UInt8|None|None|
-|TBD|CountChange|TBD|Int32|None|None|
-|TBD|ReferenceCount|TBD|Int32|None|None|
-|TBD|WasWorkItemQueued|TBD|Boolean|None|None|
+|TBD|Phase|UInt8|None|`None`|
+|TBD|CountChange|Int32|None|`None`|
+|TBD|ReferenceCount|Int32|None|`None`|
+|TBD|WasWorkItemQueued|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

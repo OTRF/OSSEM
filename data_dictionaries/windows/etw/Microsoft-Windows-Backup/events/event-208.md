@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BackupSetId|TBD|GUID|None|None|
-|TBD|RestoreEventId|TBD|GUID|None|None|
-|TBD|FileRestoreTargetPath|TBD|UnicodeString|None|None|
-|TBD|RestoreState|TBD|Int32|None|None|
-|TBD|HRESULT|TBD|UInt32|None|None|
-|TBD|DetailedHRESULT|TBD|UInt32|None|None|
-|TBD|NumOfFiles|TBD|UInt32|None|None|
-|TBD|FilesInfo|TBD|UnicodeString|None|None|
-|TBD|RestoreTime|TBD|FILETIME|None|None|
-|TBD|MountVhdTime|TBD|UInt32|None|None|
-|TBD|PreparePassTime|TBD|UInt32|None|None|
-|TBD|WriteFilesTime|TBD|UInt32|None|None|
+|TBD|BackupSetId|GUID|None|`None`|
+|TBD|RestoreEventId|GUID|None|`None`|
+|TBD|FileRestoreTargetPath|UnicodeString|None|`None`|
+|TBD|RestoreState|Int32|None|`None`|
+|TBD|HRESULT|UInt32|None|`None`|
+|TBD|DetailedHRESULT|UInt32|None|`None`|
+|TBD|NumOfFiles|UInt32|None|`None`|
+|TBD|FilesInfo|UnicodeString|None|`None`|
+|TBD|RestoreTime|FILETIME|None|`None`|
+|TBD|MountVhdTime|UInt32|None|`None`|
+|TBD|PreparePassTime|UInt32|None|`None`|
+|TBD|WriteFilesTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

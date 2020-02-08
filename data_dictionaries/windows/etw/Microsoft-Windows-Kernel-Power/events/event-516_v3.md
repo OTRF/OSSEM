@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EnergyDrain|TBD|UInt32|None|None|
-|TBD|DripsResidencyInUs|TBD|UInt64|None|None|
-|TBD|OnAc|TBD|Boolean|None|None|
-|TBD|HwDripsResidencyInUs|TBD|UInt64|None|None|
-|TBD|PreVetoCount|TBD|UInt64|None|None|
-|TBD|VetoCount|TBD|UInt64|None|None|
-|TBD|DurationInUs|TBD|UInt64|None|None|
-|TBD|FullChargeCapacity|TBD|UInt32|None|None|
-|TBD|NonActivatedCpuInUs|TBD|UInt64|None|None|
-|TBD|IRTruncatePercentage|TBD|UInt8|None|None|
-|TBD|DesignCapacity|TBD|UInt32|None|None|
-|TBD|AudioDurationInUs|TBD|UInt64|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|DisconnectedStandby|TBD|Boolean|None|None|
-|TBD|AoAcCompliantNic|TBD|Boolean|None|None|
+|TBD|EnergyDrain|UInt32|None|`None`|
+|TBD|DripsResidencyInUs|UInt64|None|`None`|
+|TBD|OnAc|Boolean|None|`None`|
+|TBD|HwDripsResidencyInUs|UInt64|None|`None`|
+|TBD|PreVetoCount|UInt64|None|`None`|
+|TBD|VetoCount|UInt64|None|`None`|
+|TBD|DurationInUs|UInt64|None|`None`|
+|TBD|FullChargeCapacity|UInt32|None|`None`|
+|TBD|NonActivatedCpuInUs|UInt64|None|`None`|
+|TBD|IRTruncatePercentage|UInt8|None|`None`|
+|TBD|DesignCapacity|UInt32|None|`None`|
+|TBD|AudioDurationInUs|UInt64|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|DisconnectedStandby|Boolean|None|`None`|
+|TBD|AoAcCompliantNic|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

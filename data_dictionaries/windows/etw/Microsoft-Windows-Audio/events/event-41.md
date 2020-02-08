@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCAudioBasePin|TBD|Pointer|None|None|
-|TBD|GlitchStreamPosition|TBD|UInt64|None|None|
-|TBD|GlitchDuration|TBD|UInt32|None|None|
+|TBD|pCAudioBasePin|Pointer|None|`None`|
+|TBD|GlitchStreamPosition|UInt64|None|`None`|
+|TBD|GlitchDuration|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

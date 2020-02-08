@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ImgCacheEntry|TBD|Pointer|None|None|
-|TBD|DestLeft|TBD|Float|None|None|
-|TBD|DestTop|TBD|Float|None|None|
-|TBD|DestRight|TBD|Float|None|None|
-|TBD|DestBottom|TBD|Float|None|None|
-|TBD|ScaledSizeWidth|TBD|Float|None|None|
-|TBD|ScaledSizeHeight|TBD|Float|None|None|
-|TBD|TranslateX|TBD|Float|None|None|
-|TBD|TranslateY|TBD|Float|None|None|
-|TBD|Opacity|TBD|Float|None|None|
-|TBD|Tiled|TBD|UInt32|None|None|
-|TBD|UnscaledSizeWidth|TBD|UInt32|None|None|
-|TBD|UnscaledSizeHeight|TBD|UInt32|None|None|
+|TBD|ImgCacheEntry|Pointer|None|`None`|
+|TBD|DestLeft|Float|None|`None`|
+|TBD|DestTop|Float|None|`None`|
+|TBD|DestRight|Float|None|`None`|
+|TBD|DestBottom|Float|None|`None`|
+|TBD|ScaledSizeWidth|Float|None|`None`|
+|TBD|ScaledSizeHeight|Float|None|`None`|
+|TBD|TranslateX|Float|None|`None`|
+|TBD|TranslateY|Float|None|`None`|
+|TBD|Opacity|Float|None|`None`|
+|TBD|Tiled|UInt32|None|`None`|
+|TBD|UnscaledSizeWidth|UInt32|None|`None`|
+|TBD|UnscaledSizeHeight|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

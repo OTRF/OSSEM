@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|QPCnow_us|TBD|Int64|None|None|
-|TBD|ClockTime0_us|TBD|Int64|None|None|
-|TBD|QPC0_us|TBD|Int64|None|None|
-|TBD|ApproxClockJitter_us|TBD|Int64|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|QPCnow_us|Int64|None|`None`|
+|TBD|ClockTime0_us|Int64|None|`None`|
+|TBD|QPC0_us|Int64|None|`None`|
+|TBD|ApproxClockJitter_us|Int64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MemAvail|TBD|UInt32|None|None|
-|TBD|MemTreshold|TBD|UInt32|None|None|
-|TBD|IsLow|TBD|Boolean|None|None|
+|TBD|MemAvail|UInt32|None|`None`|
+|TBD|MemTreshold|UInt32|None|`None`|
+|TBD|IsLow|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

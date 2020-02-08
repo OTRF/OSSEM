@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|dwFlags|TBD|UInt32|None|None|
-|TBD|ui32EndpointRole|TBD|UInt32|None|None|
-|TBD|eCategory|TBD|UInt32|None|None|
-|TBD|bIsLowLatency|TBD|Boolean|None|None|
-|TBD|bBufferDurationSpecified|TBD|Boolean|None|None|
-|TBD|hnsBufferDuration|TBD|Int64|None|None|
-|TBD|bOnlyAudio|TBD|Boolean|None|None|
-|TBD|bDisableOffload|TBD|Boolean|None|None|
-|TBD|bNonSeekableStream|TBD|Boolean|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|dwFlags|UInt32|None|`None`|
+|TBD|ui32EndpointRole|UInt32|None|`None`|
+|TBD|eCategory|UInt32|None|`None`|
+|TBD|bIsLowLatency|Boolean|None|`None`|
+|TBD|bBufferDurationSpecified|Boolean|None|`None`|
+|TBD|hnsBufferDuration|Int64|None|`None`|
+|TBD|bOnlyAudio|Boolean|None|`None`|
+|TBD|bDisableOffload|Boolean|None|`None`|
+|TBD|bNonSeekableStream|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

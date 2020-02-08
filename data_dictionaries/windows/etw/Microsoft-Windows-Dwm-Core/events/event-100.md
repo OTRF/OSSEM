@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|logicalSurfaceImagePointer|TBD|UInt64|None|None|
-|TBD|hDxSharedSurface|TBD|UInt64|None|None|
-|TBD|windowNodePointer|TBD|UInt64|None|None|
-|TBD|windowNodeParentPointer|TBD|UInt64|None|None|
-|TBD|logicalSurfaceImageLHandle|TBD|UInt64|None|None|
+|TBD|logicalSurfaceImagePointer|UInt64|None|`None`|
+|TBD|hDxSharedSurface|UInt64|None|`None`|
+|TBD|windowNodePointer|UInt64|None|`None`|
+|TBD|windowNodeParentPointer|UInt64|None|`None`|
+|TBD|logicalSurfaceImageLHandle|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HCClientAddress|TBD|UnicodeString|None|None|
-|TBD|CurrentUploads|TBD|UInt32|None|None|
-|TBD|MaxUploads|TBD|UInt32|None|None|
+|TBD|HCClientAddress|UnicodeString|None|`None`|
+|TBD|CurrentUploads|UInt32|None|`None`|
+|TBD|MaxUploads|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

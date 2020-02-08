@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ChainingCountRequests|TBD|UInt32|None|None|
-|TBD|ChainLoggingRate|TBD|UInt32|None|None|
-|TBD|ChainingCountSuccess|TBD|UInt32|None|None|
-|TBD|ChainingCountFailure|TBD|UInt32|None|None|
+|TBD|ChainingCountRequests|UInt32|None|`None`|
+|TBD|ChainLoggingRate|UInt32|None|`None`|
+|TBD|ChainingCountSuccess|UInt32|None|`None`|
+|TBD|ChainingCountFailure|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Method|TBD|UnicodeString|None|None|
-|TBD|Win32Error|TBD|UInt32|None|None|
-|TBD|HRESULT|TBD|HexInt32|None|None|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|Details|TBD|UnicodeString|None|None|
+|TBD|Method|UnicodeString|None|`None`|
+|TBD|Win32Error|UInt32|None|`None`|
+|TBD|HRESULT|HexInt32|None|`None`|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|Details|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

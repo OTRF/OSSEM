@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectionObj|TBD|Pointer|None|None|
-|TBD|LocalAddrLength|TBD|UInt32|None|None|
-|TBD|LocalAddr|TBD|Binary|None|None|
-|TBD|RemoteAddrLength|TBD|UInt32|None|None|
-|TBD|RemoteAddr|TBD|Binary|None|None|
+|TBD|ConnectionObj|Pointer|None|`None`|
+|TBD|LocalAddrLength|UInt32|None|`None`|
+|TBD|LocalAddr|Binary|None|`None`|
+|TBD|RemoteAddrLength|UInt32|None|`None`|
+|TBD|RemoteAddr|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

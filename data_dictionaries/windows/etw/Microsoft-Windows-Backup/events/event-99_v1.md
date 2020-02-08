@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|TemplateGuid|TBD|GUID|None|None|
-|TBD|ScheduleTimesList|TBD|UnicodeString|None|None|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|TemplateGuid|GUID|None|`None`|
+|TBD|ScheduleTimesList|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

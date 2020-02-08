@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCAudioCapturePinStandardStreaming|TBD|Pointer|None|None|
-|TBD|StreamPosition|TBD|UInt64|None|None|
-|TBD|FrameCount|TBD|UInt32|None|None|
+|TBD|pCAudioCapturePinStandardStreaming|Pointer|None|`None`|
+|TBD|StreamPosition|UInt64|None|`None`|
+|TBD|FrameCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FromStatus|TBD|UInt32|None|None|
-|TBD|ToStatus|TBD|UInt32|None|None|
-|TBD|CDMTouchTargetHandler|TBD|Pointer|None|None|
+|TBD|FromStatus|UInt32|None|`None`|
+|TBD|ToStatus|UInt32|None|`None`|
+|TBD|CDMTouchTargetHandler|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

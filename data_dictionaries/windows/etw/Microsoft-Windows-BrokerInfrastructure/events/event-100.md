@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ElapsedTime|TBD|UInt32|None|None|
-|TBD|TaskThrottleCount|TBD|UInt32|None|None|
-|TBD|EventType|TBD|UInt32|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|EntryPoint|TBD|UnicodeString|None|None|
+|TBD|ElapsedTime|UInt32|None|`None`|
+|TBD|TaskThrottleCount|UInt32|None|`None`|
+|TBD|EventType|UInt32|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|EntryPoint|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

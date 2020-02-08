@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hVidmmGlobalAlloc|TBD|Pointer|None|None|
-|TBD|OldOwnerPid|TBD|UInt32|None|None|
-|TBD|NewOwnerPid|TBD|UInt32|None|None|
+|TBD|hVidmmGlobalAlloc|Pointer|None|`None`|
+|TBD|OldOwnerPid|UInt32|None|`None`|
+|TBD|NewOwnerPid|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

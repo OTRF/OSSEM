@@ -6,32 +6,32 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionId|TBD|UInt64|None|None|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|TreeId|TBD|UInt32|None|None|
-|TBD|MessageId|TBD|UInt64|None|None|
-|TBD|MasterMessageId|TBD|UInt64|None|None|
-|TBD|Command|TBD|UInt16|None|None|
-|TBD|CreditsRequested|TBD|UInt16|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|SecurityFlags|TBD|UInt8|None|None|
-|TBD|RequestedOplockLevel|TBD|UInt8|None|None|
-|TBD|ImpersonationLevel|TBD|UInt32|None|None|
-|TBD|CreateFlags|TBD|UInt64|None|None|
-|TBD|RootDirectoryFid|TBD|UInt64|None|None|
-|TBD|DesiredAccess|TBD|Int32|None|None|
-|TBD|FileAttributes|TBD|Int32|None|None|
-|TBD|ShareAccess|TBD|Int32|None|None|
-|TBD|CreateDisposition|TBD|Int32|None|None|
-|TBD|CreateOptions|TBD|Int32|None|None|
-|TBD|NameLength|TBD|UInt16|None|None|
-|TBD|FileName|TBD|UnicodeString|None|None|
-|TBD|CreateContextsCount|TBD|UInt32|None|None|
-|TBD|LeaseKey|TBD|GUID|None|None|
-|TBD|LeaseLevel|TBD|UInt32|None|None|
-|TBD|ConnectionGUID|TBD|GUID|None|None|
-|TBD|SessionGUID|TBD|GUID|None|None|
-|TBD|TreeConnectGUID|TBD|GUID|None|None|
+|TBD|SessionId|UInt64|None|`None`|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|TreeId|UInt32|None|`None`|
+|TBD|MessageId|UInt64|None|`None`|
+|TBD|MasterMessageId|UInt64|None|`None`|
+|TBD|Command|UInt16|None|`None`|
+|TBD|CreditsRequested|UInt16|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|SecurityFlags|UInt8|None|`None`|
+|TBD|RequestedOplockLevel|UInt8|None|`None`|
+|TBD|ImpersonationLevel|UInt32|None|`None`|
+|TBD|CreateFlags|UInt64|None|`None`|
+|TBD|RootDirectoryFid|UInt64|None|`None`|
+|TBD|DesiredAccess|Int32|None|`None`|
+|TBD|FileAttributes|Int32|None|`None`|
+|TBD|ShareAccess|Int32|None|`None`|
+|TBD|CreateDisposition|Int32|None|`None`|
+|TBD|CreateOptions|Int32|None|`None`|
+|TBD|NameLength|UInt16|None|`None`|
+|TBD|FileName|UnicodeString|None|`None`|
+|TBD|CreateContextsCount|UInt32|None|`None`|
+|TBD|LeaseKey|GUID|None|`None`|
+|TBD|LeaseLevel|UInt32|None|`None`|
+|TBD|ConnectionGUID|GUID|None|`None`|
+|TBD|SessionGUID|GUID|None|`None`|
+|TBD|TreeConnectGUID|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

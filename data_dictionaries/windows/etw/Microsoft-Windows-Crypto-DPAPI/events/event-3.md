@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MasterKeyGUID|TBD|GUID|None|None|
-|TBD|Success|TBD|Boolean|None|None|
-|TBD|LastError|TBD|HexInt32|None|None|
-|TBD|MasterKeyDisposition|TBD|HexInt32|None|None|
+|TBD|MasterKeyGUID|GUID|None|`None`|
+|TBD|Success|Boolean|None|`None`|
+|TBD|LastError|HexInt32|None|`None`|
+|TBD|MasterKeyDisposition|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

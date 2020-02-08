@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|msg|TBD|UInt32|None|None|
-|TBD|lParam|TBD|Pointer|None|None|
-|TBD|IsOnEditField|TBD|Boolean|None|None|
-|TBD|EventOriginProcess|TBD|UInt32|None|None|
-|TBD|OrginType|TBD|UInt32|None|None|
+|TBD|msg|UInt32|None|`None`|
+|TBD|lParam|Pointer|None|`None`|
+|TBD|IsOnEditField|Boolean|None|`None`|
+|TBD|EventOriginProcess|UInt32|None|`None`|
+|TBD|OrginType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

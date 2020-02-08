@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PortId|TBD|UInt32|None|None|
-|TBD|WinError|TBD|UInt32|None|None|
-|TBD|ReasonCode|TBD|UInt32|None|None|
-|TBD|EAPMethodType|TBD|UInt8|None|None|
-|TBD|RootCauseString|TBD|UnicodeString|None|None|
+|TBD|PortId|UInt32|None|`None`|
+|TBD|WinError|UInt32|None|`None`|
+|TBD|ReasonCode|UInt32|None|`None`|
+|TBD|EAPMethodType|UInt8|None|`None`|
+|TBD|RootCauseString|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

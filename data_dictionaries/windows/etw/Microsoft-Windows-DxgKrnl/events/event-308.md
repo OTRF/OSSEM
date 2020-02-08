@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|hDmaBuffer|TBD|Pointer|None|None|
-|TBD|ContinueNextBuffer|TBD|Boolean|None|None|
-|TBD|hAllocationGlobalHandle|TBD|Pointer|None|None|
-|TBD|SegmentId|TBD|UInt32|None|None|
-|TBD|SegmentAddress|TBD|UInt64|None|None|
-|TBD|VirtualAddress|TBD|Pointer|None|None|
-|TBD|GpuVirtualAddress|TBD|UInt64|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|hDmaBuffer|Pointer|None|`None`|
+|TBD|ContinueNextBuffer|Boolean|None|`None`|
+|TBD|hAllocationGlobalHandle|Pointer|None|`None`|
+|TBD|SegmentId|UInt32|None|`None`|
+|TBD|SegmentAddress|UInt64|None|`None`|
+|TBD|VirtualAddress|Pointer|None|`None`|
+|TBD|GpuVirtualAddress|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

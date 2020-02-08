@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CPUUtilization|TBD|UInt32|None|None|
-|TBD|DiskUtilization|TBD|UInt32|None|None|
-|TBD|GPUUtilization|TBD|UInt32|None|None|
-|TBD|AvailableMemory|TBD|UInt32|None|None|
-|TBD|ModifiedMemory|TBD|UInt32|None|None|
-|TBD|OkToPrelaunch|TBD|Boolean|None|None|
+|TBD|CPUUtilization|UInt32|None|`None`|
+|TBD|DiskUtilization|UInt32|None|`None`|
+|TBD|GPUUtilization|UInt32|None|`None`|
+|TBD|AvailableMemory|UInt32|None|`None`|
+|TBD|ModifiedMemory|UInt32|None|`None`|
+|TBD|OkToPrelaunch|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

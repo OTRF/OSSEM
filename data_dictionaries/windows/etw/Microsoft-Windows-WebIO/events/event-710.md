@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Connection|TBD|Pointer|None|None|
-|TBD|SslIOContext|TBD|Pointer|None|None|
-|TBD|DataChunks|TBD|Pointer|None|None|
-|TBD|RequestDisconnect|TBD|Boolean|None|None|
-|TBD|Error|TBD|UInt32|None|None|
+|TBD|Connection|Pointer|None|`None`|
+|TBD|SslIOContext|Pointer|None|`None`|
+|TBD|DataChunks|Pointer|None|`None`|
+|TBD|RequestDisconnect|Boolean|None|`None`|
+|TBD|Error|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

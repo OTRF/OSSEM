@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|APOCLSID|TBD|GUID|None|None|
-|TBD|AudioSignalProcessingMode|TBD|GUID|None|None|
-|TBD|InitializeForDiscoveryOnly|TBD|Boolean|None|None|
+|TBD|APOCLSID|GUID|None|`None`|
+|TBD|AudioSignalProcessingMode|GUID|None|`None`|
+|TBD|InitializeForDiscoveryOnly|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

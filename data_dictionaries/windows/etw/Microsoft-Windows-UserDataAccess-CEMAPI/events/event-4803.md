@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_Hex_UInt32|TBD|UInt32|None|None|
+|TBD|Prop_Hex_UInt32|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

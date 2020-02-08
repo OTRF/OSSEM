@@ -7,19 +7,19 @@ Domain controllers cache information from recently received tickets. If the serv
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_reporter_sid|SubjectUserSid|TBD|string|SID of account that that reported information about the replay.|S-1-5-18|
-|user_reporter_name|SubjectUserName|TBD|string|the name of the account that reported information about the replay.|DC01$|
-|user_reporter_domain|SubjectDomainName|TBD|string|subject’s domain or computer name.|CONTOSO|
-|user_reporter_id|SubjectLogonId|TBD|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID.|0x3e7|
-|user_name|TargetUserName|TBD|string|the name of the account whose credential were replayed.|DC02$|
-|user_domain|TargetDomainName|TBD|string|the domain of the account whose credential were replayed.|CONTOSO.LOCAL|
-|logon_process_name|LogonProcessName|TBD|string|The name of the trusted logon process that was used for the replay.|Kerberos|
-|logon_authentication_package_name|AuthenticationPackageName|TBD|string|The name of the authentication package which was used for the Kerberos.|Kerberos|
-|src_host_name|WorkstationName|TBD|string|machine name from which attempt was performed. May not exist.|-|
-|logon_transmitted_services|TransmittedServices|TBD|string|the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user – most commonly done by a front-end website to access an internal resource on behalf of a user.|-|
-|ticket_request_type|RequestType|TBD|string|The type of request.|KRB_AP_REQ|
-|process_id|ProcessId|TBD|string|hexadecimal Process ID of the process.|0xb9adc08|
-|process_path|ProcessName|TBD|string|full path and the name of the executable for the process.|C:\Windows\System32\dns.exe|
+|user_reporter_sid|SubjectUserSid|string|SID of account that that reported information about the replay.|`S-1-5-18`|
+|user_reporter_name|SubjectUserName|string|the name of the account that reported information about the replay.|`DC01$`|
+|user_reporter_domain|SubjectDomainName|string|subject’s domain or computer name.|`CONTOSO`|
+|user_reporter_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID.|`0x3e7`|
+|user_name|TargetUserName|string|the name of the account whose credential were replayed.|`DC02$`|
+|user_domain|TargetDomainName|string|the domain of the account whose credential were replayed.|`CONTOSO.LOCAL`|
+|logon_process_name|LogonProcessName|string|The name of the trusted logon process that was used for the replay.|`Kerberos`|
+|logon_authentication_package_name|AuthenticationPackageName|string|The name of the authentication package which was used for the Kerberos.|`Kerberos`|
+|src_host_name|WorkstationName|string|machine name from which attempt was performed. May not exist.|`-`|
+|logon_transmitted_services|TransmittedServices|string|the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user – most commonly done by a front-end website to access an internal resource on behalf of a user.|`-`|
+|ticket_request_type|RequestType|string|The type of request.|`KRB_AP_REQ`|
+|process_id|ProcessId|string|hexadecimal Process ID of the process.|`0xb9adc08`|
+|process_path|ProcessName|string|full path and the name of the executable for the process.|`C:\Windows\System32\dns.exe`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4649.md)

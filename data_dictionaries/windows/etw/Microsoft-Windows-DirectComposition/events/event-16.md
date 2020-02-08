@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Id|TBD|UInt64|None|None|
-|TBD|Width|TBD|UInt32|None|None|
-|TBD|Height|TBD|UInt32|None|None|
-|TBD|BitDepth|TBD|UInt32|None|None|
-|TBD|IsTexturingAtlas|TBD|Boolean|None|None|
-|TBD|ChannelHandle|TBD|UInt32|None|None|
-|TBD|PixelFormat|TBD|UInt32|None|None|
+|TBD|Id|UInt64|None|`None`|
+|TBD|Width|UInt32|None|`None`|
+|TBD|Height|UInt32|None|`None`|
+|TBD|BitDepth|UInt32|None|`None`|
+|TBD|IsTexturingAtlas|Boolean|None|`None`|
+|TBD|ChannelHandle|UInt32|None|`None`|
+|TBD|PixelFormat|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

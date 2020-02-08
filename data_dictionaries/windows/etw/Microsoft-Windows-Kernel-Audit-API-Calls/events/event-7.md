@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DriverName|TBD|UnicodeString|None|None|
-|TBD|ReturnCode|TBD|UInt32|None|None|
+|TBD|DriverName|UnicodeString|None|`None`|
+|TBD|ReturnCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

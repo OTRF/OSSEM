@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UIDisplayTime|TBD|UInt32|None|None|
-|TBD|UserAction|TBD|Int32|None|None|
-|TBD|MaxCommit|TBD|UInt8|None|None|
+|TBD|UIDisplayTime|UInt32|None|`None`|
+|TBD|UserAction|Int32|None|`None`|
+|TBD|MaxCommit|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

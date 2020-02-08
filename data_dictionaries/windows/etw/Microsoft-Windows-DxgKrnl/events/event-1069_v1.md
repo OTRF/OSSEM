@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pSyncObject|TBD|Pointer|None|None|
-|TBD|KMTHandle|TBD|Pointer|None|None|
-|TBD|pDxgDevice|TBD|Pointer|None|None|
+|TBD|pSyncObject|Pointer|None|`None`|
+|TBD|KMTHandle|Pointer|None|`None`|
+|TBD|pDxgDevice|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

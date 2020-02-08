@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PowerSourceId|TBD|UInt32|None|None|
-|TBD|SourceOnline|TBD|UInt32|None|None|
+|TBD|PowerSourceId|UInt32|None|`None`|
+|TBD|SourceOnline|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

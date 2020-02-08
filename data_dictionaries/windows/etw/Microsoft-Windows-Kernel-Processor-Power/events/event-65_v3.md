@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Group|TBD|UInt16|None|None|
-|TBD|Affinity|TBD|Pointer|None|None|
-|TBD|Parked|TBD|Pointer|None|None|
-|TBD|LpiCap|TBD|UInt8|None|None|
-|TBD|ThermalCap|TBD|UInt8|None|None|
-|TBD|ParkHint|TBD|Pointer|None|None|
-|TBD|SoftParked|TBD|Pointer|None|None|
+|TBD|Group|UInt16|None|`None`|
+|TBD|Affinity|Pointer|None|`None`|
+|TBD|Parked|Pointer|None|`None`|
+|TBD|LpiCap|UInt8|None|`None`|
+|TBD|ThermalCap|UInt8|None|`None`|
+|TBD|ParkHint|Pointer|None|`None`|
+|TBD|SoftParked|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

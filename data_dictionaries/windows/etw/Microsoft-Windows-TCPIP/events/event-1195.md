@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PortAcquirer|TBD|Pointer|None|None|
-|TBD|PortNumber|TBD|UInt16|None|None|
-|TBD|WeakReference|TBD|UInt32|None|None|
-|TBD|OriginalAcquirer|TBD|Pointer|None|None|
+|TBD|PortAcquirer|Pointer|None|`None`|
+|TBD|PortNumber|UInt16|None|`None`|
+|TBD|WeakReference|UInt32|None|`None`|
+|TBD|OriginalAcquirer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

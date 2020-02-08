@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|Succeeded|TBD|Boolean|None|None|
-|TBD|UsedDnsProbe|TBD|Boolean|None|None|
-|TBD|UsedProxy|TBD|Boolean|None|None|
-|TBD|ContentComparison|TBD|Boolean|None|None|
-|TBD|WebCompleted|TBD|Boolean|None|None|
-|TBD|WebRedirected|TBD|Boolean|None|None|
-|TBD|LocalErrorOccured|TBD|Boolean|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|Succeeded|Boolean|None|`None`|
+|TBD|UsedDnsProbe|Boolean|None|`None`|
+|TBD|UsedProxy|Boolean|None|`None`|
+|TBD|ContentComparison|Boolean|None|`None`|
+|TBD|WebCompleted|Boolean|None|`None`|
+|TBD|WebRedirected|Boolean|None|`None`|
+|TBD|LocalErrorOccured|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

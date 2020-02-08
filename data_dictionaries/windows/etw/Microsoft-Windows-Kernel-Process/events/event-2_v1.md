@@ -6,21 +6,21 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessID|TBD|UInt32|None|None|
-|TBD|CreateTime|TBD|FILETIME|None|None|
-|TBD|ExitTime|TBD|FILETIME|None|None|
-|TBD|ExitCode|TBD|UInt32|None|None|
-|TBD|TokenElevationType|TBD|UInt32|None|None|
-|TBD|HandleCount|TBD|UInt32|None|None|
-|TBD|CommitCharge|TBD|UInt64|None|None|
-|TBD|CommitPeak|TBD|UInt64|None|None|
-|TBD|CPUCycleCount|TBD|UInt64|None|None|
-|TBD|ReadOperationCount|TBD|UInt32|None|None|
-|TBD|WriteOperationCount|TBD|UInt32|None|None|
-|TBD|ReadTransferKiloBytes|TBD|UInt32|None|None|
-|TBD|WriteTransferKiloBytes|TBD|UInt32|None|None|
-|TBD|HardFaultCount|TBD|UInt32|None|None|
-|TBD|ImageName|TBD|AnsiString|None|None|
+|TBD|ProcessID|UInt32|None|`None`|
+|TBD|CreateTime|FILETIME|None|`None`|
+|TBD|ExitTime|FILETIME|None|`None`|
+|TBD|ExitCode|UInt32|None|`None`|
+|TBD|TokenElevationType|UInt32|None|`None`|
+|TBD|HandleCount|UInt32|None|`None`|
+|TBD|CommitCharge|UInt64|None|`None`|
+|TBD|CommitPeak|UInt64|None|`None`|
+|TBD|CPUCycleCount|UInt64|None|`None`|
+|TBD|ReadOperationCount|UInt32|None|`None`|
+|TBD|WriteOperationCount|UInt32|None|`None`|
+|TBD|ReadTransferKiloBytes|UInt32|None|`None`|
+|TBD|WriteTransferKiloBytes|UInt32|None|`None`|
+|TBD|HardFaultCount|UInt32|None|`None`|
+|TBD|ImageName|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

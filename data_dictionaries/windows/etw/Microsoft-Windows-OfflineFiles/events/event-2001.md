@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Path|TBD|UnicodeString|None|None|
-|TBD|ClientIsDir|TBD|Boolean|None|None|
-|TBD|ClientChanged|TBD|Boolean|None|None|
-|TBD|ClientIsSparse|TBD|Boolean|None|None|
-|TBD|ClientCreatedOffline|TBD|Boolean|None|None|
-|TBD|ClientDeletedOffline|TBD|Boolean|None|None|
-|TBD|ClientLastWriteTime|TBD|FILETIME|None|None|
-|TBD|ClientChangeTime|TBD|FILETIME|None|None|
-|TBD|ClientAttributes|TBD|UInt32|None|None|
-|TBD|ClientSize|TBD|UInt64|None|None|
-|TBD|ServerDeleted|TBD|Boolean|None|None|
-|TBD|SyncState|TBD|UInt32|None|None|
-|TBD|SyncStateText|TBD|UnicodeString|None|None|
+|TBD|Path|UnicodeString|None|`None`|
+|TBD|ClientIsDir|Boolean|None|`None`|
+|TBD|ClientChanged|Boolean|None|`None`|
+|TBD|ClientIsSparse|Boolean|None|`None`|
+|TBD|ClientCreatedOffline|Boolean|None|`None`|
+|TBD|ClientDeletedOffline|Boolean|None|`None`|
+|TBD|ClientLastWriteTime|FILETIME|None|`None`|
+|TBD|ClientChangeTime|FILETIME|None|`None`|
+|TBD|ClientAttributes|UInt32|None|`None`|
+|TBD|ClientSize|UInt64|None|`None`|
+|TBD|ServerDeleted|Boolean|None|`None`|
+|TBD|SyncState|UInt32|None|`None`|
+|TBD|SyncStateText|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

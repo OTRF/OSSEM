@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pID3D12Device|TBD|Pointer|None|None|
-|TBD|pID3D12CommandRecorder|TBD|Pointer|None|None|
-|TBD|pID3D12CommandList|TBD|Pointer|None|None|
-|TBD|m_hr|TBD|Int32|None|None|
+|TBD|pID3D12Device|Pointer|None|`None`|
+|TBD|pID3D12CommandRecorder|Pointer|None|`None`|
+|TBD|pID3D12CommandList|Pointer|None|`None`|
+|TBD|m_hr|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportContext|TBD|Pointer|None|None|
-|TBD|MaxChunkPrivateDriverDataSize|TBD|UInt32|None|None|
-|TBD|MiracastCaps|TBD|UInt32|None|None|
-|TBD|ReturnStatus|TBD|UInt32|None|None|
+|TBD|MiniportContext|Pointer|None|`None`|
+|TBD|MaxChunkPrivateDriverDataSize|UInt32|None|`None`|
+|TBD|MiracastCaps|UInt32|None|`None`|
+|TBD|ReturnStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

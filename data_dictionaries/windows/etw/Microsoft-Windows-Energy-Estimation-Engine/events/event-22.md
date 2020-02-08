@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BatteryDrain|TBD|UInt64|None|None|
-|TBD|EstimatedEnergy|TBD|UInt64|None|None|
-|TBD|ResidualEnergy|TBD|Int64|None|None|
+|TBD|BatteryDrain|UInt64|None|`None`|
+|TBD|EstimatedEnergy|UInt64|None|`None`|
+|TBD|ResidualEnergy|Int64|None|`None`|
 
 ## Tags
 * etw_level_Informational

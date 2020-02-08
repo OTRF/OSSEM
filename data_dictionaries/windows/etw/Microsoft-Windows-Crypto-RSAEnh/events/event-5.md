@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|UserStoragePath|TBD|UnicodeString|None|None|
-|TBD|FileName|TBD|AnsiString|None|None|
-|TBD|AppContainer|TBD|Boolean|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|ErrorDescription|TBD|UnicodeString|None|None|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|UserStoragePath|UnicodeString|None|`None`|
+|TBD|FileName|AnsiString|None|`None`|
+|TBD|AppContainer|Boolean|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|ErrorDescription|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

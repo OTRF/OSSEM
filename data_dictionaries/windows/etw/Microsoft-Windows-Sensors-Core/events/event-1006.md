@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WdfDevice|TBD|Pointer|None|None|
-|TBD|SENSOROBJECT|TBD|Pointer|None|None|
-|TBD|VendorDefinedSubType|TBD|GUID|None|None|
-|TBD|PersistentUniqueID|TBD|GUID|None|None|
+|TBD|WdfDevice|Pointer|None|`None`|
+|TBD|SENSOROBJECT|Pointer|None|`None`|
+|TBD|VendorDefinedSubType|GUID|None|`None`|
+|TBD|PersistentUniqueID|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

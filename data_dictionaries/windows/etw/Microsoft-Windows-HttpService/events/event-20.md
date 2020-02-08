@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EndpointConfigObj|TBD|Pointer|None|None|
-|TBD|AddressLength|TBD|UInt32|None|None|
-|TBD|Address|TBD|Binary|None|None|
-|TBD|CertHashLength|TBD|UInt32|None|None|
-|TBD|CertHash|TBD|Binary|None|None|
-|TBD|CertStoreName|TBD|UnicodeString|None|None|
-|TBD|CertCheckMode|TBD|UInt32|None|None|
-|TBD|RevokeFreshnessTime|TBD|UInt32|None|None|
-|TBD|RevokeRetrievalTime|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|CtlId|TBD|UnicodeString|None|None|
-|TBD|CtlStoreName|TBD|UnicodeString|None|None|
+|TBD|EndpointConfigObj|Pointer|None|`None`|
+|TBD|AddressLength|UInt32|None|`None`|
+|TBD|Address|Binary|None|`None`|
+|TBD|CertHashLength|UInt32|None|`None`|
+|TBD|CertHash|Binary|None|`None`|
+|TBD|CertStoreName|UnicodeString|None|`None`|
+|TBD|CertCheckMode|UInt32|None|`None`|
+|TBD|RevokeFreshnessTime|UInt32|None|`None`|
+|TBD|RevokeRetrievalTime|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|CtlId|UnicodeString|None|`None`|
+|TBD|CtlStoreName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

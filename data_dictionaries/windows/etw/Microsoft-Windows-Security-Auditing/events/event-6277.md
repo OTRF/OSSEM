@@ -6,36 +6,36 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|TBD|SID|None|None|
-|TBD|SubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectDomainName|TBD|UnicodeString|None|None|
-|TBD|FullyQualifiedSubjectUserName|TBD|UnicodeString|None|None|
-|TBD|SubjectMachineSID|TBD|SID|None|None|
-|TBD|SubjectMachineName|TBD|UnicodeString|None|None|
-|TBD|FullyQualifiedSubjectMachineName|TBD|UnicodeString|None|None|
-|TBD|MachineInventory|TBD|UnicodeString|None|None|
-|TBD|CalledStationID|TBD|UnicodeString|None|None|
-|TBD|CallingStationID|TBD|UnicodeString|None|None|
-|TBD|NASIPv4Address|TBD|UnicodeString|None|None|
-|TBD|NASIPv6Address|TBD|UnicodeString|None|None|
-|TBD|NASIdentifier|TBD|UnicodeString|None|None|
-|TBD|NASPortType|TBD|UnicodeString|None|None|
-|TBD|NASPort|TBD|UnicodeString|None|None|
-|TBD|ClientName|TBD|UnicodeString|None|None|
-|TBD|ClientIPAddress|TBD|UnicodeString|None|None|
-|TBD|ProxyPolicyName|TBD|UnicodeString|None|None|
-|TBD|NetworkPolicyName|TBD|UnicodeString|None|None|
-|TBD|AuthenticationProvider|TBD|UnicodeString|None|None|
-|TBD|AuthenticationServer|TBD|UnicodeString|None|None|
-|TBD|AuthenticationType|TBD|UnicodeString|None|None|
-|TBD|EAPType|TBD|UnicodeString|None|None|
-|TBD|AccountSessionIdentifier|TBD|UnicodeString|None|None|
-|TBD|QuarantineState|TBD|UnicodeString|None|None|
-|TBD|ExtendedQuarantineState|TBD|UnicodeString|None|None|
-|TBD|QuarantineSessionID|TBD|UnicodeString|None|None|
-|TBD|QuarantineHelpURL|TBD|UnicodeString|None|None|
-|TBD|QuarantineSystemHealthResult|TBD|UnicodeString|None|None|
-|TBD|QuarantineGraceTime|TBD|UnicodeString|None|None|
+|TBD|SubjectUserSid|SID|None|`None`|
+|TBD|SubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectDomainName|UnicodeString|None|`None`|
+|TBD|FullyQualifiedSubjectUserName|UnicodeString|None|`None`|
+|TBD|SubjectMachineSID|SID|None|`None`|
+|TBD|SubjectMachineName|UnicodeString|None|`None`|
+|TBD|FullyQualifiedSubjectMachineName|UnicodeString|None|`None`|
+|TBD|MachineInventory|UnicodeString|None|`None`|
+|TBD|CalledStationID|UnicodeString|None|`None`|
+|TBD|CallingStationID|UnicodeString|None|`None`|
+|TBD|NASIPv4Address|UnicodeString|None|`None`|
+|TBD|NASIPv6Address|UnicodeString|None|`None`|
+|TBD|NASIdentifier|UnicodeString|None|`None`|
+|TBD|NASPortType|UnicodeString|None|`None`|
+|TBD|NASPort|UnicodeString|None|`None`|
+|TBD|ClientName|UnicodeString|None|`None`|
+|TBD|ClientIPAddress|UnicodeString|None|`None`|
+|TBD|ProxyPolicyName|UnicodeString|None|`None`|
+|TBD|NetworkPolicyName|UnicodeString|None|`None`|
+|TBD|AuthenticationProvider|UnicodeString|None|`None`|
+|TBD|AuthenticationServer|UnicodeString|None|`None`|
+|TBD|AuthenticationType|UnicodeString|None|`None`|
+|TBD|EAPType|UnicodeString|None|`None`|
+|TBD|AccountSessionIdentifier|UnicodeString|None|`None`|
+|TBD|QuarantineState|UnicodeString|None|`None`|
+|TBD|ExtendedQuarantineState|UnicodeString|None|`None`|
+|TBD|QuarantineSessionID|UnicodeString|None|`None`|
+|TBD|QuarantineHelpURL|UnicodeString|None|`None`|
+|TBD|QuarantineSystemHealthResult|UnicodeString|None|`None`|
+|TBD|QuarantineGraceTime|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

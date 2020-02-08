@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|QueryName|TBD|UnicodeString|None|None|
-|TBD|QueryType|TBD|UInt32|None|None|
-|TBD|NetworkIndex|TBD|UInt32|None|None|
-|TBD|InterfaceIndex|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|QueryResults|TBD|UnicodeString|None|None|
+|TBD|QueryName|UnicodeString|None|`None`|
+|TBD|QueryType|UInt32|None|`None`|
+|TBD|NetworkIndex|UInt32|None|`None`|
+|TBD|InterfaceIndex|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|QueryResults|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

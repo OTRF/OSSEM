@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NotificationRate|TBD|UInt32|None|None|
-|TBD|HighNotificationThreshold|TBD|UInt32|None|None|
-|TBD|IsHigh|TBD|Boolean|None|None|
+|TBD|NotificationRate|UInt32|None|`None`|
+|TBD|HighNotificationThreshold|UInt32|None|`None`|
+|TBD|IsHigh|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

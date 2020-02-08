@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PoFxDeviceHandle|TBD|HexInt64|None|None|
-|TBD|PStateActivePercent|TBD|UInt32|None|None|
-|TBD|PStateActiveDuration|TBD|UInt32|None|None|
-|TBD|PStateSampleDuration|TBD|UInt32|None|None|
-|TBD|PStateCurrentFrequency|TBD|UInt32|None|None|
-|TBD|PStateRequestedFrequency|TBD|UInt32|None|None|
+|TBD|PoFxDeviceHandle|HexInt64|None|`None`|
+|TBD|PStateActivePercent|UInt32|None|`None`|
+|TBD|PStateActiveDuration|UInt32|None|`None`|
+|TBD|PStateSampleDuration|UInt32|None|`None`|
+|TBD|PStateCurrentFrequency|UInt32|None|`None`|
+|TBD|PStateRequestedFrequency|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SequenceNumber|TBD|UInt64|None|None|
-|TBD|ProcessId|TBD|HexInt32|None|None|
-|TBD|ProcessTime|TBD|Int64|None|None|
-|TBD|ThreadId|TBD|HexInt32|None|None|
-|TBD|UserSid|TBD|SID|None|None|
-|TBD|SessionId|TBD|HexInt32|None|None|
-|TBD|TargetProcessId|TBD|HexInt32|None|None|
-|TBD|TargetProcessTime|TBD|Int64|None|None|
-|TBD|TargetProcess|TBD|UnicodeString|None|None|
-|TBD|Access|TBD|HexInt32|None|None|
-|TBD|SourceProcessStartKey|TBD|UInt64|None|None|
-|TBD|TargetProcessStartKey|TBD|UInt64|None|None|
+|TBD|SequenceNumber|UInt64|None|`None`|
+|TBD|ProcessId|HexInt32|None|`None`|
+|TBD|ProcessTime|Int64|None|`None`|
+|TBD|ThreadId|HexInt32|None|`None`|
+|TBD|UserSid|SID|None|`None`|
+|TBD|SessionId|HexInt32|None|`None`|
+|TBD|TargetProcessId|HexInt32|None|`None`|
+|TBD|TargetProcessTime|Int64|None|`None`|
+|TBD|TargetProcess|UnicodeString|None|`None`|
+|TBD|Access|HexInt32|None|`None`|
+|TBD|SourceProcessStartKey|UInt64|None|`None`|
+|TBD|TargetProcessStartKey|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

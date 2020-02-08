@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectionName|TBD|UnicodeString|None|None|
-|TBD|PromptForCredentials|TBD|UInt32|None|None|
-|TBD|PromptForCredentialsDone|TBD|UInt32|None|None|
-|TBD|GfxChannelOpened|TBD|UInt32|None|None|
-|TBD|FirstGraphicsReceived|TBD|UInt32|None|None|
+|TBD|ConnectionName|UnicodeString|None|`None`|
+|TBD|PromptForCredentials|UInt32|None|`None`|
+|TBD|PromptForCredentialsDone|UInt32|None|`None`|
+|TBD|GfxChannelOpened|UInt32|None|`None`|
+|TBD|FirstGraphicsReceived|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

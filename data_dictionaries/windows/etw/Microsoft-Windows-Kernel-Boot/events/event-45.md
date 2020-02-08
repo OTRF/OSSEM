@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CachedCopyStatus|TBD|UInt32|None|None|
-|TBD|IdkGenerationStatus|TBD|UInt32|None|None|
-|TBD|MeasuringStatus|TBD|UInt32|None|None|
-|TBD|SealingAndCachingStatus|TBD|UInt32|None|None|
+|TBD|CachedCopyStatus|UInt32|None|`None`|
+|TBD|IdkGenerationStatus|UInt32|None|`None`|
+|TBD|MeasuringStatus|UInt32|None|`None`|
+|TBD|SealingAndCachingStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

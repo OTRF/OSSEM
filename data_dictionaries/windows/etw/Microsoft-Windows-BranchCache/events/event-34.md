@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ServerDNSName|TBD|UnicodeString|None|None|
-|TBD|SiteName|TBD|UnicodeString|None|None|
-|TBD|ExpiryTime|TBD|SYSTEMTIME|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|ErrorMessage|TBD|UnicodeString|None|None|
+|TBD|ServerDNSName|UnicodeString|None|`None`|
+|TBD|SiteName|UnicodeString|None|`None`|
+|TBD|ExpiryTime|SYSTEMTIME|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|ErrorMessage|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RestoreTime|TBD|FILETIME|None|None|
-|TBD|BackupSetID|TBD|GUID|None|None|
-|TBD|BackupSetTime|TBD|FILETIME|None|None|
-|TBD|RestoreType|TBD|Int32|None|None|
-|TBD|AlternateRestoreTarget|TBD|UnicodeString|None|None|
+|TBD|RestoreTime|FILETIME|None|`None`|
+|TBD|BackupSetID|GUID|None|`None`|
+|TBD|BackupSetTime|FILETIME|None|`None`|
+|TBD|RestoreType|Int32|None|`None`|
+|TBD|AlternateRestoreTarget|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

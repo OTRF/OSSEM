@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransactionId|TBD|GUID|None|None|
-|TBD|Function|TBD|AnsiString|None|None|
-|TBD|CborError|TBD|Int32|None|None|
-|TBD|CborErrorString|TBD|AnsiString|None|None|
-|TBD|ErrorOffset|TBD|UInt32|None|None|
-|TBD|LineNumber|TBD|UInt32|None|None|
-|TBD|EncodedLength|TBD|UInt32|None|None|
-|TBD|Encoded|TBD|Binary|None|None|
+|TBD|TransactionId|GUID|None|`None`|
+|TBD|Function|AnsiString|None|`None`|
+|TBD|CborError|Int32|None|`None`|
+|TBD|CborErrorString|AnsiString|None|`None`|
+|TBD|ErrorOffset|UInt32|None|`None`|
+|TBD|LineNumber|UInt32|None|`None`|
+|TBD|EncodedLength|UInt32|None|`None`|
+|TBD|Encoded|Binary|None|`None`|
 
 ## Tags
 * etw_level_Error

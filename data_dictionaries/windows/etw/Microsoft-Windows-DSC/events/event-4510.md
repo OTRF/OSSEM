@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JobId|TBD|UnicodeString|None|None|
-|TBD|errorno|TBD|UInt32|None|None|
-|TBD|logName|TBD|UnicodeString|None|None|
+|TBD|JobId|UnicodeString|None|`None`|
+|TBD|errorno|UInt32|None|`None`|
+|TBD|logName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

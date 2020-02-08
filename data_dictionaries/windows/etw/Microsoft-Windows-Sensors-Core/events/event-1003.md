@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WdfDevice|TBD|Pointer|None|None|
-|TBD|IsStateChangeSupported|TBD|Boolean|None|None|
+|TBD|WdfDevice|Pointer|None|`None`|
+|TBD|IsStateChangeSupported|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,23 +6,23 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|transferId|TBD|GUID|None|None|
-|TBD|name|TBD|UnicodeString|None|None|
-|TBD|Id|TBD|GUID|None|None|
-|TBD|url|TBD|UnicodeString|None|None|
-|TBD|peer|TBD|UnicodeString|None|None|
-|TBD|hr|TBD|UInt32|None|None|
-|TBD|fileTime|TBD|FILETIME|None|None|
-|TBD|fileLength|TBD|UInt64|None|None|
-|TBD|bytesTotal|TBD|UInt64|None|None|
-|TBD|bytesTransferred|TBD|UInt64|None|None|
-|TBD|proxy|TBD|UnicodeString|None|None|
-|TBD|peerProtocolFlags|TBD|UInt64|None|None|
-|TBD|bytesTransferredFromPeer|TBD|UInt64|None|None|
-|TBD|AdditionalInfoHr|TBD|UInt32|None|None|
-|TBD|PeerContextInfo|TBD|UInt32|None|None|
-|TBD|bandwidthLimit|TBD|UInt64|None|None|
-|TBD|ignoreBandwidthLimitsOnLan|TBD|Boolean|None|None|
+|TBD|transferId|GUID|None|`None`|
+|TBD|name|UnicodeString|None|`None`|
+|TBD|Id|GUID|None|`None`|
+|TBD|url|UnicodeString|None|`None`|
+|TBD|peer|UnicodeString|None|`None`|
+|TBD|hr|UInt32|None|`None`|
+|TBD|fileTime|FILETIME|None|`None`|
+|TBD|fileLength|UInt64|None|`None`|
+|TBD|bytesTotal|UInt64|None|`None`|
+|TBD|bytesTransferred|UInt64|None|`None`|
+|TBD|proxy|UnicodeString|None|`None`|
+|TBD|peerProtocolFlags|UInt64|None|`None`|
+|TBD|bytesTransferredFromPeer|UInt64|None|`None`|
+|TBD|AdditionalInfoHr|UInt32|None|`None`|
+|TBD|PeerContextInfo|UInt32|None|`None`|
+|TBD|bandwidthLimit|UInt64|None|`None`|
+|TBD|ignoreBandwidthLimitsOnLan|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Warning

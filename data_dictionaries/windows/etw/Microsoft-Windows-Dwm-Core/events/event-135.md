@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|expectedFramePresentTime|TBD|UInt64|None|None|
-|TBD|animationPointer|TBD|UInt64|None|None|
-|TBD|resourcePointer|TBD|UInt64|None|None|
-|TBD|propertyId|TBD|UInt32|None|None|
-|TBD|propertyValue|TBD|Float|None|None|
+|TBD|expectedFramePresentTime|UInt64|None|`None`|
+|TBD|animationPointer|UInt64|None|`None`|
+|TBD|resourcePointer|UInt64|None|`None`|
+|TBD|propertyId|UInt32|None|`None`|
+|TBD|propertyValue|Float|None|`None`|
 
 ## Tags
 * etw_level_Verbose

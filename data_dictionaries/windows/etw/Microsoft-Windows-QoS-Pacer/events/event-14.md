@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FlowSendQueueEvent|TBD|UInt32|None|None|
-|TBD|CurrentTime|TBD|UInt64|None|None|
-|TBD|IdleTime|TBD|UInt64|None|None|
-|TBD|DelayTime|TBD|UInt64|None|None|
-|TBD|BytesRequested|TBD|UInt32|None|None|
-|TBD|BytesSent|TBD|UInt32|None|None|
-|TBD|BytesQueued|TBD|UInt32|None|None|
+|TBD|FlowSendQueueEvent|UInt32|None|`None`|
+|TBD|CurrentTime|UInt64|None|`None`|
+|TBD|IdleTime|UInt64|None|`None`|
+|TBD|DelayTime|UInt64|None|`None`|
+|TBD|BytesRequested|UInt32|None|`None`|
+|TBD|BytesSent|UInt32|None|`None`|
+|TBD|BytesQueued|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

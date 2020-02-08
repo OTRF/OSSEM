@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ImageUrl|TBD|UnicodeString|None|None|
-|TBD|ImageType|TBD|UInt32|None|None|
-|TBD|DIType|TBD|UInt32|None|None|
-|TBD|DIConfidence|TBD|UInt32|None|None|
-|TBD|TileSize|TBD|UInt32|None|None|
+|TBD|ImageUrl|UnicodeString|None|`None`|
+|TBD|ImageType|UInt32|None|`None`|
+|TBD|DIType|UInt32|None|`None`|
+|TBD|DIConfidence|UInt32|None|`None`|
+|TBD|TileSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapChain|TBD|Pointer|None|None|
-|TBD|ReturnValue|TBD|UInt32|None|None|
-|TBD|NewWindowed|TBD|Boolean|None|None|
-|TBD|pNewOutput|TBD|Pointer|None|None|
-|TBD|pNewPrimary|TBD|Pointer|None|None|
-|TBD|pNewProxyPrimary|TBD|Pointer|None|None|
-|TBD|NewWinFlipProxyBufferCount|TBD|UInt8|None|None|
-|TBD|NewSwapEffect|TBD|UInt32|None|None|
+|TBD|pIDXGISwapChain|Pointer|None|`None`|
+|TBD|ReturnValue|UInt32|None|`None`|
+|TBD|NewWindowed|Boolean|None|`None`|
+|TBD|pNewOutput|Pointer|None|`None`|
+|TBD|pNewPrimary|Pointer|None|`None`|
+|TBD|pNewProxyPrimary|Pointer|None|`None`|
+|TBD|NewWinFlipProxyBufferCount|UInt8|None|`None`|
+|TBD|NewSwapEffect|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

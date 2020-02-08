@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionID|TBD|UInt32|None|None|
+|TBD|SessionID|UInt32|None|`None`|
 
 ## Tags
 * etw_opcode_Stop

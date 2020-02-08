@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DriverName|TBD|UnicodeString|None|None|
-|TBD|InfPath|TBD|UnicodeString|None|None|
-|TBD|RequiredClassDriver|TBD|UnicodeString|None|None|
-|TBD|HResult|TBD|HexInt32|None|None|
+|TBD|DriverName|UnicodeString|None|`None`|
+|TBD|InfPath|UnicodeString|None|`None`|
+|TBD|RequiredClassDriver|UnicodeString|None|`None`|
+|TBD|HResult|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

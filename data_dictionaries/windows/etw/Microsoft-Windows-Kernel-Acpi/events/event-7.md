@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AmlMethodNameLength|TBD|UInt16|None|None|
-|TBD|AmlMethodName|TBD|UnicodeString|None|None|
-|TBD|AmlMethodState|TBD|UInt16|None|None|
-|TBD|AmlElapsedTime|TBD|UInt64|None|None|
+|TBD|AmlMethodNameLength|UInt16|None|`None`|
+|TBD|AmlMethodName|UnicodeString|None|`None`|
+|TBD|AmlMethodState|UInt16|None|`None`|
+|TBD|AmlElapsedTime|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

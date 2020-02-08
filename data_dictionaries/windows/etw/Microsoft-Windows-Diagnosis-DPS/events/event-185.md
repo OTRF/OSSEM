@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DiagnosticModuleImageName|TBD|UnicodeString|None|None|
-|TBD|DiagnosticModuleId|TBD|GUID|None|None|
-|TBD|StatusCode|TBD|Int32|None|None|
+|TBD|DiagnosticModuleImageName|UnicodeString|None|`None`|
+|TBD|DiagnosticModuleId|GUID|None|`None`|
+|TBD|StatusCode|Int32|None|`None`|
 
 ## Tags
 * etw_level_Warning

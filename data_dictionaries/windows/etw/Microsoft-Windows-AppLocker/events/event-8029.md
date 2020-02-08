@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FilePathLength|TBD|UInt16|None|None|
-|TBD|FilePath|TBD|UnicodeString|None|None|
-|TBD|Sha1Hash|TBD|Binary|None|None|
-|TBD|Sha256Hash|TBD|Binary|None|None|
-|TBD|Result|TBD|Int32|None|None|
-|TBD|USN|TBD|Int64|None|None|
-|TBD|Sha1CatalogHash|TBD|Binary|None|None|
-|TBD|Sha256CatalogHash|TBD|Binary|None|None|
-|TBD|UserWriteable|TBD|Boolean|None|None|
+|TBD|FilePathLength|UInt16|None|`None`|
+|TBD|FilePath|UnicodeString|None|`None`|
+|TBD|Sha1Hash|Binary|None|`None`|
+|TBD|Sha256Hash|Binary|None|`None`|
+|TBD|Result|Int32|None|`None`|
+|TBD|USN|Int64|None|`None`|
+|TBD|Sha1CatalogHash|Binary|None|`None`|
+|TBD|Sha256CatalogHash|Binary|None|`None`|
+|TBD|UserWriteable|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Error

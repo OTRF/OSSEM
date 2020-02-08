@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionKey|TBD|HexInt64|None|None|
-|TBD|StreamingDataSourcePrefetchCanceled|TBD|Boolean|None|None|
+|TBD|SessionKey|HexInt64|None|`None`|
+|TBD|StreamingDataSourcePrefetchCanceled|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Verbose

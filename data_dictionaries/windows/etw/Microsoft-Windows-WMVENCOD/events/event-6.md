@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NumberOfReencode|TBD|Int32|None|None|
-|TBD|SampleTime|TBD|Int64|None|None|
-|TBD|EncoderInstance|TBD|Pointer|None|None|
+|TBD|NumberOfReencode|Int32|None|`None`|
+|TBD|SampleTime|Int64|None|`None`|
+|TBD|EncoderInstance|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Id|TBD|GUID|None|None|
-|TBD|DriveManufacturer|TBD|UnicodeString|None|None|
-|TBD|DriveModel|TBD|UnicodeString|None|None|
-|TBD|DriveSerial|TBD|UnicodeString|None|None|
-|TBD|EnclosureManufacturer|TBD|UnicodeString|None|None|
-|TBD|EnclosureModel|TBD|UnicodeString|None|None|
-|TBD|EnclosureSerial|TBD|UnicodeString|None|None|
-|TBD|Slot|TBD|Int32|None|None|
+|TBD|Id|GUID|None|`None`|
+|TBD|DriveManufacturer|UnicodeString|None|`None`|
+|TBD|DriveModel|UnicodeString|None|`None`|
+|TBD|DriveSerial|UnicodeString|None|`None`|
+|TBD|EnclosureManufacturer|UnicodeString|None|`None`|
+|TBD|EnclosureModel|UnicodeString|None|`None`|
+|TBD|EnclosureSerial|UnicodeString|None|`None`|
+|TBD|Slot|Int32|None|`None`|
 
 ## Tags
 * etw_level_Warning

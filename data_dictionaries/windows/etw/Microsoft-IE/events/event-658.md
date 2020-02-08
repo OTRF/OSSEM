@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CView|TBD|Pointer|None|None|
-|TBD|VisualViewportWidth|TBD|Int32|None|None|
-|TBD|VisualViewportHeight|TBD|Int32|None|None|
-|TBD|LayoutViewportWidth|TBD|Int32|None|None|
-|TBD|LayoutViewportHeight|TBD|Int32|None|None|
-|TBD|BaseOpticalZoom|TBD|Float|None|None|
-|TBD|IsClamping|TBD|Boolean|None|None|
-|TBD|HasAtViewportRule|TBD|Boolean|None|None|
-|TBD|HasDeviceWidthOrHeight|TBD|Boolean|None|None|
-|TBD|ViewportControllerEnabled|TBD|Boolean|None|None|
-|TBD|HasHorizontalScrollbar|TBD|Boolean|None|None|
-|TBD|HasVerticalScrollbar|TBD|Boolean|None|None|
-|TBD|UpdateUnitInfoZoomOnly|TBD|Boolean|None|None|
+|TBD|CView|Pointer|None|`None`|
+|TBD|VisualViewportWidth|Int32|None|`None`|
+|TBD|VisualViewportHeight|Int32|None|`None`|
+|TBD|LayoutViewportWidth|Int32|None|`None`|
+|TBD|LayoutViewportHeight|Int32|None|`None`|
+|TBD|BaseOpticalZoom|Float|None|`None`|
+|TBD|IsClamping|Boolean|None|`None`|
+|TBD|HasAtViewportRule|Boolean|None|`None`|
+|TBD|HasDeviceWidthOrHeight|Boolean|None|`None`|
+|TBD|ViewportControllerEnabled|Boolean|None|`None`|
+|TBD|HasHorizontalScrollbar|Boolean|None|`None`|
+|TBD|HasVerticalScrollbar|Boolean|None|`None`|
+|TBD|UpdateUnitInfoZoomOnly|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

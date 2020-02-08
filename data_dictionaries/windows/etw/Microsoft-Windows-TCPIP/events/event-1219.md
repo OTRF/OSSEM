@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Epoch|TBD|UInt32|None|None|
-|TBD|LowNppEventState|TBD|UInt32|None|None|
-|TBD|HighNppEventState|TBD|UInt32|None|None|
-|TBD|EpochStartTick|TBD|UInt64|None|None|
-|TBD|EpochStopTick|TBD|UInt64|None|None|
-|TBD|OldSynDropRate|TBD|UInt32|None|None|
-|TBD|NewSynDropRate|TBD|UInt32|None|None|
-|TBD|OldTcbAbortionRate|TBD|UInt32|None|None|
-|TBD|NewTcbAbortionRate|TBD|UInt32|None|None|
-|TBD|CurrentWatermark|TBD|UInt32|None|None|
+|TBD|Epoch|UInt32|None|`None`|
+|TBD|LowNppEventState|UInt32|None|`None`|
+|TBD|HighNppEventState|UInt32|None|`None`|
+|TBD|EpochStartTick|UInt64|None|`None`|
+|TBD|EpochStopTick|UInt64|None|`None`|
+|TBD|OldSynDropRate|UInt32|None|`None`|
+|TBD|NewSynDropRate|UInt32|None|`None`|
+|TBD|OldTcbAbortionRate|UInt32|None|`None`|
+|TBD|NewTcbAbortionRate|UInt32|None|`None`|
+|TBD|CurrentWatermark|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

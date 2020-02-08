@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fSucceeded|TBD|UInt32|None|None|
-|TBD|nrOfAttempts|TBD|UInt32|None|None|
-|TBD|driverUpdateStatus|TBD|UInt32|None|None|
+|TBD|fSucceeded|UInt32|None|`None`|
+|TBD|nrOfAttempts|UInt32|None|`None`|
+|TBD|driverUpdateStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCryptoSession|TBD|Pointer|None|None|
+|TBD|pCryptoSession|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

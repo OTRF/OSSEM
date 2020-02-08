@@ -6,27 +6,27 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SleepTime|TBD|FILETIME|None|None|
-|TBD|WakeTime|TBD|FILETIME|None|None|
-|TBD|SleepDuration|TBD|UInt32|None|None|
-|TBD|WakeDuration|TBD|UInt32|None|None|
-|TBD|DriverInitDuration|TBD|UInt32|None|None|
-|TBD|BiosInitDuration|TBD|UInt32|None|None|
-|TBD|HiberWriteDuration|TBD|UInt32|None|None|
-|TBD|HiberReadDuration|TBD|UInt32|None|None|
-|TBD|HiberPagesWritten|TBD|UInt32|None|None|
-|TBD|Attributes|TBD|UInt32|None|None|
-|TBD|TargetState|TBD|UInt32|None|None|
-|TBD|EffectiveState|TBD|UInt32|None|None|
-|TBD|WakeSourceType|TBD|UInt32|None|None|
-|TBD|WakeSourceTextLength|TBD|UInt16|None|None|
-|TBD|WakeSourceText|TBD|UnicodeString|None|None|
-|TBD|WakeTimerOwnerLength|TBD|UInt16|None|None|
-|TBD|WakeTimerContextLength|TBD|UInt16|None|None|
-|TBD|NoMultiStageResumeReason|TBD|UInt32|None|None|
-|TBD|WakeTimerOwner|TBD|UnicodeString|None|None|
-|TBD|WakeTimerContext|TBD|UnicodeString|None|None|
-|TBD|CheckpointDuration|TBD|UInt32|None|None|
+|TBD|SleepTime|FILETIME|None|`None`|
+|TBD|WakeTime|FILETIME|None|`None`|
+|TBD|SleepDuration|UInt32|None|`None`|
+|TBD|WakeDuration|UInt32|None|`None`|
+|TBD|DriverInitDuration|UInt32|None|`None`|
+|TBD|BiosInitDuration|UInt32|None|`None`|
+|TBD|HiberWriteDuration|UInt32|None|`None`|
+|TBD|HiberReadDuration|UInt32|None|`None`|
+|TBD|HiberPagesWritten|UInt32|None|`None`|
+|TBD|Attributes|UInt32|None|`None`|
+|TBD|TargetState|UInt32|None|`None`|
+|TBD|EffectiveState|UInt32|None|`None`|
+|TBD|WakeSourceType|UInt32|None|`None`|
+|TBD|WakeSourceTextLength|UInt16|None|`None`|
+|TBD|WakeSourceText|UnicodeString|None|`None`|
+|TBD|WakeTimerOwnerLength|UInt16|None|`None`|
+|TBD|WakeTimerContextLength|UInt16|None|`None`|
+|TBD|NoMultiStageResumeReason|UInt32|None|`None`|
+|TBD|WakeTimerOwner|UnicodeString|None|`None`|
+|TBD|WakeTimerContext|UnicodeString|None|`None`|
+|TBD|CheckpointDuration|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

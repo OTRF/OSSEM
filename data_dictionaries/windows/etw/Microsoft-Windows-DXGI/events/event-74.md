@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pIDXGISwapchain|TBD|Pointer|None|None|
-|TBD|m_pPreferredOutput|TBD|Pointer|None|None|
-|TBD|NewSyncInterval|TBD|UInt32|None|None|
+|TBD|pIDXGISwapchain|Pointer|None|`None`|
+|TBD|m_pPreferredOutput|Pointer|None|`None`|
+|TBD|NewSyncInterval|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

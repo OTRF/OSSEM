@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CsSessionId|TBD|UInt8|None|None|
-|TBD|Suspended|TBD|Boolean|None|None|
-|TBD|Result|TBD|UInt32|None|None|
-|TBD|DurationMs|TBD|UInt64|None|None|
+|TBD|CsSessionId|UInt8|None|`None`|
+|TBD|Suspended|Boolean|None|`None`|
+|TBD|Result|UInt32|None|`None`|
+|TBD|DurationMs|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

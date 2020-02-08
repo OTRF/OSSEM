@@ -6,5 +6,5 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsolatedName|TBD|String|None|None|
-|TBD|ClientNetworkAddress|TBD|String|None|None|
+|TBD|IsolatedName|String|None|`None`|
+|TBD|ClientNetworkAddress|String|None|`None`|

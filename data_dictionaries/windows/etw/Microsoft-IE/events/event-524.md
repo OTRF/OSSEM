@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AnimationInstanceObject|TBD|Pointer|None|None|
+|TBD|AnimationInstanceObject|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

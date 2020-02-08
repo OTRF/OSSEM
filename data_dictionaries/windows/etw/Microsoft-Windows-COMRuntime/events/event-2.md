@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|CallTimeMs|TBD|UInt32|None|None|
-|TBD|CallResult|TBD|UInt32|None|None|
-|TBD|TargetThreadId|TBD|UInt32|None|None|
-|TBD|TargetProcessId|TBD|UInt32|None|None|
-|TBD|TargetMethod|TBD|UInt32|None|None|
-|TBD|TargetInterface|TBD|GUID|None|None|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|CallTimeMs|UInt32|None|`None`|
+|TBD|CallResult|UInt32|None|`None`|
+|TBD|TargetThreadId|UInt32|None|`None`|
+|TBD|TargetProcessId|UInt32|None|`None`|
+|TBD|TargetMethod|UInt32|None|`None`|
+|TBD|TargetInterface|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

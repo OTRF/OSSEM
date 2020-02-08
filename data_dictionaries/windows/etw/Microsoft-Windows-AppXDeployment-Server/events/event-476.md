@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RequestCount|TBD|UInt32|None|None|
-|TBD|QueueLength|TBD|UInt32|None|None|
-|TBD|LazyFlushQueueLength|TBD|UInt32|None|None|
-|TBD|IdleTaskInProgress|TBD|UInt32|None|None|
+|TBD|RequestCount|UInt32|None|`None`|
+|TBD|QueueLength|UInt32|None|`None`|
+|TBD|LazyFlushQueueLength|UInt32|None|`None`|
+|TBD|IdleTaskInProgress|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

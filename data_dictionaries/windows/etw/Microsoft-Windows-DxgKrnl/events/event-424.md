@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|hHwQueue|TBD|Pointer|None|None|
-|TBD|ParentDxgHwQueue|TBD|Pointer|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|hHwQueue|Pointer|None|`None`|
+|TBD|ParentDxgHwQueue|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

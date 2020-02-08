@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SourceProcessor|TBD|Int32|None|None|
-|TBD|TargetProcessor|TBD|Int32|None|None|
-|TBD|Delta|TBD|Int64|None|None|
-|TBD|Bias|TBD|Int64|None|None|
-|TBD|Wave|TBD|UInt32|None|None|
+|TBD|SourceProcessor|Int32|None|`None`|
+|TBD|TargetProcessor|Int32|None|`None`|
+|TBD|Delta|Int64|None|`None`|
+|TBD|Bias|Int64|None|`None`|
+|TBD|Wave|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

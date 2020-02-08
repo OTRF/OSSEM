@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|bExclusiveModeStream|TBD|Boolean|None|None|
-|TBD|bOffloadStream|TBD|Boolean|None|None|
+|TBD|bExclusiveModeStream|Boolean|None|`None`|
+|TBD|bOffloadStream|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

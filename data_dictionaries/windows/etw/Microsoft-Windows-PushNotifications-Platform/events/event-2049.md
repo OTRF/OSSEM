@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AppUserModelID|TBD|UnicodeString|None|None|
-|TBD|NotificationType|TBD|UInt32|None|None|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|HttpStatusCode|TBD|UInt32|None|None|
+|TBD|AppUserModelID|UnicodeString|None|`None`|
+|TBD|NotificationType|UInt32|None|`None`|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|HttpStatusCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

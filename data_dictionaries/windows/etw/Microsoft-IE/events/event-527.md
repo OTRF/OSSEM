@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|EventType|TBD|UnicodeString|None|None|
-|TBD|EventParam|TBD|Pointer|None|None|
-|TBD|EventTarget|TBD|Pointer|None|None|
-|TBD|PropagationStatus|TBD|UInt32|None|None|
+|TBD|EventType|UnicodeString|None|`None`|
+|TBD|EventParam|Pointer|None|`None`|
+|TBD|EventTarget|Pointer|None|`None`|
+|TBD|PropagationStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

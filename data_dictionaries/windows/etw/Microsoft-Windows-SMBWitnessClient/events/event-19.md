@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NetName|TBD|UnicodeString|None|None|
-|TBD|WitnessServerIP|TBD|UnicodeString|None|None|
+|TBD|NetName|UnicodeString|None|`None`|
+|TBD|WitnessServerIP|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

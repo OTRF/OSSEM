@@ -6,10 +6,10 @@ This event is generated when an authenticated user who is not allowed to log on 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_domain|AccountDomain|TBD|string|SID of account that requested the "invoke screensaver" operation|CONTOSO|
-|user_name|AccountName|TBD|string|the name of the account that requested the "invoke screensaver" operation.|dadmin|
-|user_logon_id|LogonID|TBD|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|0x109d9755e|
-|src_ip_addr|ClientAddress|TBD|integer|IP address of the computer from which the session was disconnected|10.10.10.10|
+|user_domain|AccountDomain|string|SID of account that requested the "invoke screensaver" operation|`CONTOSO`|
+|user_name|AccountName|string|the name of the account that requested the "invoke screensaver" operation.|`dadmin`|
+|user_logon_id|LogonID|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x109d9755e`|
+|src_ip_addr|ClientAddress|integer|IP address of the computer from which the session was disconnected|`10.10.10.10`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4825.md)

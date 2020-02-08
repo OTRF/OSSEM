@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ModuleID|TBD|UInt64|None|None|
-|TBD|AssemblyID|TBD|UInt64|None|None|
-|TBD|ModuleFlags|TBD|UInt32|None|None|
-|TBD|Reserved1|TBD|UInt32|None|None|
-|TBD|ModuleILPath|TBD|UnicodeString|None|None|
-|TBD|ModuleNativePath|TBD|UnicodeString|None|None|
+|TBD|ModuleID|UInt64|None|`None`|
+|TBD|AssemblyID|UInt64|None|`None`|
+|TBD|ModuleFlags|UInt32|None|`None`|
+|TBD|Reserved1|UInt32|None|`None`|
+|TBD|ModuleILPath|UnicodeString|None|`None`|
+|TBD|ModuleNativePath|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

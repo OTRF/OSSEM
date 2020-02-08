@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DnsSuffix|TBD|UnicodeString|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|RetrievedDomain|TBD|UnicodeString|None|None|
-|TBD|RetrievedForest|TBD|UnicodeString|None|None|
+|TBD|DnsSuffix|UnicodeString|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|RetrievedDomain|UnicodeString|None|`None`|
+|TBD|RetrievedForest|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

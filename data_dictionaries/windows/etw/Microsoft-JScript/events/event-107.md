@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MemoryAddress|TBD|Pointer|None|None|
-|TBD|BlockSize|TBD|UInt32|None|None|
-|TBD|ObjectSize|TBD|UInt32|None|None|
+|TBD|MemoryAddress|Pointer|None|`None`|
+|TBD|BlockSize|UInt32|None|`None`|
+|TBD|ObjectSize|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

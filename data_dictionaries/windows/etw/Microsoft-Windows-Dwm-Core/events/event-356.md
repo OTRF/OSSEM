@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCompilationTask|TBD|Pointer|None|None|
-|TBD|SubmitterID|TBD|Int32|None|None|
-|TBD|GraphNodes|TBD|AnsiString|None|None|
-|TBD|NodeCount|TBD|Int32|None|None|
-|TBD|SubgraphCount|TBD|Int32|None|None|
-|TBD|FoundInCache|TBD|Boolean|None|None|
+|TBD|pCompilationTask|Pointer|None|`None`|
+|TBD|SubmitterID|Int32|None|`None`|
+|TBD|GraphNodes|AnsiString|None|`None`|
+|TBD|NodeCount|Int32|None|`None`|
+|TBD|SubgraphCount|Int32|None|`None`|
+|TBD|FoundInCache|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Event_DUID|TBD|GUID|None|None|
-|TBD|Event_Partnership|TBD|GUID|None|None|
-|TBD|Event_Code|TBD|UInt8|None|None|
-|TBD|Event_Time|TBD|FILETIME|None|None|
+|TBD|Event_DUID|GUID|None|`None`|
+|TBD|Event_Partnership|GUID|None|`None`|
+|TBD|Event_Code|UInt8|None|`None`|
+|TBD|Event_Time|FILETIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

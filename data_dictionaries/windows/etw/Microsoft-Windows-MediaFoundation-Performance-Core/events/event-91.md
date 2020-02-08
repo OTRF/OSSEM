@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|StartOffset|TBD|Int64|None|None|
-|TBD|mftStartOffset|TBD|Int64|None|None|
-|TBD|bResetGapAndStallHandling|TBD|Boolean|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|StartOffset|Int64|None|`None`|
+|TBD|mftStartOffset|Int64|None|`None`|
+|TBD|bResetGapAndStallHandling|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

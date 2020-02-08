@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RootCauseID|TBD|UnicodeString|None|None|
-|TBD|RootCauseName|TBD|UnicodeString|None|None|
-|TBD|RootCauseDescription|TBD|UnicodeString|None|None|
+|TBD|RootCauseID|UnicodeString|None|`None`|
+|TBD|RootCauseName|UnicodeString|None|`None`|
+|TBD|RootCauseDescription|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

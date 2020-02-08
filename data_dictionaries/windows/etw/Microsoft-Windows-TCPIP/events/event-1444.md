@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SourceAddressLength|TBD|UInt32|None|None|
-|TBD|SourceAddress|TBD|Binary|None|None|
-|TBD|IfIndex|TBD|UInt32|None|None|
-|TBD|CompartmentId|TBD|UInt32|None|None|
-|TBD|OldDadState|TBD|UInt32|None|None|
-|TBD|NewDadState|TBD|UInt32|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
+|TBD|SourceAddressLength|UInt32|None|`None`|
+|TBD|SourceAddress|Binary|None|`None`|
+|TBD|IfIndex|UInt32|None|`None`|
+|TBD|CompartmentId|UInt32|None|`None`|
+|TBD|OldDadState|UInt32|None|`None`|
+|TBD|NewDadState|UInt32|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

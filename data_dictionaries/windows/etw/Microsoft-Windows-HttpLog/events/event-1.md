@@ -6,32 +6,32 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ServerSessionId|TBD|UInt64|None|None|
-|TBD|UrlGroupId|TBD|UInt64|None|None|
-|TBD|UrlContext|TBD|UInt64|None|None|
-|TBD|DateTime|TBD|FILETIME|None|None|
-|TBD|RemoteAddrLength|TBD|UInt32|None|None|
-|TBD|RemoteAddr|TBD|Binary|None|None|
-|TBD|LocalAddrLength|TBD|UInt32|None|None|
-|TBD|LocalAddr|TBD|Binary|None|None|
-|TBD|KernelCached|TBD|UInt32|None|None|
-|TBD|HttpMajorVer|TBD|UInt16|None|None|
-|TBD|HttpMinorVer|TBD|UInt16|None|None|
-|TBD|BytesSent|TBD|UInt64|None|None|
-|TBD|BytesReceived|TBD|UInt64|None|None|
-|TBD|TimeTaken|TBD|UInt64|None|None|
-|TBD|UserName|TBD|UnicodeString|None|None|
-|TBD|Method|TBD|AnsiString|None|None|
-|TBD|UriStem|TBD|UnicodeString|None|None|
-|TBD|UriQuery|TBD|AnsiString|None|None|
-|TBD|ProtocolStatus|TBD|UInt16|None|None|
-|TBD|ProtocolSubStatus|TBD|UInt16|None|None|
-|TBD|Win32Status|TBD|UInt32|None|None|
-|TBD|Host|TBD|AnsiString|None|None|
-|TBD|UserAgent|TBD|AnsiString|None|None|
-|TBD|Cookie|TBD|AnsiString|None|None|
-|TBD|Referer|TBD|AnsiString|None|None|
-|TBD|AppContext|TBD|AnsiString|None|None|
+|TBD|ServerSessionId|UInt64|None|`None`|
+|TBD|UrlGroupId|UInt64|None|`None`|
+|TBD|UrlContext|UInt64|None|`None`|
+|TBD|DateTime|FILETIME|None|`None`|
+|TBD|RemoteAddrLength|UInt32|None|`None`|
+|TBD|RemoteAddr|Binary|None|`None`|
+|TBD|LocalAddrLength|UInt32|None|`None`|
+|TBD|LocalAddr|Binary|None|`None`|
+|TBD|KernelCached|UInt32|None|`None`|
+|TBD|HttpMajorVer|UInt16|None|`None`|
+|TBD|HttpMinorVer|UInt16|None|`None`|
+|TBD|BytesSent|UInt64|None|`None`|
+|TBD|BytesReceived|UInt64|None|`None`|
+|TBD|TimeTaken|UInt64|None|`None`|
+|TBD|UserName|UnicodeString|None|`None`|
+|TBD|Method|AnsiString|None|`None`|
+|TBD|UriStem|UnicodeString|None|`None`|
+|TBD|UriQuery|AnsiString|None|`None`|
+|TBD|ProtocolStatus|UInt16|None|`None`|
+|TBD|ProtocolSubStatus|UInt16|None|`None`|
+|TBD|Win32Status|UInt32|None|`None`|
+|TBD|Host|AnsiString|None|`None`|
+|TBD|UserAgent|AnsiString|None|`None`|
+|TBD|Cookie|AnsiString|None|`None`|
+|TBD|Referer|AnsiString|None|`None`|
+|TBD|AppContext|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

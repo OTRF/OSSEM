@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UIPI_Trace_Header|TBD|UInt8|None|None|
-|TBD|ClipFormat|TBD|UInt32|None|None|
-|TBD|ClipIL|TBD|UInt32|None|None|
-|TBD|ClipLBN|TBD|UInt32|None|None|
+|TBD|UIPI_Trace_Header|UInt8|None|`None`|
+|TBD|ClipFormat|UInt32|None|`None`|
+|TBD|ClipIL|UInt32|None|`None`|
+|TBD|ClipLBN|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Resource|TBD|UnicodeString|None|None|
-|TBD|ResourceId|TBD|UInt32|None|None|
-|TBD|BusyPercentage|TBD|UInt32|None|None|
-|TBD|LastIdleTime|TBD|Int64|None|None|
-|TBD|LastTotalTime|TBD|Int64|None|None|
-|TBD|CurrentIdleTime|TBD|Int64|None|None|
-|TBD|CurrentTotalTime|TBD|Int64|None|None|
+|TBD|Resource|UnicodeString|None|`None`|
+|TBD|ResourceId|UInt32|None|`None`|
+|TBD|BusyPercentage|UInt32|None|`None`|
+|TBD|LastIdleTime|Int64|None|`None`|
+|TBD|LastTotalTime|Int64|None|`None`|
+|TBD|CurrentIdleTime|Int64|None|`None`|
+|TBD|CurrentTotalTime|Int64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

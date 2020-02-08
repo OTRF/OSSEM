@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WdfDevice|TBD|Pointer|None|None|
-|TBD|SENSOROBJECT|TBD|Pointer|None|None|
-|TBD|Type|TBD|GUID|None|None|
-|TBD|Category|TBD|GUID|None|None|
-|TBD|SubType|TBD|GUID|None|None|
-|TBD|PeristentUniqueId|TBD|GUID|None|None|
-|TBD|Name|TBD|UnicodeString|None|None|
-|TBD|Model|TBD|UnicodeString|None|None|
-|TBD|Manufacturer|TBD|UnicodeString|None|None|
+|TBD|WdfDevice|Pointer|None|`None`|
+|TBD|SENSOROBJECT|Pointer|None|`None`|
+|TBD|Type|GUID|None|`None`|
+|TBD|Category|GUID|None|`None`|
+|TBD|SubType|GUID|None|`None`|
+|TBD|PeristentUniqueId|GUID|None|`None`|
+|TBD|Name|UnicodeString|None|`None`|
+|TBD|Model|UnicodeString|None|`None`|
+|TBD|Manufacturer|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

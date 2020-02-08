@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NotificationType|TBD|UInt32|None|None|
-|TBD|ChannelId|TBD|UnicodeString|None|None|
-|TBD|AppUserModelId|TBD|UnicodeString|None|None|
-|TBD|TrackingId|TBD|UInt32|None|None|
-|TBD|MessageId|TBD|UInt64|None|None|
-|TBD|Timestamp|TBD|Double|None|None|
-|TBD|Expiry|TBD|Double|None|None|
-|TBD|Tag|TBD|UnicodeString|None|None|
-|TBD|Group|TBD|UnicodeString|None|None|
-|TBD|Action|TBD|UInt32|None|None|
-|TBD|OfflineCacheCount|TBD|UInt32|None|None|
-|TBD|CacheRollover|TBD|Boolean|None|None|
-|TBD|OfflineBundleId|TBD|UnicodeString|None|None|
+|TBD|NotificationType|UInt32|None|`None`|
+|TBD|ChannelId|UnicodeString|None|`None`|
+|TBD|AppUserModelId|UnicodeString|None|`None`|
+|TBD|TrackingId|UInt32|None|`None`|
+|TBD|MessageId|UInt64|None|`None`|
+|TBD|Timestamp|Double|None|`None`|
+|TBD|Expiry|Double|None|`None`|
+|TBD|Tag|UnicodeString|None|`None`|
+|TBD|Group|UnicodeString|None|`None`|
+|TBD|Action|UInt32|None|`None`|
+|TBD|OfflineCacheCount|UInt32|None|`None`|
+|TBD|CacheRollover|Boolean|None|`None`|
+|TBD|OfflineBundleId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

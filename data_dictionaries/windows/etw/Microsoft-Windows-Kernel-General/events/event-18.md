@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransitionStartTime|TBD|FILETIME|None|None|
-|TBD|CurrentTime|TBD|FILETIME|None|None|
-|TBD|SoftRestartCount|TBD|UInt32|None|None|
+|TBD|TransitionStartTime|FILETIME|None|`None`|
+|TBD|CurrentTime|FILETIME|None|`None`|
+|TBD|SoftRestartCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PrinterName|TBD|UnicodeString|None|None|
-|TBD|PrinterAge|TBD|UInt32|None|None|
-|TBD|ExpiryAge|TBD|UInt32|None|None|
+|TBD|PrinterName|UnicodeString|None|`None`|
+|TBD|PrinterAge|UInt32|None|`None`|
+|TBD|ExpiryAge|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

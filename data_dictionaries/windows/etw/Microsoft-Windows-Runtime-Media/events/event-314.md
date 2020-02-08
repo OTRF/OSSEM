@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MediaCapture|TBD|Pointer|None|None|
-|TBD|ThermalStatus|TBD|UInt32|None|None|
+|TBD|MediaCapture|Pointer|None|`None`|
+|TBD|ThermalStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

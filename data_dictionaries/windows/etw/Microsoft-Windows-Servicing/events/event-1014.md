@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|errorCode|TBD|UnicodeString|None|None|
-|TBD|repaired|TBD|UInt32|None|None|
-|TBD|totalCorruption|TBD|UInt32|None|None|
+|TBD|errorCode|UnicodeString|None|`None`|
+|TBD|repaired|UInt32|None|`None`|
+|TBD|totalCorruption|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|identifier|TBD|UnicodeString|None|None|
-|TBD|releaseType|TBD|UnicodeString|None|None|
-|TBD|initialPackageStateLoc|TBD|UnicodeString|None|None|
-|TBD|initialPackageState|TBD|UnicodeString|None|None|
-|TBD|packageStateLoc|TBD|UnicodeString|None|None|
-|TBD|packageState|TBD|UnicodeString|None|None|
-|TBD|packageAssembly|TBD|UnicodeString|None|None|
-|TBD|client|TBD|UnicodeString|None|None|
-|TBD|supportInformation|TBD|UnicodeString|None|None|
+|TBD|identifier|UnicodeString|None|`None`|
+|TBD|releaseType|UnicodeString|None|`None`|
+|TBD|initialPackageStateLoc|UnicodeString|None|`None`|
+|TBD|initialPackageState|UnicodeString|None|`None`|
+|TBD|packageStateLoc|UnicodeString|None|`None`|
+|TBD|packageState|UnicodeString|None|`None`|
+|TBD|packageAssembly|UnicodeString|None|`None`|
+|TBD|client|UnicodeString|None|`None`|
+|TBD|supportInformation|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Always

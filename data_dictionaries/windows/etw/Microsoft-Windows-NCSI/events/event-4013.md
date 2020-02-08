@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|ForceWeb|TBD|Boolean|None|None|
-|TBD|UseProxyCache|TBD|Boolean|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|ForceWeb|Boolean|None|`None`|
+|TBD|UseProxyCache|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

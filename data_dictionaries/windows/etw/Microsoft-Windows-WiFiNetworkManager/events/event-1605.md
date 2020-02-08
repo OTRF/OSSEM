@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|dwValue1|TBD|UInt32|None|None|
-|TBD|dwValue2|TBD|UInt32|None|None|
-|TBD|dwValue3|TBD|UInt32|None|None|
-|TBD|dwValue4|TBD|UInt32|None|None|
-|TBD|dwValue5|TBD|UInt32|None|None|
-|TBD|Ssid|TBD|AnsiString|None|None|
+|TBD|dwValue1|UInt32|None|`None`|
+|TBD|dwValue2|UInt32|None|`None`|
+|TBD|dwValue3|UInt32|None|`None`|
+|TBD|dwValue4|UInt32|None|`None`|
+|TBD|dwValue5|UInt32|None|`None`|
+|TBD|Ssid|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UcxController|TBD|Pointer|None|None|
-|TBD|fid_HubDevice|TBD|Pointer|None|None|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|DeviceSpeed|TBD|UInt32|None|None|
-|TBD|PortPathDepth|TBD|UInt32|None|None|
-|TBD|PortPath|TBD|UInt32|None|None|
+|TBD|fid_UcxController|Pointer|None|`None`|
+|TBD|fid_HubDevice|Pointer|None|`None`|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|DeviceSpeed|UInt32|None|`None`|
+|TBD|PortPathDepth|UInt32|None|`None`|
+|TBD|PortPath|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

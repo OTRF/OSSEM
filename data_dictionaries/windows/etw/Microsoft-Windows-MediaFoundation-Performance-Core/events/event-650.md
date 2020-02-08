@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|SrcObject|TBD|Pointer|None|None|
-|TBD|SamplesReceived|TBD|Int32|None|None|
-|TBD|LateSamples|TBD|Int64|None|None|
-|TBD|TotalLateTime_ms|TBD|Int64|None|None|
-|TBD|SampleLatency_hns|TBD|Int64|None|None|
-|TBD|SampleTime_hns|TBD|Int64|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|SrcObject|Pointer|None|`None`|
+|TBD|SamplesReceived|Int32|None|`None`|
+|TBD|LateSamples|Int64|None|`None`|
+|TBD|TotalLateTime_ms|Int64|None|`None`|
+|TBD|SampleLatency_hns|Int64|None|`None`|
+|TBD|SampleTime_hns|Int64|None|`None`|
 
 ## Tags
 * etw_level_Informational

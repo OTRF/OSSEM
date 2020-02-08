@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimerScope|TBD|UInt32|None|None|
-|TBD|TimerScopeId|TBD|UInt64|None|None|
-|TBD|WatchdogOperation|TBD|UInt32|None|None|
-|TBD|DurationToCompletionInHns|TBD|UInt64|None|None|
+|TBD|TimerScope|UInt32|None|`None`|
+|TBD|TimerScopeId|UInt64|None|`None`|
+|TBD|WatchdogOperation|UInt32|None|`None`|
+|TBD|DurationToCompletionInHns|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

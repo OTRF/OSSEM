@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ForegroundHwnd|TBD|Pointer|None|None|
-|TBD|fOptedIntoFocusTracking|TBD|Boolean|None|None|
+|TBD|ForegroundHwnd|Pointer|None|`None`|
+|TBD|fOptedIntoFocusTracking|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCAudioCapturePinStandardStreaming|TBD|Pointer|None|None|
-|TBD|ValidPositionEnd|TBD|UInt64|None|None|
-|TBD|ValidPositionStart|TBD|UInt64|None|None|
-|TBD|StreamPosition|TBD|UInt64|None|None|
-|TBD|ValidPosStartMinusStreamPos|TBD|UInt64|None|None|
+|TBD|pCAudioCapturePinStandardStreaming|Pointer|None|`None`|
+|TBD|ValidPositionEnd|UInt64|None|`None`|
+|TBD|ValidPositionStart|UInt64|None|`None`|
+|TBD|StreamPosition|UInt64|None|`None`|
+|TBD|ValidPosStartMinusStreamPos|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

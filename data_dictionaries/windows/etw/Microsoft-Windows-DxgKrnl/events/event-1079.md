@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportDeviceContext|TBD|Pointer|None|None|
-|TBD|RedirectedForIndirectDisplay|TBD|Boolean|None|None|
-|TBD|CertificateType|TBD|UInt32|None|None|
-|TBD|CertificateSize|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|MiniportDeviceContext|Pointer|None|`None`|
+|TBD|RedirectedForIndirectDisplay|Boolean|None|`None`|
+|TBD|CertificateType|UInt32|None|`None`|
+|TBD|CertificateSize|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

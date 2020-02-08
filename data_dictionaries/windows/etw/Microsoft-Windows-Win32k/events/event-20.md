@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|AccruedIdleTime|TBD|UInt32|None|None|
-|TBD|DisplayTimeoutValueMs|TBD|UInt32|None|None|
-|TBD|ScreenSaverTimeoutValueMs|TBD|UInt32|None|None|
-|TBD|DimTimeoutValueMs|TBD|UInt32|None|None|
-|TBD|DimBrightnessValue|TBD|UInt32|None|None|
-|TBD|NormalBrightnessValue|TBD|UInt32|None|None|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|AccruedIdleTime|UInt32|None|`None`|
+|TBD|DisplayTimeoutValueMs|UInt32|None|`None`|
+|TBD|ScreenSaverTimeoutValueMs|UInt32|None|`None`|
+|TBD|DimTimeoutValueMs|UInt32|None|`None`|
+|TBD|DimBrightnessValue|UInt32|None|`None`|
+|TBD|NormalBrightnessValue|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|URL|TBD|AnsiString|None|None|
-|TBD|Verb|TBD|AnsiString|None|None|
-|TBD|RequestHeaders|TBD|AnsiString|None|None|
-|TBD|ResponseHeaders|TBD|AnsiString|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|UsageLogRequestCache|TBD|UInt32|None|None|
+|TBD|URL|AnsiString|None|`None`|
+|TBD|Verb|AnsiString|None|`None`|
+|TBD|RequestHeaders|AnsiString|None|`None`|
+|TBD|ResponseHeaders|AnsiString|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|UsageLogRequestCache|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

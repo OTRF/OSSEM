@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCAudioBasePin|TBD|Pointer|None|None|
-|TBD|LockedDataPointer|TBD|Pointer|None|None|
+|TBD|pCAudioBasePin|Pointer|None|`None`|
+|TBD|LockedDataPointer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

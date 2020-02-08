@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Address|TBD|Pointer|None|None|
-|TBD|AllocationSize|TBD|HexInt32|None|None|
+|TBD|Address|Pointer|None|`None`|
+|TBD|AllocationSize|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TransferSmContext|TBD|Pointer|None|None|
-|TBD|FromState|TBD|HexInt32|None|None|
-|TBD|Event|TBD|HexInt32|None|None|
-|TBD|ToState|TBD|HexInt32|None|None|
+|TBD|TransferSmContext|Pointer|None|`None`|
+|TBD|FromState|HexInt32|None|`None`|
+|TBD|Event|HexInt32|None|`None`|
+|TBD|ToState|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

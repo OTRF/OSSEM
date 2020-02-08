@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Result|TBD|UInt32|None|None|
-|TBD|TotalCmNdisRefCount|TBD|UInt32|None|None|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|PerProcessCmNdisRefCount|TBD|UInt32|None|None|
-|TBD|AppName|TBD|UnicodeString|None|None|
+|TBD|Result|UInt32|None|`None`|
+|TBD|TotalCmNdisRefCount|UInt32|None|`None`|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|PerProcessCmNdisRefCount|UInt32|None|`None`|
+|TBD|AppName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HeterogeneousPolicy|TBD|UInt32|None|None|
-|TBD|HeterogeneousSystemType|TBD|UInt32|None|None|
-|TBD|DefaultPolicy|TBD|UInt32|None|None|
-|TBD|DefaultDynamicPolicy|TBD|UInt32|None|None|
-|TBD|DynamicCpuPolicyMask|TBD|UInt32|None|None|
-|TBD|DynamicCpuPolicyImportant|TBD|UInt32|None|None|
-|TBD|DynamicCpuPolicyImportantShort|TBD|UInt32|None|None|
-|TBD|DynamicCpuPolicyImportantPriority|TBD|UInt32|None|None|
-|TBD|DynamicCpuPolicyExpectedRuntime|TBD|UInt32|None|None|
+|TBD|HeterogeneousPolicy|UInt32|None|`None`|
+|TBD|HeterogeneousSystemType|UInt32|None|`None`|
+|TBD|DefaultPolicy|UInt32|None|`None`|
+|TBD|DefaultDynamicPolicy|UInt32|None|`None`|
+|TBD|DynamicCpuPolicyMask|UInt32|None|`None`|
+|TBD|DynamicCpuPolicyImportant|UInt32|None|`None`|
+|TBD|DynamicCpuPolicyImportantShort|UInt32|None|`None`|
+|TBD|DynamicCpuPolicyImportantPriority|UInt32|None|`None`|
+|TBD|DynamicCpuPolicyExpectedRuntime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|RenderCbSequence|TBD|UInt32|None|None|
-|TBD|DmaSubmissionSequence|TBD|UInt32|None|None|
-|TBD|Precision|TBD|UInt32|None|None|
-|TBD|HistoryBufferSize|TBD|UInt32|None|None|
-|TBD|HistoryBuffer|TBD|UInt8|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|RenderCbSequence|UInt32|None|`None`|
+|TBD|DmaSubmissionSequence|UInt32|None|`None`|
+|TBD|Precision|UInt32|None|`None`|
+|TBD|HistoryBufferSize|UInt32|None|`None`|
+|TBD|HistoryBuffer|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Always

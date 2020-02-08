@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|KeyName|TBD|UnicodeString|None|None|
-|TBD|CertificateType|TBD|UInt32|None|None|
+|TBD|KeyName|UnicodeString|None|`None`|
+|TBD|CertificateType|UInt32|None|`None`|
 
 ## Tags
 * etw_keywords_Internal

@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CMFTAsyncSimpleBase_OutputLock|TBD|Pointer|None|None|
+|TBD|CMFTAsyncSimpleBase_OutputLock|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TotalStoryboardCount|TBD|UInt32|None|None|
-|TBD|IndependentStoryboardCount|TBD|UInt32|None|None|
+|TBD|TotalStoryboardCount|UInt32|None|`None`|
+|TBD|IndependentStoryboardCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterHandle|TBD|Pointer|None|None|
-|TBD|ComponentIndex|TBD|UInt32|None|None|
-|TBD|ComponentType|TBD|UInt32|None|None|
-|TBD|ComponentTypeId|TBD|UInt32|None|None|
-|TBD|NumberOfIdleStates|TBD|UInt32|None|None|
-|TBD|ControlGuid|TBD|GUID|None|None|
-|TBD|Name|TBD|UnicodeString|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|CurrentFState|TBD|UInt32|None|None|
-|TBD|CurrentLatencyTolerance|TBD|UInt64|None|None|
+|TBD|AdapterHandle|Pointer|None|`None`|
+|TBD|ComponentIndex|UInt32|None|`None`|
+|TBD|ComponentType|UInt32|None|`None`|
+|TBD|ComponentTypeId|UInt32|None|`None`|
+|TBD|NumberOfIdleStates|UInt32|None|`None`|
+|TBD|ControlGuid|GUID|None|`None`|
+|TBD|Name|UnicodeString|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|CurrentFState|UInt32|None|`None`|
+|TBD|CurrentLatencyTolerance|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

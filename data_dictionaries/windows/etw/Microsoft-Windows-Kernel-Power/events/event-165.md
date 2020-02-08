@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IdleInformationUpdated|TBD|Boolean|None|None|
-|TBD|TimeoutSource|TBD|UInt32|None|None|
-|TBD|Action|TBD|UInt32|None|None|
-|TBD|MinState|TBD|UInt32|None|None|
-|TBD|Timeout|TBD|UInt32|None|None|
-|TBD|Flags|TBD|UInt32|None|None|
+|TBD|IdleInformationUpdated|Boolean|None|`None`|
+|TBD|TimeoutSource|UInt32|None|`None`|
+|TBD|Action|UInt32|None|`None`|
+|TBD|MinState|UInt32|None|`None`|
+|TBD|Timeout|UInt32|None|`None`|
+|TBD|Flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

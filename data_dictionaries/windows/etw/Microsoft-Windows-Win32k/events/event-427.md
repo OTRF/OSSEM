@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SyscallName|TBD|AnsiString|None|None|
-|TBD|AppContainerSid|TBD|UnicodeString|None|None|
-|TBD|ProcessCommandLine|TBD|UnicodeString|None|None|
-|TBD|FilterSetId|TBD|UInt32|None|None|
+|TBD|SyscallName|AnsiString|None|`None`|
+|TBD|AppContainerSid|UnicodeString|None|`None`|
+|TBD|ProcessCommandLine|UnicodeString|None|`None`|
+|TBD|FilterSetId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

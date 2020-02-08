@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CursorThreadId|TBD|UInt32|None|None|
-|TBD|CursorProcessId|TBD|UInt32|None|None|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|CursorType|TBD|UInt32|None|None|
-|TBD|DisplayTimeMs|TBD|UInt32|None|None|
+|TBD|CursorThreadId|UInt32|None|`None`|
+|TBD|CursorProcessId|UInt32|None|`None`|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|CursorType|UInt32|None|`None`|
+|TBD|DisplayTimeMs|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

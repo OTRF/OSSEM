@@ -6,19 +6,19 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|QueryType|TBD|UInt32|None|None|
-|TBD|QuerySources|TBD|UInt32|None|None|
-|TBD|dwNetworkOut|TBD|UInt32|None|None|
-|TBD|dwNetworksIn|TBD|UInt32|None|None|
-|TBD|dwFlags|TBD|UInt32|None|None|
-|TBD|dwACEnabled|TBD|UInt32|None|None|
-|TBD|ConfScanTO|TBD|UInt32|None|None|
-|TBD|MinLinkQ|TBD|UInt32|None|None|
-|TBD|MinScore|TBD|Float|None|None|
-|TBD|dwScoreWt|TBD|UInt32|None|None|
-|TBD|dwSignalWt|TBD|UInt32|None|None|
-|TBD|OverlapP|TBD|UInt32|None|None|
-|TBD|dwRetries|TBD|UInt32|None|None|
+|TBD|QueryType|UInt32|None|`None`|
+|TBD|QuerySources|UInt32|None|`None`|
+|TBD|dwNetworkOut|UInt32|None|`None`|
+|TBD|dwNetworksIn|UInt32|None|`None`|
+|TBD|dwFlags|UInt32|None|`None`|
+|TBD|dwACEnabled|UInt32|None|`None`|
+|TBD|ConfScanTO|UInt32|None|`None`|
+|TBD|MinLinkQ|UInt32|None|`None`|
+|TBD|MinScore|Float|None|`None`|
+|TBD|dwScoreWt|UInt32|None|`None`|
+|TBD|dwSignalWt|UInt32|None|`None`|
+|TBD|OverlapP|UInt32|None|`None`|
+|TBD|dwRetries|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

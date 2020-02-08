@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_MAUSB_Device_P_Out_Capability_Descriptor|TBD|AnsiString|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_MAUSB_Device_P_Out_Capability_Descriptor|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

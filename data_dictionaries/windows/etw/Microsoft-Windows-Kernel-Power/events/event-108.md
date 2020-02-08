@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CopyBytes|TBD|UInt64|None|None|
-|TBD|ElapsedTime|TBD|UInt32|None|None|
-|TBD|IoTime|TBD|UInt32|None|None|
-|TBD|InitTime|TBD|UInt32|None|None|
-|TBD|CopyTime|TBD|UInt32|None|None|
-|TBD|PagesWritten|TBD|UInt32|None|None|
-|TBD|PagesProcessed|TBD|UInt32|None|None|
-|TBD|DumpCount|TBD|UInt32|None|None|
-|TBD|FileRuns|TBD|UInt32|None|None|
-|TBD|ReadTime|TBD|UInt32|None|None|
-|TBD|ResumeAppTime|TBD|UInt32|None|None|
-|TBD|CompressTime|TBD|UInt32|None|None|
+|TBD|CopyBytes|UInt64|None|`None`|
+|TBD|ElapsedTime|UInt32|None|`None`|
+|TBD|IoTime|UInt32|None|`None`|
+|TBD|InitTime|UInt32|None|`None`|
+|TBD|CopyTime|UInt32|None|`None`|
+|TBD|PagesWritten|UInt32|None|`None`|
+|TBD|PagesProcessed|UInt32|None|`None`|
+|TBD|DumpCount|UInt32|None|`None`|
+|TBD|FileRuns|UInt32|None|`None`|
+|TBD|ReadTime|UInt32|None|`None`|
+|TBD|ResumeAppTime|UInt32|None|`None`|
+|TBD|CompressTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

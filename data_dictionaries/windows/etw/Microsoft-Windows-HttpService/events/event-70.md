@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Bandwidth|TBD|UInt32|None|None|
-|TBD|PeakBandwidth|TBD|UInt32|None|None|
-|TBD|BurstSize|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|Bandwidth|UInt32|None|`None`|
+|TBD|PeakBandwidth|UInt32|None|`None`|
+|TBD|BurstSize|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

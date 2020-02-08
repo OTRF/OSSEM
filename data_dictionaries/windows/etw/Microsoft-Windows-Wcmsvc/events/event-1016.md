@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGUID|TBD|GUID|None|None|
-|TBD|Mediatype|TBD|UInt32|None|None|
-|TBD|ManualConnect|TBD|Boolean|None|None|
-|TBD|ManualFiltercontrol|TBD|UInt32|None|None|
-|TBD|NumManualprofiles|TBD|UInt32|None|None|
-|TBD|ManualProfileNames|TBD|UnicodeString|None|None|
-|TBD|AutoConnect|TBD|Boolean|None|None|
-|TBD|AutoFiltercontrol|TBD|UInt32|None|None|
-|TBD|NumAutoprofiles|TBD|UInt32|None|None|
-|TBD|AutoProfileNames|TBD|UnicodeString|None|None|
-|TBD|Error|TBD|UInt32|None|None|
+|TBD|InterfaceGUID|GUID|None|`None`|
+|TBD|Mediatype|UInt32|None|`None`|
+|TBD|ManualConnect|Boolean|None|`None`|
+|TBD|ManualFiltercontrol|UInt32|None|`None`|
+|TBD|NumManualprofiles|UInt32|None|`None`|
+|TBD|ManualProfileNames|UnicodeString|None|`None`|
+|TBD|AutoConnect|Boolean|None|`None`|
+|TBD|AutoFiltercontrol|UInt32|None|`None`|
+|TBD|NumAutoprofiles|UInt32|None|`None`|
+|TBD|AutoProfileNames|UnicodeString|None|`None`|
+|TBD|Error|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

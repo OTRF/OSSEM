@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SourceFileName|TBD|String|None|None|
-|TBD|SourceFileAlias|TBD|String|None|None|
-|TBD|LineNumber|TBD|UInt32|None|None|
-|TBD|Indent|TBD|UInt32|None|None|
-|TBD|ModuleIndex|TBD|UInt32|None|None|
-|TBD|FunctionName|TBD|String|None|None|
-|TBD|MessageDescription|TBD|String|None|None|
-|TBD|Text|TBD|String|None|None|
+|TBD|SourceFileName|String|None|`None`|
+|TBD|SourceFileAlias|String|None|`None`|
+|TBD|LineNumber|UInt32|None|`None`|
+|TBD|Indent|UInt32|None|`None`|
+|TBD|ModuleIndex|UInt32|None|`None`|
+|TBD|FunctionName|String|None|`None`|
+|TBD|MessageDescription|String|None|`None`|
+|TBD|Text|String|None|`None`|

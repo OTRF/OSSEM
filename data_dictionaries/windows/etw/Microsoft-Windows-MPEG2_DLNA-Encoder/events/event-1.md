@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TotalBytesEncoded|TBD|UInt64|None|None|
-|TBD|VideoFramesReceived|TBD|UInt64|None|None|
-|TBD|VideoFramesEncoded|TBD|UInt64|None|None|
-|TBD|AudioBytesReceived|TBD|UInt64|None|None|
-|TBD|AudioFramesEncoded|TBD|UInt64|None|None|
+|TBD|TotalBytesEncoded|UInt64|None|`None`|
+|TBD|VideoFramesReceived|UInt64|None|`None`|
+|TBD|VideoFramesEncoded|UInt64|None|`None`|
+|TBD|AudioBytesReceived|UInt64|None|`None`|
+|TBD|AudioFramesEncoded|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BandwidthInkbps|TBD|UInt32|None|None|
-|TBD|IsSlowLink|TBD|Boolean|None|None|
-|TBD|ThresholdInkbps|TBD|UInt32|None|None|
-|TBD|PolicyApplicationMode|TBD|UInt32|None|None|
-|TBD|ErrorCode|TBD|UInt32|None|None|
-|TBD|LinkDescription|TBD|UnicodeString|None|None|
+|TBD|BandwidthInkbps|UInt32|None|`None`|
+|TBD|IsSlowLink|Boolean|None|`None`|
+|TBD|ThresholdInkbps|UInt32|None|`None`|
+|TBD|PolicyApplicationMode|UInt32|None|`None`|
+|TBD|ErrorCode|UInt32|None|`None`|
+|TBD|LinkDescription|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

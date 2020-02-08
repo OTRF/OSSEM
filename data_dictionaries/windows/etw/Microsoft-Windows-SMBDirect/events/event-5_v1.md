@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterAlias|TBD|UnicodeString|None|None|
-|TBD|RegistryKeyName|TBD|UnicodeString|None|None|
-|TBD|SettingName|TBD|UnicodeString|None|None|
-|TBD|Value|TBD|UInt32|None|None|
-|TBD|ClosestAdapterSupportedValue|TBD|UInt32|None|None|
+|TBD|AdapterAlias|UnicodeString|None|`None`|
+|TBD|RegistryKeyName|UnicodeString|None|`None`|
+|TBD|SettingName|UnicodeString|None|`None`|
+|TBD|Value|UInt32|None|`None`|
+|TBD|ClosestAdapterSupportedValue|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

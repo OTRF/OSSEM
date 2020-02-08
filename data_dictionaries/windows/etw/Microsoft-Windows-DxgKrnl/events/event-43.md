@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|pDmaBuffer|TBD|Pointer|None|None|
-|TBD|uiNbAllocations|TBD|UInt32|None|None|
-|TBD|Allocations|TBD|Pointer|None|None|
-|TBD|Write|TBD|Boolean|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|pDmaBuffer|Pointer|None|`None`|
+|TBD|uiNbAllocations|UInt32|None|`None`|
+|TBD|Allocations|Pointer|None|`None`|
+|TBD|Write|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

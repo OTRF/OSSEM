@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BugcheckCode|TBD|UInt32|None|None|
-|TBD|BugcheckParameter|TBD|Pointer|None|None|
+|TBD|BugcheckCode|UInt32|None|`None`|
+|TBD|BugcheckParameter|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Critical

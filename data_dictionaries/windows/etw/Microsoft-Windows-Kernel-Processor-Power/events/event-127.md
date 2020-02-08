@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SchedulerDirectedPerfStatesSupported|TBD|Boolean|None|None|
-|TBD|PpmQosEnabled|TBD|Boolean|None|None|
-|TBD|PpmQosDisableReasons|TBD|UInt32|None|None|
+|TBD|SchedulerDirectedPerfStatesSupported|Boolean|None|`None`|
+|TBD|PpmQosEnabled|Boolean|None|`None`|
+|TBD|PpmQosDisableReasons|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

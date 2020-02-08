@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|D3D10Level9Resource|TBD|Pointer|None|None|
-|TBD|m_hDX9Resource|TBD|Pointer|None|None|
-|TBD|Usage|TBD|UInt32|None|None|
+|TBD|D3D10Level9Resource|Pointer|None|`None`|
+|TBD|m_hDX9Resource|Pointer|None|`None`|
+|TBD|Usage|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

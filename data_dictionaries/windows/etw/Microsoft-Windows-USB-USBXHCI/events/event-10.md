@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UcxController|TBD|Pointer|None|None|
-|TBD|fid_UsbTtHubDevice|TBD|Pointer|None|None|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|DeviceSpeed|TBD|UInt32|None|None|
-|TBD|PortPathDepth|TBD|UInt32|None|None|
-|TBD|PortPath|TBD|UInt32|None|None|
-|TBD|fid_SlotId|TBD|UInt32|None|None|
-|TBD|fid_DeviceIsHub|TBD|UInt32|None|None|
-|TBD|fid_NumberOfPorts|TBD|UInt32|None|None|
-|TBD|fid_NumberOfTTs|TBD|UInt32|None|None|
-|TBD|fid_USB_Device_Descriptor|TBD|Float|None|None|
+|TBD|fid_UcxController|Pointer|None|`None`|
+|TBD|fid_UsbTtHubDevice|Pointer|None|`None`|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|DeviceSpeed|UInt32|None|`None`|
+|TBD|PortPathDepth|UInt32|None|`None`|
+|TBD|PortPath|UInt32|None|`None`|
+|TBD|fid_SlotId|UInt32|None|`None`|
+|TBD|fid_DeviceIsHub|UInt32|None|`None`|
+|TBD|fid_NumberOfPorts|UInt32|None|`None`|
+|TBD|fid_NumberOfTTs|UInt32|None|`None`|
+|TBD|fid_USB_Device_Descriptor|Float|None|`None`|
 
 ## Tags
 * etw_level_Informational

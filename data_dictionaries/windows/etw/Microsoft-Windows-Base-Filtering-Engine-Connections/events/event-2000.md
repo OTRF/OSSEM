@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConnectionId|TBD|UInt64|None|None|
-|TBD|MachineAuthenticationMethod|TBD|UInt32|None|None|
-|TBD|RemoteMachineAccount|TBD|UnicodeString|None|None|
-|TBD|UserAuthenticationMethod|TBD|UInt32|None|None|
-|TBD|RemoteUserAcount|TBD|UnicodeString|None|None|
-|TBD|RemoteIPAddress|TBD|UnicodeString|None|None|
-|TBD|LocalIPAddress|TBD|UnicodeString|None|None|
-|TBD|TechnologyProviderKey|TBD|GUID|None|None|
-|TBD|IPsecTrafficMode|TBD|UInt32|None|None|
-|TBD|DHGroup|TBD|UInt32|None|None|
-|TBD|StartTime|TBD|SYSTEMTIME|None|None|
+|TBD|ConnectionId|UInt64|None|`None`|
+|TBD|MachineAuthenticationMethod|UInt32|None|`None`|
+|TBD|RemoteMachineAccount|UnicodeString|None|`None`|
+|TBD|UserAuthenticationMethod|UInt32|None|`None`|
+|TBD|RemoteUserAcount|UnicodeString|None|`None`|
+|TBD|RemoteIPAddress|UnicodeString|None|`None`|
+|TBD|LocalIPAddress|UnicodeString|None|`None`|
+|TBD|TechnologyProviderKey|GUID|None|`None`|
+|TBD|IPsecTrafficMode|UInt32|None|`None`|
+|TBD|DHGroup|UInt32|None|`None`|
+|TBD|StartTime|SYSTEMTIME|None|`None`|
 
 ## Tags
 * etw_level_Informational

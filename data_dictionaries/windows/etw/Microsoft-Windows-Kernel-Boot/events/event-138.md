@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Identifier|TBD|GUID|None|None|
-|TBD|PartitionPageCount|TBD|UInt64|None|None|
-|TBD|AllocatedBlockCount|TBD|UInt64|None|None|
-|TBD|AllocatedRunCount|TBD|UInt64|None|None|
-|TBD|AllocatedPageCount|TBD|UInt64|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|Identifier|GUID|None|`None`|
+|TBD|PartitionPageCount|UInt64|None|`None`|
+|TBD|AllocatedBlockCount|UInt64|None|`None`|
+|TBD|AllocatedRunCount|UInt64|None|`None`|
+|TBD|AllocatedPageCount|UInt64|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

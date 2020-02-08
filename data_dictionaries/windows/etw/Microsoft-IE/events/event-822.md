@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TaskName|TBD|AnsiString|None|None|
-|TBD|ObjectPointer|TBD|Pointer|None|None|
-|TBD|DelayTime|TBD|UInt32|None|None|
+|TBD|TaskName|AnsiString|None|`None`|
+|TBD|ObjectPointer|Pointer|None|`None`|
+|TBD|DelayTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

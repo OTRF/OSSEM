@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Capacity|TBD|UInt32|None|None|
-|TBD|FullChargedCapacity|TBD|UInt32|None|None|
-|TBD|Voltage|TBD|UInt32|None|None|
-|TBD|Rate|TBD|Int32|None|None|
+|TBD|Capacity|UInt32|None|`None`|
+|TBD|FullChargedCapacity|UInt32|None|`None`|
+|TBD|Voltage|UInt32|None|`None`|
+|TBD|Rate|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

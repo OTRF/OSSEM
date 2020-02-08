@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TaskName|TBD|UnicodeString|None|None|
-|TBD|StoppedTaskInstanceId|TBD|GUID|None|None|
-|TBD|NewTaskInstanceId|TBD|GUID|None|None|
+|TBD|TaskName|UnicodeString|None|`None`|
+|TBD|StoppedTaskInstanceId|GUID|None|`None`|
+|TBD|NewTaskInstanceId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Warning

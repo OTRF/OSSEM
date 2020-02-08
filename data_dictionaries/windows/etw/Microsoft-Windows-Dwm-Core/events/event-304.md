@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|vSyncTarget|TBD|UInt32|None|None|
-|TBD|bIsFollowUpPresent|TBD|UInt32|None|None|
-|TBD|flags|TBD|UInt32|None|None|
+|TBD|vSyncTarget|UInt32|None|`None`|
+|TBD|bIsFollowUpPresent|UInt32|None|`None`|
+|TBD|flags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

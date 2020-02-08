@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ACLineStatus|TBD|UInt8|None|None|
-|TBD|BackOffOnBattery|TBD|Boolean|None|None|
-|TBD|IsBackOffNeeded|TBD|Boolean|None|None|
+|TBD|ACLineStatus|UInt8|None|`None`|
+|TBD|BackOffOnBattery|Boolean|None|`None`|
+|TBD|IsBackOffNeeded|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

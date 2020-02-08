@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CorpCheckDisabledReason|TBD|UInt8|None|None|
+|TBD|CorpCheckDisabledReason|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Warning

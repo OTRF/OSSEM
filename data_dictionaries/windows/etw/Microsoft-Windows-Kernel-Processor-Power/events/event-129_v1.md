@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DomainId|TBD|UInt32|None|None|
-|TBD|CoordinationType|TBD|UInt8|None|None|
-|TBD|IdleProcessorsDiscounted|TBD|Boolean|None|None|
-|TBD|SchedulerDirectedTransitionsSupported|TBD|Boolean|None|None|
-|TBD|WorstCaseTransitionLatency|TBD|UInt32|None|None|
-|TBD|WorstCaseTransitionOverhead|TBD|UInt32|None|None|
-|TBD|AffinitizePerfSet|TBD|Boolean|None|None|
+|TBD|DomainId|UInt32|None|`None`|
+|TBD|CoordinationType|UInt8|None|`None`|
+|TBD|IdleProcessorsDiscounted|Boolean|None|`None`|
+|TBD|SchedulerDirectedTransitionsSupported|Boolean|None|`None`|
+|TBD|WorstCaseTransitionLatency|UInt32|None|`None`|
+|TBD|WorstCaseTransitionOverhead|UInt32|None|`None`|
+|TBD|AffinitizePerfSet|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

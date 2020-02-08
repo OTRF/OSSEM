@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkPd|TBD|Pointer|None|None|
-|TBD|SrqDepth|TBD|UInt32|None|None|
-|TBD|MaxReceiveRequestSge|TBD|UInt32|None|None|
-|TBD|NotifyThreshold|TBD|UInt32|None|None|
-|TBD|SrqNotificationContext|TBD|Pointer|None|None|
-|TBD|AffinityMask|TBD|UInt64|None|None|
-|TBD|AffinityGroup|TBD|UInt16|None|None|
-|TBD|RequestContext|TBD|Pointer|None|None|
+|TBD|NdkPd|Pointer|None|`None`|
+|TBD|SrqDepth|UInt32|None|`None`|
+|TBD|MaxReceiveRequestSge|UInt32|None|`None`|
+|TBD|NotifyThreshold|UInt32|None|`None`|
+|TBD|SrqNotificationContext|Pointer|None|`None`|
+|TBD|AffinityMask|UInt64|None|`None`|
+|TBD|AffinityGroup|UInt16|None|`None`|
+|TBD|RequestContext|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

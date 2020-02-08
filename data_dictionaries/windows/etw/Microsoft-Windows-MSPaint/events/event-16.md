@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ShapeDrawMode|TBD|Int32|None|None|
+|TBD|ShapeDrawMode|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

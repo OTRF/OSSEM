@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AllowedMastersList|TBD|UnicodeString|None|None|
-|TBD|AnnounceIntervalMsec|TBD|UInt32|None|None|
-|TBD|DelayPollIntervalMsec|TBD|UInt32|None|None|
-|TBD|IfTstmp|TBD|UInt32|None|None|
-|TBD|BestMasterName|TBD|UnicodeString|None|None|
-|TBD|BMAddress|TBD|UnicodeString|None|None|
-|TBD|BMClockId|TBD|UnicodeString|None|None|
-|TBD|BMPortNum|TBD|UInt32|None|None|
-|TBD|BMLastTimeSampleTickCount|TBD|UInt64|None|None|
-|TBD|ActiveMasterCount|TBD|UInt32|None|None|
-|TBD|MulticastRxEnabled|TBD|UInt32|None|None|
-|TBD|TickCount|TBD|UInt64|None|None|
+|TBD|AllowedMastersList|UnicodeString|None|`None`|
+|TBD|AnnounceIntervalMsec|UInt32|None|`None`|
+|TBD|DelayPollIntervalMsec|UInt32|None|`None`|
+|TBD|IfTstmp|UInt32|None|`None`|
+|TBD|BestMasterName|UnicodeString|None|`None`|
+|TBD|BMAddress|UnicodeString|None|`None`|
+|TBD|BMClockId|UnicodeString|None|`None`|
+|TBD|BMPortNum|UInt32|None|`None`|
+|TBD|BMLastTimeSampleTickCount|UInt64|None|`None`|
+|TBD|ActiveMasterCount|UInt32|None|`None`|
+|TBD|MulticastRxEnabled|UInt32|None|`None`|
+|TBD|TickCount|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

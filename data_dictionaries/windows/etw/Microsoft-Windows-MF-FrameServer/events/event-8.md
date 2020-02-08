@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StreamId|TBD|UInt32|None|None|
-|TBD|TimeStamp|TBD|UInt64|None|None|
-|TBD|Duration|TBD|UInt32|None|None|
-|TBD|MemoryType|TBD|UInt32|None|None|
+|TBD|StreamId|UInt32|None|`None`|
+|TBD|TimeStamp|UInt64|None|`None`|
+|TBD|Duration|UInt32|None|`None`|
+|TBD|MemoryType|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

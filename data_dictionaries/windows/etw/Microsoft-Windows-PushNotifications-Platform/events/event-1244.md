@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HostName|TBD|UnicodeString|None|None|
-|TBD|Port|TBD|UInt16|None|None|
-|TBD|ProxyHostName|TBD|UnicodeString|None|None|
+|TBD|HostName|UnicodeString|None|`None`|
+|TBD|Port|UInt16|None|`None`|
+|TBD|ProxyHostName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

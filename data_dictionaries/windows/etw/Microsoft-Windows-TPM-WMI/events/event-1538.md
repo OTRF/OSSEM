@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HealthAttestationServer|TBD|UnicodeString|None|None|
-|TBD|HResult|TBD|Int32|None|None|
+|TBD|HealthAttestationServer|UnicodeString|None|`None`|
+|TBD|HResult|Int32|None|`None`|
 
 ## Tags
 * etw_level_Warning

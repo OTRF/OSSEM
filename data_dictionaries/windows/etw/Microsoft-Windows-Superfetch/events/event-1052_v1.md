@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BgTaskCountUnrestricted|TBD|UInt8|None|None|
-|TBD|BgTaskCountACOnly|TBD|UInt8|None|None|
+|TBD|BgTaskCountUnrestricted|UInt8|None|`None`|
+|TBD|BgTaskCountACOnly|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

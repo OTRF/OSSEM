@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pCAudioBasePin|TBD|Pointer|None|None|
-|TBD|pLockedDataPointer|TBD|Pointer|None|None|
-|TBD|bLockedEqualsUnrolled|TBD|Boolean|None|None|
+|TBD|pCAudioBasePin|Pointer|None|`None`|
+|TBD|pLockedDataPointer|Pointer|None|`None`|
+|TBD|bLockedEqualsUnrolled|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Verbose

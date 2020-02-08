@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PowerSourceId|TBD|UInt32|None|None|
-|TBD|MaxChargeCurrent|TBD|UInt32|None|None|
-|TBD|PowerSourceInformation|TBD|UInt32|None|None|
-|TBD|PowerSourceStatus|TBD|UInt32|None|None|
-|TBD|ChargerId|TBD|GUID|None|None|
+|TBD|PowerSourceId|UInt32|None|`None`|
+|TBD|MaxChargeCurrent|UInt32|None|`None`|
+|TBD|PowerSourceInformation|UInt32|None|`None`|
+|TBD|PowerSourceStatus|UInt32|None|`None`|
+|TBD|ChargerId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

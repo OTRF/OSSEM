@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ResourceURI|TBD|AnsiString|None|None|
-|TBD|Created|TBD|SYSTEMTIME|None|None|
-|TBD|Expires|TBD|SYSTEMTIME|None|None|
-|TBD|TokenType|TBD|AnsiString|None|None|
-|TBD|AuthRequired|TBD|Int32|None|None|
-|TBD|RequestStatus|TBD|Int32|None|None|
-|TBD|HasFlowUrl|TBD|Boolean|None|None|
-|TBD|HasAuthUrl|TBD|Boolean|None|None|
-|TBD|HasEndAuthUrl|TBD|Boolean|None|None|
+|TBD|ResourceURI|AnsiString|None|`None`|
+|TBD|Created|SYSTEMTIME|None|`None`|
+|TBD|Expires|SYSTEMTIME|None|`None`|
+|TBD|TokenType|AnsiString|None|`None`|
+|TBD|AuthRequired|Int32|None|`None`|
+|TBD|RequestStatus|Int32|None|`None`|
+|TBD|HasFlowUrl|Boolean|None|`None`|
+|TBD|HasAuthUrl|Boolean|None|`None`|
+|TBD|HasEndAuthUrl|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CodingMode|TBD|Int32|None|None|
-|TBD|InterlaceCodingType|TBD|UInt32|None|None|
-|TBD|EncoderInstance|TBD|Pointer|None|None|
+|TBD|CodingMode|Int32|None|`None`|
+|TBD|InterlaceCodingType|UInt32|None|`None`|
+|TBD|EncoderInstance|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Verbose

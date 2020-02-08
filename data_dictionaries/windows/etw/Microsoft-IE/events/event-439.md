@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MediaElementId|TBD|UInt32|None|None|
-|TBD|StartTimeDurationInSecs|TBD|Double|None|None|
-|TBD|EndTimeDurationInSecs|TBD|Double|None|None|
-|TBD|ProgressStartLevelInPercentage|TBD|Int32|None|None|
-|TBD|ProgressEndLevelInPercentage|TBD|Int32|None|None|
+|TBD|MediaElementId|UInt32|None|`None`|
+|TBD|StartTimeDurationInSecs|Double|None|`None`|
+|TBD|EndTimeDurationInSecs|Double|None|`None`|
+|TBD|ProgressStartLevelInPercentage|Int32|None|`None`|
+|TBD|ProgressEndLevelInPercentage|Int32|None|`None`|
 
 ## Tags
 * etw_level_Always

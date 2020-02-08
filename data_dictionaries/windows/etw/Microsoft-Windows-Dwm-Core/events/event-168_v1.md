@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AnimationScenario|TBD|UnicodeString|None|None|
-|TBD|ReferenceCount|TBD|UInt32|None|None|
-|TBD|VSyncs|TBD|UInt32|None|None|
-|TBD|GlitchesRecorded|TBD|UInt32|None|None|
-|TBD|ScenarioIndex|TBD|UInt32|None|None|
-|TBD|UniqueKey|TBD|UInt64|None|None|
+|TBD|AnimationScenario|UnicodeString|None|`None`|
+|TBD|ReferenceCount|UInt32|None|`None`|
+|TBD|VSyncs|UInt32|None|`None`|
+|TBD|GlitchesRecorded|UInt32|None|`None`|
+|TBD|ScenarioIndex|UInt32|None|`None`|
+|TBD|UniqueKey|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

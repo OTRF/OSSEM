@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ManualGestureConfiguration|TBD|UInt32|None|None|
-|TBD|PointerID|TBD|UInt16|None|None|
-|TBD|IsIHTThread|TBD|Boolean|None|None|
-|TBD|CDMScrollableTouchTarget|TBD|Pointer|None|None|
+|TBD|ManualGestureConfiguration|UInt32|None|`None`|
+|TBD|PointerID|UInt16|None|`None`|
+|TBD|IsIHTThread|Boolean|None|`None`|
+|TBD|CDMScrollableTouchTarget|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

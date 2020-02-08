@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdapterIndex|TBD|UInt32|None|None|
-|TBD|ExistingInterfaceIndex|TBD|UInt32|None|None|
-|TBD|ExistingPortNumber|TBD|UInt32|None|None|
-|TBD|ReferenceAdded|TBD|UInt8|None|None|
+|TBD|AdapterIndex|UInt32|None|`None`|
+|TBD|ExistingInterfaceIndex|UInt32|None|`None`|
+|TBD|ExistingPortNumber|UInt32|None|`None`|
+|TBD|ReferenceAdded|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Verbose

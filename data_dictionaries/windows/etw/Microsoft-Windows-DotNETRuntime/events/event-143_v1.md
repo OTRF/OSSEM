@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MethodID|TBD|UInt64|None|None|
-|TBD|ModuleID|TBD|UInt64|None|None|
-|TBD|MethodStartAddress|TBD|UInt64|None|None|
-|TBD|MethodSize|TBD|UInt32|None|None|
-|TBD|MethodToken|TBD|UInt32|None|None|
-|TBD|MethodFlags|TBD|UInt32|None|None|
-|TBD|MethodNamespace|TBD|UnicodeString|None|None|
-|TBD|MethodName|TBD|UnicodeString|None|None|
-|TBD|MethodSignature|TBD|UnicodeString|None|None|
-|TBD|ClrInstanceID|TBD|UInt16|None|None|
+|TBD|MethodID|UInt64|None|`None`|
+|TBD|ModuleID|UInt64|None|`None`|
+|TBD|MethodStartAddress|UInt64|None|`None`|
+|TBD|MethodSize|UInt32|None|`None`|
+|TBD|MethodToken|UInt32|None|`None`|
+|TBD|MethodFlags|UInt32|None|`None`|
+|TBD|MethodNamespace|UnicodeString|None|`None`|
+|TBD|MethodName|UnicodeString|None|`None`|
+|TBD|MethodSignature|UnicodeString|None|`None`|
+|TBD|ClrInstanceID|UInt16|None|`None`|
 
 ## Tags
 * etw_level_Informational

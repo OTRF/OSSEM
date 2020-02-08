@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AdjustmentPPM|TBD|UnicodeString|None|None|
-|TBD|NewClockRate|TBD|UInt64|None|None|
-|TBD|OldClockRate|TBD|UInt64|None|None|
-|TBD|TickCount|TBD|UInt64|None|None|
-|TBD|MinReportedAdjustmentPPM|TBD|UnicodeString|None|None|
+|TBD|AdjustmentPPM|UnicodeString|None|`None`|
+|TBD|NewClockRate|UInt64|None|`None`|
+|TBD|OldClockRate|UInt64|None|`None`|
+|TBD|TickCount|UInt64|None|`None`|
+|TBD|MinReportedAdjustmentPPM|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

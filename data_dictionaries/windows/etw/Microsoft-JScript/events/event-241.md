@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RecyclerID|TBD|Pointer|None|None|
-|TBD|UsedBytes|TBD|UInt64|None|None|
-|TBD|ReservedBytes|TBD|UInt64|None|None|
-|TBD|CommittedBytes|TBD|UInt64|None|None|
-|TBD|NumberOfSegments|TBD|UInt64|None|None|
-|TBD|FromGC|TBD|Boolean|None|None|
+|TBD|RecyclerID|Pointer|None|`None`|
+|TBD|UsedBytes|UInt64|None|`None`|
+|TBD|ReservedBytes|UInt64|None|`None`|
+|TBD|CommittedBytes|UInt64|None|`None`|
+|TBD|NumberOfSegments|UInt64|None|`None`|
+|TBD|FromGC|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

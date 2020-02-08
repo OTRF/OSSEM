@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Group|TBD|UInt16|None|None|
-|TBD|Processors|TBD|Pointer|None|None|
-|TBD|OldPark|TBD|Pointer|None|None|
-|TBD|NewPark|TBD|Pointer|None|None|
-|TBD|OverUtilizedSet|TBD|Pointer|None|None|
-|TBD|IsolatedCores|TBD|Pointer|None|None|
-|TBD|IdealUnparked|TBD|UInt8|None|None|
-|TBD|UnparkCount|TBD|UInt8|None|None|
-|TBD|ParkReason|TBD|UInt32|None|None|
+|TBD|Group|UInt16|None|`None`|
+|TBD|Processors|Pointer|None|`None`|
+|TBD|OldPark|Pointer|None|`None`|
+|TBD|NewPark|Pointer|None|`None`|
+|TBD|OverUtilizedSet|Pointer|None|`None`|
+|TBD|IsolatedCores|Pointer|None|`None`|
+|TBD|IdealUnparked|UInt8|None|`None`|
+|TBD|UnparkCount|UInt8|None|`None`|
+|TBD|ParkReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

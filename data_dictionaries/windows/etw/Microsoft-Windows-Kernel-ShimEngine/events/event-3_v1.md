@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DriverName|TBD|UnicodeString|None|None|
-|TBD|ShimSource|TBD|UInt32|None|None|
-|TBD|ShimCount|TBD|UInt32|None|None|
-|TBD|AppliedGuids|TBD|UnicodeString|None|None|
+|TBD|DriverName|UnicodeString|None|`None`|
+|TBD|ShimSource|UInt32|None|`None`|
+|TBD|ShimCount|UInt32|None|`None`|
+|TBD|AppliedGuids|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

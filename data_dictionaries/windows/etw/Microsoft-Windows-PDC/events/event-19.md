@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Client|TBD|Pointer|None|None|
-|TBD|Port|TBD|Pointer|None|None|
-|TBD|ResiliencyType|TBD|UInt32|None|None|
-|TBD|References|TBD|UInt64|None|None|
-|TBD|TransactionId|TBD|UInt32|None|None|
-|TBD|CurrentState|TBD|UInt32|None|None|
-|TBD|NextState|TBD|UInt32|None|None|
+|TBD|Client|Pointer|None|`None`|
+|TBD|Port|Pointer|None|`None`|
+|TBD|ResiliencyType|UInt32|None|`None`|
+|TBD|References|UInt64|None|`None`|
+|TBD|TransactionId|UInt32|None|`None`|
+|TBD|CurrentState|UInt32|None|`None`|
+|TBD|NextState|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

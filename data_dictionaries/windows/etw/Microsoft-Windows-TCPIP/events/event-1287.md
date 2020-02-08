@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkConnector|TBD|Pointer|None|None|
-|TBD|PrivateDataLength|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|NdkConnector|Pointer|None|`None`|
+|TBD|PrivateDataLength|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pollingInterval|TBD|UInt16|None|None|
-|TBD|meteredConnectionState|TBD|Boolean|None|None|
-|TBD|internetAvailabilityState|TBD|Boolean|None|None|
-|TBD|freeNetworkAvailabilityState|TBD|Boolean|None|None|
-|TBD|proxyDefined|TBD|Boolean|None|None|
+|TBD|pollingInterval|UInt16|None|`None`|
+|TBD|meteredConnectionState|Boolean|None|`None`|
+|TBD|internetAvailabilityState|Boolean|None|`None`|
+|TBD|freeNetworkAvailabilityState|Boolean|None|`None`|
+|TBD|proxyDefined|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CacheEntryPtr|TBD|Pointer|None|None|
-|TBD|NofSlicesToMerge|TBD|UInt32|None|None|
-|TBD|NofSlicesInCache|TBD|UInt32|None|None|
+|TBD|CacheEntryPtr|Pointer|None|`None`|
+|TBD|NofSlicesToMerge|UInt32|None|`None`|
+|TBD|NofSlicesInCache|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Token|TBD|Pointer|None|None|
-|TBD|SystemCount|TBD|UInt32|None|None|
-|TBD|DisplayCount|TBD|UInt32|None|None|
-|TBD|AwayModeCount|TBD|UInt32|None|None|
-|TBD|ExecutionRequiredCount|TBD|UInt32|None|None|
-|TBD|PerformanceBoostCount|TBD|UInt32|None|None|
-|TBD|FullScreenVideoCount|TBD|UInt32|None|None|
+|TBD|Token|Pointer|None|`None`|
+|TBD|SystemCount|UInt32|None|`None`|
+|TBD|DisplayCount|UInt32|None|`None`|
+|TBD|AwayModeCount|UInt32|None|`None`|
+|TBD|ExecutionRequiredCount|UInt32|None|`None`|
+|TBD|PerformanceBoostCount|UInt32|None|`None`|
+|TBD|FullScreenVideoCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

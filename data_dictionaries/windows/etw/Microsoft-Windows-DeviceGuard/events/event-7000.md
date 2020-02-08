@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|VirtualizationBasedSecurity|TBD|UnicodeString|None|None|
-|TBD|SecureBoot|TBD|UnicodeString|None|None|
-|TBD|DmaProtection|TBD|UnicodeString|None|None|
-|TBD|HVCI|TBD|UnicodeString|None|None|
-|TBD|LSA|TBD|UnicodeString|None|None|
-|TBD|Reboot|TBD|UnicodeString|None|None|
-|TBD|Status|TBD|HexInt32|None|None|
+|TBD|VirtualizationBasedSecurity|UnicodeString|None|`None`|
+|TBD|SecureBoot|UnicodeString|None|`None`|
+|TBD|DmaProtection|UnicodeString|None|`None`|
+|TBD|HVCI|UnicodeString|None|`None`|
+|TBD|LSA|UnicodeString|None|`None`|
+|TBD|Reboot|UnicodeString|None|`None`|
+|TBD|Status|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

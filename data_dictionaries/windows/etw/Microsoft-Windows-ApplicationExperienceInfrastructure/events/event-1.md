@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DBType|TBD|UInt32|None|None|
-|TBD|AppNameCount|TBD|UInt32|None|None|
-|TBD|AppName|TBD|UnicodeString|None|None|
-|TBD|VendorNameCount|TBD|UInt32|None|None|
-|TBD|VendorName|TBD|UnicodeString|None|None|
-|TBD|SummaryCount|TBD|UInt32|None|None|
-|TBD|Summary|TBD|UnicodeString|None|None|
-|TBD|SessionID|TBD|UInt32|None|None|
+|TBD|DBType|UInt32|None|`None`|
+|TBD|AppNameCount|UInt32|None|`None`|
+|TBD|AppName|UnicodeString|None|`None`|
+|TBD|VendorNameCount|UInt32|None|`None`|
+|TBD|VendorName|UnicodeString|None|`None`|
+|TBD|SummaryCount|UInt32|None|`None`|
+|TBD|Summary|UnicodeString|None|`None`|
+|TBD|SessionID|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

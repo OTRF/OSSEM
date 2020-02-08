@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_MetadataPackageId|TBD|UnicodeString|None|None|
-|TBD|Prop_ContainerId|TBD|GUID|None|None|
-|TBD|Prop_StageTimeMilliSeconds|TBD|Int64|None|None|
+|TBD|Prop_MetadataPackageId|UnicodeString|None|`None`|
+|TBD|Prop_ContainerId|GUID|None|`None`|
+|TBD|Prop_StageTimeMilliSeconds|Int64|None|`None`|
 
 ## Tags
 * etw_level_Informational

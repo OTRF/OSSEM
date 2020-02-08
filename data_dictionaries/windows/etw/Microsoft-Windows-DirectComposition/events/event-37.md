@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|percentValidTiles|TBD|UInt32|None|None|
-|TBD|pixelsPerClump|TBD|UInt32|None|None|
+|TBD|percentValidTiles|UInt32|None|`None`|
+|TBD|pixelsPerClump|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

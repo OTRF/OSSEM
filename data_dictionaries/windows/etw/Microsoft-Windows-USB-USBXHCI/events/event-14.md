@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UcxController|TBD|Pointer|None|None|
-|TBD|DeviceDescLength|TBD|UInt32|None|None|
-|TBD|DeviceDescription|TBD|UnicodeString|None|None|
-|TBD|StartDeviceFailReason|TBD|UInt32|None|None|
+|TBD|fid_UcxController|Pointer|None|`None`|
+|TBD|DeviceDescLength|UInt32|None|`None`|
+|TBD|DeviceDescription|UnicodeString|None|`None`|
+|TBD|StartDeviceFailReason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

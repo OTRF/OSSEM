@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MeasuredLatency|TBD|UInt32|None|None|
-|TBD|LatencyThreshold|TBD|UInt32|None|None|
+|TBD|MeasuredLatency|UInt32|None|`None`|
+|TBD|LatencyThreshold|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

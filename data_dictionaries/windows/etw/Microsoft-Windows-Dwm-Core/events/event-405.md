@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|sourceChannelHandle|TBD|UInt32|None|None|
-|TBD|sourceResourceHandle|TBD|UInt32|None|None|
-|TBD|targetChannelHandle|TBD|UInt32|None|None|
-|TBD|targetResourceHandle|TBD|UInt32|None|None|
-|TBD|sourceInternalHandleAndChannel|TBD|UInt64|None|None|
-|TBD|targetInternalHandleAndChannel|TBD|UInt64|None|None|
-|TBD|resourceType|TBD|UInt32|None|None|
-|TBD|resourcePointer|TBD|UInt64|None|None|
+|TBD|sourceChannelHandle|UInt32|None|`None`|
+|TBD|sourceResourceHandle|UInt32|None|`None`|
+|TBD|targetChannelHandle|UInt32|None|`None`|
+|TBD|targetResourceHandle|UInt32|None|`None`|
+|TBD|sourceInternalHandleAndChannel|UInt64|None|`None`|
+|TBD|targetInternalHandleAndChannel|UInt64|None|`None`|
+|TBD|resourceType|UInt32|None|`None`|
+|TBD|resourcePointer|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

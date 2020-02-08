@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FailureHresult|TBD|HexInt32|None|None|
-|TBD|TotalBufferSizeInBytes|TBD|UInt32|None|None|
+|TBD|FailureHresult|HexInt32|None|`None`|
+|TBD|TotalBufferSizeInBytes|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ConfigtoSyncWithTimeServer|TBD|Boolean|None|None|
-|TBD|TimeServerName|TBD|UnicodeString|None|None|
-|TBD|NumServerTimeRetries|TBD|UInt32|None|None|
-|TBD|ServerTimeRetrievalError|TBD|UInt32|None|None|
+|TBD|ConfigtoSyncWithTimeServer|Boolean|None|`None`|
+|TBD|TimeServerName|UnicodeString|None|`None`|
+|TBD|NumServerTimeRetries|UInt32|None|`None`|
+|TBD|ServerTimeRetrievalError|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

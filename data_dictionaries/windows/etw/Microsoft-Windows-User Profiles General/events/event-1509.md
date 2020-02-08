@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Source|TBD|UnicodeString|None|None|
-|TBD|Target|TBD|UnicodeString|None|None|
-|TBD|Error|TBD|UnicodeString|None|None|
+|TBD|Source|UnicodeString|None|`None`|
+|TBD|Target|UnicodeString|None|`None`|
+|TBD|Error|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

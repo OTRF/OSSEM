@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Event|TBD|Pointer|None|None|
-|TBD|Type|TBD|UInt32|None|None|
-|TBD|Processor|TBD|UInt32|None|None|
-|TBD|PowerSource|TBD|UInt32|None|None|
-|TBD|OldPartitionCount|TBD|UInt32|None|None|
-|TBD|NewPartitionCount|TBD|UInt32|None|None|
-|TBD|Progress|TBD|UInt32|None|None|
+|TBD|Event|Pointer|None|`None`|
+|TBD|Type|UInt32|None|`None`|
+|TBD|Processor|UInt32|None|`None`|
+|TBD|PowerSource|UInt32|None|`None`|
+|TBD|OldPartitionCount|UInt32|None|`None`|
+|TBD|NewPartitionCount|UInt32|None|`None`|
+|TBD|Progress|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

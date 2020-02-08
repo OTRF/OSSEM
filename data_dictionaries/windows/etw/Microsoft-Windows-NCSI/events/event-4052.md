@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|InterfaceGuid|TBD|GUID|None|None|
-|TBD|IfLuid|TBD|UInt64|None|None|
-|TBD|HasPreferredGlobalAddressIPv4|TBD|Boolean|None|None|
-|TBD|HasPreferredGlobalAddressIPv6|TBD|Boolean|None|None|
-|TBD|InternetCapabilityIPv4|TBD|UInt8|None|None|
-|TBD|InternetCapabilityIPv6|TBD|UInt8|None|None|
-|TBD|InternetTestIPv4|TBD|UInt8|None|None|
-|TBD|InternetTestIPv6|TBD|UInt8|None|None|
+|TBD|InterfaceGuid|GUID|None|`None`|
+|TBD|IfLuid|UInt64|None|`None`|
+|TBD|HasPreferredGlobalAddressIPv4|Boolean|None|`None`|
+|TBD|HasPreferredGlobalAddressIPv6|Boolean|None|`None`|
+|TBD|InternetCapabilityIPv4|UInt8|None|`None`|
+|TBD|InternetCapabilityIPv6|UInt8|None|`None`|
+|TBD|InternetTestIPv4|UInt8|None|`None`|
+|TBD|InternetTestIPv6|UInt8|None|`None`|
 
 ## Tags
 * etw_level_Informational

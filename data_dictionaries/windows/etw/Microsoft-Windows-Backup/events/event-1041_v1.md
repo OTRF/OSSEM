@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RestoreTargetNameList|TBD|UnicodeString|None|None|
-|TBD|RestoreTime|TBD|FILETIME|None|None|
-|TBD|ErrorCode|TBD|HexInt32|None|None|
-|TBD|ErrorMessage|TBD|UnicodeString|None|None|
+|TBD|RestoreTargetNameList|UnicodeString|None|`None`|
+|TBD|RestoreTime|FILETIME|None|`None`|
+|TBD|ErrorCode|HexInt32|None|`None`|
+|TBD|ErrorMessage|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Warning

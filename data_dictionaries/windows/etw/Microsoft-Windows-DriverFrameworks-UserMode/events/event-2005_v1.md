@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LifetimeId|TBD|GUID|None|None|
-|TBD|InstanceId|TBD|UnicodeString|None|None|
-|TBD|ModulePath|TBD|UnicodeString|None|None|
-|TBD|CompanyName|TBD|UnicodeString|None|None|
-|TBD|FileDescription|TBD|UnicodeString|None|None|
-|TBD|FileVersion|TBD|UnicodeString|None|None|
+|TBD|LifetimeId|GUID|None|`None`|
+|TBD|InstanceId|UnicodeString|None|`None`|
+|TBD|ModulePath|UnicodeString|None|`None`|
+|TBD|CompanyName|UnicodeString|None|`None`|
+|TBD|FileDescription|UnicodeString|None|`None`|
+|TBD|FileVersion|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Verbose

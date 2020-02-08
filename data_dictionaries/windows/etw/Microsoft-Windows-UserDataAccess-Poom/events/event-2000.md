@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Prop_Process_UnicodeString|TBD|UnicodeString|None|None|
-|TBD|Prop_ErrorCode|TBD|UInt32|None|None|
+|TBD|Prop_Process_UnicodeString|UnicodeString|None|`None`|
+|TBD|Prop_ErrorCode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

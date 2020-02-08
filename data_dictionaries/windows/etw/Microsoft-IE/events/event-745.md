@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CMemoryProtector|TBD|Pointer|None|None|
-|TBD|MarkedBlocks|TBD|UInt64|None|None|
-|TBD|MarkedBytes|TBD|UInt64|None|None|
+|TBD|CMemoryProtector|Pointer|None|`None`|
+|TBD|MarkedBlocks|UInt64|None|`None`|
+|TBD|MarkedBytes|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

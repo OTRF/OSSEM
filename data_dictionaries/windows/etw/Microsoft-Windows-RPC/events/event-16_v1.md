@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Protocol|TBD|UnicodeString|None|None|
-|TBD|Endpoint|TBD|UnicodeString|None|None|
-|TBD|NetworkAddress|TBD|UnicodeString|None|None|
-|TBD|PendingQueueSize|TBD|UInt32|None|None|
-|TBD|EndpointFlags|TBD|UInt32|None|None|
-|TBD|NicFlags|TBD|UInt32|None|None|
+|TBD|Protocol|UnicodeString|None|`None`|
+|TBD|Endpoint|UnicodeString|None|`None`|
+|TBD|NetworkAddress|UnicodeString|None|`None`|
+|TBD|PendingQueueSize|UInt32|None|`None`|
+|TBD|EndpointFlags|UInt32|None|`None`|
+|TBD|NicFlags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

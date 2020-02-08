@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PackageMoniker|TBD|UnicodeString|None|None|
-|TBD|deviceFamilyName|TBD|UnicodeString|None|None|
-|TBD|RequestedVersionMajor|TBD|UInt32|None|None|
-|TBD|RequestedVersionMinor|TBD|UInt32|None|None|
-|TBD|RequestedVersionBuild|TBD|UInt32|None|None|
-|TBD|RequestedVersionRevision|TBD|UInt32|None|None|
-|TBD|OSVersionMajor|TBD|UInt32|None|None|
-|TBD|OSVersionMinor|TBD|UInt32|None|None|
-|TBD|OSVersionBuild|TBD|UInt32|None|None|
-|TBD|OSVersionRevision|TBD|UInt32|None|None|
+|TBD|PackageMoniker|UnicodeString|None|`None`|
+|TBD|deviceFamilyName|UnicodeString|None|`None`|
+|TBD|RequestedVersionMajor|UInt32|None|`None`|
+|TBD|RequestedVersionMinor|UInt32|None|`None`|
+|TBD|RequestedVersionBuild|UInt32|None|`None`|
+|TBD|RequestedVersionRevision|UInt32|None|`None`|
+|TBD|OSVersionMajor|UInt32|None|`None`|
+|TBD|OSVersionMinor|UInt32|None|`None`|
+|TBD|OSVersionBuild|UInt32|None|`None`|
+|TBD|OSVersionRevision|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

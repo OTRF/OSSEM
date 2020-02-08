@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|JoinType|TBD|Int32|None|None|
-|TBD|JoinTypeName|TBD|UnicodeString|None|None|
-|TBD|TenantId|TBD|UnicodeString|None|None|
+|TBD|JoinType|Int32|None|`None`|
+|TBD|JoinTypeName|UnicodeString|None|`None`|
+|TBD|TenantId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

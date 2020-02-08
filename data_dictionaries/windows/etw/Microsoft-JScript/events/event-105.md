@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SizeInBytes|TBD|UInt64|None|None|
+|TBD|SizeInBytes|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

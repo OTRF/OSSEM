@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|EncoderBitRate|TBD|UInt64|None|None|
-|TBD|CurrentMaxTxDataRate|TBD|UInt64|None|None|
-|TBD|FailedFrameCount|TBD|UInt64|None|None|
-|TBD|MultipleRetryFrameCount|TBD|UInt64|None|None|
-|TBD|RetriedFrameCount|TBD|UInt64|None|None|
-|TBD|TransmittedFrameCount|TBD|UInt64|None|None|
+|TBD|Status|UInt32|None|`None`|
+|TBD|EncoderBitRate|UInt64|None|`None`|
+|TBD|CurrentMaxTxDataRate|UInt64|None|`None`|
+|TBD|FailedFrameCount|UInt64|None|`None`|
+|TBD|MultipleRetryFrameCount|UInt64|None|`None`|
+|TBD|RetriedFrameCount|UInt64|None|`None`|
+|TBD|TransmittedFrameCount|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

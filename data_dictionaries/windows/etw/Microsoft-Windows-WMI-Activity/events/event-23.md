@@ -6,18 +6,18 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|CorrelationId|TBD|UnicodeString|None|None|
-|TBD|GroupOperationId|TBD|UInt32|None|None|
-|TBD|OperationId|TBD|UInt32|None|None|
-|TBD|Commandline|TBD|UnicodeString|None|None|
-|TBD|CreatedProcessId|TBD|UInt32|None|None|
-|TBD|CreatedProcessCreationTime|TBD|UInt64|None|None|
-|TBD|ClientMachine|TBD|UnicodeString|None|None|
-|TBD|ClientMachineFQDN|TBD|UnicodeString|None|None|
-|TBD|User|TBD|UnicodeString|None|None|
-|TBD|ClientProcessId|TBD|UInt32|None|None|
-|TBD|ClientProcessCreationTime|TBD|UInt64|None|None|
-|TBD|IsLocal|TBD|Boolean|None|None|
+|TBD|CorrelationId|UnicodeString|None|`None`|
+|TBD|GroupOperationId|UInt32|None|`None`|
+|TBD|OperationId|UInt32|None|`None`|
+|TBD|Commandline|UnicodeString|None|`None`|
+|TBD|CreatedProcessId|UInt32|None|`None`|
+|TBD|CreatedProcessCreationTime|UInt64|None|`None`|
+|TBD|ClientMachine|UnicodeString|None|`None`|
+|TBD|ClientMachineFQDN|UnicodeString|None|`None`|
+|TBD|User|UnicodeString|None|`None`|
+|TBD|ClientProcessId|UInt32|None|`None`|
+|TBD|ClientProcessCreationTime|UInt64|None|`None`|
+|TBD|IsLocal|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

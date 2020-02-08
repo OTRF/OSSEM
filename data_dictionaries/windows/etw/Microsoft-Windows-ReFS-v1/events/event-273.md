@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SqmType|TBD|UInt32|None|None|
-|TBD|SqmSessionGuid|TBD|GUID|None|None|
-|TBD|SqmID|TBD|UInt32|None|None|
-|TBD|SqmProcessHashValue|TBD|UInt32|None|None|
-|TBD|SqmStreamRowLength|TBD|UInt32|None|None|
-|TBD|SqmStreamEntriesSize|TBD|UInt32|None|None|
-|TBD|SqmStreamEntries|TBD|Binary|None|None|
-|TBD|SqmStreamFlags|TBD|UInt32|None|None|
+|TBD|SqmType|UInt32|None|`None`|
+|TBD|SqmSessionGuid|GUID|None|`None`|
+|TBD|SqmID|UInt32|None|`None`|
+|TBD|SqmProcessHashValue|UInt32|None|`None`|
+|TBD|SqmStreamRowLength|UInt32|None|`None`|
+|TBD|SqmStreamEntriesSize|UInt32|None|`None`|
+|TBD|SqmStreamEntries|Binary|None|`None`|
+|TBD|SqmStreamFlags|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

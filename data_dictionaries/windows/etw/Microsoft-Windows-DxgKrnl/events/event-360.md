@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pDxgAdapter|TBD|Pointer|None|None|
-|TBD|FlushSchedulerReason|TBD|UInt32|None|None|
-|TBD|VidPnSourceId|TBD|UInt32|None|None|
+|TBD|pDxgAdapter|Pointer|None|`None`|
+|TBD|FlushSchedulerReason|UInt32|None|`None`|
+|TBD|VidPnSourceId|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

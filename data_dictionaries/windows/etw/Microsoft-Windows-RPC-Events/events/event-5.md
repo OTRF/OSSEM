@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ApplicationName|TBD|UnicodeString|None|None|
-|TBD|ProcessId|TBD|HexInt32|None|None|
-|TBD|RPCProtocolSequence|TBD|UnicodeString|None|None|
-|TBD|InterfaceGUID|TBD|GUID|None|None|
+|TBD|ApplicationName|UnicodeString|None|`None`|
+|TBD|ProcessId|HexInt32|None|`None`|
+|TBD|RPCProtocolSequence|UnicodeString|None|`None`|
+|TBD|InterfaceGUID|GUID|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|offboardingBlobHash|TBD|UInt64|None|None|
-|TBD|isDefaultOffboardingBlob|TBD|Boolean|None|None|
+|TBD|offboardingBlobHash|UInt64|None|`None`|
+|TBD|isDefaultOffboardingBlob|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Verbose

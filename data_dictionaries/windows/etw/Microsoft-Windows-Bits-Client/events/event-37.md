@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|nlmCost|TBD|UInt32|None|None|
-|TBD|usage|TBD|UInt32|None|None|
-|TBD|cap|TBD|UInt32|None|None|
-|TBD|isThrottled|TBD|UInt32|None|None|
-|TBD|isOvercap|TBD|UInt32|None|None|
-|TBD|isRoaming|TBD|UInt32|None|None|
-|TBD|globalTransferPolicy|TBD|UInt32|None|None|
+|TBD|nlmCost|UInt32|None|`None`|
+|TBD|usage|UInt32|None|`None`|
+|TBD|cap|UInt32|None|`None`|
+|TBD|isThrottled|UInt32|None|`None`|
+|TBD|isOvercap|UInt32|None|`None`|
+|TBD|isRoaming|UInt32|None|`None`|
+|TBD|globalTransferPolicy|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

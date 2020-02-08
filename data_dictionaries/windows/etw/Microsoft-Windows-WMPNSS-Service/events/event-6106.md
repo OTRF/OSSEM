@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TotalDevicesAdded|TBD|UInt32|None|None|
-|TBD|DeviceFunctionalCount|TBD|UInt32|None|None|
-|TBD|TotalUDNRenderersAdded|TBD|UInt32|None|None|
-|TBD|UDNRenderersFunctionalCount|TBD|UInt32|None|None|
+|TBD|TotalDevicesAdded|UInt32|None|`None`|
+|TBD|DeviceFunctionalCount|UInt32|None|`None`|
+|TBD|TotalUDNRenderersAdded|UInt32|None|`None`|
+|TBD|UDNRenderersFunctionalCount|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

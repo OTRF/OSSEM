@@ -6,24 +6,24 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeStamp|TBD|SYSTEMTIME|None|None|
-|TBD|AppId|TBD|UnicodeString|None|None|
-|TBD|UserId|TBD|UnicodeString|None|None|
-|TBD|EnergyLoss|TBD|UInt64|None|None|
-|TBD|CpuEnergyConsumption|TBD|UInt64|None|None|
-|TBD|SocEnergyConsumption|TBD|UInt64|None|None|
-|TBD|DisplayEnergyConsumption|TBD|UInt64|None|None|
-|TBD|DiskEnergyConsumption|TBD|UInt64|None|None|
-|TBD|NetworkEnergyConsumption|TBD|UInt64|None|None|
-|TBD|MbbEnergyConsumption|TBD|UInt64|None|None|
-|TBD|OtherEnergyConsumption|TBD|UInt64|None|None|
-|TBD|TotalEnergyConsumption|TBD|UInt64|None|None|
-|TBD|MeasuredPower|TBD|Boolean|None|None|
-|TBD|OnBattery|TBD|Boolean|None|None|
-|TBD|Foreground|TBD|Boolean|None|None|
-|TBD|ScreenOn|TBD|Boolean|None|None|
-|TBD|BatterySaverActive|TBD|Boolean|None|None|
-|TBD|LowPowerEpochActive|TBD|Boolean|None|None|
+|TBD|TimeStamp|SYSTEMTIME|None|`None`|
+|TBD|AppId|UnicodeString|None|`None`|
+|TBD|UserId|UnicodeString|None|`None`|
+|TBD|EnergyLoss|UInt64|None|`None`|
+|TBD|CpuEnergyConsumption|UInt64|None|`None`|
+|TBD|SocEnergyConsumption|UInt64|None|`None`|
+|TBD|DisplayEnergyConsumption|UInt64|None|`None`|
+|TBD|DiskEnergyConsumption|UInt64|None|`None`|
+|TBD|NetworkEnergyConsumption|UInt64|None|`None`|
+|TBD|MbbEnergyConsumption|UInt64|None|`None`|
+|TBD|OtherEnergyConsumption|UInt64|None|`None`|
+|TBD|TotalEnergyConsumption|UInt64|None|`None`|
+|TBD|MeasuredPower|Boolean|None|`None`|
+|TBD|OnBattery|Boolean|None|`None`|
+|TBD|Foreground|Boolean|None|`None`|
+|TBD|ScreenOn|Boolean|None|`None`|
+|TBD|BatterySaverActive|Boolean|None|`None`|
+|TBD|LowPowerEpochActive|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

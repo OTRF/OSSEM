@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AppKey|TBD|HexInt32|None|None|
-|TBD|PredictionPurpose|TBD|UInt32|None|None|
-|TBD|Probability|TBD|Double|None|None|
+|TBD|AppKey|HexInt32|None|`None`|
+|TBD|PredictionPurpose|UInt32|None|`None`|
+|TBD|Probability|Double|None|`None`|
 
 ## Tags
 * etw_level_Informational

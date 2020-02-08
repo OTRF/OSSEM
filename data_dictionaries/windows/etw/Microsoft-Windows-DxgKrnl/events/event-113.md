@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hContext|TBD|Pointer|None|None|
-|TBD|RunningTime|TBD|Int64|None|None|
-|TBD|RemainingQuantum|TBD|Int64|None|None|
-|TBD|RemainingYieldBudget|TBD|UInt64|None|None|
-|TBD|QuantumStatus|TBD|UInt32|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
+|TBD|hContext|Pointer|None|`None`|
+|TBD|RunningTime|Int64|None|`None`|
+|TBD|RemainingQuantum|Int64|None|`None`|
+|TBD|RemainingYieldBudget|UInt64|None|`None`|
+|TBD|QuantumStatus|UInt32|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

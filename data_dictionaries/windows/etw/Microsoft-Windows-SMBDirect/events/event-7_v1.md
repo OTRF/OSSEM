@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BaseAffinityNode|TBD|UInt32|None|None|
-|TBD|MaxAffinityNode|TBD|UInt32|None|None|
+|TBD|BaseAffinityNode|UInt32|None|`None`|
+|TBD|MaxAffinityNode|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MiniportContext|TBD|Pointer|None|None|
-|TBD|MiracastContext|TBD|Pointer|None|None|
-|TBD|InputBufferSize|TBD|UInt32|None|None|
-|TBD|OutputBufferSize|TBD|UInt32|None|None|
-|TBD|ReturnStatus|TBD|UInt32|None|None|
+|TBD|MiniportContext|Pointer|None|`None`|
+|TBD|MiracastContext|Pointer|None|`None`|
+|TBD|InputBufferSize|UInt32|None|`None`|
+|TBD|OutputBufferSize|UInt32|None|`None`|
+|TBD|ReturnStatus|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

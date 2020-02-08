@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|cPendingRequestSample|TBD|Int32|None|None|
-|TBD|cMaxPendingRequestSample|TBD|Int32|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|cPendingRequestSample|Int32|None|`None`|
+|TBD|cMaxPendingRequestSample|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HRESULT|TBD|HexInt32|None|None|
-|TBD|diskSizeQuotaValue|TBD|Int32|None|None|
-|TBD|dailyUploadQuotaValue|TBD|Int32|None|None|
+|TBD|HRESULT|HexInt32|None|`None`|
+|TBD|diskSizeQuotaValue|Int32|None|`None`|
+|TBD|dailyUploadQuotaValue|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

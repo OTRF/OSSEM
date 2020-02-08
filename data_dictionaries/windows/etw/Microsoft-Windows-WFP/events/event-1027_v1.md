@@ -6,22 +6,22 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|LocalAddressLength|TBD|UInt32|None|None|
-|TBD|LocalAddress|TBD|Binary|None|None|
-|TBD|LocalAddressMask|TBD|UnicodeString|None|None|
-|TBD|LocalTunnelEndpointLength|TBD|UInt32|None|None|
-|TBD|LocalTunnelEndpoint|TBD|Binary|None|None|
-|TBD|RemoteAddressLength|TBD|UInt32|None|None|
-|TBD|RemoteAddress|TBD|Binary|None|None|
-|TBD|RemoteAddressMask|TBD|UnicodeString|None|None|
-|TBD|RemoteTunnelEndpointLength|TBD|UInt32|None|None|
-|TBD|RemoteTunnelEndpoint|TBD|Binary|None|None|
-|TBD|IPProtocol|TBD|UInt32|None|None|
-|TBD|QMSaLuid|TBD|UInt64|None|None|
-|TBD|VirtualIFTunnelId|TBD|UInt64|None|None|
-|TBD|VirtualIFTrafficSelectorId|TBD|UInt64|None|None|
-|TBD|InboundSPI|TBD|UInt32|None|None|
-|TBD|OutboundSPI|TBD|UInt32|None|None|
+|TBD|LocalAddressLength|UInt32|None|`None`|
+|TBD|LocalAddress|Binary|None|`None`|
+|TBD|LocalAddressMask|UnicodeString|None|`None`|
+|TBD|LocalTunnelEndpointLength|UInt32|None|`None`|
+|TBD|LocalTunnelEndpoint|Binary|None|`None`|
+|TBD|RemoteAddressLength|UInt32|None|`None`|
+|TBD|RemoteAddress|Binary|None|`None`|
+|TBD|RemoteAddressMask|UnicodeString|None|`None`|
+|TBD|RemoteTunnelEndpointLength|UInt32|None|`None`|
+|TBD|RemoteTunnelEndpoint|Binary|None|`None`|
+|TBD|IPProtocol|UInt32|None|`None`|
+|TBD|QMSaLuid|UInt64|None|`None`|
+|TBD|VirtualIFTunnelId|UInt64|None|`None`|
+|TBD|VirtualIFTrafficSelectorId|UInt64|None|`None`|
+|TBD|InboundSPI|UInt32|None|`None`|
+|TBD|OutboundSPI|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

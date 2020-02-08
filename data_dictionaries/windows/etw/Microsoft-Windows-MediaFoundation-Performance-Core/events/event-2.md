@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|m_u32StreamingPeriodMS|TBD|UInt32|None|None|
-|TBD|m_u32RenderBufferSizeInFrames|TBD|UInt32|None|None|
-|TBD|m_ui64ClockTicksPerSecond|TBD|UInt64|None|None|
-|TBD|m_u32AudioClientType|TBD|UInt32|None|None|
-|TBD|IsEventDriven|TBD|Boolean|None|None|
-|TBD|FillSilenceWhenStarving|TBD|Boolean|None|None|
-|TBD|FillCompressedSilenceWhenStarving|TBD|Boolean|None|None|
-|TBD|DropLateData|TBD|Boolean|None|None|
-|TBD|hResult|TBD|UInt32|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|m_u32StreamingPeriodMS|UInt32|None|`None`|
+|TBD|m_u32RenderBufferSizeInFrames|UInt32|None|`None`|
+|TBD|m_ui64ClockTicksPerSecond|UInt64|None|`None`|
+|TBD|m_u32AudioClientType|UInt32|None|`None`|
+|TBD|IsEventDriven|Boolean|None|`None`|
+|TBD|FillSilenceWhenStarving|Boolean|None|`None`|
+|TBD|FillCompressedSilenceWhenStarving|Boolean|None|`None`|
+|TBD|DropLateData|Boolean|None|`None`|
+|TBD|hResult|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

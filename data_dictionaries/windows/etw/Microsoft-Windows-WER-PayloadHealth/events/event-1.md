@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|UploadDuration|TBD|UInt32|None|None|
-|TBD|PayloadSize|TBD|UInt64|None|None|
-|TBD|Protocol|TBD|UnicodeString|None|None|
-|TBD|Stage|TBD|UnicodeString|None|None|
-|TBD|BytesUploaded|TBD|UInt64|None|None|
-|TBD|ServerName|TBD|UnicodeString|None|None|
+|TBD|UploadDuration|UInt32|None|`None`|
+|TBD|PayloadSize|UInt64|None|`None`|
+|TBD|Protocol|UnicodeString|None|`None`|
+|TBD|Stage|UnicodeString|None|`None`|
+|TBD|BytesUploaded|UInt64|None|`None`|
+|TBD|ServerName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

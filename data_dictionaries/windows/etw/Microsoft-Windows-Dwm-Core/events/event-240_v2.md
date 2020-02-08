@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|AnimationScenario|TBD|UnicodeString|None|None|
-|TBD|TotalHits|TBD|UInt32|None|None|
-|TBD|metrics1|TBD|UInt32|None|None|
-|TBD|metrics2|TBD|UInt32|None|None|
-|TBD|metrics3|TBD|UInt32|None|None|
-|TBD|FPS|TBD|UInt32|None|None|
+|TBD|AnimationScenario|UnicodeString|None|`None`|
+|TBD|TotalHits|UInt32|None|`None`|
+|TBD|metrics1|UInt32|None|`None`|
+|TBD|metrics2|UInt32|None|`None`|
+|TBD|metrics3|UInt32|None|`None`|
+|TBD|FPS|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

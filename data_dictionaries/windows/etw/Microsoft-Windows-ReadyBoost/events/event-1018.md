@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DiskAssessmentTimestamp|TBD|FILETIME|None|None|
-|TBD|Success|TBD|Boolean|None|None|
+|TBD|DiskAssessmentTimestamp|FILETIME|None|`None`|
+|TBD|Success|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

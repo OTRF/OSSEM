@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|RequestHandle|TBD|Pointer|None|None|
-|TBD|StreamId|TBD|UInt32|None|None|
-|TBD|Size|TBD|UInt32|None|None|
-|TBD|Headers|TBD|Boolean|None|None|
+|TBD|RequestHandle|Pointer|None|`None`|
+|TBD|StreamId|UInt32|None|`None`|
+|TBD|Size|UInt32|None|`None`|
+|TBD|Headers|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

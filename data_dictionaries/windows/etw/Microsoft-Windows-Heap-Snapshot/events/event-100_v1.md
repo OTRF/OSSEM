@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HeapSnapshotInstance|TBD|UInt32|None|None|
-|TBD|HeapSnapshotSequence|TBD|UInt32|None|None|
-|TBD|HeapSnapshotBufferLen|TBD|UInt32|None|None|
-|TBD|HeapSnapshotBuffer|TBD|Binary|None|None|
+|TBD|HeapSnapshotInstance|UInt32|None|`None`|
+|TBD|HeapSnapshotSequence|UInt32|None|`None`|
+|TBD|HeapSnapshotBufferLen|UInt32|None|`None`|
+|TBD|HeapSnapshotBuffer|Binary|None|`None`|
 
 ## Tags
 * etw_level_Always

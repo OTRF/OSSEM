@@ -6,15 +6,15 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HeapHandle|TBD|UInt32|None|None|
-|TBD|FreeSpace|TBD|Object|None|None|
-|TBD|CommittedSpace|TBD|Object|None|None|
-|TBD|ReservedSpace|TBD|Object|None|None|
-|TBD|HeapFlags|TBD|UInt32|None|None|
-|TBD|ProcessId|TBD|UInt32|None|None|
-|TBD|LargeUCRSpace|TBD|Object|None|None|
-|TBD|FreeListLength|TBD|UInt32|None|None|
-|TBD|UCRLength|TBD|UInt32|None|None|
+|TBD|HeapHandle|UInt32|None|`None`|
+|TBD|FreeSpace|Object|None|`None`|
+|TBD|CommittedSpace|Object|None|`None`|
+|TBD|ReservedSpace|Object|None|`None`|
+|TBD|HeapFlags|UInt32|None|`None`|
+|TBD|ProcessId|UInt32|None|`None`|
+|TBD|LargeUCRSpace|Object|None|`None`|
+|TBD|FreeListLength|UInt32|None|`None`|
+|TBD|UCRLength|UInt32|None|`None`|
 
 ## Tags
 * version_2

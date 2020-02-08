@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NewAdapterIndex|TBD|UInt32|None|None|
-|TBD|ProcessorIndex|TBD|UInt32|None|None|
-|TBD|PreviousAdapterIndex|TBD|UInt32|None|None|
-|TBD|TriggeringProcessorIndex|TBD|UInt32|None|None|
+|TBD|NewAdapterIndex|UInt32|None|`None`|
+|TBD|ProcessorIndex|UInt32|None|`None`|
+|TBD|PreviousAdapterIndex|UInt32|None|`None`|
+|TBD|TriggeringProcessorIndex|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

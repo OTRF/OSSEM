@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|BootPlanTimestamp|TBD|FILETIME|None|None|
-|TBD|ValidBootPlan|TBD|Boolean|None|None|
+|TBD|BootPlanTimestamp|FILETIME|None|`None`|
+|TBD|ValidBootPlan|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

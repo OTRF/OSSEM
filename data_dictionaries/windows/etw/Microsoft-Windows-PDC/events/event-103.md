@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeContinuouslyActive|TBD|UInt32|None|None|
-|TBD|ClientIdAndActivityTypeAndOnAc|TBD|UInt32|None|None|
-|TBD|UserClientProcess|TBD|UInt32|None|None|
+|TBD|TimeContinuouslyActive|UInt32|None|`None`|
+|TBD|ClientIdAndActivityTypeAndOnAc|UInt32|None|`None`|
+|TBD|UserClientProcess|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

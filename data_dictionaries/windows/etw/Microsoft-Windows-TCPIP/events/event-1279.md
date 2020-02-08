@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NdkAdapter|TBD|Pointer|None|None|
-|TBD|LAMBuffer|TBD|Pointer|None|None|
+|TBD|NdkAdapter|Pointer|None|`None`|
+|TBD|LAMBuffer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

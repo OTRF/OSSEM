@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PreviousBrightnessLevel|TBD|Int32|None|None|
-|TBD|PreviousBrightnessDurationInSeconds|TBD|UInt32|None|None|
-|TBD|NewBrightnessLevel|TBD|Int32|None|None|
+|TBD|PreviousBrightnessLevel|Int32|None|`None`|
+|TBD|PreviousBrightnessDurationInSeconds|UInt32|None|`None`|
+|TBD|NewBrightnessLevel|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

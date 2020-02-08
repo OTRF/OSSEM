@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PagedAllocs|TBD|UInt32|None|None|
-|TBD|PagedFrees|TBD|UInt32|None|None|
-|TBD|PagedUsed|TBD|Pointer|None|None|
-|TBD|NonPagedAllocs|TBD|UInt32|None|None|
-|TBD|NonPagedFrees|TBD|UInt32|None|None|
-|TBD|NonPagedUsed|TBD|Pointer|None|None|
-|TBD|SessionId|TBD|UInt32|None|None|
-|TBD|Tag|TBD|AnsiString|None|None|
+|TBD|PagedAllocs|UInt32|None|`None`|
+|TBD|PagedFrees|UInt32|None|`None`|
+|TBD|PagedUsed|Pointer|None|`None`|
+|TBD|NonPagedAllocs|UInt32|None|`None`|
+|TBD|NonPagedFrees|UInt32|None|`None`|
+|TBD|NonPagedUsed|Pointer|None|`None`|
+|TBD|SessionId|UInt32|None|`None`|
+|TBD|Tag|AnsiString|None|`None`|
 
 ## Tags
 * etw_level_Informational

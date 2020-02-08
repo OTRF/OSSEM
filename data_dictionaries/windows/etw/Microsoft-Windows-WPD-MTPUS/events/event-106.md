@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WINUSB_SETUP_PACKET_LENGTH|TBD|UInt16|None|None|
-|TBD|WINUSB_SETUP_PACKET|TBD|Binary|None|None|
+|TBD|WINUSB_SETUP_PACKET_LENGTH|UInt16|None|`None`|
+|TBD|WINUSB_SETUP_PACKET|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

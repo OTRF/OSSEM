@@ -6,14 +6,14 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_Controller|TBD|Pointer|None|None|
-|TBD|fid_UsbDevice|TBD|Pointer|None|None|
-|TBD|fid_Endpoint|TBD|Pointer|None|None|
-|TBD|fid_ObjectHandle|TBD|Pointer|None|None|
-|TBD|fid_TransitionType|TBD|UInt32|None|None|
-|TBD|fid_SourceState|TBD|UInt32|None|None|
-|TBD|fid_Event|TBD|UInt32|None|None|
-|TBD|fid_TargetState|TBD|UInt32|None|None|
+|TBD|fid_Controller|Pointer|None|`None`|
+|TBD|fid_UsbDevice|Pointer|None|`None`|
+|TBD|fid_Endpoint|Pointer|None|`None`|
+|TBD|fid_ObjectHandle|Pointer|None|`None`|
+|TBD|fid_TransitionType|UInt32|None|`None`|
+|TBD|fid_SourceState|UInt32|None|`None`|
+|TBD|fid_Event|UInt32|None|`None`|
+|TBD|fid_TargetState|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

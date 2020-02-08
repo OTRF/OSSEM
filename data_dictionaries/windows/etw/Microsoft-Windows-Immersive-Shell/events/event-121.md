@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SystemModeFrom|TBD|Int32|None|None|
-|TBD|SystemSubModeFrom|TBD|Int32|None|None|
-|TBD|SystemModeTo|TBD|Int32|None|None|
-|TBD|SystemSubModeTo|TBD|Int32|None|None|
+|TBD|SystemModeFrom|Int32|None|`None`|
+|TBD|SystemSubModeFrom|Int32|None|`None`|
+|TBD|SystemModeTo|Int32|None|`None`|
+|TBD|SystemSubModeTo|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

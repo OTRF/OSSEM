@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DriveName|TBD|UnicodeString|None|None|
-|TBD|DeviceName|TBD|UnicodeString|None|None|
-|TBD|CorruptionActionState|TBD|UInt32|None|None|
+|TBD|DriveName|UnicodeString|None|`None`|
+|TBD|DeviceName|UnicodeString|None|`None`|
+|TBD|CorruptionActionState|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

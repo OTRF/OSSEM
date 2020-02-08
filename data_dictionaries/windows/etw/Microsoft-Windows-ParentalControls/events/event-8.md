@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Application|TBD|UnicodeString|None|None|
-|TBD|Version|TBD|UnicodeString|None|None|
-|TBD|AccountName|TBD|UnicodeString|None|None|
-|TBD|ConversationID|TBD|UnicodeString|None|None|
-|TBD|JoiningIP|TBD|UnicodeString|None|None|
-|TBD|JoiningUser|TBD|UnicodeString|None|None|
-|TBD|Reason|TBD|UInt32|None|None|
-|TBD|MemberCount|TBD|UInt32|None|None|
-|TBD|Member|TBD|UnicodeString|None|None|
-|TBD|Sender|TBD|UnicodeString|None|None|
+|TBD|Application|UnicodeString|None|`None`|
+|TBD|Version|UnicodeString|None|`None`|
+|TBD|AccountName|UnicodeString|None|`None`|
+|TBD|ConversationID|UnicodeString|None|`None`|
+|TBD|JoiningIP|UnicodeString|None|`None`|
+|TBD|JoiningUser|UnicodeString|None|`None`|
+|TBD|Reason|UInt32|None|`None`|
+|TBD|MemberCount|UInt32|None|`None`|
+|TBD|Member|UnicodeString|None|`None`|
+|TBD|Sender|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

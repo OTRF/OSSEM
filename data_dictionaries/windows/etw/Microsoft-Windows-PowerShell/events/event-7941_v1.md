@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|currentActivityId|TBD|GUID|None|None|
-|TBD|parentActivityId|TBD|GUID|None|None|
+|TBD|currentActivityId|GUID|None|`None`|
+|TBD|parentActivityId|GUID|None|`None`|
 
 ## Tags
 * etw_level_Verbose

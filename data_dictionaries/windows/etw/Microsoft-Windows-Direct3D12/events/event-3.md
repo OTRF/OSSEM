@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|pID3D12Device|TBD|Pointer|None|None|
-|TBD|FeatureLevel|TBD|UInt32|None|None|
-|TBD|hKMAdapter|TBD|UInt32|None|None|
-|TBD|hUMAdapter|TBD|Pointer|None|None|
-|TBD|UMAdapterVersion|TBD|UInt64|None|None|
-|TBD|hKMDevice|TBD|UInt32|None|None|
-|TBD|UMDeviceVersion|TBD|UInt64|None|None|
+|TBD|pID3D12Device|Pointer|None|`None`|
+|TBD|FeatureLevel|UInt32|None|`None`|
+|TBD|hKMAdapter|UInt32|None|`None`|
+|TBD|hUMAdapter|Pointer|None|`None`|
+|TBD|UMAdapterVersion|UInt64|None|`None`|
+|TBD|hKMDevice|UInt32|None|`None`|
+|TBD|UMDeviceVersion|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Always

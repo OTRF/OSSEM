@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SoundResourceId|TBD|Int32|None|None|
+|TBD|SoundResourceId|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

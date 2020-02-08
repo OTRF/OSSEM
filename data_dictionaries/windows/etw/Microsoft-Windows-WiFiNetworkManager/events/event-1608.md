@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|dwIndex|TBD|UInt32|None|None|
-|TBD|szNetwork|TBD|AnsiString|None|None|
-|TBD|dwAuth|TBD|UInt32|None|None|
-|TBD|dwCipher|TBD|UInt32|None|None|
-|TBD|dwQuality|TBD|UInt32|None|None|
-|TBD|dwFlags|TBD|UInt32|None|None|
-|TBD|Score|TBD|Float|None|None|
-|TBD|dwCPSize|TBD|UInt32|None|None|
-|TBD|dwCPOffset|TBD|UInt32|None|None|
-|TBD|dwCredSize|TBD|UInt32|None|None|
-|TBD|dwCredOffset|TBD|UInt32|None|None|
+|TBD|dwIndex|UInt32|None|`None`|
+|TBD|szNetwork|AnsiString|None|`None`|
+|TBD|dwAuth|UInt32|None|`None`|
+|TBD|dwCipher|UInt32|None|`None`|
+|TBD|dwQuality|UInt32|None|`None`|
+|TBD|dwFlags|UInt32|None|`None`|
+|TBD|Score|Float|None|`None`|
+|TBD|dwCPSize|UInt32|None|`None`|
+|TBD|dwCPOffset|UInt32|None|`None`|
+|TBD|dwCredSize|UInt32|None|`None`|
+|TBD|dwCredOffset|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Flags|TBD|UInt32|None|None|
-|TBD|GUID|TBD|GUID|None|None|
-|TBD|Filename|TBD|UnicodeString|None|None|
-|TBD|FileCreateDisposition|TBD|UInt32|None|None|
-|TBD|Mode|TBD|UInt32|None|None|
-|TBD|MaximumInMemoryCacheSizeBytes|TBD|UInt32|None|None|
-|TBD|MaximumInMemoryCacheEntries|TBD|UInt32|None|None|
-|TBD|MaximumWriteQueueBytes|TBD|UInt32|None|None|
-|TBD|MaximumWriteQueueNumEntries|TBD|UInt32|None|None|
-|TBD|MaximumValueFileSizeBytes|TBD|UInt32|None|None|
+|TBD|Flags|UInt32|None|`None`|
+|TBD|GUID|GUID|None|`None`|
+|TBD|Filename|UnicodeString|None|`None`|
+|TBD|FileCreateDisposition|UInt32|None|`None`|
+|TBD|Mode|UInt32|None|`None`|
+|TBD|MaximumInMemoryCacheSizeBytes|UInt32|None|`None`|
+|TBD|MaximumInMemoryCacheEntries|UInt32|None|`None`|
+|TBD|MaximumWriteQueueBytes|UInt32|None|`None`|
+|TBD|MaximumWriteQueueNumEntries|UInt32|None|`None`|
+|TBD|MaximumValueFileSizeBytes|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Always

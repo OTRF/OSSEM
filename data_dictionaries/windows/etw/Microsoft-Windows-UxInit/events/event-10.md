@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|monitorConfig|TBD|Int32|None|None|
-|TBD|systemDpi|TBD|Int32|None|None|
-|TBD|IsHighContrastMode|TBD|Boolean|None|None|
-|TBD|hr|TBD|Int32|None|None|
+|TBD|monitorConfig|Int32|None|`None`|
+|TBD|systemDpi|Int32|None|`None`|
+|TBD|IsHighContrastMode|Boolean|None|`None`|
+|TBD|hr|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

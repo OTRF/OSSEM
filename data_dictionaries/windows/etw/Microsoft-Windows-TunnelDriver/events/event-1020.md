@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IpAddrV6Length|TBD|UInt32|None|None|
-|TBD|LocalIpv6Address|TBD|Binary|None|None|
-|TBD|RemoteIPv6Address|TBD|Binary|None|None|
+|TBD|IpAddrV6Length|UInt32|None|`None`|
+|TBD|LocalIpv6Address|Binary|None|`None`|
+|TBD|RemoteIPv6Address|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

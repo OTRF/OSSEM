@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WdfDeviceInit|TBD|Pointer|None|None|
+|TBD|WdfDeviceInit|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Error

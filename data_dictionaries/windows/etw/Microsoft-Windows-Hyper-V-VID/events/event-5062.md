@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|StartGpaPage|TBD|UInt64|None|None|
-|TBD|StartMbp|TBD|UInt64|None|None|
-|TBD|MbpCount|TBD|UInt64|None|None|
-|TBD|InterceptOverrideFlags|TBD|UInt32|None|None|
-|TBD|PartitionGuid|TBD|GUID|None|None|
+|TBD|StartGpaPage|UInt64|None|`None`|
+|TBD|StartMbp|UInt64|None|`None`|
+|TBD|MbpCount|UInt64|None|`None`|
+|TBD|InterceptOverrideFlags|UInt32|None|`None`|
+|TBD|PartitionGuid|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

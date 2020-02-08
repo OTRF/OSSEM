@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeDifferenceMilliseconds|TBD|UInt32|None|None|
-|TBD|TimeSampleSeconds|TBD|UInt32|None|None|
+|TBD|TimeDifferenceMilliseconds|UInt32|None|`None`|
+|TBD|TimeSampleSeconds|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

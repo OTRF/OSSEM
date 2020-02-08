@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|evtHiveNameLength|TBD|UInt16|None|None|
-|TBD|evtHiveName|TBD|UnicodeString|None|None|
+|TBD|evtHiveNameLength|UInt16|None|`None`|
+|TBD|evtHiveName|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational

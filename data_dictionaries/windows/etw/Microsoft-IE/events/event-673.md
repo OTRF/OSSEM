@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IDispLayer|TBD|Pointer|None|None|
-|TBD|fIsDraggingRequested|TBD|Boolean|None|None|
-|TBD|CDMCrossSlideDraggableTouchTarget|TBD|Pointer|None|None|
+|TBD|IDispLayer|Pointer|None|`None`|
+|TBD|fIsDraggingRequested|Boolean|None|`None`|
+|TBD|CDMCrossSlideDraggableTouchTarget|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

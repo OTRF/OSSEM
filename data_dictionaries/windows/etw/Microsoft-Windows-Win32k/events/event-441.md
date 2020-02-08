@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|NeedWaitForRit|TBD|Boolean|None|None|
-|TBD|NeedPowerOnGdi|TBD|Boolean|None|None|
+|TBD|NeedWaitForRit|Boolean|None|`None`|
+|TBD|NeedPowerOnGdi|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

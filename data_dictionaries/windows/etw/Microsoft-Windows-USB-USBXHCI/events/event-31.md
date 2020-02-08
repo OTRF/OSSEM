@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_UcxController|TBD|Pointer|None|None|
-|TBD|fid_CrbPointer|TBD|Pointer|None|None|
-|TBD|fid_Command_TRB|TBD|Binary|None|None|
+|TBD|fid_UcxController|Pointer|None|`None`|
+|TBD|fid_CrbPointer|Pointer|None|`None`|
+|TBD|fid_Command_TRB|Binary|None|`None`|
 
 ## Tags
 * etw_level_Informational

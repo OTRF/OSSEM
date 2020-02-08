@@ -6,16 +6,16 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|tag|TBD|AnsiString|None|None|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|objectCategory|TBD|UInt8|None|None|
-|TBD|stream|TBD|Pointer|None|None|
-|TBD|timestamp|TBD|Int64|None|None|
-|TBD|clock|TBD|Pointer|None|None|
-|TBD|sample|TBD|Pointer|None|None|
-|TBD|bufferSize|TBD|UInt32|None|None|
-|TBD|sampleSize|TBD|UInt32|None|None|
-|TBD|duration|TBD|Int64|None|None|
+|TBD|tag|AnsiString|None|`None`|
+|TBD|object|Pointer|None|`None`|
+|TBD|objectCategory|UInt8|None|`None`|
+|TBD|stream|Pointer|None|`None`|
+|TBD|timestamp|Int64|None|`None`|
+|TBD|clock|Pointer|None|`None`|
+|TBD|sample|Pointer|None|`None`|
+|TBD|bufferSize|UInt32|None|`None`|
+|TBD|sampleSize|UInt32|None|`None`|
+|TBD|duration|Int64|None|`None`|
 
 ## Tags
 * etw_level_Verbose

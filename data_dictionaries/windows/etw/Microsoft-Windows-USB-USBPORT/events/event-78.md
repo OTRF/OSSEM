@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|fid_USBPORT_HC|TBD|UInt8|None|None|
-|TBD|fid_IRP_Ptr|TBD|Pointer|None|None|
-|TBD|fid_URB_Ptr|TBD|Pointer|None|None|
-|TBD|fid_USBPORT_URB_HEADER|TBD|UInt64|None|None|
+|TBD|fid_USBPORT_HC|UInt8|None|`None`|
+|TBD|fid_IRP_Ptr|Pointer|None|`None`|
+|TBD|fid_URB_Ptr|Pointer|None|`None`|
+|TBD|fid_USBPORT_URB_HEADER|UInt64|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,11 +6,11 @@ This event shows that logon session was terminated and no longer exists.
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_sid|TargetUserSid|TBD|string|SID of account that was logged off.|S-1-5-90-1|
-|user_name|TargetUserName|TBD|string|the name of the account that was logged off|DQM-1|
-|user_domain|TargetDomainName|TBD|string|subject's domain or computer name.|Window Manager|
-|user_logon_id|TargetLogonId|TBD|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|0x1a0992|
-|logon_type|LogonType|TBD|integer|the type of logon which was performed.|2|
+|user_sid|TargetUserSid|string|SID of account that was logged off.|`S-1-5-90-1`|
+|user_name|TargetUserName|string|the name of the account that was logged off|`DQM-1`|
+|user_domain|TargetDomainName|string|subject's domain or computer name.|`Window Manager`|
+|user_logon_id|TargetLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x1a0992`|
+|logon_type|LogonType|integer|the type of logon which was performed.|`2`|
 
 ## Resources
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4634.md)

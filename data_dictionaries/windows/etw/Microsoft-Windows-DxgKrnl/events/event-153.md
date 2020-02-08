@@ -6,13 +6,13 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|DeviceDescriptorOffset|TBD|UInt32|None|None|
-|TBD|DeviceDescriptorLength|TBD|UInt32|None|None|
-|TBD|DeviceDescriptor|TBD|Binary|None|None|
-|TBD|MiniportContext|TBD|Pointer|None|None|
-|TBD|ChildUid|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|DeviceDescriptorBuffer|TBD|Pointer|None|None|
+|TBD|DeviceDescriptorOffset|UInt32|None|`None`|
+|TBD|DeviceDescriptorLength|UInt32|None|`None`|
+|TBD|DeviceDescriptor|Binary|None|`None`|
+|TBD|MiniportContext|Pointer|None|`None`|
+|TBD|ChildUid|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|DeviceDescriptorBuffer|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Always

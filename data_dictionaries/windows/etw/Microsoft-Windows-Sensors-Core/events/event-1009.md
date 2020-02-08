@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SENSOROBJECT|TBD|Pointer|None|None|
+|TBD|SENSOROBJECT|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Warning

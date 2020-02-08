@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|Environment|TBD|UnicodeString|None|None|
-|TBD|UploadQuota|TBD|UInt32|None|None|
-|TBD|PercentageQuotaUsed|TBD|Double|None|None|
+|TBD|Environment|UnicodeString|None|`None`|
+|TBD|UploadQuota|UInt32|None|`None`|
+|TBD|PercentageQuotaUsed|Double|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|MeasuredBandwidth|TBD|UInt32|None|None|
-|TBD|BandwidthThreshold|TBD|UInt32|None|None|
+|TBD|MeasuredBandwidth|UInt32|None|`None`|
+|TBD|BandwidthThreshold|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

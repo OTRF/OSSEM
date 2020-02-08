@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|HighMemoryEvent|TBD|UInt32|None|None|
-|TBD|HighPagedPoolEvent|TBD|UInt32|None|None|
-|TBD|LowMemoryEvent|TBD|UInt32|None|None|
-|TBD|LowPagedPoolEvent|TBD|UInt32|None|None|
+|TBD|HighMemoryEvent|UInt32|None|`None`|
+|TBD|HighPagedPoolEvent|UInt32|None|`None`|
+|TBD|LowMemoryEvent|UInt32|None|`None`|
+|TBD|LowPagedPoolEvent|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Warning

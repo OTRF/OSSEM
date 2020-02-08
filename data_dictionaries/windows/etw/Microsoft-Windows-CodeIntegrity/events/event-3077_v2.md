@@ -6,25 +6,25 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|FileNameLength|TBD|UInt16|None|None|
-|TBD|FileName|TBD|UnicodeString|None|None|
-|TBD|ProcessNameLength|TBD|UInt16|None|None|
-|TBD|ProcessName|TBD|UnicodeString|None|None|
-|TBD|RequestedSigningLevel|TBD|UInt8|None|None|
-|TBD|ValidatedSigningLevel|TBD|UInt8|None|None|
-|TBD|Status|TBD|UInt32|None|None|
-|TBD|SHA1HashSize|TBD|UInt32|None|None|
-|TBD|SHA1Hash|TBD|Binary|None|None|
-|TBD|SHA256HashSize|TBD|UInt32|None|None|
-|TBD|SHA256Hash|TBD|Binary|None|None|
-|TBD|USN|TBD|UInt64|None|None|
-|TBD|SISigningScenario|TBD|UInt32|None|None|
-|TBD|PolicyNameLength|TBD|UInt16|None|None|
-|TBD|PolicyName|TBD|UnicodeString|None|None|
-|TBD|PolicyIDLength|TBD|UInt16|None|None|
-|TBD|PolicyID|TBD|UnicodeString|None|None|
-|TBD|PolicyHashSize|TBD|UInt32|None|None|
-|TBD|PolicyHash|TBD|Binary|None|None|
+|TBD|FileNameLength|UInt16|None|`None`|
+|TBD|FileName|UnicodeString|None|`None`|
+|TBD|ProcessNameLength|UInt16|None|`None`|
+|TBD|ProcessName|UnicodeString|None|`None`|
+|TBD|RequestedSigningLevel|UInt8|None|`None`|
+|TBD|ValidatedSigningLevel|UInt8|None|`None`|
+|TBD|Status|UInt32|None|`None`|
+|TBD|SHA1HashSize|UInt32|None|`None`|
+|TBD|SHA1Hash|Binary|None|`None`|
+|TBD|SHA256HashSize|UInt32|None|`None`|
+|TBD|SHA256Hash|Binary|None|`None`|
+|TBD|USN|UInt64|None|`None`|
+|TBD|SISigningScenario|UInt32|None|`None`|
+|TBD|PolicyNameLength|UInt16|None|`None`|
+|TBD|PolicyName|UnicodeString|None|`None`|
+|TBD|PolicyIDLength|UInt16|None|`None`|
+|TBD|PolicyID|UnicodeString|None|`None`|
+|TBD|PolicyHashSize|UInt32|None|`None`|
+|TBD|PolicyHash|Binary|None|`None`|
 
 ## Tags
 * etw_level_Error

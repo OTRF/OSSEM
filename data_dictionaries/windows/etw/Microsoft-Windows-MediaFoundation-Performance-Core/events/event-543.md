@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|object|TBD|Pointer|None|None|
-|TBD|pMediaType|TBD|Pointer|None|None|
-|TBD|m_spCurrentMediaType|TBD|Pointer|None|None|
+|TBD|object|Pointer|None|`None`|
+|TBD|pMediaType|Pointer|None|`None`|
+|TBD|m_spCurrentMediaType|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

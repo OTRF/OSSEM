@@ -6,11 +6,11 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TetheringStartResult|TBD|UInt32|None|None|
-|TBD|EntitlementCheckCompletionTime|TBD|UInt32|None|None|
-|TBD|MbConnectCompletionTime|TBD|UInt32|None|None|
-|TBD|ApStartCompletionTime|TBD|UInt32|None|None|
-|TBD|IcsStartCompletionTime|TBD|UInt32|None|None|
+|TBD|TetheringStartResult|UInt32|None|`None`|
+|TBD|EntitlementCheckCompletionTime|UInt32|None|`None`|
+|TBD|MbConnectCompletionTime|UInt32|None|`None`|
+|TBD|ApStartCompletionTime|UInt32|None|`None`|
+|TBD|IcsStartCompletionTime|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

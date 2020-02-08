@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SocketOptionLevel|TBD|UInt32|None|None|
-|TBD|SocketOptionValue|TBD|UInt32|None|None|
-|TBD|Status|TBD|UInt32|None|None|
+|TBD|SocketOptionLevel|UInt32|None|`None`|
+|TBD|SocketOptionValue|UInt32|None|`None`|
+|TBD|Status|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Error

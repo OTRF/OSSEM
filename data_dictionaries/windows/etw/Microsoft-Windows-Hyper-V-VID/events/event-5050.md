@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|PageCountToBack|TBD|HexInt64|None|None|
-|TBD|KsrBlockId|TBD|UInt64|None|None|
-|TBD|PartitionGuid|TBD|GUID|None|None|
+|TBD|PageCountToBack|HexInt64|None|`None`|
+|TBD|KsrBlockId|UInt64|None|`None`|
+|TBD|PartitionGuid|GUID|None|`None`|
 
 ## Tags
 * etw_level_Informational

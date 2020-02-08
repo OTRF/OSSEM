@@ -6,10 +6,10 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|previousLatencyMode|TBD|UnicodeString|None|None|
-|TBD|IsDefault|TBD|Boolean|None|None|
-|TBD|newLatencyMode|TBD|UnicodeString|None|None|
-|TBD|HRESULT|TBD|HexInt32|None|None|
+|TBD|previousLatencyMode|UnicodeString|None|`None`|
+|TBD|IsDefault|Boolean|None|`None`|
+|TBD|newLatencyMode|UnicodeString|None|`None`|
+|TBD|HRESULT|HexInt32|None|`None`|
 
 ## Tags
 * etw_level_Verbose

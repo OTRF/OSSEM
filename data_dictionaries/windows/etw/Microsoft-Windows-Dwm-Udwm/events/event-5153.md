@@ -6,12 +6,12 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|hwnd|TBD|Pointer|None|None|
-|TBD|DPI|TBD|Int32|None|None|
-|TBD|LogicalOriginX|TBD|Int32|None|None|
-|TBD|LogicalOriginY|TBD|Int32|None|None|
-|TBD|PhysicalOriginX|TBD|Int32|None|None|
-|TBD|PhysicalOriginY|TBD|Int32|None|None|
+|TBD|hwnd|Pointer|None|`None`|
+|TBD|DPI|Int32|None|`None`|
+|TBD|LogicalOriginX|Int32|None|`None`|
+|TBD|LogicalOriginY|Int32|None|`None`|
+|TBD|PhysicalOriginX|Int32|None|`None`|
+|TBD|PhysicalOriginY|Int32|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|TimeZoneKey|TBD|UnicodeString|None|None|
-|TBD|TimeZoneDisplay|TBD|UnicodeString|None|None|
-|TBD|TimeZoneMUIDisplay|TBD|UnicodeString|None|None|
+|TBD|TimeZoneKey|UnicodeString|None|`None`|
+|TBD|TimeZoneDisplay|UnicodeString|None|`None`|
+|TBD|TimeZoneMUIDisplay|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Error

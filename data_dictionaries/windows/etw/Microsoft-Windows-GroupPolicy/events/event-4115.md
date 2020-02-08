@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsServiceRestart|TBD|Boolean|None|None|
-|TBD|IsMachineBoot|TBD|Boolean|None|None|
+|TBD|IsServiceRestart|Boolean|None|`None`|
+|TBD|IsMachineBoot|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Informational

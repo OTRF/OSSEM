@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|IsPerformingMicrotaskCheckpoint|TBD|Boolean|None|None|
+|TBD|IsPerformingMicrotaskCheckpoint|Boolean|None|`None`|
 
 ## Tags
 * etw_level_Always

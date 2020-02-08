@@ -6,7 +6,7 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SlotIndex|TBD|UInt32|None|None|
+|TBD|SlotIndex|UInt32|None|`None`|
 
 ## Tags
 * version_2

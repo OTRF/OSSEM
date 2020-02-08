@@ -6,9 +6,9 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ProtocolHandler|TBD|Pointer|None|None|
-|TBD|URL|TBD|UnicodeString|None|None|
-|TBD|IInternetProtocolSink|TBD|Pointer|None|None|
+|TBD|ProtocolHandler|Pointer|None|`None`|
+|TBD|URL|UnicodeString|None|`None`|
+|TBD|IInternetProtocolSink|Pointer|None|`None`|
 
 ## Tags
 * etw_level_Informational

@@ -6,8 +6,8 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WarpDrawListCachesInvalidated|TBD|UInt32|None|None|
-|TBD|WarpDrawListCachesUpdated|TBD|UInt32|None|None|
+|TBD|WarpDrawListCachesInvalidated|UInt32|None|`None`|
+|TBD|WarpDrawListCachesUpdated|UInt32|None|`None`|
 
 ## Tags
 * etw_level_Informational

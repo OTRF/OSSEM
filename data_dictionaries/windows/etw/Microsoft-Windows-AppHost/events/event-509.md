@@ -6,17 +6,17 @@ None
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|WindowType|TBD|Int32|None|None|
-|TBD|WebPlatformSuspendDownloadPending|TBD|Boolean|None|None|
-|TBD|WebPlatformCleanupPending|TBD|Boolean|None|None|
-|TBD|WerReportDuringSuspend|TBD|Boolean|None|None|
-|TBD|suspendSubdownloadsCount|TBD|Int32|None|None|
-|TBD|NewTimeout|TBD|Int32|None|None|
-|TBD|CurrentTimeout|TBD|Int32|None|None|
-|TBD|PID|TBD|Int32|None|None|
-|TBD|TID|TBD|Int32|None|None|
-|TBD|PackageFullName|TBD|UnicodeString|None|None|
-|TBD|AppUserModelId|TBD|UnicodeString|None|None|
+|TBD|WindowType|Int32|None|`None`|
+|TBD|WebPlatformSuspendDownloadPending|Boolean|None|`None`|
+|TBD|WebPlatformCleanupPending|Boolean|None|`None`|
+|TBD|WerReportDuringSuspend|Boolean|None|`None`|
+|TBD|suspendSubdownloadsCount|Int32|None|`None`|
+|TBD|NewTimeout|Int32|None|`None`|
+|TBD|CurrentTimeout|Int32|None|`None`|
+|TBD|PID|Int32|None|`None`|
+|TBD|TID|Int32|None|`None`|
+|TBD|PackageFullName|UnicodeString|None|`None`|
+|TBD|AppUserModelId|UnicodeString|None|`None`|
 
 ## Tags
 * etw_level_Informational
