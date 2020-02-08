@@ -27,9 +27,9 @@
 {%- endif %}
 {%- endfor %}
 {%- endif %}
-{% if entry['resources'] %}
-## Resources
-{%- for resource in entry['resources'] %}
-* [{{resource['text']}}]({{resource['link']}})
+{% if entry['references'] %}
+## References
+{%- for reference in entry['references'] %}
+* [{{reference['text']}}]({{reference['link']}})
 {%- endfor %}
 {%- endif %}

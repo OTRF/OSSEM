@@ -8,16 +8,16 @@
 |{{row['standard_name']}}|{{row['field_name']}}|{{row['type']}}|{{row['description']}}|{{row['sample_value']}}|
 {%- endfor %}
 
-{%- if entry['resources'] %}
+{%- if entry['references'] %}
 
-## Resources
-{%- for resource in entry['resources'] %}
-* [{{resource['text']}}]({{resource['link']}})
+## References
+{%- for reference in entry['references'] %}
+* [{{reference['text']}}]({{reference['link']}})
 {%- endfor %}
 {% endif %}
 {%- if entry['tags'] %}
 ## Tags
-{%- for tag in entry['resources'] %}
+{%- for tag in entry['tags'] %}
 * {{tag}}
 {%- endfor %}
 {%- endif %}

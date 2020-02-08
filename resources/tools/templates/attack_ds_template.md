@@ -11,14 +11,14 @@
 {% endif %}
 
 {% if entry['resources'] %}
-## Resources
-{%- for resource in entry['resources'] %}
+## References
+{%- for resource in entry['references'] %}
 * [{{resource['text']}}]({{resource['link']}})
 {%- endfor %}
 {% endif %}
 {% if entry['tags'] %}
 ## Tags
-{%- for tag in entry['resources'] %}
+{%- for tag in entry['tags'] %}
 * {{tag}}
 {%- endfor %}
 {% endif %}

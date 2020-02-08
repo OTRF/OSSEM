@@ -10,7 +10,7 @@
 |{{row['standard_name']}}|{{row['name']}}|{{row['type']}}|{{row['description']}}|`{{row['sample_value']}}`|
 {%- endfor %}
 {% if entry['references'] %}
-## Resources
+## References
 {%- for resource in entry['references'] %}
 * [{{resource['text']}}]({{resource['link']}})
 {%- endfor %}

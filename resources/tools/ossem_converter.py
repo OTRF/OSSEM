@@ -179,7 +179,7 @@ class ossemParser():
                                 'title': md.renderer.get_title(),
                                 'description': md.renderer.get_description(),
                                 'data_fields': md.renderer.get_data_fields(),
-                                'resources': md.renderer.get_resources(),
+                                'references': md.renderer.get_resources(),
                                 'tags': md.renderer.get_tags()})
 
                     #parse dd
@@ -222,7 +222,7 @@ class ossemParser():
                                 'title': md.renderer.get_title(),
                                 'description': md.renderer.get_description(),
                                 'data_fields': md.renderer.get_data_fields(),
-                                'resources': md.renderer.get_resources(),
+                                'references': md.renderer.get_resources(),
                                 'tags': md.renderer.get_tags()})
 
                     #parse ds
@@ -241,7 +241,7 @@ class ossemParser():
                                 'title': md.renderer.get_title(),
                                 'description': md.renderer.get_description(),
                                 'data_fields': md.renderer.get_data_fields(),
-                                'resources': md.renderer.get_resources(),
+                                'references': md.renderer.get_resources(),
                                 'tags': md.renderer.get_tags()})
 
                 #parse md index files
