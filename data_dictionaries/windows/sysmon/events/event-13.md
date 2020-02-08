@@ -16,6 +16,6 @@ This Registry event type identifies Registry value modifications. The event reco
 |registry_key_path|TargetObject|string|complete path of the registry key|`HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Notifications\Data\418A073AA3BC3475`|
 |registry_key_details|Details|string|Details added to the registry key|`Binary Data`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-13-registryevent-value-set)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md)

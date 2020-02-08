@@ -7,7 +7,7 @@ Currently this event doesn’t generate. It is a defined event, but it is never 
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4777.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Category - Detailed Tracking](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking)

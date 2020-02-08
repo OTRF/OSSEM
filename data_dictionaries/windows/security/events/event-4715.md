@@ -13,7 +13,7 @@ This event generates every time local audit policy security descriptor changes.
 |object_old_sd|OldSd|string|the old Security Descriptor Definition Language (SDDL) value for the audit policy.|`D:(A;;DCSWRPDTRC;;;BA)(D;;DCSWRPDTRC;;;SY)S:NO_ACCESS_CONTROL`|
 |object_new_sd|NewSd|string|new Security Descriptor Definition Language (SDDL) value for the audit policy.|`D:(A;;DCSWRPDTRC;;;BA)(A;;DCSWRPDTRC;;;SY)S:NO_ACCESS_CONTROL`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4715.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Policy Change](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md)

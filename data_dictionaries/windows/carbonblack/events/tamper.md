@@ -14,5 +14,5 @@ A process tampered with a critical Carbon Black userspace process or kernel driv
 |event_date_creation|timestamp|INTEGER|Endpoint timestamp of this event since epoch|`1450470603`|
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.tamper`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-tamper-cb-response-tamper)

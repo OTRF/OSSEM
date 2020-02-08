@@ -15,7 +15,7 @@ This event is generated when Windows is configured to generate alerts in accorda
 |TBD|EventCount|integer||`10`|
 |TBD|Duration|string||`"Hour"`|
 
-## Resources
+## References
 * [MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4618.md)
 * [MS Security Auditing Category - System](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system)
 * [MS Security Auditing Sub-category - Audit System Integrity](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-system-integrity.md)

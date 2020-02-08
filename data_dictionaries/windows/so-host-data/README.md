@@ -16,6 +16,6 @@ None
 |[process](events/process.md)|Get-SOHostData enumerates active processes on the scanned system. To do this it combines the output of PowerShell's Get-Process cmdlet and the Win32_Process WMI class.||
 |[thread](events/thread.md)|Get-SOHostData enumerates active threads as reported by PowerShell's Get-Process cmdlet. Every resulting Process instance has a Threads property which contains a list of Threads contained within that Process.||
 
-## Resources
+## References
 * [Defenders Think in Graphs Too! Part 2](https://posts.specterops.io/defenders-think-in-graphs-too-part-2-b1fd751525d1)
 * [jaredcatkinson's Get-SOHostData.ps1 GIST](https://gist.github.com/jaredcatkinson/d889aaa3355f5e37cf1653f5b849da31)

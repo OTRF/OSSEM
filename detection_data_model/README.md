@@ -11,7 +11,7 @@ This part of the project focuses on defining the required data in form of data o
 |[Process Object Relationships](tables/process-object-relationships.md)|None||
 |[User Object Relationships](tables/user-object-relationships.md)|None||
 
-## Resources
+## References
 * [CAR Analytics](https://car.mitre.org/wiki/Main_Page)
 * [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model)
 * [STIX Cybox ObjectRelationshipVOcab-1.1](http://stixproject.github.io/data-model/1.2/cyboxVocabs/ObjectRelationshipVocab-1.1/)

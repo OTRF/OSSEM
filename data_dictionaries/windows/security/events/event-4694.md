@@ -16,7 +16,7 @@ This event generates if DPAPI  CryptProtectData() function was used with CRYPT
 |TBD|MasterKeyId|string|-|`UI1`|
 |TBD|ProtectedDataFlags|string|-|`0x10`|
 
-## Resources
+## References
 * [MS Source](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4694)
 * [MS Security Auditing Category - Detailed Tracking](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking)
 * [MS Security Auditing Sub-category - Audit DPAPI Activity](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-dpapi-activity)

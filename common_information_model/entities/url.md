@@ -20,6 +20,6 @@ URL data can be seen in various log sources as defined in http.md as well as oth
 |url_user_name||string|The username defined in the URL. This is meant to be distinguished from something such as the value in the Authorization header in an HTTP request (or even the Proxy Authentication HTTP header). This value should be copied to any.md|BigwheelBobUser|
 |url_user_password||string|The password defined in the URL. This is meant to be distinguished from something such as the value in the Authorization header in an HTTP request (or even the Proxy Authentication HTTP header)|BigwheelPassword|
 
-## Resources
+## References
 * [HTTP](http.md)
 * [RFC-3986](https://tools.ietf.org/html/rfc3986#section-3.5)

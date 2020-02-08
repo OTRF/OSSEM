@@ -27,5 +27,5 @@ A network connection has been received or initiated by an endpoint monitored by 
 |event_date_creation|timestamp|INTEGER|Endpoint timestamp of this event since epoch|`1447697666`|
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.netconn`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-netconn-network-connection)

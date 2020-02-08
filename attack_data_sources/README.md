@@ -11,7 +11,7 @@ This part of the OSSEM project focuses on the documentation of ATT&amp;CK data s
 |---|---|---|
 |[Data Sources](tables/Data_Sources.md)|None||
 
-## Resources
+## References
 * [Enterprise Matrix](https://attack.mitre.org/wiki/Technique_Matrix)
 * [Jupyter notebook to explore ATT&amp;CK data sources](https://github.com/Cyb3rWard0g/ATTACK-Python-Client/blob/master/notebooks/ATT%26CK_DataSources.ipynb)
 * [ATT&amp;CKcon 2018 - Slides and demos documents](https://github.com/Cyb3rWard0g/presentations/tree/master/ATTACKcon)

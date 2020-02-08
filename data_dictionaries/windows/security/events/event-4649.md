@@ -21,7 +21,7 @@ Domain controllers cache information from recently received tickets. If the serv
 |process_id|ProcessId|string|hexadecimal Process ID of the process.|`0xb9adc08`|
 |process_path|ProcessName|string|full path and the name of the executable for the process.|`C:\Windows\System32\dns.exe`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4649.md)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)
 * [MS Security Auditing Sub-category - Audit Other Logon/Logoff Events](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/audit-other-logonlogoff-events.md)

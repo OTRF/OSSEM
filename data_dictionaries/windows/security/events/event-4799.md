@@ -16,7 +16,7 @@ This event generates when a process enumerates the members of a security-enabled
 |process_id|CallerProcessId|integer|hexadecimal Process ID of the process that enumerated the members of the group. Process ID (PID) is a number used by the operating system to uniquely identify an active process. You can also correlate this process ID with a process ID in other events, for example, "4688: A new process has been created" Process Information\New Process ID.|`0xc80`|
 |process_path|CallerProcessName|string|full path and the name of the executable for the process.|`C:\Windows\System32\mmc.exe`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4799.md)
 * [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
 * [MS Security Auditing Sub-category - Audit Security Group Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-group-management.md)

@@ -6,3 +6,7 @@ Zeek can connect with network devices like, for example, switches or soft- and h
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+
+## References
+* [Network Control Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#netcontrol)
+* [Network Control Framework Description](https://docs.zeek.org/en/stable/frameworks/netcontrol.html)

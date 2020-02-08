@@ -10,7 +10,7 @@ When you create or edit a Windows Firewall rule, the settings that you can inclu
 |rule_id|RuleId|string|the unique identifier for ignored firewall rule.|`{08CBB349-D158-46BE-81E1-2ABC59BDD523}`|
 |rule_name|RuleName|string|the unique identifier for ignored firewall rule.|`-`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4951.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md)

@@ -10,5 +10,5 @@ This event logs when the local sysmon configuration is updated.
 |sysmon_configuration|Configuration|string|name of the sysmon config file being updated|`C:\Tools\sysmon_config\StartLogging.xml`|
 |sysmon_configuration_hash|ConfigurationFileHash|string|hash (SHA1) of the sysmon config file being updated|`SHA1=647B4A564FA2684252EFB1EA550A06EC432418C8`|
 
-## Resources
+## References
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/sysmon-events.md#service-state-change)

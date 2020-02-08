@@ -16,7 +16,7 @@ This event generates when new service was installed in the system.
 |service_start_type|ServiceStartType|integer|The service start type can have one of the following values (see: https://msdn.microsoft.com/library/windows/desktop/ms682450(v=vs.85).aspx)|`2`|
 |service_type|ServiceType|integer|Indicates the type of service that was registered with the Service Control Manager.|`0x20`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4697.md)
 * [MS Security Auditing Category - System](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system)
 * [MS Security Auditing Sub-category - Audit Security System Extension](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-system-extension.md)

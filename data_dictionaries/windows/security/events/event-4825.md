@@ -11,7 +11,7 @@ This event is generated when an authenticated user who is not allowed to log on 
 |user_logon_id|LogonID|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x109d9755e`|
 |src_ip_addr|ClientAddress|integer|IP address of the computer from which the session was disconnected|`10.10.10.10`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4825.md)
 * [MS Security Auditing Category - System](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system)
 * [MS Security Auditing Sub-category - Audit Other System Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md)

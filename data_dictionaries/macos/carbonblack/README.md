@@ -15,5 +15,5 @@ Carbon Black data schema as defined by the Carbon Black Developer Resources.
 |[netconn](events/netconn.md)|A network connection has been received or initiated by an endpoint monitored by Carbon Black.||
 |[proc](events/proc.md)|A new process has started (or exited) on an endpoint monitored by Carbon Black.||
 
-## Resources
+## References
 * [Carboon Black Event Schema](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/)

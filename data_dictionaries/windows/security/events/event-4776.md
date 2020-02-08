@@ -11,7 +11,7 @@ This event generates every time that a credential validation occurs using NTLM a
 |src_host_name|Workstation|string|The name of the computer from which the logon attempt originated.|`WIN81`|
 |event_status|Status|integer|Contains error code for Failure events. For Success events this parameter has "0x0" value.|`0xc0000234`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4776.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Category - Detailed Tracking](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking)

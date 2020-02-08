@@ -20,7 +20,7 @@ This event generates with "4624(S): An account was successfully logged on" and s
 |logon_user_claims|UserClaims|string|list of user claims for new logon session. This field contains user claims if user account was logged in and device claims if computer account was logged in|`ad://ext/cn:88d2b96fdb2b4c49 <%%1818> : "dadmin" ad://ext/Department:88d16a8edaa8c66b <%%1818> : "IT"`|
 |logon_device_claims|DeviceClaims|string|list of device claims for new logon session|`-`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4627.md)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)
 * [MS Security Auditing Sub-category - Audit Group Membership](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-group-membership.md)

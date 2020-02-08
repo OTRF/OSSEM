@@ -17,7 +17,7 @@ None
 |[ProcessCreationEvents](events/ProcessCreationEvents.md)|Process creation and related events||
 |[RegistryEvents](events/RegistryEvents.md)|Creation and modification of registry entries||
 
-## Resources
+## References
 * [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 * [Advanced Hunting with WDATP](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection)
 * [Field Reference](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/advanced-hunting-reference-windows-defender-advanced-threat-protection)

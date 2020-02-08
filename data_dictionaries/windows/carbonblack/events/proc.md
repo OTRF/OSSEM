@@ -28,5 +28,5 @@ A new process has started (or exited) on an endpoint monitored by Carbon Black.
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.procstart`|
 |user_name|username|TEXT|Username used to create child process|`SYSTEM`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-procstart-process-start)

@@ -19,7 +19,7 @@ This event generates when an attempt is made to perform privileged operations on
 |process_id|ProcessId|integer|hexadecimal Process ID of the process that attempted the operation on the privileged object.|`0x1f0`|
 |process_path|ProcessName|string|full path and the name of the executable for the process.|`C:\Windows\System32\lsass.exe`|
 
-## Resources
+## References
 * [MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4674.md)
 * [MS Security Auditing Category - Privilege Use](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#privilege-use)
 * [MS Security Auditing Sub-category - Audit Sensitive Privilege Use](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-sensitive-privilege-use.md)

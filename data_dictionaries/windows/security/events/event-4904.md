@@ -15,7 +15,7 @@ This event generates every time a new security event source.
 |process_id|ProcessId|integer|hexadecimal Process ID of the process that attempted to register the security event source.|`0x688`|
 |process_path|ProcessName|||`C:\Windows\System32\svchost.exe`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4904.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Policy Change](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md)

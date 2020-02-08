@@ -16,7 +16,7 @@ This event generates if an attempt was made to duplicate a handle to an object.
 |target_object_handle_id|TargetHandleId|integer|hexadecimal value of the new handle (the copy of Source Handle ID).|`0xd9c`|
 |target_process_id|TargetProcessId|integer|hexadecimal Process ID of the process which opened the Target Handle ID.|`0x4`|
 
-## Resources
+## References
 * [MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4690.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Handle Manipulation](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-handle-manipulation.md)

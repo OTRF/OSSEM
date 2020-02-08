@@ -763,3 +763,8 @@ WPA consumes the event trace log (ETL) file that all event providers produce in 
 |[Microsoft-Windows-WiFiNetworkManager ETW events](Microsoft-Windows-WiFiNetworkManager/)|This page contains the list of events for Microsoft-Windows-WiFiNetworkManager, as collected by the Event Tracing for Windows.|
 |[Microsoft-Windows-Runtime-Networking ETW events](Microsoft-Windows-Runtime-Networking/)|This page contains the list of events for Microsoft-Windows-Runtime-Networking, as collected by the Event Tracing for Windows.|
 |[Microsoft-Windows-Crypto-NCrypt ETW events](Microsoft-Windows-Crypto-NCrypt/)|This page contains the list of events for Microsoft-Windows-Crypto-NCrypt, as collected by the Event Tracing for Windows.|
+
+## References
+* [MS Source](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-)
+* [Threat Hunting with ETW events and HELK Series](https://medium.com/threat-hunters-forge/threat-hunting-with-etw-events-and-helk-part-1-installing-silketw-6eb74815e4a0)
+* [Windows Event Forwarding & .ETL (ETW)](https://blog.neu5ron.com/2017/03/windows-event-forwarding-etl-etw.html)

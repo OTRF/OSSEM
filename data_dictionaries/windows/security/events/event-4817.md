@@ -16,7 +16,7 @@ This event generates when the Global Object Access Auditing.
 |object_old_sd|OldSd|string|the old Security Descriptor Definition Language (SDDL) value for the Global Object Access Auditing policy.|`None`|
 |object_new_Sd|NewSd|string|the new Security Descriptor Definition Language (SDDL) value for the Global Object Access Auditing policy.|`S:(AU;SA;RC;;;S-1-5-21-3457937927-2839227994-823803824-1104)`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4817.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Policy Change](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md)

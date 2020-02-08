@@ -15,7 +15,7 @@ There is no example of this event in this document.
 |file_name|FileName|string|the name of a file or folder that the virtualized file name refers to.|`C:\notepad.exe`|
 |file_virtual_name|VirtualFileName|string|full path name with virtualized file name.|`C:\Docs\My.exe`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5051.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit File System](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-system.md)

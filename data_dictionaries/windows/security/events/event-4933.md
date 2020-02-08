@@ -14,7 +14,7 @@ This event generates every time synchronization of a replica of an Active Direct
 |end_usn|EndUSN|integer|Naming Context's USN number after replication ends.|`20869`|
 |status_code|StatusCode|integer|if there are no issues or errors, the status code will be "0". If an error happened, you will receive Failure event and Status Code will not be equal to "0".|`1722`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4933.md)
 * [MS Security Auditing Category - DS Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access)
 * [MS Security Auditing Sub-category - Audit Directory Service Replication](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-replication.md)

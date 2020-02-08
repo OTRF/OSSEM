@@ -18,7 +18,7 @@ This event generates every time installation of this device is forbidden by syst
 |compatible_ids|CompatibleIds|string|"Compatible Ids" attribute of device.|`USB\Class_03&SubClass_00&Prot_00 USB\Class_03&SubClass_00 USB\Class_03`|
 |location_information|LocationInformation|string|"Location information" attribute of device.|`Port#0002.Hub#0004`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-6423.md)
 * [MS Security Auditing Category - Detailed Tracking](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking)
 * [MS Security Auditing Sub-category - Audit PNP Activity](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-pnp-activity.md)

@@ -24,5 +24,5 @@ Interactive filesystem attributes and metadata.
 |file_symlink|symlink|INTEGER|1 if the path is a symlink, otherwise 0|``|
 |file_type|type|TEXT|File status|``|
 
-## Resources
+## References
 * [osquery GitHub](https://github.com/facebook/osquery/blob/master/specs/utility/file.table)

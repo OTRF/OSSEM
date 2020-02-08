@@ -22,7 +22,7 @@ This event generates every time a new process starts.
 |process_parent_path|ParentProcessName|string|full path and the name of the executable for the process.|`C:\Windows\explorer.exe`|
 |process_mandatory_sid|MandatoryLabel|string|SID of integrity label which was assigned to the new process.|`S-1-16-8192`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4688.md)
 * [MS Security Auditing Category - Detailed Tracking](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking)
 * [MS Security Auditing Sub-category - Audit Process Creation](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-process-creation.md)

@@ -12,7 +12,7 @@ This event is generated when screen saver was dismissed.
 |user_logon_id|TargetLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x759a9`|
 |user_session_id|SessionId|integer|unique ID of a session for which screen saver was dismissed. You can see the list of current session IDs using "query session" command in command prompt.|`3`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4803.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)

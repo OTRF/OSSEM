@@ -15,7 +15,7 @@ This event generates when 802.1x authentication attempt was made for wired netwo
 |event_reason_text|ReasonText|string|contains Reason Text (explanation of Reason Code) and Reason Code for wired authentication results.|`The network does not support authentication`|
 |event_error_code|ErrorCode|string|hexadecimal error code|`0x0`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5633.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)

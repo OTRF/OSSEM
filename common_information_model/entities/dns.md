@@ -32,7 +32,7 @@ It is important to remember that in DNS logs their are multiple servers that may
 |dns_transaction_id||integer|Hexadecimal identifier assigned by the program that generated the DNS query. Is 16-bit. Can be used to match up DNS requests across software/clients|4D11|
 |dns_transaction_id_hex||string|dns_transaction_id in decimal format|19729|
 
-## Resources
+## References
 * [RFC2181](https://tools.ietf.org/html/rfc2181#section-5.4.1)
 * [RFC 2535](https://tools.ietf.org/html/rfc3655#section-6.1)
 * [see RFC5395](https://tools.ietf.org/html/rfc5395)

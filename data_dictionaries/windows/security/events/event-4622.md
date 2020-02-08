@@ -11,7 +11,7 @@ It is also possible to add security package dynamically using AddSecurityPackage
 |---|---|---|---|---|
 |logon_security_package_name|SecurityPackageName|string|the name of loaded Security Package. The format is: DLL_PATH_AND_NAME: SECURITY_PACKAGE_NAME.|`C:\Windows\system32\kerberos.DLL : Kerberos`|
 
-## Resources
+## References
 * [MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4622.md)
 * [MS Security Auditing Category - System](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system)
 * [MS Security Auditing Sub-category - Audit Security System Extension](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-system-extension.md)

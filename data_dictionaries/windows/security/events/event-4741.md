@@ -35,7 +35,7 @@ This event generates every time a new computer object is created. This event gen
 |target_host_dns_host_name|DnsHostName|string|name of computer account as registered in DNS. The value of dNSHostName attribute of new computer object. For manually created computer account objects this field has value "-".|`Win81.contoso.local`|
 |target_host_service_principal_names|ServicePrincipalNames|string|The list of SPNs, registered for computer account. For new computer accounts it will typically contain HOST SPNs and RestrictedKrbHost SPNs. The value of servicePrincipalName attribute of new computer object. For manually created computer objects it is typically equals "-". This is an example of Service Principal Names field for new domain joined workstation:|`HOST/Win81.contoso.local RestrictedKrbHost/Win81.contoso.local HOST/WIN81 RestrictedKrbHost/WIN81`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4741.md)
 * [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
 * [MS Security Auditing Sub-category - Audit Computer Account Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-computer-account-management.md)

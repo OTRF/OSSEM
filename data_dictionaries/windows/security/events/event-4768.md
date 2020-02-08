@@ -21,7 +21,7 @@ This event generates every time Key Distribution Center issues a Kerberos Ticket
 |certificate_serial_number|CertSerialNumber|string|smart card certificate's serial number. Can be found in Serial number field in the certificate.|`1D0000000D292FBE3C6CDDAFA200020000000D`|
 |certificate_hash_sha1|CertThumbprint|string|smart card certificate's thumbprint. Can be found in Thumbprint field in the certificate.|`564DFAEE99C71D62ABC553E695BD8DBC46669413`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4768.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Sub-category - Audit Kerberos Authentication Service](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-kerberos-authentication-service.md)

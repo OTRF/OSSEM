@@ -14,6 +14,6 @@ This event logs when a named pipe connection is made between a client and a serv
 |process_name|Image|string|File name of the process that connected the pipe|`wmiprvse.exe`|
 |process_path|Image|string|File path of the process that connected the pipe|`C:\WINDOWS\system32\wbem\wmiprvse.exe`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-18-pipeevent-pipe-connected)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/named-pipes.md)

@@ -19,5 +19,5 @@ List all installed Windows services and their relevant data.
 |service_description|description|TEXT|Service Description|``|
 |user_name|user_account|TEXT|The name of the account that the service process will be logged on as when it runs. This name can be of the form Domain\UserName. If the account belongs to the built-in domain, the name can be of the form .\UserName.|``|
 
-## Resources
+## References
 * [osquery GitHub](https://github.com/facebook/osquery/blob/master/specs/windows/services.table)

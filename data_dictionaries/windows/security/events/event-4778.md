@@ -13,7 +13,7 @@ This event is generated when a user reconnects to an existing Terminal Services 
 |src_host_name|ClientName|string|computer name from which the user was reconnected. Has "Unknown" value for console session.|`WIN81`|
 |src_ip_addr|ClientAddress|ip|IP address of the computer from which the user was reconnected|`10.0.0.100`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4778.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)

@@ -12,5 +12,5 @@ Named and Anonymous pipes.
 |pipe_max_instances|max_instances|INTEGER|The maximum number of instances creatable for this pipe|``|
 |pipe_flags|flags|TEXT|The flags indicating whether this pipe connection is a server or client end, and if the pipe for sending messages or bytes|``|
 
-## Resources
+## References
 * [osquery GitHub](https://github.com/facebook/osquery/blob/master/specs/windows/pipes.table)

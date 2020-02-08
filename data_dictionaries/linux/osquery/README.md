@@ -8,6 +8,6 @@ Osquery schema is defined in tables by osquery engineers.
 |---|---|---|
 |[file](events/file.md)|Interactive filesystem attributes and metadata.||
 
-## Resources
+## References
 * [osquery schema 3.2.4 (website)](https://osquery.io/schema/3.2.4)
 * [osquery schema linux specs (GitHub)](https://github.com/facebook/osquery/tree/master/specs/linux)

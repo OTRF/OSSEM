@@ -208,7 +208,7 @@ You can use Windows security and system logs to record and store collected secur
 |[6422](events/event-6422.md)|This event generates every time specific device was enabled.|Detailed Tracking, Audit PNP Activity|
 |[6423](events/event-6423.md)|This event generates every time installation of this device is forbidden by system policy.|Detailed Tracking, Audit PNP Activity|
 
-## Resources
+## References
 * [Download Security Audit Events for Windows - Published 6/17/2016 (Word Doc)](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
 * [Download Security Audit Events for Windows - Published 5/5/2016 (Excel Doc)](https://www.microsoft.com/en-us/download/details.aspx?id=50034)
 * [Advanced Security Audit Policy Settings](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings)

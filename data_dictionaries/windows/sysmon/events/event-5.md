@@ -13,6 +13,6 @@ The process terminate event reports when a process terminates. It provides the U
 |process_name|Image|string|The name of the executable of the process that terminated|`backgroundTaskHost.exe`|
 |process_path|Image|string|File path of the process that terminated|`C:\Windows\System32\backgroundTaskHost.exe`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-5-process-terminated)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-termination.md)

@@ -15,6 +15,6 @@ File create operations are logged when a file is created or overwritten. This ev
 |file_name|TargetFilename|string|Name of the file|`C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf`|
 |file_date_creation|CreationUtcTime|date|File creation time|`12/4/17 17:38`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-11-filecreate)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/file-create.md)

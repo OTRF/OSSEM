@@ -20,3 +20,6 @@ The main field to pivot across will be normalized to event_uid and all other UID
 |[Zeek Files Event Logs](files/)|Metadata about files, certificates, and executables that is in addition to the network data.|
 |[Zeek Network Control Event Logs](netcontrol/)|Zeek can connect with network devices like, for example, switches or soft- and hardware firewalls using the NetControl framework. The NetControl framework provides a flexible, unified interface for active response and hides the complexity of heterogeneous network equipment behind a simple task-oriented API, which is easily usable via Zeek scripts.|
 |[Zeek Detection Event Logs](detection/)|Events related to detection or indicators as well as other things that could or would be considered an alert or something you would want to know occurs.|
+
+## References
+* [Zeek Website](https://docs.zeek.org/en/stable/script-reference/log-files.html)

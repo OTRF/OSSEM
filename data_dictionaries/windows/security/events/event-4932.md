@@ -13,7 +13,7 @@ This event generates every time synchronization of a replica of an Active Direct
 |session_id|SessionID|integer|unique identifier of replication session. Using this field you can find "4932: Synchronization of a replica of an Active Directory naming context has begun." and "4933: Synchronization of a replica of an Active Directory naming context has ended." events for the same session.|`48`|
 |start_usn|StartUSN|integer|Naming Context's USN number before replication begins.|`20869`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4932.md)
 * [MS Security Auditing Category - DS Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access)
 * [MS Security Auditing Sub-category - Audit Directory Service Replication](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-replication.md)

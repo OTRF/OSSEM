@@ -23,5 +23,5 @@ Also, if the HTTP connection is from a decrypted/MITM HTTPS/TLS session then por
 |http_version||string|HTTP version|1.1|
 |user_agent_original||string|The User agent seen in an HTTP request|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36|
 
-## Resources
+## References
 * [common HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)

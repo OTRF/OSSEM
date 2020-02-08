@@ -23,5 +23,5 @@ A file on the filesystem has been created, deleted, or modified on an endpoint m
 |event_date_creation|timestamp|INTEGER|Endpoint timestamp of this event since epoch|`1447696804`|
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.filemod`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-filemod-file-modification)

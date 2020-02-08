@@ -32,5 +32,5 @@ https://docs.zeek.org/en/stable/scripts/base/protocols/conn/main.zeek.html#base-
 |dst_mac|resp_l2_addr|string|present if policy/protocols/conn/mac-logging.bro is loaded Link-layer address of the responder, if available.|`00:09:0f:db:f4:3e`|
 |dst_packets|resp_pkts|integer|Number of packets that the responder sent|`3`|
 
-## Resources
+## References
 * [Zeek Source](https://docs.zeek.org/en/stable/scripts/base/protocols/conn/main.zeek.html#base-protocols-conn-main-zeek)

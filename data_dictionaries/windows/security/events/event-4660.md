@@ -16,7 +16,7 @@ This event generates when an object was deleted. The object could be a file syst
 |process_path|ProcessName|string|full path and the name of the executable for the process.|`C:\Windows\explorer.exe`|
 |transaction_guid|TransactionId|string|unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID, such as "4656(S, F): A handle to an object was requested."|`{00000000-0000-0000-0000-000000000000}`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4660.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit File System](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-system.md)

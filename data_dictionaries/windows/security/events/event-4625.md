@@ -28,7 +28,7 @@ This event generates if an account logon attempt failed when the account was alr
 |src_ip_addr|IpAddress|integer|IP address of machine from which logon attempt was performed|`127.0.0.1`|
 |src_port|IpPort|string|source port which was used for logon attempt from remote machine. 0 for interactive logons|`0`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4625.md)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)
 * [MS Security Auditing Sub-category - Audit Account Lockout](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-account-lockout.md)

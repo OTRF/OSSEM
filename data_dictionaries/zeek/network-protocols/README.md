@@ -38,3 +38,8 @@ Network protocol/application logs containing all the metadata it collects and re
 |[syslog](events/syslog.md)|None||
 |[tunnel](events/tunnel.md)|None||
 |[xmpp](events/xmpp.md)|None||
+
+## References
+* [Network Protocol Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-protocols)
+* [Network Protocol Analyzers](https://docs.zeek.org/en/stable/script-reference/proto-analyzers.html)
+* [Logging Framework Description](https://docs.zeek.org/en/stable/frameworks/logging.html)

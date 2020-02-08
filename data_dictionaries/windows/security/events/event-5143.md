@@ -22,7 +22,7 @@ This event generates every time network share object was modified.
 |share_old_sd|OldSD|string|the old Security Descriptor Definition Language (SDDL) value for network share security descriptor.|`-`|
 |share_new_sd|NewSD|string|the new Security Descriptor Definition Language (SDDL) value for network share security descriptor.|`O:BAG:DAD:(D;;FA;;;S-1-5-21-3457937927-2839227994-823803824-1104)(A;OICI;FA;;;WD)(A;OICI;FA;;;BA)`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5143.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit File Share](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-share.md)

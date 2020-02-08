@@ -26,6 +26,6 @@ Beginning in Windows PowerShell 3.0, you can record execution events for the cmd
 |powershell_connected_user|Connected User|string||``|
 |powershell_shell_id|Shell ID|string||`Microsoft.PowerShell`|
 
-## Resources
+## References
 * [Investigating PowerShell Attacks - Mandiant](https://www.defcon.org/images/defcon-22/dc-22-presentations/Kazanciyan-Hastings/DEFCON-22-Ryan-Kazanciyan-Matt-Hastings-Investigating-Powershell-Attacks.pdf)
 * [FireEye](https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html)

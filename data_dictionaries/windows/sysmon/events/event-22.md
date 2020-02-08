@@ -15,6 +15,6 @@ This event generates when a process executes a DNS query, whether the result is 
 |dns_query_results|QueryResults|string|DNS query results|`type: 5 www3.l.google.com;172.217.7.206;`|
 |process_path|Image|string|The full path related to the process that executed the DNS query|`C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-22-dnsevent-dns-query)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/dns-query.md)

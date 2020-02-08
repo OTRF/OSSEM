@@ -15,7 +15,7 @@ This event occurs when an account that is a member of any defined Special Group 
 |target_server_name|TargetServer|string|SPN of the target service for which delegation was requested.|`WSMAN/dc01.contoso.local`|
 |user_cred_type|CredType|string|types of credentials which were presented for delegation|`%%8098`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5378.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)

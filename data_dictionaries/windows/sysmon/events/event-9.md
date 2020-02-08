@@ -14,6 +14,6 @@ The RawAccessRead event detects when a process conducts reading operations from 
 |process_path|Image|string|File path of the process that conducted reading operations from the drive|`C:\Windows\System32\svchost.exe`|
 |target_device|Device|string|Target device|`\Device\HarddiskVolume2`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-9-rawaccessread)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/raw-access-read.md)

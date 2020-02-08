@@ -13,7 +13,7 @@ This event generates every time Directory Services Restore Mode (DSRM) administr
 |source_host_name|Workstation|string|the name of computer account from which Directory Services Restore Mode (DSRM) administrator password change request was received. For example: "DC01". If the change request was sent locally (from the same server) this field will have the same name as the computer account.|`DC01`|
 |event_status|Status|integer|for Success events it has "0x0" value.|`0x0`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4794.md)
 * [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
 * [MS Security Auditing Sub-category - Audit User Account Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-user-account-management.md)

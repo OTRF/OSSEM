@@ -22,5 +22,5 @@ A process has spawned another process on an endpoint monitored by Carbon Black.
 |event_date_creation|timestamp|INTEGER|Endpoint timestamp of this event since epoch|`1447697423`|
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.childproc`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-childproc-child-process)

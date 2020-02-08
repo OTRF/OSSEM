@@ -22,7 +22,7 @@ This event generates every time an Active Directory object is modified.
 |user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x432344`|
 |dsoperation_correlation_id|OpCorrelationID|string|multiple modifications are often executed as one operation via LDAP. |`{02647639-8626-43CE-AFE6-7AA1AD657739}`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5136.md)
 * [MS Security Auditing Category - DS Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access)
 * [MS Security Auditing Sub-category - Audit Directory Service Changes](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-changes.md)

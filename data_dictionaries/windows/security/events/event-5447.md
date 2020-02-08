@@ -25,7 +25,7 @@ This event generates every time a Windows Filtering Platform.
 |callout_key|CalloutKey|string||`{EDA08606-2494-4D78-89BC-67837C03B969}`|
 |callout_name|CalloutName|string||`WFP Built-in Silent Drop Transport v4 Discard Layer Callout`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5447.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Other Policy Change Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-policy-change-events.md)

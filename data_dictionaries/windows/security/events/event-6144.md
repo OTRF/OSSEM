@@ -9,7 +9,7 @@ This event generates every time settings from the "Security Settings" section in
 |error_code|ErrorCode|integer|always has "0" value for this event.|`0`|
 |gpo_list|GPOList|string|the list of Group Policy Objects that include "Security Settings" policies, and that were applied to the computer.|`{8AB9311A-E5FB-4A5A-8FB7-027D1B877D6D} DC Main Policy`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-6144.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Other Policy Change Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-policy-change-events.md)

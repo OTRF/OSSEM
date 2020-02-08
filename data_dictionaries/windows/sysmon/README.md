@@ -33,6 +33,6 @@ System Monitor (Sysmon) is a Windows system service and device driver that, once
 |[8](events/event-8.md)|The CreateRemoteThread event detects when a process creates a thread in another process. This technique is used by malware to inject code and hide in other processes. The event indicates the source and target process. It gives information on the code that will be run in the new thread: StartAddress, StartModule and StartFunction. Note that StartModule and StartFunction fields are inferred, they might be empty if the starting address is outside loaded modules or known exported functions.||
 |[9](events/event-9.md)|The RawAccessRead event detects when a process conducts reading operations from the drive using the .\ denotation. This technique is often used by malware for data exfiltration of files that are locked for reading, as well as to avoid file access auditing tools. The event indicates the source process and target device.||
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
 * [TrustedSec Sysinternals Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide)

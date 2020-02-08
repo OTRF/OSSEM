@@ -18,7 +18,7 @@ A handle to an object was requested with intent to delete.
 |transaction_guid|TransactionId|string|unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID|`-`|
 |object_access_list|AccessList|string|the list of user privileges which were requested|`-`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4659.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit File System](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-system.md)

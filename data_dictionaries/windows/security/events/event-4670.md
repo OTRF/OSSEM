@@ -19,7 +19,7 @@ This event generates when the permissions for an object are changed. The object 
 |process_id|ProcessId|integer|hexadecimal Process ID of the process through which the permissions were changed. Process ID (PID) is a number used by the operating system to uniquely identify an active process.|`0xdb0`|
 |process_path|ProcessName|string|full path and the name of the executable for the process.|`C:\Windows\System32\dllhost.exe`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4670.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)

@@ -7,6 +7,6 @@ This event is generated when an error occurred within Sysmon. They can happen if
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-255-error)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/sysmon-events.md#sysmon-error-event)

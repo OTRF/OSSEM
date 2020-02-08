@@ -21,5 +21,5 @@ A registry key has been created, deleted, or modified on an endpoint monitored b
 |event_date_creation|timestamp|BIGINT|Endpoint timestamp of this event since epoch|`1447696798`|
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.regmod`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-regmod-registry-modification)

@@ -14,7 +14,7 @@ This event generates when a process enumerates a blank password for an account.
 |source_host_name|Workstation|integer|the name of computer account from which the password was queried from For example "DC01". If the change request was sent locally (from the same server) this field will have the same name as the computer account|`WIN10-1`|
 |process_id|ProcessID|string|hexadecimal Process ID of the process that enumerated the members of the group. Process ID (PID) is a number used by the operating system to uniquely identify an active process.|`0xc80`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4797.md)
 * [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
 * [MS Security Auditing Sub-category - Audit User Account Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-user-account-management.md)

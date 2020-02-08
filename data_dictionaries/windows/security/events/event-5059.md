@@ -17,7 +17,7 @@ This event generates when a cryptographic key is exported or imported using a Ke
 |key_operation|Operation|string|performed operation.|`%%2464`|
 |key_return_code|ReturnCode|integer|has "0x0" value for Success events.|`0x0`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5059.md)
 * [MS Security Auditing Category - System](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system)
 * [MS Security Auditing Sub-category - Audit Other System Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md)

@@ -10,7 +10,7 @@ This event generates every time Windows Firewall service starts.
 |rule_id|RuleId|string|the unique firewall rule identifier.|`NPS-NPSSvc-In-RPC`|
 |rule_name|RuleName|string|the name of the rule which was listed when the Windows Firewall started.|`Network Policy Server (RPC)`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4945.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md)

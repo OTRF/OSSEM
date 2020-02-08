@@ -18,7 +18,7 @@ This event generates every time Key Distribution Center gets a Kerberos Ticket G
 |user_logon_guid|LogonGuid|string|a GUID that can help you correlate this event (on a domain controller) with other events (on the target computer for which the TGS was issued) that can contain the same Logon GUID. These events are "4624: An account was successfully logged on", "4648(S): A logon was attempted using explicit credentials" and "4964(S): Special groups have been assigned to a new logon."|`{F85C455E-C66E-205C-6B39-F6C60A7FE453}`|
 |logon_transmitted_services|TransmittedServices|string|this field contains list of SPNs which were requested if Kerberos delegation was used.|`-`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4769.md)
 * [MS Security Auditing Category - Account Logon](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon)
 * [MS Security Auditing Sub-category - Audit Kerberos Service Ticket Operations](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-kerberos-service-ticket-operations.md)

@@ -22,5 +22,5 @@ Event fields used to define the source (client) in a network connection event.
 |src_vlan_id||integer|The Source VLAN ID if it can be determined. Most commonly if from a firewall/switch/router then it can be determined|100|
 |src_vlan_name||string|The Source VLAN Name. Most commonly if from a firewall/switch/router then it can be determined|management|
 
-## Resources
+## References
 * [Examples of MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types)

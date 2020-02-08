@@ -15,7 +15,7 @@ This event generates every time Windows Filtering Platform permits an applicatio
 |TBD|LayerName|string|Application Layer Enforcement layer name.|`%%14609`|
 |TBD|LayerRTID|integer|Windows Filtering Platform layer identifier.|`40`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5154.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Filtering Platform Connection](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-connection.md)

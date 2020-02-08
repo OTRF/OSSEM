@@ -15,7 +15,7 @@ This event is logged if the Windows Filtering Platform has blocked a bind to a l
 |TBD|LayerName|string|Application Layer Enforcement layer name.|`%%14608`|
 |TBD|LayerRTID|integer|Windows Filtering Platform layer identifier.|`36`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5159.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Filtering Platform Connection](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-connection.md)

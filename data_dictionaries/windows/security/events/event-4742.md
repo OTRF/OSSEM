@@ -37,7 +37,7 @@ This event generates every time a computer object is changed.
 |target_host_dns_host_name|DnsHostName|string|name of computer account as registered in DNS. If the value of dNSHostName attribute of computer object was changed, you will see the new value here.|`-`|
 |target_host_service_principal_names|ServicePrincipalNames|string|The list of SPNs, registered for computer account. If the SPN list of a computer account changed, you will see the new SPN list in Service Principal Names field (note that you will see the new list instead of changes).|`-`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4742.md)
 * [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
 * [MS Security Auditing Sub-category - Audit Computer Account Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-computer-account-management.md)

@@ -21,7 +21,7 @@ This event generates when a registry key value was modified. It doesn't generate
 |object_value_old_type|OldValueType|string|old type of changed registry key value.|`REG_SZ`|
 |object_operation_type|OperationType|string|the type of performed operation with registry key value.|`Existing registry value modified`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4657.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Registry](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-registry.md)

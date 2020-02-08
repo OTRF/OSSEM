@@ -14,7 +14,7 @@ This event generates when the object in COM+ Catalog.
 |object_identifying_properties|ObjectIdentifyingProperties|string|object-specific fields with the names and identifiers for the modified object.|`ID = {1D34B2DC-0E43-4040-BA7B-2F1C181FD86A} AppPartitionID = {41E90F3E-56C1-4633-81C3-6E8BAC8BDD70}`|
 |object_modified_properties|ModifiedObjectProperties|string|the list of object's (Object Name) properties which were modified.|`Name = 'COMApp' -> 'COMApp-New' cCOL_SecurityDescriptor = '' -> ''`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5888.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Other Object Access Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-object-access-events.md)

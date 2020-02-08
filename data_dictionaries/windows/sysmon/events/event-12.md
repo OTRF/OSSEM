@@ -15,6 +15,6 @@ Registry key and value create and delete operations map to this event type, whic
 |process_path|Image|string|File path of the process that created or deleted a registry key|`C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe`|
 |registry_key_path|TargetObject|string|complete path of the registry key|`HKU.DEFAULT\Software\Microsoft\Office\16.0\Common`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-12-registryevent-object-create-and-delete)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md)

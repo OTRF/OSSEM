@@ -13,7 +13,7 @@ This event generates every time network share object was accessed.
 |share_name|ShareName|string|the name of the added share object. The format is: *\SHARE_NAME|`\*\Documents`|
 |share_local_path|ShareLocalPath|string|the full system (NTFS) path for the added share object. The format is: \??\PATH.|`C:\Documents`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5142.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit File Share](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-share.md)

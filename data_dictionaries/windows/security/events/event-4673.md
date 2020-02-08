@@ -16,7 +16,7 @@ This event generates when an attempt was made to perform privileged system servi
 |user_privilege_list|PrivilegeList|string|the list of user privileges which were requested.|`SeCreateGlobalPrivilege`|
 |service_name|Service|string|supplies a name of the privileged subsystem service or function.|`LsaRegisterLogonProcess()`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4673.md)
 * [MS Security Auditing Category - Privilege Use](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#privilege-use)
 * [MS Security Auditing Sub-category - Audit Sensitive Privilege Use](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-sensitive-privilege-use.md)

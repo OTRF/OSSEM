@@ -33,7 +33,7 @@ This event generates every time a new user object is created. This event generat
 |target_user_sid_history|SidHistory|string|contains previous SIDs used for the object if the object was moved from another domain. Whenever an object is moved from one domain to another, a new SID is created and becomes the objectSID. The previous SID is added to the sIDHistory property. This parameter contains the value of sIDHistory attribute of new user object. This parameter might not be captured in the event, and in that case appears as "-".|`-`|
 |target_user_logon_hours|LogonHours|string|hours that the account is allowed to logon to the domain. The value of logonHours attribute of new user object. You can change this attribute by using Active Directory Users and Computers, or through a script, for example. You will typically see "\" value for new manually created user accounts in event 4720. For new local accounts this field is not applicable and typically has value "All".|`%%1793`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4720.md)
 * [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
 * [MS Security Auditing Sub-category - Audit User Account Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-user-account-management.md)

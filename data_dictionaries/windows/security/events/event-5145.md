@@ -20,7 +20,7 @@ This event generates every time network share object (file or folder) was access
 |user_access_reason|AccessReason|string|the list of access check results.|`%%1541: %%1801 D:(A;;FA;;;WD) %%4416: %%1801 D:(A;;FA;;;WD) %%4423: %%1801 D:(A;;FA;;;WD)`|
 |user_access_list|AccessList|string|the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)" value for this event.|`%%4416`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5145.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Detailed File Share](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-detailed-file-share.md)

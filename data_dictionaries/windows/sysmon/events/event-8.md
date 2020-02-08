@@ -21,6 +21,6 @@ The CreateRemoteThread event detects when a process creates a thread in another 
 |thread_start_module|StartModule|string|Start module determined from thread start address mapping to PEB loaded module list|`C:\WINDOWS\System32\KERNELBASE.dll`|
 |thread_start_function|StartFunction|string|Start function is reported if exact match to function in image export table|`CtrlRoutine`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-8-createremotethread)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md)

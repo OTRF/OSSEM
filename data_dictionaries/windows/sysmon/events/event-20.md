@@ -15,6 +15,6 @@ This event logs the registration of WMI consumers, recording the consumer name, 
 |wmi_consumer_type|Type|string|Type of wmi consumer|`Command Line`|
 |wmi_consumer_destination|Destination|string|command of consumer|`C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec bypass -win hidden -noni -enc bm90ZXBhZC5leGU=`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/WMI-events.md)

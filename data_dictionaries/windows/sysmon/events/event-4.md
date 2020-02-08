@@ -11,6 +11,6 @@ The service state change event reports the state of the Sysmon service (started 
 |file_version|Version|string|sysmon version|`7.01`|
 |sysmon_schema_version|SchemaVersion|string|sysmon config schema version|`4`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-4-sysmon-service-state-changed)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/sysmon-events.md#service-state-change)

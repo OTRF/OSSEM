@@ -12,5 +12,5 @@ Script block logging records blocks of code as they are executed by the PowerShe
 |powershell_scriptblock_id|ScriptBlockId|string||`1c97482f-51a2-4cf9-8abd-df9769b6e373`|
 |powershell_Path|Path|string||`C:\Tools\Invoke-ATTACKAPI-master\Invoke-ATTACKAPI.ps1`|
 
-## Resources
+## References
 * [FireEye](https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html)

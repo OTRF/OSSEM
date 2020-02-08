@@ -21,5 +21,5 @@ A process was blocked from executing on an endpoint monitored by Carbon Black be
 |user_sid|uid|TEXT|Security Identifier of the username name used for process creation|`S-1-5-21-3382350439-2970772701-2583938045-1000`|
 |user_name|username|TEXT|Username that initiated the process creation|`DANWIN764\dan`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-processblock-process-block)

@@ -11,5 +11,5 @@ Internet Explorer browser extensions.
 |file_version|version|TEXT|Version of the executable|``|
 |process_path|path|TEXT|Path to executable|``|
 
-## Resources
+## References
 * [osquery GitHub](https://github.com/facebook/osquery/blob/master/specs/windows/ie_extensions.table)

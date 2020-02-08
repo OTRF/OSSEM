@@ -19,7 +19,7 @@ This event generates every time an Active Directory object is undeleted. It happ
 |dsobject_dn|OldObjectDN|string| Old distinguished name of undeleted object.|`CN=Andrei\0ADEL:53511188-bc98-4995-9d78-2d40143c9711,CN=Deleted Objects,DC=contoso,DC=local`|
 |dsoperation_correlation_id|OpCorrelationID|string|multiple modifications are often executed as one operation via LDAP.|`{3E2B5ECF-4C35-4C3F-8D82-B8D6F477D846}`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5138.md)
 * [MS Security Auditing Category - DS Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access)
 * [MS Security Auditing Sub-category - Audit Directory Service Changes](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-changes.md)

@@ -14,6 +14,6 @@ When a consumer binds to a filter, this event logs the consumer name and filter 
 |wmi_consumer_path|Consumer|string|Consumer created to bind|`CommandLineEventConsumer.Name=\"Updater\"`|
 |wmi_filter_path|Filter|string|Filter created to bind|`__EventFilter.Name=\"Updater\"`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-21-wmievent-wmieventconsumertofilter-activity-detected)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/WMI-events.md)

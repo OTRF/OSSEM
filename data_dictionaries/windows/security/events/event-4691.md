@@ -16,7 +16,7 @@ This event indicates that indirect access to an object was requested.
 |object_access_mask|AccessMask|string|The value of this parameter is in decimal format. There is no detailed information about this parameter in this document. If Desired Access is not presented, then this parameter will have "0" value.|`0x1`|
 |process_id|ProcessId|integer|hexadecimal Process ID of the process through which the access was requested.|`0xe60`|
 
-## Resources
+## References
 * [MS SOURCE](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4691.md)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Audit Other Object Access Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-object-access-events.md)

@@ -16,6 +16,6 @@ This event logs when a named file stream is created, and it generates events tha
 |file_creation_time|CreationUtcTime|date|File download time|`4/11/18 6:18`|
 |hash|Hash|string|hash is a full hash of the file with the algorithms in the HashType field|`SHA1=F897DA14CF93C872CE821F549C34B848E345C8AC, MD5=697C69E7BB023075F14BC0BE25B875D8, SHA256=3157F3E7A854A13A40FFC79472C319E5B7C744B50D869D6E45F40CD4218539C5, IMPHASH=00000000000000000000000000000000`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-15-filecreatestreamhash)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/file-stream-creation-hash.md)

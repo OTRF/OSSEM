@@ -13,7 +13,7 @@ Not available
 |TBD|TBD|string|(Application Information) Application Instance ID|`302660`|
 |TBD|TBD|string|(Additional Information) Policy Store URL|`-`|
 
-## Resources
+## References
 * [Ultimate Windows Security Source](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4668)
 * [MS Security Auditing Category - Object Access](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access)
 * [MS Security Auditing Sub-category - Application Generated](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn319094(v=ws.11))

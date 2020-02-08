@@ -28,7 +28,7 @@ This event generates when one of the following changes was made to local compute
 |domain_policy_behavior_version|DomainBehaviorVersion|integer|msDS-Behavior-Version domain attribute was modified. Numeric value.|`-`|
 |TBD|OemInformation|string|not used. present for backward compatibility|`-`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4739.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Authentication Policy Change](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authentication-policy-change.md)

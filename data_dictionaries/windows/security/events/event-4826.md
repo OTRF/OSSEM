@@ -23,7 +23,7 @@ This event generates every time system starts and load current Boot Configuratio
 |hypervisor_launch_type|HypervisorLaunchType|string|shows the hypervisor launch options (Off or Auto). If you are setting up a debugger to debug Hyper-V on a target computer, set this option to Auto on the target computer.|`%%1848`|
 |hypervisor_debug|HypervisorDebug|string|shows the hypervisor launch options (Off or Auto). If you are setting up a debugger to debug Hyper-V on a target computer, set this option to Auto on the target computer.|`%%1843`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4826.md)
 * [MS Security Auditing Category - Policy Change](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change)
 * [MS Security Auditing Sub-category - Audit Other Policy Change Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-policy-change-events.md)

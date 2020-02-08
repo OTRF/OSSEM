@@ -27,5 +27,5 @@ A process has attempted to open a handle into another process OR if a remote thr
 |event_date_creation|timestamp|INTEGER|Endpoint timestamp of this event since epoch|`1447697702`|
 |event_type_detailed|type|TEXT|The full type of event|`ingress.event.crossprocopen`|
 
-## Resources
+## References
 * [Carbon Black Developer Docs](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-crossprocopen-cross-process-open)

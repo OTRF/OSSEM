@@ -18,7 +18,7 @@ This event occurs when an account that is a member of any defined Special Group 
 |target_user_logon_guid|TargetLogonGuid|string|a GUID that can help you correlate this event with another event that can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested event on a domain controller.|`{B03B6192-09AE-E77F-DD10-2DC430766040}`|
 |target_user_sid_list|SidList|string|the list of special group SIDs, which New Logon\Security ID is a member of.|`%{S-1-5-21-3457937927-2839227994-823803824-512}`|
 
-## Resources
+## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4964.md)
 * [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)
 * [MS Security Auditing Sub-category - Audit Special Logon](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-special-logon.md)

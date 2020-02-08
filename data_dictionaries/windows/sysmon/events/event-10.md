@@ -20,6 +20,6 @@ The process accessed event reports when a process opens another process, an oper
 |process_granted_access|GrantedAccess|string|The access flags (bitmask) associated with the process rights requested for the target process|`0x1000`|
 |process_call_trace|CallTrace|string|Stack trace of where open process is called. Included is the DLL and the relative virtual address of the functions in the call stack right before the open process call|`C:\WINDOWS\SYSTEM32\ntdll.dll+a0344`|
 
-## Resources
+## References
 * [Sysmon Source](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-10-processaccess)
 * [TrustedSec Sysmon Community Guide](https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-access.md)

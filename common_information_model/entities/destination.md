@@ -22,5 +22,5 @@ Event fields used to define the destination (server) in a network connection eve
 |dst_vlan_id||integer|The destination VLAN ID if it can be determined. Most commonly if from a firewall/switch/router then it can be determined|1000|
 |dst_vlan_name||string|The destination VLAN Name. Most commonly if from a firewall/switch/router then it can be determined|untrust-dmz|
 
-## Resources
+## References
 * [Examples of MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types)

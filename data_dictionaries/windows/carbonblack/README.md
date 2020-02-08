@@ -20,5 +20,5 @@ Carbon Black data schema as defined by the Carbon Black Developer Resources.
 |[regmod](events/regmod.md)|A registry key has been created, deleted, or modified on an endpoint monitored by Carbon Black.||
 |[tamper](events/tamper.md)|A process tampered with a critical Carbon Black userspace process or kernel driver.||
 
-## Resources
+## References
 * [Carboon Black Event Schema](https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/)
