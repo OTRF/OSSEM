@@ -1,0 +1,65 @@
+title: Elf_sections Table
+description: ELF section information.
+platform: linux
+log_source: osquery
+event_code: elf_sections
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Section name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: INTEGER
+  description: Section type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vaddr
+  type: INTEGER
+  description: Section virtual address in memory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: offset
+  type: INTEGER
+  description: Offset of section in file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: Size of section
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: flags
+  type: TEXT
+  description: Section attributes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: link
+  type: TEXT
+  description: Link to other section
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: align
+  type: INTEGER
+  description: Segment alignment
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to ELF file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#elf_sections
+tags:
+- version_4.4.2

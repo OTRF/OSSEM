@@ -1,0 +1,29 @@
+title: Sudoers Table
+description: Rules for running commands as other users via sudo.
+platform: freebsd
+log_source: osquery
+event_code: sudoers
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: source
+  type: TEXT
+  description: Source file containing the given rule
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: header
+  type: TEXT
+  description: Symbol for given rule
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: rule_details
+  type: TEXT
+  description: Rule definition
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#sudoers
+tags:
+- version_4.4.2

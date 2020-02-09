@@ -1,0 +1,30 @@
+title: User_ssh_keys Table
+description: Returns the private keys in the users ~/.ssh directory and whether or
+  not they are encrypted.
+platform: freebsd
+log_source: osquery
+event_code: user_ssh_keys
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: The local user that owns the key file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to key file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: encrypted
+  type: INTEGER
+  description: 1 if key is encrypted, 0 otherwise
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#user_ssh_keys
+tags:
+- version_4.4.2

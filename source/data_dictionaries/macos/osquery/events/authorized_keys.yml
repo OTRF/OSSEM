@@ -1,0 +1,29 @@
+title: Authorized_keys Table
+description: A line-delimited authorized_keys table.
+platform: macos
+log_source: osquery
+event_code: authorized_keys
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: The local owner of authorized_keys file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: parsed authorized keys line
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key_file
+  type: TEXT
+  description: Path to the authorized_keys file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#authorized_keys
+tags:
+- version_4.4.2

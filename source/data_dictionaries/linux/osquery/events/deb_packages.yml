@@ -1,0 +1,47 @@
+title: Deb_packages Table
+description: The installed DEB package database.
+platform: linux
+log_source: osquery
+event_code: deb_packages
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Package name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Package version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: source
+  type: TEXT
+  description: Package source
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: BIGINT
+  description: Package size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: arch
+  type: TEXT
+  description: Package architecture
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: revision
+  type: TEXT
+  description: Package revision
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#deb_packages
+tags:
+- version_4.4.2

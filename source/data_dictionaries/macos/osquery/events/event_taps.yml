@@ -1,0 +1,41 @@
+title: Event_taps Table
+description: Returns information about installed event taps.
+platform: macos
+log_source: osquery
+event_code: event_taps
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: enabled
+  type: INTEGER
+  description: Is the Event Tap enabled
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: event_tap_id
+  type: INTEGER
+  description: Unique ID for the Tap
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: event_tapped
+  type: TEXT
+  description: The mask that identifies the set of events to be observed.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: process_being_tapped
+  type: INTEGER
+  description: The process ID of the target application
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tapping_process
+  type: INTEGER
+  description: The process ID of the application that created the event tap.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#event_taps
+tags:
+- version_4.4.2

@@ -1,0 +1,59 @@
+title: Logged_in_users Table
+description: Users with an active shell on the system.
+platform: freebsd
+log_source: osquery
+event_code: logged_in_users
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Login type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: user
+  type: TEXT
+  description: User login name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tty
+  type: TEXT
+  description: Device name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: TEXT
+  description: Remote hostname
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: INTEGER
+  description: Time entry was made
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: INTEGER
+  description: Process (or thread) ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sid
+  type: TEXT
+  description: The user's unique security identifier [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: registry_hive
+  type: TEXT
+  description: HKEY_USERS registry hive [WINDOWS]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#logged_in_users
+tags:
+- version_4.4.2

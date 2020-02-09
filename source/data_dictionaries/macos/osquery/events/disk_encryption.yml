@@ -1,0 +1,54 @@
+title: Disk_encryption Table
+description: Disk encryption status and information.
+platform: macos
+log_source: osquery
+event_code: disk_encryption
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Disk name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uuid
+  type: TEXT
+  description: Disk Universally Unique Identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: encrypted
+  type: INTEGER
+  description: '1 If encrypted: true (disk is encrypted), else 0'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Description of cipher type and mode if available
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: TEXT
+  description: Currently authenticated user if available (Apple)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: user_uuid
+  type: TEXT
+  description: UUID of authenticated user if available (Apple)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: encryption_status
+  type: TEXT
+  description: 'Disk encryption status with one of following values: encrypted | not
+    encrypted | undefined'
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#disk_encryption
+tags:
+- version_4.4.2

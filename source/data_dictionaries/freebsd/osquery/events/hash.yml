@@ -1,0 +1,47 @@
+title: Hash Table
+description: Filesystem hash data.
+platform: freebsd
+log_source: osquery
+event_code: hash
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Must provide a path or directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: directory
+  type: TEXT
+  description: Must provide a path or directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: md5
+  type: TEXT
+  description: MD5 hash of provided filesystem data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha1
+  type: TEXT
+  description: SHA1 hash of provided filesystem data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha256
+  type: TEXT
+  description: SHA256 hash of provided filesystem data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ssdeep
+  type: TEXT
+  description: ssdeep hash of provided filesystem data [POSIX]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#hash
+tags:
+- version_4.4.2

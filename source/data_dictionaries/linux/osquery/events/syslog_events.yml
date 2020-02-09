@@ -1,0 +1,59 @@
+title: Syslog_events Table
+description: ''
+platform: linux
+log_source: osquery
+event_code: syslog_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Current unix epoch time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: datetime
+  type: TEXT
+  description: Time known to syslog
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: TEXT
+  description: Hostname configured for syslog
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: severity
+  type: INTEGER
+  description: Syslog severity
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: facility
+  type: TEXT
+  description: Syslog facility
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tag
+  type: TEXT
+  description: The syslog tag
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: message
+  type: TEXT
+  description: The syslog message
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#syslog_events
+tags:
+- version_4.4.2

@@ -1,0 +1,83 @@
+title: Hardware_events Table
+description: Hardware (PCI/USB/HID) events from UDEV or IOKit.
+platform: linux
+log_source: osquery
+event_code: hardware_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: action
+  type: TEXT
+  description: Remove, insert, change properties, etc
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Local device path assigned (optional)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of hardware and hardware event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: driver
+  type: TEXT
+  description: Driver claiming the device
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vendor
+  type: TEXT
+  description: Hardware device vendor
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vendor_id
+  type: TEXT
+  description: Hex encoded Hardware vendor identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: model
+  type: TEXT
+  description: Hardware device model
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: model_id
+  type: TEXT
+  description: Hex encoded Hardware model identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: serial
+  type: TEXT
+  description: Device serial (optional)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: revision
+  type: TEXT
+  description: Device revision (optional)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time of hardware event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#hardware_events
+tags:
+- version_4.4.2

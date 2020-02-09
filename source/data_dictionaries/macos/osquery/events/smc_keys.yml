@@ -1,0 +1,41 @@
+title: Smc_keys Table
+description: Apple's system management controller keys.
+platform: macos
+log_source: osquery
+event_code: smc_keys
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: 4-character key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: SMC-reported type literal type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: Reported size of data in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: A type-encoded representation of the key value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hidden
+  type: INTEGER
+  description: 1 if this key is normally hidden, otherwise 0
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#smc_keys
+tags:
+- version_4.4.2

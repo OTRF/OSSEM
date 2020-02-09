@@ -1,0 +1,41 @@
+title: Yum_sources Table
+description: Current list of Yum repositories or software channels.
+platform: linux
+log_source: osquery
+event_code: yum_sources
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Repository name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: baseurl
+  type: TEXT
+  description: Repository base URL
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: enabled
+  type: TEXT
+  description: Whether the repository is used
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gpgcheck
+  type: TEXT
+  description: Whether packages are GPG checked
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gpgkey
+  type: TEXT
+  description: URL to GPG key
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#yum_sources
+tags:
+- version_4.4.2

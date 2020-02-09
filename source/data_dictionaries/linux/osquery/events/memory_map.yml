@@ -1,0 +1,29 @@
+title: Memory_map Table
+description: OS memory region map.
+platform: linux
+log_source: osquery
+event_code: memory_map
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Region name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: start
+  type: TEXT
+  description: Start address of memory region
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: end
+  type: TEXT
+  description: End address of memory region
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#memory_map
+tags:
+- version_4.4.2

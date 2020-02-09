@@ -1,0 +1,65 @@
+title: Connectivity Table
+description: Provides the overall system's network state.
+platform: windows
+log_source: osquery
+event_code: connectivity
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: disconnected
+  type: INTEGER
+  description: True if the all interfaces are not connected to any network
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv4_no_traffic
+  type: INTEGER
+  description: True if any interface is connected via IPv4, but has seen no traffic
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv6_no_traffic
+  type: INTEGER
+  description: True if any interface is connected via IPv6, but has seen no traffic
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv4_subnet
+  type: INTEGER
+  description: True if any interface is connected to the local subnet via IPv4
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv4_local_network
+  type: INTEGER
+  description: True if any interface is connected to a routed network via IPv4
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv4_internet
+  type: INTEGER
+  description: True if any interface is connected to the Internet via IPv4
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv6_subnet
+  type: INTEGER
+  description: True if any interface is connected to the local subnet via IPv6
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv6_local_network
+  type: INTEGER
+  description: True if any interface is connected to a routed network via IPv6
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipv6_internet
+  type: INTEGER
+  description: True if any interface is connected to the Internet via IPv6
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#connectivity
+tags:
+- version_4.4.2

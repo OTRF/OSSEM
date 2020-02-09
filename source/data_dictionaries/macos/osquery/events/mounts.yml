@@ -1,0 +1,77 @@
+title: Mounts Table
+description: System mounted devices and filesystems (not process specific).
+platform: macos
+log_source: osquery
+event_code: mounts
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: device
+  type: TEXT
+  description: Mounted device
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: device_alias
+  type: TEXT
+  description: Mounted device alias
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Mounted device path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Mounted device type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: blocks_size
+  type: BIGINT
+  description: Block size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: blocks
+  type: BIGINT
+  description: Mounted device used blocks
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: blocks_free
+  type: BIGINT
+  description: Mounted device free blocks
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: blocks_available
+  type: BIGINT
+  description: Mounted device available blocks
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: inodes
+  type: BIGINT
+  description: Mounted device used inodes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: inodes_free
+  type: BIGINT
+  description: Mounted device free inodes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: flags
+  type: TEXT
+  description: Mounted device flags
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#mounts
+tags:
+- version_4.4.2

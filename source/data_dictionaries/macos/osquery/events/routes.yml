@@ -1,0 +1,71 @@
+title: Routes Table
+description: The active route table for the host system.
+platform: macos
+log_source: osquery
+event_code: routes
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: destination
+  type: TEXT
+  description: Destination IP address
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: netmask
+  type: INTEGER
+  description: Netmask length
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gateway
+  type: TEXT
+  description: Route gateway
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: source
+  type: TEXT
+  description: Route source
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: flags
+  type: INTEGER
+  description: Flags to describe route
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: interface
+  type: TEXT
+  description: Route local interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mtu
+  type: INTEGER
+  description: Maximum Transmission Unit for the route
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: metric
+  type: INTEGER
+  description: Cost of route. Lowest is preferred
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of route
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hopcount
+  type: INTEGER
+  description: Max hops expected [POSIX]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#routes
+tags:
+- version_4.4.2

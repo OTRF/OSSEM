@@ -1,0 +1,77 @@
+title: Apps Table
+description: OS X applications installed in known search paths (e.g., /Applications).
+platform: macos
+log_source: osquery
+event_code: apps
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of the Name.app folder
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Absolute and full Name.app path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bundle_name
+  type: TEXT
+  description: Info properties CFBundleName label
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bundle_version
+  type: TEXT
+  description: Info properties CFBundleVersion label
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: environment
+  type: TEXT
+  description: Application-set environment variables
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: element
+  type: TEXT
+  description: Does the app identify as a background agent
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: compiler
+  type: TEXT
+  description: Info properties DTCompiler label
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: display_name
+  type: TEXT
+  description: Info properties CFBundleDisplayName label
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: info_string
+  type: TEXT
+  description: Info properties CFBundleGetInfoString label
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: copyright
+  type: TEXT
+  description: Info properties NSHumanReadableCopyright label
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_opened_time
+  type: DOUBLE
+  description: The time that the app was last used
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#apps
+tags:
+- version_4.4.2

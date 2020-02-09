@@ -1,0 +1,83 @@
+title: Cpu_info Table
+description: Retrieve cpu hardware info of the machine.
+platform: windows
+log_source: osquery
+event_code: cpu_info
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: device_id
+  type: TEXT
+  description: The DeviceID of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: model
+  type: TEXT
+  description: The model of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer
+  type: TEXT
+  description: The manufacturer of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: processor_type
+  type: TEXT
+  description: The processor type, such as Central, Math, or Video.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: availability
+  type: TEXT
+  description: The availability and status of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: cpu_status
+  type: INTEGER
+  description: The current operating status of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: number_of_cores
+  type: TEXT
+  description: The number of cores of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: logical_processors
+  type: INTEGER
+  description: The number of logical processors of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: address_width
+  type: TEXT
+  description: The width of the CPU address bus.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: current_clock_speed
+  type: INTEGER
+  description: The current frequency of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: max_clock_speed
+  type: INTEGER
+  description: The maximum possible frequency of the CPU.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: socket_designation
+  type: TEXT
+  description: The assigned socket on the board for the given CPU.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#cpu_info
+tags:
+- version_4.4.2

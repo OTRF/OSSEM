@@ -1,0 +1,23 @@
+title: Mdfind Table
+description: Run searches against the spotlight database.
+platform: macos
+log_source: osquery
+event_code: mdfind
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of the file returned from spotlight
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: query
+  type: TEXT
+  description: The query that was run to find the file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#mdfind
+tags:
+- version_4.4.2

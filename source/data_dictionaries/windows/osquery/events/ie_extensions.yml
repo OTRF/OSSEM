@@ -1,4 +1,4 @@
-title: Pipes Table
+title: Ie_extensions Table
 description: Internet Explorer browser extensions.
 platform: windows
 log_source: osquery
@@ -9,26 +9,27 @@ event_fields:
   name: name
   type: TEXT
   description: Extension display name
-  sample_value: ''
+  sample_value: TBD
 - standard_name: registry_path
   standard_type: TBD
   name: registry_path
   type: TEXT
   description: Extension identifier
-  sample_value: ''
+  sample_value: TBD
 - standard_name: file_version
   standard_type: TBD
   name: version
   type: TEXT
   description: Version of the executable
-  sample_value: ''
+  sample_value: TBD
 - standard_name: process_path
   standard_type: TBD
   name: path
   type: TEXT
   description: Path to executable
-  sample_value: ''
+  sample_value: TBD
 references:
-- text: osquery GitHub
-  link: https://github.com/facebook/osquery/blob/master/specs/windows/ie_extensions.table
-tags: []
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ie_extensions
+tags:
+- version_4.4.2

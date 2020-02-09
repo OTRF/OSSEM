@@ -1,0 +1,44 @@
+title: Hvci_status Table
+description: Retrieve HVCI info of the machine.
+platform: windows
+log_source: osquery
+event_code: hvci_status
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: The version number of the Device Guard build.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: instance_identifier
+  type: TEXT
+  description: The instance ID of Device Guard.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vbs_status
+  type: TEXT
+  description: The status of the virtualization based security settings. Returns UNKNOWN
+    if an error is encountered.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: code_integrity_policy_enforcement_status
+  type: TEXT
+  description: The status of the code integrity policy enforcement settings. Returns
+    UNKNOWN if an error is encountered.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: umci_policy_status
+  type: TEXT
+  description: The status of the User Mode Code Integrity security settings. Returns
+    UNKNOWN if an error is encountered.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#hvci_status
+tags:
+- version_4.4.2

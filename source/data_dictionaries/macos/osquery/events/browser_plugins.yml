@@ -1,0 +1,71 @@
+title: Browser_plugins Table
+description: All C/NPAPI browser plugin details for all users.
+platform: macos
+log_source: osquery
+event_code: browser_plugins
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: The local user that owns the plugin
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Plugin display name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: identifier
+  type: TEXT
+  description: Plugin identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Plugin short version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sdk
+  type: TEXT
+  description: Build SDK used to compile plugin
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Plugin description text
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: development_region
+  type: TEXT
+  description: Plugin language-localization
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: native
+  type: INTEGER
+  description: Plugin requires native execution
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to plugin bundle
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: disabled
+  type: INTEGER
+  description: Is the plugin disabled. 1 = Disabled
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#browser_plugins
+tags:
+- version_4.4.2

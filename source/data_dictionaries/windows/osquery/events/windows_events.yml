@@ -1,0 +1,77 @@
+title: Windows_events Table
+description: Windows Event logs.
+platform: windows
+log_source: osquery
+event_code: windows_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Timestamp the event was received
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: datetime
+  type: TEXT
+  description: System time at which the event occurred
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: source
+  type: TEXT
+  description: Source or channel of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: provider_name
+  type: TEXT
+  description: Provider name of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: provider_guid
+  type: TEXT
+  description: Provider guid of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eventid
+  type: INTEGER
+  description: Event ID of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: task
+  type: INTEGER
+  description: Task value associated with the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: level
+  type: INTEGER
+  description: The severity level associated with the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: keywords
+  type: BIGINT
+  description: A bitmask of the keywords defined in the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: data
+  type: TEXT
+  description: Data associated with the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#windows_events
+tags:
+- version_4.4.2

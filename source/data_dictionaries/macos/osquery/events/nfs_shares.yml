@@ -1,0 +1,29 @@
+title: Nfs_shares Table
+description: NFS shares exported by the host.
+platform: macos
+log_source: osquery
+event_code: nfs_shares
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: share
+  type: TEXT
+  description: Filesystem path to the share
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: options
+  type: TEXT
+  description: Options string set on the export share
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: readonly
+  type: INTEGER
+  description: 1 if the share is exported readonly else 0
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#nfs_shares
+tags:
+- version_4.4.2

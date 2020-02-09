@@ -1,0 +1,29 @@
+title: Known_hosts Table
+description: A line-delimited known_hosts table.
+platform: macos
+log_source: osquery
+event_code: known_hosts
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: The local user that owns the known_hosts file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: parsed authorized keys line
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key_file
+  type: TEXT
+  description: Path to known_hosts file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#known_hosts
+tags:
+- version_4.4.2

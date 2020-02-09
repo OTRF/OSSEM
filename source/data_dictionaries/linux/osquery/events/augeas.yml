@@ -1,0 +1,35 @@
+title: Augeas Table
+description: Configuration files parsed by augeas.
+platform: linux
+log_source: osquery
+event_code: augeas
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: node
+  type: TEXT
+  description: The node path of the configuration item
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: The value of the configuration item
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: label
+  type: TEXT
+  description: The label of the configuration item
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: The path to the configuration file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#augeas
+tags:
+- version_4.4.2

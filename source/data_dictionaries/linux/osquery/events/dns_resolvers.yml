@@ -1,0 +1,41 @@
+title: Dns_resolvers Table
+description: Resolvers used by this host.
+platform: linux
+log_source: osquery
+event_code: dns_resolvers
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: INTEGER
+  description: Address type index or order
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: 'Address type: sortlist, nameserver, search'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: address
+  type: TEXT
+  description: Resolver IP/IPv6 address
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: netmask
+  type: TEXT
+  description: Address (sortlist) netmask length
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: options
+  type: BIGINT
+  description: Resolver options
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#dns_resolvers
+tags:
+- version_4.4.2

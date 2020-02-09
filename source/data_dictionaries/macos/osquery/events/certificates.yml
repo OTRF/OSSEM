@@ -1,0 +1,138 @@
+title: Certificates Table
+description: Certificate Authorities installed in Keychains/ca-bundles.
+platform: macos
+log_source: osquery
+event_code: certificates
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: common_name
+  type: TEXT
+  description: Certificate CommonName
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: subject
+  type: TEXT
+  description: Certificate distinguished name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: issuer
+  type: TEXT
+  description: Certificate issuer distinguished name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ca
+  type: INTEGER
+  description: '1 if CA: true (certificate is an authority) else 0'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: self_signed
+  type: INTEGER
+  description: 1 if self-signed, else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: not_valid_before
+  type: DATETIME
+  description: Lower bound of valid date
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: not_valid_after
+  type: DATETIME
+  description: Certificate expiration data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: signing_algorithm
+  type: TEXT
+  description: Signing algorithm used
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key_algorithm
+  type: TEXT
+  description: Key algorithm used
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key_strength
+  type: TEXT
+  description: Key size used for RSA/DSA, or curve name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key_usage
+  type: TEXT
+  description: Certificate key usage and extended key usage
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: subject_key_id
+  type: TEXT
+  description: SKID an optionally included SHA1
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: authority_key_id
+  type: TEXT
+  description: AKID an optionally included SHA1
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha1
+  type: TEXT
+  description: SHA1 hash of the raw certificate contents
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to Keychain or PEM bundle
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: serial
+  type: TEXT
+  description: Certificate serial number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sid
+  type: TEXT
+  description: SID [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: store_location
+  type: TEXT
+  description: Certificate system store location [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: store
+  type: TEXT
+  description: Certificate system store [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: Username [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: store_id
+  type: TEXT
+  description: Exists for service/user stores. Contains raw store id provided by WinAPI.
+    [WINDOWS]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#certificates
+tags:
+- version_4.4.2

@@ -1,0 +1,231 @@
+title: Interface_details Table
+description: Detailed information and stats of network interfaces.
+platform: macos
+log_source: osquery
+event_code: interface_details
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: interface
+  type: TEXT
+  description: Interface name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mac
+  type: TEXT
+  description: MAC of interface (optional)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: INTEGER
+  description: Interface type (includes virtual)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mtu
+  type: INTEGER
+  description: Network MTU
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: metric
+  type: INTEGER
+  description: Metric based on the speed of the interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: flags
+  type: INTEGER
+  description: Flags (netdevice) for the device
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ipackets
+  type: BIGINT
+  description: Input packets
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: opackets
+  type: BIGINT
+  description: Output packets
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ibytes
+  type: BIGINT
+  description: Input bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: obytes
+  type: BIGINT
+  description: Output bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ierrors
+  type: BIGINT
+  description: Input errors
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: oerrors
+  type: BIGINT
+  description: Output errors
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: idrops
+  type: BIGINT
+  description: Input drops
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: odrops
+  type: BIGINT
+  description: Output drops
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: collisions
+  type: BIGINT
+  description: Packet Collisions detected
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_change
+  type: BIGINT
+  description: Time of last device modification (optional)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: link_speed
+  type: BIGINT
+  description: Interface speed in Mb/s [POSIX]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pci_slot
+  type: TEXT
+  description: PCI slot number [LINUX]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: friendly_name
+  type: TEXT
+  description: The friendly display name of the interface. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Short description of the object a one-line string. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer
+  type: TEXT
+  description: Name of the network adapter's manufacturer. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: connection_id
+  type: TEXT
+  description: Name of the network connection as it appears in the Network Connections
+    Control Panel program. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: connection_status
+  type: TEXT
+  description: State of the network adapter connection to the network. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: enabled
+  type: INTEGER
+  description: Indicates whether the adapter is enabled or not. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: physical_adapter
+  type: INTEGER
+  description: Indicates whether the adapter is a physical or a logical adapter. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: speed
+  type: INTEGER
+  description: Estimate of the current bandwidth in bits per second. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: service
+  type: TEXT
+  description: The name of the service the network adapter uses. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dhcp_enabled
+  type: INTEGER
+  description: If TRUE, the dynamic host configuration protocol (DHCP) server automatically
+    assigns an IP address to the computer system when establishing a network connection.
+    [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dhcp_lease_expires
+  type: TEXT
+  description: Expiration date and time for a leased IP address that was assigned
+    to the computer by the dynamic host configuration protocol (DHCP) server. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dhcp_lease_obtained
+  type: TEXT
+  description: Date and time the lease was obtained for the IP address assigned to
+    the computer by the dynamic host configuration protocol (DHCP) server. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dhcp_server
+  type: TEXT
+  description: IP address of the dynamic host configuration protocol (DHCP) server.
+    [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dns_domain
+  type: TEXT
+  description: Organization name followed by a period and an extension that indicates
+    the type of organization, such as 'microsoft.com'. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dns_domain_suffix_search_order
+  type: TEXT
+  description: Array of DNS domain suffixes to be appended to the end of host names
+    during name resolution. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dns_host_name
+  type: TEXT
+  description: Host name used to identify the local computer for authentication by
+    some utilities. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dns_server_search_order
+  type: TEXT
+  description: Array of server IP addresses to be used in querying for DNS servers.
+    [WINDOWS]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#interface_details
+tags:
+- version_4.4.2

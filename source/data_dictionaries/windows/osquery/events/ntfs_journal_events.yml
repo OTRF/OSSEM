@@ -1,0 +1,91 @@
+title: Ntfs_journal_events Table
+description: Track time/action changes to files specified in configuration data.
+platform: windows
+log_source: osquery
+event_code: ntfs_journal_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: action
+  type: TEXT
+  description: Change action (Write, Delete, etc)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: category
+  type: TEXT
+  description: The category that the event originated from
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: old_path
+  type: TEXT
+  description: Old path (renames only)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: record_timestamp
+  type: TEXT
+  description: Journal record timestamp
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: record_usn
+  type: TEXT
+  description: The update sequence number that identifies the journal record
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: node_ref_number
+  type: TEXT
+  description: The ordinal that associates a journal record with a filename
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: parent_ref_number
+  type: TEXT
+  description: The ordinal that associates a journal record with a filename's parent
+    directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: drive_letter
+  type: TEXT
+  description: The drive letter identifying the source journal
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: file_attributes
+  type: TEXT
+  description: File attributes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: partial
+  type: BIGINT
+  description: Set to 1 if either path or old_path only contains the file or folder
+    name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time of file event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ntfs_journal_events
+tags:
+- version_4.4.2

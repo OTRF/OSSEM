@@ -1,0 +1,53 @@
+title: Npm_packages Table
+description: Lists all npm packages in a directory or globally installed in a system.
+platform: linux
+log_source: osquery
+event_code: npm_packages
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Package display name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Package supplied version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Package supplied description
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: author
+  type: TEXT
+  description: Package author name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: license
+  type: TEXT
+  description: License for package
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Module's package.json path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: directory
+  type: TEXT
+  description: Node module's directory where this package is located
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#npm_packages
+tags:
+- version_4.4.2

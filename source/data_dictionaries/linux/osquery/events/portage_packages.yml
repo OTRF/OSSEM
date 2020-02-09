@@ -1,0 +1,59 @@
+title: Portage_packages Table
+description: List of currently installed packages.
+platform: linux
+log_source: osquery
+event_code: portage_packages
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: package
+  type: TEXT
+  description: Package name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: The version which are affected by the use flags, empty means all
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: slot
+  type: TEXT
+  description: The slot used by package
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: build_time
+  type: BIGINT
+  description: Unix time when package was built
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: repository
+  type: TEXT
+  description: From which repository the ebuild was used
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eapi
+  type: BIGINT
+  description: The eapi for the ebuild
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: BIGINT
+  description: The size of the package
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: world
+  type: INTEGER
+  description: If package is in the world file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#portage_packages
+tags:
+- version_4.4.2

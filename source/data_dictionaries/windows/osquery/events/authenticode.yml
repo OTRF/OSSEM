@@ -1,0 +1,47 @@
+title: Authenticode Table
+description: File (executable, bundle, installer, disk) code signing status.
+platform: windows
+log_source: osquery
+event_code: authenticode
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Must provide a path or directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: original_program_name
+  type: TEXT
+  description: The original program name that the publisher has signed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: serial_number
+  type: TEXT
+  description: The certificate serial number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: issuer_name
+  type: TEXT
+  description: The certificate issuer name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: subject_name
+  type: TEXT
+  description: The certificate subject name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: result
+  type: TEXT
+  description: The signature check result
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#authenticode
+tags:
+- version_4.4.2

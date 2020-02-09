@@ -1,0 +1,29 @@
+title: Device_firmware Table
+description: A best-effort list of discovered firmware versions.
+platform: macos
+log_source: osquery
+event_code: device_firmware
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of device
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: device
+  type: TEXT
+  description: The device name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Firmware version
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#device_firmware
+tags:
+- version_4.4.2

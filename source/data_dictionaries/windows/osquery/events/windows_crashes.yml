@@ -1,0 +1,137 @@
+title: Windows_crashes Table
+description: Extracted information from Windows crash logs (Minidumps).
+platform: windows
+log_source: osquery
+event_code: windows_crashes
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: datetime
+  type: TEXT
+  description: Timestamp (log format) of the crash
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: module
+  type: TEXT
+  description: Path of the crashed module within the process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of the executable file for the crashed process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: BIGINT
+  description: Process ID of the crashed process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tid
+  type: BIGINT
+  description: Thread ID of the crashed thread
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: File version info of the crashed process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: process_uptime
+  type: BIGINT
+  description: Uptime of the process in seconds
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: stack_trace
+  type: TEXT
+  description: Multiple stack frames from the stack trace
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: exception_code
+  type: TEXT
+  description: The Windows exception code
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: exception_message
+  type: TEXT
+  description: The NTSTATUS error message associated with the exception code
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: exception_address
+  type: TEXT
+  description: Address (in hex) where the exception occurred
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: registers
+  type: TEXT
+  description: The values of the system registers
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: command_line
+  type: TEXT
+  description: Command-line string passed to the crashed process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: current_directory
+  type: TEXT
+  description: Current working directory of the crashed process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: Username of the user who ran the crashed process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: machine_name
+  type: TEXT
+  description: Name of the machine where the crash happened
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: major_version
+  type: INTEGER
+  description: Windows major version of the machine
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: minor_version
+  type: INTEGER
+  description: Windows minor version of the machine
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: build_number
+  type: INTEGER
+  description: Windows build number of the crashing machine
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of crash log
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: crash_path
+  type: TEXT
+  description: Path of the log file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#windows_crashes
+tags:
+- version_4.4.2

@@ -1,0 +1,47 @@
+title: Sandboxes Table
+description: OS X application sandboxes container details.
+platform: macos
+log_source: osquery
+event_code: sandboxes
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: label
+  type: TEXT
+  description: UTI-format bundle or label ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: user
+  type: TEXT
+  description: Sandbox owner
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: enabled
+  type: INTEGER
+  description: Application sandboxings enabled on container
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: build_id
+  type: TEXT
+  description: Sandbox-specific identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bundle_path
+  type: TEXT
+  description: Application bundle used by the sandbox
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to sandbox container directory
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#sandboxes
+tags:
+- version_4.4.2
