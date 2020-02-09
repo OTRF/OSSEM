@@ -66,13 +66,29 @@ data_fields:
   type: string
   description: path of the hard link
   sample_value: C:\Docs\My.exe
-- standard_name: file_timestamp_creation
-  type: integer
-  description: The file's current creation Timestamp on the disk
-  sample_value: '2016-11-25 18:21:47'
-- standard_name: file_timestamp_previous_creation
-  type: integer
-  description: The file's previous creation timestamp
-  sample_value: '2017-07-30 23:26:47'
+- standard_name: file_accessed_time
+  type: date
+  description: When the file was last accessed . Also known as `atime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_creation_time
+  type: date
+  description: When the file was created. Also known as `crtime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_changed_time
+  type: date
+  description: When the file was last changed. Also known as `ctime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_modified_time
+  type: date
+  description: When the file was last modified. Also known as `mtime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_previous_name
+  type: string
+  description: The file's previous name
+  sample_value: C:\\Windows\system32\cmd.exe
+- standard_name: file_system_type
+  type: string
+  description: 'The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs'
+  sample_value: ntfs
 references: []
 tags: []

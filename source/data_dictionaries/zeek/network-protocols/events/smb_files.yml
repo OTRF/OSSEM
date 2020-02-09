@@ -9,7 +9,7 @@ event_fields:
   name: ts
   type: date_time
   description: Timestamp of the beginning of the event in epoch format
-  sample_value: '1300475167.096535'
+  sample_value: '1581064352.153314'
 - standard_name: src_ip_addr
   standard_type: TBD
   name: id.orig_h
@@ -21,7 +21,7 @@ event_fields:
   name: id.orig_p
   type: integer
   description: The originating/source port
-  sample_value: '37682'
+  sample_value: '49247'
 - standard_name: dst_ip_addr
   standard_type: TBD
   name: id.resp_h
@@ -39,62 +39,63 @@ event_fields:
   name: uid
   type: string
   description: Unique ID of the connection the file was sent over
-  sample_value: '``'
+  sample_value: 'CVCEfC2Vej9sjr5ARe'
 - standard_name: TBD
   standard_type: TBD
   name: fuid
   type: string
-  description: Unique ID of the file
+  description: Unique ID of the file, if the file was extracted
   sample_value: '``'
-- standard_name: TBD
+- standard_name: file_accessed_time
   standard_type: TBD
   name: times_accessed
   type: date_time
-  description: The time when the file was last accessed.
-  sample_value: '2019-06-11T02:50:31.755864Z'
-- standard_name: TBD
+  description: The time, in epoch, attribute for when the file was last accessed
+  sample_value: '1505160917.765625'
+- standard_name: file_creation_time
   standard_type: TBD
   name: times_created
   type: date_time
-  description: The time the file was created.
-  sample_value: '2019-06-11T02:50:31.755864Z'
-- standard_name: TBD
+  description: The time attribute for when the file was created
+  sample_value: '1505160917.765625'
+- standard_name: file_changed_time
   standard_type: TBD
   name: times_changed
   type: date_time
-  description: The time when the file was last modified.
-  sample_value: '2019-06-11T02:50:31.755864Z'
-- standard_name: TBD
+  description: The time attribute for when the file was last modified
+  sample_value: '1505416680.062500'
+- standard_name: file_modified_time
   standard_type: TBD
   name: times_modified
   type: date_time
-  description: The time when data was last written to the file.
-  sample_value: '2018-09-11T02:50:31.755864Z'
-- standard_name: TBD
+  description:  The time attribute for when data was last written to the file
+  sample_value: '1505416680.062500'
+- standard_name: share_relative_target_name
   standard_type: TBD
   name: name
   type: string
-  description: Filename if one was seen
-  sample_value: Master Payroll Members.pptx
-- standard_name: TBD
+  description: The path/name relative to tree's path that was accessed
+  sample_value: adtest.local\\Policies\\{4132D0FE-8293-4D5A-BB3D-2164535CA3B2}\\
+    Machine\\Preferences\\ScheduledTasks\\ScheduledTasks.xml
+- standard_name: share_name
   standard_type: TBD
   name: path
   type: string
   description: Path pulled from the tree this file was transferred to or from.
-  sample_value: \\COMPUTERNAME\C$
-- standard_name: TBD
+  sample_value: \\dc001.adtest.local\SysVol
+- standard_name: file_size
   standard_type: TBD
   name: size
   type: integer
   description: Total size of the file.
-  sample_value: '218668'
+  sample_value: '5639'
 - standard_name: TBD
   standard_type: TBD
   name: action
   type: string
   description: Action this log record represents.
-  sample_value: SMB::FILE_SET_ATTRIBUTE
-- standard_name: TBD
+  sample_value: SMB::FILE_OPEN
+- standard_name: file_previous_name
   standard_type: TBD
   name: prev_name
   type: string

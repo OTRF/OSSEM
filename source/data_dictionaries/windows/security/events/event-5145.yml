@@ -89,9 +89,8 @@ event_fields:
   standard_type: TBD
   name: AccessList
   type: string
-  description: the list of access rights which were requested by Subject\Security
-    ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)"
-    value for this event.
+  description: the list of access rights which were requested by `user_sid`.
+    These access rights depend on Object Type.
   sample_value: '%%4416'
 references:
 - text: MS Source

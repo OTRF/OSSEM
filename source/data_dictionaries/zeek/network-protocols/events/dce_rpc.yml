@@ -9,7 +9,7 @@ event_fields:
   name: ts
   type: date_time
   description: Timestamp of the beginning of the event in epoch format
-  sample_value: '1300475167.096535'
+  sample_value: '1442984666.02822'
 - standard_name: src_ip_addr
   standard_type: TBD
   name: id.orig_h
@@ -21,7 +21,7 @@ event_fields:
   name: id.orig_p
   type: integer
   description: The originating/source port
-  sample_value: '37682'
+  sample_value: '51281'
 - standard_name: dst_ip_addr
   standard_type: TBD
   name: id.resp_h
@@ -33,25 +33,25 @@ event_fields:
   name: id.resp_p
   type: integer
   description: The responding/destination port
-  sample_value: '135'
+  sample_value: '445'
 - standard_name: event_uid
   standard_type: TBD
   name: uid
   type: string
   description: Unique ID for the connection.
-  sample_value: CHhAvVGS1DHFjwGM9
+  sample_value: CPLWKP10UDzr7stpbf
 - standard_name: TBD
   standard_type: TBD
   name: endpoint
   type: string
   description: Endpoint name looked up from the uuid.
-  sample_value: exchange_mapi
+  sample_value: srvsvc
 - standard_name: TBD
   standard_type: TBD
   name: named_pipe
   type: string
   description: Remote pipe name.
-  sample_value: \\pipe\spoolss
+  sample_value: \PIPE\srvsvc
 - standard_name: TBD
   standard_type: TBD
   name: operation
@@ -64,6 +64,6 @@ event_fields:
   type: float
   description: Round trip time from the request to the response. If either the request
     or response was not seen, this will be null.
-  sample_value: '0.025'
+  sample_value: '0.00303'
 references: []
 tags: []
