@@ -5,7 +5,7 @@ Event fields used to define specific metadata of the event itself. For example e
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
 |@timestamp||date|The most accurate timestamp of the log. Commonly this will be the original reporting timestamp from the log. However, if you believe the log timestamp has been altered or skewed (ie: either due to timezone issues or NTP skew)then replace this field with the most likely timestamp. Always keep the original log timestamp in the field event_creation_timestamp|43201.2404861111|
-|event_creation_timestamp||date|original time when event/log was created as reported from the log source itself|43201.2404861111|
+|event_creation_time||date|original time when event/log was created as reported from the log source itself|43201.2404861111|
 |event_duration||float|The length/duration of the event in seconds  (e.g., 1 min is 60.0)|60|
 |event_error||string|Information about an error|``|
 |event_error_code||integer|Integer that defines a particular event_error|``|

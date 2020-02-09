@@ -14,5 +14,5 @@ Event fields used to define specific metadata about the event during the process
 |etl_input_port||integer|Port (network) used to receive or gather the log for the very first portion of the ETL processing|9092|
 |etl_input_protocol||string|Protocol (network) used to receive or gather the log for the very first portion of the ETL processing (ie: tcp, udp, icmp)|tcp|
 |etl_pipeline||string|Used to keep track of tags related to transforms, enrichment, or modifications made in an ETL pipeline|all-add_processed_timestamp|
-|etl_processed_timestamp||date|The first time the event gets processed by the ETL (processing pipeline)|4/11/2018 5:49:25|
+|etl_processed_time||date|The first time the event gets processed by the ETL (processing pipeline)|4/11/2018 5:49:25|
 |etl_version||string|The schema or transform versioning that is being applied|v1.0.1|

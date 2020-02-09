@@ -18,7 +18,7 @@ This event generates every time network share object (file or folder) was access
 |share_relative_target_name|RelativeTargetName|string|relative name of the accessed target file or folder. This file-path is relative to the network share. If access was requested for the share itself, then this field appears as "\"|`Bginfo.exe`|
 |share_access_mask|AccessMask|string|the sum of hexadecimal values of requested access rights. See "Table 13. File access codes."|`0x1`|
 |user_access_reason|AccessReason|string|the list of access check results.|`%%1541: %%1801 D:(A;;FA;;;WD) %%4416: %%1801 D:(A;;FA;;;WD) %%4423: %%1801 D:(A;;FA;;;WD)`|
-|user_access_list|AccessList|string|the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)" value for this event.|`%%4416`|
+|user_access_list|AccessList|string|the list of access rights which were requested by `user_sid`. These access rights depend on Object Type.|`%%4416`|
 
 ## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5145.md)
