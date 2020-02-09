@@ -6,8 +6,8 @@ Interactive filesystem attributes and metadata.
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|file_path|path|TEXT|Absolute file path|`file_directory`|
-|TBD|directory|TEXT|Directory of file(s)|`TBD`|
+|file_path|path|TEXT|Absolute file path|`TBD`|
+|file_directory|directory|TEXT|Directory of file(s)|`TBD`|
 |file_name|filename|TEXT|Name portion of file path|`TBD`|
 |file_inode|inode|BIGINT|Filesystem inode number|`TBD`|
 |user_uid|uid|BIGINT|Owning user ID|`TBD`|
