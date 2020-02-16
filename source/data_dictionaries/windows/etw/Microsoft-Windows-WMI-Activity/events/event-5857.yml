@@ -1,5 +1,5 @@
 title: Event 5857 - task_0
-description: null
+description: WMI provider started
 platform: windows
 log_source: Microsoft-Windows-WMI-Activity
 event_code: 5857
@@ -16,25 +16,27 @@ event_fields:
   type: HexInt32
   description: null
   sample_value: null
-- standard_name: TBD
+- standard_name: process_name
   standard_type: TBD
   name: HostProcess
   type: UnicodeString
-  description: null
+  description: WMI provider process name
   sample_value: null
-- standard_name: TBD
+- standard_name: process_id
   standard_type: TBD
   name: ProcessID
   type: UInt32
-  description: null
+  description: WMI provider process id
   sample_value: null
-- standard_name: TBD
+- standard_name: module_loaded
   standard_type: TBD
   name: ProviderPath
   type: UnicodeString
-  description: null
+  description: Path of the WMI provider module being loaded
   sample_value: null
-references: null
+references:
+- text: Basics of Tracking WMI Activity
+  link: https://www.darkoperator.com/blog/2017/10/14/basics-of-tracking-wmi-activity
 tags:
 - etw_level_Always
 - etw_task_task_0

@@ -1,5 +1,5 @@
 title: Event 5858 - task_0
-description: null
+description: WMI query error
 platform: windows
 log_source: Microsoft-Windows-WMI-Activity
 event_code: 5858
@@ -34,7 +34,7 @@ event_fields:
   type: UnicodeString
   description: null
   sample_value: null
-- standard_name: TBD
+- standard_name: wmi_query
   standard_type: TBD
   name: Operation
   type: UnicodeString
@@ -52,7 +52,9 @@ event_fields:
   type: UnicodeString
   description: null
   sample_value: null
-references: null
+references:
+- text: Basics of Tracking WMI Activity
+  link: https://www.darkoperator.com/blog/2017/10/14/basics-of-tracking-wmi-activity
 tags:
 - etw_level_Error
 - etw_task_task_0
