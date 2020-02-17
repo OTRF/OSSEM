@@ -1,0 +1,36 @@
+title: Event 1014 - LeakDiagnosisEvents
+description: null
+platform: windows
+log_source: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_code: '1014'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessImageName
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: PID
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: CreationTime
+  type: FILETIME
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: DropReasonCode
+  type: UInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_RDR_RES_KEYWORD_LEAK_DIAGNOSIS
+- etw_opcode_Eventsloggedafteranattempttolaunchtheleakdiagnoserismade.
+- etw_task_LeakDiagnosisEvents

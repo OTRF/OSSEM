@@ -1,0 +1,42 @@
+title: Event 1000 - UNCHardeningConfiguration
+description: null
+platform: windows
+log_source: Microsoft-Windows-NetworkProvider
+event_code: '1000'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: RegistryKeyLength
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RegistryKey
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RegistryValueNameLength
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RegistryValueName
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RegistryValueType
+  type: UInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Error
+- etw_keywords_UncHardening
+- etw_opcode_UnsupportedRegistryValueType
+- etw_task_UNCHardeningConfiguration

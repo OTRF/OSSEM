@@ -1,0 +1,42 @@
+title: Event 1 - SystemTimeChange
+description: null
+platform: windows
+log_source: Microsoft-Windows-Kernel-General
+event_code: '1'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: NewTime
+  type: FILETIME
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: OldTime
+  type: FILETIME
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Reason
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessName
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessID
+  type: UInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_KERNEL_GENERAL_KEYWORD_TIME
+- etw_task_SystemTimeChange
+- version_2
