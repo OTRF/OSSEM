@@ -7,8 +7,7 @@ description: 'Logs the start and stop of PowerShell. Each time that PowerShell e
 
   The message details for both EID 400 and EID 403 events include a HostName field.
   If executed locally, this field will be logged as HostName=ConsoleHost. If PowerShell
-  remoting is in use, the accessed system will record these events with HostName=ServerRemoteHost."<a
-  href="https://www.blackhat.com/docs/us-14/materials/us-14-Kazanciyan-Investigating-Powershell-Attacks-WP.pdf">https://www.blackhat.com/docs/us-14/materials/us-14-Kazanciyan-Investigating-Powershell-Attacks-WP.pdf</a>'
+  remoting is in use, the accessed system will record these events with HostName=ServerRemoteHost.'
 platform: windows
 log_source: powershell
 event_code: '403'
