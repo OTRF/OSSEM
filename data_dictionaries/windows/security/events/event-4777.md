@@ -6,6 +6,10 @@ Currently this event doesn’t generate. It is a defined event, but it is never 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
+|TBD|ClientUserName|UnicodeString|None|`None`|
+|TBD|TargetUserName|UnicodeString|None|`None`|
+|TBD|Workstation|UnicodeString|None|`None`|
+|TBD|Status|UnicodeString|None|`None`|
 
 ## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4777.md)

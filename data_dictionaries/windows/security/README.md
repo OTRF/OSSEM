@@ -192,7 +192,7 @@ You can use Windows security and system logs to record and store collected secur
 |[5376](events/event-5376.md)|This event generates every time the user (Subject) successfully backs up the credential manager database.|Account Management, Audit User Account Management|
 |[5377](events/event-5377.md)|This event generates every time the user (Subject) successfully restores the credential manager database.|Account Management, Audit User Account Management|
 |[5378](events/event-5378.md)|This event occurs when an account that is a member of any defined Special Group logs in.|Account Logon, Logon/Logoff, Audit Other Logon/Logoff Events|
-|[5379](events/event-5379.md)|This event occurs when a user performs a read operation on stored credentials in Credential Manager.||
+|[5379](events/event-5379.md)|This event occurs when a user performs a read operation on stored credentials in Credential Manager.|System, Audit Other System Events|
 |[5447](events/event-5447.md)|This event generates every time a Windows Filtering Platform.|Policy Change, Audit Other Policy Change Events|
 |[5632](events/event-5632.md)|This event generates when 802.1x authentication attempt was made for wireless network.|Account Logon, Logon/Logoff, Audit Other Logon/Logoff Events|
 |[5633](events/event-5633.md)|This event generates when 802.1x authentication attempt was made for wired network.|Account Logon, Logon/Logoff, Audit Other Logon/Logoff Events|

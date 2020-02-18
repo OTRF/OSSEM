@@ -12,7 +12,6 @@ This event generates if an attempt was made to duplicate a handle to an object.
 |user_logon_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|`0x3e7`|
 |object_handle_id|SourceHandleId|integer|hexadecimal value of a handle which was duplicated.|`0x438`|
 |process_id|SourceProcessId|integer|hexadecimal Process ID of the process which opened the Source Handle ID before it was duplicated.|`0x674`|
-|reporter_process_id|ProcessId|integer|hexadecimal Process ID of the system if it exists.|`0x4`|
 |target_object_handle_id|TargetHandleId|integer|hexadecimal value of the new handle (the copy of Source Handle ID).|`0xd9c`|
 |target_process_id|TargetProcessId|integer|hexadecimal Process ID of the process which opened the Target Handle ID.|`0x4`|
 

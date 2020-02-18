@@ -16,4 +16,13 @@ This event occurs when a user performs a read operation on stored credentials in
 |object_operation_type|ReadOperation|string||`%%8100`|
 |credentials_read_returned_code|ReturnCode|string||`0`|
 |process_creation_time|ProcessCreationTime|date||`2019-02-25T22:33:21.621488200Z`|
-|process_id|ClienProcessId|integer||`4432`|
+|process_id|ClientProcessId|integer||`4432`|
+
+## References
+* [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5379.md)
+* [MS Security Auditing Category - System](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system)
+* [MS Security Auditing Sub-category - Audit Other System Events](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md)
+
+## Tags
+* System
+* Audit Other System Events

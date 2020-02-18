@@ -6,6 +6,8 @@ Not available
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
+|TBD|ClientUserName|UnicodeString|None|`None`|
+|TBD|MappingBy|UnicodeString|None|`None`|
 
 ## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4775.md)

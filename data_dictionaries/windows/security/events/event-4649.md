@@ -13,8 +13,9 @@ Domain controllers cache information from recently received tickets. If the serv
 |user_reporter_id|SubjectLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID.|`0x3e7`|
 |user_name|TargetUserName|string|the name of the account whose credential were replayed.|`DC02$`|
 |user_domain|TargetDomainName|string|the domain of the account whose credential were replayed.|`CONTOSO.LOCAL`|
+|TBD|RequestType|UnicodeString|None|`None`|
 |logon_process_name|LogonProcessName|string|The name of the trusted logon process that was used for the replay.|`Kerberos`|
-|logon_authentication_package_name|AuthenticationPackageName|string|The name of the authentication package which was used for the Kerberos.|`Kerberos`|
+|logon_authentication_package_name|AuthenticationPackage|string|The name of the authentication package which was used for the Kerberos.|`Kerberos`|
 |src_host_name|WorkstationName|string|machine name from which attempt was performed. May not exist.|`-`|
 |logon_transmitted_services|TransmittedServices|string|the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user – most commonly done by a front-end website to access an internal resource on behalf of a user.|`-`|
 |ticket_request_type|RequestType|string|The type of request.|`KRB_AP_REQ`|

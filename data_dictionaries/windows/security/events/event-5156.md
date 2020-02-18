@@ -6,7 +6,7 @@ This event generates when Windows Filtering Platform has allowed a connection.
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|process_id|ProcessId|integer|Hexadecimal Process ID of the process which received the connection.|`4156`|
+|process_id|ProcessID|integer|Hexadecimal Process ID of the process which received the connection.|`4156`|
 |process_path|Application|string|Full path and the name of the executable for the process.|`\device\harddiskvolume2\documents\listener.exe`|
 |TBD|Direction|string|Direction of allowed connection.|`Inbound`|
 |src_ip_addr|SourceAddress|ip|IP address from which the connection was initiated.|`10.0.0.10`|

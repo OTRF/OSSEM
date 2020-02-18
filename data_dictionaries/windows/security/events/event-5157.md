@@ -6,7 +6,7 @@ This event generates when Windows Filtering Platform has blocked a connection.
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|process_id|ProcessId|integer|Hexadecimal Process ID of the process that attempted to create the connection.|`4556`|
+|process_id|ProcessID|integer|Hexadecimal Process ID of the process that attempted to create the connection.|`4556`|
 |process_path|Application|string|Full path and the name of the executable for the process.|`\device\harddiskvolume2\documents\listener.exe`|
 |TBD|Direction|string|Direction of blocked connection.|`Inbound`|
 |src_ip_addr|SourceAddress|ip|Local IP address on which application received the connection.|`10.0.0.10`|

@@ -1,33 +1,42 @@
-# Event 4625 - task_0
+# Event ID 4625: An account failed to log on
 
 ## Description
-None
+Event ID 4625: An account failed to log on
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|SubjectUserSid|SID|None|`None`|
-|TBD|SubjectUserName|UnicodeString|None|`None`|
-|TBD|SubjectDomainName|UnicodeString|None|`None`|
-|TBD|SubjectLogonId|HexInt64|None|`None`|
-|TBD|TargetUserSid|SID|None|`None`|
-|TBD|TargetUserName|UnicodeString|None|`None`|
-|TBD|TargetDomainName|UnicodeString|None|`None`|
-|TBD|Status|HexInt32|None|`None`|
-|TBD|FailureReason|UnicodeString|None|`None`|
-|TBD|SubStatus|HexInt32|None|`None`|
-|TBD|LogonType|UInt32|None|`None`|
-|TBD|LogonProcessName|UnicodeString|None|`None`|
-|TBD|AuthenticationPackageName|UnicodeString|None|`None`|
-|TBD|WorkstationName|UnicodeString|None|`None`|
-|TBD|TransmittedServices|UnicodeString|None|`None`|
-|TBD|LmPackageName|UnicodeString|None|`None`|
-|TBD|KeyLength|UInt32|None|`None`|
-|TBD|ProcessId|Pointer|None|`None`|
-|TBD|ProcessName|UnicodeString|None|`None`|
-|TBD|IpAddress|UnicodeString|None|`None`|
-|TBD|IpPort|UnicodeString|None|`None`|
+|user_reporter_sid|SubjectUserSid|SID|SID of account that reported information about logon failure.|`S-1-5-18`|
+|user_reporter_name|SubjectUserName|UnicodeString|the name of the account that reported information about logon failure.|`DC01$`|
+|user_reporter_domain|SubjectDomainName|UnicodeString|subject's domain or computer name|`CONTOSO`|
+|user_reporter_id|SubjectLogonId|HexInt64|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x3e7`|
+|user_sid|TargetUserSid|SID|SID of the account that was specified in the logon attempt|`S-1-0-0`|
+|user_name|TargetUserName|UnicodeString|the name of the account that was specified in the logon attempt|`Auditor`|
+|user_domain|TargetDomainName|UnicodeString|subject's domain or computer name|`CONTOSO`|
+|event_status|Status|HexInt32|the reason why logon failed. For this event it typically has "0xC0000234" value|`0xc0000234`|
+|event_failure_reason|FailureReason|UnicodeString|textual explanation of Status field value|`%%2307`|
+|event_sub_status|SubStatus|HexInt32|additional information about logon failure.|`0x0`|
+|logon_type|LogonType|UInt32|the type of logon which was performed|`2`|
+|logon_process_name|LogonProcessName|UnicodeString|the name of the trusted logon process that was used for the logon attempt. See event "4611: A trusted logon process has been registered with the Local Security Authority" description for more information.|`User32`|
+|logon_authentication_package_name|AuthenticationPackageName|UnicodeString|The name of the authentication package which was used for the logon authentication process. Default packages loaded on LSA startup are located in "HKLM\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig" registry key.|`Negotiate`|
+|src_host_name|WorkstationName|UnicodeString|machine name from which logon attempt was performed.|`DC01`|
+|logon_transmitted_services|TransmittedServices|UnicodeString|the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user - most commonly done by a front-end website to access an internal resource on behalf of a user.|`-`|
+|logon_authentication_lan_package_name|LmPackageName|UnicodeString|The name of the LAN Manager sub-package (NTLM-family protocol name) that was used during logon. Possible values are: NTLM V1, NTLM V2, LM. Only populated if Authentication Package = NTLM.|`-`|
+|logon_key_length|KeyLength|UInt32|the length of NTLM Session Security key. Typically it has 128 bit or 56 bit length. This parameter is always 0 if "Authentication Package" = "Kerberos", because it is not applicable for Kerberos protocol. This field will also have "0" value if Kerberos was negotiated using Negotiate authentication package.|`0`|
+|process_id|ProcessId|Pointer|hexadecimal Process ID of the process that attempted the logon. Process ID (PID) is a number used by the operating system to uniquely identify an active process.|`0x1bc`|
+|process_path|ProcessName|UnicodeString|full path and the name of the executable for the process.|`C:\Windows\System32\winlogon.exe`|
+|src_ip_addr|IpAddress|UnicodeString|IP address of machine from which logon attempt was performed|`127.0.0.1`|
+|src_port|IpPort|UnicodeString|source port which was used for logon attempt from remote machine. 0 for interactive logons|`0`|
+
+## References
+* [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4625.md)
+* [MS Security Auditing Category - Logon/Logoff](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff)
+* [MS Security Auditing Sub-category - Audit Account Lockout](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-account-lockout.md)
+* [MS Security Auditing Sub-category - Audit Logon](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-logon.md)
 
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
+* Logon/Logoff
+* Audit Account Lockout
+* Audit Logon

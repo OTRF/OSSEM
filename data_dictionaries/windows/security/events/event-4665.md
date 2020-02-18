@@ -6,13 +6,12 @@ Not available
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|user_sid|SubjectUserSid|string|SID of account that requested the "assign token to process" operation.|`S-1-5-18`|
-|user_name|SubjectUserName|string|the name of the account that requested the "assign token to process" operation.|`WIN2008$`|
-|user_domain|SubjectDomainName|string|subject's domain or computer name.|`CONTOSO`|
-|TBD|TBD|string|(Subject) Client Context ID|`616554732`|
-|TBD|TBD|string|(Application Information) Application Name|`-`|
-|TBD|TBD|string|(Application Information) Application Instance ID|`-`|
-|TBD|TBD|string|Status|`-`|
+|TBD|AppName|string|(Application Information) Application Name|`-`|
+|TBD|AppInstance|string|(Application Information) Application Instance ID|`-`|
+|user_name|ClientName|string|the name of the account that requested the "assign token to process" operation.|`WIN2008$`|
+|user_domain|ClientDomain|string|subject's domain or computer name.|`CONTOSO`|
+|TBD|ClientLogonId|string|(Subject) Client Context ID|`616554732`|
+|TBD|Status|string|Status|`-`|
 
 ## References
 * [Ultimate Windows Security Source](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4665)

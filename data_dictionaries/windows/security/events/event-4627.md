@@ -15,10 +15,9 @@ This event generates with "4624(S): An account was successfully logged on" and s
 |user_domain|TargetDomainName|string|subject's domain or computer name.|`CONTOSO`|
 |user_logon_id|TargetLogonId|integer|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID|`0x136f7b`|
 |logon_type|LogonType|integer|the type of logon which was performed.|`3`|
-|event_sequence_id|EventIdx|integer|If is there is not enough space in one event to put all claims, you will see "1 of N" in this field and additional events will be generated. Typically this field has "1 of 1" value.|`1`|
-|event_count_total|EventCountTotal|integer|The name of the authentication package which was used for the logon authentication process. Default packages loaded on LSA startup are located in "HKLM\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig" registry key.|`1`|
-|logon_user_claims|UserClaims|string|list of user claims for new logon session. This field contains user claims if user account was logged in and device claims if computer account was logged in|`ad://ext/cn:88d2b96fdb2b4c49 <%%1818> : "dadmin" ad://ext/Department:88d16a8edaa8c66b <%%1818> : "IT"`|
-|logon_device_claims|DeviceClaims|string|list of device claims for new logon session|`-`|
+|event_sequence_id|EventIdx|integer|If is there is not enough space in one event to put all groups, you will see "1 of N" in this field and additional events will be generated. Typically this field has "1 of 1" value.|`1`|
+|event_count_total|EventCountTotal|integer|Total number of events in the sequence.|`1`|
+|TBD|GroupMembership|integer|the list of group SIDs which logged account belongs to (member of). Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.|`%{S-1-5-21-1377283216-344919071-3415362939-513} %{S-1-1-0} %{S-1-5-32-544} %{S-1-5-32-545} %{S-1-5-32-554} %{S-1-5-2} %{S-1-5-11} %{S-1-5-15} %{S-1-5-21-1377283216-344919071-3415362939-512} %{S-1-5-21-1377283216-344919071-3415362939-572} %{S-1-5-64-10} %{S-1-16-12288}`|
 
 ## References
 * [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4627.md)

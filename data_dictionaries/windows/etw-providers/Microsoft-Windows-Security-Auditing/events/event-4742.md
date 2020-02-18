@@ -1,41 +1,48 @@
-# Event 4742 - task_0
+# Event ID 4742: A computer account was changed
 
 ## Description
-None
+Event ID 4742: A computer account was changed
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|TBD|ComputerAccountChange|UnicodeString|None|`None`|
-|TBD|TargetUserName|UnicodeString|None|`None`|
-|TBD|TargetDomainName|UnicodeString|None|`None`|
-|TBD|TargetSid|SID|None|`None`|
-|TBD|SubjectUserSid|SID|None|`None`|
-|TBD|SubjectUserName|UnicodeString|None|`None`|
-|TBD|SubjectDomainName|UnicodeString|None|`None`|
-|TBD|SubjectLogonId|HexInt64|None|`None`|
-|TBD|PrivilegeList|UnicodeString|None|`None`|
-|TBD|SamAccountName|UnicodeString|None|`None`|
-|TBD|DisplayName|UnicodeString|None|`None`|
-|TBD|UserPrincipalName|UnicodeString|None|`None`|
-|TBD|HomeDirectory|UnicodeString|None|`None`|
-|TBD|HomePath|UnicodeString|None|`None`|
-|TBD|ScriptPath|UnicodeString|None|`None`|
-|TBD|ProfilePath|UnicodeString|None|`None`|
-|TBD|UserWorkstations|UnicodeString|None|`None`|
-|TBD|PasswordLastSet|UnicodeString|None|`None`|
-|TBD|AccountExpires|UnicodeString|None|`None`|
-|TBD|PrimaryGroupId|UnicodeString|None|`None`|
-|TBD|AllowedToDelegateTo|UnicodeString|None|`None`|
-|TBD|OldUacValue|UnicodeString|None|`None`|
-|TBD|NewUacValue|UnicodeString|None|`None`|
-|TBD|UserAccountControl|UnicodeString|None|`None`|
-|TBD|UserParameters|UnicodeString|None|`None`|
-|TBD|SidHistory|UnicodeString|None|`None`|
-|TBD|LogonHours|UnicodeString|None|`None`|
-|TBD|DnsHostName|UnicodeString|None|`None`|
-|TBD|ServicePrincipalNames|UnicodeString|None|`None`|
+|computer_account_change|ComputerAccountChange|UnicodeString||`-`|
+|target_host_name|TargetUserName|UnicodeString|the name of the computer account that was changed.|`WIN81$`|
+|target_host_domain|TargetDomainName|UnicodeString|domain name of changed computer account.|`CONTOSO`|
+|target_host_sid|TargetSid|SID|SID of changed computer account.|`S-1-5-21-3457937927-2839227994-823803824-6116`|
+|user_sid|SubjectUserSid|SID|SID of account that requested the "change Computer object" operation.|`S-1-5-21-3457937927-2839227994-823803824-1104`|
+|user_name|SubjectUserName|UnicodeString|the name of the account that requested the "change Computer object" operation.|`dadmin`|
+|user_domain|SubjectDomainName|UnicodeString|subject's domain name.|`CONTOSO`|
+|user_logon_id|SubjectLogonId|HexInt64|hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."|`0x2e80c`|
+|user_privilege_list|PrivilegeList|UnicodeString|the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as "-".|`-`|
+|target_host_sam_name|SamAccountName|UnicodeString|logon name for account used to support clients and servers from previous versions of Windows (pre-Windows 2000 logon name). If the value of sAMAccountName attribute of computer object was changed, you will see the new value here.|`WIN8$.`|
+|target_host_display_name|DisplayName|UnicodeString|it is a name displayed in the address book for a particular account (typically - user account). This is usually the combination of the user's first name, middle initial, and last name. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example. If the value of displayName attribute of computer object was changed, you will see the new value here.|`-`|
+|target_host_principal_name|UserPrincipalName|UnicodeString|internet-style login name for the account, based on the Internet standard RFC 822. By convention this should map to the account's email name. If the value of userPrincipalNameattribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_home_directory|HomeDirectory|UnicodeString|user's home directory. If homeDrive attribute is set and specifies a drive letter, homeDirectory should be a UNC path. The path must be a network UNC of the form \Server\Share\Directory. If the value of homeDirectory attribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_home_oath|HomePath|UnicodeString|specifies the drive letter to which to map the UNC path specified by homeDirectory account's attribute. The drive letter must be specified in the form "DRIVE_LETTER:". For example - "H:". If the value of homeDrive attribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_script_path|ScriptPath|UnicodeString|specifies the path of the account's logon script. If the value of scriptPathattribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_profile_path|ProfilePath|UnicodeString|specifies a path to the account's profile. This value can be a null string, a local absolute path, or a UNC path. If the value of profilePath attribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_user_workstations|UserWorkstations|UnicodeString|contains the list of NetBIOS or DNS names of the computers from which the user can logon. Each computer name is separated by a comma. The name of a computer is the sAMAccountName property of a computer object. If the value of userWorkstations attribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_password_last_set|PasswordLastSet|UnicodeString|last time the account's password was modified. If the value of pwdLastSet attribute of computer object was changed, you will see the new value here. For example: 8/12/2015 11:41:39 AM. This value will be changed, for example, after manual computer account reset action or automatically every 30 days by default for computer objects.|`-`|
+|target_host_account_expires|AccountExpires|UnicodeString|the date when the account expires. If the value of accountExpiresattribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|host_primary_group_id|PrimaryGroupId|UnicodeString|Relative Identifier (RID) of computer's object primary group.|`-`|
+|target_host_allowed_to_delegate|AllowedToDelegateTo|UnicodeString|the list of SPNs to which this account can present delegated credentials. Can be changed using Active Directory Users and Computers management console in Delegation tab of computer account. If the SPNs list on Delegation tab of a computer account was changed, you will see the new SPNs list in AllowedToDelegateTo field (note that you will see the new list instead of changes) of this event.|`%%1793`|
+|target_host_old_uac_value|OldUacValue|UnicodeString|specifies flags that control password, lockout, disable/enable, script, and other behavior for the user or computer account. This parameter contains the previous value of userAccountControlattribute of computer object.|`0x80`|
+|target_host_new_uac_value|NewUacValue|UnicodeString|specifies flags that control password, lockout, disable/enable, script, and other behavior for the user or computer account. If the value of userAccountControl attribute of computer object was changed, you will see the new value here.|`0x2080`|
+|target_host_account_control|UserAccountControl|UnicodeString|shows the list of changes in userAccountControl attribute. You will see a line of text for each change. See possible values in here: "Table 7. User's or Computer's account UAC flags.". In the "User Account Control field text" column, you can see text that will be displayed in the User Account Controlfield in 4742 event.|`%%2093`|
+|target_host_parameters|UserParameters|UnicodeString|if you change any setting using Active Directory Users and Computers management console in Dial-in tab of computer's account properties, then you will see \<value changed, but not displayed> in this field.|`-`|
+|target_host_sid_history|SidHistory|UnicodeString|contains previous SIDs used for the object if the object was moved from another domain. Whenever an object is moved from one domain to another, a new SID is created and becomes the objectSID. The previous SID is added to the sIDHistory property. If the value of sIDHistory attribute of computer object was changed, you will see the new value here.|`-`|
+|target_host_logon_hours|LogonHours|UnicodeString|hours that the account is allowed to logon to the domain. If the value of logonHours attribute of computer object was changed, you will see the new value here. For computer objects, it is optional, and typically is not set. You can change this attribute by using Active Directory Users and Computers, or through a script, for example.|`-`|
+|target_host_dns_host_name|DnsHostName|UnicodeString|name of computer account as registered in DNS. If the value of dNSHostName attribute of computer object was changed, you will see the new value here.|`-`|
+|target_host_service_principal_names|ServicePrincipalNames|UnicodeString|The list of SPNs, registered for computer account. If the SPN list of a computer account changed, you will see the new SPN list in Service Principal Names field (note that you will see the new list instead of changes).|`-`|
+
+## References
+* [MS Source](https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4742.md)
+* [MS Security Auditing Category - Account Management](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management)
+* [MS Security Auditing Sub-category - Audit Computer Account Management](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-computer-account-management.md)
 
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
+* Account Management
+* Audit Computer Account Management
