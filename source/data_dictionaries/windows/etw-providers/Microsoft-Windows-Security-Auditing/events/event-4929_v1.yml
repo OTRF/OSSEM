@@ -1,47 +1,56 @@
-title: Event 4929 - task_0
-description: null
+title: 'Event ID 4929: An Active Directory replica source naming context was removed.'
+description: 'Event ID 4929: An Active Directory replica source naming context was
+  removed.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4929'
 event_fields:
-- standard_name: TBD
+- standard_name: destination_dra
   standard_type: TBD
   name: DestinationDRA
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: destination directory replication agent distinguished name.
+  sample_value: CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
+- standard_name: source_dra
   standard_type: TBD
   name: SourceDRA
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: source directory replication agent distinguished name.
+  sample_value: '-'
+- standard_name: source_addr
   standard_type: TBD
   name: SourceAddr
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: DNS record of the server from which the "remove" request was received.
+  sample_value: 2d361dd6-fc22-4d9d-b876-ec582b836458._msdcs.contoso.local
+- standard_name: naming_context
   standard_type: TBD
   name: NamingContext
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: naming context which was removed.
+  sample_value: DC=contoso,DC=local
+- standard_name: options
   standard_type: TBD
   name: Options
   type: UInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: decimal value of DRS Options.
+  sample_value: '16640'
+- standard_name: status_code
   standard_type: TBD
   name: StatusCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description: if there are no issues or errors, the status code will be 0.
+  sample_value: '0'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4929.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Sub-category - Audit Detailed Directory Service Replication
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-detailed-directory-service-replication.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
 - version_1
+- DS Access
+- Audit Detailed Directory Service Replication

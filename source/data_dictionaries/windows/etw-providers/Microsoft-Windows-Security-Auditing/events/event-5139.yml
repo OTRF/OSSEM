@@ -1,82 +1,92 @@
-title: Event 5139 - task_0
-description: null
+title: 'Event ID 5139: A directory service object was moved'
+description: 'Event ID 5139: A directory service object was moved'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '5139'
 event_fields:
-- standard_name: TBD
+- standard_name: dsoperation_correlation_id
   standard_type: TBD
   name: OpCorrelationID
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: multiple modifications are often executed as one operation via LDAP.
+  sample_value: '{67A42C05-A70D-4348-AF19-E883CB1FCA9C}'
+- standard_name: dsoperation_app_correlation_id
   standard_type: TBD
   name: AppCorrelationID
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: always has "-" value. Not in use.
+  sample_value: '-'
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the "move object" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "move object" operation.
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: "\_subject's domain or computer name."
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: ''
+- standard_name: host_domain
   standard_type: TBD
   name: DSName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of an Active Directory domain, where the object was moved.
+  sample_value: contoso.local
+- standard_name: dsobject_domain_type
   standard_type: TBD
   name: DSType
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: has "Active Directory Domain Services" value for this event.
+  sample_value: '%%14676'
+- standard_name: dsobject_old_dn
   standard_type: TBD
   name: OldObjectDN
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Old distinguished name of moved object.
+  sample_value: CN=NewUser,CN=Builtin,DC=contoso,DC=local
+- standard_name: dsobject_new_dn
   standard_type: TBD
   name: NewObjectDN
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: New distinguished name of moved object.
+  sample_value: CN=NewUser,CN=Users,DC=contoso,DC=local
+- standard_name: dsobject_guid
   standard_type: TBD
   name: ObjectGUID
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: each Active Directory object has globally unique identifier (GUID),
+    which is a 128-bit value that is unique not only in the enterprise but
+  sample_value: ''
+- standard_name: dsobject_class
   standard_type: TBD
   name: ObjectClass
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: class of the object that was moved.
+  sample_value: user
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5139.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Sub-category - Audit Directory Service Changes
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-changes.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- DS Access
+- Audit Directory Service Changes

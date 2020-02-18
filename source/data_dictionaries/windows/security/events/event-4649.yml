@@ -49,6 +49,12 @@ event_fields:
   type: string
   description: the domain of the account whose credential were replayed.
   sample_value: CONTOSO.LOCAL
+- standard_name: TBD
+  standard_type: TBD
+  name: RequestType
+  type: UnicodeString
+  description: null
+  sample_value: null
 - standard_name: logon_process_name
   standard_type: TBD
   name: LogonProcessName
@@ -57,7 +63,7 @@ event_fields:
   sample_value: Kerberos
 - standard_name: logon_authentication_package_name
   standard_type: TBD
-  name: AuthenticationPackageName
+  name: AuthenticationPackage
   type: string
   description: The name of the authentication package which was used for the Kerberos.
   sample_value: Kerberos

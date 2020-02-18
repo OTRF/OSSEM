@@ -29,12 +29,6 @@ event_fields:
   description: hexadecimal value that can help you correlate this event with 
     recent events that might contain the same Logon ID
   sample_value: '0x671101'
-- standard_name: object_name
-  standard_type: TBD
-  name: ObjectName
-  type: string
-  description: the name of the object that was accessed during the operation
-  sample_value: '-'
 - standard_name: object_server
   standard_type: TBD
   name: ObjectServer
@@ -47,6 +41,12 @@ event_fields:
   type: string
   description: The type of an object that was accessed during the operation
   sample_value: '-'
+- standard_name: object_name
+  standard_type: TBD
+  name: ObjectName
+  type: string
+  description: the name of the object that was accessed during the operation
+  sample_value: '-'
 - standard_name: object_handle_id
   standard_type: TBD
   name: HandleId
@@ -55,16 +55,6 @@ event_fields:
     help you correlate this event with other events that might contain the same 
     Handle ID
   sample_value: '0x0'
-- standard_name: object_access_mask
-  standard_type: TBD
-  name: AccessMask
-  type: string
-  description: The desired access mask. This mask depends on Object Server and 
-    Object Type parameters values. The value of this parameter is in decimal 
-    format. There is no detailed information about this parameter in this 
-    document. If Desired Access is not presented, then this parameter will 
-    have “0” value.
-  sample_value: '-'
 - standard_name: transaction_guid
   standard_type: TBD
   name: TransactionId
@@ -79,6 +69,28 @@ event_fields:
   type: string
   description: the list of user privileges which were requested
   sample_value: '-'
+- standard_name: object_access_mask
+  standard_type: TBD
+  name: AccessMask
+  type: string
+  description: The desired access mask. This mask depends on Object Server and 
+    Object Type parameters values. The value of this parameter is in decimal 
+    format. There is no detailed information about this parameter in this 
+    document. If Desired Access is not presented, then this parameter will 
+    have “0” value.
+  sample_value: '-'
+- standard_name: user_privilege_list
+  standard_type: TBD
+  name: PrivilegeList
+  type: UnicodeString
+  description: null
+  sample_value: '-'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: Pointer
+  description: nul l
+  sample_value: '0xe60'
 references:
 - text: MS Source
   link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4659.md

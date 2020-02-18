@@ -1,46 +1,59 @@
-title: Event 4778 - task_0
-description: null
+title: 'Event ID 4778: A session was reconnected to a Window Station'
+description: 'Event ID 4778: A session was reconnected to a Window Station'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4778'
 event_fields:
-- standard_name: TBD
+- standard_name: user_name
   standard_type: TBD
   name: AccountName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account for which the session was reconnected
+  sample_value: ladmin
+- standard_name: user_domain
   standard_type: TBD
   name: AccountDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: LogonID
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x1e01f6'
+- standard_name: session_name
   standard_type: TBD
   name: SessionName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the session to which the user was reconnected
+  sample_value: RDP-Tcp#6
+- standard_name: src_host_name
   standard_type: TBD
   name: ClientName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: computer name from which the user was reconnected. Has "Unknown" value
+    for console session.
+  sample_value: WIN81
+- standard_name: src_ip_addr
   standard_type: TBD
   name: ClientAddress
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: IP address of the computer from which the user was reconnected
+  sample_value: 10.0.0.100
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4778.md
+- text: MS Security Auditing Category - Account Logon
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon
+- text: MS Security Auditing Category - Logon/Logoff
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff
+- text: MS Security Auditing Sub-category - Audit Other Logon/Logoff Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-logon/logoff-events.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Account Logon
+- Logon/Logoff
+- Audit Other Logon/Logoff Events

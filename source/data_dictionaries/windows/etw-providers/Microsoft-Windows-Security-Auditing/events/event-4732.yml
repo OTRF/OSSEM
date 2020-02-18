@@ -1,70 +1,85 @@
-title: Event 4732 - task_0
-description: null
+title: 'Event ID 4732: A member was added to a security-enabled local group'
+description: 'Event ID 4732: A member was added to a security-enabled local group'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4732'
 event_fields:
-- standard_name: TBD
+- standard_name: target_user_name
   standard_type: TBD
   name: MemberName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'distinguished name of account that was added to the group. For example:
+    "CN=Auditor,CN=Users,DC=contoso,DC=local". For local groups this field typically
+    has "-" value, even if new member is a domain account.'
+  sample_value: CN=eadmin,CN=Users,DC=contoso,DC=local
+- standard_name: target_user_sid
   standard_type: TBD
   name: MemberSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that was added to the group.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-500
+- standard_name: group_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the group to which new member was added.
+  sample_value: AccountOperators
+- standard_name: group_domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: domain or computer name of the group to which the new member was added.
+  sample_value: CONTOSO
+- standard_name: group_sid
   standard_type: TBD
   name: TargetSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of the group to which new member was added.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-6605
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the "add member to the group" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "add member to the group"
+    operation.
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3031e'
+- standard_name: user_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-".
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4732.md
+- text: MS Security Auditing Category - Account Management
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management
+- text: MS Security Auditing Sub-category - Audit Security Group Management
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-group-management.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Account Management
+- Audit Security Group Management

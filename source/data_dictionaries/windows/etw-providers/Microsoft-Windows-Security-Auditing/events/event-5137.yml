@@ -1,76 +1,87 @@
-title: Event 5137 - task_0
-description: null
+title: 'Event ID 5137: A directory service object was created'
+description: 'Event ID 5137: A directory service object was created'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '5137'
 event_fields:
-- standard_name: TBD
+- standard_name: dsoperation_correlation_id
   standard_type: TBD
   name: OpCorrelationID
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: multiple modifications are often executed as one operation via LDAP.
+  sample_value: '{02647639-8626-43CE-AFE6-7AA1AD657739}'
+- standard_name: dsoperation_app_correlation_id
   standard_type: TBD
   name: AppCorrelationID
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: always has "-" value.
+  sample_value: '-'
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the "create object" operation.
+  sample_value: ORG\IserA
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "create object" operation.
+  sample_value: UserA
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: ORG
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x432344'
+- standard_name: host_domain
   standard_type: TBD
   name: DSName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of an Active Directory domain, where new object is created.
+  sample_value: org.local
+- standard_name: dsobject_domain_type
   standard_type: TBD
   name: DSType
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: has "Active Directory Domain Services" value for this event.
+  sample_value: Active Directory Domain Services
+- standard_name: dsobject_dn
   standard_type: TBD
   name: ObjectDN
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: distinguished name of the object that was created.
+  sample_value: CN=Win2003,CN=Users,DC=org,DC=local
+- standard_name: dsobject_guid
   standard_type: TBD
   name: ObjectGUID
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: each Active Directory object has globally unique identifier (GUID),
+    which is a 128-bit value that is unique not only in the enterprise but also across
+    the world.
+  sample_value: CN=Win2003,CN=Users,DC=org,DC=local
+- standard_name: dsobject_class
   standard_type: TBD
   name: ObjectClass
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: class of the object that was created.
+  sample_value: computer
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5137.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Sub-category - Audit Directory Service Changes
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-changes.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- DS Access
+- Audit Directory Service Changes

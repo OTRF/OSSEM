@@ -1,100 +1,119 @@
-title: Event 5143 - task_0
-description: null
+title: 'Event ID 5143: A network share object was modified'
+description: 'Event ID 5143: A network share object was modified'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '5143'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the "modify network share object" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "modify network share object"
+    operation.
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x38d12'
+- standard_name: object_type
   standard_type: TBD
   name: ObjectType
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: The type of an object that was modified. Always "Directory" for this
+    event.
+  sample_value: Directory
+- standard_name: share_name
   standard_type: TBD
   name: ShareName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'the name of the modified share object. The format is: *\SHARE_NAME'
+  sample_value: \*\Documents
+- standard_name: share_local_path
   standard_type: TBD
   name: ShareLocalPath
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the full system (NTFS) path for the added share object.
+  sample_value: C:\Documents
+- standard_name: share_old_remark
   standard_type: TBD
   name: OldRemark
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the old value of network share "Comments:" field. Has "N/A" value if
+    it is not set.
+  sample_value: N/A
+- standard_name: share_new_remark
   standard_type: TBD
   name: NewRemark
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the new value of network share "Comments:" field. Has "N/A" value if
+    it is not set.
+  sample_value: N/A
+- standard_name: share_old_max_users
   standard_type: TBD
   name: OldMaxUsers
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: old hexadecimal value of "Limit the number of simultaneous user to:"
+    field. Has "0xFFFFFFFF" value if the number of connections is unlimited.
+  sample_value: '0xffffffff'
+- standard_name: share_new_max_users
   standard_type: TBD
   name: NewMaxUsers
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: new hexadecimal value of "Limit the number of simultaneous user to:"
+    field. Has "0xFFFFFFFF" value if the number of connections is unlimited.
+  sample_value: '0xffffffff'
+- standard_name: share_old_flags
   standard_type: TBD
   name: OldShareFlags
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: old hexadecimal value of "Offline Settings" caching settings window
+    flags.
+  sample_value: '0x800'
+- standard_name: share_new_flags
   standard_type: TBD
   name: NewShareFlags
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: new hexadecimal value of "Offline Settings" caching settings window
+    flags.
+  sample_value: '0x800'
+- standard_name: share_old_sd
   standard_type: TBD
   name: OldSD
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the old Security Descriptor Definition Language (SDDL) value for network
+    share security descriptor.
+  sample_value: '-'
+- standard_name: share_new_sd
   standard_type: TBD
   name: NewSD
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the new Security Descriptor Definition Language (SDDL) value for network
+    share security descriptor.
+  sample_value: O:BAG:DAD:(D;;FA;;;S-1-5-21-3457937927-2839227994-823803824-1104)(A;OICI;FA;;;WD)(A;OICI;FA;;;BA)
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5143.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit File Share
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-share.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Object Access
+- Audit File Share

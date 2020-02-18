@@ -1,94 +1,110 @@
-title: Event 4648 - task_0
-description: null
+title: 'Event ID 4648: A logon was attempted using explicit credentials'
+description: 'Event ID 4648: A logon was attempted using explicit credentials'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4648'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the new logon session with explicit credentials.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the new logon session with explicit
+    credentials.
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name
+  sample_value: CONTOSO
+- standard_name: user_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x31844'
+- standard_name: user_logon_guid
   standard_type: TBD
   name: LogonGuid
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID
+  sample_value: '{00000000-0000-0000-0000-000000000000}'
+- standard_name: target_user_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account whose credentials were used
+  sample_value: ladmin
+- standard_name: target_user_domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name
+  sample_value: CONTOSO
+- standard_name: target_user_logon_guid
   standard_type: TBD
   name: TargetLogonGuid
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested
+    event on a domain controller.'
+  sample_value: '{0887F1E4-39EA-D53C-804F-31D568A06274}'
+- standard_name: target_server_name
   standard_type: TBD
   name: TargetServerName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the server on which the new process was run. Has "localhost"
+    value if the process was run locally.
+  sample_value: localhost
+- standard_name: target_info
   standard_type: TBD
   name: TargetInfo
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: there is no detailed information about this field in this document.
+  sample_value: localhost
+- standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal Process ID of the process which was run using explicit
+    credentials. Process ID (PID) is a number used by the operating system to uniquely
+    identify an active process.
+  sample_value: '0x368'
+- standard_name: process_path
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\System32\svchost.exe
+- standard_name: src_ip_addr
   standard_type: TBD
   name: IpAddress
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: IP address of machine from which logon attempt was performed.
+  sample_value: ::1
+- standard_name: src_port
   standard_type: TBD
   name: IpPort
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: source port which was used for logon attempt from remote machine.
+  sample_value: '0'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4648.md
+- text: MS Security Auditing Category - Logon/Logoff
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff
+- text: MS Security Auditing Sub-category - Audit Logon
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-logon.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Logon/Logoff
+- Audit Logon

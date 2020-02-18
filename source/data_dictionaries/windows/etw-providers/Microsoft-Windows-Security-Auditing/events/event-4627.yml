@@ -1,82 +1,98 @@
-title: Event 4627 - task_0
-description: null
+title: 'Event ID 4627: Group membership information'
+description: 'Event ID 4627: Group membership information'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4627'
 event_fields:
-- standard_name: TBD
+- standard_name: user_reporter_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that reported information about claims.
+  sample_value: S-1-0-0
+- standard_name: user_reporter_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that reported information about claims.
+  sample_value: '-'
+- standard_name: user_reporter_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name
+  sample_value: '-'
+- standard_name: user_reporter_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x0'
+- standard_name: user_sid
   standard_type: TBD
   name: TargetUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account for which logon was performed.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account for which logon was performed
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x136f7b'
+- standard_name: logon_type
   standard_type: TBD
   name: LogonType
   type: UInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the type of logon which was performed.
+  sample_value: '3'
+- standard_name: event_sequence_id
   standard_type: TBD
   name: EventIdx
   type: UInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: If is there is not enough space in one event to put all groups, you
+    will see "1 of N" in this field and additional events will be generated. Typically
+    this field has "1 of 1" value.
+  sample_value: '1'
+- standard_name: event_count_total
   standard_type: TBD
   name: EventCountTotal
   type: UInt32
-  description: null
-  sample_value: null
+  description: Total number of events in the sequence.
+  sample_value: '1'
 - standard_name: TBD
   standard_type: TBD
   name: GroupMembership
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the list of group SIDs which logged account belongs to (member of).
+    Event Viewer automatically tries to resolve SIDs and show the account name. If
+    the SID cannot be resolved, you will see the source data in the event.
+  sample_value: '%{S-1-5-21-1377283216-344919071-3415362939-513} %{S-1-1-0} %{S-1-5-32-544}
+    %{S-1-5-32-545} %{S-1-5-32-554} %{S-1-5-2} %{S-1-5-11} %{S-1-5-15} %{S-1-5-21-1377283216-344919071-3415362939-512}
+    %{S-1-5-21-1377283216-344919071-3415362939-572} %{S-1-5-64-10} %{S-1-16-12288}'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4627.md
+- text: MS Security Auditing Category - Logon/Logoff
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff
+- text: MS Security Auditing Sub-category - Audit Group Membership
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-group-membership.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Logon/Logoff
+- Audit Group Membership

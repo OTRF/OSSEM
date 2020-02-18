@@ -1,76 +1,93 @@
-title: Event 4769 - task_0
-description: null
+title: 'Event ID 4769: A Kerberos service ticket was requested'
+description: 'Event ID 4769: A Kerberos service ticket was requested'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4769'
 event_fields:
-- standard_name: TBD
+- standard_name: user_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'the User Principal Name (UPN) of the account that requested the ticket.
+    Computer account name ends with $ character in UPN. This field typically has the
+    following value format: user_account_name@FULL_DOMAIN_NAME.'
+  sample_value: dadmin@CONTOSO.LOCAL
+- standard_name: user_domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the Kerberos Realm that Account Name belongs to
+  sample_value: CONTOSO.LOCAL
+- standard_name: service_name
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account or computer for which the TGS ticket was requested
+  sample_value: WIN2008R2$
+- standard_name: service_sid
   standard_type: TBD
   name: ServiceSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of the account or computer object for which the TGS ticket was
+    requested. Event Viewer automatically tries to resolve SIDs and show the account
+    name. If the SID cannot be resolved, you will see the source data in the event.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-2102
+- standard_name: ticket_options
   standard_type: TBD
   name: TicketOptions
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: this is a set of different Ticket Flags in hexadecimal format.
+  sample_value: '0x40810000'
+- standard_name: ticket_encryption
   standard_type: TBD
   name: TicketEncryptionType
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the cryptographic suite that was used for issued TGS.
+  sample_value: '0x12'
+- standard_name: src_ip_addr
   standard_type: TBD
   name: IpAddress
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: IP address of the computer from which the TGS request was received.
+  sample_value: ::ffff:10.0.0.12
+- standard_name: src_port
   standard_type: TBD
   name: IpPort
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: source port number of client network connection (TGS request connection).
+  sample_value: '49272'
+- standard_name: ticket_status
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal result code of TGS issue operation.
+  sample_value: '0x0'
+- standard_name: user_logon_guid
   standard_type: TBD
   name: LogonGuid
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'a GUID that can help you correlate this event (on a domain controller)
+    with other events (on the target computer for which the TGS was issued) that can
+    contain the same Logon GUID. These events are "4624: An account was successfully
+    logged on", "4648(S): A logon was attempted using explicit credentials" and "4964(S):
+    Special groups have been assigned to a new logon."'
+  sample_value: '{F85C455E-C66E-205C-6B39-F6C60A7FE453}'
+- standard_name: logon_transmitted_services
   standard_type: TBD
   name: TransmittedServices
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: this field contains list of SPNs which were requested if Kerberos delegation
+    was used.
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4769.md
+- text: MS Security Auditing Category - Account Logon
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon
+- text: MS Security Auditing Sub-category - Audit Kerberos Service Ticket Operations
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-kerberos-service-ticket-operations.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Account Logon
+- Audit Kerberos Service Ticket Operations

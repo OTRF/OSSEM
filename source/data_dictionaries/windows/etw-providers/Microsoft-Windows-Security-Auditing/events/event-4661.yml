@@ -1,106 +1,135 @@
-title: Event 4661 - task_0
-description: null
+title: 'Event ID 4661: A handle to an object was requested'
+description: 'Event ID 4661: A handle to an object was requested'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4661'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested a handle to an object.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested a handle to an object.
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x4280e'
+- standard_name: object_server
   standard_type: TBD
   name: ObjectServer
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: has "Security Account Manager" value for this event.
+  sample_value: Security Account Manager
+- standard_name: object_type
   standard_type: TBD
   name: ObjectType
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the type or class of the object that was accessed.
+  sample_value: SAM_DOMAIN
+- standard_name: object_name
   standard_type: TBD
   name: ObjectName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of an object for which access was requested.
+  sample_value: DC=contoso,DC=local
+- standard_name: object_handle_id
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value of a handle to Object Name. This field can help
+    you correlate this event with other events that might contain the same Handle
+    ID, for example, "4662: An operation was performed on an object." This parameter
+    might not be captured in the event, and in that case appears as "0x0".'
+  sample_value: '0xdd64d36870'
+- standard_name: transaction_guid
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'unique GUID of the transaction. This field can help you correlate
+    this event with other events that might contain the same the Transaction ID, such
+    as "4660(S): An object was deleted."'
+  sample_value: '{00000000-0000-0000-0000-000000000000}'
+- standard_name: object_access_list
   standard_type: TBD
   name: AccessList
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the list of access rights which were requested by Subject\Security
+    ID. These access rights depend on Object Type.
+  sample_value: '%%5400'
+- standard_name: object_access_mask
   standard_type: TBD
   name: AccessMask
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal mask for the operation that was requested or performed.
+  sample_value: '0x2d'
+- standard_name: object_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-".
+  sample_value: '-'
+- standard_name: object_properties
   standard_type: TBD
   name: Properties
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'depends on Object Type. This field can be empty or contain the list
+    of the object properties that were accessed. See more detailed information in
+    "4661: A handle to an object was requested" from Audit SAM subcategory.'
+  sample_value: '-'
+- standard_name: object_restricted_sid_count
   standard_type: TBD
   name: RestrictedSidCount
   type: UInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Number of restricted SIDs in the token. Applicable to only specific
+    Object Types.
+  sample_value: '-'
+- standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal Process ID of the process that requested the handle. Process
+    ID (PID) is a number used by the operating system to uniquely identify an active
+    process.
+  sample_value: '0x9000a000d002d'
+- standard_name: process_path
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: full path and the name of the executable for the process.
+  sample_value: '{bf967a90-0de6-11d0-a285-00aa003049e2} %%5400 {ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501}'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4661.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Directory Service Access
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-directory-service-access.md
+- text: MS Security Auditing Sub-category - Audit SAM
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-sam.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- DS Access
+- Object Access
+- Audit Directory Service Access
+- Audit SAM

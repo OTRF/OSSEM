@@ -4,47 +4,40 @@ platform: windows
 log_source: security
 event_code: '4665'
 event_fields:
-- standard_name: user_sid
+- standard_name: TBD
   standard_type: TBD
-  name: SubjectUserSid
+  name: AppName
   type: string
-  description: SID of account that requested the "assign token to process" 
-    operation.
-  sample_value: S-1-5-18
+  description: (Application Information) Application Name
+  sample_value: '-'
+- standard_name: TBD
+  standard_type: TBD
+  name: AppInstance
+  type: string
+  description: (Application Information) Application Instance ID
+  sample_value: '-'
 - standard_name: user_name
   standard_type: TBD
-  name: SubjectUserName
+  name: ClientName
   type: string
   description: the name of the account that requested the "assign token to 
     process" operation.
   sample_value: WIN2008$
 - standard_name: user_domain
   standard_type: TBD
-  name: SubjectDomainName
+  name: ClientDomain
   type: string
   description: subject's domain or computer name.
   sample_value: CONTOSO
 - standard_name: TBD
   standard_type: TBD
-  name: TBD
+  name: ClientLogonId
   type: string
   description: (Subject) Client Context ID
   sample_value: '616554732'
 - standard_name: TBD
   standard_type: TBD
-  name: TBD
-  type: string
-  description: (Application Information) Application Name
-  sample_value: '-'
-- standard_name: TBD
-  standard_type: TBD
-  name: TBD
-  type: string
-  description: (Application Information) Application Instance ID
-  sample_value: '-'
-- standard_name: TBD
-  standard_type: TBD
-  name: TBD
+  name: Status
   type: string
   description: Status
   sample_value: '-'

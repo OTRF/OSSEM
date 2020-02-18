@@ -1,5 +1,5 @@
-title: Event 4666 - task_0
-description: null
+title: 'Event ID 4666: An application attempted an operation'
+description: 'Event ID 4666: An application attempted an operation'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4666'
@@ -8,14 +8,14 @@ event_fields:
   standard_type: TBD
   name: AppName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: (Application Information) Application Name
+  sample_value: Microsoft Operations Manager
 - standard_name: TBD
   standard_type: TBD
   name: AppInstance
   type: UInt64
-  description: null
-  sample_value: null
+  description: (Application Information) Application Instance ID
+  sample_value: '-'
 - standard_name: TBD
   standard_type: TBD
   name: ObjectName
@@ -28,49 +28,58 @@ event_fields:
   type: UnicodeString
   description: null
   sample_value: null
-- standard_name: TBD
+- standard_name: user_name
   standard_type: TBD
   name: ClientName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "assign token to process"
+    operation.
+  sample_value: WIN2008$
+- standard_name: user_domain
   standard_type: TBD
   name: ClientDomain
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
 - standard_name: TBD
   standard_type: TBD
   name: ClientLogonId
   type: UInt64
-  description: null
-  sample_value: null
+  description: (Subject) Client Context ID
+  sample_value: '616554732'
 - standard_name: TBD
   standard_type: TBD
   name: Role
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: (Access Request Information) Role
+  sample_value: '-'
 - standard_name: TBD
   standard_type: TBD
   name: Group
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: (Access Request Information) Groups
+  sample_value: '-'
 - standard_name: TBD
   standard_type: TBD
   name: OperationName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: (Access Request Information) Operation Name
+  sample_value: Connector__Get (14)
 - standard_name: TBD
   standard_type: TBD
   name: OperationId
   type: UInt32
   description: null
   sample_value: null
-references: null
+references:
+- text: Ultimate Windows Security Source
+  link: https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4666
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Application Generated
+  link: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn319094(v=ws.11)
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Object Access
+- Application Generated

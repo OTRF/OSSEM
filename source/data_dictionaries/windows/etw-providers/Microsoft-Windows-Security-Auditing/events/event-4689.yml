@@ -1,52 +1,62 @@
-title: Event 4689 - task_0
-description: null
+title: 'Event ID 4689: A process has exited'
+description: 'Event ID 4689: A process has exited'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4689'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the "terminate process" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "terminate process" operation.
+  sample_value: dadmin
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x31365'
+- standard_name: event_status
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal exit code of exited/terminated process.
+  sample_value: '0x0'
+- standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal Process ID of the ended/terminated process.
+  sample_value: '0xfb0'
+- standard_name: process_name
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: full path and the executable name of the exited/terminated process.
+  sample_value: C:\Windows\System32\notepad.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4689.md
+- text: MS Security Auditing Category - Detailed Tracking
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking
+- text: MS Security Auditing Sub-category - Audit Process Termination
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-process-termination.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Detailed Tracking
+- Audit Process Termination

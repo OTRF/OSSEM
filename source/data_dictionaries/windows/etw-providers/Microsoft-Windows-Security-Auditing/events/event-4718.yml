@@ -1,46 +1,56 @@
-title: Event 4718 - task_0
-description: null
+title: 'Event ID 4718: System security access was removed from an account'
+description: 'Event ID 4718: System security access was removed from an account'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4718'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that made a change to local logon right user policy.
+  sample_value: SYSTEM
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that made a change to local logon right user
+    policy.
+  sample_value: DC01$
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: "\_subject's domain or computer name."
+  sample_value: THEDOMAIN
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might
+  sample_value: ''
+- standard_name: target_user_sid
   standard_type: TBD
   name: TargetSid
   type: SID
-  description: null
-  sample_value: null
+  description: the SID of the security principal for which logon right was removed.
+  sample_value: THEDOMAIN\AnotherUser
 - standard_name: TBD
   standard_type: TBD
   name: AccessRemoved
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the name of removed logon right.
+  sample_value: SeChangeNotifyPrivilege
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4718.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Authentication Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authentication-policy-change.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Policy Change
+- Audit Authentication Policy Change

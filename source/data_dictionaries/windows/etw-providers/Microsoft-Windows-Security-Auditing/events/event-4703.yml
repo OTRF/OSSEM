@@ -1,82 +1,100 @@
-title: Event 4703 - task_0
-description: null
+title: 'Event ID 4703: A user right was adjusted.'
+description: 'Event ID 4703: A user right was adjusted.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4703'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that requested the "enable" or "disable" operation for
+    Target Account privileges.
+  sample_value: S-1-5-18
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that requested the "enable" or "disable" operation
+    for Target Account privileges.
+  sample_value: WIN-GG82ULGC9GO$
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: target_user_sid
   standard_type: TBD
   name: TargetUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account for which privileges were enabled or disabled.
+  sample_value: S-1-5-18
+- standard_name: target_user_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account for which privileges were enabled or disabled.
+  sample_value: WIN-GG82ULGC9GO$
+- standard_name: target_user_domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: target_user_logon_id
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: process_path
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\System32\svchost.exe
+- standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: hexadecimal Process ID of the process that enabled or disabled token
+    privileges.
+  sample_value: '0x270'
+- standard_name: target_user_enabled_privilege_list
   standard_type: TBD
   name: EnabledPrivilegeList
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the list of enabled user rights.
+  sample_value: SeAssignPrimaryTokenPrivilege SeIncreaseQuotaPrivilege SeSecurityPrivilege
+    SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeSystemtimePrivilege SeBackupPrivilege
+    SeRestorePrivilege SeShutdownPrivilege SeSystemEnvironmentPrivilege SeUndockPrivilege
+    SeManageVolumePrivilege
+- standard_name: target_user_disabled_privilege_list
   standard_type: TBD
   name: DisabledPrivilegeList
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the list of disabled user rights
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4703.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Authorization Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authorization-policy-change.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Policy Change
+- Audit Authorization Policy Change

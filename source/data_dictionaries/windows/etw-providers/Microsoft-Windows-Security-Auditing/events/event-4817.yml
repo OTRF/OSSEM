@@ -1,64 +1,80 @@
-title: Event 4817 - task_0
-description: null
+title: 'Event ID 4817: Auditing settings on object were changed.'
+description: 'Event ID 4817: Auditing settings on object were changed.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4817'
 event_fields:
-- standard_name: TBD
+- standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: SID of account that made a change to Global Object Access Auditing
+    policy.
+  sample_value: S-1-5-18
+- standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the account that made a change to Global Object Access
+    Auditing policy.
+  sample_value: DC01$
+- standard_name: user_domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: object_server
   standard_type: TBD
   name: ObjectServer
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: has "LSA" value for this event.
+  sample_value: LSA
+- standard_name: object_type
   standard_type: TBD
   name: ObjectType
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: The type of an object to which this event applies. Always "Global SACL"
+    for this event.
+  sample_value: Global SACL
+- standard_name: object_name
   standard_type: TBD
   name: ObjectName
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Key - if "Registry" Global Object Access Auditing policy was changed.
+    File - if "File system" Global Object Access Auditing policy was changed.
+  sample_value: Key
+- standard_name: object_old_sd
   standard_type: TBD
   name: OldSd
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the old Security Descriptor Definition Language (SDDL) value for the
+    Global Object Access Auditing policy.
+  sample_value: None
+- standard_name: object_new_Sd
   standard_type: TBD
   name: NewSd
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the new Security Descriptor Definition Language (SDDL) value for the
+    Global Object Access Auditing policy.
+  sample_value: S:(AU;SA;RC;;;S-1-5-21-3457937927-2839227994-823803824-1104)
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4817.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Policy Change
+- Audit Policy Change

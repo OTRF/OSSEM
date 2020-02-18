@@ -1,89 +1,98 @@
-title: Event 5157 - task_0
-description: null
+title: 'Event ID 5157: The Windows Filtering Platform has permitted a connection'
+description: 'Event ID 5157: The Windows Filtering Platform has permitted a connection'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '5157'
 event_fields:
-- standard_name: TBD
+- standard_name: process_id
   standard_type: TBD
   name: ProcessID
   type: UInt64
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Hexadecimal Process ID of the process that attempted to create the
+    connection.
+  sample_value: '4556'
+- standard_name: process_path
   standard_type: TBD
   name: Application
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: Full path and the name of the executable for the process.
+  sample_value: \device\harddiskvolume2\documents\listener.exe
 - standard_name: TBD
   standard_type: TBD
   name: Direction
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Direction of blocked connection.
+  sample_value: Inbound
+- standard_name: src_ip_addr
   standard_type: TBD
   name: SourceAddress
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Local IP address on which application received the connection.
+  sample_value: 10.0.0.10
+- standard_name: src_port
   standard_type: TBD
   name: SourcePort
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Port number on which application received the connection.
+  sample_value: '3333'
+- standard_name: dst_ip_addr
   standard_type: TBD
   name: DestAddress
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: IP address from which connection was received or initiated.
+  sample_value: 10.0.0.100
+- standard_name: dst_port
   standard_type: TBD
   name: DestPort
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: Port number which was used from remote machine to initiate connection.
+  sample_value: '49218'
+- standard_name: network_protocol
   standard_type: TBD
   name: Protocol
   type: UInt32
-  description: null
-  sample_value: null
+  description: Protocol number.
+  sample_value: '6'
 - standard_name: TBD
   standard_type: TBD
   name: FilterRTID
   type: UInt64
-  description: null
-  sample_value: null
+  description: Unique filter ID which blocked the connection.
+  sample_value: '110398'
 - standard_name: TBD
   standard_type: TBD
   name: LayerName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description: Application Layer Enforcement layer name.
+  sample_value: '%%14610'
 - standard_name: TBD
   standard_type: TBD
   name: LayerRTID
   type: UInt64
-  description: null
-  sample_value: null
+  description: Windows Filtering Platform layer identifier.
+  sample_value: '44'
 - standard_name: TBD
   standard_type: TBD
   name: RemoteUserID
   type: SID
-  description: null
-  sample_value: null
+  description: ''
+  sample_value: S-1-0-0
 - standard_name: TBD
   standard_type: TBD
   name: RemoteMachineID
   type: SID
-  description: null
-  sample_value: null
-references: null
+  description: ''
+  sample_value: S-1-0-0
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5157.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Filtering Platform Connection
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-connection.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
 - version_1
+- Object Access
+- Audit Filtering Platform Connection

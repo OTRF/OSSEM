@@ -30,12 +30,11 @@ event_fields:
   sample_value: CONTOSO
 - standard_name: user_logon_id
   standard_type: TBD
-  name: LogonId
+  name: SubjectLogonId
   type: integer
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
-  sample_value: '0x35867'
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID.
+  sample_value: '0x2e80c'
 - standard_name: object_server
   standard_type: TBD
   name: ObjectServer
@@ -82,12 +81,6 @@ event_fields:
   type: string
   description: hexadecimal mask for the type of access used for the operation. See
   sample_value: '0x10000'
-- standard_name: process_id
-  standard_type: TBD
-  name: ProcessId
-  type: integer
-  description: Process ID used by the os to identify the created process (child)
-  sample_value: '4756'
 - standard_name: object_properties
   standard_type: TBD
   name: Properties
@@ -95,13 +88,6 @@ event_fields:
   description: first part is the type of access that was used. Typically has the same
     value as Accesses field.
   sample_value: '%%1537 {bf967a86-0de6-11d0-a285-00aa003049e2}'
-- standard_name: user_logon_id
-  standard_type: TBD
-  name: SubjectLogonId
-  type: integer
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID.
-  sample_value: '0x2e80c'
 - standard_name: additionalinfo
   standard_type: TBD
   name: AdditionalInfo

@@ -1,28 +1,38 @@
-title: Event 4948 - task_0
-description: null
+title: 'Event ID 4948: A change has been made to Windows Firewall exception list.
+  A rule was deleted.'
+description: 'Event ID 4948: A change has been made to Windows Firewall exception
+  list. A rule was deleted.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4948'
 event_fields:
-- standard_name: TBD
+- standard_name: profile_changed
   standard_type: TBD
   name: ProfileChanged
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the list of profiles to which deleted rule was applied.
+  sample_value: All
+- standard_name: rule_id
   standard_type: TBD
   name: RuleId
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the unique identifier for deleted firewall rule.
+  sample_value: '{F2649D59-1355-4E3C-B886-CDD08B683199}'
+- standard_name: rule_name
   standard_type: TBD
   name: RuleName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the name of the rule which was deleted.
+  sample_value: Allow All Rule
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4948.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Policy Change
+- Audit MPSSVC Rule-Level Policy Change

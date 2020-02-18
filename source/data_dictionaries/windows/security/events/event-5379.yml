@@ -70,9 +70,17 @@ event_fields:
   sample_value: '2019-02-25T22:33:21.621488200Z'
 - standard_name: process_id
   standard_type: TBD
-  name: ClienProcessId
+  name: ClientProcessId
   type: integer
   description: ''
   sample_value: '4432'
-references: []
-tags: []
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5379.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit Other System Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md
+tags:
+- System
+- Audit Other System Events

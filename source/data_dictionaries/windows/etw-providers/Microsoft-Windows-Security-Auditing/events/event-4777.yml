@@ -1,5 +1,7 @@
-title: Event 4777 - task_0
-description: null
+title: 'Event ID 4777: The domain controller failed to validate the credentials for
+  an account.'
+description: 'Event ID 4777: The domain controller failed to validate the credentials
+  for an account.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4777'
@@ -28,7 +30,18 @@ event_fields:
   type: UnicodeString
   description: null
   sample_value: null
-references: null
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4777.md
+- text: MS Security Auditing Category - Account Logon
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon
+- text: MS Security Auditing Category - Detailed Tracking
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking
+- text: MS Security Auditing Sub-category - Audit Credential Validation
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-credential-validation.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Account Logon
+- Detailed Tracking
+- Audit Credential Validation

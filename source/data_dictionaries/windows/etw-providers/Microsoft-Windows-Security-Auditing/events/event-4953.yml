@@ -1,34 +1,43 @@
-title: Event 4953 - task_0
-description: null
+title: 'Event ID 4953: Windows Firewall ignored a rule because it could not be parsed.'
+description: 'Event ID 4953: Windows Firewall ignored a rule because it could not
+  be parsed.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4953'
 event_fields:
-- standard_name: TBD
+- standard_name: profile
   standard_type: TBD
   name: Profile
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the name of the profile of the ignored rule.
+  sample_value: All
+- standard_name: reason_for_rejection
   standard_type: TBD
   name: ReasonForRejection
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the reason, why the rule was ignored.
+  sample_value: An error occurred.
+- standard_name: rule_id
   standard_type: TBD
   name: RuleId
   type: UnicodeString
-  description: null
-  sample_value: null
-- standard_name: TBD
+  description: the unique identifier for ignored firewall rule.
+  sample_value: '{08CBB349-D158-46BE-81E1-2ABC59BDD523}'
+- standard_name: rule_name
   standard_type: TBD
   name: RuleName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description: the name of the rule which was ignored.
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4953.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md
 tags:
 - etw_level_Informational
 - etw_task_task_0
+- Policy Change
+- Audit MPSSVC Rule-Level Policy Change
