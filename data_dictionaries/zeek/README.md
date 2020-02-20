@@ -13,13 +13,13 @@ The main field to pivot across will be normalized to event_uid and all other UID
 ## Sub Data Sets
 |Data Set|Description|
 |---|---|
-|[Zeek Network Observations Event Logs](network-observations/)|Data collected about certificates, software, hosts, modbus, software, services/applications, etc.. that it has seen over time. Example, the various software seen by a host over time.|
-|[Zeek Network Protocol Event Logs](network-protocols/)|Network protocol/application logs containing all the metadata it collects and records for that specific protocol. These are the most commonly used Zeek logs|
-|[Zeek Miscellaneous Event Logs](miscellaneous/)|Events regarding abnormal traffic (ie: protocols that are not adhering to an RFC) and or that could commonly be used to try to evade different detections/analyzers for that protocol.|
+|[Zeek Detection Event Logs](detection/)|Events related to detection or indicators as well as other things that could or would be considered an alert or something you would want to know occurs.|
 |[Zeek Diagnostics Event Logs](diagnostics/)|None|
 |[Zeek Files Event Logs](files/)|Metadata about files, certificates, and executables that is in addition to the network data.|
+|[Zeek Miscellaneous Event Logs](miscellaneous/)|Events regarding abnormal traffic (ie: protocols that are not adhering to an RFC) and or that could commonly be used to try to evade different detections/analyzers for that protocol.|
 |[Zeek Network Control Event Logs](netcontrol/)|Zeek can connect with network devices like, for example, switches or soft- and hardware firewalls using the NetControl framework. The NetControl framework provides a flexible, unified interface for active response and hides the complexity of heterogeneous network equipment behind a simple task-oriented API, which is easily usable via Zeek scripts.|
-|[Zeek Detection Event Logs](detection/)|Events related to detection or indicators as well as other things that could or would be considered an alert or something you would want to know occurs.|
+|[Zeek Network Observations Event Logs](network-observations/)|Data collected about certificates, software, hosts, modbus, software, services/applications, etc.. that it has seen over time. Example, the various software seen by a host over time.|
+|[Zeek Network Protocol Event Logs](network-protocols/)|Network protocol/application logs containing all the metadata it collects and records for that specific protocol. These are the most commonly used Zeek logs|
 
 ## References
 * [Zeek Website](https://docs.zeek.org/en/stable/script-reference/log-files.html)

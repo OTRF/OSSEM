@@ -465,7 +465,7 @@ class ossemParser():
         #enrich markdown with sub data set
         if entry_type:
             md_file_path = os.path.join(md_path, 'README.md')
-            for item in os.listdir(os.path.join(root_path, entry['filepath'])):
+            for item in sorted(os.listdir(os.path.join(root_path, entry['filepath']))):
                 if os.path.isdir(os.path.join(root_path, entry['filepath'], item)):
 
                     #indexes poiting to events
