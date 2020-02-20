@@ -88,18 +88,18 @@ this would include:
     - NGINX field `hostname`
     - IIS field `vhost`
 1. Kerberos service name should be set as `dst_host_name`
-1. Sysmon [EventID:22 dns query event log](../../data_dictionaries/windows/sysmon/event-22.md) field for `QueryName` should be set as `dst_host_name`
+1. Sysmon [EventID:22 dns query event log](../data_dictionaries/windows/sysmon/events/event-22.md) field for `QueryName` should be set as `dst_host_name`
 1. DNS query name field should be set as `dst_host_name`
     - Zeek DNS field `query`
     - Suricata DNS field `rrname`
 1. For events/logs with URLs or URIs and the HTTP Host header (option 2) doesn't exist, parse the hostname/domain portion out of the URL.  
 For example:
     - Zeek or Suricata HTTP log, skip this because it is defined in option 2
-    - PaloAlto Threat log using the field `URL/Filename` field as [outlined here](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html) , after first renaming to `url.original` as defined in [URL Schema](../common_information_model/url.md), you would parse the domain/host out of this field and then set it as `dst_host_name`
+    - PaloAlto Threat log using the field `URL/Filename` field as [outlined here](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html) , after first renaming to `url.original` as defined in [URL Schema](../common_information_model/entities/url.md), you would parse the domain/host out of this field and then set it as `dst_host_name`
 1. RDP client/source name should be set as  `src_host_name`
 1. Endpoint (ie: Windows/Linux) logs that do **NOT** apply to the following:  
     a) defined in the use cases above  
-    b) already defined in [data dictionaries](../data_dictionaries) (ex: [Windows Kerberos EventID:4768](../data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4768.md), [Windows Logon EventID:4624](../data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4624.md))  
+    b) already defined in [data dictionaries](../data_dictionaries) (ex: [Windows Kerberos EventID:4768](../data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4768.md), [Windows Logon EventID:4624](../data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4624_v2.md))  
     c) logically fit into Target or and are NOT 
     1. FQDN and Domain values exist.
         - Set the field for the FQDN value as `dst_fqdn`  
