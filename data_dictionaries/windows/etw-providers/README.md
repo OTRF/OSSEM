@@ -10,16 +10,16 @@ WPA consumes the event trace log (ETL) file that all event providers produce in 
 |Data Set|Description|
 |---|---|
 |[ACPI Driver Trace Provider ETW events](ACPI-Driver-Trace-Provider/)|This page contains the list of events for ACPI Driver Trace Provider, as collected by the Event Tracing for Windows.|
-|[ADODB.1 ETW events](ADODB.1/)|This page contains the list of events for ADODB.1, as collected by the Event Tracing for Windows.|
-|[ADOMD.1 ETW events](ADOMD.1/)|This page contains the list of events for ADOMD.1, as collected by the Event Tracing for Windows.|
+|[ADODB.1 ETW events](ADODB.1/)|This page contains the list of events for ADODB.|
+|[ADOMD.1 ETW events](ADOMD.1/)|This page contains the list of events for ADOMD.|
 |[Active Directory Domain Services: SAM ETW events](Active-Directory-Domain-Services-SAM/)|This page contains the list of events for Active Directory Domain Services: SAM, as collected by the Event Tracing for Windows.|
 |[Active Directory: Kerberos Client ETW events](Active-Directory-Kerberos-Client/)|This page contains the list of events for Active Directory: Kerberos Client, as collected by the Event Tracing for Windows.|
 |[Active Directory: NetLogon ETW events](Active-Directory-NetLogon/)|This page contains the list of events for Active Directory: NetLogon, as collected by the Event Tracing for Windows.|
 |[Application-Addon-Event-Provider ETW events](Application-Addon-Event-Provider/)|This page contains the list of events for Application-Addon-Event-Provider, as collected by the Event Tracing for Windows.|
 |[Application Popup ETW events](Application-Popup/)|This page contains the list of events for Application Popup, as collected by the Event Tracing for Windows.|
-|[BCP.1 ETW events](BCP.1/)|This page contains the list of events for BCP.1, as collected by the Event Tracing for Windows.|
+|[BCP.1 ETW events](BCP.1/)|This page contains the list of events for BCP.|
 |[Critical Section Trace Provider ETW events](Critical-Section-Trace-Provider/)|This page contains the list of events for Critical Section Trace Provider, as collected by the Event Tracing for Windows.|
-|[DBNETLIB.1 ETW events](DBNETLIB.1/)|This page contains the list of events for DBNETLIB.1, as collected by the Event Tracing for Windows.|
+|[DBNETLIB.1 ETW events](DBNETLIB.1/)|This page contains the list of events for DBNETLIB.|
 |[Deduplication Tracing Provider ETW events](Deduplication-Tracing-Provider/)|This page contains the list of events for Deduplication Tracing Provider, as collected by the Event Tracing for Windows.|
 |[Error Instrument ETW events](Error-Instrument/)|This page contains the list of events for Error Instrument, as collected by the Event Tracing for Windows.|
 |[File Kernel Trace; Operation Set 1 ETW events](File-Kernel-Trace-Operation-Set-1/)|This page contains the list of events for File Kernel Trace; Operation Set 1, as collected by the Event Tracing for Windows.|
@@ -30,17 +30,17 @@ WPA consumes the event trace log (ETL) file that all event providers produce in 
 |[Intel-iaLPSS2-I2C ETW events](Intel-iaLPSS2-I2C/)|This page contains the list of events for Intel-iaLPSS2-I2C, as collected by the Event Tracing for Windows.|
 |[Local Security Authority (LSA) ETW events](Local-Security-Authority-LSA/)|This page contains the list of events for Local Security Authority (LSA), as collected by the Event Tracing for Windows.|
 |[LsaSrv ETW events](LsaSrv/)|This page contains the list of events for LsaSrv, as collected by the Event Tracing for Windows.|
-|[MSADCE.1 ETW events](MSADCE.1/)|This page contains the list of events for MSADCE.1, as collected by the Event Tracing for Windows.|
-|[MSADCF.1 ETW events](MSADCF.1/)|This page contains the list of events for MSADCF.1, as collected by the Event Tracing for Windows.|
-|[MSADCO.1 ETW events](MSADCO.1/)|This page contains the list of events for MSADCO.1, as collected by the Event Tracing for Windows.|
-|[MSADDS.1 ETW events](MSADDS.1/)|This page contains the list of events for MSADDS.1, as collected by the Event Tracing for Windows.|
-|[MSADOX.1 ETW events](MSADOX.1/)|This page contains the list of events for MSADOX.1, as collected by the Event Tracing for Windows.|
-|[MSDADIAG.ETW ETW events](MSDADIAG.ETW/)|This page contains the list of events for MSDADIAG.ETW, as collected by the Event Tracing for Windows.|
-|[MSDAPRST.1 ETW events](MSDAPRST.1/)|This page contains the list of events for MSDAPRST.1, as collected by the Event Tracing for Windows.|
-|[MSDAREM.1 ETW events](MSDAREM.1/)|This page contains the list of events for MSDAREM.1, as collected by the Event Tracing for Windows.|
-|[MSDART.1 ETW events](MSDART.1/)|This page contains the list of events for MSDART.1, as collected by the Event Tracing for Windows.|
+|[MSADCE.1 ETW events](MSADCE.1/)|This page contains the list of events for MSADCE.|
+|[MSADCF.1 ETW events](MSADCF.1/)|This page contains the list of events for MSADCF.|
+|[MSADCO.1 ETW events](MSADCO.1/)|This page contains the list of events for MSADCO.|
+|[MSADDS.1 ETW events](MSADDS.1/)|This page contains the list of events for MSADDS.|
+|[MSADOX.1 ETW events](MSADOX.1/)|This page contains the list of events for MSADOX.|
+|[MSDADIAG.ETW ETW events](MSDADIAG.ETW/)|This page contains the list of events for MSDADIAG.|
+|[MSDAPRST.1 ETW events](MSDAPRST.1/)|This page contains the list of events for MSDAPRST.|
+|[MSDAREM.1 ETW events](MSDAREM.1/)|This page contains the list of events for MSDAREM.|
+|[MSDART.1 ETW events](MSDART.1/)|This page contains the list of events for MSDART.|
 |[MSDASQL_1 ETW events](MSDASQL_1/)|This page contains the list of events for MSDASQL_1, as collected by the Event Tracing for Windows.|
-|[MSDATL3.1 ETW events](MSDATL3.1/)|This page contains the list of events for MSDATL3.1, as collected by the Event Tracing for Windows.|
+|[MSDATL3.1 ETW events](MSDATL3.1/)|This page contains the list of events for MSDATL3.|
 |[MUI Resource Trace ETW events](MUI-Resource-Trace/)|This page contains the list of events for MUI Resource Trace, as collected by the Event Tracing for Windows.|
 |[Microsoft-Antimalware-AMFilter ETW events](Microsoft-Antimalware-AMFilter/)|This page contains the list of events for Microsoft-Antimalware-AMFilter, as collected by the Event Tracing for Windows.|
 |[Microsoft-Antimalware-Engine ETW events](Microsoft-Antimalware-Engine/)|This page contains the list of events for Microsoft-Antimalware-Engine, as collected by the Event Tracing for Windows.|

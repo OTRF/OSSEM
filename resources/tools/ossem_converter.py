@@ -489,10 +489,14 @@ class ossemParser():
                         index_root_path = os.path.join(root_path, entry['filepath'], item, 'readme.yml')
                         readme = yaml.load(open(index_root_path, 'r'), Loader=yaml.Loader)
                         if readme:
+                            if readme['description']:
+                                desc = '{}.'.format(readme['description'].split('.')[0])
+                            else:
+                                desc = readme['description']
                             sub_data_sets.append({
                                 'title': readme['title'],
                                 'link': '{}/'.format(item),
-                                'description': self.remove_new_lines(readme['description'])})
+                                'description': desc})
         else:
             filename = '{}.md'.format(entry['filename'])
             md_file_path = os.path.join(md_path, filename)
