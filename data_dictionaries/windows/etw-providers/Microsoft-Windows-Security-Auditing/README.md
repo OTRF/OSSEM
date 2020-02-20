@@ -1,7 +1,7 @@
 # Microsoft-Windows-Security-Auditing ETW events
 
 ## Description
-This page contains the list of events for Microsoft-Windows-Security-Auditing, as collected by the Event Tracing for Windows.
+You can use Windows security and system logs to record and store collected security events so that you can track key system and network activities to monitor potentially harmful behaviors and to mitigate those risks. You customize system log events by configuring auditing based on categories of security events such as changes to user account and resource permissions, failed attempts for user logon, failed attempts to access resources, and attempts to modify system files.
 
 ## Sub Data Sets
 |events|Description|Tags|
@@ -440,3 +440,13 @@ This page contains the list of events for Microsoft-Windows-Security-Auditing, a
 |[6422](events/event-6422.md)|Event ID 6422: A device was enabled.|etw_level_Informational, etw_task_task_0, Detailed Tracking, Audit PNP Activity|
 |[6423](events/event-6423.md)|Event ID 6423: The installation of this device is forbidden by system policy.|etw_level_Informational, etw_task_task_0, Detailed Tracking, Audit PNP Activity|
 |[6424](events/event-6424.md)|None|etw_level_Informational, etw_task_task_0|
+
+## References
+* [Download Security Audit Events for Windows - Published 6/17/2016 (Word Doc)](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
+* [Download Security Audit Events for Windows - Published 5/5/2016 (Excel Doc)](https://www.microsoft.com/en-us/download/details.aspx?id=50034)
+* [Advanced Security Audit Policy Settings](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings)
+* [Monitoring Active Directory for Signs of Compromise](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise#audit-account-management)
+* [Audit Policy Recommendations](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations)
+* [Use Windows Event Forwarding to help with intrusion detection](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection)
+* [Minimum recommended minimum audit policy](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection#a-href-idbkmk-appendixaaappendix-a---minimum-recommended-minimum-audit-policy)
+* [Windows ITPro Docs - Threat Protection](https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection)
