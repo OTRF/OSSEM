@@ -1,0 +1,35 @@
+title: Pkg_packages Table
+description: pkgng packages that are currently installed on the host system.
+platform: freebsd
+log_source: osquery
+event_code: pkg_packages
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Package name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Package version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: flatsize
+  type: BIGINT
+  description: Package size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: arch
+  type: TEXT
+  description: Architecture(s) supported
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#pkg_packages
+tags:
+- version_4.4.2

@@ -1,0 +1,86 @@
+title: 'Event ID 6420: A device was disabled.'
+description: 'Event ID 6420: A device was disabled.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '6420'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that disabled the device.
+  sample_value: S-1-5-18
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that disabled the device.
+  sample_value: DESKTOP-NFC0HVN$
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: WORKGROUP
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: device_id
+  standard_type: TBD
+  name: DeviceId
+  type: UnicodeString
+  description: '"Device instance path" attribute of device.'
+  sample_value: USB\VID_138A&PID_0017\ffbc12c950a0
+- standard_name: device_description
+  standard_type: TBD
+  name: DeviceDescription
+  type: UnicodeString
+  description: '"Device description" attribute of device.'
+  sample_value: Synaptics FP Sensors (WBF) (PID=0017)
+- standard_name: class_id
+  standard_type: TBD
+  name: ClassId
+  type: GUID
+  description: '"Class Guid" attribute of device.'
+  sample_value: '{53D29EF7-377C-4D14-864B-EB3A85769359}'
+- standard_name: class_name
+  standard_type: TBD
+  name: ClassName
+  type: UnicodeString
+  description: '"Class" attribute of device.'
+  sample_value: Biometric
+- standard_name: hardware_ids
+  standard_type: TBD
+  name: HardwareIds
+  type: UnicodeString
+  description: '"Hardware Ids" attribute of device.'
+  sample_value: USB\VID_138A&PID_0017&REV_0078 USB\VID_138A&PID_0017
+- standard_name: compatible_ids
+  standard_type: TBD
+  name: CompatibleIds
+  type: UnicodeString
+  description: '"Compatible Ids" attribute of device.'
+  sample_value: USB\Class_FF&SubClass_00&Prot_00 USB\Class_FF&SubClass_00 USB\Class_FF
+- standard_name: location_information
+  standard_type: TBD
+  name: LocationInformation
+  type: UnicodeString
+  description: '"Location information" attribute of device.'
+  sample_value: Port#0002.Hub#0004
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-6420.md
+- text: MS Security Auditing Category - Detailed Tracking
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking
+- text: MS Security Auditing Sub-category - Audit PNP Activity
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-pnp-activity.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Detailed Tracking
+- Audit PNP Activity

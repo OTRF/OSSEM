@@ -1,0 +1,139 @@
+title: FTP Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: ftp
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1542736745.532282'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: Cobih134JLXWQxsiva
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address. The host that will be initiating
+    the data connection
+  sample_value: 10.11.20.102
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '49158'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address. The host that will be accepting
+    the data connection
+  sample_value: 192.185.230.61
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The port at which the acceptor is listening for the data connection
+  sample_value: '21'
+- standard_name: TBD
+  standard_type: TBD
+  name: fuid
+  type: string
+  description: present if base/protocols/ftp/files.bro is loaded File unique ID.
+  sample_value: FrCFjGogeaS6ZrZT7
+- standard_name: user_name
+  standard_type: TBD
+  name: user
+  type: string
+  description: User name for the current FTP session.
+  sample_value: schw@totallyanonymous.com
+- standard_name: user_password
+  standard_type: TBD
+  name: password
+  type: string
+  description: Password for the current FTP session if captured.
+  sample_value: 520s984W
+- standard_name: ftp_process_name
+  standard_type: TBD
+  name: command
+  type: string
+  description: Command given by the client.
+  sample_value: RETR
+- standard_name: ftp_command_line
+  standard_type: TBD
+  name: arg
+  type: string
+  description: Argument for the command if one is given.
+  sample_value: ftp://192.185.230.61/./o32.exe
+- standard_name: TBD
+  standard_type: TBD
+  name: mime_type
+  type: string
+  description: Sniffed mime type of file
+  sample_value: application/x-dosexec
+- standard_name: file_size
+  standard_type: TBD
+  name: file_size
+  type: integer
+  description: Size of the file if the command indicates a file transfer
+  sample_value: '5'
+- standard_name: TBD
+  standard_type: TBD
+  name: reply_code
+  type: integer
+  description: Reply code from the server in response to the command
+  sample_value: '226'
+- standard_name: TBD
+  standard_type: TBD
+  name: reply_msg
+  type: string
+  description: Reply message from the server in response to the command
+  sample_value: 0.184 seconds (measured here), 0.66 Mbytes per second
+- standard_name: file_directory
+  standard_type: TBD
+  name: cwd
+  type: string
+  description: Current working directory that this session is in. By making the default
+    value ".", we can indicate that unless something more concrete is discovered that
+    the existing but unknown directory is ok to use
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: data_channel.orig_h
+  type: ip
+  description: The host that will be initiating the data connection.
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: data_channel.passive
+  type: boolean
+  description: Whether PASV mode is toggled for control channel
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: data_channel.resp_h
+  type: ip
+  description: The host that will be accepting the data connection
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: data_channel.resp_p
+  type: integer
+  description: The port at which the acceptor is listening for the data connection
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: ftp_passive
+  type: boolean
+  description: Indicates if the session is in active or passive mode. Whether PASV
+    mode is toggled for control channel
+  sample_value: '``'
+references: []
+tags: []

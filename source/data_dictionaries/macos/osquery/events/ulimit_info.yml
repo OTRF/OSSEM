@@ -1,0 +1,29 @@
+title: Ulimit_info Table
+description: System resource usage limits.
+platform: macos
+log_source: osquery
+event_code: ulimit_info
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: System resource to be limited
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: soft_limit
+  type: TEXT
+  description: Current limit value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hard_limit
+  type: TEXT
+  description: Maximum limit value
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ulimit_info
+tags:
+- version_4.4.2

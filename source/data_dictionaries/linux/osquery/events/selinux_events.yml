@@ -1,0 +1,41 @@
+title: Selinux_events Table
+description: Track SELinux events.
+platform: linux
+log_source: osquery
+event_code: selinux_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Event type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: message
+  type: TEXT
+  description: Message
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time of execution in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uptime
+  type: BIGINT
+  description: Time of execution in system uptime
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#selinux_events
+tags:
+- version_4.4.2

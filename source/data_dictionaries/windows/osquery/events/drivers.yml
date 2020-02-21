@@ -1,0 +1,96 @@
+title: Drivers Table
+description: Details for in-use Windows device drivers. This does not display installed
+  but unused drivers.
+platform: windows
+log_source: osquery
+event_code: drivers
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: device_id
+  type: TEXT
+  description: Device ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: device_name
+  type: TEXT
+  description: Device name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: image
+  type: TEXT
+  description: Path to driver image file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Driver description
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: service
+  type: TEXT
+  description: Driver service name, if one exists
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: service_key
+  type: TEXT
+  description: Driver service registry key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Driver version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: inf
+  type: TEXT
+  description: Associated inf file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: class
+  type: TEXT
+  description: Device/driver class name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: provider
+  type: TEXT
+  description: Driver provider
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer
+  type: TEXT
+  description: Device manufacturer
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: driver_key
+  type: TEXT
+  description: Driver key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: date
+  type: BIGINT
+  description: Driver date
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: signed
+  type: INTEGER
+  description: Whether the driver is signed or not
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#drivers
+tags:
+- version_4.4.2

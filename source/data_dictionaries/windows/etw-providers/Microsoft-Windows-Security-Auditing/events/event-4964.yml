@@ -1,0 +1,92 @@
+title: 'Event ID 4964: Special groups have been assigned to a new logon'
+description: 'Event ID 4964: Special groups have been assigned to a new logon'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4964'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested logon for New Logon account
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested logon for New Logon account
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID,
+  sample_value: '0xd972e'
+- standard_name: user_logon_guid
+  standard_type: TBD
+  name: LogonGuid
+  type: GUID
+  description: 'a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested
+    event on a domain controller.'
+  sample_value: '{00000000-0000-0000-0000-000000000000}'
+- standard_name: target_user_sid
+  standard_type: TBD
+  name: TargetUserSid
+  type: SID
+  description: SID of account that performed the logon.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-500
+- standard_name: target_user_name
+  standard_type: TBD
+  name: TargetUserName
+  type: UnicodeString
+  description: the name of the account that performed the logon.
+  sample_value: ladmin
+- standard_name: target_user_domain
+  standard_type: TBD
+  name: TargetDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: target_user_logon_id
+  standard_type: TBD
+  name: TargetLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x139faf'
+- standard_name: target_user_logon_guid
+  standard_type: TBD
+  name: TargetLogonGuid
+  type: GUID
+  description: 'a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested
+    event on a domain controller.'
+  sample_value: '{B03B6192-09AE-E77F-DD10-2DC430766040}'
+- standard_name: target_user_sid_list
+  standard_type: TBD
+  name: SidList
+  type: UnicodeString
+  description: the list of special group SIDs, which New Logon\Security ID is a member
+    of.
+  sample_value: '%{S-1-5-21-3457937927-2839227994-823803824-512}'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4964.md
+- text: MS Security Auditing Category - Logon/Logoff
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff
+- text: MS Security Auditing Sub-category - Audit Special Logon
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-special-logon.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Logon/Logoff
+- Audit Special Logon

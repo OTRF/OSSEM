@@ -1,0 +1,35 @@
+title: Temperature_sensors Table
+description: Machine's temperature sensors.
+platform: macos
+log_source: osquery
+event_code: temperature_sensors
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: The SMC key on OS X
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of temperature source
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: celsius
+  type: DOUBLE
+  description: Temperature in Celsius
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: fahrenheit
+  type: DOUBLE
+  description: Temperature in Fahrenheit
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#temperature_sensors
+tags:
+- version_4.4.2

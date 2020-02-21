@@ -1,0 +1,43 @@
+title: Account_policy_data Table
+description: Additional OS X user account data from the AccountPolicy section of OpenDirectory.
+platform: macos
+log_source: osquery
+event_code: account_policy_data
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: User ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: creation_time
+  type: DOUBLE
+  description: When the account was first created
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: failed_login_count
+  type: BIGINT
+  description: The number of times the user failed to login with the correct password.
+    Resets after a correct password is entered
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: failed_login_timestamp
+  type: DOUBLE
+  description: The time of the last failed login attempt. Resets after a correct password
+    is entered
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: password_last_set_time
+  type: DOUBLE
+  description: The time the password was last changed
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#account_policy_data
+tags:
+- version_4.4.2

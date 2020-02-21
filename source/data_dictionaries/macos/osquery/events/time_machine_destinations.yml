@@ -1,0 +1,53 @@
+title: Time_machine_destinations Table
+description: Locations backed up to using Time Machine.
+platform: macos
+log_source: osquery
+event_code: time_machine_destinations
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: alias
+  type: TEXT
+  description: Human readable name of drive
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: destination_id
+  type: TEXT
+  description: Time Machine destination ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: consistency_scan_date
+  type: INTEGER
+  description: Consistency scan date
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: root_volume_uuid
+  type: TEXT
+  description: Root UUID of backup volume
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bytes_available
+  type: INTEGER
+  description: Bytes available on volume
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bytes_used
+  type: INTEGER
+  description: Bytes used on volume
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: encryption
+  type: TEXT
+  description: Last known encrypted state
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#time_machine_destinations
+tags:
+- version_4.4.2

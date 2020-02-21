@@ -1,0 +1,53 @@
+title: System_controls Table
+description: sysctl names, values, and settings information.
+platform: macos
+log_source: osquery
+event_code: system_controls
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Full sysctl MIB name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: oid
+  type: TEXT
+  description: Control MIB
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: subsystem
+  type: TEXT
+  description: Subsystem ID, control type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: current_value
+  type: TEXT
+  description: Value of setting
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: config_value
+  type: TEXT
+  description: The MIB value set in /etc/sysctl.conf
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Data type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: field_name
+  type: TEXT
+  description: Specific attribute of opaque type [DARWIN]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#system_controls
+tags:
+- version_4.4.2

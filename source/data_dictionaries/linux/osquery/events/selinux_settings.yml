@@ -1,0 +1,29 @@
+title: Selinux_settings Table
+description: Track active SELinux settings.
+platform: linux
+log_source: osquery
+event_code: selinux_settings
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: scope
+  type: TEXT
+  description: Where the key is located inside the SELinuxFS mount point.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: Key or class name.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: Active value.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#selinux_settings
+tags:
+- version_4.4.2

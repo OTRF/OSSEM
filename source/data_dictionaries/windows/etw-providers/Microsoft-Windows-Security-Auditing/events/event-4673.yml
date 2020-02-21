@@ -1,0 +1,77 @@
+title: 'Event ID 4673: A privileged service was called'
+description: 'Event ID 4673: A privileged service was called'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4673'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested privileged operation.
+  sample_value: ORG\UserA
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested privileged operation.
+  sample_value: UserA
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: ORG
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x432344'
+- standard_name: object_server
+  standard_type: TBD
+  name: ObjectServer
+  type: UnicodeString
+  description: contains the name of the Windows subsystem calling the routine.
+  sample_value: NT Local Security Authority / Authentication Service
+- standard_name: service_name
+  standard_type: TBD
+  name: Service
+  type: UnicodeString
+  description: supplies a name of the privileged subsystem service or function.
+  sample_value: LsaRegisterLogonProcess()
+- standard_name: user_privilege_list
+  standard_type: TBD
+  name: PrivilegeList
+  type: UnicodeString
+  description: the list of user privileges which were requested.
+  sample_value: SeCreateGlobalPrivilege
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: Pointer
+  description: hexadecimal Process ID of the process that attempted to call the privileged
+    service.
+  sample_value: '0x1f0'
+- standard_name: process_path
+  standard_type: TBD
+  name: ProcessName
+  type: UnicodeString
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\System32\lsass.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4673.md
+- text: MS Security Auditing Category - Privilege Use
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#privilege-use
+- text: MS Security Auditing Sub-category - Audit Sensitive Privilege Use
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-sensitive-privilege-use.md
+- text: MS Security Auditing Sub-category - Audit Non Sensitive Privilege Use
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-non-sensitive-privilege-use.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Privilege Use
+- Audit Sensitive Privilege Use
+- Audit Non Sensitive Privilege Use

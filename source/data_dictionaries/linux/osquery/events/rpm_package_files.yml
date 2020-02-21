@@ -1,0 +1,53 @@
+title: Rpm_package_files Table
+description: RPM packages that are currently installed on the host system.
+platform: linux
+log_source: osquery
+event_code: rpm_package_files
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: package
+  type: TEXT
+  description: RPM package name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: File path within the package
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: File default username from info DB
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: groupname
+  type: TEXT
+  description: File default groupname from info DB
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mode
+  type: TEXT
+  description: File permissions mode from info DB
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: BIGINT
+  description: Expected file size in bytes from RPM info DB
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha256
+  type: TEXT
+  description: SHA256 file digest from RPM info DB
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#rpm_package_files
+tags:
+- version_4.4.2

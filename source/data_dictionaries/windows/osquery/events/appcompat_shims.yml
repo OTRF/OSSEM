@@ -1,0 +1,51 @@
+title: Appcompat_shims Table
+description: Application Compatibility shims are a way to persist malware. This table
+  presents the AppCompat Shim information from the registry in a nice format. See
+  http://files.brucon.org/2015/Tomczak_and_Ballenthin_Shims_for_the_Win.pdf for more
+  details.
+platform: windows
+log_source: osquery
+event_code: appcompat_shims
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: executable
+  type: TEXT
+  description: Name of the executable that is being shimmed. This is pulled from the
+    registry.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: This is the path to the SDB database.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Description of the SDB.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: install_time
+  type: INTEGER
+  description: Install time of the SDB
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of the SDB database.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sdb_id
+  type: TEXT
+  description: Unique GUID of the SDB.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#appcompat_shims
+tags:
+- version_4.4.2

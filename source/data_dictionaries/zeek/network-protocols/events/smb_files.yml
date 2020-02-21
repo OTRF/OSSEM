@@ -1,0 +1,106 @@
+title: SMB Files Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: smb_files
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1581064352.153314'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '49247'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '445'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID of the connection the file was sent over
+  sample_value: 'CVCEfC2Vej9sjr5ARe'
+- standard_name: TBD
+  standard_type: TBD
+  name: fuid
+  type: string
+  description: Unique ID of the file, if the file was extracted
+  sample_value: '``'
+- standard_name: file_accessed_time
+  standard_type: TBD
+  name: times_accessed
+  type: date_time
+  description: The time, in epoch, attribute for when the file was last accessed
+  sample_value: '1505160917.765625'
+- standard_name: file_creation_time
+  standard_type: TBD
+  name: times_created
+  type: date_time
+  description: The time attribute for when the file was created
+  sample_value: '1505160917.765625'
+- standard_name: file_changed_time
+  standard_type: TBD
+  name: times_changed
+  type: date_time
+  description: The time attribute for when the file was last modified
+  sample_value: '1505416680.062500'
+- standard_name: file_modified_time
+  standard_type: TBD
+  name: times_modified
+  type: date_time
+  description:  The time attribute for when data was last written to the file
+  sample_value: '1505416680.062500'
+- standard_name: share_relative_target_name
+  standard_type: TBD
+  name: name
+  type: string
+  description: The path/name relative to tree's path that was accessed
+  sample_value: adtest.local\\Policies\\{4132D0FE-8293-4D5A-BB3D-2164535CA3B2}\\
+    Machine\\Preferences\\ScheduledTasks\\ScheduledTasks.xml
+- standard_name: share_name
+  standard_type: TBD
+  name: path
+  type: string
+  description: Path pulled from the tree this file was transferred to or from.
+  sample_value: \\dc001.adtest.local\SysVol
+- standard_name: file_size
+  standard_type: TBD
+  name: size
+  type: integer
+  description: Total size of the file.
+  sample_value: '5639'
+- standard_name: TBD
+  standard_type: TBD
+  name: action
+  type: string
+  description: Action this log record represents.
+  sample_value: SMB::FILE_OPEN
+- standard_name: file_previous_name
+  standard_type: TBD
+  name: prev_name
+  type: string
+  description: If the rename action was seen, this will be the file's previous name.
+  sample_value: CX$\Johnbillingson\Payroll Documents\Pay\ROLL\Master Slides\Master
+    Payroll Members.pptx
+references: []
+tags: []

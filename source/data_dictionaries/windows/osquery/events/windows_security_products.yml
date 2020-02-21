@@ -1,0 +1,47 @@
+title: Windows_security_products Table
+description: Enumeration of registered Windows security products.
+platform: windows
+log_source: osquery
+event_code: windows_security_products
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of security product
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of product
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: state
+  type: TEXT
+  description: State of protection
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: state_timestamp
+  type: TEXT
+  description: Timestamp for the product state
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: remediation_path
+  type: TEXT
+  description: Remediation path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: signatures_up_to_date
+  type: INTEGER
+  description: 1 if product signatures are up to date, else 0
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#windows_security_products
+tags:
+- version_4.4.2

@@ -1,0 +1,35 @@
+title: 'Event ID 6145: One or more errors occurred while processing security policy
+  in the group policy objects.'
+description: 'Event ID 6145: One or more errors occurred while processing security
+  policy in the group policy objects.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '6145'
+event_fields:
+- standard_name: error_code
+  standard_type: TBD
+  name: ErrorCode
+  type: UInt32
+  description: specific error code which shows the error which happened during Group
+    Policy processing.
+  sample_value: '1332'
+- standard_name: gpo_list
+  standard_type: TBD
+  name: GPOList
+  type: UnicodeString
+  description: the list of Group Policy Objects that include "Security Settings" policies,
+    and that were applied with errors to the computer.
+  sample_value: '{6AC1786C-016F-11D2-945F-00C04fB984F9} Default Domain Controllers
+    Policy {31B2F340-016D-11D2-945F-00C04FB984F9} Default Domain Policy'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-6145.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Other Policy Change Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-policy-change-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit Other Policy Change Events

@@ -1,0 +1,143 @@
+title: Docker_container_processes Table
+description: Docker container processes.
+platform: macos
+log_source: osquery
+event_code: docker_container_processes
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: TEXT
+  description: Container ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: BIGINT
+  description: Process ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: The process path or shorthand argv[0]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: cmdline
+  type: TEXT
+  description: Complete argv
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: state
+  type: TEXT
+  description: Process state
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: User ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: Group ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: euid
+  type: BIGINT
+  description: Effective user ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: egid
+  type: BIGINT
+  description: Effective group ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: suid
+  type: BIGINT
+  description: Saved user ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sgid
+  type: BIGINT
+  description: Saved group ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: wired_size
+  type: BIGINT
+  description: Bytes of unpagable memory used by process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: resident_size
+  type: BIGINT
+  description: Bytes of private memory used by process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: total_size
+  type: BIGINT
+  description: Total virtual memory size
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: parent
+  type: BIGINT
+  description: Process parent's PID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pgroup
+  type: BIGINT
+  description: Process group
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: threads
+  type: INTEGER
+  description: Number of threads used by process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: nice
+  type: INTEGER
+  description: Process nice level (-20 to 20, default 0)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: user
+  type: TEXT
+  description: User name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: TEXT
+  description: Cumulative CPU time. [DD-]HH:MM:SS format
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: cpu
+  type: DOUBLE
+  description: CPU utilization as percentage
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mem
+  type: DOUBLE
+  description: Memory utilization as percentage
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#docker_container_processes
+tags:
+- version_4.4.2

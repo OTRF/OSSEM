@@ -1,0 +1,16 @@
+# Event 1026 - iaLPSS2_I2CInitroutines
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Instance|UInt32|None|`None`|
+|TBD|Version|UInt32|None|`None`|
+|TBD|Revision|UInt32|None|`None`|
+|TBD|Mode|UInt32|None|`None`|
+
+## Tags
+* etw_level_Informational
+* etw_task_iaLPSS2_I2CInitroutines

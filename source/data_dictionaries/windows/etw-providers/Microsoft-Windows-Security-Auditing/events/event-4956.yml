@@ -1,0 +1,24 @@
+title: 'Event ID 4956: Windows Firewall has changed the active profile.'
+description: 'Event ID 4956: Windows Firewall has changed the active profile.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4956'
+event_fields:
+- standard_name: active_profile
+  standard_type: TBD
+  name: ActiveProfile
+  type: UnicodeString
+  description: the name of the new active profile.
+  sample_value: Domain
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4956.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit MPSSVC Rule-Level Policy Change

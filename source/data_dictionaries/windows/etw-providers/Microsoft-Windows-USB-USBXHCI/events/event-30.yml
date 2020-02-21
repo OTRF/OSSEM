@@ -1,0 +1,54 @@
+title: Event 30 - USBXHCIControllerError
+description: null
+platform: windows
+log_source: Microsoft-Windows-USB-USBXHCI
+event_code: '30'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_UcxController
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_UcxDevice
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_UcxEndpoint
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_HWVerifierFlag
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_Description
+  type: AnsiString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_CommandTRB
+  type: Binary
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_EventTRB
+  type: Binary
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Error
+- etw_keywords_Default HWVerifyHost keyword_400000000000
+- etw_opcode_Information
+- etw_task_USBXHCIControllerError

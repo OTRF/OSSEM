@@ -1,0 +1,53 @@
+title: Package_receipts Table
+description: OS X package receipt details.
+platform: macos
+log_source: osquery
+event_code: package_receipts
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: package_id
+  type: TEXT
+  description: Package domain identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: package_filename
+  type: TEXT
+  description: Filename of original .pkg file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Installed package version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: location
+  type: TEXT
+  description: Optional relative install path on volume
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: install_time
+  type: DOUBLE
+  description: Timestamp of install time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: installer_name
+  type: TEXT
+  description: Name of installer process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of receipt plist
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#package_receipts
+tags:
+- version_4.4.2

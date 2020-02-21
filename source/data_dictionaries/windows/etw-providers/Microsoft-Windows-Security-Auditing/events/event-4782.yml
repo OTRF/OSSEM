@@ -1,0 +1,59 @@
+title: 'Event ID 4782: The password hash an account was accessed'
+description: 'Event ID 4782: The password hash an account was accessed'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4782'
+event_fields:
+- standard_name: target_user_name
+  standard_type: TBD
+  name: TargetUserName
+  type: UnicodeString
+  description: 'the name of the account for which the password hash was migrated.
+    For example: ServiceDesk'
+  sample_value: Andrei
+- standard_name: target_user_domain
+  standard_type: TBD
+  name: TargetDomainName
+  type: UnicodeString
+  description: domain name of the account for which the password hash was migrated.
+  sample_value: CONTOSO
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested hash migration operation. Event Viewer
+    automatically tries to resolve SIDs and show the account name. If the SID cannot
+    be resolved, you will see the source data in the even
+  sample_value: S-1-5-18
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested hash migration operation.
+  sample_value: DC01$
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4782.md
+- text: MS Security Auditing Category - Account Management
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management
+- text: MS Security Auditing Sub-category - Audit Other Account Management Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-account-management-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Account Management
+- Audit Other Account Management Events

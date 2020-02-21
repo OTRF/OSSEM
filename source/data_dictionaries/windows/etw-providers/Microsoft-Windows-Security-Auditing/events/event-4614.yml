@@ -1,0 +1,26 @@
+title: 'Event ID 4614: A notification package has been loaded by the Security Account
+  Manager.'
+description: 'Event ID 4614: A notification package has been loaded by the Security
+  Account Manager.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4614'
+event_fields:
+- standard_name: logon_notification_package_name
+  standard_type: TBD
+  name: NotificationPackageName
+  type: UnicodeString
+  description: the name of loaded Notification Package.
+  sample_value: WDIGEST
+references:
+- text: MS SOURCE
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4614.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit Security System Extension
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-system-extension.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- System
+- Audit Security System Extension

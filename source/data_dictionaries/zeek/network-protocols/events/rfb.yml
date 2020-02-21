@@ -1,0 +1,104 @@
+title: RFB Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: rfb
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '5900'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: client_minor_version
+  type: string
+  description: Minor version of the client
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: client_major_version
+  type: string
+  description: '"Major version of the client'
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: authentication_method
+  type: string
+  description: Identifier of authentication method used
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: auth
+  type: boolean
+  description: Whether or not authentication was successful
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: height
+  type: integer
+  description: Height of the screen that is being shared
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: width
+  type: integer
+  description: Width of the screen that is being shared
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: share_flag
+  type: boolean
+  description: Whether the client has an exclusive or a shared session
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: server_major_version
+  type: string
+  description: Major version of the server
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: server_minor_version
+  type: string
+  description: Minor version of the server
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: desktop_name
+  type: string
+  description: Name of the screen that is being shared
+  sample_value: ''
+references: []
+tags: []

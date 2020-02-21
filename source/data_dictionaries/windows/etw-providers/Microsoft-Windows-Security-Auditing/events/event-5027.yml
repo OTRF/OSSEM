@@ -1,0 +1,27 @@
+title: 'Event ID 5027: The Windows Firewall Service was unable to retrieve the security
+  policy from the local storage. The service will continue enforcing the current policy.'
+description: 'Event ID 5027: The Windows Firewall Service was unable to retrieve the
+  security policy from the local storage. The service will continue enforcing the
+  current policy.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5027'
+event_fields:
+- standard_name: error_code
+  standard_type: TBD
+  name: ErrorCode
+  type: UInt32
+  description: unique error code.
+  sample_value: '2147942413'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5027.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit Other System Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- System
+- Audit Other System Events

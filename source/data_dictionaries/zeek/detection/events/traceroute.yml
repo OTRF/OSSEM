@@ -1,0 +1,32 @@
+title: Traceroute Log
+description: null
+platform: zeek
+log_source: detection
+event_code: traceroute
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: network_protocol
+  standard_type: TBD
+  name: proto
+  type: string
+  description: Protocol used for the traceroute
+  sample_value: tcp
+- standard_name: TBD
+  standard_type: TBD
+  name: src
+  type: ip
+  description: Address initiating the traceroute
+  sample_value: 10.1.1.1.1
+- standard_name: TBD
+  standard_type: TBD
+  name: dst
+  type: ip
+  description: Destination address of the traceroute
+  sample_value: 10.2.2.2
+references: []
+tags: []

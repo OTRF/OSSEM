@@ -1,0 +1,29 @@
+title: Acpi_tables Table
+description: Firmware ACPI functional table common metadata and content.
+platform: macos
+log_source: osquery
+event_code: acpi_tables
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: ACPI table name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: Size of compiled table data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: md5
+  type: TEXT
+  description: MD5 hash of table content
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#acpi_tables
+tags:
+- version_4.4.2

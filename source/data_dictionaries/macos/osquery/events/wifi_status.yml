@@ -1,0 +1,89 @@
+title: Wifi_status Table
+description: OS X current WiFi status.
+platform: macos
+log_source: osquery
+event_code: wifi_status
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: interface
+  type: TEXT
+  description: Name of the interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ssid
+  type: TEXT
+  description: SSID octets of the network
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bssid
+  type: TEXT
+  description: The current basic service set identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: network_name
+  type: TEXT
+  description: Name of the network
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: country_code
+  type: TEXT
+  description: The country code (ISO/IEC 3166-1:1997) for the network
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: security_type
+  type: TEXT
+  description: Type of security on this network
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: rssi
+  type: INTEGER
+  description: The current received signal strength indication (dbm)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: noise
+  type: INTEGER
+  description: The current noise measurement (dBm)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: channel
+  type: INTEGER
+  description: Channel number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: channel_width
+  type: INTEGER
+  description: Channel width
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: channel_band
+  type: INTEGER
+  description: Channel band
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: transmit_rate
+  type: TEXT
+  description: The current transmit rate
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mode
+  type: TEXT
+  description: The current operating mode for the Wi-Fi interface
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#wifi_status
+tags:
+- version_4.4.2

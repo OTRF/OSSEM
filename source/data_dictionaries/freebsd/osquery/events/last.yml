@@ -1,0 +1,47 @@
+title: Last Table
+description: System logins and logouts.
+platform: freebsd
+log_source: osquery
+event_code: last
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: Entry username
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tty
+  type: TEXT
+  description: Entry terminal
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: INTEGER
+  description: Process (or thread) ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: INTEGER
+  description: Entry type, according to ut_type types (utmp.h)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: INTEGER
+  description: Entry timestamp
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: TEXT
+  description: Entry hostname
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#last
+tags:
+- version_4.4.2

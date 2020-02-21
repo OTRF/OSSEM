@@ -1,0 +1,67 @@
+title: X509 and Certificates Schema
+description: This document is a work in progress, but is a foundational start there
+  is included. Specifically the main foundations of certificate information is already
+  in here.
+data_fields:
+- standard_name: certificate_hash_md5
+  type: string
+  description: MD5 hash representation of the entire, computed, certificate. Also
+    known as fingerprint or thumbprint
+  sample_value: 6A255BEBF3DBCD13585538ED47DBAFD7
+- standard_name: certificate_hash_sha1
+  type: string
+  description: SHA1 hash representation of the entire, computed, certificate. Also
+    known as fingerprint or thumbprint
+  sample_value: B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2
+- standard_name: certificate_hash_sha256
+  type: string
+  description: SHA256 hash representation of the entire, computed, certificate. Also
+    known as fingerprint or thumbprint
+  sample_value: 4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C
+- standard_name: certificate_issuer
+  type: string
+  description: Information about the CA that issued the certificate
+  sample_value: CN=neu5ron.local,OU=Admin
+- standard_name: certificate_subject
+  type: string
+  description: Information about the CA that issued the certificate
+  sample_value: CN=natetoken,OU=Admin,DC=neu5ron,DC=local
+- standard_name: certificate_serial_number
+  type: string
+  description: Serial number, this is chosen by the CA (certificate authority) which
+    issued the certificate. Therefore this can relatively be arbritary if the CA does
+    not follow a standard or is malicious.
+  sample_value: '5157550'
+- standard_name: dst_certificate_hash_md5
+  type: string
+  description: MD5 hash representation of the entire, computed, certificate. Also
+    known as fingerprint or thumbprint
+  sample_value: 6A255BEBF3DBCD13585538ED47DBAFD7
+- standard_name: dst_certificate_hash_sha1
+  type: string
+  description: SHA1 hash representation of the entire, computed, certificate. Also
+    known as fingerprint or thumbprint
+  sample_value: B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2
+- standard_name: dst_certificate_hash_sha256
+  type: string
+  description: SHA256 hash representation of the entire, computed, certificate. Also
+    known as fingerprint or thumbprint
+  sample_value: 4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C
+- standard_name: dst_certificate_issuer
+  type: string
+  description: Information about the CA that issued the certificate
+  sample_value: CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie
+    PSU,L=Nicosia,C=CY
+- standard_name: dst_certificate_serial_number
+  type: string
+  description: Serial number, this is chosen by the CA (certificate authority) which
+    issued the certificate. Therefore this can relatively be arbritary if the CA does
+    not follow a standard or is malicious.
+  sample_value: '5157550'
+- standard_name: dst_certificate_subject
+  type: string
+  description: Information about the servers certificate itself
+  sample_value: CN=trcodoretur.4Arentthetifth.viajes,OU=Is.ow pandme,O=Pthemide Fteiosie
+    PSU,L=Nicosia,C=CY
+references: []
+tags: []

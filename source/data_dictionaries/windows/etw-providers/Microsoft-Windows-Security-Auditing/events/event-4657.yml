@@ -1,0 +1,105 @@
+title: Event ID 4657 A registry value was modified
+description: Event ID 4657 A registry value was modified
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4657'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested the "modify registry value" operation.
+  sample_value: THEDOMAIN\TheUser
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested the "modify registry value"
+    operation.
+  sample_value: TheUser
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: THEDOMAIN
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x364ef'
+- standard_name: registry_key_path
+  standard_type: TBD
+  name: ObjectName
+  type: UnicodeString
+  description: full path and name of the registry key which value was modified.
+  sample_value: \REGISTRY\MACHINE
+- standard_name: registry_key_value_name
+  standard_type: TBD
+  name: ObjectValueName
+  type: UnicodeString
+  description: the name of modified registry key value.
+  sample_value: New_Name
+- standard_name: object_handle_id
+  standard_type: TBD
+  name: HandleId
+  type: Pointer
+  description: hexadecimal value of a handle to Object Name.
+  sample_value: '0x54'
+- standard_name: object_operation_type
+  standard_type: TBD
+  name: OperationType
+  type: UnicodeString
+  description: the type of performed operation with registry key value.
+  sample_value: Existing registry value modified
+- standard_name: object_value_old_type
+  standard_type: TBD
+  name: OldValueType
+  type: UnicodeString
+  description: old type of changed registry key value.
+  sample_value: REG_SZ
+- standard_name: registry_value_old_data
+  standard_type: TBD
+  name: OldValue
+  type: UnicodeString
+  description: old value for changed registry key value.
+  sample_value: ''
+- standard_name: registry_key_value_type
+  standard_type: TBD
+  name: NewValueType
+  type: UnicodeString
+  description: new type of changed registry key value.
+  sample_value: REG_SZ
+- standard_name: registry_key_value_data
+  standard_type: TBD
+  name: NewValue
+  type: UnicodeString
+  description: new value for changed registry key value.
+  sample_value: Andreas
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: Pointer
+  description: hexadecimal Process ID of the process through which the registry key
+    value was modified.
+  sample_value: '0xec43'
+- standard_name: process_path
+  standard_type: TBD
+  name: ProcessName
+  type: UnicodeString
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\regedit.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4657.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Registry
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-registry.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit Registry

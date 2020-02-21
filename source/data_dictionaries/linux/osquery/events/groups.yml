@@ -1,0 +1,47 @@
+title: Groups Table
+description: Local system groups.
+platform: linux
+log_source: osquery
+event_code: groups
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: Unsigned int64 group ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid_signed
+  type: BIGINT
+  description: A signed int64 version of gid
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: groupname
+  type: TEXT
+  description: Canonical local group name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: group_sid
+  type: TEXT
+  description: Unique group ID [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: comment
+  type: TEXT
+  description: Remarks or comments associated with the group [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: is_hidden
+  type: INTEGER
+  description: IsHidden attribute set in OpenDirectory [DARWIN]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#groups
+tags:
+- version_4.4.2

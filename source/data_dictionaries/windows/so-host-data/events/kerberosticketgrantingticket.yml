@@ -1,0 +1,106 @@
+title: 'Source Type: Kerberos Ticket Granting Ticket'
+description: The Kerberos Ticket Granting Ticket (TGT) source type is derived by querying
+  all active Logon Sessions for their TGT with the LsaCallAuthenticationPackage API.
+platform: windows
+log_source: so-host-data
+event_code: kerberosticketgrantingticket
+event_fields:
+- standard_name: source_type
+  standard_type: TBD
+  name: SourceType
+  type: TEXT
+  description: Type of data represented
+  sample_value: WinEvent-KerberosTicketGrantingTicket
+- standard_name: id
+  standard_type: TBD
+  name: Id
+  type: TEXT
+  description: SO Host Data's unique identifier of this instance
+  sample_value: 82E5CB03112897B20C6FF61BE5B9BF7D574B74E5176C51E738BCAB894C98A1E1
+- standard_name: logon_session_key
+  standard_type: TBD
+  name: LogonSessionKey
+  type: TEXT
+  description: SO Host Data's unique identifier of associated logon session
+  sample_value: EC0AC744FFFBE3228F9E73EC60FA74F3BAB8330DFBCA51B269FC8A3B3B5DD7CD
+- standard_name: service_name
+  standard_type: TBD
+  name: ServiceName
+  type: TEXT
+  description: A multiple part, canonical, service name
+  sample_value: krbtgt
+- standard_name: client_name
+  standard_type: TBD
+  name: ClientName
+  type: TEXT
+  description: The client name in the ticket
+  sample_value: DarthVader
+- standard_name: domain_name
+  standard_type: TBD
+  name: DomainName
+  type: TEXT
+  description: The domain that corresponds to the ServiceName
+  sample_value: deathstar.empire.com
+- standard_name: target_domain_name
+  standard_type: TBD
+  name: TargetDomainName
+  type: TEXT
+  description: The name of the domain in which the ticket is valid
+  sample_value: deathstar.empire.com
+- standard_name: alt_target_domain_name
+  standard_type: TBD
+  name: AltTargetDomainName
+  type: TEXT
+  description: Synonym for the destination domain
+  sample_value: deathstar.empire.com
+- standard_name: session_key_type
+  standard_type: TBD
+  name: SessionKeyType
+  type: TEXT
+  description: The type of encryption used for the session key
+  sample_value: rc4_hmac
+- standard_name: session_key
+  standard_type: TBD
+  name: SessionKey
+  type: TEXT
+  description: The session key for the ticket
+  sample_value: D55F31C27D4C4517D4B86D72BF8B7276
+- standard_name: ticket_flags
+  standard_type: TBD
+  name: TicketFlags
+  type: TEXT
+  description: Ticket flags, as defined in Internet RFC 4120
+  sample_value: pre_authent, initial, renewable, forwardable
+- standard_name: key_expiration_time
+  standard_type: TBD
+  name: KeyExpirationTime
+  type: DATE
+  description: Time at which the key expires
+  sample_value: 1/1/1601 1:00:00 AM
+- standard_name: start_time
+  standard_type: TBD
+  name: StartTime
+  type: DATE
+  description: Time at which the ticket becomes valid
+  sample_value: 2/21/2018 4:13:40 AM
+- standard_name: end_time
+  standard_type: TBD
+  name: EndTime
+  type: DATE
+  description: Time at which the ticket expires
+  sample_value: 2/19/2028 4:13:40 AM
+- standard_name: renew_util
+  standard_type: TBD
+  name: RenewUntil
+  type: DATE
+  description: The latest time a ticket can be renewed
+  sample_value: 2/19/2028 4:13:40 AM
+- standard_name: time_skew
+  standard_type: TBD
+  name: TimeSkew
+  type: LONG
+  description: The measured time difference between the current time on the computer
+    issuing the ticket and the computer where the ticket will be used
+  sample_value: '0'
+references: []
+tags: []

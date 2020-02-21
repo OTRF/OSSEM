@@ -1,0 +1,119 @@
+title: Iptables Table
+description: Linux IP packet filtering and NAT tool.
+platform: linux
+log_source: osquery
+event_code: iptables
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: filter_name
+  type: TEXT
+  description: Packet matching filter table name.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: chain
+  type: TEXT
+  description: Size of module content.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: policy
+  type: TEXT
+  description: Policy that applies for this rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target
+  type: TEXT
+  description: Target that applies for this rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: protocol
+  type: INTEGER
+  description: Protocol number identification.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: src_port
+  type: TEXT
+  description: Protocol source port(s).
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dst_port
+  type: TEXT
+  description: Protocol destination port(s).
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: src_ip
+  type: TEXT
+  description: Source IP address.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: src_mask
+  type: TEXT
+  description: Source IP address mask.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: iniface
+  type: TEXT
+  description: Input interface for the rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: iniface_mask
+  type: TEXT
+  description: Input interface mask for the rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dst_ip
+  type: TEXT
+  description: Destination IP address.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dst_mask
+  type: TEXT
+  description: Destination IP address mask.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: outiface
+  type: TEXT
+  description: Output interface for the rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: outiface_mask
+  type: TEXT
+  description: Output interface mask for the rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: match
+  type: TEXT
+  description: Matching rule that applies.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: packets
+  type: INTEGER
+  description: Number of matching packets for this rule.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bytes
+  type: INTEGER
+  description: Number of matching bytes for this rule.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#iptables
+tags:
+- version_4.4.2

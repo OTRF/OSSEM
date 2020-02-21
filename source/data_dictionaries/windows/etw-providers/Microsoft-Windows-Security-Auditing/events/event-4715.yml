@@ -1,0 +1,60 @@
+title: 'Event ID 4715: The audit policy (SACL) on an object was changed.'
+description: 'Event ID 4715: The audit policy (SACL) on an object was changed.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4715'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested the "change local audit policy security
+    descriptor (SACL)" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested the "change local audit policy
+    security descriptor (SACL)" operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x11ae30'
+- standard_name: object_old_sd
+  standard_type: TBD
+  name: OldSd
+  type: UnicodeString
+  description: the old Security Descriptor Definition Language (SDDL) value for the
+    audit policy.
+  sample_value: D:(A;;DCSWRPDTRC;;;BA)(D;;DCSWRPDTRC;;;SY)S:NO_ACCESS_CONTROL
+- standard_name: object_new_sd
+  standard_type: TBD
+  name: NewSd
+  type: UnicodeString
+  description: new Security Descriptor Definition Language (SDDL) value for the audit
+    policy.
+  sample_value: D:(A;;DCSWRPDTRC;;;BA)(A;;DCSWRPDTRC;;;SY)S:NO_ACCESS_CONTROL
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4715.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit Policy Change

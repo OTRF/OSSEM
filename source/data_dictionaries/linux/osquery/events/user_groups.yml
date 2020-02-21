@@ -1,0 +1,23 @@
+title: User_groups Table
+description: Local system user group relationships.
+platform: linux
+log_source: osquery
+event_code: user_groups
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: User ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: Group ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#user_groups
+tags:
+- version_4.4.2

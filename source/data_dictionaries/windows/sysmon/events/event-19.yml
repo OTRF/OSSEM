@@ -1,0 +1,63 @@
+title: 'Event ID 19: WmiEvent (WmiEventFilter activity detected)'
+description: When a WMI event filter is registered, which is a method used by malware
+  to execute, this event logs the WMI namespace, filter name and filter expression.
+platform: windows
+log_source: sysmon
+event_code: '19'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: wmievent type
+  sample_value: WmiFilterEvent
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: '2018-09-11 23:12:46.606'
+- standard_name: wmi_operation
+  standard_type: TBD
+  name: Operation
+  type: string
+  description: wmievent filter operation
+  sample_value: Created
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: user that created the wmi filter
+  sample_value: DESKTOP-LFD11QP\pedro
+- standard_name: wmi_namespace
+  standard_type: TBD
+  name: EventNamespace
+  type: string
+  description: event namespace where the wmi clas
+  sample_value: root\CimV2
+- standard_name: wmi_filter_name
+  standard_type: TBD
+  name: Name
+  type: string
+  description: Wmi filter name being created
+  sample_value: Updater
+- standard_name: wmi_query
+  standard_type: TBD
+  name: Query
+  type: string
+  description: wmi filter query
+  sample_value: '"SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance
+    ISA ''Win32_PerfFormattedData_PerfOS_System'' AND TargetInstance.SystemUpTime
+    >= 240 AND TargetInstance.SystemUpTime < 325"'
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-19-wmievent-wmieventfilter-activity-detected
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/WMI-events.md
+tags: []

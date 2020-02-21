@@ -1,0 +1,153 @@
+title: Kerberos Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: kerberos
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1138098996.611848'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.5.12.5
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '2565'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.5.3.1
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '88'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: server_cert_fuid
+  type: string
+  description: present if base/protocols/krb/files.bro is loaded File unique ID of
+    server cert, if any
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: client_cert_fuid
+  type: string
+  description: present if base/protocols/krb/files.bro is loaded File unique ID of
+    client cert, if any
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: error_code
+  type: integer
+  description: Error code
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: error_msg
+  type: string
+  description: Error message
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: success
+  type: boolean
+  description: 'true'
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: client
+  type: string
+  description: Client
+  sample_value: u1/DENYDC.COM
+- standard_name: TBD
+  standard_type: TBD
+  name: client_cert_subject
+  type: string
+  description: present if base/protocols/krb/files.bro is loaded Subject of client
+    certificate, if any
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: cipher
+  type: string
+  description: Ticket encryption type
+  sample_value: aes256-cts-hmac-sha1-96
+- standard_name: TBD
+  standard_type: TBD
+  name: forwardable
+  type: boolean
+  description: Forwardable ticket requested
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: auth_ticket
+  type: string
+  description: present if policy/protocols/krb/ticket-logging.bro is loaded Hash of
+    ticket used to authorize request/transaction (client) (md5 hash)
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: renewable
+  type: boolean
+  description: Renewable ticket requested
+  sample_value: 'true'
+- standard_name: ticket_request_type
+  standard_type: TBD
+  name: request_type
+  type: string
+  description: Request type - Authentication Service ("AS") or Ticket Granting Service
+    ("TGS")
+  sample_value: TGS
+- standard_name: TBD
+  standard_type: TBD
+  name: new_ticket
+  type: string
+  description: present if policy/protocols/krb/ticket-logging.bro is loaded Hash of
+    ticket returned by the KDC (server)
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: server_cert_subject
+  type: string
+  description: present if base/protocols/krb/files.bro is loaded Subject of server
+    certificate, if any
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: service
+  type: string
+  description: Service
+  sample_value: HTTP/fc4.denyDC.com
+- standard_name: TBD
+  standard_type: TBD
+  name: from
+  type: date_time
+  description: Ticket valid from, in epoch format
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: till
+  type: date_time
+  description: Ticket valid till, in epoch format
+  sample_value: 2136422885
+references: []
+tags: []

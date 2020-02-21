@@ -1,0 +1,73 @@
+title: 'Event ID 4753: A security-disabled global group was deleted'
+description: 'Event ID 4753: A security-disabled global group was deleted'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4753'
+event_fields:
+- standard_name: group_name
+  standard_type: TBD
+  name: TargetUserName
+  type: UnicodeString
+  description: the name of the group that was deleted.
+  sample_value: ServiceDeskSecond
+- standard_name: group_domain
+  standard_type: TBD
+  name: TargetDomainName
+  type: UnicodeString
+  description: domain name of deleted group.
+  sample_value: CONTOSO
+- standard_name: group_sid
+  standard_type: TBD
+  name: TargetSid
+  type: SID
+  description: SID of deleted group. Event Viewer automatically tries to resolve SIDs
+    and show the group name. If the SID cannot be resolved, you will see the source
+    data in the event.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-6119
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested the "delete group" operation. Event Viewer
+    automatically tries to resolve SIDs and show the account name.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested the "delete group" operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3007b'
+- standard_name: user_privilege_list
+  standard_type: TBD
+  name: PrivilegeList
+  type: UnicodeString
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-".
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4753.md
+- text: MS Security Auditing Category - Account Management
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-management
+- text: MS Security Auditing Sub-category - Audit Distribution Group Management
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-distribution-group-management.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Account Management
+- Audit Distribution Group Management

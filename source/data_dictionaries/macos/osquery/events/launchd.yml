@@ -1,0 +1,89 @@
+title: Launchd Table
+description: LaunchAgents and LaunchDaemons from default search paths.
+platform: macos
+log_source: osquery
+event_code: launchd
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to daemon or agent plist
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: File name of plist (used by launchd)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: label
+  type: TEXT
+  description: Daemon or agent service name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: program
+  type: TEXT
+  description: Path to target program
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: run_at_load
+  type: TEXT
+  description: Should the program run on launch load
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: keep_alive
+  type: TEXT
+  description: Should the process be restarted if killed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: on_demand
+  type: TEXT
+  description: Deprecated key, replaced by keep_alive
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: disabled
+  type: TEXT
+  description: Skip loading this daemon or agent on boot
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: Run this daemon or agent as this username
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: groupname
+  type: TEXT
+  description: Run this daemon or agent as this group
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: stdout_path
+  type: TEXT
+  description: Pipe stdout to a target path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: stderr_path
+  type: TEXT
+  description: Pipe stderr to a target path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: start_interval
+  type: TEXT
+  description: Frequency to run in seconds
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#launchd
+tags:
+- version_4.4.2

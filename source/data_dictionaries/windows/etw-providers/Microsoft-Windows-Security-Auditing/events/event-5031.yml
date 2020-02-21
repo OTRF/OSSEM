@@ -1,0 +1,32 @@
+title: 'Event ID 5031: The Windows Firewall Service blocked an application from accepting
+  incoming connections on the network'
+description: 'Event ID 5031: The Windows Firewall Service blocked an application from
+  accepting incoming connections on the network'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5031'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: Profiles
+  type: UnicodeString
+  description: Network profile using which application was blocked.
+  sample_value: Domain
+- standard_name: process_path
+  standard_type: TBD
+  name: Application
+  type: UnicodeString
+  description: Full path and file name of executable file for blocked application.
+  sample_value: C:\documents\listener.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5031.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Filtering Platform Connection
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-connection.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit Filtering Platform Connection

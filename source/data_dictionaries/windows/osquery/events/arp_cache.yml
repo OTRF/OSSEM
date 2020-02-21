@@ -1,0 +1,35 @@
+title: Arp_cache Table
+description: Address resolution cache, both static and dynamic (from ARP, NDP).
+platform: windows
+log_source: osquery
+event_code: arp_cache
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: address
+  type: TEXT
+  description: IPv4 address target
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mac
+  type: TEXT
+  description: MAC address of broadcasted address
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: interface
+  type: TEXT
+  description: Interface of the network for the MAC
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: permanent
+  type: TEXT
+  description: 1 for true, 0 for false
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#arp_cache
+tags:
+- version_4.4.2

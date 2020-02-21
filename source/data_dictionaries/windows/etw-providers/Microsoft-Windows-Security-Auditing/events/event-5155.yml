@@ -1,0 +1,70 @@
+title: 'Event ID 5155: The Windows Filtering Platform has blocked an application or
+  service from listening on a port for incoming connections'
+description: 'Event ID 5155: The Windows Filtering Platform has blocked an application
+  or service from listening on a port for incoming connections'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5155'
+event_fields:
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: UInt64
+  description: Hexadecimal Process ID (PID) of the process which was permitted to
+    bind to the local port.
+  sample_value: '2628'
+- standard_name: process_path
+  standard_type: TBD
+  name: Application
+  type: UnicodeString
+  description: Full path and the name of the executable for the process.
+  sample_value: \device\harddiskvolume2\users\test\desktop\netcat\nc.exe
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: SourceAddress
+  type: UnicodeString
+  description: The local IP address of the computer running the application.
+  sample_value: 0.0.0.0
+- standard_name: src_port
+  standard_type: TBD
+  name: SourcePort
+  type: UnicodeString
+  description: The port number used by the application.
+  sample_value: '5555'
+- standard_name: network_protocol
+  standard_type: TBD
+  name: Protocol
+  type: UInt32
+  description: Protocol number.
+  sample_value: '6'
+- standard_name: TBD
+  standard_type: TBD
+  name: FilterRTID
+  type: UInt64
+  description: A unique filter ID which blocks the application from binding to the
+    port.
+  sample_value: '84576'
+- standard_name: TBD
+  standard_type: TBD
+  name: LayerName
+  type: UnicodeString
+  description: Application Layer Enforcement layer name.
+  sample_value: '%%14609'
+- standard_name: TBD
+  standard_type: TBD
+  name: LayerRTID
+  type: UInt64
+  description: Windows Filtering Platform layer identifier.
+  sample_value: '40'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5155.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Filtering Platform Connection
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-connection.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit Filtering Platform Connection

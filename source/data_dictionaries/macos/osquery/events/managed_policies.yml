@@ -1,0 +1,47 @@
+title: Managed_policies Table
+description: The managed configuration policies from AD, MDM, MCX, etc.
+platform: macos
+log_source: osquery
+event_code: managed_policies
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: domain
+  type: TEXT
+  description: System or manager-chosen domain key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uuid
+  type: TEXT
+  description: Optional UUID assigned to policy set
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Policy key name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: Policy value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: Policy applies only this user
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manual
+  type: INTEGER
+  description: 1 if policy was loaded manually, otherwise 0
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#managed_policies
+tags:
+- version_4.4.2

@@ -1,0 +1,59 @@
+title: Process_open_pipes Table
+description: Pipes and partner processes for each process.
+platform: linux
+log_source: osquery
+event_code: process_open_pipes
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: BIGINT
+  description: Process ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: fd
+  type: BIGINT
+  description: File descriptor
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mode
+  type: TEXT
+  description: Pipe open mode (r/w)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: inode
+  type: BIGINT
+  description: Pipe inode number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: 'Pipe Type: named vs unnamed/anonymous'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: partner_pid
+  type: BIGINT
+  description: Process ID of partner process sharing a particular pipe
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: partner_fd
+  type: BIGINT
+  description: File descriptor of shared pipe at partner's end
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: partner_mode
+  type: TEXT
+  description: Mode of shared pipe at partner's end
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#process_open_pipes
+tags:
+- version_4.4.2

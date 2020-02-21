@@ -1,0 +1,65 @@
+title: Listening_ports Table
+description: Processes with listening (bound) network sockets/ports.
+platform: freebsd
+log_source: osquery
+event_code: listening_ports
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: INTEGER
+  description: Process (or thread) ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: port
+  type: INTEGER
+  description: Transport layer port
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: protocol
+  type: INTEGER
+  description: Transport protocol (TCP/UDP)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: family
+  type: INTEGER
+  description: Network protocol (IPv4, IPv6)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: address
+  type: TEXT
+  description: Specific address for bind
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: fd
+  type: BIGINT
+  description: Socket file descriptor number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: socket
+  type: BIGINT
+  description: Socket handle or inode number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path for UNIX domain sockets
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: net_namespace
+  type: TEXT
+  description: The inode number of the network namespace [LINUX]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#listening_ports
+tags:
+- version_4.4.2

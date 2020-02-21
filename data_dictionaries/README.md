@@ -1,15 +1,13 @@
 # Data Dictionaries
 
-This part of the OSSEM project contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field names. The difference between the [Common Information Model](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model) folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
+## Description
+This part of the OSSEM project contains specific information about several security event logs organized by operating system and their respective data sets. Each dictionary describes a single event log and its corresponding event field names. The difference between the ../common_information_model/ folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.
 
-## Data Dictionaries Definitions
-
-| OS | Data Set | Description |
-| ---------------- | ---------------- | ---------------- |
-| [Windows](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows) | [Windows Security](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/security) | The security log records each event as defined by the audit policies you set on each object. This includes auditing such as account logon, account management, detailed tracking, logon logoff, object access, policy change and system  |
-| [Windows](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows) | [Sysmon](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/sysmon) | It provides detailed information such as process creations, network connections, changes to file creation time, registry events, named pipes and even wmi subscriptions  |
-| [Windows](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows) | [PowerShell](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/powershell) | This enhanced logging records executed PowerShell commands and scripts, de-obfuscated code, output, and transcripts of attacker activity |
-| [Windows](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows) | [OsQuery](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/windows/osquery) | It collects and aggregates a system's log and status information in a collection of pre-defined tables. It collects information about files, processes, named pipes, registry, services, and more |
-| [MacOs](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/macos) | [OsQuery](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/macos/osquery) | It collects and aggregates a system's log and status information in a collection of pre-defined tables. It collects information about files, processes, services, and more  |
-| [Linux](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/linux) | [OsQuery](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/linux/osquery) | It collects and aggregates a system's log and status information in a collection of pre-defined tables. It collects information about files, processes, services, and more  |
-| [Zeek](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/zeek) | [Zeek](https://github.com/Cyb3rWard0g/OSSEM/blob/master/data_dictionaries/Zeek) | Network Security Monitoring (NSM) application that provides hundreds of fields of metadata for 40+ different applications (HTTP, TLS, DNS, Flow, RDP, SMB, Kerberos, ModBus, etc...)|
+## Sub Data Sets
+|Data Set|Description|
+|---|---|
+|[FreeBSD](freebsd/)|Data dictionaries for FreeBSD based events.|
+|[Linux](linux/)|Data dictionaries for Linux based events.|
+|[macOS](macos/)|Data dictionaries for macOS based events.|
+|[Windows](windows/)|Data dictionaries for Windows based events.|
+|[Zeek Event Logs](zeek/)|Zeek provides, network, metadata on over 40+ different applications and protocols.|

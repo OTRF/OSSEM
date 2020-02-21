@@ -1,0 +1,30 @@
+title: Event 75 - MessageInjection
+description: null
+platform: windows
+log_source: Microsoft-Windows-Win32k
+event_code: '75'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: CallbackCount
+  type: Int8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: hwnd
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: hGestureInfo
+  type: Pointer
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_MessagePumpInternalAndInput
+- etw_opcode_PostGestureMessage
+- etw_task_MessageInjection

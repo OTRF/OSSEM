@@ -1,0 +1,65 @@
+title: Rpm_packages Table
+description: RPM packages that are currently installed on the host system.
+platform: linux
+log_source: osquery
+event_code: rpm_packages
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: RPM package name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Package version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: release
+  type: TEXT
+  description: Package release
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: source
+  type: TEXT
+  description: Source RPM package name (optional)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: BIGINT
+  description: Package size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha1
+  type: TEXT
+  description: SHA1 hash of the package contents
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: arch
+  type: TEXT
+  description: Architecture(s) supported
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: epoch
+  type: INTEGER
+  description: Package epoch value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: install_time
+  type: INTEGER
+  description: When the package was installed
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#rpm_packages
+tags:
+- version_4.4.2

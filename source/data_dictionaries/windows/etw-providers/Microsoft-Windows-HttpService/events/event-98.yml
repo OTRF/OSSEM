@@ -1,0 +1,60 @@
+title: Event 98 - HTTPSSLTraceTask
+description: null
+platform: windows
+log_source: Microsoft-Windows-HttpService
+event_code: '98'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: LocalAddressLength
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: LocalAddress
+  type: Binary
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RemoteAddressLength
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RemoteAddress
+  type: Binary
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: SniHostname
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ThumbprintLength
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Thumbprint
+  type: Binary
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ConnectionBufferFull
+  type: Boolean
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL
+- etw_opcode_SslRenegotiateTimedOut
+- etw_task_HTTPSSLTraceTask

@@ -1,0 +1,127 @@
+title: 'Event ID 5447: A Windows Filtering Platform filter has been changed.'
+description: 'Event ID 5447: A Windows Filtering Platform filter has been changed.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5447'
+event_fields:
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: UInt32
+  description: ''
+  sample_value: '284'
+- standard_name: user_sid
+  standard_type: TBD
+  name: UserSid
+  type: SID
+  description: ''
+  sample_value: S-1-5-19
+- standard_name: user_name
+  standard_type: TBD
+  name: UserName
+  type: UnicodeString
+  description: ''
+  sample_value: NT AUTHORITY\LOCAL SERVICE
+- standard_name: provider_key
+  standard_type: TBD
+  name: ProviderKey
+  type: GUID
+  description: ''
+  sample_value: '{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}'
+- standard_name: provider_name
+  standard_type: TBD
+  name: ProviderName
+  type: UnicodeString
+  description: ''
+  sample_value: Microsoft Corporation
+- standard_name: change_type
+  standard_type: TBD
+  name: ChangeType
+  type: UnicodeString
+  description: ''
+  sample_value: '%%16385'
+- standard_name: filter_key
+  standard_type: TBD
+  name: FilterKey
+  type: GUID
+  description: ''
+  sample_value: '{91334E6D-FFAB-40F1-8C43-5554965C228D}'
+- standard_name: filter_name
+  standard_type: TBD
+  name: FilterName
+  type: UnicodeString
+  description: ''
+  sample_value: Port Scanning Prevention Filter
+- standard_name: filter_type
+  standard_type: TBD
+  name: FilterType
+  type: UnicodeString
+  description: ''
+  sample_value: '%%16388'
+- standard_name: filter_id
+  standard_type: TBD
+  name: FilterId
+  type: UInt64
+  description: ''
+  sample_value: '100100'
+- standard_name: layer_key
+  standard_type: TBD
+  name: LayerKey
+  type: GUID
+  description: ''
+  sample_value: '{AC4A9833-F69D-4648-B261-6DC84835EF39}'
+- standard_name: layer_name
+  standard_type: TBD
+  name: LayerName
+  type: UnicodeString
+  description: ''
+  sample_value: Inbound Transport v4 Discard Layer
+- standard_name: layer_id
+  standard_type: TBD
+  name: LayerId
+  type: UInt32
+  description: ''
+  sample_value: '13'
+- standard_name: weight
+  standard_type: TBD
+  name: Weight
+  type: UInt64
+  description: ''
+  sample_value: '13835058055315718144'
+- standard_name: conditions
+  standard_type: TBD
+  name: Conditions
+  type: UnicodeString
+  description: ''
+  sample_value: 'Condition ID: {632ce23b-5167-435c-86d7-e903684aa80c} Match value:
+    No flags set Condition value: 0x00000003'
+- standard_name: action
+  standard_type: TBD
+  name: Action
+  type: UnicodeString
+  description: ''
+  sample_value: '%%16391'
+- standard_name: callout_key
+  standard_type: TBD
+  name: CalloutKey
+  type: GUID
+  description: ''
+  sample_value: '{EDA08606-2494-4D78-89BC-67837C03B969}'
+- standard_name: callout_name
+  standard_type: TBD
+  name: CalloutName
+  type: UnicodeString
+  description: ''
+  sample_value: WFP Built-in Silent Drop Transport v4 Discard Layer Callout
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5447.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Other Policy Change Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-policy-change-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit Other Policy Change Events

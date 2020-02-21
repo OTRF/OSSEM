@@ -1,0 +1,15 @@
+# Event 349 - SHADERS_EFFECT_COMPILE
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|pCompilationTask|Pointer|None|`None`|
+
+## Tags
+* etw_level_Verbose
+* etw_keywords_DwmCore
+* etw_opcode_Start
+* etw_task_SHADERS_EFFECT_COMPILE

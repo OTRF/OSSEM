@@ -1,0 +1,66 @@
+title: Block_devices Table
+description: 'Block (buffered access) device file nodes: disks, ramdisks, and DMG
+  containers.'
+platform: linux
+log_source: osquery
+event_code: block_devices
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Block device name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: parent
+  type: TEXT
+  description: Block device parent name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vendor
+  type: TEXT
+  description: Block device vendor string
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: model
+  type: TEXT
+  description: Block device model string identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: BIGINT
+  description: Block device size in blocks
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: block_size
+  type: INTEGER
+  description: Block size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uuid
+  type: TEXT
+  description: Block device Universally Unique Identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Block device type string
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: label
+  type: TEXT
+  description: Block device label string
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#block_devices
+tags:
+- version_4.4.2

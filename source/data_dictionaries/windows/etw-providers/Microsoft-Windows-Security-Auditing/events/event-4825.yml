@@ -1,0 +1,43 @@
+title: 'Event ID 4825: A user was denied the access to Remote Desktop.'
+description: 'Event ID 4825: A user was denied the access to Remote Desktop.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4825'
+event_fields:
+- standard_name: user_name
+  standard_type: TBD
+  name: AccountName
+  type: UnicodeString
+  description: the name of the account that requested the "invoke screensaver" operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: AccountDomain
+  type: UnicodeString
+  description: SID of account that requested the "invoke screensaver" operation
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: LogonID
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x109d9755e'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: ClientAddress
+  type: UnicodeString
+  description: IP address of the computer from which the session was disconnected
+  sample_value: 10.10.10.10
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4825.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit Other System Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- System
+- Audit Other System Events

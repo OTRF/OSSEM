@@ -1,0 +1,85 @@
+title: 'Event ID 5152: The Windows Filtering Platform blocked a packet.'
+description: 'Event ID 5152: The Windows Filtering Platform blocked a packet.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5152'
+event_fields:
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: UInt64
+  description: hexadecimal Process ID of the process to which blocked network packet
+    was sent.
+  sample_value: '4556'
+- standard_name: process_path
+  standard_type: TBD
+  name: Application
+  type: UnicodeString
+  description: full path and the name of the executable for the process.
+  sample_value: \device\harddiskvolume2\documents\listener.exe
+- standard_name: network_direction
+  standard_type: TBD
+  name: Direction
+  type: UnicodeString
+  description: full path and the name of the executable for the process.
+  sample_value: '%%14592'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: SourceAddress
+  type: UnicodeString
+  description: local IP address on which application received the packet.
+  sample_value: 10.0.0.100
+- standard_name: src_port
+  standard_type: TBD
+  name: SourcePort
+  type: UnicodeString
+  description: port number on which application received the packet.
+  sample_value: '49278'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: DestAddress
+  type: UnicodeString
+  description: IP address from which packet was received or initiated.
+  sample_value: 10.0.0.10
+- standard_name: dst_port
+  standard_type: TBD
+  name: DestPort
+  type: UnicodeString
+  description: port number which was used from remote machine to send the packet.
+  sample_value: '3333'
+- standard_name: network_protocol
+  standard_type: TBD
+  name: Protocol
+  type: UInt32
+  description: number of protocol which was used.
+  sample_value: '6'
+- standard_name: TBD
+  standard_type: TBD
+  name: FilterRTID
+  type: UInt64
+  description: unique filter ID which blocked the packet.
+  sample_value: '0'
+- standard_name: TBD
+  standard_type: TBD
+  name: LayerName
+  type: UnicodeString
+  description: Application Layer Enforcement layer name.
+  sample_value: '%%14610'
+- standard_name: TBD
+  standard_type: TBD
+  name: LayerRTID
+  type: UInt64
+  description: Windows Filtering Platform layer identifier.
+  sample_value: '44'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5152.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Filtering Platform Packet Drop
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-filtering-platform-packet-drop.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit Filtering Platform Packet Drop

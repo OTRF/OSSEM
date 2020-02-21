@@ -1,0 +1,41 @@
+title: Kernel_modules Table
+description: Linux kernel modules both loaded and within the load search path.
+platform: linux
+log_source: osquery
+event_code: kernel_modules
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Module name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: TEXT
+  description: Size of module content
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: used_by
+  type: TEXT
+  description: Module reverse dependencies
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: TEXT
+  description: Kernel module status
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: address
+  type: TEXT
+  description: Kernel module address
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#kernel_modules
+tags:
+- version_4.4.2

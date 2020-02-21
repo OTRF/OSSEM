@@ -1,0 +1,65 @@
+title: Docker_container_mounts Table
+description: Docker container mounts.
+platform: macos
+log_source: osquery
+event_code: docker_container_mounts
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: TEXT
+  description: Container ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of mount (bind, volume)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Optional mount name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: source
+  type: TEXT
+  description: Source path on host
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: destination
+  type: TEXT
+  description: Destination path inside container
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: driver
+  type: TEXT
+  description: Driver providing the mount
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mode
+  type: TEXT
+  description: Mount options (rw, ro)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: rw
+  type: INTEGER
+  description: 1 if read/write. 0 otherwise
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: propagation
+  type: TEXT
+  description: Mount propagation
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#docker_container_mounts
+tags:
+- version_4.4.2

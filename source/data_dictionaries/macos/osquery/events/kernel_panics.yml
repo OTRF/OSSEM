@@ -1,0 +1,89 @@
+title: Kernel_panics Table
+description: System kernel panic logs.
+platform: macos
+log_source: osquery
+event_code: kernel_panics
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Location of log file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: TEXT
+  description: Formatted time of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: registers
+  type: TEXT
+  description: A space delimited line of register:value pairs
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: frame_backtrace
+  type: TEXT
+  description: Backtrace of the crashed module
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: module_backtrace
+  type: TEXT
+  description: Modules appearing in the crashed module's backtrace
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dependencies
+  type: TEXT
+  description: Module dependencies existing in crashed module's backtrace
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Process name corresponding to crashed thread
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: os_version
+  type: TEXT
+  description: Version of the operating system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: kernel_version
+  type: TEXT
+  description: Version of the system kernel
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: system_model
+  type: TEXT
+  description: Physical system model, for example 'MacBookPro12,1 (Mac-E43C1C25D4880AD6)'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uptime
+  type: BIGINT
+  description: System uptime at kernel panic in nanoseconds
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_loaded
+  type: TEXT
+  description: Last loaded module before panic
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_unloaded
+  type: TEXT
+  description: Last unloaded module before panic
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#kernel_panics
+tags:
+- version_4.4.2

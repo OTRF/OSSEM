@@ -1,0 +1,71 @@
+title: Sharing_preferences Table
+description: OS X Sharing preferences.
+platform: macos
+log_source: osquery
+event_code: sharing_preferences
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: screen_sharing
+  type: INTEGER
+  description: 1 If screen sharing is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: file_sharing
+  type: INTEGER
+  description: 1 If file sharing is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: printer_sharing
+  type: INTEGER
+  description: 1 If printer sharing is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_login
+  type: INTEGER
+  description: 1 If remote login is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_management
+  type: INTEGER
+  description: 1 If remote management is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_apple_events
+  type: INTEGER
+  description: 1 If remote apple events are enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: internet_sharing
+  type: INTEGER
+  description: 1 If internet sharing is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bluetooth_sharing
+  type: INTEGER
+  description: 1 If bluetooth sharing is enabled for any user else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: disc_sharing
+  type: INTEGER
+  description: 1 If CD or DVD sharing is enabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: content_caching
+  type: INTEGER
+  description: 1 If content caching is enabled else 0
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#sharing_preferences
+tags:
+- version_4.4.2

@@ -1,0 +1,64 @@
+title: 'Event ID 11: FileCreate'
+description: File create operations are logged when a file is created or overwritten.
+  This event is useful for monitoring autostart locations, like the Startup folder,
+  as well as temporary and download directories, which are common places malware drops
+  during initial infection.
+platform: windows
+log_source: sysmon
+event_code: '11'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 6:01
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that created the file
+  sample_value: '{A98268C1-958A-5ACD-0000-0010C62F0100}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the process that created the
+    file (child)
+  sample_value: '1044'
+- standard_name: process_name
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File name of the process that created the file
+  sample_value: svchost.exe
+- standard_name: process_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process that created the file
+  sample_value: C:\WINDOWS\System32\svchost.exe
+- standard_name: file_name
+  standard_type: TBD
+  name: TargetFilename
+  type: string
+  description: Name of the file
+  sample_value: C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf
+- standard_name: file_date_creation
+  standard_type: TBD
+  name: CreationUtcTime
+  type: date
+  description: File creation time
+  sample_value: 12/4/17 17:38
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-11-filecreate
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/file-create.md
+tags: []

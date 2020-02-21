@@ -1,0 +1,47 @@
+title: Fan_speed_sensors Table
+description: Fan speeds.
+platform: macos
+log_source: osquery
+event_code: fan_speed_sensors
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: fan
+  type: TEXT
+  description: Fan number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Fan name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: actual
+  type: INTEGER
+  description: Actual speed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: min
+  type: INTEGER
+  description: Minimum speed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: max
+  type: INTEGER
+  description: Maximum speed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target
+  type: INTEGER
+  description: Target speed
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#fan_speed_sensors
+tags:
+- version_4.4.2

@@ -1,0 +1,75 @@
+title: 'Event ID 5633: A request was made to authenticate to a wired network'
+description: 'Event ID 5633: A request was made to authenticate to a wired network'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5633'
+event_fields:
+- standard_name: host_interface_name
+  standard_type: TBD
+  name: InterfaceName
+  type: UnicodeString
+  description: the name (description) of network interface which was used for authentication
+    request. You can get the list of all available network adapters using "ipconfig
+    /all" command.
+  sample_value: Microsoft Hyper-V Network Adapter
+- standard_name: user_identity
+  standard_type: TBD
+  name: Identity
+  type: UnicodeString
+  description: User Principal Name (UPN) of account for which 802.1x authentication
+    request was made.
+  sample_value: '-'
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account for which 802.1x authentication request was
+    made
+  sample_value: '-'
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name
+  sample_value: '-'
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x0'
+- standard_name: event_reason_code
+  standard_type: TBD
+  name: ReasonCode
+  type: HexInt32
+  description: hexadecimal Reason Code for wired authentication results.
+  sample_value: '0x70003'
+- standard_name: event_reason_text
+  standard_type: TBD
+  name: ReasonText
+  type: UnicodeString
+  description: contains Reason Text (explanation of Reason Code) and Reason Code for
+    wired authentication results.
+  sample_value: The network does not support authentication
+- standard_name: event_error_code
+  standard_type: TBD
+  name: ErrorCode
+  type: HexInt32
+  description: hexadecimal error code
+  sample_value: '0x0'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5633.md
+- text: MS Security Auditing Category - Account Logon
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon
+- text: MS Security Auditing Category - Logon/Logoff
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#logonlogoff
+- text: MS Security Auditing Sub-category - Audit Other Logon/Logoff Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-logon/logoff-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Account Logon
+- Logon/Logoff
+- Audit Other Logon/Logoff Events

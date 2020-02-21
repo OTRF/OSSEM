@@ -1,0 +1,23 @@
+title: Shared_folders Table
+description: Folders available to others via SMB or AFP.
+platform: macos
+log_source: osquery
+event_code: shared_folders
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: The shared name of the folder as it appears to other users
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Absolute path of shared folder on the local system
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#shared_folders
+tags:
+- version_4.4.2

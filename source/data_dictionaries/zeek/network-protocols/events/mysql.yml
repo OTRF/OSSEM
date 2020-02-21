@@ -1,0 +1,74 @@
+title: MySQL Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: mysql
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 192.168.0.254
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 192.168.0.254
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '3306'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CzwW5j3qyZtuKCIt0f
+- standard_name: TBD
+  standard_type: TBD
+  name: arg
+  type: string
+  description: The argument issued to the command.
+  sample_value: insert into foo (animal, name) values (\"cat\", \"Garfield\")
+- standard_name: TBD
+  standard_type: TBD
+  name: cmd
+  type: string
+  description: The command that was issued.
+  sample_value: query
+- standard_name: TBD
+  standard_type: TBD
+  name: response
+  type: string
+  description: Server message, if any.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: rows
+  type: integer
+  description: The number of affected rows, if any.
+  sample_value: '1'
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: boolean
+  description: Did the server tell us that the command succeeded.
+  sample_value: 'true'
+references: []
+tags: []

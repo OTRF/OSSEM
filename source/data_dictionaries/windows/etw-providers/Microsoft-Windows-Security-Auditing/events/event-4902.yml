@@ -1,0 +1,31 @@
+title: 'Event ID 4902: The Per-user audit policy table was created.'
+description: 'Event ID 4902: The Per-user audit policy table was created.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4902'
+event_fields:
+- standard_name: pua_count
+  standard_type: TBD
+  name: PuaCount
+  type: UInt32
+  description: number of users for which Per-user policies were defined (number of
+    unique users).
+  sample_value: '1'
+- standard_name: pua_policy_id
+  standard_type: TBD
+  name: PuaPolicyId
+  type: HexInt64
+  description: unique per-User Audit Policy hexadecimal identifier.
+  sample_value: '0x703e'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4902.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit Policy Change

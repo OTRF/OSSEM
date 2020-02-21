@@ -1,0 +1,14 @@
+# Event 555 - TabRoaming_KeepTabInDirtyList
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|TabId|GUID|None|`None`|
+
+## Tags
+* etw_level_Always
+* etw_keywords_roaming
+* etw_task_TabRoaming_KeepTabInDirtyList

@@ -1,0 +1,29 @@
+title: Ssh_configs Table
+description: A table of parsed ssh_configs.
+platform: macos
+log_source: osquery
+event_code: ssh_configs
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: The local owner of the ssh_config file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: option
+  type: TEXT
+  description: The option and value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ssh_config_file
+  type: TEXT
+  description: Path to the ssh_config file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ssh_configs
+tags:
+- version_4.4.2

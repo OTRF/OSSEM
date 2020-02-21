@@ -1,0 +1,29 @@
+title: Docker_network_labels Table
+description: Docker network labels.
+platform: linux
+log_source: osquery
+event_code: docker_network_labels
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: TEXT
+  description: Network ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: Label key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: Optional label value
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#docker_network_labels
+tags:
+- version_4.4.2

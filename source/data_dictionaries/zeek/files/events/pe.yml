@@ -1,0 +1,111 @@
+title: PE Log
+description: null
+platform: zeek
+log_source: files
+event_code: pe
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: TBD
+  standard_type: TBD
+  name: fuid
+  type: string
+  description: File id of this portable executable file
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: compile_ts
+  type: date_time
+  description: The time that the file was created at.
+  sample_value: '2017-11-01T07:17:29.000000Z'
+- standard_name: TBD
+  standard_type: TBD
+  name: has_cert_table
+  type: boolean
+  description: Does the file have an attribute certificate table?
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: has_debug_data
+  type: boolean
+  description: Does the file have a debug table?
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: has_import_table
+  type: boolean
+  description: Does the file have an import table?
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: has_export_table
+  type: boolean
+  description: Does the file have an export table?
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: is_64bit
+  type: boolean
+  description: Is the file a 64-bit executable?
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: is_exe
+  type: boolean
+  description: Is the file an executable, or just an object file?
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: machine
+  type: string
+  description: The target machine that the file was compiled for.
+  sample_value: AMD64
+- standard_name: TBD
+  standard_type: TBD
+  name: os
+  type: string
+  description: The required operating system.
+  sample_value: Windows 10
+- standard_name: TBD
+  standard_type: TBD
+  name: section_names
+  type: array_string
+  description: The names of the sections, in order.
+  sample_value: '[ ".text", ".rdata", ".data", ".pdata", ".rsrc", ".reloc", "PAGEdimg",
+    "minATL", ]'
+- standard_name: TBD
+  standard_type: TBD
+  name: subsystem
+  type: string
+  description: The subsystem that is required to run this file.
+  sample_value: WINDOWS_GUI
+- standard_name: TBD
+  standard_type: TBD
+  name: uses_aslr
+  type: boolean
+  description: Does the file support Address Space Layout Randomization
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: uses_code_integrity
+  type: boolean
+  description: Does the file enforce code integrity checks
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: uses_dep
+  type: boolean
+  description: Does the file support Data Execution Prevention
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: uses_seh
+  type: boolean
+  description: Does the file use structured exception handing
+  sample_value: 'true'
+references: []
+tags: []

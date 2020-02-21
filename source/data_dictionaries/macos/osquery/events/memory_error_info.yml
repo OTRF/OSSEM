@@ -1,0 +1,17 @@
+title: Memory_error_info Table
+description: Data associated with errors of a physical memory array.
+platform: macos
+log_source: osquery
+event_code: memory_error_info
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: handle
+  type: ' TEXT'
+  description: Handle, or instance number, associated with the structure
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#memory_error_info
+tags:
+- version_4.4.2

@@ -1,0 +1,73 @@
+title: 'Event ID 4944: The following policy was active when the Windows Firewall started.'
+description: 'Event ID 4944: The following policy was active when the Windows Firewall
+  started.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4944'
+event_fields:
+- standard_name: group_policy_applied
+  standard_type: TBD
+  name: GroupPolicyApplied
+  type: UnicodeString
+  description: 'it always has "No" value for this event. This field should show information
+    about: was Group Policy applied for Windows Firewall when it starts or not.'
+  sample_value: 'No'
+- standard_name: profile
+  standard_type: TBD
+  name: Profile
+  type: UnicodeString
+  description: shows the active profile name for the moment Windows Firewall service
+    starts.
+  sample_value: Public
+- standard_name: operation_mode
+  standard_type: TBD
+  name: OperationMode
+  type: UnicodeString
+  description: On - if "Firewall state:" setting was set to "On" for "Public" profile.
+    Off - if "Firewall state:" setting was set to "Off" for "Public" profile.
+  sample_value: 'Off'
+- standard_name: remote_admin_enabled
+  standard_type: TBD
+  name: RemoteAdminEnabled
+  type: UnicodeString
+  description: 'looks like this setting is connected to "Windows Firewall: Allow remote
+    administration exception" Group Policy setting, but it is always Disabled, no
+    matter which option is set for "Windows Firewall: Allow remote administration
+    exception" Group Policy.'
+  sample_value: Disabled
+- standard_name: multicast_flows_enabled
+  standard_type: TBD
+  name: MulticastFlowsEnabled
+  type: UnicodeString
+  description: Enabled - if "Allow unicast response:" Settings configuration was set
+    to "Yes" for "Public" profile. Disabled - if "Allow unicast response:" Settings
+    configuration was set to "No" for "Public" profile.
+  sample_value: Enabled
+- standard_name: log_dropped_packets_enabled
+  standard_type: TBD
+  name: LogDroppedPacketsEnabled
+  type: UnicodeString
+  description: Enabled - if "Log dropped packets:" Logging configuration was set to
+    "Yes" for "Public" profile. Disabled - if "Log dropped packets:" Logging configuration
+    was set to "No" for "Public" profile.
+  sample_value: Disabled
+- standard_name: log_successful_connections_enabled
+  standard_type: TBD
+  name: LogSuccessfulConnectionsEnabled
+  type: UnicodeString
+  description: Enabled - if "Log successful connections:" Logging configuration was
+    set to "Yes" for "Public" profile. Disabled - if "Log dropped packets:" Logging
+    configuration was set to "No" for "Public" profile.
+  sample_value: Disabled
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4944.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit MPSSVC Rule-Level Policy Change

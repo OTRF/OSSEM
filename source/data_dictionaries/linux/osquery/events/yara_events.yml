@@ -1,0 +1,71 @@
+title: Yara_events Table
+description: Track YARA matches for files specified in configuration data.
+platform: linux
+log_source: osquery
+event_code: yara_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: target_path
+  type: TEXT
+  description: The path scanned
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: category
+  type: TEXT
+  description: The category of the file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: action
+  type: TEXT
+  description: Change action (UPDATE, REMOVE, etc)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: transaction_id
+  type: BIGINT
+  description: ID used during bulk update
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: matches
+  type: TEXT
+  description: List of YARA matches
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: count
+  type: INTEGER
+  description: Number of YARA matches
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: strings
+  type: TEXT
+  description: Matching strings
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tags
+  type: TEXT
+  description: Matching tags
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time of the scan
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#yara_events
+tags:
+- version_4.4.2

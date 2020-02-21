@@ -1,0 +1,94 @@
+title: File Schema
+description: Event fields used to define metadata about files either locally or over
+  the wire.
+data_fields:
+- standard_name: file_name
+  type: string
+  description: name of a file without its full path
+  sample_value: a.exe
+- standard_name: file_path
+  type: string
+  description: full path of a file including the name of the file
+  sample_value: C:\users\wardog\z.exe
+- standard_name: file_extension
+  type: string
+  description: The file extension of a file (.txt, .exe, etc)
+  sample_value: exe
+- standard_name: file_mime_type
+  type: string
+  description: Specifies the MIME type name specified for a file
+  sample_value: application/msword
+- standard_name: file_size
+  type: string
+  description: Specifies the size of a file, in bytes
+  sample_value: '45'
+- standard_name: file_system_block_size
+  type: integer
+  description: Block size of filesystem
+  sample_value: ''
+- standard_name: file_version
+  type: string
+  description: Version of the image loaded
+  sample_value: 10.0.16299.15 (WinBuild.160101.0800)
+- standard_name: file_description
+  type: string
+  description: Description of a file
+  sample_value: Console Window Host
+- standard_name: file_product
+  type: string
+  description: The file's product name
+  sample_value: "Microsoft\xAE Windows\xAE Operating System"
+- standard_name: file_company
+  type: string
+  description: Company name a file belongs to
+  sample_value: Microsoft Corporation
+- standard_name: file_directory
+  type: string
+  description: Directory of file(s). It does not include the file name
+  sample_value: C:\users\wardog\
+- standard_name: file_inode
+  type: integer
+  description: Filesystem inode number
+  sample_value: ''
+- standard_name: file_hard_links
+  type: integer
+  description: Number of hard links
+  sample_value: '3'
+- standard_name: file_symlink
+  type: integer
+  description: 1 if the path is a symlink, otherwise 0
+  sample_value: '0'
+- standard_name: file_symlink_name
+  type: string
+  description: path of the symlink
+  sample_value: C:\Docs\My.exe
+- standard_name: file_link_name
+  type: string
+  description: path of the hard link
+  sample_value: C:\Docs\My.exe
+- standard_name: file_accessed_time
+  type: date
+  description: When the file was last accessed . Also known as `atime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_creation_time
+  type: date
+  description: When the file was created. Also known as `crtime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_changed_time
+  type: date
+  description: When the file was last changed. Also known as `ctime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_modified_time
+  type: date
+  description: When the file was last modified. Also known as `mtime`
+  sample_value: 2016-11-25 18:21:47
+- standard_name: file_previous_name
+  type: string
+  description: The file's previous name
+  sample_value: C:\\Windows\system32\cmd.exe
+- standard_name: file_system_type
+  type: string
+  description: 'The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs'
+  sample_value: ntfs
+references: []
+tags: []
