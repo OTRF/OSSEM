@@ -56,36 +56,9 @@ The project is currently in an alpha stage, which means that the content is stil
 
 * Roberto Rodriguez [@Cyb3rWard0g](https://twitter.com/Cyb3rWard0g)
 
-# Contributors
+# Current Committers
 
 * Jose Luis Rodriguez [@Cyb3rPandaH](https://twitter.com/Cyb3rPandaH)
-* Jared Atkinson [@jaredcatkinson](https://twitter.com/jaredcatkinson)
-
-# Contributing
-
-If you love to work with data and would like to learn more about logs, there are a several ways that you could contribute to this project. You can check the To-do list and let us know what is it that you would love to help with. I also would love get some feedback on the following:
-
-* How feasible is it for your org to switch to the suggested data schema?
-* What do you think will need to happen for your org to start considering this standard?
-* What makes sense and what doesnt from a data naming convention perspective?
-* What data sources do you think the project is missing to cover most of the basics from a security event logs perspective?
-* How easy is it for your or your team to build on the top of this standard schema? (Does the current schema help?)
-* Is this helpful?
-
-Thank you very much in advance :)
-
-# To-Do
-
-- [ ] Define Common Information Model Rules to parse event logs based on the entities defined
-- [ ] Define ATTCK data sources (pending definitions)
-- [ ] Create Dictionary for Sysmon WMI logs
-- [ ] Update Data Objects (Second round)
-- [ ] Update and create object relationships (Updating STIX definitions)
-- [ ] Create Dictionaries for logon_logoff
-- [ ] Create Dictionaries for object_access
-- [ ] Create Dictionaries for policy_change
-- [ ] Create Dictionaries for system
-- [ ] Create Dictionaries for logon_logoff
-- [ ] Create Dictionaries for logon_logoff
-- [ ] Create Dictionaries for OSquery Tables
-- [ ] Create Dictionaries for network logs (Bro,Suricata)
+* Nate Guagenti [@neu5ron](https://twitter.com/neu5ron)
+* Fred Frey [@FryGuy2600](https://twitter.com/FryGuy2600)
+* Ricardo Dias [@hxnoyd](https://twitter.com/hxnoyd)
