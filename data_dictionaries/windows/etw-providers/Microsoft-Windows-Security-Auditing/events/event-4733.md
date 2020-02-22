@@ -1,7 +1,7 @@
 # Event ID 4733: A member was removed from a security-enabled local group
 
 ## Description
-Event ID 4733: A member was removed from a security-enabled local group
+This event generates every time member was removed from security-enabled (security) local group.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

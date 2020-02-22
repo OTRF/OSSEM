@@ -1,7 +1,7 @@
 # Event ID 4913: Central Access Policy on the object was changed.
 
 ## Description
-Event ID 4913: Central Access Policy on the object was changed.
+This event generates when a Central Access Policy on a file system object is changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

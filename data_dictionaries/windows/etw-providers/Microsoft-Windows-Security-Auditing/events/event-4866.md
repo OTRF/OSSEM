@@ -1,7 +1,7 @@
 # Event ID 4866: A trusted forest information entry was removed.
 
 ## Description
-Event ID 4866: A trusted forest information entry was removed.
+This event generates when the trusted forest information entry was removed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

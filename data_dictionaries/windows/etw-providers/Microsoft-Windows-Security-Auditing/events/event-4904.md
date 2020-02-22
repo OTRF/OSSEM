@@ -1,7 +1,7 @@
 # Event ID 4904: An attempt was made to register a security event source.
 
 ## Description
-Event ID 4904: An attempt was made to register a security event source.
+This event generates every time a new security event source.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

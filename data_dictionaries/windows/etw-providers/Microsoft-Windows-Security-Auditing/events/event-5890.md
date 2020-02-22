@@ -1,7 +1,7 @@
 # Event ID 5890: An object was added to the COM+ Catalog.
 
 ## Description
-Event ID 5890: An object was added to the COM+ Catalog.
+This event generates when new object was added to the COM+ Catalog.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

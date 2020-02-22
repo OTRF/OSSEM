@@ -1,7 +1,7 @@
 # Event ID 4726: A user account was deleted
 
 ## Description
-Event ID 4726: A user account was deleted
+This event generates every time user object was deleted. This event generates on domain controllers, member servers, and workstations.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

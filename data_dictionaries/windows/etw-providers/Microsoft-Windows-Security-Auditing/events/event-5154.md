@@ -1,7 +1,7 @@
 # Event ID 5154: The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections
 
 ## Description
-Event ID 5154: The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections
+This event generates every time Windows Filtering Platform permits an application or service to listen on a port.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

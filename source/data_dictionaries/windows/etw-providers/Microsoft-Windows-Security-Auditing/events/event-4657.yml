@@ -1,5 +1,7 @@
 title: Event ID 4657 A registry value was modified
-description: Event ID 4657 A registry value was modified
+description: This event generates when a registry key value was modified. It doesn't
+  generate when a registry key was modified. This event generates only if "Set Value"
+  auditing is set in registry key's SACL.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4657'

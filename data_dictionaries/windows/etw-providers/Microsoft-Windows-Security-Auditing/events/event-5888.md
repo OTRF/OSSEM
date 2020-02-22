@@ -1,7 +1,7 @@
 # Event ID 5888: An object in the COM+ Catalog was modified.
 
 ## Description
-Event ID 5888: An object in the COM+ Catalog was modified.
+This event generates when the object in COM+ Catalog.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

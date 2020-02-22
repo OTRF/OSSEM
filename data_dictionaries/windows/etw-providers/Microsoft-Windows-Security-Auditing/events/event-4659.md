@@ -1,7 +1,7 @@
 # Event ID 4659: A handle to an object was requested with intent to delete
 
 ## Description
-Event ID 4659: A handle to an object was requested with intent to delete
+A handle to an object was requested with intent to delete.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

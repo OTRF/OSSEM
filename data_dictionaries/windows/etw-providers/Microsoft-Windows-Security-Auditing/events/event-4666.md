@@ -1,7 +1,7 @@
 # Event ID 4666: An application attempted an operation
 
 ## Description
-Event ID 4666: An application attempted an operation
+Not available
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

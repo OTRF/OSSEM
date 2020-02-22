@@ -1,7 +1,7 @@
 # Event ID 5632: A request was made to authenticate to a wireless network
 
 ## Description
-Event ID 5632: A request was made to authenticate to a wireless network
+This event generates when 802.1x authentication attempt was made for wireless network.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

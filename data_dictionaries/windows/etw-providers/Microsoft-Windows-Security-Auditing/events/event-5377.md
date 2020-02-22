@@ -1,7 +1,7 @@
 # Event ID 5377: Credential Manager credentials were restored from a backup
 
 ## Description
-Event ID 5377: Credential Manager credentials were restored from a backup
+This event generates every time the user (Subject) successfully restores the credential manager database.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

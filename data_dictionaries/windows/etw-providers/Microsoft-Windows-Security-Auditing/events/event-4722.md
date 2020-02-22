@@ -1,7 +1,7 @@
 # Event ID 4722: A user account was enabled
 
 ## Description
-Event ID 4722: A user account was enabled
+This event generates every time user or computer object is enabled.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

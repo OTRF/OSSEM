@@ -1,7 +1,7 @@
 # Event ID 6420: A device was disabled.
 
 ## Description
-Event ID 6420: A device was disabled.
+This event generates every time specific device was disabled.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

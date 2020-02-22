@@ -1,7 +1,7 @@
 # Event ID 5138: A directory service object was undeleted
 
 ## Description
-Event ID 5138: A directory service object was undeleted
+This event generates every time an Active Directory object is undeleted. It happens, for example, when an Active Directory object was restored from the Active Directory Recycle Bin.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

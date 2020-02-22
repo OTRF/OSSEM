@@ -1,7 +1,7 @@
 # Event ID 4867: A trusted forest information entry was modified.
 
 ## Description
-Event ID 4867: A trusted forest information entry was modified.
+This event generates the trusted forest information entry was modified.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

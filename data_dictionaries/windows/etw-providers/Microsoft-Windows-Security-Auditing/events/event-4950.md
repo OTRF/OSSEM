@@ -1,7 +1,7 @@
 # Event ID 4950: A Windows Firewall setting has changed.
 
 ## Description
-Event ID 4950: A Windows Firewall setting has changed.
+This event generates when Windows Firewall local setting was changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

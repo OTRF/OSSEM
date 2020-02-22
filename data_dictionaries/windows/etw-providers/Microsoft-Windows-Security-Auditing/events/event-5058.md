@@ -1,7 +1,7 @@
 # Event ID 5058: Key file operation.
 
 ## Description
-Event ID 5058: Key file operation.
+This event generates when an operation (read, write, delete, and so on) was performed on a file that contains a KSP key by using a Key Storage Provider.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

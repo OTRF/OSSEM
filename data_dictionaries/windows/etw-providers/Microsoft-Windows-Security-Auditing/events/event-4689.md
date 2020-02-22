@@ -1,7 +1,7 @@
 # Event ID 4689: A process has exited
 
 ## Description
-Event ID 4689: A process has exited
+This event generates every time a process has exited.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

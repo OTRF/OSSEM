@@ -1,7 +1,7 @@
 # Event ID 4741: A computer account was created
 
 ## Description
-Event ID 4741: A computer account was created
+This event generates every time a new computer object is created. This event generates only on domain controllers.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

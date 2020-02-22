@@ -1,7 +1,8 @@
 # Event ID 4758: A security-enabled universal group was deleted
 
 ## Description
-Event ID 4758: A security-enabled universal group was deleted
+Event 4758 is the same as 4734, but it is generated for a universal security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
+Event 4758(S) generates only for domain groups, so the Local sections in event 4734 do not apply.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

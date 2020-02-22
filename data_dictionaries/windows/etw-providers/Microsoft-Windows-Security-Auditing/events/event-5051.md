@@ -1,7 +1,9 @@
 # Event ID 5051: A file was virtualized
 
 ## Description
-Event ID 5051: A file was virtualized
+This event should be generated when file was virtualized using LUAFV.
+This event occurs very rarely during standard LUAFV file virtualization.
+There is no example of this event in this document.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

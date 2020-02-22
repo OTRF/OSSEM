@@ -1,7 +1,7 @@
 # Event ID 4778: A session was reconnected to a Window Station
 
 ## Description
-Event ID 4778: A session was reconnected to a Window Station
+This event is generated when a user reconnects to an existing Terminal Services session, or when a user switches to an existing desktop using Fast User Switching.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

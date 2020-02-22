@@ -1,7 +1,7 @@
 # Event ID 4713: Kerberos policy was changed.
 
 ## Description
-Event ID 4713: Kerberos policy was changed.
+This event generates when Kerberos policy was changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

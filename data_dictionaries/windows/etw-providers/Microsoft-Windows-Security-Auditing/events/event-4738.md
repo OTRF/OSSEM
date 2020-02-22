@@ -1,7 +1,7 @@
 # Event ID 4738: A user account was changed
 
 ## Description
-Event ID 4738: A user account was changed
+This event generates every time user object is changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

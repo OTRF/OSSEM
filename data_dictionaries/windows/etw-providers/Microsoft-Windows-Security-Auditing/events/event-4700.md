@@ -1,7 +1,7 @@
 # Event ID 4700: A scheduled task was enabled
 
 ## Description
-Event ID 4700: A scheduled task was enabled
+This event generates every time a scheduled task is enabled.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

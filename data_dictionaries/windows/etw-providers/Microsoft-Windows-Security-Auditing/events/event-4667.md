@@ -1,7 +1,7 @@
 # Event ID 4667: An application client context was deleted
 
 ## Description
-Event ID 4667: An application client context was deleted
+Not available
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

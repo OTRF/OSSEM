@@ -1,7 +1,7 @@
 # Event ID 4688: A new process has been created
 
 ## Description
-Event ID 4688: A new process has been created
+This event generates every time a new process starts.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

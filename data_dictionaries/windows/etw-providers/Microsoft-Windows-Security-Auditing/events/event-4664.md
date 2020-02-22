@@ -1,7 +1,7 @@
 # Event ID 4664: An attempt was made to create a hard link
 
 ## Description
-Event ID 4664: An attempt was made to create a hard link
+This event generates when an NTFS hard link was successfully created.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

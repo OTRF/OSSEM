@@ -1,7 +1,10 @@
 # Event ID 4614: A notification package has been loaded by the Security Account Manager.
 
 ## Description
-Event ID 4614: A notification package has been loaded by the Security Account Manager.
+This event generates every time a Notification Package has been loaded by the Security Account Manager.
+In reality, starting with Windows Vista, a notification package should be interpreted as afs Password Filter.
+Password Filters are DLLs that are loaded or called when passwords are set or changed.
+Each time a system starts, it loads the notification package DLLs from HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Notification Packages registry value and performs the initialization sequence for every package.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

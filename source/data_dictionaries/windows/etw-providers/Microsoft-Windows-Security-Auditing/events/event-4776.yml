@@ -1,6 +1,8 @@
 title: 'Event ID 4776: The computer attempted to validate the credentials for an account'
-description: 'Event ID 4776: The computer attempted to validate the credentials for
-  an account'
+description: This event generates every time that a credential validation occurs using
+  NTLM authentication.This event occurs only on the computer that is authoritative
+  for the provided credentials. For domain accounts, the domain controller is authoritative.
+  For local accounts, the local computer is authoritative.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4776'

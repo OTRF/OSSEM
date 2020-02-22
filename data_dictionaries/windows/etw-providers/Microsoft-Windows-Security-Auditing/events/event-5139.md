@@ -1,7 +1,7 @@
 # Event ID 5139: A directory service object was moved
 
 ## Description
-Event ID 5139: A directory service object was moved
+This event generates every time an Active Directory object is moved.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

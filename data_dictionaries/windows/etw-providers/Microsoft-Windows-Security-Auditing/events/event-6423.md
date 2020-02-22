@@ -1,7 +1,7 @@
 # Event ID 6423: The installation of this device is forbidden by system policy.
 
 ## Description
-Event ID 6423: The installation of this device is forbidden by system policy.
+This event generates every time installation of this device is forbidden by system policy.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

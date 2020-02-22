@@ -1,7 +1,7 @@
 # Event ID 4691: Indirect access to an object was requested.
 
 ## Description
-Event ID 4691: Indirect access to an object was requested.
+This event indicates that indirect access to an object was requested.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

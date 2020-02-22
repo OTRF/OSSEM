@@ -1,7 +1,7 @@
 # Event ID 4865: A trusted forest information entry was added.
 
 ## Description
-Event ID 4865: A trusted forest information entry was added.
+This event generates when new trusted forest information entry was added.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

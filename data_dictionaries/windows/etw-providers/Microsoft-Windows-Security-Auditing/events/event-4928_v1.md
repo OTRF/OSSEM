@@ -1,7 +1,7 @@
 # Event ID 4928: An Active Directory replica source naming context was established.
 
 ## Description
-Event ID 4928: An Active Directory replica source naming context was established.
+This event generates every time a new Active Directory replica source naming context is established.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 4905: An attempt was made to unregister a security event source.
 
 ## Description
-Event ID 4905: An attempt was made to unregister a security event source.
+This event generates every time a security event source.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

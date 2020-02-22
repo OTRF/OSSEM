@@ -1,7 +1,7 @@
 # Event ID 4697: A service was installed in the system
 
 ## Description
-Event ID 4697: A service was installed in the system
+This event generates when new service was installed in the system.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

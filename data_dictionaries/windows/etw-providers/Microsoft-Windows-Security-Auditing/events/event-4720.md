@@ -1,7 +1,7 @@
 # Event ID 4720: A user account was created
 
 ## Description
-Event ID 4720: A user account was created
+This event generates every time a new user object is created. This event generates on domain controllers, member servers, and workstations.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

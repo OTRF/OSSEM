@@ -1,7 +1,7 @@
 # Event ID 4779: A session was disconnected from a Window Station
 
 ## Description
-Event ID 4779: A session was disconnected from a Window Station
+This event is generated when a user disconnects from an existing Terminal Services session, or when a user switches away from an existing desktop using Fast User Switching.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

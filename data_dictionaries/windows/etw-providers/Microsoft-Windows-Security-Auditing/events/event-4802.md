@@ -1,7 +1,7 @@
 # Event ID 4802: The screen saver was invoked
 
 ## Description
-Event ID 4802: The screen saver was invoked
+This event is generated when screen saver was invoked.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

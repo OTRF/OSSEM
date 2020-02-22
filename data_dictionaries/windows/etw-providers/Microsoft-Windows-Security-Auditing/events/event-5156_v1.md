@@ -1,7 +1,7 @@
 # Event ID 5156: The Windows Filtering Platform has permitted a connection
 
 ## Description
-Event ID 5156: The Windows Filtering Platform has permitted a connection
+This event generates when Windows Filtering Platform has allowed a connection.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

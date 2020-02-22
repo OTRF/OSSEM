@@ -1,7 +1,7 @@
-# Event ID 4764: A group’s type was changed
+# Event ID 4764: A group's type was changed
 
 ## Description
-Event ID 4764: A group’s type was changed
+This event generates every time group's type is changed. This event generates for both security and distribution groups. This event generates only on domain controllers.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

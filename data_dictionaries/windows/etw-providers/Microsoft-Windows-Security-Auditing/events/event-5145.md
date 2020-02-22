@@ -1,7 +1,7 @@
 # Event ID 5145: A network share object was checked to see whether client can be granted desired access.
 
 ## Description
-Event ID 5145: A network share object was checked to see whether client can be granted desired access.
+This event generates every time network share object (file or folder) was accessed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

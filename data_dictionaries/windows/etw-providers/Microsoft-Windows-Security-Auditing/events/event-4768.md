@@ -1,7 +1,7 @@
 # Event ID 4768: A Kerberos authentication ticket (TGT) was requested
 
 ## Description
-Event ID 4768: A Kerberos authentication ticket (TGT) was requested
+This event generates every time Key Distribution Center issues a Kerberos Ticket Granting Ticket (TGT). This event generates only on domain controllers. If TGT issue fails then you will see Failure event with Result Code field not equal to "0x0". This event doesn't generate for Result Codes: 0x10, 0x17 and 0x18. Event "4771: Kerberos pre-authentication failed." generates instead.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

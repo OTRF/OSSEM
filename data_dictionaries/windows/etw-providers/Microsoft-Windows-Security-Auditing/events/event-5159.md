@@ -1,7 +1,7 @@
 # Event ID 5159: The Windows Filtering Platform has blocked a bind to a local port.
 
 ## Description
-Event ID 5159: The Windows Filtering Platform has blocked a bind to a local port.
+This event is logged if the Windows Filtering Platform has blocked a bind to a local port.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

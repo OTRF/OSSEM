@@ -1,7 +1,7 @@
 # Event ID 4775: An account could not be mapped for logon
 
 ## Description
-Event ID 4775: An account could not be mapped for logon
+Not available
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

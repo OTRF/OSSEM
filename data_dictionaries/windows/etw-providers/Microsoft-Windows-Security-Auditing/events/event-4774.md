@@ -1,7 +1,7 @@
 # Event ID 4774: An account was mapped for logon
 
 ## Description
-Event ID 4774: An account was mapped for logon
+Not available
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

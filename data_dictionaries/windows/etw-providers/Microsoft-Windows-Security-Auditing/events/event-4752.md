@@ -1,7 +1,7 @@
 # Event ID 4752: A member was removed from a security-disabled global group
 
 ## Description
-Event ID 4752: A member was removed from a security-disabled global group
+This event generates every time member was removed from the security-disabled (distribution) global group. This event generates only on domain controllers. For every removed member you will get separate 4752 event.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

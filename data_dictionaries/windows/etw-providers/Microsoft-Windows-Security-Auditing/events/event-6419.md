@@ -1,7 +1,7 @@
 # Event ID 6419: A request was made to disable a device.
 
 ## Description
-Event ID 6419: A request was made to disable a device.
+This event generates every time when someone made a request to disable a device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

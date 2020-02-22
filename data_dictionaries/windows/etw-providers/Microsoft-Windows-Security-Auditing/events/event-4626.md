@@ -1,7 +1,7 @@
 # Event ID 4626: User/Device claims information
 
 ## Description
-Event ID 4626: User/Device claims information
+This event generates for new account logons and contains user/device claims which were associated with a new logon session.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

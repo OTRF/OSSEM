@@ -1,7 +1,7 @@
 # Event ID 5059: Key migration operation.
 
 ## Description
-Event ID 5059: Key migration operation.
+This event generates when a cryptographic key is exported or imported using a Key Storage Provider.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

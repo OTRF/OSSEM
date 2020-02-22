@@ -1,7 +1,7 @@
 # Event ID 4705: A user right was removed.
 
 ## Description
-Event ID 4705: A user right was removed.
+This event generates every time local user right policy is changed and user right was removed from an account.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

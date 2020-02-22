@@ -1,7 +1,7 @@
 # Event ID 4670: Permissions on an object were changed
 
 ## Description
-Event ID 4670: Permissions on an object were changed
+This event generates when the permissions for an object are changed. The object could be a file system, registry, or security token object.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

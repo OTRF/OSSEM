@@ -1,7 +1,8 @@
 # Event ID 4754: A security-enabled universal group was created
 
 ## Description
-Event ID 4754: A security-enabled universal group was created
+Event 4754 is the same as 4731, but it is generated for a universal security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
+Event 4754(S) generates only for domain groups, so the Local sections in event 4731 do not apply.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

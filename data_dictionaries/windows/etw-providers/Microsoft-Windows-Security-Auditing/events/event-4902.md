@@ -1,7 +1,7 @@
 # Event ID 4902: The Per-user audit policy table was created.
 
 ## Description
-Event ID 4902: The Per-user audit policy table was created.
+This event generates during system startup if Per-user audit policy is defined on the computer.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

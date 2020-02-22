@@ -1,7 +1,7 @@
 # Event ID 4953: Windows Firewall ignored a rule because it could not be parsed.
 
 ## Description
-Event ID 4953: Windows Firewall ignored a rule because it could not be parsed.
+This event generates if Windows Firewall was not able to parse Windows Firewall rule for some reason.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

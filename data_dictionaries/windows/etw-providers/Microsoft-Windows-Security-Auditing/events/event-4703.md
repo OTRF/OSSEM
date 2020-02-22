@@ -1,7 +1,7 @@
 # Event ID 4703: A user right was adjusted.
 
 ## Description
-Event ID 4703: A user right was adjusted.
+This event generates when token privileges.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 4704: A user right was assigned.
 
 ## Description
-Event ID 4704: A user right was assigned.
+This event generates every time local user right policy is changed and user right was assigned to an account.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

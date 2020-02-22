@@ -1,7 +1,8 @@
 # Event ID 4737: A security-enabled global group was changed
 
 ## Description
-Event ID 4737: A security-enabled global group was changed
+Event 4737 is the same as 4735, but it is generated for a global security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
+Event 4737(S) generates only for domain groups, so the Local sections in event 4735 do not apply.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

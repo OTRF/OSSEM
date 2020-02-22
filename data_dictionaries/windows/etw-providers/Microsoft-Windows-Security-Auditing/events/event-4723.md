@@ -1,7 +1,7 @@
 # Event ID 4723: An attempt was made to change an account's password
 
 ## Description
-Event ID 4723: An attempt was made to change an account's password
+This event generates every time a user attempts to change his or her password.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

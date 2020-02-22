@@ -1,7 +1,7 @@
 # Event ID 4662: An operation was performed on an object
 
 ## Description
-Event ID 4662: An operation was performed on an object
+This event generates every time when an operation was performed on an Active Directory object. This event generates only if appropriate SACL was set for Active Directory object and performed operation meets this SACL. If operation failed then Failure event will be generated. You will get one 4662 for each operation type which was performed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 4750: A security-disabled global group was changed
 
 ## Description
-Event ID 4750: A security-disabled global group was changed
+This event generates every time security-disabled (distribution) global group is changed.This event generates only on domain controllers.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
