@@ -1,7 +1,7 @@
 # Event ID 5447: A Windows Filtering Platform filter has been changed.
 
 ## Description
-Event ID 5447: A Windows Filtering Platform filter has been changed.
+This event generates every time a Windows Filtering Platform.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

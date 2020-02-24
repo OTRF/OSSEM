@@ -1,7 +1,7 @@
 # Event ID 4769: A Kerberos service ticket was requested
 
 ## Description
-Event ID 4769: A Kerberos service ticket was requested
+This event generates every time Key Distribution Center gets a Kerberos Ticket Granting Service (TGS) ticket request. This event generates only on domain controllers. If TGS issue fails then you will see Failure event with Failure Code field not equal to "0x0". You will typically see many Failure events with Failure Code "0x20", which simply means that a TGS ticket has expired. These are informational messages and have little to no security relevance.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

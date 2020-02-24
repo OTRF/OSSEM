@@ -1,7 +1,7 @@
 # Event ID 4648: A logon was attempted using explicit credentials
 
 ## Description
-Event ID 4648: A logon was attempted using explicit credentials
+This event is generated when a process attempts an account logon by explicitly specifying that account's credentials.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

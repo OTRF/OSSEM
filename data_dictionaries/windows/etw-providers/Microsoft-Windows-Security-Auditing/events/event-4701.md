@@ -1,7 +1,7 @@
 # Event ID 4701: A scheduled task was disabled
 
 ## Description
-Event ID 4701: A scheduled task was disabled
+This event generates every time a scheduled task is disabled.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

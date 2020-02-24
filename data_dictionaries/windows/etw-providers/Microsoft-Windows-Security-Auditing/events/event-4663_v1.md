@@ -1,7 +1,7 @@
 # Event ID 4663: An attempt was made to access an object
 
 ## Description
-Event ID 4663: An attempt was made to access an object
+This event indicates that a specific operation was performed on an object. The object could be a file system, kernel, or registry object, or a file system object on removable storage or a device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

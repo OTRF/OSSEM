@@ -1,7 +1,7 @@
 # Event ID 5061: Cryptographic operation.
 
 ## Description
-Event ID 5061: Cryptographic operation.
+This event generates when a cryptographic operation (open key, create key, create key, and so on) was performed using a Key Storage Provider.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

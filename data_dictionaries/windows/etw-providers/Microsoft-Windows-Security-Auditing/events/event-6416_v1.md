@@ -1,7 +1,7 @@
 # Event ID 6416: A new external device was recognized by the System.
 
 ## Description
-Event ID 6416: A new external device was recognized by the System.
+This event generates every time a new external device is recognized by a system.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

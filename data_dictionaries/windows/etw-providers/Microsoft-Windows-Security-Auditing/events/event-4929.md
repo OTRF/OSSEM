@@ -1,7 +1,7 @@
 # Event ID 4929: An Active Directory replica source naming context was removed.
 
 ## Description
-Event ID 4929: An Active Directory replica source naming context was removed.
+This event generates every time Active Directory replica source naming context was removed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

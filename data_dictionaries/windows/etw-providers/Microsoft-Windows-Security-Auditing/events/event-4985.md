@@ -1,7 +1,7 @@
 # Event ID 4985: The state of a transaction has changed
 
 ## Description
-Event ID 4985: The state of a transaction has changed
+This is an informational event from file system Transaction Manager.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

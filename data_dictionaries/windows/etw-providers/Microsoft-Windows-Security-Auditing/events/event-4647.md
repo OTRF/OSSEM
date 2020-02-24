@@ -1,7 +1,7 @@
 # Event ID 4647: User initiated logoff
 
 ## Description
-Event ID 4647: User initiated logoff
+This event is generated when a logoff is initiated. No further user-initiated activity can occur. This event can be interpreted as a logoff event.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

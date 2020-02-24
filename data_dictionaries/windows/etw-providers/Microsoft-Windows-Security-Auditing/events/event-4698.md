@@ -1,7 +1,7 @@
 # Event ID 4698: A scheduled task was created
 
 ## Description
-Event ID 4698: A scheduled task was created
+This event generates every time a new scheduled task is created.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

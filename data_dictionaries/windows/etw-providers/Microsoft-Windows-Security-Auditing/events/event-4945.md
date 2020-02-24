@@ -1,7 +1,7 @@
 # Event ID 4945: A rule was listed when the Windows Firewall started.
 
 ## Description
-Event ID 4945: A rule was listed when the Windows Firewall started.
+This event generates every time Windows Firewall service starts.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

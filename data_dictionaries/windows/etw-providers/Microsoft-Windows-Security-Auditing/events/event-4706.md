@@ -1,7 +1,7 @@
 # Event ID 4706: A new trust was created to a domain.
 
 ## Description
-Event ID 4706: A new trust was created to a domain.
+This event generates when a new trust was created to a domain.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

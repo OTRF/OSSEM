@@ -1,7 +1,7 @@
 # Event ID 5140: A network share object was accessed
 
 ## Description
-Event ID 5140: A network share object was accessed
+This event generates every time network share object was accessed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

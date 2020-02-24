@@ -1,7 +1,7 @@
 # Event ID 4740: A user account was locked out
 
 ## Description
-Event ID 4740: A user account was locked out
+This event generates every time a user account is locked out. For user accounts, this event generates on domain controllers, member servers, and workstations.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

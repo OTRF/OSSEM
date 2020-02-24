@@ -1,7 +1,7 @@
 # Event ID 6421: A request was made to enable a device.
 
 ## Description
-Event ID 6421: A request was made to enable a device.
+This event generates every time when someone made a request to enable a device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

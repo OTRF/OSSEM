@@ -1,5 +1,10 @@
 title: 'Event ID 4755: A security-enabled universal group was changed'
-description: 'Event ID 4755: A security-enabled universal group was changed'
+description: 'Event 4737 is the same as 4735, but it is generated for a universal
+  security group instead of a local security group. All event fields, XML, and recommendations
+  are the same. The type of group is the only difference.
+
+  Event 4755(S) generates only for domain groups, so the Local sections in event 4735
+  do not apply.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4755'

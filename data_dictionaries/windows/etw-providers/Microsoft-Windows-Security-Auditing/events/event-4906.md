@@ -1,7 +1,7 @@
 # Event ID 4906: The CrashOnAuditFail value has changed.
 
 ## Description
-Event ID 4906: The CrashOnAuditFail value has changed.
+This event generates every time CrashOnAuditFail audit flag value was modified.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

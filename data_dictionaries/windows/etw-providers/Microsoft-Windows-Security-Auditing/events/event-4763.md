@@ -1,7 +1,7 @@
 # Event ID 4763: A security-disabled universal group was deleted
 
 ## Description
-Event ID 4763: A security-disabled universal group was deleted
+Event 4763 is the same as 4753, except it is generated for a universal distribution group instead of a global distribution group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

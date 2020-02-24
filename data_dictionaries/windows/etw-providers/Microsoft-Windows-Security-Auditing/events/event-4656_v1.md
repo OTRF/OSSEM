@@ -1,7 +1,7 @@
 # Event ID 4656: A handle to an object was requested
 
 ## Description
-Event ID 4656: A handle to an object was requested
+This event indicates that specific access was requested for an object. The object could be a file system, kernel, or registry object, or a file system object on removable storage or a device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

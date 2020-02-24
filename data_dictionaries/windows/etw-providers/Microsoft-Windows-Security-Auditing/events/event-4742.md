@@ -1,7 +1,7 @@
 # Event ID 4742: A computer account was changed
 
 ## Description
-Event ID 4742: A computer account was changed
+This event generates every time a computer object is changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

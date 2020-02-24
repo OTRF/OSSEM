@@ -1,7 +1,7 @@
 # Event ID 4931: An Active Directory replica destination naming context was modified.
 
 ## Description
-Event ID 4931: An Active Directory replica destination naming context was modified.
+This event generates every time Active Directory replica destination naming context was modified.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 4933: Synchronization of a replica of an Active Directory naming context has begun
 
 ## Description
-Event ID 4933: Synchronization of a replica of an Active Directory naming context has begun
+This event generates every time synchronization of a replica of an Active Directory naming context has ended. Failure event occurs when synchronization of a replica of an Active Directory naming context failed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

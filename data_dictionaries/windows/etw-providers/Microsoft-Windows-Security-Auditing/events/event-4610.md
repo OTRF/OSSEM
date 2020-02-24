@@ -1,7 +1,8 @@
 # Event ID 4610: An authentication package has been loaded by the Local Security Authority.
 
 ## Description
-Event ID 4610: An authentication package has been loaded by the Local Security Authority.
+This event generates every time Authentication Package has been loaded by the Local Security Authority (LSA).
+Each time the system starts, the LSA loads the Authentication Package DLLs from HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Authentication Packages registry value and performs the initialization sequence for every package located in these DLLs.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,7 @@
 # Event ID 4715: The audit policy (SACL) on an object was changed.
 
 ## Description
-Event ID 4715: The audit policy (SACL) on an object was changed.
+This event generates every time local audit policy security descriptor changes.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

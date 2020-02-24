@@ -1,7 +1,7 @@
 # Event ID 4724: An attempt was made to reset an account's password
 
 ## Description
-Event ID 4724: An attempt was made to reset an account's password
+This event generates every time an account attempted to reset the password for another account.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

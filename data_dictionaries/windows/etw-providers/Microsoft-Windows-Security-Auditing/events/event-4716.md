@@ -1,7 +1,7 @@
 # Event ID 4716: Trusted domain information was modified.
 
 ## Description
-Event ID 4716: Trusted domain information was modified.
+This event generates when the trust was modified.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

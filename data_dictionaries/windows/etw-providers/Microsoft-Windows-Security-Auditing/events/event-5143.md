@@ -1,7 +1,7 @@
 # Event ID 5143: A network share object was modified
 
 ## Description
-Event ID 5143: A network share object was modified
+This event generates every time network share object was modified.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

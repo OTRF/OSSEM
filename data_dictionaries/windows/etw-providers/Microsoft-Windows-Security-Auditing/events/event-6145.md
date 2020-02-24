@@ -1,7 +1,7 @@
 # Event ID 6145: One or more errors occurred while processing security policy in the group policy objects.
 
 ## Description
-Event ID 6145: One or more errors occurred while processing security policy in the group policy objects.
+This event generates every time settings from the "Security Settings" section in the group policy object are applied to a computer with one or more errors.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

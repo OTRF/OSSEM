@@ -1,7 +1,7 @@
 # Event ID 4658: The handle to an object was closed
 
 ## Description
-Event ID 4658: The handle to an object was closed
+This event generates when the handle to an object is closed. The object could be a file system, kernel, or registry object, or a file system object on removable storage or a device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

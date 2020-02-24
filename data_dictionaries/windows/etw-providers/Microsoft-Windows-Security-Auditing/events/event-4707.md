@@ -1,7 +1,7 @@
 # Event ID 4707: A trust to a domain was removed.
 
 ## Description
-Event ID 4707: A trust to a domain was removed.
+This event generates when a domain trust was removed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

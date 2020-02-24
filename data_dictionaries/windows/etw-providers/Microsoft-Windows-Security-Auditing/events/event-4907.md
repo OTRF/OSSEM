@@ -1,7 +1,7 @@
 # Event ID 4907: Auditing settings on object were changed.
 
 ## Description
-Event ID 4907: Auditing settings on object were changed.
+This event generates when a Security Descriptor (SD) on an object was changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

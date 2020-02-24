@@ -1,7 +1,7 @@
 # Event ID 4634: An account was logged off
 
 ## Description
-Event ID 4634: An account was logged off
+This event shows that logon session was terminated and no longer exists.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

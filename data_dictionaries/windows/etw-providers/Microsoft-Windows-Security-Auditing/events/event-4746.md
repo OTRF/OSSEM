@@ -1,7 +1,7 @@
 # Event ID 4746: A member was added to a security-disabled local group
 
 ## Description
-Event ID 4746: A member was added to a security-disabled local group
+Event 4746 is the same as 4751, except it is generated for a local distribution group instead of a global distribution group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

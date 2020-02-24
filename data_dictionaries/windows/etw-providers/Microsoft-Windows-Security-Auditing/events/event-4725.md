@@ -1,7 +1,7 @@
 # Event ID 4725: A user account was disabled
 
 ## Description
-Event ID 4725: A user account was disabled
+This event generates every time user or computer object is disabled.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

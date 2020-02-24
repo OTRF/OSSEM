@@ -1,7 +1,7 @@
 # Event ID 5142: A network share object was added
 
 ## Description
-Event ID 5142: A network share object was added
+This event generates every time network share object was accessed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

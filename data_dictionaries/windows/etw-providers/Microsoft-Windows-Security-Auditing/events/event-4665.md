@@ -1,7 +1,7 @@
 # Event ID 4665: An attempt was made to create an application client context
 
 ## Description
-Event ID 4665: An attempt was made to create an application client context
+Not available
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

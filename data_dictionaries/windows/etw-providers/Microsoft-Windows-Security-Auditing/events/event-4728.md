@@ -1,7 +1,8 @@
 # Event ID 4728: A member was added to a security-enabled global group.
 
 ## Description
-Event ID 4728: A member was added to a security-enabled global group.
+Event 4728 is the same as 4732, but it is generated for a global security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
+Event 4728(S) generates only for domain groups, so the Local sections in event 4732 do not apply.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

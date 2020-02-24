@@ -1,7 +1,7 @@
 # Event ID 6422: A device was enabled.
 
 ## Description
-Event ID 6422: A device was enabled.
+This event generates every time specific device was enabled.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

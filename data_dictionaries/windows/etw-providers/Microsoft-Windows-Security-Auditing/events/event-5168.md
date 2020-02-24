@@ -1,7 +1,7 @@
 # Event ID 5168: SPN check for SMB/SMB2 failed
 
 ## Description
-Event ID 5168: SPN check for SMB/SMB2 failed
+This event generates when SMB SPN check fails.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

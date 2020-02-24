@@ -1,7 +1,7 @@
 # Event ID 4930: An Active Directory replica source naming context was modified.
 
 ## Description
-Event ID 4930: An Active Directory replica source naming context was modified.
+This event generates every time Active Directory replica source naming context was modified.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

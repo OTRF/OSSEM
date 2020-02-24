@@ -1,7 +1,7 @@
 # Event ID 4957: Windows Firewall did not apply the following rule.
 
 ## Description
-Event ID 4957: Windows Firewall did not apply the following rule.
+This event generates when Windows Firewall starts or apply new rule, and the rule cannot be applied for some reason.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

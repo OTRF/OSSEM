@@ -1,7 +1,7 @@
 # Event ID 4801: The workstation was unlocked
 
 ## Description
-Event ID 4801: The workstation was unlocked
+This event is generated when workstation was unlocked.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

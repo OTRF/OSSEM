@@ -1,7 +1,7 @@
 # Event ID 4616: The system time was changed.
 
 ## Description
-Event ID 4616: The system time was changed.
+This event generates every time system time was changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

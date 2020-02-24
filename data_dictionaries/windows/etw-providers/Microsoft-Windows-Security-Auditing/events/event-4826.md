@@ -1,7 +1,7 @@
 # Event ID 4826: Boot Configuration Data loaded.
 
 ## Description
-Event ID 4826: Boot Configuration Data loaded.
+This event generates every time system starts and load current Boot Configuration Data.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

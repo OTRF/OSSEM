@@ -1,7 +1,7 @@
 # Event ID 4798: A user's local group membership was enumerated
 
 ## Description
-Event ID 4798: A user's local group membership was enumerated
+This event generates when a process enumerates a user's security-enabled local groups on a computer or device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

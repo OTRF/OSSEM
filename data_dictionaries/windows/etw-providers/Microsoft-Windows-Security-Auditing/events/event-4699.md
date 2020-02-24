@@ -1,7 +1,7 @@
 # Event ID 4699: A scheduled task was deleted
 
 ## Description
-Event ID 4699: A scheduled task was deleted
+This event generates every time a scheduled task was deleted.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

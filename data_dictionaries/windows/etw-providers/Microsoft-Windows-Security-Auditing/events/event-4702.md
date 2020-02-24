@@ -1,7 +1,7 @@
 # Event ID 4702: A scheduled task was updated
 
 ## Description
-Event ID 4702: A scheduled task was updated
+This event generates every time scheduled task was updated/changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

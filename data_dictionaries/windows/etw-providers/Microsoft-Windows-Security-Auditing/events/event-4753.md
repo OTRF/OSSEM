@@ -1,7 +1,7 @@
 # Event ID 4753: A security-disabled global group was deleted
 
 ## Description
-Event ID 4753: A security-disabled global group was deleted
+This event generates every time security-disabled (distribution) global group is deleted. This event generates only on domain controllers.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

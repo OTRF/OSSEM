@@ -1,5 +1,8 @@
 title: 'Event ID 4661: A handle to an object was requested'
-description: 'Event ID 4661: A handle to an object was requested'
+description: This event indicates that a handle was requested for either an Active
+  Directory object or a Security Account Manager (SAM) object. If access was declined,
+  then Failure event is generated. This event generates only if Success auditing is
+  enabled for the Audit Handle Manipulation subcategory.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4661'

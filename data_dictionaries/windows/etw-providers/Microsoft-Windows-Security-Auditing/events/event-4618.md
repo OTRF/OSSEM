@@ -1,7 +1,7 @@
 # Event ID 4618: A monitored security event pattern has occurred.
 
 ## Description
-Event ID 4618: A monitored security event pattern has occurred.
+This event is generated when Windows is configured to generate alerts in accordance with the Common Criteria Security Audit Analysis requirements (FAU_SAA) and an auditable event pattern occurs.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

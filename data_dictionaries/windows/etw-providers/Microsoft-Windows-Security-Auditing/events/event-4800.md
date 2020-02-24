@@ -1,7 +1,7 @@
 # Event ID 4800: The workstation was locked
 
 ## Description
-Event ID 4800: The workstation was locked
+This event is generated when a workstation was locked.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

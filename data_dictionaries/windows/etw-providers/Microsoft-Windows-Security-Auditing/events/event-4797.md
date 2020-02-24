@@ -1,7 +1,7 @@
 # Event ID 4797: An attempt was made to query the existence of a blank password for an account.
 
 ## Description
-Event ID 4797: An attempt was made to query the existence of a blank password for an account.
+This event generates when a process enumerates a blank password for an account.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

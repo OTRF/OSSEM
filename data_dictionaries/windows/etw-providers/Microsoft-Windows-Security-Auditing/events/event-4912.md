@@ -1,7 +1,7 @@
 # Event ID 4912: Per User Audit Policy was changed.
 
 ## Description
-Event ID 4912: Per User Audit Policy was changed.
+This event generates every time Per User Audit Policy was changed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

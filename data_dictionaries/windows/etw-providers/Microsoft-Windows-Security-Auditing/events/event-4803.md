@@ -1,7 +1,7 @@
 # Event ID 4803: The screen saver was dismissed
 
 ## Description
-Event ID 4803: The screen saver was dismissed
+This event is generated when screen saver was dismissed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

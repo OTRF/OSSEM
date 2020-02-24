@@ -1,7 +1,7 @@
 # Event ID 4732: A member was added to a security-enabled local group
 
 ## Description
-Event ID 4732: A member was added to a security-enabled local group
+This event generates every time a new member was added to a security-enabled (security) local group.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

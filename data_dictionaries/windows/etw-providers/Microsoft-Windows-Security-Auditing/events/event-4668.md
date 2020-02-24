@@ -1,7 +1,7 @@
 # Event ID 4668: An application was initialized
 
 ## Description
-Event ID 4668: An application was initialized
+Not available
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

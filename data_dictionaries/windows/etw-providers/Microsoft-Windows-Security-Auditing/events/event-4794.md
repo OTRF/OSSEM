@@ -1,7 +1,7 @@
 # Event ID 4794: An attempt was made to set the Directory Services Restore Mode administrator password
 
 ## Description
-Event ID 4794: An attempt was made to set the Directory Services Restore Mode administrator password
+This event generates every time Directory Services Restore Mode (DSRM) administrator password is changed. This event generates only on domain controllers.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

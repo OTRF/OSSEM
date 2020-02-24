@@ -1,7 +1,7 @@
 # Event ID 4627: Group membership information
 
 ## Description
-Event ID 4627: Group membership information
+This event generates with "4624(S): An account was successfully logged on" and shows the list of groups that the logged-on account belongs to.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

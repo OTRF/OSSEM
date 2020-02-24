@@ -1,7 +1,7 @@
 # Event ID 4739: Domain Policy was changed.
 
 ## Description
-Event ID 4739: Domain Policy was changed.
+This event generates when one of the following changes was made to local computer security policy: Computer's "\Security Settings\Account Policies\Account Lockout Policy" settings were modified. Computer's "\Security Settings\Account Policies\Password Policy" settings were modified. "Network security: Force logoff when logon hours expire" group policy setting was changed. Domain functional level was changed or some other attributes changed (see details in event description).
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

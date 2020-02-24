@@ -1,7 +1,7 @@
 # Event ID 4747: A member was removed from a security-disabled local group
 
 ## Description
-Event ID 4747: A member was removed from a security-disabled local group
+Event 4747 is the same as 4752, except it is generated for a local distribution group instead of a global distribution group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
