@@ -1,0 +1,221 @@
+title: Cloudtrail
+description: AWS CloudTrail Log format common schema
+platform: aws
+log_source: cloudtrail
+event_fields:
+- standard_name: TBD 
+  standard_type: TBD 
+  name: eventTime 
+  type: datetime 
+  description: The date and time request was made, in coordinated universal time(UTC). 
+  sample_value: "2020-03-17T06: 07: 08Z"
+- standard_name: TBD 
+  standard_type: TBD 
+  name: eventVersion 
+  type: string 
+  description: The version of the log format. 
+  sample_value: 1.05
+- standard_name: TBD 
+  standard_type: TBD 
+  name: userIdentity 
+  type: string 
+  description: | 
+    information about the user that made a request. 
+    See [CloudTrail User Identity Element](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-user-identity.html)
+  sample_value: |
+    {
+      "type":  "Root",
+      "principalId":"123456789012",
+      "arn": "arn: aws: iam: : 123456789012: root",
+      "accountId":"123456789012",
+      "accessKeyId":"ASIA3WIKNJYLTIU3WTFN",
+      "sessionContext":
+      {
+        "sessionIssuer":{},
+        "webIdFederationData":{},
+        "attributes":
+        {
+          "mfaAuthenticated":"false","creationDate": "2020-03-17T04: 51: 58Z"
+        }
+      }
+    }
+- standard_name: TBD 
+  standard_type: TBD 
+  name: eventSource 
+  type: string 
+  description: The service that the request was made to. name is typically short form of the service name without spaces. 
+  sample_value: ec2.amazonaws.com
+- standard_name: TBD 
+  standard_type: TBD 
+  name: eventName 
+  type: string 
+  description: The requested action, which is one of the actions in the API for that service. 
+  sample_value: CreateFlowLogs
+- standard_name: TBD 
+  standard_type: TBD 
+  name: awsRegion 
+  type: string 
+  description: |
+    The AWS region that the request was made to.
+    See [CloudTrail Supported Regions](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html)
+  sample_value: us-east-2
+- standard_name: TBD 
+  standard_type: TBD 
+  name: sourceIPAddress 
+  type: string 
+  description: The IP address that the request was made from.For AWS services, DNS name is displayed. 
+  sample_value: 123.123.123.123
+- standard_name: TBD 
+  standard_type: TBD 
+  name: userAgent 
+  type: string 
+  description: The agent through which the request was made, such as AWS management console,AWS service, AWS SDK or AWS CLI. 
+  sample_value: signin.amazonaws.com
+- standard_name: TBD 
+  standard_type: TBD 
+  name: errorCode 
+  type: string 
+  description: The AWS service error id the request returns an error 
+  sample_value: TrailNotFoundException
+- standard_name: TBD 
+  standard_type: TBD 
+  name: errorMessage 
+  type: string 
+  description: if the request returns an error, the 
+  description: of the error.This message includes the message for authorization failures.
+  sample_value: "Unknown trail: myTrail2 for the user: 123456789012"
+- standard_name: TBD 
+  standard_type: TBD 
+  name: requestParameters 
+  type: string 
+  description: The parameters,if any,that were sent with the request.These parameters are documented in the API reference documentation for respective AWS service. 
+  sample_value: | 
+    {
+      "CreateFlowLogsRequest":  
+      {
+        "ResourceId":  
+        {
+          "tag":  1, "content":  "vpc-12345678"
+        }, 
+          "MaxAggregationInterval":  600, 
+          "ResourceType":  "VPC", 
+          "LogDestination": "arn: aws: s3: : : vpc-logs-for-hunting", 
+          "LogDestinationType":  "s3", 
+          "TrafficType":  "ACCEPT"
+      }
+    }
+- standard_name: TBD 
+  standard_type: TBD 
+  name: responseElements 
+  type: string 
+  description: The response element for actions that make changes(create,update,or delete actions).If action does not change(e.g.get or list) this element is ommitted. 
+  sample_value: |
+    {
+      "CreateFlowLogsResponse":  
+      {
+        "xmlns":  "http: //ec2.amazonaws.com/doc/2016-11-15/",
+        "requestId":  "2ee6fecc-8287-4a68-ba2d-21b666d6cbb0",
+        "clientToken":  "ABCDexKLX8mMDT/7aganQUywyjkJG8bu3enkYDTW+vY=",
+        "unsuccessful":  "",
+        "flowLogIdSet":  
+        {
+          "item":  "fl-01c931a7296ed28c9"
+        }
+      }
+    }
+- standard_name: TBD 
+  standard_type: TBD 
+  name: additionalEventData 
+  type: string 
+  description: Additional data about the event that was not part of the request or response. 
+  sample_value: TBD
+- standard_name: TBD 
+  standard_type: TBD 
+  name: requestID 
+  type: string 
+  description: The value that identifies the request.The service being called generates this value. 
+  sample_value: 2ee6fecc-8287-4a68-ba2d-21b666d6cbb0
+- standard_name: TBD 
+  standard_type: TBD 
+  name: eventID 
+  type: string 
+  description: GUID generatedby CloudTrail to uniquely identify each event. 
+  sample_value: 39cdc1e3-f9bf-4084-ba12-ca71b47ee6ee
+- standard_name: TBD 
+  standard_type: TBD 
+  name: eventType 
+  type: string 
+  description: Identifies the type of event that generated the event record. 
+  sample_value: AwsApiCall
+- standard_name: TBD 
+  standard_type: TBD 
+  name: apiVersion 
+  type: string 
+  description: Identifies the API version associated with the AwsApiCall eventType value. 
+  sample_value: TBD
+- standard_name: TBD 
+  standard_type: TBD 
+  name: managementEvent 
+  type: bool 
+  description: | 
+    "A Boolean value that identifies whether the event is a management event. 
+    It is shown if eventversion is 1.06 or higher.and eventtype if one of the following: 
+    AwsApiCall, AwsConsoleAction, AwsConsoleSignIn, AwsServiceEvent "
+  sample_value: TRUE
+- standard_name: TBD 
+  standard_type: TBD 
+  name: readOnly 
+  type: bool 
+  description: | 
+    Identifies whether this operation is a read-only operation.
+    This can be one of following values. true(e.g.DescribeTrails), false(e.g.DeleteTrail) 
+  sample_value: TRUE
+- standard_name: TBD 
+  standard_type: TBD 
+  name: resources 
+  type: string 
+  description: "A list of resources accessed in the event.The format-AWS: : aws-serivce-name: data-type-name. "
+  sample_value: "arn: aws: iam: : 123456789012: role/myRole"
+- standard_name: TBD 
+  standard_type: TBD 
+  name: recipientAccountId 
+  type: string 
+  description: | 
+    Represents the account ID that received this event.for cross account access, 
+    this may be different than userIdentity element AccountID. 
+  sample_value: 123456789012
+- standard_name: TBD 
+  standard_type: TBD 
+  name: serviceEventDetails 
+  type: string 
+  description: |
+    "Identifies the service event,including what triggered the evnet and the result. 
+    See [AWS Service Events](https: //docs.aws.amazon.com/awscloudtrail/latest/userguide/non-api-aws-service-events.html)"
+  sample_value: |
+    {
+      "keyId":  "7944f0ec-EXAMPLE"
+    }
+- standard_name: TBD 
+  standard_type: TBD 
+  name: sharedEventID 
+  type: string 
+  description: |
+    "GUID generated by CloudTrail to uniquely identify CloudTrail events from the same AWS action 
+    that is sent to different AWS accounts. 
+    See [SharedEventID Example](https: //docs.aws.amazon.com/awscloudtrail/latest/userguide/shared-event-ID.html)"
+  sample_value: 2b5e7544-b7c7-46bf-993b-4a24b1d78904
+- standard_name: TBD 
+  standard_type: TBD 
+  name: vpcEndpointId 
+  type: string 
+  description: Identifies the VPC endpoint in which requests were made from a VPC to another AWS service,such as Amazon s3. 
+  sample_value: vpce-0f89a33420c1931d7
+references:
+  - text: Cloudtrail Log Event Reference
+    link: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference.html
+  - text: Cloudtrail Log Schema Fields
+    link: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-record-contents.html
+  - text: Cloudtrail Supported Services and Integrations
+    link: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-aws-service-specific-topics.html#cloudtrail-aws-service-specific-topics-organizations
+tags:
+  - version_1.05
