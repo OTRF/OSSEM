@@ -1,0 +1,180 @@
+title: S3 Server Access Logs
+description: S3 Server Access Log format common schema.
+platform: aws
+log_source: s3_server_access_log
+event_fields:
+- standard_name: TBD 
+  standard_type: TBD
+  name: Bucket Owner
+  type: string
+  description: |
+    The canonical user ID of the source bucket. 
+    For more information, see [AWS Account Identifiers](https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html) 
+    and [Finding Your Account Canonical UserID](https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingCanonicalId)
+  sample_value: `79a59df900b949e55d96a1e698fbacedfd6e09d98eacf8f8d5218e7cd47ef2be`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Bucket
+  type: string
+  description: The name of the bucket that the request was processed against.
+  sample_value: `awsexamplebucket`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Time
+  type: datetime
+  description: The time at which the request was received in UTC format.[%d/%b/%Y:%H:%M:%S %z]
+  sample_value: `[06/Feb/2019:00:00:38 +0000]`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Remote IP
+  type: string
+  description: | 
+    The apparent internet address of the requester. Intermediate proxies and firewalls might obscure 
+    the actual address of the machine making the request.
+  sample_value: `192.0.2.3`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Requester
+  type: string
+  description: The canonical user ID of the requester,or a - for unauthenticated requests.
+  sample_value: `79a59df900b949e55d96a1e698fbacedfd6e09d98eacf8f8d5218e7cd47ef2be`
+- standard_name: TBD 
+  standard_type: TBD
+  name: RequestID
+  type: string
+  description: A string generated by Amazon S3 to uniquely identify each request.
+  sample_value: `3E57427F33A59F07`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Operation
+  type: string
+  description: |
+    The operation listed here is declared as SOAP operation, REST.HTTP_method.resource_type,WEBSITE.HTTP_method.resource_type, 
+    or BATCH.DELETE.OBJECT, or S3.action.resource_type 
+    for [Lifecycle actions](https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-and-other-bucket-config.html#lifecycle-general-considerations-logging)
+  sample_value: `REST.PUT.OBJECT`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Key
+  type: string
+  description: The "key" part of the request, URL encoded, or "-" if the operation does not take a key parameter.
+  sample_value: `/photos/2019/08/puppy.jpg`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Request-URI
+  type: string
+  description: The Request-URI part of the HTTP request message.
+  sample_value: `"GET /awsexamplebucket/photos/2019/08/puppy.jpg?x-foo=bar HTTP/1.1"`
+- standard_name: TBD 
+  standard_type: TBD
+  name: HTTP status
+  type: string
+  description: The numeric HTTP status code of the response.
+  sample_value: `200`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Error Code
+  type: string
+  description: The Amazon S3 [Error Code](https://docs.aws.amazon.com/AmazonS3/latest/dev/ErrorCode.html), or "-" if no error occurred.
+  sample_value: `NoSuchBucket`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Bytes Sent
+  type: string
+  description: The number of response bytes sent, excluding HTTP protocol overhead, or "-" if zero.
+  sample_value: `2662992`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Object Size
+  type: string
+  description: The total size of the object in question.
+  sample_value: `3462992`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Total Time
+  type: string
+  description: | 
+    The number of milliseconds the request was in flight from the server's perspective. 
+    This value is measured from the time your request is received to the time that the last byte of the response is sent. 
+    Measurements made from the client's perspective might be longer due to network latency.
+  sample_value: `70`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Turn-Around Time
+  type: string
+  description: | 
+    The number of milliseconds that Amazon S3 spent processing your request. 
+    This value is measured from the time the last byte of your request was received until the time the first byte of the response was sent.
+  sample_value: `10`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Referer
+  type: string
+  description: |
+    The value of the HTTP Referer header, if present. 
+    HTTP user-agents (for example, browsers) typically set this header to the URL of the linking or embedding page when making a request.
+  sample_value: `"http://www.amazon.com/webservices"`
+- standard_name: TBD 
+  standard_type: TBD
+  name: User-Agent
+  type: string
+  description: The value of the HTTP User-Agent header.
+  sample_value: `"curl/7.15.1"`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Version Id
+  type: string
+  description: The version ID in the request, or "-" if the operation does not take a versionId parameter.
+  sample_value: `3HL4kqtJvjVBH40Nrjfkd`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Host Id
+  type: string
+  description: The x-amz-id-2 or Amazon S3 extended request ID.
+  sample_value: `s9lzHYrFp76ZVxRcpX9+5cjAnEH2ROuNkd2BHfIa6UkFVdtjf5mKR3/eTPFvsiP/XV/VLi31234=`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Signature Version
+  type: string
+  description: The signature version, SigV2 or SigV4, that was used to authenticate the request or a - for unauthenticated requests.
+  sample_value: `SigV2`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Cipher Suite
+  type: string
+  description: The Secure Sockets Layer (SSL) cipher that was negotiated for HTTPS request or a - for HTTP.
+  sample_value: `ECDHE-RSA-AES128-GCM-SHA256`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Authentication Type
+  type: string
+  description: | 
+    The type of request authentication used, AuthHeader for authentication headers, QueryString for query string (pre-signed URL) 
+    or a - for unauthenticated requests.
+  sample_value: `AuthHeader`
+- standard_name: TBD 
+  standard_type: TBD
+  name: Host Header
+  type: string 
+  description: |
+    The endpoint used to connect to Amazon S3.Some older Regions support legacy endpoints. 
+    You may see these endpoints in your server access logs or CloudTrail logs. 
+    For more information, see [Legacy Endpoints](https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html#s3-legacy-endpoints). 
+    For a complete list of Amazon S3 Regions and endpoints, 
+    see [Amazon S3 Regions and Endpoints](https://docs.aws.amazon.com/general/latest/gr/s3.html) in the AWS General Reference.
+  sample_value: `s3.us-west-2.amazonaws.com`
+- standard_name: TBD 
+  standard_type: TBD
+  name: TLS version
+  type: string
+  description: |
+    "The Transport Layer Security (TLS) version negotiated by the client. 
+    The value is one of following: TLSv1, TLSv1.1, TLSv1.2; or - if TLS wasn't used."
+  sample_value: `TLSv1.2`
+references:
+  - text: How Do I Enable Server Access Logging for an S3 Bucket?
+    link: https://docs.aws.amazon.com/AmazonS3/latest/user-guide/server-access-logging.html
+  - text: Amazon S3 Server Access Log Format
+    link: https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html
+tags:
+  - version_API-2006-03-01
