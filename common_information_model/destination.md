@@ -18,6 +18,7 @@ Event fields used to define the destination (server) in a network connection eve
 | dst_is_ipv6 | boolean | If `dst_ip_addr` is IP version 6 | `false` |
 | dst_mac | string | Destination MAC address | `a9:68:82:28:c4:6d` |
 | dst_mime_type | string | Destination MIME type as seen in (layer 7) application layer details or as defined by an application scanner such as an anti-virus/EDR. For HTTP this is usually from the server's "Content-Type" header. [Examples of MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types) | `application/pdf` |
+| dst_original_value | string | original value of a destination before any ETL modifications. For example, if wanting to cleanup a network share and keep the IP - this field would be used to keep the original value  | `\\8.8.8.8` |
 | dst_packets | integer | Network packets sent | `5` |
 | dst_port | integer | Destination port number | `138` |
 | dst_port_name | string | Destination port name. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT the actual the application used | `netbios-dgm` |

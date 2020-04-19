@@ -19,6 +19,7 @@ Event fields used to define the source (client) in a network connection event.
 | src_mac | string | Source MAC address | `a9:68:82:28:c4:6d` |
 | src_mime_type | string | Source MIME type as seen in (layer 7) application layer details or as defined by an application scanner such as an anti-virus/EDR. For HTTP this is usually from the server's "Content-Type" header. [Examples of MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types) | `application/pdf` |
 | src_packets | integer | Network packets sent | `5` |
+| src_original_value | string | original value of a source before any modifications. For example, if wanting to cleanup a network share and keep the IP - this field would be used to keep the original value  | `\\10.10.10.10` |
 | src_port | integer | Source port number | `138` |
 | src_port_name | string | Source port name. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT the actual the application used | `netbios-dgm` |
 | src_vlan_id | integer | The Source VLAN ID if it can be determined. Most commonly if from a firewall/switch/router then it can be determined | `100` |
