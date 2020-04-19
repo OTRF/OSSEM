@@ -45,5 +45,5 @@ Microsoft EMET has killed a process on an endpoint monitored by Carbon Black.
 |	process_id	|	pid	|	INTEGER	|	Endpoint OS Process id of process that generated the emetmitigation event	|	3344	|
 |	process_guid	|	process_guid	|	TEXT	|	Process GUID of offending process	|	00000001-0000-0d10-01d1-39b621f894f9	|
 |	sensor_id	|	sensor_id	|	INTEGER	|	sensor ID of associated sensor	|	1	|
-|	event_date_creation	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1450458260	|
+|	@timestamp	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1450458260	|
 |	event_type_detailed	|	type	|	TEXT	|	The full type of event	|	ingress.event.emetmitigation	|

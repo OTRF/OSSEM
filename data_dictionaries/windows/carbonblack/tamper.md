@@ -28,5 +28,5 @@ A process tampered with a critical Carbon Black userspace process or kernel driv
 |	event_type	|	event_type	|	TEXT	|	The type of event	|	tamper	|
 |	sensor_id	|	sensor_id	|	INTEGER	|	Sensor ID of associated sensor	|	1	|
 |	tamper_type	|	tamper_type	|	TEXT	|	The activity which triggered this tamper event: CoreDriverUnloaded, NetworkDriverUnloaded, CbServiceStopped, CbProcessTerminated, or CbCodeInjection	| CbProcessTerminated |
-|	event_date_creation	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	| 1450470603 |
+|	@timestamp	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	| 1450470603 |
 |	event_type_detailed	|	type	|	TEXT	|	The full type of event	| ingress.event.tamper |

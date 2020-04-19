@@ -16,7 +16,7 @@ Multiple event types, such as process injection, creation of scheduled tasks, an
 ## Data Dictionary
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
-|	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
+|	@timestamp	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
 |	machine_id	|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
 |	computer_name	|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
 |	action_type	|	ActionType	|	string	|	Type of activity that triggered the event	|		|

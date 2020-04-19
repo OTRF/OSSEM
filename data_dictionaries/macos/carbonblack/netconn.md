@@ -53,5 +53,5 @@ A network connection has been received or initiated by an endpoint monitored by 
 |	dst_ip_addr	|	remote_ip	|	TEXT	|	IP address of the remote system (peer)	|	23.4.187.27	|
 |	dst_port	|	remote_port	|	INTEGER	|	Remote port of the network connection	|	80	|
 |	sensor_id	|	sensor_id	|	INTEGER	|	sensor ID of associated sensor	|	7	|
-|	event_date_creation	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447697666	|
+|	@timestamp	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447697666	|
 |	event_type_detailed	|	type	|	TEXT	|	The full type of event	|	ingress.event.netconn	|

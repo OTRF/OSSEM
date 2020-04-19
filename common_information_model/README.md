@@ -7,7 +7,7 @@ The common information model facilitates the normalization of data sets by provi
 | Entity | Description |
 |--------|---------|
 | [destination](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/destination.md) | Event fields used to define the destination in a network connection event. |
-| [event](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/event.md) | Event fields used to define specific metadata of the event itself. For example, event_id or event_creation_time. |
+| [event](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/event.md) | Event fields used to define specific metadata of the event itself. For example, event_id or @timestamp. |
 | [file](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/file.md) | Event fields used to define metadata about files either locally or over the wire.|
 | [group](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/group.md) | Event fields used to define metadata about a security group, or distribution group that is created changed or deleted. |
 | [hash](https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model/hash.md) | Event fields used to define metadata about hashes. |

@@ -17,7 +17,7 @@ Alerts on Windows Defender Security Center
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
 |	alert_id	|	AlertId	|	string	|	Unique identifier for the alert	|		|
-|	event_date_creation	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
+|	@timestamp	|	EventTime	|	date	|	Date and time when the event was recorded	|		|
 |	machine_id	|	MachineId	|	string	|	Unique identifier for the machine in the service	|		|
 |	computer_name	|	ComputerName	|	string	|	Fully qualified domain name (FQDN) of the machine	|		|
 |	severity	|	Severity	|		|		|		|
