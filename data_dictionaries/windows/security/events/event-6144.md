@@ -8,7 +8,7 @@ This event generates every time settings from the “Security Settings” sectio
 
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|error_code|ErrorCode|integer|always has "0" value for this event.|0|
+|error_code|ErrorCode|integer|always has "0" value for this event. Although that is what Microsoft docs say, that is not always the case.|0|
 |gpo_list|GPOList|string|the list of Group Policy Objects that include "Security Settings" policies, and that were applied to the computer.|{8AB9311A-E5FB-4A5A-8FB7-027D1B877D6D} DC Main Policy|
 
 ## Reference

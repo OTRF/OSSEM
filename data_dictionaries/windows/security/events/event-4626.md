@@ -20,7 +20,7 @@ This event generates for new account logons and contains user/device claims whic
 |	user_reporter_sid	|	SubjectUserSid	|	string	|	SID of account that reported information about claims.	|	S-1-0-0	|
 |	user_reporter_name	|	SubjectUserName	|	string	|	the name of the account that reported information about claims.	|	-	|
 |	user_reporter_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	-	|
-|	user_reporter_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x0	|
+|	user_reporter_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x0	|
 |	user_sid	|	TargetUserSid	|	string	|	SID of account for which logon was performed.	|	S-1-5-21-3457937927-2839227994-823803824-1104	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account for which logon was performed	|	dadmin	|
 |	user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name.	|	CONTOSO	|

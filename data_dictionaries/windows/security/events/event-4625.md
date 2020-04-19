@@ -20,7 +20,7 @@ This event generates if an account logon attempt failed when the account was alr
 |	user_reporter_sid	|	SubjectUserSid	|	string	|	SID of account that reported information about logon failure.	|	S-1-5-18	|
 |	user_reporter_name	|	SubjectUserName	|	string	|	the name of the account that reported information about logon failure.	|	DC01$	|
 |	user_reporter_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	CONTOSO	|
-|	user_reporter_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x3e7	|
+|	user_reporter_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x3e7	|
 |	user_sid	|	TargetUserSid	|	string	|	SID of the account that was specified in the logon attempt	|	S-1-0-0	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account that was specified in the logon attempt	|	Auditor	|
 |	user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name	|	CONTOSO	|

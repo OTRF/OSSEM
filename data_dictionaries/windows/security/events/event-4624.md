@@ -17,7 +17,7 @@ This event generates when a logon session is created (on destination machine). I
 |	user_reporter_sid	|	SubjectUserSid	|	string	|	SID of account that reported information about successful logon or invokes it	|	S-1-5-18	|
 |	user_reporter_name	|	SubjectUserName	|	string	|	the name of the account that reported information about successful logon	|	WIN-GG82ULGC9GO$	|
 |	user_reporter_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	WORKGROUP	|
-|	user_reporter_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x3e7	|
+|	user_reporter_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x3e7	|
 |	user_sid	|	TargetUserSid	|	string	|	SID of account for which logon was performed	|	S-1-5-21-1377283216-344919071-3415362939-500	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account for which logon was performed	|	Administrator	|
 |	user_domain	|	TargetDomainName	|	string	|	subject’s domain or computer name	|	WIN-GG82ULGC9GO	|

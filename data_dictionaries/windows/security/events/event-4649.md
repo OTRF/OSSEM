@@ -19,7 +19,7 @@ Domain controllers cache information from recently received tickets. If the serv
 |	user_reporter_sid	|	SubjectUserSid	|	string	|	SID of account that that reported information about the  replay	|	S-1-5-18	|
 |	user_reporter_name	|	SubjectUserName	|	string	|	the name of the account that reported information about the  replay	|	DC01$	|
 |	user_reporter_domain	|	SubjectDomainName	|	string	|	subject’s domain or computer name	|	CONTOSO	|
-|	user_reporter_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x3e7	|
+|	user_reporter_logon_id	|	SubjectLogonId	|	integer	|	hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID	|	0x3e7	|
 |	user_name	|	TargetUserName	|	string	|	the name of the account whose credential were replayed	|	DC02$	|
 |	user_domain	|	TargetDomainName	|	string	|	the domain of the account whose credential were replayed 	|	CONTOSO.LOCAL	|
 |	logon_process_name	|	LogonProcessName	|	string	|	The name of the trusted logon process that was used for the replay	|	Kerberos	|

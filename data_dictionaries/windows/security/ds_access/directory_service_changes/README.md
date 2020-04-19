@@ -19,3 +19,5 @@ This subcategory only logs events on domain controllers.
 | [5138](../../events/event-5138.md) | A directory service object was undeleted | Windows Vista, Windows Server 2008 |
 | [5139](../../events/event-5139.md) | A directory service object was moved | Windows Vista, Windows Server 2008 |
 | [5141](../../events/event-5141.md) | A directory service object was deleted | Windows Vista, Windows Server 2008 |
+| [5169](../../events/event-5169.md) | A directory service object was modified | Windows Server 2016, Windows 10, Windows Server 2019 |
+| [5170](../../events/event-5170.md) | A directory service object was modified | Windows Server 2016, Windows 10, Windows Server 2019 |

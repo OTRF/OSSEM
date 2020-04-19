@@ -13,7 +13,7 @@ Event fields used to define metadata about users in an network environment.
 |	user_reporter_sid	|	string	|	SID of account that reported information about the main event	|	S-1-5-18	|
 |	user_reporter_name	|	string	|	the name of the account that reported information about the main event	|	WIN-GG82ULGC9GO$	|
 |	user_reporter_domain	|	string	|	subject’s domain or computer name of the account that reported information about the main event	|	WORKGROUP	|
-|	user_reporter_id	|	integer	|	hexadecimal value that can help you correlate an event with recent events that might contain the same Logon ID for the account that reported information about the main event	|	0x3e7	|
+|	user_reporter_logon_id	|	integer	|	hexadecimal value that can help you correlate an event with recent events that might contain the same Logon ID for the account that reported information about the main event	|	0x3e7	|
 |	user_sid	|	string	|	SID of the account that performed the main action in the event	|	S-1-5-21-1377283216-344919071-3415362939-500	|
 |	user_domain	|	string	|	subject’s domain or computer name of the account that performed the main action in the event	|	WIN-GG82ULGC9GO	|
 |	user_network_account_name	|	string	|	User name that will be used for outbound (network) connections. Valid only for NewCredentials logon type. If not NewCredentials logon, then this will be a "-" string.	|	-	|
