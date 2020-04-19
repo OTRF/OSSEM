@@ -42,5 +42,5 @@ A registry key has been created, deleted, or modified on an endpoint monitored b
 |	process_id	|	pid	|	INTEGER	|	Endpoint OS Process id of process	|	1156	|
 |	process_guid	|	process_guid	|	TEXT	|	Cb Process GUID of process	|	00000001-0000-0484-01d1-1e951b7c000b	|
 |	sensor_id	|	sensor_id	|	INTEGER	|	Sensor ID of associated sensor	|	1	|
-|	event_date_creation	|	timestamp	|	BIGINT	|	Endpoint timestamp of this event since epoch	| 1447696798 |
+|	@timestamp	|	timestamp	|	BIGINT	|	Endpoint timestamp of this event since epoch	| 1447696798 |
 |	event_type_detailed	|	type	|	TEXT	|	The full type of event	| ingress.event.regmod |

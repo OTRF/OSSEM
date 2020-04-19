@@ -60,5 +60,5 @@ A process has attempted to open a handle into another process OR if a remote thr
 |	target_process_path	|	target_path	|	TEXT	|	Path of the target process’ executable image	|	c:\\windows\\system32\\lsass.exe	|
 |	target_process_id	|	target_pid	|	INTEGER	|	Process ID of the target process	|	708	|
 |	target_process_guid	|	target_process_guid	|	TEXT	|	process_guid of the target process	|	00000007-0000-02c4-01d1-20982cef85d3	|
-|	event_date_creation	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447697702	|
+|	@timestamp	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447697702	|
 |	event_type_detailed	|	type	|	TEXT	|	The full type of event	|	ingress.event.crossprocopen	|

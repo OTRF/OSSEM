@@ -53,5 +53,5 @@ A file on the filesystem has been created, deleted, or modified on an endpoint m
 |	process_id	|	pid	|	INTEGER	|	Endpoint OS Process id of process	|	3184	|
 |	process_guid	|	process_guid	|	TEXT	|	Cb Process GUID of process	|	00000001-0000-0c70-01d1-1e951aae7e2f	|
 |	sensor_id	|	sensor_id	|	INTEGER	|	sensor ID of associated sensor	|	1	|
-|	event_date_creation	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447696804	|
+|	@timestamp	|	timestamp	|	INTEGER	|	Endpoint timestamp of this event since epoch	|	1447696804	|
 |	event_type_detailed	|	type	|	TEXT	|		The full type of event	|	ingress.event.filemod	|
