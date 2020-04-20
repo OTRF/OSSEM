@@ -7,6 +7,13 @@ Events regarding abnormal traffic (ie: protocols that are not adhering to an RFC
 - [dpd.log](./dpd.md)
 - [weird.log](./weird.md)
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its corresponding log 
+
+|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
+|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+| event_type                     | miscellaneous             | string | The zeek category of logs |
+
 ## Resources
 
 * [Miscellaneous Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#miscellaneous)

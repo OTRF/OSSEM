@@ -8,6 +8,13 @@ Events related to detection or indicators as well as other things that could or 
 - [notice.log](./notice.md)
 - [traceroute.log](./traceroute.md)
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its corresponding log 
+
+|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
+|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+| event_type                     | detection             | string | The zeek category of logs |
+
 ## Resources
 
 * [Detection Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#detection)

@@ -24,6 +24,13 @@ Zeek logs are organized by their categories:
 | [Network Observations](./network-observations/README.md) | Summary of known certificates, software, hosts, modbus, software, services/applications on a host/IP |
 | [Network Protocols](./network-protocols/README.md) | The most commonly used Zeek logs. Contain metadata for the various protocols/applications (ie: HTTP, DNS, SMB, RDP, etc..) |
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its specific log 
+
+|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
+|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+| event_type                     | network             | string | The zeek category of logs |
+
 ## Resources
 
 * [Zeek Website](https://docs.zeek.org/en/stable/script-reference/log-files.html)

@@ -11,6 +11,13 @@ Example, the various software seen by a host over time.
 - [known_services.log](./known_services.md)
 - [software.log](./software.md)
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its corresponding log 
+
+|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
+|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+| event_type                     | observations             | string | The zeek category of logs |
+
 ## Resources
 
 * [Network Observation Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-observations)

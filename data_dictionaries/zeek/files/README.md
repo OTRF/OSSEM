@@ -8,6 +8,13 @@ Metadata about files, certificates, and executables that is in addition to the n
 - [pe.log](./pe.md)
 - [x509.log](./x509.md)
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its corresponding log 
+
+|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
+|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+| event_type                     | files             | string | The zeek category of logs |
+
 
 ## Resources
 
