@@ -9,6 +9,12 @@ platform: windows
 log_source: sysmon
 event_code: '2'
 event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
 - standard_name: event_date_creation
   standard_type: TBD
   name: UtcTime
@@ -28,12 +34,6 @@ event_fields:
   description: Process ID used by the os to identify the process changing the file
     creation time
   sample_value: '1252'
-- standard_name: process_name
-  standard_type: TBD
-  name: Image
-  type: string
-  description: File name of the process that changed the file creation time
-  sample_value: powershell.exe
 - standard_name: process_path
   standard_type: TBD
   name: Image
