@@ -17,7 +17,7 @@ Network protocol/application logs containing all the metadata it collects and re
 - [kerberos.log](./kerberos.md)
 - [modbus.log](./modbus.md)
 - [modbus_register_change.log](./modbus_register_change.md)
-- [mqtt.log](./mqtt.md)
+- [mqtt.log](mqtt_connect.md)
 - [mysql.log](./mysql.md)
 - [ntlm.log](./ntlm.md)
 - [ntp.log](./ntp.md)
