@@ -5,6 +5,12 @@ platform: windows
 log_source: sysmon
 event_code: '18'
 event_fields:
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: TBD
+  sample_value: '[CreatePipe]{.underline}'
 - standard_name: tag
   standard_type: TBD
   name: RuleName
@@ -36,12 +42,6 @@ event_fields:
   type: string
   description: Name of the pipe connecged
   sample_value: \srvsvc
-- standard_name: process_name
-  standard_type: TBD
-  name: Image
-  type: string
-  description: File name of the process that connected the pipe
-  sample_value: wmiprvse.exe
 - standard_name: process_path
   standard_type: TBD
   name: Image
