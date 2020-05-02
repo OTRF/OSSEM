@@ -10,7 +10,6 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 |event_date_creation|UtcTime|date|Time in UTC when event was created|`4/11/18 5:29`|
 |process_guid|ProcessGuid|string|Process Guid of the process that made the network connection|`{A98268C1-957F-5ACD-0000-0010EB030000}`|
 |process_id|ProcessId|integer|Process ID used by the os to identify the process that made the network connection|`4`|
-|process_name|Image|string|File name of the process that made the network connection|`System`|
 |process_path|Image|string|File path of the process that made the network connection|`System`|
 |user_name|User|string|Name of the account who made the network connection. It usually containes domain name and user name|`NT AUTHORITY\SYSTEM`|
 |network_protocol|Protocol|string|Protocol being used for the network connection|`udp`|
