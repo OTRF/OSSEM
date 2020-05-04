@@ -45,13 +45,6 @@ event_fields:
   description: ID of the specific thread inside of the source process that opened
     another process
   sample_value: '2804'
-- standard_name: process_name
-  standard_type: TBD
-  name: SourceImage
-  type: string
-  description: The name of the executable for the source process that created a thread
-    in another process
-  sample_value: svchost.exe
 - standard_name: process_path
   standard_type: TBD
   name: SourceImage
@@ -70,12 +63,6 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the target process
   sample_value: '2288'
-- standard_name: target_process_name
-  standard_type: TBD
-  name: TargetImage
-  type: string
-  description: The name of the executable of the target process
-  sample_value: 4.12.17007.18022-0\MsMpEng.exe
 - standard_name: target_process_path
   standard_type: TBD
   name: TargetImage

@@ -35,13 +35,6 @@ event_fields:
   description: Process ID used by the os to identify the source process that created
     a thread in another process
   sample_value: '684'
-- standard_name: process_name
-  standard_type: TBD
-  name: SourceImage
-  type: string
-  description: The name of the executable for the source process that created a thread
-    in another process
-  sample_value: csrss.exe
 - standard_name: process_path
   standard_type: TBD
   name: SourceImage
@@ -60,12 +53,6 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the target process
   sample_value: '240'
-- standard_name: target_process_name
-  standard_type: TBD
-  name: TargetImage
-  type: string
-  description: File name of the target process
-  sample_value: cmd.exe
 - standard_name: target_process_path
   standard_type: TBD
   name: TargetImage

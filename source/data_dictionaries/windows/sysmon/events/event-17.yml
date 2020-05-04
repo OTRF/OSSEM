@@ -5,6 +5,12 @@ platform: windows
 log_source: sysmon
 event_code: '17'
 event_fields:
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: TBD
+  sample_value: '[CreatePipe]{.underline}'
 - standard_name: tag
   standard_type: TBD
   name: RuleName
@@ -36,12 +42,6 @@ event_fields:
   type: string
   description: Name of the pipe created
   sample_value: Anonymous Pipe
-- standard_name: process_name
-  standard_type: TBD
-  name: Image
-  type: string
-  description: File name of the process that created the pipe
-  sample_value: cmd.exe
 - standard_name: process_path
   standard_type: TBD
   name: Image
