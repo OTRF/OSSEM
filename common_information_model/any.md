@@ -7,7 +7,7 @@ Any fields below that contain a '*' indicates those are searches and not actual 
 
 | Standard Name | Type | Description | Sample Value |
 |--------|---------|-------|-------|
-| any_event_uid     | string  | Allows searching a single field for all log IDs. All log ID fields copied/duplicated to a single field as an array.                    | ``
+| any_event_id      | string  | Allows searching a single field for all log IDs. All log ID fields copied/duplicated to a single field as an array.                    | ``
 | any_hash          | string  | Allows searching a single field for all hashes. All hash fields copied/duplicated to a single field as an array.                       | ``
 | any_ip_addr       | ip      | Allows searching a single field for all IPs. All IP fields copied/duplicated to a single field as an array.                            | ``
 | any_ip_geo.as_org | string  | Allows searching a single field for all BGP AS Organization Names. All AS name fields copied/duplicated to a single field as an array. | ``
