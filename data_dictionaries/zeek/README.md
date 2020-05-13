@@ -10,7 +10,7 @@ Zeek logs have a unique ability to pivot between logs the various logs via `uid`
 For example: an HTTP connection results in a `http.log` and `conn.log`. Also, if a file was transferred/downloaded during the connection then there would be an additional `files.log`.  
 Therefore, you not only obtain HTTP (header) fields, duration of connection, bytes sent/received, packets, hash of the file, size of the file, etc.. but you can pivot between the three logs too!
  
-The main field to pivot across will be normalized to `event_uid` and all other UIDs that can be pivoted/joined across will be set in `any_event_uid`
+The main field to pivot across will be normalized to `event_uid` and all other UIDs that can be pivoted/joined across will be set in `any_event_id`
 
 Zeek logs are organized by their categories:
 
