@@ -10,22 +10,29 @@ For example: a url category would be set to `meta_dst_host_name_category`
 ## Data Fields
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-| meta_dst_host_name_category                    | string    | Used for URL/domain category (ie: Adult, Abuse, Parked, RFC-1918, etc)                                                                           | `` |
-| meta_powershell_param_value_has_non_ascii      | boolean   |                                                                                                                                                  | `` |
-| meta_powershell_scriptblock_text_has_non_ascii | boolean   |                                                                                                                                                  | `` |
-| meta_powershell_scriptblock_text_length        | integer   |                                                                                                                                                  | `` |
-| meta_process_command_line_has_net              | boolean   | if `process_command_line` contains `http:` or `ftp:\\` or `smb:\\` or `file:\\` or `://` or `localhost` or r`\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}` | `` |
-| meta_process_command_line_has_non_ascii        | boolean   |                                                                                                                                                  | `` |
-| meta_process_command_line_length               | integer   |                                                                                                                                                  | `` |
-| meta_target_user_name_is_machine               | boolean   |                                                                                                                                                  | `` |
-| meta_user_name_is_machine                      | boolean   |                                                                                                                                                  | `` |
-| meta_user_reporter_name_is_machine             | boolean   |                                                                                                                                                  | `` |
-| meta_src_ip_addr_equals_dst_ip_addr            | boolean   | If the `src_ip_addr` is the same value as `dst_ip_addr`                                                                                          | `` |
-| TBD                                            | string    | Data describing an alert                                                                                                                         | `` |
-| TBD                                            | geo_point | Geo longitude and latitude point of a field                                                                                                      | `` |
-| TBD                                            | integer   | Autonomous System (AS) number (BGP AS Number)                                                                                                    | `` |
-| TBD                                            | string    | Autonomous System (AS) organization (BGP AS Name)                                                                                                | `` |
-| ttp                                            | string    | Tactic, technique, and procedure                                                                                                                 | `` |
+| meta_dst_host_name_category                    | string       | Used for URL/domain category (ie: Adult, Abuse, Parked, RFC-1918, etc)                                                                           | `` |
+| meta_http_referrer_length                      | integer      | length of `http_referrer_original`                                                                                                               | `` |
+| meta_log_tags                                  | array_string |                                                                                                                                                  | `` |
+| meta_powershell_param_value_has_non_ascii      | boolean      |                                                                                                                                                  | `` |
+| meta_powershell_scriptblock_text_has_non_ascii | boolean      |                                                                                                                                                  | `` |
+| meta_powershell_scriptblock_text_length        | integer      |                                                                                                                                                  | `` |
+| meta_process_command_line_has_net              | boolean      | if `process_command_line` contains `http:` or `ftp:\\` or `smb:\\` or `file:\\` or `://` or `localhost` or r`\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}` | `` |
+| meta_process_command_line_has_non_ascii        | boolean      |                                                                                                                                                  | `` |
+| meta_process_command_line_length               | integer      |                                                                                                                                                  | `` |
+| meta_src_ip_addr_equals_dst_ip_addr            | boolean      | If the `src_ip_addr` is the same value as `dst_ip_addr`                                                                                          | `` |
+| meta_target_user_name_is_machine               | boolean      |                                                                                                                                                  | `` |
+| meta_url_has_non_ascii                         | boolean      |                                                                                                                                                  | `` |
+| meta_url_has_whitespace                        | boolean      |                                                                                                                                                  | `` |
+| meta_url_length                                | integer      | length of `url_original`                                                                                                                         | `` |
+| meta_url_total_paths                           | integer      | number of paths in `url_original`. ie: `/example/url/news.php` would be `3`                                                                      | `` |
+| meta_user_agent_length                         | integer      | length of `user_agent_original`                                                                                                                  | `` |
+| meta_user_name_is_machine                      | boolean      |                                                                                                                                                  | `` |
+| meta_user_reporter_name_is_machine             | boolean      |                                                                                                                                                  | `` |
+| TBD                                            | string       | Data describing an alert                                                                                                                         | `` |
+| TBD                                            | geo_point    | Geo longitude and latitude point of a field                                                                                                      | `` |
+| TBD                                            | integer      | Autonomous System (AS) number (BGP AS Number)                                                                                                    | `` |
+| TBD                                            | string       | Autonomous System (AS) organization (BGP AS Name)                                                                                                | `` |
+| ttp                                            | string       | Tactic, technique, and procedure                                                                                                                 | `` |
 
 
 
