@@ -21,7 +21,7 @@ The following are fields added to each event, for the rest of the fields see its
 
 ## Resources
 
-* [Network Observation Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-observations)
+* [All Network Observation Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-observations)
 * [Known Certificates Observation Framework](https://docs.zeek.org/en/stable/scripts/policy/protocols/ssl/known-certs.zeek.html#policy-protocols-ssl-known-certs-zeek)
 * [Known Hosts Observation Framework](https://docs.zeek.org/en/stable/scripts/policy/protocols/conn/known-hosts.zeek.html#policy-protocols-conn-known-hosts-zeek)
 * [Known Services Observation Framework](https://docs.zeek.org/en/stable/scripts/policy/protocols/conn/known-services.zeek.html#policy-protocols-conn-known-services-zeek)
