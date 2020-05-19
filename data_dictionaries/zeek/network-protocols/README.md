@@ -38,6 +38,7 @@ The following are fields added to each event, for the rest of the fields see its
 - [smb_files.log](./smb_files.md)
 - [smb_mapping.log](./smb_mapping.md)
 - [smtp.log](./smtp.md)
+- [smtp_links.log](./smtp_links.md)
 - [snmp.log](./snmp.md)
 - [socks.log](./socks.md)
 - [ssh.log](./ssh.md)
