@@ -3,6 +3,14 @@
 Data collected about certificates, software, hosts, modbus, software, services/applications, etc.. that it has seen over time.  
 Example, the various software seen by a host over time.
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its specific log 
+
+| Standard Name                   | Field Name                      | Type                            | Description                        | Sample Value                    |
+| ------------------------------- | ------------------------------- | ------------------------------- | -------------------------------    | ------------------------------- |
+| event_log_category_type         | z_Enrichment                    | string                          | The Zeek "category" for these logs | `network-observations`             |
+
+
 ## Data Dictionaries
 
 - [known_certs.log](./known_certs.md)
@@ -10,13 +18,6 @@ Example, the various software seen by a host over time.
 - [known_modbus.log](./known_modbus.md)
 - [known_services.log](./known_services.md)
 - [software.log](./software.md)
-
-## Data Dictionary
-The following are fields added to each event, for the rest of the fields see its corresponding log 
-
-|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-| event_type                     | observations             | string | The zeek category of logs |
 
 ## Resources
 
