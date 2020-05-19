@@ -33,6 +33,7 @@
 | file_size                   | total_bytes      | integer      | Total number of bytes that are supposed to comprise the full file                                                                                                                                                                            | ``                                |
 | dst_ip_addr                 | tx_hosts         | array_ip     | If this file was transferred over a network connection this should show the host or hosts that the data sourced from                                                                                                                         | ``                                |
 | TBD                         | x509             | string       | present if base/files/x509/main.bro is loaded Information about X509 certificates. This is used to keep certificate information until all events have been received.                                                                         | ``                                |
+| event_uid                   | z_Enrichment     | string       | Enrichment copied form `zeek_id_fuid`                                                                                                                                                                                                         | ``                                                                                                                    |
 
 ## Event JSON
 
