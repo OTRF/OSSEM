@@ -18,5 +18,5 @@ The following are fields added to each event, for the rest of the fields see its
 
 ## Resources
 
-* [Network Control Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#netcontrol)
+* [All Network Control Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#netcontrol)
 * [Network Control Framework Description](https://docs.zeek.org/en/stable/frameworks/netcontrol.html)
