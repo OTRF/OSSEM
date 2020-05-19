@@ -45,10 +45,9 @@ The following are fields added to each event, for the rest of the fields see its
 - [ssl.log](./ssl.md)
 - [syslog.log](./syslog.md)
 - [tunnel.log](./tunnel.md)
-- [xmpp.log](./xmpp.md)
 
 ## Resources
 
-* [Network Protocol Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-protocols)
+* [All Network Protocol Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-protocols)
 * [Network Protocol Analyzers](https://docs.zeek.org/en/stable/script-reference/proto-analyzers.html)
 * [Logging Framework Description](https://docs.zeek.org/en/stable/frameworks/logging.html)
