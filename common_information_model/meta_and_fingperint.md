@@ -10,6 +10,9 @@ For example: a url category would be set to `meta_dst_host_name_category`
 ## Data Fields
 |	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
 |	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+| meta_dns_response_name_count                   | integer      | The count (number of) `dns_response_name                                                                                                         | `` |
+| meta_dns_response_name_length                  | integer      | Total number of response/answers in `dns_response_name`                                                                                                          | `` |
+| meta_dns_response_name_has_non_ascii           | boolean      | If there is any non ascii characters within `dns_response_name`                                                                                  | `` |
 | meta_dst_host_name_category                    | string       | Used for URL/domain category (ie: Adult, Abuse, Parked, RFC-1918, etc)                                                                           | `` |
 | meta_http_referrer_length                      | integer      | length of `http_referrer_original`                                                                                                               | `` |
 | meta_log_tags                                  | array_string |                                                                                                                                                  | `` |
@@ -24,16 +27,15 @@ For example: a url category would be set to `meta_dst_host_name_category`
 | meta_url_has_non_ascii                         | boolean      |                                                                                                                                                  | `` |
 | meta_url_has_whitespace                        | boolean      |                                                                                                                                                  | `` |
 | meta_url_length                                | integer      | length of `url_original`                                                                                                                         | `` |
-| meta_url_total_paths                           | integer      | number of paths in `url_original`. ie: `/example/url/news.php` would be `3`                                                                      | `` |
+| meta_url_paths_count                           | integer      | number (count)    of paths in `url_original`. ie: `/example/url/news.php` would be `3`                                                                      | `` |
 | meta_user_agent_length                         | integer      | length of `user_agent_original`                                                                                                                  | `` |
 | meta_user_name_is_machine                      | boolean      |                                                                                                                                                  | `` |
 | meta_user_reporter_name_is_machine             | boolean      |                                                                                                                                                  | `` |
-| TBD                                            | string       | Data describing an alert                                                                                                                         | `` |
+| ttp                                            | string       | Tactic, technique, and procedure                                                                                                                 | `` |
 | TBD                                            | geo_point    | Geo longitude and latitude point of a field                                                                                                      | `` |
 | TBD                                            | integer      | Autonomous System (AS) number (BGP AS Number)                                                                                                    | `` |
+| TBD                                            | string       | Data describing an alert                                                                                                                         | `` |
 | TBD                                            | string       | Autonomous System (AS) organization (BGP AS Name)                                                                                                | `` |
-| ttp                                            | string       | Tactic, technique, and procedure                                                                                                                 | `` |
-
 
 
 # Fingerprint Schema
@@ -48,5 +50,6 @@ Enrichments that create a unique value (fingerprint)
 | fingerprint_network_4tuple                   | string | MURMUR3 hash of `fingerprint_ip_addr_pair_src_and_dst` + `dst_port` + `network_protocol`
 | fingerprint_powershell_param_value_mm3       | string | MURMUR3 hash of `powershell.param.value`                                                                                                                                                                                                                                                             | ``                             |
 | fingerprint_powershell_scriptblock_text_sha1 | string | SHA1 hash of `powershell.scriptblock.text`                                                                                                                                                                                                                                                           | ``                             |
-| fingerprint_process_command_line_mm3         | string | MURMUR3 hash of `process_command_line`                                                                                                                       | `` |
+| fingerprint_process_command_line_mm3         | string | MURMUR3 hash of `process_command_line`                                                                                                                                                                                                                                                               | ``                             |
+| fingerprint_dns_response_name_mm3            | string | MURMUR3 hash of `dns_response_name`                                                                                                                                                                                                                                                                  | ``                             |
 
