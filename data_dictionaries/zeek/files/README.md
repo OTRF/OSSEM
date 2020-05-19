@@ -18,6 +18,6 @@ The following are fields added to each event, for the rest of the fields see its
 
 ## Resources
 
-* [All File Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#files)
+* [All Files Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#files)
 * [File Analyzers](https://docs.zeek.org/en/stable/script-reference/file-analyzers.html)
 * [File Framework Description](https://docs.zeek.org/en/stable/frameworks/file-analysis.html)

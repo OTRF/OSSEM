@@ -19,6 +19,6 @@ The following are fields added to each event, for the rest of the fields see its
 
 ## Resources
 
-* [Miscellaneous Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#miscellaneous)
+* [All Miscellaneous Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#miscellaneous)
 * [DPD Framework Description](https://docs.zeek.org/en/stable/scripts/base/frameworks/dpd/main.zeek.html#base-frameworks-dpd-main-zeek)
 * [Weird Framework Description](https://docs.zeek.org/en/stable/scripts/base/frameworks/notice/weird.zeek.html#base-frameworks-notice-weird-zeek)
