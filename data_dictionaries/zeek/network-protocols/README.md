@@ -2,6 +2,13 @@
 
 Network protocol/application logs containing all the metadata it collects and records for that specific protocol. These are the most commonly used Zeek logs
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its specific log 
+
+| Standard Name                   | Field Name                      | Type                            | Description                        | Sample Value                    |
+| ------------------------------- | ------------------------------- | ------------------------------- | -------------------------------    | ------------------------------- |
+| event_log_category_type         | z_Enrichment                    | string                          | The Zeek "category" for these logs | `network-protocols`             |
+
 ## Data Dictionaries
 
 - [conn.log](./conn.md)
