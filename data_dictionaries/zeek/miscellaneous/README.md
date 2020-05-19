@@ -2,17 +2,20 @@
 
 Events regarding abnormal traffic (ie: protocols that are not adhering to an RFC) and or that could commonly be used to try to evade different detections/analyzers for that protocol.
 
-## Data Dictionaries
-
-- [dpd.log](./dpd.md)
-- [weird.log](./weird.md)
-
 ## Data Dictionary
 The following are fields added to each event, for the rest of the fields see its corresponding log 
 
-|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-| event_type                     | miscellaneous             | string | The zeek category of logs |
+| Standard Name                   | Field Name                      | Type                            | Description                        | Sample Value                    |
+| ------------------------------- | ------------------------------- | ------------------------------- | -------------------------------    | ------------------------------- |
+| event_log_category_type         | z_Enrichment                    | string                          | The Zeek "category" for these logs | `miscellaneous`             |
+
+## Data Dictionaries
+
+- [barnyard2.log](./barnyard2.md)
+- [dpd.log](./dpd.md)
+- [unified2.log](./unified2.md)
+- [weird.log](./weird.md)
+- [weird_stats.log](./weird_stats.md)
 
 ## Resources
 
