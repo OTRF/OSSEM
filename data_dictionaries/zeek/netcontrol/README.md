@@ -3,13 +3,11 @@ Zeek can connect with network devices like, for example, switches or soft- and h
 
 ## Data Dictionaries
 
-## Data Dictionary
-The following are fields added to each event, for the rest of the fields see its corresponding log 
-
-|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-| event_type                     | netcontrol             | string | The zeek category of logs |
-
+- [netcontrol.log](./netcontrol.md)
+- [netcontrol_drop.log](./netcontrol_drop.md)
+- [netcontrol_shunt.log](./netcontrol_shunt.md)
+- [netcontrol_catch_release.log](./netcontrol_catch_release.md)
+- [openflow.log](./openflow.md)
 
 ## Resources
 
