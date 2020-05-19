@@ -1,6 +1,13 @@
 # Zeek Network Control Event Logs
 Zeek can connect with network devices like, for example, switches or soft- and hardware firewalls using the NetControl framework. The NetControl framework provides a flexible, unified interface for active response and hides the complexity of heterogeneous network equipment behind a simple task-oriented API, which is easily usable via Zeek scripts.
 
+## Data Dictionary
+The following are fields added to each event, for the rest of the fields see its specific log 
+
+| Standard Name                   | Field Name                      | Type                            | Description                        | Sample Value                    |
+| ------------------------------- | ------------------------------- | ------------------------------- | -------------------------------    | ------------------------------- |
+| event_log_category_type         | z_Enrichment                    | string                          | The Zeek "category" for these logs | `netcontrol`             |
+
 ## Data Dictionaries
 
 - [netcontrol.log](./netcontrol.md)
