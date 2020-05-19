@@ -27,9 +27,13 @@ Zeek logs are organized by their categories:
 ## Data Dictionary
 The following are fields added to each event, for the rest of the fields see its specific log 
 
-|	        Standard Name       	|	     Sample Value           	|       	    Type            	|   	    Description          	
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
-| event_type                     | network             | string | The zeek category of logs |
+| Standard Name                   | Field Name                      | Type                            | Description                                                                                                                                | Sample Value                    |
+| ------------------------------- | ------------------------------- | ------------------------------- | -------------------------------                                                                                                            | ------------------------------- |
+| @timestamp                      | ts                              | date_time                       | Timestamp of the beginning of the event in epoch format                                                                                    | `1562945561.215724`             |
+| host_name                       | @sensor                         | string                          | can also be `_system_name`. The Zeek log name. ie: `conn` log would be `conn`, `smb_files` is `smb_files`, `notice` is `notice, and so on. | `ssl`                           |
+| event_log_sub_type              | @stream                         | string                          | can also be `_path`. The Zeek log name. ie: `conn` log would be `conn`, `smb_files` is `smb_files`, `notice` is `notice, and so on.        | `ssl`                           |
+| event_log_type                  | z_Enrichment                    | string                          | The type/product of log                                                                                                                    | `zeek`                          |
+| event_log_category_type         | z_Enrichment                    | string                          | The Zeek "category" of logs. (ie: `network-protocols`, `diagnostics`, etc)                                                                 | `network-protocols`             |
 
 ## Resources
 
