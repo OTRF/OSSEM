@@ -32,4 +32,5 @@ Event fields used to define specific metadata of the event itself. For example `
 
 
 ### TODO:
-figure out something like windows - application channel that has a souce within.. so `event_log_type:wef` `event_log_sub_type:Application` then what is (for example) `Application Error` (should probably be called `event_log_category_type`) and then `Application Crashing Events` would be `event_log_sub_category_type` 
+figure out something like windows - application channel that has a souce within..  
+so `event_log_type:wef` `event_log_sub_type:Application` then what is (for example) `Application Error` (should probably be called `event_log_category_type`) and then `Application Crashing Events` would be `event_log_sub_category_type` 
