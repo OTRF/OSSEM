@@ -2,7 +2,7 @@
 
 Event fields used to define specific metadata about the event during the processing of an ETL pipeline.
 
-## Data *Fields*
+## Data Fields
 
 | Standard Name                  | Type      | Description                                                                                                                                                                                                                                                                            | Sample Value                           | 
 | --------                       | --------- | -------                                                                                                                                                                                                                                                                                | -------                                | 
