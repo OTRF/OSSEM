@@ -21,7 +21,7 @@ The network connection event logs TCP/UDP connections on the machine. It is disa
 |src_port_name|SourcePortName|string|name of the source port being used (i.e. netbios-dgm)|`netbios-dgm`|
 |dst_is_ipv6|DestinationIsIpv6|boolean|is the destination ip an Ipv6|`C:\Windows\System32\cmd.exe`|
 |dst_ip_addr|DestinationIp|ip|ip address destination|`192.168.64.135`|
-|dst_host_name|DestinationHostName|string|name of the host that received the network connection|`DC-WD-001`|
+|dst_host_name|DestinationHostname|string|name of the host that received the network connection|`DC-WD-001`|
 |dst_port|DestinationPort|integer|destination port number|`138`|
 |dst_port_name|DestinationPortName|string|name of the destination port|`netbios-dgm`|
 
