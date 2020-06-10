@@ -1,7 +1,7 @@
 # Kerberos Schema
 
 Event fields used to define Kerberos Ticket Granting Service and Kerberos Ticket Granting Tickets.  
-For certificate information within Kerberos see the [X509 and Certificates Schema](./x509_and_certificates.md)
+For certificate information within Kerberos see the [X509 and Certificates Schema](x509_and_certificates.md)
 
 ## Data Fields
 

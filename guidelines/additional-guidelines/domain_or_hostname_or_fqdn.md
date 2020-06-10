@@ -3,10 +3,10 @@
 This guide will show you how to label FQDNs, Domains, and Hostnames (for both source/destination) commonly found in logs for Endpoint, DNS, HTTP, SSL, SMB, Radius, URLs, etc...  
 However, there is an incredible amount of ambiguity, in logging, regarding the values for a Domain, Hostname, and FQDN (fully qualified domain name).
 
-Therefore, we are going to (try) to clear up this ambiguity in order to properly implement a schema.  The order of this guideline is as follows (skip to [Implementation](./domain_or_hostname_or_fqdn.md#Implementation) if you have already read the definitions and problem framing)  
-1. Explain the [Common Definitions](./domain_or_hostname_or_fqdn.md#Common-Definitions), apart from this schema, for these three terms. 
-1. Show some [examples](./domain_or_hostname_or_fqdn.md#Examples-of-Ambiguity) that cause ambiguity in these common definitions. 
-1. Outline and guideline for how to perform the [Implementation](./domain_or_hostname_or_fqdn.md#Implementation) for this schema  
+Therefore, we are going to (try) to clear up this ambiguity in order to properly implement a schema.  The order of this guideline is as follows (skip to [Implementation](domain_or_hostname_or_fqdn.md#Implementation) if you have already read the definitions and problem framing)  
+1. Explain the [Common Definitions](domain_or_hostname_or_fqdn.md#Common-Definitions), apart from this schema, for these three terms. 
+1. Show some [examples](domain_or_hostname_or_fqdn.md#Examples-of-Ambiguity) that cause ambiguity in these common definitions. 
+1. Outline and guideline for how to perform the [Implementation](domain_or_hostname_or_fqdn.md#Implementation) for this schema  
 
 ### Common Definitions
 The following are the most common definitions for a Domain, Hostname, and FQDN. We will use the example value `bob-berto-pc.bigwheel.corporation.local` as the example to visualize the definitions. 
@@ -95,7 +95,7 @@ this would include:
 1. For events/logs with URLs or URIs and the HTTP Host header (option 2) doesn't exist, parse the hostname/domain portion out of the URL.  
 For example:
     - Zeek or Suricata HTTP log, skip this because it is defined in option 2
-    - PaloAlto Threat log using the field `URL/Filename` field as [outlined here](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html) , after first renaming to `url.original` as defined in [URL Schema](../url.md), you would parse the domain/host out of this field and then set it as `dst_host_name`
+    - PaloAlto Threat log using the field `URL/Filename` field as [outlined here](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html) , after first renaming to `url.original` as defined in [URL Schema](../../common_information_model/entities/url.md), you would parse the domain/host out of this field and then set it as `dst_host_name`
 1. RDP client/source name should be set as  `src_host_name`
 1. Endpoint (ie: Windows/Linux) logs that do **NOT** apply to the following:  
     a) defined in the use cases above  
