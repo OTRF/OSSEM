@@ -3,7 +3,7 @@ Event fields used to define metadata about network information seen in a typical
 
 ## Data Fields
 |Standard Name|Type|Description|Sample Value|
-|---|---|---|---|---|
+|---|---|---|---|
 | fingerprint_network_community_id    | string  | Network community ID as outlined by the standard from https://github.com/corelight/community-id-spec. Standardized hashing of network tuple. The combination, most commonly, of Source IP, Source Port, Destination IP, Destination Port, and IP Protocol allows pivoting between multiple log types | 1:EeVyZ07VGj1n0rld+xCLFdM+u8M=
 | network_application_name            | string  | Layer 7 (application) name specific to service/name/software as provided by a device or user                                                                                                                                                                                                         | google-drive
 | network_application_protocol        | string  | Layer 7 (application) in the OSI model. Ex: HTTP,SMB,FTP,SSH, etc. This should be lowercased                                                                                                                                                                                                         | HTTP

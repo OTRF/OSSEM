@@ -3,7 +3,7 @@ Event fields used to define metadata about files either locally or over the wire
 
 ## Data Fields
 |Standard Name|Type|Description|Sample Value|
-|---|---|---|---|---|
+|---|---|---|---|
 | file_accessed_time          | date    | When the file was last accessed . Also known as `atime`       | `2016-11-25 18:21:47`                  |
 | file_changed_time           | date    | When the file was last changed. Also known as `ctime`         | `2016-11-25 18:21:47`                  |
 | file_company                | string  | Company name a file belongs to                                | `Microsoft Corporation`                |
