@@ -1,11 +1,9 @@
 # Group Schema
-
 Event fields used to define metadata about a security group, or distribution group that is created changed or deleted.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | group_name        | string | the name of a security group, or a distribution group that is created, changed, or deleted                                                                                                                                                                                                                                                                                                                                                                                             | AccountOperators                              |
 | group_domain      | string | domain or computer name of the group                                                                                                                                                                                                                                                                                                                                                                                                                                                   | CONTOSO                                       |
 | group_sid         | string | SID of a group                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | S-1-5-21-3457937927-2839227994-823803824-6605 |

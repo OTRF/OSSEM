@@ -1,11 +1,9 @@
 # Hash Schema
-
 Event fields used to define metadata about hashes.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | hash_imphash           | string | IMPHASH hash of the image/binary/file. [For more info](https://www.fireeye.com/blog/threat-research/2014/01/tracking-malware-import-hashing.html)                                               | `2505BD03D7BD285E50CE89CEC02B333B`                                                                                                 |
 | hash_ja3               | string | [JA3]([https://github.com/salesforce/ja3) is a method for creating SSL/TLS client fingerprints that should be easy to produce on any platform and can be easily shared for threat intelligence. | 6734f37431670b3ab4292b8f60f29984                                                                                                   |
 | hash_ja3s              | string | [JA3S]([https://github.com/salesforce/ja3) is JA3 for the Server side of the SSL/TLS communication and fingerprints how servers respond to particular clients.                                  | 4192c0a946c5bd9b544b4656d9f624a4                                                                                                   |

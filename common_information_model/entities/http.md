@@ -1,13 +1,11 @@
 # HTTP Schema
-
 Event fields used to define metadata about HTTP information. This is based on information in the layer 7 (HTTP) application, however can also include HTTP information from an endpoint/server.
 IIS, Apache, NGINX, proxy logs, and other variances of logs that have HTTP information would go in here.
 Also, if the HTTP connection is from a decrypted/MITM HTTPS/TLS session then portions of that information, where applicable, would go in here.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | http_cookie_variables       | string  | The values of (HTTP) cookies                                                                                                                                                                                                                                                        | `T1NTRU0K`                                                                                                            | 
 | http_informational_code     | integer | integer response code of 100-199                                                                                                                                                                                                                                                    | `101`                                                                                                                 | 
 | http_informational_message  | string  | message/text of the integer response code that was 100-199                                                                                                                                                                                                                          | `Switching Protocols`                                                                                                 | 

@@ -1,11 +1,9 @@
 # Destination NAT Schema
-
 Event fields used to define the destination NAT (network address translation) in a network connection event.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | dst_nat_ip_addr        | ip      | the IP address that the Destination IP gets translated into during NAT                                                                                                                 | `8.8.8.8`           |
 | dst_nat_is_ipv6        | boolean | If `dst_nat_ip_addr` is IP version 6                                                                                                                                                   | `false`             |
 | dst_nat_mac            | string  | the MAC address that the Destination MAC gets translated into during NAT                                                                                                               | `a9:68:82:28:c4:6d` |

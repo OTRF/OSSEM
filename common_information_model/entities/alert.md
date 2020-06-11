@@ -1,11 +1,9 @@
 # Alert Schema
-
 Alert fields that describe an indicator from a tool of a possible issue.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | alert_id          | integer | Alert ids might repeat across different data sources | 1234                                                                                       |
 | alert_signature   | string  | The name or title of an alert                        | EvilActor:CnCv2                                                                            |
 | alert_message     | string  | The message provided by the alert                    | A file exhibiting behavior of the evil/actor command and control framework 2 was detected. |

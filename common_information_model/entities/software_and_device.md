@@ -1,12 +1,9 @@
 # Device and Software Schema
 Information about software or a (build) device and operating system. There are many similar information between and device and operating system and software that these will be kept in one general schema.
 
-
-
 ## Data Fields
-
-|	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | hash_software_checksum      | string | The hash to verify software/package                                                                                               | ``                                                                |
 | software_additional         | string | remaining/extra/additional values                                                                                                 | ``                                                                |
 | software_architecture       | string | CPU architecture, here is a list of examples (seperated by ";"                                                                    | `"arm";"amd64";"x64";"64bit";"32bit";"8bit";"mips"`               |

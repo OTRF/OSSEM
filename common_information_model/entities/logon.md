@@ -1,11 +1,9 @@
 # Logon Schema
-
 Event fields used to define metadata about logon events.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | user_logon_id                         | integer | hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 0x8dcdc                                                                                               |
 | logon_type                            | integer | the type of logon which was performed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 2                                                                                                     |
 | logon_process_name                    | string  | The name of the trusted logon process that was used for the logon. See event “4611: A trusted logon process has been registered with the Local Security Authority” description for more information.                                                                                                                                                                                                                                                                                                                                                                                                   | User32                                                                                                |

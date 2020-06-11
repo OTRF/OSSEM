@@ -1,11 +1,9 @@
 # Source Schema
-
 Event fields used to define the source (client) in a network connection event.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | src_bytes          | integer | network bytes sent by the `src_ip_addr`                                                                                                                                                                                                                                                                                                                                                                | `100`                                     |
 | src_domain         | string  | If there is a clear distinction of the domain VS hostname VS FQDN this is the domain field. More often than not this should NOT be used and should be defined in the [Target Schema](target.md), [Host Schema](host.md), or [User Schema](user.md). However, you may follow the recommendations [here](../../guidelines/domain_or_hostname_or_fqdn.md) if there is a clear example for this | `bigwheel.corporation.local`              |
 | src_file_extension | string  | The file extension of a file (.txt, .exe, etc)                                                                                                                                                                                                                                                                                                                                                         | `exe`                                     |

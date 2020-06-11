@@ -1,5 +1,4 @@
 # DNS Schema
-
 Event fields used to define metadata in DNS events. This commonly includes data in logs that contain DNS queries.
 Including, but not limited to, Zeek dns.log, Suricata DNS, Sysmon EventID 22, Windows DNS debug/trace logs.
 In the verbiage below, request is used to denote the client (or forwarded address if applicable) that is making the DNS request. This would commonly be the client/source that is looking up a domain.
@@ -7,9 +6,8 @@ The response/answer, is used to denote the server that responded with the answer
 It is important to remember that in DNS logs their are multiple servers that may be involved in the response. This is similar to how packets are forwarded through routers.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | dns_additional_authoritative_name | string       | additional authoritative response data from the supplemental information in the “additional” section of the DNS response defined in [RFC2181](https://tools.ietf.org/html/rfc2181#section-5.4.1)                                                                                                                   | `google.com`   |
 | dns_additional_name               | string       | additional response data from the supplemental information in the “additional” section of the DNS response defined in [RFC2181](https://tools.ietf.org/html/rfc2181#section-5.4.1)                                                                                                                                 | `10.10.10.1`   |
 | dns_flags                         | array_string | An array of DNS flags if the data source does not parse them or set as boolean                                                                                                                                                                                                                                     | `[ "1", "0" ]` |

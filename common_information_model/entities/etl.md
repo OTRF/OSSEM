@@ -1,11 +1,9 @@
 # ETL Schema
-
 Event fields used to define specific metadata about the event during the processing of an ETL pipeline.
 
 ## Data Fields
-
-| Standard Name                  | Type      | Description                                                                                                                                                                                                                                                                            | Sample Value                           | 
-| --------                       | --------- | -------                                                                                                                                                                                                                                                                                | -------                                | 
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | etl_format_applied             | string    | Formatting or encoding applied during the ETL processing. Also referred to as CODEC in some use cases. Can be an array if multiple formats were applied/determined                                                                                                                     | `[ "sylog", "json" ]`                  | 
 | etl_format_is_cef              | boolean   | During ETL processing, event is determined to be CEF (format)                                                                                                                                                                                                                          | `false`                                | 
 | etl_format_is_json             | boolean   | During ETL processing, event is determined to be JSON (format)                                                                                                                                                                                                                         | `true`                                 | 
