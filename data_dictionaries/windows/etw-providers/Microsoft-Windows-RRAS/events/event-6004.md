@@ -1,0 +1,16 @@
+# Event 6004 - task_0
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|DebugString|UnicodeString|None|`None`|
+|TBD|BufferSize|UInt32|None|`None`|
+|TBD|Buffer|Binary|None|`None`|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_ut:Vpnike
+* etw_task_task_0

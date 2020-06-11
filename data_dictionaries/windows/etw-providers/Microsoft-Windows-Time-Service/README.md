@@ -1,0 +1,85 @@
+# Microsoft-Windows-Time-Service ETW events
+
+## Description
+This page contains the list of events for Microsoft-Windows-Time-Service, as collected by the Event Tracing for Windows.
+
+## Sub Data Sets
+|events|Description|Tags|
+|---|---|---|
+|[1](events/event-1.md)|None|etw_level_Error, etw_task_task_0|
+|[10](events/event-10.md)|None|etw_level_Warning, etw_task_task_0|
+|[129](events/event-129.md)|None|etw_level_Warning, etw_task_task_0|
+|[130](events/event-130.md)|None|etw_level_Warning, etw_task_task_0|
+|[131](events/event-131.md)|None|etw_level_Warning, etw_task_task_0|
+|[132](events/event-132.md)|None|etw_level_Warning, etw_task_task_0|
+|[133](events/event-133.md)|None|etw_level_Warning, etw_task_task_0|
+|[134](events/event-134.md)|None|etw_level_Warning, etw_task_task_0|
+|[135](events/event-135.md)|None|etw_level_Warning, etw_task_task_0|
+|[136](events/event-136.md)|None|etw_level_Warning, etw_task_task_0|
+|[137](events/event-137.md)|None|etw_level_Informational, etw_task_task_0|
+|[138](events/event-138.md)|None|etw_level_Informational, etw_task_task_0|
+|[14](events/event-14.md)|None|etw_level_Warning, etw_task_task_0|
+|[146](events/event-146.md)|None|etw_level_Informational, etw_task_task_0|
+|[15](events/event-15.md)|None|etw_level_Warning, etw_task_task_0|
+|[156](events/event-156.md)|None|etw_level_Warning, etw_task_task_0|
+|[157](events/event-157.md)|None|etw_level_Warning, etw_task_task_0|
+|[158](events/event-158.md)|None|etw_level_Informational, etw_task_task_0|
+|[159](events/event-159.md)|None|etw_level_Warning, etw_task_task_0|
+|[16](events/event-16.md)|None|etw_level_Warning, etw_task_task_0|
+|[17](events/event-17.md)|None|etw_level_Warning, etw_task_task_0|
+|[18](events/event-18.md)|None|etw_level_Warning, etw_task_task_0|
+|[19](events/event-19.md)|None|etw_level_Error, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Warning, etw_task_task_0|
+|[20](events/event-20.md)|None|etw_level_Error, etw_task_task_0|
+|[22](events/event-22.md)|None|etw_level_Warning, etw_task_task_0|
+|[23](events/event-23.md)|None|etw_level_Warning, etw_task_task_0|
+|[24](events/event-24.md)|None|etw_level_Warning, etw_task_task_0|
+|[25](events/event-25.md)|None|etw_level_Warning, etw_task_task_0|
+|[257](events/event-257.md)|None|etw_level_Informational, etw_task_task_0|
+|[258](events/event-258.md)|None|etw_level_Informational, etw_task_task_0|
+|[259](events/event-259.md)|None|etw_level_Informational, etw_task_task_0|
+|[26](events/event-26.md)|None|etw_level_Warning, etw_task_task_0|
+|[260](events/event-260.md)|None|etw_level_Informational, etw_task_task_0|
+|[261](events/event-261.md)|None|etw_level_Informational, etw_task_task_0|
+|[262](events/event-262.md)|None|etw_level_Informational, etw_task_task_0|
+|[263](events/event-263.md)|None|etw_level_Informational, etw_task_task_0|
+|[264](events/event-264.md)|None|etw_level_Informational, etw_task_task_0|
+|[265](events/event-265.md)|None|etw_level_Informational, etw_task_task_0|
+|[266](events/event-266.md)|None|etw_level_Informational, etw_task_task_0|
+|[27](events/event-27.md)|None|etw_level_Warning, etw_task_task_0|
+|[272](events/event-272.md)|None|etw_level_Informational, etw_task_task_0|
+|[273](events/event-273.md)|None|etw_level_Informational, etw_task_task_0|
+|[274](events/event-274.md)|None|etw_level_Warning, etw_task_task_0|
+|[275](events/event-275.md)|None|etw_level_Warning, etw_task_task_0|
+|[276](events/event-276.md)|None|etw_level_Warning, etw_task_task_0|
+|[279](events/event-279.md)|None|etw_level_Warning, etw_task_task_0|
+|[280](events/event-280.md)|None|etw_level_Warning, etw_task_task_0|
+|[29](events/event-29.md)|None|etw_level_Warning, etw_task_task_0|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_task_task_0|
+|[30](events/event-30.md)|None|etw_level_Warning, etw_task_task_0|
+|[32](events/event-32.md)|None|etw_level_Warning, etw_task_task_0|
+|[33](events/event-33.md)|None|etw_level_Warning, etw_task_task_0|
+|[34](events/event-34.md)|None|etw_level_Error, etw_task_task_0|
+|[35](events/event-35.md)|None|etw_level_Informational, etw_task_task_0|
+|[36](events/event-36.md)|None|etw_level_Warning, etw_task_task_0|
+|[37](events/event-37.md)|None|etw_level_Informational, etw_task_task_0|
+|[38](events/event-38.md)|None|etw_level_Warning, etw_task_task_0|
+|[4](events/event-4.md)|None|etw_level_Error, etw_task_task_0|
+|[40](events/event-40.md)|None|etw_level_Warning, etw_task_task_0|
+|[43](events/event-43.md)|None|etw_level_Warning, etw_task_task_0|
+|[44](events/event-44.md)|None|etw_level_Error, etw_task_task_0|
+|[45](events/event-45.md)|None|etw_level_Error, etw_task_task_0|
+|[46](events/event-46.md)|None|etw_level_Error, etw_task_task_0|
+|[47](events/event-47.md)|None|etw_level_Warning, etw_task_task_0|
+|[48](events/event-48.md)|None|etw_level_Warning, etw_task_task_0|
+|[49](events/event-49.md)|None|etw_level_Warning, etw_task_task_0|
+|[5](events/event-5.md)|None|etw_level_Error, etw_task_task_0|
+|[50](events/event-50.md)|None|etw_level_Warning, etw_task_task_0|
+|[51](events/event-51.md)|None|etw_level_Warning, etw_task_task_0|
+|[52](events/event-52.md)|None|etw_level_Warning, etw_task_task_0|
+|[53](events/event-53.md)|None|etw_level_Warning, etw_task_task_0|
+|[54](events/event-54.md)|None|etw_level_Error, etw_task_task_0|
+|[6](events/event-6.md)|None|etw_level_Warning, etw_task_task_0|
+|[7](events/event-7.md)|None|etw_level_Warning, etw_task_task_0|
+|[8](events/event-8.md)|None|etw_level_Warning, etw_task_task_0|
+|[9](events/event-9.md)|None|etw_level_Warning, etw_task_task_0|

@@ -1,0 +1,15 @@
+# Event 1010 - NavigationComplete
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|Url|UnicodeString|None|`None`|
+
+## Tags
+* etw_level_Informational
+* etw_keywords_AuthHost
+* etw_opcode_Stop
+* etw_task_NavigationComplete

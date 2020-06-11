@@ -1,0 +1,14 @@
+# Event 27 - CsDisplayState
+
+## Description
+None
+
+## Data Dictionary
+|Standard Name|Field Name|Type|Description|Sample Value|
+|---|---|---|---|---|
+|TBD|On|UInt32|None|`None`|
+
+## Tags
+* etw_level_Always
+* etw_keywords_Cs
+* etw_task_CsDisplayState
