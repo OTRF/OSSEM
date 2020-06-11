@@ -3,10 +3,10 @@
 This guide will show you how to label FQDNs, Domains, and Hostnames (for both source/destination) commonly found in logs for Endpoint, DNS, HTTP, SSL, SMB, Radius, URLs, etc...  
 However, there is an incredible amount of ambiguity, in logging, regarding the values for a Domain, Hostname, and FQDN (fully qualified domain name).
 
-Therefore, we are going to (try) to clear up this ambiguity in order to properly implement a schema.  The order of this guideline is as follows (skip to [Implementation](domain_or_hostname_or_fqdn.md#Implementation) if you have already read the definitions and problem framing)  
-1. Explain the [Common Definitions](domain_or_hostname_or_fqdn.md#Common-Definitions), apart from this schema, for these three terms. 
-1. Show some [examples](domain_or_hostname_or_fqdn.md#Examples-of-Ambiguity) that cause ambiguity in these common definitions. 
-1. Outline and guideline for how to perform the [Implementation](domain_or_hostname_or_fqdn.md#Implementation) for this schema  
+Therefore, we are going to (try) to clear up this ambiguity in order to properly implement a schema.  The order of this guideline is as follows (skip to [Implementation](./domain_or_hostname_or_fqdn.md#Implementation) if you have already read the definitions and problem framing)  
+1. Explain the [Common Definitions](./domain_or_hostname_or_fqdn.md#Common-Definitions), apart from this schema, for these three terms. 
+1. Show some [examples](./domain_or_hostname_or_fqdn.md#Examples-of-Ambiguity) that cause ambiguity in these common definitions. 
+1. Outline and guideline for how to perform the [Implementation](./domain_or_hostname_or_fqdn.md#Implementation) for this schema  
 
 ### Common Definitions
 The following are the most common definitions for a Domain, Hostname, and FQDN. We will use the example value `bob-berto-pc.bigwheel.corporation.local` as the example to visualize the definitions. 
@@ -75,7 +75,7 @@ This field is optional. Because there are many scenarios (as briefly outlined ab
 - `src_fqdn`
 
 ### Implementation Examples
-1. Sysmon [EventID:3 network connection event log](../data_dictionaries/windows/sysmon/event-3.md) field for `DestinationHostName` should be set as `dst_host_name`
+1. Sysmon [EventID:3 network connection event log](../../data_dictionaries/windows/sysmon/event-3.md) field for `DestinationHostName` should be set as `dst_host_name`
 1. HTTP or Proxy or web server application logs (ie: IIS, Apache, NGINX, etc...), with the hostname/domain (also known as the HTTP Host header) should be set as `dst_host_name`  
 this would include:
     - Zeek HTTP field `host`
@@ -88,7 +88,7 @@ this would include:
     - NGINX field `hostname`
     - IIS field `vhost`
 1. Kerberos service name should be set as `dst_host_name`
-1. Sysmon [EventID:22 dns query event log](../data_dictionaries/windows/sysmon/event-22.md) field for `QueryName` should be set as `dst_host_name`
+1. Sysmon [EventID:22 dns query event log](../data_dictionaries/windows/sysmon/events/event-22.md) field for `QueryName` should be set as `dst_host_name`
 1. DNS query name field should be set as `dst_host_name`
     - Zeek DNS field `query`
     - Suricata DNS field `rrname`
@@ -99,9 +99,8 @@ For example:
 1. RDP client/source name should be set as  `src_host_name`
 1. Endpoint (ie: Windows/Linux) logs that do **NOT** apply to the following:  
     a) defined in the use cases above  
-    b) already defined in [data dictionaries](../data_dictionaries) (ex: [Windows Kerberos EventID:4768](../data_dictionaries/windows/security/events/event-4768.md), [Windows Logon EventID:4624](../data_dictionaries/windows/security/events/event-4624.md))  
-    c) logically fit into Target or 
-and are NOT 
+    b) already defined in [data dictionaries](../data_dictionaries) (ex: [Windows Kerberos EventID:4768](../data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4768.md), [Windows Logon EventID:4624](../data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4624_v2.md))  
+    c) logically fit into Target or and are NOT 
     1. FQDN and Domain values exist.
         - Set the field for the FQDN value as `dst_fqdn`  
         - Copy the value for `dst_fqdn` into the field `dst_host_name`  

@@ -38,7 +38,7 @@ The project is currently in an alpha stage, which means that the content is stil
 
 # Projects Using OSSEM
 
-* [HELK](https://github.com/Cyb3rWard0g/HELK)
+* [HELK](https://github.com/Cyb3rWard0g/HELK) currently updating its pipeline configs
 
 # Resources
 
