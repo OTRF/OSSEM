@@ -1,7 +1,10 @@
 # Data Object Relationships
+None
+
+## Data Fields
 
 |	Sub Data Sources	|	Data Objects (Origin)	|	Relationship	|	Data Objects (Destination)	|
-|-------------------------------|---------------------|---------------------------------|---------------------------------|
+|---|---|---|---|
 | process creation | process | created | process|
 | process termination | process | terminated | |
 | process write to process | process | wrote_to | process|
@@ -90,11 +93,11 @@
 | scheduled task enable | user | enabled | scheduled task|
 | scheduled task disable | user | disabled | scheduled task|
 | scheduled task update | user | updated | scheduled task|
-| win registry key access | user | accessed | registry|
-| win registry key deletion | user | deleted | registry|
-| win registry key permissions change | user | changed_permissions | registry|
-| win registry key value modification | user | modified | registry|
-| win registry key value modification | process | modified | registry|
+|win registry key access|user|accessed|win registry|
+|win registry key deletion|user|deleted|win registry|
+|win registry key permissions change|user|changed_permissions|win registry|
+|win registry key value modification|user|modified|win registry|
+|win registry key value modification|process|modified|win registry|
 | sam service object handle request | user | requested_a_handle | sam object|
 | user account access addition | user | granted_access | user|
 | user account access removal | user | removed_access | user|

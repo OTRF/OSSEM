@@ -1,5 +1,10 @@
+# User Object Relationships
+None
+
+## Data Fields
+
 |	ATT&CK Data Source	|	Sub Data Source	|	Source Data Object	|	Relationship	|	Destination Data Object	|	EventID	|
-|	-----------------	|	---------------	|	------------------	|	------------	|	---------------------	|	-------	|
+|---|---|---|---|---|---|
 |	Process use of network	|	process network connection allow	|	user	|	connected_to	|	ip	|	3	|
 |	Windows event logs	|	kerberos TGT request	|	user	|	requested	|	kerberos_tgt	|	4768	|
 |	Windows event logs	|	kerberos TGT request	|	user	|	requested	|	kerberos_tgt	|	4768	|

@@ -1,5 +1,10 @@
+# Host Object Relationships
+None
+
+## Data Fields
+
 |	ATT&CK Data Source	|	Sub Data Source	|	Source Data Object	|	Relationship	|	Destination Data Object	|	EventID	|
-|	-----------------	|	---------------	|	------------------	|	------------	|	---------------------	|	-------	|
+|---|---|---|---|---|---|
 |	Windows event logs, Authentication logs	|	NTLM Credentials Validation	|	host	|	authenticated	|	user	|	4776	|
 |	Process use of network	|	process network service connection block	|	host	|	blocked_service_connection_to	|	process	|	5031	|
 |	Process use of network	|	process network listener allow	|	host	|	permitted_listener_on	|	process	|	5154	|
