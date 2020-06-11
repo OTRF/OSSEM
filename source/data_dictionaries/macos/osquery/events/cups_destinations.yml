@@ -1,0 +1,29 @@
+title: Cups_destinations Table
+description: Returns all configured printers.
+platform: macos
+log_source: osquery
+event_code: cups_destinations
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of the printer
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: option_name
+  type: TEXT
+  description: Option name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: option_value
+  type: TEXT
+  description: Option value
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#cups_destinations
+tags:
+- version_4.4.2

@@ -1,0 +1,116 @@
+title: Socks Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: socks
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '1080'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the tunnel - may correspond to connection uid or be non-existent
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: user
+  type: string
+  description: Username used to request a login to the proxy
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: password
+  type: string
+  description: Password used to request a login to the proxy
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: bound_host
+  type: ip
+  description: Server bound ip
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: bound_name
+  type: string
+  description: Server bound name.
+  sample_value: "i)'\xD0\xD0#\"\";\"\"8\xD0\xD0\xF6"
+- standard_name: TBD
+  standard_type: TBD
+  name: bound_p
+  type: integer
+  description: Server bound port.
+  sample_value: '19973'
+- standard_name: TBD
+  standard_type: TBD
+  name: request_host
+  type: ip
+  description: Client requested SOCKS ip
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: request_name
+  type: string
+  description: Client requested SOCKS name
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: request_p
+  type: integer
+  description: Client requested port
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: string
+  description: Server status for the attempt at using the proxy.
+  sample_value: succeeded
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: integer
+  description: Protocol version of SOCKS.
+  sample_value: '4'
+- standard_name: TBD
+  standard_type: TBD
+  name: bound_
+  type: json_object
+  description: Server bound address. Could be an address, a name or both
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: request_
+  type: json_object
+  description: Client requested SOCKS address. Could be an address, a name or both
+  sample_value: '``'
+references: []
+tags: []

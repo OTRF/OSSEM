@@ -1,0 +1,65 @@
+title: Shared_resources Table
+description: Displays shared resources on a computer system running Windows. This
+  may be a disk drive, printer, interprocess communication, or other sharable device.
+platform: windows
+log_source: osquery
+event_code: shared_resources
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: A textual description of the object
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: install_date
+  type: TEXT
+  description: Indicates when the object was installed. Lack of a value does not indicate
+    that the object is not installed.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: TEXT
+  description: String that indicates the current status of the object.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: allow_maximum
+  type: INTEGER
+  description: Number of concurrent users for this resource has been limited. If True,
+    the value in the MaximumAllowed property is ignored.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: maximum_allowed
+  type: INTEGER
+  description: Limit on the maximum number of users allowed to use this resource concurrently.
+    The value is only valid if the AllowMaximum property is set to FALSE.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Alias given to a path set up as a share on a computer system running
+    Windows.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Local path of the Windows share.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: INTEGER
+  description: 'Type of resource being shared. Types include: disk drives, print queues,
+    interprocess communications (IPC), and general devices.'
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#shared_resources
+tags:
+- version_4.4.2

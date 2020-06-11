@@ -1,0 +1,72 @@
+title: Event 101 - USBPORT_URB_INVALID_ISOCHRONOUS_START_FRAME
+description: null
+platform: windows
+log_source: Microsoft-Windows-USB-USBPORT
+event_code: '101'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_HC
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_Device
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_Endpoint
+  type: CountedMbcsString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_Endpoint_Descriptor
+  type: '26'
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_IRP_Ptr
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_URB_Ptr
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_URB_NumberOfPackets
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_URB_ISOCH_TRANSFER
+  type: '32'
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_USBPORT_URB_ISO_PACKETS
+  type: '47'
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_URB_FrameNumber
+  type: UInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_Diagnostic
+- etw_opcode_Dispatch
+- etw_task_USBPORT_URB_INVALID_ISOCHRONOUS_START_FRAME

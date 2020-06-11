@@ -1,0 +1,53 @@
+title: Carves Table
+description: Forensic Carves.
+platform: macos
+log_source: osquery
+event_code: carves
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time at which the carve was kicked off
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha256
+  type: TEXT
+  description: A SHA256 sum of the carved archive
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: Size of the carved archive
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: The path of the requested carve
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: TEXT
+  description: Status of the carve, can be STARTING, PENDING, SUCCESS, or FAILED
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: carve_guid
+  type: TEXT
+  description: Identifying value of the carve session
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: carve
+  type: INTEGER
+  description: Set this value to '1' to start a file carve
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#carves
+tags:
+- version_4.4.2

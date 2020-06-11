@@ -1,0 +1,56 @@
+title: 'Event ID 4931: An Active Directory replica destination naming context was
+  modified.'
+description: This event generates every time Active Directory replica destination
+  naming context was modified.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4931'
+event_fields:
+- standard_name: destination_dra
+  standard_type: TBD
+  name: DestinationDRA
+  type: UnicodeString
+  description: destination directory replication agent distinguished name.
+  sample_value: ddec0cff-6ceb-4a59-b13f-1724c38a0970._msdcs.contoso.local
+- standard_name: source_dra
+  standard_type: TBD
+  name: SourceDRA
+  type: UnicodeString
+  description: source directory replication agent distinguished name.
+  sample_value: CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
+- standard_name: source_addr
+  standard_type: TBD
+  name: SourceAddr
+  type: UnicodeString
+  description: DNS record of computer to which the modification request was sent.
+  sample_value: '-'
+- standard_name: naming_context
+  standard_type: TBD
+  name: NamingContext
+  type: UnicodeString
+  description: naming context which was modified.
+  sample_value: DC=ForestDnsZones,DC=contoso,DC=local
+- standard_name: options
+  standard_type: TBD
+  name: Options
+  type: UInt32
+  description: decimal value of DRS Options.
+  sample_value: '23'
+- standard_name: status_code
+  standard_type: TBD
+  name: StatusCode
+  type: UInt32
+  description: if there are no issues or errors, the status code will be 0.
+  sample_value: '0'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4931.md
+- text: MS Security Auditing Category - DS Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#ds-access
+- text: MS Security Auditing Sub-category - Audit Detailed Directory Service Replication
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-detailed-directory-service-replication.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- DS Access
+- Audit Detailed Directory Service Replication

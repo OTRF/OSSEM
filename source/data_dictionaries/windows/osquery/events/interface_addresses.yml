@@ -1,0 +1,53 @@
+title: Interface_addresses Table
+description: Network interfaces and relevant metadata.
+platform: windows
+log_source: osquery
+event_code: interface_addresses
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: interface
+  type: TEXT
+  description: Interface name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: address
+  type: TEXT
+  description: Specific address for interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mask
+  type: TEXT
+  description: Interface netmask
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: broadcast
+  type: TEXT
+  description: Broadcast address for the interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: point_to_point
+  type: TEXT
+  description: PtP address for the interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Type of address. One of dhcp, manual, auto, other, unknown
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: friendly_name
+  type: TEXT
+  description: The friendly display name of the interface. [WINDOWS]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#interface_addresses
+tags:
+- version_4.4.2

@@ -1,0 +1,41 @@
+title: Authorization_mechanisms Table
+description: OS X Authorization mechanisms database.
+platform: macos
+log_source: osquery
+event_code: authorization_mechanisms
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: label
+  type: TEXT
+  description: Label of the authorization right
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: plugin
+  type: TEXT
+  description: Authorization plugin name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mechanism
+  type: TEXT
+  description: Name of the mechanism that will be called
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: privileged
+  type: TEXT
+  description: If privileged it will run as root, else as an anonymous user
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: entry
+  type: TEXT
+  description: The whole string entry
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#authorization_mechanisms
+tags:
+- version_4.4.2

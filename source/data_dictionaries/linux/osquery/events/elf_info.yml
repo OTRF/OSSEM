@@ -1,0 +1,65 @@
+title: Elf_info Table
+description: ELF file information.
+platform: linux
+log_source: osquery
+event_code: elf_info
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: class
+  type: TEXT
+  description: Class type, 32 or 64bit
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: abi
+  type: TEXT
+  description: Section type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: abi_version
+  type: INTEGER
+  description: Section virtual address in memory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Offset of section in file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: machine
+  type: INTEGER
+  description: Machine type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: INTEGER
+  description: Object file version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: entry
+  type: BIGINT
+  description: Entry point address
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: flags
+  type: INTEGER
+  description: ELF header flags
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to ELF file
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#elf_info
+tags:
+- version_4.4.2

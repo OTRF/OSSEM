@@ -1,0 +1,88 @@
+title: 'Event ID 5379: Credential Manager credentials were read'
+description: This event occurs when a user performs a read operation on stored credentials
+  in Credential Manager.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5379'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that performed a read operation on stored credentials
+    in CM
+  sample_value: S-1-5-18
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that performed a read operation on stored credentials
+    in CM
+  sample_value: ACCT001$
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name
+  sample_value: SHIRE
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x3e7'
+- standard_name: credentials_read
+  standard_type: TBD
+  name: TargetName
+  type: UnicodeString
+  description: stored credentials that were read
+  sample_value: WindowsLive:(token):name=xxxxxasas;serviceuri=*
+- standard_name: credentials_read_type
+  standard_type: TBD
+  name: Type
+  type: UInt32
+  description: ''
+  sample_value: '0'
+- standard_name: credential_read_returned_count
+  standard_type: TBD
+  name: CountOfCredentialsReturned
+  type: UInt32
+  description: ''
+  sample_value: '0'
+- standard_name: object_operation_type
+  standard_type: TBD
+  name: ReadOperation
+  type: UnicodeString
+  description: ''
+  sample_value: '%%8100'
+- standard_name: credentials_read_returned_code
+  standard_type: TBD
+  name: ReturnCode
+  type: UInt32
+  description: ''
+  sample_value: '0'
+- standard_name: process_creation_time
+  standard_type: TBD
+  name: ProcessCreationTime
+  type: FILETIME
+  description: ''
+  sample_value: '2019-02-25T22:33:21.621488200Z'
+- standard_name: process_id
+  standard_type: TBD
+  name: ClientProcessId
+  type: UInt32
+  description: ''
+  sample_value: '4432'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-5379.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit Other System Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-system-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- System
+- Audit Other System Events

@@ -1,0 +1,63 @@
+title: 'Event ID 4664: An attempt was made to create a hard link'
+description: This event generates when an NTFS hard link was successfully created.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4664'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that made an attempt to create the hard link.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that made an attempt to create the hard link.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x43659'
+- standard_name: file_name
+  standard_type: TBD
+  name: FileName
+  type: UnicodeString
+  description: the name of a file or folder that new hard link refers to.
+  sample_value: C:\notepad.exe
+- standard_name: file_link_name
+  standard_type: TBD
+  name: LinkName
+  type: UnicodeString
+  description: full path name with new hard link file name.
+  sample_value: C:\Docs\My.exe
+- standard_name: transaction_id
+  standard_type: TBD
+  name: TransactionId
+  type: GUID
+  description: 'unique GUID of the transaction. This field can help you correlate
+    this event with other events that might contain the same Transaction ID, such
+    as "4660(S): An object was deleted."'
+  sample_value: '{00000000-0000-0000-0000-000000000000}'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4664.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit File System
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-system.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit File System

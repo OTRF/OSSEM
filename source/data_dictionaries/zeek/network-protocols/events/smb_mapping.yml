@@ -1,0 +1,70 @@
+title: SMB Mapping Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: smb_mapping
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1581064350.537106'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '49247'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '445'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID of the connection the tree was mapped over
+  sample_value: 'CVCEfC2Vej9sjr5ARe'
+- standard_name: file_system_type
+  standard_type: TBD
+  name: native_file_system
+  type: string
+  description: File system of the tree.
+  sample_value: NTFS
+- standard_name: share_name
+  standard_type: TBD
+  name: path
+  type: string
+  description: Name of the tree path.
+  sample_value: \\dc001.adtest.local\SysVol
+- standard_name: share_type
+  standard_type: TBD
+  name: share_type
+  type: string
+  description: If this is SMB2, a share type will be included. For SMB1, the type
+    of share will be deduced and included as well.
+  sample_value: DISK
+- standard_name: TBD
+  standard_type: TBD
+  name: service
+  type: string
+  description: The type of resource of the tree (disk share, printer share, named
+    pipe, etc.).
+  sample_value: ''
+references: []
+tags: []

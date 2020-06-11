@@ -1,0 +1,41 @@
+title: Port Schema
+description: Event fields used to define metadata about ports in a network connection.
+data_fields:
+- standard_name: src_port
+  type: integer
+  description: Source port number used in a network connection
+  sample_value: '138'
+- standard_name: src_port_name
+  type: string
+  description: Source port name used in a network connection. This is usually determined
+    by IANA common port assignment. Therefore, this means its a guess and NOT actually
+    what the application/ is what the actually
+  sample_value: netbios-dgm
+- standard_name: src_nat_port
+  type: integer
+  description: Source NAT port number used in a network connection
+  sample_value: '138'
+- standard_name: src_nat_port_name
+  type: string
+  description: Source NAT port name used in a network connection. This is usually
+    determined by IANA common port assignment. Therefore, this means its a guess and
+    NOT actually what the application/ is what the actually
+  sample_value: netbios-dgm
+- standard_name: dst_port
+  type: integer
+  description: Destination port number used in a network connection
+  sample_value: '138'
+- standard_name: dst_port_name
+  type: string
+  description: Destination port name used in a network connection
+  sample_value: netbios-dgm
+- standard_name: dst_nat_port
+  type: integer
+  description: Destination NAT port number used in a network connection
+  sample_value: '138'
+- standard_name: dst_nat_port_name
+  type: string
+  description: Destination NAT port name used in a network connection
+  sample_value: netbios-dgm
+references: []
+tags: []

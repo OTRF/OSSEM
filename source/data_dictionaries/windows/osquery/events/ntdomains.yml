@@ -1,0 +1,59 @@
+title: Ntdomains Table
+description: Display basic NT domain information of a Windows machine.
+platform: windows
+log_source: osquery
+event_code: ntdomains
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: The label by which the object is known.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: client_site_name
+  type: TEXT
+  description: The name of the site where the domain controller is configured.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dc_site_name
+  type: TEXT
+  description: The name of the site where the domain controller is located.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: dns_forest_name
+  type: TEXT
+  description: The name of the root of the DNS tree.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: domain_controller_address
+  type: TEXT
+  description: The IP Address of the discovered domain controller..
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: domain_controller_name
+  type: TEXT
+  description: The name of the discovered domain controller.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: domain_name
+  type: TEXT
+  description: The name of the domain.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: TEXT
+  description: The current status of the domain object.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ntdomains
+tags:
+- version_4.4.2

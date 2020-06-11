@@ -1,0 +1,38 @@
+title: Known Services Log
+description: null
+platform: zeek
+log_source: network-observations
+event_code: known_services
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: TBD
+  standard_type: TBD
+  name: port_network_protocol
+  type: string
+  description: The transport-layer protocol which the service uses.
+  sample_value: tcp
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: ip
+  description: The host address on which the service is running
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: port_num
+  type: integer
+  description: The port number on which the service is running.
+  sample_value: '135'
+- standard_name: TBD
+  standard_type: TBD
+  name: service
+  type: string
+  description: DCE_RPC
+  sample_value: ''
+references: []
+tags: []

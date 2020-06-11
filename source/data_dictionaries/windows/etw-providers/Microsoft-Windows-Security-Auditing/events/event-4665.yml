@@ -1,0 +1,55 @@
+title: 'Event ID 4665: An attempt was made to create an application client context'
+description: Not available
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4665'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: AppName
+  type: UnicodeString
+  description: (Application Information) Application Name
+  sample_value: '-'
+- standard_name: TBD
+  standard_type: TBD
+  name: AppInstance
+  type: UInt64
+  description: (Application Information) Application Instance ID
+  sample_value: '-'
+- standard_name: user_name
+  standard_type: TBD
+  name: ClientName
+  type: UnicodeString
+  description: the name of the account that requested the "assign token to process"
+    operation.
+  sample_value: WIN2008$
+- standard_name: user_domain
+  standard_type: TBD
+  name: ClientDomain
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: TBD
+  standard_type: TBD
+  name: ClientLogonId
+  type: UInt64
+  description: (Subject) Client Context ID
+  sample_value: '616554732'
+- standard_name: TBD
+  standard_type: TBD
+  name: Status
+  type: UInt32
+  description: Status
+  sample_value: '-'
+references:
+- text: Ultimate Windows Security Source
+  link: https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4665
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Application Generated
+  link: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn319094(v=ws.11)
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Application Generated

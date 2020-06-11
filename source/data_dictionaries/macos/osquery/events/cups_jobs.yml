@@ -1,0 +1,59 @@
+title: Cups_jobs Table
+description: Returns all completed print jobs from cups.
+platform: macos
+log_source: osquery
+event_code: cups_jobs
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: title
+  type: TEXT
+  description: Title of the printed job
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: destination
+  type: TEXT
+  description: The printer the job was sent to
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: user
+  type: TEXT
+  description: The user who printed the job
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: format
+  type: TEXT
+  description: The format of the print job
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: The size of the print job
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: completed_time
+  type: INTEGER
+  description: When the job completed printing
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: processing_time
+  type: INTEGER
+  description: How long the job took to process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: creation_time
+  type: INTEGER
+  description: When the print request was initiated
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#cups_jobs
+tags:
+- version_4.4.2

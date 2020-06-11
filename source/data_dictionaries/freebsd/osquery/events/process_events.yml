@@ -1,0 +1,173 @@
+title: Process_events Table
+description: Track time/action process executions.
+platform: freebsd
+log_source: osquery
+event_code: process_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: BIGINT
+  description: Process (or thread) ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of executed file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mode
+  type: TEXT
+  description: File mode permissions
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: cmdline
+  type: TEXT
+  description: Command line arguments (argv)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: cmdline_size
+  type: BIGINT
+  description: Actual size (bytes) of command line arguments
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: env
+  type: TEXT
+  description: Environment variables delimited by spaces
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: env_count
+  type: BIGINT
+  description: Number of environment variables
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: env_size
+  type: BIGINT
+  description: Actual size (bytes) of environment list
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: cwd
+  type: TEXT
+  description: The process current working directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: auid
+  type: BIGINT
+  description: Audit User ID at process start
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: User ID at process start
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: euid
+  type: BIGINT
+  description: Effective user ID at process start
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: Group ID at process start
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: egid
+  type: BIGINT
+  description: Effective group ID at process start
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: owner_uid
+  type: BIGINT
+  description: File owner user ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: owner_gid
+  type: BIGINT
+  description: File owner group ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: atime
+  type: BIGINT
+  description: File last access in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mtime
+  type: BIGINT
+  description: File modification in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ctime
+  type: BIGINT
+  description: File last metadata change in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: btime
+  type: BIGINT
+  description: File creation in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: overflows
+  type: TEXT
+  description: List of structures that overflowed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: parent
+  type: BIGINT
+  description: Process parent's PID, or -1 if cannot be determined.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time of execution in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uptime
+  type: BIGINT
+  description: Time of execution in system uptime
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: BIGINT
+  description: 'OpenBSM Attribute: Status of the process [DARWIN]'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: syscall
+  type: TEXT
+  description: 'Syscall name: fork, vfork, clone, execve, execveat [LINUX]'
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#process_events
+tags:
+- version_4.4.2

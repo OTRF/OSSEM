@@ -1,0 +1,80 @@
+title: Cpu_time Table
+description: Displays information from /proc/stat file about the time the cpu cores
+  spent in different parts of the system.
+platform: macos
+log_source: osquery
+event_code: cpu_time
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: core
+  type: INTEGER
+  description: Name of the cpu (core)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: user
+  type: BIGINT
+  description: Time spent in user mode
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: nice
+  type: BIGINT
+  description: Time spent in user mode with low priority (nice)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: system
+  type: BIGINT
+  description: Time spent in system mode
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: idle
+  type: BIGINT
+  description: Time spent in the idle task
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: iowait
+  type: BIGINT
+  description: Time spent waiting for I/O to complete
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: irq
+  type: BIGINT
+  description: Time spent servicing interrupts
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: softirq
+  type: BIGINT
+  description: Time spent servicing softirqs
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: steal
+  type: BIGINT
+  description: Time spent in other operating systems when running in a virtualized
+    environment
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: guest
+  type: BIGINT
+  description: Time spent running a virtual CPU for a guest OS under the control of
+    the Linux kernel
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: guest_nice
+  type: BIGINT
+  description: 'Time spent running a niced guest '
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#cpu_time
+tags:
+- version_4.4.2

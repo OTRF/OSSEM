@@ -1,0 +1,107 @@
+title: Azure_instance_metadata Table
+description: Azure instance metadata.
+platform: windows
+log_source: osquery
+event_code: azure_instance_metadata
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: location
+  type: TEXT
+  description: Azure Region the VM is running in
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: offer
+  type: TEXT
+  description: Offer information for the VM image (Azure image gallery VMs only)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: publisher
+  type: TEXT
+  description: Publisher of the VM image
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sku
+  type: TEXT
+  description: SKU for the VM image
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Version of the VM image
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: os_type
+  type: TEXT
+  description: Linux or Windows
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: platform_update_domain
+  type: TEXT
+  description: Update domain the VM is running in
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: platform_fault_domain
+  type: TEXT
+  description: Fault domain the VM is running in
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vm_id
+  type: TEXT
+  description: Unique identifier for the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vm_size
+  type: TEXT
+  description: VM size
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: subscription_id
+  type: TEXT
+  description: Azure subscription for the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: resource_group_name
+  type: TEXT
+  description: Resource group for the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: placement_group_id
+  type: TEXT
+  description: Placement group for the VM scale set
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: vm_scale_set_name
+  type: TEXT
+  description: VM scale set name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: zone
+  type: TEXT
+  description: Availability zone of the VM
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#azure_instance_metadata
+tags:
+- version_4.4.2

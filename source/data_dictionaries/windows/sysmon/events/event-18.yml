@@ -1,0 +1,56 @@
+title: 'Event ID 18: PipeEvent (Pipe Connected)'
+description: This event logs when a named pipe connection is made between a client
+  and a server.
+platform: windows
+log_source: sysmon
+event_code: '18'
+event_fields:
+- standard_name: event_type
+  standard_type: TBD
+  name: EventType
+  type: string
+  description: TBD
+  sample_value: '[CreatePipe]{.underline}'
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 6:28
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that connected the pipe
+  sample_value: '{A98268C1-959E-5ACD-0000-0010236E0300}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the process that connected the
+    pipe
+  sample_value: '1896'
+- standard_name: pipe_name
+  standard_type: TBD
+  name: PipeName
+  type: string
+  description: Name of the pipe connecged
+  sample_value: \srvsvc
+- standard_name: process_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process that connected the pipe
+  sample_value: C:\WINDOWS\system32\wbem\wmiprvse.exe
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-18-pipeevent-pipe-connected
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/named-pipes.md
+tags: []

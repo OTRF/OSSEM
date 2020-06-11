@@ -1,0 +1,35 @@
+title: Plist Table
+description: Read and parse a plist file.
+platform: macos
+log_source: osquery
+event_code: plist
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: Preference top-level key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: subkey
+  type: TEXT
+  description: Intermediate key path, includes lists/dicts
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: String value of most CF types
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: (required) read preferences from a plist
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#plist
+tags:
+- version_4.4.2

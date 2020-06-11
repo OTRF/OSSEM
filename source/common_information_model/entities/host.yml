@@ -1,0 +1,37 @@
+title: Host Schema
+description: Event fields used to define metadata about hosts where events are originally
+  created.
+data_fields:
+- standard_name: host_domain
+  type: string
+  description: Name of the domain for the host where the log was created
+  sample_value: hunt.wardog.com
+- standard_name: host_fqdn
+  type: string
+  description: The fully qualified domain name of the host where the log was created
+  sample_value: WKHR001.hunt.wardog.com
+- standard_name: host_interface_guid
+  type: string
+  description: GUID of the network interface which was used for authentication request
+  sample_value: '{2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B}'
+- standard_name: host_interface_name
+  type: string
+  description: the name (description) of the network interface that was used for authentication
+    request. You can get the list of all available network adapters using "ipconfig
+    /all" command
+  sample_value: Microsoft Hyper-V Network Adapter
+- standard_name: host_local_mac
+  type: string
+  description: local interface's MAC-address
+  sample_value: 18:64:72:F3:33:91
+- standard_name: host_name
+  type: string
+  description: Name of the endpoint where the log was created. Usually without the
+    FQDN
+  sample_value: WkHR001
+- standard_name: host_peer_mac
+  type: string
+  description: peer's (typically - access point) MAC-address
+  sample_value: 02:1A:C5:14:59:C9
+references: []
+tags: []

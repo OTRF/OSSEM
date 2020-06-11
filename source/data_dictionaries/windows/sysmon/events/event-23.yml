@@ -1,0 +1,73 @@
+title: 'Event ID 23: FileDelete (A file delete was detected)'
+description: This event logs when a file is deleted by a process.
+platform: windows
+log_source: sysmon
+event_code: '23'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 6:28
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that deleted the file
+  sample_value: '{A98268C1-959E-5ACD-0000-0010236E0300}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the process that deleted the file
+  sample_value: '1896'
+- standard_name: process_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process that deleted the file
+  sample_value: C:\WINDOWS\system32\explorer.exe
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: Name of the account who deleted the file.
+  sample_value: DESKTOP-WARDOG\wardog
+- standard_name: file_name
+  standard_type: TBD
+  name: TargetFilename
+  type: string
+  description: full path name of the deleted file
+  sample_value: C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\7G23PHTPHSQ3S2RVKKPS.temp
+- standard_name: TBD
+  standard_type: TBD
+  name: Hashes
+  type: string
+  description: Hashes captured by sysmon driver of the deleted file
+  sample_value: SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7,
+    SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B
+- standard_name: TBD
+  standard_type: TBD
+  name: IsExecutable
+  type: bool
+  description: TBD
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: Archived
+  type: string
+  description: States if the file was archived when deleted
+  sample_value: Yes
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-23-filedelete-a-file-delete-was-detected
+- text: Sysmon 11 - FileDelete events
+  link: https://medium.com/falconforce/sysmon-11-dns-improvements-and-filedelete-events-7a74f17ca842
+tags: []

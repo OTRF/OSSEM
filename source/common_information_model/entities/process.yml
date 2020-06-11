@@ -1,0 +1,91 @@
+title: Process Schema
+description: Event fields used to define metadata about processes in an system.
+data_fields:
+- standard_name: process_guid
+  type: string
+  description: Process Guid of the main process that got spawned/created (child)
+  sample_value: '{A98268C1-9C2E-5ACD-0000-0010396CAB00}'
+- standard_name: process_id
+  type: integer
+  description: Process ID used by the operating system to identify the created process
+    (child)
+  sample_value: '4756'
+- standard_name: process_name
+  type: string
+  description: The name of the executable without full path related to the process
+    being spawned/created in the event. Considered also the child or source process
+  sample_value: conhost.exe
+- standard_name: process_path
+  type: string
+  description: The complete path and name of the executable related to the main process
+    in the event. Considered also the child or source process path
+  sample_value: C:\Windows\System32\conhost.exe
+- standard_name: process_command_line
+  type: string
+  description: Command arguments that were were executed by the main process in the
+    event (child process)
+  sample_value: ??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+- standard_name: process_integrity_level
+  type: string
+  description: Integrity label assigned to a process
+  sample_value: Medium
+- standard_name: process_parent_guid
+  type: string
+  description: ProcessGUID of the process that spawned/created the main process (child)
+  sample_value: '{A98268C1-9C2E-5ACD-0000-00100266AB00}'
+- standard_name: process_parent_id
+  type: integer
+  description: Process ID of the process that spawned/created the main process (child)
+  sample_value: '240'
+- standard_name: process_parent_name
+  type: string
+  description: The name of the executable without full path related to the process
+    that spawned/created the main process (child)
+  sample_value: cmd.exe
+- standard_name: process_parent_path
+  type: string
+  description: The complete path and name of the executable related to the the process
+    that spawned/created the main process (child)
+  sample_value: C:\Windows\System32\cmd.exe
+- standard_name: process_parent_command_line
+  type: string
+  description: Command arguments that were passed to the executable related to the
+    parent process
+  sample_value: C:\WINDOWS\system32\cmd.exe
+- standard_name: target_process_guid
+  type: string
+  description: Process Guid of the target process
+  sample_value: '{A98268C1-9C2E-5ACD-0000-00100266AB00}'
+- standard_name: target_process_id
+  type: integer
+  description: Process ID used by the os to identify the target process
+  sample_value: '240'
+- standard_name: target_process_name
+  type: string
+  description: The name of the executable related to the target process
+  sample_value: cmd.exe
+- standard_name: target_process_path
+  type: string
+  description: The complete path and name of the executable associated with the target
+    process
+  sample_value: C:\Windows\System32\cmd.exe
+- standard_name: target_process_address
+  type: string
+  description: The memory address where the subprocess is injected
+  sample_value: '0xFFFFBC6422DD9C20'
+- standard_name: process_granted_access
+  type: string
+  description: granted access code requested/used to open a target process
+  sample_value: '0x1000'
+- standard_name: process_call_trace
+  type: string
+  description: Stack trace of where open process is called
+  sample_value: C:\WINDOWS\SYSTEM32\ntdll.dll+a0344 | C:\WINDOWS\System32\KERNELBASE.dll+64794|
+    c:\windows\system32\lsm.dll+10e93| c:\windows\system32\lsm.dll+f9ea| C:\WINDOWS\System32\RPCRT4.dll+76d23|
+    C:\WINDOWS\System32\RPCRT4.dll+d9390| C:\WINDOWS\System32\RPCRT4.dll+a81c| C:\WINDOWS\System32\RPCRT4.dll+273b4|
+    C:\WINDOWS\System32\RPCRT4.dll+2654e| C:\WINDOWS\System32\RPCRT4.dll+26cfb| C:\WINDOWS\System32\RPCRT4.dll+3083f|
+    C:\WINDOWS\System32\RPCRT4.dll+313a6| C:\WINDOWS\System32\RPCRT4.dll+2d12e| C:\WINDOWS\System32\RPCRT4.dll+2e853|
+    C:\WINDOWS\System32\RPCRT4.dll+5cc68| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46|
+    C:\WINDOWS\System32\KERNEL32.DLL+11fe4| C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1
+references: []
+tags: []

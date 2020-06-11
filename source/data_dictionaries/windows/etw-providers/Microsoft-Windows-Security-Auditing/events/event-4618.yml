@@ -1,0 +1,68 @@
+title: 'Event ID 4618: A monitored security event pattern has occurred.'
+description: This event is generated when Windows is configured to generate alerts
+  in accordance with the Common Criteria Security Audit Analysis requirements (FAU_SAA)
+  and an auditable event pattern occurs.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4618'
+event_fields:
+- standard_name: event_id
+  standard_type: TBD
+  name: EventId
+  type: UInt32
+  description: ''
+  sample_value: '4624'
+- standard_name: computer_name
+  standard_type: TBD
+  name: ComputerName
+  type: UnicodeString
+  description: ''
+  sample_value: DC01.contoso.local
+- standard_name: user_sid
+  standard_type: TBD
+  name: TargetUserSid
+  type: SID
+  description: ''
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: TargetUserName
+  type: UnicodeString
+  description: ''
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: TargetUserDomain
+  type: UnicodeString
+  description: ''
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: TargetLogonId
+  type: HexInt64
+  description: ''
+  sample_value: '0x1'
+- standard_name: TBD
+  standard_type: TBD
+  name: EventCount
+  type: UInt32
+  description: ''
+  sample_value: '10'
+- standard_name: TBD
+  standard_type: TBD
+  name: Duration
+  type: UnicodeString
+  description: ''
+  sample_value: '"Hour"'
+references:
+- text: MS SOURCE
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4618.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit System Integrity
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-system-integrity.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- System
+- Audit System Integrity

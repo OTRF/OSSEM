@@ -1,0 +1,35 @@
+title: Osquery_events Table
+description: Information about the event publishers and subscribers.
+platform: freebsd
+log_source: osquery
+event_code: osquery_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Event publisher or subscriber name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: publisher
+  type: TEXT
+  description: Name of the associated publisher
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Either publisher or subscriber
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: refreshes
+  type: INTEGER
+  description: 'Publisher only: number of runloop restarts'
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#osquery_events
+tags:
+- version_4.4.2

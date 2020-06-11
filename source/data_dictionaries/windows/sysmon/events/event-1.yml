@@ -1,0 +1,158 @@
+title: 'Event ID 1: Process creation'
+description: The process creation event provides extended information about a newly
+  created process. The full command line provides context on the process execution.
+  The ProcessGUID field is a unique value for this process across a domain to make
+  event correlation easier. The hash is a full hash of the file with the algorithms
+  in the HashType field.
+platform: windows
+log_source: sysmon
+event_code: '1'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 5:25
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that got spawned/created (child)
+  sample_value: '{A98268C1-9C2E-5ACD-0000-0010396CAB00}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the created process (child)
+  sample_value: '4756'
+- standard_name: process_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process being spawned/created. Considered also the
+    child or source process
+  sample_value: C:\Windows\System32\conhost.exe
+- standard_name: file_version
+  standard_type: TBD
+  name: FileVersion
+  type: string
+  description: Version of the image associated with the main process (child)
+  sample_value: 10.0.16299.15 (WinBuild.160101.0800)
+- standard_name: file_description
+  standard_type: TBD
+  name: Description
+  type: string
+  description: Description of the image associated with the main process (child)
+  sample_value: Console Window Host
+- standard_name: file_product
+  standard_type: TBD
+  name: Product
+  type: string
+  description: Product name the image associated with the main process (child) belongs
+    to
+  sample_value: "Microsoft\xAE Windows\xAE Operating System"
+- standard_name: file_company
+  standard_type: TBD
+  name: Company
+  type: string
+  description: Company name the image associated with the main process (child) belongs
+    to
+  sample_value: Microsoft Corporation
+- standard_name: file_name_original
+  standard_type: TBD
+  name: OriginalFileName
+  type: string
+  description: original file name
+  sample_value: wuauclt.exe
+- standard_name: process_command_line
+  standard_type: TBD
+  name: CommandLine
+  type: string
+  description: Arguments which were passed to the executable associated with the main
+    process
+  sample_value: ??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+- standard_name: file_current_directory
+  standard_type: TBD
+  name: CurrentDirectory
+  type: string
+  description: The path without the name of the image associated with the process
+  sample_value: C:\WINDOWS
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: Name of the account who created the process (child) . It usually contains
+    domain name and user name (Parsed to show only username without the domain)
+  sample_value: DESKTOP-WARDOG\wardog
+- standard_name: user_logon_guid
+  standard_type: TBD
+  name: LogonGuid
+  type: string
+  description: Logon GUID of the user who created the new process. Value that can
+    help you correlate this event with others that contain the same Logon GUID (Sysmon
+    Events)
+  sample_value: '{A98268C1-95F2-5ACD-0000-002019620F00}'
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: LogonId
+  type: integer
+  description: Login ID of the user who created the new process. Value that can help
+    you correlate this event with others that contain the same Logon ID
+  sample_value: '0xf6219'
+- standard_name: user_session_id
+  standard_type: TBD
+  name: TerminalSessionId
+  type: integer
+  description: ID of the session the user belongs to
+  sample_value: '1'
+- standard_name: process_integrity_level
+  standard_type: TBD
+  name: IntegrityLevel
+  type: string
+  description: Integrity label assigned to a process
+  sample_value: Medium
+- standard_name: TBD
+  standard_type: TBD
+  name: Hashes
+  type: string
+  description: Hashes captured by sysmon driver
+  sample_value: SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7,
+    SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B
+- standard_name: process_parent_guid
+  standard_type: TBD
+  name: ParentProcessGuid
+  type: string
+  description: ProcessGUID of the process that spawned/created the main process (child)
+  sample_value: '{A98268C1-9C2E-5ACD-0000-00100266AB00}'
+- standard_name: process_parent_id
+  standard_type: TBD
+  name: ParentProcessId
+  type: integer
+  description: Process ID of the process that spawned/created the main process (child)
+  sample_value: '240'
+- standard_name: process_parent_path
+  standard_type: TBD
+  name: ParentImage
+  type: string
+  description: File path that spawned/created the main process
+  sample_value: C:\Windows\System32\cmd.exe
+- standard_name: process_parent_command_line
+  standard_type: TBD
+  name: ParentCommandLine
+  type: string
+  description: Arguments which were passed to the executable associated with the parent
+    process
+  sample_value: C:\WINDOWS\system32\cmd.exe
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-1-process-creation
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-creation.md
+tags: []

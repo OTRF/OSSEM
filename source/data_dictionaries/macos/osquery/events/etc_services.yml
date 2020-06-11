@@ -1,0 +1,41 @@
+title: Etc_services Table
+description: Line-parsed /etc/services.
+platform: macos
+log_source: osquery
+event_code: etc_services
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Service name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: port
+  type: INTEGER
+  description: Service port number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: protocol
+  type: TEXT
+  description: Transport protocol (TCP/UDP)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: aliases
+  type: TEXT
+  description: Optional space separated list of other names for a service
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: comment
+  type: TEXT
+  description: Optional comment for a service.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#etc_services
+tags:
+- version_4.4.2

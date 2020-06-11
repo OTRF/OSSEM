@@ -1,0 +1,35 @@
+title: Ibridge_info Table
+description: Information about the Apple iBridge hardware controller.
+platform: macos
+log_source: osquery
+event_code: ibridge_info
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: boot_uuid
+  type: TEXT
+  description: Boot UUID of the iBridge controller
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: coprocessor_version
+  type: TEXT
+  description: The manufacturer and chip version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: firmware_version
+  type: TEXT
+  description: The build version of the firmware
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: unique_chip_id
+  type: TEXT
+  description: Unique id of the iBridge controller
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ibridge_info
+tags:
+- version_4.4.2

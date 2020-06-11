@@ -1,0 +1,79 @@
+title: Users Table
+description: Local user accounts (including domain accounts that have logged on locally
+  (Windows)).
+platform: windows
+log_source: osquery
+event_code: users
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: User ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: Group ID (unsigned)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid_signed
+  type: BIGINT
+  description: User ID as int64 signed (Apple)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid_signed
+  type: BIGINT
+  description: Default group ID as int64 signed (Apple)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: username
+  type: TEXT
+  description: Username
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Optional user description
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: directory
+  type: TEXT
+  description: User's home directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: shell
+  type: TEXT
+  description: User's configured default shell
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uuid
+  type: TEXT
+  description: User's UUID (Apple) or SID (Windows)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Whether the account is roaming (domain), local, or a system profile
+    [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: is_hidden
+  type: INTEGER
+  description: IsHidden attribute set in OpenDirectory [DARWIN]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#users
+tags:
+- version_4.4.2

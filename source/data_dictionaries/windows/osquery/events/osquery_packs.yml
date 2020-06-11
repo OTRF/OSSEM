@@ -1,0 +1,56 @@
+title: Osquery_packs Table
+description: Information about the current query packs that are loaded in osquery.
+platform: windows
+log_source: osquery
+event_code: osquery_packs
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: The given name for this query pack
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: platform
+  type: TEXT
+  description: Platforms this query is supported on
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Minimum osquery version that this query will run on
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: shard
+  type: INTEGER
+  description: Shard restriction limit, 1-100, 0 meaning no restriction
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: discovery_cache_hits
+  type: INTEGER
+  description: The number of times that the discovery query used cached values since
+    the last time the config was reloaded
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: discovery_executions
+  type: INTEGER
+  description: The number of times that the discovery queries have been executed since
+    the last time the config was reloaded
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: active
+  type: INTEGER
+  description: Whether this pack is active (the version, platform and discovery queries
+    match) yes=1, no=0.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#osquery_packs
+tags:
+- version_4.4.2

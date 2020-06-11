@@ -1,0 +1,71 @@
+title: 'Event ID 4904: An attempt was made to register a security event source.'
+description: This event generates every time a new security event source.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4904'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that made an attempt to register a security event source.
+  sample_value: S-1-5-18
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that made an attempt to register a security
+    event source.
+  sample_value: DC01$
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x3e7'
+- standard_name: event_source_name
+  standard_type: TBD
+  name: AuditSourceName
+  type: UnicodeString
+  description: 'the name of registered security event source. You can see all registered
+    security event source names in this registry path: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security".'
+  sample_value: FSRM Audit
+- standard_name: event_source_id
+  standard_type: TBD
+  name: EventSourceId
+  type: HexInt64
+  description: the unique hexadecimal identifier of registered security event source.
+  sample_value: '0x1cc4e'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: Pointer
+  description: hexadecimal Process ID of the process that attempted to register the
+    security event source.
+  sample_value: '0x688'
+- standard_name: process_path
+  standard_type: TBD
+  name: ProcessName
+  type: UnicodeString
+  description: ''
+  sample_value: C:\Windows\System32\svchost.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4904.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit Policy Change

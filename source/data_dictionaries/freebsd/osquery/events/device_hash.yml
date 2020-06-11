@@ -1,0 +1,47 @@
+title: Device_hash Table
+description: Similar to the hash table, but use TSK and allow block address access.
+platform: freebsd
+log_source: osquery
+event_code: device_hash
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: device
+  type: TEXT
+  description: Absolute file path to device node
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: partition
+  type: TEXT
+  description: A partition number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: inode
+  type: BIGINT
+  description: Filesystem inode number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: md5
+  type: TEXT
+  description: MD5 hash of provided inode data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha1
+  type: TEXT
+  description: SHA1 hash of provided inode data
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sha256
+  type: TEXT
+  description: SHA256 hash of provided inode data
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#device_hash
+tags:
+- version_4.4.2

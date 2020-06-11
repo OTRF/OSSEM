@@ -1,0 +1,43 @@
+title: 'Event ID 5: Process terminated'
+description: The process terminate event reports when a process terminates. It provides
+  the UtcTime, ProcessGuid and ProcessId of the process.
+platform: windows
+log_source: sysmon
+event_code: '5'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 5:37
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that terminated
+  sample_value: '{A98268C1-9ECD-5ACD-0000-0010EF6BAF00}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the process that terminated
+  sample_value: '2428'
+- standard_name: process_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process that terminated
+  sample_value: C:\Windows\System32\backgroundTaskHost.exe
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-5-process-terminated
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-termination.md
+tags: []

@@ -1,0 +1,77 @@
+title: Disk_info Table
+description: Retrieve basic information about the physical disks of a system.
+platform: windows
+log_source: osquery
+event_code: disk_info
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: partitions
+  type: INTEGER
+  description: Number of detected partitions on disk.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: disk_index
+  type: INTEGER
+  description: Physical drive number of the disk.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: The interface type of the disk.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: TEXT
+  description: The unique identifier of the drive on the system.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pnp_device_id
+  type: TEXT
+  description: The unique identifier of the drive on the system.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: disk_size
+  type: BIGINT
+  description: Size of the disk.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer
+  type: TEXT
+  description: The manufacturer of the disk.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hardware_model
+  type: TEXT
+  description: Hard drive model.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: The label of the disk object.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: serial
+  type: TEXT
+  description: The serial number of the disk.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: The OS's description of the disk.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#disk_info
+tags:
+- version_4.4.2

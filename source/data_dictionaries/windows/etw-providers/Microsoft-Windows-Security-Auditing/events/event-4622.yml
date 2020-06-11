@@ -1,0 +1,37 @@
+title: 'Event ID 4622: A security package has been loaded by the Local Security Authority.'
+description: 'This event generates every time Security Package has been loaded by
+  the Local Security Authority (LSA).
+
+  Security Package is the software implementation of a security protocol (Kerberos,
+  NTLM, for example). Security packages are contained in security support provider
+  DLLs or security support provider/authentication package DLLs.
+
+  Each time the system starts, the LSA loads the Security Package DLLs from HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig\Security
+  Packages registry value and performs the initialization sequence for every package
+  located in these DLLs.
+
+  It is also possible to add security package dynamically using AddSecurityPackage
+  function, not only during system startup process.'
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4622'
+event_fields:
+- standard_name: logon_security_package_name
+  standard_type: TBD
+  name: SecurityPackageName
+  type: UnicodeString
+  description: 'the name of loaded Security Package. The format is: DLL_PATH_AND_NAME:
+    SECURITY_PACKAGE_NAME.'
+  sample_value: 'C:\Windows\system32\kerberos.DLL : Kerberos'
+references:
+- text: MS SOURCE
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4622.md
+- text: MS Security Auditing Category - System
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#system
+- text: MS Security Auditing Sub-category - Audit Security System Extension
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-security-system-extension.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- System
+- Audit Security System Extension

@@ -1,0 +1,42 @@
+title: Event 1 - ProcessStart
+description: null
+platform: windows
+log_source: Microsoft-Windows-Kernel-Process
+event_code: '1'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessID
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: CreateTime
+  type: FILETIME
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ParentProcessID
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: SessionID
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ImageName
+  type: UnicodeString
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_WINEVENT_KEYWORD_PROCESS
+- etw_opcode_Start
+- etw_task_ProcessStart

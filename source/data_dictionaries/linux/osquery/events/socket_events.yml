@@ -1,0 +1,107 @@
+title: Socket_events Table
+description: Track network socket opens and closes.
+platform: linux
+log_source: osquery
+event_code: socket_events
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: action
+  type: TEXT
+  description: The socket action (bind, listen, close)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: BIGINT
+  description: Process (or thread) ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of executed file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: fd
+  type: TEXT
+  description: The file description for the process socket
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: auid
+  type: BIGINT
+  description: Audit User ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: success
+  type: INTEGER
+  description: The socket open attempt status
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: family
+  type: INTEGER
+  description: The Internet protocol family ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: protocol
+  type: INTEGER
+  description: The network protocol ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: local_address
+  type: TEXT
+  description: Local address associated with socket
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_address
+  type: TEXT
+  description: Remote address associated with socket
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: local_port
+  type: INTEGER
+  description: Local network protocol port number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_port
+  type: INTEGER
+  description: Remote network protocol port number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: socket
+  type: TEXT
+  description: The local path (UNIX domain socket only)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: BIGINT
+  description: Time of execution in UNIX time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uptime
+  type: BIGINT
+  description: Time of execution in system uptime
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eid
+  type: TEXT
+  description: Event ID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#socket_events
+tags:
+- version_4.4.2

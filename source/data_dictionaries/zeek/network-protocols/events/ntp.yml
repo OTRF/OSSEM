@@ -1,0 +1,127 @@
+title: NTP Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: ntp
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1230820619.37404'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '46806'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 208.106.128.136
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '123'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: C7CPz03jooZONBGox1
+- standard_name: TBD
+  standard_type: TBD
+  name: mode
+  type: integer
+  description: The NTP mode being used
+  sample_value: '4'
+- standard_name: TBD
+  standard_type: TBD
+  name: num_exts
+  type: integer
+  description: Number of extension fields (which are not currently parsed)
+  sample_value: '0'
+- standard_name: TBD
+  standard_type: TBD
+  name: org_time
+  type: date_time
+  description: Time at the client when the request departed for the NTP server
+  sample_value: '1900-07-05T06:43:59.630406Z'
+- standard_name: TBD
+  standard_type: TBD
+  name: poll
+  type: float
+  description: The maximum interval between successive messages
+  sample_value: '256'
+- standard_name: TBD
+  standard_type: TBD
+  name: precision
+  type: double
+  description: The precision of the system clock
+  sample_value: '9.53674316406250000000'
+- standard_name: TBD
+  standard_type: TBD
+  name: rec_time
+  type: date_time
+  description: Time at the server when the request arrived from the NTP client
+  sample_value: '2020-01-14T18:46:29.557103Z'
+- standard_name: TBD
+  standard_type: TBD
+  name: ref_id
+  type: string
+  description: For stratum 0, 4 character string used for debugging. For stratum 1,
+    ID assigned to the reference clock by IANA. Above stratum 1, when using IPv4,
+    the IP address of the reference clock. Note that the NTP protocol did not originally
+    specify a large enough field to represent IPv6 addresses, so they use the first
+    four bytes of the MD5 hash of the reference clock's IPv6 address (i.e. an IPv4
+    address here is not necessarily IPv4)
+  sample_value: 152.2.133.54
+- standard_name: TBD
+  standard_type: TBD
+  name: ref_time
+  type: date_time
+  description: Time when the system clock was last set or correct
+  sample_value: '2020-01-14T18:32:26.360407Z'
+- standard_name: TBD
+  standard_type: TBD
+  name: root_delay
+  type: double
+  description: Total round-trip delay to the reference clock
+  sample_value: '0.0272369384765625'
+- standard_name: TBD
+  standard_type: TBD
+  name: root_disp
+  type: double
+  description: Total dispersion to the reference clock
+  sample_value: '0.0326080322265625'
+- standard_name: TBD
+  standard_type: TBD
+  name: stratum
+  type: integer
+  description: The stratum (primary server, secondary server, etc.).
+  sample_value: '2'
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: integer
+  description: The NTP version number (1, 2, 3, 4)
+  sample_value: '4'
+- standard_name: TBD
+  standard_type: TBD
+  name: xmt_time
+  type: date_time
+  description: Time at the server when the response departed for the NTP client
+  sample_value: '2020-01-14T18:46:29.557118Z'
+references: []
+tags: []

@@ -1,0 +1,36 @@
+title: Event 63 - ThreadPool
+description: null
+platform: windows
+log_source: Microsoft-Windows-DotNETRuntime
+event_code: '63'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: NativeOverlapped
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Overlapped
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: MultiDequeues
+  type: Boolean
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ClrInstanceID
+  type: UInt16
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Verbose
+- etw_keywords_ThreadingKeyword ThreadTransferKeyword
+- etw_opcode_IOEnqueue
+- etw_task_ThreadPool

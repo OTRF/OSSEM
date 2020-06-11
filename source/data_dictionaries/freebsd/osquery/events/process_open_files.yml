@@ -1,0 +1,29 @@
+title: Process_open_files Table
+description: File descriptors for each process.
+platform: freebsd
+log_source: osquery
+event_code: process_open_files
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: BIGINT
+  description: Process (or thread) ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: fd
+  type: BIGINT
+  description: Process-specific file descriptor number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Filesystem path of descriptor
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#process_open_files
+tags:
+- version_4.4.2

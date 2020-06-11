@@ -1,0 +1,77 @@
+title: 'Event ID 4691: Indirect access to an object was requested.'
+description: This event indicates that indirect access to an object was requested.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4691'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested an access to the object.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested an access to the object.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
+  sample_value: '0x36509'
+- standard_name: object_type
+  standard_type: TBD
+  name: ObjectType
+  type: UnicodeString
+  description: The type of an object for which access was requested.
+  sample_value: ALPC Port
+- standard_name: object_name
+  standard_type: TBD
+  name: ObjectName
+  type: UnicodeString
+  description: full path and name of the object for which access was requested.
+  sample_value: \Sessions\2\Windows\DwmApiPort
+- standard_name: object_access_list
+  standard_type: TBD
+  name: AccessList
+  type: UnicodeString
+  description: the list of user privileges which were requested
+  sample_value: '%%4464'
+- standard_name: object_access_mask
+  standard_type: TBD
+  name: AccessMask
+  type: HexInt32
+  description: The value of this parameter is in decimal format. There is no detailed
+    information about this parameter in this document. If Desired Access is not presented,
+    then this parameter will have "0" value.
+  sample_value: '0x1'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: Pointer
+  description: hexadecimal Process ID of the process through which the access was
+    requested.
+  sample_value: '0xe60'
+references:
+- text: MS SOURCE
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4691.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit Other Object Access Events
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-other-object-access-events.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit Other Object Access Events

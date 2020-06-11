@@ -1,0 +1,45 @@
+title: Known Certs Log
+description: null
+platform: zeek
+log_source: network-observations
+event_code: known_certs
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: ip
+  description: The address that offered the certificate
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: issuer_subject
+  type: string
+  description: Certificate issuer subject
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: port_num
+  type: integer
+  description: If the certificate was handed out by a server, this is the port that
+    the server was listening on
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: serial
+  type: string
+  description: Serial number for the certificate.
+  sample_value: -36505778F019737EE721B36D73893736
+- standard_name: TBD
+  standard_type: TBD
+  name: subject
+  type: string
+  description: Certificate subject
+  sample_value: '``'
+references: []
+tags: []

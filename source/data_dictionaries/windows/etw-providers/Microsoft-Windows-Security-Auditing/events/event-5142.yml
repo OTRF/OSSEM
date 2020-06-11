@@ -1,0 +1,57 @@
+title: 'Event ID 5142: A network share object was added'
+description: This event generates every time network share object was accessed.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '5142'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested the "add network share object" operation.
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested the "add network share object"
+    operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x38d12'
+- standard_name: share_name
+  standard_type: TBD
+  name: ShareName
+  type: UnicodeString
+  description: 'the name of the added share object. The format is: *\SHARE_NAME'
+  sample_value: \*\Documents
+- standard_name: share_local_path
+  standard_type: TBD
+  name: ShareLocalPath
+  type: UnicodeString
+  description: 'the full system (NTFS) path for the added share object. The format
+    is: \??\PATH.'
+  sample_value: C:\Documents
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5142.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Sub-category - Audit File Share
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-share.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Audit File Share

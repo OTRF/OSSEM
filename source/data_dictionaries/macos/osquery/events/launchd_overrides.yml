@@ -1,0 +1,41 @@
+title: Launchd_overrides Table
+description: Override keys, per user, for LaunchDaemons and Agents.
+platform: macos
+log_source: osquery
+event_code: launchd_overrides
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: label
+  type: TEXT
+  description: Daemon or agent service name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: Name of the override key
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: Overridden value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: User ID applied to the override, 0 applies to all
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to daemon or agent plist
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#launchd_overrides
+tags:
+- version_4.4.2

@@ -1,0 +1,71 @@
+title: Os_version Table
+description: A single row containing the operating system name and version.
+platform: macos
+log_source: osquery
+event_code: os_version
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Distribution or product name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Pretty, suitable for presentation, OS version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: major
+  type: INTEGER
+  description: Major release version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: minor
+  type: INTEGER
+  description: Minor release version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: patch
+  type: INTEGER
+  description: Optional patch release
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: build
+  type: TEXT
+  description: Optional build-specific or variant string
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: platform
+  type: TEXT
+  description: OS Platform or ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: platform_like
+  type: TEXT
+  description: Closely related platforms
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: codename
+  type: TEXT
+  description: OS version codename
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: install_date
+  type: TEXT
+  description: The install date of the OS. [WINDOWS]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#os_version
+tags:
+- version_4.4.2

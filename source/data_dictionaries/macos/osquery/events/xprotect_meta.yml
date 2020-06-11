@@ -1,0 +1,35 @@
+title: Xprotect_meta Table
+description: Database of the machine's XProtect browser-related signatures.
+platform: macos
+log_source: osquery
+event_code: xprotect_meta
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: identifier
+  type: TEXT
+  description: Browser plugin or extension identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Either plugin or extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: developer_id
+  type: TEXT
+  description: Developer identity (SHA1) of extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: min_version
+  type: TEXT
+  description: The minimum allowed plugin version.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#xprotect_meta
+tags:
+- version_4.4.2

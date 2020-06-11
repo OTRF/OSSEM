@@ -1,0 +1,92 @@
+title: 'Event ID 10: ProcessAccess'
+description: The process accessed event reports when a process opens another process,
+  an operation that's often followed by information queries or reading and writing
+  the address space of the target process. This enables detection of hacking tools
+  that read the memory contents of processes like Local Security Authority (Lsass.exe)
+  in order to steal credentials for use in Pass-the-Hash attacks. Enabling it can
+  generate significant amounts of logging if there are diagnostic utilities active
+  that repeatedly open processes to query their state, so it generally should only
+  be done so with filters that remove expected accesses.
+platform: windows
+log_source: sysmon
+event_code: '10'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: 4/11/18 5:18
+- standard_name: process_guid
+  standard_type: TBD
+  name: SourceProcessGuid
+  type: string
+  description: Process Guid of the source process that opened another process. It
+    is derived from a truncated part of the machine GUID, the process start-time and
+    the process token ID.
+  sample_value: '{A98268C1-9587-5ACD-0000-001004C40000}'
+- standard_name: process_id
+  standard_type: TBD
+  name: SourceProcessId
+  type: integer
+  description: Process ID used by the os to identify the source process that opened
+    another process. Derived partially from the EPROCESS kernel structure
+  sample_value: '916'
+- standard_name: thread_id
+  standard_type: TBD
+  name: SourceThreadId
+  type: integer
+  description: ID of the specific thread inside of the source process that opened
+    another process
+  sample_value: '2804'
+- standard_name: process_path
+  standard_type: TBD
+  name: SourceImage
+  type: string
+  description: File path of the source process that created a thread in another process
+  sample_value: C:\WINDOWS\system32\svchost.exe
+- standard_name: target_process_guid
+  standard_type: TBD
+  name: TargetProcessGuid
+  type: string
+  description: Process Guid of the target process
+  sample_value: '{A98268C1-9597-5ACD-0000-00101D690200}'
+- standard_name: target_process_id
+  standard_type: TBD
+  name: TargetProcessId
+  type: integer
+  description: Process ID used by the os to identify the target process
+  sample_value: '2288'
+- standard_name: target_process_path
+  standard_type: TBD
+  name: TargetImage
+  type: string
+  description: File path of the target process
+  sample_value: C:\ProgramData\Microsoft\Windows Defender\platform\4.12.17007.18022-0\MsMpEng.exe
+- standard_name: process_granted_access
+  standard_type: TBD
+  name: GrantedAccess
+  type: string
+  description: The access flags (bitmask) associated with the process rights requested
+    for the target process
+  sample_value: '0x1000'
+- standard_name: process_call_trace
+  standard_type: TBD
+  name: CallTrace
+  type: string
+  description: Stack trace of where open process is called. Included is the DLL and
+    the relative virtual address of the functions in the call stack right before the
+    open process call
+  sample_value: C:\WINDOWS\SYSTEM32\ntdll.dll+a0344
+references:
+- text: Sysmon Source
+  link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-10-processaccess
+- text: TrustedSec Sysmon Community Guide
+  link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-access.md
+tags: []

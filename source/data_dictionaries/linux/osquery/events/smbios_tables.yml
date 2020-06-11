@@ -1,0 +1,53 @@
+title: Smbios_tables Table
+description: BIOS (DMI) structure common details and content.
+platform: linux
+log_source: osquery
+event_code: smbios_tables
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: number
+  type: INTEGER
+  description: Table entry number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: INTEGER
+  description: Table entry type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Table entry description
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: handle
+  type: INTEGER
+  description: Table entry handle
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: header_size
+  type: INTEGER
+  description: Header size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: Table entry size in bytes
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: md5
+  type: TEXT
+  description: MD5 hash of table entry
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#smbios_tables
+tags:
+- version_4.4.2

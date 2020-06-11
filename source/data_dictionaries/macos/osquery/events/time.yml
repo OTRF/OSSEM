@@ -1,0 +1,95 @@
+title: Time Table
+description: Track current date and time in the system.
+platform: macos
+log_source: osquery
+event_code: time
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: weekday
+  type: TEXT
+  description: Current weekday in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: year
+  type: INTEGER
+  description: Current year in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: month
+  type: INTEGER
+  description: Current month in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: day
+  type: INTEGER
+  description: Current day in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hour
+  type: INTEGER
+  description: Current hour in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: minutes
+  type: INTEGER
+  description: Current minutes in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: seconds
+  type: INTEGER
+  description: Current seconds in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: timezone
+  type: TEXT
+  description: Current timezone in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: local_time
+  type: INTEGER
+  description: Current local UNIX time in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: local_timezone
+  type: TEXT
+  description: Current local timezone in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: timestamp
+  type: TEXT
+  description: Current timestamp (log format) in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: datetime
+  type: TEXT
+  description: Current date and time (ISO format) in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: iso_8601
+  type: TEXT
+  description: Current time (ISO format) in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: win_timestamp
+  type: BIGINT
+  description: Timestamp value in 100 nanosecond units. [WINDOWS]
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#time
+tags:
+- version_4.4.2

@@ -1,0 +1,61 @@
+title: Patches Table
+description: 'Lists all the patches applied. Note: This does not include patches applied
+  via MSI or downloaded from Windows Update (e.g. Service Packs).'
+platform: windows
+log_source: osquery
+event_code: patches
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: csname
+  type: TEXT
+  description: The name of the host the patch is installed on.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hotfix_id
+  type: TEXT
+  description: The KB ID of the patch.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: caption
+  type: TEXT
+  description: Short description of the patch.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Fuller description of the patch.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: fix_comments
+  type: TEXT
+  description: Additional comments about the patch.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: installed_by
+  type: TEXT
+  description: The system context in which the patch as installed.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: install_date
+  type: TEXT
+  description: Indicates when the patch was installed. Lack of a value does not indicate
+    that the patch was not installed.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: installed_on
+  type: TEXT
+  description: The date when the patch was installed.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#patches
+tags:
+- version_4.4.2

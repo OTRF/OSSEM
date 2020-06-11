@@ -1,0 +1,53 @@
+title: Python_packages Table
+description: Python packages installed in a system.
+platform: macos
+log_source: osquery
+event_code: python_packages
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Package display name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Package-supplied version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: summary
+  type: TEXT
+  description: Package-supplied summary
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: author
+  type: TEXT
+  description: Optional package author
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: license
+  type: TEXT
+  description: License under which package is launched
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path at which this module resides
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: directory
+  type: TEXT
+  description: Directory where Python modules are located
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#python_packages
+tags:
+- version_4.4.2

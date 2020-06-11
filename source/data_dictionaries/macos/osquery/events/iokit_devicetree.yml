@@ -1,0 +1,65 @@
+title: Iokit_devicetree Table
+description: The IOKit registry matching the DeviceTree plane.
+platform: macos
+log_source: osquery
+event_code: iokit_devicetree
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Device node name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: class
+  type: TEXT
+  description: Best matching device class (most-specific category)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: BIGINT
+  description: IOKit internal registry ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: parent
+  type: BIGINT
+  description: Parent device registry ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: device_path
+  type: TEXT
+  description: Device tree path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: service
+  type: INTEGER
+  description: 1 if the device conforms to IOService else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: busy_state
+  type: INTEGER
+  description: 1 if the device is in a busy state else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: retain_count
+  type: INTEGER
+  description: The device reference count
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: depth
+  type: INTEGER
+  description: Device nested depth
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#iokit_devicetree
+tags:
+- version_4.4.2

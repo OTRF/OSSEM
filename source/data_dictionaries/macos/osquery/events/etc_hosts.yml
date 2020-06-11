@@ -1,0 +1,23 @@
+title: Etc_hosts Table
+description: Line-parsed /etc/hosts.
+platform: macos
+log_source: osquery
+event_code: etc_hosts
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: address
+  type: TEXT
+  description: IP address mapping
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hostnames
+  type: TEXT
+  description: Raw hosts mapping
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#etc_hosts
+tags:
+- version_4.4.2

@@ -1,0 +1,47 @@
+title: Osquery_flags Table
+description: Configurable flags that modify osquery's behavior.
+platform: freebsd
+log_source: osquery
+event_code: osquery_flags
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Flag name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: Flag type
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Flag description
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: default_value
+  type: TEXT
+  description: Flag default value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: Flag value
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: shell_only
+  type: INTEGER
+  description: Is the flag shell only?
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#osquery_flags
+tags:
+- version_4.4.2

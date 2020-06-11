@@ -1,0 +1,35 @@
+title: Power_sensors Table
+description: Machine power (currents, voltages, wattages, etc) sensors.
+platform: macos
+log_source: osquery
+event_code: power_sensors
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: The SMC key on OS X
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: category
+  type: TEXT
+  description: 'The sensor category: currents, voltage, wattage'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of power source
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: value
+  type: TEXT
+  description: Power in Watts
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#power_sensors
+tags:
+- version_4.4.2

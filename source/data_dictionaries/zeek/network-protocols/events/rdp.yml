@@ -1,0 +1,146 @@
+title: RDP Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: rdp
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '3389'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: cert_count
+  type: integer
+  description: The number of certs seen. X.509 can transfer an entire certificate
+    chain.
+  sample_value: '4'
+- standard_name: TBD
+  standard_type: TBD
+  name: cert_permanent
+  type: boolean
+  description: Indicates if the provided certificate or certificate chain is permanent
+    or temporary.
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: cert_type
+  type: string
+  description: If the connection is being encrypted with native RDP encryption, this
+    is the type of cert being used.
+  sample_value: RSA
+- standard_name: TBD
+  standard_type: TBD
+  name: client_build
+  type: string
+  description: RDP client version used by the client machine.
+  sample_value: client_build-14393
+- standard_name: TBD
+  standard_type: TBD
+  name: client_dig_product_id
+  type: string
+  description: Product ID of the client machine.
+  sample_value: bdedcf4e-aa02-4441-5013-f32139f
+- standard_name: TBD
+  standard_type: TBD
+  name: client_name
+  type: string
+  description: Name of the client machine.
+  sample_value: SOMECOMPUTERNAME
+- standard_name: TBD
+  standard_type: TBD
+  name: cookie
+  type: string
+  description: Cookie value used by the client machine. This is typically a username.
+    Even during encrypted sessions, this will contain the first few characters.
+  sample_value: Administr
+- standard_name: TBD
+  standard_type: TBD
+  name: desktop_height
+  type: integer
+  description: Desktop height of the client machine.
+  sample_value: '1080'
+- standard_name: TBD
+  standard_type: TBD
+  name: desktop_width
+  type: integer
+  description: Desktop width of the client machine.
+  sample_value: '1920'
+- standard_name: TBD
+  standard_type: TBD
+  name: encryption_level
+  type: string
+  description: Encryption level of the connection.
+  sample_value: High
+- standard_name: TBD
+  standard_type: TBD
+  name: encryption_method
+  type: string
+  description: Encryption method of the connection.
+  sample_value: encryption_method-16
+- standard_name: TBD
+  standard_type: TBD
+  name: keyboard_layout
+  type: string
+  description: Keyboard layout (language) of the client machine.
+  sample_value: English - United States
+- standard_name: TBD
+  standard_type: TBD
+  name: requested_color_depth
+  type: string
+  description: The color depth requested by the client in the high_color_depth field.
+  sample_value: 32bit
+- standard_name: TBD
+  standard_type: TBD
+  name: result
+  type: string
+  description: Status result for the connection. It's a mix between RDP negotation
+    failure messages and GCC server create response messages.
+  sample_value: HYBRID_REQUIRED_BY_SERVER
+- standard_name: TBD
+  standard_type: TBD
+  name: security_protocol
+  type: string
+  description: Security protocol chosen by the server.
+  sample_value: HYBRID_EX
+- standard_name: TBD
+  standard_type: TBD
+  name: ssl
+  type: boolean
+  description: present if policy/protocols/rdp/indicate_ssl.bro is loaded Flag the
+    connection if it was seen over SSL.
+  sample_value: 'true'
+references: []
+tags: []

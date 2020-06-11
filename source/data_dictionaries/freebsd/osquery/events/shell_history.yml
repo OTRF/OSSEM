@@ -1,0 +1,35 @@
+title: Shell_history Table
+description: A line-delimited (command) table of per-user .*_history data.
+platform: freebsd
+log_source: osquery
+event_code: shell_history
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: Shell history owner
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: INTEGER
+  description: Entry timestamp. It could be absent, default value is 0.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: command
+  type: TEXT
+  description: Unparsed date/line/command history line
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: history_file
+  type: TEXT
+  description: Path to the .*_history for this user
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#shell_history
+tags:
+- version_4.4.2

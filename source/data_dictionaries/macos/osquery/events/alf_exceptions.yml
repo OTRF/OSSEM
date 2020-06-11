@@ -1,0 +1,23 @@
+title: Alf_exceptions Table
+description: OS X application layer firewall (ALF) service exceptions.
+platform: macos
+log_source: osquery
+event_code: alf_exceptions
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to the executable that is excepted
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: state
+  type: INTEGER
+  description: Firewall exception state
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#alf_exceptions
+tags:
+- version_4.4.2

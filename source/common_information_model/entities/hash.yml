@@ -1,0 +1,36 @@
+title: Hash Schema
+description: Event fields used to define metadata about hashes.
+data_fields:
+- standard_name: hash_ja3
+  type: string
+  description: '[https://github.com/salesforce/ja3 is a method for creating SSL/TLS
+    client fingerprints that should be easy to produce on any platform and can be
+    easily shared for threat intelligence.'
+  sample_value: 6734f37431670b3ab4292b8f60f29984
+- standard_name: hash_ja3s
+  type: string
+  description: '[https://github.com/salesforce/ja3 is JA3 for the Server side of the
+    SSL/TLS communication and fingerprints how servers respond to particular clients.'
+  sample_value: 4192c0a946c5bd9b544b4656d9f624a4
+- standard_name: hash_md5
+  type: string
+  description: MD5 hash of the image/binary/file
+  sample_value: 6A255BEBF3DBCD13585538ED47DBAFD7
+- standard_name: hash_sha1
+  type: string
+  description: SHA1 hash of the image/binary/file
+  sample_value: B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2
+- standard_name: hash_sha256
+  type: string
+  description: SHA256 hash of the image/binary/file
+  sample_value: 4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C
+- standard_name: hash_sha512
+  type: string
+  description: SHA512 hash of the image/binary/file
+  sample_value: 1AD1D79F85D8F6A50EA282F63898D652661DAA0C1FD361C22647CABC98A70E8CBCE83200D579D10DD0A3D46BE9496DCDFDDF28B0C5E9709343B032A8796FBECB
+- standard_name: hash_imphash
+  type: string
+  description: IMPHASH hash of the image/binary/file
+  sample_value: 2505BD03D7BD285E50CE89CEC02B333B
+references: []
+tags: []

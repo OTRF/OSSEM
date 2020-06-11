@@ -1,0 +1,71 @@
+title: Scheduled_tasks Table
+description: Lists all of the tasks in the Windows task scheduler.
+platform: windows
+log_source: osquery
+event_code: scheduled_tasks
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of the scheduled task
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: action
+  type: TEXT
+  description: Actions executed by the scheduled task
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to the executable to be run
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: enabled
+  type: INTEGER
+  description: Whether or not the scheduled task is enabled
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: state
+  type: TEXT
+  description: State of the scheduled task
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hidden
+  type: INTEGER
+  description: Whether or not the task is visible in the UI
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_run_time
+  type: INTEGER
+  description: Timestamp the task last ran
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: next_run_time
+  type: INTEGER
+  description: Timestamp the task is scheduled to run next
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_run_message
+  type: TEXT
+  description: Exit status message of the last task run
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_run_code
+  type: TEXT
+  description: Exit status code of the last task run
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#scheduled_tasks
+tags:
+- version_4.4.2

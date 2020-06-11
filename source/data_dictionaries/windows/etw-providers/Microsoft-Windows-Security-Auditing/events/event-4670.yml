@@ -1,0 +1,112 @@
+title: 'Event ID 4670: Permissions on an object were changed'
+description: This event generates when the permissions for an object are changed.
+  The object could be a file system, registry, or security token object.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4670'
+event_fields:
+- standard_name: user_sid
+  standard_type: TBD
+  name: SubjectUserSid
+  type: SID
+  description: SID of account that requested the "change object's permissions" operation
+  sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
+- standard_name: user_name
+  standard_type: TBD
+  name: SubjectUserName
+  type: UnicodeString
+  description: the name of the account that requested the "change object's permissions"
+    operation.
+  sample_value: dadmin
+- standard_name: user_domain
+  standard_type: TBD
+  name: SubjectDomainName
+  type: UnicodeString
+  description: subject's domain or computer name.
+  sample_value: CONTOSO
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: SubjectLogonId
+  type: HexInt64
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
+  sample_value: '0x43659'
+- standard_name: object_server
+  standard_type: TBD
+  name: ObjectServer
+  type: UnicodeString
+  description: has "Security" value for this event.
+  sample_value: Security
+- standard_name: object_type
+  standard_type: TBD
+  name: ObjectType
+  type: UnicodeString
+  description: The type of an object that was accessed during the operation.
+  sample_value: File
+- standard_name: object_name
+  standard_type: TBD
+  name: ObjectName
+  type: UnicodeString
+  description: name and other identifying information for the object for which permissions
+    were changed. For example, for a file, the path would be included. For Token objects,
+    this field typically equals "-".
+  sample_value: C:\Documents\netcat-1.11
+- standard_name: object_handle_id
+  standard_type: TBD
+  name: HandleId
+  type: Pointer
+  description: hexadecimal value of a handle to Object Name. This field can help you
+    correlate this event with other events that might contain the same Handle ID
+  sample_value: '0x3f0'
+- standard_name: object_old_sd
+  standard_type: TBD
+  name: OldSd
+  type: UnicodeString
+  description: the old Security Descriptor Definition Language (SDDL) value for the
+    object.
+  sample_value: D:AI(A;OICIID;FA;;;S-1-5-21-3457937927-2839227994-823803824-2104)(A;OICIID;FA;;;S-1-5-21-3457937927-2839227994-823803824-1104)(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)
+- standard_name: object_new_sd
+  standard_type: TBD
+  name: NewSd
+  type: UnicodeString
+  description: the new Security Descriptor Definition Language (SDDL) value for the
+    object.
+  sample_value: D:ARAI(A;OICI;FA;;;WD)(A;OICIID;FA;;;S-1-5-21-3457937927-2839227994-823803824-2104)(A;OICIID;FA;;;S-1-5-21-3457937927-2839227994-823803824-1104)(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: Pointer
+  description: hexadecimal Process ID of the process through which the permissions
+    were changed. Process ID (PID) is a number used by the operating system to uniquely
+    identify an active process.
+  sample_value: '0xdb0'
+- standard_name: process_path
+  standard_type: TBD
+  name: ProcessName
+  type: UnicodeString
+  description: full path and the name of the executable for the process.
+  sample_value: C:\Windows\System32\dllhost.exe
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4670.md
+- text: MS Security Auditing Category - Object Access
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#object-access
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit File System
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-file-system.md
+- text: MS Security Auditing Sub-category - Audit Registry
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-registry.md
+- text: MS Security Auditing Sub-category - Audit Authentication Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authentication-policy-change.md
+- text: MS Security Auditing Sub-category - Audit Authorization Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-authorization-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Object Access
+- Policy Change
+- Audit File System
+- Audit Registry
+- Audit Authentication Policy Change
+- Audit Authorization Policy Change

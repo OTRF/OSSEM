@@ -1,0 +1,90 @@
+title: Asl Table
+description: Queries the Apple System Log data structure for system events.
+platform: macos
+log_source: osquery
+event_code: asl
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: time
+  type: INTEGER
+  description: Unix timestamp.  Set automatically
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time_nano_sec
+  type: INTEGER
+  description: Nanosecond time.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: host
+  type: TEXT
+  description: Sender's address (set by the server).
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sender
+  type: TEXT
+  description: Sender's identification string.  Default is process name.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: facility
+  type: TEXT
+  description: Sender's facility.  Default is 'user'.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: INTEGER
+  description: Sending process ID encoded as a string.  Set automatically.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: gid
+  type: BIGINT
+  description: GID that sent the log message (set by the server).
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: UID that sent the log message (set by the server).
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: level
+  type: INTEGER
+  description: Log level number.  See levels in asl.h.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: message
+  type: TEXT
+  description: Message text.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ref_pid
+  type: INTEGER
+  description: Reference PID for messages proxied by launchd
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ref_proc
+  type: TEXT
+  description: Reference process for messages proxied by launchd
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: extra
+  type: TEXT
+  description: Extra columns, in JSON format. Queries against this column are performed
+    entirely in SQLite, so do not benefit from efficient querying via asl.h.
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#asl
+tags:
+- version_4.4.2

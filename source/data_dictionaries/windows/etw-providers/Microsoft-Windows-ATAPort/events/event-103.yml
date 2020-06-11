@@ -1,0 +1,72 @@
+title: Event 103 - ATAportGeneral
+description: null
+platform: windows
+log_source: Microsoft-Windows-ATAPort
+event_code: '103'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: DeviceAddress
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RequestSequence
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: QueueTime
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: DeviceTime
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: MasterIRP
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ActiveRequestCount
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: IRBFunction
+  type: UInt16
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: DeviceCommand
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: IRBStatus
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ATAStatus
+  type: UInt8
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Verbose
+- etw_keywords_AllIORequests
+- etw_opcode_ATAPORT_OPCODE_IO_REQUEST_COMPLETE
+- etw_task_ATAportGeneral

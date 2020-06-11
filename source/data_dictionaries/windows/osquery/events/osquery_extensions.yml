@@ -1,0 +1,47 @@
+title: Osquery_extensions Table
+description: List of active osquery extensions.
+platform: windows
+log_source: osquery
+event_code: osquery_extensions
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: uuid
+  type: BIGINT
+  description: The transient ID assigned for communication
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Extension's name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Extension's version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sdk_version
+  type: TEXT
+  description: osquery SDK version used to build the extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of the extenion's domain socket or library path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: TEXT
+  description: 'SDK extension type: extension or module'
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#osquery_extensions
+tags:
+- version_4.4.2

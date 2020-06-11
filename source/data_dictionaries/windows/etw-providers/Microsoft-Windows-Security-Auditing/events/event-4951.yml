@@ -1,0 +1,38 @@
+title: 'Event ID 4951: A rule has been ignored because its major version number was
+  not recognized by Windows Firewall.'
+description: When you create or edit a Windows Firewall rule, the settings that you
+  can include depend upon the version of Windows you use when creating the rule.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4951'
+event_fields:
+- standard_name: profile
+  standard_type: TBD
+  name: Profile
+  type: UnicodeString
+  description: the name of the profile of the ignored rule.
+  sample_value: All
+- standard_name: rule_id
+  standard_type: TBD
+  name: RuleId
+  type: UnicodeString
+  description: the unique identifier for ignored firewall rule.
+  sample_value: '{08CBB349-D158-46BE-81E1-2ABC59BDD523}'
+- standard_name: rule_name
+  standard_type: TBD
+  name: RuleName
+  type: UnicodeString
+  description: the unique identifier for ignored firewall rule.
+  sample_value: '-'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/security/threat-protection/auditing/event-4951.md
+- text: MS Security Auditing Category - Policy Change
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#policy-change
+- text: MS Security Auditing Sub-category - Audit MPSSVC Rule-Level Policy Change
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-mpssvc-rule-level-policy-change.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Policy Change
+- Audit MPSSVC Rule-Level Policy Change

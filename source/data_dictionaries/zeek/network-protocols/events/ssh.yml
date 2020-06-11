@@ -1,0 +1,187 @@
+title: SSH Log
+description: null
+platform: zeek
+log_source: network-protocols
+event_code: ssh
+event_fields:
+- standard_name: '@timestamp'
+  standard_type: TBD
+  name: ts
+  type: date_time
+  description: Timestamp of the beginning of the event in epoch format
+  sample_value: '1300475167.096535'
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: id.orig_h
+  type: ip
+  description: The originating/source IP address
+  sample_value: 10.1.1.1
+- standard_name: src_port
+  standard_type: TBD
+  name: id.orig_p
+  type: integer
+  description: The originating/source port
+  sample_value: '37682'
+- standard_name: dst_ip_addr
+  standard_type: TBD
+  name: id.resp_h
+  type: ip
+  description: The responding/destination IP address
+  sample_value: 10.2.2.2
+- standard_name: dst_port
+  standard_type: TBD
+  name: id.resp_p
+  type: integer
+  description: The responding/destination port
+  sample_value: '22'
+- standard_name: event_uid
+  standard_type: TBD
+  name: uid
+  type: string
+  description: Unique ID for the connection.
+  sample_value: CHhAvVGS1DHFjwGM9
+- standard_name: TBD
+  standard_type: TBD
+  name: direction
+  type: string
+  description: Direction of the connection. If the client was a local host logging
+    into an external host, this would be OUTBOUND. INBOUND would be set for the opposite
+    situation
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: auth_attempts
+  type: integer
+  description: The number of authentication attemps we observed. There's always at
+    least one, since some servers might support no authentication at all. It's important
+    to note that not all of these are failures, since some servers require two-factor
+    auth (e.g. password AND pubkey)
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: auth_success
+  type: boolean
+  description: Authentication result (T=success, F=failure, unset=unknown)
+  sample_value: 'true'
+- standard_name: TBD
+  standard_type: TBD
+  name: cipher_alg
+  type: string
+  description: The encryption algorithm in use
+  sample_value: aes256-cbc
+- standard_name: TBD
+  standard_type: TBD
+  name: client
+  type: string
+  description: The client's version string
+  sample_value: SSH-2.0-1.82 sshlib
+- standard_name: TBD
+  standard_type: TBD
+  name: compression_alg
+  type: string
+  description: The compression algorithm in use
+  sample_value: zlib
+- standard_name: TBD
+  standard_type: TBD
+  name: cshka
+  type: array_string
+  description: present if https://github.com/salesforce/hassh is loaded)
+  sample_value: ssh-ed25519
+- standard_name: TBD
+  standard_type: TBD
+  name: hassh
+  type: string
+  description: present if https://github.com/salesforce/hassh is loaded
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: hasshAlgorithms
+  type: array_string
+  description: present if https://github.com/salesforce/hassh is loaded
+  sample_value: curve25519-sha256@libssh.org
+- standard_name: TBD
+  standard_type: TBD
+  name: hasshServer
+  type: string
+  description: present if https://github.com/salesforce/hassh is loaded
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: hasshServerAlgorithms
+  type: array_string
+  description: present if https://github.com/salesforce/hassh is loaded
+  sample_value: '[ "curve25519-sha256@libssh.org", "ecdh-sha2-nistp256" ]'
+- standard_name: TBD
+  standard_type: TBD
+  name: hasshVersion
+  type: string
+  description: present if https://github.com/salesforce/hassh is loaded
+  sample_value: '1'
+- standard_name: TBD
+  standard_type: TBD
+  name: host_key
+  type: string
+  description: The server's key fingerprint
+  sample_value: dd:cc:3a:81:40:2a:fa:9b:eb:7e:24:3d:a2:44:7c:e3
+- standard_name: TBD
+  standard_type: TBD
+  name: host_key_alg
+  type: string
+  description: The server host key's algorithm
+  sample_value: ssh-rsa
+- standard_name: TBD
+  standard_type: TBD
+  name: kex_alg
+  type: string
+  description: The key exchange algorithm in use
+  sample_value: diffie-hellman-group-exchange-sha256
+- standard_name: TBD
+  standard_type: TBD
+  name: mac_alg
+  type: string
+  description: The signing (MAC) algorithm in use
+  sample_value: hmac-sha2-512
+- standard_name: TBD
+  standard_type: TBD
+  name: server
+  type: string
+  description: The server's version string
+  sample_value: SSH-2.0-OpenSSH_5.3
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: integer
+  description: SSH major version (1 or 2)
+  sample_value: '2'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.country_code
+  type: string
+  description: The country code
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.region
+  type: string
+  description: The region
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.city
+  type: string
+  description: The city
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.latitude
+  type: double
+  description: Latitude
+  sample_value: '``'
+- standard_name: TBD
+  standard_type: TBD
+  name: remote_location.longitude
+  type: double
+  description: Longitude
+  sample_value: '``'
+references: []
+tags: []

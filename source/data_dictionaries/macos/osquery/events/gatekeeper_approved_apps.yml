@@ -1,0 +1,35 @@
+title: Gatekeeper_approved_apps Table
+description: Gatekeeper apps a user has allowed to run.
+platform: macos
+log_source: osquery
+event_code: gatekeeper_approved_apps
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path of executable allowed to run
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: requirement
+  type: TEXT
+  description: Code signing requirement language
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ctime
+  type: DOUBLE
+  description: Last change time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mtime
+  type: DOUBLE
+  description: Last modification time
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#gatekeeper_approved_apps
+tags:
+- version_4.4.2

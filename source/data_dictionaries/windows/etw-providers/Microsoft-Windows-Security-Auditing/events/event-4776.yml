@@ -1,0 +1,52 @@
+title: 'Event ID 4776: The computer attempted to validate the credentials for an account'
+description: This event generates every time that a credential validation occurs using
+  NTLM authentication.This event occurs only on the computer that is authoritative
+  for the provided credentials. For domain accounts, the domain controller is authoritative.
+  For local accounts, the local computer is authoritative.
+platform: windows
+log_source: Microsoft-Windows-Security-Auditing
+event_code: '4776'
+event_fields:
+- standard_name: logon_authentication_package_name
+  standard_type: TBD
+  name: PackageName
+  type: UnicodeString
+  description: The name of Authentication Package which was used for credential validation.
+    It is always "MICROSOFT_AUTHENTICATION_PACKAGE_V1_0" for 4776 event.
+  sample_value: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+- standard_name: user_name
+  standard_type: TBD
+  name: TargetUserName
+  type: UnicodeString
+  description: the name of the account that had its credentials validated by the Authentication
+    Package. Can be user name, computer account name or well-known security principal
+    account name.
+  sample_value: dadmin
+- standard_name: src_host_name
+  standard_type: TBD
+  name: Workstation
+  type: UnicodeString
+  description: The name of the computer from which the logon attempt originated.
+  sample_value: WIN81
+- standard_name: event_status
+  standard_type: TBD
+  name: Status
+  type: HexInt32
+  description: Contains error code for Failure events. For Success events this parameter
+    has "0x0" value.
+  sample_value: '0xc0000234'
+references:
+- text: MS Source
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4776.md
+- text: MS Security Auditing Category - Account Logon
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#account-logon
+- text: MS Security Auditing Category - Detailed Tracking
+  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings#detailed-tracking
+- text: MS Security Auditing Sub-category - Audit Credential Validation
+  link: https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/auditing/audit-credential-validation.md
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- Account Logon
+- Detailed Tracking
+- Audit Credential Validation
