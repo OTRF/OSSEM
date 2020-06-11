@@ -1,5 +1,4 @@
 # Meta Schema
-
 Added fields that are derived from an event's data/fields after it is has been logged or stored and more specifically could change based on future information. In the simplest form, this would include enrichments of the data.
 A good example, would be the Autonomous System Number lookup of an IP address. The reason, is because an IP address on 2018-01-01 may belong to one entity and the later in the future could be acquired by a new entity and thus the data from 2018-01-01 may be different than say 2022-01-01. Actually, a great example of this example is the IP address `1.1.1.1` that for a long time belonged to APNIC, and then was acquired by Cloudflare in 2019. The Meta schema, is a way that can help aide an analyst to know the field they are looking at may be derived from a data source or calculation that could change over time.  
 
@@ -8,8 +7,8 @@ For example: a url category would be set to `meta_dst_host_name_category`
 
 
 ## Data Fields
-|	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | meta_dns_response_name_count                   | integer      | The count (number of) `dns_response_name                                                                                                         | `` |
 | meta_dns_response_name_length                  | integer      | Total number of response/answers in `dns_response_name`                                                                                                          | `` |
 | meta_dns_response_name_has_non_ascii           | boolean      | If there is any non ascii characters within `dns_response_name`                                                                                  | `` |

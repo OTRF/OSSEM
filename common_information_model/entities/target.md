@@ -1,11 +1,9 @@
 # Target
-
 Event fields used to define entities being targeted by other entities locally in a system. This is different from a network connection event. It is more related to events that involve relationships defined locally by entities such as files, processes,users, etc.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | target_process_guid    | string  | Process Guid of the target process                                                                                                                                                        | {A98268C1-9C2E-5ACD-0000-00100266AB00}         |
 | target_process_id      | integer | Process ID used by the os to identify the target process                                                                                                                                  | 240                                            |
 | target_process_path    | string  | File path of the target process                                                                                                                                                           | C:\Windows\System32\cmd.exe                    |

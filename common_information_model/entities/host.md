@@ -1,11 +1,9 @@
 # Host Schema
-
 Event fields used to define metadata about hosts where events are originally created.
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | host_domain         | string | Name of the domain for the host where the log was created                                                                                                                      | `hunt.wardog.com`                        |
 | host_fqdn           | string | The fully qualified domain name of the host where the log was created                                                                                                          | `WKHR001.hunt.wardog.com`                |
 | host_ip_addr        | ip     | Host IP address. Commonly used doing a reverse lookup on the `host_name`. This is different than the `event_log_ip_addr`                                                       | `10.10.10.10`                            |

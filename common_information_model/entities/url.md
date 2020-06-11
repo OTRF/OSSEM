@@ -1,14 +1,12 @@
 # URL Schema
-
 Event fields used to define metadata about a URL/URI. There is a lot of ambiguity from the community on the difference URL vs URI. Granted, URL would normally include the domain, port (if applicable), user, password, query, fragment, and URI.
 However, there are many scenarios from log sources where one could not distinguish whether it was the full URL or just the URI.  
 URL data can be seen in various log sources as defined in [HTTP](http.md) as well as other applications such as SIP. URLs, especially in HTTP, have a best practice implementation however it is not necessary to adhere for connections/data to be established.
 
 
 ## Data Fields
-
-|	        Standard Name       	|            Field Name             |       	    Type            	|   	    Description          	|	     Sample Value           	|
-|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|	-------------------------------	|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | meta_dst_host_name_category      | string  | The defined grouping of a URL (or could be just based on the domain in the URL) related to what it is (ie: adult, news, advertising, parked domains, etc)                                                                                                                                                                                                                                                                                                                                                                                                              | `Search Engines`                                                                                                                                                                |
 | url_extension     | string  | The extension (.dll, .php, zip, .msi, .txt, etc) without the "."                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | `php`                                                                                                                                                                           |
 | url_fragment      | string  | The portion of the URL after the last "#", this is defined in [RFC-3986](https://tools.ietf.org/html/rfc3986#section-3.5). This is also referred to as the "hash" in some implementations. This value does not always exist                                                                                                                                                                                                                                                                                                                                            | ``                                                                                                                                                                              |

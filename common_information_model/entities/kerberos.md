@@ -1,12 +1,10 @@
 # Kerberos Schema
-
 Event fields used to define Kerberos Ticket Granting Service and Kerberos Ticket Granting Tickets.  
 For certificate information within Kerberos see the [X509 and Certificates Schema](x509_and_certificates.md)
 
 ## Data Fields
-
-| Standard Name | Type | Description | Sample Value |
-|--------|---------|-------|-------|
+|Standard Name|Type|Description|Sample Value|
+|---|---|---|---|
 | service_name           | string  | the name of the account or computer for which the TGS ticket was requested                                                                                                                                                                                                                          | WIN2008R2$ |
 | ticket_options         | string  | this is a set of different ticket flags in hexadecimal format.                                                                                                                                                                                                                                      | 0x40810010 |
 | ticket_status          | string  | hexadecimal result code of TGS issue operation.                                                                                                                                                                                                                                                     | 0x0        |
